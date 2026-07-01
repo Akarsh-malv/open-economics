@@ -68,7 +68,7 @@ function useActiveHeading(ids: string[], enabled: boolean) {
 }
 
 export function LessonTOC({ headings }: { headings: Heading[] }) {
-  const isDesktop = useMediaQuery("(min-width: 1704px)");
+  const isDesktop = useMediaQuery("(min-width: 1180px)");
   const itemIds = useMemo(() => headings.map((h) => h.id), [headings]);
   const { activeId, forceActive } = useActiveHeading(itemIds, isDesktop);
   const {
@@ -112,48 +112,14 @@ export function LessonTOC({ headings }: { headings: Heading[] }) {
   };
 
   return (
-    <>
-      {/* accordion for mobile */}
-      <div className="hidden max-[1704px]:block mb-6 pt-3 font-inter">
-        <Accordion
-          type="single"
-          collapsible
-          className="bg-card rounded-2xl px-6 border"
-        >
-          <AccordionItem value="toc">
-            <AccordionTrigger className="cursor-pointer">
-              Table of contents
-            </AccordionTrigger>
-            <AccordionContent>
-              <div className="mt-2">
-                {headings.map((h) => (
-                  <a
-                    key={h.id}
-                    href={`#${h.id}`}
-                    onClick={() => handleClick(h.id)}
-                    className={cn(
-                      "group flex items-start gap-2 py-3 sm:py-2 text-[16px] text-muted-foreground transition-colors leading-tight hover:text-foreground",
-                      h.level === 3 && "pl-4",
-                    )}
-                  >
-                    <span className="mt-1 h-2 w-2 rounded-full transition-all bg-muted-foreground/40 group-hover:bg-muted-foreground/70" />
-                    <span className="line-clamp-3">{h.text}</span>
-                  </a>
-                ))}
-              </div>
-            </AccordionContent>
-          </AccordionItem>
-        </Accordion>
-      </div>
-
-      {/* for desktop */}
-      <div className="hidden min-[1704px]:block fixed right-0 top-24 w-64 font-inter bg-background">
+    <aside className="lesson-toc hidden min-[1180px]:block font-inter">
+      <div className="sticky top-24 rounded-2xl border border-white/10 bg-white/[0.035] p-4 shadow-sm">
         <div className="relative">
-          <div className="overflow-y-auto max-h-[70vh] pl-2" ref={scrollRef}>
-            <p className="text-xs font-medium mb-4 uppercase tracking-wide text-muted-foreground/80">
+          <div className="overflow-y-auto max-h-[70vh] pr-1" ref={scrollRef}>
+            <p className="text-[11px] font-semibold mb-4 uppercase tracking-[0.18em] text-slate-400">
               In this lesson
             </p>
-            <div className="space-y-3">
+            <div className="space-y-1.5">
               {headings.map((h) => (
                 <a
                   key={h.id}
@@ -165,19 +131,19 @@ export function LessonTOC({ headings }: { headings: Heading[] }) {
                   onClick={() => handleClick(h.id)}
                   data-active={activeId === h.id}
                   className={cn(
-                    "group flex items-start gap-2 text-sm transition-color leading-tight",
-                    h.level === 3 && "pl-4",
+                    "group flex items-start gap-2.5 rounded-lg px-2.5 py-2 text-sm leading-snug transition-colors",
+                    h.level === 3 && "ml-3",
                     activeId === h.id
-                      ? "text-primary"
-                      : "text-muted-foreground hover:text-foreground",
+                      ? "bg-blue-500/10 text-blue-200"
+                      : "text-slate-400 hover:bg-white/[0.04] hover:text-slate-200",
                   )}
                 >
                   <span
                     className={cn(
-                      "mt-1 w-2 h-2 shrink-0 rounded-full transition-colors",
+                      "mt-1.5 size-1.5 shrink-0 rounded-full transition-colors",
                       activeId === h.id
-                        ? "bg-primary"
-                        : "bg-muted-foreground/40 group-hover:bg-muted-foreground/70",
+                        ? "bg-blue-400"
+                        : "bg-slate-600 group-hover:bg-slate-400",
                     )}
                   />
                   <span className="line-clamp-3">{h.text}</span>
@@ -189,6 +155,6 @@ export function LessonTOC({ headings }: { headings: Heading[] }) {
           <ScrollShadow show={showBottom} position="bottom" className="h-12" />
         </div>
       </div>
-    </>
+    </aside>
   );
 }

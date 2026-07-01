@@ -13,17 +13,17 @@ const reasons: Reason[] = [
   {
     title: "Interactive Learning",
     description:
-      "Watch videos, take quizzes, and explore free previews — everything designed to keep you engaged while learning.",
+      "Move through guided lessons, quick checks, and economics diagrams designed for active review.",
   },
   {
-    title: "Made for Math",
+    title: "Made for Economics",
     description:
-      "Full math rendering for clear formulas and clean explanations — no messy screenshots or unreadable text.",
+      "Built around AP and IB Economics concepts, with readable explanations and graph-based reasoning.",
   },
   {
-    title: "Built by a Student",
+    title: "Built for Review",
     description:
-      "Created by someone who actually understands what makes math hard — and how to make it click.",
+      "Concise course paths help students practice terminology, diagrams, and exam-style decisions.",
   },
 ];
 
@@ -32,19 +32,16 @@ export function WhyChoose() {
     <section className="border-y bg-muted/30">
       <div className="mx-auto max-w-6xl px-4 py-12 sm:py-20 lg:py-24">
         <div className="mb-12 text-center">
-          {/* bg-gradient-to-b from-foreground to-neutral-500 dark:to-neutral-500 bg-clip-text text-transparent text-shadow-md */}
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Why Choose Math Course Online?
+            Why Choose Open Economics?
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            It's not just another course platform. Here's what makes this one
-            different.
+            A focused lesson interface for economics review and exam prep.
           </p>
         </div>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {reasons.map((reason, idx) => (
-            // biome-ignore lint/suspicious/noArrayIndexKey: safe
-            <WhyChooseCard key={idx} reason={reason} idx={idx} />
+            <WhyChooseCard key={reason.title} reason={reason} idx={idx} />
           ))}
         </div>
       </div>
@@ -65,7 +62,7 @@ function WhyChooseCard({ reason, idx }: { reason: Reason; idx: number }) {
       className="space-y-3"
     >
       <div className="flex gap-3">
-        <Check className="h-5 w-5 flex-shrink-0 text-primary mt-0.5" />
+        <Check className="mt-0.5 h-5 w-5 flex-shrink-0 text-primary" />
         <h3 className="font-semibold">{reason.title}</h3>
       </div>
       <p className="text-sm text-muted-foreground">{reason.description}</p>

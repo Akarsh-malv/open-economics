@@ -73,9 +73,9 @@ export default async function AccountPage() {
       </header>
 
       {!user.emailVerified && isCredentials && (
-        <Card className="border-yellow-600/50 dark:border-yellow-400/50">
+        <Card className="border-slate-300 dark:border-slate-600">
           <CardHeader>
-            <CardTitle className="text-yellow-600 dark:text-yellow-400 flex items-center justify-start gap-2 text-lg">
+            <CardTitle className="text-[#0b1f3a] dark:text-slate-200 flex items-center justify-start gap-2 text-lg">
               <MailWarning className="size-6" /> Verify your email
             </CardTitle>
             <CardDescription>

@@ -35,12 +35,12 @@ export function CTASection({
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-balance">
-            Ready to Master Mathematics?
+            Ready to Review Economics?
           </h2>
           <p className="md:text-lg text-md text-foreground/70 mb-8 max-w-2xl mx-auto text-pretty">
-            Join many students who have transformed their relationship with
-            math. Start your learning journey today with a free preview of any
-            course.
+            Build confidence with focused economics lessons, diagrams, and
+            practice checks. Start with AP Microeconomics or explore the course
+            library.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8 md:mb-10">

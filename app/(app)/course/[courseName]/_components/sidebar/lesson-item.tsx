@@ -1,52 +1,11 @@
 "use client";
 
-import {
-  Calculator,
-  FileText,
-  Lock,
-  type LucideIcon,
-  Video,
-} from "lucide-react";
+import { BookOpenText, ChevronRight, Lock } from "lucide-react";
 import Link from "next/link";
 import { memo } from "react";
-import { formatDuration, formatReadingTime } from "@/lib/format";
+import { formatDuration } from "@/lib/format";
 import { cn } from "@/lib/ui";
 import type { Lesson } from "@/types/payload-types";
-
-type LessonTypeConfig = Record<
-  string,
-  {
-    icon: LucideIcon;
-    color: {
-      base: string;
-      hover: string;
-    };
-  }
->;
-
-const lessonTypeConfig = {
-  quiz: {
-    icon: Calculator,
-    color: {
-      base: "bg-red-500/10 text-red-600 dark:text-red-500",
-      hover: "group-hover:bg-red-500/20",
-    },
-  },
-  video: {
-    icon: Video,
-    color: {
-      base: "bg-green-500/10 text-green-600 dark:text-green-400",
-      hover: "group-hover:bg-green-500/20",
-    },
-  },
-  default: {
-    icon: FileText,
-    color: {
-      base: "bg-primary/10 text-primary",
-      hover: "group-hover:bg-primary/20",
-    },
-  },
-} as const satisfies LessonTypeConfig;
 
 interface LessonItemProps {
   lesson: Lesson;
@@ -68,13 +27,14 @@ export const LessonItem = memo(
   }: LessonItemProps) => {
     const lessonPath = `/course/${courseSlug}/${lesson.slug}`;
 
-    const typeConfig =
-      lessonTypeConfig[lesson.type as keyof typeof lessonTypeConfig] ||
-      lessonTypeConfig.default;
-
-    const Icon = typeConfig.icon;
-
-    const videoDuration = lesson.videoDurationSeconds;
+    const durationSeconds =
+      lesson.videoDurationSeconds ?? lesson.readingTimeSeconds ?? 0;
+    const durationLabel =
+      durationSeconds > 0
+        ? formatDuration(durationSeconds)
+        : lesson.type === "quiz" && lesson.quiz?.length
+          ? `${lesson.quiz.length} task${lesson.quiz.length > 1 ? "s" : ""}`
+          : "";
 
     return (
       <Link
@@ -88,58 +48,57 @@ export const LessonItem = memo(
         onClick={(e) => onClick(e, lessonPath)}
         data-lesson-path={lessonPath}
         data-active={isActive}
+        className="block min-w-0"
       >
         <div
           className={cn(
-            "group flex items-center gap-3 px-3 py-2.5 rounded-md",
+            "group relative grid min-h-[78px] min-w-0 grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-3 overflow-hidden rounded-xl border p-4 transition-all",
             isActive
-              ? "button-sheen text-primary-foreground hover:brightness-100! [--btn-top:var(--primary)] [--btn-bottom:color-mix(in_oklab,var(--primary)_72%,black_28%)] [--btn-top-dark:color-mix(in_oklab,var(--primary)_80%,var(--background)_20%)] [--btn-bottom-dark:color-mix(in_oklab,var(--primary)_62%,var(--background)_38%)]"
-              : "hover:bg-secondary/80 text-muted-foreground hover:text-foreground",
+              ? "border-white bg-white text-neutral-950"
+              : "border-transparent text-neutral-100 hover:border-white/5 hover:bg-neutral-900",
           )}
         >
           <div
             className={cn(
-              "flex h-8 w-8 items-center justify-center rounded-sm shrink-0",
+              "flex size-10 shrink-0 items-center justify-center rounded-lg",
               isActive
-                ? "bg-primary-foreground/20"
-                : `${typeConfig.color.base} ${typeConfig.color.hover}`,
+                ? "bg-neutral-950 text-white"
+                : "border border-white/5 bg-neutral-900 text-neutral-400",
             )}
           >
-            <Icon className="w-4 h-4" />
+            <BookOpenText className="size-5" />
           </div>
-
           <div className="flex-1 min-w-0">
-            <p className="text-sm font-medium leading-tight truncate">
+            <p
+              className={cn(
+                "max-w-full overflow-hidden text-ellipsis text-pretty text-base font-medium leading-6 tracking-[-0.01em]",
+                isActive ? "text-neutral-950" : "text-neutral-100",
+              )}
+            >
               {lesson.title}
             </p>
-            {lesson.type === "quiz" && (
-              <p className="text-xs truncate">
-                {lesson.quiz?.length
-                  ? `${lesson.quiz.length} task${lesson.quiz.length > 1 ? "s" : ""}`
-                  : "no tasks"}
-              </p>
-            )}
-
-            {lesson.type === "video" && videoDuration && (
-              <p className="text-xs truncate">
-                {formatDuration(videoDuration || 0)}
-              </p>
-            )}
-
-            {lesson.type === "text" && lesson.readingTimeSeconds != null && (
-              <p className="text-xs truncate">
-                {formatReadingTime(lesson.readingTimeSeconds)}
+            {durationLabel && (
+              <p
+                className={cn(
+                  "mt-1 text-sm",
+                  isActive ? "text-neutral-600" : "text-neutral-400",
+                )}
+              >
+                Est. {durationLabel}
               </p>
             )}
           </div>
           {!lesson.free && !owned && (
             <Lock
-              size={18}
+              size={20}
               className={cn(
-                "shrink-0 text-orange-600 dark:text-orange-500",
-                isActive && "text-primary-foreground!",
+                "shrink-0 text-neutral-500",
+                isActive && "text-neutral-950",
               )}
             />
+          )}
+          {(lesson.free || owned) && isActive && (
+            <ChevronRight className="size-5 shrink-0 text-neutral-950" />
           )}
         </div>
       </Link>

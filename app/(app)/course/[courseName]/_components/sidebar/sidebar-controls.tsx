@@ -1,6 +1,6 @@
 "use client";
 
-import { ChevronLeft, PanelLeft, PanelLeftClose } from "lucide-react";
+import { Home, PanelLeft, PanelLeftClose } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import Link from "next/link";
 import { startTransition } from "react";
@@ -51,15 +51,21 @@ export function SidebarControls({
         </AnimatePresence>
       </div>
 
-      <div className="fixed top-4 left-4 z-50 flex items-center gap-3">
+      <div
+        className={cn(
+          "fixed top-4 z-50 flex items-center gap-3 transition-[left,right] duration-200 ease-[cubic-bezier(0.25,0.46,0.45,0.94)]",
+          open
+            ? "left-[336px] max-[420px]:left-auto max-[420px]:right-4"
+            : "left-4 right-auto",
+        )}
+      >
         <Button
-          variant={open ? "ghost" : "outline"}
+          variant="outline"
           size="icon"
           aria-label="Toggle Sidebar"
           onClick={() => startTransition(onToggleSidebar)}
           className={cn(
-            "cursor-pointer bg-background",
-            !open && "backdrop-blur-md",
+            "cursor-pointer border-oe-border bg-oe-surface/90 text-oe-text shadow-lg shadow-black/10 backdrop-blur-md hover:bg-oe-surface-elevated",
           )}
         >
           {open ? (
@@ -79,9 +85,13 @@ export function SidebarControls({
               transition={{ duration: prefersReducedMotion ? 0 : 0.2 }}
               className="rounded-md"
             >
-              <Button variant="outline" asChild className="backdrop-blur-md">
+              <Button
+                variant="outline"
+                asChild
+                className="border-oe-border bg-oe-surface/90 text-oe-text backdrop-blur-md hover:bg-oe-surface-elevated"
+              >
                 <Link href="/">
-                  <ChevronLeft className="w-4 h-4" />
+                  <Home className="w-4 h-4" />
                   Home
                 </Link>
               </Button>

@@ -12,10 +12,18 @@ interface Props {
 }
 
 export function LessonLayout({ lesson, children }: Props) {
+  const isGuidedLesson =
+    lesson.slug === "scarcity-and-economic-thinking" ||
+    lesson.slug === "production-possibilities-frontier";
+
   return (
     <LessonClientShell type={lesson.type}>
-      <LessonTitle lesson={lesson} />
-      <Separator className="mb-10" />
+      {!isGuidedLesson && (
+        <>
+          <LessonTitle lesson={lesson} />
+          <Separator className="mb-10" />
+        </>
+      )}
       {lesson.type === "text" && <TextLesson lesson={lesson} />}
       {lesson.type === "quiz" && <QuizLesson quiz={lesson.quiz} />}
       {lesson.type === "video" && <VideoLesson lesson={lesson} />}

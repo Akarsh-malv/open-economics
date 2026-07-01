@@ -118,7 +118,7 @@ export function QuizLesson({ quiz }: QuizLessonProps) {
   const navigateToNext = () => navigate(1);
 
   return (
-    <div className="max-w-4xl mx-auto space-y-6 -mt-3">
+    <div className="max-w-3xl mx-auto space-y-6 -mt-3">
       {questions.length > 1 && (
         <div className="flex items-center justify-between gap-4 flex-wrap">
           <div className="flex gap-2 flex-wrap">
@@ -172,8 +172,8 @@ export function QuizLesson({ quiz }: QuizLessonProps) {
         </div>
       )}
 
-      <Card className="shadow-none bg-card/50 dark:bg-card">
-        <CardHeader className="border-b-1 pb-4">
+      <Card className="border-oe-border bg-oe-surface shadow-xl shadow-black/10">
+        <CardHeader className="border-b border-oe-border pb-4">
           <CardTitle>
             <MarkdownRenderer content={activeQuestion.question} />
           </CardTitle>
@@ -201,13 +201,13 @@ export function QuizLesson({ quiz }: QuizLessonProps) {
             </div>
           )}
           {isHintVisible && activeQuestion.hint && (
-            <Card className="bg-amber-50 dark:bg-amber-950/20 border-amber-200 dark:border-amber-900 py-4">
+            <Card className="border-oe-warning/40 bg-oe-warning/10 py-4 shadow-none">
               <CardContent className="px-4">
                 <div className="flex justify-left items-center gap-2">
                   <AnimateIcon animate animation="path">
                     <Lightbulb
                       size={20}
-                      className="text-amber-600 dark:text-amber-500 shrink-0"
+                      className="text-slate-600 dark:text-slate-400 shrink-0"
                     />
                   </AnimateIcon>
                   <MarkdownRenderer content={activeQuestion.hint} />
@@ -231,22 +231,22 @@ export function QuizLesson({ quiz }: QuizLessonProps) {
                   onClick={() => handleOptionSelect(optionIdx)}
                   disabled={isSubmitted}
                   className={cn(
-                    "w-full text-left p-4 rounded-xl border-2 transition-colors duration-150 shadow-xs",
+                    "w-full text-left p-4 rounded-2xl border transition-all duration-150 shadow-xs",
                     !isSubmitted &&
-                      "hover:bg-accent hover:border-accent-foreground/20 cursor-pointer",
+                      "hover:-translate-y-0.5 hover:border-oe-accent/45 hover:bg-oe-surface-elevated cursor-pointer",
                     !isSubmitted &&
                       isSelected &&
-                      "border-primary bg-primary/5 hover:border-primary",
-                    !isSubmitted && !isSelected && "border-border",
+                      "border-oe-accent/60 bg-oe-accent/10 hover:border-oe-accent",
+                    !isSubmitted && !isSelected && "border-oe-border bg-oe-surface-elevated/70",
                     isSubmitted && "cursor-default",
                     showAsCorrect &&
-                      "border-green-500 bg-green-50 dark:bg-green-950/20",
+                      "border-oe-success/60 bg-oe-success/10",
                     showAsIncorrect &&
-                      "border-red-500 bg-red-50 dark:bg-red-950/20",
+                      "border-oe-error/60 bg-oe-error/10",
                     isSubmitted &&
                       !showAsCorrect &&
                       !showAsIncorrect &&
-                      "border-border opacity-60",
+                      "border-oe-border opacity-60",
                   )}
                 >
                   <div className="flex items-start gap-3">
@@ -255,10 +255,10 @@ export function QuizLesson({ quiz }: QuizLessonProps) {
                         "flex h-6 w-6 items-center justify-center rounded-full shrink-0 mt-0.5 transition-colors duration-300",
                         !isSubmitted &&
                           !isSelected &&
-                          "border-2 border-muted-foreground/50",
-                        !isSubmitted && isSelected && "bg-primary",
-                        showAsCorrect && "bg-green-500",
-                        showAsIncorrect && "bg-red-500",
+                          "border-2 border-oe-text-muted/50",
+                        !isSubmitted && isSelected && "bg-oe-accent",
+                        showAsCorrect && "bg-oe-success",
+                        showAsIncorrect && "bg-oe-error",
                         isSubmitted &&
                           !showAsCorrect &&
                           !showAsIncorrect &&
@@ -380,8 +380,8 @@ export function QuizLesson({ quiz }: QuizLessonProps) {
               className={cn(
                 "border-1 shadow-none",
                 isCorrect
-                  ? "bg-green-50/80 dark:bg-green-950/20 "
-                  : "bg-blue-50/80 dark:bg-blue-950/20 ",
+                  ? "border-oe-success/50 bg-oe-success/10 "
+                  : "border-oe-accent-secondary/50 bg-oe-accent-secondary/10 ",
               )}
             >
               <CardHeader>
@@ -389,8 +389,8 @@ export function QuizLesson({ quiz }: QuizLessonProps) {
                   className={cn(
                     "text-xl flex items-center gap-2",
                     isCorrect
-                      ? "text-green-600 dark:text-green-400"
-                      : "text-blue-600 dark:text-blue-400",
+                      ? "text-oe-success"
+                      : "text-oe-accent-secondary",
                   )}
                 >
                   {isCorrect ? (

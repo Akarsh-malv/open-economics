@@ -1,143 +1,42 @@
 import "server-only";
 
-import { betterAuth } from "better-auth";
-import { drizzleAdapter } from "better-auth/adapters/drizzle";
-import { nextCookies } from "better-auth/next-js";
-import { lastLoginMethod, oneTap } from "better-auth/plugins";
-import { emailHarmony } from "better-auth-harmony";
-import { db } from "@/drizzle/db";
-import { sendEmail } from "@/email/send-email";
-import ChangeEmailEmailTemplate from "@/email/templates/change-email-template";
-import ResetPasswordEmailTemplate from "@/email/templates/reset-password-template";
-import VerificationEmailTemplate from "@/email/templates/verification-template";
-import { clientEnv } from "@/env/client";
-import { serverEnv } from "@/env/server";
-import { authBeforeHook } from "@/lib/auth/auth-before-hook";
-import { rateLimit } from "@/lib/auth/auth-rate-limit";
-import {
-  GOOGLE_ONE_TAP_PATH,
-  handleGoogleOneTapUser,
-} from "@/lib/auth/google-profile";
-import { secondaryStorage } from "@/lib/auth/secondary-storage";
-import { limitUserSessions } from "@/lib/auth/session-limit";
-import { LIMITS } from "@/lib/constants/limits";
+const mockUser = {
+  id: "mock-user",
+  name: "Open Economics Learner",
+  email: "learner@example.com",
+  emailVerified: true,
+  createdAt: new Date("2026-06-01T12:00:00.000Z"),
+  updatedAt: new Date("2026-06-01T12:00:00.000Z"),
+  image: null,
+};
 
-// https://www.better-auth.com/docs/reference/options
-export const auth = betterAuth({
-  appName: "Math Course",
-
-  database: drizzleAdapter(db, { provider: "pg" }),
-
-  socialProviders: {
-    google: {
-      clientId: clientEnv.NEXT_PUBLIC_GOOGLE_CLIENT_ID,
-      clientSecret: serverEnv.GOOGLE_CLIENT_SECRET,
-      mapProfileToUser: (profile) => {
-        return {
-          name: profile.given_name,
-          image: undefined,
-        };
-      },
-    },
-  },
-
-  onAPIError: {
-    errorURL: "/auth/error",
-  },
-
-  plugins: [
-    emailHarmony(),
-    lastLoginMethod({
-      customResolveMethod: (ctx) => {
-        if (ctx.path === GOOGLE_ONE_TAP_PATH) {
-          return "google";
-        }
-        // default resolution
-        return null;
-      },
-    }),
-    oneTap(),
-    nextCookies(),
-  ],
-
-  trustedOrigins: [serverEnv.NGROK_URL, "http://localhost:3000"].filter(
-    (o): o is string => Boolean(o),
-  ),
-
-  emailVerification: {
-    expiresIn: LIMITS.auth.verificationTokenTTL,
-    sendOnSignUp: false,
-
-    sendVerificationEmail: async ({ user, url }) => {
-      void sendEmail({
-        to: user.email,
-        subject: "Confirm Your Email Address - Math Course Online",
-        react: VerificationEmailTemplate({ name: user.name, url }),
-      });
-    },
-  },
-
-  emailAndPassword: {
-    enabled: true,
-    autoSignIn: true,
-    requireEmailVerification: false,
-    minPasswordLength: LIMITS.auth.passwordMinLength,
-    maxPasswordLength: LIMITS.auth.passwordMaxLength,
-    resetPasswordTokenExpiresIn: LIMITS.auth.resetPasswordTokenTTL,
-    async sendResetPassword({ user, url }) {
-      void sendEmail({
-        to: user.email,
-        subject: "Reset Your Password - Math Course Online",
-        react: ResetPasswordEmailTemplate({ name: user.name, url }),
-      });
-    },
-  },
-
-  user: {
-    changeEmail: {
-      enabled: true,
-
-      sendChangeEmailConfirmation: async ({ user, newEmail, url }) => {
-        void sendEmail({
-          to: user.email,
-          subject: "Please Confirm Your New Email Address - Math Course Online",
-          react: ChangeEmailEmailTemplate({ name: user.name, newEmail, url }),
-        });
-      },
-    },
-  },
-
-  account: {
-    accountLinking: {
-      enabled: false,
-    },
-  },
-
+export const mockSession = {
+  user: mockUser,
   session: {
-    expiresIn: LIMITS.auth.sessionExpiresIn,
-    cookieCache: {
-      enabled: true,
-      maxAge: LIMITS.auth.cookieCacheMaxAge,
-    },
+    id: "mock-session",
+    token: "mock-session-token",
+    userId: mockUser.id,
+    expiresAt: new Date("2099-01-01T00:00:00.000Z"),
+    createdAt: new Date("2026-06-01T12:00:00.000Z"),
+    updatedAt: new Date("2026-06-01T12:00:00.000Z"),
+    userAgent:
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/125 Safari/537.36",
+    ipAddress: "127.0.0.1",
   },
+};
 
-  rateLimit,
-
-  secondaryStorage,
-
-  hooks: {
-    before: authBeforeHook,
-  },
-
-  databaseHooks: {
-    user: {
-      create: { before: handleGoogleOneTapUser },
-      update: { before: handleGoogleOneTapUser },
-    },
-    session: {
-      create: {
-        after: limitUserSessions,
+export const auth = {
+  api: {
+    getSession: async (_params?: unknown) => mockSession,
+    listUserAccounts: async (_params?: unknown) => [
+      {
+        id: "mock-account",
+        providerId: "credential",
+        accountId: mockUser.email,
+        createdAt: new Date("2026-06-01T12:00:00.000Z"),
+        updatedAt: new Date("2026-06-01T12:00:00.000Z"),
       },
-    },
+    ],
+    listSessions: async (_params?: unknown) => [mockSession.session],
   },
-});
+} as const;

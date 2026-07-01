@@ -5,7 +5,7 @@ import type { JSX } from "react";
 import { serverEnv } from "@/env/server";
 import { resend } from "@/lib/resend";
 
-const FROM_EMAIL = `Maciej at Math Course Online <${serverEnv.RESEND_FROM_EMAIL}>`;
+const FROM_EMAIL = `Open Economics <${serverEnv.RESEND_FROM_EMAIL}>`;
 
 interface SendEmailOptions {
   to: string | string[];

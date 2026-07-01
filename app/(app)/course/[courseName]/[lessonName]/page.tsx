@@ -1,13 +1,10 @@
 import type { Metadata } from "next";
-import { headers } from "next/headers";
+import { ArrowLeft } from "lucide-react";
+import Link from "next/link";
 import { notFound } from "next/navigation";
-import { publishedStatusWhere } from "@/cms/access/contentAccess";
 import Footer from "@/components/footer";
-import { auth } from "@/lib/auth/auth";
-import { getIsDraftMode, withCache } from "@/lib/cache/withCache";
-import { hasEnrollment } from "@/lib/data/enrollment";
 import { getLessonSeoData } from "@/lib/data/seo";
-import { getPayloadClient } from "@/lib/payload-client";
+import { getMockLesson, mockLessons } from "@/lib/data/mock-courses";
 import {
   APP_NAME,
   buildNoIndexMetadata,
@@ -16,67 +13,23 @@ import {
   getCourseSocialImage,
   NO_INDEX_ROBOTS,
 } from "@/lib/seo";
-import type { Course } from "@/types/payload-types";
-import FeedbackWidget from "./_components/feedback-widget";
 import { LessonLayout } from "./_components/lesson-layout";
 import { LessonNavigation } from "./_components/lesson-navigation";
-import { LockedLesson } from "./_components/locked-lesson";
 
 export const revalidate = 3600;
 
-async function getLesson({
+function getLesson({
   courseSlug,
   lessonSlug,
 }: {
   courseSlug: string;
   lessonSlug: string;
 }) {
-  return withCache(
-    async () => {
-      const payload = await getPayloadClient();
-      const isDraftMode = await getIsDraftMode();
-
-      const { docs } = await payload.find({
-        collection: "lessons",
-        limit: 1,
-        depth: 1,
-        overrideAccess: true,
-        draft: isDraftMode,
-        where: {
-          and: [
-            ...(isDraftMode ? [] : [publishedStatusWhere]),
-            { "course.slug": { equals: courseSlug } },
-            { slug: { equals: lessonSlug } },
-          ],
-        },
-      });
-
-      return docs?.[0] || null;
-    },
-    ["lesson", courseSlug, lessonSlug],
-    {
-      revalidate: 3600,
-      tags: [
-        `course-slug:${courseSlug}`,
-        `lesson-slug:${courseSlug}:${lessonSlug}`,
-      ],
-    },
-  )();
+  return getMockLesson(courseSlug, lessonSlug);
 }
 
 export async function generateStaticParams() {
-  const payload = await getPayloadClient();
-
-  const lessons = await payload.find({
-    collection: "lessons",
-    overrideAccess: true,
-    pagination: false,
-    select: { slug: true, course: true, free: true },
-    where: publishedStatusWhere,
-  });
-
-  return lessons.docs
-    .filter((l) => l.free)
+  return mockLessons
     .map((lesson) => ({
       courseName:
         typeof lesson.course === "string" ? "" : lesson.course?.slug || "",
@@ -126,42 +79,22 @@ export default async function LessonPage({
 
   if (!lesson) notFound();
 
-  let allowed = lesson.free;
-  let showSignIn = false;
-  let session = null;
-
-  if (!allowed) {
-    session = await auth.api.getSession({ headers: await headers() });
-
-    if (!session) {
-      showSignIn = true;
-    } else {
-      const courseId =
-        typeof lesson.course === "string"
-          ? lesson.course
-          : (lesson.course as Course).id;
-
-      allowed = await hasEnrollment(session.user.id, courseId);
-    }
-  }
-
-  if (!allowed) {
-    return (
-      <LockedLesson
-        lesson={lesson}
-        courseName={courseName}
-        showSignIn={showSignIn}
-      />
-    );
-  }
-
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="relative flex min-h-screen flex-col">
+      <Link
+        href={`/course/${courseName}`}
+        className="fixed left-4 top-4 z-50 inline-flex h-11 items-center gap-2 rounded-xl border border-white/10 bg-neutral-900/85 px-3 text-sm font-semibold text-neutral-200 shadow-[0_14px_35px_rgba(0,0,0,0.28)] backdrop-blur-md transition-colors hover:border-white/18 hover:bg-neutral-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-oe-accent/70 sm:px-4"
+        aria-label="Return to course progress"
+      >
+        <ArrowLeft className="size-4" aria-hidden="true" />
+        <span className="hidden sm:inline">Progress</span>
+      </Link>
       <div className="grow">
         <LessonLayout lesson={lesson}>
-          <FeedbackWidget lessonId={lesson.id} type={lesson.type} />
-          {/* FIXME: CLS */}
-          <LessonNavigation currentSlug={lesson.slug} />
+          {lesson.slug !== "scarcity-and-economic-thinking" &&
+            lesson.slug !== "production-possibilities-frontier" && (
+            <LessonNavigation currentSlug={lesson.slug} />
+          )}
         </LessonLayout>
       </div>
       <Footer />

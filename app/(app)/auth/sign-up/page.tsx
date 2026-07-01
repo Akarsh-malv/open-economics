@@ -7,7 +7,7 @@ import { SignUpForm } from "./sign-up-form";
 
 export const metadata = buildNoIndexMetadata({
   title: "Sign Up",
-  description: "Create your Math Course Online account to start learning.",
+  description: "Create your Open Economics account to start learning.",
 });
 
 export default async function SignUpPage({

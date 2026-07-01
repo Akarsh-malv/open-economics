@@ -4,10 +4,10 @@ import { readFile } from "node:fs/promises";
 import type { Metadata } from "next";
 import { clientEnv } from "@/env/client";
 
-export const APP_NAME = "Math Course Online";
-export const APP_SHORT_NAME = "Math Course";
+export const APP_NAME = "Open Economics";
+export const APP_SHORT_NAME = "Open Econ";
 export const SITE_DESCRIPTION =
-  "Online math courses with guided lessons, quizzes, and video walkthroughs.";
+  "A front-end-only AP Microeconomics lesson UI template with mock course data.";
 export const SITE_LOCALE = "en_US";
 export const SITE_CATEGORY = "education";
 export const SEO_IMAGE_WIDTH = 1200;
@@ -126,7 +126,7 @@ export function buildSiteMetadata(): Metadata {
       default: APP_NAME,
     },
     description: SITE_DESCRIPTION,
-    authors: [{ name: "Maciej Twaróg", url: "https://github.com/maciekt07" }],
+    authors: [{ name: "Open Economics" }],
     robots: INDEXABLE_ROBOTS,
     verification: {
       google: "ckzSSA2XcguRbHoX5MuHbjvLoAVGRpmDg2ncejq_NWA",

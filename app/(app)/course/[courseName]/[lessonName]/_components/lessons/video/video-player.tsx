@@ -154,9 +154,9 @@ export function VideoPlayer({
         title: videoTitle || title,
         artist:
           course && typeof course !== "string"
-            ? `${course.title} | Math Course Online`
-            : "Math Course Online",
-        album: "Course Video",
+            ? `${course.title} | Open Economics`
+            : "Open Economics",
+        album: "Economics lesson",
         artwork: [
           {
             src: posterUrl ? `${posterUrl}` : "",

@@ -15,6 +15,18 @@
 }
 
 @theme inline {
+  --color-oe-background: var(--oe-background);
+  --color-oe-surface: var(--oe-surface);
+  --color-oe-surface-elevated: var(--oe-surface-elevated);
+  --color-oe-border: var(--oe-border);
+  --color-oe-text: var(--oe-text);
+  --color-oe-text-muted: var(--oe-text-muted);
+  --color-oe-accent: var(--oe-accent);
+  --color-oe-accent-secondary: var(--oe-accent-secondary);
+  --color-oe-success: var(--oe-success);
+  --color-oe-warning: var(--oe-warning);
+  --color-oe-error: var(--oe-error);
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
 
@@ -79,8 +91,8 @@
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
   /* TODO: adjust for WCAG AA(dark)/AAA  */
-  --primary: oklch(58.222% 0.22825 270.934);
-  --primary-foreground: oklch(0.985 0 0);
+  --primary: #0b1f3a;
+  --primary-foreground: #ffffff;
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
@@ -93,6 +105,18 @@
   --ring: oklch(0.708 0 0);
   --scrollbar-thumb: rgba(0, 0, 0, 0.3);
   --scrollbar-thumb-hover: rgba(0, 0, 0, 0.5);
+
+  --oe-background: #f5f7fa;
+  --oe-surface: #ffffff;
+  --oe-surface-elevated: #eef2f6;
+  --oe-border: rgb(11 31 58 / 14%);
+  --oe-text: #0b1f3a;
+  --oe-text-muted: #5d6978;
+  --oe-accent: #0b1f3a;
+  --oe-accent-secondary: #12345c;
+  --oe-success: #3f7d5a;
+  --oe-warning: #64748b;
+  --oe-error: #a34d45;
 }
 
 .dark {
@@ -127,6 +151,18 @@
   --ring: oklch(0.556 0 0);
   --scrollbar-thumb: rgba(255, 255, 255, 0.2);
   --scrollbar-thumb-hover: rgba(255, 255, 255, 0.4);
+
+  --oe-background: #f5f7fa;
+  --oe-surface: #ffffff;
+  --oe-surface-elevated: #eef2f6;
+  --oe-border: rgb(11 31 58 / 14%);
+  --oe-text: #0b1f3a;
+  --oe-text-muted: #5d6978;
+  --oe-accent: #0b1f3a;
+  --oe-accent-secondary: #12345c;
+  --oe-success: #7cb08d;
+  --oe-warning: #94a3b8;
+  --oe-error: #d07f73;
 }
 
 @layer base {
@@ -157,15 +193,8 @@
     background: #6372cf;
   }
 
-  *::search-text {
-    @apply text-primary text-shadow-lg bg-primary/20;
-  }
-  ::search-text:current {
-    @apply bg-primary text-shadow-lg text-primary-foreground;
-  }
-
   body {
-    @apply bg-background text-foreground min-w-full! overscroll-none;
+    @apply bg-oe-background text-oe-text min-w-full! overscroll-none;
     font-synthesis-weight: none;
     text-rendering: optimizeLegibility;
   }

@@ -12,9 +12,9 @@ const alertVariants = cva(
         destructive:
           "bg-card text-destructive *:data-[slot=alert-description]:text-destructive/90 [&>svg]:text-current",
         success:
-          "bg-green-50 border-green-200 text-green-900 dark:bg-green-950/30 dark:border-green-800 dark:text-green-200 *:data-[slot=alert-description]:text-green-900/90 dark:*:data-[slot=alert-description]:text-green-200/90 [&>svg]:text-green-900 dark:[&>svg]:text-green-200",
+          "border-slate-200 bg-slate-50 text-[#0b1f3a] dark:border-slate-700 dark:bg-slate-900/40 dark:text-slate-100 *:data-[slot=alert-description]:text-slate-700 dark:*:data-[slot=alert-description]:text-slate-300 [&>svg]:text-[#0b1f3a] dark:[&>svg]:text-slate-200",
         warning:
-          "bg-yellow-50 border-yellow-200 text-yellow-900 dark:bg-yellow-950/30 dark:border-yellow-800 dark:text-yellow-200 *:data-[slot=alert-description]:text-yellow-900/90 dark:*:data-[slot=alert-description]:text-yellow-200/90 [&>svg]:text-yellow-900 dark:[&>svg]:text-yellow-200",
+          "border-slate-200 bg-slate-50 text-[#0b1f3a] dark:border-slate-700 dark:bg-slate-900/40 dark:text-slate-100 *:data-[slot=alert-description]:text-slate-700 dark:*:data-[slot=alert-description]:text-slate-300 [&>svg]:text-[#0b1f3a] dark:[&>svg]:text-slate-200",
       },
     },
     defaultVariants: {

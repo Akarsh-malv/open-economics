@@ -9,7 +9,7 @@ import { SignInForm } from "./sign-in-form";
 export const metadata = buildNoIndexMetadata({
   title: "Sign In",
   description:
-    "Access your Math Course Online account to continue learning and manage your courses.",
+    "Access your Open Economics account to continue learning and manage your courses.",
 });
 
 export default async function SignInPage({

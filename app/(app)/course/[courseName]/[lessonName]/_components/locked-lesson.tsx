@@ -124,12 +124,12 @@ export function LockedLesson({
   return (
     <EmptyStateCenterWrapper>
       <div className="flex flex-col items-center text-center space-y-6 max-w-130">
-        <div className="mx-auto w-24 h-24 flex items-center justify-center bg-orange-600/10 dark:bg-orange-500/10 rounded-full">
+        <div className="mx-auto w-24 h-24 flex items-center justify-center bg-slate-600/10 dark:bg-slate-500/10 rounded-full">
           <AnimateIcon key={key} animate={animation} completeOnStop>
             <Lock
               size={48}
               className={cn(
-                "text-orange-600 dark:text-orange-500",
+                "text-slate-600 dark:text-slate-400",
                 !mounted && "text-transparent!",
               )}
             />

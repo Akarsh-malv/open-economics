@@ -38,7 +38,7 @@ export default function VerificationEmailTemplate({
         </Text>
       ) : (
         <Text className="text-gray-600 leading-relaxed mb-6">
-          Welcome to <strong>Math Course Online</strong>. Please verify your
+          Welcome to <strong>Open Economics</strong>. Please verify your
           email.
         </Text>
       )}

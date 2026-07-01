@@ -1,20 +1,9 @@
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { withPayload } from "@payloadcms/next/withPayload";
-import { createJiti } from "jiti";
 import type { NextConfig } from "next";
-import { serverEnv } from "@/env/server";
 
 const __filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(__filename);
-
-const jiti = createJiti(fileURLToPath(import.meta.url));
-
-// import env files to validate during build
-jiti.import("./env/server");
-jiti.import("./env/client");
-
-const ngrokOrigin = serverEnv.NGROK_URL?.replace(/^https?:\/\//, "");
 
 const nextConfig: NextConfig = {
   images: {
@@ -30,7 +19,7 @@ const nextConfig: NextConfig = {
     ],
   },
 
-  allowedDevOrigins: [ngrokOrigin].filter((o): o is string => Boolean(o)),
+  allowedDevOrigins: [],
   reactStrictMode: true,
   reactCompiler: true,
   experimental: {
@@ -56,4 +45,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default withPayload(nextConfig, { devBundleServerPackages: false });
+export default nextConfig;

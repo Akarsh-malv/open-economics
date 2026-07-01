@@ -20,7 +20,7 @@ export const Users: CollectionConfig = {
   //       <p>This link will expire in ${formatSeconds(forgotPasswordTokenTTL / 1000)}.</p>
   //     `;
   //       await resend.emails.send({
-  //         from: `Math Course Online <${serverEnv.RESEND_FROM_EMAIL}>`,
+  //         from: `Open Economics <${serverEnv.RESEND_FROM_EMAIL}>`,
   //         to: user?.email as string,
   //         subject: "Reset your admin password",
   //         html,

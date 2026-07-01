@@ -3,7 +3,7 @@
   --fraction: #85a3dbff;
   --operator-color: #7147f0ff;
   --relation-color: #3b99f6ff;
-  --bracket-color: #2563ebff;
+  --bracket-color: #0b1f3aff;
   --punctuation-color: #0284c7ff;
   --function-color: #1fb1ffff;
   --math-foreground: #000000ff;
@@ -20,6 +20,67 @@
 }
 
 article {
+  .lesson-reading-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2rem;
+  }
+
+  @media (min-width: 1180px) {
+    .lesson-reading-grid {
+      grid-template-columns: minmax(0, 760px) 250px;
+      justify-content: center;
+      align-items: start;
+      gap: 3rem;
+    }
+  }
+
+  .lesson-prose {
+    @apply text-oe-text-muted;
+    font-size: 1.0625rem;
+    line-height: 1.9;
+  }
+
+  .lesson-prose section {
+    @apply rounded-2xl border border-oe-border bg-oe-surface px-5 py-6 shadow-sm sm:px-7 sm:py-7;
+    margin: 1.35rem 0;
+  }
+
+  .lesson-prose section + section {
+    margin-top: 1.5rem;
+  }
+
+  .lesson-prose h2 {
+    @apply text-2xl sm:text-3xl font-bold tracking-tight text-oe-text;
+    line-height: 1.18;
+    margin-bottom: 1.15rem;
+  }
+
+  .lesson-prose h3 {
+    @apply text-xl sm:text-2xl font-semibold tracking-tight text-oe-text;
+    line-height: 1.25;
+    margin-top: 1.75rem;
+  }
+
+  .lesson-prose p {
+    margin-top: 1.05rem;
+    margin-bottom: 0;
+  }
+
+  .lesson-prose strong {
+    @apply text-oe-text;
+  }
+
+  .lesson-prose .callout-block {
+    @apply border-oe-accent/25 bg-oe-accent/10 text-oe-text;
+    margin-top: 1.35rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .lesson-prose .callout-block + .callout-block {
+    margin-top: 1rem;
+  }
+
   section {
     content-visibility: auto;
     contain-intrinsic-size: 0 500px;

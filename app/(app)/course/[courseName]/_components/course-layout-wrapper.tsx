@@ -1,93 +1,36 @@
 "use client";
 
-import { motion, useReducedMotion } from "motion/react";
-import { useSearchParams } from "next/navigation";
+import type { User } from "better-auth";
+import { usePathname } from "next/navigation";
 import { useEffect } from "react";
+import { Navbar } from "@/components/navbar";
 import { useCourseStore } from "@/stores/course-store";
-import { useSidebarStore } from "@/stores/sidebar-store";
-import type { Chapter, Course, Lesson } from "@/types/payload-types";
-import { CourseSidebar } from "./sidebar";
+import type { Course, Lesson } from "@/types/payload-types";
 
 export function CourseLayoutWrapper({
   course,
   lessons,
-  chapters,
-  owned,
+  user,
   children,
 }: {
   course: Course;
   lessons: Lesson[];
-  chapters: Chapter[];
-  owned?: boolean;
+  user: User | null;
   children: React.ReactNode;
 }) {
-  const open = useSidebarStore((state) => state.open);
-  const setOpen = useSidebarStore((state) => state.setOpen);
-  const setOptimisticPath = useSidebarStore((state) => state.setOptimisticPath);
   const initialize = useCourseStore((state) => state.initialize);
-  const prefersReducedMotion = useReducedMotion();
-  const searchParams = useSearchParams();
+  const pathname = usePathname();
+  const coursePath = `/course/${course.slug}`;
+  const isLessonRoute = pathname.startsWith(`${coursePath}/`);
 
   useEffect(() => {
     initialize(course, lessons);
   }, [initialize, course, lessons]);
 
-  useEffect(() => {
-    return () => {
-      setOptimisticPath(null);
-      setOpen(true);
-    };
-  }, [setOptimisticPath, setOpen]);
-
-  useEffect(() => {
-    const paymentSuccess = searchParams.get("payment_success");
-    const canceled = searchParams.get("canceled");
-
-    // clean URL if either param is present
-    if (paymentSuccess || canceled) {
-      const url = new URL(window.location.href);
-      url.searchParams.delete("payment_success");
-      url.searchParams.delete("canceled");
-      window.history.replaceState(window.history.state, "", url.toString());
-    }
-  }, [searchParams]);
-
   return (
-    <div className="flex flex-col md:flex-row min-h-screen relative overflow-x-hidden">
-      <motion.div
-        data-open={open}
-        className="hidden md:block shrink-0 overflow-hidden"
-        initial={false}
-        animate={{ width: open ? 320 : 0 }}
-        transition={{
-          type: "tween",
-          duration: prefersReducedMotion ? 0 : 0.2,
-          ease: [0.25, 0.46, 0.45, 0.94],
-        }}
-      />
-
-      <CourseSidebar
-        course={course}
-        lessons={lessons}
-        chapters={chapters}
-        owned={owned}
-      />
-
-      <motion.div className="flex-1 flex flex-col min-w-0">
-        <motion.main
-          data-open={open}
-          className="flex-1 w-full min-w-0"
-          initial={false}
-          animate={{ paddingTop: open ? 0 : 68 }}
-          transition={{
-            type: "tween",
-            duration: prefersReducedMotion ? 0 : 0.2,
-            ease: [0.25, 0.46, 0.45, 0.94],
-          }}
-        >
-          {children}
-        </motion.main>
-      </motion.div>
+    <div className="flex min-h-screen flex-col overflow-x-hidden bg-oe-background text-oe-text">
+      {!isLessonRoute && <Navbar user={user} />}
+      <main className="flex-1 w-full min-w-0">{children}</main>
     </div>
   );
 }

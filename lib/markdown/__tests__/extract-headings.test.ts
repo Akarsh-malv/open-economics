@@ -47,8 +47,8 @@ describe("extractHeadings", () => {
     });
 
     it("h3 id is slug of parent h2 + h3 text", () => {
-      const result = extractHeadings("## Algebra\n### Linear Equations");
-      expect(result[1].id).toBe("algebra-linear-equations");
+      const result = extractHeadings("## Scarcity\n### Opportunity Cost");
+      expect(result[1].id).toBe("scarcity-opportunity-cost");
     });
 
     it("h3 tracks the most recent h2 as parent", () => {

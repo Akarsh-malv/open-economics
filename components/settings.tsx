@@ -28,13 +28,13 @@ const switchSettings: ReadonlyArray<{
   },
   {
     key: "coloredMarkdown",
-    label: "Colored Markdown",
-    description: "Apply custom colors to LaTeX symbols in markdown.",
+    label: "Colored Lesson Markup",
+    description: "Apply custom colors to formulas and highlighted notation.",
   },
   {
     key: "largeMath",
-    label: "Large Math",
-    description: "Increase the font size of LaTeX math expressions.",
+    label: "Large Formulas",
+    description: "Increase the font size of formulas in lesson content.",
   },
 ] as const;
 

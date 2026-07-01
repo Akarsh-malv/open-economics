@@ -1,119 +1,76 @@
-import { SiGithub } from "@icons-pack/react-simple-icons";
-import { Mail } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
-import { getServerSession } from "@/lib/auth/get-session";
+
+const footerColumns = [
+  {
+    heading: "Company",
+    links: [
+      { label: "About Us", href: "/#about" },
+      { label: "Resources", href: "/#resources" },
+      { label: "Contact", href: "/#contact" },
+    ],
+  },
+  {
+    heading: "Resources",
+    links: [
+      { label: "Guided Lessons", href: "/#resources" },
+      { label: "Interactive Graphs", href: "/#resources" },
+      { label: "Review Practice", href: "/#resources" },
+    ],
+  },
+  {
+    heading: "For Learners",
+    links: [
+      { label: "AP Microeconomics", href: "/course/ap-microeconomics" },
+      { label: "AP Macroeconomics", href: "/course/ap-macroeconomics" },
+      { label: "HL Economics", href: "/course/hl-economics" },
+      { label: "SL Economics", href: "/course/sl-economics" },
+    ],
+  },
+  {
+    heading: "Connect",
+    links: [
+      { label: "Email", href: "mailto:contact@openeconomics.org" },
+      { label: "Learning Support", href: "/#contact" },
+    ],
+  },
+] as const;
 
 export default async function Footer() {
-  const session = await getServerSession();
-
   return (
-    <footer className="w-full border-t border-foreground/10 bg-transparent">
-      <div className="max-w-6xl mx-auto px-4 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 mb-6">
-          <div className="md:col-span-4 flex flex-col gap-3">
-            <Link
-              href="/"
-              className="flex items-center gap-3 font-semibold text-base hover:text-primary transition-colors"
-            >
-              <Image
-                src="/logo512.png"
-                alt="Logo"
-                width={20}
-                height={20}
-                quality={100}
-              />
-              <span>Math Course Online</span>
-            </Link>
-            <p className="text-sm text-foreground/60 max-w-xs">
-              Transforming math education <br /> with interactive, engaging
-              courses.
-            </p>
-          </div>
-
-          <div className="md:col-span-8 grid grid-cols-3 gap-6">
-            <div className="flex flex-col gap-3">
-              <p className="font-medium text-sm text-foreground">Explore</p>
-              <nav className="flex flex-col gap-2 text-sm">
-                <Link
-                  href="/#courses"
-                  className="text-foreground/70 hover:text-primary transition-colors"
-                >
-                  Courses
-                </Link>
-                <Link
-                  href="/#faq"
-                  className="text-foreground/70 hover:text-primary transition-colors"
-                >
-                  FAQ
-                </Link>
+    <footer className="w-full bg-[#0b1f3a] text-white">
+      <div className="mx-auto max-w-7xl px-5 py-10 sm:px-6 lg:px-8">
+        <div className="grid gap-10 border-b border-white/10 pb-10 md:grid-cols-4">
+          {footerColumns.map((column) => (
+            <div key={column.heading}>
+              <p className="text-sm font-semibold text-white/45">
+                {column.heading}
+              </p>
+              <nav className="mt-4 flex flex-col gap-3">
+                {column.links.map((link) => (
+                  <Link
+                    key={link.href + link.label}
+                    href={link.href}
+                    className="w-fit text-base font-semibold text-white/85 transition-colors hover:text-white"
+                  >
+                    {link.label}
+                  </Link>
+                ))}
               </nav>
             </div>
-
-            <div className="flex flex-col gap-3">
-              <p className="font-medium text-sm text-foreground">Account</p>
-              <nav className="flex flex-col gap-2 text-sm">
-                {session?.user ? (
-                  <>
-                    <Link
-                      href="/account"
-                      className="text-foreground/70 hover:text-primary transition-colors"
-                    >
-                      My Account
-                    </Link>
-                    <Link
-                      href="/courses"
-                      className="text-foreground/70 hover:text-primary transition-colors"
-                    >
-                      My Courses
-                    </Link>
-                  </>
-                ) : (
-                  <>
-                    <Link
-                      href="/auth/sign-in"
-                      className="text-foreground/70 hover:text-primary transition-colors"
-                    >
-                      Sign In
-                    </Link>
-                    <Link
-                      href="/auth/sign-up"
-                      className="text-foreground/70 hover:text-primary transition-colors"
-                    >
-                      Sign Up
-                    </Link>
-                  </>
-                )}
-              </nav>
-            </div>
-
-            <div className="flex flex-col gap-3">
-              <p className="font-medium text-sm text-foreground">Connect</p>
-              <Link
-                href="https://github.com/maciekt07/nextjs-math-course"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 text-sm text-foreground/70 hover:text-primary transition-colors w-fit"
-              >
-                <SiGithub size={18} />
-                <span>GitHub</span>
-              </Link>
-              <a
-                href="mailto:contact@maciejtwarog.dev"
-                className="flex items-center gap-2 text-sm text-foreground/70 hover:text-primary transition-colors w-fit"
-              >
-                <Mail size={18} />
-                <span>Contact</span>
-              </a>
-            </div>
-          </div>
+          ))}
         </div>
 
-        <div className="pt-6 border-t border-foreground/10">
-          <p className="text-center text-xs text-foreground/50">
-            © {new Date().getFullYear()} Math Course Online. All rights
-            reserved.
-          </p>
+        <div className="py-10 text-center">
+          <Link
+            href="/"
+            className="text-5xl font-black tracking-tight text-white sm:text-7xl"
+          >
+            Open<span className="font-light">Economics</span>
+          </Link>
+        </div>
+
+        <div className="border-t border-white/10 pt-6 text-center text-xs text-white/55">
+          <p>&copy; {new Date().getFullYear()} Open Economics. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -235,7 +235,7 @@ export default function FeedbackWidget({
                 <p
                   className={`text-xs mt-1 text-right ${
                     comment.length > LIMITS.feedback.commentMaxLength
-                      ? "text-red-500"
+                      ? "text-slate-700 dark:text-slate-300"
                       : "text-muted-foreground"
                   }`}
                 >
@@ -278,9 +278,9 @@ export default function FeedbackWidget({
                     damping: 20,
                     delay: 0.1,
                   }}
-                  className="bg-green-600/10 p-4 rounded-full flex items-center justify-center mx-auto"
+                  className="bg-slate-600/10 p-4 rounded-full flex items-center justify-center mx-auto"
                 >
-                  <Check size={32} strokeWidth={3} className="text-green-600" />
+                  <Check size={32} strokeWidth={3} className="text-[#0b1f3a] dark:text-slate-200" />
                 </motion.div>
                 <div className="text-center">
                   <p className="font-medium text-foreground">

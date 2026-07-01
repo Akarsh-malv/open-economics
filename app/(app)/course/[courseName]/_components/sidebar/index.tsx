@@ -22,7 +22,6 @@ import {
 import { Dialog } from "@/components/ui/dialog";
 import { useMounted } from "@/hooks/use-mounted";
 import { useScrollShadows } from "@/hooks/use-scroll-shadows";
-import { authClient } from "@/lib/auth/auth-client";
 import { cn } from "@/lib/ui";
 import { useSidebarStore } from "@/stores/sidebar-store";
 import type { Chapter, Course, Lesson } from "@/types/payload-types";
@@ -30,7 +29,6 @@ import { LessonItem } from "./lesson-item";
 import { SettingsDialogContent } from "./settings-dialog-content";
 import { SidebarControls } from "./sidebar-controls";
 import { SidebarCourseHeader } from "./sidebar-course-header";
-import { SidebarFooter } from "./sidebar-footer";
 import {
   findActiveChapterId,
   findActiveLessonPath,
@@ -68,7 +66,6 @@ export function CourseSidebar({
     optimisticPath,
     courseSlug: course.slug!,
   });
-  const { data: session, isPending } = authClient.useSession();
   const [_isTransitionLoading, startTransition] = useTransition();
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [expandedChapters, setExpandedChapters] = useState<string[]>(() =>
@@ -177,8 +174,8 @@ export function CourseSidebar({
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: reducedMotion ? 0 : 0.2 }}
             className={cn(
-              "fixed top-0 left-0 right-0 z-40 h-17 hidden max-[1450px]:flex max-[1450px]:backdrop-blur-xl max-[1450px]:bg-background/60 max-[1450px]:border-b items-center mb-4 gap-3 transition-[border-color] duration-300",
-              "safari-ios:bg-background! safari-ios:backdrop-blur-none!",
+              "fixed top-0 left-0 right-0 z-40 h-17 hidden max-[1450px]:flex max-[1450px]:backdrop-blur-xl max-[1450px]:bg-oe-background/75 max-[1450px]:border-b items-center mb-4 gap-3 transition-[border-color] duration-300",
+              "max-[1450px]:border-oe-border safari-ios:bg-oe-background! safari-ios:backdrop-blur-none!",
             )}
           />
         )}
@@ -228,10 +225,10 @@ export function CourseSidebar({
           duration: reducedMotion ? 0 : 0.2,
           ease: [0.25, 0.46, 0.45, 0.94],
         }}
-        className="fixed flex flex-col h-dvh w-80 border-r bg-background z-40 shadow-2xl md:shadow-none overflow-y-auto will-change-transform transform-gpu"
+        className="fixed z-40 flex h-dvh w-[320px] max-w-[calc(100vw-24px)] flex-col overflow-y-auto border-r border-white/5 bg-neutral-950 text-neutral-100 shadow-2xl will-change-transform transform-gpu md:shadow-none"
         style={{ transform: "translateZ(0)" }}
       >
-        <SidebarCourseHeader course={course} owned={owned} />
+        <SidebarCourseHeader course={course} />
 
         <div className="relative flex-1 min-h-32 overflow-hidden">
           <div
@@ -239,27 +236,35 @@ export function CourseSidebar({
             ref={scrollRef}
           >
             <ScrollShadow position="top" show={showTop} />
-            <div>
+            <div className="px-4 pb-6">
+              <p className="px-1 pb-4 text-xs font-bold uppercase tracking-[0.18em] text-neutral-500">
+                {course.title} Units
+              </p>
               {groupedChapters.length > 0 && (
                 <Accordion
                   type="multiple"
                   value={expandedChapters}
                   onValueChange={setExpandedChapters}
-                  className="w-full border-t border-b first:border-t-0"
+                  className="w-full space-y-5"
                 >
                   {groupedChapters.map(
                     ({ chapter, lessons: chapterLessons }, index) => (
-                      <AccordionItem key={chapter.id} value={chapter.id}>
+                      <AccordionItem
+                        key={chapter.id}
+                        value={chapter.id}
+                        className="border-0"
+                      >
                         <AccordionTrigger
                           onClick={() => trigger(defaultPatterns.light)}
-                          className="px-4 sm:py-4 py-6 font-medium text-sm hover:no-underline cursor-pointer rounded-none transition-none hover:bg-muted/70"
+                          className={cn(
+                            "mb-3 h-auto min-h-12 min-w-0 cursor-pointer rounded-xl border border-white/5 bg-neutral-900/40 px-4 py-3 text-base font-semibold text-neutral-300 transition-all hover:border-white/10 hover:bg-neutral-900/70 hover:text-neutral-100 hover:no-underline [&>svg]:ml-2 [&>svg]:shrink-0",
+                            expandedChapters.includes(chapter.id) &&
+                              "border-white/10 bg-neutral-900/80 text-neutral-100",
+                          )}
                           data-animate={mounted && !reducedMotion}
                         >
-                          <span>
-                            <span className="text-muted-foreground font-semibold mr-0.5">
-                              {String(index + 1)}.
-                            </span>{" "}
-                            <span>{chapter.title}</span>
+                          <span className="min-w-0 flex-1 overflow-hidden text-ellipsis whitespace-nowrap text-left">
+                            Unit {String(index + 1)}: {chapter.title}
                           </span>
                         </AccordionTrigger>
 
@@ -267,7 +272,7 @@ export function CourseSidebar({
                           className="px-0 py-0"
                           data-animate={mounted && !reducedMotion}
                         >
-                          <nav className="px-2 pb-2 mt-2">
+                          <nav className="relative space-y-3 border-l border-neutral-800 pl-2">
                             {chapterLessons.map((lesson) => {
                               const lessonPath = getLessonPath(
                                 course.slug!,
@@ -296,7 +301,7 @@ export function CourseSidebar({
 
               <div className="py-3">
                 {unassignedLessons.length > 0 && (
-                  <div className="mb-4 space-y-1 px-2">
+                  <div className="mb-4 space-y-1">
                     {unassignedLessons.map((lesson) => {
                       const lessonPath = getLessonPath(course.slug!, lesson);
 
@@ -319,13 +324,6 @@ export function CourseSidebar({
           </div>
           <ScrollShadow position="bottom" show={showBottom} />
         </div>
-
-        <SidebarFooter
-          isPending={isPending}
-          onOpenSettings={() => setSettingsOpen(true)}
-          pathname={pathname}
-          session={session}
-        />
       </motion.aside>
     </>
   );

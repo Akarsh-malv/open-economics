@@ -38,7 +38,7 @@ const iconWrapperVariants = cva(
         default: "bg-primary/10 text-primary",
         destructive: "bg-destructive/10 text-destructive",
         success:
-          "bg-green-100 text-green-600 dark:bg-green-950 dark:text-green-400",
+          "bg-slate-100 text-[#0b1f3a] dark:bg-slate-900 dark:text-slate-200",
       },
     },
     defaultVariants: {
