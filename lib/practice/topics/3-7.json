@@ -1,0 +1,3202 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "According to MOD-2.I.1, in the long run and in the absence of government policy actions, what restores the economy to full employment after a macroeconomic shock?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The government automatically increases spending to close any output gap."
+      },
+      {
+        "label": "B",
+        "text": "The central bank lowers interest rates until real GDP reaches potential."
+      },
+      {
+        "label": "C",
+        "text": "Flexible wages and prices adjust — wages rise or fall until the SRAS shifts back to intersect AD on the LRAS, restoring full employment."
+      },
+      {
+        "label": "D",
+        "text": "Aggregate demand automatically returns to its pre-shock level without any adjustment."
+      },
+      {
+        "label": "E",
+        "text": "The LRAS shifts left or right to match wherever the AD-SRAS intersection occurs."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The CED states explicitly: \"In the long run, in the absence of government policy actions, flexible wages and prices will adjust to restore full employment and unemployment will revert to its natural rate.\" The adjustment mechanism is wages and prices becoming flexible over time - rising when there is an inflationary gap, falling when there is a recessionary gap - which shifts the SRAS until the economy returns to Yf.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "After a negative AD shock creates a recessionary gap, how does the economy self-adjust to full employment in the long run (without policy)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The AD curve automatically shifts back to the right, restoring the original equilibrium."
+      },
+      {
+        "label": "B",
+        "text": "The LRAS shifts left to meet the new lower equilibrium."
+      },
+      {
+        "label": "C",
+        "text": "Wages fall due to excess unemployment (labor market slack) → production costs fall → SRAS shifts right → economy returns to Yf at a lower price level."
+      },
+      {
+        "label": "D",
+        "text": "Wages rise in response to the lower price level, shifting SRAS left and restoring equilibrium."
+      },
+      {
+        "label": "E",
+        "text": "The economy permanently remains in the recessionary gap without government intervention."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Recessionary gap self-correction: actual GDP < Yf → unemployment > natural rate → excess labor supply → wages gradually fall → production costs fall → SRAS shifts right → new AD-SRAS intersection moves right along the AD curve → real GDP rises back to Yf at a LOWER price level than the original. No policy needed; flexible wages are the mechanism.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "After a positive AD shock creates an inflationary gap, how does the economy self-adjust to full employment in the long run (without policy)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The AD curve automatically shifts left, reducing demand back to the original level."
+      },
+      {
+        "label": "B",
+        "text": "The LRAS shifts right to accommodate the higher GDP."
+      },
+      {
+        "label": "C",
+        "text": "Wages rise due to tight labor markets (unemployment below natural rate) → production costs rise → SRAS shifts left → economy returns to Yf at a higher price level."
+      },
+      {
+        "label": "D",
+        "text": "Wages fall in response to the higher price level, shifting SRAS right and widening the gap."
+      },
+      {
+        "label": "E",
+        "text": "The economy permanently stays above Yf — inflationary gaps are self-sustaining."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Inflationary gap self-correction: actual GDP > Yf → unemployment < natural rate → tight labor market → wages rise → production costs rise → SRAS shifts left → new AD-SRAS intersection moves left along AD → real GDP falls back to Yf at a HIGHER price level. Wages and prices are flexible in the long run, driving this self-correction.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "The phrase \"in the absence of government policy actions\" in MOD-2.I.1 means that the long-run self-adjustment process",
+    "options": [
+      {
+        "label": "A",
+        "text": "requires government intervention to function."
+      },
+      {
+        "label": "B",
+        "text": "only works when the government actively supports it with fiscal policy."
+      },
+      {
+        "label": "C",
+        "text": "occurs automatically through market forces (flexible wages and prices) without requiring the government to take any fiscal or monetary action — the economy self-corrects on its own."
+      },
+      {
+        "label": "D",
+        "text": "applies only in economies with no government sector."
+      },
+      {
+        "label": "E",
+        "text": "is blocked when government policy is in place."
+      }
+    ],
+    "answer": "C",
+    "explanation": "\"In the absence of government policy actions\" specifies that self-correction happens through market forces alone - flexible wages and prices - without requiring fiscal or monetary policy. This distinguishes long-run self-adjustment from policy-driven corrections; whether the government SHOULD intervene is a separate policy debate; the self-correction mechanism operates independently.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "In the long-run self-adjustment process following a recessionary gap, what happens to the price level when the economy returns to Yf?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The price level rises back to the original pre-shock level."
+      },
+      {
+        "label": "B",
+        "text": "The price level rises above the original pre-shock level."
+      },
+      {
+        "label": "C",
+        "text": "The price level falls — as wages decline and SRAS shifts right, the new long-run equilibrium on the LRAS is at a lower price level than the original, because the recessionary gap was created by a leftward AD shift (or a leftward SRAS shift from 3.6 scenarios)."
+      },
+      {
+        "label": "D",
+        "text": "The price level remains exactly where it was during the recessionary gap."
+      },
+      {
+        "label": "E",
+        "text": "The price level is unaffected by self-adjustment — it stays at the recessionary gap level."
+      }
+    ],
+    "answer": "C",
+    "explanation": "After a recessionary gap (from a negative AD shock), self-correction proceeds: wages fall → SRAS shifts right → economy moves down and to the right along the unchanged AD curve → returns to Yf at a LOWER price level than the original long-run equilibrium. The new LR equilibrium price is below the original because AD is lower (leftward-shifted) and SRAS adjusted rightward to meet it at Yf.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "In the long-run self-adjustment process following an inflationary gap, what happens to the price level when the economy returns to Yf?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The price level falls back to the original pre-shock level."
+      },
+      {
+        "label": "B",
+        "text": "The price level falls below the original pre-shock level."
+      },
+      {
+        "label": "C",
+        "text": "The price level rises — as wages increase and SRAS shifts left, the new long-run equilibrium on the LRAS is at a higher price level than the original, because the inflationary gap was created by a rightward AD shift that permanently elevated the price level."
+      },
+      {
+        "label": "D",
+        "text": "The price level remains at the inflationary gap level without changing."
+      },
+      {
+        "label": "E",
+        "text": "The price level falls to zero as the economy overshoots potential."
+      }
+    ],
+    "answer": "C",
+    "explanation": "After an inflationary gap (from a positive AD shock), self-correction: wages rise → SRAS shifts left → economy moves up and to the left along the unchanged (rightward-shifted) AD₂ curve → returns to Yf at a HIGHER price level than the original. The new LR equilibrium price is above the original because AD₂ is to the right of the original AD₁, and SRAS adjusted leftward to meet it at Yf.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "In the long-run self-adjustment process, which curve shifts to return the economy to full employment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The AD curve shifts to meet the LRAS."
+      },
+      {
+        "label": "B",
+        "text": "The LRAS shifts to meet the current AD-SRAS intersection."
+      },
+      {
+        "label": "C",
+        "text": "The SRAS curve shifts — wages and prices adjust until SRAS moves to intersect AD on the LRAS, restoring full employment."
+      },
+      {
+        "label": "D",
+        "text": "Both the AD and SRAS curves shift simultaneously to restore equilibrium."
+      },
+      {
+        "label": "E",
+        "text": "No curve shifts — the economy returns to full employment through a movement along existing curves."
+      }
+    ],
+    "answer": "C",
+    "explanation": "In long-run self-adjustment, it is the SRAS curve that adjusts; AD stays where it is (unless policy changes it); the LRAS stays fixed at Yf (unless productive capacity changes). Flexible wages cause production costs to change, which shifts the SRAS until it intersects AD exactly on the LRAS; the SRAS is the adjusting curve in the self-correction process.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "After a recessionary gap, the long-run self-adjustment mechanism works through the labor market because",
+    "options": [
+      {
+        "label": "A",
+        "text": "the government must raise the minimum wage to restore full employment."
+      },
+      {
+        "label": "B",
+        "text": "firms automatically hire more workers when GDP is below potential."
+      },
+      {
+        "label": "C",
+        "text": "unemployment above the natural rate creates excess labor supply — workers compete for scarce jobs, eventually accepting lower wages, which reduces firm costs and allows the SRAS to shift right."
+      },
+      {
+        "label": "D",
+        "text": "higher unemployment causes consumer spending to rise, automatically shifting AD right."
+      },
+      {
+        "label": "E",
+        "text": "the labor force shrinks as discouraged workers leave, reducing unemployment back to the natural rate without any wage adjustment."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The labor market mechanism: recessionary gap → unemployment > natural rate → excess labor supply → workers compete for limited jobs → nominal wages gradually fall → firm production costs fall → SRAS shifts right → economy returns to Yf. This is the market mechanism - flexible wages responding to excess labor supply - not any government policy.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "After an inflationary gap, the long-run self-adjustment mechanism works through the labor market because",
+    "options": [
+      {
+        "label": "A",
+        "text": "the government lowers the minimum wage to cool the overheated economy."
+      },
+      {
+        "label": "B",
+        "text": "unemployment below the natural rate creates excess labor demand — firms compete for scarce workers, bidding up wages, which raises production costs and shifts SRAS left."
+      },
+      {
+        "label": "C",
+        "text": "consumers stop spending when prices rise too high, automatically shifting AD left."
+      },
+      {
+        "label": "D",
+        "text": "the labor force expands as more workers enter, increasing unemployment back to the natural rate."
+      },
+      {
+        "label": "E",
+        "text": "the central bank raises interest rates in response to inflation, reducing investment and shifting AD left."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Inflationary gap → unemployment < natural rate → excess labor demand → firms compete for scarce workers → nominal wages rise → production costs rise → SRAS shifts left → economy returns to Yf. The tight labor market is the mechanism: when unemployment is below the natural rate, labor scarcity drives wages up, which is the cost increase that shifts SRAS leftward in self-correction.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "According to MOD-2.I.1, in the long run after any macroeconomic shock, the unemployment rate will",
+    "options": [
+      {
+        "label": "A",
+        "text": "permanently remain at its post-shock level without reverting."
+      },
+      {
+        "label": "B",
+        "text": "fall to zero as all workers find employment."
+      },
+      {
+        "label": "C",
+        "text": "rise above the natural rate regardless of the type of shock."
+      },
+      {
+        "label": "D",
+        "text": "revert to the natural rate — wages and price flexibility ensure the economy always returns to Yf, where unemployment equals the natural rate (structural + frictional, no cyclical)."
+      },
+      {
+        "label": "E",
+        "text": "exceed the natural rate permanently if the shock was large enough."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The CED states: \"unemployment will revert to its natural rate\" in the long run. Regardless of whether the initial shock was a positive AD shock, negative AD shock, or SRAS shock, the self-correction process eventually restores the economy to Yf - where unemployment equals the natural rate; neither the type nor the magnitude of the shock permanently changes the natural rate.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "An economy is in a recessionary gap at $85T with Yf = $100T. In the long run, with no government action, what is the expected final real GDP level?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$85T — the recessionary gap is permanent without policy."
+      },
+      {
+        "label": "B",
+        "text": "$90T — a partial recovery is the maximum without policy."
+      },
+      {
+        "label": "C",
+        "text": "$100T — self-adjustment through falling wages and a rightward SRAS shift returns the economy to full employment at Yf = $100T."
+      },
+      {
+        "label": "D",
+        "text": "$115T — self-adjustment overshoots potential, creating an inflationary gap."
+      },
+      {
+        "label": "E",
+        "text": "$0 — the economy collapses without government support."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The long-run self-adjustment mechanism always returns the economy to Yf, regardless of the starting position. From a recessionary gap of $85T: wages fall → SRAS shifts right → economy returns to exactly Yf = $100T; the LRAS is the gravitational anchor; the economy converges to it without policy through flexible wages.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "An economy is in an inflationary gap at $115T with Yf = $100T. In the long run, with no government action, what is the expected final real GDP level?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$115T — the inflationary gap is self-sustaining at the higher output level."
+      },
+      {
+        "label": "B",
+        "text": "$130T — the inflationary pressure drives output even higher."
+      },
+      {
+        "label": "C",
+        "text": "$100T — self-adjustment through rising wages and a leftward SRAS shift returns the economy to full employment at Yf = $100T."
+      },
+      {
+        "label": "D",
+        "text": "$85T — the self-correction overshoots, creating a recessionary gap."
+      },
+      {
+        "label": "E",
+        "text": "The economy never self-corrects from an inflationary gap without policy."
+      }
+    ],
+    "answer": "C",
+    "explanation": "From an inflationary gap of $115T: wages rise → SRAS shifts left → economy returns to exactly Yf = $100T. The LRAS anchors the long-run equilibrium at potential GDP; self-correction always returns real GDP to Yf - neither permanently above it (inflationary gap) nor below it (recessionary gap).",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "A rightward shift of the LRAS curve represents",
+    "options": [
+      {
+        "label": "A",
+        "text": "a temporary increase in real GDP due to an inflationary gap."
+      },
+      {
+        "label": "B",
+        "text": "the short-run adjustment mechanism returning the economy to the old Yf."
+      },
+      {
+        "label": "C",
+        "text": "an increase in the full-employment level of output — the economy's potential GDP has grown, representing long-run economic growth."
+      },
+      {
+        "label": "D",
+        "text": "a decrease in aggregate demand that reduces the price level."
+      },
+      {
+        "label": "E",
+        "text": "the government increasing spending to close a recessionary gap."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A rightward shift of the LRAS represents an increase in full-employment output (potential GDP). This is long-run economic growth - the economy can now sustainably produce more real GDP at full employment than before; causes include capital accumulation, technological progress, labor force growth, and improved institutions.",
+    "reference": "MOD-2.I | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "According to MOD-2.I.2, shifts in the LRAS curve indicate",
+    "options": [
+      {
+        "label": "A",
+        "text": "changes in the current price level caused by aggregate demand fluctuations."
+      },
+      {
+        "label": "B",
+        "text": "short-run deviations from full employment caused by AD or SRAS shocks."
+      },
+      {
+        "label": "C",
+        "text": "changes in the full-employment level of output and economic growth — rightward LRAS shifts mean potential GDP increased; leftward LRAS shifts mean potential GDP decreased."
+      },
+      {
+        "label": "D",
+        "text": "changes in the natural rate of unemployment caused by structural factors."
+      },
+      {
+        "label": "E",
+        "text": "movements along the SRAS curve as the economy self-corrects."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The CED states: \"Shifts in the long-run aggregate supply (LRAS) curve indicate changes in the full-employment level of output and economic growth.\" Rightward LRAS → more potential GDP → economic growth. Leftward LRAS → less potential GDP → economic contraction of productive capacity.",
+    "reference": "MOD-2.I | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "In the long-run self-adjustment process, when the economy self-corrects from a recessionary gap, which curve shifts and in which direction?",
+    "options": [
+      {
+        "label": "A",
+        "text": "AD shifts right."
+      },
+      {
+        "label": "B",
+        "text": "LRAS shifts left."
+      },
+      {
+        "label": "C",
+        "text": "SRAS shifts left (wages fall → SRAS shifts further left, worsening the gap)."
+      },
+      {
+        "label": "D",
+        "text": "SRAS shifts right — falling wages reduce production costs, allowing firms to supply more at every price level, moving the economy toward Yf."
+      },
+      {
+        "label": "E",
+        "text": "Both AD and SRAS shift right simultaneously."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Self-correction from recessionary gap: wages fall (labor market slack) → production costs fall → SRAS shifts RIGHT → new AD-SRAS intersection moves right along the AD curve toward the LRAS → economy returns to Yf. It is specifically the SRAS that shifts right during recessionary gap self-correction.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "In the long-run self-adjustment process, when the economy self-corrects from an inflationary gap, which curve shifts and in which direction?",
+    "options": [
+      {
+        "label": "A",
+        "text": "AD shifts left."
+      },
+      {
+        "label": "B",
+        "text": "LRAS shifts right."
+      },
+      {
+        "label": "C",
+        "text": "SRAS shifts left — rising wages increase production costs, shifting SRAS left until the AD-SRAS intersection reaches the LRAS at Yf."
+      },
+      {
+        "label": "D",
+        "text": "SRAS shifts right (wages rise → more workers → more output)."
+      },
+      {
+        "label": "E",
+        "text": "Both SRAS and LRAS shift left together."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Self-correction from inflationary gap: wages rise (tight labor market) → production costs rise → SRAS shifts LEFT → new AD-SRAS intersection moves left along the AD curve toward the LRAS → economy returns to Yf. It is specifically the SRAS that shifts left during inflationary gap self-correction.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "Long-run economic growth, as represented by a rightward LRAS shift, can be caused by",
+    "options": [
+      {
+        "label": "A",
+        "text": "a temporary increase in government spending that raises AD."
+      },
+      {
+        "label": "B",
+        "text": "a negative supply shock that raises production costs."
+      },
+      {
+        "label": "C",
+        "text": "improvements in productive capacity — including capital accumulation, technological progress, labor force growth, improved human capital, and better institutions — that permanently raise the economy's potential output."
+      },
+      {
+        "label": "D",
+        "text": "a fall in the price level that increases the quantity of real GDP demanded."
+      },
+      {
+        "label": "E",
+        "text": "the central bank increasing the money supply in the short run."
+      }
+    ],
+    "answer": "C",
+    "explanation": "LRAS rightward shifts (economic growth) are driven by increases in productive capacity: more physical capital, better technology, more workers, higher human capital (education/skills), and improved institutions. These factors permanently raise Yf - the full-employment level of output; temporary demand-side changes or price level changes do not shift the LRAS.",
+    "reference": "MOD-2.I | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "The self-correction mechanism described in MOD-2.I.1 applies after which types of macroeconomic shocks?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only after negative AD shocks — the mechanism only works from recessionary gaps."
+      },
+      {
+        "label": "B",
+        "text": "Only after positive AD shocks — the mechanism only corrects inflationary gaps."
+      },
+      {
+        "label": "C",
+        "text": "Only after SRAS shocks — demand shocks do not trigger self-correction."
+      },
+      {
+        "label": "D",
+        "text": "After any aggregate demand OR short-run aggregate supply shock — the long-run adjustment applies regardless of whether the original shock came from the demand side or supply side."
+      },
+      {
+        "label": "E",
+        "text": "Only after very large shocks; small shocks do not trigger self-correction."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The CED explicitly states that flexible wages and prices restore full employment \"after a shock to aggregate demand or short-run aggregate supply.\" The self-correction mechanism is universal - it applies after all four types of short-run shocks (positive/negative AD, positive/negative SRAS) that displace the economy from Yf.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "A student asks: \"How long does the long-run self-adjustment take?\" The best answer in the context of MOD-2.I is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Exactly one fiscal year — wages always adjust within 12 months."
+      },
+      {
+        "label": "B",
+        "text": "One business cycle — usually 4 to 8 years exactly."
+      },
+      {
+        "label": "C",
+        "text": "Instantaneously — self-adjustment is always immediate in the model."
+      },
+      {
+        "label": "D",
+        "text": "The model specifies no exact time frame for self-adjustment. The \"long run\" is defined as the period when wages and prices are fully flexible, not a specific calendar duration. In practice, downward wage adjustment (from recessionary gaps) is often slower than upward adjustment (from inflationary gaps)."
+      },
+      {
+        "label": "E",
+        "text": "Exactly two years — the standard AP assumption for self-correction speed."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The model does not specify an exact time frame. \"Long run\" means wages and prices have had sufficient time to fully adjust. Empirically, adjustment can take months to years; downward wage flexibility tends to be slower than upward flexibility, meaning recessionary gap self-correction may be slower than inflationary gap correction.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "On an AD-AS graph showing long-run self-adjustment from a recessionary gap, which of the following correctly describes the final long-run equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The AD-SRAS-LRAS intersection at a higher price level than the recessionary gap."
+      },
+      {
+        "label": "B",
+        "text": "The AD-SRAS-LRAS intersection at the same price level as the original pre-shock equilibrium."
+      },
+      {
+        "label": "C",
+        "text": "The AD-SRAS-LRAS intersection at a lower price level than the original pre-shock equilibrium, with the economy at Yf — the SRAS shifted right along the unchanged AD to meet the LRAS at a lower PL."
+      },
+      {
+        "label": "D",
+        "text": "The AD-SRAS-LRAS intersection to the right of Yf, as wages fall creates an inflationary gap."
+      },
+      {
+        "label": "E",
+        "text": "Only the AD curve at a new lower position, with no SRAS shift."
+      }
+    ],
+    "answer": "C",
+    "explanation": "After a negative AD shock creates a recessionary gap, self-correction: wages fall → SRAS shifts right → new SRAS intersects the leftward-shifted AD₂ on the LRAS at Yf. Since AD₂ is to the LEFT of original AD₁, the new long-run equilibrium price is LOWER than the original; the economy is at Yf but at a permanently lower price level - the AD shift permanently lowered the price level in the new LR equilibrium.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "On an AD-AS graph showing long-run self-adjustment from an inflationary gap, which of the following correctly describes the final long-run equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The AD-SRAS-LRAS intersection at a lower price level than the inflationary gap."
+      },
+      {
+        "label": "B",
+        "text": "The AD-SRAS-LRAS intersection at the same price level as before the demand shock."
+      },
+      {
+        "label": "C",
+        "text": "The AD-SRAS-LRAS intersection at a higher price level than the original pre-shock equilibrium, with the economy at Yf — the SRAS shifted left along the rightward-shifted AD to meet the LRAS at a higher PL."
+      },
+      {
+        "label": "D",
+        "text": "The AD-SRAS-LRAS intersection to the left of Yf, creating a recessionary gap."
+      },
+      {
+        "label": "E",
+        "text": "Only the LRAS shifts right to accommodate the permanently higher output."
+      }
+    ],
+    "answer": "C",
+    "explanation": "After a positive AD shock creates an inflationary gap, self-correction: wages rise → SRAS shifts left → new SRAS intersects the rightward-shifted AD₂ on the LRAS at Yf. Since AD₂ is to the RIGHT of original AD₁, the new long-run equilibrium price is HIGHER than the original; the economy is at Yf but at a permanently higher price level - the demand expansion permanently raised the price level.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "Technology improvements that permanently increase worker productivity cause the LRAS to shift right. How does this differ from the self-correction movement described in MOD-2.I.1?",
+    "options": [
+      {
+        "label": "A",
+        "text": "They are identical — all SRAS shifts are the same as LRAS shifts."
+      },
+      {
+        "label": "B",
+        "text": "A rightward LRAS shift permanently increases potential GDP (Yf rises) — this is economic growth. The MOD-2.I.1 self-correction involves the SRAS shifting to meet the existing LRAS without the LRAS itself moving. In self-correction, Yf is unchanged; in an LRAS rightward shift, Yf permanently increases."
+      },
+      {
+        "label": "C",
+        "text": "Both represent temporary movements that reverse over time."
+      },
+      {
+        "label": "D",
+        "text": "A rightward LRAS shift occurs only after government policy; self-correction requires no policy."
+      },
+      {
+        "label": "E",
+        "text": "They are different only in speed — LRAS shifts are faster than SRAS self-corrections."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.I.2: Key distinction: Self-correction (MOD-2.I.1) → SRAS shifts to intersect AD on the EXISTING LRAS; Yf is UNCHANGED. Economic growth (MOD-2.I.2) → the LRAS itself shifts right; Yf PERMANENTLY INCREASES; one adjusts around a fixed potential; the other raises the potential itself.",
+    "reference": "MOD-2.I | MOD-2.I.1 | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "After a negative SRAS shock (adverse supply shock) creates stagflation and a recessionary gap, the long-run self-adjustment works as follows:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Wages rise → SRAS shifts further left → stagflation worsens → no self-correction."
+      },
+      {
+        "label": "B",
+        "text": "The AD curve shifts right automatically → GDP rises back to Yf."
+      },
+      {
+        "label": "C",
+        "text": "The LRAS shifts left to match the lower GDP caused by the supply shock."
+      },
+      {
+        "label": "D",
+        "text": "Wages eventually fall (as unemployment > natural rate) → production costs fall → SRAS shifts back right → economy returns to Yf at a lower price level than the stagflation price level."
+      },
+      {
+        "label": "E",
+        "text": "No self-correction is possible after a negative SRAS shock — only government policy can restore full employment."
+      }
+    ],
+    "answer": "D",
+    "explanation": "After a negative SRAS shock, the recessionary gap triggers self-correction: actual GDP < Yf → unemployment > natural rate → labor market slack → wages gradually fall → production costs fall → SRAS shifts right → economy returns to Yf. The new LR equilibrium price level may be lower than the stagflation price level but depends on the relative positions of AD and the new SRAS.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "In the long run, after any shock, unemployment",
+    "options": [
+      {
+        "label": "A",
+        "text": "permanently remains at the post-shock level unless policy intervenes."
+      },
+      {
+        "label": "B",
+        "text": "falls to zero as the economy restores full employment."
+      },
+      {
+        "label": "C",
+        "text": "rises above the natural rate during self-correction and stays there."
+      },
+      {
+        "label": "D",
+        "text": "reverts to the natural rate — flexible wages restore full employment, eliminating cyclical unemployment while structural and frictional unemployment remain."
+      },
+      {
+        "label": "E",
+        "text": "exceeds the natural rate permanently if the shock was an SRAS shock rather than an AD shock."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The CED explicitly states \"unemployment will revert to its natural rate\" in the long run; the natural rate = structural + frictional unemployment (no cyclical). Self-correction eliminates cyclical unemployment by restoring GDP to Yf; structural and frictional unemployment persist at the natural rate regardless; both AD and SRAS shocks trigger this reversion.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "Which of the following does NOT shift the LRAS and therefore does NOT represent long-run economic growth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An increase in the economy's capital stock through net investment."
+      },
+      {
+        "label": "B",
+        "text": "Technological improvements that raise total factor productivity."
+      },
+      {
+        "label": "C",
+        "text": "Growth in the labor force due to immigration."
+      },
+      {
+        "label": "D",
+        "text": "A temporary increase in aggregate demand caused by government stimulus spending."
+      },
+      {
+        "label": "E",
+        "text": "An improvement in educational attainment that raises human capital."
+      }
+    ],
+    "answer": "D",
+    "explanation": "LRAS shifts (economic growth) require changes in productive capacity. A temporary AD increase (Option D) only shifts the economy along the short-run curves - in the long run, wages adjust and the economy returns to the original Yf; demand-side changes don't permanently shift the LRAS.",
+    "reference": "MOD-2.I | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "A graph shows the economy in a recessionary gap with the AD-SRAS intersection to the left of the LRAS. Which arrow correctly shows the long-run self-adjustment on the graph?",
+    "options": [
+      {
+        "label": "A",
+        "text": "AD₁ shifts left to AD₂ (further left)."
+      },
+      {
+        "label": "B",
+        "text": "LRAS shifts left to meet the AD-SRAS intersection."
+      },
+      {
+        "label": "C",
+        "text": "SRAS₁ shifts right to SRAS₂ until SRAS₂ intersects AD₁ on the LRAS at Yf."
+      },
+      {
+        "label": "D",
+        "text": "SRAS₁ shifts left to SRAS₂ (further left)."
+      },
+      {
+        "label": "E",
+        "text": "Both AD and SRAS shift right simultaneously."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Long-run self-adjustment from a recessionary gap is graphically shown as SRAS shifting RIGHT; wages fall → production costs fall → SRAS₁ shifts right to SRAS₂. The process continues until SRAS₂ intersects the unchanged AD on the LRAS at Yf; the LRAS stays fixed; AD stays fixed (no policy); SRAS adjusts rightward until equilibrium is restored at Yf.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "A graph shows the economy in an inflationary gap with the AD-SRAS intersection to the right of the LRAS. Which arrow correctly shows the long-run self-adjustment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "AD shifts right further."
+      },
+      {
+        "label": "B",
+        "text": "LRAS shifts right to meet the AD-SRAS intersection at the higher output."
+      },
+      {
+        "label": "C",
+        "text": "SRAS₁ shifts left to SRAS₂ until SRAS₂ intersects AD on the LRAS at Yf."
+      },
+      {
+        "label": "D",
+        "text": "SRAS₁ shifts right (wages rise → more workers available)."
+      },
+      {
+        "label": "E",
+        "text": "Both AD and SRAS shift left simultaneously."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Long-run self-adjustment from an inflationary gap is graphically shown as SRAS shifting LEFT; wages rise → production costs rise → SRAS₁ shifts left to SRAS₂. The process continues until SRAS₂ intersects the unchanged AD on the LRAS at Yf; AD stays fixed; LRAS stays fixed; SRAS adjusts leftward until equilibrium is restored at Yf (at a higher price level).",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "Which of the following correctly describes the long-run self-adjustment after a POSITIVE SRAS shock (that created an inflationary gap at a lower price level)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Wages fall further → SRAS shifts right again → inflationary gap widens."
+      },
+      {
+        "label": "B",
+        "text": "The LRAS shifts right to match the new higher output."
+      },
+      {
+        "label": "C",
+        "text": "Wages rise (tight labor markets as GDP > Yf) → production costs rise → SRAS shifts left back toward its original position → economy returns to Yf at a higher price level than during the inflationary gap."
+      },
+      {
+        "label": "D",
+        "text": "AD shifts right to validate the higher output."
+      },
+      {
+        "label": "E",
+        "text": "No self-correction occurs; the positive SRAS shock creates a permanent new equilibrium above Yf."
+      }
+    ],
+    "answer": "C",
+    "explanation": "After a positive SRAS shock creates an inflationary gap (GDP > Yf): unemployment < natural rate → wages rise → SRAS shifts left back → economy returns to Yf at a higher price level. The self-correction from a positive SRAS shock is the SAME as from a positive AD shock: wages rise → SRAS moves left until the economy is back at Yf.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "Economic growth is best depicted in the AD-AS model as",
+    "options": [
+      {
+        "label": "A",
+        "text": "a rightward shift of the AD curve representing higher aggregate demand."
+      },
+      {
+        "label": "B",
+        "text": "the economy moving along the SRAS curve to a higher price level."
+      },
+      {
+        "label": "C",
+        "text": "a rightward shift of the LRAS curve — the full-employment level of output (Yf) permanently increases, reflecting an expansion of the economy's productive capacity."
+      },
+      {
+        "label": "D",
+        "text": "a leftward shift of the SRAS representing lower production costs."
+      },
+      {
+        "label": "E",
+        "text": "the economy moving above Yf in an inflationary gap."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Economic growth is represented by a rightward LRAS shift - the Yf level on the horizontal axis moves to the right, indicating the economy can now sustain a higher level of full-employment output permanently. This distinguishes long-run growth (LRAS shift) from short-run fluctuations (movements around a fixed LRAS).",
+    "reference": "MOD-2.I | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "Country Alpha has Yf = $50T and is in a recessionary gap at $44T. No government policy is enacted. Which of the following is the expected long-run outcome for the price level?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The price level rises as the economy recovers to $50T."
+      },
+      {
+        "label": "B",
+        "text": "The price level stays the same throughout self-correction."
+      },
+      {
+        "label": "C",
+        "text": "The price level falls — self-correction from a recessionary gap involves wages falling → SRAS shifting right → the economy moving down the AD curve to lower prices as it returns to Yf."
+      },
+      {
+        "label": "D",
+        "text": "The price level first rises then falls, netting to zero change."
+      },
+      {
+        "label": "E",
+        "text": "The price level cannot be determined without knowing the size of the original shock."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Self-correction from a recessionary gap: wages fall → SRAS shifts right → new equilibrium moves down the AD curve → both the price level falls AND real GDP rises toward Yf. The new long-run equilibrium at Yf is at a LOWER price level than during the recessionary gap (and lower than the original pre-shock equilibrium if the shock was a negative AD shift).",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 31,
+    "difficulty": "Easy",
+    "prompt": "Country Beta has Yf = $60T and is in an inflationary gap at $68T. No government policy is enacted. Which of the following is the expected long-run outcome for employment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Employment remains permanently above the natural rate."
+      },
+      {
+        "label": "B",
+        "text": "Employment falls during self-correction and returns to the natural rate level — as wages rise and SRAS shifts left, GDP falls from $68T back to $60T, requiring fewer workers; unemployment returns to the natural rate."
+      },
+      {
+        "label": "C",
+        "text": "Employment rises even further above the natural rate."
+      },
+      {
+        "label": "D",
+        "text": "Employment falls below the natural rate as the economy overshoots."
+      },
+      {
+        "label": "E",
+        "text": "Employment is unaffected by the self-correction process."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Self-correction from an inflationary gap: wages rise → SRAS shifts left → GDP falls from $68T back to $60T → less output requires fewer workers → employment falls → unemployment rises from below the natural rate back TO the natural rate. Final outcome: employment at the natural-rate level, not permanently above it.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 32,
+    "difficulty": "Easy",
+    "prompt": "The long-run self-adjustment process implies that in the very long run, the economy",
+    "options": [
+      {
+        "label": "A",
+        "text": "always ends up in a recessionary gap due to market failures."
+      },
+      {
+        "label": "B",
+        "text": "always ends up in an inflationary gap due to rising wages."
+      },
+      {
+        "label": "C",
+        "text": "always returns to Yf (full employment) regardless of any short-run shock, as long as wages and prices are free to adjust — the LRAS is the long-run attractor of the economy."
+      },
+      {
+        "label": "D",
+        "text": "grows indefinitely without any adjustment needed."
+      },
+      {
+        "label": "E",
+        "text": "requires government intervention at least once per decade to maintain full employment."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The self-adjustment theorem states that the economy gravitates back to Yf (on the LRAS) through flexible wages and prices, regardless of the nature or magnitude of short-run shocks. AD shocks and SRAS shocks all create temporary deviations that are self-corrected; the LRAS is the long-run equilibrium anchor of the economy.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 33,
+    "difficulty": "Easy",
+    "prompt": "Which of the following correctly distinguishes the effects of a rightward AD shift from a rightward LRAS shift on real GDP in the long run?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both permanently raise real GDP — they have identical long-run effects."
+      },
+      {
+        "label": "B",
+        "text": "A rightward AD shift permanently raises real GDP above Yf; a rightward LRAS shift has no long-run effect."
+      },
+      {
+        "label": "C",
+        "text": "A rightward AD shift has NO permanent effect on real GDP (wages adjust and the economy returns to Yf at a higher price level); a rightward LRAS shift PERMANENTLY raises real GDP by increasing Yf itself."
+      },
+      {
+        "label": "D",
+        "text": "A rightward LRAS shift temporarily raises real GDP then returns to original Yf."
+      },
+      {
+        "label": "E",
+        "text": "Both shifts raise real GDP in the short run; neither has long-run effects."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.I.2: This is the key distinction: Rightward AD shift → short-run GDP↑, but self-correction returns GDP to UNCHANGED Yf at a higher PL (MOD-2.I.1). Rightward LRAS shift → Yf permanently INCREASES → long-run real GDP permanently higher (MOD-2.I.2); demand-side policy cannot permanently raise real GDP; supply-side growth can.",
+    "reference": "MOD-2.I | MOD-2.I.1 | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "Economy Alpha: Yf = $80T. Starting at LR equilibrium (PL=100). A positive AD shock raises GDP to $90T and PL to 112. No government policy is enacted. Trace the complete long-run self-adjustment sequence, identifying each step graphically.",
+    "options": [
+      {
+        "label": "A",
+        "text": "AD₂ shifts left back to AD₁ → economy returns to $80T, PL=100."
+      },
+      {
+        "label": "B",
+        "text": "LRAS shifts right to $90T → new Yf permanently higher."
+      },
+      {
+        "label": "C",
+        "text": "Step 1: Inflationary gap ($90T > $80T Yf); unemployment < natural rate. Step 2: Tight labor market → wages rise → production costs rise → SRAS₁ shifts left to SRAS₂. Step 3: SRAS₂ intersects AD₂ on LRAS at $80T and a higher PL (above 112). Final LR equilibrium: GDP = $80T = Yf, PL > 112 > 100. AD stays at AD₂; LRAS stays at $80T; only SRAS adjusts."
+      },
+      {
+        "label": "D",
+        "text": "Both AD₂ and SRAS₁ shift simultaneously, returning to $80T at PL=100."
+      },
+      {
+        "label": "E",
+        "text": "No self-adjustment occurs — the economy is stuck at $90T permanently."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Sequence: (1) Positive AD shock → inflationary gap → economy at $90T on AD₂ ∩ SRAS₁ at PL=112; (2) GDP > Yf → unemployment < natural rate → wages rise (MOD-2.I.1 mechanism); (3) Rising wages → SRAS₁ shifts left to SRAS₂. (4) SRAS₂ ∩ AD₂ on LRAS at $80T = Yf, but at a HIGHER PL than 112 (moving up the rightward-shifted AD₂ curve); final: GDP = $80T; PL > 112 > 100; AD stays right; LRAS stays; only SRAS moves left.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. AD₁ and SRAS₁ originally on LRAS at $80T, PL=100. AD₂ shifted right; SRAS₁ and AD₂ intersect at $90T and PL=112. LRAS at $80T. Arrow showing SRAS₁ shifting left to SRAS₂, which intersects AD₂ at $80T and PL=120.",
+    "graphRequired": true
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "Economy Beta: Yf = $60T. Starting at LR equilibrium (PL=105). A negative AD shock reduces GDP to $52T and PL to 96. No government policy is enacted. Trace the complete long-run self-adjustment sequence.",
+    "options": [
+      {
+        "label": "A",
+        "text": "AD₂ shifts right back to AD₁ → returns to PL=105."
+      },
+      {
+        "label": "B",
+        "text": "LRAS shifts left to $52T → new lower Yf."
+      },
+      {
+        "label": "C",
+        "text": "Step 1: Recessionary gap ($52T < $60T Yf); unemployment > natural rate. Step 2: Excess labor supply → wages fall → production costs fall → SRAS₁ shifts right to SRAS₂. Step 3: SRAS₂ intersects AD₂ on LRAS at $60T and a lower PL (below 96). Final LR equilibrium: GDP = $60T = Yf, PL < 96 < 105."
+      },
+      {
+        "label": "D",
+        "text": "Both AD₂ and SRAS shift right, returning to $60T at PL=105."
+      },
+      {
+        "label": "E",
+        "text": "Wages rise, causing SRAS to shift left and worsen the gap."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Sequence: (1) Negative AD shock → recessionary gap → economy at $52T on AD₂ ∩ SRAS₁ at PL=96; (2) GDP < Yf → unemployment > natural rate → wages fall. (3) Falling wages → SRAS₁ shifts right to SRAS₂; (4) SRAS₂ ∩ AD₂ on LRAS at $60T, but at a LOWER PL than 96 (moving down the leftward-shifted AD₂); final: GDP=$60T; PL < 96; AD stays left; LRAS fixed; SRAS adjusts right.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. AD₁ and SRAS₁ originally at $60T, PL=105 on LRAS. AD₂ shifted left; SRAS₁ and AD₂ intersect at $52T and PL=96. LRAS at $60T. SRAS₁ shifts right to SRAS₂, which intersects AD₂ at $60T and lower PL.",
+    "graphRequired": true
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "Economy Gamma: Yf = $70T. Starting at LR equilibrium (PL=108). A negative SRAS shock (oil price spike) moves the economy to $62T and PL=118 (stagflation + recessionary gap). No government policy is enacted. Trace the long-run self-adjustment.",
+    "options": [
+      {
+        "label": "A",
+        "text": "AD shifts right → GDP rises to $70T at PL=118."
+      },
+      {
+        "label": "B",
+        "text": "LRAS shifts left to $62T → economy adjusts to lower potential."
+      },
+      {
+        "label": "C",
+        "text": "Wages rise further → SRAS shifts further left → stagflation worsens."
+      },
+      {
+        "label": "D",
+        "text": "Step 1: Recessionary gap ($62T < $70T); unemployment > natural rate. Step 2: Excess labor supply → wages fall → SRAS₂ shifts right to SRAS₃. Step 3: SRAS₃ ∩ AD on LRAS at $70T, at a price level between 108 and 118. Final: GDP=$70T=Yf. PL is between original (108) and stagflation PL (118) — lower than 118 but higher than 108 (AD unchanged, so new intersection with rightward SRAS is between the two prior positions)."
+      },
+      {
+        "label": "E",
+        "text": "No self-correction — stagflation is a permanent state without government intervention."
+      }
+    ],
+    "answer": "D",
+    "explanation": "After a negative SRAS shock creates a recessionary gap: (1) GDP=$62T < Yf=$70T → unemployment > natural rate; (2) Wages fall → SRAS₂ shifts right to SRAS₃; (3) SRAS₃ ∩ unchanged AD at Yf=$70T on LRAS. Since AD is unchanged (no policy), the new intersection on the LRAS gives a PL between 108 and 118 - specifically, the PL falls from 118 (as SRAS shifts right along the unchanged AD) but the AD hasn't moved back to its original position relative to SRAS₁, so final PL > 108.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. AD and SRAS₁ originally at $70T, PL=108 on LRAS. SRAS₂ shifted left; AD and SRAS₂ intersect at $62T and PL=118. LRAS at $70T. SRAS₂ shifts right to SRAS₃, which intersects AD at $70T and a PL between 108 and 118.",
+    "graphRequired": true
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "Economy Delta: Yf = $90T. Starting at LR equilibrium (PL=100). A positive SRAS shock (technology breakthrough) moves the economy to $98T and PL=93 (inflationary gap at a lower price level). No government policy is enacted. Trace the long-run self-adjustment.",
+    "options": [
+      {
+        "label": "A",
+        "text": "AD shifts left → GDP falls to $90T at PL=93."
+      },
+      {
+        "label": "B",
+        "text": "LRAS shifts right to $98T → new higher Yf."
+      },
+      {
+        "label": "C",
+        "text": "Wages rise → SRAS shifts left → GDP falls back to $90T at a PL above 93 (moving up the unchanged AD curve). Final LR equilibrium: GDP=$90T=Yf, PL higher than 93 but potentially higher or equal to 100 depending on the magnitude."
+      },
+      {
+        "label": "D",
+        "text": "Wages fall further → SRAS shifts right again → GDP rises above $98T."
+      },
+      {
+        "label": "E",
+        "text": "No self-correction — positive supply shocks create permanent new equilibria above Yf."
+      }
+    ],
+    "answer": "C",
+    "explanation": "After a positive SRAS shock creates an inflationary gap: (1) GDP=$98T > Yf=$90T → unemployment < natural rate → wages rise; (2) Rising wages → SRAS₂ shifts left. (3) SRAS₂ ∩ unchanged AD on LRAS at $90T, at a PL higher than 93 (moving up the unchanged AD); if the SRAS shifts back to its original position, PL returns to 100; if it only partially reverses, PL is between 93 and 100.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "A student is asked to draw the long-run self-adjustment from an inflationary gap. The student correctly draws the AD₂ curve to the right of original AD₁, with AD₂ and SRAS₁ intersecting to the right of LRAS. The student then draws an arrow showing SRAS₁ shifting LEFT to SRAS₂. Where should SRAS₂ be positioned on the graph?",
+    "options": [
+      {
+        "label": "A",
+        "text": "SRAS₂ should intersect AD₁ (the original curve) on the LRAS."
+      },
+      {
+        "label": "B",
+        "text": "SRAS₂ should intersect the LRAS at the original LR equilibrium price level (PL=100)."
+      },
+      {
+        "label": "C",
+        "text": "SRAS₂ should intersect AD₂ (the current, rightward-shifted AD) exactly on the LRAS — because AD₂ is the relevant curve (there is no policy to shift AD back), SRAS must shift far enough left to intersect AD₂ at the LRAS (Yf). This new intersection is at a HIGHER PL than either the original or the inflationary gap price level."
+      },
+      {
+        "label": "D",
+        "text": "SRAS₂ should intersect the horizontal axis at the original Yf."
+      },
+      {
+        "label": "E",
+        "text": "SRAS₂ should be vertical at Yf — it becomes the LRAS after adjustment."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The key insight: SRAS must shift until it intersects the CURRENT AD (which is AD₂, the rightward-shifted one - no policy has shifted it back) on the LRAS. The self-correction does NOT return AD to its original position; AD stays at AD₂; so SRAS₂ must be positioned where SRAS₂ ∩ AD₂ = LRAS (at Yf); this intersection is above the original price level because AD₂ > AD₁.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. AD₂ (rightward) and SRAS₁ intersect to the RIGHT of LRAS. SRAS₂ arrow going left.",
+    "graphRequired": true
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "Compare and contrast the long-run self-adjustment from: (A) a negative AD shock vs. (B) a negative SRAS shock. Both create recessionary gaps. How does the self-correction mechanism differ, and how does the final long-run price level compare to the original?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both produce identical self-correction processes and identical final price levels."
+      },
+      {
+        "label": "B",
+        "text": "Scenario A (neg AD): SRAS shifts right → new LR equilibrium at Yf below original PL (lower PL). Scenario B (neg SRAS): SRAS shifts right back toward original → new LR equilibrium at Yf with PL somewhere between original and stagflation levels (above the stagflation PL reduction, but the mechanism is SRAS shifting right in both cases). Key difference: in Scenario A the final PL is lower than original; in Scenario B, the final PL may return closer to original since SRAS is self-reversing."
+      },
+      {
+        "label": "C",
+        "text": "Scenario A: AD shifts back right. Scenario B: LRAS shifts left."
+      },
+      {
+        "label": "D",
+        "text": "Self-correction never works for SRAS shocks — only AD shocks self-correct."
+      },
+      {
+        "label": "E",
+        "text": "Both produce a higher final price level than the original pre-shock equilibrium."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Both recessionary gaps trigger the same mechanism - wages fall → SRAS shifts right; scenario A (neg AD shock): AD₂ stays left; SRAS shifts right to meet AD₂ on LRAS → final PL LOWER than original. Scenario B (neg SRAS shock/stagflation): AD unchanged; SRAS₂ shifts right back → meets unchanged AD on LRAS → final PL BETWEEN original (108) and stagflation (118) - lower than stagflation but potentially above original if oil prices stay elevated.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "Two economists debate the speed and completeness of long-run self-adjustment.\n\nEconomist A: \"Self-adjustment is reliable but SLOW — wages are downwardly rigid, so recessionary gaps self-correct much more slowly than inflationary gaps.\"\n\nEconomist B: \"Self-adjustment is both fast and complete — wages always adjust quickly in both directions.\"\n\nWhich economist's view is more consistent with the logic of MOD-2.I.1?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Economist B is fully correct — wages always adjust quickly."
+      },
+      {
+        "label": "B",
+        "text": "Economist A is more consistent with the model's implications. MOD-2.I.1 confirms self-adjustment is COMPLETE (the economy does return to Yf), but the model does not guarantee speed. Empirically, wages are more downwardly rigid (workers resist pay cuts) than upwardly flexible, making recessionary gap self-correction slower. Inflationary gap correction (wages rise) tends to be faster. Both economists agree on completeness; they differ on speed."
+      },
+      {
+        "label": "C",
+        "text": "Neither economist is correct — self-adjustment is neither reliable nor fast."
+      },
+      {
+        "label": "D",
+        "text": "Economist B is correct for inflationary gaps; Economist A for recessionary gaps — both are fully correct."
+      },
+      {
+        "label": "E",
+        "text": "Economist A is correct but only for SRAS-shock recessionary gaps."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.I.1 states self-adjustment is complete (economy does return to Yf); the model does not specify the speed. Empirically, downward nominal wage rigidity makes recessionary gap correction slower - workers and unions resist wage cuts, slowing the SRAS rightward shift; inflationary gap correction (wages rising) faces less resistance; economist A correctly notes the asymmetry in speed; Economist B overstates the speed of downward adjustment.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "Economy Epsilon: Yf = $100T. Recessionary gap: GDP = $88T. Self-adjustment begins. Partway through the adjustment, GDP has risen to $94T. Describe the state of the economy at this intermediate point and explain what continues to drive the adjustment.",
+    "options": [
+      {
+        "label": "A",
+        "text": "At $94T: LR equilibrium — self-adjustment is complete."
+      },
+      {
+        "label": "B",
+        "text": "At $94T: recessionary gap still exists ($94T < $100T Yf); unemployment still > natural rate; wages continue to fall; SRAS continues shifting right; adjustment is incomplete and ongoing."
+      },
+      {
+        "label": "C",
+        "text": "At $94T: inflationary gap created — wages now rise, reversing the adjustment."
+      },
+      {
+        "label": "D",
+        "text": "At $94T: the economy is at the natural rate of unemployment — no further adjustment needed."
+      },
+      {
+        "label": "E",
+        "text": "At $94T: self-adjustment stops automatically halfway through the process."
+      }
+    ],
+    "answer": "B",
+    "explanation": "At $94T, the economy is still in a recessionary gap ($94T < Yf = $100T); unemployment is still above the natural rate (less than original but still above natural). Wages continue to fall (excess labor supply); SRAS continues shifting right; self-adjustment is ongoing until GDP reaches exactly Yf = $100T; self-correction is a continuous process that stops only when the economy is exactly at Yf on the LRAS.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. LRAS at $100T. AD and SRAS₂ (partially shifted right from SRAS₁) intersect at $94T. Still left of LRAS.",
+    "graphRequired": true
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "Economy Zeta: Yf = $120T. Inflationary gap: GDP = $130T. Self-adjustment begins. Partway through, GDP has fallen to $125T. Describe the state and what drives continued adjustment.",
+    "options": [
+      {
+        "label": "A",
+        "text": "At $125T: LR equilibrium — self-adjustment is complete."
+      },
+      {
+        "label": "B",
+        "text": "At $125T: inflationary gap still exists ($125T > $120T Yf); unemployment still < natural rate; wages continue to rise; SRAS continues shifting left; adjustment is incomplete."
+      },
+      {
+        "label": "C",
+        "text": "At $125T: recessionary gap created — wages now fall."
+      },
+      {
+        "label": "D",
+        "text": "At $125T: the economy overshot Yf and is now in a recessionary gap."
+      },
+      {
+        "label": "E",
+        "text": "Self-adjustment stops at $125T because the wage increases are too small to continue the adjustment."
+      }
+    ],
+    "answer": "B",
+    "explanation": "At $125T, the economy remains in an inflationary gap ($125T > Yf = $120T). Unemployment is still below the natural rate (less tight than at $130T but still tight); wages continue to rise; SRAS continues shifting left; self-correction is ongoing until GDP falls to exactly $120T; the adjustment continues as long as GDP ≠ Yf.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "Economy Eta: Yf = $75T. Starting at LR equilibrium (PL=105). Sequence:\n\n1. Negative AD shock → GDP=$67T, PL=97.\n\n2. No policy action.\n\n3. Long-run self-adjustment occurs.\n\nAfter complete self-adjustment: (a) what is real GDP? (b) what type of price level change occurred? (c) what happened to unemployment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) $75T; (b) PL rose above 97; (c) unemployment stayed above natural rate."
+      },
+      {
+        "label": "B",
+        "text": "(a) $75T; (b) PL fell below 97; (c) unemployment fell below natural rate."
+      },
+      {
+        "label": "C",
+        "text": "(a) $75T — returns to Yf; (b) PL fell below 97 (as SRAS shifted right along the leftward-shifted AD₂, moving down the AD₂ curve to a lower PL); (c) unemployment returned to natural rate — cyclical unemployment eliminated."
+      },
+      {
+        "label": "D",
+        "text": "(a) $67T — GDP stays at recessionary level; (b) PL remains at 97; (c) unemployment permanently elevated."
+      },
+      {
+        "label": "E",
+        "text": "(a) $80T — economy overshoots; (b) PL rises above 105; (c) unemployment below natural rate."
+      }
+    ],
+    "answer": "C",
+    "explanation": "After self-adjustment from recessionary gap caused by negative AD: (a) GDP returns to Yf = $75T; (b) PL: SRAS shifts right along AD₂ (which is LEFT of original AD₁). Moving down and to the right along AD₂ from $67T to $75T → PL falls further below 97; new LR PL < 97 < 105; (c) Unemployment returns to natural rate - cyclical unemployment disappears as GDP = Yf.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "An economy with Yf = $80T is subjected to three consecutive shocks with no government policy after each:\n\nShock 1: Positive AD → GDP=$88T.\n\nShock 2 (while still at $88T): Negative SRAS → GDP=$80T.\n\nShock 3: No further shock; self-adjustment completes.\n\nAfter Shock 2 and self-adjustment, where does the economy end up? Is self-adjustment needed after Shock 2?",
+    "options": [
+      {
+        "label": "A",
+        "text": "After Shock 2: GDP=$80T=Yf; LR equilibrium — no further self-adjustment needed."
+      },
+      {
+        "label": "B",
+        "text": "After Shock 2: GDP=$80T but still in inflationary gap; self-adjustment required."
+      },
+      {
+        "label": "C",
+        "text": "After Shock 2: GDP=$80T=Yf; this IS the long-run equilibrium IF AD₂ (the rightward-shifted AD from Shock 1) and the new SRAS₂ (leftward-shifted from Shock 2) intersect exactly on the LRAS at $80T. If so, no further self-adjustment needed. But note: the price level at this intersection is HIGHER than the original due to Shock 1 raising PL and Shock 2 further raising PL."
+      },
+      {
+        "label": "D",
+        "text": "After Shock 2: recessionary gap at $80T; wages fall; self-adjustment needed."
+      },
+      {
+        "label": "E",
+        "text": "After Shock 2: inflationary gap at $80T; wages rise; self-adjustment needed."
+      }
+    ],
+    "answer": "C",
+    "explanation": "If Shock 1 (positive AD) raised GDP to $88T (inflationary gap), and Shock 2 (negative SRAS) reduced GDP exactly back to $80T = Yf, then the new AD₂-SRAS₂ intersection is exactly on the LRAS at Yf = $80T → the economy is at LR equilibrium after Shock 2. No further self-adjustment is needed, because all three curves (AD₂, SRAS₂, LRAS) intersect at $80T; the price level is higher due to both shocks pushing PL up, but output is at Yf.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "Economy Kappa: Yf = $60T. A recessionary gap ($52T) exists. The government considers two options:\n\nOption A: Wait for long-run self-adjustment (no policy).\n\nOption B: Use expansionary fiscal policy to close the gap.\n\nCompare the final price level under each option, using MOD-2.I.1.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A: higher final PL; Option B: lower final PL."
+      },
+      {
+        "label": "B",
+        "text": "Option A: lower final PL (self-correction via rightward SRAS → moves down the leftward AD₂ curve → PL falls); Option B: higher final PL (AD shifts right → economy moves up SRAS₂ → PL rises; demand-pull inflation)."
+      },
+      {
+        "label": "C",
+        "text": "Both options produce the same final price level."
+      },
+      {
+        "label": "D",
+        "text": "Option A: PL returns to original; Option B: PL rises above original."
+      },
+      {
+        "label": "E",
+        "text": "Option A: PL stays at recessionary gap level; Option B: PL rises further."
+      }
+    ],
+    "answer": "B",
+    "explanation": "(self-adjustment): wages fall → SRAS shifts right → moves down the leftward AD₂ (from negative shock) → final LR PL is LOWER than original. Key contrast: self-adjustment produces lower prices; fiscal expansion produces higher prices when closing a recessionary gap; both restore GDP to $60T = Yf, but the price level outcomes differ.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "Economy Lambda: Yf = $100T. An inflationary gap ($110T) exists due to a positive AD shock. The government considers two options:\n\nOption A: Wait for long-run self-adjustment.\n\nOption B: Use contractionary fiscal policy to close the gap.\n\nCompare the final price levels under each option.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A: lower final PL; Option B: higher final PL."
+      },
+      {
+        "label": "B",
+        "text": "Option A: higher final PL (self-correction via leftward SRAS → moves up the rightward AD₂ → PL rises further); Option B: lower final PL (AD₂ shifts left → economy moves down SRAS₁ → PL falls)."
+      },
+      {
+        "label": "C",
+        "text": "Both options produce the same final price level."
+      },
+      {
+        "label": "D",
+        "text": "Option A: PL returns to original; Option B: PL rises to inflationary gap level."
+      },
+      {
+        "label": "E",
+        "text": "Option A: PL remains at inflationary gap level; Option B: PL falls below original."
+      }
+    ],
+    "answer": "B",
+    "explanation": "(self-adjustment): wages rise → SRAS shifts left → moves up AD₂ (rightward-shifted) → final LR PL is HIGHER than the inflationary gap price level. Key contrast: self-adjustment from an inflationary gap produces higher prices; contractionary policy produces lower prices; both restore GDP to $100T.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "Economy Mu: Yf = $90T. The economy is currently at LR equilibrium. Then, over the next decade, the following occur due to capital investment and technological progress:\n\n• Capital stock grows by 25%.\n\n• Technology raises productivity by 15%.\n\nDescribe the effect on the LRAS and explain how this relates to MOD-2.I.2.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The LRAS shifts left — more capital means higher costs."
+      },
+      {
+        "label": "B",
+        "text": "The SRAS shifts right — lower production costs from technology."
+      },
+      {
+        "label": "C",
+        "text": "The LRAS shifts right — capital growth and technology increase the economy's productive capacity, permanently raising Yf above $90T. This is long-run economic growth (MOD-2.I.2): the full-employment level of output increases, meaning the economy can now sustain more real GDP at full employment than before."
+      },
+      {
+        "label": "D",
+        "text": "The LRAS shifts right only if the government also increases spending."
+      },
+      {
+        "label": "E",
+        "text": "Neither curve shifts — capital and technology only affect short-run supply."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Capital stock growth (+25%) and productivity improvements (+15%) increase the economy's productive capacity → LRAS shifts right → Yf increases above $90T. \"Shifts in the long-run aggregate supply (LRAS) curve indicate changes in the full-employment level of output and economic growth.\" This is the mechanism of long-run growth - expanding capacity, not fluctuating around a fixed potential.",
+    "reference": "MOD-2.I | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "An economy goes through three phases:\n\nPhase 1: Long-run equilibrium at Yf = $50T.\n\nPhase 2: Negative AD shock → GDP = $42T (recessionary gap of $8T).\n\nPhase 3: Self-adjustment (no policy).\n\nAfter Phase 3, is the final Yf the same as in Phase 1 ($50T), lower, or higher? Explain.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Final Yf is lower ($42T) — the self-adjustment permanently lowers potential output."
+      },
+      {
+        "label": "B",
+        "text": "Final Yf is higher (above $50T) — wages falling raises productive capacity."
+      },
+      {
+        "label": "C",
+        "text": "Final Yf is unchanged at $50T — the LRAS does not shift during self-adjustment. Self-correction (MOD-2.I.1) involves SRAS adjusting to restore GDP to the EXISTING Yf. Potential output changes only with LRAS shifts (MOD-2.I.2), which require changes in productive capacity, not just wage/price adjustment."
+      },
+      {
+        "label": "D",
+        "text": "Final Yf depends on how long the recessionary gap lasted."
+      },
+      {
+        "label": "E",
+        "text": "Final Yf is lower if wages fell significantly during the adjustment."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.I.2: Long-run self-adjustment (MOD-2.I.1) returns GDP to the EXISTING Yf - the LRAS does NOT shift; yf is unchanged at $50T. Only changes in productive capacity (capital, technology, labor, human capital) shift the LRAS (MOD-2.I.2); simply adjusting wages does not change the economy's potential output; after self-adjustment, the economy returns to Yf = $50T, not a new higher or lower Yf.",
+    "reference": "MOD-2.I | MOD-2.I.1 | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "Economy Nu: Yf = $80T, PL=108. A negative AD shock creates a recessionary gap: GDP=$72T, PL=98. With no policy, self-correction proceeds over several years. After self-adjustment:\n\n(a) What is real GDP?\n\n(b) What happened to wages during adjustment?\n\n(c) Is the new LR price level above or below 98?\n\n(d) Is the new LR price level above or below 108?",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) $80T; (b) fell; (c) below 98; (d) below 108."
+      },
+      {
+        "label": "B",
+        "text": "(a) $72T; (b) rose; (c) above 98; (d) above 108."
+      },
+      {
+        "label": "C",
+        "text": "(a) $80T; (b) rose; (c) above 98; (d) above 108."
+      },
+      {
+        "label": "D",
+        "text": "(a) $80T; (b) fell; (c) below 98; (d) above 108."
+      },
+      {
+        "label": "E",
+        "text": "The response completely eliminates every output gap."
+      }
+    ],
+    "answer": "A",
+    "explanation": "(a) GDP returns to Yf = $80T; (b) Recessionary gap → wages fell (excess labor supply → downward wage pressure). (c) As SRAS shifts right, equilibrium moves down the leftward-shifted AD₂ curve → PL falls below 98 (the recessionary gap price level); (d) Since the new LR PL is below 98, it is also below the original 108; final LR PL < 98 < 108; full answer: (a) $80T; (b) fell; (c) below 98; (d) below 108.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "Economy Pi: Yf = $70T, PL=100. A positive AD shock creates an inflationary gap: GDP=$78T, PL=112. With no policy, self-correction proceeds. After self-adjustment:\n\n(a) What is real GDP?\n\n(b) What happened to wages during adjustment?\n\n(c) Is the new LR price level above or below 112?\n\n(d) Is the new LR price level above or below 100?",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) $70T; (b) rose; (c) above 112; (d) above 100."
+      },
+      {
+        "label": "B",
+        "text": "(a) $70T; (b) fell; (c) below 112; (d) below 100."
+      },
+      {
+        "label": "C",
+        "text": "(a) $78T; (b) rose; (c) above 112; (d) above 100."
+      },
+      {
+        "label": "D",
+        "text": "(a) $70T; (b) rose; (c) below 112; (d) below 100."
+      },
+      {
+        "label": "E",
+        "text": "The response completely eliminates every output gap."
+      }
+    ],
+    "answer": "A",
+    "explanation": "(a) GDP returns to Yf = $70T; (b) Inflationary gap → wages rose (tight labor market → upward wage pressure). (c) As SRAS shifts left, equilibrium moves UP the rightward-shifted AD₂ → PL rises above 112 (the inflationary gap price level); (d) Since new LR PL > 112 > 100, the new LR PL is also above 100; full answer: (a) $70T; (b) rose; (c) above 112; (d) above 100.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "A student argues: \"Long-run self-adjustment is just a theoretical concept — in reality, economies never return to potential output without government intervention.\" Using MOD-2.I.1, evaluate this claim.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Correct — self-adjustment is purely theoretical and never occurs in practice."
+      },
+      {
+        "label": "B",
+        "text": "The claim overstates. MOD-2.I.1 describes a real mechanism (flexible wages and prices) that does operate in economies, even if slowly. Historical evidence shows economies do eventually recover from recessions even without active policy (though debates about speed and desirability of waiting exist). The model provides the mechanism; empirical debates concern the speed of wage adjustment and whether the wait is socially acceptable. Saying \"never\" overstates the case."
+      },
+      {
+        "label": "C",
+        "text": "Incorrect — self-adjustment is always instantaneous and reliable."
+      },
+      {
+        "label": "D",
+        "text": "Correct — the model itself acknowledges that government policy is always needed."
+      },
+      {
+        "label": "E",
+        "text": "Correct — MOD-2.I.1 only applies to SRAS shocks, not AD shocks."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The mechanism is real but can be slow; wages do eventually adjust - upward during inflationary gaps and (more slowly) downward during recessionary gaps. Historical recoveries without active policy support the theoretical prediction, though the speed varies; the debate is about the cost of waiting (output loss, unemployment suffering) vs. policy-driven intervention; the claim that it \"never\" works is too strong; MOD-2.I.1 describes a genuine, if slow, market mechanism.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "Economy Rho: starting at LR equilibrium (Yf=$60T, PL=110). A positive AD shock and then a negative SRAS shock occur simultaneously, leaving the economy at GDP=$60T but PL=120. Is the economy in LR equilibrium? Does self-adjustment occur?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes, LR equilibrium — GDP=$60T=Yf → no self-adjustment needed."
+      },
+      {
+        "label": "B",
+        "text": "Not necessarily LR equilibrium. For LR equilibrium, AD and SRAS must both intersect the LRAS at $60T. If the current AD₂ and SRAS₂ intersection is at $60T on the LRAS, then it IS LR equilibrium — just at a higher price level (PL=120 instead of 110). No further self-adjustment is needed if GDP=Yf and the intersection is stable."
+      },
+      {
+        "label": "C",
+        "text": "Not LR equilibrium — PL=120 is too high; wages must fall to lower PL back to 110."
+      },
+      {
+        "label": "D",
+        "text": "Not LR equilibrium — GDP=$60T is coincidental; it will move away from Yf."
+      },
+      {
+        "label": "E",
+        "text": "Self-adjustment always occurs regardless of the GDP level."
+      }
+    ],
+    "answer": "B",
+    "explanation": "If GDP=$60T=Yf and AD₂∩SRAS₂ is on the LRAS at $60T, the economy IS in LR equilibrium - even at PL=120. LR equilibrium does not require a specific price level, only that GDP=Yf with all curves intersecting; no further self-adjustment is needed; the price level of 120 is the new long-run equilibrium price, permanently higher than 110 due to the cumulative shocks.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "Economy Sigma: Yf = $80T. Compare two scenarios — both start from LR equilibrium and experience a $10T recessionary gap:\n\nScenario A: Gap caused by a negative AD shock (GDP=$70T).\n\nScenario B: Gap caused by a negative SRAS shock (GDP=$70T, PL higher than original).\n\nFor each scenario, after self-adjustment with no policy: (a) what is the final real GDP? (b) how does the final LR PL compare to the original pre-shock PL?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A: GDP=$80T, PL below original. B: GDP=$80T, PL between original and stagflation PL."
+      },
+      {
+        "label": "B",
+        "text": "A: GDP=$80T, PL rises above original. B: GDP=$80T, PL falls below original."
+      },
+      {
+        "label": "C",
+        "text": "Both: GDP=$80T, PL returns to original."
+      },
+      {
+        "label": "D",
+        "text": "A: GDP=$70T permanently. B: GDP=$80T."
+      },
+      {
+        "label": "E",
+        "text": "Both: GDP=$80T, PL rises above original."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Both scenarios: GDP returns to Yf=$80T; price levels differ: Scenario A (neg AD shock): AD₂ is LEFT of original; self-correction: SRAS shifts right along AD₂ (leftward) → new LR PL BELOW original; scenario B (neg SRAS shock): AD unchanged. Self-correction: SRAS₂ shifts right back toward original SRAS₁ → new LR PL is between stagflation PL (above original) and the level after SRAS shifts right (the PL falls from stagflation level as SRAS shifts right along the unchanged AD); final PL: between original and stagflation level; for Scenario B, the final PL depends on where SRAS₂ settles - if oil prices stay elevated, SRAS doesn't fully return and PL > original.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "Economy Tau: Yf = $100T. Starting at LR equilibrium. A policymaker argues: \"If we just let the economy self-adjust from a recessionary gap, the price level will fall — this deflation is actually harmful and causes the economy to stay in recession longer.\" Using MOD-2.I.1, evaluate this argument.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Incorrect — price level changes are irrelevant to self-adjustment."
+      },
+      {
+        "label": "B",
+        "text": "The argument raises a valid concern. MOD-2.I.1 describes the mechanism: wages fall → SRAS shifts right → PL falls → GDP returns to Yf. While the model predicts eventual recovery, falling prices (deflation) can create complications: real debt burdens rise (consumers/firms with fixed nominal debts face higher real payments), potentially reducing spending further and slowing self-correction. This is the \"debt-deflation\" concern. The model predicts self-correction occurs, but the policymaker raises a legitimate practical complication."
+      },
+      {
+        "label": "C",
+        "text": "The argument is correct — deflation always prevents self-adjustment."
+      },
+      {
+        "label": "D",
+        "text": "Incorrect — deflation accelerates self-adjustment by making goods cheaper, stimulating demand."
+      },
+      {
+        "label": "E",
+        "text": "Correct — self-adjustment requires rising prices, not falling prices."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.I.1 confirms self-adjustment does eventually return the economy to Yf, even with falling prices. However, the policymaker's concern about deflation complications is legitimate: falling prices → rising real debt burdens → potential further spending declines → SLOWER self-correction; the model predicts the direction and destination (Yf) but not the smooth path; debt-deflation effects are a real-world complication that can slow the MOD-2.I.1 mechanism.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "Economy Upsilon: Yf grows from $80T to $95T over 10 years due to sustained capital investment and technological progress. Simultaneously, the economy maintains its actual GDP close to Yf throughout (no significant output gaps). How does this sustained economic growth relate to MOD-2.I.2?",
+    "options": [
+      {
+        "label": "A",
+        "text": "This is self-adjustment (MOD-2.I.1) — wages adjusting to restore original Yf."
+      },
+      {
+        "label": "B",
+        "text": "The LRAS shifts right from $80T to $95T over the decade (MOD-2.I.2) — each year, capital investment and technology raise productive capacity, permanently increasing Yf. The economy experiences long-run growth: the full-employment level of output rises from $80T to $95T. This is distinct from self-adjustment (which returns GDP to existing Yf); this is Yf itself increasing."
+      },
+      {
+        "label": "C",
+        "text": "The AD curve shifting right accounts for the GDP growth — not the LRAS."
+      },
+      {
+        "label": "D",
+        "text": "The SRAS shifts right 10 times — one rightward shift per year."
+      },
+      {
+        "label": "E",
+        "text": "No curve shifts are involved — the GDP growth is a movement along existing curves."
+      }
+    ],
+    "answer": "B",
+    "explanation": "\"Shifts in the LRAS indicate changes in the full-employment level of output and economic growth.\" Over 10 years, capital investment and technological progress steadily shift the LRAS rightward from $80T to $95T - this IS the model of long-run economic growth. The economy's potential continuously expands; this is fundamentally different from MOD-2.I.1 self-correction (which only moves SRAS around a fixed Yf).",
+    "reference": "MOD-2.I | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "Economy Phi: After a positive AD shock creates an inflationary gap ($85T vs. Yf=$75T), the economy self-adjusts. The SRAS shifts left until equilibrium is restored. During this adjustment, an economist observes that real wages are falling even though nominal wages are rising. Explain this observation using MOD-2.I.1.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Incorrect — real wages cannot fall when nominal wages rise."
+      },
+      {
+        "label": "B",
+        "text": "During inflationary gap self-correction: nominal wages rise (workers demand higher pay as labor is scarce). But the price level rises faster than nominal wages during the adjustment process (SRAS shifts left → price level rises along the rightward AD₂ curve). Real wages = nominal wages ÷ price level. If the price level rises proportionally faster, real wages can fall even as nominal wages increase. Eventually, real wages restore to equilibrium and the SRAS stops shifting."
+      },
+      {
+        "label": "C",
+        "text": "Real wages are irrelevant to the self-adjustment process — only nominal wages matter."
+      },
+      {
+        "label": "D",
+        "text": "Real wages always rise during inflationary gap self-correction."
+      },
+      {
+        "label": "E",
+        "text": "Real wages cannot be observed during the adjustment process."
+      }
+    ],
+    "answer": "B",
+    "explanation": "During inflationary gap self-correction: (1) Nominal wages rise (tight labor market); (2) Price level also rises as SRAS shifts left along the rightward AD₂. (3) If the price level rises faster than nominal wages (temporarily), real wages can fall even with rising nominal wages; the self-correction process restores real wages to equilibrium when nominal wages have fully caught up to the new price level, at which point the SRAS stops shifting and GDP = Yf.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "Economy Chi: Yf = $50T. The economy is in a recessionary gap at $43T. The government does not intervene. After complete self-adjustment, a new shock creates an inflationary gap ($58T). Again, no policy. After the second self-adjustment, what is the final real GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "First self-adjustment → $50T. Second self-adjustment → $50T. Final GDP = $50T."
+      },
+      {
+        "label": "B",
+        "text": "First self-adjustment → $50T. Second self-adjustment → $60T (above Yf)."
+      },
+      {
+        "label": "C",
+        "text": "First self-adjustment → $43T (never recovers). Second self-adjustment → $58T."
+      },
+      {
+        "label": "D",
+        "text": "First → $50T. Second → $45T (overshoots into recessionary gap)."
+      },
+      {
+        "label": "E",
+        "text": "Both self-adjustments leave GDP between $43T and $58T permanently."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Each self-adjustment returns the economy to the same Yf = $50T; first adjustment: recessionary gap ($43T) → wages fall → SRAS shifts right → GDP returns to $50T. Second adjustment: inflationary gap ($58T) → wages rise → SRAS shifts left → GDP returns to $50T; self-adjustment always converges to the same Yf (which is unchanged at $50T for both adjustments); the LRAS is the gravitational anchor throughout.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "Economy Omega: Yf = $90T. A sequence of events:\n\n1. Positive AD shock → inflationary gap.\n\n2. Self-adjustment: SRAS shifts left → returns to Yf at higher PL.\n\n3. A negative SRAS shock creates a new recessionary gap.\n\n4. Self-adjustment again: SRAS shifts right → returns to Yf.\n\nAfter steps 1-4, which is higher — the final LR price level or the original LR price level before step 1?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Final PL = original PL — the two self-adjustments cancel."
+      },
+      {
+        "label": "B",
+        "text": "Final PL < original — the negative SRAS shock more than offsets the positive AD shock."
+      },
+      {
+        "label": "C",
+        "text": "Final PL > original — step 1 (positive AD) raised PL, and step 2 self-adjustment raised it further. Step 3 (negative SRAS) created stagflation (PL rose more). Step 4 self-adjustment brought PL down from the stagflation level. The final PL depends on all accumulated changes — likely still above original since both shocks and both self-corrections tended to push PL upward."
+      },
+      {
+        "label": "D",
+        "text": "Final PL is exactly the same as at step 2 equilibrium."
+      },
+      {
+        "label": "E",
+        "text": "Cannot be determined without specific numbers."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Step 1 (positive AD) and step 2 (SRAS left self-correction): both tend to raise PL - final PL after step 2 > original; step 3 (negative SRAS) raises PL further (stagflation); step 4 (SRAS right self-correction) lowers PL from stagflation level. But the net effect: given positive AD raised PL, step 2 raised it more, step 3 raised it further, and step 4 reduces from the stagflation peak - the final PL is generally above the original; the exact level depends on relative magnitudes, but qualitatively the accumulated demand expansion and supply shocks tend to leave PL elevated.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "Economy Iota: A student says: \"In the long run, the SRAS curve always ends up at the same position as before any shock — the self-adjustment completely undoes the SRAS shift.\" Is this correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Correct — the SRAS always returns to its exact original position."
+      },
+      {
+        "label": "B",
+        "text": "Not fully correct. After a shock and self-adjustment, the SRAS settles at a position that intersects the CURRENT AD (which may be different from the original) on the LRAS at Yf. If AD has shifted (due to the original shock), the new SRAS position is NOT the same as before the shock — it adjusts to intersect the new AD at Yf. The SRAS position after self-adjustment depends on where AD currently is."
+      },
+      {
+        "label": "C",
+        "text": "Correct — the SRAS always returns to the exact original position regardless of AD shifts."
+      },
+      {
+        "label": "D",
+        "text": "Incorrect — the SRAS permanently shifts away from its original position and never returns."
+      },
+      {
+        "label": "E",
+        "text": "Correct only if the original shock was an AD shock; incorrect for SRAS shocks."
+      }
+    ],
+    "answer": "B",
+    "explanation": "After self-adjustment, the SRAS intersects the CURRENT AD on the LRAS; if AD shifted (positive or negative demand shock), the SRAS must shift to a NEW position (different from original) to intersect the new AD at Yf. For example: after a positive AD shock and inflationary gap self-correction, SRAS shifted left to intersect AD₂ (rightward-shifted) at Yf - the SRAS is MORE LEFT than original; for a negative SRAS shock and recessionary gap self-correction, SRAS shifts right - it may return close to but not exactly to its original position depending on the magnitude.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "Economy Kappa: Yf = $60T. Real GDP = $55T (recessionary gap). The self-adjustment mechanism begins. Meanwhile, a new positive AD shock occurs (independently) that raises GDP by $8T at the current SRAS position. Describe the combined effect and the new output gap.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The positive AD shock shifts GDP to $55T + $8T = $63T. Since $63T > Yf = $60T, a new inflationary gap of $3T now exists. The self-adjustment mechanism now reverses direction: instead of SRAS shifting right (for the recessionary gap), wages now rise (inflationary gap) → SRAS shifts left."
+      },
+      {
+        "label": "B",
+        "text": "The positive AD shock and recessionary self-correction cancel exactly, leaving GDP at $60T."
+      },
+      {
+        "label": "C",
+        "text": "The economy remains at $55T — simultaneous shocks cancel each other."
+      },
+      {
+        "label": "D",
+        "text": "GDP rises to $63T; this confirms the original recessionary gap was larger than expected."
+      },
+      {
+        "label": "E",
+        "text": "GDP rises to $60T exactly, as the AD shock and self-correction combine perfectly."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Starting at $55T (recessionary gap, $5T below Yf); positive AD shock during adjustment raises GDP by $8T: new GDP = $55T + $8T = $63T; new output gap = $63T - $60T = +$3T → inflationary gap created. Self-adjustment direction reverses: instead of SRAS shifting right (correcting recessionary gap), wages now rise (unemployment < natural rate at $63T > Yf) → SRAS shifts left until GDP returns to Yf = $60T; the independent AD shock interrupted and reversed the recessionary gap correction.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "Economy Rho: Yf = $80T. Starting at LR equilibrium (PL=110). A negative AD shock creates a recessionary gap ($70T, PL=98). With no policy, the economy self-adjusts. Graph the complete sequence showing BOTH the original LR equilibrium and the new LR equilibrium after self-adjustment.",
+    "options": [
+      {
+        "label": "A",
+        "text": "New LR equilibrium: $80T at PL above 110."
+      },
+      {
+        "label": "B",
+        "text": "New LR equilibrium: $80T at PL=110 (same as original)."
+      },
+      {
+        "label": "C",
+        "text": "New LR equilibrium: $80T at PL below 98 — as SRAS shifts right along the leftward AD₂, the new intersection on the LRAS is at Yf=$80T but at a lower price than the recessionary gap (PL=98) and also lower than the original LR equilibrium (PL=110). Both the old and new LR equilibria are at GDP=$80T, but at different price levels."
+      },
+      {
+        "label": "D",
+        "text": "New LR equilibrium: $80T at PL between 98 and 110."
+      },
+      {
+        "label": "E",
+        "text": "New LR equilibrium: $70T permanently."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Original LR equilibrium: $80T, PL=110; after negative AD shock: recessionary gap at $70T, PL=98; self-adjustment: SRAS shifts right along AD₂ (which is to the LEFT of AD₁). As SRAS₂ moves right, the intersection moves down and to the right along AD₂; when SRAS₂ ∩ AD₂ = LRAS at $80T, the new PL is below 98 (continuing to fall as SRAS moves right along leftward AD₂); new LR equilibrium: $80T at PL < 98 < 110.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. AD₁ and SRAS₁ on LRAS at $80T, PL=110. AD₂ (left of AD₁) and SRAS₁ intersect at $70T, PL=98. SRAS₂ (right of SRAS₁) intersects AD₂ at $80T on LRAS at PL<98.",
+    "graphRequired": true
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "Economy Sigma: Yf = $70T. Starting at LR equilibrium (PL=105). A positive AD shock creates an inflationary gap ($80T, PL=115). With no policy, the economy self-adjusts. Describe the complete graphical sequence showing the new LR equilibrium.",
+    "options": [
+      {
+        "label": "A",
+        "text": "New LR equilibrium: $70T at PL=105 (returns to original)."
+      },
+      {
+        "label": "B",
+        "text": "New LR equilibrium: $80T at PL=115 (stays at inflationary gap)."
+      },
+      {
+        "label": "C",
+        "text": "New LR equilibrium: $70T at PL above 115 — as SRAS shifts left along the rightward AD₂, the intersection moves up and to the left along AD₂. When SRAS₂ ∩ AD₂ = LRAS at $70T, the PL is above 115 (moved up AD₂ from the inflationary gap level). New LR equilibrium: GDP=$70T, PL > 115 > 105."
+      },
+      {
+        "label": "D",
+        "text": "New LR equilibrium: $70T at PL between 105 and 115."
+      },
+      {
+        "label": "E",
+        "text": "New LR equilibrium: $60T at PL below 105."
+      }
+    ],
+    "answer": "C",
+    "explanation": "After positive AD shock: inflationary gap at $80T, PL=115 (on AD₂ and SRAS₁); self-adjustment: wages rise → SRAS₁ shifts left to SRAS₂; as SRAS₂ moves left, intersection with AD₂ moves up and to the left along AD₂. When SRAS₂ ∩ AD₂ = LRAS at $70T, the PL > 115; new LR equilibrium: GDP=$70T, PL > 115 > 105; both the original and new LR equilibria are at $70T, but the new one has a permanently higher price level.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. AD₁ and SRAS₁ on LRAS at $70T, PL=105. AD₂ (right) and SRAS₁ intersect at $80T, PL=115. SRAS₂ (left) intersects AD₂ at $70T on LRAS at PL>115.",
+    "graphRequired": true
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "Economy Alpha: Yf = $100T. The economy experiences a negative SRAS shock from a global commodity price surge, creating stagflation (GDP=$88T, PL=118). With no policy, the long-run self-adjustment mechanism begins. A student argues that wages should RISE during this self-correction, as the higher price level means workers should demand more pay. Evaluate this argument.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Correct — higher prices during stagflation always cause wages to rise, preventing self-correction."
+      },
+      {
+        "label": "B",
+        "text": "Incorrect. The self-correction mechanism from a recessionary gap operates through the LABOR MARKET, not the price level directly. With GDP=$88T < Yf=$100T, unemployment EXCEEDS the natural rate. The excess labor supply (too many unemployed workers) is what drives wages DOWN — not the price level per se. Workers who are unemployed accept lower wages to find jobs, driving costs down and allowing the SRAS to shift right, restoring full employment at lower costs."
+      },
+      {
+        "label": "C",
+        "text": "Correct — workers always demand higher wages when the price level rises, preventing self-correction."
+      },
+      {
+        "label": "D",
+        "text": "Correct in the very short run, then wages fall as unemployment rises."
+      },
+      {
+        "label": "E",
+        "text": "Incorrect — wages are fixed in the short run and cannot adjust during stagflation."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The self-correction mechanism is driven by the LABOR MARKET (unemployment vs. natural rate), not directly by the price level. With GDP < Yf: unemployment > natural rate → excess labor supply → workers compete for scarce jobs → wages fall (despite higher prices initially); the higher prices do not override the labor market excess supply effect; eventually wages fall → SRAS shifts right → GDP returns to Yf; the student confuses the inflation effect on wage demands with the excess supply effect on wage-setting.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "Economy Beta: Yf = $90T. Three independent long-run self-adjustments occur over 15 years with no policy:\n\nAdjustment 1: From recessionary gap ($78T) → Yf.\n\nAdjustment 2: From inflationary gap ($98T) → Yf.\n\nAdjustment 3: From recessionary gap ($82T) → Yf.\n\nAfter all three adjustments, what is the final real GDP? Has Yf changed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Final GDP = $82T; Yf fell to $82T after the repeated recessionary gaps."
+      },
+      {
+        "label": "B",
+        "text": "Final GDP = $90T = Yf; Yf remained unchanged at $90T throughout all three adjustments."
+      },
+      {
+        "label": "C",
+        "text": "Final GDP = average of $78T, $98T, $82T ≈ $86T; Yf fell to $86T."
+      },
+      {
+        "label": "D",
+        "text": "Final GDP = $98T; the inflationary gap permanently raised Yf."
+      },
+      {
+        "label": "E",
+        "text": "Final GDP = $90T; Yf rose to $95T due to the sustained economic activity."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.I.2: Each self-adjustment returns GDP to the SAME Yf = $90T; the LRAS does NOT shift during self-adjustment (only SRAS adjusts); yf remains $90T throughout all three adjustments. Multiple recessionary and inflationary gaps do not change the underlying potential GDP - they are temporary deviations that self-correct back to the same anchor (the LRAS at $90T).",
+    "reference": "MOD-2.I | MOD-2.I.1 | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "Economy Gamma: Yf = $60T. Starting at LR equilibrium (PL=100). Three events:\n\nEvent 1: Labor-saving technology reduces production costs → SRAS shifts right → GDP=$67T, PL=93.\n\nEvent 2: Self-adjustment (no policy) begins.\n\nEvent 3: During self-adjustment, Yf also rises from $60T to $65T due to the technology permanently raising productive capacity.\n\nDescribe what happens to the LR equilibrium after all adjustments.",
+    "options": [
+      {
+        "label": "A",
+        "text": "LR equilibrium: GDP=$60T at PL=100 (original)."
+      },
+      {
+        "label": "B",
+        "text": "LR equilibrium: GDP=$67T permanently above $60T."
+      },
+      {
+        "label": "C",
+        "text": "Self-adjustment from inflationary gap (GDP=$67T > old Yf=$60T) begins: wages rise → SRAS shifts left. Simultaneously, Yf rises to $65T (LRAS shifts right). New LR equilibrium: GDP=$65T (new Yf) where new SRAS and AD intersect on the new LRAS. Final GDP=$65T, PL somewhere between 93 and 100."
+      },
+      {
+        "label": "D",
+        "text": "LR equilibrium: GDP=$65T at PL below 93."
+      },
+      {
+        "label": "E",
+        "text": "LR equilibrium: GDP=$70T due to technology growth."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.I.2: Two simultaneous processes: (1) Inflationary gap ($67T > old Yf=$60T) → self-correction via rising wages → SRAS shifts left; (2) Technology permanently raises productive capacity → LRAS shifts right to new Yf=$65T. New LR equilibrium: the economy converges to the NEW Yf=$65T where SRAS (after partial leftward shift) intersects AD on the new (rightward) LRAS; PL depends on the relative magnitudes of the LRAS rightward shift and SRAS leftward correction - likely between 93 and 100.",
+    "reference": "MOD-2.I | MOD-2.I.1 | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "Economy Delta: The government policymaker says: \"There is no need for fiscal policy — the economy will always self-adjust to full employment.\" An economist responds: \"While MOD-2.I.1 confirms self-adjustment is theoretically possible, the speed matters.\" Explain the economist's point and identify two factors that affect the speed of long-run self-adjustment.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The economist is wrong — speed is irrelevant; only the final outcome matters."
+      },
+      {
+        "label": "B",
+        "text": "The economist is correct. Even if self-adjustment eventually works, slow self-correction means prolonged unemployment and output loss. Two key factors affecting speed: (1) Degree of wage stickiness — wages that are more downwardly rigid slow recessionary gap self-correction; wages that adjust quickly speed up correction. (2) Inflationary expectations — if workers anticipate lower prices, they may accept wage cuts more readily (faster correction); if they hold out for higher wages, correction is slower."
+      },
+      {
+        "label": "C",
+        "text": "The economist agrees with the policymaker — speed does not affect the policy recommendation."
+      },
+      {
+        "label": "D",
+        "text": "The economist means that self-adjustment never actually occurs, only policy works."
+      },
+      {
+        "label": "E",
+        "text": "The only factor affecting speed is government regulation of wages."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The self-correction mechanism works in the direction prescribed by the model, but the speed depends on: (1) Wage flexibility - more flexible wages accelerate SRAS adjustment; downward wage rigidity slows recessionary gap correction significantly. (2) Inflationary/deflationary expectations - if workers and firms anticipate the direction of price changes, they update wages faster; if they resist, adjustment is slower; other factors: labor market institutions (unions, minimum wages), degree of competition, contract lengths.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "Country Nu has Yf = $120T. A sequence of technology investments over 10 years raises Yf to $160T. During this period, the economy maintains actual GDP close to Yf each year through a combination of natural SRAS rightward shifts (from cost reductions) and some wage adjustments.\n\nExplain the annual LRAS shift process using MOD-2.I.2 and distinguish it from the self-adjustment mechanism of MOD-2.I.1.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both are SRAS self-adjustments — there is no difference."
+      },
+      {
+        "label": "B",
+        "text": "The LRAS shifts right each year (MOD-2.I.2) because technology investments permanently increase productive capacity — each year's technology raises the full-employment output. This is genuine economic growth: Yf itself rises from $120T toward $160T. This is DIFFERENT from MOD-2.I.1 self-adjustment, which involves only the SRAS moving to meet the EXISTING LRAS (Yf unchanged). In growth (MOD-2.I.2), the LRAS moves — the destination itself shifts; in self-correction (MOD-2.I.1), the SRAS moves toward the fixed LRAS."
+      },
+      {
+        "label": "C",
+        "text": "Only the SRAS shifts — LRAS shifts are caused by government policy, not technology."
+      },
+      {
+        "label": "D",
+        "text": "The LRAS shifts are equivalent to MOD-2.I.1 self-adjustment but faster."
+      },
+      {
+        "label": "E",
+        "text": "MOD-2.I.2 applies only to government-driven growth; technology shifts only SRAS."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Annual technology investments raise productive capacity each year → LRAS shifts right annually → Yf grows from $120T to $160T over 10 years. This IS the growth process of MOD-2.I.2: \"shifts in the LRAS indicate changes in the full-employment level of output and economic growth.\" MOD-2.I.1 self-adjustment: only SRAS moves to meet the existing LRAS (Yf fixed); growth (MOD-2.I.2): the LRAS itself shifts, changing Yf; key difference: in growth, the target (Yf) moves; in self-correction, the target is fixed.",
+    "reference": "MOD-2.I | MOD-2.I.1 | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "Economy Theta: Yf = $80T. Starting at LR equilibrium (PL=110). The economy experiences an inflationary gap ($90T, PL=120). No policy. After complete self-adjustment, a new LR equilibrium is established. A new immigrant wave then increases the labor force significantly, causing the LRAS to shift right to Yf=$95T. Describe the new output gap and type (if any) relative to the NEW Yf=$95T.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Output gap = $0 (economy was at $80T which now = old Yf, but new Yf is $95T)."
+      },
+      {
+        "label": "B",
+        "text": "After inflationary gap self-adjustment: GDP returns to old Yf=$80T. Then LRAS shifts right to new Yf=$95T. New output gap = $80T − $95T = −$15T → recessionary gap of $15T relative to new Yf. The economy was at old potential but is now below new potential."
+      },
+      {
+        "label": "C",
+        "text": "Output gap = +$15T inflationary (GDP exceeds new Yf)."
+      },
+      {
+        "label": "D",
+        "text": "Output gap = $0 — the economy is always at Yf after any event."
+      },
+      {
+        "label": "E",
+        "text": "The LRAS shift eliminates the inflationary gap immediately."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.I.2: Self-adjustment from inflationary gap: wages rise → SRAS left → GDP returns to old Yf=$80T; new LR equilibrium at $80T; then labor force grows → LRAS shifts right to new Yf=$95T (MOD-2.I.2). New output gap = actual GDP ($80T) - new Yf ($95T) = -$15T → recessionary gap relative to the new higher potential; A LRAS rightward shift from productivity/labor growth creates a new recessionary gap unless actual GDP also rises to meet the new Yf.",
+    "reference": "MOD-2.I | MOD-2.I.1 | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "Economy Xi: Yf = $100T. A student draws the following sequence on an AD-AS graph:\n\n1. Negative AD shock: AD₁ → AD₂ (left).\n\n2. Economy moves from LR equilibrium to recessionary gap ($88T, PL=95).\n\n3. Self-adjustment: SRAS₁ → SRAS₂ (right).\n\n4. New LR equilibrium: GDP=$100T, PL=?.\n\nIs the final price level above, at, or below PL=95?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Final PL is above PL=95."
+      },
+      {
+        "label": "B",
+        "text": "Final PL is exactly PL=95 (same as recessionary gap)."
+      },
+      {
+        "label": "C",
+        "text": "Final PL is below PL=95 — as SRAS shifts right along the leftward-shifted AD₂, the economy moves further DOWN and to the right along AD₂. Moving from the recessionary gap point ($88T, PL=95) further down AD₂ to ($100T, Yf) means the price level CONTINUES TO FALL below 95 as GDP rises toward Yf."
+      },
+      {
+        "label": "D",
+        "text": "Final PL is exactly at the original LR equilibrium price (before the AD shock)."
+      },
+      {
+        "label": "E",
+        "text": "The price level is indeterminate without knowing the magnitude of the SRAS shift."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The recessionary gap is at ($88T, PL=95) on AD₂; self-adjustment: SRAS shifts right → the economy moves to the RIGHT and DOWNWARD along AD₂ (which is downward-sloping). As GDP rises from $88T to $100T along AD₂, the price level falls below 95; the new LR equilibrium at $100T on LRAS is at a lower price than the recessionary gap price (95); this confirms the final LR price is below the recessionary gap price AND below the original LR price.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "Economy Psi: Yf = $75T. Starting at LR equilibrium (PL=108). A positive AD shock creates an inflationary gap ($83T, PL=118). No policy. Economy self-adjusts. After complete self-adjustment, the economy is at a new LR equilibrium. Then a new negative AD shock (equal in magnitude to the original positive shock) creates a recessionary gap. No policy again. After the second self-adjustment, compare the final price level to the very original pre-first-shock price level (PL=108).",
+    "options": [
+      {
+        "label": "A",
+        "text": "Final PL = 108 exactly — the two shocks and adjustments cancel."
+      },
+      {
+        "label": "B",
+        "text": "Final PL > 108 — the first positive AD shock permanently raised the price level baseline; the second negative AD shock and its self-correction can push PL further down, but may not reach 108."
+      },
+      {
+        "label": "C",
+        "text": "Final PL < 108 — the second self-adjustment always returns PL below original."
+      },
+      {
+        "label": "D",
+        "text": "Final PL is indeterminate — it could be above or below 108 depending on exact magnitudes."
+      },
+      {
+        "label": "E",
+        "text": "Final PL = 108 only if the second AD shock was LARGER than the first."
+      }
+    ],
+    "answer": "D",
+    "explanation": "First shock: positive AD → AD₁ shifts right to AD₂; inflationary gap; self-correction: SRAS left → new LR at ($75T, PL > 118 > 108); second shock: negative AD → AD₂ shifts left to AD₃; recessionary gap; self-correction: SRAS right → new LR at ($75T, PL < LR2). Final PL depends on where AD₃ is relative to original AD₁; if the second shock is equal magnitude to the first (AD₃ = AD₁), then the final LR returns to something near the original; but \"equal magnitude\" in AD shifts doesn't guarantee return to exactly the same SRAS position, so the outcome is ambiguous without exact magnitudes.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 71,
+    "difficulty": "Medium",
+    "prompt": "Economy Alpha has Yf = $50T. The economy is at LR equilibrium. Simultaneously: (1) a positive AD shock creates a $5T inflationary gap, and (2) the LRAS shifts right by $3T (new Yf = $53T) due to technology adoption.\n\nWith no policy, describe the new output gap relative to the new Yf, and explain how self-adjustment proceeds.",
+    "options": [
+      {
+        "label": "A",
+        "text": "New output gap = $55T − $50T = +$5T (still inflationary, old Yf)."
+      },
+      {
+        "label": "B",
+        "text": "New output gap = $55T − $53T = +$2T inflationary relative to new Yf = $53T. Self-adjustment: GDP=$55T > new Yf=$53T → still inflationary (less so) → wages still rise → SRAS shifts left → economy moves to new Yf=$53T at higher PL. The LRAS shift reduced the inflationary gap from $5T to $2T."
+      },
+      {
+        "label": "C",
+        "text": "No output gap — LRAS shift completely absorbs the inflationary gap."
+      },
+      {
+        "label": "D",
+        "text": "New output gap = $3T recessionary — LRAS shift overshot."
+      },
+      {
+        "label": "E",
+        "text": "New output gap = +$5T inflationary — LRAS shifts don't affect the output gap."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.I.2: Positive AD shock: GDP moves to $55T (old Yf=$50T → +$5T inflationary); technology → LRAS shifts right to new Yf=$53T (MOD-2.I.2); new output gap = $55T - $53T = +$2T → still inflationary, but smaller. Self-adjustment: GDP=$55T > new Yf=$53T → unemployment < natural rate → wages rise → SRAS shifts left → returns to $53T; the LRAS rightward shift \"absorbed\" $3T of the $5T inflationary gap, reducing the remaining self-correction needed.",
+    "reference": "MOD-2.I | MOD-2.I.1 | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 72,
+    "difficulty": "Medium",
+    "prompt": "Economy Beta: Yf = $90T. Currently at LR equilibrium. An economy-wide decline in worker productivity (negative productivity shock) shifts the LRAS LEFT to new Yf=$82T while simultaneously causing SRAS to shift left (creating a recessionary gap at the original Yf).\n\nDescribe: (a) the new output gap relative to new Yf; (b) the direction of self-adjustment; (c) where the economy settles.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) Inflationary gap at new Yf; (b) wages rise; (c) returns to old Yf=$90T."
+      },
+      {
+        "label": "B",
+        "text": "(a) The economy may be at, above, or below new Yf=$82T depending on the magnitudes. If LRAS shifted left to $82T and SRAS also shifted left creating a recessionary gap (GDP<$90T), then GDP<$90T. Whether GDP is above or below new $82T depends on how much SRAS shifted. If GDP>$82T: inflationary gap; if GDP<$82T: recessionary gap; if GDP=$82T: new LR equilibrium. (b) Self-adjustment direction depends on the gap. (c) Economy settles at new Yf=$82T."
+      },
+      {
+        "label": "C",
+        "text": "(a) Always recessionary; (b) wages fall; (c) returns to old $90T."
+      },
+      {
+        "label": "D",
+        "text": "(a) No gap — LRAS shift and SRAS shift always cancel."
+      },
+      {
+        "label": "E",
+        "text": "(a) Ambiguous; (b) both wages rise and fall simultaneously; (c) indeterminate."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.I.2: Productivity decline: LRAS shifts left to $82T (new Yf) AND SRAS shifts left (higher costs per unit at lower productivity); the LRAS shift means the target is now $82T; the SRAS shift moves the short-run equilibrium. If SRAS shifted left enough that GDP < $82T: recessionary gap → wages fall → SRAS right → returns to $82T; if SRAS shifted left such that GDP = $82T: already at new LR equilibrium; if GDP somehow > $82T: inflationary gap → wages rise → SRAS left → returns to $82T; the destination is always the new Yf = $82T.",
+    "reference": "MOD-2.I | MOD-2.I.1 | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 73,
+    "difficulty": "Medium",
+    "prompt": "Economy Gamma: Yf = $100T. In long-run equilibrium. Three simultaneous events:\n\n1. Negative AD shock (GDP tendency -$8T).\n\n2. Positive SRAS shock (GDP tendency +$5T).\n\n3. Positive LRAS shift (Yf rises to $103T).\n\nNet short-run GDP change: −$3T → GDP = $97T. No policy.\n\nCalculate the output gap relative to the new Yf, and describe the direction of long-run self-adjustment.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Gap: $97T − $103T = −$6T recessionary. Self-adjustment: wages fall → SRAS shifts right → returns to new Yf=$103T."
+      },
+      {
+        "label": "B",
+        "text": "Gap: $97T − $100T = −$3T recessionary. Self-adjustment toward old Yf."
+      },
+      {
+        "label": "C",
+        "text": "Gap: $97T − $103T = −$6T recessionary → wages fall → SRAS shifts right → economy returns to new Yf=$103T."
+      },
+      {
+        "label": "D",
+        "text": "Gap: $0 — all three events cancel perfectly."
+      },
+      {
+        "label": "E",
+        "text": "Gap: +$3T inflationary — economy is above old Yf=$100T."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.I.2: The LRAS shifted right to new Yf=$103T (event 3); net GDP = $97T; output gap = $97T - $103T = -$6T → recessionary gap relative to the NEW Yf. Self-adjustment: GDP < new Yf → unemployment > new natural rate (for $103T Yf) → wages fall → SRAS shifts right → economy moves toward the new LRAS at $103T; the destination is now $103T (not $100T), reflecting the LRAS rightward shift from event 3.",
+    "reference": "MOD-2.I | MOD-2.I.1 | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "Economy Alpha: Yf = $100T. LR equilibrium: PL=110. A positive AD shock creates an inflationary gap ($112T, PL=122). With no policy, trace the COMPLETE long-run self-adjustment in detail:\n\n(a) Mechanism triggering SRAS shift.\n\n(b) Direction of SRAS shift.\n\n(c) How the graph changes step by step.\n\n(d) Final LR equilibrium GDP, PL direction vs. 122, and unemployment.\n\n(e) Does the LRAS change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) Wages fall; (b) SRAS right; (c) intersection moves right-down AD₂; (d) GDP=$100T, PL<122, natural rate; (e) LRAS unchanged."
+      },
+      {
+        "label": "B",
+        "text": "(a) Tight labor market (GDP>Yf → unemployment < natural rate) → wages rise; (b) SRAS shifts left; (c) SRAS₁ moves left to SRAS₂; AD₂-SRAS₂ intersection moves up-left along AD₂; (d) Final GDP=$100T=Yf, PL above 122 (moved up rightward AD₂ to Yf), unemployment = natural rate; (e) LRAS stays at $100T — does not shift."
+      },
+      {
+        "label": "C",
+        "text": "(a) Wages fall; (b) SRAS left; (c) gap widens; (d) GDP stays at $112T; (e) LRAS shifts right."
+      },
+      {
+        "label": "D",
+        "text": "(a) AD₂ shifts left automatically; (b) SRAS unchanged; (c) returns to original; (d) PL=110; (e) LRAS unchanged."
+      },
+      {
+        "label": "E",
+        "text": "(a) Wages rise; (b) SRAS right; (c) intersection moves right; (d) GDP=$112T permanently."
+      }
+    ],
+    "answer": "B",
+    "explanation": "(a) Inflationary gap: GDP=$112T > Yf=$100T → unemployment < natural rate → tight labor market → wages rise; (b) Rising wages → production costs rise → SRAS shifts LEFT. (c) Step by step: SRAS₁ slowly shifts left to SRAS₂; the intersection of SRAS (moving left) and AD₂ (unchanged, rightward-shifted) moves up and to the LEFT along AD₂. (d) Process stops when SRAS₂ ∩ AD₂ = LRAS at $100T, at a PL ABOVE 122 (above the inflationary gap PL); unemployment returns to natural rate; (e) LRAS does NOT change - it is anchored at $100T; only SRAS adjusts.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "Evaluate the following five statements about long-run self-adjustment. Identify which are TRUE and FALSE.\n\nS1: In the long run, flexible wages and prices restore full employment after any shock, without government policy.\n\nS2: The economy self-corrects by the AD curve automatically shifting back to its original position.\n\nS3: LRAS shifts represent economic growth, not the self-correction mechanism.\n\nS4: Self-adjustment from a recessionary gap produces a lower price level at the new LR equilibrium than the original pre-shock LR price (when the gap was caused by a negative AD shock).\n\nS5: Unemployment reverts to zero, not just the natural rate, after long-run self-adjustment.",
+    "options": [
+      {
+        "label": "A",
+        "text": "S1, S3, S4 are true; S2 and S5 are false."
+      },
+      {
+        "label": "B",
+        "text": "All five are true."
+      },
+      {
+        "label": "C",
+        "text": "S2 and S5 are true; S1, S3, S4 are false."
+      },
+      {
+        "label": "D",
+        "text": "S1, S2, S3 are true; S4 and S5 are false."
+      },
+      {
+        "label": "E",
+        "text": "S4 and S5 are true; S1, S2, S3 are false."
+      }
+    ],
+    "answer": "A",
+    "explanation": "S1 TRUE - MOD-2.I.1 explicit; S2 FALSE - AD does NOT automatically shift back; it stays where it was shifted; SRAS adjusts, not AD. S3 TRUE - MOD-2.I.2: LRAS shifts = growth, not self-correction. S4 TRUE - after negative AD shock, self-correction: SRAS shifts right along leftward AD₂ → moves further down AD₂ → final PL < recessionary gap PL < original LR PL; S5 FALSE - MOD-2.I.1 says unemployment reverts to the NATURAL RATE, not zero; natural rate includes structural and frictional unemployment.",
+    "reference": "MOD-2.I | MOD-2.I.1 | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "Economy Beta: Yf = $80T, PL=100. A sequence of three events with no policy after each:\n\nEvent 1: Negative AD shock → GDP=$70T, PL=89.\n\nEvent 2: Self-adjustment occurs → new LR equilibrium.\n\nEvent 3: Positive AD shock → inflationary gap.\n\nEvent 4: Self-adjustment → new LR equilibrium.\n\nAfter all four events, the economy returns to $80T each time. Trace the price level through all four events: (a) after Event 1; (b) after Event 2; (c) after Event 3 (assume inflationary gap adds $8T); (d) after Event 4.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) 89; (b) below 89; (c) above 89 (but below 100); (d) higher still."
+      },
+      {
+        "label": "B",
+        "text": "(a) 89; (b) below 89 (SRAS right along leftward AD₂ → PL falls below 89); (c) above the Event 2 LR PL (positive AD shock raises PL from Event 2 level); (d) above the inflationary gap PL (self-correction moves up rightward AD₃, raising PL above the inflationary gap)."
+      },
+      {
+        "label": "C",
+        "text": "(a) 89; (b) 100 (returns to original); (c) 89; (d) 100."
+      },
+      {
+        "label": "D",
+        "text": "(a) 89; (b) above 89; (c) below 89; (d) exactly 100."
+      },
+      {
+        "label": "E",
+        "text": "(a) 100; (b) 89; (c) above 100; (d) exactly 100."
+      }
+    ],
+    "answer": "B",
+    "explanation": "E1: neg AD → GDP=$70T, PL=89 (moved down SRAS₁ along AD₁→AD₂). E2: self-correction → SRAS₁ shifts right along AD₂ (leftward) → PL falls below 89 to new LR PL < 89. E3: positive AD from new LR position → inflationary gap → PL rises above Event 2 LR PL (but actual level depends on shock magnitude); E4: self-correction from inflationary gap → SRAS shifts left along rightward-shifted AD₃ → PL rises above Event 3 inflationary gap PL; pattern: PL generally tends to drift based on cumulative shock directions.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "Economy Gamma: Yf = $60T. Starting at LR equilibrium (PL=105).\n\nRound 1: Negative SRAS shock → GDP=$52T, PL=115 (stagflation, recessionary gap).\n\nRound 2: No policy. Self-adjustment from recessionary gap.\n\nRound 3: After complete self-adjustment, are the following TRUE or FALSE?\n\n(a) GDP=$60T=Yf.\n\n(b) SRAS is at its original SRAS₁ position.\n\n(c) PL is at the original 105.\n\n(d) Unemployment = natural rate.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) TRUE; (b) FALSE (SRAS may shift right but to a new position to intersect unchanged AD at Yf, not necessarily back to SRAS₁ — depends on whether the cost shock is permanent); (c) FALSE (PL is between 105 and 115 — below the stagflation PL of 115 but potentially above original 105 if the oil shock is still partially priced in); (d) TRUE."
+      },
+      {
+        "label": "B",
+        "text": "(a) TRUE; (b) TRUE; (c) TRUE; (d) TRUE."
+      },
+      {
+        "label": "C",
+        "text": "(a) FALSE; (b) FALSE; (c) TRUE; (d) FALSE."
+      },
+      {
+        "label": "D",
+        "text": "(a) TRUE; (b) FALSE; (c) FALSE; (d) TRUE."
+      },
+      {
+        "label": "E",
+        "text": "(a) FALSE; (b) TRUE; (c) FALSE; (d) TRUE."
+      }
+    ],
+    "answer": "A",
+    "explanation": "(a) TRUE - self-adjustment always returns GDP to Yf. (b) FALSE - SRAS₂ shifts right but if the negative SRAS shock was from an oil price spike that persists, SRAS₂ may not return to SRAS₁ position; it shifts right enough to intersect the unchanged AD at Yf, but this new SRAS position may be different from SRAS₁. (c) FALSE - since the original SRAS shock raised PL to 115, and wages may have partially adjusted upward during the inflationary period, the new LR PL is between 105 and 115 (below 115 as SRAS shifts right, but above 105 if the underlying cost shock is still present); (d) TRUE - self-adjustment always restores unemployment to natural rate.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "Economy Sigma: Yf = $90T. Starting at LR equilibrium (PL=112). A positive AD shock creates an inflationary gap ($102T, PL=124). No policy.\n\nProve algebraically/graphically that the final long-run price level after self-adjustment MUST be HIGHER than 124 (the inflationary gap price level), not just higher than the original 112.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The final LR PL is always between 112 and 124 — never above 124."
+      },
+      {
+        "label": "B",
+        "text": "The final LR PL exactly equals 124 — wages adjust without raising prices further."
+      },
+      {
+        "label": "C",
+        "text": "The final LR PL is ABOVE 124. Proof: The self-adjustment involves SRAS shifting LEFT along AD₂ (the rightward-shifted AD). AD₂ is downward-sloping. Moving LEFTWARD along AD₂ from the inflationary gap point ($102T, PL=124) means moving UP and to the LEFT along AD₂ — prices RISE above 124 and real GDP FALLS. The process stops when GDP=Yf=$90T on the LRAS. At that intersection with AD₂ (which is to the RIGHT of original AD₁), the PL > 124. SRAS must cross a HIGHER point on AD₂ to reach $90T."
+      },
+      {
+        "label": "D",
+        "text": "The final LR PL equals 112 — wages exactly restore to original level."
+      },
+      {
+        "label": "E",
+        "text": "The final LR PL is below 112 — the self-correction causes deflation."
+      }
+    ],
+    "answer": "C",
+    "explanation": "PROOF: The inflationary gap is at ($102T, PL=124) on AD₂ ∩ SRAS₁; self-adjustment: SRAS₁ shifts LEFT along AD₂. AD₂ slopes downward: higher Real GDP = lower PL; lower Real GDP = higher PL. Moving from $102T to $90T (toward Yf) along AD₂ means moving to a LOWER real GDP AND a HIGHER price level (since we move UP the downward-sloping AD₂ as GDP falls); therefore, at GDP=$90T on AD₂, PL > 124 (we moved up AD₂ from $102T); the final LR PL must exceed the inflationary gap PL of 124.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "Economy Tau: Yf = $100T. Starting at LR equilibrium (PL=115). A negative AD shock creates a recessionary gap ($88T, PL=103). No policy.\n\nProve that the final long-run price level after self-adjustment MUST be BELOW 103 (the recessionary gap price level).",
+    "options": [
+      {
+        "label": "A",
+        "text": "The final LR PL is between 103 and 115 — not below 103."
+      },
+      {
+        "label": "B",
+        "text": "The final LR PL equals 103 — self-adjustment doesn't change the price level."
+      },
+      {
+        "label": "C",
+        "text": "The final LR PL is above 103 — wages rise during self-adjustment."
+      },
+      {
+        "label": "D",
+        "text": "The final LR PL is below 103. Proof: Self-adjustment involves SRAS shifting RIGHT along AD₂ (the leftward-shifted AD). AD₂ slopes downward. Moving RIGHTWARD along AD₂ from the recessionary gap point ($88T, PL=103) means moving DOWN and to the RIGHT along AD₂ — prices FALL and real GDP rises. The process stops when GDP=Yf=$100T on the LRAS. At that point on AD₂, PL < 103 (we moved down AD₂). Since AD₂ is to the LEFT of AD₁, the PL at $100T on AD₂ is also < 115 (original). Final LR PL < 103 < 115."
+      },
+      {
+        "label": "E",
+        "text": "Cannot be determined without knowing the slope of AD₂."
+      }
+    ],
+    "answer": "D",
+    "explanation": "PROOF: The recessionary gap is at ($88T, PL=103) on AD₂ ∩ SRAS₁; self-adjustment: SRAS₁ shifts RIGHT along AD₂. AD₂ slopes downward: lower Real GDP = higher PL; higher Real GDP = lower PL. Moving from $88T to $100T (toward Yf) along AD₂ means moving to a HIGHER real GDP AND a LOWER price level (moving down the downward-sloping AD₂); at GDP=$100T on AD₂, PL < 103; final LR PL < 103 < 115.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "Economy Phi: Yf = $80T. A three-phase sequence with no policy:\n\nPhase 1: Positive AD shock → inflationary gap ($90T, PL=118). Self-adjustment 1: SRAS shifts left → LR equilibrium 1 at $80T, PL=PL₁.\n\nPhase 2: Negative AD shock of equal magnitude returns GDP to $70T, PL=PL₂. Self-adjustment 2: SRAS shifts right → LR equilibrium 2 at $80T, PL=PL₃.\n\nCompare PL₃ (final LR price level) to the original pre-Phase-1 LR price level. Is PL₃ above, equal to, or below the original?",
+    "options": [
+      {
+        "label": "A",
+        "text": "PL₃ is above the original — the positive shock permanently raised prices."
+      },
+      {
+        "label": "B",
+        "text": "PL₃ equals the original — the two shocks and adjustments cancel perfectly."
+      },
+      {
+        "label": "C",
+        "text": "PL₃ is below the original — the negative shock caused deflation that offset the inflation."
+      },
+      {
+        "label": "D",
+        "text": "PL₃ is ambiguous — it depends on the exact slopes of AD and SRAS."
+      },
+      {
+        "label": "E",
+        "text": "PL₃ is above the original: Phase 1 raised prices permanently (PL₁ > original). Phase 2 negative shock reduces PL from PL₁ to PL₂ (below PL₁), then self-correction 2 (SRAS right along AD₃, which is at a different position than original AD₁) brings it to PL₃. The final level depends on where AD₃ (after Phase 2 negative shock) sits relative to the original AD₁."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Phase 1 positive AD → inflationary gap → self-correction → PL₁ above original (AD₂ > AD₁, SRAS moved left). Phase 2 equal-magnitude negative shock: if AD₃ = AD₁ exactly (same leftward shift magnitude), then PL₃ = original. But \"equal magnitude\" AD shifts are measured in output units - the exact price level outcome depends on the SRAS position at Phase 2 start and AD₃ position; without confirming AD₃ = AD₁ exactly and SRAS position, the final price level comparison is ambiguous.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "Economy Nu: Yf = $120T. Starting at LR equilibrium. Five events with no policy after each:\n\nE1: LRAS shifts right to $130T (technology growth).\n\nE2: Recessionary gap: GDP=$110T (relative to new Yf=$130T).\n\nE3: Self-adjustment occurs.\n\nE4: Inflationary gap: GDP=$138T.\n\nE5: Self-adjustment occurs.\n\nAfter all five events: (a) what is Yf? (b) what is real GDP? (c) what happened to the price level cumulatively?",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) $130T; (b) $130T; (c) price level trended upward from inflationary self-correction."
+      },
+      {
+        "label": "B",
+        "text": "(a) $120T (original); (b) $120T; (c) price level unchanged."
+      },
+      {
+        "label": "C",
+        "text": "(a) $130T; (b) $130T; (c) net PL change is AMBIGUOUS — E3 (recessionary self-correction: SRAS right along unchanged AD) → PL falls. E5 (inflationary self-correction: SRAS left along rightward AD₄) → PL rises. Net direction depends on relative magnitudes of the demand changes creating E2 and E4."
+      },
+      {
+        "label": "D",
+        "text": "(a) $130T; (b) $138T permanently."
+      },
+      {
+        "label": "E",
+        "text": "(a) $130T; (b) $110T permanently below Yf."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.I.2: E1: LRAS rightward shift → new Yf=$130T (MOD-2.I.2); E2: recessionary gap relative to $130T. E3: self-correction → GDP returns to $130T; SRAS shifts right along negative-AD-shifted curve → PL falls; E4: inflationary gap at $138T. E5: self-correction → GDP returns to $130T; SRAS shifts left along positive-AD-shifted curve → PL rises above E4 inflationary gap PL; (a) Yf=$130T (unchanged from E1); (b) GDP=$130T; (c) Net PL change ambiguous - depends on whether demand shocks driving E2 and E4 net positive or negative.",
+    "reference": "MOD-2.I | MOD-2.I.1 | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "An AP free-response question asks: \"Starting from long-run equilibrium, draw and label a correctly labeled AD-AS graph showing: (1) the economy after a negative AD shock, and (2) the long-run self-adjustment. Show all curves, equilibrium points, and price levels.\"\n\nDescribe the COMPLETE correctly labeled graph including all curves, labels, and shift directions.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Single graph: only SRAS shifts; AD and LRAS remain. Original equilibrium on LRAS; new AD₂ to left; recessionary gap; SRAS₁ shifts right to SRAS₂, intersecting AD₂ on LRAS."
+      },
+      {
+        "label": "B",
+        "text": "A single correctly labeled graph must show: (1) Axes: Price Level (vertical), Real GDP (horizontal). (2) Three original curves: downward-sloping AD₁, upward-sloping SRAS₁, vertical LRAS at Yf. (3) Original LR equilibrium: all three intersecting at PL₁ and Yf. (4) New AD₂ shifted left of AD₁; AD₂ ∩ SRAS₁ = recessionary gap at Y₁<Yf and PL₂<PL₁ (labeled). (5) Arrow: SRAS₁ shifts right to SRAS₂. (6) Final LR equilibrium: SRAS₂ ∩ AD₂ on LRAS at Yf, at PL₃ < PL₂ < PL₁ (labeled). Three equilibrium points labeled: original, recessionary gap, new LR."
+      },
+      {
+        "label": "C",
+        "text": "Two separate graphs: one showing the shock, one showing the adjustment."
+      },
+      {
+        "label": "D",
+        "text": "Only AD and SRAS; no LRAS needed for self-adjustment graph."
+      },
+      {
+        "label": "E",
+        "text": "Show LRAS shifting left to match the recessionary gap position."
+      }
+    ],
+    "answer": "B",
+    "explanation": "AP exam Skill 3.A (Manipulation) combined with graphing; the correct graph description: (1) Vertical: Price Level; Horizontal: Real GDP. (2) Original LR equilibrium: AD₁ ∩ SRAS₁ ∩ LRAS at (Yf, PL₁). (3) Negative AD shock: AD₁ shifts left to AD₂; new SR equilibrium: AD₂ ∩ SRAS₁ at (Y₁<Yf, PL₂<PL₁) - recessionary gap labeled; (4) Self-adjustment: SRAS₁ shifts right to SRAS₂; (5) New LR equilibrium: SRAS₂ ∩ AD₂ ∩ LRAS at (Yf, PL₃<PL₂) - labeled; key: AD stays at AD₂; LRAS stays at Yf; only SRAS adjusts.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "Economy Omega: Yf = $100T, PL=110. A NEGATIVE SRAS shock creates stagflation: GDP=$88T, PL=122. No policy.\n\nThe self-adjustment begins. Compare the DIRECTION of the self-correction MECHANISM to the original negative SRAS shock:\n\n(a) In which direction did SRAS move during the shock?\n\n(b) In which direction does SRAS move during self-correction?\n\n(c) Does self-correction fully reverse the negative SRAS shock?\n\n(d) What is the final LR price level relative to original 110?",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) Right; (b) left; (c) partially; (d) below 110."
+      },
+      {
+        "label": "B",
+        "text": "(a) Left (negative SRAS shock shifts SRAS₁ left to SRAS₂); (b) right (self-correction: recessionary gap → wages fall → SRAS₂ shifts right to SRAS₃); (c) NOT necessarily — if the original shock (e.g., permanent oil price increase) persists, SRAS₂ cannot fully return to SRAS₁; it shifts right enough to intersect the unchanged AD at Yf, but at a new SRAS₃ position different from SRAS₁; (d) Depends on final SRAS₃ position: if SRAS₃ < SRAS₁ (costs still elevated), final PL > 110; if SRAS₃ = SRAS₁ (shock fully reversed), final PL ≈ 110."
+      },
+      {
+        "label": "C",
+        "text": "(a) Left; (b) left again; (c) no; (d) far above 110."
+      },
+      {
+        "label": "D",
+        "text": "(a) Right; (b) right; (c) yes, fully; (d) exactly 110."
+      },
+      {
+        "label": "E",
+        "text": "(a) Left; (b) right; (c) yes, always fully; (d) exactly 110."
+      }
+    ],
+    "answer": "B",
+    "explanation": "(a) Negative SRAS shock: SRAS₁ shifts LEFT to SRAS₂ (higher production costs); (b) Self-correction from recessionary gap: wages fall → SRAS₂ shifts RIGHT to SRAS₃ (back toward lower costs). (c) NOT always fully reversed - if the underlying cause (e.g., permanently higher oil prices) persists, SRAS₃ may not return to SRAS₁. SRAS₃ settles where it intersects the unchanged AD on the LRAS at Yf, which may be between SRAS₁ and SRAS₂; (d) Final PL: if SRAS₃ is left of SRAS₁, final PL > 110 (original); if SRAS₃ = SRAS₁, final PL ≈ 110.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "Economy Rho: Yf = $80T, PL=100. Sequence:\n\nYear 1: Positive SRAS shock → GDP=$90T, PL=91 (inflationary gap, lower prices).\n\nYear 2: Self-adjustment begins (no policy).\n\nYear 3: NEW negative AD shock creates a recessionary gap from the Year 2 partially adjusted position.\n\nYear 4: Self-adjustment from the new recessionary gap.\n\nAfter Year 4, can we determine where the final LR price level stands relative to PL=100?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Final PL is certainly above 100."
+      },
+      {
+        "label": "B",
+        "text": "Final PL is certainly below 100."
+      },
+      {
+        "label": "C",
+        "text": "Final PL is exactly 100."
+      },
+      {
+        "label": "D",
+        "text": "Final PL is ambiguous — it depends on the magnitude and timing of both shocks relative to the original state. The positive SRAS shock (Year 1) lowered PL; the subsequent adjustments and negative AD shock (Year 3) all interact in ways that make the final PL relative to 100 uncertain without specific magnitudes."
+      },
+      {
+        "label": "E",
+        "text": "Final PL is between 91 and 100."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Year 1 positive SRAS: PL falls to 91 (inflationary gap at lower PL). Year 2 self-correction from inflationary gap: SRAS shifts left → PL rises from 91 toward higher level along AD; year 3 new negative AD shock: PL falls again. Year 4 self-correction from recessionary gap: SRAS shifts right → PL falls further along new leftward AD; the interaction of a positive SRAS shock, partial self-correction, then negative AD shock, then second self-correction makes the final PL relationship to 100 ambiguous without specific magnitudes.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "An economist makes three claims about MOD-2.I.2 (LRAS shifts and economic growth).\n\nClaim 1: \"A rightward LRAS shift always results from government policy.\"\n\nClaim 2: \"Economic growth (rightward LRAS shift) permanently raises potential GDP, unlike self-adjustment which only temporarily raises actual GDP.\"\n\nClaim 3: \"A leftward LRAS shift represents negative economic growth — the economy's productive capacity has declined.\"\n\nEvaluate all three claims.",
+    "options": [
+      {
+        "label": "A",
+        "text": "All three claims are correct."
+      },
+      {
+        "label": "B",
+        "text": "Claims 2 and 3 are correct; Claim 1 is incorrect."
+      },
+      {
+        "label": "C",
+        "text": "Claims 1 and 2 are correct; Claim 3 is incorrect."
+      },
+      {
+        "label": "D",
+        "text": "Only Claim 1 is correct."
+      },
+      {
+        "label": "E",
+        "text": "All three claims are incorrect."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Claim 1 INCORRECT - LRAS rightward shifts are driven by productive capacity changes (capital, technology, labor, human capital, institutions) - NOT necessarily from government policy. Private investment and technological innovation are major drivers. Claim 2 CORRECT - LRAS shifts permanently raise/lower Yf; self-adjustment only temporarily moves actual GDP and returns it to the unchanged Yf; claim 3 CORRECT - leftward LRAS shift = decline in productive capacity (capital destruction, labor force shrinkage, technology regression) → Yf decreases.",
+    "reference": "MOD-2.I | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "Economy Xi: Yf = $70T. Starting at LR equilibrium. Three different self-corrections over 12 years, each from a different gap type:\n\nSelf-correction 1: From recessionary gap (SRAS shifts right).\n\nSelf-correction 2: From inflationary gap (SRAS shifts left).\n\nSelf-correction 3: From recessionary gap caused by negative SRAS shock (SRAS shifts right).\n\nAfter all three self-corrections, has Yf changed? Has the economy's price level necessarily returned to the original pre-first-shock level?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yf changed to $63T; price level returned to original."
+      },
+      {
+        "label": "B",
+        "text": "Yf unchanged at $70T (self-corrections only move SRAS, not LRAS); price level is NOT necessarily at original — each self-correction involves SRAS adjusting along a potentially different AD, producing different price level outcomes depending on the sequence of demand shocks."
+      },
+      {
+        "label": "C",
+        "text": "Yf grew to $77T; price level above original."
+      },
+      {
+        "label": "D",
+        "text": "Yf unchanged; price level is exactly at original after three self-corrections."
+      },
+      {
+        "label": "E",
+        "text": "Yf fell to $63T; price level unknown."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.I.2: Yf unchanged at $70T - all three self-corrections involve SRAS adjusting to meet the CURRENT AD on the FIXED LRAS; the LRAS does NOT shift during self-correction. Only changes in productive capacity shift LRAS (MOD-2.I.2). Price level: NOT necessarily back to original - each self-correction produces a different price level depending on where the current AD is positioned; three self-corrections over 12 years with different gap types and potentially different AD positions produce a cumulative price level that may be above, below, or equal to the original.",
+    "reference": "MOD-2.I | MOD-2.I.1 | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "Economy Kappa: Yf = $90T. LR equilibrium (PL=108). A negative AD shock from a financial crisis reduces GDP to $77T and PL to 96. No policy is enacted for 5 years. Then, CONCURRENTLY:\n\n(1) Self-adjustment completes → SRAS has shifted right, returning GDP to $90T.\n\n(2) New technology also raises Yf to $100T (LRAS shifts right).\n\nDescribe the economy's new position. Is it at LR equilibrium, in a recessionary gap, or inflationary gap relative to the NEW Yf=$100T?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The economy is at LR equilibrium at $100T."
+      },
+      {
+        "label": "B",
+        "text": "The economy is at $90T = old Yf, but new Yf = $100T. Output gap = $90T − $100T = −$10T → RECESSIONARY GAP relative to new Yf. The LRAS shift means the target changed to $100T, but self-correction from the original shock only brought GDP to the OLD $90T Yf."
+      },
+      {
+        "label": "C",
+        "text": "Inflationary gap: GDP=$90T > $100T."
+      },
+      {
+        "label": "D",
+        "text": "The economy is at LR equilibrium because self-adjustment was complete before the LRAS shift."
+      },
+      {
+        "label": "E",
+        "text": "The economy is at $100T because technology and self-adjustment both applied simultaneously."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.I.2: Self-adjustment returned GDP to old Yf=$90T; concurrently, LRAS shifts right to new Yf=$100T. Now: GDP=$90T, new Yf=$100T → output gap = $90T - $100T = -$10T → recessionary gap of $10T relative to new Yf. The economy is at old potential but below new potential; A new round of self-adjustment will begin: unemployment > new natural rate → wages fall → SRAS shifts right → economy moves toward new Yf=$100T.",
+    "reference": "MOD-2.I | MOD-2.I.1 | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "Economy Mu: Yf = $60T, LR equilibrium (PL=110). A negative SRAS shock (cost-push) creates stagflation: GDP=$52T, PL=122. With no policy, self-adjustment occurs. CONCURRENTLY, workers learn that production costs remained elevated and adjust their wage demands upward. Explain how this expectation update affects the self-adjustment speed and outcome.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Upward wage expectations accelerate self-correction — workers demand higher wages, which paradoxically speeds up the SRAS rightward shift."
+      },
+      {
+        "label": "B",
+        "text": "Workers updating expectations upward means they demand HIGHER wages now (expecting costs to stay elevated). This SLOWS the recessionary gap self-correction: with a recessionary gap, wages SHOULD fall (excess labor supply), but if workers expect higher inflation and resist wage cuts, the SRAS cannot shift right as easily. The self-correction slows. The final GDP still converges to $60T=Yf, but the path is longer and the unemployment persists above the natural rate for longer."
+      },
+      {
+        "label": "C",
+        "text": "Wage expectations have no effect on the self-adjustment mechanism."
+      },
+      {
+        "label": "D",
+        "text": "Higher wage expectations permanently prevent self-adjustment — the economy stays in stagflation."
+      },
+      {
+        "label": "E",
+        "text": "Workers demanding higher wages accelerates the adjustment by shifting SRAS right faster."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Recessionary gap self-correction requires wages to FALL (excess labor supply). If workers update expectations upward (expecting continued high prices), they RESIST wage cuts - they hold out for higher wages despite unemployment. This downward wage rigidity (amplified by inflationary expectations) slows the SRAS rightward shift; the GDP eventually returns to Yf, but more slowly; this illustrates how expectations affect the speed (not the direction or ultimate destination) of long-run self-adjustment.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "Economy Sigma: Yf = $80T, LR equilibrium (PL=105). Two shocks occur simultaneously, with no policy:\n\nShock 1: Negative AD shock (fiscal austerity) — tendency: GDP falls $15T, PL falls.\n\nShock 2: Positive SRAS shock (technology cuts costs) — tendency: GDP rises $10T, PL falls.\n\nNet short-run: GDP = $80T − $15T + $10T = $75T, PL falls (both push PL down).\n\nSelf-adjustment begins from this position. Trace the mechanism.",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP at $75T > Yf=$80T — inflationary gap; wages rise; SRAS shifts left."
+      },
+      {
+        "label": "B",
+        "text": "GDP=$75T < Yf=$80T → recessionary gap; unemployment > natural rate; wages fall → SRAS shifts right → economy moves down the unchanged AD₂-ish curve (composed of both original shocks) toward Yf=$80T; PL falls further below the $75T price level as SRAS shifts right along the downward-sloping current AD. Final GDP=$80T at PL below the $75T equilibrium PL."
+      },
+      {
+        "label": "C",
+        "text": "GDP=$75T < Yf=$80T → recessionary gap; wages fall; SRAS shifts right; GDP rises toward Yf=$80T; PL falls further."
+      },
+      {
+        "label": "D",
+        "text": "Both options B and C describe the same process."
+      },
+      {
+        "label": "E",
+        "text": "GDP=$75T=Yf=$80T — no self-adjustment needed."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Net GDP=$75T < Yf=$80T → recessionary gap of $5T. Self-adjustment: wages fall (excess labor supply) → SRAS shifts right → economy moves right and down along the current AD (which reflects the negative AD shock from austerity) → GDP rises toward $80T at a lower price level; final LR equilibrium: GDP=$80T=Yf, PL below the current $75T equilibrium price (SRAS rightward shift moves down the AD).",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "Economy Tau: Yf grows at 3% per year (LRAS shifts right 3% annually). The economy starts at LR equilibrium ($100T, PL=110). At Year 5, Yf = $115.93T. An AD shock in Year 5 brings actual GDP to $110T.\n\nCalculate: (a) Yf at Year 5 (using 1.03^5 ≈ 1.159); (b) the output gap at Year 5; (c) the direction of self-adjustment needed.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) $115.93T; (b) −$5.93T recessionary; (c) SRAS shifts right."
+      },
+      {
+        "label": "B",
+        "text": "(a) $115.93T; (b) −$5.93T recessionary; (c) wages fall → SRAS shifts right → GDP rises toward $115.93T."
+      },
+      {
+        "label": "C",
+        "text": "(a) $103T (only 3%); (b) +$7T inflationary; (c) SRAS shifts left."
+      },
+      {
+        "label": "D",
+        "text": "(a) $115.93T; (b) +$5.93T inflationary; (c) SRAS shifts left."
+      },
+      {
+        "label": "E",
+        "text": "(a) $115.93T; (b) −$5.93T; (c) AD shifts right automatically."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.I.1: (a) Yf at Year 5: $100T × (1.03)^5 ≈ $100T × 1.1593 ≈ $115.93T. (b) Output gap: actual GDP ($110T) - Yf ($115.93T) = -$5.93T → recessionary gap of $5.93T. (c) Self-adjustment: GDP < Yf → unemployment > natural rate → wages fall → SRAS shifts right → GDP rises toward $115.93T (MOD-2.I.1); the growth from MOD-2.I.2 moved the target higher; the AD shock created a recessionary gap relative to that higher target.",
+    "reference": "MOD-2.I | MOD-2.I.1 | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "Economy Upsilon: Yf = $50T. A student draws the self-adjustment from a recessionary gap and incorrectly shows the AD curve shifting RIGHT during self-correction. Identify the error and explain why AD does NOT shift during self-correction.",
+    "options": [
+      {
+        "label": "A",
+        "text": "No error — AD does shift right during recessionary gap self-correction."
+      },
+      {
+        "label": "B",
+        "text": "The error is claiming AD shifts right during self-correction. MOD-2.I.1 states that self-adjustment works through flexible wages and prices — NOT through any change in aggregate demand. The recessionary gap self-correction mechanism is: wages fall → SRAS shifts right (SRAS is the adjusting curve). AD is determined by consumer/firm/government/foreign sector spending decisions — nothing in the self-correction process automatically changes any AD component. AD stays fixed at its post-shock level; only SRAS moves."
+      },
+      {
+        "label": "C",
+        "text": "The error is showing AD shifting left — it should shift right."
+      },
+      {
+        "label": "D",
+        "text": "No error — both AD and SRAS shift right during self-correction."
+      },
+      {
+        "label": "E",
+        "text": "The error is the direction — AD shifts left, not right."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The self-correction mechanism operates exclusively through SRAS, not AD. During recessionary gap self-correction: excess labor supply → wages fall → production costs fall → SRAS shifts right; nothing in this chain affects aggregate demand (C + I + G + NX). The AD curve stays where the original shock left it (at AD₂, leftward if negative AD shock); only after policy action (fiscal/monetary) would AD shift; in the \"absence of government policy actions\" (MOD-2.I.1), AD is fixed and SRAS adjusts.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "Economy Phi: Yf = $90T. LR equilibrium (PL=115). Over a 20-year period:\n\nYears 1-5: LRAS grows 2% annually (capital investment).\n\nYears 6-10: LRAS grows 4% annually (technology boom).\n\nYears 11-15: LRAS flat (growth stalls).\n\nYears 16-20: LRAS shrinks 1% annually (capital depreciation exceeds investment).\n\nCalculate Yf at the end of each 5-year period and the net Yf after 20 years.\n\n(Use approximations: 1.02^5 ≈ 1.104; 1.04^5 ≈ 1.217; 1.00^5 = 1.000; 0.99^5 ≈ 0.951)",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yr5: $99.4T; Yr10: $121.0T; Yr15: $121.0T; Yr20: $115.1T."
+      },
+      {
+        "label": "B",
+        "text": "Yr5: $90T; Yr10: $90T; Yr15: $90T; Yr20: $90T."
+      },
+      {
+        "label": "C",
+        "text": "Yr5: $99.4T; Yr10: $120.9T; Yr15: $120.9T; Yr20: $114.9T."
+      },
+      {
+        "label": "D",
+        "text": "Yr5: $100T; Yr10: $125T; Yr15: $125T; Yr20: $115T."
+      },
+      {
+        "label": "E",
+        "text": "Yr5: $99.4T; Yr10: $120.9T; Yr15: $120.9T; Yr20: $114.9T. Net change from $90T: +$24.9T over 20 years despite shrinkage in Yrs 16-20."
+      }
+    ],
+    "answer": "E",
+    "explanation": "Yr5: $90T × 1.104 = $99.4T; yr10: $99.4T × 1.217 = $120.9T; yr15: $120.9T × 1.000 = $120.9T (flat); yr20: $120.9T × 0.951 = $115.0T ≈ $114.9T. Net from $90T: +$24.9T despite the shrinkage phase; the LRAS shifts right (growth years) and slightly left (contraction years), reflecting the dynamic of productive capacity change per MOD-2.I.2.",
+    "reference": "MOD-2.I | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "Economy Chi: Yf = $100T. Starting at LR equilibrium. SIMULTANEOUSLY:\n\nEvent 1: Negative AD shock creates recessionary gap: GDP falls to $88T.\n\nEvent 2: LRAS shifts right (technology) to new Yf = $107T.\n\nThe recessionary gap is now relative to the NEW Yf. Self-adjustment begins.\n\nWhat self-correction is needed, and where does the economy converge?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Output gap: $88T − $100T = −$12T (old Yf); self-correction to $100T."
+      },
+      {
+        "label": "B",
+        "text": "Output gap: $88T − $107T = −$19T (new Yf); self-correction: wages fall (unemployment > new natural rate) → SRAS shifts right → GDP rises toward new Yf=$107T. Self-adjustment converges to $107T at a price level below the current recessionary gap PL."
+      },
+      {
+        "label": "C",
+        "text": "Output gap: $88T − $107T = −$19T; but self-correction only works to old Yf=$100T."
+      },
+      {
+        "label": "D",
+        "text": "No self-correction needed — the LRAS shift automatically resolves the gap."
+      },
+      {
+        "label": "E",
+        "text": "Output gap: +$19T inflationary; wages rise; SRAS shifts left."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.I.2: The relevant Yf is the NEW Yf=$107T (from LRAS rightward shift per MOD-2.I.2). Output gap: $88T - $107T = -$19T → recessionary gap relative to new potential. Self-adjustment (MOD-2.I.1): GDP < new Yf → unemployment > new natural rate → wages fall → SRAS shifts right → GDP rises toward new Yf=$107T; the self-correction target is the NEW Yf, not the old one; the LRAS shift changed the destination of self-correction.",
+    "reference": "MOD-2.I | MOD-2.I.1 | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "Economy Psi: Yf = $80T, LR equilibrium. An AP exam asks the student to compare the long-run effects of two policies:\n\nPolicy A: Government increases spending to close a $12T recessionary gap (AD shifts right).\n\nPolicy B: No policy — let self-adjustment close the $12T recessionary gap.\n\nUsing MOD-2.I.1, compare: (a) speed of reaching Yf; (b) final price level; (c) final real GDP; (d) impact on unemployment.",
+    "options": [
+      {
+        "label": "A",
+        "text": "A: faster, higher PL, $80T, natural rate. B: slower, lower PL, $80T, natural rate."
+      },
+      {
+        "label": "B",
+        "text": "A and B produce identical outcomes in all dimensions."
+      },
+      {
+        "label": "C",
+        "text": "A: faster, lower PL; B: slower, higher PL."
+      },
+      {
+        "label": "D",
+        "text": "A: faster to $80T (positive AD shifts right → economy quickly reaches Yf); higher final PL (demand-pull inflation from AD increase). B: slower to $80T (must wait for wages to fall and SRAS to shift right); lower final PL (SRAS shifting right along leftward AD → price falls). Both: final GDP = $80T = Yf; both: unemployment returns to natural rate. Key difference: SPEED and PRICE LEVEL."
+      },
+      {
+        "label": "E",
+        "text": "A: $80T with no PL change; B: $80T with higher PL."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Policy A (positive AD): GDP quickly rises to Yf=$80T; PL rises (demand-pull, moving up SRAS); faster but inflationary. Policy B (self-adjustment): wages gradually fall → SRAS shifts right → GDP slowly returns to Yf=$80T; PL falls (SRAS moving right along leftward AD); slower but deflationary; both: GDP=$80T; both: unemployment = natural rate (MOD-2.I.1); the differences are in speed and price level outcomes.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "Economy Lambda: Yf = $100T. Over a 3-year period, consecutive events occur with no policy:\n\nYear 1: Positive AD shock → inflationary gap.\n\nYear 2: Before self-adjustment completes, a negative SRAS shock hits.\n\nYear 3: Self-adjustment from wherever the economy is in Year 2.\n\nA student claims: \"After Year 3 self-adjustment, the economy is always at exactly $100T=Yf, regardless of the Year 2 shock.\" Is this claim correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Incorrect — the Year 2 shock could permanently change Yf."
+      },
+      {
+        "label": "B",
+        "text": "Correct — MOD-2.I.1 guarantees convergence to exactly $100T=Yf regardless of shocks."
+      },
+      {
+        "label": "C",
+        "text": "Correct as stated. As long as Yf=$100T remains (no LRAS shift), self-adjustment always converges to $100T. The Year 1 and Year 2 shocks create intermediate deviations, but the Year 3 self-adjustment (from wherever the economy is) moves toward the fixed LRAS at $100T. The LRAS is the anchor; multiple shocks don't change the destination."
+      },
+      {
+        "label": "D",
+        "text": "Incorrect — the simultaneous shocks prevent self-adjustment from completing."
+      },
+      {
+        "label": "E",
+        "text": "Correct only if the Year 2 shock was smaller than the Year 1 shock."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The claim is correct for MOD-2.I.1's framework. As long as Yf=$100T (LRAS unchanged - no LRAS shift from MOD-2.I.2), all self-adjustments converge to $100T regardless of intervening shocks. Year 1 creates an inflationary gap; Year 2 negative SRAS shock may offset it or create a different gap; Year 3 self-adjustment from the current position always moves toward the FIXED LRAS at $100T; the LRAS is the gravitational attractor; multiple shocks just change the path, not the destination.",
+    "reference": "MOD-2.I | MOD-2.I.1 | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "Economy Rho: Yf = $75T, LR equilibrium (PL=100). A comprehensive 4-event sequence with no policy:\n\nE1: Technology boom → LRAS shifts right to Yf=$85T AND SRAS shifts right (lower costs).\n\nE2: Short-run: GDP rises to $82T, PL falls to 90 (inflationary gap relative to old Yf=$75T; check vs new Yf=$85T).\n\nE3: Self-adjustment from the Year-E2 position.\n\nE4: Final state.\n\nFor E2: (a) output gap vs. old Yf and vs. new Yf; (b) direction of self-adjustment.",
+    "options": [
+      {
+        "label": "A",
+        "text": "E2: +$7T vs old Yf; −$3T vs new Yf. Self-adjustment: GDP rises toward $85T (recessionary vs. new Yf)."
+      },
+      {
+        "label": "B",
+        "text": "E2 vs old Yf: $82T−$75T=+$7T inflationary. E2 vs new Yf: $82T−$85T=−$3T recessionary. Self-adjustment must target NEW Yf=$85T. Direction: recessionary gap (−$3T) → wages fall → SRAS shifts right → GDP rises toward $85T."
+      },
+      {
+        "label": "C",
+        "text": "E2: −$3T recessionary vs. old Yf. +$7T inflationary vs. new Yf."
+      },
+      {
+        "label": "D",
+        "text": "E2: both gaps are recessionary; GDP below both old and new Yf."
+      },
+      {
+        "label": "E",
+        "text": "E2: both gaps are inflationary; GDP above both old and new Yf."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.I.2: E1 shifts LRAS right to $85T (new Yf); E2: GDP=$82T; vs. old Yf ($75T): +$7T inflationary; vs. new Yf ($85T): -$3T recessionary. Since Yf is now $85T (LRAS shifted per MOD-2.I.2), the RELEVANT gap is vs. new Yf: -$3T recessionary. Self-adjustment (MOD-2.I.1): GDP=$82T < new Yf=$85T → unemployment > natural rate (for $85T potential) → wages fall → SRAS shifts right → GDP rises toward $85T; self-adjustment always targets the CURRENT Yf (as determined by the LRAS position).",
+    "reference": "MOD-2.I | MOD-2.I.1 | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "Final synthesis: Economy Alpha: Yf = $90T, PL=110. Integrate BOTH EK points of MOD-2.I for the following complete scenario:\n\nStep 1: A negative AD shock creates a recessionary gap (MOD-2.I.1 applied).\n\nStep 2: Simultaneously, sustained capital investment shifts LRAS right to Yf=$100T (MOD-2.I.2 applied).\n\nStep 3: Self-adjustment from the combined position.\n\nFor each step: (a) identify the relevant EK point; (b) describe what happens to Yf and actual GDP; (c) state the output gap and direction of self-adjustment after Step 3.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 1 (MOD-2.I.1): AD shifts left → actual GDP falls (say to $80T), Yf unchanged at $90T. Step 2 (MOD-2.I.2): LRAS shifts right → new Yf=$100T; actual GDP still $80T. Output gap after Step 2: $80T−$100T=−$20T recessionary. Step 3 (MOD-2.I.1): wages fall → SRAS shifts right → GDP rises toward new Yf=$100T."
+      },
+      {
+        "label": "B",
+        "text": "Step 1: Yf falls; Step 2: actual GDP rises; Step 3: no gap."
+      },
+      {
+        "label": "C",
+        "text": "Step 1: MOD-2.I.2; Step 2: MOD-2.I.1; Step 3: inflationary gap."
+      },
+      {
+        "label": "D",
+        "text": "Both steps shift the LRAS; self-adjustment is irrelevant."
+      },
+      {
+        "label": "E",
+        "text": "Step 1 and Step 2 cancel; no self-adjustment needed."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Complete integration: Step 1 (MOD-2.I.1): Negative AD shock → actual GDP falls to $80T (say); Yf unchanged at $90T → recessionary gap of -$10T. Step 2 (MOD-2.I.2): Capital investment → LRAS shifts right → new Yf=$100T; actual GDP still $80T → new output gap: $80T-$100T=-$20T (larger recessionary gap relative to new higher Yf). Step 3 (MOD-2.I.1 again): GDP ($80T) < new Yf ($100T) → unemployment > new natural rate → wages fall → SRAS shifts right → GDP rises toward new Yf=$100T; self-adjustment converges to the new, higher potential.",
+    "reference": "MOD-2.I | MOD-2.I.1 | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "Economy Beta: Yf = $60T. The economy has been in a recessionary gap of $10T for 5 years with no policy. An economist observes that despite 5 years of slow adjustment, wages have NOT fallen significantly. Provide THREE explanations using the MOD-2.I.1 framework for why self-adjustment can be slow, and discuss whether this observation challenges the validity of MOD-2.I.1.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Three reasons: (1) Institutional downward wage rigidity — minimum wage laws, union contracts, and efficiency wage concerns prevent nominal wages from falling. (2) Adaptive expectations — workers and firms anchor wage expectations to past levels, slow to update downward. (3) Coordination failure — individual workers may be willing to accept lower wages but firms hesitate to cut first, leading to slow adjustment. These slow the mechanism without invalidating MOD-2.I.1, which predicts the direction and destination, not a specific speed."
+      },
+      {
+        "label": "B",
+        "text": "Wages never fall — MOD-2.I.1 is incorrect."
+      },
+      {
+        "label": "C",
+        "text": "Only government policy can restore full employment — self-adjustment is impossible."
+      },
+      {
+        "label": "D",
+        "text": "Wages fall instantly — the 5-year delay means something else is preventing recovery."
+      },
+      {
+        "label": "E",
+        "text": "The observation proves MOD-2.I.1 is wrong because it predicts immediate adjustment."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The slow adjustment does NOT invalidate MOD-2.I.1 (which predicts eventual convergence to Yf, not instantaneous convergence). Reasons for slow adjustment: (1) Downward wage rigidity - minimum wages, labor contracts, morale effects (efficiency wages). (2) Slow expectation updating - workers resist cuts expecting wages to recover; (3) Search frictions - matching workers to jobs takes time even when wages are flexible; confirms the direction (wages eventually fall) and destination (Yf), not the speed.",
+    "reference": "MOD-2.I | MOD-2.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "Economy Gamma: Yf = $80T. Five simultaneous events create the following short-run changes:\n\nE1: Positive AD → GDP +$6T, PL↑.\n\nE2: Negative SRAS → GDP −$9T, PL↑.\n\nE3: LRAS shifts right → new Yf=$86T.\n\nE4: Positive SRAS → GDP +$4T, PL↓.\n\nE5: Negative AD → GDP −$3T, PL↓.\n\nNet short-run GDP: $80T + $6T − $9T + $4T − $3T = $78T.\n\nWith no policy, calculate: (a) output gap vs. new Yf; (b) PL direction certainty; (c) self-adjustment direction.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) $78T−$80T=−$2T (old Yf); (b) ambiguous PL; (c) SRAS right."
+      },
+      {
+        "label": "B",
+        "text": "(a) $78T−$86T=−$8T recessionary (relative to new Yf=$86T from LRAS shift); (b) PL direction: E1(+AD)↑, E2(−SRAS)↑, E4(+SRAS)↓, E5(−AD)↓ → 2 up, 2 down → AMBIGUOUS; (c) recessionary gap → wages fall → SRAS shifts right → GDP rises toward $86T."
+      },
+      {
+        "label": "C",
+        "text": "(a) +$2T inflationary; (b) PL rises; (c) SRAS shifts left."
+      },
+      {
+        "label": "D",
+        "text": "(a) −$8T recessionary; (b) PL falls; (c) SRAS shifts left."
+      },
+      {
+        "label": "E",
+        "text": "(a) $0 gap; (b) PL neutral; (c) no adjustment needed."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.I.2: E3 shifts LRAS right → new Yf=$86T; net GDP=$78T; output gap vs. new Yf: $78T-$86T=-$8T → recessionary. PL: E1(pos AD)↑, E2(neg SRAS)↑, E4(pos SRAS)↓, E5(neg AD)↓ → two up, two down → AMBIGUOUS (net direction uncertain without magnitudes); self-adjustment: recessionary gap → wages fall → SRAS shifts right → GDP rises toward $86T (new Yf from MOD-2.I.2); drives adjustment toward MOD-2.I.2's new Yf.",
+    "reference": "MOD-2.I | MOD-2.I.1 | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "Final comprehensive synthesis for Topic 3.7. Economy Alpha: Yf = $75T, LR equilibrium (PL=108).\n\nApply BOTH EK points of MOD-2.I to the following scenario:\n\nPart 1 (MOD-2.I.1): A negative AD shock creates a recessionary gap (GDP=$65T, PL=96). With no policy, trace the complete self-adjustment: (a) mechanism; (b) which curve adjusts; (c) direction of SRAS shift; (d) final real GDP; (e) final PL relative to 96.\n\nPart 2 (MOD-2.I.2): Simultaneously, sustained technological progress shifts LRAS right to Yf=$82T.\n\nCombined: What is the output gap after both events, and what does the self-adjustment target?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Part 1: (a) wages fall; (b) SRAS shifts right; (c) right; (d) $75T=Yf; (e) PL below 96. Part 2: Yf rises to $82T → new recessionary gap vs. new Yf. Combined: output gap = $65T−$82T=−$17T recessionary. Self-adjustment target = $82T=new Yf."
+      },
+      {
+        "label": "B",
+        "text": "Part 1: (a) AD shifts right; (b) AD; (c) AD right; (d) $65T; (e) above 96."
+      },
+      {
+        "label": "C",
+        "text": "Part 2: new Yf=$82T; output gap = $0."
+      },
+      {
+        "label": "D",
+        "text": "Combined: inflationary gap of $17T; SRAS shifts left."
+      },
+      {
+        "label": "E",
+        "text": "Part 1 and Part 2 combine to return economy to $75T at PL=108."
+      }
+    ],
+    "answer": "A",
+    "explanation": "MOD-2.I.2: Part 1 (MOD-2.I.1): recessionary gap ($65T < $75T=Yf); (a) Unemployment > natural rate → wages fall; (b) SRAS is the adjusting curve; (c) Falling wages → SRAS shifts RIGHT; (d) Final GDP = $75T = old Yf. (e) SRAS shifts right along leftward AD₂ → PL falls below 96; part 2 (MOD-2.I.2): Technology → LRAS shifts right → new Yf=$82T; combined: actual GDP is somewhere in the $65T-$75T range depending on self-adjustment progress. Vs. new Yf=$82T: output gap = approx $65T-$82T=-$17T or smaller if partial self-correction has occurred; self-adjustment TARGET = new Yf=$82T (not old $75T); self-adjustment convergence: wages fall → SRAS shifts right → economy heads toward $82T on the new LRAS.",
+    "reference": "MOD-2.I | MOD-2.I.1 | MOD-2.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  }
+]

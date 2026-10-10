@@ -1,0 +1,3202 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "In the short run, a positive (rightward) shock to aggregate demand will cause real output, employment, and the price level to",
+    "options": [
+      {
+        "label": "A",
+        "text": "all fall."
+      },
+      {
+        "label": "B",
+        "text": "output and employment to rise while the price level falls."
+      },
+      {
+        "label": "C",
+        "text": "all rise — a rightward AD shift moves the AD-SRAS intersection to a higher price level and higher real GDP, increasing employment along with output."
+      },
+      {
+        "label": "D",
+        "text": "output and employment to fall while the price level rises."
+      },
+      {
+        "label": "E",
+        "text": "remain unchanged — only the long-run equilibrium changes."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A positive (rightward) AD shock shifts the AD curve right; because the SRAS slopes upward, the new AD-SRAS intersection is at both a higher price level AND higher real GDP. Higher real GDP requires more workers, so employment rises; all three variables - output, employment, and price level - move in the same direction (up) for a positive AD shock.",
+    "reference": "MOD-2.H | MOD-2.H.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "In the short run, a negative (leftward) shock to aggregate demand will cause real output, employment, and the price level to",
+    "options": [
+      {
+        "label": "A",
+        "text": "all rise."
+      },
+      {
+        "label": "B",
+        "text": "output and employment to fall while the price level rises."
+      },
+      {
+        "label": "C",
+        "text": "output and employment to rise while the price level falls."
+      },
+      {
+        "label": "D",
+        "text": "all fall — a leftward AD shift moves the AD-SRAS intersection to a lower price level and lower real GDP, reducing employment along with output."
+      },
+      {
+        "label": "E",
+        "text": "remain unchanged — AD shocks are absorbed by the LRAS."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A negative (leftward) AD shock shifts the AD curve left. The new AD-SRAS intersection is at a lower price level AND lower real GDP; less output means fewer workers needed, so employment falls; all three variables move in the same direction (down) for a negative AD shock.",
+    "reference": "MOD-2.H | MOD-2.H.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "In the short run, a positive (rightward) shock to short-run aggregate supply (SRAS) will cause",
+    "options": [
+      {
+        "label": "A",
+        "text": "real output and employment to fall, and the price level to rise."
+      },
+      {
+        "label": "B",
+        "text": "real output, employment, and the price level to all rise."
+      },
+      {
+        "label": "C",
+        "text": "real output and employment to rise, and the price level to fall — a rightward SRAS shift moves the SRAS-AD intersection to higher real GDP and lower price level simultaneously."
+      },
+      {
+        "label": "D",
+        "text": "real output and employment to fall, and the price level to fall."
+      },
+      {
+        "label": "E",
+        "text": "only the price level to change; output and employment are unaffected."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A positive (rightward) SRAS shock shifts the SRAS curve right. Because AD slopes downward, the new AD-SRAS intersection is at higher real GDP AND a lower price level; higher real GDP means more employment; unlike AD shocks, SRAS shocks move output/employment and the price level in OPPOSITE directions.",
+    "reference": "MOD-2.H | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "In the short run, a negative (leftward) shock to short-run aggregate supply (SRAS) will cause",
+    "options": [
+      {
+        "label": "A",
+        "text": "real output, employment, and the price level to all fall."
+      },
+      {
+        "label": "B",
+        "text": "real output and employment to rise, and the price level to fall."
+      },
+      {
+        "label": "C",
+        "text": "real output, employment, and the price level to all rise."
+      },
+      {
+        "label": "D",
+        "text": "real output and employment to fall, and the price level to rise — a leftward SRAS shift moves the intersection to lower real GDP (stagflation: higher prices AND lower output)."
+      },
+      {
+        "label": "E",
+        "text": "no change in any variable in the short run."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A negative (leftward) SRAS shock shifts the SRAS curve left; the new AD-SRAS intersection is at lower real GDP AND a higher price level. Less output means less employment; this is the classic stagflation result: output falls, employment falls, but the price level RISES simultaneously; output and price level move in opposite directions for SRAS shocks.",
+    "reference": "MOD-2.H | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "\"Demand-pull inflation\" refers to",
+    "options": [
+      {
+        "label": "A",
+        "text": "inflation caused by rising production costs, particularly wages and raw material prices."
+      },
+      {
+        "label": "B",
+        "text": "inflation caused by a rightward shift of the SRAS curve lowering the price level."
+      },
+      {
+        "label": "C",
+        "text": "inflation caused by a rightward shift of the AD curve — higher aggregate demand \"pulls\" the price level upward as the economy moves up the upward-sloping SRAS."
+      },
+      {
+        "label": "D",
+        "text": "deflation caused by a leftward shift of the AD curve."
+      },
+      {
+        "label": "E",
+        "text": "inflation caused by an increase in the natural rate of unemployment."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Demand-pull inflation is inflation caused by an increase in aggregate demand (rightward AD shift). As AD shifts right along the upward-sloping SRAS, the price level is pulled upward by excess demand; this is one of the two types of inflation identified in MOD-2.H.3.",
+    "reference": "MOD-2.H | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "\"Cost-push inflation\" refers to",
+    "options": [
+      {
+        "label": "A",
+        "text": "inflation caused by consumers demanding more goods, pulling prices up."
+      },
+      {
+        "label": "B",
+        "text": "inflation caused by a rightward shift of the AD curve due to government spending."
+      },
+      {
+        "label": "C",
+        "text": "inflation caused by a leftward shift of the SRAS curve — rising production costs push the price level upward while simultaneously reducing output (stagflation)."
+      },
+      {
+        "label": "D",
+        "text": "deflation caused by falling production costs shifting SRAS to the right."
+      },
+      {
+        "label": "E",
+        "text": "inflation caused solely by increases in import prices."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Cost-push inflation is inflation caused by a decrease in short-run aggregate supply (leftward SRAS shift). Rising production costs - wages, oil prices, raw materials - \"push\" the price level upward while output and employment fall simultaneously; this is the defining feature of stagflation: higher prices AND lower output.",
+    "reference": "MOD-2.H | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "A positive AD shock in the short run is best represented graphically by",
+    "options": [
+      {
+        "label": "A",
+        "text": "the AD curve shifting left, with the new AD-SRAS intersection at lower output and lower price level."
+      },
+      {
+        "label": "B",
+        "text": "the SRAS curve shifting right, with the new intersection at higher output and lower price level."
+      },
+      {
+        "label": "C",
+        "text": "the AD curve shifting right, with the new AD-SRAS intersection at a higher price level and higher real GDP."
+      },
+      {
+        "label": "D",
+        "text": "the LRAS curve shifting right, with potential output increasing."
+      },
+      {
+        "label": "E",
+        "text": "a movement down the existing AD curve to a lower price level."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A positive AD shock is graphically represented by the AD curve shifting RIGHT. The new intersection of AD₂ and the unchanged SRAS is at a higher price level (moving up the SRAS) AND higher real GDP (moving along the SRAS to more output); both price level and real GDP increase simultaneously.",
+    "reference": "MOD-2.H | MOD-2.H.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "An oil price spike that dramatically increases production costs for all firms represents",
+    "options": [
+      {
+        "label": "A",
+        "text": "a positive AD shock that raises output and employment."
+      },
+      {
+        "label": "B",
+        "text": "a positive SRAS shock that raises output and lowers the price level."
+      },
+      {
+        "label": "C",
+        "text": "a negative SRAS shock (leftward SRAS shift) — higher production costs reduce the quantity firms are willing to supply at every price level, raising prices and reducing output."
+      },
+      {
+        "label": "D",
+        "text": "a positive AD shock that raises the price level but does not affect output."
+      },
+      {
+        "label": "E",
+        "text": "a movement along the existing SRAS curve with no shift."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.H.3: An oil price spike is a classic negative (adverse) supply shock. Higher oil costs raise production costs for firms economy-wide → SRAS shifts left → at every price level, less is supplied → the AD-SRAS intersection moves to higher PL and lower real GDP; this is cost-push inflation (MOD-2.H.3): prices rise while output and employment fall.",
+    "reference": "MOD-2.H | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "A surge in consumer confidence and household spending represents",
+    "options": [
+      {
+        "label": "A",
+        "text": "a negative SRAS shock causing the price level to rise and output to fall."
+      },
+      {
+        "label": "B",
+        "text": "a positive AD shock — higher consumer spending shifts the AD curve right, raising the price level, real GDP, and employment in the short run."
+      },
+      {
+        "label": "C",
+        "text": "a negative AD shock causing deflation and rising unemployment."
+      },
+      {
+        "label": "D",
+        "text": "a positive SRAS shock that lowers production costs."
+      },
+      {
+        "label": "E",
+        "text": "a movement along the existing AD curve with no shift."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Rising consumer confidence increases consumption spending, a component of AD. This shifts AD right → positive AD shock → new AD-SRAS intersection at higher PL, higher real GDP, and higher employment; all three variables rise together for a positive demand shock.",
+    "reference": "MOD-2.H | MOD-2.H.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "The key difference between the short-run effects of an AD shock vs. an SRAS shock is that",
+    "options": [
+      {
+        "label": "A",
+        "text": "AD shocks affect output and employment; SRAS shocks only affect the price level."
+      },
+      {
+        "label": "B",
+        "text": "AD shocks raise all three variables (output, employment, price level) in the same direction; SRAS shocks move output/employment and the price level in OPPOSITE directions."
+      },
+      {
+        "label": "C",
+        "text": "SRAS shocks have larger effects than AD shocks on all variables."
+      },
+      {
+        "label": "D",
+        "text": "AD shocks only affect the long run; SRAS shocks only affect the short run."
+      },
+      {
+        "label": "E",
+        "text": "Both types of shocks always move all three variables in the same direction."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.H.2: The critical distinction: AD shocks → output, employment, AND price level all move in the same direction (positive shock: all rise; negative shock: all fall). SRAS shocks → output and employment move one way, but price level moves the OPPOSITE way (positive SRAS: output↑, PL↓; negative SRAS: output↓, PL↑); this opposite-direction feature of SRAS shocks is what produces stagflation.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "A technological breakthrough that reduces production costs for all industries represents",
+    "options": [
+      {
+        "label": "A",
+        "text": "a negative SRAS shock that reduces output and raises prices."
+      },
+      {
+        "label": "B",
+        "text": "a negative AD shock that reduces spending and lowers prices."
+      },
+      {
+        "label": "C",
+        "text": "a positive SRAS shock — lower production costs allow firms to supply more at every price level, shifting SRAS right and resulting in higher real GDP, more employment, and a lower price level."
+      },
+      {
+        "label": "D",
+        "text": "a positive AD shock that raises output, employment, and the price level."
+      },
+      {
+        "label": "E",
+        "text": "no change in either AD or SRAS in the short run."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Lower production costs → SRAS shifts right (positive supply shock); new AD-SRAS intersection: higher real GDP and LOWER price level; employment rises with higher output; this is a favorable supply shock: more output AND lower prices simultaneously.",
+    "reference": "MOD-2.H | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "A recession caused by a fall in business investment and consumer spending is best described in the AD-AS model as",
+    "options": [
+      {
+        "label": "A",
+        "text": "a positive AD shock causing the price level to rise."
+      },
+      {
+        "label": "B",
+        "text": "a positive SRAS shock causing output to rise and prices to fall."
+      },
+      {
+        "label": "C",
+        "text": "a negative AD shock — falling investment and consumption shift AD left, reducing output, employment, and the price level in the short run."
+      },
+      {
+        "label": "D",
+        "text": "a negative SRAS shock causing stagflation."
+      },
+      {
+        "label": "E",
+        "text": "a rightward LRAS shift reducing potential output."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Falling investment (I) and consumption (C) reduce two components of AD → AD shifts left → negative AD shock → new AD-SRAS intersection at lower real GDP, lower employment, and lower price level. All three variables fall together for a negative demand shock - this is the standard recessionary scenario.",
+    "reference": "MOD-2.H | MOD-2.H.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "Stagflation — the combination of rising prices and falling output/employment — is caused by",
+    "options": [
+      {
+        "label": "A",
+        "text": "a positive AD shock that raises both output and prices simultaneously."
+      },
+      {
+        "label": "B",
+        "text": "a negative AD shock that reduces output and raises prices."
+      },
+      {
+        "label": "C",
+        "text": "a positive SRAS shock that reduces output and raises the price level."
+      },
+      {
+        "label": "D",
+        "text": "a negative SRAS shock (leftward SRAS shift) — the adverse supply shock simultaneously raises the price level and reduces output and employment, producing stagflation."
+      },
+      {
+        "label": "E",
+        "text": "a balanced combination of AD and SRAS shocks that cancel each other."
+      }
+    ],
+    "answer": "D",
+    "explanation": "MOD-2.H.3: Stagflation requires output falling AND prices rising simultaneously; this combination occurs ONLY from a negative SRAS shock. A leftward SRAS shift → new AD-SRAS intersection at lower real GDP (output and employment fall) and higher price level (cost-push inflation); identifies this as cost-push inflation.",
+    "reference": "MOD-2.H | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "An increase in government spending on public goods shifts AD to the right. In the short run, which of the following best describes the result?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The price level falls and real GDP falls."
+      },
+      {
+        "label": "B",
+        "text": "The price level rises and real GDP falls."
+      },
+      {
+        "label": "C",
+        "text": "The price level falls and real GDP rises."
+      },
+      {
+        "label": "D",
+        "text": "The price level rises and real GDP rises — a rightward AD shift moves the economy up the upward-sloping SRAS, increasing both the price level and real GDP, and employment rises with output."
+      },
+      {
+        "label": "E",
+        "text": "No change occurs in the short run."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Government spending (G) is a component of AD. Higher G → AD shifts right → new AD-SRAS intersection up and to the right along the SRAS → higher price level AND higher real GDP; employment rises as more output requires more workers; all three variables increase simultaneously with a positive AD shock.",
+    "reference": "MOD-2.H | MOD-2.H.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "New regulations requiring expensive environmental compliance equipment increase production costs for all manufacturers. In the short run, which of the following best describes the result in the AD-AS model?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The price level falls and real GDP rises — a favorable supply shock."
+      },
+      {
+        "label": "B",
+        "text": "The price level rises and real GDP rises — like a positive AD shock."
+      },
+      {
+        "label": "C",
+        "text": "The price level falls and real GDP falls."
+      },
+      {
+        "label": "D",
+        "text": "The price level rises and real GDP falls — higher compliance costs shift SRAS left, producing stagflation: higher prices and lower output simultaneously."
+      },
+      {
+        "label": "E",
+        "text": "No change in either price level or real GDP."
+      }
+    ],
+    "answer": "D",
+    "explanation": "New compliance costs raise production costs → SRAS shifts left → negative supply shock → new AD-SRAS intersection at higher PL and lower real GDP. Employment falls with output; this is cost-push inflation (MOD-2.H.3): the price level rises even as output and employment fall.",
+    "reference": "MOD-2.H | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "Which of the following is an example of a positive AD shock?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Rising oil prices that increase production costs economy-wide."
+      },
+      {
+        "label": "B",
+        "text": "A new technological breakthrough that reduces per-unit production costs."
+      },
+      {
+        "label": "C",
+        "text": "Workers successfully demanding higher nominal wages."
+      },
+      {
+        "label": "D",
+        "text": "The government cutting taxes, which increases consumer disposable income and boosts consumption spending."
+      },
+      {
+        "label": "E",
+        "text": "An increase in inflationary expectations among workers and firms."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A tax cut increases household disposable income → consumption (C) rises → AD shifts right → positive AD shock → output, employment, and price level all rise in the short run.",
+    "reference": "MOD-2.H | MOD-2.H.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "Which of the following is an example of a negative AD shock?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower oil prices reducing production costs for firms."
+      },
+      {
+        "label": "B",
+        "text": "A surge in consumer confidence increasing household spending."
+      },
+      {
+        "label": "C",
+        "text": "New productivity-enhancing technology adopted economy-wide."
+      },
+      {
+        "label": "D",
+        "text": "A financial crisis causing households and firms to cut spending sharply, reducing consumption and investment."
+      },
+      {
+        "label": "E",
+        "text": "A government infrastructure spending program increasing G."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A financial crisis reduces household consumption (C) and firm investment (I) - two components of AD → AD shifts left → negative AD shock → output, employment, and price level all fall in the short run.",
+    "reference": "MOD-2.H | MOD-2.H.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "Which of the following is an example of a positive SRAS shock?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Rising nominal wages secured through collective bargaining."
+      },
+      {
+        "label": "B",
+        "text": "Higher oil prices due to supply disruptions."
+      },
+      {
+        "label": "C",
+        "text": "New government regulations increasing compliance costs."
+      },
+      {
+        "label": "D",
+        "text": "Falling raw material prices that reduce production costs for all industries."
+      },
+      {
+        "label": "E",
+        "text": "Higher inflationary expectations causing workers to demand higher pay."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Falling raw material prices reduce production costs → SRAS shifts right → positive supply shock → output and employment rise, price level falls.",
+    "reference": "MOD-2.H | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "Which of the following is an example of a negative SRAS shock?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A tax cut that increases consumer spending."
+      },
+      {
+        "label": "B",
+        "text": "A government stimulus program boosting aggregate demand."
+      },
+      {
+        "label": "C",
+        "text": "A fall in domestic oil prices reducing energy costs."
+      },
+      {
+        "label": "D",
+        "text": "An increase in worker productivity that lowers per-unit production costs."
+      },
+      {
+        "label": "E",
+        "text": "A sharp rise in the price of steel and other industrial inputs used in manufacturing."
+      }
+    ],
+    "answer": "E",
+    "explanation": "Rising steel and industrial input prices increase production costs → SRAS shifts left → negative supply shock → output and employment fall, price level rises.",
+    "reference": "MOD-2.H | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "According to MOD-2.H.3, inflation in the AD-AS model can be caused by",
+    "options": [
+      {
+        "label": "A",
+        "text": "only changes in aggregate demand (demand-pull)."
+      },
+      {
+        "label": "B",
+        "text": "only changes in short-run aggregate supply (cost-push)."
+      },
+      {
+        "label": "C",
+        "text": "either a rightward shift of AD (demand-pull inflation) OR a leftward shift of SRAS (cost-push inflation) — both produce a higher equilibrium price level in the short run, but through different mechanisms."
+      },
+      {
+        "label": "D",
+        "text": "only changes in potential output (rightward LRAS shifts)."
+      },
+      {
+        "label": "E",
+        "text": "only government monetary policy actions."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.H.3 explicitly states that inflation can be caused by changes in AD (demand-pull: AD shifts right → price level rises with output rising) OR changes in SRAS (cost-push: SRAS shifts left → price level rises with output falling). Both mechanisms raise the price level, but they have opposite effects on real GDP and employment.",
+    "reference": "MOD-2.H | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "The short-run AD-AS graph showing a negative AD shock should display",
+    "options": [
+      {
+        "label": "A",
+        "text": "the AD curve shifting right and the new intersection at higher output and higher price level."
+      },
+      {
+        "label": "B",
+        "text": "the SRAS curve shifting right and the new intersection at higher output and lower price level."
+      },
+      {
+        "label": "C",
+        "text": "the AD curve shifting left and the new AD-SRAS intersection at lower real GDP and lower price level compared to the original."
+      },
+      {
+        "label": "D",
+        "text": "the SRAS curve shifting left and the new intersection at lower output and higher price level."
+      },
+      {
+        "label": "E",
+        "text": "both AD and SRAS shifting left simultaneously."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A negative AD shock is graphically represented by the AD curve shifting LEFT. The new intersection of AD₂ (left of AD₁) with the unchanged upward-sloping SRAS is at lower real GDP (moving down and left along the SRAS) and a lower price level; both output and price level fall for a negative demand shock.",
+    "reference": "MOD-2.H | MOD-2.H.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "The short-run AD-AS graph showing a negative SRAS shock (cost-push) should display",
+    "options": [
+      {
+        "label": "A",
+        "text": "the AD curve shifting left with lower output and lower price level."
+      },
+      {
+        "label": "B",
+        "text": "the SRAS curve shifting right with higher output and lower price level."
+      },
+      {
+        "label": "C",
+        "text": "the SRAS curve shifting left and the new AD-SRAS intersection at lower real GDP and HIGHER price level — the classic stagflation outcome."
+      },
+      {
+        "label": "D",
+        "text": "both AD and SRAS shifting right simultaneously."
+      },
+      {
+        "label": "E",
+        "text": "the LRAS shifting left to a lower potential output."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A negative SRAS shock is graphically shown as the SRAS curve shifting LEFT. The new intersection of the left-shifted SRAS₂ and the unchanged downward-sloping AD is at lower real GDP AND higher price level; this is stagflation: output falls while prices rise; the opposite-direction movement of output and price level is the signature of SRAS shocks.",
+    "reference": "MOD-2.H | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "A decrease in exports due to a trading partner's recession is best classified as",
+    "options": [
+      {
+        "label": "A",
+        "text": "a positive AD shock."
+      },
+      {
+        "label": "B",
+        "text": "a positive SRAS shock."
+      },
+      {
+        "label": "C",
+        "text": "a negative SRAS shock causing cost-push inflation."
+      },
+      {
+        "label": "D",
+        "text": "a negative AD shock — falling net exports reduce a component of aggregate demand (NX), shifting AD left and causing output, employment, and the price level to all fall in the short run."
+      },
+      {
+        "label": "E",
+        "text": "a change in potential output, shifting the LRAS."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Net exports (NX) is a component of AD. Falling exports → NX falls → AD shifts left → negative AD shock → output, employment, and price level all fall in the short run; this is a demand-side shock (not supply), and all three variables move in the same direction (down).",
+    "reference": "MOD-2.H | MOD-2.H.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "A fall in energy prices due to a new oil discovery reduces production costs for firms economy-wide. In the short run, this causes",
+    "options": [
+      {
+        "label": "A",
+        "text": "output and employment to fall, and the price level to rise — stagflation."
+      },
+      {
+        "label": "B",
+        "text": "output and employment to rise, and the price level to rise — demand-pull inflation."
+      },
+      {
+        "label": "C",
+        "text": "output and employment to fall, and the price level to fall."
+      },
+      {
+        "label": "D",
+        "text": "output and employment to rise, and the price level to FALL — a positive SRAS shock: lower production costs shift SRAS right, producing more output at lower prices."
+      },
+      {
+        "label": "E",
+        "text": "no change in output, employment, or the price level."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Lower energy prices → reduced production costs → SRAS shifts right → positive supply shock. New AD-SRAS intersection: output rises (moving down and to the right along the AD curve), employment rises with output, and the price level FALLS; the hallmark of a positive SRAS shock is the favorable combination: more output AND lower prices.",
+    "reference": "MOD-2.H | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "Which combination of changes in output and the price level is UNIQUE to a positive SRAS shock and CANNOT result from an AD shock?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Output rises and price level rises."
+      },
+      {
+        "label": "B",
+        "text": "Output falls and price level falls."
+      },
+      {
+        "label": "C",
+        "text": "Output rises and price level falls — this combination can ONLY come from a rightward SRAS shift. A positive AD shock also raises output, but it simultaneously raises the price level. Only a positive SRAS shock produces the favorable combination of more output at a lower price."
+      },
+      {
+        "label": "D",
+        "text": "Output falls and price level rises."
+      },
+      {
+        "label": "E",
+        "text": "Output and price level both remain unchanged."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.H.2: For AD shocks: output and price level always move in the SAME direction; A positive AD shock → both rise; a negative AD shock → both fall. For SRAS shocks: output and price level move in OPPOSITE directions; the combination \"output rises AND price level falls\" can ONLY come from a positive SRAS shock (rightward SRAS); similarly, \"output falls AND price level rises\" (stagflation) can ONLY come from a negative SRAS shock.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "Which combination of changes in output and the price level is UNIQUE to a negative SRAS shock and CANNOT result from an AD shock?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Output rises and price level rises."
+      },
+      {
+        "label": "B",
+        "text": "Output falls and price level falls."
+      },
+      {
+        "label": "C",
+        "text": "Output rises and price level falls."
+      },
+      {
+        "label": "D",
+        "text": "Output falls and price level rises — stagflation. This combination can ONLY come from a leftward SRAS shift. A negative AD shock also reduces output, but it simultaneously reduces the price level. Only a negative SRAS shock produces the adverse combination of less output at a higher price (stagflation)."
+      },
+      {
+        "label": "E",
+        "text": "Output remains unchanged and price level rises."
+      }
+    ],
+    "answer": "D",
+    "explanation": "MOD-2.H.3: The combination \"output falls AND price level rises\" is the signature of a negative SRAS shock (cost-push inflation = stagflation). A negative AD shock also reduces output, but causes prices to FALL, not rise; the opposite-direction movement in a negative SRAS shock is what makes it distinguishable: stagflation cannot result from any AD shock.",
+    "reference": "MOD-2.H | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "An economy experiences simultaneously rising prices AND rising output in the short run. This is most consistent with",
+    "options": [
+      {
+        "label": "A",
+        "text": "a negative AD shock."
+      },
+      {
+        "label": "B",
+        "text": "a negative SRAS shock (cost-push)."
+      },
+      {
+        "label": "C",
+        "text": "a positive AD shock — a rightward AD shift raises both the price level (demand-pull inflation) and real GDP simultaneously, along with employment."
+      },
+      {
+        "label": "D",
+        "text": "a positive SRAS shock."
+      },
+      {
+        "label": "E",
+        "text": "no shock — prices and output cannot rise simultaneously."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.H.3: Rising prices AND rising output simultaneously is the signature of a positive AD shock. The AD curve shifts right → new intersection up the upward-sloping SRAS → both price level and real GDP increase together (demand-pull inflation); A positive SRAS shock would raise output but lower prices; any combination of rising prices with rising output = demand-pull.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "An economy experiences simultaneously rising prices AND falling output in the short run. This is most consistent with",
+    "options": [
+      {
+        "label": "A",
+        "text": "a positive AD shock."
+      },
+      {
+        "label": "B",
+        "text": "a positive SRAS shock."
+      },
+      {
+        "label": "C",
+        "text": "a negative AD shock."
+      },
+      {
+        "label": "D",
+        "text": "a negative SRAS shock — a leftward SRAS shift raises the price level while simultaneously reducing real GDP and employment. This is stagflation, also called cost-push inflation."
+      },
+      {
+        "label": "E",
+        "text": "a balanced combination of a positive AD shock and a positive SRAS shock."
+      }
+    ],
+    "answer": "D",
+    "explanation": "MOD-2.H.3: Rising prices AND falling output simultaneously is the exclusive signature of a negative SRAS shock (stagflation/cost-push inflation). A leftward SRAS shift moves the AD-SRAS intersection up the AD curve → higher price level AND lower real GDP; no AD shock can produce this combination (AD shocks move output and prices in the same direction).",
+    "reference": "MOD-2.H | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "The term \"demand-pull\" in demand-pull inflation refers to the idea that",
+    "options": [
+      {
+        "label": "A",
+        "text": "declining aggregate demand pulls the price level down."
+      },
+      {
+        "label": "B",
+        "text": "excess aggregate demand \"pulls\" the price level upward by creating scarcity of goods and services — firms can charge higher prices when more is being demanded than can be sustainably produced."
+      },
+      {
+        "label": "C",
+        "text": "cost increases from suppliers push the price level upward."
+      },
+      {
+        "label": "D",
+        "text": "the government pulls taxes from citizens to finance spending."
+      },
+      {
+        "label": "E",
+        "text": "consumers pull money from savings to fund increased consumption."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Demand-pull inflation: when aggregate demand rises (AD shifts right), more is demanded than can be sustainably supplied at the original price level. The excess demand \"pulls\" prices upward as firms respond to higher demand by raising prices; this results in a higher equilibrium price level along with higher real GDP and employment.",
+    "reference": "MOD-2.H | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "In the short run, which of the following correctly describes the effect of a positive AD shock on employment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Employment falls — higher prices make workers more expensive to hire."
+      },
+      {
+        "label": "B",
+        "text": "Employment is unchanged — output changes but firms don't hire or fire based on demand shocks."
+      },
+      {
+        "label": "C",
+        "text": "Employment rises — a positive AD shock raises real GDP; producing more output requires more workers, so firms increase hiring."
+      },
+      {
+        "label": "D",
+        "text": "Employment falls then rises — there is an initial dip before the increase."
+      },
+      {
+        "label": "E",
+        "text": "Employment is fixed in the short run by labor contracts."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A positive AD shock raises real GDP in the short run; more output requires more labor → firms increase hiring → employment rises. The CED states explicitly: \"a positive shock in AD causes output, employment, and the price level to rise in the short run.\" Output and employment always move together.",
+    "reference": "MOD-2.H | MOD-2.H.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 31,
+    "difficulty": "Easy",
+    "prompt": "In the short run, which of the following correctly describes the effect of a negative SRAS shock on employment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Employment rises — firms hire more workers to produce the same output despite higher costs."
+      },
+      {
+        "label": "B",
+        "text": "Employment is unchanged — supply shocks only affect the price level."
+      },
+      {
+        "label": "C",
+        "text": "Employment falls — a negative SRAS shock reduces real GDP; producing less output requires fewer workers, so firms reduce employment."
+      },
+      {
+        "label": "D",
+        "text": "Employment rises then falls — firms initially expand then contract."
+      },
+      {
+        "label": "E",
+        "text": "Employment is unaffected by supply-side shocks in the short run."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A negative SRAS shock reduces real GDP; less output requires fewer workers → firms reduce hiring or lay off workers → employment falls. states: \"a negative shock in SRAS causes output and employment to rise (fall)...\" - for a negative shock, both output and employment fall; employment always tracks output in the short run.",
+    "reference": "MOD-2.H | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 32,
+    "difficulty": "Easy",
+    "prompt": "The government increases spending, shifting AD to the right. An oil price spike simultaneously shifts SRAS to the left. Which of the following is CERTAIN about the short-run outcome?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The price level will certainly rise and real GDP will certainly rise."
+      },
+      {
+        "label": "B",
+        "text": "The price level will certainly fall and real GDP will certainly fall."
+      },
+      {
+        "label": "C",
+        "text": "Real GDP is ambiguous; but the price level will certainly rise — both a rightward AD shift (demand-pull) and a leftward SRAS shift (cost-push) raise the price level. The two inflation sources reinforce each other."
+      },
+      {
+        "label": "D",
+        "text": "The price level is ambiguous; real GDP will certainly rise."
+      },
+      {
+        "label": "E",
+        "text": "Both the price level and real GDP are ambiguous."
+      }
+    ],
+    "answer": "C",
+    "explanation": ", MOD-2.H.2, MOD-2.H.3: Rightward AD shift: PL rises, GDP rises; leftward SRAS shift: PL rises, GDP falls. On GDP: the two forces work in opposite directions (AD pushes GDP up; SRAS pushes GDP down) → AMBIGUOUS; on price level: BOTH forces push it UP → RISES UNAMBIGUOUSLY; this is a key insight: simultaneous demand-pull and cost-push inflation reinforce each other on the price level side.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 33,
+    "difficulty": "Easy",
+    "prompt": "A fall in consumer confidence causes households to reduce spending. In the short run, the AD-AS model predicts",
+    "options": [
+      {
+        "label": "A",
+        "text": "output rises, employment rises, and the price level rises."
+      },
+      {
+        "label": "B",
+        "text": "output rises and the price level falls — a positive supply shock outcome."
+      },
+      {
+        "label": "C",
+        "text": "output falls, employment falls, and the price level falls — a negative AD shock results in all three variables declining simultaneously."
+      },
+      {
+        "label": "D",
+        "text": "output falls and the price level rises — stagflation caused by demand decline."
+      },
+      {
+        "label": "E",
+        "text": "only the price level changes; output and employment are fixed in the short run."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Falling consumer confidence → consumption (C) falls → AD shifts left → negative AD shock. New AD-SRAS intersection: lower real GDP AND lower price level; fewer workers needed for lower output → employment falls; all three variables (output, employment, price level) fall together for a negative AD shock.",
+    "reference": "MOD-2.H | MOD-2.H.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "Economy Alpha is at long-run equilibrium (Yf = $50T, PL = 100). A surge in export demand shifts AD to the right. Starting from this original position, describe the complete short-run effect on the price level, real GDP, employment, and the output gap created.",
+    "options": [
+      {
+        "label": "A",
+        "text": "PL falls, real GDP falls, employment falls — negative demand shock."
+      },
+      {
+        "label": "B",
+        "text": "PL rises, real GDP rises, employment rises, inflationary gap created — the rightward AD shift moves the intersection up the SRAS to higher PL and real GDP above Yf. Since actual GDP > Yf, an inflationary gap is created."
+      },
+      {
+        "label": "C",
+        "text": "PL falls, real GDP rises, employment rises — positive SRAS shock outcome."
+      },
+      {
+        "label": "D",
+        "text": "PL rises, real GDP falls, employment falls — stagflation from a negative SRAS shock."
+      },
+      {
+        "label": "E",
+        "text": "No change — the economy was at LR equilibrium and automatically absorbs the shock."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Starting at LR equilibrium, a rightward AD shift (positive demand shock from higher exports): PL rises (demand-pull), real GDP rises above Yf, employment rises. Since actual GDP > Yf, an inflationary output gap is created; the economy has moved above its full-employment level - this generates wage and price pressures that will eventually shift SRAS left in the long run.",
+    "reference": "MOD-2.H | MOD-2.H.1",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. AD₁ and SRAS intersecting on LRAS at $50T, PL=100. New AD₂ shifted right intersects SRAS at higher PL and higher real GDP (to the right of LRAS).",
+    "graphRequired": true
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "Economy Beta is at long-run equilibrium (Yf = $60T, PL = 105). Global oil prices spike sharply, raising energy costs for all domestic firms. Describe the complete short-run effect on the price level, real GDP, employment, and the output gap created.",
+    "options": [
+      {
+        "label": "A",
+        "text": "PL falls, real GDP rises, employment rises — positive supply shock."
+      },
+      {
+        "label": "B",
+        "text": "PL falls, real GDP falls, employment falls — negative demand shock."
+      },
+      {
+        "label": "C",
+        "text": "PL rises, real GDP rises, employment rises — positive demand shock."
+      },
+      {
+        "label": "D",
+        "text": "PL rises, real GDP falls, employment falls, recessionary gap created — the leftward SRAS shift (cost-push) moves the intersection to higher PL and lower real GDP below Yf. Stagflation: higher prices AND lower output, with a recessionary gap since actual < Yf."
+      },
+      {
+        "label": "E",
+        "text": "No change — oil prices are external and do not affect the domestic AD-AS model."
+      }
+    ],
+    "answer": "D",
+    "explanation": "MOD-2.H.3: Oil price spike → production costs rise → SRAS shifts left → negative supply shock (cost-push). Starting from LR equilibrium: PL rises (cost-push inflation), real GDP falls below Yf, employment falls; A recessionary output gap is created (actual < Yf); this is the classic stagflation outcome: the adverse supply shock creates a recessionary gap while simultaneously raising the price level.",
+    "reference": "MOD-2.H | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. AD and SRAS₁ intersecting on LRAS at $60T, PL=105. New SRAS₂ shifted left intersects AD at higher PL and lower real GDP (to the left of LRAS).",
+    "graphRequired": true
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "Classify each of the following events as a positive AD shock, negative AD shock, positive SRAS shock, or negative SRAS shock. Then describe the short-run effect on real GDP and the price level for each.\n\nEvent 1: Government cuts income taxes → households increase consumption.\n\nEvent 2: Wages negotiated upward across major industries.\n\nEvent 3: New technology dramatically reduces per-unit production costs.\n\nEvent 4: Trading partner recession reduces demand for domestic exports.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Event 1: negative AD; GDP falls, PL falls. Event 2: positive SRAS; GDP rises, PL falls. Event 3: negative SRAS; GDP falls, PL rises. Event 4: positive AD; GDP rises, PL rises."
+      },
+      {
+        "label": "B",
+        "text": "Event 1: positive AD; GDP rises, PL rises. Event 2: negative SRAS; GDP falls, PL rises. Event 3: positive SRAS; GDP rises, PL falls. Event 4: negative AD; GDP falls, PL falls."
+      },
+      {
+        "label": "C",
+        "text": "All four events are AD shocks. GDP and PL move in the same direction for all."
+      },
+      {
+        "label": "D",
+        "text": "Events 1 and 3 are SRAS shocks; Events 2 and 4 are AD shocks."
+      },
+      {
+        "label": "E",
+        "text": "Event 1: positive SRAS; Event 2: negative AD; Event 3: positive AD; Event 4: positive SRAS."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Event 1: tax cut → C rises → AD right → positive AD → GDP↑, PL↑. Event 2: higher wages → costs rise → SRAS left → negative SRAS → GDP↓, PL↑ (stagflation); event 3: lower production costs → SRAS right → positive SRAS → GDP↑, PL↓; event 4: fewer exports → NX falls → AD left → negative AD → GDP↓, PL↓.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "Starting from LR equilibrium at Yf = $70T, PL = 110: a new government subsidizes domestic energy production, reducing energy costs for all firms by 15%. Describe the complete short-run AD-AS adjustment: (a) which curve shifts, in which direction; (b) short-run effects on PL, real GDP, and employment; (c) type of output gap created.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) AD shifts right; (b) PL rises, GDP rises, employment rises; (c) inflationary gap."
+      },
+      {
+        "label": "B",
+        "text": "(a) SRAS shifts right (energy subsidy → lower production costs); (b) PL falls, GDP rises above Yf, employment rises; (c) inflationary gap — actual GDP > Yf."
+      },
+      {
+        "label": "C",
+        "text": "(a) SRAS shifts left; (b) PL rises, GDP falls, employment falls; (c) recessionary gap."
+      },
+      {
+        "label": "D",
+        "text": "(a) AD shifts left; (b) PL falls, GDP falls, employment falls; (c) recessionary gap."
+      },
+      {
+        "label": "E",
+        "text": "(a) LRAS shifts right; (b) no short-run change in PL or GDP."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Energy subsidy → lower production costs → positive SRAS shock → SRAS shifts right. New AD-SRAS₂ intersection: (b) PL falls below 110 (moving down the AD curve), real GDP rises above $70T (moving right along the AD curve), employment rises with output; (c) Actual GDP > Yf = $70T → inflationary gap; note: a positive supply shock starting from LR equilibrium creates an inflationary gap while LOWERING the price level.",
+    "reference": "MOD-2.H | MOD-2.H.2",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. Original AD and SRAS₁ intersecting on LRAS at $70T, PL=110. New SRAS₂ shifted right intersects AD below and to the right of original, at lower PL and higher GDP.",
+    "graphRequired": true
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "Compare the short-run effects of two policies:\n\nPolicy A: Government increases spending by $X (positive AD shock).\n\nPolicy B: Government subsidizes production costs by an equal amount (positive SRAS shock).\n\nFor each policy, identify the short-run effects on: (a) real GDP; (b) employment; (c) price level; (d) type of inflation created if any.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Policy A: GDP rises, employment rises, PL rises (demand-pull inflation). Policy B: GDP rises, employment rises, PL falls (no inflation — actually deflationary). The two policies have OPPOSITE effects on the price level despite both increasing output."
+      },
+      {
+        "label": "B",
+        "text": "Both policies produce identical outcomes: GDP rises, employment rises, PL rises."
+      },
+      {
+        "label": "C",
+        "text": "Policy A: GDP rises, PL falls. Policy B: GDP rises, PL rises."
+      },
+      {
+        "label": "D",
+        "text": "Policy A: GDP falls, PL rises. Policy B: GDP rises, PL falls."
+      },
+      {
+        "label": "E",
+        "text": "Both policies raise PL; only Policy A raises GDP."
+      }
+    ],
+    "answer": "A",
+    "explanation": "MOD-2.H.2: Policy A (positive AD): GDP↑, employment↑, PL↑ (demand-pull inflation); policy B (positive SRAS): GDP↑, employment↑, PL↓ (no inflation - price level falls). The key contrast: both policies increase output and employment, but they have OPPOSITE effects on the price level; supply-side policies that lower production costs are inflation-friendly (more output at lower prices); demand-side policies raise both output and prices.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "Economy Gamma experiences a financial market panic: businesses drastically cut investment and households cut consumption, simultaneously. Describe the complete short-run AD-AS effects and identify any inflation/deflation type.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Negative SRAS shock; price level rises, GDP falls; cost-push inflation; stagflation."
+      },
+      {
+        "label": "B",
+        "text": "Positive AD shock; price level rises, GDP rises; demand-pull inflation; inflationary gap."
+      },
+      {
+        "label": "C",
+        "text": "Negative AD shock — both investment (I) and consumption (C) fall → AD shifts left → price level falls (deflation or disinflationary pressure), real GDP falls, employment falls; negative output gap (recessionary)."
+      },
+      {
+        "label": "D",
+        "text": "Positive SRAS shock; price level falls, GDP rises; no inflation."
+      },
+      {
+        "label": "E",
+        "text": "Both AD and SRAS shift left; all variables fall except price level which is ambiguous."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Both I and C are components of AD; their simultaneous decline → AD shifts left → negative AD shock. New AD₂-SRAS intersection: lower PL (deflationary pressure, NOT inflation), lower real GDP, lower employment; this is the opposite of inflation - a negative demand shock produces deflation or disinflationary pressure; recessionary output gap created.",
+    "reference": "MOD-2.H | MOD-2.H.1",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. Original AD₁ and SRAS intersecting at initial equilibrium. New AD₂ shifted far left intersects SRAS at lower PL and lower GDP.",
+    "graphRequired": true
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "An economist observes an economy where the price level has risen AND real GDP has fallen simultaneously. Using the MOD-2.H framework, which type of shock caused this and which direction did the relevant curve shift?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A positive AD shock; AD shifted right."
+      },
+      {
+        "label": "B",
+        "text": "A negative AD shock; AD shifted left."
+      },
+      {
+        "label": "C",
+        "text": "A positive SRAS shock; SRAS shifted right."
+      },
+      {
+        "label": "D",
+        "text": "A negative SRAS shock; SRAS shifted left — this is the ONLY shock type that produces rising PL with falling GDP (stagflation). An AD shock always moves PL and GDP in the same direction."
+      },
+      {
+        "label": "E",
+        "text": "A simultaneous positive AD and positive SRAS shock; both curves shifted right."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Rising PL with falling GDP is the exclusive signature of a negative SRAS shock. A leftward SRAS shift moves the AD-SRAS intersection up the downward-sloping AD curve → higher PL AND lower real GDP; confirms that AD shocks always move PL and GDP in the SAME direction, so no AD shock can produce this combination.",
+    "reference": "MOD-2.H | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "An economist observes falling prices AND falling output simultaneously. Using the MOD-2.H framework, which type of shock caused this?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A negative SRAS shock — SRAS shifted left (stagflation)."
+      },
+      {
+        "label": "B",
+        "text": "A positive SRAS shock — SRAS shifted right (lower PL and higher GDP)."
+      },
+      {
+        "label": "C",
+        "text": "A negative AD shock — AD shifted left (lower PL and lower GDP simultaneously). This matches \"falling prices AND falling output,\" which is the signature of a negative demand shock."
+      },
+      {
+        "label": "D",
+        "text": "A positive AD shock — AD shifted right (higher PL and higher GDP)."
+      },
+      {
+        "label": "E",
+        "text": "A simultaneous negative AD and negative SRAS shock."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Falling PL AND falling GDP simultaneously is the signature of a negative AD shock. A leftward AD shift moves the intersection down and to the left along the upward-sloping SRAS → both price level AND real GDP fall together; this cannot be a SRAS shock (negative SRAS would raise PL; positive SRAS would raise GDP).",
+    "reference": "MOD-2.H | MOD-2.H.1",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. Original equilibrium with AD and SRAS. Possible new positions: AD shifted left (intersection at lower PL and lower GDP) or SRAS shifted right (intersection at lower PL and higher GDP).",
+    "graphRequired": true
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "Using the MOD-2.H framework, create a two-by-two matrix showing all four shock combinations and their effects on output, employment, and price level.\n\nPositive AD shock: output/employment ?, price level ?\n\nNegative AD shock: output/employment ?, price level ?\n\nPositive SRAS shock: output/employment ?, price level ?\n\nNegative SRAS shock: output/employment ?, price level ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Positive AD: ↑, ↑; Negative AD: ↓, ↑; Positive SRAS: ↑, ↑; Negative SRAS: ↓, ↓."
+      },
+      {
+        "label": "B",
+        "text": "Positive AD: ↑, ↑; Negative AD: ↓, ↓; Positive SRAS: ↑, ↓; Negative SRAS: ↓, ↑. (Format: output/employment ↑/↓, price level ↑/↓)"
+      },
+      {
+        "label": "C",
+        "text": "All four shocks: output ↑, price level ↑."
+      },
+      {
+        "label": "D",
+        "text": "Positive AD: ↑, ↓; Negative AD: ↓, ↑; Positive SRAS: ↑, ↑; Negative SRAS: ↓, ↓."
+      },
+      {
+        "label": "E",
+        "text": "Positive AD: ↑, ↑; Negative AD: ↑, ↓; Positive SRAS: ↓, ↑; Negative SRAS: ↓, ↓."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.H.2: The complete matrix: Positive AD: output↑, employment↑, PL↑ (demand-pull inflation); negative AD: output↓, employment↓, PL↓ (deflation). Positive SRAS: output↑, employment↑, PL↓ (lower prices with growth); negative SRAS: output↓, employment↓, PL↑ (stagflation/cost-push); AD shocks: output and PL in same direction; SRAS shocks: output and PL in opposite directions.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "Economy Delta is currently in a recessionary gap. The government uses expansionary fiscal policy (increases G) to close the gap. Describe the short-run AD-AS effects of this policy using MOD-2.H.1.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Positive SRAS shock; SRAS shifts right; output rises and PL falls."
+      },
+      {
+        "label": "B",
+        "text": "Negative AD shock; AD shifts left; output and PL both fall further."
+      },
+      {
+        "label": "C",
+        "text": "Positive AD shock — G increases → AD shifts right → new AD₂-SRAS intersection at higher real GDP (closing the recessionary gap) and higher price level. Employment rises with output. The economy moves closer to or at Yf."
+      },
+      {
+        "label": "D",
+        "text": "Negative SRAS shock; SRAS shifts left; stagflation results."
+      },
+      {
+        "label": "E",
+        "text": "The LRAS shifts right, permanently increasing potential output."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Expansionary fiscal policy (higher G) → AD shifts right → positive AD shock. New short-run equilibrium: higher real GDP (moves economy toward Yf, closing the recessionary gap) AND higher price level (demand-pull pressure); employment rises; all three variables increase: output↑, employment↑, PL↑; this illustrates MOD-2.H.1 applied to a policy action.",
+    "reference": "MOD-2.H | MOD-2.H.1",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. SRAS and AD₁ intersecting left of LRAS (recessionary gap). New AD₂ shifted right, intersecting SRAS closer to or at the LRAS.",
+    "graphRequired": true
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "Identify whether each of the following economic events represents demand-pull inflation or cost-push inflation, or neither (deflation):\n\nEvent A: Surging government stimulus drives the price level up while real GDP rises.\n\nEvent B: A global commodity shortage raises production costs; prices rise while output falls.\n\nEvent C: A financial crisis reduces spending, causing prices and output to both fall.",
+    "options": [
+      {
+        "label": "A",
+        "text": "A: demand-pull; B: demand-pull; C: cost-push."
+      },
+      {
+        "label": "B",
+        "text": "A: demand-pull inflation (positive AD shock: PL rises with output rising); B: cost-push inflation (negative SRAS shock: PL rises while output falls = stagflation); C: neither — this is deflation/disinflationary from a negative AD shock, NOT inflation."
+      },
+      {
+        "label": "C",
+        "text": "A: cost-push; B: demand-pull; C: neither."
+      },
+      {
+        "label": "D",
+        "text": "All three are demand-pull inflation."
+      },
+      {
+        "label": "E",
+        "text": "A: neither; B: cost-push; C: demand-pull."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Event A - G rises → AD shifts right → positive AD → PL rises WITH output rising → demand-pull inflation. Event B - commodity shortage → production costs rise → SRAS shifts left → negative SRAS → PL rises while output falls → cost-push inflation (stagflation); event C - financial crisis → I and C fall → AD shifts left → negative AD → PL falls, output falls → deflation (not inflation); inflation from AD (demand-pull) OR SRAS (cost-push).",
+    "reference": "MOD-2.H | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "Using the MOD-2.H framework, explain why a central bank might PREFER to fight cost-push inflation differently from demand-pull inflation.\n\nDemand-pull: AD shifts right → PL rises, GDP rises.\n\nCost-push: SRAS shifts left → PL rises, GDP falls.",
+    "options": [
+      {
+        "label": "A",
+        "text": "There is no reason to treat them differently — all inflation requires the same contractionary response."
+      },
+      {
+        "label": "B",
+        "text": "Demand-pull inflation can be fought by contractionary policy (shifting AD left) — this reduces PL without worsening output further (output was high). Cost-push inflation is more difficult: a contractionary AD policy to fight the rising PL would further reduce already-falling output, deepening the recessionary gap. The central bank faces a trade-off between fighting inflation and supporting output when faced with cost-push inflation."
+      },
+      {
+        "label": "C",
+        "text": "Cost-push inflation should always be ignored; only demand-pull inflation requires policy response."
+      },
+      {
+        "label": "D",
+        "text": "Demand-pull requires SRAS intervention; cost-push requires AD intervention."
+      },
+      {
+        "label": "E",
+        "text": "Both types of inflation require identical policy responses — only the timing differs."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.H.3: Demand-pull (AD shock up): fighting it means shifting AD left → lowers PL but also reduces the already-high output (which is above Yf, so a reduction is appropriate). Cost-push (SRAS shock left): fighting it by shifting AD left would reduce PL but ALSO further reduce already-falling output → worse stagflation on the output side; the dilemma: targeting inflation worsens the output gap; targeting output worsens inflation; this is why cost-push inflation is more challenging for policymakers.",
+    "reference": "MOD-2.H | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "Economy Epsilon experiences two simultaneous shocks: (1) a positive AD shock and (2) a negative SRAS shock. What can be determined with certainty about the short-run outcome, and what is ambiguous?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Price level rises unambiguously; real GDP change is ambiguous."
+      },
+      {
+        "label": "B",
+        "text": "Real GDP rises unambiguously; price level change is ambiguous."
+      },
+      {
+        "label": "C",
+        "text": "Both price level and real GDP are ambiguous."
+      },
+      {
+        "label": "D",
+        "text": "Price level rises unambiguously (positive AD → PL↑; negative SRAS → PL↑; both forces push PL up → CERTAIN ↑). Real GDP is ambiguous (positive AD → GDP↑; negative SRAS → GDP↓; opposing forces → NET DIRECTION UNCERTAIN without knowing magnitudes)."
+      },
+      {
+        "label": "E",
+        "text": "Neither variable changes — the shocks cancel perfectly."
+      }
+    ],
+    "answer": "D",
+    "explanation": "MOD-2.H.2: Positive AD: PL↑, GDP↑; negative SRAS: PL↑, GDP↓; on price level: both forces push PL UP → CERTAIN rise. On real GDP: positive AD says up, negative SRAS says down → AMBIGUOUS (depends on relative magnitudes); this is a high-yield AP exam combination: simultaneous demand expansion and adverse supply shock → unambiguous inflation but ambiguous output.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. Original equilibrium. AD₂ shifted right and SRAS₂ shifted left simultaneously. New intersection.",
+    "graphRequired": true
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "Economy Zeta experiences two simultaneous shocks: (1) a negative AD shock and (2) a positive SRAS shock. What can be determined with certainty about the short-run outcome, and what is ambiguous?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Price level falls unambiguously; real GDP change is ambiguous."
+      },
+      {
+        "label": "B",
+        "text": "Real GDP rises unambiguously; price level change is ambiguous."
+      },
+      {
+        "label": "C",
+        "text": "Both variables are ambiguous."
+      },
+      {
+        "label": "D",
+        "text": "Price level falls unambiguously; real GDP rises unambiguously."
+      },
+      {
+        "label": "E",
+        "text": "Price level rises; real GDP falls; stagflation results."
+      }
+    ],
+    "answer": "A",
+    "explanation": "MOD-2.H.2: Negative AD: PL↓, GDP↓; positive SRAS: PL↓, GDP↑; on price level: both forces push PL DOWN → CERTAIN fall (deflation). On real GDP: negative AD says down, positive SRAS says up → AMBIGUOUS; this is the mirror image of Q46: a favorable supply shock combined with a demand decline produces unambiguous deflation but uncertain output.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. Original equilibrium. AD₂ shifted left and SRAS₂ shifted right simultaneously. New intersection.",
+    "graphRequired": true
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "Economy Theta experiences two simultaneous shocks: (1) a positive AD shock and (2) a positive SRAS shock. What can be determined about the short-run outcome?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real GDP rises unambiguously; price level change is ambiguous."
+      },
+      {
+        "label": "B",
+        "text": "Price level rises unambiguously; real GDP change is ambiguous."
+      },
+      {
+        "label": "C",
+        "text": "Both variables are ambiguous."
+      },
+      {
+        "label": "D",
+        "text": "Real GDP falls and price level rises."
+      },
+      {
+        "label": "E",
+        "text": "Real GDP rises and price level falls."
+      }
+    ],
+    "answer": "A",
+    "explanation": "MOD-2.H.2: Positive AD: PL↑, GDP↑; positive SRAS: PL↓, GDP↑; on real GDP: both forces push GDP UP → CERTAIN rise. On price level: positive AD says up, positive SRAS says down → AMBIGUOUS (depends on magnitudes - the demand-pull pushes PL up while the supply improvement pushes it down); real GDP rises for certain; price level change is uncertain.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. Original equilibrium. AD₂ shifted right and SRAS₂ shifted right simultaneously. New intersection.",
+    "graphRequired": true
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "Economy Iota experiences two simultaneous shocks: (1) a negative AD shock and (2) a negative SRAS shock. What can be determined about the short-run outcome?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real GDP falls unambiguously; price level change is ambiguous."
+      },
+      {
+        "label": "B",
+        "text": "Price level rises unambiguously; real GDP change is ambiguous."
+      },
+      {
+        "label": "C",
+        "text": "Both variables are ambiguous."
+      },
+      {
+        "label": "D",
+        "text": "Real GDP falls and price level falls."
+      },
+      {
+        "label": "E",
+        "text": "Real GDP falls and price level rises."
+      }
+    ],
+    "answer": "A",
+    "explanation": "MOD-2.H.2: Negative AD: PL↓, GDP↓; negative SRAS: PL↑, GDP↓; on real GDP: both forces push GDP DOWN → CERTAIN fall; on price level: negative AD says down, negative SRAS says up → AMBIGUOUS. Real GDP certainly falls; price level is uncertain; this is the \"double negative\" case - the economy will definitely produce less, but whether it experiences inflation or deflation depends on which force dominates.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "Complete the ambiguity analysis table for all four simultaneous shock combinations. Which variable is CERTAIN and which is AMBIGUOUS in each case?\n\nCombination 1: Positive AD + Negative SRAS.\n\nCombination 2: Negative AD + Positive SRAS.\n\nCombination 3: Positive AD + Positive SRAS.\n\nCombination 4: Negative AD + Negative SRAS.",
+    "options": [
+      {
+        "label": "A",
+        "text": "1: PL certain↑, GDP ambiguous. 2: PL certain↓, GDP ambiguous. 3: GDP certain↑, PL ambiguous. 4: GDP certain↓, PL ambiguous."
+      },
+      {
+        "label": "B",
+        "text": "1: GDP certain↑, PL ambiguous. 2: GDP certain↓, PL ambiguous. 3: PL certain↑, GDP ambiguous. 4: PL certain↓, GDP ambiguous."
+      },
+      {
+        "label": "C",
+        "text": "All four: both variables certain."
+      },
+      {
+        "label": "D",
+        "text": "All four: both variables ambiguous."
+      },
+      {
+        "label": "E",
+        "text": "1: PL certain↓, GDP certain↑. 2: PL certain↑, GDP certain↓. 3: all certain↑. 4: all certain↓."
+      }
+    ],
+    "answer": "A",
+    "explanation": "MOD-2.H.2: The key insight: when AD and SRAS push PL in the SAME direction, PL is CERTAIN; when they push PL in OPPOSITE directions, PL is AMBIGUOUS (and GDP is CERTAIN). Combination 1 (Pos AD + Neg SRAS): both → PL↑ (CERTAIN); one → GDP↑, other → GDP↓ (AMBIGUOUS); combination 2 (Neg AD + Pos SRAS): both → PL↓ (CERTAIN); AMBIGUOUS GDP; combination 3 (Pos AD + Pos SRAS): both → GDP↑ (CERTAIN); one → PL↑, other → PL↓ (AMBIGUOUS); combination 4 (Neg AD + Neg SRAS): both → GDP↓ (CERTAIN); AMBIGUOUS PL.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "Economy Lambda: starting at LR equilibrium at $80T and PL=108. A new labor agreement raises nominal wages significantly across major industries.\n\n(a) Which curve shifts and in which direction? (b) Short-run effects on PL, GDP, employment? (c) Type of inflation? (d) Output gap type created?",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) AD shifts right (demand-pull); (b) all rise; (c) demand-pull inflation; (d) inflationary gap."
+      },
+      {
+        "label": "B",
+        "text": "(a) SRAS shifts left — higher wages → higher production costs → leftward SRAS shift (negative supply shock); (b) PL rises (cost-push), GDP falls below $80T, employment falls; (c) cost-push inflation; (d) recessionary gap — actual GDP < Yf."
+      },
+      {
+        "label": "C",
+        "text": "(a) SRAS shifts right; (b) PL falls, GDP rises, employment rises; (c) no inflation — deflation; (d) inflationary gap."
+      },
+      {
+        "label": "D",
+        "text": "(a) LRAS shifts left; (b) potential output falls; (c) no short-run price effect; (d) permanent lower Yf."
+      },
+      {
+        "label": "E",
+        "text": "(a) AD shifts left; (b) all fall; (c) no inflation; (d) recessionary gap."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.H.3: Higher nominal wages → rising labor costs → SRAS shifts LEFT → negative supply shock; (b) PL rises (cost-push inflation), GDP falls below Yf, employment falls. (c) Cost-push inflation - wages are the cost-push source; (d) Since GDP < Yf, a recessionary output gap is created simultaneously with inflation; this is the stagflation scenario: wages cause both higher prices AND lower output.",
+    "reference": "MOD-2.H | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "The economy is in a recessionary gap. An economist proposes two policies to close it:\n\nPolicy 1: Increase AD through government spending.\n\nPolicy 2: Reduce production costs through technology subsidies.\n\nUsing MOD-2.H, compare the short-run effects on the price level and real GDP for each policy. Which policy closes the recessionary gap WITHOUT creating inflationary pressure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both policies create the same inflationary pressure."
+      },
+      {
+        "label": "B",
+        "text": "Policy 1: AD shifts right → GDP↑, PL↑ (demand-pull); closes gap but creates inflation. Policy 2: SRAS shifts right → GDP↑, PL↓ (no inflation — actually deflationary); closes gap without inflationary pressure. Policy 2 (supply-side) is uniquely inflation-friendly: more output AND lower prices simultaneously."
+      },
+      {
+        "label": "C",
+        "text": "Policy 1 closes the gap without inflation; Policy 2 creates stagflation."
+      },
+      {
+        "label": "D",
+        "text": "Neither policy closes the recessionary gap effectively."
+      },
+      {
+        "label": "E",
+        "text": "Policy 2 raises PL; Policy 1 lowers PL. Both close the gap."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.H.2: Policy 1 (positive AD): GDP↑ (closes gap) AND PL↑ (demand-pull inflation); trade-off: more output but also more inflation. Policy 2 (positive SRAS): GDP↑ (closes gap) AND PL↓ (actually falls); no inflation - in fact, prices decrease as output increases; supply-side policies that lower production costs are uniquely beneficial: they close output gaps without inflation.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "Three students are shown a graph where the price level fell AND real GDP rose simultaneously. They are asked to identify the shock type.\n\nStudent A: \"This must be a negative AD shock — falling prices means less demand.\"\n\nStudent B: \"This must be a positive SRAS shock — the only shock that raises output while lowering prices.\"\n\nStudent C: \"This could be either a positive AD or positive SRAS shock.\"\n\nWho is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Student A is correct."
+      },
+      {
+        "label": "B",
+        "text": "Student B is correct. The combination of falling PL AND rising GDP can ONLY come from a positive SRAS shock (rightward SRAS). A negative AD shock (Student A) would lower PL but ALSO lower GDP. A positive AD shock would raise GDP but also raise PL. Only a positive SRAS shock produces the unique combination of more output at lower prices."
+      },
+      {
+        "label": "C",
+        "text": "Student C is correct."
+      },
+      {
+        "label": "D",
+        "text": "All three students are correct."
+      },
+      {
+        "label": "E",
+        "text": "None of the students is correct — this combination cannot occur in the AD-AS model."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Student B is correct; the key diagnostic: falling PL WITH rising GDP; for AD shocks, PL and GDP always move in the SAME direction. So a falling PL cannot come from a positive AD shock (which would raise both); the only shock that raises GDP while lowering PL is a positive SRAS shock (rightward SRAS): more output at lower prices, because costs fell.",
+    "reference": "MOD-2.H | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "An economy with Yf = $45T and current SR equilibrium at $45T (on the LRAS) experiences a significant improvement in worker productivity. Using MOD-2.H.2, trace the complete short-run adjustment.",
+    "options": [
+      {
+        "label": "A",
+        "text": "SRAS₁ shifts left; PL rises; GDP falls; recessionary gap."
+      },
+      {
+        "label": "B",
+        "text": "SRAS₁ shifts right (positive SRAS shock — productivity lowers per-unit production costs); PL falls; GDP rises above $45T; employment rises; inflationary gap created (actual > Yf). Note: starting from LR equilibrium, a positive supply shock creates an inflationary gap at a LOWER price level."
+      },
+      {
+        "label": "C",
+        "text": "AD shifts right; PL rises; GDP rises; inflationary gap."
+      },
+      {
+        "label": "D",
+        "text": "LRAS shifts right; Yf increases to a new higher level."
+      },
+      {
+        "label": "E",
+        "text": "No short-run change — productivity improvements only affect the long run."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Productivity improvement → per-unit production costs fall → SRAS shifts right (positive supply shock). New AD-SRAS₂ intersection: PL falls (moving down the AD curve), GDP rises above $45T (moving right along AD), employment rises; since actual GDP > Yf = $45T, an inflationary gap is created; crucially, this inflationary gap comes with a LOWER price level - the favorable supply shock produces more output at lower prices.",
+    "reference": "MOD-2.H | MOD-2.H.2",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. AD and SRAS₁ intersecting on LRAS at $45T. New SRAS₂ shifted right intersects AD at lower PL and higher GDP, creating an inflationary gap.",
+    "graphRequired": true
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "Economy Nu is in an inflationary gap. The central bank pursues contractionary monetary policy to close the gap. Using MOD-2.H.1, describe the short-run effects.",
+    "options": [
+      {
+        "label": "A",
+        "text": "AD shifts right further; PL rises more; GDP rises further; gap widens."
+      },
+      {
+        "label": "B",
+        "text": "SRAS shifts left; PL rises; GDP falls; stagflation."
+      },
+      {
+        "label": "C",
+        "text": "AD shifts left (contractionary policy reduces AD) → negative AD shock → PL falls, GDP falls toward Yf, employment falls. The inflationary gap narrows as GDP moves back toward the LRAS. Price level falls as the demand contraction reduces demand-pull pressure."
+      },
+      {
+        "label": "D",
+        "text": "SRAS shifts right; PL falls; GDP rises above Yf."
+      },
+      {
+        "label": "E",
+        "text": "The LRAS shifts right to accommodate the higher GDP."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Contractionary monetary policy reduces money supply → higher interest rates → investment and consumption fall → AD shifts LEFT → negative AD shock. PL falls (reducing inflationary pressure), GDP falls back toward Yf (closing the inflationary gap), employment falls; this is a deliberate application of a negative AD shock to counteract an inflationary gap; negative AD → all three variables (output, employment, PL) fall.",
+    "reference": "MOD-2.H | MOD-2.H.1",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. SRAS and AD₁ intersecting to the right of LRAS (inflationary gap). New AD₂ shifted left, intersecting SRAS closer to or at LRAS.",
+    "graphRequired": true
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "Country Rho simultaneously experiences: (1) rising export demand (positive AD shock) and (2) a domestic drought raising food production costs (negative SRAS shock). The economy was initially at LR equilibrium.\n\nDescribe the impact on employment. Can we determine the direction of the employment change with certainty?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Employment certainly rises — both shocks increase employment."
+      },
+      {
+        "label": "B",
+        "text": "Employment certainly falls — both shocks decrease employment."
+      },
+      {
+        "label": "C",
+        "text": "Employment change is AMBIGUOUS — the positive AD shock raises employment while the negative SRAS shock reduces employment. Without knowing the relative magnitudes, the net employment effect cannot be determined."
+      },
+      {
+        "label": "D",
+        "text": "Employment is unchanged — the shocks perfectly offset each other."
+      },
+      {
+        "label": "E",
+        "text": "Employment rises in the short run and falls in the long run."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.H.2: Positive AD shock → GDP↑ → employment↑; negative SRAS shock → GDP↓ → employment↓; employment tracks output (more output = more workers; less output = fewer workers). Since the two shocks have opposite effects on output (and thus employment), the net employment change is AMBIGUOUS; only the price level effect is certain (both shocks raise PL).",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "Evaluate: \"Cost-push inflation is worse for the economy than demand-pull inflation because it simultaneously harms output while raising prices, whereas demand-pull inflation at least comes with rising output.\" Assess this claim using MOD-2.H.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Incorrect — cost-push inflation is always preferable because it does not involve excess demand."
+      },
+      {
+        "label": "B",
+        "text": "The claim is broadly accurate from an economic welfare perspective. Cost-push inflation (negative SRAS shock): PL rises AND output/employment falls simultaneously — the economy suffers both higher prices (eroding purchasing power) AND lower output (economic contraction). Demand-pull inflation (positive AD shock): PL rises but output/employment also rise — the economy grows, though with inflationary side effects. The MOD-2.H.2 asymmetry is the key: stagflation from cost-push is a double harm."
+      },
+      {
+        "label": "C",
+        "text": "Incorrect — demand-pull is always worse because it creates a larger output gap."
+      },
+      {
+        "label": "D",
+        "text": "Correct — but both types of inflation are equally damaging in the long run."
+      },
+      {
+        "label": "E",
+        "text": "Incorrect — demand-pull and cost-push are identical in their economic effects."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.H.3: The claim captures the key asymmetry; cost-push (negative SRAS): output↓, employment↓, PL↑ - stagflation; demand-pull (positive AD): output↑, employment↑, PL↑ - the economy grows even if inflation rises. From an output/employment welfare perspective, demand-pull produces a better short-run outcome (more jobs and output) despite the shared inflation; cost-push is the \"lose-lose\" scenario of stagflation - both purchasing power and economic activity are harmed simultaneously.",
+    "reference": "MOD-2.H | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "Economy Mu: Yf = $100T. Current SR equilibrium at $90T (recessionary gap = $10T). If a positive SRAS shock raises potential output to $105T (LRAS shifts right) while also shifting SRAS right, describe the combined short-run effects on PL, real GDP, and the output gap relative to the NEW Yf.",
+    "options": [
+      {
+        "label": "A",
+        "text": "PL rises, GDP rises — inflationary gap relative to old Yf, but recessionary gap relative to new $105T Yf."
+      },
+      {
+        "label": "B",
+        "text": "PL falls (positive SRAS effect), GDP rises above $90T (toward or past the original Yf). Output gap relative to new Yf = $105T: even though GDP rose, whether it reaches $105T depends on shock magnitude. If GDP rises to, say, $98T: gap = $98T − $105T = −$7T (still recessionary relative to new Yf). PL falls as SRAS shifts right."
+      },
+      {
+        "label": "C",
+        "text": "PL rises, GDP falls — stagflation."
+      },
+      {
+        "label": "D",
+        "text": "PL falls, GDP rises past $105T — inflationary gap relative to new Yf."
+      },
+      {
+        "label": "E",
+        "text": "No change in short run — LRAS shifts only affect the long run."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Positive SRAS shock: PL↓, GDP↑; the economy moves from $90T toward higher output at a lower price level; if Yf also rises to $105T, the output gap depends on how far GDP rises. If the SRAS shock raises GDP to say $98T: gap = $98T - $105T = -$7T (recessionary gap relative to new Yf, though narrower than before); the key insight: a positive SRAS shock that also shifts the LRAS produces lower prices and higher output, but may still leave a recessionary gap relative to the new (higher) Yf.",
+    "reference": "MOD-2.H | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "Economy Xi: the following data is observed across three quarters.\n\nQ1: AD shifts right (increased government spending). Q2: SRAS shifts left (oil price spike). Q3: Both AD shifts right again AND SRAS shifts right simultaneously.\n\nFor each quarter, identify: (a) shock type; (b) certain vs. ambiguous outcomes for PL and GDP.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Q1: positive AD; PL certain↑, GDP certain↑. Q2: negative SRAS; PL certain↑, GDP certain↓. Q3: positive AD + positive SRAS; GDP certain↑, PL ambiguous."
+      },
+      {
+        "label": "B",
+        "text": "Q1: negative AD; Q2: positive SRAS; Q3: negative AD + negative SRAS."
+      },
+      {
+        "label": "C",
+        "text": "All three quarters: PL rises, GDP rises."
+      },
+      {
+        "label": "D",
+        "text": "Q1: positive SRAS; Q2: negative AD; Q3: both negative."
+      },
+      {
+        "label": "E",
+        "text": "Q1: PL↑, GDP↑. Q2: PL↓, GDP↑. Q3: ambiguous for both."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Q1: positive AD (G increases) → PL certainly↑, GDP certainly↑ (MOD-2.H.1); Q2: negative SRAS (oil spike) → PL certainly↑, GDP certainly↓ (MOD-2.H.2). Q3: positive AD (both PL↑, GDP↑) + positive SRAS (PL↓, GDP↑) → GDP certainly↑ (both forces push up); PL ambiguous (AD pushes up, SRAS pushes down) - see ambiguity matrix from Q48.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "An economist is trying to determine whether a recent price level increase was caused by demand-pull or cost-push forces. She observes that real GDP ROSE along with the price level increase. Which type of inflation does this point to, and why?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cost-push inflation — negative SRAS shock raises both PL and GDP."
+      },
+      {
+        "label": "B",
+        "text": "Demand-pull inflation — a positive AD shock raises both PL and GDP simultaneously. A negative SRAS shock (cost-push) would raise PL but also LOWER GDP — not what was observed. Since GDP rose with PL, the evidence points to demand-pull from a rightward AD shift."
+      },
+      {
+        "label": "C",
+        "text": "Cannot be determined — both types could cause GDP to rise."
+      },
+      {
+        "label": "D",
+        "text": "Cost-push inflation — all inflation is caused by supply shocks."
+      },
+      {
+        "label": "E",
+        "text": "Demand-pull inflation only if the GDP increase was larger than the price increase."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The diagnostic: if PL and GDP moved in the SAME direction (both up), it points to a demand-side shock (positive AD = demand-pull inflation). If PL rose but GDP FELL, it would point to a supply-side shock (negative SRAS = cost-push inflation); the MOD-2.H framework provides a diagnostic tool: observe whether GDP and PL move together (AD shock/demand-pull) or in opposite directions (SRAS shock/cost-push).",
+    "reference": "MOD-2.H | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "Economy Omega is at LR equilibrium. The central bank increases the money supply significantly. Using MOD-2.H.1, describe the complete short-run effects and identify the type of inflation (if any) produced.",
+    "options": [
+      {
+        "label": "A",
+        "text": "SRAS shifts right; PL falls; GDP rises; no inflation."
+      },
+      {
+        "label": "B",
+        "text": "AD shifts right (money supply increase → lower interest rates → more investment → AD rises) → positive AD shock → PL rises (demand-pull inflation), GDP rises above Yf (inflationary gap), employment rises."
+      },
+      {
+        "label": "C",
+        "text": "AD shifts left; PL falls; GDP falls; recessionary gap."
+      },
+      {
+        "label": "D",
+        "text": "SRAS shifts left; PL rises; GDP falls; stagflation (cost-push)."
+      },
+      {
+        "label": "E",
+        "text": "No short-run effect — monetary policy only affects the long run."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.H.3: Money supply increase → lower interest rates → cheaper borrowing → investment rises → AD shifts right → positive AD shock. Short-run effects: PL rises (demand-pull inflation), GDP rises above Yf, employment rises; the inflationary gap created is demand-pull: excess money supply \"pulls\" prices upward as demand exceeds the economy's sustainable output.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "Economy Pi is experiencing stagflation — the price level is rising while real GDP is falling. An economist argues: \"This is caused by a negative demand shock — people are spending less, so prices should fall.\" Evaluate this reasoning.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The economist is correct — only a negative AD shock can cause stagflation."
+      },
+      {
+        "label": "B",
+        "text": "The economist is incorrect. A negative demand shock (leftward AD) would lower BOTH PL and GDP — prices fall with declining demand. Stagflation — rising PL with falling GDP — can ONLY result from a negative supply shock (leftward SRAS). Rising production costs \"push\" the price level up even as output and employment decline. The graph confirms this: the SRAS shifted left, not the AD."
+      },
+      {
+        "label": "C",
+        "text": "The economist is correct — consumer spending is the primary cause of stagflation."
+      },
+      {
+        "label": "D",
+        "text": "The economist is partially correct — both negative AD and negative SRAS produce stagflation."
+      },
+      {
+        "label": "E",
+        "text": "Stagflation cannot occur in the AD-AS model — it is a theoretical impossibility."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The economist confuses the direction of price movement for AD shocks; negative AD: PL↓, GDP↓ (both fall - not stagflation); stagflation (PL↑, GDP↓ simultaneously) can ONLY result from a negative SRAS shock. Cost-push factors (oil spikes, wage increases, input cost shocks) shift SRAS left → higher PL AND lower GDP; the MOD-2.H framework is clear: opposite movements of PL and GDP = SRAS shock.",
+    "reference": "MOD-2.H | MOD-2.H.2",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. Original equilibrium. SRAS shifted left → new intersection at higher PL and lower GDP.",
+    "graphRequired": true
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "Economy Alpha is in an inflationary gap. Compare the short-run effects on PL, GDP, and employment if the government uses each of the following strategies to close the gap:\n\nStrategy 1: Contractionary fiscal policy (reduce G → negative AD shock).\n\nStrategy 2: Supply-enhancing policy (increase productive capacity → positive SRAS shock).",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both strategies: PL falls, GDP falls to Yf, employment falls."
+      },
+      {
+        "label": "B",
+        "text": "Strategy 1: negative AD → PL falls, GDP falls toward Yf, employment falls. Strategy 2: positive SRAS → PL falls, GDP rises toward new Yf (though the inflationary gap may not close unless SRAS shifts enough), employment rises. Both strategies lower the price level, but Strategy 1 reduces employment while Strategy 2 increases it."
+      },
+      {
+        "label": "C",
+        "text": "Strategy 1: PL rises; Strategy 2: PL falls. GDP ambiguous."
+      },
+      {
+        "label": "D",
+        "text": "Both strategies produce stagflation."
+      },
+      {
+        "label": "E",
+        "text": "Strategy 1 is more effective; Strategy 2 has no short-run effects."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.H.2: Strategy 1 (negative AD): PL↓ (reduces demand-pull), GDP↓ toward Yf (closes inflationary gap), employment↓; strategy 2 (positive SRAS): PL↓ (reduces cost), GDP rises toward higher new Yf, employment↑. Both lower the price level, but through opposite effects on employment and output; strategy 2 is \"supply-side disinflation\" - it closes the gap with rising employment; Strategy 1 is \"demand-side contraction\" - it closes the gap with falling employment.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "Five economists observe that the price level has risen in an economy. They disagree on the cause.\n\nA: \"It was an increase in government spending.\"\n\nB: \"It was an oil price shock.\"\n\nC: \"It was a surge in consumer confidence.\"\n\nD: \"It was new wage contracts raising labor costs.\"\n\nE: \"It was productivity-enhancing technology.\"\n\nWhich economist(s) are WRONG about their cause producing a price level increase?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Economists A and C are wrong."
+      },
+      {
+        "label": "B",
+        "text": "Only Economist E is wrong — productivity improvements raise PL."
+      },
+      {
+        "label": "C",
+        "text": "Economist E is wrong. Productivity-enhancing technology is a POSITIVE SRAS shock (lower production costs → SRAS shifts right) which LOWERS the price level, not raises it. Economists A, B, C, and D all identify events that raise the price level (A and C: positive AD → demand-pull; B and D: negative SRAS → cost-push)."
+      },
+      {
+        "label": "D",
+        "text": "Economists B and D are wrong."
+      },
+      {
+        "label": "E",
+        "text": "All five economists are correct — all of these events raise the price level."
+      }
+    ],
+    "answer": "C",
+    "explanation": ", MOD-2.H.2, MOD-2.H.3: A (G increases) → positive AD → PL↑ ✓; B (oil shock) → negative SRAS (cost-push) → PL↑ ✓; C (consumer confidence) → positive AD → PL↑ ✓. D (wage contracts) → negative SRAS (cost-push) → PL↑ ✓; E (productivity technology) → positive SRAS (lower costs) → PL↓ ✗; only Economist E is wrong - productivity improvement is a positive supply shock that LOWERS the price level.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "Economy Sigma: starting from LR equilibrium. A new trade deal reduces import costs for domestic manufacturers significantly.\n\n(a) Which curve shifts and in which direction?\n\n(b) What are the short-run effects on PL, real GDP, employment?\n\n(c) What output gap is created (relative to original Yf)?\n\n(d) Is any inflation produced?",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) AD shifts right; (b) PL rises, GDP rises, employment rises; (c) inflationary gap; (d) demand-pull inflation."
+      },
+      {
+        "label": "B",
+        "text": "(a) SRAS shifts right (lower import/input costs → reduced production costs → positive supply shock); (b) PL falls, GDP rises above Yf, employment rises; (c) inflationary gap (GDP > Yf); (d) no inflation — price level actually FALLS (this is disinflation or deflation from supply-side improvement)."
+      },
+      {
+        "label": "C",
+        "text": "(a) SRAS shifts left; (b) PL rises, GDP falls, employment falls; (c) recessionary gap; (d) cost-push inflation."
+      },
+      {
+        "label": "D",
+        "text": "(a) AD shifts left; (b) PL falls, GDP falls, employment falls; (c) recessionary gap; (d) no inflation."
+      },
+      {
+        "label": "E",
+        "text": "(a) LRAS shifts right; (b) potential output permanently rises; (c) no short-run gap; (d) no inflation."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Cheaper imports → lower production costs for manufacturers → SRAS shifts right (positive supply shock); (b) New AD-SRAS₂ intersection: PL falls (moving down AD curve), GDP rises above Yf, employment rises. (c) GDP > Yf → inflationary gap created (starting from LR equilibrium, a positive SRAS shock creates an inflationary gap at a lower price level); (d) No inflation - PL actually FALLS; this positive supply shock produces more output without any inflation.",
+    "reference": "MOD-2.H | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "Economy Tau: the government simultaneously implements expansionary fiscal policy AND a negative supply shock occurs (higher business taxes). If the AD shift raises real GDP by $8T and the negative SRAS shift reduces real GDP by $5T, what is the net effect on real GDP and the price level (qualitative direction only)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP falls by $3T (net); PL unambiguously falls."
+      },
+      {
+        "label": "B",
+        "text": "GDP rises by $3T net (AD effect +$8T dominates SRAS effect −$5T); PL rises unambiguously (positive AD pushes PL up; negative SRAS also pushes PL up — both inflation forces reinforce each other)."
+      },
+      {
+        "label": "C",
+        "text": "GDP falls by $13T; PL ambiguous."
+      },
+      {
+        "label": "D",
+        "text": "GDP rises by $3T; PL falls."
+      },
+      {
+        "label": "E",
+        "text": "GDP is unchanged; PL ambiguous."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.H.2: Net GDP: positive AD (+$8T) + negative SRAS (-$5T) = +$3T net; GDP rises by $3T; on PL: positive AD → PL↑; negative SRAS → PL↑. Both forces push PL up → PL RISES unambiguously; this is the \"simultaneous demand-pull and cost-push\" combination: real GDP still rises on net (by $3T) but with strong inflationary pressure from both sides.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "Explain why understanding whether inflation is \"demand-pull\" or \"cost-push\" matters for policymakers. Use the MOD-2.H framework to explain the policy dilemma specific to cost-push inflation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "There is no meaningful difference — all inflation requires the same contractionary response."
+      },
+      {
+        "label": "B",
+        "text": "MOD-2.H.3 identifies two sources of inflation. Demand-pull (positive AD): PL↑, GDP↑ — fighting it with contractionary AD policy lowers PL while reducing an above-potential GDP (appropriate). Cost-push (negative SRAS): PL↑, GDP↓ — fighting it with contractionary AD policy would lower PL but further reduce already-falling GDP (worsens the recessionary gap). Alternatively, expansionary policy to support GDP would worsen the inflation. This \"no-win\" policy dilemma is specific to cost-push inflation."
+      },
+      {
+        "label": "C",
+        "text": "Demand-pull is always worse and requires stronger policy responses."
+      },
+      {
+        "label": "D",
+        "text": "Cost-push inflation automatically disappears without policy."
+      },
+      {
+        "label": "E",
+        "text": "Both types require expansionary fiscal policy to resolve."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.H.3: The policy dilemma for cost-push (negative SRAS): (1) Fight inflation via contractionary AD → PL falls but GDP falls further (recessionary gap deepens). (2) Fight recession via expansionary AD → GDP rises but PL rises further (inflation worsens); there is no good outcome with AD policy alone for cost-push; for demand-pull, contractionary AD policy solves both problems: lowers PL AND reduces the inflationary gap; this asymmetry explains why MOD-2.H.3's distinction matters for real policymaking.",
+    "reference": "MOD-2.H | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "Economy Nu: starting from LR equilibrium, the following simultaneous shocks occur:\n\nShock A: Consumer confidence rises → positive AD shock → GDP +$6T, PL tends to rise.\n\nShock B: New automation technology → positive SRAS shock → GDP +$4T, PL tends to fall.\n\nCalculate the net GDP effect and determine the price level direction.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Net GDP: +$2T (A dominates on output); PL: unambiguously rises."
+      },
+      {
+        "label": "B",
+        "text": "Net GDP: +$10T; PL: unambiguously rises."
+      },
+      {
+        "label": "C",
+        "text": "Net GDP: +$10T (both shocks raise GDP: +$6T + $4T = +$10T); PL: AMBIGUOUS (Shock A raises PL; Shock B lowers PL — opposing forces, net direction depends on magnitudes)."
+      },
+      {
+        "label": "D",
+        "text": "Net GDP: +$2T; PL: unambiguously falls."
+      },
+      {
+        "label": "E",
+        "text": "Net GDP: ambiguous; PL: unambiguously rises."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.H.2: Shock A (positive AD): GDP +$6T, PL tends to rise; shock B (positive SRAS): GDP +$4T, PL tends to fall. Net GDP: +$6T + $4T = +$10T (both shocks push GDP up → CERTAIN increase); net PL: Shock A → up, Shock B → down → AMBIGUOUS (depends on relative magnitudes); this is the \"positive AD + positive SRAS\" combination from the ambiguity matrix: GDP certainly rises; PL is uncertain.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "Economy Phi is in a recessionary gap. Deflation (falling price level) is occurring. The government is trying to determine whether this was caused by a negative AD shock or a positive SRAS shock. An economist observes that employment is ALSO falling.\n\nDoes falling employment resolve the ambiguity? Which shock type is consistent with falling prices, falling output, AND falling employment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A positive SRAS shock — it lowers prices and raises output."
+      },
+      {
+        "label": "B",
+        "text": "A negative SRAS shock — it lowers output but raises prices."
+      },
+      {
+        "label": "C",
+        "text": "A negative AD shock — it lowers output, employment, AND the price level simultaneously. MOD-2.H.1 states that a negative AD shock causes output, employment, and the price level to all fall together. This pattern (all three falling) is consistent ONLY with a negative AD shock, not a positive SRAS shock (which would lower PL but raise output/employment)."
+      },
+      {
+        "label": "D",
+        "text": "Both negative AD and positive SRAS are equally consistent with all three variables falling."
+      },
+      {
+        "label": "E",
+        "text": "Neither shock type produces all three variables falling simultaneously."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.H.1 states: \"A negative shock in AD causes output, employment, and the price level to fall in the short run.\" All three variables falling (output↓, employment↓, PL↓) is exclusively consistent with a negative AD shock. A positive SRAS shock would lower PL but raise output and employment - not all three falling; the falling employment clinches the diagnosis: it cannot be a positive SRAS shock.",
+    "reference": "MOD-2.H | MOD-2.H.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "Economy Rho: Yf = $75T. Starting at LR equilibrium. Two events occur at different times:\n\nTime 1: A negative SRAS shock reduces GDP to $68T and raises PL to 115 (from original 105).\n\nTime 2: The government responds with expansionary fiscal policy to close the recessionary gap. AD shifts right, bringing GDP back to $75T.\n\nAt what price level does the economy end up after Time 2? Is it above, below, or equal to 115?",
+    "options": [
+      {
+        "label": "A",
+        "text": "PL returns to 105 — the original LR equilibrium price level."
+      },
+      {
+        "label": "B",
+        "text": "PL falls below 115 — expansionary policy always reduces the price level."
+      },
+      {
+        "label": "C",
+        "text": "PL is above 115 — the expansionary AD policy (positive AD shock) applied to the already-elevated PL of 115 raises it further. The economy returns to Yf=$75T but at a price level HIGHER than 115, since the AD expansion moves up the (already-shifted-left) SRAS₂ curve."
+      },
+      {
+        "label": "D",
+        "text": "PL equals exactly 115 — AD expansion restores the original position."
+      },
+      {
+        "label": "E",
+        "text": "PL returns to 105 — there is no permanent price level increase from supply shocks."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.H.1: Time 1 (negative SRAS): SRAS₁ → SRAS₂ (left); new equilibrium: GDP=$68T, PL=115; time 2 (positive AD to close gap): AD shifts right → new equilibrium at GDP=$75T (back to Yf) on SRAS₂. Moving up SRAS₂ (which is to the LEFT of original SRAS₁) to get to $75T requires going to a HIGHER PL than 115; the final price level is above 115 - higher than at the SRAS₂ equilibrium after the supply shock; AD expansion on a leftward-shifted SRAS produces even higher prices.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 71,
+    "difficulty": "Medium",
+    "prompt": "An economist states: \"In the AD-AS model, there are exactly two possible causes of inflation: (1) demand-pull from rightward AD shifts, and (2) cost-push from leftward SRAS shifts. Any price level increase must come from one of these two sources.\" Using MOD-2.H.3, evaluate this statement.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Incorrect — there is a third type of inflation: structural inflation."
+      },
+      {
+        "label": "B",
+        "text": "Incorrect — only demand-pull inflation is recognized in the AD-AS model."
+      },
+      {
+        "label": "C",
+        "text": "The statement accurately captures MOD-2.H.3: \"Inflation can be caused by changes in aggregate demand (demand-pull) or aggregate supply (cost-push).\" These are the two sources of inflation identified in the CED for Topic 3.6. A rightward AD shift creates demand-pull inflation (PL rises with GDP); a leftward SRAS shift creates cost-push inflation (PL rises with GDP falling). Both are recognizable in the AD-AS model."
+      },
+      {
+        "label": "D",
+        "text": "Partially incorrect — demand-pull and cost-push can be combined into a single inflation type."
+      },
+      {
+        "label": "E",
+        "text": "Correct only for demand-pull; cost-push is not a recognized cause of inflation in the CED."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The statement precisely matches MOD-2.H.3: \"Inflation can be caused by changes in aggregate demand (demand-pull) or aggregate supply (cost-push).\" The two-source classification is complete for the 3.6 framework: demand-pull = rightward AD shift (PL↑, GDP↑); cost-push = leftward SRAS shift (PL↑, GDP↓). Both produce a higher equilibrium price level but through different mechanisms with different effects on output.",
+    "reference": "MOD-2.H | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 72,
+    "difficulty": "Medium",
+    "prompt": "Economy Sigma: The government implements two simultaneous policies during a recession:\n\nPolicy 1: Increases G by $3T (multiplier=4 → AD shifts right by $12T).\n\nPolicy 2: Cuts business taxes, reducing production costs (SRAS shifts right by $8T of output).\n\nDescribe the combined short-run effect on real GDP and price level.",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP rises by $12T; PL rises — only the AD shift matters."
+      },
+      {
+        "label": "B",
+        "text": "GDP rises by $20T (AD +$12T and SRAS +$8T both increase output → net +$20T); PL is AMBIGUOUS (AD pushes PL up; SRAS pushes PL down)."
+      },
+      {
+        "label": "C",
+        "text": "GDP rises by $4T (AD +$12T − SRAS +$8T... wait, SRAS shift also raises GDP, so GDP = $12T + $8T = $20T)."
+      },
+      {
+        "label": "D",
+        "text": "GDP is ambiguous; PL rises unambiguously."
+      },
+      {
+        "label": "E",
+        "text": "GDP falls; PL rises — stagflation."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.H.2: Policy 1 (positive AD, +$12T GDP tendency, PL↑); policy 2 (positive SRAS, +$8T GDP tendency, PL↓). Net GDP: +$12T + $8T = +$20T (both forces raise GDP → CERTAIN rise); net PL: Policy 1 pushes PL↑; Policy 2 pushes PL↓ → AMBIGUOUS; this is the \"positive AD + positive SRAS\" combination: certain GDP increase, uncertain PL direction.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 73,
+    "difficulty": "Medium",
+    "prompt": "Using MOD-2.H, explain the \"diagnostic framework\" for identifying shock types in the AD-AS model. Given observed data on PL and GDP changes, how can an economist determine whether a positive AD, negative AD, positive SRAS, or negative SRAS shock occurred?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The only way to identify shock types is to observe the price level — if PL rises, it must be an AD shock."
+      },
+      {
+        "label": "B",
+        "text": "The diagnostic: (1) If PL and GDP moved in the SAME direction → AD shock (same direction = demand-side; positive = both up, negative = both down). (2) If PL and GDP moved in OPPOSITE directions → SRAS shock (opposite = supply-side; PL up/GDP down = negative SRAS/stagflation; PL down/GDP up = positive SRAS/favorable supply)."
+      },
+      {
+        "label": "C",
+        "text": "GDP direction alone determines the shock type: rising GDP = positive AD; falling GDP = negative SRAS."
+      },
+      {
+        "label": "D",
+        "text": "Employment data is necessary; PL and GDP alone are insufficient."
+      },
+      {
+        "label": "E",
+        "text": "No diagnostic framework exists — shock types cannot be identified from observed data."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.H.2: The two-rule diagnostic framework: Rule 1 - If PL and GDP change in the SAME direction → AD shock (demand-side); both rise = positive AD (demand-pull); both fall = negative AD (deflationary recession). Rule 2 - If PL and GDP change in OPPOSITE directions → SRAS shock (supply-side); PL↑ with GDP↓ = negative SRAS (stagflation/cost-push); PL↓ with GDP↑ = positive SRAS (favorable supply); this simple two-rule framework allows identification of any single shock from observed data.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "Economy Alpha: Yf = $100T. Initial LR equilibrium at PL=100. A sequence of shocks occurs:\n\nRound 1: Positive AD shock → new SR equilibrium: GDP = $108T, PL = 112.\n\nRound 2: Negative SRAS shock → new SR equilibrium: GDP = $100T, PL = 120.\n\nRound 3: Negative AD shock → new SR equilibrium: GDP = $93T, PL = 113.\n\nFor each round: (a) output gap; (b) shock classification; (c) type of inflation (if any). Then determine the net change in PL from initial state to end of Round 3.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Round 1: +$8T inflationary, demand-pull. Round 2: $0 LR equilibrium, cost-push. Round 3: −$7T recessionary, deflation. Net PL change: 113 − 100 = +13."
+      },
+      {
+        "label": "B",
+        "text": "Round 1: −$8T recessionary; Round 2: $0 LR equilibrium; Round 3: +$7T inflationary. Net PL: +13."
+      },
+      {
+        "label": "C",
+        "text": "All three rounds at LR equilibrium; no inflation."
+      },
+      {
+        "label": "D",
+        "text": "Round 1: +$8T inflationary, demand-pull inflation. Round 2: $0 LR equilibrium, cost-push inflation. Round 3: −$7T recessionary, deflationary pressure from negative AD shock. Net PL change: 113 − 100 = +13 units."
+      },
+      {
+        "label": "E",
+        "text": "Round 1: +$8T, demand-pull. Round 2: −$8T recessionary, cost-push. Round 3: −$7T recessionary."
+      }
+    ],
+    "answer": "D",
+    "explanation": "R1: $108T-$100T=+$8T inflationary; positive AD → demand-pull inflation (PL↑, GDP↑ - both in same direction). R2: $100T-$100T=$0, at Yf; negative SRAS (GDP fell from $108T to $100T, PL rose from 112 to 120 - opposite directions = SRAS shock); cost-push inflation. R3: $93T-$100T=-$7T recessionary; negative AD (GDP fell from $100T to $93T, PL fell from 120 to 113 - same direction = AD shock); deflationary pressure; net PL: 113-100=+13.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "Five claims about MOD-2.H are presented. Identify which are TRUE and which are FALSE.\n\nS1: A positive AD shock raises output, employment, AND the price level simultaneously.\n\nS2: A positive SRAS shock raises output AND the price level simultaneously.\n\nS3: Cost-push inflation is caused by a leftward SRAS shift.\n\nS4: Stagflation (rising PL + falling output) can result from a negative AD shock.\n\nS5: The combination of falling PL and rising output can ONLY result from a positive SRAS shock.",
+    "options": [
+      {
+        "label": "A",
+        "text": "All five are true."
+      },
+      {
+        "label": "B",
+        "text": "S1, S3, S5 are true; S2 and S4 are false."
+      },
+      {
+        "label": "C",
+        "text": "S1, S2, S3 are true; S4 and S5 are false."
+      },
+      {
+        "label": "D",
+        "text": "S2 and S4 are true; S1, S3, S5 are false."
+      },
+      {
+        "label": "E",
+        "text": "All five are false."
+      }
+    ],
+    "answer": "B",
+    "explanation": "S1 TRUE - MOD-2.H.1: positive AD → output↑, employment↑, PL↑. S2 FALSE - positive SRAS raises output but LOWERS the price level (not raises it - moving down the AD curve); S3 TRUE - MOD-2.H.3: cost-push from leftward SRAS shift. S4 FALSE - negative AD causes PL to FALL along with output (both fall together); stagflation (PL↑, output↓) requires a negative SRAS shock; S5 TRUE - falling PL + rising output is the unique signature of a positive SRAS shock (negative AD would lower both; positive AD would raise both).",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "Economy Beta: Yf = $90T. Initial SR equilibrium: GDP = $90T (on LRAS), PL = 105.\n\nFour simultaneous shocks occur:\n\n1. Export demand falls by enough to reduce GDP by $6T (negative AD).\n\n2. Consumer confidence surges, raising GDP by $4T (positive AD).\n\n3. Oil prices fall, raising GDP by $3T (positive SRAS).\n\n4. New wage contracts raise production costs, reducing GDP by $5T (negative SRAS).\n\nCalculate: (a) net GDP change; (b) net PL direction; (c) output gap type.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Net GDP: +$2T; PL: ambiguous; inflationary gap."
+      },
+      {
+        "label": "B",
+        "text": "Net GDP: −$4T; PL: unambiguously rises; recessionary gap."
+      },
+      {
+        "label": "C",
+        "text": "Net GDP: −$6T+$4T+$3T−$5T = −$4T (net). (b) PL direction: Shock 1 (neg AD) → PL↓; Shock 2 (pos AD) → PL↑; Shock 3 (pos SRAS) → PL↓; Shock 4 (neg SRAS) → PL↑. Two forces up, two forces down → AMBIGUOUS. (c) New GDP = $90T − $4T = $86T < $90T → recessionary gap of $4T."
+      },
+      {
+        "label": "D",
+        "text": "Net GDP: +$4T; PL: rises; inflationary gap."
+      },
+      {
+        "label": "E",
+        "text": "Net GDP: −$4T; PL: falls; recessionary gap."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Net GDP: -$6T (neg AD) +$4T (pos AD) +$3T (pos SRAS) -$5T (neg SRAS) = -$4T; new GDP = $90T - $4T = $86T. Output gap = $86T - $90T = -$4T → recessionary gap; PL: Shock 1 (neg AD)→PL↓; Shock 2 (pos AD)→PL↑; Shock 3 (pos SRAS)→PL↓; Shock 4 (neg SRAS)→PL↑; two raise PL, two lower PL → AMBIGUOUS direction.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "Using the MOD-2.H framework, an economist must identify which type of shock occurred given the following data pairs (PL change, GDP change). Classify each as positive AD, negative AD, positive SRAS, or negative SRAS.\n\nCase 1: PL rose by 8%, GDP rose by 4%.\n\nCase 2: PL rose by 5%, GDP fell by 6%.\n\nCase 3: PL fell by 3%, GDP fell by 2%.\n\nCase 4: PL fell by 7%, GDP rose by 5%.\n\nCase 5: PL rose by 6%, GDP rose by 0% (unchanged).",
+    "options": [
+      {
+        "label": "A",
+        "text": "Case 1: positive AD; Case 2: negative SRAS; Case 3: negative AD; Case 4: positive SRAS; Case 5: ambiguous."
+      },
+      {
+        "label": "B",
+        "text": "Case 1: negative AD; Case 2: positive AD; Case 3: positive SRAS; Case 4: negative SRAS; Case 5: negative AD."
+      },
+      {
+        "label": "C",
+        "text": "All five: positive AD."
+      },
+      {
+        "label": "D",
+        "text": "Case 1: positive SRAS; Case 2: negative AD; Case 3: negative SRAS; Case 4: positive AD; Case 5: positive AD."
+      },
+      {
+        "label": "E",
+        "text": "Case 5: impossible in AD-AS model."
+      }
+    ],
+    "answer": "A",
+    "explanation": "MOD-2.H.2: Use the two-rule diagnostic: same direction = AD; opposite = SRAS; case 1: PL↑, GDP↑ (same direction) → positive AD ✓. Case 2: PL↑, GDP↓ (opposite) → negative SRAS (stagflation) ✓; case 3: PL↓, GDP↓ (same direction) → negative AD ✓; case 4: PL↓, GDP↑ (opposite) → positive SRAS ✓. Case 5: PL↑, GDP unchanged - this is ambiguous in a pure model (could be positive AD with SRAS partially offsetting, or could approximate if shock is small); often classified as positive AD.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "Economy Gamma is in a recessionary gap (GDP = $70T, Yf = $80T, PL = 95). The government wants to restore LR equilibrium (GDP = $80T) using ONLY AD policy. Because the SRAS slopes upward, the $10T output gap cannot be closed with a $10T AD shift — more is needed.\n\nExplain why the required AD shift exceeds the output gap, and what happens to the price level.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The required AD shift equals exactly the output gap — the upward SRAS slope has no effect on the calculation."
+      },
+      {
+        "label": "B",
+        "text": "The required AD shift is LESS than the output gap — the SRAS magnifies the effect."
+      },
+      {
+        "label": "C",
+        "text": "The required AD shift must EXCEED the $10T output gap because the SRAS slopes upward — when AD shifts right, not all of the demand increase becomes real output. Some is absorbed by rising prices. To get $10T more of real output, the total AD must shift by more than $10T (the \"price leak\" means the GDP gain per dollar of AD is less than one-for-one). The price level rises above 95 as the economy moves up the SRAS."
+      },
+      {
+        "label": "D",
+        "text": "The required AD shift equals the output gap divided by the multiplier."
+      },
+      {
+        "label": "E",
+        "text": "The required AD shift is irrelevant — the economy self-corrects to Yf automatically."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The upward-sloping SRAS causes a \"price leak\" - when AD shifts right, the new intersection moves up the SRAS. The price level rise absorbs some of the demand increase, leaving less for real output; to gain $10T of real output, the AD must shift by more than $10T. This is why the simple multiplier calculation (which assumes a horizontal price level) overestimates the real GDP effect of AD policy; the required AD shift > output gap, and the price level rises above 95 to a new higher equilibrium.",
+    "reference": "MOD-2.H | MOD-2.H.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "Economy Sigma: starting at LR equilibrium. The following sequence:\n\nRound 1: Negative SRAS shock (oil crisis) → PL=118, GDP=$72T (from $80T).\n\nRound 2: Government responds with expansionary AD policy → GDP returns to $80T.\n\nWhat PL results from Round 2, and how does it compare to the original LR equilibrium PL (110) and to Round 1 PL (118)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Round 2 PL equals 110 — the policy exactly restores original LR equilibrium."
+      },
+      {
+        "label": "B",
+        "text": "Round 2 PL equals 118 — the policy returns to the SRAS₂ equilibrium level."
+      },
+      {
+        "label": "C",
+        "text": "Round 2 PL is ABOVE 118 — the expansionary AD policy (positive AD shock) applied to the leftward-shifted SRAS₂ moves the new intersection up and to the right along SRAS₂. To get GDP back to $80T on SRAS₂ (which is to the left of SRAS₁), the economy must climb to a HIGHER price level than 118. The final PL > 118 > 110 = original."
+      },
+      {
+        "label": "D",
+        "text": "Round 2 PL falls below 110 — the AD expansion lowers prices."
+      },
+      {
+        "label": "E",
+        "text": "Round 2 PL equals exactly 118 × 110/100 = 129.8."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.H.2: Round 1: SRAS₁ shifts left to SRAS₂; new equilibrium: $72T at PL=118 (moved up leftward SRAS relative to old equilibrium). Round 2: AD₁ shifts right to AD₂ to raise GDP back to $80T on SRAS₂. Since SRAS₂ is LEFT of SRAS₁, getting back to $80T on SRAS₂ requires going to a HIGHER PL than 118 (further up the leftward-shifted SRAS₂); final PL > 118 > 110 (original); the combination of a supply shock followed by demand-side recovery always results in a higher final price level than either the pre-shock or post-shock levels.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. SRAS₁ and AD₁ on LRAS at $80T, PL=110. SRAS₂ shifted left, intersection with AD₁ at $72T and PL=118. AD₂ shifted right, intersection with SRAS₂ at $80T and PL>118.",
+    "graphRequired": true
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "Evaluate the following claim using MOD-2.H: \"A beneficial supply shock (positive SRAS) is always superior to an expansionary demand policy (positive AD) for closing a recessionary gap because supply shocks produce growth without inflation.\"\n\nIs this claim accurate, and what nuance is missing?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Correct — supply shocks are always superior to demand policy in all contexts."
+      },
+      {
+        "label": "B",
+        "text": "Incorrect — only demand policy can effectively close recessionary gaps."
+      },
+      {
+        "label": "C",
+        "text": "The claim is broadly accurate but has an important nuance: a positive SRAS shock closes a recessionary gap by raising output while LOWERING the price level (favorable). A positive AD shock closes the gap by raising output but also RAISES the price level (demand-pull inflation). So supply-side is better for price stability. However, the nuance: (1) supply-side reforms are often slower to implement and harder to engineer than fiscal/monetary AD policy; (2) a very large positive SRAS might overshoot and create an inflationary gap at a lower price level; (3) both approaches ultimately close the gap, just with different price level effects."
+      },
+      {
+        "label": "D",
+        "text": "Correct — no nuance is needed; supply shocks are unambiguously superior."
+      },
+      {
+        "label": "E",
+        "text": "Incorrect — positive SRAS shocks always create stagflation when used as policy."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.H.2: The claim captures the key comparison correctly: Positive SRAS → GDP↑, PL↓ (no inflation, favorable). Positive AD → GDP↑, PL↑ (demand-pull inflation, less favorable for price stability); the nuance: supply-side policies (subsidies, deregulation, technology investment) take time and are harder to target precisely. AD policy (fiscal/monetary) is faster and more controllable; also, overshooting with a supply shock still creates an inflationary gap (just at a lower PL); the \"no inflation\" claim is accurate for the direction, but practical implementation differs.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "Economy Kappa: Yf = $120T. Initial state: GDP = $115T (recessionary gap of $5T), PL = 98.\n\nThree simultaneous shocks occur:\n\n1. Government cuts spending by $3T (multiplier=4 → AD shifts left by $12T, reducing GDP by $12T).\n\n2. New automation technology lowers production costs (positive SRAS → GDP rises by $8T, PL falls).\n\n3. Global recession reduces exports by $2T (multiplier=4 → AD shifts left by $8T, reducing GDP by $8T).\n\nCalculate: (a) net change in GDP; (b) new GDP; (c) new output gap; (d) direction of PL change.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Net ΔGP = −$12T; new GDP = $103T; gap = −$17T; PL ambiguous."
+      },
+      {
+        "label": "B",
+        "text": "Net ΔGDP = −$12T + $8T − $8T = −$12T; new GDP = $115T − $12T = $103T; new output gap = $103T − $120T = −$17T (recessionary); PL direction: two negative AD shocks (−$12T, −$8T) push PL down; one positive SRAS (+$8T) also pushes PL down → PL FALLS unambiguously."
+      },
+      {
+        "label": "C",
+        "text": "Net ΔGDP = −$12T; PL rises; inflationary gap."
+      },
+      {
+        "label": "D",
+        "text": "Net ΔGDP = −$4T; new GDP = $111T; gap = −$9T; PL ambiguous."
+      },
+      {
+        "label": "E",
+        "text": "Net ΔGDP = +$8T; PL falls; inflationary gap."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Shock 1 (neg AD, G cut): -$12T GDP; shock 2 (pos SRAS): +$8T GDP, PL↓; shock 3 (neg AD, exports fall): -$8T GDP. Net ΔGDP = -$12T + $8T - $8T = -$12T; new GDP = $115T - $12T = $103T. Output gap = $103T - $120T = -$17T → recessionary gap (worsened from -$5T to -$17T); PL: Shock 1 (neg AD)→PL↓; Shock 3 (neg AD)→PL↓; Shock 2 (pos SRAS)→PL↓; all three push PL DOWN → FALLS unambiguously.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "Construct the complete \"shock classification matrix\" for the AD-AS model. For each of the four pure shocks (positive AD, negative AD, positive SRAS, negative SRAS), state the direction of change for: (1) real GDP, (2) employment, (3) price level, (4) output gap direction from LR equilibrium, (5) type of inflation/deflation.\n\nWhich shock type is most consistent with \"stagflation\"?",
+    "options": [
+      {
+        "label": "A",
+        "text": "All four shocks: GDP↑, employment↑, PL↑. Negative SRAS causes stagflation."
+      },
+      {
+        "label": "B",
+        "text": "Positive AD: GDP↑, emp↑, PL↑, inflationary gap, demand-pull inflation. Negative AD: GDP↓, emp↓, PL↓, recessionary gap, deflation. Positive SRAS: GDP↑, emp↑, PL↓, inflationary gap (from LR eq), favorable supply/disinflation. Negative SRAS: GDP↓, emp↓, PL↑, recessionary gap, cost-push inflation = STAGFLATION."
+      },
+      {
+        "label": "C",
+        "text": "All shocks produce recessionary gaps. Positive AD causes stagflation."
+      },
+      {
+        "label": "D",
+        "text": "SRAS shocks raise GDP; AD shocks lower GDP. Negative AD causes stagflation."
+      },
+      {
+        "label": "E",
+        "text": "All shocks have ambiguous outcomes except negative AD."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Complete matrix (MOD-2.H.1, MOD-2.H.2, MOD-2.H.3): Positive AD: GDP↑, emp↑, PL↑, inflationary gap, demand-pull inflation; negative AD: GDP↓, emp↓, PL↓, recessionary gap, deflation. Positive SRAS: GDP↑, emp↑, PL↓, inflationary gap (if starting from LR eq), no inflation (favorable); negative SRAS: GDP↓, emp↓, PL↑, recessionary gap, cost-push inflation = STAGFLATION; negative SRAS is exclusively consistent with stagflation (the combination of rising prices AND falling output).",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "Economy Tau: LR equilibrium at Yf=$50T, PL=100. A negative SRAS shock reduces GDP to $43T and raises PL to 112.\n\nOption 1: Let self-correction happen (no policy). Describe the long-run path.\n\nOption 2: Use expansionary AD policy to close the gap now. Describe the short-run result.\n\nOption 3: Use supply-side policy to reverse the SRAS shift. Describe the short-run result.\n\nCompare the final price levels for each option.",
+    "options": [
+      {
+        "label": "A",
+        "text": "All three options restore GDP=$50T at PL=100."
+      },
+      {
+        "label": "B",
+        "text": "Option 1 (self-correction): falling wages → SRAS shifts right → economy returns to $50T at PL BELOW 112 (wage deflation lowers costs, SRAS right returns on original SRAS, final PL = somewhere between original 100 and 112). Option 2 (AD policy): AD shifts right → GDP rises to $50T on the leftward-shifted SRAS₂ → PL ABOVE 112 (climbing up SRAS₂ raises prices further). Option 3 (reverse SRAS): SRAS shifts right back to original → PL falls back toward 100 AND GDP rises to $50T. Comparison: Option 3 results in PL closest to 100; Option 1 somewhere between 100 and 112; Option 2 highest PL (above 112)."
+      },
+      {
+        "label": "C",
+        "text": "Option 2 gives the lowest final PL; Option 3 gives the highest."
+      },
+      {
+        "label": "D",
+        "text": "All three options produce the same final PL."
+      },
+      {
+        "label": "E",
+        "text": "Option 1 cannot close the recessionary gap — only policy works."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Negative SRAS: SRAS₁ → SRAS₂ left; new equilibrium: $43T, PL=112. Price level ranking: Option 2 > Option 1 > Option 3 ≈ 100.",
+    "reference": "MOD-2.H | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "An AP exam free-response question asks: \"Draw a correctly labeled AD-AS graph and show the short-run effects of a negative aggregate supply shock on output, employment, and the price level.\"\n\nA student draws: SRAS shifting RIGHT, and labels the new equilibrium at higher output and lower price level. Identify the error(s) and describe the correct graph.",
+    "options": [
+      {
+        "label": "A",
+        "text": "No errors — SRAS shifting right is a negative supply shock."
+      },
+      {
+        "label": "B",
+        "text": "One error — the axes are mislabeled."
+      },
+      {
+        "label": "C",
+        "text": "The student made a critical error: a NEGATIVE SRAS shock is represented by the SRAS shifting LEFT (not right). A rightward SRAS shift is a POSITIVE supply shock producing higher output and lower PL. The CORRECT graph: SRAS₁ shifts LEFT to SRAS₂; new AD-SRAS₂ intersection is at LOWER real GDP (GDP falls) and HIGHER price level (PL rises) — stagflation. The student depicted the wrong direction of the SRAS shift, showing a positive shock instead of the requested negative shock."
+      },
+      {
+        "label": "D",
+        "text": "Two errors — both the direction and the output effect are wrong."
+      },
+      {
+        "label": "E",
+        "text": "No errors if the axes show employment instead of real GDP."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The critical error: the student shifted SRAS RIGHT when the question asked for a NEGATIVE supply shock. Negative supply shock → SRAS shifts LEFT (costs rise, less supplied at every price level); correct graph: SRAS₁ → SRAS₂ (left). New AD-SRAS₂ intersection: lower real GDP (moves left along AD) AND higher price level (moves up AD); employment falls with GDP; the student's graph depicted a POSITIVE supply shock - opposite of what was requested.",
+    "reference": "MOD-2.H | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "Economy Phi: Yf = $70T. The following sequential events occur:\n\nEvent 1: Oil prices spike → GDP falls to $62T, PL rises to 115 (from 105).\n\nEvent 2: Falling oil prices due to new reserves → SRAS shifts right → GDP rises to $72T, PL falls to 108.\n\nEvent 3: Central bank raises rates → AD shifts left → GDP falls to $66T, PL falls to 103.\n\nFor each event: (a) shock type; (b) output gap and classification; (c) inflation type if any.",
+    "options": [
+      {
+        "label": "A",
+        "text": "E1: positive AD; E2: negative AD; E3: positive SRAS."
+      },
+      {
+        "label": "B",
+        "text": "E1: negative SRAS; recessionary gap; cost-push. E2: positive SRAS; inflationary gap (GDP=$72T > Yf=$70T); no inflation (PL falls). E3: negative AD; recessionary gap; deflation/disinflationary (PL falls)."
+      },
+      {
+        "label": "C",
+        "text": "E1: positive AD; inflationary gap; demand-pull. E2: positive SRAS; recessionary gap; no inflation. E3: negative AD; LR equilibrium."
+      },
+      {
+        "label": "D",
+        "text": "E1: negative AD; recessionary. E2: positive AD; inflationary. E3: negative SRAS; stagflation."
+      },
+      {
+        "label": "E",
+        "text": "All three events are supply shocks."
+      }
+    ],
+    "answer": "B",
+    "explanation": "E1: PL↑, GDP↓ (opposite directions → SRAS shock; PL↑ with GDP↓ = negative SRAS = cost-push inflation); gap: $62T-$70T=-$8T → recessionary gap; cost-push inflation; E2: PL↓, GDP↑ (opposite → positive SRAS). Gap: $72T-$70T=+$2T → inflationary gap; no inflation - PL actually falls; E3: PL↓, GDP↓ (same direction → AD shock; both fall = negative AD); gap: $66T-$70T=-$4T → recessionary gap; deflation/disinflationary pressure (negative AD).",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "Economy Nu is at LR equilibrium. An economist argues: \"Any time the price level rises, it must be demand-pull inflation. If the price level fell, it cannot be inflation.\" Critically evaluate this claim using MOD-2.H.3 and the full MOD-2.H framework.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Correct — demand-pull is the only source of inflation in the AD-AS model."
+      },
+      {
+        "label": "B",
+        "text": "The claim is PARTIALLY correct and PARTIALLY incorrect. Correct part: if the price level rises due to a rightward AD shift (positive AD shock), it IS demand-pull inflation. Incorrect part: if the price level rises due to a leftward SRAS shift (negative SRAS shock), it is COST-PUSH inflation — also a valid form of inflation. MOD-2.H.3 explicitly recognizes both sources. The second claim (\"price level fell cannot be inflation\") is correct — a falling price level is deflation, not inflation. But the first claim overstates by excluding cost-push."
+      },
+      {
+        "label": "C",
+        "text": "Incorrect — only supply-side factors cause inflation in the AD-AS model."
+      },
+      {
+        "label": "D",
+        "text": "Fully correct — MOD-2.H.3 only recognizes demand-pull inflation."
+      },
+      {
+        "label": "E",
+        "text": "Fully incorrect — price level decreases are the primary form of inflation in the model."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.H.3 states: \"Inflation can be caused by changes in aggregate demand (demand-pull) OR aggregate supply (cost-push).\" The economist's first claim is incomplete: a rising price level can be demand-pull (rightward AD) OR cost-push (leftward SRAS). The second claim (falling PL ≠ inflation) is correct - falling PL is deflation/disinflationary. But the original claim wrongly excludes cost-push as a valid inflation type; both demand-pull and cost-push are officially recognized in the 3.6 framework.",
+    "reference": "MOD-2.H | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "Economy Omega: Yf = $80T. Three shocks occur:\n\nShock 1: Positive AD (multiplier effect: GDP +$6T, PL↑).\n\nShock 2: Positive SRAS (GDP +$4T, PL↓).\n\nShock 3: Negative SRAS (GDP −$7T, PL↑).\n\nStarting from LR equilibrium at $80T:\n\n(a) Calculate final GDP.\n\n(b) Determine the output gap.\n\n(c) Determine PL direction (certain or ambiguous).\n\n(d) Identify the dominant source of inflation, if any.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Final GDP = $83T; gap = +$3T; PL unambiguously rises; demand-pull dominates."
+      },
+      {
+        "label": "B",
+        "text": "Final GDP = $80T + $6T + $4T − $7T = $83T; output gap = $83T − $80T = +$3T (inflationary); PL direction: S1(pos AD)→PL↑, S2(pos SRAS)→PL↓, S3(neg SRAS)→PL↑. Two forces up (S1, S3), one down (S2) — net likely UP but technically depends on magnitudes — ambiguous unless magnitudes override; direction is ambiguous. Inflation type: both demand-pull (S1) and cost-push (S3) are present."
+      },
+      {
+        "label": "C",
+        "text": "Final GDP = $77T; recessionary gap; PL falls."
+      },
+      {
+        "label": "D",
+        "text": "Final GDP = $83T; inflationary gap; PL unambiguously rises; cost-push."
+      },
+      {
+        "label": "E",
+        "text": "Final GDP = $87T; gap = +$7T; PL ambiguous."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Final GDP: $80T+$6T+$4T-$7T = $83T; output gap: $83T-$80T=+$3T → inflationary gap; PL: S1 (pos AD)→↑; S2 (pos SRAS)→↓; S3 (neg SRAS)→↑. Two shocks push PL up (S1 demand-pull; S3 cost-push), one pushes PL down (S2 positive supply); net PL likely rises but strictly AMBIGUOUS (depends on magnitudes); both demand-pull (S1) and cost-push (S3) are contributing to inflation simultaneously; this is a complex multi-shock scenario.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "Economy Rho: The government faces a choice between two strategies to fight stagflation (caused by a negative SRAS shock that created rising PL and falling GDP).\n\nStrategy 1: Expansionary AD policy to restore GDP → PL rises further.\n\nStrategy 2: Contractionary AD policy to fight inflation → GDP falls further.\n\nStrategy 3: Supply-side policy to reverse the SRAS shift (ideal but slow).\n\nUsing MOD-2.H, analyze each strategy's short-run trade-off.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Strategy 1: GDP rises, PL rises further (policy worsens inflation while fixing output). Strategy 2: PL falls (helps inflation), GDP falls further (deepens recession — worsens output). Strategy 3: SRAS shifts right → GDP rises AND PL falls simultaneously (ideal — fixes both problems). Strategy 3 is the only approach that addresses BOTH dimensions of stagflation without a trade-off."
+      },
+      {
+        "label": "B",
+        "text": "All three strategies produce identical outcomes."
+      },
+      {
+        "label": "C",
+        "text": "Strategy 2 is always best — fighting inflation is the priority."
+      },
+      {
+        "label": "D",
+        "text": "Strategy 1 is always best — maintaining output is the priority."
+      },
+      {
+        "label": "E",
+        "text": "Supply-side policies have no short-run effects."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Stagflation (neg SRAS): PL↑, GDP↓. Strategy 1 (pos AD to fight recession): PL↑ further (demand-pull added to cost-push → worse inflation), GDP↑ (helps recession but at cost of more inflation). Strategy 2 (neg AD to fight inflation): PL↓ (helps inflation), GDP↓ further (deepens recession); both AD strategies involve trade-offs; strategy 3 (reverse SRAS - positive supply): GDP↑ AND PL↓ simultaneously - solves both problems without trade-off; but supply-side reforms take time; the stagflation dilemma from MOD-2.H.2 has no good short-run AD-only solution.",
+    "reference": "MOD-2.H | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "Economy Xi has been experiencing rising prices for 3 consecutive years. An analyst must determine whether it is demand-pull or cost-push. The analyst has data on real GDP and unemployment for the same 3 years.\n\nYear 1: GDP rose, PL rose, unemployment fell.\n\nYear 2: GDP rose, PL rose, unemployment fell.\n\nYear 3: GDP fell, PL rose, unemployment rose.\n\nIn which year(s) was the inflation demand-pull, and in which was it cost-push?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Years 1 and 2: demand-pull (GDP rose with PL → positive AD shock). Year 3: cost-push (GDP fell while PL rose → negative SRAS shock — stagflation)."
+      },
+      {
+        "label": "B",
+        "text": "All three years: demand-pull."
+      },
+      {
+        "label": "C",
+        "text": "Year 1: cost-push; Years 2 and 3: demand-pull."
+      },
+      {
+        "label": "D",
+        "text": "All three years: cost-push."
+      },
+      {
+        "label": "E",
+        "text": "Year 3: demand-pull; Years 1 and 2: cost-push."
+      }
+    ],
+    "answer": "A",
+    "explanation": ", MOD-2.H.2, MOD-2.H.3: Years 1 and 2: PL rose AND GDP rose (same direction) → positive AD shock → demand-pull inflation. Unemployment fell with GDP rising (MOD-2.H.1 confirms employment rises with output in positive AD shocks). Year 3: PL rose AND GDP FELL (opposite directions) → negative SRAS shock → cost-push inflation (stagflation); unemployment rose as GDP fell (employment tracks output); the diagnostic is clear: same-direction change = demand-pull; opposite-direction = cost-push.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "Economy Psi: a complete 4-quarter cycle of shocks.\n\nQ1: Start at LR equilibrium (Yf=$60T, PL=100). Positive AD shock → GDP=$66T, PL=110.\n\nQ2: Negative SRAS shock → GDP=$58T, PL=118.\n\nQ3: Positive AD shock → GDP=$65T, PL=128.\n\nQ4: Positive SRAS shock → GDP=$68T, PL=122.\n\nFor each quarter: (a) output gap; (b) shock type; (c) inflation type.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Q1: +$6T inflationary, demand-pull. Q2: −$2T recessionary, cost-push. Q3: +$5T inflationary, demand-pull. Q4: +$8T inflationary, no inflation (PL fell from 128 to 122)."
+      },
+      {
+        "label": "B",
+        "text": "Q1: +$6T recessionary; Q2: −$2T inflationary; Q3: +$5T; Q4: +$8T."
+      },
+      {
+        "label": "C",
+        "text": "All four: demand-pull inflation."
+      },
+      {
+        "label": "D",
+        "text": "All four: LR equilibrium."
+      },
+      {
+        "label": "E",
+        "text": "Q1: demand-pull inflationary. Q2: cost-push recessionary. Q3: demand-pull inflationary. Q4: positive SRAS — inflationary gap but PL falls (no inflation)."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Q1: $66T-$60T=+$6T inflationary; GDP↑ and PL↑ → positive AD → demand-pull; Q2: $58T-$60T=-$2T recessionary; GDP↓ and PL↑ → negative SRAS → cost-push (stagflation). Q3: $65T-$60T=+$5T inflationary; GDP↑ and PL↑ → positive AD → demand-pull; Q4: $68T-$60T=+$8T inflationary; GDP↑ and PL↓ → positive SRAS → NO inflation (PL fell from 128 to 122 - disinflation from favorable supply).",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "Economy Alpha: Yf = $50T. An economist has data showing:\n\nYear 1: GDP = $48T, PL = 95.\n\nYear 2: GDP = $54T, PL = 108.\n\nYear 3: GDP = $51T, PL = 114.\n\nYear 4: GDP = $50T, PL = 117.\n\nFor each transition (Year 1→2, 2→3, 3→4): (a) identify the shock type from the data; (b) classify the output gap; (c) identify inflation type. Then explain Year 4's high PL despite being \"at potential.\"",
+    "options": [
+      {
+        "label": "A",
+        "text": "Year 1→2: positive AD (GDP↑, PL↑), inflationary gap; demand-pull. Year 2→3: negative SRAS (GDP↓, PL↑), recessionary gap; cost-push. Year 3→4: GDP rose and PL rose → positive AD; LR equilibrium. High PL in Year 4 reflects accumulated inflation from demand-pull (Y1→2) and cost-push (Y2→3) shocks; being at LR equilibrium doesn't require returning to original PL."
+      },
+      {
+        "label": "B",
+        "text": "All transitions: positive AD shocks."
+      },
+      {
+        "label": "C",
+        "text": "Year 3→4: negative SRAS; Year 1→2: demand-pull; Year 2→3: positive AD."
+      },
+      {
+        "label": "D",
+        "text": "Year 4 PL should be 100 — LR equilibrium always returns PL to base."
+      },
+      {
+        "label": "E",
+        "text": "Cannot determine shock types without employment data."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Y1→Y2: GDP $48T→$54T (↑), PL 95→108 (↑) - same direction → positive AD; output gap goes from -$2T (recessionary) to +$4T (inflationary); demand-pull inflation. Y2→Y3: GDP $54T→$51T (↓), PL 108→114 (↑) - opposite → negative SRAS; gap goes from +$4T to +$1T (still inflationary); cost-push inflation. Y3→Y4: GDP $51T→$50T (↓), PL 114→117 (↑) - wait, GDP↓ and PL↑ → negative SRAS again; gap now $0 (LR equilibrium); year 4 high PL (117) reflects permanent inflation accumulated from earlier shocks - LR equilibrium just means actual=Yf, not that PL returns to 100.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "Three consecutive economic shocks hit Economy Beta (Yf = $90T, starting PL = 105):\n\nShock 1: Positive SRAS → GDP rises to $95T, PL falls to 100.\n\nShock 2: Negative AD → GDP falls to $87T, PL falls to 94.\n\nShock 3: Negative SRAS → GDP falls to $80T, PL rises to 102.\n\nFor each shock: (a) classify; (b) output gap; (c) inflation classification. Then find the net GDP and PL changes from initial state.",
+    "options": [
+      {
+        "label": "A",
+        "text": "S1: positive SRAS, +$5T inflationary, no inflation (PL↓). S2: negative AD, −$3T recessionary, deflation (PL↓). S3: negative SRAS, −$10T recessionary, cost-push (PL↑). Net: GDP −$10T; PL −3 units (105→102)."
+      },
+      {
+        "label": "B",
+        "text": "S1: positive SRAS, recessionary. S2: positive AD, inflationary. S3: negative SRAS, recessionary."
+      },
+      {
+        "label": "C",
+        "text": "All three shocks: positive AD."
+      },
+      {
+        "label": "D",
+        "text": "Net GDP: +$10T; net PL: +10 units."
+      },
+      {
+        "label": "E",
+        "text": "S1: demand-pull; S2: cost-push; S3: deflation."
+      }
+    ],
+    "answer": "A",
+    "explanation": "S1: GDP↑ ($90T→$95T), PL↓ → positive SRAS; gap=+$5T inflationary; no inflation (PL fell); S2: GDP↓ ($95T→$87T), PL↓ → negative AD; gap=-$3T recessionary; deflation (PL↓). S3: GDP↓ ($87T→$80T), PL↑ → negative SRAS; gap=-$10T recessionary; cost-push inflation (PL↑); net GDP: $80T-$90T=-$10T; net PL: 102-105=-3 units (net deflation despite cost-push in S3).",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "Final synthesis: Economy Omega at LR equilibrium (Yf=$75T, PL=108). Using all three EK points of MOD-2.H, analyze the following complete scenario.\n\nPeriod 1: A surge in government deficit spending shifts AD right → GDP=$82T, PL=117.\n\nPeriod 2: An oil price spike shifts SRAS left → GDP=$74T, PL=125.\n\nPeriod 3: New energy technology shifts SRAS right → GDP=$78T, PL=118.\n\nFor each period: (a) MOD-2.H classification; (b) output gap; (c) inflation type. Which period exemplifies each EK point of MOD-2.H?",
+    "options": [
+      {
+        "label": "A",
+        "text": "P1: positive AD (MOD-2.H.1) — GDP and PL both rise; inflationary gap; demand-pull inflation. P2: negative SRAS (MOD-2.H.2) — GDP falls and PL rises (opposite); recessionary gap; cost-push inflation = stagflation. P3: positive SRAS (MOD-2.H.2) — GDP rises and PL falls (opposite); inflationary gap (GDP>Yf); no inflation (PL falls). MOD-2.H.3: P1 demonstrates demand-pull; P2 demonstrates cost-push."
+      },
+      {
+        "label": "B",
+        "text": "All periods: positive AD shocks."
+      },
+      {
+        "label": "C",
+        "text": "P1: cost-push; P2: demand-pull; P3: stagflation."
+      },
+      {
+        "label": "D",
+        "text": "P1: negative SRAS; P2: positive AD; P3: negative AD."
+      },
+      {
+        "label": "E",
+        "text": "P1: LR equilibrium; P2: inflationary gap; P3: recessionary gap."
+      }
+    ],
+    "answer": "A",
+    "explanation": "complete: P1: GDP↑ ($75T→$82T), PL↑ (108→117) - same direction → MOD-2.H.1 positive AD shock; inflationary gap (+$7T); demand-pull inflation (MOD-2.H.3). P2: GDP↓ ($82T→$74T), PL↑ (117→125) - opposite → MOD-2.H.2 negative SRAS; recessionary gap (-$1T); cost-push inflation/stagflation (MOD-2.H.3). P3: GDP↑ ($74T→$78T), PL↓ (125→118) - opposite → MOD-2.H.2 positive SRAS; inflationary gap (+$3T); no inflation (PL fell, disinflation); P1 exemplifies MOD-2.H.1 and demand-pull (MOD-2.H.3); P2 exemplifies MOD-2.H.2 and cost-push (MOD-2.H.3); P3 exemplifies MOD-2.H.2 (positive supply).",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "Economy Kappa: Yf = $100T. The following EIGHT economic events are listed. Classify each as positive AD (+AD), negative AD (−AD), positive SRAS (+SRAS), or negative SRAS (−SRAS). Then calculate the net GDP effect if each has an equal dollar magnitude of $5T.\n\n1. Government increases spending.\n\n2. Workers negotiate higher wages.\n\n3. Consumer confidence collapses.\n\n4. New oil reserves reduce energy costs.\n\n5. Trading partner recession reduces exports.\n\n6. Business taxes increase.\n\n7. Central bank lowers interest rates.\n\n8. Productivity-enhancing automation adopted.",
+    "options": [
+      {
+        "label": "A",
+        "text": "1: +AD; 2: −SRAS; 3: −AD; 4: +SRAS; 5: −AD; 6: −SRAS; 7: +AD; 8: +SRAS. Net: +AD = 1,7 (+$10T); −AD = 3,5 (−$10T); +SRAS = 4,8 (+$10T); −SRAS = 2,6 (−$10T). Net GDP = $0."
+      },
+      {
+        "label": "B",
+        "text": "1: +SRAS; 2: +AD; 3: −SRAS; 4: −AD; 5: +AD; 6: +SRAS; 7: −AD; 8: −SRAS."
+      },
+      {
+        "label": "C",
+        "text": "All eight: +AD."
+      },
+      {
+        "label": "D",
+        "text": "1: +AD; 2: +AD; 3: +SRAS; 4: −SRAS; 5: +AD; 6: +AD; 7: −SRAS; 8: −AD."
+      },
+      {
+        "label": "E",
+        "text": "Cannot classify without knowing GDP magnitudes."
+      }
+    ],
+    "answer": "A",
+    "explanation": "1(G↑→+AD); 2(wages↑→cost↑→-SRAS); 3(confidence↓→C↓→-AD); 4(oil cost↓→+SRAS); 5(exports↓→NX↓→-AD); 6(taxes↑→cost↑→-SRAS); 7(rates↓→I↑→+AD); 8(productivity→cost↓→+SRAS). Net: +AD shocks 1,7 = +$10T GDP; -AD shocks 3,5 = -$10T GDP; +SRAS shocks 4,8 = +$10T GDP; -SRAS shocks 2,6 = -$10T GDP; net GDP change = +$10T-$10T+$10T-$10T = $0; equal magnitudes cancel.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "Economy Lambda: the government is facing stagflation (negative SRAS shock from commodity prices). An economist proposes: \"We should use a COMBINATION of expansionary fiscal policy (positive AD) AND supply-side tax cuts (positive SRAS) simultaneously.\" Using MOD-2.H, analyze whether this combination can address both the inflation AND the output contraction components of stagflation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "No — only one policy can be effective; combined policies are always ineffective."
+      },
+      {
+        "label": "B",
+        "text": "Yes — the combination of positive AD + positive SRAS works as follows: positive SRAS → GDP↑, PL↓ (addresses both problems directly). Positive AD → GDP↑, PL↑ (helps output but worsens inflation). Together: GDP rises from both (CERTAIN ↑); PL direction is AMBIGUOUS (positive SRAS pushes PL down, positive AD pushes it up). The supply-side component directly fights the stagflation on both dimensions; the AD component helps output but partially offsets the supply-side disinflationary effect. The optimal combination emphasizes the supply-side component."
+      },
+      {
+        "label": "C",
+        "text": "Yes — but only the positive AD component matters; supply-side has no short-run effect."
+      },
+      {
+        "label": "D",
+        "text": "No — combining AD and SRAS shocks always creates ambiguity that prevents any improvement."
+      },
+      {
+        "label": "E",
+        "text": "Yes — but both components raise the price level, worsening the inflation."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.H.2: Positive SRAS: GDP↑, PL↓ - directly addresses both problems of stagflation (more output, lower prices). Positive AD: GDP↑, PL↑ - helps output but adds demand-pull on top of existing cost-push; combined: GDP certainly rises (both push it up); PL: ambiguous (SRAS pushes down, AD pushes up). The best strategy emphasizes the positive SRAS component (supply-side reforms), which uniquely helps both dimensions of stagflation; adding positive AD helps growth but partially cancels the disinflationary benefit of the supply-side component.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "Economy Sigma: Yf = $50T. A sequence of four shocks brings the economy through four short-run equilibria.\n\nStarting at $50T, PL=100:\n\nShock 1: GDP to $55T, PL to 108 — identify type.\n\nShock 2: GDP to $50T, PL to 114 — identify type.\n\nShock 3: GDP to $56T, PL to 107 — identify type.\n\nShock 4: GDP to $52T, PL to 111 — identify type.\n\nFor each transition, state the shock type and inflation classification.",
+    "options": [
+      {
+        "label": "A",
+        "text": "S1: positive AD (↑both), demand-pull. S2: negative SRAS (GDP↓, PL↑ → opposite), cost-push. S3: positive SRAS (GDP↑, PL↓ → opposite), no inflation. S4: positive AD (GDP↑, PL↑ → same), demand-pull."
+      },
+      {
+        "label": "B",
+        "text": "All four: positive AD."
+      },
+      {
+        "label": "C",
+        "text": "S1: negative SRAS; S2: positive AD; S3: negative AD; S4: positive SRAS."
+      },
+      {
+        "label": "D",
+        "text": "S1: positive AD. S2: negative AD. S3: positive SRAS. S4: negative SRAS."
+      },
+      {
+        "label": "E",
+        "text": "Cannot identify without employment data."
+      }
+    ],
+    "answer": "A",
+    "explanation": "S1: $50T→$55T (GDP↑), 100→108 (PL↑) - same direction → positive AD; demand-pull inflation; S2: $55T→$50T (GDP↓), 108→114 (PL↑) - opposite → negative SRAS; cost-push inflation/stagflation. S3: $50T→$56T (GDP↑), 114→107 (PL↓) - opposite → positive SRAS; no inflation (PL falls); S4: $56T→$52T (GDP↓), 107→111 (PL↑) - opposite → negative SRAS; cost-push inflation.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "Economy Nu: starting at LR equilibrium (Yf=$80T, PL=110). Two shocks:\n\nShock A: Positive AD (fiscal expansion) — AD shifts right, new equilibrium: $87T, PL=120.\n\nShock B: Positive SRAS (technology) — starting from the post-Shock-A position, SRAS shifts right, new equilibrium: GDP=?, PL=?\n\nIf the positive SRAS shock (Shock B) is large enough to bring GDP back to $80T while also lowering PL, what can be said about the final price level relative to the original 110?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Final PL = 110 exactly — the supply shock perfectly reverses the demand shock."
+      },
+      {
+        "label": "B",
+        "text": "Final PL > 110 — the positive SRAS shock moved down the new (rightward-shifted) AD₂ curve, not the original AD₁. Since AD₂ is to the right of AD₁, the equilibrium at $80T on AD₂ is at a HIGHER price level than the equilibrium at $80T on AD₁ (original). Final PL > 110."
+      },
+      {
+        "label": "C",
+        "text": "Final PL < 110 — the supply shock always fully reverses price increases."
+      },
+      {
+        "label": "D",
+        "text": "Final PL = 120 — the supply shock has no effect on the price level at $80T GDP."
+      },
+      {
+        "label": "E",
+        "text": "Cannot be determined without knowing the magnitude of Shock B."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.H.2: After Shock A: AD₂ is to the right of AD₁; the economy is at $87T on AD₂ and SRAS₁ at PL=120. After Shock B (positive SRAS): SRAS₁ shifts right to SRAS₂; the new equilibrium is where SRAS₂ intersects AD₂ at $80T. Since AD₂ is to the right of original AD₁, the point on AD₂ at $80T corresponds to a HIGHER price level than the original AD₁ at $80T (original equilibrium); even though SRAS shifts right (pushing PL down), it is interacting with the shifted-right AD₂, so the final PL at $80T is ABOVE 110.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "Comprehensive question: Economy Pi at LR equilibrium (Yf=$60T, PL=100).\n\nEvent sequence:\n\nE1: Consumer spending collapses — classify shock, state short-run effects on output/employment/PL.\n\nE2: To counter E1, government raises G — classify shock, state short-run effects.\n\nE3: Oil prices then spike — classify shock, state short-run effects.\n\nE4: Economy adopts automation — classify shock, state short-run effects.\n\nFor each event, also identify the type of inflation or deflation (if any).",
+    "options": [
+      {
+        "label": "A",
+        "text": "E1: positive AD; all rise. E2: negative SRAS; stagflation. E3: positive SRAS; GDP↑, PL↓. E4: negative AD; all fall."
+      },
+      {
+        "label": "B",
+        "text": "E1: negative AD (C falls → AD shifts left) — output↓, employment↓, PL↓ (deflation). E2: positive AD (G rises → AD shifts right) — output↑, employment↑, PL↑ (demand-pull). E3: negative SRAS (oil costs rise → SRAS shifts left) — output↓, employment↓, PL↑ (cost-push/stagflation). E4: positive SRAS (automation lowers costs → SRAS shifts right) — output↑, employment↑, PL↓ (no inflation/favorable)."
+      },
+      {
+        "label": "C",
+        "text": "All four: negative AD shocks."
+      },
+      {
+        "label": "D",
+        "text": "E1: negative SRAS; E2: positive SRAS; E3: negative AD; E4: positive AD."
+      },
+      {
+        "label": "E",
+        "text": "E1: demand-pull; E2: cost-push; E3: deflation; E4: demand-pull."
+      }
+    ],
+    "answer": "B",
+    "explanation": "complete synthesis: E1: consumer spending (C) falls → AD shifts left → negative AD shock → MOD-2.H.1: output↓, employment↓, PL↓ (deflation). E2: G rises → AD shifts right → positive AD shock → MOD-2.H.1: output↑, employment↑, PL↑ (demand-pull inflation per MOD-2.H.3). E3: oil prices rise → costs rise → SRAS shifts left → negative SRAS shock → MOD-2.H.2: output↓, employment↓, PL↑ (cost-push inflation/stagflation per MOD-2.H.3); E4: automation → costs fall → SRAS shifts right → positive SRAS shock → MOD-2.H.2: output↑, employment↑, PL↓ (no inflation - favorable supply).",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "An economist wants to determine whether a country's recent economic history shows demand-driven or supply-driven fluctuations. She has five years of data:\n\nY1: GDP↑, PL↑. Y2: GDP↓, PL↑. Y3: GDP↑, PL↓. Y4: GDP↓, PL↓. Y5: GDP↑, PL↑.\n\nFor each year: (a) classify the shock type; (b) identify inflation/deflation type; (c) determine if demand or supply forces were dominant.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Y1: +AD, demand-pull. Y2: −SRAS, cost-push. Y3: +SRAS, no inflation. Y4: −AD, deflation. Y5: +AD, demand-pull. Pattern: 3 of 5 years show demand-side forces dominant (Y1, Y4, Y5 = AD shocks); 2 years show supply-side forces (Y2, Y3)."
+      },
+      {
+        "label": "B",
+        "text": "All five years: positive AD, demand-pull."
+      },
+      {
+        "label": "C",
+        "text": "Y1: −SRAS; Y2: +AD; Y3: −AD; Y4: +SRAS; Y5: −SRAS."
+      },
+      {
+        "label": "D",
+        "text": "All five: cost-push inflation."
+      },
+      {
+        "label": "E",
+        "text": "Cannot classify without employment data."
+      }
+    ],
+    "answer": "A",
+    "explanation": "diagnostic: Y1: GDP↑,PL↑ → same direction → positive AD → demand-pull inflation; Y2: GDP↓,PL↑ → opposite → negative SRAS → cost-push inflation (stagflation). Y3: GDP↑,PL↓ → opposite → positive SRAS → no inflation (favorable supply); Y4: GDP↓,PL↓ → same direction → negative AD → deflation. Y5: GDP↑,PL↑ → same direction → positive AD → demand-pull inflation; pattern: Y1,Y4,Y5 = AD shocks (3 of 5 demand-driven); Y2,Y3 = SRAS shocks (2 of 5 supply-driven); demand forces slightly more prevalent.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "Final comprehensive synthesis for Topic 3.6. Economy Omega: Yf=$100T, initial LR equilibrium at PL=110.\n\nUsing all three EK points of MOD-2.H, analyze and classify the following complete scenario:\n\n(a) A surge in investment (positive AD) → GDP=$108T, PL=120. State: output/employment/PL direction (MOD-2.H.1), inflation type (MOD-2.H.3).\n\n(b) Global commodity shortage (negative SRAS) → GDP=$95T, PL=130. State: output/employment/PL direction (MOD-2.H.2), inflation type (MOD-2.H.3).\n\n(c) Productivity breakthrough (positive SRAS) → GDP=$102T, PL=122. State: output/employment/PL direction (MOD-2.H.2).\n\nThen determine which phase exemplifies each of the three MOD-2.H EK points.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) MOD-2.H.1: output↑, employment↑, PL↑ (GDP $100T→$108T; PL 110→120; inflationary gap); demand-pull inflation (MOD-2.H.3). (b) MOD-2.H.2: output↓, employment↓, PL↑ (GDP $108T→$95T; PL 120→130; recessionary gap; opposite directions); cost-push inflation/stagflation (MOD-2.H.3). (c) MOD-2.H.2: output↑, employment↑, PL↓ (GDP $95T→$102T; PL 130→122; inflationary gap; opposite directions); no inflation (PL fell). EK point exemplars: MOD-2.H.1=(a); MOD-2.H.2=(b) and (c); MOD-2.H.3=(a) demand-pull and (b) cost-push."
+      },
+      {
+        "label": "B",
+        "text": "All three phases: demand-pull inflation."
+      },
+      {
+        "label": "C",
+        "text": "(a): MOD-2.H.2 negative SRAS; (b): MOD-2.H.1 positive AD; (c): cost-push."
+      },
+      {
+        "label": "D",
+        "text": "All three phases: recessionary gaps."
+      },
+      {
+        "label": "E",
+        "text": "(a): MOD-2.H.3; (b): MOD-2.H.1; (c): MOD-2.H.2."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Complete synthesis: (a) Investment↑ → +AD → MOD-2.H.1: output↑($100T→$108T), employment↑, PL↑(110→120) - all same direction; gap=+$8T inflationary. demand-pull (AD shift → PL↑ with GDP↑); (b) Commodity shortage → -SRAS → MOD-2.H.2: output↓($108T→$95T), employment↓, PL↑(120→130) - opposite directions; gap=-$5T recessionary. cost-push/stagflation (SRAS shift → PL↑ with GDP↓); (c) Productivity → +SRAS → MOD-2.H.2: output↑($95T→$102T), employment↑, PL↓(130→122) - opposite directions; gap=+$2T inflationary; no inflation; EK exemplars: H.1=(a); H.2=(b,c); H.3=(a) demand-pull + (b) cost-push.",
+    "reference": "MOD-2.H | MOD-2.H.1 | MOD-2.H.2 | MOD-2.H.3",
+    "graphDescription": "",
+    "graphRequired": false
+  }
+]

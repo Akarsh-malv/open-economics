@@ -1,0 +1,3202 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "Which of the following best states the central limitation of GDP as a measure of economic performance?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP is too easy to calculate, making it imprecise."
+      },
+      {
+        "label": "B",
+        "text": "GDP is a useful indicator of a nation's output but has limitations, such as failing to account for nonmarket transactions and other dimensions of well-being."
+      },
+      {
+        "label": "C",
+        "text": "GDP overcounts output because it includes government spending."
+      },
+      {
+        "label": "D",
+        "text": "GDP is only useful for comparing economies of the same size."
+      },
+      {
+        "label": "E",
+        "text": "GDP fails to capture any useful information about a nation's economy."
+      }
+    ],
+    "answer": "B",
+    "explanation": "states that GDP is a useful - not useless - indicator of economic performance, but it has limitations. The most fundamental is that it omits nonmarket transactions (unpaid work, volunteer activity, subsistence production) and fails to capture many dimensions of well-being such as income distribution, environmental quality, and leisure.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "A \"nonmarket transaction\" is best defined as an economic activity that",
+    "options": [
+      {
+        "label": "A",
+        "text": "takes place in a foreign country and therefore is excluded from domestic GDP."
+      },
+      {
+        "label": "B",
+        "text": "involves an illegal good or service and is hidden from tax authorities."
+      },
+      {
+        "label": "C",
+        "text": "produces real value or output but does not involve a market exchange with a recorded price, so it is excluded from GDP."
+      },
+      {
+        "label": "D",
+        "text": "occurs between two businesses rather than between a business and a consumer."
+      },
+      {
+        "label": "E",
+        "text": "involves barter rather than money and is therefore counted at zero in GDP."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A nonmarket transaction produces real economic value - such as a parent caring for their own child or a homeowner painting their own house - but because no market price is recorded, it is not captured in GDP. This is one of the primary limitations of GDP as a welfare measure.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "A parent spends 20 hours per week providing unpaid childcare for their own child. This activity",
+    "options": [
+      {
+        "label": "A",
+        "text": "is fully counted in GDP because it produces valuable services for the household."
+      },
+      {
+        "label": "B",
+        "text": "is excluded from GDP because it is a nonmarket transaction — no wage is paid and no market price is recorded for the service."
+      },
+      {
+        "label": "C",
+        "text": "is counted in GDP as part of government transfer payments."
+      },
+      {
+        "label": "D",
+        "text": "is counted in GDP only if the parent is classified as unemployed."
+      },
+      {
+        "label": "E",
+        "text": "reduces GDP because it takes the parent out of the paid labor market."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Unpaid household childcare is a nonmarket transaction. Even though the service has real value - equivalent to what a paid childcare worker would provide - it is excluded from GDP because no market price is observed; this causes GDP to understate the true value of production in the economy.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "A homeowner mows her own lawn rather than hiring a landscaping service. How does this activity affect the accuracy of GDP as a welfare measure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP overstates well-being because the homeowner's time is counted as income."
+      },
+      {
+        "label": "B",
+        "text": "GDP is unaffected — unpaid home production is too small to matter."
+      },
+      {
+        "label": "C",
+        "text": "GDP understates the true value of economic activity because this nonmarket service is not counted, even though it has real value equivalent to a paid landscaping service."
+      },
+      {
+        "label": "D",
+        "text": "GDP is accurate because the homeowner saves money, which is counted as household savings."
+      },
+      {
+        "label": "E",
+        "text": "GDP overstates well-being because the cost of the lawnmower is counted as investment."
+      }
+    ],
+    "answer": "C",
+    "explanation": "When the homeowner hires a landscaper, that transaction is recorded in GDP (as consumer spending on services). When she mows her own lawn, the same service is produced but not counted - it is a nonmarket activity; this means GDP systematically understates the value of self-produced household services, a key limitation.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "Which of the following is an example of a nonmarket transaction excluded from GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A consumer purchases a haircut from a professional salon for $40."
+      },
+      {
+        "label": "B",
+        "text": "A software developer builds a new app and sells subscriptions for $9.99/month."
+      },
+      {
+        "label": "C",
+        "text": "A retiree volunteers 15 hours per week at a food bank, providing meals to those in need."
+      },
+      {
+        "label": "D",
+        "text": "A city hires a contractor to repave a road for $2 million."
+      },
+      {
+        "label": "E",
+        "text": "A bakery sells $500 of bread to a grocery store."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Volunteer work (unpaid labor) is a nonmarket transaction; the food bank volunteer produces real value - meals, services, community support - but because no wage is paid and no price is recorded, this activity is excluded from GDP.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "GDP does NOT directly measure which of the following?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The total dollar value of final goods and services produced in a country."
+      },
+      {
+        "label": "B",
+        "text": "The income earned by factors of production during the year."
+      },
+      {
+        "label": "C",
+        "text": "The distribution of income among households — whether wealth is concentrated or spread broadly."
+      },
+      {
+        "label": "D",
+        "text": "Total government purchases of goods and services."
+      },
+      {
+        "label": "E",
+        "text": "The value of new business investment in capital equipment."
+      }
+    ],
+    "answer": "C",
+    "explanation": "GDP measures total output and total income, but it does not reveal how that income is distributed among households. Two countries can have the same GDP per capita while one has extreme inequality and the other has relatively equal distribution; income distribution is a major dimension of well-being that GDP ignores.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "Two countries each have a GDP of $500 billion. Country A has 10 million people; Country B has 100 million people. Why does this comparison illustrate a limitation of GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP cannot be compared across countries because of currency differences."
+      },
+      {
+        "label": "B",
+        "text": "Total GDP is misleading as a measure of average living standards because it does not account for population size. GDP per capita (GDP divided by population) provides a better indicator: Country A's per capita GDP ($50,000) is ten times higher than Country B's ($5,000)."
+      },
+      {
+        "label": "C",
+        "text": "GDP in both countries is identical, so the comparison is meaningless."
+      },
+      {
+        "label": "D",
+        "text": "Total GDP overstates Country B's welfare because it has more people consuming the same output."
+      },
+      {
+        "label": "E",
+        "text": "The comparison is flawed only if the two countries have different income distributions."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Total GDP alone is a poor measure of average living standards when countries differ in population size. GDP per capita (GDP ÷ population) adjusts for population and provides a better indicator of the average economic output available per person; country A: $500B ÷ 10M = $50,000 per capita; Country B: $500B ÷ 100M = $5,000 per capita - a tenfold difference.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "The underground economy refers to",
+    "options": [
+      {
+        "label": "A",
+        "text": "the portion of the economy located in below-ground facilities such as mines and tunnels."
+      },
+      {
+        "label": "B",
+        "text": "economic transactions that occur below the surface of the ocean, such as offshore drilling."
+      },
+      {
+        "label": "C",
+        "text": "economic activity that is unreported or hidden from government authorities, including both legal informal transactions and illegal activity, and is therefore excluded from official GDP."
+      },
+      {
+        "label": "D",
+        "text": "all government spending that is classified as secret or defense-related."
+      },
+      {
+        "label": "E",
+        "text": "economic activity that occurs outside of major urban centers."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The underground (or shadow) economy includes transactions that go unreported - either legal informal activity (e.g., a plumber paid cash who doesn't report it) or outright illegal activity (e.g., drug sales). Because these transactions are not observed or recorded, they are excluded from official GDP, causing GDP to understate actual economic activity.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "A plumber fixes pipes for a neighbor and is paid $300 in cash, which neither party reports to tax authorities. How does this affect GDP measurement?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP is unaffected because only market transactions count."
+      },
+      {
+        "label": "B",
+        "text": "GDP increases by $300 because a service was produced and exchanged."
+      },
+      {
+        "label": "C",
+        "text": "GDP is understated because this underground economic activity — a real service produced and sold — is not captured in official statistics."
+      },
+      {
+        "label": "D",
+        "text": "GDP decreases by $300 because unreported income reduces national income."
+      },
+      {
+        "label": "E",
+        "text": "GDP remains accurate because the service is offset by the neighbor's payment."
+      }
+    ],
+    "answer": "C",
+    "explanation": "This is an underground (informal) economy transaction. A real service ($300 of plumbing) was produced and sold, but because neither party reports it, it is not captured in official GDP figures; this causes GDP to understate actual economic activity - one of its key limitations.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "Which of the following best describes why GDP growth may NOT necessarily mean that citizens' well-being has improved?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP growth always improves well-being because more output means more income for everyone."
+      },
+      {
+        "label": "B",
+        "text": "GDP growth may not improve well-being if most of the additional output consists of goods that harm people (such as cigarettes), goes to a small number of wealthy households (inequality), damages the environment, or is offset by losses in leisure time — none of which GDP captures."
+      },
+      {
+        "label": "C",
+        "text": "GDP growth reduces well-being because rising prices erode purchasing power."
+      },
+      {
+        "label": "D",
+        "text": "GDP growth only improves well-being if it exceeds the population growth rate."
+      },
+      {
+        "label": "E",
+        "text": "GDP growth reduces well-being because higher output requires more labor and less free time."
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP measures the quantity of market output but not the quality, distribution, or sustainability of that output. Growth in GDP can coexist with worsening environmental conditions, rising inequality, declining leisure, or increases in harmful goods - all of which reduce well-being despite higher GDP; this multi-dimensional limitation is central to Topic 2.2.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "A country's forest fires destroy millions of acres of wilderness. Cleanup and firefighting operations cost $2 billion. What happens to GDP as a result?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP falls by $2 billion because natural resources were destroyed."
+      },
+      {
+        "label": "B",
+        "text": "GDP is unchanged because environmental losses are not counted."
+      },
+      {
+        "label": "C",
+        "text": "GDP rises by $2 billion because the $2 billion in cleanup and firefighting is counted as economic output — a limitation, since GDP counts the cost of fixing a disaster without subtracting the value of the environmental destruction."
+      },
+      {
+        "label": "D",
+        "text": "GDP falls because the government must borrow to fund the cleanup."
+      },
+      {
+        "label": "E",
+        "text": "GDP rises and accurately reflects improvement in the economy's productive capacity."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A key limitation of GDP: the costs of disaster cleanup, environmental remediation, and fighting pollution are counted as positive additions to GDP (they involve real expenditure on goods and services), while the destruction of environmental assets is not subtracted. GDP therefore rises after a disaster even though the nation's net wealth may have fallen.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "A country dramatically increases its production of tobacco products, boosting GDP by $50 billion. Which limitation of GDP does this scenario illustrate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP understates output because tobacco involves illegal activity."
+      },
+      {
+        "label": "B",
+        "text": "GDP fails to account for the composition of output — it counts all legal final goods equally, regardless of whether those goods improve or harm human well-being."
+      },
+      {
+        "label": "C",
+        "text": "GDP overstates output because tobacco is an intermediate good."
+      },
+      {
+        "label": "D",
+        "text": "GDP is inaccurate because the income approach would give a different result."
+      },
+      {
+        "label": "E",
+        "text": "GDP understates well-being because the tax revenue from tobacco is not counted."
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP adds up all legally produced final goods at market prices without judging whether they improve or harm well-being. A $50B increase in tobacco production raises GDP just as much as $50B of medicine or education; this limitation - that GDP ignores the composition (type) of output - means GDP growth can occur even when the goods being produced are harmful.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "Which of the following would be included in GDP but arguably REDUCES societal well-being?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A parent's unpaid tutoring of their own child."
+      },
+      {
+        "label": "B",
+        "text": "Volunteer work at a homeless shelter."
+      },
+      {
+        "label": "C",
+        "text": "Spending on security systems and private security guards following a rise in crime rates."
+      },
+      {
+        "label": "D",
+        "text": "Subsistence farming that feeds a rural household."
+      },
+      {
+        "label": "E",
+        "text": "Bartering goods between neighbors without using money."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Spending on security systems and private security guards is a market transaction (counted in GDP as consumer spending or business investment), but it represents a defensive expenditure that arises because of a social problem (crime). Higher crime forces households and firms to spend more on protection, raising GDP, but this does not improve - and may reflect a decline in - well-being; GDP counts this spending without subtracting the cost of the crime that caused it.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "Leisure time — the time people spend on recreation, rest, and personal activities outside of paid work — is",
+    "options": [
+      {
+        "label": "A",
+        "text": "fully counted in GDP because leisure is a form of consumption."
+      },
+      {
+        "label": "B",
+        "text": "counted in GDP through the income approach as unpaid wages."
+      },
+      {
+        "label": "C",
+        "text": "excluded from GDP even though it contributes significantly to well-being, because GDP only measures market transactions. A society that chooses more leisure with less production will show lower GDP but may have higher well-being."
+      },
+      {
+        "label": "D",
+        "text": "counted in GDP as negative output because it reduces productive capacity."
+      },
+      {
+        "label": "E",
+        "text": "included in GDP through government transfer payments for retirement benefits."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Leisure time is highly valuable to individuals - it contributes directly to well-being - but is not captured in GDP, which only counts market output. If a country's workers collectively reduce their work hours to enjoy more leisure, GDP falls (less output produced) even though citizens may be better off; this makes GDP an incomplete measure of well-being.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "Subsistence farming — where households grow food for their own consumption without selling it — is largely",
+    "options": [
+      {
+        "label": "A",
+        "text": "counted in GDP because it produces output with market value."
+      },
+      {
+        "label": "B",
+        "text": "excluded from GDP in developing countries, causing GDP to understate living standards — especially in rural economies where a large share of food production never reaches formal markets."
+      },
+      {
+        "label": "C",
+        "text": "counted in GDP through the government spending component."
+      },
+      {
+        "label": "D",
+        "text": "excluded from GDP only if the crops are illegal or harmful."
+      },
+      {
+        "label": "E",
+        "text": "counted in GDP because food is a final good regardless of how it is produced."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Subsistence farming produces real output with genuine nutritional value, but because it is consumed directly by the producing household rather than sold in a market, it is excluded from GDP (a nonmarket transaction). This limitation is especially significant in developing economies where large shares of the population live off subsistence agriculture, causing GDP to substantially understate actual living standards.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "Environmental degradation caused by industrial production",
+    "options": [
+      {
+        "label": "A",
+        "text": "reduces GDP because pollution is subtracted from the expenditure calculation."
+      },
+      {
+        "label": "B",
+        "text": "increases GDP because firms spend money on polluting machinery."
+      },
+      {
+        "label": "C",
+        "text": "is not subtracted from GDP, even though it reduces the quality of air, water, and ecosystems — a limitation of GDP as a measure of true economic welfare."
+      },
+      {
+        "label": "D",
+        "text": "is counted in GDP as a negative externality through the income approach."
+      },
+      {
+        "label": "E",
+        "text": "reduces GDP through reduced consumer spending caused by health problems."
+      }
+    ],
+    "answer": "C",
+    "explanation": "GDP counts the output of factories without subtracting the environmental damage they cause. A factory that produces $10M of goods and creates $3M of pollution damage adds $10M to GDP - not $7M; the net welfare impact ($7M after environmental cost) is not captured; environmental quality is a dimension of well-being that GDP systematically ignores.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "Country A and Country B both have a GDP per capita of $30,000. In Country A, the wealthiest 10% earn 70% of total income. In Country B, income is relatively equally distributed. What limitation of GDP does this illustrate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP per capita overstates well-being because it fails to adjust for inflation."
+      },
+      {
+        "label": "B",
+        "text": "GDP per capita fails to capture income distribution. Equal GDP per capita can mask vast differences in economic inequality — the \"average\" hides the fact that most people in Country A earn far less than the average, while in Country B the average is more representative."
+      },
+      {
+        "label": "C",
+        "text": "GDP per capita is an inaccurate measure because it uses total GDP, which should be excluded."
+      },
+      {
+        "label": "D",
+        "text": "GDP per capita overstates Country B's well-being because equal income distribution reduces incentives."
+      },
+      {
+        "label": "E",
+        "text": "This comparison is only meaningful if both countries use the same currency."
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP per capita reports an average, which can be highly misleading when income is unequally distributed. If a small fraction of the population earns most of the income, most citizens live well below the average - yet the average GDP per capita looks healthy; this is a fundamental limitation: GDP (and GDP per capita) says nothing about how economic output is distributed.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "Which of the following is a correct statement about GDP as a measure of a nation's economic performance?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP is a perfect measure of well-being because it captures all economic activity."
+      },
+      {
+        "label": "B",
+        "text": "GDP is useful for tracking changes in market output over time, but it has significant limitations as a measure of overall well-being, including its exclusion of nonmarket production, environmental quality, income distribution, and leisure."
+      },
+      {
+        "label": "C",
+        "text": "GDP is only useful for large, advanced economies; it fails completely for developing nations."
+      },
+      {
+        "label": "D",
+        "text": "GDP overstates well-being in all countries because it includes government spending."
+      },
+      {
+        "label": "E",
+        "text": "GDP perfectly captures well-being as long as inflation is accounted for using the GDP deflator."
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP is a genuinely useful and widely used measure of market output and economic activity over time. However, its limitations - nonmarket transactions, underground economy, income distribution, environmental degradation, leisure, composition of output - mean it is an incomplete measure of overall well-being; this nuanced view (useful but limited) is exactly what MEA-1.B.1 requires.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "When a family hires a professional cleaner to clean their home, the transaction is counted in GDP. When a family member cleans the home themselves, it is not counted in GDP. This inconsistency reflects which limitation of GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP fails to adjust for the quality of cleaning services."
+      },
+      {
+        "label": "B",
+        "text": "GDP excludes government services from its calculations."
+      },
+      {
+        "label": "C",
+        "text": "GDP fails to capture nonmarket transactions — the same service (home cleaning) is counted in GDP when provided through a market but excluded when self-provided, making GDP sensitive to how production is organized rather than how much real value is produced."
+      },
+      {
+        "label": "D",
+        "text": "GDP double-counts cleaning services when provided by a hired professional."
+      },
+      {
+        "label": "E",
+        "text": "GDP underestimates the value of household services because wages for cleaners are too low."
+      }
+    ],
+    "answer": "C",
+    "explanation": "This scenario - often called the \"housekeeper\" or \"nanny paradox\" - illustrates how GDP depends on whether production passes through a market. If a parent quits work to care for their children and clean their own house, GDP falls even though the same real services are being provided; the market/nonmarket boundary creates an arbitrary distinction that can distort GDP as a welfare measure.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "A country experiences rapid GDP growth driven by a massive increase in arms production. A critic argues that this growth does not necessarily indicate improved living standards. This critique reflects which limitation of GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP overstates arms production because military goods are intermediate inputs."
+      },
+      {
+        "label": "B",
+        "text": "GDP fails to account for the composition of output — it makes no distinction between goods that improve civilian living standards (food, healthcare) and goods that do not directly do so (weapons), counting both equally."
+      },
+      {
+        "label": "C",
+        "text": "GDP understates arms production because defense spending is excluded from government purchases."
+      },
+      {
+        "label": "D",
+        "text": "GDP overstates well-being because military spending crowds out private investment."
+      },
+      {
+        "label": "E",
+        "text": "GDP fails because arms are exported and thus should not be counted in domestic GDP."
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP treats a dollar of arms spending identically to a dollar of healthcare or education spending. An economy could grow rapidly by producing weapons for conflict without any improvement in the daily lives of its citizens; GDP's inability to distinguish between the types of goods produced - its indifference to composition - is a key limitation when using it to assess living standards.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "Which of the following activities would be counted in GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A neighbor helps another neighbor repair a fence with no payment exchanged."
+      },
+      {
+        "label": "B",
+        "text": "A parent cooks dinner for their family every night."
+      },
+      {
+        "label": "C",
+        "text": "A community organizes a free outdoor concert funded entirely by volunteers."
+      },
+      {
+        "label": "D",
+        "text": "A homeowner paints the interior of their own house over a weekend."
+      },
+      {
+        "label": "E",
+        "text": "A restaurant hires a chef and serves 200 paid customers per night."
+      }
+    ],
+    "answer": "E",
+    "explanation": "The restaurant's paid service to customers is a market transaction - the chef receives a wage (counted in the income approach), and the customers pay for meals (counted as consumer spending in the expenditure approach).",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "When economists say that GDP fails to capture \"quality of life,\" they mean that GDP does not measure",
+    "options": [
+      {
+        "label": "A",
+        "text": "the quantity of goods and services produced in a year."
+      },
+      {
+        "label": "B",
+        "text": "the market prices of goods and services."
+      },
+      {
+        "label": "C",
+        "text": "dimensions of well-being such as health outcomes, educational attainment, political freedoms, personal safety, environmental quality, and social relationships — all of which contribute to quality of life but are not market transactions."
+      },
+      {
+        "label": "D",
+        "text": "the nominal versus real value of output."
+      },
+      {
+        "label": "E",
+        "text": "the efficiency with which production factors are used."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Quality of life encompasses many dimensions - health, education, freedom, safety, environmental quality, social connections - that are not bought and sold in markets and thus are not captured in GDP. A country can have high GDP while also having poor health outcomes, low political freedom, or severe environmental pollution; GDP is an incomplete proxy for quality of life.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "An oil spill destroys a fishing industry and damages coastal ecosystems. The cleanup costs $1.5 billion. How is this reflected in GDP, and why is it a limitation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP falls by $1.5 billion because the oil spill reduces productive capacity."
+      },
+      {
+        "label": "B",
+        "text": "GDP rises by $1.5 billion due to cleanup spending, even though society is worse off. The cleanup is a \"defensive expenditure\" — spending required to restore something that was damaged. GDP counts it as positive output without subtracting the destruction that caused it."
+      },
+      {
+        "label": "C",
+        "text": "GDP is unchanged because the environmental damage offsets the cleanup spending."
+      },
+      {
+        "label": "D",
+        "text": "GDP falls because the fishing industry's output is now zero."
+      },
+      {
+        "label": "E",
+        "text": "GDP rises by $1.5 billion and this correctly reflects an improvement in economic welfare."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The $1.5B cleanup is recorded as economic output (government or private spending on services); but GDP does not subtract the destruction of the fishery or ecosystem. This \"defensive expenditure\" paradox - where spending on problems is counted as production - is a well-known GDP limitation; nations may appear richer after disasters simply because of cleanup costs.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "Which of the following statements about GDP per capita is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP per capita is more accurate than total GDP because it adjusts for inflation."
+      },
+      {
+        "label": "B",
+        "text": "GDP per capita measures total GDP divided by population, providing a better indicator of average output per person than total GDP — but it still does not reveal income distribution, environmental quality, or other dimensions of well-being."
+      },
+      {
+        "label": "C",
+        "text": "GDP per capita replaces GDP entirely as the primary measure of economic performance."
+      },
+      {
+        "label": "D",
+        "text": "GDP per capita eliminates all limitations of GDP by accounting for population differences."
+      },
+      {
+        "label": "E",
+        "text": "GDP per capita is only relevant for international comparisons, not domestic policy."
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP per capita (GDP ÷ population) corrects for population size, making it a more useful cross-country comparison than total GDP. However, it is still an average that masks inequality - and it inherits all of GDP's other limitations (nonmarket transactions, environmental damage, composition, quality of life); it improves on total GDP but does not eliminate its limitations.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "Which group's economic contributions is MOST likely to be understated by GDP in a developing economy with a large rural subsistence sector?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Urban factory workers whose wages are reported to the government."
+      },
+      {
+        "label": "B",
+        "text": "Export-oriented manufacturers whose products are sold in international markets."
+      },
+      {
+        "label": "C",
+        "text": "Rural subsistence farmers who grow food for their own families and barter locally without entering formal markets."
+      },
+      {
+        "label": "D",
+        "text": "Government employees whose salaries are recorded in public budgets."
+      },
+      {
+        "label": "E",
+        "text": "Foreign-owned corporations operating in free trade zones."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Rural subsistence farmers produce real output - food that feeds families - but because they do not sell it in formal markets, it is largely excluded from GDP. This causes GDP to substantially understate living standards in economies where subsistence agriculture is widespread, making international comparisons of GDP misleading when they involve countries with large informal rural sectors.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "Which of the following is NOT a limitation of GDP as a measure of economic well-being?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP excludes nonmarket transactions such as unpaid housework and volunteer labor."
+      },
+      {
+        "label": "B",
+        "text": "GDP fails to capture income distribution — whether output is widely shared or concentrated."
+      },
+      {
+        "label": "C",
+        "text": "GDP does not measure environmental quality or the depletion of natural resources."
+      },
+      {
+        "label": "D",
+        "text": "GDP measures the total value of final goods and services produced in an economy during a given period."
+      },
+      {
+        "label": "E",
+        "text": "GDP ignores leisure time and does not penalize economies where long working hours produce high output at the cost of personal time."
+      }
+    ],
+    "answer": "D",
+    "explanation": "GDP is designed to measure the total market value of final goods and services; this is what it does well.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "A country with a rapidly growing GDP has simultaneously experienced rising pollution levels, increasing income inequality, and a decline in average leisure time. Based on these trends, which of the following conclusions is most warranted?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The country's citizens are definitely better off because GDP has grown."
+      },
+      {
+        "label": "B",
+        "text": "The country's citizens are definitely worse off because pollution has risen."
+      },
+      {
+        "label": "C",
+        "text": "GDP growth may overstate improvement in well-being because it fails to capture the costs of pollution, the consequences of inequality, and the loss of leisure — all of which are limitations of GDP."
+      },
+      {
+        "label": "D",
+        "text": "GDP growth is irrelevant and should be replaced with pollution levels as the primary economic indicator."
+      },
+      {
+        "label": "E",
+        "text": "GDP growth only improves well-being if it is accompanied by rising inequality."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Higher GDP is associated with more market output, but the accompanying environmental degradation, increased inequality, and loss of leisure all reduce aspects of well-being that GDP does not measure. The most accurate conclusion is that GDP growth overstates the improvement in overall welfare when these negative dimensions are excluded from the calculation.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "Two economists debate whether GDP is a good measure of a nation's well-being. Which position is most consistent with the AP Macroeconomics curriculum?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP is a perfect measure of well-being and should be the sole indicator used by policymakers."
+      },
+      {
+        "label": "B",
+        "text": "GDP is completely useless and should be abandoned as an economic indicator."
+      },
+      {
+        "label": "C",
+        "text": "GDP is a useful but incomplete measure. It effectively tracks market output and enables business cycle analysis, but it has meaningful limitations — especially its omission of nonmarket activity, environmental quality, income distribution, and well-being dimensions beyond consumption."
+      },
+      {
+        "label": "D",
+        "text": "GDP is only useful for tracking inflation; it tells us nothing about production or output."
+      },
+      {
+        "label": "E",
+        "text": "GDP understates well-being in all economies because it excludes government spending."
+      }
+    ],
+    "answer": "C",
+    "explanation": "states that \"GDP is a useful indicator of a nation's economic performance, but it has some limitations.\" The balanced view - GDP is useful but limited - is the standard AP position. GDP should not be dismissed, but its limitations (especially nonmarket transactions) must be recognized when interpreting it as a welfare measure.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "Which of the following correctly lists examples of nonmarket transactions that are excluded from GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "New home construction, stock purchases, and government bond sales."
+      },
+      {
+        "label": "B",
+        "text": "Unpaid housework, volunteer services, and subsistence farming — activities that produce real value but are not exchanged in formal markets for a recorded price."
+      },
+      {
+        "label": "C",
+        "text": "Imported goods, transfer payments, and used car sales."
+      },
+      {
+        "label": "D",
+        "text": "Barter between countries, government tax revenue, and corporate retained earnings."
+      },
+      {
+        "label": "E",
+        "text": "Interest payments on government debt, dividend payments, and capital gains."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Unpaid housework (cooking, cleaning, childcare), volunteer services (tutoring, charity work), and subsistence farming (growing food for own consumption) are all classic examples of nonmarket transactions that produce genuine value but are excluded from GDP because they lack a recorded market price. This is the primary limitation cited in MEA-1.B.1.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "GDP is a better indicator of economic ACTIVITY than of economic WELFARE. Which of the following best supports this distinction?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP measures total output regardless of whether that output improves well-being, fails to count valuable nonmarket production, ignores environmental costs, and says nothing about income distribution — so it can rise while welfare falls."
+      },
+      {
+        "label": "B",
+        "text": "GDP is identical to welfare when the economy is at full employment."
+      },
+      {
+        "label": "C",
+        "text": "GDP is a better welfare measure than economic activity measure because it adjusts for prices."
+      },
+      {
+        "label": "D",
+        "text": "The distinction does not exist — GDP measures both activity and welfare equally well."
+      },
+      {
+        "label": "E",
+        "text": "GDP measures economic activity only if it is adjusted for population differences."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Economic \"activity\" is GDP's strength - it tracks how much is bought and sold in markets. \"Welfare\" is multidimensional and includes nonmarket production, environmental quality, distribution, leisure, health, and freedom - dimensions GDP doesn't capture. GDP can rise while welfare falls (e.g., after a disaster, from harmful goods, with rising inequality), illustrating the activity-welfare gap.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 31,
+    "difficulty": "Easy",
+    "prompt": "In which of the following situations would GDP most significantly UNDERSTATE actual economic well-being?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A modern urban economy where nearly all services are purchased in formal markets."
+      },
+      {
+        "label": "B",
+        "text": "A country with a large underground cash economy and a very large subsistence agricultural sector, where a significant share of genuine production never enters official GDP statistics."
+      },
+      {
+        "label": "C",
+        "text": "An export-oriented economy where most production is sold to foreign buyers at market prices."
+      },
+      {
+        "label": "D",
+        "text": "A highly industrialized economy with a small agricultural sector."
+      },
+      {
+        "label": "E",
+        "text": "An economy where government spending accounts for 30% of GDP."
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP understates well-being most severely when large amounts of real production occur outside formal markets. An economy with extensive subsistence farming (nonmarket production) and a large underground cash economy has significant real output that is not captured in official GDP; the gap between measured GDP and actual economic activity is largest in such economies.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 32,
+    "difficulty": "Easy",
+    "prompt": "A student claims: \"If GDP rises, people must be better off.\" Which of the following GDP limitations would most directly challenge this claim?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP can rise due to inflation rather than real output growth."
+      },
+      {
+        "label": "B",
+        "text": "GDP can rise because of increased spending on defensive activities (cleaning up pollution, treating crime-related injuries) or harmful goods (cigarettes, weapons) without any improvement in genuine well-being."
+      },
+      {
+        "label": "C",
+        "text": "GDP cannot rise and fall — it is always the same each year."
+      },
+      {
+        "label": "D",
+        "text": "GDP always rises faster than population growth, creating a misleading picture."
+      },
+      {
+        "label": "E",
+        "text": "GDP can rise only when the government increases spending."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Even if GDP rises in real terms, the composition of that output matters. Spending on pollution cleanup, security systems, litigation costs, and harmful products all raise GDP without improving - and potentially reflecting a decline in - well-being; this makes the student's claim too simplistic and highlights the composition and defensive expenditure limitations of GDP.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 33,
+    "difficulty": "Easy",
+    "prompt": "Which of the following best explains why a country with high total GDP might still have many citizens living in poverty?",
+    "options": [
+      {
+        "label": "A",
+        "text": "High GDP means high prices, which reduces the purchasing power of poor households."
+      },
+      {
+        "label": "B",
+        "text": "Total GDP does not account for income distribution — even with a large economic pie, if most income accrues to a small number of wealthy households, many citizens can remain poor. This illustrates why GDP per capita and income distribution metrics are needed alongside total GDP."
+      },
+      {
+        "label": "C",
+        "text": "High GDP causes inflation, which reduces the real wages of poor workers."
+      },
+      {
+        "label": "D",
+        "text": "Countries with high GDP always have high poverty rates due to the costs of production."
+      },
+      {
+        "label": "E",
+        "text": "Total GDP overstates welfare because it includes illegal transactions."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Total GDP tells us the size of the economy's output, not how it is distributed. A country can have enormous total GDP while most of that income accrues to a tiny wealthy elite, leaving many citizens in poverty; the failure to capture income distribution is a fundamental limitation of GDP as a welfare indicator.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "Country X has a GDP of $800 billion and a population of 40 million. Country Y has a GDP of $400 billion and a population of 10 million. Which country has the higher GDP per capita, and what does this reveal about a limitation of using total GDP for cross-country comparisons?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country X: $20,000 per capita; Country Y: $40,000 per capita. Country Y has the higher per capita income despite lower total GDP, illustrating that total GDP conflates a nation's overall output size with the average economic output available per person."
+      },
+      {
+        "label": "B",
+        "text": "Country X: $20,000 per capita; Country Y: $40,000 per capita — both are equal."
+      },
+      {
+        "label": "C",
+        "text": "Country X has higher GDP per capita because its total GDP is twice as large."
+      },
+      {
+        "label": "D",
+        "text": "GDP per capita is identical for both countries because they produce equal value per worker."
+      },
+      {
+        "label": "E",
+        "text": "Country X: $40,000; Country Y: $20,000 — larger economies always have higher per capita income."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Country X GDP per capita = $800B ÷ 40M = $20,000; country Y GDP per capita = $400B ÷ 10M = $40,000. Despite Country Y having half the total GDP, its average citizen has access to twice as much output because the population is much smaller; this illustrates why total GDP is a poor cross-country measure of living standards - population size must be accounted for.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "A country' government reports a 5% increase in GDP this year. An economist cautions that this figure may overstate improvement in well-being. She cites three factors: rising inequality, increasing pollution from industrial growth, and longer average work weeks. Evaluate each factor as a GDP limitation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "All three factors reduce GDP and the economist is incorrect — GDP already accounts for inequality, pollution, and work hours."
+      },
+      {
+        "label": "B",
+        "text": "Rising inequality: GDP measures total output but not distribution, so rising inequality can coexist with GDP growth. Pollution: environmental damage is not subtracted from GDP. Longer work weeks: more work hours boost output and GDP but reduce leisure, a real cost to well-being. All three are genuine limitations of GDP as a welfare measure."
+      },
+      {
+        "label": "C",
+        "text": "Only pollution is a genuine limitation; inequality and work hours are not economic concepts."
+      },
+      {
+        "label": "D",
+        "text": "Rising inequality increases GDP by increasing consumer spending by the wealthy."
+      },
+      {
+        "label": "E",
+        "text": "Pollution is counted as negative in GDP; only inequality and work hours are limitations."
+      }
+    ],
+    "answer": "B",
+    "explanation": "All three are genuine GDP limitations: (1) GDP ignores income distribution - growth can accrue entirely to the wealthy while average citizens see no improvement. (2) Pollution costs (reduced health, degraded ecosystems) are not subtracted from GDP; (3) Longer working hours produce more output (raising GDP) but reduce leisure time, a genuine component of well-being; GDP growth of 5% that is accompanied by all three may significantly overstate welfare improvement.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "Country A has high GDP per capita but also very high levels of air and water pollution. Country B has moderately lower GDP per capita but pristine environmental quality. A student concludes: \"Country A is unambiguously better off.\" Evaluate this conclusion.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The student is correct — GDP per capita is the definitive measure of well-being."
+      },
+      {
+        "label": "B",
+        "text": "The student is incorrect — GDP per capita is an incomplete welfare measure. Environmental quality is a significant dimension of well-being not captured in GDP. Citizens of Country B may enjoy better health outcomes, longer lives, and higher quality of natural environments. A full welfare comparison requires metrics beyond GDP per capita."
+      },
+      {
+        "label": "C",
+        "text": "The student is correct only if Country A's citizens can afford healthcare to offset pollution health costs."
+      },
+      {
+        "label": "D",
+        "text": "The student is incorrect only if Country B has a larger population than Country A."
+      },
+      {
+        "label": "E",
+        "text": "The student is correct because environmental cleanup costs would eventually boost Country B's GDP."
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP per capita measures average market output, not holistic well-being; environmental quality - clean air, clean water, biodiversity - directly affects health, life expectancy, and quality of life. A country with higher GDP per capita but severe pollution may have worse actual welfare outcomes than one with lower GDP but a healthy environment; this illustrates why GDP alone is insufficient for welfare comparisons.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "An economist studies two countries with the same real GDP per capita of $25,000. In Country A, the Gini coefficient (a measure of inequality) is 0.25 (relatively equal). In Country B, it is 0.55 (highly unequal). What does this comparison reveal about a limitation of GDP per capita?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP per capita is inaccurate because the Gini coefficient adjusts for price differences."
+      },
+      {
+        "label": "B",
+        "text": "Equal GDP per capita conceals very different income distributions. In Country B, most citizens likely earn well below $25,000 while a small elite earns far above it. GDP per capita is an average that masks within-country inequality — a critical limitation when using it to infer the well-being of typical citizens."
+      },
+      {
+        "label": "C",
+        "text": "The comparison is valid — GDP per capita fully captures well-being regardless of the Gini coefficient."
+      },
+      {
+        "label": "D",
+        "text": "Country A must have lower GDP per capita than reported because of its equal distribution."
+      },
+      {
+        "label": "E",
+        "text": "The Gini coefficient is always zero for countries with the same GDP per capita."
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP per capita is a mean (average) - it divides total output equally among the population regardless of actual distribution. In Country B with a Gini of 0.55, a large majority of citizens likely live on far less than $25,000 while a small wealthy class pulls the average up; the same GDP per capita can correspond to very different real welfare outcomes depending on income distribution.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "A developing nation has a large informal economy where goods and services are exchanged in unrecorded transactions. An economist estimates that informal economic activity equals 30% of official GDP. Which statement best assesses the implications for GDP as an economic indicator?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Official GDP accurately measures total economic activity because informal transactions cancel out."
+      },
+      {
+        "label": "B",
+        "text": "Official GDP understates actual economic activity by approximately 30%, and the understatement is particularly problematic for measuring living standards, tracking growth rates, and making cross-country comparisons. Countries with larger informal sectors will systematically appear poorer than they actually are."
+      },
+      {
+        "label": "C",
+        "text": "The informal economy overstates GDP by 30% because it involves tax evasion."
+      },
+      {
+        "label": "D",
+        "text": "GDP is unaffected by informal economic activity because informal workers are not in the labor force."
+      },
+      {
+        "label": "E",
+        "text": "The 30% informal sector means GDP should be multiplied by 1.3 to get an accurate figure."
+      }
+    ],
+    "answer": "B",
+    "explanation": "If the informal economy is 30% of official GDP, then actual economic activity is roughly 30% larger than what official statistics capture. This systematic understatement distorts living standard comparisons (countries with large informal sectors appear artificially poor), skews growth rate calculations, and complicates policy analysis; the limitation is especially severe in many developing economies.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "A country passes laws reducing the standard workweek from 48 to 40 hours, giving workers significantly more leisure time. Other things equal, this policy will likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "raise GDP because workers will be more productive in fewer hours, producing more output."
+      },
+      {
+        "label": "B",
+        "text": "leave GDP unchanged because workers simply redistribute their time."
+      },
+      {
+        "label": "C",
+        "text": "reduce measured GDP (less work = less market output) but potentially improve well-being if workers value the additional leisure time. This illustrates that GDP and well-being can move in opposite directions."
+      },
+      {
+        "label": "D",
+        "text": "raise GDP because the government must spend more on enforcement of the new rules."
+      },
+      {
+        "label": "E",
+        "text": "reduce GDP and well-being simultaneously — leisure time has zero economic value."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Reducing work hours decreases market production (other things equal), so measured GDP falls. However, workers now have more leisure time, which has real value to them - they can spend more time with family, pursue hobbies, rest, and so on; if workers value this leisure more than the forgone wages, their well-being may actually increase even as GDP decreases; this tension between GDP and well-being is a core limitation of GDP.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "Two countries produce the same total GDP of $1 trillion. Country A produces mostly consumer goods (food, medicine, clothing, housing) and educational services. Country B produces mostly military weapons. A policymaker claims: \"Both countries are equally well-off.\" Evaluate this claim.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The policymaker is correct — GDP counts all legally produced goods equally."
+      },
+      {
+        "label": "B",
+        "text": "The policymaker is incorrect — GDP does count both equally in dollar terms, but this is itself a limitation. GDP fails to distinguish between goods that directly improve civilian living standards and goods (like weapons) that do not. Citizens in Country A, consuming $1T of consumer goods and education, may have much higher well-being than those in Country B consuming far fewer consumer goods."
+      },
+      {
+        "label": "C",
+        "text": "The policymaker is correct because both countries can sell weapons for consumer goods through trade."
+      },
+      {
+        "label": "D",
+        "text": "The policymaker is incorrect because military spending is excluded from GDP."
+      },
+      {
+        "label": "E",
+        "text": "The policymaker is correct only if both countries have the same population size."
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP does treat both equally in dollar terms - this is precisely the limitation the question targets. GDP's indifference to the composition of output means it cannot distinguish between production that directly improves well-being (food, medicine, education) and production that does not directly contribute to civilian welfare (military weapons); the policymaker's statement reflects how GDP is calculated, but also why GDP is an incomplete welfare measure.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "An economy experiences a severe hurricane. In Year 1, the hurricane destroys $10 billion of infrastructure. In Year 2, $8 billion is spent rebuilding. How do these events affect measured GDP, and what limitation does this reveal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Year 1: GDP falls by $10B; Year 2: GDP rises by $8B — an accurate net decline."
+      },
+      {
+        "label": "B",
+        "text": "Year 1: GDP is unchanged (destruction does not affect output); Year 2: GDP rises by $8B due to reconstruction spending. This reveals that GDP counts the cost of rebuilding without subtracting the destruction, creating a perverse situation where disasters can appear to \"stimulate\" GDP."
+      },
+      {
+        "label": "C",
+        "text": "Both years: GDP is unchanged — natural disasters are excluded from GDP calculations."
+      },
+      {
+        "label": "D",
+        "text": "Year 1: GDP falls by $10B; Year 2: GDP is unchanged — rebuilding merely restores prior GDP."
+      },
+      {
+        "label": "E",
+        "text": "Year 1: GDP rises by $10B due to insurance payouts; Year 2: GDP falls by $8B due to reconstruction costs."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Year 1: The hurricane destroys capital (infrastructure), but destruction itself is not a market transaction and does not appear in GDP; measured GDP does not fall due to the destruction. Year 2: The $8B rebuilding effort is economic output (construction services, materials), so GDP rises; GDP therefore appears to rise from hurricane reconstruction without accounting for the $10B of destruction; this \"broken window\" limitation means GDP can rise in the wake of disasters.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "A country's government decides to legalize an activity previously in the underground economy, such as online gambling. Assuming the volume of gambling activity is unchanged, what happens to measured GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP is unchanged — legality does not affect whether gambling generates real output."
+      },
+      {
+        "label": "B",
+        "text": "GDP rises because legal gambling is now taxed, and tax revenue is added to GDP."
+      },
+      {
+        "label": "C",
+        "text": "GDP likely rises because previously unreported gambling transactions are now recorded and captured in official statistics, even though the actual level of economic activity has not changed. This reveals that GDP changes can reflect improved measurement rather than real changes in output."
+      },
+      {
+        "label": "D",
+        "text": "GDP falls because the government must spend money regulating the now-legal industry."
+      },
+      {
+        "label": "E",
+        "text": "GDP doubles because legal activity is counted twice — once as income and once as expenditure."
+      }
+    ],
+    "answer": "C",
+    "explanation": "When underground activity is legalized, it becomes reportable and is captured in official GDP statistics. If the volume of activity is unchanged, measured GDP rises even though no additional output has been created; this illustrates that some GDP changes reflect changes in measurement (what is captured) rather than changes in actual economic activity - a subtle but important limitation.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "A country adopts a new measure called the \"Genuine Progress Indicator\" (GPI), which starts with GDP but adds nonmarket activities (volunteer work, household production) and subtracts costs of crime, pollution, and inequality. The GPI is lower than GDP for this country. What does this suggest about the limitations of GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP is more accurate than GPI because GDP uses market prices, which are more objective."
+      },
+      {
+        "label": "B",
+        "text": "The lower GPI suggests that GDP overstates well-being for this country — the costs of crime, pollution, and inequality exceed the value of nonmarket activities added. A welfare-adjusted measure points to lower real welfare than raw GDP suggests, confirming that GDP captures market output but misses important negative and positive welfare components."
+      },
+      {
+        "label": "C",
+        "text": "GPI and GDP must always be equal because they measure the same economic activity."
+      },
+      {
+        "label": "D",
+        "text": "A lower GPI indicates that GDP understates well-being — the country is actually poorer than GDP suggests."
+      },
+      {
+        "label": "E",
+        "text": "GPI is only valid if the country has a GDP above the global average."
+      }
+    ],
+    "answer": "B",
+    "explanation": "If GPI < GDP for this country, it means the costs that GDP ignores (crime, pollution, inequality) exceed the value of nonmarket activities it omits (volunteer work, home production). In net terms, GDP overstates well-being for this country; GPI-type measures were developed precisely because economists recognized GDP's limitations as a welfare proxy.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "Country A has GDP per capita of $18,000. Country B has GDP per capita of $22,000. However, Country A has cleaner air, lower crime rates, longer average life expectancy, and more equal income distribution. A student concludes that Country B has higher well-being. Evaluate this conclusion.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The student is correct — GDP per capita is the definitive measure of well-being."
+      },
+      {
+        "label": "B",
+        "text": "The student may be incorrect. While Country B's higher GDP per capita indicates more market output per person, it does not capture air quality, safety, health, or equality — all of which affect well-being. Country A's advantages in these dimensions could more than offset the $4,000 income gap, making Country A's citizens better off overall."
+      },
+      {
+        "label": "C",
+        "text": "The student is correct — income is always more important than environmental or social factors."
+      },
+      {
+        "label": "D",
+        "text": "The student is incorrect because Country B's higher income will eventually solve its crime and health problems."
+      },
+      {
+        "label": "E",
+        "text": "The conclusion is valid only if we use purchasing power parity to adjust the GDP figures."
+      }
+    ],
+    "answer": "B",
+    "explanation": "This scenario directly tests the multi-dimensional nature of well-being vs; GDP per capita. Country A's advantages - lower pollution (better health), lower crime (more personal safety), longer life expectancy, and more equal distribution - are all components of well-being that GDP does not capture; these could easily outweigh the $4,000 per capita income gap; the student's reliance on GDP per capita alone exemplifies the limitations of GDP as a welfare measure.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "An economist says: \"Any spending that occurs in markets should count in GDP, including money spent on treating opioid addiction, repairing car crash damage, and providing prison services.\" A critic argues this is a flaw in GDP. Who is more consistent with the standard critique of GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The economist, because GDP should include all market transactions without judgment."
+      },
+      {
+        "label": "B",
+        "text": "The critic, because GDP should only count spending that improves well-being."
+      },
+      {
+        "label": "C",
+        "text": "The critic is raising a valid point about a GDP limitation: defensive and remedial expenditures (addiction treatment, accident repair, incarceration) are counted as positive output even though they arise from social problems. A perfectly functioning society with zero addiction, accidents, and crime would have lower GDP from these categories — but would be better off. GDP's indifference to why spending occurs is a genuine limitation."
+      },
+      {
+        "label": "D",
+        "text": "The economist is correct — GDP does not make value judgments, which is actually its strength."
+      },
+      {
+        "label": "E",
+        "text": "Both are wrong — GDP should exclude all government spending, including prison services."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The critic's point is a well-known limitation: GDP does not distinguish between expenditures that reflect genuine improvements in well-being and \"defensive\" expenditures that merely offset problems or restore prior conditions. Addiction treatment, accident repair, and incarceration all add to GDP but reflect social dysfunction; an ideal welfare measure would net out these costs rather than counting them as progress.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "A household that previously hired a housekeeper ($600/month) decides the primary caregiver will quit their part-time job to do the housekeeping themselves. What are the effects on measured GDP and actual economic activity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Measured GDP rises by $600/month and actual economic activity also rises."
+      },
+      {
+        "label": "B",
+        "text": "Measured GDP rises by $600/month but actual economic activity is unchanged."
+      },
+      {
+        "label": "C",
+        "text": "Measured GDP falls by $600/month (housekeeper wages no longer counted) and likely also by the forgone part-time wages, but actual household production (clean house) is unchanged. GDP shrinks even though the same service is being provided, illustrating the nonmarket transaction limitation."
+      },
+      {
+        "label": "D",
+        "text": "Measured GDP is unchanged because household production is always tracked by the BEA."
+      },
+      {
+        "label": "E",
+        "text": "Measured GDP falls to zero because no market transactions remain."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Two effects: (1) The $600/month housekeeper payment is no longer recorded - GDP falls by $600/month; (2) The caregiver's part-time job income (consumer spending on goods bought with that income) may also be lost. Meanwhile, the house is equally clean; GDP decreases even though the same cleaning service is being produced - the nonmarket/market boundary creates an artificial reduction in measured GDP that does not reflect a real decline in output.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "Economists sometimes argue that GDP growth in high-income countries is less informative about well-being than GDP growth in low-income countries. Why might this be the case?",
+    "options": [
+      {
+        "label": "A",
+        "text": "High-income countries have more accurate GDP data, making it more informative for them."
+      },
+      {
+        "label": "B",
+        "text": "In very poor countries, most production is subsistence-based and thus excluded from GDP, so official GDP is a smaller share of actual economic activity. In high-income countries, nearly all production is market-based, so GDP is a more complete measure. Conversely, in high-income countries the additional dimensions of well-being that GDP ignores (environmental quality, leisure, equality) may matter more at the margin than additional income."
+      },
+      {
+        "label": "C",
+        "text": "GDP growth is always more informative in low-income countries because they have smaller GDPs."
+      },
+      {
+        "label": "D",
+        "text": "High-income countries have higher inflation, making their GDP growth rates misleading."
+      },
+      {
+        "label": "E",
+        "text": "Well-being in high-income countries depends entirely on GDP growth, making it very informative."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Two distinct arguments: (1) In poor countries, more production is subsistence-based and informal, so GDP undercounts activity more severely - GDP growth may miss large swaths of real welfare improvement. (2) In rich countries, the marginal value of additional income may be lower than the value of better environment, more leisure, or less inequality - dimensions GDP ignores; both arguments suggest GDP's limitations are especially important in different ways for different income levels.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "A country's economy becomes increasingly automated. Robots replace human workers in factories, dramatically increasing output (and GDP) while many workers lose jobs and income. Which limitations of GDP does this scenario highlight?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP understates output in this scenario because machines are not counted in the labor force."
+      },
+      {
+        "label": "B",
+        "text": "GDP rises (more output is produced), but the rise masks important welfare dimensions: (1) Income distribution — profits go to robot owners (capital owners) while displaced workers lose wages, worsening inequality. (2) Job quality and purpose — work provides social identity and community, not just income. Neither is captured in GDP."
+      },
+      {
+        "label": "C",
+        "text": "GDP falls because unemployment causes lower consumer spending."
+      },
+      {
+        "label": "D",
+        "text": "GDP accurately captures well-being in this scenario because market output rises."
+      },
+      {
+        "label": "E",
+        "text": "GDP is unchanged because robot production replaces human production at the same value."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Rising automation can simultaneously increase GDP (more output per hour of capital) while worsening inequality (income shifts from labor to capital) and causing job displacement. GDP rises, but: (1) the income distribution limitation means GDP growth understates how unequally the gains are shared; (2) work provides non-monetary benefits (identity, social connection, purpose) that aren't in GDP; both limitations make GDP a poor guide to overall welfare in this transition.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "A government announces it will begin counting the estimated value of household services (cooking, cleaning, childcare) in its national accounts. What effect would this have on measured GDP, and would it address the nonmarket transaction limitation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Measured GDP would fall because household services are substitutes for market services."
+      },
+      {
+        "label": "B",
+        "text": "Measured GDP would rise — imputing a market value for household services adds previously excluded nonmarket output to the national accounts. This would partially address the nonmarket transaction limitation by including the value of household production that is currently excluded. Many countries include imputed rent for owner-occupied housing, which is a similar adjustment."
+      },
+      {
+        "label": "C",
+        "text": "Measured GDP is unchanged because household services are already included through the income approach."
+      },
+      {
+        "label": "D",
+        "text": "Measured GDP would rise, but this would worsen the accuracy of GDP by including non-economic activity."
+      },
+      {
+        "label": "E",
+        "text": "Measured GDP would fall because household services reduce the demand for market services."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Imputing values for household services (assigning estimated market prices to unpaid work) would raise measured GDP by adding previously omitted nonmarket production; this directly addresses the nonmarket transaction limitation. Note: Some countries already impute values for owner-occupied housing (homeowners are treated as renting to themselves), showing that statistical agencies can and do make such adjustments - though comprehensive household service imputation remains rare.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "Country X has GDP growing at 4% per year. Its population is growing at 3% per year. A policymaker celebrates: \"Our economy is growing fast.\" An economist responds that GDP per capita is the more relevant measure for living standards. Calculate approximate GDP per capita growth and evaluate the policymaker's optimism.",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP per capita grows at 7% — the policymaker is too pessimistic."
+      },
+      {
+        "label": "B",
+        "text": "GDP per capita grows at approximately 1% (4% − 3% ≈ 1%). The policymaker's celebration is overstated — with only 1% per capita growth, average living standards are barely improving. The total GDP growth of 4% is largely absorbed by the growing population, leaving little improvement in output per person."
+      },
+      {
+        "label": "C",
+        "text": "GDP per capita grows at 4% — population growth does not affect per capita income."
+      },
+      {
+        "label": "D",
+        "text": "GDP per capita grows at 3% — the population growth rate always equals the per capita growth rate."
+      },
+      {
+        "label": "E",
+        "text": "GDP per capita is negative because the economy is shrinking relative to population."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Approximate GDP per capita growth ≈ GDP growth rate - population growth rate = 4% - 3% = 1%. The policymaker sees headline GDP growth and is encouraged, but most of that growth is simply supporting a larger population - average output per person is barely rising; this illustrates why GDP per capita is the relevant metric for living standards, and why ignoring population growth (a limitation of using total GDP alone) leads to unwarranted optimism.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "Health outcomes (life expectancy, infant mortality, disease prevalence) are not captured in GDP. A public health expert argues that GDP growth in Country A does not necessarily indicate better health outcomes. Provide the most accurate assessment of this argument.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The argument is wrong — higher GDP always leads to better health through higher spending on healthcare."
+      },
+      {
+        "label": "B",
+        "text": "The argument is valid. GDP measures market output and includes healthcare spending, but it cannot distinguish between a country that spends $10,000 per person on healthcare and achieves excellent outcomes vs. one that spends the same amount with poor outcomes. Moreover, many determinants of health (clean air, clean water, safe communities, nutrition) are not fully captured in market transactions. Health is a dimension of well-being GDP does not directly measure."
+      },
+      {
+        "label": "C",
+        "text": "The argument is partially valid only if healthcare is excluded from the GDP calculation."
+      },
+      {
+        "label": "D",
+        "text": "The argument is wrong — health outcomes are always positively correlated with GDP per capita."
+      },
+      {
+        "label": "E",
+        "text": "The argument is valid only for countries with GDP per capita below $10,000."
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP measures healthcare spending but not health outcomes. A country can spend enormous amounts on medical care for a sick, unhealthy population and have high healthcare-related GDP while its citizens live shorter, less healthy lives than another country with lower healthcare spending but better preventive care, nutrition, and environmental quality; health outcomes are a welfare dimension that GDP cannot directly capture.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "A critic of using GDP as a welfare measure points out that countries with similar GDP per capita can have very different levels of happiness or life satisfaction (as measured by surveys). Which limitations of GDP does this observation most directly reflect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP accurately measures happiness through consumer spending on entertainment and leisure goods."
+      },
+      {
+        "label": "B",
+        "text": "GDP cannot measure subjective well-being, social relationships, autonomy, purpose, or the many nonmaterial dimensions of life satisfaction that surveys capture but market transactions do not — including trust, community belonging, work-life balance, and meaning."
+      },
+      {
+        "label": "C",
+        "text": "Happiness surveys are inaccurate, so the comparison is not meaningful."
+      },
+      {
+        "label": "D",
+        "text": "GDP per capita always predicts happiness perfectly at high income levels."
+      },
+      {
+        "label": "E",
+        "text": "Countries with the same GDP per capita must have the same happiness if their income distributions are similar."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Life satisfaction surveys consistently show that countries with similar GDP per capita can have significantly different self-reported happiness. This is because happiness depends on many factors beyond income: social trust, political freedom, personal relationships, work-life balance, meaning and purpose, and community belonging - none of which are market transactions captured by GDP; this highlights GDP's fundamental limitation as a welfare proxy.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "Country A spends $50 billion on crime prevention, prisons, courts, and security systems. Country B has the same total GDP but spends only $20 billion on these items because it has far lower crime rates. Assuming everything else is identical, which country has better welfare, and what GDP limitation does this illustrate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country A has better welfare because it spends more on crime prevention."
+      },
+      {
+        "label": "B",
+        "text": "Country B has better welfare. Country A's $30 billion extra in crime-related spending is a \"defensive\" or remedial expenditure — it arises from a social problem (crime), not from genuine production of desired goods. GDP counts this spending equally with productive spending, obscuring the fact that Country B, which requires less defensive spending, has more resources available for goods and services that directly improve living standards."
+      },
+      {
+        "label": "C",
+        "text": "Both countries have identical welfare because their total GDPs are equal."
+      },
+      {
+        "label": "D",
+        "text": "Country A has better welfare because higher government spending on security reflects more public goods."
+      },
+      {
+        "label": "E",
+        "text": "Country B has better welfare only if its GDP per capita is also higher than Country A's."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The \"defensive expenditure\" limitation: Crime-prevention spending is counted positively in GDP even though it arises from a social problem. Country B's lower crime means its citizens are safer AND have $30B more available for goods that directly improve welfare; with equal total GDPs, Country B is better off - but this is not visible in the GDP figures; GDP fails to net out the costs of social dysfunction.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "An economist says: \"Comparing GDP across countries using current exchange rates can be misleading because the purchasing power of a dollar differs across countries.\" Which aspect of GDP's limitations does this statement highlight?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP is always measured in purchasing power parity terms to avoid this problem."
+      },
+      {
+        "label": "B",
+        "text": "Nominal exchange rate comparisons of GDP can misrepresent relative living standards because prices of non-traded goods (haircuts, local food, housing) tend to be lower in developing countries. Purchasing Power Parity (PPP) adjustments correct for this by converting GDP at rates that equalize the purchasing power of currencies, giving a more accurate cross-country welfare comparison."
+      },
+      {
+        "label": "C",
+        "text": "GDP comparison using exchange rates always overstates the income of developing countries."
+      },
+      {
+        "label": "D",
+        "text": "This limitation only applies when comparing GDP across countries with different currencies."
+      },
+      {
+        "label": "E",
+        "text": "Exchange rate fluctuations only affect the NX component of GDP, not overall comparisons."
+      }
+    ],
+    "answer": "B",
+    "explanation": "When comparing GDP across countries using market exchange rates, countries with lower price levels appear poorer than they really are because each dollar of local currency buys more locally than it would internationally. PPP adjustments account for price level differences across countries, giving a better sense of comparative purchasing power and living standards; this is a well-recognized limitation of simple exchange-rate-based GDP comparisons.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "A nation increases spending on advertising by $200 billion. This raises measured GDP. Does more advertising spending indicate higher economic well-being? Explain using a GDP limitation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes — advertising spending is consumer services and reflects genuine consumer demand."
+      },
+      {
+        "label": "B",
+        "text": "Yes — all market spending increases welfare by the amount consumers choose to pay."
+      },
+      {
+        "label": "C",
+        "text": "Not necessarily. Advertising spending counts positively in GDP as a service, but it is a \"persuasive\" or \"informational\" expenditure whose net welfare contribution is debated. If advertising merely reshuffles demand between brands (zero-sum), it may generate GDP without creating equivalent well-being. GDP's inability to assess whether spending creates genuine net value is a limitation of using it as a welfare indicator."
+      },
+      {
+        "label": "D",
+        "text": "No — advertising reduces welfare by making consumers want goods they don't need, so it reduces GDP."
+      },
+      {
+        "label": "E",
+        "text": "Yes, but only if the advertising leads to higher sales of consumer goods."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Advertising is counted as a service in GDP, but its welfare contribution is contested. Some advertising informs consumers (net positive), but much of it is persuasive in a zero-sum way - brand A's gain is brand B's loss; either way, GDP counts it identically with spending on food, medicine, or housing; GDP's inability to distinguish between types of services or assess their net social value is a genuine limitation.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "A country shifts from manufacturing goods to providing services over two decades. GDP remains roughly constant in real terms. However, researchers note that many new service jobs involve shorter hours, better working conditions, and more autonomy. What does this suggest about GDP as a welfare measure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP accurately captures this change because it adjusts for quality improvements in jobs."
+      },
+      {
+        "label": "B",
+        "text": "GDP is unchanged but well-being may have improved. The non-monetary attributes of work — shorter hours, better conditions, more autonomy — are real welfare gains not captured in GDP. A stable GDP can mask genuine improvements in quality of life when job characteristics improve, illustrating that GDP ignores non-wage dimensions of worker welfare."
+      },
+      {
+        "label": "C",
+        "text": "GDP overstates welfare in service economies because services are less valuable than manufactured goods."
+      },
+      {
+        "label": "D",
+        "text": "GDP understates welfare in service economies because services have no market price."
+      },
+      {
+        "label": "E",
+        "text": "This scenario shows that GDP is a perfect measure because it stays constant when welfare stays constant."
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP measures the dollar value of output, not the conditions under which work is performed. If the same GDP is produced with more pleasant, flexible, and autonomous working conditions, workers are genuinely better off - but this improvement is invisible in GDP; work quality is a component of well-being that GDP systematically ignores, causing it to miss welfare improvements (or deteriorations) associated with changes in job characteristics.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "A statistician observes that as a country becomes more developed, its informal economy typically shrinks relative to its formal (market) economy. What implication does this have for GDP comparisons between developed and developing countries?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP comparisons are unaffected because informal economies are always zero in GDP."
+      },
+      {
+        "label": "B",
+        "text": "As countries develop, more production passes through formal markets and is captured in GDP. This means that GDP growth in developing countries partly reflects a statistical improvement — informal production becoming formal — rather than purely real output growth. Comparisons between developing and developed countries' GDPs may understate the former's true level of production."
+      },
+      {
+        "label": "C",
+        "text": "Developing countries' GDP overstates their welfare because informality is associated with poverty."
+      },
+      {
+        "label": "D",
+        "text": "Developed countries' GDP is understated because they have no informal economy."
+      },
+      {
+        "label": "E",
+        "text": "GDP comparisons are always accurate regardless of informality because markets adjust."
+      }
+    ],
+    "answer": "B",
+    "explanation": "When informal activity becomes formalized (businesses register, workers receive reported wages), it appears in GDP statistics even if no additional real production has occurred. Some GDP growth in developing countries therefore reflects formalization - moving from unmeasured to measured activity - rather than genuine output growth; this makes level comparisons between developed (mostly formal) and developing (partly informal) economies inherently tricky.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "A country's GDP rises significantly following a large-scale deforestation effort that generates $30 billion in timber revenue. An environmental economist argues this GDP increase is misleading. Why?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Because timber is an intermediate good and should not be counted in GDP."
+      },
+      {
+        "label": "B",
+        "text": "Because the GDP increase counts the $30B in timber revenue as positive output without subtracting the value of the forest as a natural asset that has been permanently depleted. Forests provide ongoing services — carbon sequestration, biodiversity habitat, water purification — that are not priced in markets. GDP's failure to account for natural capital depletion causes it to overstate the sustainability of this growth."
+      },
+      {
+        "label": "C",
+        "text": "Because deforestation reduces future agricultural output, which reduces future GDP."
+      },
+      {
+        "label": "D",
+        "text": "Because timber is exported and therefore should be subtracted from GDP through the NX term."
+      },
+      {
+        "label": "E",
+        "text": "Because the government did not charge adequate royalties for the timber, understating revenue."
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP treats the extraction of natural resources as income while ignoring the depletion of the natural capital stock. A forest generates ongoing, year-after-year ecosystem services - but cutting it down yields a one-time timber payment counted as positive GDP; the permanent loss of the forest and its ecosystem services is not subtracted. \"Green GDP\" or \"adjusted net savings\" concepts attempt to correct for this by treating resource depletion as a cost, not just income.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "Using a supply-and-demand framework applied to the \"market for well-being,\" an economist argues that GDP captures only the goods and services that have market prices, but well-being also includes \"goods\" with no market (clean air, public safety, social trust) and subtracts \"bads\" (pollution, inequality, crime) that GDP ignores. Which of the following best evaluates this framework?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The framework is flawed because well-being cannot be analyzed using economic concepts."
+      },
+      {
+        "label": "B",
+        "text": "The framework is a valid extension of the GDP limitations critique. GDP accurately captures market-priced goods and services but misses non-market goods (environmental quality, social trust) that contribute to well-being and also fails to subtract market-created bads (pollution externalities, inequality consequences) that reduce welfare. A comprehensive welfare measure should include both additions and subtractions that GDP ignores."
+      },
+      {
+        "label": "C",
+        "text": "The framework overcomplicates the concept of GDP by introducing non-economic factors."
+      },
+      {
+        "label": "D",
+        "text": "GDP already accounts for all \"public goods\" through government spending (G)."
+      },
+      {
+        "label": "E",
+        "text": "The framework is valid only for countries with negative GDP growth."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The economist's framework correctly identifies that GDP captures well-being imperfectly in two directions: it omits non-market goods that add to welfare (clean air, social cohesion, volunteerism) and also fails to subtract market-generated bads (pollution, crime costs) that reduce welfare. A genuinely comprehensive welfare indicator would need adjustments in both directions - adding omitted positives and subtracting counted negatives that reduce net welfare.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "A researcher compares two countries using the Human Development Index (HDI), which combines GDP per capita with life expectancy and education levels. Country A ranks higher on GDP per capita but lower on HDI than Country B. What does this reveal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "HDI is always more accurate than GDP per capita for measuring economic output."
+      },
+      {
+        "label": "B",
+        "text": "Country A has a problem with its GDP measurement that needs to be corrected."
+      },
+      {
+        "label": "C",
+        "text": "Despite having higher average income per person, Country A has worse health outcomes and/or lower educational attainment than Country B. GDP per capita fails to capture these dimensions of human development. The HDI comparison reveals that income alone is an insufficient proxy for well-being — life expectancy and education, which GDP ignores, can differ substantially even at similar income levels."
+      },
+      {
+        "label": "D",
+        "text": "Country B must have a larger underground economy that is not captured in GDP."
+      },
+      {
+        "label": "E",
+        "text": "The comparison is invalid because HDI and GDP measure different things that cannot be compared."
+      }
+    ],
+    "answer": "C",
+    "explanation": "HDI explicitly incorporates dimensions of well-being that GDP ignores: longevity (life expectancy) and knowledge (education). If Country A has higher GDP per capita but lower HDI, it means its citizens live shorter or less educated lives despite higher income; this directly illustrates the limitation that GDP per capita is an incomplete proxy for well-being - income can be high while human development is low.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "A policymaker argues: \"We should use GDP per capita to determine how to allocate foreign aid between Country X (GDP per capita $12,000) and Country Y (GDP per capita $8,000).\" An economist objects that GDP per capita alone is insufficient. What other dimensions should be considered?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The policymaker is correct — GDP per capita is the most comprehensive welfare measure available."
+      },
+      {
+        "label": "B",
+        "text": "The economist is correct. Aid allocation based solely on GDP per capita ignores: (1) income distribution — $12,000 per capita may mask extreme poverty for most citizens in Country X if wealth is concentrated; (2) health and educational outcomes that matter for development; (3) the size and scale of the informal economy; (4) access to basic services (clean water, sanitation) not captured in GDP. A multi-dimensional assessment is needed."
+      },
+      {
+        "label": "C",
+        "text": "The economist is wrong — GDP per capita should always be the sole criterion for aid allocation."
+      },
+      {
+        "label": "D",
+        "text": "The economist should recommend using total GDP rather than GDP per capita for aid decisions."
+      },
+      {
+        "label": "E",
+        "text": "GDP per capita is sufficient if both countries use the same currency and have no underground economy."
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP per capita provides a useful first-cut estimate of average income but misses: (1) within-country inequality (high average may mask deep poverty); (2) health, education, and institutional quality; (3) informal sector activity; and (4) access to basic services. A country with GDP per capita of $12,000 but extreme inequality, poor health, and bad governance may need more aid than one with $8,000 but equal distribution and functional institutions.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "Technological improvements in smartphones have dramatically increased their functionality over time. A new smartphone in 2024 is far more powerful than one in 2014, yet the price has barely changed. How does this affect GDP's accuracy as a welfare measure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP overstates well-being because the same price is paid for a more powerful phone."
+      },
+      {
+        "label": "B",
+        "text": "GDP may understate real improvements in well-being when quality improvements are not fully captured in price statistics. If a 2024 smartphone provides 10 times the functionality of a 2014 model at the same price, the consumer gets more value per dollar — a welfare improvement that GDP (which measures dollar spending, not utility) may not fully reflect."
+      },
+      {
+        "label": "C",
+        "text": "GDP accurately captures quality improvements because it uses real prices adjusted for quality."
+      },
+      {
+        "label": "D",
+        "text": "GDP overstates growth because technological improvements reduce the need for multiple devices."
+      },
+      {
+        "label": "E",
+        "text": "GDP is unaffected by quality changes — only price and quantity matter in the expenditure approach."
+      }
+    ],
+    "answer": "B",
+    "explanation": "When product quality improves without a commensurate increase in price, GDP may understate real welfare gains. If you pay the same $800 for a phone that is dramatically better, your consumer surplus (the value received beyond price) increases - but GDP only records the $800 transaction; statistical agencies try to adjust for quality using hedonic pricing methods, but these adjustments are imperfect, potentially causing GDP to miss some real quality-of-life improvements.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "Country A and Country B each have GDP per capita of $20,000. Country A's citizens work an average of 2,200 hours per year; Country B's citizens work an average of 1,600 hours per year. What does this comparison reveal about the limitations of GDP per capita?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country A's workers are more productive, making its GDP more sustainable."
+      },
+      {
+        "label": "B",
+        "text": "Country B is better off in this comparison. Citizens of Country B produce the same income ($20,000 per capita) with 600 fewer hours of work, implying higher productivity AND more leisure time. GDP per capita does not account for hours worked — two countries with the same per capita income can have very different amounts of leisure time, a genuine welfare component that GDP ignores."
+      },
+      {
+        "label": "C",
+        "text": "Country A has better welfare because more work reflects stronger work ethic and economic dynamism."
+      },
+      {
+        "label": "D",
+        "text": "The comparison is meaningless because hours worked is not an economic variable."
+      },
+      {
+        "label": "E",
+        "text": "GDP per capita correctly captures this difference because longer work hours are reflected in higher output."
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP per capita divides total income by population without considering how many hours were worked to generate it. Country B produces the same per-capita output with 600 fewer annual work hours, implying: (1) higher labor productivity in Country B, and (2) more leisure time for Country B's citizens; leisure is a real welfare benefit invisible in GDP; country B's citizens are likely better off despite identical GDP per capita.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "An economist proposes \"Green GDP\" — a version of GDP that subtracts the estimated cost of environmental damage and resource depletion from conventional GDP. In a heavily polluting economy, Green GDP would be significantly lower than conventional GDP. What does this proposal address?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Green GDP addresses the limitation that GDP fails to adjust for inflation."
+      },
+      {
+        "label": "B",
+        "text": "Green GDP addresses the limitation that GDP counts the costs of environmental damage and resource depletion as neutral or positive (cleanup costs add to GDP) rather than subtracting them. By incorporating environmental costs, Green GDP gives a better measure of sustainable economic welfare — output net of the environmental destruction required to produce it."
+      },
+      {
+        "label": "C",
+        "text": "Green GDP addresses the limitation that GDP excludes government spending on environmental regulation."
+      },
+      {
+        "label": "D",
+        "text": "Green GDP addresses the limitation that GDP includes nonmarket transactions."
+      },
+      {
+        "label": "E",
+        "text": "Green GDP addresses the limitation that GDP fails to account for income inequality."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Conventional GDP counts pollution cleanup as positive output while not subtracting the pollution damage or natural resource depletion that necessitated it. Green GDP subtracts environmental costs (pollution damage, resource depletion) from conventional GDP, yielding a measure of output that is sustainable - net of environmental destruction; this directly targets the limitation that GDP ignores negative environmental externalities.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "A country experiences a sharp rise in anxiety, depression, and stress-related illness following rapid industrialization, even as its GDP grows at 7% per year. Which limitations of GDP are most relevant here?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP rises because mental healthcare spending increases as a result of the stress epidemic."
+      },
+      {
+        "label": "B",
+        "text": "GDP fails to capture two relevant dimensions: (1) The mental health decline itself — GDP does not measure psychological well-being or stress levels. (2) The defensive expenditure paradox — spending on therapy and medication to treat stress-related illness counts positively in GDP, meaning GDP rises in response to a social problem without recognizing the underlying decline in well-being that caused the spending."
+      },
+      {
+        "label": "C",
+        "text": "GDP falls because stressed workers are less productive."
+      },
+      {
+        "label": "D",
+        "text": "GDP accurately captures mental health because healthcare spending is included in consumer spending (C)."
+      },
+      {
+        "label": "E",
+        "text": "GDP only fails here because mental healthcare is a government service and excluded from the private sector GDP."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Two GDP limitations interact here: (1) GDP does not directly measure mental health, happiness, or psychological well-being; rising anxiety and depression reduce quality of life in ways not visible in GDP. (2) The defensive expenditure problem: spending on mental healthcare treatment is counted as positive GDP output even though it arises from a social decline; GDP rises partly because of the problem, not despite it.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "An economist notes that in Country Z, a large proportion of economic activity consists of barter — people exchanging goods and services directly without using money. How does this affect GDP measurement and the country's welfare picture?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Barter is always excluded from GDP because it involves illegal activity."
+      },
+      {
+        "label": "B",
+        "text": "GDP accurately captures barter through the income approach because all production generates income."
+      },
+      {
+        "label": "C",
+        "text": "Barter transactions are largely excluded from official GDP statistics because no monetary price is recorded, even though real output is being produced and exchanged. This causes GDP to understate actual economic activity in countries with widespread barter, potentially making them appear poorer than they are and understating real living standards."
+      },
+      {
+        "label": "D",
+        "text": "Barter increases GDP because it avoids taxes, making the economy more efficient."
+      },
+      {
+        "label": "E",
+        "text": "Barter transactions are excluded from GDP only if they involve agricultural goods."
+      }
+    ],
+    "answer": "C",
+    "explanation": "GDP is compiled from recorded market transactions - wages, sales receipts, tax filings - all of which require a money price. Barter exchanges (trading vegetables for carpentry, for example) produce real output and represent real economic activity, but without a money price they are difficult to measure and largely excluded from official GDP; in economies with widespread barter, GDP systematically understates the true level of economic activity.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "A country with very high GDP per capita has among the world's highest rates of incarceration. The costs of running prisons — staff salaries, facility construction, food — are all counted in GDP. Does this high GDP per capita accurately reflect the well-being of citizens?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes — high incarceration costs reflect strong rule of law, which supports economic activity."
+      },
+      {
+        "label": "B",
+        "text": "No — the high incarceration costs are defensive expenditures that arise from social dysfunction (crime, policy failures, or systemic injustice). GDP counts prison spending as positive output without recognizing that (a) crime itself represents a social failure, (b) incarceration imposes enormous human costs on inmates and families, and (c) a lower-crime society that needed far less prison spending would be better off even if its GDP were lower."
+      },
+      {
+        "label": "C",
+        "text": "Yes — GDP per capita fully accounts for all public services including prisons."
+      },
+      {
+        "label": "D",
+        "text": "No — incarceration reduces GDP because it removes workers from the labor force."
+      },
+      {
+        "label": "E",
+        "text": "GDP accurately reflects welfare here because prison spending is government output that society demands."
+      }
+    ],
+    "answer": "B",
+    "explanation": "High incarceration costs are a form of defensive expenditure: they arise from a social problem (high crime or punitive sentencing policies) and are counted as positive GDP without subtracting the underlying social cost. A society requiring enormous prison spending to manage a crime problem is not better off than one with low crime requiring minimal incarceration - yet GDP may rank them similarly or even rank the high-incarceration society higher due to the prison spending.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "In comparing two equally sized developing economies, Country P has a large formal banking sector and extensive formal markets; Country Q has limited formal finance and relies heavily on informal credit and unrecorded trade. Other things equal, which country's GDP more accurately reflects its actual level of economic activity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country Q's GDP is more accurate because informal markets are more efficient."
+      },
+      {
+        "label": "B",
+        "text": "Country P's GDP is more accurate. Because more of Country P's economic activity passes through formal, recorded markets, official GDP statistics capture a larger share of its true output. Country Q's extensive informality means much real production is excluded from GDP, causing Country Q's measured GDP to understate actual economic activity more severely than Country P's."
+      },
+      {
+        "label": "C",
+        "text": "Both countries' GDPs are equally accurate because GDP is measured the same way everywhere."
+      },
+      {
+        "label": "D",
+        "text": "Country Q's GDP is more accurate because informal markets avoid double-counting."
+      },
+      {
+        "label": "E",
+        "text": "GDP accuracy is not affected by the degree of formality in an economy."
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP is constructed from recorded market transactions; the more economic activity passes through formal, measurable channels, the more completely GDP captures actual output. Country P, with formal banking and extensive market records, has most of its output captured in GDP; country Q, with widespread informal credit and unrecorded trade, has a larger fraction of real activity excluded from official GDP, making Country P's GDP a more complete measure of its economy.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "A rapidly urbanizing country sees families moving from rural subsistence farms to cities where they buy food, pay rent, and purchase services. GDP rises sharply. However, the economist observes that some of this GDP growth reflects not an increase in production but a shift from nonmarket to market activity. Explain.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Urbanization reduces GDP because rural families were producing more efficiently on farms."
+      },
+      {
+        "label": "B",
+        "text": "The economist is correct. Rural subsistence farmers produced food for their own consumption (nonmarket) — excluded from GDP. When they move to cities and buy the same food from stores (market transaction), the same underlying nutritional value now passes through a market and is counted in GDP. GDP rises, but part of the rise reflects the formalization of pre-existing production, not new real output — illustrating the nonmarket transaction limitation."
+      },
+      {
+        "label": "C",
+        "text": "GDP rises solely because urban wages are higher than rural subsistence income."
+      },
+      {
+        "label": "D",
+        "text": "GDP is unaffected by urbanization because the food was always produced in the same quantity."
+      },
+      {
+        "label": "E",
+        "text": "GDP rises because government spending on urban infrastructure is counted in the national accounts."
+      }
+    ],
+    "answer": "B",
+    "explanation": "This is a classic example of the nonmarket transaction limitation in a dynamic context; subsistence food production was real but uncounted. As families move to cities and buy food in stores, the same nutritional value becomes a market transaction counted in GDP; the GDP growth overstates real output growth because it partly reflects measurement improvement (nonmarket → market) rather than a true increase in production.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "A country's GDP grows by $500 billion in a year. Of that, $200 billion results from increased production of pollution-causing industries whose pollution imposes estimated damages of $300 billion on health and environment. What is the net welfare impact, and what does this reveal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Net welfare rises by $500 billion — GDP accurately captures all costs through market prices."
+      },
+      {
+        "label": "B",
+        "text": "Net welfare from the polluting industries is negative: $200B in output minus $300B in estimated damage = −$100B net welfare loss, even though GDP rose. The remaining $300B of GDP growth may be genuine improvement. This reveals that GDP counts the value of polluting output without subtracting the external costs of pollution — causing GDP growth to overstate net welfare improvement."
+      },
+      {
+        "label": "C",
+        "text": "Net welfare rises by $200 billion — the GDP contribution of the polluting industries."
+      },
+      {
+        "label": "D",
+        "text": "Net welfare is unchanged because pollution costs and production benefits always offset each other."
+      },
+      {
+        "label": "E",
+        "text": "GDP overstates output by $300 billion — the cleanup costs that will be required in the future."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The polluting industries contribute $200B to GDP but impose $300B of external damage costs on third parties (health costs, ecosystem damage). The net social value is $200B - $300B = -$100B: these industries make society worse off on net, even though they raise GDP; GDP counts their $200B of output without subtracting the $300B of damage - a direct illustration of the environmental externality limitation of GDP as a welfare measure.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 71,
+    "difficulty": "Medium",
+    "prompt": "A government report shows that real GDP per capita has risen 2% annually for 20 years in Country Z. A skeptic argues that life satisfaction surveys show no improvement in average well-being over the same period. Which explanation is most consistent with standard GDP limitations?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The skeptic's data must be wrong — rising real GDP per capita always improves well-being."
+      },
+      {
+        "label": "B",
+        "text": "The skeptic's finding is consistent with several GDP limitations operating simultaneously: (1) income gains may have gone primarily to upper-income households (inequality); (2) environmental quality may have declined, offsetting income gains; (3) rising GDP may have required longer working hours, reducing leisure; (4) income gains above a certain threshold may have diminishing marginal effects on happiness. Together, these can produce rising GDP with stagnant subjective well-being."
+      },
+      {
+        "label": "C",
+        "text": "The skeptic is correct — GDP per capita must fall for life satisfaction to fall."
+      },
+      {
+        "label": "D",
+        "text": "The surveys are unreliable; GDP is the only scientifically valid welfare measure."
+      },
+      {
+        "label": "E",
+        "text": "Life satisfaction and GDP are positively correlated by definition, so rising GDP always raises satisfaction."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The empirical finding that rising GDP can coincide with stagnant or falling life satisfaction is well-documented (the \"Easterlin paradox\" in some contexts). Multiple GDP limitations can explain this: rising inequality means most gains go to the wealthy; environmental degradation offsets income gains; longer work hours reduce leisure; social trust may have declined; and consumption goods may have become more defensive in nature; GDP's failure to capture these dimensions explains the divergence.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 72,
+    "difficulty": "Medium",
+    "prompt": "Country A has high GDP per capita but very low social mobility (children's economic outcomes are strongly tied to their parents'). Country B has lower GDP per capita but high social mobility. Which country's GDP better reflects future well-being?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country A, because GDP per capita directly measures current well-being, which always matters more than mobility."
+      },
+      {
+        "label": "B",
+        "text": "The comparison is complex. Country B's lower current GDP per capita is offset by higher social mobility — the likelihood that citizens across the income distribution can improve their economic standing. GDP per capita captures only current average income, not the distribution of opportunity or the prospect for upward mobility, which are important dimensions of well-being and fairness that GDP ignores."
+      },
+      {
+        "label": "C",
+        "text": "Country B, because high social mobility always leads to higher future GDP."
+      },
+      {
+        "label": "D",
+        "text": "Both countries have equal well-being because GDP per capita is the definitive welfare measure."
+      },
+      {
+        "label": "E",
+        "text": "Country A, because high GDP per capita enables children to inherit more wealth."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Social mobility - the ability of individuals to move up the economic ladder regardless of their origin - is a dimension of well-being, fairness, and future opportunity that GDP per capita does not capture. A society with high GDP per capita but rigid class stratification (low mobility) may offer less genuine opportunity to most citizens than one with lower current income but fluid mobility; GDP measures where the average person is, not how easily anyone can improve their position.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 73,
+    "difficulty": "Medium",
+    "prompt": "A critic says: \"The fact that GDP can rise after a divorce (because two households now pay separately for services they shared) and after a car accident (due to auto repair spending) shows that GDP is fundamentally broken as a welfare measure.\" Is this criticism valid?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The criticism is invalid — these events genuinely increase economic output and are correctly counted."
+      },
+      {
+        "label": "B",
+        "text": "The criticism is partially valid. These examples illustrate the \"defensive expenditure\" and \"composition of output\" limitations: GDP counts the market spending generated by these events without recognizing that the events themselves — divorce, accidents — represent social costs. A perfectly well-functioning society with no divorces or accidents would have lower GDP from these sources but potentially higher welfare. However, \"fundamentally broken\" is too strong — GDP still usefully tracks market activity and economic cycles."
+      },
+      {
+        "label": "C",
+        "text": "The criticism is fully valid — GDP should never rise when a social negative occurs."
+      },
+      {
+        "label": "D",
+        "text": "The criticism is invalid because divorce and accidents create real jobs and economic activity."
+      },
+      {
+        "label": "E",
+        "text": "The criticism is valid only if the country has a GDP below the global median."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The divorce-and-accident critique is a well-known illustration of GDP's limitations: it counts spending generated by misfortune as positive output. However, \"fundamentally broken\" overstates the case - GDP remains useful for tracking market output, business cycles, and growth trends; the nuanced AP position: GDP has real, significant limitations (including defensive expenditures), but it is still a useful and informative economic indicator, just not a complete welfare measure.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "Country A has nominal GDP of $2 trillion, population of 50 million, a Gini coefficient of 0.60, an average of 55 work hours per week, severe urban air pollution, and a life expectancy of 62 years. Country B has nominal GDP of $1.5 trillion, population of 40 million, a Gini coefficient of 0.25, an average of 38 work hours per week, clean air, and a life expectancy of 80 years. Using a comprehensive welfare analysis, evaluate which country provides higher well-being to its typical citizen.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country A — its higher total GDP proves it is wealthier."
+      },
+      {
+        "label": "B",
+        "text": "Country A — its GDP per capita ($40,000) exceeds Country B's ($37,500), making it unambiguously better off."
+      },
+      {
+        "label": "C",
+        "text": "Country B likely provides higher well-being to its typical citizen, despite lower total and per-capita GDP. Country A's $40,000 per capita is partially offset by: (1) extreme inequality (Gini 0.60 means most citizens earn far below $40,000); (2) 55-hour work weeks (greatly reduced leisure); (3) severe pollution (health and quality of life costs); (4) life expectancy of only 62 years (17 fewer years of life). Country B's $37,500 per capita with equal distribution, shorter hours, clean air, and 80-year life expectancy suggests markedly better welfare for the average citizen."
+      },
+      {
+        "label": "D",
+        "text": "Country A — it has higher productivity per worker, which is the best welfare measure."
+      },
+      {
+        "label": "E",
+        "text": "Both countries have equal well-being because their GDP per capita figures are similar."
+      }
+    ],
+    "answer": "C",
+    "explanation": "This multi-dimensional comparison uses the comprehensive GDP limitations framework: (1) Distribution: Country A's Gini of 0.60 means most citizens earn far less than $40,000 - the high average is driven by a wealthy elite. Country B's $37,500 is more broadly shared; (2) Leisure: 55 vs. 38 hours/week - Country B's citizens have 17 more hours of weekly leisure, a significant well-being component. (3) Environment: Severe vs. clean air - health, longevity, and quality of life differ massively; (4) Life expectancy: 62 vs. 80 years - 18 additional years of life in Country B; the $2,500 per capita income gap is easily overwhelmed by these dimensions.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "An economist argues: \"A comprehensive welfare measure would equal GDP minus defensive expenditures minus environmental degradation costs minus the value of increased inequality, plus the value of nonmarket production plus the value of leisure. In practice, this measure often grows more slowly than GDP in industrialized countries.\" Evaluate this argument and identify which GDP limitations each adjustment addresses.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The argument is incorrect — all GDP components equally reflect well-being, so no adjustments are needed."
+      },
+      {
+        "label": "B",
+        "text": "The argument is largely valid and maps directly to specific GDP limitations: Minus defensive expenditures (addresses: GDP's inclusion of remedial/protective spending that arises from social problems, not genuine well-being). Minus environmental costs (addresses: GDP's failure to subtract pollution and resource depletion). Minus inequality impact (addresses: GDP's blindness to income distribution). Plus nonmarket production (addresses: exclusion of household labor, volunteering, subsistence farming). Plus leisure (addresses: GDP's failure to account for hours worked and leisure time). Each adjustment targets a recognized limitation of conventional GDP."
+      },
+      {
+        "label": "C",
+        "text": "The argument correctly identifies adjustments but overstates their magnitude — these factors rarely differ significantly from zero."
+      },
+      {
+        "label": "D",
+        "text": "The argument is valid but applies only to developing economies, not industrialized countries."
+      },
+      {
+        "label": "E",
+        "text": "The argument is valid only if defensive expenditures are subtracted and environmental costs are added."
+      }
+    ],
+    "answer": "B",
+    "explanation": "This question synthesizes all major GDP limitations into a single coherent welfare framework. Each adjustment the economist proposes targets a specific, named limitation: defensive expenditures (composition/purpose of spending), environmental costs (externalities and natural capital depletion), inequality (distribution blindness), nonmarket production (exclusion of unpaid productive activities), and leisure (work hours ignored). The proposition that this comprehensive measure often grows more slowly than GDP in industrialized countries is consistent with evidence from GPI-style measures.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "A country has GDP per capita of $35,000. The following adjustments are proposed by researchers studying welfare:\n• Household production (imputed at market wages): +$4,000\n• Value of leisure (based on wage rate × leisure hours): +$6,000\n• Environmental damage (air/water pollution costs): −$5,000\n• Defensive expenditures (crime, accidents): −$2,500\n• Inequality adjustment (using a Gini-based weighting): −$3,000\n\nWhat is the adjusted welfare estimate, and how does it compare to raw GDP per capita?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Adjusted welfare = $35,000 — adjustments always cancel out."
+      },
+      {
+        "label": "B",
+        "text": "Adjusted welfare = $34,500 — slightly below GDP per capita."
+      },
+      {
+        "label": "C",
+        "text": "Adjusted welfare = $34,500; raw GDP per capita ($35,000) slightly overstates welfare for this country because the negative adjustments (−$10,500) exceed the positive ones (+$10,000), yielding a net downward correction of $500."
+      },
+      {
+        "label": "D",
+        "text": "Adjusted welfare = $34,500, a relatively small difference. This shows GDP is nearly as good as a full welfare measure."
+      },
+      {
+        "label": "E",
+        "text": "Adjusted welfare = $34,500, illustrating that all adjustments together reduce measured welfare below GDP per capita for this economy."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Adjusted welfare = $35,000 + $4,000 + $6,000 - $5,000 - $2,500 - $3,000 = $34,500. Positive adjustments: +$4,000 + $6,000 = +$10,000 (household production and leisure exceed exclusion); negative adjustments: -$5,000 - $2,500 - $3,000 = -$10,500. Net: -$500 from GDP per capita; for this economy, GDP per capita slightly overstates welfare by $500 because environmental and inequality costs slightly exceed the value of uncounted household production and leisure.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "A sophisticated student argues: \"GDP limitations are well-known, but no alternative measure has replaced GDP. This proves economists believe GDP is actually adequate for policy purposes.\" Evaluate this argument carefully.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The student is correct — the persistence of GDP usage proves its adequacy."
+      },
+      {
+        "label": "B",
+        "text": "The student's argument is a non sequitur. GDP's continued use reflects its practical advantages (standardized, comprehensive market data, comparable across countries) rather than a judgment that it is adequate as a welfare measure. Economists have developed alternatives (HDI, GPI, Genuine Savings, Well-being Indices) precisely because they recognize GDP's limitations. GDP persists as the primary indicator because of data availability and historical standardization, not because economists are satisfied with it as a welfare measure."
+      },
+      {
+        "label": "C",
+        "text": "The student is correct — alternative welfare measures have been rejected by economists."
+      },
+      {
+        "label": "D",
+        "text": "The student is incorrect — many countries have replaced GDP with alternative measures."
+      },
+      {
+        "label": "E",
+        "text": "The student is partially correct — GDP is adequate for business cycle analysis but not for development policy."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The persistence of GDP usage is explained by practical factors, not a verdict on adequacy: GDP data is available for nearly every country, goes back decades, is updated frequently, and is standardized for cross-country comparison. Alternative measures (HDI, GPI, World Happiness Report, Genuine Savings) have been developed and are used in policy and research precisely because economists recognize GDP's limitations. The inference from \"widely used\" to \"adequate\" is a logical fallacy.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "The \"paradox of thrift\" describes how increased household saving can reduce GDP in the short run. Now consider the \"paradox of progress\": increased technological productivity could reduce measured GDP if it replaces paid work with unpaid digital services (e.g., free software, free web services) that have zero market price. Evaluate this paradox using GDP limitations.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The paradox is invalid because technology always increases GDP by raising worker productivity."
+      },
+      {
+        "label": "B",
+        "text": "The paradox of progress is a real and increasingly recognized GDP limitation. If technology replaces paid, counted services with free, unpriced equivalents (free navigation replaces paid maps; free email replaces paid postal letters; free streaming replaces some paid entertainment), the same or better service is provided to consumers, but GDP shrinks because the market price falls toward zero. Real welfare may have improved while measured GDP stagnates or declines — a modern manifestation of the nonmarket transaction limitation."
+      },
+      {
+        "label": "C",
+        "text": "Free digital services are always counted in GDP through advertising revenue that funds them."
+      },
+      {
+        "label": "D",
+        "text": "The paradox is real but only applies to developing countries with limited digital infrastructure."
+      },
+      {
+        "label": "E",
+        "text": "Free digital services reduce GDP only when they fully replace paid services; partial replacement has no GDP effect."
+      }
+    ],
+    "answer": "B",
+    "explanation": "This is a sophisticated, contemporary application of the nonmarket transaction limitation. When free digital services (Wikipedia, Google Maps, Gmail) substitute for previously paid services, consumer welfare improves enormously while market transactions (and thus GDP) shrink. Economists studying the digital economy have noted that conventional GDP may significantly understate the welfare impact of the digital revolution because so much of its value is delivered through free, non-market services.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "A developing country has official GDP per capita of $5,000. A research team estimates that if household production, subsistence farming, volunteer work, and informal barter were valued at market prices and added to GDP, the adjusted figure would be $8,200 per capita. What are the implications of this 64% gap for international comparisons and policy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The 64% gap is a measurement error that the government should correct by changing its GDP methodology."
+      },
+      {
+        "label": "B",
+        "text": "The 64% gap is too large to be credible — nonmarket activities cannot comprise such a large share of actual economic activity."
+      },
+      {
+        "label": "C",
+        "text": "The 64% gap has significant implications: (1) Cross-country comparisons with developed countries (where nonmarket activity is a smaller fraction) systematically understate this country's real living standards relative to developed peers. (2) Aid and development funding based on official GDP underestimates the country's actual productive capacity. (3) Growth statistics may overstate real growth if increases in official GDP partly reflect formalization of existing nonmarket activity. Policymakers should use this knowledge when interpreting GDP figures for this economy."
+      },
+      {
+        "label": "D",
+        "text": "The 64% gap proves that the country is actually wealthier than developed nations and needs no aid."
+      },
+      {
+        "label": "E",
+        "text": "The gap is irrelevant because only market transactions are economically meaningful."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A 64% gap between official and true (including nonmarket) GDP has three major policy implications: (1) Living standards are systematically understated in international comparisons - this country appears much poorer than it is relative to more formalized economies. (2) Welfare programs and aid allocation based on official GDP may be miscalibrated. (3) Apparent GDP growth may partly reflect formalization (nonmarket→market activity becoming recorded) rather than real output increases - potentially overstating actual growth; these limitations are especially severe in economies with large subsistence sectors.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "Two economists debate whether GDP or the HDI (Human Development Index) better serves as a policy target. Economist 1 argues for GDP: \"It is objective, market-based, and directly actionable through economic policy.\" Economist 2 argues for HDI: \"It captures dimensions of welfare GDP ignores.\" Which position is better supported, and under what circumstances might each metric be most appropriate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Economist 1 is entirely correct — GDP should always be the target because it is more precise."
+      },
+      {
+        "label": "B",
+        "text": "Economist 2 is entirely correct — HDI should always replace GDP as the policy target."
+      },
+      {
+        "label": "C",
+        "text": "Both economists make valid points reflecting a fundamental tradeoff. GDP: objective, standardized, forward-looking (economic activity drives resource availability), directly responsive to policy tools. HDI: captures health and education that GDP misses, better reflects long-run welfare, but is a lagging composite. For short-run stabilization policy (recessions), GDP is more immediately useful. For long-run development strategy, HDI or similar composite indices better capture the full range of welfare objectives. Neither universally dominates."
+      },
+      {
+        "label": "D",
+        "text": "GDP always dominates because HDI is based on subjective assessments of education and health."
+      },
+      {
+        "label": "E",
+        "text": "HDI always dominates because all economic policy should target well-being over output."
+      }
+    ],
+    "answer": "C",
+    "explanation": "This question requires evaluating both metrics' strengths and weaknesses in specific policy contexts. GDP advantages: standardized, high-frequency data, directly tied to policy tools (fiscal/monetary policy), measures current market activity. HDI advantages: explicitly incorporates health (life expectancy) and education alongside income, better proxy for long-run human development; for short-run macro stabilization: GDP is more appropriate (timely, directly policy-responsive); for long-run development planning in low-income countries: HDI or composite measures capture more of what matters; neither metric universally dominates.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "A country's GDP grows 3% per year for 10 years. Simultaneously, its Gini coefficient rises from 0.30 to 0.50, average weekly work hours rise from 40 to 48, pollution index rises by 40%, and the informal economy grows from 10% to 20% of official GDP. Assess the net effect on average citizen welfare using all relevant GDP limitations.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Welfare improved significantly — 3% annual GDP growth over 10 years raises GDP by about 34%, which always improves well-being."
+      },
+      {
+        "label": "B",
+        "text": "Welfare changes are ambiguous and could be negative. Negative forces: rising inequality (Gini 0.30→0.50 means the median citizen gains less than average); 8 additional weekly work hours (large leisure reduction); 40% more pollution (health and quality of life costs). Partially offsetting: 34% higher GDP per capita. The informal sector growth also suggests official GDP understates actual activity — but rising informality may itself reflect economic stress. Net welfare for the typical (median) citizen could easily be lower than the GDP growth rate suggests."
+      },
+      {
+        "label": "C",
+        "text": "Welfare improved by exactly 3% per year because GDP growth always equals welfare growth."
+      },
+      {
+        "label": "D",
+        "text": "Welfare declined entirely because inequality and pollution are the primary determinants of welfare."
+      },
+      {
+        "label": "E",
+        "text": "Welfare is unknowable without additional data on inflation and unemployment rates."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Comprehensive multi-limitation analysis: (1) Rising Gini: the median citizen captures less than the mean of GDP growth - most of the 34% income gain may have accrued to the top income decile. (2) 8 additional work hours/week: 20% more time spent working, a significant leisure cost; (3) 40% more pollution: health costs, reduced life quality. (4) Growing informal sector: suggests official GDP may understate both the level and growth of actual activity; these forces could offset much or all of the GDP growth experienced by the typical citizen, illustrating that GDP growth alone is insufficient to assess welfare trajectories.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "A philosopher argues: \"GDP was designed to measure wartime production capacity, not peacetime well-being. Using it as a welfare measure is a category error — like using a thermometer to measure blood pressure.\" Evaluate this critique using the AP Economics framework for GDP limitations.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The philosopher is correct — GDP should be abandoned immediately."
+      },
+      {
+        "label": "B",
+        "text": "The philosopher's critique is historically grounded (GDP did originate partly from wartime production accounting) and philosophically sound. GDP is a measure of market output — it was designed to measure what an economy produces, not how well-off its citizens are. Using it as a welfare proxy involves an implicit assumption (more output = more welfare) that is frequently violated by the limitations catalogued in MEA-1.B.1. However, \"category error\" is too strong — GDP is a legitimate and useful measure of its intended object (market output). The problem is using it beyond its design purpose."
+      },
+      {
+        "label": "C",
+        "text": "The philosopher is incorrect — GDP was always designed to measure citizen well-being."
+      },
+      {
+        "label": "D",
+        "text": "The philosopher is correct that GDP is a flawed welfare measure, which means it should never be used in policy analysis."
+      },
+      {
+        "label": "E",
+        "text": "The philosopher is incorrect because GDP correctly measures welfare in market economies."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The historical critique is valid: GDP-type measures were developed during WWII to track production capacity for war effort (Kuznets himself warned against using GDP as a welfare measure). The measurement vs. welfare distinction is real and important - GDP accurately measures market output but this was not designed to capture happiness, health, freedom, or environmental quality. The philosopher is right to flag the category issue but wrong to suggest GDP is useless - it remains the best available measure of market output and short-run economic fluctuations.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "Consider three policy scenarios in Country Z. Scenario 1: Government builds a dam generating $5B of electricity; the dam also floods a valley destroying $8B of agricultural land and displacing 10,000 people. Scenario 2: An oil spill destroys a $3B fishing industry; cleanup costs $1.5B. Scenario 3: 500,000 women join the paid labor force (previously doing unpaid household work); GDP rises by $20B but households now pay $12B for childcare and cleaning services they previously provided for free. For each scenario, evaluate the GDP change vs. actual welfare change.",
+    "options": [
+      {
+        "label": "A",
+        "text": "All three scenarios improve welfare because GDP rises in each case."
+      },
+      {
+        "label": "B",
+        "text": "Scenario 1: GDP rises (electricity output) but welfare falls (net loss: $5B electricity − $8B agriculture − displacement costs). Scenario 2: GDP rises ($1.5B cleanup) but welfare falls (net: −$3B fishing − remaining damage > $1.5B GDP rise). Scenario 3: GDP rises by $20B but real welfare gain is $20B − $12B = $8B (the additional work creates $20B income, but $12B is spent on services previously provided for free). In all cases, GDP changes overstate welfare improvement or mask welfare losses — a systematic GDP limitation."
+      },
+      {
+        "label": "C",
+        "text": "Only Scenario 3 reveals a GDP limitation; Scenarios 1 and 2 are counted correctly."
+      },
+      {
+        "label": "D",
+        "text": "All three scenarios correctly capture welfare changes through GDP."
+      },
+      {
+        "label": "E",
+        "text": "GDP declines in all three scenarios because each involves some economic disruption."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Scenario 1: Dam generates $5B electricity (counted in GDP), but $8B agricultural destruction and displacement are NOT subtracted; GDP rises; net welfare is likely negative. Scenario 2: Cleanup adds $1.5B to GDP, but the $3B fishing industry destruction is not subtracted (net welfare: -$1.5B before accounting for remaining damage). Scenario 3: $20B labor income is counted; but $12B of this pays for services previously done for free (nonmarket→market shift); true welfare gain is $8B, not $20B; all three illustrate GDP's failure to accurately track net welfare changes.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "A development economist observes that for countries with GDP per capita below about $15,000 (PPP-adjusted), rising income is highly correlated with rising life satisfaction. But above $15,000, the correlation weakens substantially. What do GDP limitations suggest about why this pattern might exist?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Above $15,000, GDP per capita overstates income, which causes the correlation to weaken artificially."
+      },
+      {
+        "label": "B",
+        "text": "Below $15,000, rising income directly addresses acute material needs (food, shelter, health) where market spending tightly tracks well-being improvement. Above $15,000, additional income increasingly provides goods and services with diminishing marginal welfare impact. Other welfare dimensions — leisure, social connection, environmental quality, inequality, purpose — become relatively more important as basic needs are met. GDP's limitations (ignoring these dimensions) become more binding as income rises because they represent a larger share of marginal welfare."
+      },
+      {
+        "label": "C",
+        "text": "The correlation weakens because rich countries have less accurate GDP data."
+      },
+      {
+        "label": "D",
+        "text": "Above $15,000, income distribution becomes irrelevant, reducing the correlation."
+      },
+      {
+        "label": "E",
+        "text": "The pattern shows that GDP should only be used for countries below $15,000 per capita."
+      }
+    ],
+    "answer": "B",
+    "explanation": "At low income levels, additional market spending provides enormous welfare gains by meeting urgent material needs - food, clean water, basic healthcare, shelter. These needs are tightly captured by market spending and GDP. At higher incomes, the marginal welfare from additional income diminishes, and well-being increasingly depends on dimensions GDP misses: leisure, strong social relationships, environmental quality, sense of purpose, and political freedom; GDP's limitations become most binding at the margin where non-income dimensions dominate additional welfare gains.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "An economics teacher says: \"GDP is a better measure of economic performance than of economic welfare.\" A student responds: \"But GDP per capita is a good proxy for welfare because rich countries do tend to have better health, education, and freedom.\" Evaluate both positions and resolve the tension.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The student is correct — GDP per capita perfectly predicts welfare in all cases."
+      },
+      {
+        "label": "B",
+        "text": "The teacher is correct — GDP has nothing to do with welfare."
+      },
+      {
+        "label": "C",
+        "text": "Both are partially right, and the tension is resolved by distinguishing correlation from causation and recognizing the limitations of averages. The teacher is correct that GDP measures market output, not welfare directly — its limitations (nonmarket production, distribution, environment, leisure) are real. The student is also correct that at the country level, GDP per capita correlates positively with many welfare indicators. The resolution: GDP per capita is a useful imperfect proxy that works reasonably well at the cross-country level but fails to capture within-country variation, welfare dimensions beyond consumption, or welfare for countries with large nonmarket sectors or high inequality."
+      },
+      {
+        "label": "D",
+        "text": "The teacher is correct and the student's observation about correlation proves GDP measures welfare."
+      },
+      {
+        "label": "E",
+        "text": "The student is incorrect because correlation implies causation in this context."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The teacher-student tension mirrors the real debate among economists. GDP per capita does correlate with life expectancy, literacy, infant mortality, and political freedom across countries - suggesting it is a useful proxy. But this correlation is imperfect and breaks down within countries, for countries with high inequality, and for welfare dimensions beyond material consumption; the synthesis: GDP per capita is a useful but limited proxy for welfare - capturing some dimensions well while systematically missing others; recognizing this nuance is the core of MEA-1.B.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "A country's GDP grows 8% in a year. An analyst decomposes this growth into four sources: (1) 3% from genuinely higher real output of consumer goods. (2) 2% from increased spending on pollution cleanup following new industrial activity. (3) 2% from higher military weapons production (no civilian benefit). (4) 1% from formalization of previously informal economic activity (no new production). What share of GDP growth represents genuine improvement in civilian well-being?",
+    "options": [
+      {
+        "label": "A",
+        "text": "8% — all GDP growth represents genuine improvement."
+      },
+      {
+        "label": "B",
+        "text": "3% — only the consumer goods increase clearly represents direct welfare improvement. The cleanup spending (2%) is a defensive expenditure arising from pollution. Military production (2%) does not directly improve civilian living standards. Formalization (1%) involves no new output — it just moves existing activity from informal to formal measurement."
+      },
+      {
+        "label": "C",
+        "text": "5% — consumer goods and military production together represent genuine output."
+      },
+      {
+        "label": "D",
+        "text": "6% — only formalization does not represent genuine growth."
+      },
+      {
+        "label": "E",
+        "text": "7% — only the cleanup spending fails to represent genuine welfare improvement."
+      }
+    ],
+    "answer": "B",
+    "explanation": "This synthesis question applies four distinct GDP limitations simultaneously: (1) Consumer goods (+3%): genuine welfare improvement - counted correctly. (2) Pollution cleanup (+2%): defensive expenditure - real spending but arises from a problem (pollution), not new well-being; (3) Military (+2%): composition limitation - raises GDP but no direct civilian welfare gain. (4) Formalization (+1%): measurement change - same activity, now recorded; no new production; only the 3% from consumer goods clearly represents civilian welfare improvement; the remaining 5% reflects GDP's failure to distinguish types of output and to capture true net output.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "An international organization ranks countries by \"Sustainable Development\" — a composite measure that includes GDP per capita, environmental sustainability, income equality, and governance quality. Country Alpha ranks 15th on GDP per capita but 4th on Sustainable Development. Country Beta ranks 3rd on GDP per capita but 22nd on Sustainable Development. What does this ranking pattern most strongly reveal about GDP as a welfare measure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It reveals that sustainable development rankings are unreliable."
+      },
+      {
+        "label": "B",
+        "text": "It reveals a strong divergence between GDP per capita and comprehensive welfare. Country Alpha achieves excellent sustainability, equality, and governance with relatively moderate income — demonstrating that well-being depends on much more than market output. Country Beta is economically productive but has poor environmental, equality, or governance outcomes that undermine long-run welfare. GDP per capita clearly fails to capture these dimensions, leading to inverted rankings when a broader welfare measure is used."
+      },
+      {
+        "label": "C",
+        "text": "It reveals that GDP is more accurate than composite indices for policy purposes."
+      },
+      {
+        "label": "D",
+        "text": "It proves that lower GDP always leads to better sustainability outcomes."
+      },
+      {
+        "label": "E",
+        "text": "It shows that Country Alpha is exploiting Country Beta's economic strength."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The ranking inversion (Alpha: 15th GDP, 4th Sustainable Development; Beta: 3rd GDP, 22nd Sustainable Development) directly demonstrates that GDP per capita and comprehensive welfare can diverge sharply. Country Alpha has found ways to achieve high sustainability, equality, and governance without the highest income. Country Beta's high income coexists with poor environmental performance or inequality that undermines long-run welfare; this is precisely the type of divergence that the GDP limitations framework predicts when non-income dimensions of welfare are excluded.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "A conservative economist argues: \"Expanding GDP to include nonmarket activities would make it inherently subjective and politically manipulable, destroying its usefulness as an objective benchmark.\" A progressive economist responds: \"Ignoring nonmarket production systematically undercounts the contributions of women and unpaid caregivers.\" Evaluate both arguments.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The conservative is entirely correct — no adjustments should ever be made to GDP."
+      },
+      {
+        "label": "B",
+        "text": "The progressive is entirely correct — all nonmarket activity must be included in GDP immediately."
+      },
+      {
+        "label": "C",
+        "text": "Both economists make substantive points. The conservative correctly identifies a real challenge: imputing values for nonmarket activity requires choices about wage rates, hours, and scope that introduce subjectivity. The progressive correctly identifies that excluding nonmarket work systematically undercounts unpaid caregiving (disproportionately done by women), volunteer work, and subsistence production — causing GDP to understate both total production and the contributions of these groups. The resolution: supplementary \"satellite accounts\" for household production (used by many statistical agencies) allow these estimates to be tracked without compromising the objective core GDP measure."
+      },
+      {
+        "label": "D",
+        "text": "The conservative is right that objectivity is paramount; the progressive's concern is not an economic issue."
+      },
+      {
+        "label": "E",
+        "text": "The progressive is right about undercounting; the conservative's concerns about subjectivity are invalid."
+      }
+    ],
+    "answer": "C",
+    "explanation": "This is a sophisticated policy debate around a real limitation of GDP. The conservative raises a genuine methodological concern: imputing nonmarket values is inherently subjective (which wage rate? which tasks count?). The progressive raises a genuine equity concern: the current exclusion is not neutral - it systematically omits work predominantly done by women and lower-income households; the practical resolution adopted by many countries - supplementary household satellite accounts - allows policymakers to access both the objective GDP measure and nonmarket-inclusive estimates without forcing a choice between the two.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "A city experiences a sharp rise in violent crime. The following market responses occur: security spending rises $500M, legal costs rise $300M, medical treatment of crime victims costs $200M, insurance premiums rise $400M, and property values fall (but this is not directly counted in GDP). Total GDP-counted spending on crime consequences = $1.4B. Simultaneously, genuine new consumer goods production rises $1B. What is net GDP change, and how well does it reflect welfare change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Net GDP rises by $2.4B and accurately reflects a welfare improvement of $2.4B."
+      },
+      {
+        "label": "B",
+        "text": "Net GDP rises by $2.4B ($1.4B crime-related + $1B consumer goods). However, welfare change is only $1B better at best — the $1.4B in crime-related spending is entirely defensive: it arises from a social problem (rising crime) and represents resources diverted from productive use. A complete welfare accounting would show welfare rose by $1B (consumer goods) minus the cost of the crime itself (harm to victims, fear, reduced quality of life) — which GDP does not capture at all. GDP overstates welfare improvement."
+      },
+      {
+        "label": "C",
+        "text": "Net GDP rises by $1B because only new consumer goods represent genuine output."
+      },
+      {
+        "label": "D",
+        "text": "Net GDP is unchanged because crime spending and consumer goods spending offset each other."
+      },
+      {
+        "label": "E",
+        "text": "Net GDP rises by $1.4B — only crime-related spending is productive."
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP rises by $2.4B: $1B from consumer goods (genuine welfare gain) + $1.4B from crime responses (defensive expenditures - not welfare gains, but responses to a welfare loss). The $1.4B in security, legal, medical, and insurance spending is pure cost: society would be better off if crime hadn't risen and this spending were unnecessary. GDP also fails to subtract the non-GDP costs of crime: psychological harm to victims, reduced mobility, fear, and diminished community trust; net welfare improvement is well below the $2.4B GDP figure.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "A country's policymakers want to increase GDP by encouraging more economic activity. They consider three policies: Policy 1: Fund a major infrastructure investment (roads, broadband) that improves business productivity. Policy 2: Increase surveillance and law enforcement, generating more legal and prison spending. Policy 3: Promote industrial expansion without environmental regulation, generating more output but also more pollution. Evaluate each policy using the GDP limitations framework and explain which is most likely to improve genuine well-being.",
+    "options": [
+      {
+        "label": "A",
+        "text": "All three policies are equally beneficial because they all raise GDP."
+      },
+      {
+        "label": "B",
+        "text": "Policy 1 is most likely to improve genuine well-being. Infrastructure investment raises productivity, enabling more efficient market output — a genuine welfare improvement. Policy 2 raises GDP through defensive expenditures (prison costs, legal services) that arise from social problems rather than genuine well-being improvements — and mass surveillance may reduce liberty. Policy 3 raises GDP through genuine output increases but creates environmental externalities whose welfare costs may exceed the output gains. Policy 1 avoids the defensive expenditure and environmental limitations that undermine Policies 2 and 3."
+      },
+      {
+        "label": "C",
+        "text": "Policy 3 is best because higher output always improves welfare."
+      },
+      {
+        "label": "D",
+        "text": "Policy 2 is best because safety is the precondition for all other welfare."
+      },
+      {
+        "label": "E",
+        "text": "All three policies are equally likely to improve well-being because GDP increases equally."
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP limitations framework applied to policy: Policy 1 (infrastructure): raises productive capacity → genuine output expansion → likely true welfare improvement. Policy 2 (surveillance/prisons): raises GDP through defensive expenditures; the spending arises from social problems rather than welfare gains, and reduced civil liberties themselves are a welfare cost not counted in GDP. Policy 3 (unregulated industrial expansion): raises output (positive) but generates pollution externalities (negative, not subtracted from GDP) - net welfare depends on whether output value exceeds environmental damage; policy 1 is the only option that generates clear, unambiguous welfare gains without the limitations that make the others problematic.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "An economist proposes that for developing countries, \"non-income dimensions of poverty\" — lack of access to clean water, basic education, and healthcare — should receive equal policy priority to GDP growth. Evaluate this proposal using the framework of GDP limitations.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The proposal is wrong — GDP growth automatically solves all dimensions of poverty over time."
+      },
+      {
+        "label": "B",
+        "text": "The proposal is strongly supported by GDP limitations analysis. GDP (and GDP per capita) measures market income but does not measure access to clean water, educational attainment, or healthcare coverage. A country can have moderate GDP growth while most poor citizens lack these basics if growth is concentrated in sectors that bypass the poor. Because GDP ignores distribution and non-income dimensions of welfare, policies targeting GDP growth alone may not address the full range of conditions that determine the welfare of the poor. Explicit targeting of water, education, and health addresses limitations that GDP-focused policy cannot."
+      },
+      {
+        "label": "C",
+        "text": "The proposal is partially correct — clean water is an economic good and should be addressed through GDP growth, but education and health are non-economic."
+      },
+      {
+        "label": "D",
+        "text": "The proposal is incorrect because education and healthcare spending are already counted in GDP."
+      },
+      {
+        "label": "E",
+        "text": "The proposal only applies to countries with GDP per capita below $1,000."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The GDP limitations framework provides strong support for multi-dimensional poverty strategies. GDP per capita is an average that masks distribution; education and health outcomes can lag far behind income in high-inequality societies. Moreover, access to clean water, basic education, and primary healthcare are direct determinants of well-being that GDP does not measure; markets may underprovide them due to externalities and public goods characteristics; limiting policy to GDP growth alone allows these welfare dimensions to be neglected - which is why the MDGs, SDGs, and HDI explicitly target non-income dimensions.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "A country is simultaneously experiencing: (a) rising GDP per capita; (b) a growing informal economy where cash transactions increase; (c) more households caring for elderly relatives at home rather than placing them in nursing homes; (d) increasing environmental cleanup costs from industrial runoff. Analyze how each factor affects the GAP between measured GDP and true economic welfare.",
+    "options": [
+      {
+        "label": "A",
+        "text": "All four factors cause measured GDP to overstate true welfare."
+      },
+      {
+        "label": "B",
+        "text": "Analysis of each factor's impact on the GDP-welfare gap: (a) Rising GDP per capita: reduces the gap IF distributed broadly (may widen if concentrated at top). (b) Growing informal economy: widens the gap — more real activity excluded from GDP. (c) Home care replacing nursing homes: widens the gap — home caregiving is a nonmarket transaction that replaces a market service; real production is unchanged but measured GDP falls. (d) Environmental cleanup costs rising: widens the gap — cleanup spending raises GDP without reflecting the pollution damage that caused it. Factors (b), (c), and (d) all widen the GDP-welfare gap, while (a)'s effect depends on distribution."
+      },
+      {
+        "label": "C",
+        "text": "All four factors reduce the gap between GDP and true welfare."
+      },
+      {
+        "label": "D",
+        "text": "Only factor (d) affects the GDP-welfare gap; the others are measurement issues only."
+      },
+      {
+        "label": "E",
+        "text": "Factor (a) widens the gap; factors (b), (c), (d) narrow it."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Multi-factor gap analysis: (a) Rising GDP per capita narrows the gap in principle (more output per person), but only to the extent gains are broadly shared - high inequality would mean measured GDP overstates welfare for most. (b) Growing informal economy: real activity not captured in GDP widens the exclusion gap. (c) Home care replacing nursing homes: same care provided, but GDP falls (nonmarket replaces market) - actual production unchanged, measured GDP falls, widening the gap in the wrong direction; (d) Environmental cleanup costs: add to GDP while reflecting damage - GDP rises but welfare may not, widening the gap.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "Critically evaluate the claim: \"If a country measures GDP perfectly — capturing every market transaction accurately — then its only welfare limitation is the exclusion of nonmarket activity.\" Is perfect market measurement sufficient to eliminate all GDP limitations?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes — perfect market measurement would make GDP a complete welfare measure."
+      },
+      {
+        "label": "B",
+        "text": "No — even perfect market measurement would still leave multiple GDP limitations intact: (1) Distribution: perfect market measurement still cannot show how income is distributed. (2) Composition of output: harmful goods, defensive expenditures, and military production would still be counted equally with beneficial consumer goods. (3) Environmental externalities: market prices do not reflect pollution costs or natural capital depletion. (4) Nonmarket production: household work, volunteering, subsistence farming would still be excluded. (5) Quality of life: leisure, social trust, political freedom would still be unmeasured. Perfect measurement of existing market transactions does not resolve these structural limitations."
+      },
+      {
+        "label": "C",
+        "text": "Yes — the only reason GDP fails as a welfare measure is incomplete data collection."
+      },
+      {
+        "label": "D",
+        "text": "No — but the only remaining limitation would be income distribution."
+      },
+      {
+        "label": "E",
+        "text": "Yes — market prices embody all economically relevant information, so perfect measurement would suffice."
+      }
+    ],
+    "answer": "B",
+    "explanation": "This question tests whether students understand that GDP's limitations are structural (inherent to what GDP measures), not just measurement problems (imperfect data collection). Even with perfect market data, GDP would still: ignore how income is distributed among households; count harmful goods equally with beneficial ones; miss environmental externalities (pollution costs not in market prices); exclude unpaid household production, volunteering, and subsistence farming; and ignore leisure, health, freedom, and social trust. These limitations cannot be resolved by better market measurement - they require fundamental extensions or alternatives to GDP.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "An economics professor assigns the following problem: \"Country X has GDP per capita of $30,000 and Country Y has GDP per capita of $25,000. Country Y has: a 30-hour work week vs. Country X's 50 hours, universal healthcare, nearly zero pollution, and a Gini of 0.22 vs. Country X's 0.48. Calculate the approximate monetary value of Country Y's welfare advantages in leisure, health, and equality to determine which country's citizens have higher welfare.\" Walk through the analytical framework.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country X is better off — its $5,000 per capita income advantage is definitive."
+      },
+      {
+        "label": "B",
+        "text": "Country Y likely has higher welfare despite the $5,000 income gap. Analysis: (1) Leisure advantage: Country Y workers have 20 fewer hours/week of work. Valued at even $15/hour: 20 hrs × 52 weeks × $15 = $15,600/year in additional leisure value. (2) Healthcare: universal coverage eliminates out-of-pocket medical risk — value varies but is substantial. (3) Environment: near-zero pollution means lower health costs and higher life quality. (4) Equality: Country Y's Gini of 0.22 means the median citizen captures a much higher share of the $25,000 average. At Gini 0.48, Country X's median citizen may earn well below $30,000. Together, these non-income advantages plausibly exceed the $5,000 GDP gap, suggesting Country Y's citizens have higher welfare."
+      },
+      {
+        "label": "C",
+        "text": "Country X is better off because universal healthcare is counted in GDP."
+      },
+      {
+        "label": "D",
+        "text": "Country Y is better off only if we also adjust for PPP exchange rates."
+      },
+      {
+        "label": "E",
+        "text": "Both countries have equal welfare — the income gap exactly offsets other differences."
+      }
+    ],
+    "answer": "B",
+    "explanation": "This calculation-and-reasoning hybrid question applies the GDP limitations framework quantitatively. Leisure value: 20 extra hours/week × 52 weeks × $15 (conservative) = $15,600/year - far exceeding the $5,000 income gap. Add: healthcare value (eliminates catastrophic medical costs), pollution savings (healthcare costs, life expectancy), and distribution effect (median income in Country X at Gini 0.48 may be 50-60% of mean = $15,000-$18,000, well below Country Y's more equal $22,000+ median); the non-income advantages plausibly add $15,000-$25,000 of effective welfare per capita, overwhelming the income gap.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "The \"Easterlin Paradox\" (named after economist Richard Easterlin) observes that within a given country, richer people tend to be happier — but over time, as countries as a whole get richer, average happiness often does not rise proportionally. Which combination of GDP limitations best explains this paradox?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The paradox is explained by inflation — rising prices offset income gains, keeping happiness constant."
+      },
+      {
+        "label": "B",
+        "text": "The paradox likely reflects multiple GDP limitations operating jointly: (1) Relative income matters: within a country, richer people are happier partly because of higher relative standing. As everyone gets richer, relative positions don't change, so happiness doesn't rise. (2) Adaptation: people adjust aspirations upward as income rises, requiring ever-higher income to achieve the same happiness. (3) Non-income dimensions: aggregate GDP growth may come with rising work hours, commute times, inequality, and environmental degradation — all GDP limitations that reduce welfare even as income rises. GDP misses these welfare reductions while counting the income gains."
+      },
+      {
+        "label": "C",
+        "text": "The paradox is explained solely by income distribution — rising GDP goes to the rich."
+      },
+      {
+        "label": "D",
+        "text": "The paradox proves that GDP growth never improves well-being in any country."
+      },
+      {
+        "label": "E",
+        "text": "The paradox is explained by the fact that GDP per capita is a flawed measure of income."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The Easterlin Paradox is best explained by factors that GDP limitations capture imperfectly or not at all: (1) Relative income effects: happiness depends on social comparison, not absolute income - GDP measures absolute income and misses relative standing. (2) Hedonic adaptation: people's standards rise with income, reducing the welfare impact of absolute gains. (3) Accompaniments of growth: rising GDP often comes with longer work hours (leisure reduction), urban congestion, environmental degradation, and rising inequality - all welfare costs GDP ignores; together, these explain why countries can grow richer (in GDP terms) without becoming proportionally happier.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "A graduate student argues: \"The solution to GDP limitations is simple — just use multiple indicators simultaneously (GDP, Gini, HDI, pollution index, leisure time). We don't need to change GDP itself.\" An economics professor responds that this approach also has limitations. What are those limitations?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The professor is wrong — using multiple indicators perfectly solves all GDP limitations."
+      },
+      {
+        "label": "B",
+        "text": "The professor is correct that using multiple indicators has limitations: (1) Aggregation: how do you trade off higher GDP vs. more equality vs. less pollution? Without a weighting scheme, multiple indicators don't give a single policy ranking. (2) Political feasibility: governments may \"cherry-pick\" indicators that make them look good. (3) Data quality: indicators like pollution indices and leisure time are harder to measure than GDP. (4) Comparability: different countries use different definitions. The student's approach improves on single-indicator GDP but doesn't fully resolve the challenge of creating a comprehensive, unambiguous welfare measure."
+      },
+      {
+        "label": "C",
+        "text": "The professor is correct — multiple indicators are always worse than a single GDP figure."
+      },
+      {
+        "label": "D",
+        "text": "The professor is wrong because all major economic organizations already use multiple indicators."
+      },
+      {
+        "label": "E",
+        "text": "The professor is correct — only Green GDP can solve the limitations of conventional GDP."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Using multiple indicators is an improvement over relying on GDP alone, but it introduces the \"aggregation problem\": without weights, multiple indicators cannot produce a clear welfare ranking when they point in different directions (higher GDP but more pollution, or lower Gini but lower GDP). Policymakers need a way to trade off these dimensions - which requires value judgments that a purely technical solution cannot provide. Additionally, selective reporting (governments emphasizing favorable indicators) and measurement inconsistencies across countries reduce the approach's effectiveness.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "A country's statistical agency is considering two improvements to national accounting: Option A — impute values for household production (cooking, cleaning, childcare) using replacement cost method. Option B — subtract estimated costs of environmental degradation from GDP. Evaluate both options using the GDP limitations framework, and identify which would make GDP a better welfare measure and which raises the greatest methodological challenges.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option A is straightforward; Option B is problematic because environmental costs are impossible to measure."
+      },
+      {
+        "label": "B",
+        "text": "Both options address genuine GDP limitations, but both face significant methodological challenges. Option A (household production): addresses the nonmarket transaction limitation. Challenge: requires choosing between opportunity cost (foregone wages) and replacement cost (market price of equivalent service) — both are imperfect proxies that introduce subjectivity. Already done partially (imputed rent for owner-occupiers). Option B (environmental costs): addresses the environmental degradation limitation. Challenge: requires monetizing non-market environmental damage (health effects, ecosystem loss) using techniques like hedonic pricing and contingent valuation — all controversial and uncertain. Option B likely improves welfare accuracy more but faces greater methodological uncertainty."
+      },
+      {
+        "label": "C",
+        "text": "Option B is straightforward; Option A raises the greatest challenges."
+      },
+      {
+        "label": "D",
+        "text": "Neither option improves welfare accuracy because they both introduce subjectivity."
+      },
+      {
+        "label": "E",
+        "text": "Option A improves welfare accuracy; Option B reduces accuracy by subtracting production from GDP."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Both options are improvements in principle - each addressing a named GDP limitation - but both involve non-trivial methodological challenges. However, this is already done for owner-occupied housing in most GDP accounts, showing it's feasible; both make GDP more welfare-relevant; Option B targets the more quantitatively significant limitation but faces greater measurement uncertainty.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "A policy analyst presents data: Country Omega has GDP per capita = $42,000 (rank: 18th globally), but ranks 4th globally on the Sustainable Development Goals (SDGs) index, 6th on the World Happiness Report, and 3rd on the Environmental Performance Index. Country Sigma has GDP per capita = $58,000 (rank: 5th globally), ranks 31st on SDGs, 23rd on happiness, and 37th on environmental performance. Using the GDP limitations framework, comprehensively explain why Country Omega may provide higher well-being to its citizens despite a $16,000 per capita income disadvantage.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country Sigma provides higher well-being because $58,000 per capita is definitively better than $42,000."
+      },
+      {
+        "label": "B",
+        "text": "Country Omega likely provides higher well-being. The $16,000 income gap is offset by: (1) Sustainability (SDG 4th vs. 31st): more of Omega's development is environmentally sustainable — natural capital preserved for future generations. (2) Happiness (6th vs. 23rd): Omega's citizens report much higher life satisfaction — capturing social trust, work-life balance, purpose, freedom that GDP misses. (3) Environmental performance (3rd vs. 37th): cleaner air, water, and ecosystems in Omega provide significant health and quality-of-life benefits not in GDP. Each advantage reflects a specific GDP limitation: environmental costs (ignored by GDP), well-being beyond income (ignored), and sustainability (ignored). Together, they plausibly exceed the income gap for most citizens."
+      },
+      {
+        "label": "C",
+        "text": "Country Sigma provides higher well-being because its GDP reflects greater productivity."
+      },
+      {
+        "label": "D",
+        "text": "Both countries have equal welfare because the rankings differ across different metrics."
+      },
+      {
+        "label": "E",
+        "text": "Country Omega provides higher well-being only for citizens earning below the median income."
+      }
+    ],
+    "answer": "B",
+    "explanation": "This comprehensive synthesis question directly applies the GDP limitations framework to a realistic international comparison; three dimensions where GDP fails are illustrated: (1) Environmental quality: Omega ranks 3rd vs. Sigma's 37th - massive health and quality-of-life differences not in GDP; (2) Life satisfaction: Omega ranks 6th vs. 23rd - self-reported well-being reflects social capital, freedom, purpose, and relationships that GDP omits. (3) Sustainability: Omega's SDG advantage means its $42,000 per capita is more sustainable - future generations will also benefit; sigma's $58,000 per capita is high-consumption/high-pollution, which GDP counts fully while ignoring the environmental and social costs.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "Simon Kuznets — who helped design the first national income accounts in the 1930s — famously wrote: \"The welfare of a nation can scarcely be inferred from a measure of national income.\" Given all GDP limitations studied in this topic, construct the strongest possible argument that GDP should be RETAINED as the primary economic indicator rather than replaced.",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP should be replaced immediately because Kuznets himself rejected it."
+      },
+      {
+        "label": "B",
+        "text": "GDP should be retained as the primary indicator for several strong reasons: (1) Practical superiority: GDP is available quarterly for nearly every country, comparable across time and place, and constructed from extensive data. Alternative measures are often annual, inconsistent, and less comparable. (2) Business cycle tracking: GDP fluctuations remain the best measure of short-run economic activity — useful for recession detection, policy response, and market analysis. (3) Strong welfare correlation: despite limitations, GDP per capita correlates well with health, education, and life expectancy across countries. (4) Established infrastructure: policymakers, businesses, and markets have built decision frameworks around GDP. Replacing it would require massive recalibration with uncertain benefits. The argument is not that GDP is perfect, but that it is better than alternatives for its primary purpose: measuring market output and short-run economic fluctuations."
+      },
+      {
+        "label": "C",
+        "text": "GDP should be retained because all its limitations are negligible in practice."
+      },
+      {
+        "label": "D",
+        "text": "GDP should be retained because Kuznets was wrong in his assessment."
+      },
+      {
+        "label": "E",
+        "text": "GDP should be retained because all alternative indicators also fail to measure well-being."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The strongest pro-GDP argument is pragmatic and functional: GDP's practical advantages (frequency, comparability, data availability, established use) are substantial; its correlation with welfare indicators (imperfect but real) means it captures something important. For its primary designed purpose - tracking market output and business cycles - it is superior to alternatives; the limitations are real but don't undermine GDP for its core purpose. The nuanced conclusion: GDP should be retained as the primary economic activity indicator while being supplemented by welfare measures that address its limitations - the position of most major statistical agencies and economics organizations.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "A comprehensive exam question: A nation's GDP per capita rises from $28,000 to $33,000 over five years. Simultaneously: income inequality increases (Gini rises from 0.32 to 0.44); the informal economy grows from 12% to 18% of official GDP; average work hours rise from 42 to 46 per week; pollution costs are estimated to have increased by $2,000 per capita; and household production (unpaid work) rises by an estimated $1,500 per capita as more families care for aging relatives at home. After applying all relevant GDP limitations, estimate the change in true per capita welfare and evaluate whether the official GDP figure overstates or understates welfare improvement.",
+    "options": [
+      {
+        "label": "A",
+        "text": "True welfare rose by $5,000 — the full amount of GDP per capita growth."
+      },
+      {
+        "label": "B",
+        "text": "True welfare rose by approximately $1,500 to $2,500 — significantly less than the $5,000 GDP increase. Adjustments: (+$5,000) official GDP growth. Informal economy growth (+$1,800 based on 6% of new GDP ≈ additional unmeasured output at $30,500 × 0.06). Household production (+$1,500, though some is a shift from market to nonmarket, potentially neutral). Rising inequality (−$1,200 to −$2,000: median gains are below average at Gini 0.44). Pollution costs (−$2,000 per capita). Leisure loss (4 additional hours/week at $15/hour × 52 ≈ −$3,120/year). Combining: +$5,000 + $1,800 + $750 − $1,600 − $2,000 − $3,120 ≈ +$830. Official GDP substantially overstates welfare improvement for the average citizen."
+      },
+      {
+        "label": "C",
+        "text": "True welfare rose by $7,000 — the informal economy adds significantly to measured welfare."
+      },
+      {
+        "label": "D",
+        "text": "True welfare fell — the limitations collectively outweigh the GDP growth."
+      },
+      {
+        "label": "E",
+        "text": "True welfare rose by $5,000 for high-income households and fell for low-income ones — GDP accurately captures the average."
+      }
+    ],
+    "answer": "B",
+    "explanation": "This comprehensive calculation applies all major GDP limitations quantitatively: (1) Informal economy: +6% × ~$30,500 ≈ +$1,830 (real activity now captured). (2) Household production: +$1,500 (but partly a shift from paid to unpaid care, so may be neutral net of market reduction - credit half: +$750). (3) Inequality: Gini 0.32→0.44 means median captures ~75% of mean - median welfare gain ≈ 75% × $5,000 = $3,750 vs. $5,000 mean; inequality cost ≈ -$1,250; (4) Pollution: -$2,000; (5) Leisure: -4 hours/week × 52 × $15 = -$3,120; net: $5,000 + $1,830 + $750 - $1,250 - $2,000 - $3,120 = +$1,210; rough estimate: welfare rose ~$1,000-$2,500, well below the $5,000 GDP per capita gain; official GDP significantly overstates welfare improvement.",
+    "reference": "MEA-1.B | MEA-1.B.1",
+    "graphDescription": "",
+    "graphRequired": false
+  }
+]

@@ -1,0 +1,38 @@
+export const practiceCourses = [
+  {
+    slug: "ap-macro",
+    name: "AP Macro",
+    fullName: "AP Macroeconomics",
+    tag: "The bigger picture",
+    description: "Output, inflation, and the forces that move an economy.",
+    icon: "macro",
+    available: true,
+  },
+  {
+    slug: "ap-micro",
+    name: "AP Micro",
+    fullName: "AP Microeconomics",
+    tag: "Decisions & markets",
+    description: "Explore the choices of consumers, firms, and markets.",
+    icon: "micro",
+    available: false,
+  },
+  {
+    slug: "a-level",
+    name: "A-level",
+    fullName: "A-level Economics",
+    tag: "Theory into practice",
+    description: "Build your economic reasoning, analysis, and evaluation.",
+    icon: "alevel",
+    available: false,
+  },
+  {
+    slug: "ib",
+    name: "IB",
+    fullName: "IB Economics",
+    tag: "A global perspective",
+    description: "Connect economic models to the world around you.",
+    icon: "ib",
+    available: false,
+  },
+] as const;

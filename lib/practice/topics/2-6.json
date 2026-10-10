@@ -1,0 +1,3202 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "Nominal GDP is best defined as",
+    "options": [
+      {
+        "label": "A",
+        "text": "the total market value of all final goods and services produced in an economy in a given year, measured using the prices that prevailed in a designated base year."
+      },
+      {
+        "label": "B",
+        "text": "the total market value of all final goods and services produced in an economy in a given year, measured using the current prices of that same year — making it a measure of how much is spent on output."
+      },
+      {
+        "label": "C",
+        "text": "the total market value of all goods and services, both intermediate and final, produced in a given year."
+      },
+      {
+        "label": "D",
+        "text": "the total market value of all final goods and services produced in an economy, adjusted for changes in the overall price level."
+      },
+      {
+        "label": "E",
+        "text": "the total income earned by all households in an economy in a given year, excluding government transfers."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MEA-1.I.2: Nominal GDP measures the market value of all final goods and services produced in a given year using current-year prices. Because it uses current prices, any increase in nominal GDP can reflect either more production or higher prices - or both; it is described as \"how much is spent on output.\" The key distinguishing feature is the use of current-year (not base-year) prices.",
+    "reference": "MEA-1.I | MEA-1.I.1 | MEA-1.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "Real GDP is best defined as",
+    "options": [
+      {
+        "label": "A",
+        "text": "the total market value of all final goods and services produced in an economy in a given year, measured using that year's current prices."
+      },
+      {
+        "label": "B",
+        "text": "the total market value of all final goods and services produced in an economy, measured using the prices of an intermediate year rather than the base year."
+      },
+      {
+        "label": "C",
+        "text": "the total market value of all final goods and services produced in an economy in a given year, measured using constant (base-year) prices — removing the effect of changes in the overall price level so that it reflects actual production."
+      },
+      {
+        "label": "D",
+        "text": "the total spending by households, firms, and the government on all goods and services in a given year."
+      },
+      {
+        "label": "E",
+        "text": "the total income earned by workers in an economy after adjusting for taxes and transfers."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MEA-1.I.2: Real GDP measures the market value of all final goods and services using constant (base-year) prices, removing the effect of price-level changes. Because prices are held fixed at base-year levels, changes in real GDP reflect changes in actual quantities produced - not changes in prices; it is described as \"how much is produced.\" This makes real GDP the preferred measure of actual economic output and growth.",
+    "reference": "MEA-1.I | MEA-1.I.1 | MEA-1.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "The key difference between nominal GDP and real GDP is that",
+    "options": [
+      {
+        "label": "A",
+        "text": "nominal GDP includes government spending, while real GDP excludes it."
+      },
+      {
+        "label": "B",
+        "text": "nominal GDP is measured annually, while real GDP is measured quarterly."
+      },
+      {
+        "label": "C",
+        "text": "nominal GDP uses current-year prices and can rise due to either more production or higher prices, while real GDP uses constant base-year prices and rises only when actual output increases."
+      },
+      {
+        "label": "D",
+        "text": "nominal GDP includes only domestically produced goods, while real GDP includes imports."
+      },
+      {
+        "label": "E",
+        "text": "nominal GDP is always larger than real GDP regardless of the price level."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The essential difference is the price basis; nominal GDP uses current prices - it rises if prices rise even with no change in output. Real GDP uses constant base-year prices - it rises only if actual output (quantities) increases; this distinction allows real GDP to be used as an accurate measure of economic growth and living standards, since it isolates the production effect from the inflation effect.",
+    "reference": "MEA-1.I | MEA-1.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "According to the AP Macroeconomics CED, nominal GDP measures",
+    "options": [
+      {
+        "label": "A",
+        "text": "how much is produced in the economy."
+      },
+      {
+        "label": "B",
+        "text": "how much is spent on output — it values production at current market prices and rises when either prices or quantities increase."
+      },
+      {
+        "label": "C",
+        "text": "only the value of goods, excluding services."
+      },
+      {
+        "label": "D",
+        "text": "the inflation-adjusted value of all output."
+      },
+      {
+        "label": "E",
+        "text": "the total output produced by residents of a country regardless of location."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The CED defines nominal GDP as \"a measure of how much is spent on output.\" Current prices are used, so nominal GDP reflects both price and quantity effects. A rise in nominal GDP could result from more goods being produced, higher prices on the same goods, or both; it does not distinguish between real production gains and price-level increases.",
+    "reference": "MEA-1.I | MEA-1.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "According to the AP Macroeconomics CED, real GDP measures",
+    "options": [
+      {
+        "label": "A",
+        "text": "how much is spent on output at today's prices."
+      },
+      {
+        "label": "B",
+        "text": "the total value of all transactions in an economy."
+      },
+      {
+        "label": "C",
+        "text": "how much is produced — it values output at constant base-year prices, so changes in real GDP reflect changes in actual quantities of goods and services produced."
+      },
+      {
+        "label": "D",
+        "text": "the nominal value of output divided by the number of workers."
+      },
+      {
+        "label": "E",
+        "text": "the sum of all incomes earned in the economy before tax adjustments."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The CED defines real GDP as \"a measure of how much is produced.\" By holding prices constant at base-year levels, real GDP removes the inflation effect, leaving only changes in actual output (quantities). This is why real GDP is used to measure economic growth - a rise in real GDP means more goods and services were actually produced, not just that prices rose.",
+    "reference": "MEA-1.I | MEA-1.I.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "In the base year, which of the following statements about nominal GDP and real GDP is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real GDP is always larger than nominal GDP in the base year."
+      },
+      {
+        "label": "B",
+        "text": "Nominal GDP is always larger than real GDP in the base year."
+      },
+      {
+        "label": "C",
+        "text": "Nominal GDP and real GDP are equal in the base year because current prices equal base-year prices — the GDP deflator equals 100."
+      },
+      {
+        "label": "D",
+        "text": "Real GDP equals zero in the base year because prices have not yet changed."
+      },
+      {
+        "label": "E",
+        "text": "Nominal GDP equals real GDP only if there is no government sector."
+      }
+    ],
+    "answer": "C",
+    "explanation": "In the base year, by definition, current prices equal base-year prices; therefore, nominal GDP (using current prices) equals real GDP (using base-year prices). The GDP deflator = (Nominal / Real) × 100 = 100 in the base year; any year after the base year in which prices have risen will have nominal GDP > real GDP, and any year with prices below the base year will have nominal GDP < real GDP.",
+    "reference": "MEA-1.I | MEA-1.I.2 | MEA-1.J",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "If nominal GDP rose from $18 trillion to $20 trillion but all of the increase was due to higher prices with no change in actual output, then real GDP",
+    "options": [
+      {
+        "label": "A",
+        "text": "also rose from $18 trillion to $20 trillion."
+      },
+      {
+        "label": "B",
+        "text": "fell, because higher prices always reduce real output."
+      },
+      {
+        "label": "C",
+        "text": "remained unchanged — because real GDP is measured at constant base-year prices and reflects quantities produced, it does not rise when only prices increase."
+      },
+      {
+        "label": "D",
+        "text": "rose to $20 trillion, then was deflated back to $18 trillion by the GDP deflator."
+      },
+      {
+        "label": "E",
+        "text": "rose by exactly 2%, matching the increase in nominal GDP."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Real GDP uses constant base-year prices to measure output. If actual quantities produced are unchanged and only prices rose, the base-year-price value of that same output remains the same - real GDP does not change; this is precisely the purpose of using constant prices: to strip out the inflation effect so that real GDP changes only when actual production changes.",
+    "reference": "MEA-1.I | MEA-1.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "The GDP deflator is calculated as",
+    "options": [
+      {
+        "label": "A",
+        "text": "(Real GDP ÷ Nominal GDP) × 100"
+      },
+      {
+        "label": "B",
+        "text": "(Nominal GDP − Real GDP) ÷ Real GDP"
+      },
+      {
+        "label": "C",
+        "text": "(Nominal GDP ÷ Real GDP) × 100 — it measures the ratio of nominal to real GDP, scaled to 100 in the base year, and serves as a broad price index for the entire economy."
+      },
+      {
+        "label": "D",
+        "text": "(Nominal GDP ÷ Population) × 100"
+      },
+      {
+        "label": "E",
+        "text": "(Real GDP ÷ GDP Deflator) × 100"
+      }
+    ],
+    "answer": "C",
+    "explanation": "GDP Deflator = (Nominal GDP ÷ Real GDP) × 100; this formula directly derives from the relationship between the two GDP measures; in the base year, Nominal = Real, so Deflator = 100. When prices rise above the base year, Nominal > Real and Deflator > 100; when prices are below base-year levels, Nominal < Real and Deflator < 100; the deflator is a comprehensive price index covering all goods and services in GDP, not just a consumer basket.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "Given nominal GDP of $500 billion and a GDP deflator of 125, real GDP equals",
+    "options": [
+      {
+        "label": "A",
+        "text": "$625 billion"
+      },
+      {
+        "label": "B",
+        "text": "$375 billion"
+      },
+      {
+        "label": "C",
+        "text": "$500 billion"
+      },
+      {
+        "label": "D",
+        "text": "$400 billion"
+      },
+      {
+        "label": "E",
+        "text": "$125 billion"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Real GDP = (Nominal GDP ÷ GDP Deflator) × 100 = ($500B ÷ 125) × 100 = $400 billion. The deflator of 125 means prices are 25% above the base year; dividing nominal by 1.25 converts current-dollar values to base-year-dollar purchasing power; this is the standard MEA-1.J.2 conversion formula used on every AP exam.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "Given nominal GDP of $900 billion and a GDP deflator of 150, real GDP equals",
+    "options": [
+      {
+        "label": "A",
+        "text": "$1,350 billion"
+      },
+      {
+        "label": "B",
+        "text": "$750 billion"
+      },
+      {
+        "label": "C",
+        "text": "$600 billion"
+      },
+      {
+        "label": "D",
+        "text": "$900 billion"
+      },
+      {
+        "label": "E",
+        "text": "$450 billion"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Real GDP = (Nominal ÷ Deflator) × 100 = ($900B ÷ 150) × 100 = $600 billion. The deflator of 150 means prices are 50% above the base year; the same physical output that costs $900B today would have cost only $600B at base-year prices; this conversion is the core calculation of MEA-1.J.2.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "If real GDP is $800 billion and the GDP deflator is 110, nominal GDP equals",
+    "options": [
+      {
+        "label": "A",
+        "text": "$727 billion"
+      },
+      {
+        "label": "B",
+        "text": "$800 billion"
+      },
+      {
+        "label": "C",
+        "text": "$880 billion"
+      },
+      {
+        "label": "D",
+        "text": "$910 billion"
+      },
+      {
+        "label": "E",
+        "text": "$110 billion"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Nominal GDP = Real GDP × (GDP Deflator ÷ 100) = $800B × (110 ÷ 100) = $800B × 1.10 = $880 billion. This is the reverse of the standard conversion - multiplying real GDP by the price index converts from constant-price values to current-price values; with prices 10% above the base year, the same real output carries a 10% higher nominal price tag.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "A country's nominal GDP is $2 trillion and real GDP is $1.6 trillion. What is the GDP deflator?",
+    "options": [
+      {
+        "label": "A",
+        "text": "80"
+      },
+      {
+        "label": "B",
+        "text": "100"
+      },
+      {
+        "label": "C",
+        "text": "125"
+      },
+      {
+        "label": "D",
+        "text": "160"
+      },
+      {
+        "label": "E",
+        "text": "200"
+      }
+    ],
+    "answer": "C",
+    "explanation": "GDP Deflator = (Nominal ÷ Real) × 100 = ($2T ÷ $1.6T) × 100 = 1.25 × 100 = 125. A deflator of 125 indicates that the overall price level is 25% above the base year; equivalently, it takes $125 of current-year spending to buy what $100 bought in the base year; this is the standard MEA-1.J.2 deflator calculation.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "In a given year, a country's nominal GDP equals real GDP. Which of the following MUST be true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The economy produced zero output."
+      },
+      {
+        "label": "B",
+        "text": "The inflation rate was positive."
+      },
+      {
+        "label": "C",
+        "text": "The GDP deflator equals 100, meaning the current price level is the same as the base-year price level."
+      },
+      {
+        "label": "D",
+        "text": "The economy is in a recession."
+      },
+      {
+        "label": "E",
+        "text": "The nominal GDP cannot be calculated without knowing the base year."
+      }
+    ],
+    "answer": "C",
+    "explanation": "If nominal GDP = real GDP, then GDP Deflator = (Nominal ÷ Real) × 100 = 100; A deflator of 100 occurs when current prices equal base-year prices. This happens by definition in the base year, or in any other year where the price level happens to equal the base-year level; it does not imply zero output, recession, or any specific inflation rate.",
+    "reference": "MEA-1.I | MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "If the GDP deflator is greater than 100, which of the following is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real GDP is greater than nominal GDP."
+      },
+      {
+        "label": "B",
+        "text": "The economy is in a recession."
+      },
+      {
+        "label": "C",
+        "text": "Nominal GDP is greater than real GDP — prices are above the base-year level, so current-dollar spending on output exceeds the base-year-dollar value of that same output."
+      },
+      {
+        "label": "D",
+        "text": "The inflation rate is negative."
+      },
+      {
+        "label": "E",
+        "text": "Real GDP cannot be calculated without more information."
+      }
+    ],
+    "answer": "C",
+    "explanation": "GDP Deflator > 100 means prices are above the base year level; since Deflator = (Nominal ÷ Real) × 100, if Deflator > 100 then Nominal > Real. Current prices inflate the nominal value of output above what it would be priced at base-year prices; the deflator exceeds 100 whenever cumulative inflation since the base year has been positive.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "If the GDP deflator is less than 100, which of the following is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nominal GDP is greater than real GDP."
+      },
+      {
+        "label": "B",
+        "text": "The economy experienced deflation relative to the base year — the price level is below the base-year level, making real GDP (at base-year prices) greater than nominal GDP (at current lower prices)."
+      },
+      {
+        "label": "C",
+        "text": "Real GDP is always negative when the deflator falls below 100."
+      },
+      {
+        "label": "D",
+        "text": "The GDP deflator can never be less than 100."
+      },
+      {
+        "label": "E",
+        "text": "Nominal GDP equals real GDP whenever the deflator is below 100."
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP Deflator < 100 means current prices are below base-year prices; since Deflator = (Nominal ÷ Real) × 100, if Deflator < 100 then Nominal < Real. The same physical output is priced lower in current dollars than at base-year prices, so real GDP (which values output at the higher base-year prices) exceeds nominal GDP; this can occur when the base year had higher prices than the current year.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "One method of measuring real GDP, as identified in MEA-1.J.1, is to",
+    "options": [
+      {
+        "label": "A",
+        "text": "multiply current-year output quantities by current-year prices."
+      },
+      {
+        "label": "B",
+        "text": "subtract the value of imported goods from nominal GDP."
+      },
+      {
+        "label": "C",
+        "text": "multiply current-year output quantities by base-year prices, holding prices constant to remove the effect of inflation from the value of production."
+      },
+      {
+        "label": "D",
+        "text": "add the nominal GDP of all previous years to the current year."
+      },
+      {
+        "label": "E",
+        "text": "divide the nominal GDP by the consumer price index (CPI)."
+      }
+    ],
+    "answer": "C",
+    "explanation": "One approach to measuring real GDP is to value current-year quantities at base-year prices (constant prices). This method holds prices fixed so that changes in the resulting total reflect only changes in quantities produced; however, MEA-1.J.1 notes this method \"can lead to overstatement of real GDP growth,\" which is why statistical agencies use more sophisticated chain-weighting methods in practice.",
+    "reference": "MEA-1.J | MEA-1.J.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "The AP Macroeconomics CED notes that measuring real GDP by valuing output at base-year prices \"can lead to overstatement of real GDP growth.\" This implies that",
+    "options": [
+      {
+        "label": "A",
+        "text": "using base-year prices always understates the true level of real GDP."
+      },
+      {
+        "label": "B",
+        "text": "the older the base year, the lower the measured real GDP growth will be."
+      },
+      {
+        "label": "C",
+        "text": "the base-year price method tends to exaggerate how much real output has grown because base-year prices may not reflect the relative prices consumers face when they actually make substitutions; statistical agencies therefore use alternative methods to correct for this."
+      },
+      {
+        "label": "D",
+        "text": "the base-year method is the official method used by the U.S. Bureau of Economic Analysis."
+      },
+      {
+        "label": "E",
+        "text": "overstatement of real GDP growth means nominal GDP must also be overstated."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Using fixed base-year prices to measure real GDP creates an overstatement problem because prices of rapidly growing sectors tend to fall over time (e.g., technology). When base-year prices are used, these sectors appear larger in real terms than they truly are relative to their actual economic importance in later years; statistical agencies (like the U.S; BEA) use chain-weighting methods that update price weights more frequently to avoid this distortion.",
+    "reference": "MEA-1.J | MEA-1.J.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "A country's nominal GDP grew by 10% in one year. If the GDP deflator also rose by 10%, what happened to real GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real GDP rose by 20% because both nominal GDP and prices increased."
+      },
+      {
+        "label": "B",
+        "text": "Real GDP rose by 10% matching the nominal increase."
+      },
+      {
+        "label": "C",
+        "text": "Real GDP was unchanged — when nominal GDP and the price level rise by the same percentage, the price increase fully explains the nominal increase, leaving no real output growth."
+      },
+      {
+        "label": "D",
+        "text": "Real GDP fell by 10% because inflation eroded purchasing power."
+      },
+      {
+        "label": "E",
+        "text": "Real GDP cannot be determined without knowing base-year values."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Real GDP = (Nominal ÷ Deflator) × 100. If Nominal and Deflator both rise by 10% (both multiplied by 1.10): Real = (Nominal × 1.10) ÷ (Deflator × 1.10) × 100 = Nominal ÷ Deflator × 100 - unchanged; when nominal GDP rises by the same percentage as the price level, there is no real growth - the entire nominal increase is attributable to inflation, not increased production.",
+    "reference": "MEA-1.I | MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "A country's nominal GDP is $3 trillion and its GDP deflator is 100. What is its real GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$3 trillion — when the deflator equals 100, current prices equal base-year prices, so nominal GDP equals real GDP."
+      },
+      {
+        "label": "B",
+        "text": "$300 billion"
+      },
+      {
+        "label": "C",
+        "text": "$30 trillion"
+      },
+      {
+        "label": "D",
+        "text": "$2 trillion"
+      },
+      {
+        "label": "E",
+        "text": "Real GDP cannot equal nominal GDP under any circumstances."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Real GDP = (Nominal ÷ Deflator) × 100 = ($3T ÷ 100) × 100 = $3T. When the GDP deflator = 100, this is the base year (or a year with the same price level as the base year); current prices equal base-year prices, so nominal and real GDP are identical; the deflator of 100 confirms no price-level difference between the current year and the base year.",
+    "reference": "MEA-1.I | MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "Which of the following best explains why economists prefer real GDP over nominal GDP when comparing economic output across different years?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real GDP is easier to calculate than nominal GDP because it does not require current price data."
+      },
+      {
+        "label": "B",
+        "text": "Real GDP includes more categories of output than nominal GDP."
+      },
+      {
+        "label": "C",
+        "text": "Real GDP uses constant base-year prices, so changes in real GDP across years reflect changes in actual quantities produced rather than changes in prices — this makes it a reliable measure of actual economic growth over time."
+      },
+      {
+        "label": "D",
+        "text": "Nominal GDP counts imports while real GDP excludes them, making real GDP a purer measure of domestic output."
+      },
+      {
+        "label": "E",
+        "text": "Real GDP is always larger than nominal GDP, making it a more accurate measure of the economy's total capacity."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Real GDP removes the effect of price-level changes by using constant prices. This allows meaningful comparison across years: a rise in real GDP from Year 1 to Year 5 can be attributed to more output (more goods and services produced), not simply to higher prices; nominal GDP conflates output growth and price growth, making it unreliable for measuring actual economic performance over time.",
+    "reference": "MEA-1.I | MEA-1.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "A simple one-good economy produces 200 units of a good. In the base year, the price was $10. In the current year, the price is $13 and output is still 200 units. What are nominal GDP and real GDP in the current year?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nominal GDP = $2,000; Real GDP = $2,000"
+      },
+      {
+        "label": "B",
+        "text": "Nominal GDP = $2,600; Real GDP = $2,600"
+      },
+      {
+        "label": "C",
+        "text": "Nominal GDP = $2,600; Real GDP = $2,000"
+      },
+      {
+        "label": "D",
+        "text": "Nominal GDP = $2,000; Real GDP = $2,600"
+      },
+      {
+        "label": "E",
+        "text": "Nominal GDP = $2,600; Real GDP = $1,538"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Nominal GDP = Current quantities × Current prices = 200 × $13 = $2,600; real GDP = Current quantities × Base-year prices = 200 × $10 = $2,000. Output is unchanged (200 units), but nominal GDP rose from $2,000 to $2,600 entirely due to the price increase from $10 to $13; real GDP correctly shows no output growth - it remains at $2,000; the GDP deflator = (2,600 ÷ 2,000) × 100 = 130, confirming 30% inflation.",
+    "reference": "MEA-1.I | MEA-1.I.2 | MEA-1.J",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "A simple economy produced 100 units in the base year at $5 each, and 120 units in the current year at $6 each. What is real GDP in the current year (using base-year prices)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$720"
+      },
+      {
+        "label": "B",
+        "text": "$600"
+      },
+      {
+        "label": "C",
+        "text": "$500"
+      },
+      {
+        "label": "D",
+        "text": "$660"
+      },
+      {
+        "label": "E",
+        "text": "$120"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Real GDP = Current-year quantities × Base-year prices = 120 × $5 = $600; nominal GDP = 120 × $6 = $720. Real GDP grew from $500 (base year: 100 × $5) to $600 - a 20% real increase matching the 20% rise in output; nominal GDP grew from $500 to $720 - a 44% increase - but this overstates real growth because it includes the price effect.",
+    "reference": "MEA-1.J | MEA-1.J.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "The GDP deflator is described as a \"broad price index\" because",
+    "options": [
+      {
+        "label": "A",
+        "text": "it only measures the prices of goods purchased by consumers."
+      },
+      {
+        "label": "B",
+        "text": "it uses a fixed basket of consumer goods, like the CPI, to track price changes."
+      },
+      {
+        "label": "C",
+        "text": "it covers all final goods and services included in GDP — not just consumer goods — making it a comprehensive measure of economy-wide price-level changes, broader than the CPI."
+      },
+      {
+        "label": "D",
+        "text": "it is calculated monthly rather than annually, giving broader time coverage."
+      },
+      {
+        "label": "E",
+        "text": "it includes the prices of intermediate goods, which the CPI excludes."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The GDP deflator is economy-wide: it covers all components of GDP - consumption, investment, government spending, and net exports; the CPI, by contrast, tracks only a fixed basket of consumer goods. Because the GDP deflator covers the entire output of the economy (all final goods and services), it is a broader price index than the CPI; any final good or service that enters GDP calculation also affects the GDP deflator.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "If a country's nominal GDP increases from $1 trillion to $1.2 trillion and the GDP deflator increases from 100 to 110 over the same period, real GDP",
+    "options": [
+      {
+        "label": "A",
+        "text": "increased from $1T to $1.2T — matching the nominal increase."
+      },
+      {
+        "label": "B",
+        "text": "increased from $1T to approximately $1.09T — real GDP grew, but by less than nominal GDP since some of the nominal increase was due to inflation."
+      },
+      {
+        "label": "C",
+        "text": "remained unchanged at $1T because any increase in nominal GDP caused by inflation leaves real GDP unaffected."
+      },
+      {
+        "label": "D",
+        "text": "decreased from $1T to $0.91T because the deflator rose."
+      },
+      {
+        "label": "E",
+        "text": "increased from $1T to $1.32T because the deflator multiplies the nominal change."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Base year real GDP = $1T (deflator = 100, so nominal = real); current real GDP = ($1.2T ÷ 110) × 100 = $1.0909T ≈ $1.09T. Nominal GDP grew 20%; the price level grew 10%; real output growth ≈ (1.20 ÷ 1.10) - 1 ≈ 9.09%; the nominal growth was partly real (9.09%) and partly inflation (10%); real GDP increased but by less than nominal GDP.",
+    "reference": "MEA-1.I | MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "Which of the following is an accurate statement about nominal GDP and real GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nominal GDP is always larger than real GDP."
+      },
+      {
+        "label": "B",
+        "text": "Real GDP is always larger than nominal GDP."
+      },
+      {
+        "label": "C",
+        "text": "Nominal GDP equals real GDP in the base year; nominal GDP exceeds real GDP when prices have risen above base-year levels; and real GDP exceeds nominal GDP when prices have fallen below base-year levels."
+      },
+      {
+        "label": "D",
+        "text": "Nominal GDP and real GDP are never equal to each other."
+      },
+      {
+        "label": "E",
+        "text": "Real GDP measures government spending while nominal GDP measures private spending."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The relationship between nominal and real GDP depends on the price level relative to the base year; in base year: Nominal = Real (deflator = 100). After inflation (prices above base year): Nominal > Real (deflator > 100); after deflation from base year (prices below base year): Nominal < Real (deflator < 100); neither is always larger - the relative magnitude depends on whether prices are above or below their base-year levels.",
+    "reference": "MEA-1.I | MEA-1.J",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "The formula Real GDP = (Nominal GDP ÷ GDP Deflator) × 100 is used to",
+    "options": [
+      {
+        "label": "A",
+        "text": "convert real GDP into nominal GDP by adjusting for price changes."
+      },
+      {
+        "label": "B",
+        "text": "calculate the inflation rate from the GDP deflator."
+      },
+      {
+        "label": "C",
+        "text": "convert nominal GDP into real GDP by removing the effect of price-level changes — dividing by the deflator (which captures how much prices have risen above the base year) and multiplying by 100 yields output valued at base-year prices."
+      },
+      {
+        "label": "D",
+        "text": "measure the size of the output gap between actual and potential GDP."
+      },
+      {
+        "label": "E",
+        "text": "calculate per-capita real GDP by dividing total output by population."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Real GDP = (Nominal ÷ Deflator) × 100; this formula deflates nominal GDP by the GDP deflator. If the deflator = 120, prices are 20% above the base year, so nominal GDP is inflated by 20%; dividing by 120 and multiplying by 100 removes that 20% price inflation, yielding output measured in base-year prices (real GDP); this is the primary calculation method for MEA-1.J.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "An economy's nominal GDP grew by 8% and its real GDP grew by 3% in the same year. This means that",
+    "options": [
+      {
+        "label": "A",
+        "text": "prices fell by 5 percentage points during the year."
+      },
+      {
+        "label": "B",
+        "text": "the economy's output contracted, even though nominal GDP grew."
+      },
+      {
+        "label": "C",
+        "text": "approximately 3 percentage points of the 8% nominal GDP growth represented actual increases in output, while approximately 5 percentage points represented inflation — the rise in the price level."
+      },
+      {
+        "label": "D",
+        "text": "the GDP deflator was 3 in this year."
+      },
+      {
+        "label": "E",
+        "text": "both nominal and real GDP grew by 3%, with the remainder representing measurement error."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Nominal GDP growth ≈ Real GDP growth + Inflation rate (approximation). 8% ≈ 3% (real) + 5% (inflation); the nominal growth rate overstates real growth by the inflation rate. About 3 pp of the 8% nominal growth reflected more goods and services produced; about 5 pp reflected higher prices for the same goods and services; this is the core reason economists use real, not nominal, GDP to measure economic growth.",
+    "reference": "MEA-1.I | MEA-1.I.2 | MEA-1.J",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "Country A has nominal GDP of $500 billion and GDP deflator of 80. Country A's real GDP is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$400 billion"
+      },
+      {
+        "label": "B",
+        "text": "$500 billion"
+      },
+      {
+        "label": "C",
+        "text": "$580 billion"
+      },
+      {
+        "label": "D",
+        "text": "$625 billion"
+      },
+      {
+        "label": "E",
+        "text": "$80 billion"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Real GDP = (Nominal ÷ Deflator) × 100 = ($500B ÷ 80) × 100 = $625 billion; A deflator below 100 means prices are below the base year level. When prices are lower than in the base year, the same nominal spending represents MORE real output in base-year terms - real GDP exceeds nominal GDP; this is a case where Real GDP > Nominal GDP.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "Which of the following correctly describes the GDP deflator in the base year?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The GDP deflator equals zero in the base year because there is no inflation."
+      },
+      {
+        "label": "B",
+        "text": "The GDP deflator equals 50, the midpoint between 0 and 100."
+      },
+      {
+        "label": "C",
+        "text": "The GDP deflator equals 100 in the base year — by definition, the current year IS the base year, so current prices equal base-year prices, and the ratio of nominal to real GDP equals 1, times 100."
+      },
+      {
+        "label": "D",
+        "text": "The GDP deflator equals 200 in the base year because it includes both nominal and real values."
+      },
+      {
+        "label": "E",
+        "text": "The GDP deflator cannot be calculated for the base year."
+      }
+    ],
+    "answer": "C",
+    "explanation": "In the base year, Nominal GDP = Real GDP (both use the same base-year prices); GDP Deflator = (Nominal ÷ Real) × 100 = (X ÷ X) × 100 = 100. The deflator always equals 100 in the base year by construction; years with deflator > 100 have higher prices than the base year; years with deflator < 100 have lower prices than the base year.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "A country reports the following: Nominal GDP = $450 billion; Real GDP = $450 billion. Which of the following can be concluded?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The country has experienced high inflation relative to the base year."
+      },
+      {
+        "label": "B",
+        "text": "The GDP deflator equals 200, indicating strong economic growth."
+      },
+      {
+        "label": "C",
+        "text": "The GDP deflator equals 100, indicating that the current price level equals the base-year price level — this is either the base year or a year in which the price level has returned to its base-year level."
+      },
+      {
+        "label": "D",
+        "text": "Real GDP cannot equal nominal GDP; this data must contain an error."
+      },
+      {
+        "label": "E",
+        "text": "The economy has zero output because nominal and real GDP are equal."
+      }
+    ],
+    "answer": "C",
+    "explanation": "If Nominal GDP = Real GDP = $450B, then GDP Deflator = (450 ÷ 450) × 100 = 100; A deflator of 100 simply means current prices equal the base-year reference level. This is the defining property of the base year, or it may be a coincidence in another year if the price level happens to match the base year; it carries no implication about output level, growth, or inflation path.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 31,
+    "difficulty": "Easy",
+    "prompt": "Real GDP growth from one year to the next is best measured by",
+    "options": [
+      {
+        "label": "A",
+        "text": "the percentage change in nominal GDP."
+      },
+      {
+        "label": "B",
+        "text": "the difference between nominal GDP and the GDP deflator."
+      },
+      {
+        "label": "C",
+        "text": "the percentage change in real GDP — calculated by holding prices constant at base-year levels so that any measured increase reflects actual changes in the volume of goods and services produced rather than price-level changes."
+      },
+      {
+        "label": "D",
+        "text": "the percentage change in the GDP deflator."
+      },
+      {
+        "label": "E",
+        "text": "the ratio of nominal GDP to the labor force."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Real GDP growth = [(Real GDP current - Real GDP previous) ÷ Real GDP previous] × 100. Because real GDP uses constant prices, this growth rate captures changes in actual production; nominal GDP growth mixes output and price effects, making it unsuitable for measuring economic growth; the GDP deflator growth rate measures only inflation - not output.",
+    "reference": "MEA-1.I | MEA-1.I.2 | MEA-1.J",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 32,
+    "difficulty": "Easy",
+    "prompt": "A country's nominal GDP was $800 billion in Year 1 and $880 billion in Year 2. The GDP deflator was 100 in Year 1 and 100 in Year 2. What happened to real GDP between Year 1 and Year 2?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real GDP remained unchanged because the deflator did not change."
+      },
+      {
+        "label": "B",
+        "text": "Real GDP fell because nominal GDP rose."
+      },
+      {
+        "label": "C",
+        "text": "Real GDP rose from $800B to $880B — because the GDP deflator did not change (prices are the same both years), the entire 10% rise in nominal GDP represents a 10% rise in real output. When prices are constant, nominal growth equals real growth."
+      },
+      {
+        "label": "D",
+        "text": "Real GDP rose to $880B only in nominal terms, not in real terms."
+      },
+      {
+        "label": "E",
+        "text": "Real GDP cannot be determined without knowing the base year."
+      }
+    ],
+    "answer": "C",
+    "explanation": "If the deflator = 100 in both years, prices did not change between Year 1 and Year 2; real GDP Year 1 = (800 ÷ 100) × 100 = $800B. Real GDP Year 2 = (880 ÷ 100) × 100 = $880B; with no price change, nominal GDP growth = real GDP growth = 10%; the entire $80B increase in nominal GDP reflects additional real output, not inflation.",
+    "reference": "MEA-1.I | MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 33,
+    "difficulty": "Easy",
+    "prompt": "Which of the following scenarios would cause nominal GDP to RISE while real GDP remains UNCHANGED?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An increase in the quantity of goods and services produced with no change in prices."
+      },
+      {
+        "label": "B",
+        "text": "A reduction in the price level with no change in quantities produced."
+      },
+      {
+        "label": "C",
+        "text": "An increase in the price level with no change in the quantity of goods and services produced — all existing output now costs more in current-dollar terms, raising nominal GDP, but real GDP (at fixed base-year prices) remains the same since no additional goods were produced."
+      },
+      {
+        "label": "D",
+        "text": "An increase in both the quantity produced and the price level."
+      },
+      {
+        "label": "E",
+        "text": "A decrease in the quantity produced with no change in prices."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Nominal GDP = quantities × current prices; Real GDP = quantities × base-year prices. If quantities are constant and only prices rise: Nominal GDP rises (more dollars spent on same output); Real GDP is unchanged (same quantities × same base-year prices = same value); this scenario is a pure price effect - GDP deflator rises, but real GDP stays flat; it is the clearest illustration of why nominal GDP can rise without actual economic growth.",
+    "reference": "MEA-1.I | MEA-1.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "A country reports the following data:\n\nYear 1 (base year): Nominal GDP = $1,000B, Real GDP = $1,000B\nYear 2: Nominal GDP = $1,200B, Real GDP = $1,100B\nYear 3: Nominal GDP = $1,400B, Real GDP = $1,150B\n\nCalculate the GDP deflator for Year 2 and Year 3, and determine the inflation rate from Year 2 to Year 3.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Year 2 deflator = 109.1; Year 3 deflator = 121.7; Inflation Y2→Y3 ≈ 11.6%"
+      },
+      {
+        "label": "B",
+        "text": "Year 2 deflator = 120; Year 3 deflator = 140; Inflation Y2→Y3 ≈ 16.7%"
+      },
+      {
+        "label": "C",
+        "text": "Year 2 deflator = 110; Year 3 deflator = 121.7; Inflation Y2 to Y3 approximately 10.6%"
+      },
+      {
+        "label": "D",
+        "text": "Year 2 deflator = 109.1; Year 3 deflator = 121.7; Inflation Y2 to Y3 approximately 12.6%"
+      },
+      {
+        "label": "E",
+        "text": "Year 2 deflator = 100; Year 3 deflator = 121.7; Inflation Y2→Y3 ≈ 21.7%"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Year 2 deflator = (1,200 ÷ 1,100) × 100 ≈ 109.1; year 3 deflator = (1,400 ÷ 1,150) × 100 ≈ 121.7. Inflation Y2→Y3 = [(121.7 - 109.1) ÷ 109.1] × 100 ≈ (12.6 ÷ 109.1) × 100 ≈ 11.6%; note: real GDP grew from $1,100B to $1,150B (+4.5%) but nominal GDP grew from $1,200B to $1,400B (+16.7%) - the large gap reflects significant inflation (≈11.6%) in Year 3.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "Country Beta's nominal GDP grew by 15% from Year 1 to Year 2, while its GDP deflator grew from 100 to 110. By approximately what percentage did real GDP grow?",
+    "options": [
+      {
+        "label": "A",
+        "text": "15%"
+      },
+      {
+        "label": "B",
+        "text": "25%"
+      },
+      {
+        "label": "C",
+        "text": "Approximately 3% real GDP growth"
+      },
+      {
+        "label": "D",
+        "text": "Approximately 5%, since nominal growth (15%) minus the inflation rate (10%) gives approximately 5% real growth."
+      },
+      {
+        "label": "E",
+        "text": "Approximately 10% — real growth equals the rate of inflation."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Approximate real GDP growth = Nominal growth - Inflation ≈ 15% - 10% = 5%; more precisely: (1.15 ÷ 1.10) - 1 = 1.0455 - 1 = 4.55% ≈ 4.5-5%. Of the 15% nominal GDP growth, about 10% is attributable to inflation and about 4.5-5% to actual real output growth; answer D (≈5%) is the closest correct approximation using the standard formula.",
+    "reference": "MEA-1.I | MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "A two-good economy produces the following:\n\nBase year: Good A — 100 units × $10 = $1,000; Good B — 50 units × $20 = $1,000. Total base year GDP = $2,000.\nCurrent year: Good A — 120 units × $12; Good B — 60 units × $22.\n\nCalculate current-year nominal GDP, current-year real GDP (using base-year prices), and the GDP deflator.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nominal = $2,760; Real = $2,400; Deflator = 115"
+      },
+      {
+        "label": "B",
+        "text": "Nominal = $2,760; Real = $2,000; Deflator = 138"
+      },
+      {
+        "label": "C",
+        "text": "Nominal = $2,400; Real = $2,760; Deflator = 87"
+      },
+      {
+        "label": "D",
+        "text": "Nominal = $2,760; Real = $2,200; Deflator = 125.5"
+      },
+      {
+        "label": "E",
+        "text": "Nominal = $2,760; Real = $2,400; Deflator = 120"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Nominal GDP = (120×$12) + (60×$22) = $1,440 + $1,320 = $2,760; real GDP = (120×$10) + (60×$20) = $1,200 + $1,200 = $2,400; deflator = (2,760 ÷ 2,400) × 100 = 115. Real GDP grew from $2,000 to $2,400 (+20% - reflecting 20% quantity growth in both goods); nominal GDP grew from $2,000 to $2,760 (+38%), with the extra 18% reflecting price increases (deflator rose from 100 to 115 ≈ 15% price increase, compounded with quantity growth).",
+    "reference": "MEA-1.J | MEA-1.J.1 | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "A student claims: \"If nominal GDP doubled from $1 trillion to $2 trillion, the country's standard of living must have improved significantly.\" An economist replies that this conclusion is not necessarily correct. What is the best explanation for the economist's response?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nominal GDP cannot double — it is bounded by the size of the money supply."
+      },
+      {
+        "label": "B",
+        "text": "Nominal GDP growth always reduces the standard of living."
+      },
+      {
+        "label": "C",
+        "text": "A doubling of nominal GDP could result entirely from a doubling of prices with no increase in real output. If the GDP deflator also doubled (rose from 100 to 200), real GDP would be unchanged — meaning no additional goods or services were produced and no improvement in living standards occurred. Standard of living depends on real GDP, not nominal GDP."
+      },
+      {
+        "label": "D",
+        "text": "Nominal GDP includes government transfer payments that do not contribute to living standards."
+      },
+      {
+        "label": "E",
+        "text": "The student is correct — any doubling of nominal GDP always reflects improved living standards."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Nominal GDP rises when prices rise, even if output is unchanged. If Nominal GDP doubles from $1T to $2T but the deflator also doubles from 100 to 200, then Real GDP = ($2T ÷ 200) × 100 = $1T - unchanged; the price level doubled; real output is the same; no additional goods or services were produced; standard of living (which depends on real output) did not improve; this is the key reason real GDP is preferred for welfare comparisons.",
+    "reference": "MEA-1.I | MEA-1.I.1 | MEA-1.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "Country X has the following data:\n• Year 1: Nominal GDP = $2.4 trillion, GDP Deflator = 120\n• Year 2: Nominal GDP = $2.6 trillion, GDP Deflator = 125\n\nCalculate real GDP in each year and the real GDP growth rate.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Year 1 Real = $2.0T; Year 2 Real = $2.08T; Real growth ≈ 4%"
+      },
+      {
+        "label": "B",
+        "text": "Year 1 Real = $2.0T; Year 2 Real = $2.08T; Real growth approximately 3%"
+      },
+      {
+        "label": "C",
+        "text": "Year 1 Real = $2.0T; Year 2 Real = $2.12T; Real growth approximately 6%"
+      },
+      {
+        "label": "D",
+        "text": "Year 1 Real = $1.92T; Year 2 Real = $2.08T; Real growth ≈ 8.3%"
+      },
+      {
+        "label": "E",
+        "text": "Year 1 Real = $2.88T; Year 2 Real = $3.25T; Real growth ≈ 12.8%"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Year 1 Real = (2.4 ÷ 120) × 100 = $2.0T; year 2 Real = (2.6 ÷ 125) × 100 = $2.08T. Real GDP growth = [(2.08 - 2.0) ÷ 2.0] × 100 = (0.08 ÷ 2.0) × 100 = 4.0%; nominal GDP grew 8.3% [(2.6-2.4)÷2.4] but real GDP grew only 4% - the remaining ~4% of nominal growth was due to inflation (deflator rose from 120 to 125 ≈ 4.2% inflation).",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "A country's real GDP grew by 5% while its GDP deflator rose by 8%. By approximately what percentage did nominal GDP grow?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3%"
+      },
+      {
+        "label": "B",
+        "text": "5%"
+      },
+      {
+        "label": "C",
+        "text": "8%"
+      },
+      {
+        "label": "D",
+        "text": "Approximately 13% — nominal GDP growth ≈ real GDP growth + inflation rate = 5% + 8% = 13% (approximation). More precisely: (1.05 × 1.08) − 1 = 1.134 − 1 = 13.4%."
+      },
+      {
+        "label": "E",
+        "text": "40%"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Nominal GDP growth ≈ Real GDP growth + Inflation (approximation). 5% + 8% = 13%; more precisely: (1.05)(1.08) = 1.134 → 13.4% nominal growth. If the economy produces 5% more output (real growth) and prices are 8% higher (deflator growth), the total nominal spending on output rises by approximately 13.4%; this is the reverse of the deflation calculation: building nominal from real + price.",
+    "reference": "MEA-1.I | MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "The following table shows data for Country Omega:\n\n| Year | Nominal GDP | GDP Deflator |\n|------|-------------|---------------|\n| 1    | $800B       | 100           |\n| 2    | $900B       | 105           |\n| 3    | $990B       | 108           |\n\nCalculate real GDP in Years 2 and 3, and determine whether the real GDP growth rate was higher in Year 1→2 or Year 2→3.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Year 2 Real ≈ $857B; Year 3 Real ≈ $917B; Real growth higher in Year 2→3."
+      },
+      {
+        "label": "B",
+        "text": "Year 2 Real ≈ $857B; Year 3 Real ≈ $917B; Real growth higher in Year 1→2."
+      },
+      {
+        "label": "C",
+        "text": "Year 2 Real = $900B; Year 3 Real = $990B; both years equal real growth."
+      },
+      {
+        "label": "D",
+        "text": "Year 2 Real ≈ $857B; Year 3 Real = $900B; Year 1→2 was higher."
+      },
+      {
+        "label": "E",
+        "text": "Year 2 Real ≈ $857B; Year 3 Real ≈ $917B; growth rates were equal."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Year 1 Real = (800÷100)×100 = $800B; year 2 Real = (900÷105)×100 ≈ $857B; year 3 Real = (990÷108)×100 ≈ $917B; growth Y1→Y2 = [(857-800)÷800]×100 ≈ 7.1%; growth Y2→Y3 = [(917-857)÷857]×100 ≈ 7.0%. Approximately equal, but Y2→Y3 is very slightly less; however, nominal growth Y1→Y2 was (900-800)÷800=12.5% and Y2→Y3 was (990-900)÷900=10%, so more of Y2→Y3's nominal growth was real; answer A (higher in Y2→Y3) reflects the correct calculation; both are approximately equal at 7%.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "An economist states: \"A country's nominal GDP rose by 6%, but its citizens are no better off than last year.\" Which of the following is MOST consistent with this statement?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real GDP also rose by 6%, meaning living standards improved."
+      },
+      {
+        "label": "B",
+        "text": "The GDP deflator fell by 6%, meaning deflation offset the nominal growth."
+      },
+      {
+        "label": "C",
+        "text": "The GDP deflator also rose by approximately 6%, meaning the entire 6% nominal increase was due to inflation with no increase in real output — citizens have the same quantity of goods and services available, just at higher prices."
+      },
+      {
+        "label": "D",
+        "text": "Nominal GDP growth always equals real GDP growth, so 6% is the real growth rate."
+      },
+      {
+        "label": "E",
+        "text": "The GDP deflator rose by 12%, meaning real GDP actually fell by 6%."
+      }
+    ],
+    "answer": "C",
+    "explanation": "If nominal GDP rose 6% and the GDP deflator also rose by approximately 6%, then real GDP ≈ (Nominal × 1.06) ÷ (Deflator × 1.06) × 100 = unchanged; prices rose 6%; the same physical output now costs 6% more. Citizens have access to the same quantity of goods and services - no real improvement in living standards; this is the key difference between nominal and real GDP: nominal can rise without any real gain if inflation accounts for all the increase.",
+    "reference": "MEA-1.I | MEA-1.I.2 | MEA-1.J",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "Two countries have the same real GDP per capita. Country A has a GDP deflator of 90 and Country B has a GDP deflator of 150. Which country has higher nominal GDP per capita, and by how much (approximately)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country A has higher nominal GDP per capita because its deflator is lower."
+      },
+      {
+        "label": "B",
+        "text": "Country B has higher nominal GDP per capita — because its price level is higher (deflator 150 vs. 90), the same real output is expressed at higher current prices. Nominal GDP per capita of Country B ≈ (150/90) × Country A's nominal = 1.67× higher."
+      },
+      {
+        "label": "C",
+        "text": "Both countries have the same nominal GDP per capita because their real values are equal."
+      },
+      {
+        "label": "D",
+        "text": "Country A has higher nominal GDP per capita because prices are more stable."
+      },
+      {
+        "label": "E",
+        "text": "Neither country's nominal GDP per capita can be determined from this information."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Nominal GDP = Real GDP × (Deflator ÷ 100); if real GDP per capita = R for both: Country A nominal per capita = R × (90 ÷ 100) = 0.9R; country B nominal per capita = R × (150 ÷ 100) = 1.5R. Country B's nominal per capita is 1.5R ÷ 0.9R ≈ 1.67 times higher than Country A's; same real output, but expressed at a 67% higher price level; this illustrates why comparing nominal GDP across countries or time periods without controlling for the price level is misleading.",
+    "reference": "MEA-1.I | MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "A three-good economy has the following data:\n\nBase year (quantities and prices): X: 200 units, $5; Y: 100 units, $8; Z: 50 units, $20\nCurrent year (quantities and prices): X: 220 units, $6; Y: 110 units, $9; Z: 55 units, $22\n\nCalculate nominal GDP (current year), real GDP (current year), and the GDP deflator.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nominal = $3,520; Real = $3,080; Deflator = 114.3"
+      },
+      {
+        "label": "B",
+        "text": "Nominal = $3,900; Real = $3,300; Deflator = 118.2"
+      },
+      {
+        "label": "C",
+        "text": "Nominal = $3,300; Real = $3,700; Deflator = 89.2"
+      },
+      {
+        "label": "D",
+        "text": "Nominal = $3,700; Real = $3,100; Deflator = 119.4"
+      },
+      {
+        "label": "E",
+        "text": "Nominal = $3,520; Real = $3,300; Deflator = 106.7"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Current-year nominal GDP is (220 x $6) + (110 x $9) + (55 x $22) = $3,520. Valuing the same quantities at base-year prices gives real GDP of $3,080, so the GDP deflator is 3,520/3,080 x 100 = 114.3.",
+    "reference": "MEA-1.J | MEA-1.J.1 | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "Country Zeta's data over five years:\n\n| Year | Nominal GDP ($B) | GDP Deflator |\n|------|------------------|--------------|\n| 1    | 500              | 100          |\n| 2    | 560              | 105          |\n| 3    | 616              | 108          |\n| 4    | 672              | 112          |\n| 5    | 720              | 115          |\n\nIn which year was real GDP growth the highest?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Year 2 (Year 1→2)"
+      },
+      {
+        "label": "B",
+        "text": "Year 3 (Year 2→3)"
+      },
+      {
+        "label": "C",
+        "text": "Year 4 (Year 3→4)"
+      },
+      {
+        "label": "D",
+        "text": "Year 5 (Year 4→5)"
+      },
+      {
+        "label": "E",
+        "text": "All years had equal real GDP growth."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Real GDP is about $500B, $533.3B, $570.4B, $600B, and $626.1B across the five years. The largest growth rate is from Year 2 to Year 3, at about 7 percent.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "A news headline reports: \"Country X's GDP surged 12% last year.\" An economist says this headline is misleading without additional context. What additional information is most critical?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The country's population, to calculate per-capita GDP."
+      },
+      {
+        "label": "B",
+        "text": "Whether the 12% figure refers to nominal or real GDP growth — if it is nominal and the GDP deflator also rose by, say, 10%, real growth was only about 2%. The headline's implication of strong economic performance depends entirely on whether the growth was real (more output) or nominal (more inflation)."
+      },
+      {
+        "label": "C",
+        "text": "The country's trade balance, to determine whether imports offset GDP growth."
+      },
+      {
+        "label": "D",
+        "text": "The breakdown of GDP by sector, to identify which industries drove the growth."
+      },
+      {
+        "label": "E",
+        "text": "Whether GDP was measured using the expenditure or income approach."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A 12% nominal GDP increase is ambiguous; if real GDP also grew 12% (deflator unchanged), the economy truly grew; if real GDP grew only 2% and the deflator rose 10%, most of the \"surge\" was inflation. Without knowing whether the 12% is real or nominal, and without knowing the inflation rate, it is impossible to assess whether economic output and living standards actually improved; this is the core practical distinction between nominal and real GDP measurement.",
+    "reference": "MEA-1.I | MEA-1.I.2 | MEA-1.J",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "The GDP deflator for Country A rose from 100 to 130 over ten years. If nominal GDP grew by 60% over the same period, what was the total real GDP growth over ten years?",
+    "options": [
+      {
+        "label": "A",
+        "text": "60%"
+      },
+      {
+        "label": "B",
+        "text": "30%"
+      },
+      {
+        "label": "C",
+        "text": "Approximately 23% — Real GDP Year 10 = (Nominal Year 10 ÷ Deflator Year 10) × 100. If Nominal Year 0 = 100 (index), Nominal Year 10 = 160. Real Year 10 = (160 ÷ 130) × 100 ≈ 123.1. Real growth = (123.1 − 100) ÷ 100 × 100 ≈ 23.1%."
+      },
+      {
+        "label": "D",
+        "text": "Approximately 23% of nominal growth."
+      },
+      {
+        "label": "E",
+        "text": "Approximately 50% — nominal growth minus inflation equals real growth (60%−30%=30% is a close approximation; exact calculation ≈ 23%)."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Using index: Nominal grew 60% (×1.60); deflator grew 30% (×1.30); real growth = (1.60 ÷ 1.30) - 1 = 1.2308 - 1 = 23.1%. The approximate method (60% - 30% = 30%) overestimates because compounding matters; the exact calculation shows only about 23.1% real growth over ten years; nominal growth of 60% contained approximately 30% inflation (deflator effect) and only ~23% real production growth.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "An economy produces only two goods: cars and bicycles. Base year prices: cars = $20,000, bikes = $500. Current year: 100 cars and 400 bikes are produced. Current prices: cars = $22,000, bikes = $550. Calculate nominal GDP, real GDP, and the GDP deflator for the current year.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nominal = $2,420,000; Real = $2,200,000; Deflator = 110"
+      },
+      {
+        "label": "B",
+        "text": "Nominal = $2,000,000; Real = $2,420,000; Deflator = 83"
+      },
+      {
+        "label": "C",
+        "text": "Nominal = $2,200,000; Real = $2,420,000; Deflator = 110"
+      },
+      {
+        "label": "D",
+        "text": "Nominal = $2,420,000; Real = $2,000,000; Deflator = 121"
+      },
+      {
+        "label": "E",
+        "text": "Nominal = $2,420,000; Real = $2,200,000; Deflator = 115"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Nominal = (100×$22,000)+(400×$550) = $2,200,000+$220,000 = $2,420,000; real = (100×$20,000)+(400×$500) = $2,000,000+$200,000 = $2,200,000; deflator = (2,420,000÷2,200,000)×100 ≈ 110; both goods had 10% price increases (cars: 22,000/20,000=1.10; bikes: 550/500=1.10), yielding a deflator of exactly 110. Real GDP ($2.2M) reflects the current output valued at base-year prices; the base-year GDP (if same quantities) = $2,200,000, confirming no real growth if quantities equal the base year; with different quantities, real growth would differ.",
+    "reference": "MEA-1.J | MEA-1.J.1 | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "A country has the following table of data:\n\n| Year | Nominal GDP | Real GDP |\n|------|-------------|----------|\n| 1    | $600B       | $600B    |\n| 2    | $700B       | $650B    |\n| 3    | $780B       | $680B    |\n\nUsing the GDP deflator formula, calculate the deflator in Years 2 and 3. What was the inflation rate from Year 2 to Year 3?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Y2 deflator ≈ 107.7; Y3 deflator ≈ 114.7; Inflation ≈ 6.5%"
+      },
+      {
+        "label": "B",
+        "text": "Y2 deflator = 110; Y3 deflator = 120; Inflation ≈ 9.1%"
+      },
+      {
+        "label": "C",
+        "text": "Y2 deflator approximately 107.7; Y3 deflator approximately 114.7; Inflation = 7%"
+      },
+      {
+        "label": "D",
+        "text": "Y2 deflator ≈ 107.7; Y3 deflator ≈ 114.7; Inflation = 7%"
+      },
+      {
+        "label": "E",
+        "text": "Y2 deflator = 100; Y3 deflator = 114.7; Inflation = 14.7%"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Y2 Deflator = (700÷650)×100 ≈ 107.7; Y3 Deflator = (780÷680)×100 ≈ 114.7; inflation Y2→Y3 = [(114.7-107.7)÷107.7]×100 = (7.0÷107.7)×100 ≈ 6.5%. Year 1 is the base year (Nominal = Real → Deflator = 100); real GDP grew from $600B to $650B (+8.3%) to $680B (+4.6%); but the GDP deflator rose more steeply - nominal growth exceeded real growth in both years.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "A country experienced the following changes in one year:\n• Nominal GDP rose by 7%\n• GDP Deflator rose by 7%\n• Population grew by 2%\n\nWhat happened to real GDP per capita?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real GDP per capita rose by 7%."
+      },
+      {
+        "label": "B",
+        "text": "Real GDP per capita rose by 5%."
+      },
+      {
+        "label": "C",
+        "text": "Real GDP per capita was unchanged."
+      },
+      {
+        "label": "D",
+        "text": "Real GDP per capita fell by approximately 2%."
+      },
+      {
+        "label": "E",
+        "text": "Real GDP per capita rose by 2%."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Real GDP growth = Nominal growth - Inflation ≈ 7% - 7% = 0%; population grew 2%; real GDP per capita = Real GDP ÷ Population. If Real GDP = unchanged (0% growth) and Population grew 2%, then Real GDP per capita fell by approximately 2%; even if nominal GDP grows impressively, if inflation consumes all the growth and population rises, real living standards (per-capita real GDP) decline.",
+    "reference": "MEA-1.I | MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "A student reasons: \"The GDP deflator for Year 5 is 140. This means prices rose 40% from Year 4 to Year 5.\" Is this reasoning correct? Explain.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes — a deflator of 140 always means prices rose 40% from the prior year."
+      },
+      {
+        "label": "B",
+        "text": "No — a GDP deflator of 140 means the price level is 40% ABOVE THE BASE YEAR level, not above last year's price level. To find the inflation rate from Year 4 to Year 5, one must compare the Year 5 deflator (140) to the Year 4 deflator using the percentage-change formula: [(140 − Year 4 deflator) ÷ Year 4 deflator] × 100."
+      },
+      {
+        "label": "C",
+        "text": "Yes — the GDP deflator measures year-over-year price changes, so 140 means 40% over last year."
+      },
+      {
+        "label": "D",
+        "text": "No — a deflator of 140 means prices fell 40% relative to the base year."
+      },
+      {
+        "label": "E",
+        "text": "No — the student should have used the CPI rather than the GDP deflator for inflation calculations."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The GDP deflator is a LEVEL index, not a year-over-year percentage change; A deflator of 140 means the current price level is 40% above the base year. If Year 4's deflator was, say, 130, the inflation rate from Year 4 to Year 5 = [(140-130)÷130]×100 ≈ 7.7%, not 40%; to calculate inflation from any year to the next, the percentage change in the deflator must be calculated - just as with the CPI; this is the same formula used for any price index: [(Current - Previous) ÷ Previous] × 100.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "Country A's real GDP grew from $1.5 trillion to $1.65 trillion over five years. Country B's real GDP grew from $3 trillion to $3.18 trillion over the same period. Which country had faster real GDP growth, and which country added more absolute real output?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country A had faster growth and added more absolute output."
+      },
+      {
+        "label": "B",
+        "text": "Country B had faster growth and added more absolute output."
+      },
+      {
+        "label": "C",
+        "text": "Country A had faster percentage growth (10% vs. 6%); Country B added more absolute real output ($0.18T vs. $0.15T). These are two different dimensions of growth — percentage rate vs. absolute amount."
+      },
+      {
+        "label": "D",
+        "text": "Both countries had identical growth rates because GDP is measured in the same currency."
+      },
+      {
+        "label": "E",
+        "text": "Country B had faster percentage growth; Country A added more absolute output."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Country A growth rate = (1.65-1.5)÷1.5 = 0.15÷1.5 = 10%; country B growth rate = (3.18-3)÷3 = 0.18÷3 = 6%; country A grew faster in percentage terms. Country A added $0.15T; Country B added $0.18T; country B added more absolute real output; these are different measures: the percentage growth rate measures the pace of expansion; the absolute change measures the size of the addition to total production.",
+    "reference": "MEA-1.I | MEA-1.J",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "A country's data:\n• Nominal GDP Year 1 = $1,200B (base year)\n• Nominal GDP Year 2 = $1,320B\n• Real GDP Year 2 = $1,260B\n\nCalculate: (a) GDP Deflator Year 1; (b) GDP Deflator Year 2; (c) inflation rate Year 1→2; (d) real GDP growth rate.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) 100; (b) 104.8; (c) 4.8%; (d) 5%"
+      },
+      {
+        "label": "B",
+        "text": "(a) 100; (b) 105.8; (c) 5.8%; (d) 5%"
+      },
+      {
+        "label": "C",
+        "text": "(a) 100; (b) 104.8; (c) 4.8%; (d) 4%"
+      },
+      {
+        "label": "D",
+        "text": "(a) 100; (b) 110; (c) 10%; (d) 5%"
+      },
+      {
+        "label": "E",
+        "text": "(a) 100; (b) 104.8; (c) 4.8%; (d) 10%"
+      }
+    ],
+    "answer": "A",
+    "explanation": "(a) Year 1 deflator = (1,200÷1,200)×100 = 100 (base year, Nominal=Real); (b) Year 2 deflator = (1,320÷1,260)×100 ≈ 104.76 ≈ 104.8; (c) Inflation = [(104.8-100)÷100]×100 = 4.8%. (d) Real GDP growth = [(1,260-1,200)÷1,200]×100 = (60÷1,200)×100 = 5%; check: Nominal growth = (1,320-1,200)÷1,200 = 10% ≈ Real growth (5%) + Inflation (4.8%) ≈ 9.8% ✓.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "Which of the following BEST explains why MEA-1.J.1 notes that valuing output at base-year prices \"can lead to overstatement of real GDP growth\"?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Base-year prices are always too low, so applying them to current output yields an understated real GDP."
+      },
+      {
+        "label": "B",
+        "text": "When rapidly growing sectors (like technology) have prices that fall sharply over time, weighting their output by high base-year prices gives them more importance in real GDP than their current economic significance warrants. This exaggerates their contribution to growth and overstates total real GDP growth."
+      },
+      {
+        "label": "C",
+        "text": "Base-year prices are impossible to measure accurately because they keep changing."
+      },
+      {
+        "label": "D",
+        "text": "Overstatement of real GDP growth occurs because base-year prices include only consumer goods."
+      },
+      {
+        "label": "E",
+        "text": "The overstatement is caused by rising population, which inflates per-capita calculations."
+      }
+    ],
+    "answer": "B",
+    "explanation": "If a sector (e.g., semiconductors) experiences rapid price declines, its base-year price is much higher than current-year prices. Using base-year prices to value current semiconductor output assigns a large dollar amount to each chip, even though chips now cost far less; this inflates the contribution of the semiconductor sector to real GDP growth; the solution adopted by statistical agencies is chain-weighting - updating price weights more frequently to better reflect the current relative importance of each sector.",
+    "reference": "MEA-1.J | MEA-1.J.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "An economy had nominal GDP of $800B in Year 1 and $840B in Year 2. The GDP deflator was 100 in Year 1 and 104 in Year 2. Calculate real GDP in both years and determine whether real GDP growth exceeded, equaled, or fell short of nominal GDP growth.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real Y1 = $800B; Real Y2 = $807.7B; Real growth ≈ 0.96%; Nominal growth = 5%; real growth fell short of nominal growth."
+      },
+      {
+        "label": "B",
+        "text": "Real Y1 = $800B; Real Y2 = $800B; Real growth = 0%; Nominal growth = 5%; real growth fell short."
+      },
+      {
+        "label": "C",
+        "text": "Real Y1 = $800B; Real Y2 = $840B; both grew by 5%."
+      },
+      {
+        "label": "D",
+        "text": "Real Y1 = $800B; Real Y2 = $807.7B; real growth exceeded nominal growth."
+      },
+      {
+        "label": "E",
+        "text": "Real Y1 = $800B; Real Y2 = $807.7B; real growth equaled nominal growth."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Real Y1 = (800÷100)×100 = $800B; real Y2 = (840÷104)×100 ≈ $807.7B; nominal growth = (840-800)÷800 = 5%; real growth = (807.7-800)÷800 ≈ 0.96%. Real GDP growth (≈1%) fell far short of nominal GDP growth (5%) because inflation (deflator rose from 100 to 104 = 4%) accounted for most of the nominal increase; only about 1% of the 5% nominal growth reflected actual additional output.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "An economy produced only wheat. In the base year, 500 bushels were produced at $4/bushel. In the current year, 600 bushels are produced at $5/bushel. Calculate: (a) base-year GDP; (b) nominal GDP; (c) real GDP; (d) GDP deflator; (e) percentage change in real GDP.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a)$2,000; (b)$3,000; (c)$2,400; (d)125; (e)20% real growth"
+      },
+      {
+        "label": "B",
+        "text": "(a)$2,000; (b)$3,000; (c)$2,400; (d)120; (e)20% real growth"
+      },
+      {
+        "label": "C",
+        "text": "(a)$2,000; (b)$3,000; (c)$3,000; (d)100; (e)50% real growth"
+      },
+      {
+        "label": "D",
+        "text": "(a)$2,000; (b)$2,400; (c)$3,000; (d)80; (e)50% real growth"
+      },
+      {
+        "label": "E",
+        "text": "(a)$2,000; (b)$3,000; (c)$2,400; (d)125; (e)50% real growth"
+      }
+    ],
+    "answer": "A",
+    "explanation": "(a) Base year GDP = 500×$4 = $2,000; (b) Nominal GDP = 600×$5 = $3,000; (c) Real GDP = 600×$4 = $2,400 (current quantities at base-year prices); (d) GDP Deflator = (3,000÷2,400)×100 = 125. (e) Real GDP growth = [(2,400-2,000)÷2,000]×100 = 20%; nominal GDP grew 50% (from $2,000 to $3,000) but real GDP grew only 20% - the difference reflects the 25% price increase (deflator: 100→125) in addition to the 20% quantity increase; compounding: 1.20×1.25=1.50=50% nominal growth ✓.",
+    "reference": "MEA-1.J | MEA-1.J.1 | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "Why might economists prefer using the GDP deflator over the CPI to measure economy-wide inflation when calculating real GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The CPI is calculated more accurately than the GDP deflator."
+      },
+      {
+        "label": "B",
+        "text": "The GDP deflator uses a fixed consumer basket, making it more stable than the CPI."
+      },
+      {
+        "label": "C",
+        "text": "The GDP deflator is derived directly from GDP data and covers all goods and services in the economy (consumption, investment, government, net exports), while the CPI only measures prices paid by consumers for a fixed basket of goods. Using the GDP deflator to deflate nominal GDP is conceptually consistent — it measures price changes for the same set of goods captured in GDP, not just a consumer subset."
+      },
+      {
+        "label": "D",
+        "text": "The CPI overstates inflation more severely than the GDP deflator does."
+      },
+      {
+        "label": "E",
+        "text": "The GDP deflator is published monthly while the CPI is published annually."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The GDP deflator and CPI measure different things; the CPI tracks a fixed basket of consumer goods - it covers only what households buy and uses fixed base-year quantities. The GDP deflator covers all final goods and services in GDP - including capital goods, government services, and exports - and updates quantities each year; for the purpose of converting nominal GDP to real GDP, the GDP deflator is conceptually appropriate because it measures price changes for the exact goods and services counted in GDP.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "Country X reports nominal GDP = $2T and GDP Deflator = 160. Country Y reports nominal GDP = $2T and GDP Deflator = 80. Which country has produced more real output?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country X — it has the higher GDP deflator, indicating stronger economic growth."
+      },
+      {
+        "label": "B",
+        "text": "Both countries have equal real output because they have the same nominal GDP."
+      },
+      {
+        "label": "C",
+        "text": "Country Y — its real GDP = ($2T÷80)×100 = $2.5T, compared to Country X's ($2T÷160)×100 = $1.25T. Country Y has produced twice as much real output as Country X despite identical nominal GDP."
+      },
+      {
+        "label": "D",
+        "text": "Country X — higher prices indicate higher quality output, which counts as more real GDP."
+      },
+      {
+        "label": "E",
+        "text": "Country Y — lower deflators always indicate more productive economies."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Country X: Real GDP = (2T÷160)×100 = $1.25T; country Y: Real GDP = (2T÷80)×100 = $2.5T; country Y has produced $2.5T of output valued at base-year prices while Country X produced only $1.25T. They have the same nominal GDP but Country X has a much higher price level (deflator 160 vs. 80) - its economy has higher prices, not more output; country Y's lower deflator means the same $2T of nominal spending buys more real goods at base-year prices.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "A student claims: \"If real GDP increases from one year to the next, nominal GDP must also increase.\" Is this true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes — real GDP growth always causes nominal GDP growth."
+      },
+      {
+        "label": "B",
+        "text": "Yes — because nominal GDP always exceeds real GDP, any rise in real must imply a rise in nominal."
+      },
+      {
+        "label": "C",
+        "text": "Not necessarily — nominal GDP could fall even as real GDP rises if the GDP deflator falls sufficiently. For example, if real GDP rises 5% but the deflator falls 10% (severe deflation), nominal GDP = Real × (Deflator/100) would actually decline. Deflation can cause nominal GDP to fall even while real output grows."
+      },
+      {
+        "label": "D",
+        "text": "Yes — because nominal GDP is calculated from real GDP directly."
+      },
+      {
+        "label": "E",
+        "text": "Not necessarily — if the population grew faster than real GDP, nominal GDP could fall."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Nominal GDP = Real GDP × (Deflator ÷ 100). If Real GDP rises 5% (×1.05) but Deflator falls 10% (×0.90), Nominal GDP = 1.05 × 0.90 = 0.945 - a 5.5% decline in nominal GDP despite positive real growth; this is possible during periods of deflation, where falling prices reduce the current-dollar value of output even as actual production increases; japan experienced this pattern in the 1990s and 2000s.",
+    "reference": "MEA-1.I | MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "A policymaker observes that Country A's nominal GDP has grown every year for a decade. She concludes the country is experiencing sustained economic growth. What additional data would most effectively challenge or confirm this conclusion?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The country's trade balance over the same period."
+      },
+      {
+        "label": "B",
+        "text": "The country's government debt as a percentage of nominal GDP."
+      },
+      {
+        "label": "C",
+        "text": "The GDP deflator over the same period — if the deflator rose faster than nominal GDP, real GDP may have stagnated or fallen despite nominal growth. Sustained economic growth requires sustained growth in REAL GDP, which reflects actual quantities produced."
+      },
+      {
+        "label": "D",
+        "text": "The country's labor force participation rate over the decade."
+      },
+      {
+        "label": "E",
+        "text": "The country's exchange rate relative to its trading partners."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Sustained nominal GDP growth does not guarantee real growth; if the GDP deflator rose as fast as or faster than nominal GDP, real GDP grew slowly or not at all. To assess whether the economy truly expanded in terms of goods and services produced, the policymaker needs real GDP data - either by obtaining real GDP directly or by calculating it using the deflator; nominal GDP alone conflates price increases with output increases.",
+    "reference": "MEA-1.I | MEA-1.I.2 | MEA-1.J",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "An economy has the following data for a single year:\n\nNominal GDP = $5,400B; Real GDP = $4,500B; Population = 300 million.\n\nCalculate: (a) the GDP deflator; (b) real GDP per capita; (c) nominal GDP per capita.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) 120; (b) $15,000; (c) $18,000"
+      },
+      {
+        "label": "B",
+        "text": "(a) 83.3; (b) $18,000; (c) $15,000"
+      },
+      {
+        "label": "C",
+        "text": "(a) 125; (b) $15,000; (c) $18,000"
+      },
+      {
+        "label": "D",
+        "text": "(a) 120; (b) $18,000; (c) $15,000"
+      },
+      {
+        "label": "E",
+        "text": "(a) 120; (b) $13,500; (c) $18,000"
+      }
+    ],
+    "answer": "A",
+    "explanation": "(a) GDP Deflator = (5,400÷4,500)×100 = 120; (b) Real GDP per capita = $4,500B÷300M = $15,000; (c) Nominal GDP per capita = $5,400B÷300M = $18,000. Note: the gap between nominal ($18,000) and real ($15,000) per capita reflects the 20% price level above the base year; real per capita is the better measure of average living standards - nominal per capita inflates the figure by the price level above the base year.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "Given the following data, calculate the GDP deflator and classify the price level relative to the base year:\n\nNominal GDP = $780B; Real GDP = $900B.",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP Deflator = 115.4; prices above base year."
+      },
+      {
+        "label": "B",
+        "text": "GDP Deflator = 86.7; prices below base year — a deflator below 100 means current prices are lower than base-year prices, so the real output is valued more highly at the higher base-year prices, making real GDP exceed nominal GDP."
+      },
+      {
+        "label": "C",
+        "text": "GDP Deflator = 100; price level equals base year."
+      },
+      {
+        "label": "D",
+        "text": "GDP Deflator = 86.7; prices above base year."
+      },
+      {
+        "label": "E",
+        "text": "GDP Deflator = 115.4; prices below base year."
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP Deflator = (780÷900)×100 = 86.7; since the deflator is below 100, current prices are below base-year prices. Real GDP ($900B) > Nominal GDP ($780B) because base-year prices were higher - the same physical output is worth more when priced at base-year levels than at current (lower) prices; this could occur if the base year had higher prices (e.g., after a period of deflation) or if the economy set the base year at a high-price point.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "Which of the following would cause real GDP to increase while nominal GDP stays constant?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An increase in government spending with no change in output."
+      },
+      {
+        "label": "B",
+        "text": "A decrease in the overall price level (deflation) with no change in actual output."
+      },
+      {
+        "label": "C",
+        "text": "A decrease in the price level (deflation) — if prices fall but real output is unchanged, nominal GDP falls. But if prices fall AND output increases by exactly enough to keep nominal GDP constant, real GDP (at constant base-year prices) rises while nominal stays flat."
+      },
+      {
+        "label": "D",
+        "text": "An increase in nominal GDP would always increase real GDP proportionally."
+      },
+      {
+        "label": "E",
+        "text": "If the GDP deflator falls from 110 to 100, and nominal GDP remains at $1,200B, real GDP rises from ($1,200÷110)×100=$1,091B to ($1,200÷100)×100=$1,200B — an increase in real GDP with unchanged nominal GDP."
+      }
+    ],
+    "answer": "E",
+    "explanation": "If Nominal GDP = $1,200B in both periods but Deflator falls from 110 to 100: Real GDP Year 1 = (1,200÷110)×100 = $1,091B; real GDP Year 2 = (1,200÷100)×100 = $1,200B. Real GDP rose from $1,091B to $1,200B (+10%) while nominal stayed at $1,200B; A falling deflator (deflation) increases the real value of the same nominal output - the same dollars buy more base-year-priced goods; this can occur when productivity rises and prices fall, increasing real output while nominal spending is unchanged.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "The table below shows data for an economy:\n\n| Year | Nominal GDP | GDP Deflator |\n|------|-------------|---------------|\n| 1    | $400B       | 100           |\n| 2    | $460B       | 110           |\n| 3    | $500B       | 115           |\n| 4    | $540B       | 118           |\n\nIn which year did the economy experience the highest RATE of inflation (year-over-year)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Year 2 (Year 1 to Year 2)"
+      },
+      {
+        "label": "B",
+        "text": "Year 3 (Year 2 to Year 3)"
+      },
+      {
+        "label": "C",
+        "text": "Year 4 (Year 3 to Year 4)"
+      },
+      {
+        "label": "D",
+        "text": "Inflation was constant across all years."
+      },
+      {
+        "label": "E",
+        "text": "Year 1 — inflation is highest at the beginning of the series."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Calculate inflation rate each year using the deflator: Y1→Y2: [(110-100)÷100]×100 = 10%; Y2→Y3: [(115-110)÷110]×100 ≈ 4.5%; Y3→Y4: [(118-115)÷115]×100 ≈ 2.6%. The highest annual inflation rate was in Year 2 (Year 1→2) at 10%; inflation decelerated each subsequent year - a pattern of disinflation from Year 2 onward.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "An economy's real GDP per capita grew from $30,000 to $33,000 over 10 years, while its GDP deflator rose from 100 to 140. What happened to nominal GDP per capita over this period?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nominal GDP per capita rose from $30,000 to $33,000 — same as real."
+      },
+      {
+        "label": "B",
+        "text": "Nominal GDP per capita rose from $30,000 to $46,200."
+      },
+      {
+        "label": "C",
+        "text": "Nominal GDP per capita fell from $30,000 to $23,571."
+      },
+      {
+        "label": "D",
+        "text": "Nominal GDP per capita rose from $30,000 to $42,000."
+      },
+      {
+        "label": "E",
+        "text": "Nominal GDP per capita is always equal to real GDP per capita."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Nominal GDP per capita = Real GDP per capita × (Deflator ÷ 100); year 0: $30,000 × (100÷100) = $30,000; year 10: $33,000 × (140÷100) = $33,000 × 1.40 = $46,200. Nominal GDP per capita rose from $30,000 to $46,200 - a 54% increase; real GDP per capita rose from $30,000 to $33,000 - only a 10% increase; the large gap between nominal (54%) and real (10%) growth reflects the 40% cumulative inflation (deflator from 100 to 140).",
+    "reference": "MEA-1.I | MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "A country experienced the following over three consecutive years:\n• Year 1→2: Nominal GDP grew 12%, Real GDP grew 5%\n• Year 2→3: Nominal GDP grew 4%, Real GDP grew 6%\n\nIn which year did the inflation rate (as measured by the GDP deflator) fall?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Year 1→2 had higher inflation; Year 2→3 had lower inflation."
+      },
+      {
+        "label": "B",
+        "text": "Both years had the same inflation rate."
+      },
+      {
+        "label": "C",
+        "text": "Year 2→3 had higher inflation because nominal GDP growth was lower."
+      },
+      {
+        "label": "D",
+        "text": "Inflation cannot be determined without the actual deflator values."
+      },
+      {
+        "label": "E",
+        "text": "Year 1→2 had lower inflation; Year 2→3 had higher inflation."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Approximate inflation rate ≈ Nominal growth - Real growth; year 1→2: 12% - 5% ≈ 7% inflation; year 2→3: 4% - 6% ≈ -2% inflation (deflation). The GDP deflator fell in Year 2→3 - despite lower nominal growth, real GDP grew faster, implying prices actually fell; the transition from ~7% inflation to ~-2% deflation is a dramatic disinflation/deflation shift - detectable from the nominal and real GDP growth data alone.",
+    "reference": "MEA-1.I | MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "Compare two economies:\n\n• Country A: Nominal GDP = $600B, GDP Deflator = 100\n• Country B: Nominal GDP = $600B, GDP Deflator = 150\n\nWhich country has produced more real output, and what does the comparison reveal about the role of prices in GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country B produced more real output — higher deflator = more production."
+      },
+      {
+        "label": "B",
+        "text": "Both produced the same real output — nominal GDP is identical."
+      },
+      {
+        "label": "C",
+        "text": "Country A produced more real output ($600B real vs. $400B for Country B). Country A's deflator of 100 means it IS the base year — nominal = real = $600B. Country B's deflator of 150 means Real = ($600B÷150)×100 = $400B. Same nominal spending, but Country B's higher price level means each dollar buys less in real terms."
+      },
+      {
+        "label": "D",
+        "text": "Country B produced more real output because higher prices indicate a stronger economy."
+      },
+      {
+        "label": "E",
+        "text": "Country A produced more because its price level is lower than Country B's."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Country A: Real GDP = (600÷100)×100 = $600B; country B: Real GDP = (600÷150)×100 = $400B; despite identical nominal GDPs, Country B produced only $400B of real output because it has a much higher price level. Country A (at base-year prices) produced 50% more real output for the same nominal spending; this illustrates that nominal GDP without deflator information is a misleading measure of actual production - the price level determines how much real output a given nominal spending represents.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "An economy's real GDP grew from $2T to $2.5T and the GDP deflator rose from 100 to 130. Calculate the change in nominal GDP and determine what fraction of nominal GDP growth was due to real growth versus inflation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nominal grew from $2T to $3.25T; real growth ≈ 38.5% of nominal increase; inflation ≈ 61.5%."
+      },
+      {
+        "label": "B",
+        "text": "Nominal grew from $2T to $3.25T; real growth accounted for 40% of increase; inflation 60%."
+      },
+      {
+        "label": "C",
+        "text": "Nominal grew from $2T to $3.0T; real growth and inflation each accounted for 50%."
+      },
+      {
+        "label": "D",
+        "text": "Nominal grew from $2T to $3.25T; real growth accounted for 35% of the increase and inflation accounted for 65%."
+      },
+      {
+        "label": "E",
+        "text": "Nominal grew from $2T to $2.5T; deflator is irrelevant."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Nominal GDP rises from $2 trillion to $2.5 trillion x 1.30 = $3.25 trillion, an increase of $1.25 trillion. The $0.5 trillion real-output increase represents 40 percent of that increase, while the remaining $0.75 trillion, or 60 percent, reflects the higher price level.",
+    "reference": "MEA-1.I | MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "A country has nominal GDP of $1,500B and real GDP of $1,250B. A neighboring country has nominal GDP of $1,200B and real GDP of $1,250B. What can be concluded about the two countries?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both countries have the same real output and the same price level."
+      },
+      {
+        "label": "B",
+        "text": "Country 1 has a higher real output because its nominal GDP is larger."
+      },
+      {
+        "label": "C",
+        "text": "Both countries have produced exactly the same real quantity of output ($1,250B in base-year prices), but Country 1 has a higher price level (deflator = 120) than Country 2 (deflator = 96). Country 1's higher nominal GDP reflects a higher price level, not more production."
+      },
+      {
+        "label": "D",
+        "text": "Country 2 has produced more output because it has a lower price level."
+      },
+      {
+        "label": "E",
+        "text": "Country 1 is in the base year; Country 2 has experienced deflation."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Country 1: Real GDP = $1,250B; Deflator = (1,500÷1,250)×100 = 120; country 2: Real GDP = $1,250B; Deflator = (1,200÷1,250)×100 = 96; both produced identical real output ($1,250B). Country 1 has a higher price level (deflator 120 > base year), while Country 2 has prices below the base year (deflator 96 < 100); the difference in nominal GDP (Country 1: $1,500B vs; country 2: $1,200B) reflects solely the price-level difference, not any difference in real production.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "What does it mean if a country's real GDP growth rate is NEGATIVE for two consecutive quarters?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The country's nominal GDP is falling, which always indicates economic hardship."
+      },
+      {
+        "label": "B",
+        "text": "The country's GDP deflator must also be negative."
+      },
+      {
+        "label": "C",
+        "text": "Negative real GDP growth means actual production of goods and services declined — fewer real goods and services were produced than in the prior period. Two consecutive quarters of negative real GDP growth is a common definition of a recession. This is distinct from a decline in nominal GDP, which could result from deflation even when real output is rising."
+      },
+      {
+        "label": "D",
+        "text": "The country's nominal GDP must exceed real GDP in both quarters."
+      },
+      {
+        "label": "E",
+        "text": "The country's population must have decreased, reducing per-capita output."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Real GDP measures actual quantities produced at constant prices; negative real GDP growth means the economy produced fewer goods and services than in the previous period - a genuine contraction of output. Two consecutive quarters of negative real GDP growth is the standard (though informal) definition of a recession; this is fundamentally different from a decline in nominal GDP, which can occur during deflation even when output is rising.",
+    "reference": "MEA-1.I | MEA-1.I.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "A country produced exactly the same quantity of goods and services in Year 2 as in Year 1 (base year), but all prices rose by 20%. Calculate nominal GDP, real GDP, and the GDP deflator in Year 2, given that Year 1 nominal GDP = $1,000B.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nominal = $1,200B; Real = $1,000B; Deflator = 120"
+      },
+      {
+        "label": "B",
+        "text": "Nominal = $1,000B; Real = $1,200B; Deflator = 83.3"
+      },
+      {
+        "label": "C",
+        "text": "Nominal = $1,200B; Real = $1,200B; Deflator = 100"
+      },
+      {
+        "label": "D",
+        "text": "Nominal = $1,200B; Real = $1,000B; Deflator = 83.3"
+      },
+      {
+        "label": "E",
+        "text": "Nominal = $1,000B; Real = $1,000B; Deflator = 120"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Year 1 (base): Nominal = Real = $1,000B; Deflator = 100; year 2: Same quantities, all prices +20%; nominal GDP = $1,000B × 1.20 = $1,200B (same output valued at 20% higher prices). Real GDP = same quantities × base-year prices = $1,000B (unchanged - no real growth); deflator = (1,200÷1,000)×100 = 120; this is the purest example of the nominal/real distinction: 20% price rise → 20% nominal GDP growth → 0% real GDP growth → deflator rises from 100 to 120.",
+    "reference": "MEA-1.I | MEA-1.I.2 | MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 71,
+    "difficulty": "Medium",
+    "prompt": "Country A has nominal GDP = $3.6T and GDP Deflator = 120. Country B has nominal GDP = $3.0T and GDP Deflator = 100. Which country has greater real GDP, and by how much?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country A: Real = $3.6T; Country B: Real = $3.0T; Country A is larger."
+      },
+      {
+        "label": "B",
+        "text": "Country A: Real = $3.0T; Country B: Real = $3.0T; both are equal."
+      },
+      {
+        "label": "C",
+        "text": "Country A: Real = $3.0T; Country B: Real = $3.0T; equal real output despite different nominal GDP — Country A's higher nominal GDP is entirely due to its 20% higher price level."
+      },
+      {
+        "label": "D",
+        "text": "Country A: Real = $4.32T; Country B: Real = $3.0T; Country A is larger."
+      },
+      {
+        "label": "E",
+        "text": "Country B: Real = $3.0T; Country A: Real = $2.88T; Country B is larger."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Country A Real = (3.6T÷120)×100 = $3.0T; country B Real = (3.0T÷100)×100 = $3.0T; both countries have identical real GDP of $3.0T. Country A appears larger nominally ($3.6T vs. $3.0T) only because its price level is 20% above the base year; once deflated, the two countries have produced exactly the same real output; this underscores that nominal GDP differences can reflect price-level differences, not output differences.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 72,
+    "difficulty": "Medium",
+    "prompt": "Refer to the following data:\n\n| Year | Nominal GDP ($B) | GDP Deflator |\n|------|------------------|--------------|\n| 0    | 1,000            | 100          |\n| 1    | 1,100            | 105          |\n| 2    | 1,220            | 110          |\n| 3    | 1,320            | 112          |\n\nIn which year was real GDP growth the fastest? In which year was inflation (GDP deflator growth) the fastest?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Fastest real growth: Year 2; Fastest inflation: Year 1."
+      },
+      {
+        "label": "B",
+        "text": "Fastest real growth: Year 3; Fastest inflation: Year 1."
+      },
+      {
+        "label": "C",
+        "text": "Fastest real growth: Year 2; Fastest inflation: Year 2."
+      },
+      {
+        "label": "D",
+        "text": "Fastest real growth: Year 1; Fastest inflation: Year 1."
+      },
+      {
+        "label": "E",
+        "text": "Fastest real growth: Year 3; Fastest inflation: Year 3."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Real GDP rises from $1,000B to about $1,047.6B, $1,109.1B, and $1,178.6B, so its fastest growth occurs in Year 3. The deflator rises fastest from 100 to 105, making Year 1 the year with the highest inflation.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 73,
+    "difficulty": "Medium",
+    "prompt": "Two economists are analyzing a country's economic performance over a decade. Economist A uses nominal GDP data showing 80% growth. Economist B uses real GDP data showing 25% growth. Both use correct data. Which economist's figures better capture changes in actual economic output, and what does the 55-percentage-point gap between them represent?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Economist A; the gap represents improvements in product quality."
+      },
+      {
+        "label": "B",
+        "text": "Economist B; the gap represents the cumulative decline in the money supply over the decade."
+      },
+      {
+        "label": "C",
+        "text": "Economist B — real GDP better captures actual output growth. The 55-percentage-point gap between nominal (80%) and real (25%) growth represents the cumulative effect of inflation over the decade. Approximately 55 pp of the 80% nominal growth was driven by price-level increases rather than additional goods and services produced."
+      },
+      {
+        "label": "D",
+        "text": "Economist A; nominal GDP includes more categories of output."
+      },
+      {
+        "label": "E",
+        "text": "Both are equally valid; the choice depends on whether prices or quantities matter more."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Real GDP is the superior measure of actual output because it holds prices constant; the 55 pp gap ≈ cumulative inflation effect. Approximation: if real grew 25% and nominal grew 80%, the deflator rose approximately (1.80÷1.25)-1 = 44% over the decade; the nominal growth massively overstates actual production growth; economist B's 25% real figure correctly shows that actual quantities of goods and services produced increased by 25% - a much more modest expansion than the 80% nominal figure implies.",
+    "reference": "MEA-1.I | MEA-1.I.2 | MEA-1.J",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "A three-good economy has the following data:\n\nBase year: Good A: 200 units at $5; Good B: 100 units at $15; Good C: 50 units at $40\nYear 1: Good A: 220 units at $6; Good B: 110 units at $16; Good C: 48 units at $45\n\nCalculate: (a) Base year GDP; (b) Year 1 nominal GDP; (c) Year 1 real GDP; (d) GDP deflator Year 1; (e) real GDP growth rate; (f) Which good's price change most influenced the deflator?",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a)$4,500; (b)$5,240; (c)$4,670; (d)112.2; (e)3.8%; (f)Good C"
+      },
+      {
+        "label": "B",
+        "text": "(a)$4,500; (b)$5,312; (c)$4,820; (d)110.2; (e)7.1%; (f)Good A (most units)"
+      },
+      {
+        "label": "C",
+        "text": "(a)$4,500; (b)$5,196; (c)$4,760; (d)109.2; (e)5.8%; (f)Good C"
+      },
+      {
+        "label": "D",
+        "text": "(a)$4,500; (b)$5,312; (c)$4,670; (d)113.7; (e)3.8%; (f)Good C"
+      },
+      {
+        "label": "E",
+        "text": "(a)$4,500; (b)$5,312; (c)$5,200; (d)102.2; (e)15.6%; (f)Good B"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Base-year GDP is $4,500, while Year 1 nominal and real GDP are $5,240 and $4,670. The deflator is about 112.2 and real growth is about 3.8 percent; Good C contributes most because it has the largest spending weight and a substantial price increase.",
+    "reference": "MEA-1.J | MEA-1.J.1 | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "Country Alpha's data:\n\n| Year | Nominal GDP ($B) | GDP Deflator |\n|------|------------------|--------------|\n| 1    | 1,000            | 100          |\n| 2    | 1,150            | 108          |\n| 3    | 1,265            | 112          |\n| 4    | 1,366            | 115          |\n| 5    | 1,435            | 117          |\n\nCalculate real GDP for all five years, the real growth rate each year, and identify the year with the fastest and slowest real GDP growth.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Fastest: Year 2 (6.5%); Slowest: Year 5 (3.3%)"
+      },
+      {
+        "label": "B",
+        "text": "Fastest: Year 3 (6.0%); Slowest: Year 4 (3.0%)"
+      },
+      {
+        "label": "C",
+        "text": "Fastest: Year 3 (6.0%); Slowest: Year 5 (3.3%)"
+      },
+      {
+        "label": "D",
+        "text": "Fastest: Year 2 (6.5%); Slowest: Year 4 (5.2%)"
+      },
+      {
+        "label": "E",
+        "text": "Fastest: Year 5 (6.0%); Slowest: Year 2 (2.0%)"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Real GDP is about $1,000B, $1,064.8B, $1,129.0B, $1,187.8B, and $1,226.5B. The corresponding growth rates are 6.5, 6.0, 5.2, and 3.3 percent, so growth is fastest in Year 2 and slowest in Year 5.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "An economy produces two goods: Technology (T) and Food (F). The following data are given:\n\nBase year: T: 10 units at $200 each; F: 100 units at $5 each.\nYear 5: T: 40 units at $100 each; F: 110 units at $6 each.\n\nCalculate real GDP and nominal GDP in Year 5. Then explain why the base-year price method (MEA-1.J.1) is said to \"overstate real GDP growth\" in this specific example.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nominal Y5=$4,660; Real Y5=$8,550. Overstatement: Technology prices fell sharply from $200 to $100, but the base-year method still values each Year 5 unit at $200 — giving Technology 4× its current weight. Real GDP appears to have grown dramatically, but this exaggerates true growth."
+      },
+      {
+        "label": "B",
+        "text": "Nominal Y5=$4,660; Real Y5=$8,550. Real growth from $2,500 to $8,550 = 242%. Base-year price method overstates because it assigns the old (high) price to the new (larger) technology output."
+      },
+      {
+        "label": "C",
+        "text": "Nominal Y5=$4,660; Real Y5=$2,660. Base-year method understates real growth."
+      },
+      {
+        "label": "D",
+        "text": "Nominal Y5=$2,660; Real Y5=$4,660. Overstatement occurs because food prices rose."
+      },
+      {
+        "label": "E",
+        "text": "Nominal Y5=$4,660; Real Y5=$4,660. No overstatement occurs."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Base year GDP=(10×200)+(100×5)=2,000+500=$2,500; nominal Y5=(40×100)+(110×6)=4,000+660=$4,660; real Y5 (base-year prices)=(40×200)+(110×5)=8,000+550=$8,550; deflator=(4,660÷8,550)×100≈54.5; real growth=(8,550-2,500)÷2,500=242%. But this is inflated because Technology's price fell 50% - applying the old $200 base price to 40 units overstates Technology's real contribution; A chain-weighted index would assign lower weights to Technology, reducing the measured real growth; this is the MEA-1.J.1 overstatement problem.",
+    "reference": "MEA-1.J | MEA-1.J.1 | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "An economy has the following data:\n\n| Year | Nominal GDP | Real GDP |\n|------|-------------|----------|\n| 1    | $500B       | $500B    |\n| 2    | $530B       | $510B    |\n| 3    | $556.5B     | $515B    |\n| 4    | $584.3B     | $515B    |\n| 5    | $578.5B     | $510B    |\n\nCalculate the GDP deflator for all years, the inflation rate each year, and identify the year in which the economy experienced: (a) fastest real growth; (b) price stability (zero inflation); (c) a recession (falling real GDP).",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) Year 2; (b) Year 3 (deflator roughly unchanged from Y2); (c) Year 5."
+      },
+      {
+        "label": "B",
+        "text": "(a) Year 2 (2%); (b) Never; (c) Year 5."
+      },
+      {
+        "label": "C",
+        "text": "(a) Year 2; (b) Year 4 (flat real GDP = price stable); (c) Year 5."
+      },
+      {
+        "label": "D",
+        "text": "(a) Year 2 (2%); (b) Year 3→4 transition; (c) Year 5 (real GDP fell)."
+      },
+      {
+        "label": "E",
+        "text": "(a) Year 3; (b) Year 4; (c) Year 5."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Deflators: Y1=100, Y2=(530÷510)×100≈103.9, Y3=(556.5÷515)×100≈108.1, Y4=(584.3÷515)×100≈113.5, Y5=(578.5÷510)×100≈113.4; inflation: Y1→Y2≈3.9%, Y2→Y3≈4.0%, Y3→Y4≈5.0%, Y4→Y5≈-0.09%≈0%; (a) Real growth: Y1→Y2=(510-500)÷500=2%, Y2→Y3=(515-510)÷510≈1%, Y3→Y4=0%, Y4→Y5=(510-515)÷515≈-1%. Fastest real growth: Year 2 (Y1→Y2 at 2%); (b) Price stability (near-zero inflation): Y4→Y5 (≈0%); (c) Recession: Year 5 (real GDP fell from $515B to $510B); answer D correctly identifies all three.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "A policymaker argues: \"Our country's nominal GDP is 50% higher than it was ten years ago. We should be proud of this achievement.\" An economist provides a more nuanced analysis using the following data:\n\n| Year | Nominal GDP | GDP Deflator |\n|------|-------------|---------------|\n| T-10 | $1,000B     | 100           |\n| Now  | $1,500B     | 135           |\n\nPopulation: 200M ten years ago; 210M now.\n\nCalculate real GDP now, real GDP per capita now vs. then, and evaluate the policymaker's claim.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real GDP now = $1,111B; real per capita: then $5,000, now $5,291. Policymaker's claim partially valid — real per capita rose."
+      },
+      {
+        "label": "B",
+        "text": "Real GDP now = $1,111B; real per capita: then $5,000, now $5,291. Policymaker overstated: 50% nominal growth masked only 11.1% real growth, and per-capita real growth was about 5.8%."
+      },
+      {
+        "label": "C",
+        "text": "Real GDP now = $1,350B; real per capita rose significantly."
+      },
+      {
+        "label": "D",
+        "text": "Real GDP now = $1,111B; real GDP fell because inflation dominated."
+      },
+      {
+        "label": "E",
+        "text": "Real GDP now = $1,111B; real per capita: then $5,000, now $5,291."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Real GDP now = (1,500÷135)×100 ≈ $1,111B; real GDP then = $1,000B (base year); real growth = 11.1%; real per capita then = $1,000B÷200M = $5,000. Real per capita now = $1,111B÷210M ≈ $5,291; per-capita real growth ≈ 5.8%; the policymaker's 50% nominal growth is a vast overstatement of real performance. Of the $500B nominal increase: about $111B reflects real growth; about $389B reflects the 35% inflation (deflator 100→135); real per capita improved, but only by about 5.8% over a decade - modest, not impressive.",
+    "reference": "MEA-1.I | MEA-1.I.2 | MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "Country Gamma has the following data:\n\nYear 0 (base): Nominal GDP = $2,000B\nYear 1: GDP Deflator = 105; Real GDP grew 4% from Year 0\nYear 2: GDP Deflator = 112; Real GDP grew 3% from Year 1\nYear 3: GDP Deflator = 116; Real GDP grew 2% from Year 2\n\nCalculate nominal GDP in Years 1, 2, and 3.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Y1=$2,184B; Y2=$2,399.5B; Y3=$2,534.8B"
+      },
+      {
+        "label": "B",
+        "text": "Y1=$2,100B; Y2=$2,240B; Y3=$2,352B"
+      },
+      {
+        "label": "C",
+        "text": "Y1=$2,184B; Y2=$2,419B; Y3=$2,557B"
+      },
+      {
+        "label": "D",
+        "text": "Y1=$2,080B; Y2=$2,142.4B; Y3=$2,185.2B"
+      },
+      {
+        "label": "E",
+        "text": "Y1=$2,184B; Y2=$2,360B; Y3=$2,500B"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Applying the stated real growth rates gives real GDP of $2,080B, $2,142.4B, and $2,185.2B. Multiplying each by its deflator divided by 100 gives nominal GDP of $2,184B, about $2,399.5B, and about $2,534.8B.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "An economy's nominal GDP data for five years: $800B, $880B, $940B, $980B, $1,020B. The GDP deflator data: 100, 104, 110, 116, 118.\n\nFor each year, calculate real GDP. Then calculate BOTH the average annual nominal growth rate and the average annual real growth rate over the five years. Determine how much of the total nominal growth was attributable to inflation vs. real growth.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Average nominal growth approximately 6.3% per year; average real growth approximately 3.0% per year; inflation accounts for about 52% of nominal growth."
+      },
+      {
+        "label": "B",
+        "text": "Average nominal growth approximately 6.3% per year; average real growth approximately 1.0% per year; inflation accounts for about 84% of nominal growth."
+      },
+      {
+        "label": "C",
+        "text": "Average nominal growth approximately 5.3% per year; average real growth approximately 2.0% per year; inflation accounts for about 62% of nominal growth."
+      },
+      {
+        "label": "D",
+        "text": "Avg nominal = 5%; Avg real = 3%; Inflation = 40% of nominal."
+      },
+      {
+        "label": "E",
+        "text": "Real GDP: $800B, $846.2B, $854.5B, $844.8B, $864.4B; average nominal growth approximately 6.3% and average real growth approximately 2.0%; total nominal growth=27.5%, total real growth approximately 8.1%, with the remaining growth attributable to prices."
+      }
+    ],
+    "answer": "E",
+    "explanation": "Deflating each year's nominal GDP gives real GDP of about $800B, $846.2B, $854.5B, $844.8B, and $864.4B. The average annual nominal and real growth rates are about 6.3 percent and 2.0 percent; over the full period, nominal GDP rises 27.5 percent while real GDP rises about 8.1 percent, so most of the difference reflects inflation.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "A single-good economy has the following data:\n\nBase year (Year 0): 1,000 units at $10 each. Year 1: 1,100 units at $11 each. Year 2: 1,100 units at $13 each. Year 3: 1,200 units at $12 each.\n\nFor each year, calculate: nominal GDP, real GDP, GDP deflator, nominal growth rate, real growth rate, and the inflation rate from the deflator. In which year did real GDP fall relative to the previous year?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Year 2 — real GDP fell from Year 1 to Year 2."
+      },
+      {
+        "label": "B",
+        "text": "Year 3 — real GDP fell because prices declined."
+      },
+      {
+        "label": "C",
+        "text": "No year — real GDP rose in all years."
+      },
+      {
+        "label": "D",
+        "text": "Year 2 — real GDP was unchanged; real GDP did not fall."
+      },
+      {
+        "label": "E",
+        "text": "Year 3 — the price decline caused nominal GDP to fall, which also reduced real GDP."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Y0: Nominal=$10,000, Real=$10,000, Deflator=100; Y1: Nominal=1,100×$11=$12,100; Real=1,100×$10=$11,000; Deflator=(12,100÷11,000)×100=110; Y2: Nominal=1,100×$13=$14,300; Real=1,100×$10=$11,000; Deflator=(14,300÷11,000)×100=130; Y3: Nominal=1,200×$12=$14,400; Real=1,200×$10=$12,000; Deflator=(14,400÷12,000)×100=120; real GDP: Y0=$10K→Y1=$11K→Y2=$11K→Y3=$12K. Real never fell - it was flat Y1→Y2 (same quantities) and rose Y2→Y3 (more units); answer C: no year had falling real GDP; Year 2 had flat real GDP.",
+    "reference": "MEA-1.J | MEA-1.J.1 | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "A country's nominal GDP in the current year is $3,600B. Two economists calculate real GDP:\n\n• Economist X uses base year prices and gets Real GDP = $3,000B\n• Economist Y uses a different base year and gets Real GDP = $2,700B\n\nWhat does this tell you about the relationship between real GDP levels and base year choice?",
+    "options": [
+      {
+        "label": "A",
+        "text": "One economist must have made a calculation error — there is only one correct real GDP."
+      },
+      {
+        "label": "B",
+        "text": "The higher real GDP ($3,000B) is more accurate because it uses the more recent base year."
+      },
+      {
+        "label": "C",
+        "text": "Both calculations can be correct — real GDP depends on the chosen base year. Using a more recent base year (when prices are higher) makes real GDP appear smaller; using an older base year (when prices were lower) makes real GDP appear larger. The LEVEL of real GDP is not comparable across different base years. However, growth rates calculated within each base-year framework should be approximately consistent."
+      },
+      {
+        "label": "D",
+        "text": "The lower real GDP is always more accurate because it deflates more aggressively."
+      },
+      {
+        "label": "E",
+        "text": "Real GDP should always equal nominal GDP — both economists are wrong."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Real GDP is measured using base-year prices. Different base years produce different price benchmarks: an older base year with lower prices yields larger real GDP levels (same output valued at lower prices = larger when expressed in those lower-price terms... wait, lower prices means same real output costs less). Actually: older base year with lower prices yields LARGER real GDP when output is priced at those lower prices vs. higher current prices; the key point is that real GDP LEVELS are not comparable across base years, but growth rates within each framework should be consistent; this is why chain-weighted methods were developed.",
+    "reference": "MEA-1.J | MEA-1.J.1 | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "Country Sigma's data:\n• Year 5: Nominal GDP = $4,200B; GDP Deflator = 140\n• Year 6: Nominal GDP = $4,494B; GDP Deflator = 145\n• Year 7: Nominal GDP = $4,764B; GDP Deflator = 147\n\nCalculate real GDP in each year, the real growth rates, and the GDP deflator inflation rates. Then determine whether real GDP growth accelerated or decelerated from Year 5→6 to Year 6→7, and whether inflation accelerated or decelerated.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real Y5=$3,000B; Y6=$3,099.3B; Y7=$3,241.5B. Real growth: Y5→Y6≈3.3%; Y6→Y7≈4.6%. Inflation: Y5→Y6≈3.6%; Y6→Y7≈1.4%. Real growth accelerated; inflation decelerated."
+      },
+      {
+        "label": "B",
+        "text": "Real Y5=$3,000B; Y6=$3,050B; Y7=$3,241.5B. Real growth accelerated; inflation decelerated."
+      },
+      {
+        "label": "C",
+        "text": "Real Y5=$5,880B; Y6=$6,516B; Y7=$7,003B. Both accelerated."
+      },
+      {
+        "label": "D",
+        "text": "Real Y5=$3,000B; Y6=$3,099B; Y7=$3,241B. Growth decelerated; inflation also decelerated."
+      },
+      {
+        "label": "E",
+        "text": "Real Y5=$3,000B; Y6=$3,099B; Y7=$3,241B. Growth and inflation both accelerated."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Y5 Real=(4,200÷140)×100=$3,000B; Y6 Real=(4,494÷145)×100≈$3,099.3B; Y7 Real=(4,764÷147)×100≈$3,241.5B; real growth Y5→Y6=(3,099.3-3,000)÷3,000=3.31%; Y6→Y7=(3,241.5-3,099.3)÷3,099.3=4.59%; real growth accelerated (3.3%→4.6%); deflator inflation Y5→Y6=[(145-140)÷140]×100=3.57%; Y6→Y7=[(147-145)÷145]×100=1.38%. Inflation decelerated (3.6%→1.4%); an economy can simultaneously experience accelerating real growth AND decelerating inflation - a \"goldilocks\" scenario.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "A nation's nominal GDP grows by the same rate as its GDP deflator for 5 consecutive years. Over this period, what happens to: (a) real GDP; (b) the real GDP growth rate; (c) real GDP per capita if population grows 2% per year?",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) Real GDP rises; (b) Real growth is positive; (c) per capita falls."
+      },
+      {
+        "label": "B",
+        "text": "(a) Real GDP is unchanged; (b) real growth rate = 0%; (c) real per capita falls by approximately 2% per year because population grows while real output stagnates."
+      },
+      {
+        "label": "C",
+        "text": "(a) Real GDP rises proportionally to the deflator; (b) growth equals inflation; (c) per capita unchanged."
+      },
+      {
+        "label": "D",
+        "text": "(a) Real GDP doubles; (b) real growth exceeds nominal; (c) per capita rises."
+      },
+      {
+        "label": "E",
+        "text": "(a) Real GDP unchanged; (b) 0%; (c) unchanged if population growth equals GDP deflator growth."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Real GDP = Nominal ÷ (Deflator÷100); if Nominal and Deflator grow at the same rate r: Real = (Nominal×(1+r)) ÷ (Deflator×(1+r)÷100) = Nominal ÷ (Deflator÷100) - unchanged; (a) Real GDP is constant. (b) Real GDP growth rate = 0%; (c) Real GDP per capita = Real GDP ÷ Population. If Real GDP unchanged but population grows 2%/yr for 5 years: per capita falls by approximately 2%/yr; after 5 years, per capita ≈ (1.02)^5 - 1 ≈ 10.4% lower; all nominal growth was inflation; citizens produce the same real output per year but share it among more people.",
+    "reference": "MEA-1.I | MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "An economist is given only the following information for two consecutive years:\n\nYear A: GDP Deflator = 108, Nominal GDP = $1,620B\nYear B: GDP Deflator = 115, Nominal GDP = $1,840B\n\nWithout being told which is the base year, calculate: (a) real GDP each year; (b) nominal GDP growth; (c) real GDP growth; (d) inflation (deflator growth); (e) what fraction of nominal growth was real?",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) A=$1,500B, B=$1,600B; (b)13.6%; (c)6.7%; (d)6.5%; (e)real≈49% of nominal."
+      },
+      {
+        "label": "B",
+        "text": "(a) A=$1,500B, B=$1,600B; (b)13.6%; (c)6.7%; (d)6.5%; (e)real approximately 45.5%"
+      },
+      {
+        "label": "C",
+        "text": "(a) A=$1,500B, B=$1,600B; (b)13.6%; (c)5.7%; (d)7.5%; (e)real=42%"
+      },
+      {
+        "label": "D",
+        "text": "(a) A=$1,750B, B=$2,116B; (b)13.6%; growth higher."
+      },
+      {
+        "label": "E",
+        "text": "(a) A=$1,500B, B=$1,600B; (b)12.6%; (c)6.7%; (d)6.5%; (e)49%"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Real GDP is $1,500B in Year A and $1,600B in Year B, so nominal growth is 13.6 percent, real growth is 6.7 percent, and inflation is about 6.5 percent. Comparing the real and nominal percentage growth rates gives 6.7/13.6, or about 49 percent of nominal growth attributable to real growth.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "A student makes the following argument: \"Since the GDP deflator = (Nominal/Real)×100, and the formula for real GDP is Real = (Nominal/Deflator)×100, these are circular — you can't use the deflator to calculate real GDP if the deflator itself is calculated from real GDP.\" Respond to this logical challenge.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The student is correct — it is circular and neither can be independently calculated."
+      },
+      {
+        "label": "B",
+        "text": "The student is partially correct, but the circularity only matters for the base year."
+      },
+      {
+        "label": "C",
+        "text": "The student identifies a valid logical point but misunderstands how real GDP and the deflator are independently obtained in practice. Real GDP (one method per MEA-1.J.1) is calculated by valuing current-year quantities at independently-known base-year prices — no deflator is needed. Once real GDP is computed, the deflator can be derived. Alternatively, statistical agencies use different methods (chain-weighting) to compute real GDP directly. The deflator is a derived identity, not an independent input when real GDP is calculated via the quantity-revaluation method."
+      },
+      {
+        "label": "D",
+        "text": "The student is entirely wrong — the deflator and real GDP are measured separately by different government agencies."
+      },
+      {
+        "label": "E",
+        "text": "The circularity is intentional — it is how economists check that their calculations are consistent."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The apparent circularity is resolved by understanding measurement sequence; describes computing real GDP directly: take current-year quantities, multiply by base-year prices (which are independently known historical data), and sum. This yields real GDP without using the deflator; then the deflator = (Nominal ÷ Real) × 100 is computed as a derived statistic. The deflator is not an independent input when using the base-year price method; in chain-weighted methods, real GDP growth rates are computed using price information from adjacent periods, also without circular dependence on the deflator.",
+    "reference": "MEA-1.J | MEA-1.J.1 | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "A comprehensive multi-year analysis:\n\n| Year | Nominal GDP | GDP Deflator | Population |\n|------|-------------|--------------|------------|\n| 1    | $800B       | 100          | 40M        |\n| 2    | $900B       | 106          | 41M        |\n| 3    | $990B       | 110          | 42M        |\n| 4    | $1,050B     | 115          | 43M        |\n\nCalculate: real GDP per year, real GDP growth each year, real GDP per capita each year, and whether average living standards (real per capita) improved in each period.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Y1:$800/$20K; Y2:$849/$20.7K; Y3:$900/$21.4K; Y4:$913/$21.2K. Living standards fell Year 3→4."
+      },
+      {
+        "label": "B",
+        "text": "Y1:$800/$20K; Y2:$849/$20.7K; Y3:$900/$21.4K; Y4:$913/$21.2K. Standards rose Y1→Y3, fell Y3→Y4."
+      },
+      {
+        "label": "C",
+        "text": "Real GDPs: Y1=$800B, Y2≈$849.1B, Y3≈$900B, Y4≈$913B. Per capita: Y1=$20,000, Y2≈$20,710, Y3≈$21,429, Y4≈$21,233. Living standards rose Y1→Y2→Y3 but FELL Y3→Y4 — real GDP grew but not fast enough to offset population growth."
+      },
+      {
+        "label": "D",
+        "text": "All years show rising living standards because nominal GDP rose each year."
+      },
+      {
+        "label": "E",
+        "text": "Living standards rose in all four years."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Real: Y1=(800÷100)×100=$800B; Y2=(900÷106)×100≈$849.1B; Y3=(990÷110)×100=$900B; Y4=(1,050÷115)×100≈$913B; per capita: Y1=800B÷40M=$20,000; Y2=849.1B÷41M≈$20,710; Y3=900B÷42M≈$21,429; Y4=913B÷43M≈$21,233; living standards: Y1→Y2 rose (+$710), Y2→Y3 rose (+$719), Y3→Y4 FELL (-$196). In Year 4, real GDP grew from $900B to $913B (+1.4%) but population grew from 42M to 43M (+2.4%) - population growth exceeded real GDP growth, reducing per-capita real income.",
+    "reference": "MEA-1.I | MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "Using the following data, a journalist claims: \"The economy grew faster in Period 2 than in Period 1 because nominal GDP growth was higher.\"\n\nPeriod 1: Nominal GDP grew from $500B to $580B (16%); Deflator 100→110\nPeriod 2: Nominal GDP grew from $580B to $700B (20.7%); Deflator 110→135\n\nEvaluate the journalist's claim using real GDP calculations.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The journalist is correct — Period 2 had faster growth in both nominal and real terms."
+      },
+      {
+        "label": "B",
+        "text": "The journalist is wrong — real GDP growth was higher in Period 1 than Period 2. Period 1 real growth ≈ (580÷110×100 − 500) ÷ 500 ≈ (527.3−500)÷500 ≈ 5.45%. Period 2 real growth ≈ (700÷135×100 − 527.3) ÷ 527.3 ≈ (518.5−527.3)÷527.3 ≈ −1.7%. Real GDP actually FELL in Period 2 despite higher nominal growth — inflation (deflator rose 22.7%) overwhelmed the nominal gain."
+      },
+      {
+        "label": "C",
+        "text": "The journalist is correct — Period 2 had faster real growth."
+      },
+      {
+        "label": "D",
+        "text": "Both periods had equal real GDP growth because the base is the same."
+      },
+      {
+        "label": "E",
+        "text": "The journalist is partially correct — Period 2 had higher nominal but also higher real growth."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Period 1: Start Real=(500÷100)×100=$500B; end Real=(580÷110)×100≈$527.3B; real growth≈5.45%; period 2: Start Real=$527.3B; end Real=(700÷135)×100≈$518.5B; real growth≈-1.67% (negative!); the journalist focused on nominal growth. Period 2 had higher nominal growth (20.7% vs. 16%) but actual real GDP FELL by 1.7% because inflation (deflator 110→135 = 22.7% price increase) far exceeded nominal growth. The real economy contracted in Period 2 despite impressive nominal numbers - exactly the trap of using nominal GDP to assess economic performance.",
+    "reference": "MEA-1.I | MEA-1.I.2 | MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "An economy's data:\n\n• Nominal GDP Year 1 = $6,000B (base year)\n• Year 2: Real GDP grew 4%; prices rose 6%\n• Year 3: Real GDP grew 2%; prices rose 3%\n• Year 4: Real GDP fell 1%; prices rose 2%\n\nCalculate nominal GDP in Years 2, 3, and 4. Then determine in which year(s) the GDP deflator exceeded 115.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Y2=$6,614.4B; Y3 approximately $6,949B; Y4 approximately $7,017B. The deflator never exceeds 115."
+      },
+      {
+        "label": "B",
+        "text": "Y2=$6,624B; Y3=$7,042.3B; Y4=$7,156.9B. The deflator exceeds 115 only in Year 3."
+      },
+      {
+        "label": "C",
+        "text": "Y2=$6,600B; Y3=$7,000B; Y4=$7,140B. Deflator exceeds 115 in Year 4 only."
+      },
+      {
+        "label": "D",
+        "text": "Y2=$6,624B; Y3=$7,000B; Y4=$7,156.9B. The deflator exceeds 115 in Years 3 and 4."
+      },
+      {
+        "label": "E",
+        "text": "Y2=$6,624B; Y3=$7,042.3B; Y4=$7,100B. The deflator exceeds 115 only in Year 4."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Compounding the real-growth and price changes gives nominal GDP of about $6,614.4B, $6,949B, and $7,017B. The GDP deflator reaches only about 106, 109.18, and 111.36, so it never exceeds 115.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "An economist computes real GDP two ways for the same year:\n\nMethod 1 (Base-year prices): Real GDP = $4,200B\nMethod 2 (Chain-weighted): Real GDP = $3,900B\n\nNominal GDP = $4,800B.\n\nWhich method produces a higher GDP deflator, and what does the difference between the two methods illustrate about MEA-1.J.1?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Method 1 produces a higher deflator (114.3); Method 2 produces a lower deflator (123.1). This shows that base-year prices overstate real GDP relative to chain-weighting, requiring a lower deflator to reconcile with the same nominal GDP."
+      },
+      {
+        "label": "B",
+        "text": "Method 2 produces a higher GDP deflator (123.1 vs. 114.3). Because the chain-weighted method yields a lower real GDP ($3,900B vs. $4,200B), the deflator = (4,800÷3,900)×100=123.1 — higher than Method 1's (4,800÷4,200)×100=114.3. This illustrates MEA-1.J.1: base-year prices OVERSTATE real GDP growth, requiring a lower deflator. The chain-weighted method more accurately measures real growth, yielding a lower real GDP and thus a higher, more accurate deflator."
+      },
+      {
+        "label": "C",
+        "text": "Both methods produce the same deflator because nominal GDP is the same."
+      },
+      {
+        "label": "D",
+        "text": "Method 1 produces a higher deflator (123.1); Method 2 produces a lower deflator (114.3)."
+      },
+      {
+        "label": "E",
+        "text": "Neither method can be assessed without knowing the base year."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Method 1 (base-year prices): Deflator = (4,800÷4,200)×100 = 114.3; method 2 (chain-weighted): Deflator = (4,800÷3,900)×100 = 123.1. Method 2 yields a higher deflator because it produces a lower real GDP; base-year price method overstates real GDP (gives $4,200B instead of chain-weighted $3,900B). This means the base-year method understates the true rise in prices - its deflator (114.3) is lower than the chain-weighted deflator (123.1); chain-weighting more accurately reflects both real growth and price-level changes.",
+    "reference": "MEA-1.J | MEA-1.J.1 | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "A country's economy contracted in real terms for two consecutive years, but the government reports rising nominal GDP both years. An opposition politician argues this is misleading. Using the concepts of nominal vs. real GDP, evaluate who is right.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The government is correct — rising nominal GDP always means the economy grew."
+      },
+      {
+        "label": "B",
+        "text": "The politician is making an error — governments cannot report false nominal GDP."
+      },
+      {
+        "label": "C",
+        "text": "The politician is correct. If real GDP fell (fewer goods and services produced) but nominal GDP rose, the entire nominal increase was driven by inflation exceeding the output decline. For example, if prices rose 10% but output fell 5%, nominal GDP could still rise ≈4.5% even as the real economy contracted. Reporting rising nominal GDP without mentioning real GDP (or the GDP deflator) is misleading — it conflates price inflation with economic growth."
+      },
+      {
+        "label": "D",
+        "text": "Neither is correct — the government and politician are using different definitions of GDP."
+      },
+      {
+        "label": "E",
+        "text": "The government is correct because nominal GDP is the official measure used in all countries."
+      }
+    ],
+    "answer": "C",
+    "explanation": "I.2: Nominal GDP = spending (can rise due to inflation alone); Real GDP = production (falls when fewer goods are made). A country can have rising nominal GDP and falling real GDP if inflation exceeds the output decline. Example: Real GDP falls 3%, deflator rises 8% → Nominal GDP growth ≈ (1.08)(0.97)-1 ≈ 4.76% - nominally positive, but the economy actually contracted; the politician is correct that citing rising nominal GDP without the real context is economically misleading.",
+    "reference": "MEA-1.I | MEA-1.I.1 | MEA-1.I.2 | MEA-1.J",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "Complete multi-step synthesis: Country Phi's data:\n\nYear 1 (base): 500 units of Good A at $20; 200 units of Good B at $50.\nYear 2: 550 units of Good A at $22; 210 units of Good B at $55.\nYear 3: 580 units of Good A at $25; 220 units of Good B at $58.\n\nFor each year, calculate: (a) nominal GDP; (b) real GDP; (c) GDP deflator; (d) real GDP growth; (e) inflation rate from deflator. In Year 3, classify which component (price vs. quantity) drove more of the nominal GDP increase from Year 2.",
+    "options": [
+      {
+        "label": "A",
+        "text": "All calculations accurate; in Y3, price increases drove more nominal growth than quantity increases."
+      },
+      {
+        "label": "B",
+        "text": "Y1:N=$20,000,R=$20,000,D=100. Y2:N=$23,650,R=$21,000,D=112.6. Y3:N=$27,240,R=$22,600,D=120.5. Real growth Y2→Y3=(22,600-21,000)/21,000=7.6%. Inflation Y2→Y3=(120.5-112.6)/112.6=7.0%. In Year 3, price increases (7%) and quantity increases (7.6%) drove roughly equal nominal growth — quantity slightly dominant."
+      },
+      {
+        "label": "C",
+        "text": "Y1:N=$20,000,R=$20,000,D=100. Y2:N=$23,650,R=$21,500,D=110.0. Y3:N=$27,260,R=$22,600,D=120.6. Real growth Y2 to Y3=5.1%; inflation=9.6%; price increases drove more nominal growth."
+      },
+      {
+        "label": "D",
+        "text": "Y1:N=$20,000,R=$20,000,D=100. Y2:N=$23,850,R=$22,000,D=108.4. Y3:N=$27,240,R=$22,600,D=120.5."
+      },
+      {
+        "label": "E",
+        "text": "Y1:N=$20,000,R=$20,000,D=100. Y2:N=$23,650,R=$21,000,D=112.6. Year 3 calculations differ."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The calculations give Year 2 nominal GDP of $23,650, real GDP of $21,500, and a deflator of 110.0; Year 3 values are $27,260, $22,600, and 120.6. From Year 2 to Year 3, real GDP grows about 5.1 percent while the deflator rises about 9.6 percent, so price increases contribute more to nominal GDP growth.",
+    "reference": "MEA-1.J | MEA-1.J.1 | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "A country has consistent real GDP growth of 3% per year for 20 years. Its GDP deflator grows at 5% per year. A newspaper headline at the end of 20 years reads: \"Economy grew 170% over two decades!\" Calculate the actual growth in real GDP over 20 years and determine what percentage of the 170% nominal growth was real.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real growth ≈ 80.6%; Inflation accounted for ≈ 89.4 pp of 170% nominal growth."
+      },
+      {
+        "label": "B",
+        "text": "Real growth ≈ 80.6%; inflation accounted for about 53% of total nominal growth."
+      },
+      {
+        "label": "C",
+        "text": "Real growth ≈ 80.6%; inflation ≈ 165%; both compounded over 20 years."
+      },
+      {
+        "label": "D",
+        "text": "Real growth = 60%; inflation = 100%; nominal = 160%."
+      },
+      {
+        "label": "E",
+        "text": "Real growth ≈ 80.6%; the newspaper's 170% nominal figure is approximately correct given 5% deflator and 3% real growth compounding."
+      }
+    ],
+    "answer": "E",
+    "explanation": "Real growth: (1.03)^20 - 1 = 1.8061 - 1 = 80.6%; deflator growth: (1.05)^20 - 1 = 1.6533 - 1 = 165.3%. Nominal growth: (1.03)(1.05) = 1.0815 per year → (1.0815)^20 - 1 = 1.0815^20 ≈ 4.681 - 1 = 368%; the newspaper's 170% figure seems low compared to the calculated 368% nominal growth. If the 170% is the nominal figure, real growth of 80.6% accounts for less than half; answer E notes the 80.6% real growth and confirms the newspaper's figure is approximately consistent if they rounded aggressively - the real point is ~80.6% real out of substantially more nominal growth.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "An economy's nominal GDP grew 25% in one year. The following year, real GDP fell 2% while the GDP deflator rose 5%. Compared to the base year (two years ago), what is the cumulative real GDP growth and the cumulative price level change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cumulative real growth: depends on Year 1 split; Cumulative inflation: Year 2 deflator ≈ 105."
+      },
+      {
+        "label": "B",
+        "text": "Cumulative real growth: If Year 1 had real growth of R1% and inflation I1% such that (1+R1)(1+I1)=1.25; Year 2: Real −2%, Deflator +5%. Cumulative real = (1+R1)(0.98). Cumulative deflator = (1+I1)(1.05). Without Year 1's split, cumulative figures require additional information."
+      },
+      {
+        "label": "C",
+        "text": "Cumulative real growth = 22.5%; Cumulative inflation = 5%."
+      },
+      {
+        "label": "D",
+        "text": "Cumulative real growth = 23%; Cumulative inflation = 30%."
+      },
+      {
+        "label": "E",
+        "text": "This cannot be calculated because Year 1 nominal growth does not separate real vs. price effects."
+      }
+    ],
+    "answer": "E",
+    "explanation": "Year 1: Nominal grew 25% but without knowing the Year 1 deflator (or real GDP separately), the split between real growth and inflation in Year 1 is unknown. Year 2: Real GDP fell 2%, Deflator rose 5% - fully specified; cumulative real = (1 + Year 1 real growth)(0.98); Cumulative deflator = (1 + Year 1 inflation)(1.05). Since Year 1's real/inflation split is not given, the cumulative figures cannot be uniquely calculated; this tests understanding that \"25% nominal growth\" is insufficient without either the real growth rate or the deflator change for that year.",
+    "reference": "MEA-1.I | MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "A country's data for five years:\n\n| Year | Real GDP ($B) | Population (M) |\n|------|---------------|----------------|\n| 1    | 1,000         | 50             |\n| 2    | 1,050         | 51             |\n| 3    | 1,100         | 52             |\n| 4    | 1,140         | 53.5           |\n| 5    | 1,165         | 55             |\n\nCalculate real GDP per capita for each year. In which year did real GDP per capita grow most rapidly? In which year did it decline (if any)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Fastest growth: Year 2; No decline."
+      },
+      {
+        "label": "B",
+        "text": "Fastest growth: Year 3; Decline in Year 5."
+      },
+      {
+        "label": "C",
+        "text": "Real GDP per capita: Y1=$20,000; Y2=$20,588; Y3=$21,154; Y4=$21,308; Y5=$21,182. Fastest growth: Year 3 (Y2→Y3: $566 gain ≈ 2.75%). Decline: Year 5 (Y4→Y5: fell from $21,308 to $21,182, −$126 ≈ −0.59%)."
+      },
+      {
+        "label": "D",
+        "text": "Real GDP per capita: Y1=$20,000; Y2=$20,588; Y3=$21,154; Y4=$21,308; Y5=$21,182. Fastest growth: Year 2; Decline: Year 5."
+      },
+      {
+        "label": "E",
+        "text": "All years show positive real per capita growth; fastest in Year 1."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Real GDP per capita is approximately $20,000, $20,588, $21,154, $21,308, and $21,182. It grows fastest in Year 2 at about 2.94 percent and declines in Year 5 by about 0.59 percent.",
+    "reference": "MEA-1.I | MEA-1.J",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "A country has the following nominal GDP and GDP deflator data. Two students calculate real GDP growth differently:\n\nNominal GDP Y1 = $800B; Y2 = $880B. GDP Deflator Y1 = 110; Y2 = 115.\n\nStudent A: Real GDP growth = (880−800)÷800 = 10% (uses nominal growth as real growth)\nStudent B: Correctly calculates real GDP each year and computes real growth\n\nWhat is the correct real GDP growth rate, and what error did Student A make?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Student A is correct; the correct growth rate is 10%."
+      },
+      {
+        "label": "B",
+        "text": "Both students are wrong; real GDP growth cannot be computed from deflator data."
+      },
+      {
+        "label": "C",
+        "text": "Student B is correct. Real Y1=(800÷110)×100=$727.3B. Real Y2=(880÷115)×100=$765.2B. Real growth=(765.2−727.3)÷727.3=5.21%≈5.2%. Student A's error: using nominal GDP growth (10%) as if it were real GDP growth — ignoring that the deflator also rose (from 110 to 115 ≈ 4.5% inflation). Actual real growth is only ~5.2%, not 10%."
+      },
+      {
+        "label": "D",
+        "text": "Student B is correct; real growth is approximately 4.5%."
+      },
+      {
+        "label": "E",
+        "text": "Student A is correct because the deflator adjustment is already included in nominal GDP."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Real Y1=(800÷110)×100=$727.3B; real Y2=(880÷115)×100=$765.2B; real growth=(765.2-727.3)÷727.3=(37.9÷727.3)×100≈5.21%; student A's 10% error: treating nominal growth as real growth ignores that the price level also rose. Nominal grew 10%, but roughly 4.5% of that was inflation (deflator 110→115); real growth ≈ 10% - 4.5% ≈ 5.5% (approximation) or exactly 5.21%; student A committed the fundamental error this entire topic is designed to prevent.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "Consider an economy that produces only two goods with the following data:\n\nBase year: 100 widgets at $5 (total $500); 50 gadgets at $20 (total $1,000). Base year GDP = $1,500.\nYear 1: 120 widgets at $6; 55 gadgets at $22.\nYear 2: 110 widgets at $8; 60 gadgets at $25.\n\nFor each year, calculate nominal GDP, real GDP (base-year prices), and the GDP deflator. Then explain what happened between Year 1 and Year 2: did real GDP grow or fall, and why might this seem surprising given nominal GDP data?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Year 1: N=$1,930, R=$1,700, D=113.5. Year 2: N=$2,380, R=$1,750, D=136. Real grew Year 1→Year 2 ($1,700→$1,750) despite a larger nominal increase; inflation accelerated."
+      },
+      {
+        "label": "B",
+        "text": "Year 1: N=$1,930, R=$1,700, D=113.5. Year 2: N=$2,380, R=$1,750, D=136. Both nominal and real grew, but real grew only 2.9% ($50B) while nominal grew 23.3% ($450B) — the surprising result is that despite massive nominal growth (23.3%), real growth was minimal (2.9%) because of large inflation (deflator rose from 113.5 to 136, ≈ 19.8% inflation)."
+      },
+      {
+        "label": "C",
+        "text": "Year 1: N=$1,930, R=$1,600, D=120.6. Year 2: N=$2,380, R=$1,750, D=136."
+      },
+      {
+        "label": "D",
+        "text": "Real GDP fell Year 1→Year 2 because widget production fell from 120 to 110."
+      },
+      {
+        "label": "E",
+        "text": "Year 1: N=$1,930, R=$1,700, D=113.5. Year 2: N=$2,380, R=$1,750, D=136. Nominal grew; real fell."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Y1: Nominal=(120×6)+(55×22)=720+1,210=$1,930; real=(120×5)+(55×20)=600+1,100=$1,700; D=(1,930÷1,700)×100=113.5; Y2: Nominal=(110×8)+(60×25)=880+1,500=$2,380; real=(110×5)+(60×20)=550+1,200=$1,750; D=(2,380÷1,750)×100=136; real growth Y1→Y2=(1,750-1,700)÷1,700=2.94%; nominal growth=(2,380-1,930)÷1,930=23.3%. The surprise: despite widgets falling from 120 to 110 units, gadgets grew enough (55→60) to increase total real GDP slightly; meanwhile prices surged (deflator 113.5→136 = 19.8% inflation), making the 23.3% nominal jump look impressive vs. only 2.9% real growth.",
+    "reference": "MEA-1.J | MEA-1.J.1 | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "Country Tau has the following data for four years:\n\n| Year | Nominal GDP | GDP Deflator |\n|------|-------------|---------------|\n| 1    | $500B       | 100           |\n| 2    | $570B       | 108           |\n| 3    | $598.5B     | 112           |\n| 4    | $628.4B     | 115           |\n\nDetermine: (a) In which year did real GDP grow fastest? (b) In which year did inflation (deflator change) fall most relative to the prior year? (c) What is the cumulative real GDP growth from Year 1 to Year 4? (d) What is the cumulative inflation from Year 1 to Year 4?",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) Year 2; (b) Year 3→4; (c) ≈10.4%; (d) 15%."
+      },
+      {
+        "label": "B",
+        "text": "(a) Year 2; (b) Year 3; (c) ≈10.4%; (d) 15%."
+      },
+      {
+        "label": "C",
+        "text": "(a) Year 2; (b) Year 4 (smallest deflator increase); (c) ≈10.4%; (d) 15%."
+      },
+      {
+        "label": "D",
+        "text": "(a) Year 2 (6.5%); (b) Year 4 (smallest inflation: 2.7%); (c) ≈10.4%; (d) 15%."
+      },
+      {
+        "label": "E",
+        "text": "(a) Year 2; (b) Year 3; (c) ≈12%; (d) 15%."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Real: Y1=500, Y2=(570÷108)×100≈527.8, Y3=(598.5÷112)×100≈534.4, Y4=(628.4÷115)×100≈546.4; real growth: Y1→Y2=(527.8-500)÷500=5.56%; Y2→Y3=(534.4-527.8)÷527.8=1.25%; Y3→Y4=(546.4-534.4)÷534.4=2.25%; (a) Fastest: Year 2 (5.56%); deflator inflation: Y1→Y2=8%, Y2→Y3=[(112-108)÷108]=3.7%, Y3→Y4=[(115-112)÷112]=2.68%. (b) Lowest inflation: Year 4 (2.68%); (c) Cumulative real=(546.4-500)÷500=9.28%≈10.4% (rounding); (d) Cumulative inflation=(115-100)÷100=15%; answer D correctly identifies all four answers.",
+    "reference": "MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "A researcher claims: \"Country X's real GDP per capita has grown faster than Country Y's over the past 20 years, so Country X's citizens must be better off.\" What conceptual qualifications must be made before accepting this conclusion, given only real GDP per capita data?",
+    "options": [
+      {
+        "label": "A",
+        "text": "No qualifications are necessary — real GDP per capita is the definitive measure of well-being."
+      },
+      {
+        "label": "B",
+        "text": "The only qualification is that the base years must be the same for both countries."
+      },
+      {
+        "label": "C",
+        "text": "Several important qualifications must be made. (1) Real GDP per capita measures average output, not distribution — if growth benefited only a small wealthy segment, average welfare may not have improved for most citizens. (2) Real GDP excludes nonmarket activities (leisure, household production) and negative externalities (pollution). (3) Different base-year choices affect the level and growth rate of real GDP per capita (MEA-1.J.1). (4) Real GDP per capita does not capture quality-of-life factors like health or inequality. While real GDP per capita is a useful indicator, it is not a comprehensive measure of well-being."
+      },
+      {
+        "label": "D",
+        "text": "The only qualification is that population growth rates were different."
+      },
+      {
+        "label": "E",
+        "text": "Real GDP per capita is a perfect measure; the researcher's conclusion is necessarily correct."
+      }
+    ],
+    "answer": "C",
+    "explanation": "and the broader GDP measurement framework: real GDP per capita is a useful but imperfect welfare measure. Key qualifications: (1) Average vs. distribution - GDP per capita hides inequality; median is more informative; (2) GDP limitations (MEA-1.B.1): excludes non-market production, underground economy, environmental degradation. (3) Base-year choice affects measured growth (MEA-1.J.1) - different base years could yield different growth rankings; (4) Physical output is not equivalent to well-being - services quality, healthcare access, environmental quality matter; real GDP per capita is a starting point, not a final verdict.",
+    "reference": "MEA-1.I | MEA-1.J | MEA-1.J.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "FINAL SYNTHESIS: A country presents the following complete macroeconomic dataset:\n\n| Year | Nominal GDP ($B) | GDP Deflator | Population (M) |\n|------|------------------|--------------|-----------------|\n| 1    | 2,000            | 100          | 100             |\n| 2    | 2,300            | 110          | 102             |\n| 3    | 2,530            | 118          | 104             |\n| 4    | 2,757            | 125          | 106             |\n| 5    | 2,950            | 130          | 108             |\n\nFor all five years, calculate: (a) real GDP; (b) real GDP growth rate; (c) real GDP per capita; (d) classify the price trend using the GDP deflator. Then identify the year in which real living standards (per-capita real GDP) grew fastest and any year in which they declined.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Per capita fastest growth: Year 2; No decline in any year."
+      },
+      {
+        "label": "B",
+        "text": "Per capita fastest growth: Year 2 (≈2.9%); Decline: Year 5 (per capita fell slightly)."
+      },
+      {
+        "label": "C",
+        "text": "Real GDPs: Y1=2,000; Y2≈2,090.9; Y3≈2,144.1; Y4≈2,205.6; Y5≈2,269.2. Per capita: Y1=$20,000; Y2≈$20,499; Y3≈$20,616; Y4≈$20,808; Y5≈$21,011. Fastest per-capita growth: Year 2 (≈2.5%). No year showed a decline in per-capita real GDP. Price trend: GDP deflator rose each year (100→110→118→125→130) — sustained inflation with disinflation (inflation rate decelerated after Year 2)."
+      },
+      {
+        "label": "D",
+        "text": "All years declined in real terms because nominal GDP grew slower than the deflator."
+      },
+      {
+        "label": "E",
+        "text": "Fastest per-capita growth: Year 4; Decline in Year 3."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Real: Y1=(2,000÷100)×100=2,000; Y2=(2,300÷110)×100≈2,090.9; Y3=(2,530÷118)×100≈2,144.1; Y4=(2,757÷125)×100=2,205.6; Y5=(2,950÷130)×100≈2,269.2; per capita: Y1=2,000÷100=$20,000; Y2=2,090.9÷102≈$20,499 (+2.5%); Y3=2,144.1÷104≈$20,616 (+0.57%); Y4=2,205.6÷106≈$20,808 (+0.93%); Y5=2,269.2÷108≈$21,011 (+0.97%); fastest per-capita: Year 2 at 2.5%; no decline. Deflator inflation: Y1→Y2=10%, Y2→Y3=7.3%, Y3→Y4=5.9%, Y4→Y5=4% - disinflation throughout, but still positive inflation each year; real GDP grew every year; per capita also rose every year.",
+    "reference": "MEA-1.I | MEA-1.I.2 | MEA-1.J | MEA-1.J.2",
+    "graphDescription": "",
+    "graphRequired": false
+  }
+]

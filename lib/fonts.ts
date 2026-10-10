@@ -1,10 +1,9 @@
-import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 
-export const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-});
+export const inter = {
+  className: "font-inter",
+  variable: "",
+} as const;
 
 export const openDyslexic = localFont({
   variable: "--font-dyslexic",

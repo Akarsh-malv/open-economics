@@ -1,0 +1,3202 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "Gross Domestic Product (GDP) is best defined as the",
+    "options": [
+      {
+        "label": "A",
+        "text": "total income earned by a country's citizens regardless of where they live or work"
+      },
+      {
+        "label": "B",
+        "text": "market value of all final goods and services produced within a country's borders in a given time period"
+      },
+      {
+        "label": "C",
+        "text": "total value of all goods and services exchanged in an economy, including intermediate goods"
+      },
+      {
+        "label": "D",
+        "text": "total government spending on goods and services in a given year"
+      },
+      {
+        "label": "E",
+        "text": "market value of all goods and services exported to other countries in a given year"
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP is defined as the market value of all final goods and services produced within a country's domestic borders during a given time period (typically one year or one quarter). It excludes intermediate goods, measures domestic production only, and is not limited to government spending or exports.",
+    "reference": "MEA-1.A | MEA-1.A.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "Which of the following correctly explains why GDP counts only FINAL goods and services rather than intermediate goods?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Intermediate goods are produced by foreign-owned firms and therefore excluded from domestic GDP"
+      },
+      {
+        "label": "B",
+        "text": "Counting both intermediate and final goods would result in double-counting, overstating the economy's actual output"
+      },
+      {
+        "label": "C",
+        "text": "Intermediate goods are not sold in markets and therefore cannot be assigned a market value"
+      },
+      {
+        "label": "D",
+        "text": "Final goods are always more valuable than intermediate goods and thus better measure economic output"
+      },
+      {
+        "label": "E",
+        "text": "GDP only counts goods that reach consumers, not businesses"
+      }
+    ],
+    "answer": "B",
+    "explanation": "If GDP counted both intermediate goods (e.g., steel) and the final goods made from them (e.g., cars), the value of the intermediate inputs would be counted twice - once when sold to the manufacturer and again embedded in the final product price. Counting only final goods avoids this double-counting problem.",
+    "reference": "MEA-1.A | MEA-1.A.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "In the circular flow model, which two major sectors represent the basic framework of the economy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The government sector and the foreign sector"
+      },
+      {
+        "label": "B",
+        "text": "Households and firms (businesses)"
+      },
+      {
+        "label": "C",
+        "text": "Exporters and importers"
+      },
+      {
+        "label": "D",
+        "text": "Banks and the central bank"
+      },
+      {
+        "label": "E",
+        "text": "Investors and consumers"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The basic circular flow model centers on two main sectors: households and firms. Households own factors of production (labor, capital, land) and supply them to firms; firms produce goods and services and sell them to households; money flows in the opposite direction of real goods and factors.",
+    "reference": "MEA-1.A | MEA-1.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "In the circular flow model, what do households provide to firms through factor markets, and what do they receive in return?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Households provide finished goods to firms; they receive raw materials in return"
+      },
+      {
+        "label": "B",
+        "text": "Households provide factors of production (labor, land, capital) to firms; they receive factor income (wages, rent, interest, profit) in return"
+      },
+      {
+        "label": "C",
+        "text": "Households provide investment funds to firms; they receive goods and services in return"
+      },
+      {
+        "label": "D",
+        "text": "Households provide taxes to the government; they receive public services in return"
+      },
+      {
+        "label": "E",
+        "text": "Households provide savings to banks; they receive goods at lower prices in return"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In the circular flow, households supply factors of production - labor, land, and capital - to firms through factor markets; firms compensate households with factor income: wages for labor, rent for land, interest for capital, and profit for entrepreneurship.",
+    "reference": "MEA-1.A | MEA-1.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "In the circular flow model, what do firms provide to households through product markets, and what do they receive in return?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Firms provide factors of production to households; they receive factor payments in return"
+      },
+      {
+        "label": "B",
+        "text": "Firms provide finished goods and services to households; they receive consumer expenditure (income from sales) in return"
+      },
+      {
+        "label": "C",
+        "text": "Firms provide wages and salaries to households; they receive labor services in return"
+      },
+      {
+        "label": "D",
+        "text": "Firms provide tax revenue to the government; they receive subsidies in return"
+      },
+      {
+        "label": "E",
+        "text": "Firms provide exports to foreign buyers; they receive imports in return"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In the circular flow, firms produce goods and services and sell them to households through product markets; households pay for these goods and services with consumer expenditure, which becomes revenue for firms.",
+    "reference": "MEA-1.A | MEA-1.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "The circular flow diagram illustrates that GDP can be measured as a flow of",
+    "options": [
+      {
+        "label": "A",
+        "text": "only real goods and services from firms to households"
+      },
+      {
+        "label": "B",
+        "text": "only factor payments from firms to households"
+      },
+      {
+        "label": "C",
+        "text": "both total income (factor payments) and total expenditure (spending on goods and services) — which are equal in a simple economy"
+      },
+      {
+        "label": "D",
+        "text": "government taxes and transfer payments"
+      },
+      {
+        "label": "E",
+        "text": "exports minus imports"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The circular flow shows that the total value of output equals total expenditure (what households spend) equals total income (what factor owners receive). GDP can therefore be measured from either the spending side (expenditure approach) or the income side (income approach) - both give the same answer.",
+    "reference": "MEA-1.A | MEA-1.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "Which of the following is the formula for GDP using the expenditure approach?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP = Wages + Rent + Interest + Profit"
+      },
+      {
+        "label": "B",
+        "text": "GDP = C + I + G + NX, where C = consumption, I = investment, G = government spending, NX = net exports"
+      },
+      {
+        "label": "C",
+        "text": "GDP = Total Revenue − Total Costs"
+      },
+      {
+        "label": "D",
+        "text": "GDP = Final Goods Value − Intermediate Goods Value"
+      },
+      {
+        "label": "E",
+        "text": "GDP = Consumer Spending + Government Taxes + Business Profits"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The expenditure approach measures GDP by adding up all spending on final goods and services: C (household consumption) + I (business investment) + G (government purchases of goods and services) + NX (exports minus imports). This is the most commonly used approach in macroeconomics.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "In the expenditure approach to GDP, \"C\" refers to",
+    "options": [
+      {
+        "label": "A",
+        "text": "government consumption of public goods only"
+      },
+      {
+        "label": "B",
+        "text": "household spending on consumer goods and services, the largest component of GDP in most economies"
+      },
+      {
+        "label": "C",
+        "text": "corporate investment in capital equipment"
+      },
+      {
+        "label": "D",
+        "text": "the value of all intermediate goods consumed in production"
+      },
+      {
+        "label": "E",
+        "text": "spending on capital goods by households and firms combined"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In GDP = C + I + G + NX, \"C\" stands for consumption - household spending on goods and services such as food, clothing, appliances, healthcare, and education; consumption is typically the largest component of GDP in advanced economies.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "In the expenditure approach to GDP, \"I\" (investment) refers to",
+    "options": [
+      {
+        "label": "A",
+        "text": "household purchases of financial assets such as stocks and bonds"
+      },
+      {
+        "label": "B",
+        "text": "business spending on capital goods (machinery, equipment, buildings) and changes in inventories"
+      },
+      {
+        "label": "C",
+        "text": "government spending on infrastructure such as roads and bridges"
+      },
+      {
+        "label": "D",
+        "text": "any purchase of goods or services by any economic agent"
+      },
+      {
+        "label": "E",
+        "text": "foreign investment in domestic securities"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In GDP = C + I + G + NX, \"I\" (gross private domestic investment) refers to business purchases of new capital goods (equipment, machinery, structures) and changes in business inventories. Note that financial investment (buying stocks/bonds) is NOT counted - GDP measures real production, not financial transactions.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "In the expenditure approach to GDP, \"G\" refers to",
+    "options": [
+      {
+        "label": "A",
+        "text": "total government revenue from taxes"
+      },
+      {
+        "label": "B",
+        "text": "government transfer payments such as Social Security and unemployment benefits"
+      },
+      {
+        "label": "C",
+        "text": "government purchases of goods and services — spending on defense, infrastructure, education, and government employee salaries"
+      },
+      {
+        "label": "D",
+        "text": "government budget deficits and surpluses"
+      },
+      {
+        "label": "E",
+        "text": "total government debt outstanding"
+      }
+    ],
+    "answer": "C",
+    "explanation": "\"G\" in GDP = C + I + G + NX represents government purchases of goods and services - money spent on actual output such as military equipment, roads, schools, and salaries of public employees. Transfer payments (Social Security, welfare) are NOT included in G because they do not represent payment for currently produced goods or services.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "In the expenditure approach to GDP, \"NX\" (net exports) is defined as",
+    "options": [
+      {
+        "label": "A",
+        "text": "total exports only — imports are already captured in C, I, and G"
+      },
+      {
+        "label": "B",
+        "text": "total exports plus total imports"
+      },
+      {
+        "label": "C",
+        "text": "exports minus imports — it represents the net contribution of foreign trade to domestic production"
+      },
+      {
+        "label": "D",
+        "text": "the trade surplus or deficit of the government only"
+      },
+      {
+        "label": "E",
+        "text": "the difference between domestic investment and domestic savings"
+      }
+    ],
+    "answer": "C",
+    "explanation": "NX = Exports (X) - Imports (M); exports add to GDP because they represent domestic production purchased by foreigners. Imports are subtracted because they are included in C, I, and G (spending by domestic agents) but are produced abroad and should not count toward domestic GDP; NX can be positive (trade surplus) or negative (trade deficit).",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "Which of the following is the formula for GDP using the income approach?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP = C + I + G + NX"
+      },
+      {
+        "label": "B",
+        "text": "GDP = Value Added at Stage 1 + Value Added at Stage 2 + ... + Value Added at Final Stage"
+      },
+      {
+        "label": "C",
+        "text": "GDP = Wages + Rent + Interest + Profit (factor incomes earned by factors of production)"
+      },
+      {
+        "label": "D",
+        "text": "GDP = Government Revenue − Government Spending"
+      },
+      {
+        "label": "E",
+        "text": "GDP = Total Exports − Total Imports"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The income approach measures GDP by summing all factor incomes earned in the economy: wages (compensation for labor), rent (compensation for land), interest (compensation for capital), and profit (compensation for entrepreneurship). Since all spending becomes someone's income, this total should equal the expenditure-approach GDP.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "The value-added approach to measuring GDP sums",
+    "options": [
+      {
+        "label": "A",
+        "text": "the total sales revenue of every firm at every stage of production"
+      },
+      {
+        "label": "B",
+        "text": "the value added at each stage of production — the difference between each firm's revenue and the cost of intermediate inputs it purchased"
+      },
+      {
+        "label": "C",
+        "text": "only the wages paid to workers at each stage of production"
+      },
+      {
+        "label": "D",
+        "text": "only the prices of final goods sold to consumers"
+      },
+      {
+        "label": "E",
+        "text": "the total profit of all firms in the economy"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The value-added approach calculates GDP by summing the value added at each stage of production. Value added = a firm's output value minus the cost of intermediate inputs; by summing value added across all stages, we arrive at the total value of final output without double-counting intermediate transactions.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "A wheat farmer sells $200 of wheat to a flour miller. The flour miller processes the wheat and sells $350 of flour to a bakery. The bakery bakes bread and sells $600 of finished bread to consumers. Using the value-added approach, what is the total contribution to GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$1,150 — the sum of all sales transactions"
+      },
+      {
+        "label": "B",
+        "text": "$600 — only the final sale to consumers counts"
+      },
+      {
+        "label": "C",
+        "text": "$600 — which equals the sum of value added at each stage: $200 + $150 + $250"
+      },
+      {
+        "label": "D",
+        "text": "$350 — only intermediate production counts"
+      },
+      {
+        "label": "E",
+        "text": "$800 — the sum of the last two transactions"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Value added at each stage: farmer: $200-$0=$200; miller: $350-$200=$150; bakery: $600-$350=$250; total value added = $200+$150+$250 = $600; this equals the final sale price to consumers ($600) - confirming that summing value added equals counting only final output.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "All three approaches to measuring GDP — expenditure, income, and value-added — should produce",
+    "options": [
+      {
+        "label": "A",
+        "text": "different results because each measures different aspects of the economy"
+      },
+      {
+        "label": "B",
+        "text": "the same result, because each approach measures the same overall economic activity from a different angle"
+      },
+      {
+        "label": "C",
+        "text": "results that differ by the amount of government spending"
+      },
+      {
+        "label": "D",
+        "text": "the same result only if the economy has no imports or exports"
+      },
+      {
+        "label": "E",
+        "text": "different results depending on which industries are growing fastest"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In theory, all three GDP measurement approaches yield the same result. This is because every dollar of expenditure on final output becomes income for a factor of production, and the value added at each stage of production sums to the price of the final good; the three approaches are three different lenses on the same economic activity.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "Which of the following would be counted in GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The purchase of a used car from a private seller"
+      },
+      {
+        "label": "B",
+        "text": "A parent's unpaid childcare for their own child"
+      },
+      {
+        "label": "C",
+        "text": "The production and sale of a new laptop computer"
+      },
+      {
+        "label": "D",
+        "text": "A stock market transaction in which one investor buys shares from another"
+      },
+      {
+        "label": "E",
+        "text": "The value of illegal drug transactions"
+      }
+    ],
+    "answer": "C",
+    "explanation": "GDP counts the production and sale of new final goods. A new laptop is a final good currently produced - it is counted in GDP (as part of consumer spending C); used goods (resold without new production), unpaid household work, financial transactions, and underground economy transactions are all excluded from official GDP.",
+    "reference": "MEA-1.A | MEA-1.A.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "Which of the following would NOT be included in GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A new house purchased by a family"
+      },
+      {
+        "label": "B",
+        "text": "A city government's purchase of a new fleet of buses"
+      },
+      {
+        "label": "C",
+        "text": "A factory's purchase of new robotic machinery"
+      },
+      {
+        "label": "D",
+        "text": "A consumer's purchase of groceries from a supermarket"
+      },
+      {
+        "label": "E",
+        "text": "A grandmother's purchase of a 20-year-old collectible painting at an auction"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The resale of a previously produced good (a 20-year-old painting) does not represent new production in the current period - it was already counted in GDP when originally produced; GDP only counts current-period production of new goods and services.",
+    "reference": "MEA-1.A | MEA-1.A.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "Government transfer payments such as Social Security benefits and unemployment insurance are",
+    "options": [
+      {
+        "label": "A",
+        "text": "included in GDP as part of government spending (G)"
+      },
+      {
+        "label": "B",
+        "text": "included in GDP as part of household consumption (C)"
+      },
+      {
+        "label": "C",
+        "text": "NOT included in GDP because they are not payments for currently produced goods or services — they simply redistribute income from taxpayers to recipients"
+      },
+      {
+        "label": "D",
+        "text": "included in GDP as part of net exports (NX)"
+      },
+      {
+        "label": "E",
+        "text": "included in GDP only if the recipients spend the money on goods"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Transfer payments (Social Security, unemployment insurance, welfare) are NOT included in GDP because they do not represent payments for current production of goods or services. They simply transfer purchasing power from one group to another; when transfer payment recipients spend the money on goods, that spending is counted as part of C, but the transfer itself is not added to G.",
+    "reference": "MEA-1.A | MEA-1.A.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "A domestic car manufacturer produces vehicles in the United States using some parts imported from abroad. How are these imported parts treated in the GDP calculation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "They are fully counted in GDP because they are assembled in the United States"
+      },
+      {
+        "label": "B",
+        "text": "They are added to the I (investment) component of GDP"
+      },
+      {
+        "label": "C",
+        "text": "They are subtracted from GDP through the imports term (M) in NX = X − M to avoid counting foreign-produced value in domestic GDP"
+      },
+      {
+        "label": "D",
+        "text": "They are included in GDP only if the manufacturer pays tariffs on them"
+      },
+      {
+        "label": "E",
+        "text": "They are excluded from GDP but added back in through the value-added approach"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Imported inputs used in domestic production are embedded in the price of the final good (counted in C, I, or G) but represent foreign production. The imports term (M) in NX = X - M subtracts them from GDP, ensuring only domestically produced value is counted.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "Which of the following is an example of investment (I) as defined in the national income accounts?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A household purchases $5,000 of stock in a technology company"
+      },
+      {
+        "label": "B",
+        "text": "A factory purchases $2 million of new manufacturing equipment"
+      },
+      {
+        "label": "C",
+        "text": "A consumer purchases a new refrigerator for their home"
+      },
+      {
+        "label": "D",
+        "text": "The government purchases $100 million of Treasury bonds"
+      },
+      {
+        "label": "E",
+        "text": "A bank deposits customer funds into a savings account"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In national income accounting, investment (I) refers to purchases of new capital goods by businesses - machinery, equipment, buildings, and changes in inventories. Purchasing stock is a financial transaction (not in GDP); the refrigerator is consumer spending (C); government bond purchases are financial transactions; the factory machinery purchase is business investment (I).",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "A country has: Consumption = $8 trillion; Investment = $2 trillion; Government spending = $3 trillion; Exports = $1.5 trillion; Imports = $2 trillion. What is GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$14.5 trillion"
+      },
+      {
+        "label": "B",
+        "text": "$16.5 trillion"
+      },
+      {
+        "label": "C",
+        "text": "$12.5 trillion"
+      },
+      {
+        "label": "D",
+        "text": "$15 trillion"
+      },
+      {
+        "label": "E",
+        "text": "$12 trillion"
+      }
+    ],
+    "answer": "C",
+    "explanation": "GDP = C + I + G + NX = 8 + 2 + 3 + (1.5 - 2) = 8 + 2 + 3 + (-0.5) = $12.5 trillion. Note that NX = Exports - Imports = 1.5 - 2 = -0.5 (a trade deficit), which reduces GDP.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "A country has exports of $800 billion and imports of $1,200 billion. What is the contribution of net exports (NX) to GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "NX = +$400 billion; a trade surplus that adds to GDP"
+      },
+      {
+        "label": "B",
+        "text": "NX = −$400 billion; a trade deficit that reduces GDP"
+      },
+      {
+        "label": "C",
+        "text": "NX = $2,000 billion; total trade adds to GDP"
+      },
+      {
+        "label": "D",
+        "text": "NX = $0; imports and exports are equal by accounting identity"
+      },
+      {
+        "label": "E",
+        "text": "NX = $800 billion; only exports count toward GDP"
+      }
+    ],
+    "answer": "B",
+    "explanation": "NX = Exports - Imports = $800B - $1,200B = -$400 billion; this negative net exports (trade deficit) reduces GDP by $400 billion because it means domestic spending includes more foreign-produced goods than foreign spending on domestic goods.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "In the circular flow model, the flow of MONEY from households to firms through product markets represents",
+    "options": [
+      {
+        "label": "A",
+        "text": "factor payments — wages, rent, interest, and profit paid by firms"
+      },
+      {
+        "label": "B",
+        "text": "consumer expenditure — the money households pay for goods and services"
+      },
+      {
+        "label": "C",
+        "text": "government tax revenues collected from households"
+      },
+      {
+        "label": "D",
+        "text": "household savings deposited into financial institutions"
+      },
+      {
+        "label": "E",
+        "text": "investment spending by businesses on new capital"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In the circular flow, when households buy goods and services from firms through product markets, they pay money - this is consumer expenditure (C). It flows from households to firms; in the reverse direction, goods and services flow from firms to households.",
+    "reference": "MEA-1.A | MEA-1.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "In the circular flow model with a government sector, what are the two flows between households and the government?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Households send savings to the government; the government sends wages back"
+      },
+      {
+        "label": "B",
+        "text": "Households pay taxes to the government; the government provides public goods and services (and may send transfer payments) back to households"
+      },
+      {
+        "label": "C",
+        "text": "Households provide labor to the government; the government provides capital goods to households"
+      },
+      {
+        "label": "D",
+        "text": "Households provide exports to the government; the government provides imports back"
+      },
+      {
+        "label": "E",
+        "text": "Households receive profits from the government; the government receives investment spending"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In the expanded circular flow with a government sector: households pay taxes to the government, and the government provides public goods and services (and transfer payments) to households. Government spending on goods and services (G) flows to firms through product markets.",
+    "reference": "MEA-1.A | MEA-1.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "In the circular flow model, imports represent money flowing",
+    "options": [
+      {
+        "label": "A",
+        "text": "into the domestic economy from foreign buyers"
+      },
+      {
+        "label": "B",
+        "text": "out of the domestic economy to pay for foreign-produced goods and services"
+      },
+      {
+        "label": "C",
+        "text": "from domestic firms to domestic households as wages"
+      },
+      {
+        "label": "D",
+        "text": "from the government to households as transfer payments"
+      },
+      {
+        "label": "E",
+        "text": "from domestic firms to foreign firms as investment"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Imports represent a flow of money out of the domestic circular flow to foreign sellers, in exchange for goods and services produced abroad. Exports are the reverse - money flowing into the domestic economy from foreign buyers paying for domestic goods.",
+    "reference": "MEA-1.A | MEA-1.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "Which of the following transactions represents an intermediate good that should NOT be directly counted in GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A consumer buys a finished bicycle from a sporting goods store for $400"
+      },
+      {
+        "label": "B",
+        "text": "A bicycle manufacturer buys $30 of steel to make bicycle frames — the steel is an intermediate input"
+      },
+      {
+        "label": "C",
+        "text": "A restaurant buys kitchen equipment worth $5,000"
+      },
+      {
+        "label": "D",
+        "text": "A city government contracts a road construction firm to pave a highway for $50 million"
+      },
+      {
+        "label": "E",
+        "text": "A family purchases a newly built house for $250,000"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The steel purchased by a bicycle manufacturer is an intermediate good - it is an input used in producing a final good (the bicycle). Its value will be captured in the final price of the bicycle; counting the steel separately would result in double-counting.",
+    "reference": "MEA-1.A | MEA-1.A.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "GDP measures the output produced within a country's DOMESTIC BORDERS. This means",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP includes the production of all citizens of that country regardless of where they live"
+      },
+      {
+        "label": "B",
+        "text": "GDP includes the value of production by a foreign-owned factory located within that country's borders"
+      },
+      {
+        "label": "C",
+        "text": "GDP excludes output produced by foreign workers temporarily employed in the country"
+      },
+      {
+        "label": "D",
+        "text": "GDP counts only the output of domestically owned companies"
+      },
+      {
+        "label": "E",
+        "text": "GDP is the same as Gross National Product (GNP)"
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP is a geographic measure - it counts all production occurring within a country's physical borders, regardless of who owns the factors. A factory owned by a Japanese company located in the United States contributes to U.S; GDP (and Japanese GNP); this distinguishes GDP from GNP (which follows citizenship rather than location).",
+    "reference": "MEA-1.A | MEA-1.A.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "Which of the following is correctly classified as part of consumption (C) in the GDP expenditure approach?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A business purchases 10 new delivery trucks"
+      },
+      {
+        "label": "B",
+        "text": "The federal government pays contractor salaries to build a new military base"
+      },
+      {
+        "label": "C",
+        "text": "A household pays $1,500 per month for rent on an apartment"
+      },
+      {
+        "label": "D",
+        "text": "A foreign tourist buys American-made products"
+      },
+      {
+        "label": "E",
+        "text": "A factory increases its inventory of unsold goods by $200,000"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Household spending on services (such as rent) is classified as consumption (C); business purchases of trucks are investment (I). Government contractor payments are government spending (G); A foreign tourist buying domestic goods is an export (part of NX); inventory increases are counted as business investment (I).",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "New home construction is classified in the GDP accounts as",
+    "options": [
+      {
+        "label": "A",
+        "text": "consumption (C) — because households live in houses"
+      },
+      {
+        "label": "B",
+        "text": "government spending (G) — because local governments issue building permits"
+      },
+      {
+        "label": "C",
+        "text": "investment (I) — specifically residential fixed investment"
+      },
+      {
+        "label": "D",
+        "text": "net exports (NX) — because building materials may be imported"
+      },
+      {
+        "label": "E",
+        "text": "not counted in GDP because a house is not a service"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In national income accounting, newly constructed residential housing is classified as investment (I) - specifically residential fixed investment - even though households ultimately live in the homes. The construction of a new home represents the creation of a new productive asset (housing capital).",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "A country has the following data: Wages = $6T; Rent = $1T; Interest = $0.5T; Profit = $2.5T. Using the income approach, what is GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$8 trillion"
+      },
+      {
+        "label": "B",
+        "text": "$10 trillion"
+      },
+      {
+        "label": "C",
+        "text": "$9 trillion"
+      },
+      {
+        "label": "D",
+        "text": "$7 trillion"
+      },
+      {
+        "label": "E",
+        "text": "$12 trillion"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Income approach: GDP = Wages + Rent + Interest + Profit = $6T + $1T + $0.5T + $2.5T = $10 trillion; all factor incomes sum to total output value, equaling GDP measured by the expenditure approach.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 31,
+    "difficulty": "Easy",
+    "prompt": "In the circular flow model, the market where labor, land, and capital are bought and sold is called the",
+    "options": [
+      {
+        "label": "A",
+        "text": "product market"
+      },
+      {
+        "label": "B",
+        "text": "financial market"
+      },
+      {
+        "label": "C",
+        "text": "factor market (or resource market)"
+      },
+      {
+        "label": "D",
+        "text": "government market"
+      },
+      {
+        "label": "E",
+        "text": "export market"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In the circular flow, the factor market (also called the resource market) is where factors of production - labor, land, and capital - are bought and sold. Households supply these factors to firms and receive factor income (wages, rent, interest, profit) in return.",
+    "reference": "MEA-1.A | MEA-1.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 32,
+    "difficulty": "Easy",
+    "prompt": "An American company manufactures automobiles at a factory in Germany. This production contributes to",
+    "options": [
+      {
+        "label": "A",
+        "text": "U.S. GDP only, because it is an American company"
+      },
+      {
+        "label": "B",
+        "text": "Germany's GDP (because production occurs within Germany's borders) and U.S. GNP (because the company is American-owned)"
+      },
+      {
+        "label": "C",
+        "text": "Neither country's GDP because it involves cross-border production"
+      },
+      {
+        "label": "D",
+        "text": "Germany's GDP only, without any connection to the United States"
+      },
+      {
+        "label": "E",
+        "text": "U.S. GDP because the profits repatriated to the United States are counted"
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP is a geographic measure - production in Germany contributes to Germany's GDP regardless of who owns the factory. GNP (Gross National Product) follows citizenship - production by American-owned firms abroad contributes to U.S; GNP; so this factory contributes to Germany's GDP and U.S.",
+    "reference": "MEA-1.A | MEA-1.A.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 33,
+    "difficulty": "Easy",
+    "prompt": "The circular flow model shows that in a simple two-sector economy (households and firms), total spending equals total income. This is because",
+    "options": [
+      {
+        "label": "A",
+        "text": "the government sets spending equal to income through tax policy"
+      },
+      {
+        "label": "B",
+        "text": "every dollar of expenditure on goods and services by households becomes revenue for firms, which is then paid out as factor income (wages, rent, interest, profit) to households"
+      },
+      {
+        "label": "C",
+        "text": "imports and exports balance out in every period"
+      },
+      {
+        "label": "D",
+        "text": "firms always spend exactly what they earn on new capital investment"
+      },
+      {
+        "label": "E",
+        "text": "households save everything they earn, so income always exceeds spending"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In the circular flow, every dollar households spend on goods and services flows to firms as revenue. Firms use that revenue to pay factor owners - wages to workers, rent to landowners, interest to capital owners, and profit to entrepreneurs; these payments become household income; so total spending = total income = GDP.",
+    "reference": "MEA-1.A | MEA-1.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "A steel company sells $500 of steel to an auto manufacturer. The auto manufacturer uses the steel to produce a car and sells the finished car to a consumer for $18,000. What is the contribution to GDP, and which approach best illustrates this calculation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$18,500 (both transactions counted) — expenditure approach"
+      },
+      {
+        "label": "B",
+        "text": "$18,000 (only the final sale) — either the expenditure approach or the value-added approach, both of which avoid double-counting"
+      },
+      {
+        "label": "C",
+        "text": "$500 (only the intermediate good) — value-added approach"
+      },
+      {
+        "label": "D",
+        "text": "$17,500 (the car price minus the steel) — income approach"
+      },
+      {
+        "label": "E",
+        "text": "$18,000 only using the expenditure approach; the value-added approach gives $18,500"
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP counts only the final good (the car) at $18,000; this avoids double-counting the steel ($500), which is already embedded in the car's price. The value-added approach also gives $18,000: value added by steel company = $500; value added by auto manufacturer = $18,000 - $500 = $17,500; total = $18,000.",
+    "reference": "MEA-1.A | MEA-1.A.1 | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "Use the following data to calculate nominal GDP using the expenditure approach: Consumer spending = $12.5T; Gross private investment = $3.2T; Government purchases of goods and services = $3.8T; Exports = $2.1T; Imports = $2.8T.",
+    "options": [
+      {
+        "label": "A",
+        "text": "$21.4 trillion"
+      },
+      {
+        "label": "B",
+        "text": "$22.4 trillion"
+      },
+      {
+        "label": "C",
+        "text": "$18.8 trillion"
+      },
+      {
+        "label": "D",
+        "text": "$23.1 trillion"
+      },
+      {
+        "label": "E",
+        "text": "$18.1 trillion"
+      }
+    ],
+    "answer": "C",
+    "explanation": "GDP = C + I + G + NX = 12.5 + 3.2 + 3.8 + (2.1 - 2.8) = 12.5 + 3.2 + 3.8 + (-0.7) = $18.8 trillion. Net exports = 2.1 - 2.8 = -$0.7T (trade deficit); do not add both exports and imports separately - only net exports (X - M) goes into the formula.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "Which of the following transactions DOES count toward GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A homeowner mows her own lawn instead of hiring a lawn service"
+      },
+      {
+        "label": "B",
+        "text": "A student babysits her neighbor's child and is paid $50 cash that she does not report"
+      },
+      {
+        "label": "C",
+        "text": "A software company hires programmers and pays them $2 million in salaries to develop a new app, which is then sold for $8 million"
+      },
+      {
+        "label": "D",
+        "text": "An investor sells $500,000 of corporate bonds on the secondary market"
+      },
+      {
+        "label": "E",
+        "text": "A family buys a used refrigerator from a neighbor for $200"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The software company's production of the new app is counted in GDP - it represents new output ($8M in value added) currently produced. The $2M in salaries is captured in the income approach; the $8M in sales is in the expenditure approach.",
+    "reference": "MEA-1.A | MEA-1.A.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "A firm produces 1,000 units of output in 2024 but only sells 800 units, leaving 200 units unsold in inventory at year end. How does the inventory buildup affect GDP for 2024?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only the 800 sold units count toward GDP; the 200 unsold units are excluded"
+      },
+      {
+        "label": "B",
+        "text": "The 200 unsold units reduce GDP because they represent wasted production"
+      },
+      {
+        "label": "C",
+        "text": "The 200 units added to inventory are counted as investment (I) in 2024's GDP, reflecting that the firm invested in its own inventory"
+      },
+      {
+        "label": "D",
+        "text": "All 1,000 units are counted in consumer spending (C) regardless of whether they were sold"
+      },
+      {
+        "label": "E",
+        "text": "The unsold inventory is counted as government spending (G) because it may be purchased in the future"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In national income accounting, an increase in business inventories is classified as investment (I). The firm is treated as if it \"bought\" its own unsold goods for its inventory; this ensures that all current production counts in current-period GDP, regardless of when it is ultimately sold; if sold next year, the inventory drawdown reduces next year's investment.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "A U.S. citizen works at a call center in India. Her income is",
+    "options": [
+      {
+        "label": "A",
+        "text": "counted in U.S. GDP because she is a U.S. citizen"
+      },
+      {
+        "label": "B",
+        "text": "counted in Indian GDP because she is producing services within India's borders, and in U.S. GNP (or GNI) because she is a U.S. national"
+      },
+      {
+        "label": "C",
+        "text": "counted in neither GDP because she works internationally"
+      },
+      {
+        "label": "D",
+        "text": "counted in U.S. GDP as part of net exports"
+      },
+      {
+        "label": "E",
+        "text": "counted in both U.S. GDP and Indian GDP to capture the full economic activity"
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP is geographic - it counts production within a country's borders. This U.S. citizen is producing services in India, so her output counts toward India's GDP; GNP (Gross National Product) counts production by a country's nationals regardless of location, so her income would contribute to U.S; GNP.",
+    "reference": "MEA-1.A | MEA-1.A.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "Production chain: A cotton farmer sells raw cotton for $200. A textile mill buys the cotton and produces fabric, selling it for $500. A clothing manufacturer buys the fabric and produces shirts, selling them to consumers for $900. Using the value-added approach, calculate GDP contribution and verify with the final-goods approach.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Value-added: $1,600; Final goods: $900 — these differ because value-added counts all stages"
+      },
+      {
+        "label": "B",
+        "text": "Value-added: $900; Final goods: $900 — both equal the value of final output"
+      },
+      {
+        "label": "C",
+        "text": "Value-added: $700; Final goods: $900 — they differ by $200 (cotton)"
+      },
+      {
+        "label": "D",
+        "text": "Value-added: $900; Final goods: $1,600 — final goods count more because all sales are included"
+      },
+      {
+        "label": "E",
+        "text": "Value-added: $600; Final goods: $900 — intermediate stages are double-counted"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Value added: Farmer: $200; Mill: $500-$200=$300; Manufacturer: $900-$500=$400; total value added = $200+$300+$400 = $900. Final goods: only the shirts sold to consumers = $900; both approaches give $900 - this confirms that summing value added equals counting final output only.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "Why are imports SUBTRACTED in the GDP formula (GDP = C + I + G + NX)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Imports are negative because they represent money leaving the country permanently"
+      },
+      {
+        "label": "B",
+        "text": "Imports are subtracted because they are already included in C, I, and G (domestic spending includes some spending on foreign goods), but imported goods are not produced domestically and should not count in domestic GDP"
+      },
+      {
+        "label": "C",
+        "text": "Imports reduce domestic income and must be removed to prevent GDP from overstating living standards"
+      },
+      {
+        "label": "D",
+        "text": "Imports are subtracted because they represent government debt to foreign nations"
+      },
+      {
+        "label": "E",
+        "text": "Imports reduce the value of domestic exports and must be offset in the formula"
+      }
+    ],
+    "answer": "B",
+    "explanation": "When households, businesses, and the government spend money (captured in C, I, G), some of that spending goes toward imported goods. Since imports are produced abroad - not domestically - they must be subtracted from the total to ensure GDP reflects only domestic production; without the subtraction, GDP would overstate domestic output.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "Country A has: C = $4T, I = $1T, G = $1.5T, X = $0.8T, M = $1.2T. Country B has: C = $3T, I = $0.8T, G = $1T, X = $1.5T, M = $0.6T. Which country has the higher GDP, and by how much?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country A: $7.1T; Country B: $5.7T — Country A is larger by $1.4T"
+      },
+      {
+        "label": "B",
+        "text": "Country A: $7.5T; Country B: $5.9T — Country A is larger by $1.6T"
+      },
+      {
+        "label": "C",
+        "text": "Country A: $7.1T; Country B: $5.3T - Country A is larger by $1.8T"
+      },
+      {
+        "label": "D",
+        "text": "Country A: $8.3T; Country B: $6.3T — Country A is larger by $2T"
+      },
+      {
+        "label": "E",
+        "text": "Country B is larger than Country A by $1.4T"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Country A: GDP = 4+1+1.5+(0.8-1.2) = 4+1+1.5+(-0.4) = $7.1T; country B: GDP = 3+0.8+1+(1.5-0.6) = 3+0.8+1+0.9 = $5.7T. Country A has the higher GDP by $7.1T - $5.7T = $1.4T; country B has a trade surplus while Country A has a trade deficit.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "An economy has the following income data: Wages = $5T; Rent = $0.8T; Interest = $0.6T; Corporate profits = $1.8T; Proprietors' income = $0.8T. Using the income approach, what is GDP (approximately)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$7.2 trillion"
+      },
+      {
+        "label": "B",
+        "text": "$8.0 trillion"
+      },
+      {
+        "label": "C",
+        "text": "$9.0 trillion"
+      },
+      {
+        "label": "D",
+        "text": "$6.5 trillion"
+      },
+      {
+        "label": "E",
+        "text": "$7.5 trillion"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Adding wages, rent, interest, corporate profits, and proprietors' income gives 5 + 0.8 + 0.6 + 1.8 + 0.8 = $9.0 trillion.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "An economy has: Wages = $5T; Rent = $0.8T; Interest = $0.6T; Corporate profits = $1.8T; Proprietors' income = $0.8T. What is the GDP using the income approach?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$7.2 trillion"
+      },
+      {
+        "label": "B",
+        "text": "$8.0 trillion"
+      },
+      {
+        "label": "C",
+        "text": "$9.0 trillion"
+      },
+      {
+        "label": "D",
+        "text": "$6.4 trillion"
+      },
+      {
+        "label": "E",
+        "text": "$10.0 trillion"
+      }
+    ],
+    "answer": "C",
+    "explanation": "GDP (income approach) = sum of all factor incomes = 5.0+0.8+0.6+1.8+0.8 = $9.0 trillion; wages, rent, interest, and profits (corporate and proprietors') are all components of national income that sum to GDP.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "The circular flow model is expanded to include the government sector. Which of the following correctly identifies ALL flows between the government and the rest of the economy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Government only receives taxes from households; it provides nothing in return"
+      },
+      {
+        "label": "B",
+        "text": "Government receives taxes from households and firms; it provides government purchases (G) of goods and services from firms, and transfer payments to households"
+      },
+      {
+        "label": "C",
+        "text": "Government only interacts with firms through purchases and subsidies"
+      },
+      {
+        "label": "D",
+        "text": "Government participates in the circular flow only through monetary policy"
+      },
+      {
+        "label": "E",
+        "text": "Government receives investment income from firms and distributes it as wages to workers"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In the expanded circular flow: Government receives tax revenues from both households and firms; it purchases goods and services from firms (G - adding to GDP). It also provides transfer payments to households (Social Security, unemployment benefits - not counted in GDP but affecting household income); this three-sector model adds government to the basic household-firm model.",
+    "reference": "MEA-1.A | MEA-1.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "In 2024, a firm sells $500,000 of goods that were produced and added to inventory in 2023 (unsold inventory from the prior year). How does this sale affect 2023 GDP and 2024 GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The goods count in 2024 GDP (when sold) and not in 2023 GDP"
+      },
+      {
+        "label": "B",
+        "text": "The goods counted as investment (I) in 2023 GDP when added to inventory; in 2024 they are sold (counted as consumption C) but simultaneously removed from inventory (negative investment), so there is no net addition to 2024 GDP"
+      },
+      {
+        "label": "C",
+        "text": "The goods count in both years' GDP to reflect total economic activity"
+      },
+      {
+        "label": "D",
+        "text": "The goods do not count in either year because they were never sold in the year produced"
+      },
+      {
+        "label": "E",
+        "text": "The goods count only when payment is received, so they are counted in 2024 GDP only"
+      }
+    ],
+    "answer": "B",
+    "explanation": "When goods are produced and added to inventory in 2023, they count as inventory investment (I) in 2023 GDP. When sold in 2024: consumer spending (C) rises by $500K, but inventory falls by $500K (negative investment); the two cancel - no net effect on 2024 GDP; this ensures production is counted in the year it occurs, not the year it is sold.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "Using the expenditure approach, which of the following correctly classifies each transaction?\n\n(1) A family pays $800/month in rent.\n(2) A firm buys $50,000 in new computers.\n(3) The Department of Defense purchases fighter jets.\n(4) A U.S. consumer buys a Japanese-made television.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(1) G; (2) I; (3) G; (4) C and reduces NX"
+      },
+      {
+        "label": "B",
+        "text": "(1) C; (2) I; (3) G; (4) C (spending counts), but imports (M) are subtracted in NX"
+      },
+      {
+        "label": "C",
+        "text": "(1) C; (2) C; (3) I; (4) C and NX"
+      },
+      {
+        "label": "D",
+        "text": "(1) G; (2) G; (3) I; (4) NX only"
+      },
+      {
+        "label": "E",
+        "text": "(1) C; (2) I; (3) G; (4) not counted in GDP because it's a foreign good"
+      }
+    ],
+    "answer": "B",
+    "explanation": "(1) Rent is household spending → C; (2) New computers for business use → I (business fixed investment); (3) Fighter jets purchased by government → G (government purchases). (4) The TV purchase is captured in C (household spending), but because it's an import, M increases, reducing NX; the net effect: it appears in C but is offset by the import deduction in NX, so it doesn't increase domestic GDP.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "Country Z has: Wages = $800B; Rent = $100B; Interest = $80B; Profit = $220B. Separately, by the expenditure approach: C = $700B; G = $250B; NX = $30B. What must investment (I) be for the two approaches to give the same GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "I = $220 billion"
+      },
+      {
+        "label": "B",
+        "text": "I = $150 billion"
+      },
+      {
+        "label": "C",
+        "text": "I = $240 billion"
+      },
+      {
+        "label": "D",
+        "text": "I = $200 billion"
+      },
+      {
+        "label": "E",
+        "text": "I = $180 billion"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Income approach GDP = 800+100+80+220 = $1,200B; expenditure approach: GDP = C+I+G+NX = 700+I+250+30 = 980+I. Set equal: 980+I = 1,200 → I = $220B; this confirms that both approaches must yield the same GDP, and investment must equal $220 billion.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "A student claims: \"Government transfer payments should be included in G because the government is spending money.\" Evaluate this claim.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The student is correct — all government expenditures, including transfer payments, are part of G"
+      },
+      {
+        "label": "B",
+        "text": "The student is incorrect — transfer payments are not payments for currently produced goods or services; they simply redistribute income. GDP measures production, not income redistribution. Transfer payments are excluded from G and from GDP"
+      },
+      {
+        "label": "C",
+        "text": "The student is partially correct — only transfer payments that fund consumer spending are counted in G"
+      },
+      {
+        "label": "D",
+        "text": "The student is correct only if transfer payments exceed 10% of government spending"
+      },
+      {
+        "label": "E",
+        "text": "The student is incorrect because transfer payments flow to firms, not households"
+      }
+    ],
+    "answer": "B",
+    "explanation": "G in the GDP formula represents government PURCHASES of goods and services - real output that the government buys. Transfer payments (Social Security, welfare, unemployment insurance) are not purchases of output; they simply transfer purchasing power from taxpayers to recipients; they are excluded from GDP because no new production occurs when a transfer payment is made.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "In the four-sector circular flow model (households, firms, government, foreign sector), which of the following represents an \"injection\" into the circular flow?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Household savings, taxes, and imports — money leaving the domestic spending stream"
+      },
+      {
+        "label": "B",
+        "text": "Business investment (I), government spending (G), and exports (X) — spending entering the domestic income-expenditure flow from outside household consumption"
+      },
+      {
+        "label": "C",
+        "text": "Consumer spending (C) only — the primary driver of circular flow"
+      },
+      {
+        "label": "D",
+        "text": "Wages and salaries paid to households — the return flow from firms"
+      },
+      {
+        "label": "E",
+        "text": "Taxes and transfer payments — government's net contribution to the flow"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In the circular flow, \"injections\" are sources of spending that add to the domestic expenditure stream beyond household consumption: business investment (I), government spending (G), and exports (X). \"Leakages\" are savings (S), taxes (T), and imports (M) - money that leaves the domestic circular flow without being spent on domestic goods.",
+    "reference": "MEA-1.A | MEA-1.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "A lumber company sells $1,000 of timber to a sawmill. The sawmill sells $1,800 of lumber to a furniture manufacturer. The furniture manufacturer sells finished chairs to consumers for $4,200. An economics student incorrectly sums all transactions: $1,000 + $1,800 + $4,200 = $7,000. What is the correct GDP contribution, and what is the student's error?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The student is correct: $7,000 because all production stages add value"
+      },
+      {
+        "label": "B",
+        "text": "Correct GDP: $4,200; the student double-counted intermediate goods — the timber and lumber values are already embedded in the final chair price of $4,200"
+      },
+      {
+        "label": "C",
+        "text": "Correct GDP: $5,200; the student should have subtracted the timber but kept the lumber"
+      },
+      {
+        "label": "D",
+        "text": "Correct GDP: $7,000 using the expenditure approach; $4,200 using the value-added approach — they differ"
+      },
+      {
+        "label": "E",
+        "text": "Correct GDP: $4,200 only if using the income approach; otherwise $7,000"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The correct contribution to GDP is $4,200 - only the final goods value. The timber ($1,000) and lumber ($1,800) are intermediate goods whose values are embedded in the final chair price; summing all transactions ($7,000) double-counts intermediate goods; value-added approach: $1,000 + $800 + $2,400 = $4,200 - confirms the final-goods answer.",
+    "reference": "MEA-1.A | MEA-1.A.1 | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "An economist notes that in a given year, a country's total expenditure on final goods = $15 trillion, while total factor income = $14.7 trillion. The economist says: \"These should be equal; the $0.3T gap is likely due to statistical discrepancy.\" Is this reasoning sound?",
+    "options": [
+      {
+        "label": "A",
+        "text": "No — expenditure and income approaches always give exactly the same number with no discrepancy"
+      },
+      {
+        "label": "B",
+        "text": "Yes — in theory, expenditure = income = value added (all three GDP approaches should be equal); in practice, data collection limitations create statistical discrepancies, so a small gap is expected and explained by statistical discrepancy"
+      },
+      {
+        "label": "C",
+        "text": "No — the income approach always gives a lower number than the expenditure approach"
+      },
+      {
+        "label": "D",
+        "text": "Yes — a $0.3T gap always indicates government fraud or tax evasion"
+      },
+      {
+        "label": "E",
+        "text": "No — the gap means GDP is actually $15.3T, the sum of both approaches"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In theory, all three GDP approaches yield identical results. In practice, data is collected from different sources (surveys, tax records, company reports), and measuring every transaction is imperfect; the resulting \"statistical discrepancy\" is a standard accounting adjustment that reconciles the small differences between independently measured GDP estimates.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "A country produces only two goods in 2024: 500 cars at $25,000 each, and 100,000 loaves of bread at $3 each. What is the nominal GDP for 2024?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$12,700,000"
+      },
+      {
+        "label": "B",
+        "text": "$12,550,000"
+      },
+      {
+        "label": "C",
+        "text": "$12,800,000"
+      },
+      {
+        "label": "D",
+        "text": "$12,500,300"
+      },
+      {
+        "label": "E",
+        "text": "$12,900,000"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Nominal GDP = (Price × Quantity) for each good summed; cars: 500 × $25,000 = $12,500,000; bread: 100,000 × $3 = $300,000; GDP = $12,500,000 + $300,000 = $12,800,000.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "An economy produces three goods: Good A (100 units at $10), Good B (200 units at $25), Good C (50 units at $40). What is nominal GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$5,000"
+      },
+      {
+        "label": "B",
+        "text": "$7,000"
+      },
+      {
+        "label": "C",
+        "text": "$8,000"
+      },
+      {
+        "label": "D",
+        "text": "$9,000"
+      },
+      {
+        "label": "E",
+        "text": "$10,000"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Nominal GDP = (100×$10) + (200×$25) + (50×$40) = $1,000 + $5,000 + $2,000 = $8,000.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "In the four-sector circular flow, household savings represent a \"leakage\" from the circular flow. Through which institution do those savings flow back into the circular flow as business investment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Directly from households to firms through product markets"
+      },
+      {
+        "label": "B",
+        "text": "Through financial markets (banks, capital markets), where household savings are intermediated into loans and investment funds for firms"
+      },
+      {
+        "label": "C",
+        "text": "Through the government via tax refunds that are recycled into investment"
+      },
+      {
+        "label": "D",
+        "text": "Through the foreign sector, where savings are converted into exports"
+      },
+      {
+        "label": "E",
+        "text": "Savings never re-enter the circular flow — they represent permanent leakages"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In the expanded circular flow, household savings flow into financial markets (banks, bond markets, equity markets). Financial intermediaries channel those savings into loans and investment funds that businesses use to finance capital investment (I); this connects the savings leakage back to the investment injection in the circular flow.",
+    "reference": "MEA-1.A | MEA-1.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "Which of the following is NOT counted in U.S. GDP but IS counted in U.S. GNP (Gross National Product)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Output produced by a Japanese factory located in Ohio"
+      },
+      {
+        "label": "B",
+        "text": "A U.S. consumer's purchase of groceries at a domestic supermarket"
+      },
+      {
+        "label": "C",
+        "text": "A new house built by a domestic construction company"
+      },
+      {
+        "label": "D",
+        "text": "Output produced by a U.S.-owned factory located in Mexico"
+      },
+      {
+        "label": "E",
+        "text": "Federal government spending on public school teachers' salaries"
+      }
+    ],
+    "answer": "D",
+    "explanation": "GDP counts all production within U.S. borders (including foreign-owned factories in the U.S.); GNP counts production by U.S. nationals/owned entities regardless of location (including U.S.-owned factories abroad). A U.S.-owned factory in Mexico: NOT in U.S; GDP (wrong geography) but IS in U.S; GNP (U.S.-owned); the reverse is true for the Japanese factory in Ohio.",
+    "reference": "MEA-1.A | MEA-1.A.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "In a simple two-sector circular flow, total household income is $10 trillion. Households spend $8 trillion on goods and services and save $2 trillion. What is GDP in this economy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$8 trillion — only the spending portion counts as GDP"
+      },
+      {
+        "label": "B",
+        "text": "$10 trillion — total income equals GDP in the circular flow"
+      },
+      {
+        "label": "C",
+        "text": "$12 trillion — income plus savings"
+      },
+      {
+        "label": "D",
+        "text": "$2 trillion — savings represent the investment component of GDP"
+      },
+      {
+        "label": "E",
+        "text": "GDP cannot be determined without knowing government spending and trade"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In the circular flow, total income = total output = GDP. Even though households only spend $8T of their $10T income (saving $2T), the full $10T represents the value of economic activity; the $2T in savings ultimately flows through financial markets to business investment, ensuring total income = total spending = GDP = $10T.",
+    "reference": "MEA-1.A | MEA-1.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "A student lists the following as examples of investment (I) in the GDP accounts. Which one is correctly classified?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A household buys $200,000 in mutual funds"
+      },
+      {
+        "label": "B",
+        "text": "A bank makes $1 million in mortgage loans"
+      },
+      {
+        "label": "C",
+        "text": "A manufacturing company builds a new $5 million factory"
+      },
+      {
+        "label": "D",
+        "text": "The federal government builds a new $2 billion highway"
+      },
+      {
+        "label": "E",
+        "text": "A consumer pays $30,000 for a new car"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In national income accounting, investment (I) refers to business spending on new capital goods. Building a new factory is a prime example of business fixed investment - a firm acquiring new productive capacity; mutual funds and mortgage loans are financial transactions (not in GDP); the highway is government spending (G); the car is consumer spending (C).",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "An economy has the following: C = $9.5T; G = $3.2T; NX = −$0.6T; GDP = $15T. What is gross private investment (I)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$1.9 trillion"
+      },
+      {
+        "label": "B",
+        "text": "$2.9 trillion"
+      },
+      {
+        "label": "C",
+        "text": "$3.9 trillion"
+      },
+      {
+        "label": "D",
+        "text": "$4.9 trillion"
+      },
+      {
+        "label": "E",
+        "text": "$2.1 trillion"
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP = C + I + G + NX → I = GDP - C - G - NX = 15 - 9.5 - 3.2 - (-0.6) = 15 - 9.5 - 3.2 + 0.6 = $2.9T.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "Which of the following correctly explains why a stock market transaction (one investor selling shares to another) does NOT count in GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Stock market transactions are too small to measure and are therefore excluded"
+      },
+      {
+        "label": "B",
+        "text": "Stock transactions occur in financial markets, not product markets, and do not involve the production of new goods or services — GDP measures output, not financial transfers"
+      },
+      {
+        "label": "C",
+        "text": "Stock transactions are excluded because they involve imports of foreign capital"
+      },
+      {
+        "label": "D",
+        "text": "Stock transactions are counted as investment (I) in the GDP accounts"
+      },
+      {
+        "label": "E",
+        "text": "Stock transactions are excluded only if the stock was previously issued; IPOs (initial public offerings) are counted"
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP measures the production of new goods and services. When one investor buys existing shares from another, no new production occurs - it is simply a transfer of financial ownership between parties; since GDP measures the value of real output (not financial transactions), stock trades are excluded; note: this applies to ALL stock transactions, including IPOs (which also do not create output).",
+    "reference": "MEA-1.A | MEA-1.A.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "Country X produces the following in 2024: 1,000 smartphones at $500 each; 500 TVs at $400 each; 200 laptops at $800 each. All are sold to domestic consumers. What is nominal GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$660,000"
+      },
+      {
+        "label": "B",
+        "text": "$860,000"
+      },
+      {
+        "label": "C",
+        "text": "$760,000"
+      },
+      {
+        "label": "D",
+        "text": "$960,000"
+      },
+      {
+        "label": "E",
+        "text": "$560,000"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Nominal GDP is the sum of current production valued at current prices: (1,000 x $500) + (500 x $400) + (200 x $800) = $860,000.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "Country X produces: 1,000 smartphones at $500; 500 TVs at $400; 200 laptops at $800. What is nominal GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$560,000"
+      },
+      {
+        "label": "B",
+        "text": "$760,000"
+      },
+      {
+        "label": "C",
+        "text": "$860,000"
+      },
+      {
+        "label": "D",
+        "text": "$960,000"
+      },
+      {
+        "label": "E",
+        "text": "$1,060,000"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Nominal GDP = (1,000 × $500) + (500 × $400) + (200 × $800) = $500,000 + $200,000 + $160,000 = $860,000.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "In the circular flow diagram, which of the following correctly describes the flow of real resources (as opposed to monetary flows)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Money flows from households to firms through factor markets; goods flow the opposite way"
+      },
+      {
+        "label": "B",
+        "text": "Factors of production flow from households to firms through factor markets; goods and services flow from firms to households through product markets"
+      },
+      {
+        "label": "C",
+        "text": "Goods flow from households to firms; money flows from firms to households"
+      },
+      {
+        "label": "D",
+        "text": "Both goods and money flow from firms to households in the same direction"
+      },
+      {
+        "label": "E",
+        "text": "Factors of production and finished goods both flow from firms to households"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In the circular flow, real (physical) flows are: factors of production (labor, land, capital) flow from households to firms through factor markets; finished goods and services flow from firms to households through product markets. Monetary flows are the opposite: wages/rent/interest/profit flow from firms to households; consumer spending flows from households to firms.",
+    "reference": "MEA-1.A | MEA-1.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "An economy has two sectors. Households earn $4T in wages, $0.5T in rent, $0.3T in interest, and $0.7T in profit = total income of $5.5T. Separately, firms sell $5.5T of goods to households. Is this consistent with the circular flow identity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "No — income and expenditure should not be equal unless the economy is in deficit"
+      },
+      {
+        "label": "B",
+        "text": "Yes — this is exactly what the circular flow predicts: total household income ($5.5T) = total expenditure on goods and services ($5.5T) = GDP ($5.5T)"
+      },
+      {
+        "label": "C",
+        "text": "No — income should always exceed expenditure in a healthy economy"
+      },
+      {
+        "label": "D",
+        "text": "Yes — but only because savings are zero in this example"
+      },
+      {
+        "label": "E",
+        "text": "No — firms should earn more than they pay out to account for retained earnings"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The circular flow identity confirms: total income = total expenditure = GDP. In this two-sector economy, every dollar firms pay out as factor income (wages, rent, interest, profit = $5.5T) returns to firms as consumer spending ($5.5T); this is perfectly consistent with the circular flow model.",
+    "reference": "MEA-1.A | MEA-1.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "A teacher explains to students: \"In the circular flow, leakages must equal injections for the economy to be in equilibrium.\" Which of the following correctly identifies the leakages and injections?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Leakages: Government spending, investment, exports. Injections: Savings, taxes, imports"
+      },
+      {
+        "label": "B",
+        "text": "Leakages: Savings (S), taxes (T), imports (M) — money flows out of the spending stream. Injections: Investment (I), government spending (G), exports (X) — spending that adds to the income stream"
+      },
+      {
+        "label": "C",
+        "text": "Leakages: Consumption (C), investment (I), exports (X). Injections: Taxes (T), savings (S), imports (M)"
+      },
+      {
+        "label": "D",
+        "text": "Both leakages and injections consist of C, I, G, and NX"
+      },
+      {
+        "label": "E",
+        "text": "Leakages: Investment and government spending. Injections: Consumption and exports"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In the circular flow: Leakages (withdrawals from the spending stream) = Savings (S) + Taxes (T) + Imports (M). Injections (additions to the spending stream) = Investment (I) + Government Spending (G) + Exports (X); at equilibrium: S + T + M = I + G + X.",
+    "reference": "MEA-1.A | MEA-1.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "An economy's GDP is $20T. The following data is known: C = $12T; I = $3.5T; G = $4T. What are net exports (NX), and is there a trade surplus or deficit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "NX = $0.5T — trade surplus"
+      },
+      {
+        "label": "B",
+        "text": "NX = −$0.5T — trade deficit"
+      },
+      {
+        "label": "C",
+        "text": "NX = $1.5T — trade surplus"
+      },
+      {
+        "label": "D",
+        "text": "NX = −$1.5T — trade deficit"
+      },
+      {
+        "label": "E",
+        "text": "NX = $0 — balanced trade"
+      }
+    ],
+    "answer": "A",
+    "explanation": "GDP = C + I + G + NX → NX = GDP - C - I - G = 20 - 12 - 3.5 - 4 = +$0.5T. Positive NX means exports exceed imports - a trade surplus of $0.5 trillion.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "Which statement best distinguishes GDP from GNP (Gross National Product)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP measures income; GNP measures output — they serve entirely different purposes"
+      },
+      {
+        "label": "B",
+        "text": "GDP measures the value of output produced within a country's borders (geography-based); GNP measures the value of output produced by a country's nationals regardless of location (citizenship/ownership-based)"
+      },
+      {
+        "label": "C",
+        "text": "GDP is always larger than GNP for every country"
+      },
+      {
+        "label": "D",
+        "text": "GDP uses the expenditure approach; GNP uses only the income approach"
+      },
+      {
+        "label": "E",
+        "text": "GDP includes transfer payments; GNP does not"
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP = geographic measure (domestic borders); GNP = national measure (citizen/ownership-based). For countries with many citizens working abroad or owning foreign production, GNP > GDP; for countries with many foreign workers or foreign-owned production domestically, GDP > GNP; both measure output, not income exclusively.",
+    "reference": "MEA-1.A | MEA-1.A.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "An economy produces $2 million of bread and $8 million of cars in a given year. If 20% of the cars are unsold and added to inventory, how does this affect GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP = $8.4M (bread + sold cars only)"
+      },
+      {
+        "label": "B",
+        "text": "GDP = $10M (bread + all cars produced, with unsold portion counted as inventory investment)"
+      },
+      {
+        "label": "C",
+        "text": "GDP = $2M (bread only; unsold cars excluded)"
+      },
+      {
+        "label": "D",
+        "text": "GDP = $9.6M (bread + 80% of car value)"
+      },
+      {
+        "label": "E",
+        "text": "GDP = $10M only if cars are eventually sold"
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP counts all production in the period produced, not just what is sold; bread = $2M; cars produced = $8M (all counted). Unsold cars ($1.6M = 20%×$8M) are counted as inventory investment (I); GDP = $2M + $8M = $10M; production = $10M regardless of the split between consumption and inventory investment.",
+    "reference": "MEA-1.A | MEA-1.A.1 | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "Which of the following is an example of an \"injection\" in the four-sector circular flow model that offsets the \"leakage\" of household savings?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Household payment of income taxes"
+      },
+      {
+        "label": "B",
+        "text": "Consumer spending on imports"
+      },
+      {
+        "label": "C",
+        "text": "Business firms using borrowed funds (from household savings via financial markets) to purchase new equipment — this is investment (I) injecting savings back into the spending stream"
+      },
+      {
+        "label": "D",
+        "text": "Government collecting taxes and building up budget surpluses"
+      },
+      {
+        "label": "E",
+        "text": "Exports falling as foreign demand declines"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Savings (S) are a leakage from the circular flow - money that households don't spend on domestic goods. This leakage is offset by the injection of investment (I): firms borrow those savings through financial markets and use them to buy new capital equipment; the saving-investment channel routes household leakages back into the spending stream.",
+    "reference": "MEA-1.A | MEA-1.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "In the GDP expenditure approach, a domestic consumer buys a German-made BMW for $60,000. How does this transaction affect each component of GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "C increases by $60,000; no other component changes; GDP rises by $60,000"
+      },
+      {
+        "label": "B",
+        "text": "C increases by $60,000; M increases by $60,000 (reducing NX by $60,000); net effect on GDP = $0"
+      },
+      {
+        "label": "C",
+        "text": "NX increases by $60,000; C is unaffected"
+      },
+      {
+        "label": "D",
+        "text": "C increases by $60,000 and NX increases by $60,000; GDP rises by $120,000"
+      },
+      {
+        "label": "E",
+        "text": "The transaction is excluded from GDP because the car is foreign-made"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The $60,000 car purchase is counted as consumer spending (C +$60,000); because it is an import, M increases by $60,000, reducing NX by $60,000. The two effects exactly cancel: ΔC + ΔNXY = +$60,000 + (-$60,000) = $0 net effect on GDP; the import subtraction ensures only domestic production is counted.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "Three students each describe a GDP approach. Student A: \"Add up all wages, rent, interest, and profit.\" Student B: \"Add up all spending on final goods: C + I + G + NX.\" Student C: \"Sum the value added at each production stage.\" Which student(s) is/are correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only Student B is correct — the expenditure approach is the official GDP measure"
+      },
+      {
+        "label": "B",
+        "text": "Students A and C are correct; Student B is incorrect"
+      },
+      {
+        "label": "C",
+        "text": "All three students are correct — they describe the income, expenditure, and value-added approaches respectively, all of which yield the same GDP"
+      },
+      {
+        "label": "D",
+        "text": "Only Student A is correct — income is the most accurate GDP measure"
+      },
+      {
+        "label": "E",
+        "text": "None are fully correct — GDP requires adjustments that none describe"
+      }
+    ],
+    "answer": "C",
+    "explanation": "All three students correctly describe the three approaches to measuring GDP: income approach (A), expenditure approach (B), and value-added approach (C). All three methods theoretically yield the same GDP because every dollar of output corresponds to a dollar of income and a dollar of value added.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 71,
+    "difficulty": "Medium",
+    "prompt": "A wheat farmer grows wheat and sells it for $300. A miller buys the wheat, grinds it into flour, and sells the flour for $500. A baker buys the flour and bakes 200 loaves of bread, selling each for $3.50. Using all three approaches, confirm the GDP contribution.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Expenditure: $700; Income: $700; Value-added: $700"
+      },
+      {
+        "label": "B",
+        "text": "Expenditure: $700; Income: $700; Value-added: $500"
+      },
+      {
+        "label": "C",
+        "text": "Expenditure: $700; Income: $500; Value-added: $700"
+      },
+      {
+        "label": "D",
+        "text": "Expenditure: $500; Income: $700; Value-added: $700"
+      },
+      {
+        "label": "E",
+        "text": "All three give different results"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Final goods: bread sold to consumers = 200 × $3.50 = $700. Value added: farmer $300; miller $200 ($500-$300); baker $200 ($700-$500); total = $700; income: farmer earns $300 income; miller earns $200; baker earns $200; all three approaches confirm GDP = $700.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 72,
+    "difficulty": "Medium",
+    "prompt": "An economy has GDP = $18T and the following expenditure data: C = $10.8T; I = $3.6T; G = $3.6T. What is NX, and what does its sign tell us?",
+    "options": [
+      {
+        "label": "A",
+        "text": "NX = $0; perfectly balanced trade"
+      },
+      {
+        "label": "B",
+        "text": "NX = +$1.0T; exports exceed imports — trade surplus"
+      },
+      {
+        "label": "C",
+        "text": "NX = −$1.0T; imports exceed exports — trade deficit"
+      },
+      {
+        "label": "D",
+        "text": "NX = +$2T; the country is a major exporter"
+      },
+      {
+        "label": "E",
+        "text": "NX = −$2T; the country runs a large trade deficit"
+      }
+    ],
+    "answer": "A",
+    "explanation": "NX = GDP - C - I - G = 18 - 10.8 - 3.6 - 3.6 = 18 - 18 = $0. NX = $0 means exports exactly equal imports - perfectly balanced trade in this example; there is no trade surplus or deficit.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 73,
+    "difficulty": "Medium",
+    "prompt": "In the circular flow model, the foreign sector adds two flows to the model. Which of the following correctly identifies both?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The foreign sector provides investment funds (I) and receives consumer goods (C)"
+      },
+      {
+        "label": "B",
+        "text": "Exports — domestic goods purchased by foreigners (money injection into the domestic flow) — and imports — foreign goods purchased by domestic residents (money leakage from the domestic flow)"
+      },
+      {
+        "label": "C",
+        "text": "The foreign sector only receives imports from the domestic economy"
+      },
+      {
+        "label": "D",
+        "text": "The foreign sector provides technology transfers and receives tax payments"
+      },
+      {
+        "label": "E",
+        "text": "Exports and imports both represent money flowing OUT of the domestic circular flow"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The foreign sector adds two flows: (1) Exports - foreigners buy domestic goods, injecting money into the domestic circular flow. (2) Imports - domestic residents buy foreign goods, leaking money out of the domestic circular flow to foreign sellers; net exports (X - M) captures the net effect of the foreign sector on domestic GDP.",
+    "reference": "MEA-1.A | MEA-1.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "Country A has the following 2024 data: Wages = $7T; Rent = $1.2T; Interest = $0.8T; Corporate profits = $2T; Consumption = $9T; Government spending = $3T; Exports = $2T; Imports = $2.5T. Using the income approach, what is GDP? Does the expenditure approach confirm this? If not, what component is missing, and what must its value be?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Income GDP = $11T; Expenditure GDP = $11T; they match"
+      },
+      {
+        "label": "B",
+        "text": "Income GDP = $11T; Expenditure approach: $9T+I+$3T+(2T−2.5T) = 11.5T+I; for equality, I = −$0.5T (impossible — missing data issue)"
+      },
+      {
+        "label": "C",
+        "text": "Income GDP = $11T; Expenditure: 9+I+3+(−0.5) = 11.5+I; I = −0.5T implies data error or a specific negative investment scenario"
+      },
+      {
+        "label": "D",
+        "text": "Income GDP = $11T; Expenditure: 9+I+3−0.5 = 11.5+I; setting equal to $11T: I = −$0.5T — an unexpected result suggesting either negative net investment or a data gap"
+      },
+      {
+        "label": "E",
+        "text": "Income GDP = $11T; for the expenditure approach to equal $11T, investment must equal −$0.5T, which could represent net disinvestment (capital depreciation exceeding gross investment)"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Income approach: GDP = 7+1.2+0.8+2 = $11T; expenditure: C+I+G+NX = 9+I+3+(2-2.5) = 9+I+3-0.5 = 11.5+I; for equality: 11.5+I=11 → I=-$0.5T. This unusual result suggests either the data has a gap (investment data was not provided), or the economy experienced net disinvestment (capital stock declined); in practice, this would be flagged as a statistical discrepancy.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "A four-stage production process for a tablet computer: (1) Rare earth miner extracts materials worth $50. (2) Component manufacturer turns materials into chips worth $200. (3) Assembly plant assembles the tablet worth $600. (4) Retailer sells the tablet to a consumer for $900. Using all three GDP approaches, what is the GDP contribution? Which transactions appear in each approach?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Value-added: $1,750 (sum of all sales); Expenditure: $900; Income: $900 — approaches disagree"
+      },
+      {
+        "label": "B",
+        "text": "Value-added: $900; Expenditure: $900; Income: $900 — all three approaches agree at $900 (the final consumer price)"
+      },
+      {
+        "label": "C",
+        "text": "Value-added: $900; Expenditure: $1,750; Income: $900 — expenditure counts all stages"
+      },
+      {
+        "label": "D",
+        "text": "Value-added: $850; Expenditure: $900; Income: $850 — minor discrepancy from retailer markup"
+      },
+      {
+        "label": "E",
+        "text": "All three: $900; but value-added counts 4 separate transactions; expenditure counts 1; income depends on profit distribution"
+      }
+    ],
+    "answer": "B",
+    "explanation": "All three approaches give $900 (final consumer price); value added: $50 + ($200-$50) + ($600-$200) + ($900-$600) = $50+$150+$400+$300 = $900. Expenditure: only the final retail sale = $900; income: the $900 is distributed as wages, rent, interest, and profit across all four stages, summing to $900; this illustrates how the three approaches are theoretically equivalent.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "An economy has GDP = $25T. The following data is available: C = $14T; G = $5T; X = $3T; M = $4T. A student needs to find investment (I). The student calculates: I = GDP − C − G − NX = 25 − 14 − 5 − (3−4) = 25 − 14 − 5 − (−1) = $7T. Is the student correct? What does $7T of investment imply as a share of GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The student is incorrect — NX should be added, not subtracted"
+      },
+      {
+        "label": "B",
+        "text": "The student is correct: I = $7T. As a share of GDP: $7T/$25T = 28%. This is relatively high investment as a share of GDP, suggesting the economy is heavily focused on capital accumulation"
+      },
+      {
+        "label": "C",
+        "text": "The student is incorrect — imports should be added and exports subtracted"
+      },
+      {
+        "label": "D",
+        "text": "The student is correct: I = $6T (the student made an arithmetic error)"
+      },
+      {
+        "label": "E",
+        "text": "The student is incorrect — the formula should be I = GDP − C − G only"
+      }
+    ],
+    "answer": "B",
+    "explanation": "I = GDP - C - G - NX = 25 - 14 - 5 - (3-4) = 25 - 14 - 5 - (-1) = 25 - 14 - 5 + 1 = $7T. The student is correct; I = $7T is 28% of GDP - a high investment ratio suggesting significant capital spending relative to the size of the economy.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "Country Z has the following: Income approach GDP = $16T. Expenditure approach gives: C = $9.6T; I = $2.4T; G = $3.2T. Exports = $2T. What must imports be for the two approaches to yield the same GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Imports = $1.2 trillion"
+      },
+      {
+        "label": "B",
+        "text": "Imports = $2.0 trillion (balanced trade)"
+      },
+      {
+        "label": "C",
+        "text": "Imports = $1.2 trillion — trade surplus of $0.8T"
+      },
+      {
+        "label": "D",
+        "text": "Imports = $1.0 trillion"
+      },
+      {
+        "label": "E",
+        "text": "Imports = $3.2 trillion"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Income GDP = $16T; expenditure: 9.6+2.4+3.2+(2-M) = 15.2+2-M = 17.2-M. Set equal to $16T: 17.2-M=16 → M=$1.2T; NX = 2-1.2 = +$0.8T (trade surplus); the country exports more than it imports.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "An economist examines a production chain for steel: Iron ore mined for $100 → Steel produced for $400 → Cars assembled using the steel and sold to dealers for $25,000 → Dealers sell to consumers for $28,000. The economist notices that steel is ALSO sold as structural beams directly to a construction company building an office tower (sold as final good to business at $400). What is the TOTAL contribution to GDP from this chain, and how does the direct steel-to-construction sale change the calculation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP = $28,000 only; the steel sold to construction is double-counted"
+      },
+      {
+        "label": "B",
+        "text": "GDP = $28,400; the car ($28,000) is a final good to consumers; the structural beams ($400) are a final good used in business investment. Both are final goods in different sectors — no double-counting occurs"
+      },
+      {
+        "label": "C",
+        "text": "GDP = $28,000; the steel beams are intermediate goods even when sold to construction"
+      },
+      {
+        "label": "D",
+        "text": "GDP = $53,500; all four transaction values are summed"
+      },
+      {
+        "label": "E",
+        "text": "GDP = $28,000 because the car price includes all steel regardless of which steel went where"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Two separate final goods: (1) The car ($28,000) sold to a consumer - final consumption good. The iron ore and steel used in the car are intermediate goods whose value is embedded in the $28,000 car price. (2) The $400 of steel beams sold directly to a construction company for use in a building - this is a final good (used in business investment, not resold as part of another good for sale); GDP = $28,000 + $400 = $28,400; the key insight: whether goods are \"intermediate\" or \"final\" depends on whether they are used as inputs in producing another good for resale.",
+    "reference": "MEA-1.A | MEA-1.A.1 | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "Country A's GDP = $10T using the expenditure approach. Country B's GDP = $10T using the income approach. Country C's GDP = $10T using the value-added approach. An analyst says: \"These three countries have the same economic output.\" A critic says: \"You can't compare because they used different methods.\" Who is correct, and why?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The critic is correct — different approaches yield different GDP values and are not comparable"
+      },
+      {
+        "label": "B",
+        "text": "The analyst is correct — the three approaches are theoretically equivalent (all three should give the same GDP for any given economy), so $10T GDP using any approach should represent the same level of economic output. The approaches measure the same activity from different angles"
+      },
+      {
+        "label": "C",
+        "text": "The analyst is correct, but only if each country used the same base year for prices"
+      },
+      {
+        "label": "D",
+        "text": "The critic is correct — the income approach always gives a higher number than the expenditure approach"
+      },
+      {
+        "label": "E",
+        "text": "Both are partially correct — the approaches agree for closed economies but diverge for open economies with trade"
+      }
+    ],
+    "answer": "B",
+    "explanation": "All three GDP approaches are theoretically equivalent - they measure the same economic activity from the perspectives of spending, income, and production respectively. A $10T GDP measured via any approach should reflect the same underlying economic output; the critic's concern is misplaced: the choice of approach doesn't change the value of GDP for the same economy in the same period.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "A simplified economy has three sectors. Sector 1 (agriculture): produces $500 in raw goods, all sold to Sector 2. Sector 2 (manufacturing): buys $500 from Sector 1, produces processed goods worth $1,200, sells $900 to consumers and $300 to Sector 3. Sector 3 (services): buys $300 of manufactured inputs, provides services worth $800, all sold to consumers. Calculate GDP using both the final-goods approach and the value-added approach, and confirm they agree.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Final goods: $1,700; Value-added: $2,500 — methods disagree"
+      },
+      {
+        "label": "B",
+        "text": "Final goods: $1,700; Value-added: $1,700 — both methods agree at $1,700"
+      },
+      {
+        "label": "C",
+        "text": "Final goods: $2,500; Value-added: $1,700 — final goods overcounts"
+      },
+      {
+        "label": "D",
+        "text": "Final goods: $1,700; Value-added: $2,000"
+      },
+      {
+        "label": "E",
+        "text": "Final goods: $800; Value-added: $1,700 — only service sector counts for final goods"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Final goods sold to consumers: Sector 2→consumers $900 + Sector 3→consumers $800 = $1,700. Value added: Sector 1: $500-$0=$500; Sector 2: $1,200-$500=$700; Sector 3: $800-$300=$500; total VA = $500+$700+$500 = $1,700; both approaches confirm GDP = $1,700.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "Country Q has: C = $5T; G = $2T; I = $1.5T; X = $0.8T; M = $1.3T. The government announces a $0.5T increase in transfer payments (financed by new taxes of $0.5T). Assuming consumers spend 60% of any after-tax income change and save 40%, what is the DIRECT effect on GDP from the policy change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP rises by $0.5T because transfer payments increase household income"
+      },
+      {
+        "label": "B",
+        "text": "GDP falls by $0.5T because taxes reduce disposable income and consumption"
+      },
+      {
+        "label": "C",
+        "text": "GDP is unchanged — transfer payments are not counted in GDP (G does not rise because transfers are not government purchases of goods/services); the tax increase reduces disposable income (reducing C), partially offset by the transfer payment increasing income for recipients (increasing C). If the same people both pay and receive, net effect on C ≈ 0 and GDP is unchanged"
+      },
+      {
+        "label": "D",
+        "text": "GDP rises by $0.3T because consumers spend 60% of the transfers"
+      },
+      {
+        "label": "E",
+        "text": "GDP falls by $1T because both taxes and transfers have negative multiplier effects"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Transfer payments are NOT included in G (they don't represent purchases of goods); the tax increase reduces household income, and the transfer redistributes it. If the same agents are taxed and receive transfers (or if MPC is the same for both groups), the net effect on consumer spending ≈ 0 and GDP is unchanged. The DIRECT effect on GDP = $0 because neither the transfer payment nor the offsetting tax changes the G component or any other GDP component directly.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "An economy's GDP in current-year prices (nominal GDP) is $22T. Economists identify the following: Consumer spending on domestic goods = $8T; Consumer spending on imports = $2T; Business investment = $4T; Government purchases = $3.5T; Exports = $3T. What is nominal GDP, and what common error should be avoided when handling the import data?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP = $20.5T; error: adding imports instead of subtracting them"
+      },
+      {
+        "label": "B",
+        "text": "GDP = $18.5T; error: forgetting to subtract imports that are embedded in C"
+      },
+      {
+        "label": "C",
+        "text": "GDP = $16.5T; error: double-counting exports and consumer imports"
+      },
+      {
+        "label": "D",
+        "text": "GDP = $18.5T; error: failing to separate domestic consumption from import spending — C should only include domestic goods ($8T), and M ($2T) is already excluded. So GDP = 8+4+3.5+(3−0) = $18.5T... but imports need to be addressed"
+      },
+      {
+        "label": "E",
+        "text": "GDP = $18.5T; the consumer spending on imports ($2T) should be excluded from C (counted in C only if domestic) and M is already captured in NX"
+      }
+    ],
+    "answer": "E",
+    "explanation": "If C is divided into domestic ($8T) and imports ($2T): domestic C = $8T; M = $2T. GDP = C_domestic + I + G + (X-M) where C_domestic already excludes imports; so GDP = 8+4+3.5+(3-0) = $18.5T (NX: exports=$3T, imports already excluded from C). Alternatively: GDP = (8+2) + 4 + 3.5 + (3-2) = 10+4+3.5+1 = $18.5T; either way, the key is that imports must not be double-counted; GDP = $18.5T.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "Year 1 nominal GDP = $12T. Year 2 nominal GDP = $14.4T. What is the nominal growth rate, and why is this NOT necessarily the same as real economic growth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nominal growth rate = 20%; this equals real growth if price levels are unchanged"
+      },
+      {
+        "label": "B",
+        "text": "Nominal growth rate = 20%; this is the same as real growth because GDP always adjusts for inflation"
+      },
+      {
+        "label": "C",
+        "text": "Nominal growth rate = 20%; this overstates real growth if prices rose during this period because part of the GDP increase reflects higher prices (inflation) rather than greater physical output"
+      },
+      {
+        "label": "D",
+        "text": "Nominal growth rate = 16.7%; this is less than real growth because imports rose"
+      },
+      {
+        "label": "E",
+        "text": "Nominal growth rate = 24%; inflation automatically adjusts the number"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Nominal growth rate = (14.4-12)/12 × 100 = $2.4T/$12T = 20%; however, nominal GDP rises when either real output increases OR prices rise (inflation). If prices rose 15% and real output rose only 5%, nominal GDP would still show 20% growth - overstating the actual improvement in living standards; real GDP adjusts for price changes to isolate actual output growth.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "A student says: \"The circular flow shows that GDP = Total Household Income. So if the government raises taxes, GDP must fall because household income falls.\" Identify the error(s) in this reasoning.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The student is correct — higher taxes always reduce GDP"
+      },
+      {
+        "label": "B",
+        "text": "The student has two errors: (1) In the full circular flow, GDP = total income = total expenditure = total output — but government taxation shifts spending from private to public, not necessarily reducing total spending. (2) If the government spends the tax revenue on goods and services (G), total spending in the economy is unchanged and GDP need not fall. Only if the government saves (budget surplus) without a corresponding increase in investment would total spending decline"
+      },
+      {
+        "label": "C",
+        "text": "The student is correct — raising taxes reduces disposable income, reducing C, which directly lowers GDP"
+      },
+      {
+        "label": "D",
+        "text": "The student is incorrect only in thinking that taxes affect households — taxes affect businesses more directly"
+      },
+      {
+        "label": "E",
+        "text": "The student is correct because higher taxes always leak out of the circular flow permanently"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The student's error: taxes are a leakage from household income, but if the government spends those tax revenues on goods and services (G), the spending is re-injected into the circular flow. Total spending (C+I+G+NX) need not fall - G rises as C falls. GDP = income = output, but the composition shifts, not necessarily the total; whether GDP changes depends on the net effect of the tax-and-spend policy.",
+    "reference": "MEA-1.A | MEA-1.A.2 | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "Country X produces: 300 units of Good A at $50 each; 100 units of Good B at $200 each; 500 units of Good C at $30 each. It also imports $5,000 of Good D and exports $8,000 of Good A. What is nominal GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$48,000"
+      },
+      {
+        "label": "B",
+        "text": "$50,000"
+      },
+      {
+        "label": "C",
+        "text": "$51,000"
+      },
+      {
+        "label": "D",
+        "text": "$46,000"
+      },
+      {
+        "label": "E",
+        "text": "$53,000"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The three domestically produced final goods are worth $15,000 + $20,000 + $15,000 = $50,000. Exports are already included in domestic production, while imported Good D was produced abroad and does not add to domestic GDP.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "Country X produces: Good A: 300 units at $50 each; Good B: 100 units at $200 each; Good C: 500 units at $30 each. Of the Good A produced, $8,000 worth is exported. The country imports $5,000 of Good D. What is nominal GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$48,000"
+      },
+      {
+        "label": "B",
+        "text": "$50,000"
+      },
+      {
+        "label": "C",
+        "text": "$53,000"
+      },
+      {
+        "label": "D",
+        "text": "$45,000"
+      },
+      {
+        "label": "E",
+        "text": "$42,000"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Total domestic production value: A=300×$50=$15,000; B=100×$200=$20,000; C=500×$30=$15,000; total = $50,000; NX = Exports-Imports = $8,000-$5,000 = +$3,000; GDP = domestic production + net exports = $50,000 + $3,000 = $53,000. (Or: domestic consumption of A=$7,000 + export of A=$8,000 + B=$20,000 + C=$15,000 + import of D consumed=included in NX calculation = $7,000+$8,000+$20,000+$15,000-$5,000 = $45,000; no - GDP does not include the imported goods consumed domestically without adjusting. The standard GDP=C+I+G+NX approach: if C includes all domestic and imported goods, then subtract imports: GDP = 50,000 + 8,000 - 5,000 = $53,000 where $50,000 is all domestic spending on domestic goods and exports, not yet netting imports; this equals $53,000.).",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "A production chain for orange juice: Orange grove: $0.30/bottle equivalent of oranges sold to processor. Processor: creates OJ, sells for $0.80/bottle to distributor. Distributor: transports and sells for $1.10/bottle to retailer. Retailer: sells to consumer for $1.50/bottle. 1 million bottles are produced and sold. Calculate GDP contribution using value-added and confirm with final goods approach. Then calculate the income that flows to each stage.",
+    "options": [
+      {
+        "label": "A",
+        "text": "VA: $1.5M; Final goods: $1.5M; Incomes: grove=$0.3M; processor=$0.5M; distributor=$0.3M; retailer=$0.4M"
+      },
+      {
+        "label": "B",
+        "text": "VA: $1.5M; Final goods: $1.5M; Incomes: grove=$0.3M; processor=$0.5M; distributor=$0.3M; retailer=$0.4M — all three approaches confirm $1.5M GDP"
+      },
+      {
+        "label": "C",
+        "text": "VA: $3.7M; Final goods: $1.5M; they disagree"
+      },
+      {
+        "label": "D",
+        "text": "VA: $1.5M; Final goods: $1.5M; all income goes to the retailer ($1.5M)"
+      },
+      {
+        "label": "E",
+        "text": "VA: $1.2M; Final goods: $1.5M; the $0.3M difference is profit retained by firms"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Final goods: 1M × $1.50 = $1.5M; value added: Grove: $0.30-$0=$0.30M; Processor: $0.80-$0.30=$0.50M; Distributor: $1.10-$0.80=$0.30M; Retailer: $1.50-$1.10=$0.40M. Total VA = $0.30+$0.50+$0.30+$0.40 = $1.50M; income earned at each stage: grove=$0.30M, processor=$0.50M, distributor=$0.30M, retailer=$0.40M (paid as wages, rent, profit, etc.); all three approaches: $1.5M.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "In a given year, an economy's firms produce $20T of output but only sell $18T to final buyers. The remaining $2T is added to inventories. Next year, firms sell the $2T from inventory (producing nothing new for that quantity) and also produce and sell $21T of new output. What is GDP in Year 1 and Year 2?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Year 1: $18T; Year 2: $23T (sold + new production)"
+      },
+      {
+        "label": "B",
+        "text": "Year 1: $20T (production = GDP; inventory = investment); Year 2: $21T (new production; inventory drawdown cancels out — the $2T drawdown reduces I by $2T, offsetting the $2T in sales)"
+      },
+      {
+        "label": "C",
+        "text": "Year 1: $20T; Year 2: $23T"
+      },
+      {
+        "label": "D",
+        "text": "Year 1: $18T; Year 2: $21T"
+      },
+      {
+        "label": "E",
+        "text": "Year 1: $22T; Year 2: $19T"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Year 1: GDP = production = $20T; breakdown: $18T consumption (C) + $2T inventory investment (I). Year 2: Firms sell $2T from old inventory + produce $21T new; inventory drawdown = -$2T (I falls by $2T). Sales from inventory = +$2T (C rises); net: GDP = new production = $21T (the $2T sale from inventory is exactly offset by the -$2T inventory investment); GDP measures production, not sales.",
+    "reference": "MEA-1.A | MEA-1.A.1 | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "Country Moria has: C = $800B; I = $150B; G = $200B; X = $120B; M = $170B. Country Gondor has: C = $900B; I = $100B; G = $180B; X = $200B; M = $130B. Calculate each country's GDP and identify which has the higher NX and whether trade patterns alone can explain any GDP difference.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Moria GDP = $1,100B; Gondor GDP = $1,250B; Gondor higher by $150B due to higher C and trade surplus"
+      },
+      {
+        "label": "B",
+        "text": "Moria GDP = $1,100B; Gondor GDP = $1,250B; Gondor has higher NX (+$70B) vs Moria (−$50B)"
+      },
+      {
+        "label": "C",
+        "text": "Moria GDP = $1,240B; Gondor GDP = $1,320B"
+      },
+      {
+        "label": "D",
+        "text": "Both have equal GDP of $1,200B"
+      },
+      {
+        "label": "E",
+        "text": "Moria GDP = $1,100B; Gondor GDP = $1,250B — Gondor has higher GDP due to larger C and favorable trade balance"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Moria: GDP = 800+150+200+(120-170) = 800+150+200+(-50) = $1,100B; NX = -$50B; gondor: GDP = 900+100+180+(200-130) = 900+100+180+70 = $1,250B; NX = +$70B. Gondor has higher GDP by $150B; the NX difference alone = $70B-(-$50B) = $120B of the gap; the remaining $30B gap comes from different C+I+G compositions.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "An economy has: C = $10T; I = $2T; G = $3T; X = $1.5T; M = $2T. The government increases G by $0.5T (funded by new borrowing, not taxes). Consumers also increase spending by $0.3T (unrelated to the government change). What is the new GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$14.3 trillion"
+      },
+      {
+        "label": "B",
+        "text": "$15.3 trillion"
+      },
+      {
+        "label": "C",
+        "text": "$15.8 trillion"
+      },
+      {
+        "label": "D",
+        "text": "$16.3 trillion"
+      },
+      {
+        "label": "E",
+        "text": "$14.8 trillion"
+      }
+    ],
+    "answer": "B",
+    "explanation": "After the changes, C = $10.3T and G = $3.5T, while I and net exports are unchanged. GDP is therefore 10.3 + 2 + 3.5 + (1.5 - 2) = $15.3 trillion.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "Original: C=$10T, I=$2T, G=$3T, NX=−$0.5T. GDP = $14.5T. G increases by $0.5T; C increases by $0.3T. What is the new GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$14.5T (unchanged)"
+      },
+      {
+        "label": "B",
+        "text": "$15.0T"
+      },
+      {
+        "label": "C",
+        "text": "$15.3T"
+      },
+      {
+        "label": "D",
+        "text": "$15.8T"
+      },
+      {
+        "label": "E",
+        "text": "$16.0T"
+      }
+    ],
+    "answer": "C",
+    "explanation": "New GDP = (10+0.3) + 2 + (3+0.5) + (-0.5) = 10.3+2+3.5-0.5 = $15.3T. GDP increased by $0.8T (= $0.5T from G + $0.3T from C), confirming both changes directly enter the GDP calculation.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "A student constructs a circular flow diagram and claims: \"If household savings increase by $500B and there is no corresponding increase in investment by firms, the circular flow model predicts that GDP will fall by $500B.\" Evaluate this claim using circular flow logic.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The student is correct — any increase in savings automatically reduces GDP by the same amount"
+      },
+      {
+        "label": "B",
+        "text": "The student is correct about the direction but overstates the magnitude — GDP falls by more than $500B due to the multiplier effect"
+      },
+      {
+        "label": "C",
+        "text": "The student is broadly correct in direction but may overstate the size. If $500B leaks out of the spending stream as additional savings without a corresponding investment injection, total spending falls by $500B (before any multiplier effects). This creates a leakage-injection imbalance that, in a simple model, would reduce GDP by $500B directly. However, multiplier effects and automatic stabilizers could amplify or dampen the final GDP impact"
+      },
+      {
+        "label": "D",
+        "text": "The student is incorrect — savings always equal investment by accounting identity, so GDP cannot change"
+      },
+      {
+        "label": "E",
+        "text": "The student is incorrect — savings increase investment automatically through interest rate adjustments"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The student's logic is sound: if $500B leaves the household spending stream as additional savings (leakage) without being re-injected as investment (injection), aggregate spending falls. In the simplest circular flow model, this directly reduces GDP by $500B. However, in more complete models, falling interest rates (due to increased savings supply) could stimulate investment, partially or fully restoring the balance; the claim is directionally correct but simplified.",
+    "reference": "MEA-1.A | MEA-1.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "Country Alpha has GDP(expenditure) = $12T. The breakdown is: C = $7T; G = $2.5T; NX = $0.3T; I is unknown. Country Beta has GDP(income) = $14T with: Wages = $8T; Rent = $1.5T; Interest = $1T; Profit = $3.5T. An analyst says Alpha and Beta have different GDP values. Is the comparison valid, and how does the measurement approach affect it?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The comparison is valid — Alpha ($12T) and Beta ($14T) genuinely have different economic output"
+      },
+      {
+        "label": "B",
+        "text": "The comparison requires completing Alpha's calculation: I = GDP−C−G−NX = 12−7−2.5−0.3 = $2.2T. Alpha's GDP = $12T and Beta's GDP = $14T — both are valid and comparable. The measurement approach used (expenditure vs. income) does not affect the magnitude of GDP if measured correctly; both approaches should give the same answer for any single economy"
+      },
+      {
+        "label": "C",
+        "text": "The comparison is invalid — the expenditure approach always gives higher GDP"
+      },
+      {
+        "label": "D",
+        "text": "The comparison shows Beta is 17% larger, but this only reflects Beta's higher wages"
+      },
+      {
+        "label": "E",
+        "text": "The comparison is invalid — you can only compare GDPs measured with the same approach"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Alpha's I = 12-7-2.5-0.3 = $2.2T; Alpha GDP = $12T confirmed; beta GDP = 8+1.5+1+3.5 = $14T (income approach). The measurement approach (expenditure vs. income vs. value-added) does not change the GDP value for the same economy - all three approaches are equivalent; so Alpha ($12T) and Beta ($14T) genuinely have different levels of economic output, and the comparison is valid.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "An economy has three firms. Firm 1 (miner) produces $200 of raw materials, sells all to Firm 2. Firm 2 (manufacturer) uses the raw materials plus hires labor worth $300, producing goods worth $600, sells $400 to consumers and $200 to Firm 3. Firm 3 (retailer) buys $200 from Firm 2, adds $100 of services, sells everything to consumers for $300. Calculate GDP using all three approaches.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Expenditure: $700; Income: $700; VA: $600 — approaches disagree"
+      },
+      {
+        "label": "B",
+        "text": "Expenditure: $700; Income: $700; VA: $700 — all three agree"
+      },
+      {
+        "label": "C",
+        "text": "Expenditure: $700; Income: $600; VA: $700"
+      },
+      {
+        "label": "D",
+        "text": "Expenditure: $1,100; Income: $700; VA: $700 — expenditure double-counts"
+      },
+      {
+        "label": "E",
+        "text": "All three give $600 because only manufacturing produces real value"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Expenditure (final goods sold to consumers): Firm 2→consumers: $400; Firm 3→consumers: $300; total = $700. Value added: Firm 1: $200; Firm 2: $600-$200=$400; Firm 3: $300-$200=$100. Income: Firm 1 earns $200 (all goes to factor income); Firm 2 earns $400 revenue above raw material cost = $400 (of which $300 goes to labor and $100 to profit); Firm 3 earns $100 (services value); total income = $200+$400+$100 = $700; all three approaches: $700.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "A country's GDP is $20T. An analyst decomposes this into: consumer spending on domestic goods ($11T) + consumer spending on imports ($2T) + business investment ($3.5T) + government purchases ($4T) + exports ($3T). Is this calculation correct? What adjustment is needed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "GDP = $23.5T — sum all components including imports"
+      },
+      {
+        "label": "B",
+        "text": "GDP = $19.5T — subtract imports from the total of $21.5T"
+      },
+      {
+        "label": "C",
+        "text": "GDP = $20T — the calculation is already correct as stated: C_domestic($11T) + I($3.5T) + G($4T) + X($3T) − M($2T) = $19.5T, not $20T. The data given does not reconcile to $20T and contains an error"
+      },
+      {
+        "label": "D",
+        "text": "GDP = $20T — consumer spending should include ALL spending ($11T+$2T=$13T) and then subtract imports: 13+3.5+4+(3−2) = 21.5 − 2 = 19.5T (still doesn't reconcile). The analyst's data has a $0.5T gap from the stated $20T GDP"
+      },
+      {
+        "label": "E",
+        "text": "GDP = $19.5T, not $20T as stated — the correct calculation is C_total($13T) + I($3.5T) + G($4T) + (X−M)($1T) = $21.5T; or C_domestic($11T) + I($3.5T) + G($4T) + X($3T) = $21.5T... the data does not reconcile to $20T"
+      }
+    ],
+    "answer": "D",
+    "explanation": "GDP = C+I+G+NX; C_total = domestic + imports = $11T+$2T = $13T; GDP = 13+3.5+4+(3-2) = 13+3.5+4+1 = $21.5T. This does NOT equal the stated $20T - a $1.5T discrepancy; alternatively using domestic C only: GDP = 11+3.5+4+3 = $21.5T (before subtracting imports). Either way, there is an inconsistency in the data; the analyst's stated GDP of $20T does not match the component data provided, indicating a data error or statistical discrepancy of $1.5T.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "An economist argues: \"In the circular flow, investment must always equal savings for the economy to be in equilibrium. This means if a government runs a budget deficit (spending > taxes), private savings must be higher than private investment to compensate.\" Evaluate this argument using the national income accounting identity.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The economist is correct — savings always equal investment in any economy"
+      },
+      {
+        "label": "B",
+        "text": "The economist is partially correct. The national income identity in an open economy: S_private + T = I + G + (X−M). Rearranging: S_private − I = (G−T) + NX. If G>T (deficit), then (G−T)>0, which means private savings minus investment must be positive — private savings must exceed private investment to finance the government deficit. In a closed economy: S = I + (G−T), so government deficits require private savings to exceed private investment"
+      },
+      {
+        "label": "C",
+        "text": "The economist is incorrect — government deficits always reduce private savings"
+      },
+      {
+        "label": "D",
+        "text": "The economist is correct but only for closed economies with no trade"
+      },
+      {
+        "label": "E",
+        "text": "The economist is incorrect — investment and savings are independently determined and need not be equal"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The national saving-investment identity: In a closed economy, S = I + (G-T). If the government runs a deficit (G>T), private savings must exceed private investment (S>I) to provide the financing; in an open economy: (S-I) + (T-G) = NX; A government deficit (G>T) with balanced trade requires S>I; the economist's argument is directionally correct and follows from the accounting identity.",
+    "reference": "MEA-1.A | MEA-1.A.2 | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "Nominal GDP Year 1: 500 units × $10 = $5,000. Nominal GDP Year 2: 550 units × $12 = $6,600. What is the nominal GDP growth rate, and what portion of that growth is due to higher prices versus higher real output?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nominal growth: 32%; all due to output growth"
+      },
+      {
+        "label": "B",
+        "text": "Nominal growth: 32%; price contribution: 20% (price rose from $10 to $12); quantity contribution: 10% (500→550); the remaining 2% is an interaction term. Together: (1+0.20)×(1+0.10) = 1.32 ≈ 32% nominal growth"
+      },
+      {
+        "label": "C",
+        "text": "Nominal growth: 32%; all due to price increase"
+      },
+      {
+        "label": "D",
+        "text": "Nominal growth: 20%; quantity contribution: 10%; price contribution: 10%"
+      },
+      {
+        "label": "E",
+        "text": "Nominal growth: 32%; price contribution: 10%; quantity contribution: 22%"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Nominal growth = (6,600-5,000)/5,000 = $1,600/$5,000 = 32%; decomposition: Price increase: (12-10)/10 = 20%; Quantity increase: (550-500)/500 = 10%. Combined: (1.20)(1.10) = 1.32 → 32% nominal growth = 20% price effect + 10% quantity effect + 2% interaction term; only the 10% quantity increase (approximately) represents real economic growth.",
+    "reference": "MEA-1.A | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "Five transactions occur in an economy: (1) Ford produces 100 cars, sells 90 to consumers for $30,000 each and adds 10 to inventory. (2) The U.S. government buys $500M of military equipment from Boeing. (3) A consumer buys a used Toyota for $15,000. (4) Google invests $2B in new server infrastructure. (5) An American consumer buys $50,000 of French wine. For each, identify the GDP component (C, I, G, NX, or excluded) and calculate the net effect on GDP.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(1) C=$2.7B + I=$300K; (2) G=$500M; (3) excluded; (4) I=$2B; (5) C+NX net $0. Total = $5.2B"
+      },
+      {
+        "label": "B",
+        "text": "(1) C=$2.7B + I=$0.3M; (2) G=$0.5B; (3) excluded — used good; (4) I=$2B; (5) C+$50K (import subtracted in NX so net $0 on GDP). Total GDP impact ≈ $5.2B"
+      },
+      {
+        "label": "C",
+        "text": "(1) $3B (all 100 cars); (2) G=$0.5B; (3) C=$15K; (4) I=$2B; (5) C=$50K. Total=$5.565B"
+      },
+      {
+        "label": "D",
+        "text": "(1) $3B all counted; (2) G=$0.5B; (3) excluded; (4) I=$2B; (5) net $0. Total=$5.5B"
+      },
+      {
+        "label": "E",
+        "text": "(1) C=$2.7B, I=$300K; (2) G=$500M; (3) excluded; (4) I=$2B; (5) net $0 impact. Total ≈ $5.2B"
+      }
+    ],
+    "answer": "E",
+    "explanation": "(1) 90 cars × $30K = $2.7B (C); 10 cars × $30K = $0.3M (inventory investment I); (2) Boeing military equipment = $500M (G). (3) Used Toyota - no new production, excluded from GDP; (4) Google server infrastructure = $2B (I - business fixed investment). (5) French wine $50K: enters C as household spending, but M increases $50K (import), net NX impact = -$50K, net GDP effect = $0; total GDP = $2.7B + $0.3M + $0.5B + $2B = approximately $5.2B.",
+    "reference": "MEA-1.A | MEA-1.A.1 | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "The circular flow model is described as showing that \"income = expenditure = output\" for the whole economy. A sophisticated student asks: \"But don't firms retain some earnings and pay taxes? Doesn't this break the identity?\" How should an economist respond?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The student is correct — retained earnings and taxes do break the identity, which is why GDP figures require statistical adjustments"
+      },
+      {
+        "label": "B",
+        "text": "The economist should explain that retained earnings are a form of corporate saving, which is counted as part of investment in the circular flow; taxes paid to the government are recycled back into the flow as government spending. When all flows (including savings→investment and taxes→government spending) are accounted for, the total income (including undistributed profits and corporate taxes) still equals total output and total expenditure. The identity holds in aggregate even with these complicating factors"
+      },
+      {
+        "label": "C",
+        "text": "The student is correct that retained earnings break the identity, but taxes do not"
+      },
+      {
+        "label": "D",
+        "text": "The economist should concede the point — the circular flow identity is only approximate"
+      },
+      {
+        "label": "E",
+        "text": "Retained earnings and taxes are leakages that permanently reduce GDP below what it otherwise would be"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The circular flow identity holds in aggregate: Corporate retained earnings are a form of business saving (part of gross private saving), which eventually becomes investment. Taxes paid to the government represent a leakage, but government purchases (G) re-inject them into the spending stream. When ALL flows are included - corporate savings→investment, taxes→government spending, household savings→investment - total income = total expenditure = total output = GDP; the apparent \"leakages\" are matched by \"injections\" elsewhere in the system.",
+    "reference": "MEA-1.A | MEA-1.A.2 | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "A comprehensive GDP calculation: Economy produces 3 final goods. Good X: 400 units at $80 (200 sold domestically, 200 exported). Good Y: 1,000 units at $15 (all sold domestically, half to consumers and half to businesses as capital). Good Z: 500 units at $25 (all sold as intermediate inputs to a firm making Good X — the value is already embedded in Good X price). Country also imports 100 units of Good W at $30 each from abroad. Calculate GDP.",
+    "options": [
+      {
+        "label": "A",
+        "text": "$49,500"
+      },
+      {
+        "label": "B",
+        "text": "$47,000"
+      },
+      {
+        "label": "C",
+        "text": "$50,000"
+      },
+      {
+        "label": "D",
+        "text": "$52,000"
+      },
+      {
+        "label": "E",
+        "text": "$44,000"
+      }
+    ],
+    "answer": "B",
+    "explanation": "GDP includes the $32,000 of final Good X and the $15,000 of final Good Y, for a total of $47,000. Good Z is excluded as an intermediate input, and the imported Good W was not produced domestically.",
+    "reference": "MEA-1.A | MEA-1.A.1 | MEA-1.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  }
+]

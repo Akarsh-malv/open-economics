@@ -14,7 +14,7 @@ export const revalidate = 2592000; // 30 days
 
 async function getFallbackLogo() {
   return fileToDataUrl(
-    new URL("../../../../../public/logo512.png", import.meta.url),
+    new URL("../../../../../public/brand-wordmark.png", import.meta.url),
     "image/png",
   );
 }

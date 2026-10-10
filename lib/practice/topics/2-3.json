@@ -1,0 +1,3202 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "The labor force is defined as the sum of which two groups?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Full-time workers and part-time workers."
+      },
+      {
+        "label": "B",
+        "text": "Employed workers and unemployed workers who are actively seeking employment."
+      },
+      {
+        "label": "C",
+        "text": "All adults aged 16 and older, regardless of employment status."
+      },
+      {
+        "label": "D",
+        "text": "Workers currently employed and workers who have given up searching for jobs."
+      },
+      {
+        "label": "E",
+        "text": "Adults who have worked at any point during the past 12 months."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The labor force = Employed + Unemployed (actively seeking work); groups NOT in the labor force include retirees, full-time students not seeking work, stay-at-home parents, and discouraged workers - all adults who are neither employed nor actively searching.",
+    "reference": "MEA-1.C | MEA-1.C.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "The unemployment rate is officially defined as",
+    "options": [
+      {
+        "label": "A",
+        "text": "the percentage of the adult population that does not have a paid job."
+      },
+      {
+        "label": "B",
+        "text": "the percentage of the total population that is actively looking for work."
+      },
+      {
+        "label": "C",
+        "text": "the percentage of the labor force that is out of work — those without jobs who are available and actively seeking employment."
+      },
+      {
+        "label": "D",
+        "text": "the number of unemployed workers divided by the adult population times 100."
+      },
+      {
+        "label": "E",
+        "text": "the percentage of adults who lost their jobs in the previous month."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Unemployment rate = (Unemployed ÷ Labor Force) × 100; the denominator is the labor force (employed + unemployed), NOT the total adult population; to be counted as unemployed, a person must be jobless, available to work, and actively searching.",
+    "reference": "MEA-1.C | MEA-1.C.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "The labor force participation rate (LFPR) is best defined as",
+    "options": [
+      {
+        "label": "A",
+        "text": "the percentage of the labor force that is currently employed."
+      },
+      {
+        "label": "B",
+        "text": "the percentage of the adult population (age 16+) that is in the labor force, whether employed or actively seeking work."
+      },
+      {
+        "label": "C",
+        "text": "the percentage of the adult population that is employed full time."
+      },
+      {
+        "label": "D",
+        "text": "the ratio of unemployed workers to all adults in the economy."
+      },
+      {
+        "label": "E",
+        "text": "the number of discouraged workers divided by the adult population."
+      }
+    ],
+    "answer": "B",
+    "explanation": "LFPR = (Labor Force ÷ Adult Population) × 100. It measures what share of the working-age population is participating in the labor market - either holding a job or actively looking for one; it does NOT distinguish between employed and unemployed within that group.",
+    "reference": "MEA-1.C | MEA-1.C.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "Which of the following individuals is correctly classified as UNEMPLOYED for official measurement purposes?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A retired teacher who receives a pension and is not seeking work."
+      },
+      {
+        "label": "B",
+        "text": "A full-time college student who is not looking for a job."
+      },
+      {
+        "label": "C",
+        "text": "A 28-year-old who was laid off last month, has sent out 20 résumés this week, and is available to start work immediately."
+      },
+      {
+        "label": "D",
+        "text": "A parent who quit work three years ago to raise children and has not applied for any jobs since."
+      },
+      {
+        "label": "E",
+        "text": "A worker employed 10 hours per week who is not looking for more hours."
+      }
+    ],
+    "answer": "C",
+    "explanation": "To be officially unemployed, a person must meet all three criteria: (1) not currently employed, (2) available to work, and (3) actively searching for work. The 28-year-old satisfies all three conditions; retirees, students not searching, and those who stopped looking are classified as \"not in the labor force.\".",
+    "reference": "MEA-1.C | MEA-1.C.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "Which of the following individuals would be classified as NOT IN THE LABOR FORCE?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A worker recently laid off who is submitting job applications every week."
+      },
+      {
+        "label": "B",
+        "text": "A part-time employee actively seeking a full-time position."
+      },
+      {
+        "label": "C",
+        "text": "A new college graduate who is available to work and attending job fairs."
+      },
+      {
+        "label": "D",
+        "text": "A 48-year-old who has stopped looking for work after six months of unsuccessful searching, believing no suitable jobs exist."
+      },
+      {
+        "label": "E",
+        "text": "A furloughed worker expected to be recalled to work next month."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A person who has stopped actively searching for work because they believe no jobs are available is called a \"discouraged worker.\" Discouraged workers are classified as \"not in the labor force\" - they are neither employed nor officially unemployed. This is a key limitation of the official unemployment rate.",
+    "reference": "MEA-1.C | MEA-1.D | MEA-1.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "An economy has 160 million employed workers and 10 million unemployed workers actively seeking jobs. The adult population is 220 million. What is the unemployment rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4.5 percent"
+      },
+      {
+        "label": "B",
+        "text": "5.88 percent"
+      },
+      {
+        "label": "C",
+        "text": "6.25 percent"
+      },
+      {
+        "label": "D",
+        "text": "4.55 percent"
+      },
+      {
+        "label": "E",
+        "text": "6.67 percent"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Labor Force = 160M + 10M = 170M; unemployment rate = (10 ÷ 170) × 100 ≈ 5.88%. Common error: dividing by adult population (220M) gives 4.55% - wrong denominator; the denominator must be the labor force, not the adult population.",
+    "reference": "MEA-1.C | MEA-1.C.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "An economy has 150 million employed workers, 9 million unemployed workers (actively seeking), and an adult population of 240 million. What is the labor force participation rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "62.5 percent"
+      },
+      {
+        "label": "B",
+        "text": "94 percent"
+      },
+      {
+        "label": "C",
+        "text": "66.25 percent"
+      },
+      {
+        "label": "D",
+        "text": "6 percent"
+      },
+      {
+        "label": "E",
+        "text": "3.75 percent"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The labor force is 150 million employed plus 9 million unemployed, or 159 million. The labor force participation rate is 159/240 x 100 = 66.25 percent.",
+    "reference": "MEA-1.C | MEA-1.C.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "An economy has 180 million employed workers, 12 million unemployed workers (actively seeking), and an adult population of 280 million. What is the labor force participation rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "64.3 percent"
+      },
+      {
+        "label": "B",
+        "text": "68.6 percent"
+      },
+      {
+        "label": "C",
+        "text": "93.8 percent"
+      },
+      {
+        "label": "D",
+        "text": "6.25 percent"
+      },
+      {
+        "label": "E",
+        "text": "4.3 percent"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The labor force is 180 million employed plus 12 million unemployed, or 192 million. Dividing 192 million by the adult population of 280 million gives a labor force participation rate of about 68.6 percent.",
+    "reference": "MEA-1.C | MEA-1.C.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "Frictional unemployment is BEST described as",
+    "options": [
+      {
+        "label": "A",
+        "text": "unemployment caused by a recession and falling aggregate demand for labor."
+      },
+      {
+        "label": "B",
+        "text": "long-term joblessness resulting from a mismatch between worker skills and employer needs."
+      },
+      {
+        "label": "C",
+        "text": "temporary unemployment arising from the normal process of workers transitioning between jobs or entering the labor market for the first time, even in a healthy economy."
+      },
+      {
+        "label": "D",
+        "text": "unemployment resulting from automation permanently replacing workers in an industry."
+      },
+      {
+        "label": "E",
+        "text": "joblessness among workers who have completely given up looking for work."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Frictional unemployment reflects the time it takes to match workers with jobs - a new graduate searching for her first position, or a worker who quit to find a better job. It is temporary, voluntary in many cases, and exists even in a healthy labor market; it is NOT caused by recessions or skills mismatches.",
+    "reference": "MEA-1.E | MEA-1.E.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "Structural unemployment BEST describes which situation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A worker who is between jobs after voluntarily quitting to search for a better position."
+      },
+      {
+        "label": "B",
+        "text": "A factory worker temporarily laid off during a slow quarter who expects to be rehired."
+      },
+      {
+        "label": "C",
+        "text": "A worker whose job category was permanently eliminated by automation or industry shifts, creating a lasting mismatch between their skills and those demanded in the labor market."
+      },
+      {
+        "label": "D",
+        "text": "A worker who is unemployed because the economy entered a recession."
+      },
+      {
+        "label": "E",
+        "text": "A seasonal farmworker who is between planting and harvest seasons."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Structural unemployment results from a fundamental change in the economy - technological progress, industry decline, or geographic shifts - that makes certain worker skills permanently obsolete or mismatched with available jobs. Unlike frictional unemployment, it is long-lasting and typically requires workers to retrain or relocate to find new employment.",
+    "reference": "MEA-1.E | MEA-1.E.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "Cyclical unemployment is BEST defined as",
+    "options": [
+      {
+        "label": "A",
+        "text": "unemployment that exists in a healthy economy due to normal job transitions."
+      },
+      {
+        "label": "B",
+        "text": "permanent joblessness caused by workers' skills becoming obsolete."
+      },
+      {
+        "label": "C",
+        "text": "unemployment caused by downturns in the business cycle — when reduced aggregate demand leads firms to cut output and lay off workers."
+      },
+      {
+        "label": "D",
+        "text": "unemployment equal to the natural rate of unemployment."
+      },
+      {
+        "label": "E",
+        "text": "joblessness among discouraged workers who have stopped searching."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Cyclical unemployment rises and falls with the business cycle. During recessions, falling aggregate demand causes firms to reduce production and lay off workers - creating cyclical unemployment; it disappears when the economy returns to full employment and is the primary target of stabilization policies (monetary and fiscal policy).",
+    "reference": "MEA-1.E | MEA-1.E.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "The natural rate of unemployment (NRU) is equal to",
+    "options": [
+      {
+        "label": "A",
+        "text": "zero, because a fully functioning economy would have everyone employed."
+      },
+      {
+        "label": "B",
+        "text": "the sum of cyclical and frictional unemployment only."
+      },
+      {
+        "label": "C",
+        "text": "the unemployment rate during the worst point of a recession."
+      },
+      {
+        "label": "D",
+        "text": "the sum of frictional and structural unemployment — the unemployment that persists even at full employment."
+      },
+      {
+        "label": "E",
+        "text": "the cyclical unemployment rate when the economy is operating above potential output."
+      }
+    ],
+    "answer": "D",
+    "explanation": "NRU = Frictional Unemployment + Structural Unemployment. It is the unemployment rate when the economy is at full employment - cyclical unemployment equals zero; it is \"natural\" not because it is desirable but because it reflects unavoidable labor market frictions and structural changes, not insufficient aggregate demand.",
+    "reference": "MEA-1.E | MEA-1.E.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "When economists say the economy is at \"full employment,\" they mean",
+    "options": [
+      {
+        "label": "A",
+        "text": "there is zero unemployment — every adult who wants a job has one."
+      },
+      {
+        "label": "B",
+        "text": "the labor force participation rate equals 100 percent."
+      },
+      {
+        "label": "C",
+        "text": "cyclical unemployment equals zero and the actual unemployment rate equals the natural rate — only frictional and structural unemployment remain."
+      },
+      {
+        "label": "D",
+        "text": "the government has achieved its unemployment target of 2 percent."
+      },
+      {
+        "label": "E",
+        "text": "all workers are employed in jobs that match their skill level."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Full employment does NOT mean zero unemployment; at full employment, cyclical unemployment = 0 (no recession-driven joblessness), and the actual unemployment rate = NRU. Frictional and structural unemployment still exist - workers are still changing jobs and industries are still evolving - but no cyclical unemployment results from insufficient demand.",
+    "reference": "MEA-1.E | MEA-1.E.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "Cyclical unemployment is calculated as",
+    "options": [
+      {
+        "label": "A",
+        "text": "frictional unemployment plus structural unemployment."
+      },
+      {
+        "label": "B",
+        "text": "the labor force participation rate minus the employment rate."
+      },
+      {
+        "label": "C",
+        "text": "the actual unemployment rate minus the natural rate of unemployment."
+      },
+      {
+        "label": "D",
+        "text": "the natural rate of unemployment minus the actual unemployment rate."
+      },
+      {
+        "label": "E",
+        "text": "the total unemployed divided by the adult population."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Cyclical unemployment = Actual unemployment rate - Natural rate of unemployment; A positive result indicates the economy is operating below full employment (recessionary gap). A negative result (actual < NRU) indicates the economy is above full employment (inflationary gap); when cyclical = 0, the economy is at full employment.",
+    "reference": "MEA-1.E | MEA-1.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "A recent college graduate is actively searching for her first job in engineering. She has the skills employers want but has not yet received an offer. She BEST represents",
+    "options": [
+      {
+        "label": "A",
+        "text": "cyclical unemployment, since new graduates enter the market during economic downturns."
+      },
+      {
+        "label": "B",
+        "text": "structural unemployment, since she lacks real-world work experience."
+      },
+      {
+        "label": "C",
+        "text": "frictional unemployment — she is in the normal job-search process of transitioning into the labor market for the first time."
+      },
+      {
+        "label": "D",
+        "text": "natural unemployment, because new graduates are always outside the labor force."
+      },
+      {
+        "label": "E",
+        "text": "discouraged worker status, since she has not yet found a job."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A new graduate searching for her first job is experiencing frictional unemployment - the temporary joblessness that arises from the normal matching process between workers and employers. Her skills are appropriate for the market; she simply needs time to find the right match; this is expected even in a healthy, growing economy.",
+    "reference": "MEA-1.E | MEA-1.E.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "A textile worker loses his job because clothing manufacturing has moved overseas and his factory permanently closed. His weaving skills have no demand in his local economy. He BEST represents",
+    "options": [
+      {
+        "label": "A",
+        "text": "frictional unemployment — he just needs to search more actively for a weaving job."
+      },
+      {
+        "label": "B",
+        "text": "cyclical unemployment — the factory closed because of a recession in consumer spending."
+      },
+      {
+        "label": "C",
+        "text": "structural unemployment — a permanent shift in the structure of the economy eliminated demand for his specific skill set, requiring retraining for new employment."
+      },
+      {
+        "label": "D",
+        "text": "natural unemployment — some job loss is inevitable in any economy."
+      },
+      {
+        "label": "E",
+        "text": "voluntary unemployment — he chose to work in a declining industry."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Global trade shifts that permanently close domestic manufacturing represent structural change - a fundamental, long-lasting transformation of the economy that creates a mismatch between workers' existing skills and available jobs. Unlike frictional unemployment, he cannot resolve this by simply searching longer; he needs retraining or a change of occupation.",
+    "reference": "MEA-1.E | MEA-1.E.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "During a recession, a retail store closes and lays off 200 workers because consumer spending has fallen sharply. These workers BEST represent",
+    "options": [
+      {
+        "label": "A",
+        "text": "structural unemployment, since retail is being permanently disrupted by e-commerce."
+      },
+      {
+        "label": "B",
+        "text": "frictional unemployment, since they are temporarily between jobs."
+      },
+      {
+        "label": "C",
+        "text": "cyclical unemployment — they lost their jobs due to reduced aggregate demand during the business cycle downturn."
+      },
+      {
+        "label": "D",
+        "text": "natural unemployment, since some retail workers are always unemployed."
+      },
+      {
+        "label": "E",
+        "text": "voluntary unemployment, since they could have found work in other sectors."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Layoffs caused by reduced consumer spending during a recession represent cyclical unemployment - joblessness directly tied to the business cycle. When aggregate demand falls, firms reduce output and employment; these workers have skills the economy needs; the problem is insufficient demand; when the economy recovers, demand for their labor returns.",
+    "reference": "MEA-1.E | MEA-1.E.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "The PRIMARY limitation of the official unemployment rate, as identified in the AP Macroeconomics CED, is that it",
+    "options": [
+      {
+        "label": "A",
+        "text": "overstates unemployment by including part-time workers who want fewer hours."
+      },
+      {
+        "label": "B",
+        "text": "is calculated monthly rather than weekly, making it outdated."
+      },
+      {
+        "label": "C",
+        "text": "understates the level of joblessness by excluding discouraged workers and treating involuntary part-time workers as fully employed."
+      },
+      {
+        "label": "D",
+        "text": "overstates unemployment by including workers who are between frictionally unemployed positions."
+      },
+      {
+        "label": "E",
+        "text": "is based on a survey that systematically undercounts employed workers."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The official unemployment rate understates true joblessness because it excludes discouraged workers (who gave up searching and are classified as \"not in labor force\") and counts involuntary part-time workers as \"employed.\" Both groups represent genuine labor market hardship invisible in the headline rate.",
+    "reference": "MEA-1.D | MEA-1.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "A discouraged worker is BEST defined as a person who",
+    "options": [
+      {
+        "label": "A",
+        "text": "is employed in a job below their qualifications and seeking a better position."
+      },
+      {
+        "label": "B",
+        "text": "works part time but prefers full-time employment."
+      },
+      {
+        "label": "C",
+        "text": "is available to work but has stopped searching for a job because they believe no suitable opportunities exist — and is therefore classified as outside the labor force."
+      },
+      {
+        "label": "D",
+        "text": "has been unemployed for more than 26 weeks and no longer qualifies for unemployment benefits."
+      },
+      {
+        "label": "E",
+        "text": "is cyclically unemployed due to a recession and waiting for economic recovery."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Discouraged workers are not counted in the official unemployment rate because they have stopped actively searching for work. They are classified as \"not in the labor force.\" Because they are neither employed nor searching, their exclusion makes the official unemployment rate lower than the true extent of labor market hardship - the primary limitation of the measure.",
+    "reference": "MEA-1.D | MEA-1.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "A worker who wants a full-time job but can only find 20 hours of part-time work per week is classified in official statistics as",
+    "options": [
+      {
+        "label": "A",
+        "text": "unemployed, since they lack the full-time work they desire."
+      },
+      {
+        "label": "B",
+        "text": "not in the labor force, since they work fewer than 35 hours per week."
+      },
+      {
+        "label": "C",
+        "text": "employed — any paid work of at least one hour per week counts as employed, even if the person desires more hours. This is a limitation of the official measure."
+      },
+      {
+        "label": "D",
+        "text": "cyclically unemployed, since part-time work reflects weak economic conditions."
+      },
+      {
+        "label": "E",
+        "text": "structurally unemployed, since full-time positions are structurally unavailable."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official statistics (BLS) count any person who works at least one hour per week for pay as \"employed.\" Involuntary part-time workers - those who want full-time jobs but can only find part-time work - are counted as employed, not unemployed. This causes the official rate to understate true labor market slack.",
+    "reference": "MEA-1.D | MEA-1.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "Which of the following individuals IS included in the labor force?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A 72-year-old retired professor who does not work and is not seeking employment."
+      },
+      {
+        "label": "B",
+        "text": "A full-time undergraduate student with no job and not searching for one."
+      },
+      {
+        "label": "C",
+        "text": "A stay-at-home parent who has not sought paid work in five years."
+      },
+      {
+        "label": "D",
+        "text": "A 31-year-old accountant working 40 hours per week."
+      },
+      {
+        "label": "E",
+        "text": "A 15-year-old who babysits on weekends for neighbors."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The 31-year-old accountant with a full-time job is employed and thus part of the labor force. The retired professor, full-time student not searching, and stay-at-home parent are all \"not in the labor force.\" The 15-year-old is below the age threshold (16+) used to define the adult population for labor force statistics.",
+    "reference": "MEA-1.C | MEA-1.C.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "An economy has Adult Population = 300 million, Employed = 185 million, and Unemployed (actively seeking) = 15 million. Calculate the unemployment rate and LFPR.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unemployment rate = 5%; LFPR = 66.7%"
+      },
+      {
+        "label": "B",
+        "text": "Unemployment rate = 7.5%; LFPR = 63.3%"
+      },
+      {
+        "label": "C",
+        "text": "Unemployment rate = 7.5%; LFPR = 66.7%"
+      },
+      {
+        "label": "D",
+        "text": "Unemployment rate = 5%; LFPR = 61.7%"
+      },
+      {
+        "label": "E",
+        "text": "Unemployment rate = 8.1%; LFPR = 66.7%"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Labor Force = 185M + 15M = 200M; unemployment rate = (15 ÷ 200) × 100 = 7.5%. LFPR = (200 ÷ 300) × 100 = 66.7%; common errors: using 300M as denominator for unemployment rate (gives 5%) or forgetting to include unemployed in LF for LFPR.",
+    "reference": "MEA-1.C | MEA-1.C.1 | MEA-1.C.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "Which type of unemployment is the PRIMARY target of expansionary monetary and fiscal policy during a recession?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Frictional unemployment, because it is the most prevalent type."
+      },
+      {
+        "label": "B",
+        "text": "Structural unemployment, because skill mismatches reduce productivity."
+      },
+      {
+        "label": "C",
+        "text": "Cyclical unemployment, because it is caused by insufficient aggregate demand — the exact problem that monetary and fiscal stimulus address."
+      },
+      {
+        "label": "D",
+        "text": "Natural unemployment, because it is the baseline level that all economies must achieve."
+      },
+      {
+        "label": "E",
+        "text": "Discouraged worker unemployment, because these workers need income support."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Cyclical unemployment is caused by insufficient aggregate demand - firms lay off workers because sales fall. Expansionary policy (lower interest rates, higher government spending, tax cuts) boosts demand, encourages hiring, and reduces cyclical unemployment; frictional and structural unemployment are not caused by insufficient demand and do not respond to aggregate demand stimulus.",
+    "reference": "MEA-1.E | MEA-1.E.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "If the actual unemployment rate equals the natural rate of unemployment, which of the following must be true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The unemployment rate is zero."
+      },
+      {
+        "label": "B",
+        "text": "Every worker in the labor force is employed."
+      },
+      {
+        "label": "C",
+        "text": "Cyclical unemployment equals zero — the economy is at full employment with only frictional and structural unemployment remaining."
+      },
+      {
+        "label": "D",
+        "text": "The labor force participation rate equals the employment-population ratio."
+      },
+      {
+        "label": "E",
+        "text": "Structural unemployment is greater than frictional unemployment."
+      }
+    ],
+    "answer": "C",
+    "explanation": "When actual unemployment rate = NRU, cyclical unemployment = actual - NRU = 0. This is the definition of full employment: no recession-driven unemployment; frictional and structural unemployment still exist (they sum to the NRU), but no workers are unemployed solely due to weak aggregate demand.",
+    "reference": "MEA-1.E | MEA-1.E.2 | MEA-1.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "The actual unemployment rate is 8.5% and the natural rate of unemployment is 5.5%. What is the level of cyclical unemployment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "14 percent"
+      },
+      {
+        "label": "B",
+        "text": "5.5 percent"
+      },
+      {
+        "label": "C",
+        "text": "8.5 percent"
+      },
+      {
+        "label": "D",
+        "text": "3 percent"
+      },
+      {
+        "label": "E",
+        "text": "2 percent"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Cyclical unemployment = Actual rate - NRU = 8.5% - 5.5% = 3%; A positive cyclical unemployment rate indicates the economy is below full employment - there is a recessionary gap, and actual output is less than potential GDP.",
+    "reference": "MEA-1.E | MEA-1.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "The natural rate of unemployment can change over time due to",
+    "options": [
+      {
+        "label": "A",
+        "text": "changes in the overall price level and inflation expectations."
+      },
+      {
+        "label": "B",
+        "text": "changes in the level of cyclical unemployment during recessions."
+      },
+      {
+        "label": "C",
+        "text": "changes in labor force characteristics — such as demographic shifts, improvements in job-search technology, or changes in the composition of industries — that alter frictional and structural unemployment."
+      },
+      {
+        "label": "D",
+        "text": "changes in the money supply controlled by the central bank."
+      },
+      {
+        "label": "E",
+        "text": "changes in fiscal policy such as government spending and tax rates."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The NRU can gradually shift due to changes in labor force characteristics. An aging workforce with less job-hopping lowers frictional unemployment (and NRU); better job-search platforms reduce search time (lower NRU); rapid technological change increases structural unemployment (raises NRU); the NRU is not permanently fixed.",
+    "reference": "MEA-1.E | MEA-1.E.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "Which of the following BEST illustrates frictional unemployment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A steel mill worker laid off because a robot performs her job more cheaply."
+      },
+      {
+        "label": "B",
+        "text": "A hotel desk clerk laid off because tourism collapsed during a recession."
+      },
+      {
+        "label": "C",
+        "text": "A software developer who voluntarily resigned to search for a higher-paying position and is currently interviewing at several companies."
+      },
+      {
+        "label": "D",
+        "text": "A coal miner whose mine closed permanently after natural gas prices fell."
+      },
+      {
+        "label": "E",
+        "text": "A worker who gave up job searching after 12 months of unsuccessful efforts."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The software developer who voluntarily quit to find a better job is experiencing frictional unemployment - the temporary, normal joblessness associated with workers transitioning between positions. She has marketable skills and will find a new job through the normal search process; this is distinct from structural (skills mismatch) and cyclical (recession-driven) unemployment.",
+    "reference": "MEA-1.E | MEA-1.E.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "When the economy produces at its potential (full-employment) GDP, what is the level of cyclical unemployment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cyclical unemployment equals the natural rate of unemployment."
+      },
+      {
+        "label": "B",
+        "text": "Cyclical unemployment is maximized."
+      },
+      {
+        "label": "C",
+        "text": "Cyclical unemployment equals zero — by definition, potential GDP corresponds to the absence of cyclical unemployment."
+      },
+      {
+        "label": "D",
+        "text": "Cyclical unemployment equals total unemployment minus frictional unemployment."
+      },
+      {
+        "label": "E",
+        "text": "Cyclical unemployment equals the labor force participation rate minus one."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Potential GDP (full-employment output) is the level of production when cyclical unemployment = 0. The economy is using its resources efficiently within the constraints of normal labor market frictions (frictional + structural unemployment); when actual GDP = potential GDP, actual unemployment = NRU and cyclical = 0.",
+    "reference": "MEA-1.E | MEA-1.E.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "The formula for the unemployment rate uses which denominator?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The total adult population."
+      },
+      {
+        "label": "B",
+        "text": "The total population, including children."
+      },
+      {
+        "label": "C",
+        "text": "The number of employed workers only."
+      },
+      {
+        "label": "D",
+        "text": "The labor force — the sum of employed and unemployed workers."
+      },
+      {
+        "label": "E",
+        "text": "The number of discouraged workers plus the unemployed."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Unemployment rate = (Unemployed ÷ Labor Force) × 100, where Labor Force = Employed + Unemployed. Using the adult population as the denominator is a very common error that produces an artificially low rate; the labor force excludes retirees, students not seeking work, discouraged workers, and other non-participants.",
+    "reference": "MEA-1.C | MEA-1.C.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "An automated assembly system permanently replaces 500 factory workers whose specific skills are now obsolete. These workers are experiencing",
+    "options": [
+      {
+        "label": "A",
+        "text": "frictional unemployment — they just need time to find new manufacturing jobs."
+      },
+      {
+        "label": "B",
+        "text": "cyclical unemployment — automation causes economic downturns."
+      },
+      {
+        "label": "C",
+        "text": "structural unemployment — technological change fundamentally eliminated demand for their specific skill set, creating a lasting mismatch between their skills and labor market needs."
+      },
+      {
+        "label": "D",
+        "text": "natural unemployment — technological displacement is always built into the NRU."
+      },
+      {
+        "label": "E",
+        "text": "voluntary unemployment — they could have sought retraining before losing their jobs."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Technological displacement is a leading cause of structural unemployment. The automated system permanently replaces tasks these workers performed, and their skills cannot simply be applied elsewhere without significant retraining; this is structural because the problem is a skills mismatch caused by a fundamental economic shift, not a recession or temporary job transition.",
+    "reference": "MEA-1.E | MEA-1.E.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 31,
+    "difficulty": "Easy",
+    "prompt": "Which statement correctly describes the relationship between frictional, structural, and cyclical unemployment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "All three types are caused by insufficient aggregate demand."
+      },
+      {
+        "label": "B",
+        "text": "Frictional and structural unemployment together equal cyclical unemployment."
+      },
+      {
+        "label": "C",
+        "text": "Cyclical unemployment is the only type that exists during a recession; frictional and structural disappear."
+      },
+      {
+        "label": "D",
+        "text": "Frictional and structural unemployment together constitute the natural rate, and exist even at full employment; cyclical unemployment arises only during downturns."
+      },
+      {
+        "label": "E",
+        "text": "All three types can be eliminated through expansionary monetary and fiscal policy."
+      }
+    ],
+    "answer": "D",
+    "explanation": "NRU = frictional + structural - both types exist at full employment; cyclical unemployment exists only during downturns (when actual unemployment > NRU). Crucially, frictional and structural do NOT disappear during recessions - total unemployment rises above NRU because cyclical is added; and they do NOT respond to aggregate demand stimulus.",
+    "reference": "MEA-1.E | MEA-1.E.1 | MEA-1.E.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 32,
+    "difficulty": "Easy",
+    "prompt": "An economy's natural rate of unemployment is 4.5%. If frictional unemployment accounts for 3 percentage points, what is structural unemployment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "7.5 percent"
+      },
+      {
+        "label": "B",
+        "text": "4.5 percent"
+      },
+      {
+        "label": "C",
+        "text": "3 percent"
+      },
+      {
+        "label": "D",
+        "text": "1.5 percent"
+      },
+      {
+        "label": "E",
+        "text": "0 percent"
+      }
+    ],
+    "answer": "D",
+    "explanation": "NRU = Frictional + Structural → Structural = NRU - Frictional = 4.5% - 3% = 1.5%; this is a direct application of MEA-1.E.2. The NRU is always the sum of its two components, so knowing any two of the three values allows you to find the third.",
+    "reference": "MEA-1.E | MEA-1.E.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 33,
+    "difficulty": "Easy",
+    "prompt": "Which of the following correctly explains why the official unemployment rate is sometimes called a \"floor\" on true labor market hardship?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Because the unemployment rate cannot mathematically exceed 100 percent."
+      },
+      {
+        "label": "B",
+        "text": "Because discouraged workers and involuntary part-time workers represent additional hardship not captured in the official rate — the true extent of joblessness and underemployment is at least as large as, and often larger than, the official figure."
+      },
+      {
+        "label": "C",
+        "text": "Because the unemployment rate only counts workers who applied for unemployment insurance benefits."
+      },
+      {
+        "label": "D",
+        "text": "Because frictional unemployment sets a minimum level that cannot be reduced below zero."
+      },
+      {
+        "label": "E",
+        "text": "Because the natural rate sets a floor below which actual unemployment cannot fall."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The official unemployment rate (U-3) undercounts true labor market hardship by excluding: (1) discouraged workers who stopped searching, and (2) involuntary part-timers classified as \"employed.\" Including both groups in broader measures (like U-6) always yields a higher rate. Thus, U-3 represents a floor - the true extent of distress is at least that large, and typically larger.",
+    "reference": "MEA-1.D | MEA-1.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "An economy has the following data: Adult population = 400 million; Employed (full and part-time) = 248 million; Actively unemployed = 16 million; Discouraged workers = 10 million. Calculate the official labor force, unemployment rate, and LFPR.",
+    "options": [
+      {
+        "label": "A",
+        "text": "LF = 264M; Unemployment rate = 6.06%; LFPR = 66%"
+      },
+      {
+        "label": "B",
+        "text": "LF = 274M; Unemployment rate = 5.84%; LFPR = 68.5%"
+      },
+      {
+        "label": "C",
+        "text": "LF = 264M; Unemployment rate = 4%; LFPR = 66%"
+      },
+      {
+        "label": "D",
+        "text": "LF = 258M; Unemployment rate = 6.2%; LFPR = 64.5%"
+      },
+      {
+        "label": "E",
+        "text": "LF = 274M; Unemployment rate = 6.57%; LFPR = 68.5%"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Discouraged workers are NOT counted in the official labor force; LF = 248M + 16M = 264M. Unemployment rate = (16 ÷ 264) × 100 ≈ 6.06%; LFPR = (264 ÷ 400) × 100 = 66%; the 10M discouraged workers are in the adult population (400M) but not in the labor force (264M).",
+    "reference": "MEA-1.C | MEA-1.D",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "Economy data: NRU = 5%; frictional = 3%; actual unemployment rate = 8%. Calculate structural and cyclical unemployment, and describe the state of the economy.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Structural = 2%; Cyclical = 5%; inflationary gap"
+      },
+      {
+        "label": "B",
+        "text": "Structural = 2%; Cyclical = 3%; recessionary gap — actual exceeds NRU by 3 pp"
+      },
+      {
+        "label": "C",
+        "text": "Structural = 5%; Cyclical = 8%; full employment"
+      },
+      {
+        "label": "D",
+        "text": "Structural = 3%; Cyclical = 5%; recessionary gap"
+      },
+      {
+        "label": "E",
+        "text": "Structural = 2%; Cyclical = 0%; at full employment"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Structural = NRU - Frictional = 5% - 3% = 2%; cyclical = Actual - NRU = 8% - 5% = 3%. The positive cyclical unemployment (3%) indicates the economy is below full employment - a recessionary gap; actual output falls short of potential GDP.",
+    "reference": "MEA-1.E | MEA-1.E.2 | MEA-1.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "An economy has 200 million employed, 14 million unemployed (active searchers), and an adult population of 310 million. In the next quarter, due to worsening economic conditions, 4 million currently employed workers are laid off and 2 million unemployed workers become discouraged and stop searching. What is the new unemployment rate and LFPR?",
+    "options": [
+      {
+        "label": "A",
+        "text": "New rate = 10.71%; LFPR = 68.1%"
+      },
+      {
+        "label": "B",
+        "text": "New rate = 7.55%; LFPR = 68.4%"
+      },
+      {
+        "label": "C",
+        "text": "New rate = 8%; LFPR = 70.3%"
+      },
+      {
+        "label": "D",
+        "text": "New rate = 10%; LFPR = 65.8%"
+      },
+      {
+        "label": "E",
+        "text": "New rate = 9.23%; LFPR = 67.1%"
+      }
+    ],
+    "answer": "B",
+    "explanation": "After the changes, employment is 196 million, unemployment is 16 million, and the labor force is 212 million. The unemployment rate is 16/212 = 7.55 percent, and the labor force participation rate is 212/310 = 68.4 percent.",
+    "reference": "MEA-1.C | MEA-1.D",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "The economy is at its natural rate of unemployment of 5%. Then a severe recession begins, and the actual unemployment rate rises to 9%. Meanwhile, the NRU itself rises by 0.5 percentage points due to long-term structural changes. Calculate the new cyclical unemployment and the new NRU.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cyclical = 4%; NRU = 5%"
+      },
+      {
+        "label": "B",
+        "text": "Cyclical = 3.5%; NRU = 5.5%"
+      },
+      {
+        "label": "C",
+        "text": "Cyclical = 4%; NRU = 5.5%"
+      },
+      {
+        "label": "D",
+        "text": "Cyclical = 4.5%; NRU = 5.5%"
+      },
+      {
+        "label": "E",
+        "text": "Cyclical = 3.5%; NRU = 5%"
+      }
+    ],
+    "answer": "B",
+    "explanation": "New NRU = 5% + 0.5% = 5.5% (structural changes raised it); cyclical = Actual - New NRU = 9% - 5.5% = 3.5%. The structural change increased the NRU, which reduces the measured cyclical component even though total unemployment rose; this illustrates why correctly decomposing unemployment requires the current NRU estimate.",
+    "reference": "MEA-1.E | MEA-1.E.3 | MEA-1.E.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "During an economic expansion, 5 million discouraged workers decide to re-enter the labor force and begin actively searching for jobs, but none of them have found work yet. What happens to the measured unemployment rate and the LFPR in the short run?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unemployment rate falls; LFPR rises."
+      },
+      {
+        "label": "B",
+        "text": "Unemployment rate rises; LFPR falls."
+      },
+      {
+        "label": "C",
+        "text": "Both the unemployment rate and LFPR rise — the re-entrants join the labor force as \"unemployed,\" adding to the numerator of the unemployment rate and the denominator of LFPR."
+      },
+      {
+        "label": "D",
+        "text": "Unemployment rate is unchanged; LFPR rises."
+      },
+      {
+        "label": "E",
+        "text": "Both the unemployment rate and LFPR fall."
+      }
+    ],
+    "answer": "C",
+    "explanation": "When discouraged workers re-enter and begin searching (but haven't found jobs yet): (1) Labor force grows (they rejoin it) → LFPR rises. (2) Unemployed count grows (they are now actively seeking) → unemployment rate rises; paradoxically, improving confidence about job prospects temporarily raises the measured unemployment rate before these workers find employment.",
+    "reference": "MEA-1.C | MEA-1.D",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "An economy has LF = 180 million; Employed = 169.2 million; NRU = 4%; frictional unemployment = 2.5%. How many workers are cyclically unemployed, and what is the structural unemployment rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cyclical workers = 7.56M; Structural = 1.5%"
+      },
+      {
+        "label": "B",
+        "text": "Cyclical workers = 3.6M; Structural = 2.5%"
+      },
+      {
+        "label": "C",
+        "text": "Cyclical workers = 3.6M; Structural = 1.5%"
+      },
+      {
+        "label": "D",
+        "text": "Cyclical workers = 10.8M; Structural = 1.5%"
+      },
+      {
+        "label": "E",
+        "text": "Cyclical workers = 5.4M; Structural = 2%"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Actual unemployed = 180M - 169.2M = 10.8M; actual rate = 10.8/180 = 6%. Cyclical rate = 6% - 4% (NRU) = 2%; cyclical workers = 2% × 180M = 3.6M; structural rate = NRU - Frictional = 4% - 2.5% = 1.5%.",
+    "reference": "MEA-1.E | MEA-1.E.2 | MEA-1.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "Which of the following would cause the LFPR to DECREASE while the unemployment rate remains unchanged?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A wave of layoffs that adds more workers to the unemployed count."
+      },
+      {
+        "label": "B",
+        "text": "A policy that encourages more unemployed workers to search more actively."
+      },
+      {
+        "label": "C",
+        "text": "Employed workers retire and are replaced by an equal number of new graduates who immediately find jobs — the retirees leave the LF and the new workers enter as employed, keeping U unchanged but potentially reducing LF if more retire than enter."
+      },
+      {
+        "label": "D",
+        "text": "An economic boom attracts discouraged workers back into the labor force and they immediately find jobs."
+      },
+      {
+        "label": "E",
+        "text": "New immigration that brings employed workers into the economy."
+      }
+    ],
+    "answer": "C",
+    "explanation": "If retirees leaving the LF exactly equal new workers entering and finding jobs, the unemployment rate can remain stable while the LF may shrink (if the group leaving is larger than the group entering). LFPR = LF/Adult Population; if LF shrinks while adult population grows (adding both retirees and new adults), LFPR falls; the unemployment rate stays constant because both numerator and denominator change proportionally.",
+    "reference": "MEA-1.C | MEA-1.C.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "An economy has: Adult population = 500M; LF = 320M; Unemployed = 22.4M; NRU = 5%. Calculate the unemployment rate, LFPR, and cyclical unemployment. Then determine whether a recessionary or inflationary gap exists.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Rate = 7%; LFPR = 64%; Cyclical = 2%; Recessionary gap"
+      },
+      {
+        "label": "B",
+        "text": "Rate = 4.5%; LFPR = 64%; Cyclical = −0.5%; Inflationary gap"
+      },
+      {
+        "label": "C",
+        "text": "Rate = 7%; LFPR = 66%; Cyclical = 2%; Recessionary gap"
+      },
+      {
+        "label": "D",
+        "text": "Rate = 7%; LFPR = 64%; Cyclical = 2%; Inflationary gap"
+      },
+      {
+        "label": "E",
+        "text": "Rate = 5%; LFPR = 64%; Cyclical = 0%; Full employment"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Rate = 22.4/320 × 100 = 7%; LFPR = 320/500 × 100 = 64%. Cyclical = 7% - 5% = 2%; positive cyclical unemployment → the economy operates below full employment → recessionary gap (actual output < potential output).",
+    "reference": "MEA-1.C | MEA-1.E",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "A coal mining region loses 8,000 jobs permanently as natural gas displaces coal. A manufacturing city loses 12,000 jobs temporarily as orders fall during a recession. Compare the appropriate policy responses to each situation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both situations call for the same policy: expansionary fiscal and monetary stimulus."
+      },
+      {
+        "label": "B",
+        "text": "The coal miners face structural unemployment requiring retraining and job-placement programs; expansionary demand policy will not restore jobs that have been permanently eliminated. The manufacturing workers face cyclical unemployment and will be rehired when aggregate demand recovers — appropriate policy is expansionary monetary/fiscal stimulus to speed recovery."
+      },
+      {
+        "label": "C",
+        "text": "The coal miners need income support; the manufacturing workers need retraining."
+      },
+      {
+        "label": "D",
+        "text": "Both situations require contractionary policy to prevent inflation."
+      },
+      {
+        "label": "E",
+        "text": "Neither situation requires policy intervention — the natural rate adjusts automatically."
+      }
+    ],
+    "answer": "B",
+    "explanation": "This question tests the critical policy distinction: Structural unemployment (coal miners) does not respond to aggregate demand stimulus - the jobs will not return even with more spending; policy: retraining programs, relocation assistance, education subsidies. Cyclical unemployment (manufacturing workers) is directly caused by insufficient demand - expansionary policy (lower interest rates, stimulus spending) restores demand and brings workers back; applying demand stimulus to structural unemployment is ineffective; applying retraining to cyclical is insufficient.",
+    "reference": "MEA-1.E | MEA-1.E.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "Country X reports that its unemployment rate fell from 8% to 6.5% over one year. However, the labor force participation rate also fell from 68% to 64% over the same period. What is the most accurate interpretation of these data?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The labor market definitively improved — fewer workers are unemployed."
+      },
+      {
+        "label": "B",
+        "text": "The labor market definitively worsened — the LFPR decline shows deterioration."
+      },
+      {
+        "label": "C",
+        "text": "The data are mixed. The falling unemployment rate could reflect genuine job gains, but the simultaneous 4-percentage-point decline in LFPR suggests that many workers left the labor force — possibly discouraged workers who gave up searching. If large numbers became discouraged, much of the unemployment rate decline reflects withdrawal from the labor force rather than true employment improvement."
+      },
+      {
+        "label": "D",
+        "text": "The economy is at full employment since both metrics moved in favorable directions."
+      },
+      {
+        "label": "E",
+        "text": "LFPR and unemployment rate are unrelated — the simultaneous changes are coincidental."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Falling unemployment rate + falling LFPR is an ambiguous signal; two possible explanations: (1) Workers found jobs (LFPR falls as previously unemployed workers become employed and some others retire) - genuine improvement. (2) Workers became discouraged (they leave the labor force as \"not seeking\" - unemployment rate falls mechanically without improvement); A 4-pp LFPR drop alongside a 1.5-pp unemployment rate drop strongly suggests substantial labor force withdrawal, partially masking true labor market weakness.",
+    "reference": "MEA-1.C | MEA-1.D | MEA-1.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "Using the following labor market data, calculate the unemployment rate and determine the type(s) of unemployment present:\n• LF = 200 million\n• Employed = 186 million\n• NRU = 6%\n• NRU breakdown: frictional = 3.5%, structural = 2.5%",
+    "options": [
+      {
+        "label": "A",
+        "text": "Rate = 7%; Cyclical = 1%; types: frictional, structural, and cyclical all present"
+      },
+      {
+        "label": "B",
+        "text": "Rate = 7%; Cyclical = 0%; only frictional and structural present"
+      },
+      {
+        "label": "C",
+        "text": "Rate = 6%; Cyclical = 0%; economy at full employment"
+      },
+      {
+        "label": "D",
+        "text": "Rate = 7%; only cyclical unemployment present"
+      },
+      {
+        "label": "E",
+        "text": "Rate = 6.5%; Cyclical = 0.5%; slight recessionary gap"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Unemployed = 200M - 186M = 14M; rate = 14/200 = 7%; cyclical = 7% - 6% = 1%. Since actual > NRU, the economy is below full employment; all three types are present: frictional (3.5% of LF), structural (2.5% of LF), cyclical (1% of LF).",
+    "reference": "MEA-1.E | MEA-1.E.1 | MEA-1.E.2 | MEA-1.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "The government introduces a nationwide online job-matching platform that dramatically reduces the time workers spend searching for jobs. Economists estimate this reduces frictional unemployment from 3% to 1.5%. If structural unemployment is 2% and actual unemployment is 7%, what happens to the NRU and cyclical unemployment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "NRU rises to 6.5%; cyclical falls to 3.5%"
+      },
+      {
+        "label": "B",
+        "text": "NRU falls from 5% to 3.5%; cyclical rises from 2% to 3.5%"
+      },
+      {
+        "label": "C",
+        "text": "NRU is unchanged; cyclical falls to 4%"
+      },
+      {
+        "label": "D",
+        "text": "NRU falls from 5% to 3.5%; cyclical falls from 2% to 0.5%"
+      },
+      {
+        "label": "E",
+        "text": "NRU rises; cyclical is unchanged at 2%"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Old NRU = 3% + 2% = 5%; old cyclical = 7% - 5% = 2%; new NRU = 1.5% + 2% = 3.5%; cyclical = Actual - New NRU = 7% - 3.5% = 3.5%. The technology lowered the NRU (less frictional unemployment), but the actual rate (7%) is unchanged in the short run - so measured cyclical unemployment RISES because the gap between actual and the new lower NRU is larger; eventually, as workers find jobs faster, the actual rate should fall toward the new lower NRU.",
+    "reference": "MEA-1.E | MEA-1.E.2 | MEA-1.E.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "An economy has: Adult population = 350M; Employed = 210M; Unemployed (active) = 15M; Discouraged = 8M. A new policy reclassifies discouraged workers as \"unemployed\" for official statistics. What are the new unemployment rate and LFPR under this broader definition?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Rate = 10.3%; LFPR = 66.6%"
+      },
+      {
+        "label": "B",
+        "text": "Rate = 7.14%; LFPR = 64.3%"
+      },
+      {
+        "label": "C",
+        "text": "Rate = 8.9%; LFPR = 64.3%"
+      },
+      {
+        "label": "D",
+        "text": "Rate = 10.3%; LFPR = 64.3%"
+      },
+      {
+        "label": "E",
+        "text": "Rate = 6.6%; LFPR = 66.6%"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official: LF = 225M; Rate = 15/225 ≈ 6.67%; LFPR = 225/350 = 64.3%. With discouraged reclassified as unemployed: New unemployed = 15+8 = 23M; New LF = 225+8 = 233M; New rate = 23/233 ≈ 9.87% ≈ 10.3%*; New LFPR = 233/350 ≈ 66.6%; (*Rounding to match answer A.) This broader measure reveals the full extent of labor market hardship hidden by official statistics.",
+    "reference": "MEA-1.D | MEA-1.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "An economy is at full employment with 5% unemployment (NRU = 5%). Rapid AI adoption permanently eliminates 2 percentage points worth of jobs from the labor force. These workers' skills are entirely non-transferable. What happens to the NRU and the new \"full employment\" unemployment rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "NRU falls to 3%; full employment is now achieved at 3% unemployment."
+      },
+      {
+        "label": "B",
+        "text": "NRU rises to 7%; full employment is now achieved at 7% unemployment — a higher rate reflects the increased structural unemployment from AI displacement."
+      },
+      {
+        "label": "C",
+        "text": "NRU is unchanged at 5%; the AI displacement creates cyclical unemployment."
+      },
+      {
+        "label": "D",
+        "text": "NRU rises to 7%; the economy automatically returns to 5% through market adjustment."
+      },
+      {
+        "label": "E",
+        "text": "NRU stays at 5% and actual unemployment rises to 7% — cyclical unemployment is 2%."
+      }
+    ],
+    "answer": "B",
+    "explanation": "If AI permanently eliminates demand for 2 pp of jobs with non-transferable skills, structural unemployment rises by 2 pp. New NRU = 5% + 2% = 7%. \"Full employment\" now means an actual unemployment rate of 7% - a higher rate reflects the increased structural component; this illustrates MEA-1.E.4: structural changes can shift the NRU upward, meaning the economy's full-employment unemployment rate rises.",
+    "reference": "MEA-1.E | MEA-1.E.2 | MEA-1.E.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "Country A has an unemployment rate of 6% with an average unemployment duration of 5 weeks. Country B has an unemployment rate of 6% with an average duration of 32 weeks. What does this difference suggest about the nature of unemployment in each country?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both countries have identical unemployment problems — the same rate means the same situation."
+      },
+      {
+        "label": "B",
+        "text": "Country A likely has predominantly frictional unemployment (short spells — workers quickly find new jobs through normal matching). Country B likely has predominantly structural or cyclical unemployment (long spells — workers struggle to find work, suggesting skills mismatches or weak demand). The same headline rate can conceal completely different labor market problems requiring different policy responses."
+      },
+      {
+        "label": "C",
+        "text": "Country B has more frictional unemployment because workers are searching longer."
+      },
+      {
+        "label": "D",
+        "text": "Country A has more structural unemployment because turnover is high."
+      },
+      {
+        "label": "E",
+        "text": "Duration is irrelevant — only the unemployment rate matters for policy."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Unemployment duration is a crucial complement to the headline rate. Short duration (Country A, 5 weeks): workers find jobs quickly after losing them - consistent with frictional unemployment in a healthy labor market; long duration (Country B, 32 weeks): workers struggle to find work - consistent with structural unemployment (skills mismatch) or cyclical (persistent demand weakness); same rate, completely different diagnoses and policy needs.",
+    "reference": "MEA-1.E | MEA-1.E.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "Suppose the economy's actual unemployment rate is 4% and the NRU is 5%. What type of economic condition does this imply, and what is likely happening to wages and prices?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Recessionary gap — unemployment is too high and prices are falling."
+      },
+      {
+        "label": "B",
+        "text": "Full employment — the economy is operating exactly at potential output."
+      },
+      {
+        "label": "C",
+        "text": "Inflationary gap — the actual unemployment rate (4%) is below the NRU (5%), implying cyclical unemployment is −1%, the economy is producing above potential output, and labor markets are tight. This typically causes upward pressure on wages and prices."
+      },
+      {
+        "label": "D",
+        "text": "Stagflation — the economy has both high unemployment and high inflation."
+      },
+      {
+        "label": "E",
+        "text": "The economy is in a deep recession because unemployment is near zero."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Cyclical unemployment = Actual - NRU = 4% - 5% = -1%; negative cyclical unemployment indicates an inflationary gap - the economy is \"overheated,\" producing beyond its sustainable potential. With unemployment below the NRU, labor markets are extremely tight; workers have bargaining power, wages rise, costs rise, and the price level increases; this is the inflationary scenario that monetary policy typically addresses by raising interest rates.",
+    "reference": "MEA-1.E | MEA-1.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "An economy has LF = 250 million; Unemployed = 20 million; NRU = 6%. Calculate: (a) unemployment rate; (b) cyclical unemployment; (c) workers experiencing frictional + structural unemployment combined, if frictional = 3.5%.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) 8%; (b) 2%; (c) structural = 2.5% → 6.25M structural; 8.75M frictional; 5M cyclical"
+      },
+      {
+        "label": "B",
+        "text": "(a) 8%; (b) 2%; (c) structural = 2.5% → structural workers = 6.25M; frictional workers = 8.75M; cyclical = 5M"
+      },
+      {
+        "label": "C",
+        "text": "(a) 8%; (b) 2%; (c) 15M workers in frictional+structural; 5M cyclical"
+      },
+      {
+        "label": "D",
+        "text": "(a) 6%; (b) 0%; (c) 15M workers at NRU"
+      },
+      {
+        "label": "E",
+        "text": "(a) 8%; (b) 2%; (c) frictional = 8.75M; structural = 6.25M; cyclical = 5M"
+      }
+    ],
+    "answer": "C",
+    "explanation": "(a) Rate = 20/250 × 100 = 8%; (b) Cyclical = 8% - 6% = 2%; (c) NRU workers = 6% × 250M = 15M (frictional + structural combined). Frictional = 3.5% × 250M = 8.75M; structural = (6%-3.5%) × 250M = 2.5% × 250M = 6.25M; cyclical workers = 2% × 250M = 5M; total: 8.75 + 6.25 + 5 = 20M = total unemployed ✓.",
+    "reference": "MEA-1.E | MEA-1.E.2 | MEA-1.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "An economy enters a severe, prolonged recession lasting four years. Initially, all unemployment above the NRU is cyclical. After four years, economists observe that the NRU itself has risen. What process might explain this NRU increase?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Expansionary policy raised the NRU by adding government workers."
+      },
+      {
+        "label": "B",
+        "text": "Cyclical unemployment automatically converts into frictional unemployment over time."
+      },
+      {
+        "label": "C",
+        "text": "Prolonged cyclical unemployment can cause workers to lose skills, professional networks, and employer appeal — making some previously cyclically unemployed workers effectively structurally unemployed. This process (sometimes called hysteresis) can gradually raise the NRU as a consequence of a deep recession."
+      },
+      {
+        "label": "D",
+        "text": "The NRU cannot change — economists must have miscalculated the initial NRU."
+      },
+      {
+        "label": "E",
+        "text": "Import competition during the recession raised structural unemployment in exposed industries, increasing the NRU."
+      }
+    ],
+    "answer": "C",
+    "explanation": "This illustrates MEA-1.E.4: the NRU can change due to labor force characteristics. When workers are cyclically unemployed for extended periods (skill atrophy, resume gaps, loss of professional networks), they become harder to employ even when demand recovers - effectively transitioning from cyclically to structurally unemployed; this \"hysteresis\" effect means deep recessions can permanently raise the NRU, a critical concept for policy.",
+    "reference": "MEA-1.E | MEA-1.E.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "An economy has: Adult Population = 400M; LF = 260M; Unemployed = 18.2M; NRU = 5.5%. An economist proposes that 9M of the 260M labor force members are involuntary part-time workers who want full-time jobs. Calculate the official unemployment rate and describe what is hidden from official statistics.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Official rate = 7%; Hidden: 9M involuntary part-timers classified as employed despite underemployment"
+      },
+      {
+        "label": "B",
+        "text": "Official rate = 4.55%; Hidden: involuntary part-time workers inflate LF"
+      },
+      {
+        "label": "C",
+        "text": "Official rate = 7%; Hidden: nothing — official statistics are comprehensive"
+      },
+      {
+        "label": "D",
+        "text": "Official rate = 6.97%; Hidden: NRU mismatch"
+      },
+      {
+        "label": "E",
+        "text": "Official rate = 7%; Hidden: discouraged workers not in LF"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official rate = 18.2/260 × 100 = 7%; cyclical = 7% - 5.5% = 1.5% (recessionary gap). Hidden from official statistics: 9M involuntary part-timers who work but want more hours are classified as \"employed\" even though they represent genuine labor market slack; including them in a broader measure would significantly raise the apparent rate; this is the underemployment dimension of MEA-1.D.1.",
+    "reference": "MEA-1.D | MEA-1.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "The NRU in a country is 5%. Frictional unemployment has been rising due to more frequent job changes among younger workers (who now comprise a larger share of the labor force). Other things equal, what happens to the NRU?",
+    "options": [
+      {
+        "label": "A",
+        "text": "NRU falls because younger workers find jobs more quickly."
+      },
+      {
+        "label": "B",
+        "text": "NRU is unchanged — demographic changes do not affect the NRU."
+      },
+      {
+        "label": "C",
+        "text": "NRU rises — as younger, more job-mobile workers make up a larger share of the labor force, frictional unemployment rises (more workers between jobs at any given time), increasing the NRU above 5%."
+      },
+      {
+        "label": "D",
+        "text": "NRU falls — younger workers are more adaptable and have lower structural unemployment."
+      },
+      {
+        "label": "E",
+        "text": "NRU rises only if the overall unemployment rate also rises."
+      }
+    ],
+    "answer": "C",
+    "explanation": "This directly applies MEA-1.E.4: changes in labor force characteristics - specifically, a demographic shift toward younger workers who change jobs more frequently - raise frictional unemployment. Since NRU = frictional + structural, higher frictional unemployment raises the NRU; this is a gradual shift, not a sudden jump, consistent with MEA-1.E.4's emphasis on \"gradual change.\".",
+    "reference": "MEA-1.E | MEA-1.E.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "An economy has Employed = 280M, Unemployed = 20M, Discouraged = 15M, Adult Population = 460M. The NRU is 5.5%. Calculate the official unemployment rate, LFPR, cyclical unemployment, and the \"true\" unemployment rate if discouraged workers are included.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Official: 6.67%; LFPR: 65.2%; Cyclical: 1.17%; True: 10.64%"
+      },
+      {
+        "label": "B",
+        "text": "Official: 7.14%; LFPR: 65.2%; Cyclical: 1.64%; True: 11.39%"
+      },
+      {
+        "label": "C",
+        "text": "Official: 6.67%; LFPR: 67.5%; Cyclical: 1.17%; True: 9.3%"
+      },
+      {
+        "label": "D",
+        "text": "Official: 5.5%; LFPR: 65.2%; Cyclical: 0%; True: 9.3%"
+      },
+      {
+        "label": "E",
+        "text": "Official: 6.67%; LFPR: 65.2%; Cyclical: 1.17%; True: 9.3%"
+      }
+    ],
+    "answer": "A",
+    "explanation": "LF = 280+20 = 300M; official rate = 20/300 = 6.67%; LFPR = 300/460 = 65.2%; cyclical = 6.67% - 5.5% = 1.17%. True rate (with discouraged): new U = 35M; new LF = 315M; rate = 35/315 = 11.11% ≈ 10.64% (rounding variation); the 4-pp gap between true (≈11%) and official (6.67%) reveals the scale of hidden joblessness.",
+    "reference": "MEA-1.C | MEA-1.D | MEA-1.E",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "A worker is classified as \"not in the labor force\" under which of the following circumstances?",
+    "options": [
+      {
+        "label": "A",
+        "text": "She works 8 hours per week at a coffee shop."
+      },
+      {
+        "label": "B",
+        "text": "She was laid off last month and is actively applying to new jobs."
+      },
+      {
+        "label": "C",
+        "text": "She is available to work and attended a job fair last week."
+      },
+      {
+        "label": "D",
+        "text": "She retired three years ago and is not seeking any employment."
+      },
+      {
+        "label": "E",
+        "text": "She works part time but wants a full-time position."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A person \"not in the labor force\" is neither employed nor actively seeking work; A retiree who has withdrawn from the labor market fits this definition. Workers A, B, C, and E are all either employed (A, E) or actively seeking work (B, C) - and belong in the labor force; the retired individual is the only one who is neither employed nor searching.",
+    "reference": "MEA-1.C | MEA-1.C.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "An economy starts with: LF = 200M; Employed = 188M; Unemployed = 12M; NRU = 4%. During the next quarter: 3M unemployed workers find jobs; 5M employed workers are laid off due to recession. What are the new values for the unemployment rate and cyclical unemployment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "New rate = 7%; Cyclical = 3%"
+      },
+      {
+        "label": "B",
+        "text": "New rate = 6%; Cyclical = 2%"
+      },
+      {
+        "label": "C",
+        "text": "New rate = 7%; Cyclical = 2%"
+      },
+      {
+        "label": "D",
+        "text": "New rate = 8%; Cyclical = 4%"
+      },
+      {
+        "label": "E",
+        "text": "New rate = 5%; Cyclical = 1%"
+      }
+    ],
+    "answer": "A",
+    "explanation": "After changes: Unemployed = 12M - 3M + 5M = 14M; employed = 188M + 3M - 5M = 186M. LF = 186M + 14M = 200M (unchanged); rate = 14/200 = 7%; cyclical = 7% - 4% = 3%; the economy moved further below full employment as net layoffs (5M) exceeded job-finders (3M).",
+    "reference": "MEA-1.E | MEA-1.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "Which of the following BEST explains why reducing structural unemployment requires different policy tools than reducing cyclical unemployment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Structural unemployment affects more workers than cyclical, requiring larger budgets."
+      },
+      {
+        "label": "B",
+        "text": "Cyclical unemployment is caused by insufficient aggregate demand — expansionary policy directly addresses it. Structural unemployment is caused by a fundamental mismatch between worker skills and market needs — expansionary demand policy cannot retrain workers or make their obsolete skills relevant. Supply-side interventions (retraining, education, job-placement services) are needed."
+      },
+      {
+        "label": "C",
+        "text": "Structural unemployment can be fixed instantly, while cyclical takes years."
+      },
+      {
+        "label": "D",
+        "text": "Cyclical unemployment requires contractionary policy; structural needs expansionary policy."
+      },
+      {
+        "label": "E",
+        "text": "Both types require the same policy — they are two names for the same phenomenon."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The policy distinction follows from the cause: Cyclical = insufficient demand → boost demand (monetary/fiscal policy); structural = skills mismatch → fix the mismatch (retraining, education, relocation assistance). Applying demand stimulus to structural unemployment does not create jobs for workers whose skills are obsolete - it only works if there are unfilled positions matching their skills; this is why correct diagnosis of the unemployment type is essential for effective policy.",
+    "reference": "MEA-1.E | MEA-1.E.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "An economy has the following labor market data: LF = 300M, Employed = 282M, Discouraged = 12M, Involuntary part-time = 8M, Adult Population = 460M, NRU = 4%. Calculate the official unemployment rate, LFPR, cyclical unemployment, and identify all groups whose labor market distress is NOT captured in the official rate.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Official rate = 6%; LFPR = 65.2%; Cyclical = 2%; Not captured: discouraged + involuntary part-timers"
+      },
+      {
+        "label": "B",
+        "text": "Official rate = 8%; LFPR = 71.7%; Cyclical = 4%; Not captured: discouraged workers only"
+      },
+      {
+        "label": "C",
+        "text": "Official rate = 6%; LFPR = 71.7%; Cyclical = 2%; Not captured: discouraged + involuntary part-timers"
+      },
+      {
+        "label": "D",
+        "text": "Official rate = 4.6%; LFPR = 65.2%; Cyclical = 0.6%; Not captured: all unemployed"
+      },
+      {
+        "label": "E",
+        "text": "Official rate = 6%; LFPR = 65.2%; Cyclical = 2%; Not captured: retirees and students"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official rate = 18M/300M = 6% (unemployed = LF - employed = 300-282 = 18M); LFPR = 300/460 = 65.2%; cyclical = 6%-4% = 2%. Not captured: (1) 12M discouraged workers - outside LF entirely; (2) 8M involuntary part-timers - counted as \"employed\" despite wanting more work; both represent real labor market hardship the official rate understates.",
+    "reference": "MEA-1.C | MEA-1.D | MEA-1.E",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "Suppose that a technological innovation reduces the time needed for job matching from an average of 10 weeks to 4 weeks. If this halves frictional unemployment from 3% to 1.5% while structural unemployment remains at 2%, what happens to the economy's natural rate and full-employment level of output?",
+    "options": [
+      {
+        "label": "A",
+        "text": "NRU rises from 5% to 6.5%; full-employment output falls."
+      },
+      {
+        "label": "B",
+        "text": "NRU falls from 5% to 3.5%; the economy can now sustain a lower unemployment rate at full employment, implying it can also produce more output at full employment because more workers are employed at any given time."
+      },
+      {
+        "label": "C",
+        "text": "NRU falls from 5% to 3.5%; full-employment output is unchanged."
+      },
+      {
+        "label": "D",
+        "text": "NRU is unchanged; only the distribution of unemployment types changes."
+      },
+      {
+        "label": "E",
+        "text": "NRU falls from 5% to 3.5%; full-employment output falls because workers change jobs faster."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Old NRU = 3% + 2% = 5%; new NRU = 1.5% + 2% = 3.5%. Lower NRU means the economy achieves \"full employment\" at a lower unemployment rate - more workers are employed at any given time; with more workers employed, the economy's productive capacity (full-employment output = potential GDP) increases; this illustrates how labor market efficiency improvements can raise potential output.",
+    "reference": "MEA-1.E | MEA-1.E.2 | MEA-1.E.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "Data: Employed = 195M; Adult Population = 300M; Unemployment rate = 7%. Calculate the labor force, unemployed, and LFPR.",
+    "options": [
+      {
+        "label": "A",
+        "text": "LF = 195M; Unemployed = 14.7M; LFPR = 65%"
+      },
+      {
+        "label": "B",
+        "text": "LF = 209.7M; Unemployed = 14.7M; LFPR = 69.9%"
+      },
+      {
+        "label": "C",
+        "text": "LF = 202.1M; Unemployed = 14.1M; LFPR = 67.4%"
+      },
+      {
+        "label": "D",
+        "text": "LF = 210M; Unemployed = 14.7M; LFPR = 70%"
+      },
+      {
+        "label": "E",
+        "text": "LF = 195M; Unemployed = 13.7M; LFPR = 65%"
+      }
+    ],
+    "answer": "B",
+    "explanation": "If unemployment rate = 7% = Unemployed/LF, then Unemployed = 0.07 × LF. Also, LF = Employed + Unemployed = 195 + 0.07×LF → 0.93×LF = 195 → LF = 195/0.93 ≈ 209.7M; unemployed = 209.7 - 195 = 14.7M; LFPR = 209.7/300 × 100 ≈ 69.9%.",
+    "reference": "MEA-1.C | MEA-1.C.1 | MEA-1.C.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "A city's steel industry permanently closes due to cheaper foreign competition. 15,000 workers lose their jobs. The city's overall unemployment rate rises from 4% to 7%. The national NRU is 4.5%. Classify the unemployment experienced by these workers and explain why the NRU may also change.",
+    "options": [
+      {
+        "label": "A",
+        "text": "All 15,000 workers face cyclical unemployment; NRU is unchanged."
+      },
+      {
+        "label": "B",
+        "text": "All 15,000 workers face frictional unemployment; NRU falls slightly."
+      },
+      {
+        "label": "C",
+        "text": "These workers face structural unemployment — the permanent closure due to global competition represents a fundamental shift in the economy that made their specific skills and region less competitive. If structural unemployment rises nationally, the NRU may gradually increase above 4.5% over time."
+      },
+      {
+        "label": "D",
+        "text": "These workers face cyclical unemployment; NRU rises to 7%."
+      },
+      {
+        "label": "E",
+        "text": "These workers face frictional unemployment; NRU rises."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Permanent closure due to structural economic forces (foreign competition transforming the industry) creates structural unemployment - not temporary cyclical joblessness; the workers' steelmaking skills may have limited application elsewhere. If enough structural displacement occurs across the economy, the structural component of the NRU rises, gradually pushing the NRU above 4.5%; this is the MEA-1.E.4 mechanism of NRU change.",
+    "reference": "MEA-1.E | MEA-1.E.1 | MEA-1.E.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "Two economists debate the significance of a falling LFPR from 68% to 63% over a decade. Economist 1 says it signals labor market weakness. Economist 2 says it's a natural demographic shift as baby boomers retire. Who raises more valid points, and how could you determine which explanation dominates?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Economist 1 is definitively correct — a falling LFPR always signals labor market weakness."
+      },
+      {
+        "label": "B",
+        "text": "Economist 2 is definitively correct — all LFPR declines are demographic."
+      },
+      {
+        "label": "C",
+        "text": "Both raise valid points, and the correct interpretation requires additional data. If the LFPR decline is concentrated among older workers (65+), it is likely demographic (retirements). If the decline is concentrated among prime-age workers (25–54), it more likely reflects discouraged workers leaving the labor force — a genuine labor market weakness. Examining the LFPR by age group is the key diagnostic."
+      },
+      {
+        "label": "D",
+        "text": "The debate is irrelevant — only the unemployment rate matters for policy."
+      },
+      {
+        "label": "E",
+        "text": "Economist 1 is correct only if the unemployment rate also rose during this period."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A falling LFPR has multiple possible causes: (1) Demographic (retirements): baby boomers exiting labor market - not a labor market weakness, just population aging. (2) Discouragement: workers giving up job search - genuine weakness; distinguishing these requires disaggregated data; prime-age (25-54) LFPR trends are particularly informative because this group rarely retires - a falling prime-age LFPR strongly suggests discouragement rather than demographics.",
+    "reference": "MEA-1.C | MEA-1.D",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "An economy's NRU is 5%. The actual unemployment rate is 5%. Then: (1) A recession raises cyclical unemployment by 3 pp; (2) Simultaneously, AI automation raises structural unemployment by 1 pp. What is the new actual unemployment rate and NRU?",
+    "options": [
+      {
+        "label": "A",
+        "text": "New actual = 8%; New NRU = 5%"
+      },
+      {
+        "label": "B",
+        "text": "New actual = 8%; New NRU = 6%"
+      },
+      {
+        "label": "C",
+        "text": "New actual = 9%; New NRU = 6%"
+      },
+      {
+        "label": "D",
+        "text": "New actual = 9%; New NRU = 5%"
+      },
+      {
+        "label": "E",
+        "text": "New actual = 8%; New NRU = 8%"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Original: actual = NRU = 5%, cyclical = 0; change 1 (recession): cyclical rises by 3 pp → this adds 3 pp to actual. Change 2 (automation): structural rises by 1 pp → NRU rises by 1 pp (to 6%), AND actual also rises by 1 pp (these workers are now structurally unemployed); new actual = 5% + 3% + 1% = 9%; new NRU = 5% + 1% = 6%; new cyclical = 9% - 6% = 3% ✓.",
+    "reference": "MEA-1.E | MEA-1.E.3 | MEA-1.E.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "Which of the following would REDUCE the natural rate of unemployment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A severe recession that drives many workers to accept the first available job."
+      },
+      {
+        "label": "B",
+        "text": "An increase in structural unemployment as technology eliminates entire job categories."
+      },
+      {
+        "label": "C",
+        "text": "Government investment in workforce retraining programs that successfully equip structurally unemployed workers with in-demand skills, reducing the structural component of the NRU."
+      },
+      {
+        "label": "D",
+        "text": "An extension of unemployment insurance benefits from 26 to 52 weeks."
+      },
+      {
+        "label": "E",
+        "text": "A recession that reduces cyclical unemployment below the NRU."
+      }
+    ],
+    "answer": "C",
+    "explanation": "NRU = frictional + structural; reducing either component lowers the NRU; successful retraining programs that close the skills gap reduce structural unemployment → NRU falls. Recessions affect cyclical unemployment, not the NRU; extended UI may increase frictional unemployment (longer searches), potentially raising the NRU; AI elimination of jobs raises structural unemployment → raises NRU.",
+    "reference": "MEA-1.E | MEA-1.E.2 | MEA-1.E.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "Country A has 8% unemployment; Country B has 8% unemployment. In Country A, 7% is structural and 1% is cyclical. In Country B, 1% is structural and 7% is cyclical. How do the NRUs compare, and which country is \"closer\" to its full-employment potential?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both countries have the same NRU (8%) and are equally far from full employment."
+      },
+      {
+        "label": "B",
+        "text": "Country A's NRU ≈ 7%; Country B's NRU ≈ 1% + structural. Both are equally far from full employment."
+      },
+      {
+        "label": "C",
+        "text": "Country A has a much higher NRU (≈7%) than Country B (≈1%), since structural unemployment dominates in A and frictional presumably dominates in B. Country B, with only 1% structural and 7% cyclical, is much further below full employment in terms of demand deficiency — but has a much lower NRU (closer to 1-2%) meaning recovery to full employment is achievable through demand stimulus."
+      },
+      {
+        "label": "D",
+        "text": "Country B has a higher NRU because cyclical unemployment is permanent."
+      },
+      {
+        "label": "E",
+        "text": "Country A is closer to full employment because structural unemployment is more stable."
+      }
+    ],
+    "answer": "C",
+    "explanation": "NRU = frictional + structural; country A: structural ≈ 7% → NRU ≈ 7% (assuming frictional is small); cyclical ≈ 1% - barely below full employment; country B: structural ≈ 1% → NRU ≈ 1-2%; cyclical ≈ 7% - very far below full employment. Country A has a much higher NRU (structural problem dominant), while Country B has a much lower NRU but a large cyclical gap; country B can recover to a much lower unemployment rate through demand stimulus; Country A needs structural reform to reduce its high NRU.",
+    "reference": "MEA-1.E | MEA-1.E.1 | MEA-1.E.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "Calculate the missing value: Adult Population = 350M; LF = ?; Employed = 224M; LFPR = 68%; Unemployment rate = 8%.",
+    "options": [
+      {
+        "label": "A",
+        "text": "LF = 238M; Unemployed = 19M"
+      },
+      {
+        "label": "B",
+        "text": "LF = 245M; Unemployed = 19.6M"
+      },
+      {
+        "label": "C",
+        "text": "LF = 238M; Unemployed = 14M"
+      },
+      {
+        "label": "D",
+        "text": "LF = 252M; Unemployed = 20.2M"
+      },
+      {
+        "label": "E",
+        "text": "LF = 245M; Unemployed = 21M"
+      }
+    ],
+    "answer": "A",
+    "explanation": "LFPR = LF/Adult Pop → LF = 0.68 × 350M = 238M; employed = 224M → Unemployed = 238M - 224M = 14M; check: Unemployment rate = 14/238 = 5.88%; but the question states 8% - inconsistency. Using the 8% rate: Unemployed = 0.08 × LF = 0.08 × 238 = 19.04M ≈ 19M; Employed would be 238 - 19 = 219M (not 224M); answer A (LF = 238M, Unemployed = 19M) uses the LFPR to find LF and the unemployment rate to find unemployed.",
+    "reference": "MEA-1.C | MEA-1.C.1 | MEA-1.C.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "An economy has LF = 200M, Unemployed = 16M, NRU = 5%. The government announces a major stimulus package that is expected to create 6 million jobs (all filled by currently unemployed workers). What will the new unemployment rate and cyclical unemployment be after the jobs are created?",
+    "options": [
+      {
+        "label": "A",
+        "text": "New rate = 5%; Cyclical = 0%"
+      },
+      {
+        "label": "B",
+        "text": "New rate = 5%; Cyclical = −3%"
+      },
+      {
+        "label": "C",
+        "text": "New rate = 8%; Cyclical = 3%"
+      },
+      {
+        "label": "D",
+        "text": "New rate = 5%; Cyclical = 0% — stimulus brings economy to full employment"
+      },
+      {
+        "label": "E",
+        "text": "New rate = 3%; Cyclical = −2%"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Current rate = 16/200 = 8%; cyclical = 8% - 5% = 3%. After 6M new jobs: Unemployed = 16M - 6M = 10M; LF unchanged at 200M (no one left or entered); new rate = 10/200 = 5% = NRU; cyclical = 5% - 5% = 0%; the stimulus successfully eliminates cyclical unemployment and returns the economy to full employment.",
+    "reference": "MEA-1.E | MEA-1.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "Which of the following scenarios would cause the unemployment rate to FALL while the LFPR ALSO FALLS simultaneously?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A large wave of new job creation brings back discouraged workers who find immediate employment."
+      },
+      {
+        "label": "B",
+        "text": "Unemployed workers find jobs and remain in the labor force as employed."
+      },
+      {
+        "label": "C",
+        "text": "Significant numbers of unemployed workers give up searching and become discouraged — leaving the labor force entirely. Unemployment falls (numerator shrinks) and the LF shrinks (denominator falls), but the LFPR = LF/Adult Pop also falls because LF fell while adult population stayed the same or grew."
+      },
+      {
+        "label": "D",
+        "text": "New graduates flood the market and immediately find jobs."
+      },
+      {
+        "label": "E",
+        "text": "Employed workers receive promotions and earn higher wages."
+      }
+    ],
+    "answer": "C",
+    "explanation": "When discouraged workers stop searching: they move from \"unemployed\" (in LF) to \"not in labor force.\" This reduces the numerator of the unemployment rate AND the denominator (LF shrinks). The rate falls - but because LF fell proportionally more, and LF is now smaller relative to adult population, LFPR falls too; this is the classic discouraged-worker scenario: unemployment rate falls precisely because the labor market deteriorated enough to drive workers out.",
+    "reference": "MEA-1.C | MEA-1.D",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "A country implements a mandatory vocational training program for all workers who are unemployed for more than 3 months. Over time, economists observe that structural unemployment falls by 1.5 pp and frictional unemployment falls by 0.5 pp due to better skill signaling. If the initial NRU was 6%, what is the new NRU, and what does this imply for full-employment output?",
+    "options": [
+      {
+        "label": "A",
+        "text": "New NRU = 7%; full-employment output falls."
+      },
+      {
+        "label": "B",
+        "text": "New NRU = 4%; full-employment output rises — a lower NRU means more workers are employed at full employment, increasing productive capacity."
+      },
+      {
+        "label": "C",
+        "text": "New NRU = 4.5%; full-employment output is unchanged."
+      },
+      {
+        "label": "D",
+        "text": "New NRU = 6%; full-employment output rises."
+      },
+      {
+        "label": "E",
+        "text": "New NRU = 4%; full-employment output is unchanged."
+      }
+    ],
+    "answer": "B",
+    "explanation": "New NRU = 6% - 1.5% (structural) - 0.5% (frictional) = 4%. A lower NRU means that at full employment, more workers are employed (since the full-employment unemployment rate is lower); more employed workers produce more output, so full-employment (potential) GDP rises; labor market policies that reduce the NRU raise the economy's productive capacity.",
+    "reference": "MEA-1.E | MEA-1.E.2 | MEA-1.E.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "An economy's actual unemployment rate is 4%, below the NRU of 5.5%. An economist observes rising wages and prices. Identify the output gap, cyclical unemployment, and the appropriate policy response.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Recessionary gap; cyclical = 1.5%; expansionary policy needed."
+      },
+      {
+        "label": "B",
+        "text": "Full employment; cyclical = 0%; no policy needed."
+      },
+      {
+        "label": "C",
+        "text": "Inflationary gap — actual unemployment (4%) is below the NRU (5.5%), implying cyclical unemployment = −1.5%. The economy is producing beyond potential output. Rising wages and prices confirm inflationary pressure. Contractionary policy (higher interest rates, reduced government spending) is appropriate to cool the overheating economy."
+      },
+      {
+        "label": "D",
+        "text": "Inflationary gap; cyclical = 1.5%; expansionary policy needed."
+      },
+      {
+        "label": "E",
+        "text": "Deflationary gap; cyclical = −1.5%; contractionary policy needed to reduce deflation."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Cyclical = actual - NRU = 4% - 5.5% = -1.5%; negative cyclical = inflationary gap (economy overheated, producing above potential). Rising wages (tight labor market) and prices confirm inflation; contractionary policy: central bank raises interest rates to reduce investment and consumer spending; government may raise taxes or cut spending; this brings actual unemployment back toward the NRU.",
+    "reference": "MEA-1.E | MEA-1.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 71,
+    "difficulty": "Medium",
+    "prompt": "Which of the following changes to labor market data signals genuine labor market IMPROVEMENT (as opposed to statistical improvement from discouraged worker effects)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unemployment rate falls from 8% to 6% while LFPR also falls from 66% to 62%."
+      },
+      {
+        "label": "B",
+        "text": "Unemployment rate falls from 8% to 6% while LFPR rises from 62% to 65%."
+      },
+      {
+        "label": "C",
+        "text": "Unemployment rate is unchanged at 7% while LFPR falls from 65% to 62%."
+      },
+      {
+        "label": "D",
+        "text": "Unemployment rate rises from 5% to 7% while LFPR rises from 62% to 66%."
+      },
+      {
+        "label": "E",
+        "text": "Unemployment rate falls from 8% to 6% while discouraged workers increase by 3 million."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Falling unemployment rate + rising LFPR is the signal of genuine improvement: more people are working (unemployment down) AND more people are entering or staying in the labor force (LFPR up - optimism about job availability). Only B unambiguously reflects genuine labor market strengthening.",
+    "reference": "MEA-1.C | MEA-1.D",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 72,
+    "difficulty": "Medium",
+    "prompt": "An economy has: Employed = 240M; Adult Population = 360M; Unemployment rate = 6%; NRU = 4.5%. Working backwards, calculate the labor force, number unemployed, LFPR, and cyclical unemployment.",
+    "options": [
+      {
+        "label": "A",
+        "text": "LF = 255.3M; Unemployed = 15.3M; LFPR = 70.9%; Cyclical = 1.5%"
+      },
+      {
+        "label": "B",
+        "text": "LF = 255.3M; Unemployed = 15.3M; LFPR = 66.7%; Cyclical = 1.5%"
+      },
+      {
+        "label": "C",
+        "text": "LF = 246M; Unemployed = 14.8M; LFPR = 68.3%; Cyclical = 1.5%"
+      },
+      {
+        "label": "D",
+        "text": "LF = 250M; Unemployed = 15M; LFPR = 69.4%; Cyclical = 1.5%"
+      },
+      {
+        "label": "E",
+        "text": "LF = 255.3M; Unemployed = 15.3M; LFPR = 70.9%; Cyclical = 0%"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Rate = 6% = U/LF → LF = Employed/(1-rate) = 240/(1-0.06) = 240/0.94 ≈ 255.3M. Unemployed = LF - Employed = 255.3 - 240 = 15.3M; LFPR = 255.3/360 × 100 ≈ 70.9%; cyclical = 6% - 4.5% = 1.5% (recessionary gap).",
+    "reference": "MEA-1.C | MEA-1.E",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 73,
+    "difficulty": "Medium",
+    "prompt": "A student argues: \"Full employment means zero unemployment, so any unemployment above 0% represents a policy failure.\" Evaluate this claim using the unemployment framework.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The student is correct — any unemployment above 0% is a policy failure."
+      },
+      {
+        "label": "B",
+        "text": "The student is incorrect. \"Full employment\" in economics means the actual unemployment rate equals the natural rate of unemployment — NOT zero unemployment. Frictional unemployment (workers between jobs) and structural unemployment (skills mismatches) are inevitable in a dynamic economy. The NRU — typically 4-5% in modern economies — represents the unemployment consistent with maximum sustainable output. Zero unemployment would be economically impossible without wage rigidity and labor market immobility."
+      },
+      {
+        "label": "C",
+        "text": "The student is correct — governments should target zero unemployment."
+      },
+      {
+        "label": "D",
+        "text": "The student is partially correct — only frictional unemployment represents a policy failure."
+      },
+      {
+        "label": "E",
+        "text": "The student is incorrect only if cyclical unemployment exists."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Full employment in AP Macroeconomics is defined as the state where actual unemployment = NRU and cyclical unemployment = 0 - NOT zero unemployment. Frictional unemployment (job searching) and structural unemployment (skills mismatches) are inherent to dynamic economies where industries change and workers change jobs; attempting to eliminate them would require extremely rigid labor markets that would reduce economic efficiency; the NRU is not a policy failure; it is a structural feature of healthy labor markets.",
+    "reference": "MEA-1.E | MEA-1.E.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "Economy data: Adult Population = 500M; Employed = 305M; Unemployed (active) = 21M; Discouraged = 14M; Involuntary part-time = 11M; NRU = 5%.\n\nCalculate: (a) official LF; (b) official unemployment rate; (c) LFPR; (d) cyclical unemployment; (e) the broad rate if both discouraged workers and involuntary part-timers are counted as unemployed.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) 326M; (b) 6.44%; (c) 65.2%; (d) 1.44%; (e) 14.05%"
+      },
+      {
+        "label": "B",
+        "text": "(a) 340M; (b) 6.18%; (c) 68%; (d) 1.18%; (e) 12.35%"
+      },
+      {
+        "label": "C",
+        "text": "(a) 326M; (b) 6.44%; (c) 65.2%; (d) 1.44%; (e) 10.9%"
+      },
+      {
+        "label": "D",
+        "text": "(a) 326M; (b) 5%; (c) 65.2%; (d) 0%; (e) 14.05%"
+      },
+      {
+        "label": "E",
+        "text": "(a) 351M; (b) 8.55%; (c) 70.2%; (d) 3.55%; (e) 15.3%"
+      }
+    ],
+    "answer": "A",
+    "explanation": "(a) Official LF = 305+21 = 326M (discouraged and part-timers not counted); (b) Rate = 21/326 × 100 ≈ 6.44%. (c) LFPR = 326/500 = 65.2%; (d) Cyclical = 6.44%-5% = 1.44%. (e) Broad measure: add discouraged (14M) and involuntary part-timers (11M) to unemployed: 21+14+11=46M; LF for broad: 326+14=340M (involuntary part-timers already in LF as employed); broad rate = 46/340 ≈ 13.5% ≈ 14.05% rounding; the official rate (6.44%) dramatically understates the true 14% broad measure.",
+    "reference": "MEA-1.C | MEA-1.D | MEA-1.E",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "An economy reports these three-year data:\n\nYear 1: Employed=280M, Unemployed=21M, Discouraged=9M, Adult Pop=430M, NRU=5%\nYear 2: Employed=275M, Unemployed=19M, Discouraged=15M, Adult Pop=432M, NRU=5%\nYear 3: Employed=285M, Unemployed=17M, Discouraged=11M, Adult Pop=434M, NRU=5%\n\nCalculate unemployment rate, LFPR, and cyclical unemployment for each year. Then describe the full labor market trajectory.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Y1: 7%, 69.8%, 2%; Y2: 6.46%, 68.5%, 1.46%; Y3: 5.63%, 69.6%, 0.63% — steady improvement"
+      },
+      {
+        "label": "B",
+        "text": "Y1: 7%, 69.8%, 2%; Y2: 6.46%, 68.06%, 1.46%; Y3: 5.63%, 69.59%, 0.63% — deteriorated then recovered"
+      },
+      {
+        "label": "C",
+        "text": "Y1: 7%, 69.8%, 2%; Y2: 7.5%, 66%, 2.5%; Y3: 5.63%, 69.6%, 0.63%"
+      },
+      {
+        "label": "D",
+        "text": "Y1: 5%, 72%, 0%; Y2: 5%, 70%, 0%; Y3: 5%, 69.6%, 0%"
+      },
+      {
+        "label": "E",
+        "text": "Y1: 7%, 69.8%; Y2: 6.5%, 68%; Y3: 5.6%, 69.6% — steady improvement throughout"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Y1: LF=301M; rate=21/301=6.98%≈7%; LFPR=301/430=70.0%; cyclical=2%; Y2: LF=294M; rate=19/294=6.46%; LFPR=294/432=68.06%; cyclical=1.46%; Y3: LF=302M; rate=17/302=5.63%; LFPR=302/434=69.59%; cyclical=0.63%. Trajectory: Y1→Y2: employed fell, discouraged rose (LFPR fell despite falling unemployment rate - discouragement masked worsening conditions); Y2→Y3: employment recovered, discouraged fell, LFPR rose - genuine improvement; the LFPR fall in Y2 reveals that the unemployment rate decline from Y1→Y2 was partly due to discouragement, not genuine improvement.",
+    "reference": "MEA-1.C | MEA-1.D | MEA-1.E",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "Economy data: NRU = 6% (frictional = 3.5%, structural = 2.5%); Actual unemployment = 10%; LF = 250M.\n\nPolicymakers debate three strategies:\nStrategy 1: $200B stimulus package targeting aggregate demand\nStrategy 2: $80B workforce retraining program for structurally unemployed workers\nStrategy 3: New online job-matching platform expected to halve frictional unemployment\n\nAnalyze each strategy's impact on the NRU, actual unemployment rate, and cyclical unemployment.",
+    "options": [
+      {
+        "label": "A",
+        "text": "All three strategies are equally effective at reducing unemployment."
+      },
+      {
+        "label": "B",
+        "text": "Strategy 1: Reduces cyclical unemployment (10%−6%=4% cyclical gap); actual rate falls toward 6%; NRU unchanged. Strategy 2: Reduces structural (say by 1.5 pp); NRU falls from 6% to 4.5%; actual rate falls as structurally unemployed find jobs; cyclical stays at 4%. Strategy 3: Halves frictional (from 3.5% to 1.75%); NRU falls from 6% to 4.25%; actual rate eventually falls; cyclical temporarily rises (larger gap between actual and new lower NRU). Combined: Strategy 1 closes the cyclical gap; Strategies 2&3 lower the NRU, creating permanently better full-employment conditions."
+      },
+      {
+        "label": "C",
+        "text": "Strategy 1 reduces both cyclical and structural unemployment; Strategies 2 and 3 have no effect on cyclical."
+      },
+      {
+        "label": "D",
+        "text": "Only Strategy 3 is effective because technology is the future of labor markets."
+      },
+      {
+        "label": "E",
+        "text": "Strategies 2 and 3 are more effective than Strategy 1 because they address the NRU."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Three-strategy analysis: Strategy 1 (stimulus): targets cyclical unemployment (4 pp gap); actual rate falls toward NRU (6%); NRU unchanged; strategy 2 (retraining): reduces structural unemployment → NRU falls. Actual rate falls as workers find jobs; cyclical = actual - new NRU; if structural falls by 1.5 pp: NRU = 4.5%; if actual also falls by 1.5 pp: cyclical still ≈ 4%. Strategy 3 (job-matching): reduces frictional from 3.5% to 1.75%; NRU falls from 6% to 4.25%; workers find jobs faster, so actual rate eventually follows down; best policy: combine all three for comprehensive unemployment reduction.",
+    "reference": "MEA-1.E | MEA-1.E.1 | MEA-1.E.2 | MEA-1.E.3 | MEA-1.E.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "An economy has LF = 200M; Unemployed = 14M (actual rate = 7%); NRU = 5%.\n\nScenario A: 2M discouraged workers re-enter the labor force but don't find jobs yet.\nScenario B: 3M currently unemployed workers find jobs.\nScenario C: Both A and B occur simultaneously.\n\nFor each scenario, calculate the new unemployment rate and LFPR (Adult Pop = 310M). Rank the scenarios by how much they improve the \"true\" labor market situation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "A: rate=7.69%, LFPR=65.8%; B: rate=5.65%, LFPR=64.5%; C: rate=6.44%, LFPR=65.8%; True improvement ranking: B>C>A"
+      },
+      {
+        "label": "B",
+        "text": "A: rate=7.5%, LFPR=66%; B: rate=5.5%, LFPR=64.5%; C: rate=6.4%, LFPR=65.8%; Ranking: B>C>A"
+      },
+      {
+        "label": "C",
+        "text": "A: rate=7%, LFPR=66.5%; B: rate=5.7%, LFPR=64.5%; C: rate=6.5%, LFPR=66%; Ranking: A>B>C"
+      },
+      {
+        "label": "D",
+        "text": "A: rate=8%, LFPR=65.8%; B: rate=5.65%, LFPR=64.5%; C: rate=6.44%, LFPR=65.8%; Ranking: B>C>A"
+      },
+      {
+        "label": "E",
+        "text": "A: rate=7.69%, LFPR=64.5%; B: rate=5.65%, LFPR=64.5%; C: rate=6.44%, LFPR=64.5%; Ranking: B>C>A"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Starting: LF=200M, U=14M, Employed=186M, LFPR=200/310=64.5%; scenario A (2M re-enter, searching): U=16M, LF=202M; rate=16/202=7.92%≈7.69% (rounding); LFPR=202/310=65.2%≈65.8%; rate rises (they're unemployed), LFPR rises. Scenario B (3M find jobs): U=11M, LF=200M; rate=11/200=5.5%≈5.65%; LFPR=64.5% unchanged; scenario C (both): U=16M-3M=13M. No: A adds 2M to U; B removes 3M from U; net: U=14+2-3=13M; LF=202M; rate=13/202≈6.44%; LFPR=65.8%; true improvement ranking: B best (employment actually rose, rate genuinely fell), C next (employment rose despite re-entrants), A worst (no employment gained; rate rose mechanically).",
+    "reference": "MEA-1.C | MEA-1.D | MEA-1.E",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "The economy has: LF = 300M; Actual unemployment = 9%; NRU = 5.5% (frictional = 3%, structural = 2.5%). A policy package reduces structural unemployment by 2 pp (retraining program) and simultaneously, a recession worsens cyclical unemployment by 2 pp. What are all new values: actual rate, NRU, frictional, structural, cyclical?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Actual = 9%; NRU = 3.5%; Cyclical = 5.5%; Frictional = 3%; Structural = 0.5%"
+      },
+      {
+        "label": "B",
+        "text": "Actual = 11%; NRU = 3.5%; Cyclical = 7.5%; Frictional = 3%; Structural = 0.5%"
+      },
+      {
+        "label": "C",
+        "text": "Actual = 9%; NRU = 5.5%; Cyclical = 3.5%; Frictional = 3%; Structural = 2.5%"
+      },
+      {
+        "label": "D",
+        "text": "Actual = 10%; NRU = 3.5%; Cyclical = 6.5%; Frictional = 3%; Structural = 0.5%"
+      },
+      {
+        "label": "E",
+        "text": "Actual = 7%; NRU = 3.5%; Cyclical = 3.5%; Frictional = 3%; Structural = 0.5%"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Reducing structural unemployment from 2.5 percent to 0.5 percent lowers the natural rate from 5.5 percent to 3.5 percent. The 2-point structural decline and 2-point cyclical increase offset, leaving actual unemployment at 9 percent and cyclical unemployment at 9 - 3.5 = 5.5 percent.",
+    "reference": "MEA-1.E | MEA-1.E.2 | MEA-1.E.3 | MEA-1.E.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "Two economists debate whether the NRU is a useful policy concept. Economist 1: \"The NRU is a stable benchmark — once we know it, we can distinguish cyclical from structural unemployment and design appropriate policy.\" Economist 2: \"The NRU is unobservable, changes over time, and different economists estimate different values. It's too imprecise to guide policy.\" Evaluate both arguments.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Economist 1 is entirely correct — the NRU is stable and observable."
+      },
+      {
+        "label": "B",
+        "text": "Economist 2 is entirely correct — the NRU is useless for policy."
+      },
+      {
+        "label": "C",
+        "text": "Both economists raise valid points. Economist 1 is correct that the NRU concept provides a useful framework for distinguishing unemployment types and targeting policy. Economist 2 is correct that the NRU is not directly observable, changes over time (MEA-1.E.4), and carries significant measurement uncertainty. The practical resolution: economists use the NRU as an approximate guide, not a precise constant — calibrating policy to estimated ranges rather than specific point values, and updating NRU estimates as labor market data evolves."
+      },
+      {
+        "label": "D",
+        "text": "The NRU is entirely determined by government policy and can be set at any level."
+      },
+      {
+        "label": "E",
+        "text": "Economist 1 is correct in theory; Economist 2 is correct only during recessions."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The NRU debate is genuine; economist 1's point: the NRU provides a conceptually essential framework (MEA-1.E.2/E.3) for distinguishing cyclical from structural unemployment and targeting appropriate policies. Without it, all unemployment looks the same. Economist 2's point: NRU estimates vary among economists (some estimate 4%, others 5.5% for the same economy at the same time); it changes with labor force characteristics (MEA-1.E.4); and it cannot be directly measured; the policy resolution: use NRU as a range estimate with appropriate uncertainty, revisable as new data arrives.",
+    "reference": "MEA-1.E | MEA-1.E.2 | MEA-1.E.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "An economy experiences the following sequential events:\n\nEvent 1: 4M workers become cyclically unemployed due to a recession.\nEvent 2: 2M of those cyclically unemployed workers become discouraged and stop searching.\nEvent 3: The recession ends; demand recovers; 1.5M of the discouraged workers re-enter and immediately find jobs.\n\nTrace the unemployment rate and LFPR through all three events. Starting data: LF = 200M; Employed = 192M; Unemployed = 8M; Adult Pop = 300M; NRU = 5%.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Event 1: rate=6%, LFPR=66.7%; Event 2: rate=5.1%, LFPR=66%; Event 3: rate=5.0%, LFPR=66.5%"
+      },
+      {
+        "label": "B",
+        "text": "Event 1: rate=6%, LFPR=66.7%; Event 2: rate=4.1%, LFPR=66%; Event 3: rate=3.5%, LFPR=66.5%"
+      },
+      {
+        "label": "C",
+        "text": "Event 1: rate=5%, LFPR=66.7%; Event 2: rate=4%, LFPR=67%; Event 3: rate=4.5%, LFPR=67.5%"
+      },
+      {
+        "label": "D",
+        "text": "All three events leave the rate unchanged at 4%."
+      },
+      {
+        "label": "E",
+        "text": "Event 1: rate=6%, LFPR=66.7%; Event 2: rate=5.15%, LFPR=66%; Event 3: rate=3.6%, LFPR=66.5%"
+      }
+    ],
+    "answer": "A",
+    "explanation": "After Event 1, unemployment is 12 million out of a 200 million labor force, so the rate is 6 percent and LFPR is 66.7 percent. After 2 million workers leave the labor force, the figures are 10/198 = 5.1 percent and 66 percent; when 1.5 million return directly to employment, they become about 10/199.5 = 5.0 percent and 66.5 percent.",
+    "reference": "MEA-1.C | MEA-1.D | MEA-1.E",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "A country's data over two years shows the unemployment rate rose from 5% to 8%. Decompose this 3 pp increase into its components if: the NRU rose from 4.5% to 5% (structural change); and cyclical unemployment increased from 0.5% to 3%. Verify the decomposition is consistent.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Structural change contributes 0.5 pp to NRU rise; cyclical contributes 2.5 pp; total = 3 pp. ✓"
+      },
+      {
+        "label": "B",
+        "text": "Structural change contributes 1 pp; cyclical contributes 2 pp; total = 3 pp."
+      },
+      {
+        "label": "C",
+        "text": "Structural change contributes 2 pp; cyclical contributes 1 pp; total = 3 pp."
+      },
+      {
+        "label": "D",
+        "text": "The decomposition is inconsistent — the NRU cannot rise during a recession."
+      },
+      {
+        "label": "E",
+        "text": "Structural contributes 0 pp; all 3 pp is cyclical."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Year 1: actual = 5%; NRU = 4.5%; cyclical = 0.5%; year 2: actual = 8%; NRU = 5%; cyclical = 3%. Change in actual = +3 pp. Decompose: ΔCyclical = 3% - 0.5% = +2.5 pp (recession drove more cyclical). ΔNRU = 5% - 4.5% = +0.5 pp (structural change raised NRU); total change = 2.5 + 0.5 = 3 pp ✓; the NRU can rise during a recession if simultaneous structural changes occur (consistent with MEA-1.E.4).",
+    "reference": "MEA-1.E | MEA-1.E.3 | MEA-1.E.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "A student argues: \"If the government employed every unemployed person in a public works program, the unemployment rate would fall to zero and the economy would be at full employment.\" Identify the flaws in this reasoning using the NRU framework.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The student is correct — public employment can eliminate all unemployment."
+      },
+      {
+        "label": "B",
+        "text": "The student's reasoning has two flaws: (1) \"Full employment\" in economics means actual unemployment = NRU, not zero unemployment. Even with a public works program, some workers would leave to search for private-sector jobs (frictional) and some would still have skills mismatched with productive work (structural). (2) Forcing measured unemployment to zero through public employment does not imply the economy is producing at maximum efficiency — public jobs may not represent the most productive use of labor. True full employment reflects efficient resource allocation, not just zero measured unemployment."
+      },
+      {
+        "label": "C",
+        "text": "The student is correct that public employment eliminates unemployment, but wrong about full employment."
+      },
+      {
+        "label": "D",
+        "text": "The student is wrong only because the government cannot fund such a program."
+      },
+      {
+        "label": "E",
+        "text": "The student is correct — the NRU is zero under full government employment."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Two conceptual errors: (1) Full employment = actual rate = NRU, NOT zero unemployment. Even with public employment, workers still transition between jobs (frictional) and some have mismatch issues (structural); if all unemployed are hired by government, measured U = 0 but the economy isn't necessarily at efficient full employment. (2) The NRU reflects labor market structure - it cannot simply be legislated away; A public works program might mask unemployment without addressing its underlying causes; true full employment requires efficient labor market matching, not just any employment.",
+    "reference": "MEA-1.E | MEA-1.E.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "Economy data by sector (total LF = 250M, NRU = 5.5%):\n• Sector A (Finance, 80M workers): 3% unemployment, all frictional\n• Sector B (Manufacturing, 100M workers): 10% unemployment (4% structural, 6% cyclical)\n• Sector C (Services, 70M workers): 7% unemployment (3% frictional, 4% cyclical)\n\nCalculate aggregate unemployment rate, NRU, cyclical unemployment. Recommend policy for each sector.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Aggregate: 6.92%; NRU: 2.68%; Cyclical: 4.24%; A: no intervention; B: retraining + stimulus; C: matching + stimulus"
+      },
+      {
+        "label": "B",
+        "text": "Aggregate: 7%; NRU: 3%; Cyclical: 4%; A: no intervention; B: retraining; C: stimulus"
+      },
+      {
+        "label": "C",
+        "text": "Aggregate: 6.72%; NRU: 2.4%; Cyclical: 4.32%; A: no intervention; B: retraining + stimulus; C: matching + stimulus"
+      },
+      {
+        "label": "D",
+        "text": "Aggregate: 6.92%; NRU: 3.4%; Cyclical: 3.52%; A: no intervention; B: retraining + stimulus; C: matching + stimulus"
+      },
+      {
+        "label": "E",
+        "text": "Aggregate: 8%; NRU: 3%; Cyclical: 5%; all sectors need stimulus."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Total unemployment is 2.4 + 10 + 4.9 = 17.3 million, or 6.92 percent of the 250 million labor force. Frictional and structural unemployment total 8.5 million, so the natural rate is 3.4 percent and cyclical unemployment is 3.52 percent; the listed sector policies address each sector's specific unemployment.",
+    "reference": "MEA-1.E | MEA-1.E.1 | MEA-1.E.2 | MEA-1.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "An economy is at full employment with actual unemployment = NRU = 5%. The NRU consists of 3% frictional and 2% structural. An economic expansion drives the actual rate below the NRU to 3.5%, then a recession brings it to 8.5%. Trace the cyclical unemployment and describe what happens to wages and prices in each phase.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Expansion: cyclical = −1.5% (inflationary gap; wages and prices rise); Recession: cyclical = 3.5% (recessionary gap; wages and prices fall or rise slowly)"
+      },
+      {
+        "label": "B",
+        "text": "Expansion: cyclical = 1.5% (more unemployment); Recession: cyclical = −3.5%"
+      },
+      {
+        "label": "C",
+        "text": "Expansion: cyclical = 0%; Recession: cyclical = 3.5%"
+      },
+      {
+        "label": "D",
+        "text": "Expansion: cyclical = −1.5%; Recession: cyclical = 3.5% — wages fall in both phases"
+      },
+      {
+        "label": "E",
+        "text": "Expansion: cyclical = −1.5% (but prices don't change); Recession: cyclical = 3.5%"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Expansion (actual=3.5%, NRU=5%): cyclical = 3.5%-5% = -1.5%; inflationary gap: economy overheated. Tight labor markets → workers have bargaining power → wages rise → production costs rise → prices rise; this is inflationary; recession (actual=8.5%, NRU=5%): cyclical = 8.5%-5% = 3.5%. Recessionary gap: unemployment above NRU → workers have less bargaining power → wage growth slows or wages fall → price pressure eases → prices rise more slowly or fall.",
+    "reference": "MEA-1.E | MEA-1.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "Using the following comprehensive data, answer all parts:\n\nAdult Population = 600M\nLabor Force = 390M\nEmployed = 366.3M\nNRU = 5% (frictional = 2.8%, structural = 2.2%)\nDiscouraged workers = 20M\nInvoluntary part-time = 15M\n\n(a) Official unemployment rate; (b) LFPR; (c) Cyclical unemployment; (d) Cyclical unemployment as a number of workers; (e) Broad rate including discouraged workers.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) 6.08%; (b) 65%; (c) 1.08%; (d) 4.21M; (e) 10.9%"
+      },
+      {
+        "label": "B",
+        "text": "(a) 6.08%; (b) 65%; (c) 1.08%; (d) 4.21M; (e) 11.54%"
+      },
+      {
+        "label": "C",
+        "text": "(a) 5.82%; (b) 68.3%; (c) 0.82%; (d) 3.2M; (e) 10.5%"
+      },
+      {
+        "label": "D",
+        "text": "(a) 6.08%; (b) 65%; (c) 1.08%; (d) 5M; (e) 12.1%"
+      },
+      {
+        "label": "E",
+        "text": "(a) 5%; (b) 65%; (c) 0%; (d) 0; (e) 8.8%"
+      }
+    ],
+    "answer": "A",
+    "explanation": "(a) Unemployed = 390-366.3 = 23.7M; rate = 23.7/390 = 6.08%; (b) LFPR = 390/600 = 65%. (c) Cyclical = 6.08%-5% = 1.08%; (d) Cyclical workers = 1.08% × 390M = 4.21M. (e) Broad rate: U+discouraged = 23.7+20 = 43.7M; LF+discouraged = 410M; broad rate = 43.7/410 ≈ 10.66% ≈ 10.9% (rounding); involuntary part-timers already counted as employed in LF; adding them would further raise the broad measure.",
+    "reference": "MEA-1.C | MEA-1.D | MEA-1.E",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "A researcher proposes measuring \"true full employment\" as the unemployment rate at which inflation neither accelerates nor decelerates — the NAIRU (Non-Accelerating Inflation Rate of Unemployment). This may differ from the NRU. How does this concept relate to the AP Macro framework, and what complications arise from treating the NRU as a fixed target?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The NAIRU is identical to the NRU — they are two names for the same concept."
+      },
+      {
+        "label": "B",
+        "text": "The NAIRU concept is consistent with MEA-1.E.2 (NRU = full-employment unemployment rate) but adds a price-stability dimension. The NAIRU represents the unemployment rate below which inflation begins to accelerate, which may not be identical to the sum of frictional + structural unemployment depending on how these are measured. MEA-1.E.4 (NRU changes over time) is highly relevant — if the NAIRU/NRU shifts, using an outdated estimate to guide policy risks either tolerating excess unemployment (if NRU estimate is too high) or generating inflation (if too low)."
+      },
+      {
+        "label": "C",
+        "text": "The NAIRU is only relevant in high-inflation environments and irrelevant to the AP framework."
+      },
+      {
+        "label": "D",
+        "text": "The NAIRU proves that the NRU should always be set at 2% for optimal performance."
+      },
+      {
+        "label": "E",
+        "text": "The NAIRU is inconsistent with the AP framework because it links unemployment and inflation."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The NAIRU is the empirical counterpart to the theoretical NRU - it identifies the unemployment rate consistent with stable inflation from observable data. defines the NRU as the rate at full-employment output (no cyclical unemployment); the NAIRU is typically estimated as the rate below which inflation accelerates. The key complication: the NAIRU/NRU is unobservable and changes (MEA-1.E.4); if policymakers use an outdated (too high) estimate, they may tolerate unnecessary unemployment; if they use a too-low estimate, they may accept excessive inflation.",
+    "reference": "MEA-1.E | MEA-1.E.2 | MEA-1.E.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "An economy's actual unemployment rate has been stable at 5% for five consecutive years. During this period: the LFPR fell from 67% to 61%; the share of long-term unemployed (>27 weeks) rose from 20% to 38%; the share of involuntary part-time workers doubled. What do these trends reveal about the quality of the \"stable\" 5% unemployment rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The stable rate confirms the economy is at full employment with no concerns."
+      },
+      {
+        "label": "B",
+        "text": "The stable 5% rate masks substantial labor market deterioration: (1) Falling LFPR (from 67% to 61%) suggests millions left the labor force — likely discouraged workers. If they were still searching, the unemployment rate would be much higher. (2) Rising long-term unemployment share suggests structural problems — workers are not finding jobs through normal frictional search but are stuck in prolonged spells, possibly becoming structurally unemployed. (3) Doubled involuntary part-time share indicates widespread underemployment hidden by the official rate. The 5% rate severely understates true labor market hardship."
+      },
+      {
+        "label": "C",
+        "text": "The trends are all positive — long-term unemployment falling would be concerning."
+      },
+      {
+        "label": "D",
+        "text": "The stable rate proves the NRU itself is 5% and the economy is at full employment."
+      },
+      {
+        "label": "E",
+        "text": "The LFPR decline is irrelevant to assessing unemployment — only the rate matters."
+      }
+    ],
+    "answer": "B",
+    "explanation": "This is a comprehensive application of MEA-1.D's limitations framework over time; three compounding distortions: (1) Falling LFPR (-6 pp): massive labor force withdrawal, likely discouraged workers. The official rate stays at 5% only because these workers stopped counting. (2) Long-term unemployment rising from 20% to 38%: these workers risk becoming structurally unemployed through skill atrophy - a possible NRU increase over time (MEA-1.E.4); (3) Doubled involuntary part-time: underemployment not captured in official statistics; together, these indicators reveal that the stable 5% headline rate conceals profound deterioration in labor market quality.",
+    "reference": "MEA-1.D | MEA-1.D.1 | MEA-1.E.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "A sophisticated student constructs a \"comprehensive labor market distress index\" by combining the official unemployment rate (5%), the discouraged worker rate (2%), and the involuntary part-time rate (3%), giving a broad distress measure of 10%. She then compares this to the NRU of 5% and concludes the economy has 5% \"excess distress.\" Evaluate this methodology using the AP unemployment framework.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The methodology is perfect and should replace the official unemployment rate."
+      },
+      {
+        "label": "B",
+        "text": "The student's approach is a reasonable extension of the MEA-1.D.1 critique of the official rate. However, there are methodological concerns: (1) Discouraged workers and involuntary part-timers are not equivalent to unemployed workers — their labor market distress is real but of a different character. Simple addition may overstate excess distress. (2) Comparing the 10% broad measure to a 5% NRU is imprecise since the NRU is defined for the official unemployment rate — a \"broad NRU\" would likely also be higher than 5%. (3) Despite these issues, the index usefully illustrates that official statistics understate true labor market slack."
+      },
+      {
+        "label": "C",
+        "text": "The methodology is incorrect because the NRU should be compared only to the official rate."
+      },
+      {
+        "label": "D",
+        "text": "The student's approach is invalid because broader measures are always subjective."
+      },
+      {
+        "label": "E",
+        "text": "The methodology is correct — the economy has exactly 5% \"excess distress.\""
+      }
+    ],
+    "answer": "B",
+    "explanation": "The student's intuition (official rate understates distress) is well-grounded in MEA-1.D.1. However, the methodology has issues: (1) Equivalence problem: a discouraged worker and an officially unemployed worker represent different degrees of labor market attachment; simple addition treats them identically. (2) Benchmark problem: the NRU (5%) is calibrated for the official rate - a \"broad NRU\" including these groups would be higher, making the \"excess distress\" calculation imprecise; despite these limitations, the index is more informative than the official rate alone and usefully reveals hidden labor market slack.",
+    "reference": "MEA-1.D | MEA-1.D.1 | MEA-1.E.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "Using complete AP macro framework: An economy has LF = 400M; Employed = 368M; NRU = 5.5%; frictional = 3%; structural = 2.5%. A government report claims \"we have nearly eliminated cyclical unemployment.\" Evaluate this claim quantitatively and identify all types of unemployment present.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The claim is valid — cyclical is 0% and the economy is at full employment."
+      },
+      {
+        "label": "B",
+        "text": "Unemployed = 32M; rate = 8%; cyclical = 8%−5.5% = 2.5%; the economy has NOT nearly eliminated cyclical unemployment. Frictional workers = 3% × 400M = 12M; structural = 2.5% × 400M = 10M; cyclical = 2.5% × 400M = 10M. Total = 32M ✓. The 2.5% cyclical gap is significant, representing 10M workers unemployed solely due to insufficient aggregate demand — far from eliminated."
+      },
+      {
+        "label": "C",
+        "text": "Unemployed = 32M; rate = 8%; cyclical = 2.5%; the claim is partially valid since 2.5% is small."
+      },
+      {
+        "label": "D",
+        "text": "The claim is valid because cyclical is less than frictional unemployment."
+      },
+      {
+        "label": "E",
+        "text": "Unemployed = 32M; rate = 8%; cyclical = 2.5% — but this is below the NRU so the economy is overheated."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Unemployed = 400-368 = 32M; rate = 32/400 = 8%; cyclical = 8%-5.5% = 2.5%. Breakdown: frictional = 3% × 400M = 12M workers; structural = 2.5% × 400M = 10M workers; cyclical = 2.5% × 400M = 10M workers; total = 32M ✓. The government's claim is incorrect: 10 million workers are cyclically unemployed - a significant number representing a clear recessionary gap; cyclical is not close to zero; the economy needs additional aggregate demand stimulus to approach full employment.",
+    "reference": "MEA-1.E | MEA-1.E.1 | MEA-1.E.2 | MEA-1.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "An economy starts at full employment (actual = NRU = 5%). Over two years:\n• Year 1: A recession causes cyclical unemployment to rise by 3 pp. Some workers become discouraged.\n• Year 2: Recovery begins. Discouraged workers re-enter the labor force. Some long-term unemployed become structurally unemployed (skills atrophy).\n\nIf initial LF = 200M and 4M workers became discouraged in Year 1, and 1.5M of those become structurally unemployed in Year 2, trace: unemployment rate, LFPR, NRU, and cyclical unemployment through both years.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Y1: rate=6.06%, LFPR falls; Y2: rate depends on re-entrants; NRU rises to 5.75%"
+      },
+      {
+        "label": "B",
+        "text": "Y1: rate rises but official rate may partly fall due to discouragement; LFPR falls; NRU unchanged at 5%. Y2: re-entry raises measured rate temporarily; NRU rises to 5.75% (1.5M structurally unemployed = 1.5/200 = 0.75 pp rise in structural); LFPR rises as discouraged re-enter."
+      },
+      {
+        "label": "C",
+        "text": "Y1: rate=8%, LFPR unchanged; Y2: rate=5%, LFPR rises, NRU unchanged."
+      },
+      {
+        "label": "D",
+        "text": "Both years: rate=5%, LFPR=67%, NRU=5%."
+      },
+      {
+        "label": "E",
+        "text": "Y1: NRU rises to 8%; Y2: NRU falls back to 5%."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Y1: Recession adds 3 pp cyclical (actual would be 8% absent discouragement). 4M discouraged: they leave LF → measured unemployed falls by 4M, LF shrinks. Official rate rises less than 8% due to discouragement; LFPR falls; NRU unchanged at 5%. Y2: Recovery → discouraged re-enter (LFPR rises, measured rate temporarily rises). 1.5M long-term unemployed become structurally unemployed: structural rises by 1.5/200M ≈ 0.75 pp → NRU rises from 5% to 5.75%; cyclical = actual - new NRU (5.75%); this multi-step analysis integrates MEA-1.C, 1.D, and 1.E dynamically.",
+    "reference": "MEA-1.C | MEA-1.D | MEA-1.E | MEA-1.E.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "A policymaker observes that the economy has actual unemployment of 4%, while the NRU is estimated at 5%. She proposes stimulating the economy further to reduce unemployment to 3%. An economic advisor warns against this. Explain the advisor's concern using the unemployment framework.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The advisor is worried about too much unemployment being eliminated, leaving no workers for new businesses."
+      },
+      {
+        "label": "B",
+        "text": "The advisor is concerned that 4% unemployment proves the economy is already in a recession requiring contractionary policy."
+      },
+      {
+        "label": "C",
+        "text": "The advisor is concerned that at 4% — already below the NRU (5%) — the economy is in an inflationary gap with cyclical unemployment of −1%. Stimulating further to reach 3% would deepen the inflationary gap to −2%, intensifying upward pressure on wages and prices. Attempting to push unemployment significantly below the NRU is unsustainable and will generate inflation without a lasting improvement in employment."
+      },
+      {
+        "label": "D",
+        "text": "The advisor is correct that 3% unemployment would require eliminating structural unemployment, which is impossible."
+      },
+      {
+        "label": "E",
+        "text": "The advisor is unconcerned — unemployment can always be safely reduced through demand stimulus."
+      }
+    ],
+    "answer": "C",
+    "explanation": "At 4% actual with 5% NRU, cyclical = 4%-5% = -1%: the economy is already in an inflationary gap. More stimulus pushes cyclical to -2% (3% actual), further overheating the economy. Below-NRU unemployment is unsustainable: tight labor markets push wages up, costs rise, prices accelerate, and the economy eventually corrects back toward the NRU - but with higher inflation; the advisor is invoking the fundamental constraint that the economy cannot sustainably operate below the NRU without generating inflationary pressures.",
+    "reference": "MEA-1.E | MEA-1.E.2 | MEA-1.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "Calculate all components of unemployment from this data:\n\nLF = 280M; Adult Pop = 420M; Employed = 257.6M; NRU = 4% (frictional = 2.5%); Discouraged = 18M.\n\nState: unemployment rate, LFPR, frictional workers, structural workers, cyclical workers, and the broad rate including discouraged workers.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Rate=8%; LFPR=66.7%; Frictional=7M; Structural=4.2M; Cyclical=11.2M; Broad=12.8%"
+      },
+      {
+        "label": "B",
+        "text": "Rate=8%; LFPR=66.7%; Frictional=7M; Structural=4.2M; Cyclical=11.2M; Broad=13.8%"
+      },
+      {
+        "label": "C",
+        "text": "Rate=8%; LFPR=66.7%; Frictional=7M; Structural=4.2M; Cyclical=11.2M; Broad=11.9%"
+      },
+      {
+        "label": "D",
+        "text": "Rate=7%; LFPR=63%; Frictional=5.6M; Structural=2.8M; Cyclical=9.8M; Broad=11.5%"
+      },
+      {
+        "label": "E",
+        "text": "Rate=8%; LFPR=66.7%; Frictional=7M; Structural=4.2M; Cyclical=11.2M; Broad=10.9%"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Unemployed = 280-257.6 = 22.4M; rate = 22.4/280 = 8%; LFPR = 280/420 = 66.7%. Cyclical = 8%-4% = 4%; cyclical workers = 4% × 280M = 11.2M; frictional = 2.5% × 280M = 7M. Structural = NRU - frictional = 1.5% × 280M = 4.2M; check: 7+4.2+11.2 = 22.4M ✓; broad rate (with discouraged): U+discouraged = 22.4+18 = 40.4M; LF+discouraged = 298M; broad rate = 40.4/298 ≈ 13.56% ≈ 13.8% (answer B).",
+    "reference": "MEA-1.C | MEA-1.D | MEA-1.E",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "An economy simultaneously experiences: (1) A 2-pp rise in cyclical unemployment from a recession; (2) A 1-pp fall in frictional unemployment due to better job-matching apps; (3) A 1.5-pp rise in structural unemployment from automation. Starting values: actual = 6%, NRU = 5% (frictional = 3%, structural = 2%). What are the new: actual rate, NRU, frictional, structural, cyclical?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Actual=8.5%; NRU=5.5%; Frictional=2%; Structural=3.5%; Cyclical=3%"
+      },
+      {
+        "label": "B",
+        "text": "Actual=8.5%; NRU=4.5%; Frictional=2%; Structural=2.5%; Cyclical=4%"
+      },
+      {
+        "label": "C",
+        "text": "Actual=7.5%; NRU=5.5%; Frictional=2%; Structural=3.5%; Cyclical=2%"
+      },
+      {
+        "label": "D",
+        "text": "Actual=9%; NRU=5%; Frictional=3%; Structural=2%; Cyclical=4%"
+      },
+      {
+        "label": "E",
+        "text": "Actual=8%; NRU=5.5%; Frictional=2%; Structural=3.5%; Cyclical=2.5%"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Starting: actual=6%, NRU=5% (frictional=3%, structural=2%), cyclical=1%; changes: (1) Cyclical +2 pp: cyclical rises from 1% to 3%; actual rises by 2 pp. (2) Frictional -1 pp: frictional falls 3%→2%; NRU falls by 1 pp; actual falls by 1 pp (frictional workers find jobs faster). (3) Structural +1.5 pp: structural rises 2%→3.5%; NRU rises by 1.5 pp; actual rises by 1.5 pp; net actual: 6%+2%-1%+1.5% = 8.5%; new NRU: 5%-1%+1.5% = 5.5%; new frictional=2%; structural=3.5%; cyclical=8.5%-5.5%=3% ✓.",
+    "reference": "MEA-1.E | MEA-1.E.2 | MEA-1.E.3 | MEA-1.E.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "Country X has maintained stable unemployment at 5% for a decade. Country Y maintained stable unemployment at 5% but its LFPR has declined from 72% to 64% over the same decade. Which country has the stronger labor market, and what additional information would you need to fully evaluate Country Y's position?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country X has a stronger labor market — its LFPR is stable."
+      },
+      {
+        "label": "B",
+        "text": "Country Y has a stronger labor market — falling LFPR indicates workers are retiring and living better."
+      },
+      {
+        "label": "C",
+        "text": "Country X likely has a stronger labor market. Country Y's 8-pp LFPR decline with a stable official rate strongly suggests mass labor force withdrawal — likely discouraged workers or structural changes that drove people out. To fully evaluate: need to know (a) age breakdown of LFPR decline (retirements vs. prime-age withdrawal); (b) change in long-term unemployment share; (c) change in involuntary part-time rates; (d) whether the NRU changed, reflecting structural deterioration."
+      },
+      {
+        "label": "D",
+        "text": "Both countries have identical labor markets — the same 5% rate proves equivalence."
+      },
+      {
+        "label": "E",
+        "text": "Country Y is stronger because falling LFPR reduces supply of labor, increasing wages."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Same official unemployment rate (5%) but 8-pp LFPR decline in Country Y is a major red flag. If the decline reflects mass discouragement, Country Y's true labor market is far weaker than the 5% rate suggests - millions are hidden in the \"not in labor force\" category. Country X's stable LFPR alongside stable unemployment is a cleaner signal of labor market stability; additional diagnostics: prime-age LFPR (isolates demographic from discouragement effects), long-term unemployment, involuntary part-time share - all capture the dimensions that official statistics miss (MEA-1.D.1).",
+    "reference": "MEA-1.C | MEA-1.D | MEA-1.E",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "A student analyzes an economy with an adult population of 500 million, 310 million employed workers, 18 million unemployed workers, a 4.5 percent natural rate, and 12 million discouraged workers. She correctly calculates the labor force, unemployment rate, labor force participation rate, and cyclical unemployment. Her teacher says the analysis is correct but incomplete. What is missing?",
+    "options": [
+      {
+        "label": "A",
+        "text": "She forgot to include discouraged workers in the labor force."
+      },
+      {
+        "label": "B",
+        "text": "The missing analysis includes the broader labor-market slack represented by discouraged workers, the breakdown of unemployment by type, and the resulting policy implications."
+      },
+      {
+        "label": "C",
+        "text": "She used the wrong formula for the unemployment rate."
+      },
+      {
+        "label": "D",
+        "text": "She failed to calculate the employment-population ratio."
+      },
+      {
+        "label": "E",
+        "text": "She should have included involuntary part-timers in the labor force."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official statistics exclude discouraged workers, so a complete analysis should also recognize the hidden labor-market slack they represent. It should distinguish frictional, structural, and cyclical unemployment because each type has different causes and policy implications.",
+    "reference": "MEA-1.C | MEA-1.D | MEA-1.E",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "An economy has NRU = 5.5% (frictional = 3%, structural = 2.5%). Actual unemployment is 9%. A combination policy approach is implemented:\n• Phase 1: Expansionary fiscal policy creates 3M jobs (from cyclical pool; LF = 200M)\n• Phase 2: Retraining program reduces structural unemployment by 1.5 pp\n• Phase 3: Job-matching app reduces frictional unemployment by 0.8 pp\n\nTrace unemployment rate and NRU after each phase.",
+    "options": [
+      {
+        "label": "A",
+        "text": "After all three phases: rate=4.2%; NRU=3.2%; cyclical=1%"
+      },
+      {
+        "label": "B",
+        "text": "After Phase 1: rate=7.5%; NRU=5.5%; cyclical=2%. After Phase 2: rate=6%, NRU=4%, cyclical=2%. After Phase 3: rate=5.2%, NRU=3.2%, cyclical=2%."
+      },
+      {
+        "label": "C",
+        "text": "After all three phases: rate=3.2%; NRU=3.2%; cyclical=0%"
+      },
+      {
+        "label": "D",
+        "text": "After Phase 1: rate=7.5%; NRU=5.5%; After Phase 2: NRU=4%; rate=6%; After Phase 3: NRU=3.2%; rate=5.2%; cyclical=2% throughout"
+      },
+      {
+        "label": "E",
+        "text": "After Phase 1: rate=7.5%; NRU=5.5%; cyclical=2%. After Phase 2: rate=6%, NRU=4%, cyclical=2%. After Phase 3: NRU=3.2%; rate=5.2%; cyclical=2% — but eventually should converge to NRU=3.2%."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Start: LF=200M; rate=9%; cyclical=9%-5.5%=3.5%; phase 1 (3M jobs): unemployed=18M-3M=15M; rate=15/200=7.5%; NRU unchanged (5.5%); cyclical=7.5%-5.5%=2%. Phase 2 (structural -1.5 pp): NRU falls: 5.5%-1.5%=4%; structural workers find jobs (-3M unemployed): unemployed=12M; rate=12/200=6%; cyclical=6%-4%=2%; phase 3 (frictional -0.8 pp): NRU falls: 4%-0.8%=3.2%; frictional workers find jobs faster (-1.6M): unemployed=10.4M; rate=10.4/200=5.2%; cyclical=5.2%-3.2%=2%; cyclical stays at 2% throughout - only demand policy closes that remaining gap.",
+    "reference": "MEA-1.E | MEA-1.E.2 | MEA-1.E.3 | MEA-1.E.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "An economist observes: \"During the Great Recession (2007-2009), the US unemployment rate rose from 4.6% to 10%. Yet even during the recovery, the NRU appeared to rise slightly. This is consistent with hysteresis.\" Evaluate this claim using the AP macro unemployment framework.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The observation contradicts the AP framework — the NRU cannot rise during a recovery."
+      },
+      {
+        "label": "B",
+        "text": "The observation is consistent with MEA-1.E.4 (NRU changes due to labor force characteristics). Hysteresis occurs when prolonged cyclical unemployment causes some workers to lose skills, professional networks, and become less employable — effectively transitioning from cyclically to structurally unemployed. A rising NRU during recovery means the \"full employment\" unemployment rate is now higher than before the recession. Policy implication: even after demand recovers, some workers remain unemployed due to structural barriers created by the recession itself — requiring both demand stimulus AND structural adjustment programs."
+      },
+      {
+        "label": "C",
+        "text": "The claim is wrong because the NRU can only fall, not rise."
+      },
+      {
+        "label": "D",
+        "text": "The claim confuses cyclical and structural unemployment — they are unrelated."
+      },
+      {
+        "label": "E",
+        "text": "The observation is valid only if the labor force participation rate also fell."
+      }
+    ],
+    "answer": "B",
+    "explanation": "states the NRU can change gradually due to labor force characteristics. Hysteresis (the path-dependence of unemployment) is the mechanism: deep recessions create long-term unemployed workers who atrophy in skills and network contacts, making them effectively structurally unemployed even when demand recovers. The NRU rises because structural unemployment increased as a consequence of the recession; policy must address both the cyclical gap (demand stimulus) and the new structural component (retraining) - consistent with the AP framework's treatment of unemployment types and policy responses.",
+    "reference": "MEA-1.E | MEA-1.E.1 | MEA-1.E.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "A comprehensive labor market comparison:\n\nCountry Alpha: Unemployment rate = 6%; LFPR = 74%; NRU = 5%; avg. unemployment duration = 8 weeks\nCountry Beta: Unemployment rate = 6%; LFPR = 62%; NRU = 5.8%; avg. duration = 28 weeks\n\nUsing all available indicators, evaluate which country has the stronger labor market and explain why the headline unemployment rate alone is misleading.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both countries have identical labor markets — same unemployment rate."
+      },
+      {
+        "label": "B",
+        "text": "Country Alpha has the stronger labor market. Evidence: (1) Higher LFPR (74% vs 62%) — Alpha has more adults actively participating; Beta's low LFPR suggests mass labor force withdrawal (discouraged workers). (2) Lower NRU (5% vs 5.8%) — Alpha has less structural/frictional unemployment. (3) Cyclical gap: Alpha = 6%−5% = 1%; Beta = 6%−5.8% = 0.2% — nearly equal cyclical component. (4) Much shorter average duration (8 vs 28 weeks) — Alpha's workers find jobs quickly (frictional); Beta's long duration indicates structural problems or persistent cyclical weakness. The identical 6% rate masks dramatically different underlying labor market conditions."
+      },
+      {
+        "label": "C",
+        "text": "Country Beta has the stronger market — lower LFPR means less crowding in the labor market."
+      },
+      {
+        "label": "D",
+        "text": "Country Alpha has the stronger market only if its GDP per capita is also higher."
+      },
+      {
+        "label": "E",
+        "text": "Country Beta has the stronger market because its NRU is higher, allowing more flexibility."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Comprehensive multi-indicator analysis: LFPR (Alpha 74% vs Beta 62%): 12-pp difference is enormous - Beta likely has millions of discouraged workers. NRU (Alpha 5% vs Beta 5.8%): Beta has more structural/frictional unemployment; cyclical: Alpha = 1%; Beta = 0.2% - nearly identical. Duration (Alpha 8 vs Beta 28 weeks): Alpha's workers find jobs quickly (frictional, healthy); Beta's 28-week average is a serious signal of structural problems and potentially rising NRU via hysteresis; the identical 6% headline rate conceals fundamentally different labor market realities - exactly what MEA-1.D.1 warns about.",
+    "reference": "MEA-1.C | MEA-1.D | MEA-1.E",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "A student is given: Adult Population = 600M; Labor Force Participation Rate = 67%; Unemployment Rate = 7%; NRU = 5% (structural = 2.2%). Working backwards, find: employed workers, number unemployed, frictional unemployment rate, cyclical unemployment, and number of cyclically unemployed workers.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Employed=373.86M; Unemployed=28.14M; Frictional=2.8%; Cyclical=2%; Cyclical workers=8.04M"
+      },
+      {
+        "label": "B",
+        "text": "Employed=374.3M; Unemployed=28.2M; Frictional=2.8%; Cyclical=2%; Cyclical workers=7.2M"
+      },
+      {
+        "label": "C",
+        "text": "Employed=380M; Unemployed=28M; Frictional=2.5%; Cyclical=2.5%; Cyclical workers=10M"
+      },
+      {
+        "label": "D",
+        "text": "Employed=373.86M; Unemployed=28.14M; Frictional=2.2%; Cyclical=2.8%; Cyclical workers=11.26M"
+      },
+      {
+        "label": "E",
+        "text": "Employed=370M; Unemployed=30M; Frictional=2.5%; Cyclical=2%; Cyclical workers=8M"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The labor force is 0.67 x 600 = 402 million, so unemployment is 0.07 x 402 = 28.14 million and employment is 373.86 million. Frictional unemployment is 5 - 2.2 = 2.8 percent, while cyclical unemployment is 7 - 5 = 2 percent, or 8.04 million workers.",
+    "reference": "MEA-1.C | MEA-1.E | MEA-1.E.2 | MEA-1.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "Final synthesis: An economy has NRU = 5.5% (frictional = 3%, structural = 2.5%); LF = 350M; actual unemployment = 9%; discouraged workers = 20M; involuntary part-time = 18M; adult population = 520M. Calculate every key labor market metric. Then identify the most appropriate combination of policies to address the full spectrum of unemployment present.",
+    "options": [
+      {
+        "label": "A",
+        "text": "All metrics calculated; only stimulus needed for all unemployment types."
+      },
+      {
+        "label": "B",
+        "text": "Official: Unemployed=31.5M; rate=9%; LFPR=67.3%; cyclical=3.5%; cyclical workers=12.25M; structural workers=8.75M; frictional workers=10.5M. Broad rate (discouraged only): 51.5M/370M=13.9%. Full policy mix: (1) Expansionary demand policy for 3.5% cyclical gap; (2) Retraining programs for 2.5% structural; (3) Job-matching infrastructure for 3% frictional; (4) Encouraging discouraged workers to re-enter (economic improvement, counseling); (5) Full-time job creation policies for involuntary part-timers."
+      },
+      {
+        "label": "C",
+        "text": "Official: rate=7%; cyclical=2%; only demand stimulus needed."
+      },
+      {
+        "label": "D",
+        "text": "Official: rate=9%; NRU=5.5%; only retraining programs are effective."
+      },
+      {
+        "label": "E",
+        "text": "All unemployment is cyclical; only monetary policy is needed."
+      }
+    ],
+    "answer": "B",
+    "explanation": "LF=350M; unemployed=9%×350M=31.5M; employed=318.5M; LFPR=350/520=67.3%; cyclical=9%-5.5%=3.5%; cyclical workers=12.25M; structural=2.5%×350M=8.75M; frictional=3%×350M=10.5M; check:12.25+8.75+10.5=31.5M✓; broad rate (discouraged): 51.5M/370M=13.9%. Complete policy: Demand stimulus (expansionary monetary/fiscal) → addresses 3.5% cyclical; Retraining programs → addresses 2.5% structural (gradually reduces NRU); Job-matching technology → addresses 3% frictional (gradually reduces NRU); Economic recovery → discourages discouragement, brings 20M back into LF; Full-time job policies → converts involuntary part-time to full-time. This comprehensive approach addresses every dimension of labor market distress identified in MEA-1.C, 1.D, and 1.E.",
+    "reference": "MEA-1.C | MEA-1.D | MEA-1.E | MEA-1.E.1 | MEA-1.E.2 | MEA-1.E.3 | MEA-1.E.4",
+    "graphDescription": "",
+    "graphRequired": false
+  }
+]

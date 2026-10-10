@@ -1,0 +1,3202 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "In the aggregate demand–aggregate supply (AD-AS) model, short-run equilibrium is defined as",
+    "options": [
+      {
+        "label": "A",
+        "text": "the point at which aggregate demand equals zero and the price level is stable."
+      },
+      {
+        "label": "B",
+        "text": "the point at which the SRAS curve intersects the LRAS curve."
+      },
+      {
+        "label": "C",
+        "text": "the point at which the aggregate quantity of output demanded equals the aggregate quantity of output supplied — i.e., the intersection of the AD and SRAS curves."
+      },
+      {
+        "label": "D",
+        "text": "the point at which real GDP equals potential GDP and unemployment equals the natural rate."
+      },
+      {
+        "label": "E",
+        "text": "the point at which the price level equals 100 (the index base year)."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Short-run equilibrium in the AD-AS model occurs where the AD curve and the SRAS curve intersect. At this point, the quantity of real GDP demanded by all sectors of the economy equals the quantity of real GDP supplied by all producers; this determines both the short-run equilibrium price level and the short-run equilibrium real GDP.",
+    "reference": "MOD-2.G | MOD-2.G.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "In the AD-AS model, long-run equilibrium is defined as",
+    "options": [
+      {
+        "label": "A",
+        "text": "the intersection of the AD and SRAS curves at any price level."
+      },
+      {
+        "label": "B",
+        "text": "the point where the price level stops changing over time."
+      },
+      {
+        "label": "C",
+        "text": "the point at which the AD and SRAS curves intersect on the LRAS curve — at the full-employment level of real output (Yf)."
+      },
+      {
+        "label": "D",
+        "text": "the point where government spending equals tax revenue (balanced budget)."
+      },
+      {
+        "label": "E",
+        "text": "the intersection of the AD curve with the horizontal axis (zero price level)."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Long-run equilibrium occurs when all three curves - AD, SRAS, and LRAS - intersect at the same point. This means: (1) the quantity demanded = quantity supplied (AD = SRAS), AND (2) the economy is at full-employment output (on the LRAS); at long-run equilibrium, there is no output gap, unemployment equals the natural rate, and there is no pressure for wages to change.",
+    "reference": "MOD-2.G | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "An economy is in long-run equilibrium when",
+    "options": [
+      {
+        "label": "A",
+        "text": "the SRAS curve is to the left of the LRAS curve."
+      },
+      {
+        "label": "B",
+        "text": "the AD curve intersects the LRAS curve at a price level above short-run equilibrium."
+      },
+      {
+        "label": "C",
+        "text": "the AD and SRAS curves intersect ON the LRAS — real GDP equals full-employment output (Yf), unemployment equals the natural rate, and there is no output gap."
+      },
+      {
+        "label": "D",
+        "text": "actual GDP exceeds potential GDP, creating an inflationary gap."
+      },
+      {
+        "label": "E",
+        "text": "the price level is constant and real GDP is growing."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Long-run equilibrium requires all three curves to intersect at the same point. At this triple intersection on the LRAS: real GDP = Yf (full employment), unemployment = natural rate, no recessionary or inflationary output gap, and no sustained pressure for wages to rise or fall; this is the economy's long-run \"anchor\" position.",
+    "reference": "MOD-2.G | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "A \"recessionary gap\" (negative output gap) occurs when",
+    "options": [
+      {
+        "label": "A",
+        "text": "the price level rises above the long-run equilibrium price level."
+      },
+      {
+        "label": "B",
+        "text": "the SRAS curve shifts to the right of the LRAS curve."
+      },
+      {
+        "label": "C",
+        "text": "the short-run equilibrium level of real GDP is BELOW the full-employment level of output (Yf) — meaning actual output is less than potential output and unemployment exceeds the natural rate."
+      },
+      {
+        "label": "D",
+        "text": "real GDP exceeds potential GDP and unemployment falls below the natural rate."
+      },
+      {
+        "label": "E",
+        "text": "aggregate demand equals aggregate supply at exactly the full-employment level."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A recessionary gap (negative output gap) occurs when the short-run equilibrium real GDP < potential GDP (Yf). The AD-SRAS intersection is to the LEFT of the LRAS; in this situation, the economy is underperforming: output is below capacity, unemployment exceeds the natural rate, and resources are underutilized.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "An \"inflationary gap\" (positive output gap) occurs when",
+    "options": [
+      {
+        "label": "A",
+        "text": "the price level is rising due to cost-push inflation from a supply shock."
+      },
+      {
+        "label": "B",
+        "text": "the LRAS curve shifts to the right of the SRAS curve."
+      },
+      {
+        "label": "C",
+        "text": "the short-run equilibrium level of real GDP is ABOVE the full-employment level of output (Yf) — meaning actual output exceeds potential output and unemployment falls below the natural rate."
+      },
+      {
+        "label": "D",
+        "text": "actual GDP equals potential GDP and there is no output gap."
+      },
+      {
+        "label": "E",
+        "text": "government spending exceeds tax revenue, creating a budget deficit."
+      }
+    ],
+    "answer": "C",
+    "explanation": "An inflationary gap (positive output gap) occurs when the short-run equilibrium real GDP > potential GDP (Yf). The AD-SRAS intersection is to the RIGHT of the LRAS; in this situation, the economy is overheating: output is above sustainable capacity, unemployment falls below the natural rate, and upward wage pressure builds.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "On an AD-AS graph showing all three curves (AD, SRAS, LRAS), the short-run equilibrium is found at",
+    "options": [
+      {
+        "label": "A",
+        "text": "the intersection of the SRAS and LRAS curves."
+      },
+      {
+        "label": "B",
+        "text": "the intersection of the AD curve with the horizontal axis."
+      },
+      {
+        "label": "C",
+        "text": "the intersection of the AD and SRAS curves, which determines the short-run equilibrium price level (PL) and short-run equilibrium real GDP (Y)."
+      },
+      {
+        "label": "D",
+        "text": "the intersection of the AD and LRAS curves only."
+      },
+      {
+        "label": "E",
+        "text": "the midpoint of the LRAS curve."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The short-run equilibrium is always found at the intersection of AD and SRAS. This gives the short-run equilibrium price level (PL*) on the vertical axis and the short-run equilibrium real GDP (Y*) on the horizontal axis; the LRAS tells us whether this equilibrium is at, above, or below full-employment output.",
+    "reference": "MOD-2.G | MOD-2.G.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "Which of the following correctly identifies the equilibrium price level and real GDP in the AD-AS model?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The equilibrium price level is where the LRAS intersects the horizontal axis; equilibrium real GDP is where the AD intersects the vertical axis."
+      },
+      {
+        "label": "B",
+        "text": "The equilibrium price level and real GDP are both determined at the intersection of the AD and SRAS curves — the price level is read off the vertical axis and real GDP is read off the horizontal axis at that intersection point."
+      },
+      {
+        "label": "C",
+        "text": "The equilibrium price level is fixed by the central bank; equilibrium real GDP is set by the government."
+      },
+      {
+        "label": "D",
+        "text": "The equilibrium price level is found where SRAS intersects LRAS; real GDP is found where AD intersects LRAS."
+      },
+      {
+        "label": "E",
+        "text": "The equilibrium is always at the point where LRAS crosses the price level axis."
+      }
+    ],
+    "answer": "B",
+    "explanation": "At the AD-SRAS intersection: (1) The equilibrium price level (PL*) is read from the vertical axis - the height at which the two curves cross. (2) The equilibrium real GDP (Y*) is read from the horizontal axis - the horizontal position of the intersection; these two values together define the short-run macroeconomic equilibrium.",
+    "reference": "MOD-2.G | MOD-2.G.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "When the short-run equilibrium (AD-SRAS intersection) coincides exactly with the LRAS, the economy is in",
+    "options": [
+      {
+        "label": "A",
+        "text": "a recessionary gap — output is below potential."
+      },
+      {
+        "label": "B",
+        "text": "an inflationary gap — output is above potential."
+      },
+      {
+        "label": "C",
+        "text": "long-run equilibrium — the AD-SRAS intersection is on the LRAS, meaning real GDP equals full-employment output (Yf), there is no output gap, and unemployment equals the natural rate."
+      },
+      {
+        "label": "D",
+        "text": "a situation of stagflation — rising prices with falling output."
+      },
+      {
+        "label": "E",
+        "text": "permanent full employment regardless of any economic shocks."
+      }
+    ],
+    "answer": "C",
+    "explanation": "When all three curves (AD, SRAS, LRAS) intersect at the same point, the economy is simultaneously in short-run equilibrium (AD = SRAS) AND at full-employment output (on the LRAS). This is long-run equilibrium: no output gap, unemployment = natural rate, no pressure for wages to adjust further.",
+    "reference": "MOD-2.G | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "If the AD-SRAS intersection is to the LEFT of the LRAS, which output gap exists?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An inflationary (positive) gap — actual GDP > potential GDP."
+      },
+      {
+        "label": "B",
+        "text": "No output gap — the economy is in long-run equilibrium."
+      },
+      {
+        "label": "C",
+        "text": "A recessionary (negative) gap — actual GDP < potential GDP (the short-run equilibrium is below the full-employment level, meaning the economy is underperforming its capacity)."
+      },
+      {
+        "label": "D",
+        "text": "A structural gap caused by technological change."
+      },
+      {
+        "label": "E",
+        "text": "A cyclical surplus caused by excess aggregate demand."
+      }
+    ],
+    "answer": "C",
+    "explanation": "When the AD-SRAS intersection is to the LEFT of the vertical LRAS, actual real GDP < Yf (potential); this is a negative/recessionary output gap. The economy is not fully utilizing its productive resources, unemployment exceeds the natural rate, and the price level is lower than the long-run equilibrium; policies to close this gap typically involve increasing aggregate demand.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "If the AD-SRAS intersection is to the RIGHT of the LRAS, which output gap exists?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A recessionary (negative) gap — actual GDP < potential GDP."
+      },
+      {
+        "label": "B",
+        "text": "No output gap — all three curves intersect at the same point."
+      },
+      {
+        "label": "C",
+        "text": "An inflationary (positive) gap — actual GDP > potential GDP (Yf). The economy is operating beyond its sustainable capacity, the labor market is overheated, unemployment is below the natural rate, and upward wage pressure builds."
+      },
+      {
+        "label": "D",
+        "text": "A supply-side gap caused by insufficient productive capacity."
+      },
+      {
+        "label": "E",
+        "text": "A deflationary gap caused by excess aggregate supply."
+      }
+    ],
+    "answer": "C",
+    "explanation": "When the AD-SRAS intersection is to the RIGHT of the vertical LRAS, actual real GDP > Yf (potential); this is a positive/inflationary output gap. The economy is overheating: producing beyond sustainable capacity, unemployment is below the natural rate, wages are rising, and inflation is building; policies to close this gap typically involve reducing aggregate demand.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "On a correctly labeled AD-AS graph with all three curves, where does the equilibrium price level appear?",
+    "options": [
+      {
+        "label": "A",
+        "text": "On the horizontal axis, at the point directly below the AD-SRAS intersection."
+      },
+      {
+        "label": "B",
+        "text": "On the vertical axis, at the height of the AD-SRAS intersection point — read horizontally across to the Price Level axis."
+      },
+      {
+        "label": "C",
+        "text": "On the LRAS curve at the full-employment output level."
+      },
+      {
+        "label": "D",
+        "text": "Above the AD curve at the maximum possible price level."
+      },
+      {
+        "label": "E",
+        "text": "At the midpoint of the SRAS curve."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The equilibrium price level (PL*) is determined by the height of the AD-SRAS intersection. From the intersection point, draw a horizontal line to the vertical axis (Price Level axis) - where that horizontal line meets the vertical axis is the equilibrium price level PL*; similarly, the equilibrium real GDP (Y*) is found by drawing a vertical line down from the intersection to the horizontal axis.",
+    "reference": "MOD-2.G | MOD-2.G.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "Which of the following correctly describes what determines the short-run equilibrium real GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The position of the LRAS curve alone determines short-run equilibrium real GDP."
+      },
+      {
+        "label": "B",
+        "text": "The government sets short-run equilibrium real GDP through fiscal policy."
+      },
+      {
+        "label": "C",
+        "text": "The intersection of the AD and SRAS curves determines short-run equilibrium real GDP — it is found on the horizontal axis directly below the point where the two curves cross."
+      },
+      {
+        "label": "D",
+        "text": "Short-run equilibrium real GDP is always equal to potential GDP by definition."
+      },
+      {
+        "label": "E",
+        "text": "The central bank sets short-run real GDP by controlling the money supply directly."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Short-run equilibrium real GDP is determined by where aggregate demand (AD) equals short-run aggregate supply (SRAS) - i.e., the intersection of the two curves. The horizontal axis value (Real GDP) at that intersection point is the short-run equilibrium real GDP; it may be above, below, or equal to potential GDP (Yf), as determined by the position of the LRAS.",
+    "reference": "MOD-2.G | MOD-2.G.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "The full-employment level of output (Yf) in the AD-AS model is represented by",
+    "options": [
+      {
+        "label": "A",
+        "text": "the height of the AD-SRAS intersection above the horizontal axis."
+      },
+      {
+        "label": "B",
+        "text": "the price level at which aggregate demand equals zero."
+      },
+      {
+        "label": "C",
+        "text": "the horizontal position of the vertical LRAS curve — the level of real GDP at which the LRAS is drawn."
+      },
+      {
+        "label": "D",
+        "text": "the midpoint between the highest and lowest price levels on the SRAS curve."
+      },
+      {
+        "label": "E",
+        "text": "the average of all short-run equilibrium real GDP values over the business cycle."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.G.3: The full-employment level of output (Yf) is the horizontal position of the LRAS - where the vertical LRAS line is drawn on the Real GDP axis. It represents the economy's potential output at full employment; the output gap is defined as the difference between actual real GDP (the AD-SRAS intersection) and Yf (the LRAS position).",
+    "reference": "MOD-2.G | MOD-2.G.2 | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "Which of the following correctly identifies a positive (inflationary) output gap?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Actual real GDP = $18T; Potential GDP (Yf) = $20T."
+      },
+      {
+        "label": "B",
+        "text": "Actual real GDP = $20T; Potential GDP (Yf) = $20T."
+      },
+      {
+        "label": "C",
+        "text": "Actual real GDP = $22T; Potential GDP (Yf) = $20T — the economy is producing $2T above potential, indicating an inflationary gap where unemployment is below the natural rate."
+      },
+      {
+        "label": "D",
+        "text": "Actual real GDP = $18T; Potential GDP (Yf) = $18T."
+      },
+      {
+        "label": "E",
+        "text": "Actual real GDP = $16T; Potential GDP (Yf) = $20T."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A positive (inflationary) output gap occurs when actual real GDP > Yf; in this case, $22T > $20T → inflationary gap of $2T. The economy is operating above potential, labor markets are tight, unemployment is below the natural rate, and wage-price spiral pressures build; this is an overheated economy.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "Which of the following correctly identifies a negative (recessionary) output gap?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Actual real GDP = $25T; Potential GDP (Yf) = $22T."
+      },
+      {
+        "label": "B",
+        "text": "Actual real GDP = $22T; Potential GDP (Yf) = $22T."
+      },
+      {
+        "label": "C",
+        "text": "Actual real GDP = $19T; Potential GDP (Yf) = $22T — the economy is producing $3T below potential, indicating a recessionary gap where unemployment exceeds the natural rate."
+      },
+      {
+        "label": "D",
+        "text": "Actual real GDP = $22T; Potential GDP (Yf) = $19T."
+      },
+      {
+        "label": "E",
+        "text": "Actual real GDP = $22T; Potential GDP (Yf) = $25T."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A negative (recessionary) output gap occurs when actual real GDP < Yf; here, $19T < $22T → recessionary gap of $3T. The economy is underperforming its capacity: unemployment > natural rate, resources are underutilized, and deflationary pressures (eventually lower wages) build in the long run.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "The output gap is calculated as",
+    "options": [
+      {
+        "label": "A",
+        "text": "Potential GDP minus the price level."
+      },
+      {
+        "label": "B",
+        "text": "Nominal GDP minus Real GDP."
+      },
+      {
+        "label": "C",
+        "text": "Actual real GDP minus potential GDP (Yf) — a positive gap is inflationary; a negative gap is recessionary."
+      },
+      {
+        "label": "D",
+        "text": "The price level minus the natural rate of unemployment."
+      },
+      {
+        "label": "E",
+        "text": "Full-employment output divided by the price level."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Output gap = Actual real GDP - Potential GDP (Yf); if the result is positive (actual > Yf), it is an inflationary gap. If negative (actual < Yf), it is a recessionary gap; if zero (actual = Yf), the economy is at long-run equilibrium with no output gap.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "In the AD-AS model, at long-run equilibrium (all three curves intersecting), which of the following is TRUE about unemployment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unemployment is zero — all workers are employed."
+      },
+      {
+        "label": "B",
+        "text": "Unemployment equals the cyclical unemployment rate."
+      },
+      {
+        "label": "C",
+        "text": "Unemployment equals the natural rate — only structural and frictional unemployment exist; cyclical unemployment is zero."
+      },
+      {
+        "label": "D",
+        "text": "Unemployment is at its historical maximum rate."
+      },
+      {
+        "label": "E",
+        "text": "Unemployment exceeds the natural rate, indicating persistent weakness."
+      }
+    ],
+    "answer": "C",
+    "explanation": "At long-run equilibrium (on the LRAS at Yf), the economy is at full employment. \"Full employment\" does NOT mean zero unemployment - it means unemployment equals the natural rate (structural + frictional, no cyclical). Cyclical unemployment is zero because actual GDP = potential GDP; the natural rate reflects normal labor market frictions and structural transitions.",
+    "reference": "MOD-2.G | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "If an economy has actual real GDP = $30T and potential GDP = $30T, the economy is",
+    "options": [
+      {
+        "label": "A",
+        "text": "in a recessionary gap — output must grow further."
+      },
+      {
+        "label": "B",
+        "text": "in an inflationary gap — output is above capacity."
+      },
+      {
+        "label": "C",
+        "text": "in long-run equilibrium — actual GDP equals potential GDP, there is no output gap, and the AD-SRAS intersection is on the LRAS."
+      },
+      {
+        "label": "D",
+        "text": "in stagflation — output and prices are simultaneously rising."
+      },
+      {
+        "label": "E",
+        "text": "below the natural rate of unemployment."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.G.3: When actual real GDP = Yf = $30T, the output gap is zero ($30T - $30T = $0). The economy is at long-run equilibrium: the AD-SRAS intersection falls exactly on the LRAS; there is no recessionary or inflationary gap, unemployment equals the natural rate, and the economy is operating at its full, sustainable capacity.",
+    "reference": "MOD-2.G | MOD-2.G.2 | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "A graph shows the AD-AS model. The AD-SRAS intersection is at real GDP = $16T, and the LRAS is at Yf = $20T. What type of output gap exists and what is its magnitude?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Inflationary gap of $4T — actual GDP exceeds potential."
+      },
+      {
+        "label": "B",
+        "text": "Recessionary gap of $20T."
+      },
+      {
+        "label": "C",
+        "text": "No output gap — all values are consistent with equilibrium."
+      },
+      {
+        "label": "D",
+        "text": "Recessionary gap of $4T — actual real GDP ($16T) is $4T below potential GDP ($20T). The economy is underperforming its capacity, unemployment exceeds the natural rate, and resources are underutilized."
+      },
+      {
+        "label": "E",
+        "text": "Inflationary gap of $16T."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Output gap = Actual GDP - Yf = $16T - $20T = -$4T; the negative value confirms a recessionary gap. The AD-SRAS intersection is $4T to the left of the LRAS, indicating the economy is producing below its full-employment potential; unemployment > natural rate; deflationary/wage-adjustment pressures build in the long run.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. Upward-sloping SRAS, downward-sloping AD intersecting at Y=$16T and PL=PL₁. Vertical LRAS at Yf=$20T (to the right of the intersection).",
+    "graphRequired": true
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "A graph shows the AD-AS model. The AD-SRAS intersection is at real GDP = $24T, and the LRAS is at Yf = $20T. What type of output gap exists and what is its magnitude?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Recessionary gap of $4T."
+      },
+      {
+        "label": "B",
+        "text": "No output gap."
+      },
+      {
+        "label": "C",
+        "text": "Inflationary gap of $4T — actual real GDP ($24T) is $4T above potential GDP ($20T). The economy is overheating, unemployment is below the natural rate, and inflationary wage pressures are building."
+      },
+      {
+        "label": "D",
+        "text": "Recessionary gap of $20T."
+      },
+      {
+        "label": "E",
+        "text": "Inflationary gap of $24T."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Output gap = Actual GDP - Yf = $24T - $20T = +$4T; the positive value confirms an inflationary gap. The AD-SRAS intersection is $4T to the right of the LRAS; the economy is operating above sustainable capacity: unemployment < natural rate, labor markets are tight, and rising wages will eventually shift SRAS left to restore long-run equilibrium.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. Upward-sloping SRAS, downward-sloping AD intersecting at Y=$24T and a high price level PL₁. Vertical LRAS at Yf=$20T (to the left of the intersection).",
+    "graphRequired": true
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "In the AD-AS model, the equilibrium price level is higher when",
+    "options": [
+      {
+        "label": "A",
+        "text": "the LRAS shifts to the right."
+      },
+      {
+        "label": "B",
+        "text": "actual GDP falls below potential GDP."
+      },
+      {
+        "label": "C",
+        "text": "the AD-SRAS intersection occurs at a higher point on the price level axis — reflecting either higher aggregate demand, higher production costs (SRAS shifts left), or a combination of both."
+      },
+      {
+        "label": "D",
+        "text": "the price level is set by government price controls at a higher level."
+      },
+      {
+        "label": "E",
+        "text": "the economy moves from an inflationary gap to long-run equilibrium."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The equilibrium price level is determined by the height of the AD-SRAS intersection on the Price Level axis. A higher equilibrium price level results from the intersection occurring higher up - caused by rightward AD shifts (demand-pull inflation) or leftward SRAS shifts (cost-push inflation); the price level is not set by policy but emerges from the balance of aggregate demand and supply.",
+    "reference": "MOD-2.G | MOD-2.G.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "In the AD-AS framework, if actual real GDP = Yf = $25T at a price level of 110, and we say the economy is in \"long-run equilibrium,\" which of the following is NOT also true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The AD and SRAS curves intersect at a real GDP of $25T."
+      },
+      {
+        "label": "B",
+        "text": "The AD-SRAS intersection is on the LRAS."
+      },
+      {
+        "label": "C",
+        "text": "Unemployment equals the natural rate."
+      },
+      {
+        "label": "D",
+        "text": "There is no inflationary or recessionary output gap."
+      },
+      {
+        "label": "E",
+        "text": "The price level must be at its lowest possible value of 100."
+      }
+    ],
+    "answer": "E",
+    "explanation": "Long-run equilibrium does NOT require the price level to be at any specific value (like 100). The price level can be at any level when all three curves intersect; the price level of 100 is simply a base year index value for comparison - it has no special significance in long-run equilibrium.",
+    "reference": "MOD-2.G | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "Which of the following correctly represents the relationship between long-run equilibrium and the three AD-AS curves?",
+    "options": [
+      {
+        "label": "A",
+        "text": "At long-run equilibrium: AD intersects LRAS but SRAS is to the left."
+      },
+      {
+        "label": "B",
+        "text": "At long-run equilibrium: SRAS intersects LRAS but AD is to the right."
+      },
+      {
+        "label": "C",
+        "text": "At long-run equilibrium: ALL THREE curves — AD, SRAS, and LRAS — intersect at a single point, so the economy is simultaneously at short-run equilibrium (AD = SRAS) and full-employment output (on the LRAS)."
+      },
+      {
+        "label": "D",
+        "text": "At long-run equilibrium: only SRAS and LRAS intersect; AD is irrelevant."
+      },
+      {
+        "label": "E",
+        "text": "At long-run equilibrium: AD is vertical, SRAS is horizontal, and LRAS is upward-sloping."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Long-run equilibrium requires all three curves to intersect at one point. This satisfies two conditions simultaneously: (1) AD = SRAS (short-run equilibrium - market clears, no excess demand or supply); (2) the intersection is on the LRAS (at Yf - full employment, no output gap); if any pair of curves intersects at a different point, the economy is not in long-run equilibrium.",
+    "reference": "MOD-2.G | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "When the economy is in a recessionary gap, which of the following correctly describes the relationship between actual real GDP and potential GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Actual real GDP > potential GDP (Yf); the economy is overproducing."
+      },
+      {
+        "label": "B",
+        "text": "Actual real GDP = potential GDP; no gap exists."
+      },
+      {
+        "label": "C",
+        "text": "Actual real GDP < potential GDP (Yf) — the economy is producing less than its full-employment capacity; the AD-SRAS intersection is to the left of the LRAS."
+      },
+      {
+        "label": "D",
+        "text": "Actual real GDP is growing faster than potential GDP."
+      },
+      {
+        "label": "E",
+        "text": "Potential GDP has fallen below actual real GDP due to a supply shock."
+      }
+    ],
+    "answer": "C",
+    "explanation": "In a recessionary gap: actual real GDP < Yf; on the AD-AS graph, the intersection of AD and SRAS is to the LEFT of the vertical LRAS. Output gap = Actual - Yf < 0; this negative gap means the economy is underperforming: unemployment > natural rate, idle resources, and deflationary wage pressures in the long run.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "On a standard AD-AS graph, if the economy is in long-run equilibrium, which statement correctly describes the graph?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The SRAS curve is vertical at Yf and all three curves intersect there."
+      },
+      {
+        "label": "B",
+        "text": "The AD curve is horizontal at the equilibrium price level."
+      },
+      {
+        "label": "C",
+        "text": "All three curves (downward-sloping AD, upward-sloping SRAS, and vertical LRAS) pass through a single common intersection point — the long-run equilibrium price level and Yf."
+      },
+      {
+        "label": "D",
+        "text": "The LRAS is to the right of the AD-SRAS intersection."
+      },
+      {
+        "label": "E",
+        "text": "The AD curve is to the right of the LRAS."
+      }
+    ],
+    "answer": "C",
+    "explanation": "At long-run equilibrium, the graph shows all three correctly-shaped curves passing through one point: downward-sloping AD (reflecting the inverse PL-RGDP relationship), upward-sloping SRAS (reflecting sticky wages), and vertical LRAS (at Yf). This single intersection determines the long-run equilibrium price level (vertical axis) and confirms that real GDP = Yf (horizontal axis).",
+    "reference": "MOD-2.G | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "The AD-AS model shows two possible states for the economy:\n\nState 1: AD-SRAS intersection at $18T; LRAS at Yf = $20T.\n\nState 2: AD-SRAS intersection at $22T; LRAS at Yf = $20T.\n\nWhich state has a recessionary gap and which has an inflationary gap?",
+    "options": [
+      {
+        "label": "A",
+        "text": "State 1: inflationary gap of $2T; State 2: recessionary gap of $2T."
+      },
+      {
+        "label": "B",
+        "text": "State 1: recessionary gap of $2T ($18T < $20T); State 2: inflationary gap of $2T ($22T > $20T)."
+      },
+      {
+        "label": "C",
+        "text": "Both states have inflationary gaps because actual GDP exceeds zero."
+      },
+      {
+        "label": "D",
+        "text": "State 1: no gap (at long-run equilibrium); State 2: recessionary gap of $2T."
+      },
+      {
+        "label": "E",
+        "text": "State 1: recessionary gap of $18T; State 2: inflationary gap of $22T."
+      }
+    ],
+    "answer": "B",
+    "explanation": "State 1: Actual ($18T) < Yf ($20T) → output gap = $18T - $20T = -$2T → recessionary gap of $2T. State 2: Actual ($22T) > Yf ($20T) → output gap = $22T - $20T = +$2T → inflationary gap of $2T; the LRAS position ($20T) is the benchmark; the AD-SRAS intersection position determines the gap type and magnitude.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "In the AD-AS model, which of the following is NOT a possible state for the economy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Short-run equilibrium with a recessionary gap (AD-SRAS to the left of LRAS)."
+      },
+      {
+        "label": "B",
+        "text": "Short-run equilibrium with an inflationary gap (AD-SRAS to the right of LRAS)."
+      },
+      {
+        "label": "C",
+        "text": "Long-run equilibrium with no output gap (AD-SRAS on the LRAS)."
+      },
+      {
+        "label": "D",
+        "text": "Short-run equilibrium exactly at Yf with no output gap."
+      },
+      {
+        "label": "E",
+        "text": "Short-run equilibrium where both an inflationary AND a recessionary gap exist simultaneously."
+      }
+    ],
+    "answer": "E",
+    "explanation": "It is impossible to have both an inflationary AND a recessionary gap simultaneously. The output gap is a single number (actual GDP - Yf) - it is either positive (inflationary), negative (recessionary), or zero (no gap); the economy has one short-run equilibrium at any given time, which is either above, below, or at Yf.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "If an economy has potential GDP = $50T and a recessionary gap of $5T, what is the actual real GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$55T"
+      },
+      {
+        "label": "B",
+        "text": "$50T"
+      },
+      {
+        "label": "C",
+        "text": "$45T — recessionary gap = Actual − Yf = −$5T, so Actual = Yf − $5T = $50T − $5T = $45T."
+      },
+      {
+        "label": "D",
+        "text": "$5T"
+      },
+      {
+        "label": "E",
+        "text": "$500T"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A recessionary gap means Actual GDP < Yf; recessionary gap = $5T (the magnitude of the shortfall); actual GDP = Yf - gap = $50T - $5T = $45T. The output gap calculation: Actual ($45T) - Yf ($50T) = -$5T (the negative sign confirms a recessionary gap); the AD-SRAS intersection is at $45T, $5T to the left of the LRAS at $50T.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "If an economy has potential GDP = $40T and an inflationary gap of $3T, what is the actual real GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$37T"
+      },
+      {
+        "label": "B",
+        "text": "$40T"
+      },
+      {
+        "label": "C",
+        "text": "$43T — inflationary gap = Actual − Yf = +$3T, so Actual = Yf + $3T = $40T + $3T = $43T."
+      },
+      {
+        "label": "D",
+        "text": "$3T"
+      },
+      {
+        "label": "E",
+        "text": "$120T"
+      }
+    ],
+    "answer": "C",
+    "explanation": "An inflationary gap means Actual GDP > Yf; output gap = +$3T (positive = inflationary); actual GDP = Yf + $3T = $40T + $3T = $43T. Check: Actual ($43T) - Yf ($40T) = +$3T (positive, confirming inflationary gap); the AD-SRAS intersection is at $43T, $3T to the right of the LRAS at $40T.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "According to MOD-2.G.3, the short-run equilibrium output CAN be above or below Yf. Which of the following explains WHY real GDP can temporarily exceed potential GDP (Yf)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It is impossible for real GDP to exceed Yf — potential GDP is an absolute ceiling."
+      },
+      {
+        "label": "B",
+        "text": "In the short run, firms can temporarily increase output above the sustainable level by working capital and labor harder than normal (overtime, extended shifts), pushing production beyond the long-run maximum sustainable capacity. This is not a permanent state because rising wages (from tight labor markets) will eventually shift SRAS left and return output to Yf."
+      },
+      {
+        "label": "C",
+        "text": "Real GDP exceeds Yf only when government spending causes an inflationary gap."
+      },
+      {
+        "label": "D",
+        "text": "Real GDP cannot exceed Yf unless the LRAS itself shifts right."
+      },
+      {
+        "label": "E",
+        "text": "Real GDP exceeds Yf only when the price level falls below its long-run equilibrium."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Real GDP can temporarily exceed Yf because in the short run, firms can push existing resources beyond their sustainable rates - workers work overtime, machinery runs at above-capacity utilization, inventories are drawn down. This is possible SHORT-TERM but not sustainable; the economy \"overheats\": unemployment falls below the natural rate, wages rise, SRAS shifts left, and output eventually returns to Yf.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 31,
+    "difficulty": "Easy",
+    "prompt": "The AD-AS model is shown with LRAS at Yf = $30T. Which of the following correctly matches each equilibrium state?",
+    "options": [
+      {
+        "label": "A",
+        "text": "AD-SRAS at $28T → inflationary gap; AD-SRAS at $30T → recessionary gap; AD-SRAS at $32T → long-run equilibrium."
+      },
+      {
+        "label": "B",
+        "text": "AD-SRAS at $28T → long-run equilibrium; AD-SRAS at $30T → recessionary gap; AD-SRAS at $32T → inflationary gap."
+      },
+      {
+        "label": "C",
+        "text": "AD-SRAS at $28T → recessionary gap (actual < Yf); AD-SRAS at $30T → long-run equilibrium (actual = Yf); AD-SRAS at $32T → inflationary gap (actual > Yf)."
+      },
+      {
+        "label": "D",
+        "text": "All three positions represent long-run equilibrium at different price levels."
+      },
+      {
+        "label": "E",
+        "text": "Only the $30T position is valid; the other two cannot occur in equilibrium."
+      }
+    ],
+    "answer": "C",
+    "explanation": ", MOD-2.G.2, MOD-2.G.3: $28T < $30T (Yf) → recessionary gap (AD-SRAS left of LRAS). $30T = $30T (Yf) → long-run equilibrium (AD-SRAS on LRAS). $32T > $30T (Yf) → inflationary gap (AD-SRAS right of LRAS). This is the complete classification system for output gaps in the AD-AS model.",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.2 | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 32,
+    "difficulty": "Easy",
+    "prompt": "In the AD-AS model, what happens to the price level at short-run equilibrium if aggregate demand increases (rightward AD shift) with SRAS unchanged?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The price level falls — more demand always lowers prices."
+      },
+      {
+        "label": "B",
+        "text": "The price level is unchanged — only real GDP changes when AD shifts."
+      },
+      {
+        "label": "C",
+        "text": "The price level rises — the rightward AD shift moves the AD-SRAS intersection to a higher point on the SRAS curve (upward-sloping), producing a new equilibrium at a higher price level AND higher real GDP."
+      },
+      {
+        "label": "D",
+        "text": "The price level falls to maintain the original long-run equilibrium."
+      },
+      {
+        "label": "E",
+        "text": "The price level only changes if the LRAS also shifts."
+      }
+    ],
+    "answer": "C",
+    "explanation": "When AD shifts right with SRAS unchanged, the new intersection of AD₂ and SRAS occurs higher up the upward-sloping SRAS curve. Both the price level AND real GDP rise at the new short-run equilibrium; the upward-sloping SRAS means any rightward AD shift produces a higher equilibrium price level AND higher equilibrium real GDP.",
+    "reference": "MOD-2.G | MOD-2.G.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 33,
+    "difficulty": "Easy",
+    "prompt": "Which of the following correctly defines \"long-run equilibrium\" in the AD-AS model, as stated in MOD-2.G.2?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Long-run equilibrium occurs when the AD curve alone determines real GDP."
+      },
+      {
+        "label": "B",
+        "text": "Long-run equilibrium occurs when the SRAS and LRAS curves intersect, regardless of AD."
+      },
+      {
+        "label": "C",
+        "text": "Long-run equilibrium occurs when the AD and SRAS curves intersect on the LRAS — at the full-employment level of real output (Yf)."
+      },
+      {
+        "label": "D",
+        "text": "Long-run equilibrium occurs when the price level is zero."
+      },
+      {
+        "label": "E",
+        "text": "Long-run equilibrium occurs when the economy has no SRAS curve (wages are fully flexible)."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.G.2 defines long-run equilibrium precisely: \"Long-run equilibrium occurs when the AD and SRAS curves intersect on the LRAS - i.e., at the full-employment level of real output.\" All three curves must pass through the same point for true long-run equilibrium. The LRAS (not just SRAS) must be part of the intersection.",
+    "reference": "MOD-2.G | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "A graph shows the following: Potential GDP = $50T (LRAS at $50T); short-run equilibrium at real GDP = $44T and price level = 95. Identify the type and magnitude of the output gap, state whether unemployment is above or below the natural rate, and describe the long-run self-adjustment process that returns the economy to Yf.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Inflationary gap of $6T; unemployment below natural rate; wages rise → SRAS shifts left → returns to $50T."
+      },
+      {
+        "label": "B",
+        "text": "Recessionary gap of $6T; unemployment above natural rate; wages fall → SRAS shifts right → economy returns to Yf = $50T at a lower price level."
+      },
+      {
+        "label": "C",
+        "text": "No gap; economy already at long-run equilibrium."
+      },
+      {
+        "label": "D",
+        "text": "Recessionary gap of $44T; wages rise → SRAS shifts right."
+      },
+      {
+        "label": "E",
+        "text": "Inflationary gap of $50T; wages fall → SRAS shifts right."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Output gap = $44T - $50T = -$6T (recessionary); actual GDP < Yf → unemployment > natural rate (excess labor supply). Long-run self-adjustment: loose labor market → wages gradually fall → SRAS shifts right → short-run equilibrium moves right along AD toward LRAS → economy returns to Yf = $50T at a lower price level than the original PL=95; this is the classical wage-flexibility adjustment back to long-run equilibrium.",
+    "reference": "MOD-2.G | MOD-2.G.2 | MOD-2.G.3",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. Downward-sloping AD, upward-sloping SRAS, intersecting at $44T and PL=95. Vertical LRAS at $50T (right of intersection).",
+    "graphRequired": true
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "A graph shows: Potential GDP = $40T; short-run equilibrium at $46T and price level = 125. Identify the gap type and magnitude, state whether unemployment is above or below the natural rate, and describe the long-run self-adjustment.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Recessionary gap of $6T; wages fall; SRAS shifts right toward Yf."
+      },
+      {
+        "label": "B",
+        "text": "Inflationary gap of $6T; unemployment below natural rate; wages rise → SRAS shifts left → economy returns to Yf = $40T at a higher price level."
+      },
+      {
+        "label": "C",
+        "text": "No gap; AD and LRAS intersection determines equilibrium."
+      },
+      {
+        "label": "D",
+        "text": "Recessionary gap of $40T; wages rise; price level falls."
+      },
+      {
+        "label": "E",
+        "text": "Inflationary gap of $46T; government must intervene."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Output gap = $46T - $40T = +$6T (inflationary); actual GDP > Yf → unemployment < natural rate (labor market tight). Long-run self-adjustment: tight labor market → wages rise → SRAS shifts left → short-run equilibrium moves left along AD back toward LRAS → economy returns to Yf = $40T at a HIGHER price level than original PL=125; inflationary gap always self-corrects via rising wages.",
+    "reference": "MOD-2.G | MOD-2.G.2 | MOD-2.G.3",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. Downward-sloping AD, upward-sloping SRAS intersecting at $46T and PL=125. Vertical LRAS at $40T (left of intersection).",
+    "graphRequired": true
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "Classify each of the following economies as being in a recessionary gap, inflationary gap, or long-run equilibrium.\n\nEconomy A: Actual GDP = $100T; Potential GDP = $100T.\n\nEconomy B: Actual GDP = $90T; Potential GDP = $100T.\n\nEconomy C: Actual GDP = $110T; Potential GDP = $100T.\n\nEconomy D: Actual GDP = $95T; Potential GDP = $100T.",
+    "options": [
+      {
+        "label": "A",
+        "text": "A: inflationary; B: recessionary; C: inflationary; D: long-run equilibrium."
+      },
+      {
+        "label": "B",
+        "text": "A: long-run equilibrium; B: recessionary; C: inflationary; D: recessionary."
+      },
+      {
+        "label": "C",
+        "text": "All four are in long-run equilibrium."
+      },
+      {
+        "label": "D",
+        "text": "A: long-run equilibrium; B: inflationary; C: recessionary; D: long-run equilibrium."
+      },
+      {
+        "label": "E",
+        "text": "A: recessionary; B: inflationary; C: long-run equilibrium; D: recessionary."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Economy A: $100T = $100T (Yf) → output gap = 0 → long-run equilibrium; economy B: $90T < $100T → gap = -$10T → recessionary gap. Economy C: $110T > $100T → gap = +$10T → inflationary gap; economy D: $95T < $100T → gap = -$5T → recessionary gap; the output gap formula (Actual - Yf) determines the classification: negative = recessionary, zero = LR equilibrium, positive = inflationary.",
+    "reference": "MOD-2.G | MOD-2.G.2 | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "A student draws an AD-AS graph showing the economy in long-run equilibrium. She then shows a rightward AD shift (from AD₁ to AD₂). Describe the complete transition from the original long-run equilibrium to the new short-run equilibrium, identifying: (a) the new short-run price level relative to the original; (b) the new short-run real GDP relative to Yf; (c) the type of output gap created.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) Lower price level; (b) below Yf; (c) recessionary gap."
+      },
+      {
+        "label": "B",
+        "text": "(a) Higher price level (PL₂ > PL₁) — rightward AD shift raises prices along the SRAS; (b) above Yf (Y₂ > Yf) — economy temporarily overshoots potential; (c) inflationary gap — actual GDP now exceeds Yf."
+      },
+      {
+        "label": "C",
+        "text": "(a) Same price level; (b) at Yf; (c) no gap."
+      },
+      {
+        "label": "D",
+        "text": "(a) Lower price level; (b) above Yf; (c) inflationary gap."
+      },
+      {
+        "label": "E",
+        "text": "(a) Higher price level; (b) below Yf; (c) recessionary gap."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.G.3: Starting at long-run equilibrium (all three curves intersect at PL₁, Yf); after AD shifts right to AD₂: new short-run equilibrium at AD₂ ∩ SRAS. Since SRAS slopes upward, the new intersection is at (a) a HIGHER price level (PL₂ > PL₁) and (b) HIGHER real GDP (Y₂ > Yf); (c) Actual GDP > Yf → inflationary gap; the LRAS is unchanged at Yf.",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.3",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. Original AD₁ and SRAS intersect on LRAS at PL₁ and Yf. New AD₂ (right of AD₁) intersects SRAS at PL₂ (higher) and Y₂ (greater than Yf). LRAS remains at Yf.",
+    "graphRequired": true
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "Starting from long-run equilibrium, a leftward AD shift (from AD₁ to AD₂) occurs. Describe the transition to the new short-run equilibrium: (a) new PL relative to original; (b) new real GDP relative to Yf; (c) output gap type.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) Higher PL; (b) above Yf; (c) inflationary gap."
+      },
+      {
+        "label": "B",
+        "text": "(a) Same PL; (b) at Yf; (c) no gap."
+      },
+      {
+        "label": "C",
+        "text": "(a) Lower PL (PL₂ < PL₁) — leftward AD shift moves the intersection down the SRAS; (b) below Yf (Y₂ < Yf) — economy undershoots potential; (c) recessionary gap — actual GDP is now below Yf."
+      },
+      {
+        "label": "D",
+        "text": "(a) Lower PL; (b) above Yf; (c) inflationary gap."
+      },
+      {
+        "label": "E",
+        "text": "(a) Higher PL; (b) below Yf; (c) recessionary gap."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.G.3: Starting at long-run equilibrium (PL₁, Yf). AD shifts left to AD₂: new short-run equilibrium at AD₂ ∩ SRAS = lower price level (PL₂ < PL₁) AND lower real GDP (Y₂ < Yf); output gap = Y₂ - Yf < 0 → recessionary gap; the economy underperforms its potential after the negative demand shock.",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.3",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. AD₁ and SRAS originally intersect on LRAS at PL₁ and Yf. New AD₂ (left of AD₁) intersects SRAS at PL₂ (lower) and Y₂ (less than Yf). LRAS remains at Yf.",
+    "graphRequired": true
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "Economy Alpha: Yf = $60T. Current short-run equilibrium: real GDP = $55T, PL = 105. Economy Beta: Yf = $60T. Current short-run equilibrium: real GDP = $65T, PL = 115.\n\nFor each economy: (a) calculate the output gap; (b) classify the gap; (c) state the unemployment condition relative to the natural rate; (d) describe the wage adjustment expected in the long run.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Alpha: +$5T inflationary; wages fall. Beta: −$5T recessionary; wages rise."
+      },
+      {
+        "label": "B",
+        "text": "Alpha: −$5T recessionary (actual < Yf); unemployment > natural rate; wages fall in LR. Beta: +$5T inflationary (actual > Yf); unemployment < natural rate; wages rise in LR."
+      },
+      {
+        "label": "C",
+        "text": "Alpha and Beta: both in long-run equilibrium."
+      },
+      {
+        "label": "D",
+        "text": "Alpha: −$5T recessionary; wages rise. Beta: +$5T inflationary; wages fall."
+      },
+      {
+        "label": "E",
+        "text": "Alpha: −$5T recessionary; no wage adjustment needed. Beta: +$5T inflationary; no wage adjustment needed."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Alpha: $55T - $60T = -$5T → recessionary gap; actual < Yf → unemployment > natural rate (slack labor market) → wages fall in LR → SRAS shifts right → returns to Yf at lower PL. Beta: $65T - $60T = +$5T → inflationary gap; actual > Yf → unemployment < natural rate (tight labor market) → wages rise in LR → SRAS shifts left → returns to Yf at higher PL.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "A student says: \"At short-run equilibrium, the economy must be at its LRAS because that's where supply and demand meet.\" Evaluate this claim.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Correct — short-run equilibrium always equals long-run equilibrium."
+      },
+      {
+        "label": "B",
+        "text": "Incorrect. Short-run equilibrium (AD = SRAS) can occur at any level of real GDP — it does NOT require the intersection to be on the LRAS. The three graphs illustrate the three cases: (1) recessionary gap (left of LRAS), (2) long-run equilibrium (on LRAS), and (3) inflationary gap (right of LRAS). The LRAS is not involved in determining short-run equilibrium — it only tells us whether the short-run equilibrium is at, above, or below potential."
+      },
+      {
+        "label": "C",
+        "text": "Correct — the LRAS always constrains where the AD-SRAS intersection can occur."
+      },
+      {
+        "label": "D",
+        "text": "Incorrect — at short-run equilibrium, only SRAS and LRAS intersect; AD is irrelevant."
+      },
+      {
+        "label": "E",
+        "text": "Correct, but only in perfectly competitive economies."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.G.2: Short-run equilibrium (MOD-2.G.1) = AD ∩ SRAS. This can occur ANYWHERE - left of LRAS (recessionary gap), ON the LRAS (long-run equilibrium), or right of LRAS (inflationary gap); long-run equilibrium (MOD-2.G.2) = AD ∩ SRAS ∩ LRAS (all three at the same point); short-run ≠ Long-run equilibrium necessarily.",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.2",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. Three possible graphs: (1) AD-SRAS intersection to the left of LRAS; (2) AD-SRAS intersection on LRAS; (3) AD-SRAS intersection to the right of LRAS.",
+    "graphRequired": true
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "In the AD-AS model, the economy is at Yf = $80T with PL = 120. A supply shock shifts SRAS to the left. Describe the new short-run equilibrium, the output gap created, and the unemployment condition.",
+    "options": [
+      {
+        "label": "A",
+        "text": "New SR equilibrium: higher PL and higher real GDP; inflationary gap; unemployment below natural rate."
+      },
+      {
+        "label": "B",
+        "text": "New SR equilibrium: lower PL and higher real GDP; recessionary gap; unemployment above natural rate."
+      },
+      {
+        "label": "C",
+        "text": "New SR equilibrium: higher PL (PL₂ > 120) and lower real GDP (Y₂ < $80T); recessionary gap since actual < Yf; unemployment exceeds the natural rate. The leftward SRAS shift produces stagflation: simultaneously higher prices AND lower output."
+      },
+      {
+        "label": "D",
+        "text": "New SR equilibrium: same PL and same real GDP; no gap; unemployment unchanged."
+      },
+      {
+        "label": "E",
+        "text": "New SR equilibrium: lower PL and lower real GDP; inflationary gap; wages rise."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.G.3: A leftward SRAS shift means less output at every price level; new short-run equilibrium (AD ∩ SRAS₂): higher price level (moves up the AD curve) AND lower real GDP (moves left along AD). Output gap = Y₂ - $80T < 0 → recessionary gap; unemployment > natural rate; this is the classic stagflation outcome: rising prices (PL rises) with falling output (Y₂ < Yf) - caused by an adverse supply shock.",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.3",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. Original AD and SRAS₁ intersect on LRAS at PL=120 and Yf=$80T. New SRAS₂ shifted left; it intersects AD at PL₂ (higher) and Y₂ (less than $80T). LRAS remains at $80T.",
+    "graphRequired": true
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "Economy Beta is in long-run equilibrium at Yf = $30T, PL = 100. A positive supply shock (SRAS shifts right) occurs. Describe the new short-run equilibrium relative to the original, and identify whether an output gap exists.",
+    "options": [
+      {
+        "label": "A",
+        "text": "New equilibrium: higher PL, higher real GDP; inflationary gap."
+      },
+      {
+        "label": "B",
+        "text": "New equilibrium: same PL and real GDP; no gap; SRAS shifts have no effect when starting from LR equilibrium."
+      },
+      {
+        "label": "C",
+        "text": "New equilibrium: lower PL (PL₂ < 100) and higher real GDP (Y₂ > $30T) — the rightward SRAS moves the AD-SRAS intersection down and to the right along the AD curve. Output gap = Y₂ − $30T > 0 → inflationary gap (actual GDP now temporarily exceeds Yf). The price level falls despite output rising — a favorable supply shock."
+      },
+      {
+        "label": "D",
+        "text": "New equilibrium: lower PL and lower real GDP; recessionary gap."
+      },
+      {
+        "label": "E",
+        "text": "New equilibrium: higher PL and lower real GDP; recessionary gap."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.G.3: Rightward SRAS shift (positive supply shock) → new AD ∩ SRAS₂ intersection moves down and to the right along the AD curve → lower price level AND higher real GDP. Output gap = Y₂ - Yf > 0 → inflationary gap (actual above potential); interestingly, a positive supply shock starting from LR equilibrium creates an inflationary gap while REDUCING the price level - this is why supply-side growth is generally preferred: more output at lower prices.",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.3",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. Original AD and SRAS₁ intersect on LRAS at $30T and PL=100. New SRAS₂ shifted right; it intersects AD at PL₂ (lower) and Y₂ (greater than $30T). LRAS remains at $30T.",
+    "graphRequired": true
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "The following data describes economy Gamma:\n\nPotential GDP = $70T.\n\nActual GDP = $70T.\n\nPrice level = 108.\n\nSubsequently, aggregate demand falls by $8T (multiplied effects: real GDP falls to $62T, PL falls to 100).\n\nDescribe the transition from long-run equilibrium to the new short-run equilibrium, including the new output gap.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Long-run equilibrium → inflationary gap of $8T; price level rises."
+      },
+      {
+        "label": "B",
+        "text": "Economy stays at Yf = $70T; only the price level changes."
+      },
+      {
+        "label": "C",
+        "text": "From long-run equilibrium (Yf = $70T, PL = 108), the AD shift left → new short-run equilibrium at $62T and PL = 100. Output gap = $62T − $70T = −$8T → recessionary gap of $8T. The economy moved from the LRAS to a position left of it. Unemployment is now above the natural rate."
+      },
+      {
+        "label": "D",
+        "text": "Output gap = +$8T; inflationary gap created; price level rises."
+      },
+      {
+        "label": "E",
+        "text": "No gap; the economy automatically adjusts to maintain Yf."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.G.3: Step 1 - original: AD ∩ SRAS on LRAS at $70T → LR equilibrium (no gap). Step 2 - AD falls → new short-run equilibrium at AD₂ ∩ SRAS = $62T and PL = 100 (moved down and left along SRAS); step 3 - output gap = $62T - $70T = -$8T → recessionary gap; economy is now left of LRAS, in a recessionary gap, with unemployment > natural rate.",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "Economy Delta has the following characteristics:\n\n• Potential GDP (Yf) = $45T.\n\n• Current short-run equilibrium: Real GDP = $45T, Price Level = 105.\n\nAn economist says: \"This economy is in long-run equilibrium.\" Evaluate this claim and state what graphical condition must be confirmed.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Correct — the economy is in long-run equilibrium as long as real GDP = Yf, regardless of the positions of any curves."
+      },
+      {
+        "label": "B",
+        "text": "The claim is correct PROVIDED the AD-SRAS intersection is simultaneously on the LRAS at $45T. If all three curves — AD, SRAS, and LRAS — intersect at ($45T, PL=105), then by MOD-2.G.2 the economy is in long-run equilibrium: actual GDP = Yf, no output gap, unemployment = natural rate."
+      },
+      {
+        "label": "C",
+        "text": "Incorrect — the economy is only in LR equilibrium when the price level equals 100."
+      },
+      {
+        "label": "D",
+        "text": "Incorrect — LR equilibrium requires actual GDP to be ABOVE Yf."
+      },
+      {
+        "label": "E",
+        "text": "Correct — the price level of 105 confirms long-run equilibrium."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The economist is correct, but the essential graphical condition is that ALL THREE curves intersect at the same point ($45T, PL=105). Simply having actual GDP = Yf is necessary but not sufficient to confirm LR equilibrium - the SRAS must also pass through that point; if SRAS intersects AD somewhere else and the economy \"happens to be\" at $45T for other reasons, it might not be a true equilibrium; the graph confirms LR equilibrium when all three curves meet at a single point.",
+    "reference": "MOD-2.G | MOD-2.G.2",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. AD, SRAS, and LRAS all intersecting at $45T and PL=105.",
+    "graphRequired": true
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "Three students draw AD-AS graphs. Compare their graphs:\n\nStudent A: AD-SRAS to the left of LRAS.\n\nStudent B: AD-SRAS on the LRAS.\n\nStudent C: AD-SRAS to the right of LRAS.\n\nFor each student's graph, identify: (a) the type of equilibrium or gap; (b) whether unemployment is above, at, or below the natural rate; (c) what long-run pressure on wages exists.",
+    "options": [
+      {
+        "label": "A",
+        "text": "A: inflationary; unemployment below natural rate; wages rise. B: LR equilibrium; unemployment at natural rate; no wage pressure. C: recessionary; unemployment above natural rate; wages fall."
+      },
+      {
+        "label": "B",
+        "text": "A: recessionary gap; unemployment above natural rate; downward wage pressure. B: long-run equilibrium; unemployment = natural rate; no sustained wage pressure. C: inflationary gap; unemployment below natural rate; upward wage pressure."
+      },
+      {
+        "label": "C",
+        "text": "All three are in the same equilibrium state — only the price level differs."
+      },
+      {
+        "label": "D",
+        "text": "A: inflationary; wages fall. B: recessionary; wages stable. C: long-run equilibrium; wages rise."
+      },
+      {
+        "label": "E",
+        "text": "A: recessionary; wages rise. B: LR equilibrium; wages fall. C: inflationary; wages stable."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.G.3: Student A (left of LRAS): recessionary gap → actual < Yf → unemployment > natural rate → labor market slack → downward wage pressure → SRAS will shift right in LR. Student B (on LRAS): long-run equilibrium → actual = Yf → unemployment = natural rate → no sustained wage pressure; student C (right of LRAS): inflationary gap → actual > Yf → unemployment < natural rate → labor market tight → upward wage pressure → SRAS will shift left in LR.",
+    "reference": "MOD-2.G | MOD-2.G.2 | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "Economy Epsilon: Potential GDP = $50T. Year 1: real GDP = $48T. Year 2: real GDP = $52T. Year 3: real GDP = $50T.\n\nFor each year, calculate the output gap, classify it, and state whether the economy is in short-run or long-run equilibrium (assuming Yf = $50T in all three years).",
+    "options": [
+      {
+        "label": "A",
+        "text": "Year 1: +$2T inflationary, LR equilibrium. Year 2: −$2T recessionary, short-run equilibrium. Year 3: no gap, LR equilibrium."
+      },
+      {
+        "label": "B",
+        "text": "Year 1: −$2T recessionary, short-run equilibrium (below Yf, not on LRAS). Year 2: +$2T inflationary, short-run equilibrium (above Yf, not on LRAS). Year 3: output gap = $0, could be long-run equilibrium IF AD-SRAS intersection is on the LRAS."
+      },
+      {
+        "label": "C",
+        "text": "Year 1: no gap; Year 2: +$2T inflationary; Year 3: −$2T recessionary."
+      },
+      {
+        "label": "D",
+        "text": "All three years are in long-run equilibrium."
+      },
+      {
+        "label": "E",
+        "text": "Year 1: −$2T; Year 2: +$2T; Year 3: no gap. All are long-run equilibria."
+      }
+    ],
+    "answer": "B",
+    "explanation": ", MOD-2.G.2, MOD-2.G.3: Year 1: $48T - $50T = -$2T → recessionary gap; short-run equilibrium (left of LRAS); year 2: $52T - $50T = +$2T → inflationary gap; short-run equilibrium (right of LRAS). Year 3: $50T - $50T = $0 → no output gap; this COULD be long-run equilibrium if all three curves intersect at $50T; note: MOD-2.G.2 requires AD ∩ SRAS on LRAS - merely having actual GDP = Yf without confirming the three-curve intersection is necessary but may not fully confirm LR equilibrium.",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.2 | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "A graph shows an economy in a recessionary gap. A policymaker says: \"We need to shift AD to the right by the exact amount of the output gap to restore long-run equilibrium.\" Using the AD-AS model, evaluate whether the policymaker's reasoning is precisely correct.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Correct — shifting AD right by the exact output gap amount restores the economy to Yf."
+      },
+      {
+        "label": "B",
+        "text": "Partially incorrect. The policymaker's goal is correct (shift AD right to close the recessionary gap and reach Yf), but because the SRAS is upward-sloping, shifting AD right also raises the price level. The required AD shift to bring real GDP to Yf is NOT the same dollar amount as the output gap — it must be somewhat larger than the gap because the price level rises along the SRAS as AD increases, meaning some of the additional demand goes into higher prices rather than higher output."
+      },
+      {
+        "label": "C",
+        "text": "Correct — the multiplier process ensures the exact output gap amount achieves the target."
+      },
+      {
+        "label": "D",
+        "text": "Incorrect — shifting AD to close the gap always creates an inflationary gap."
+      },
+      {
+        "label": "E",
+        "text": "Incorrect — the SRAS curve must also shift to close a recessionary gap; AD shifts alone are insufficient."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.G.3: The policymaker's direction is right (shift AD right), but the magnitude is tricky; because the SRAS is upward-sloping, a rightward AD shift raises BOTH real GDP and the price level. To get the AD-SRAS intersection exactly onto the LRAS at Yf, the required AD shift (in price-level-and-output space) is larger than the simple output gap dollar amount because rising prices absorb some of the demand increase; the multiplier calculation assumes a horizontal price level, which is an approximation.",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.3",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. AD₁ and SRAS intersect at Y₁ (left of Yf). LRAS at Yf. A second AD₂ (to the right) to be shifted to close the gap.",
+    "graphRequired": true
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "An economy has the following characteristics:\n\nLRAS at Yf = $100T\n\nSRAS: upward-sloping, positioned such that at PL=110, SRAS supplies $100T\n\nAD: downward-sloping, positioned such that at PL=110, AD demands $100T\n\nIs this economy in short-run equilibrium, long-run equilibrium, or both? How do you know?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only short-run equilibrium — the LRAS position is irrelevant."
+      },
+      {
+        "label": "B",
+        "text": "Neither — equilibrium requires government policy confirmation."
+      },
+      {
+        "label": "C",
+        "text": "Both short-run AND long-run equilibrium. At PL=110 and real GDP=$100T: (1) AD = SRAS ($100T demanded = $100T supplied) → short-run equilibrium (MOD-2.G.1). (2) The intersection is at $100T = Yf, which is on the LRAS → long-run equilibrium (MOD-2.G.2). All three conditions are satisfied simultaneously."
+      },
+      {
+        "label": "D",
+        "text": "Only long-run equilibrium — short-run equilibrium requires different conditions."
+      },
+      {
+        "label": "E",
+        "text": "Neither short-run nor long-run equilibrium — the price level must equal 100 for equilibrium."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.G.2: When AD = SRAS at the same price level (both equal at PL=110, real GDP=$100T), short-run equilibrium is achieved. When that intersection is also at Yf = $100T (on the LRAS), long-run equilibrium is simultaneously achieved; both conditions are met; this is the triple intersection showing long-run equilibrium that MOD-2.G.2 describes.",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "Country Rho has Yf = $80T and a current short-run equilibrium at $75T. The government uses expansionary fiscal policy to shift AD to the right. After the policy takes effect, real GDP rises to $82T. Describe the new output gap and explain whether the policy has \"over-shot\" the target.",
+    "options": [
+      {
+        "label": "A",
+        "text": "New output gap = −$5T; recessionary gap remains; policy fell short."
+      },
+      {
+        "label": "B",
+        "text": "New output gap = $0T; exactly at long-run equilibrium."
+      },
+      {
+        "label": "C",
+        "text": "New output gap = +$2T; inflationary gap — the policy has overshot the target. Instead of restoring the economy to Yf = $80T, the fiscal stimulus raised real GDP to $82T, creating an inflationary gap of $2T. The economy is now above sustainable capacity."
+      },
+      {
+        "label": "D",
+        "text": "New output gap = +$7T; large inflationary gap; policy was far too aggressive."
+      },
+      {
+        "label": "E",
+        "text": "New output gap = −$3T; still recessionary; further stimulus needed."
+      }
+    ],
+    "answer": "C",
+    "explanation": "New output gap = $82T - $80T = +$2T → inflationary gap; the policy aimed to close the recessionary gap of $5T ($75T - $80T) but overshot, bringing real GDP to $82T instead of $80T. The economy is now $2T above Yf - an inflationary gap; this \"overshooting\" is a risk of fiscal policy: timing and magnitude are difficult to calibrate precisely, especially given the multiplier process and the upward-sloping SRAS.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. LRAS at $80T. SRAS and original AD intersect at $75T. New AD₂ intersects SRAS at $82T (to the right of LRAS at $80T).",
+    "graphRequired": true
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "Compare the characteristics of an economy in a recessionary gap vs. an inflationary gap across four dimensions: (1) position of AD-SRAS intersection relative to LRAS; (2) output gap sign; (3) unemployment relative to natural rate; (4) long-run wage pressure direction.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Recessionary: right of LRAS; +; below natural rate; wages rise. Inflationary: left of LRAS; −; above natural rate; wages fall."
+      },
+      {
+        "label": "B",
+        "text": "Both have the same characteristics — only the price level differs."
+      },
+      {
+        "label": "C",
+        "text": "Recessionary: left of LRAS; negative output gap (actual < Yf); unemployment above natural rate; wages fall in LR. Inflationary: right of LRAS; positive output gap (actual > Yf); unemployment below natural rate; wages rise in LR."
+      },
+      {
+        "label": "D",
+        "text": "Recessionary: right of LRAS; positive; below natural rate; wages rise. Inflationary: left of LRAS; negative; above natural rate; wages fall."
+      },
+      {
+        "label": "E",
+        "text": "Both gaps are characterized by the same wage pressure direction but different prices."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.G.3: Recessionary gap: (1) left of LRAS; (2) negative (Actual < Yf); (3) unemployment > natural rate; (4) wages fall → SRAS shifts right → LR self-correction. Inflationary gap: (1) right of LRAS; (2) positive (Actual > Yf); (3) unemployment < natural rate; (4) wages rise → SRAS shifts left → LR self-correction; these two states are mirror images of each other in the AD-AS framework.",
+    "reference": "MOD-2.G | MOD-2.G.2 | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "Economy Sigma: Yf = $60T. The economy moves through three states:\n\nState 1: Short-run equilibrium at $55T (PL=100).\n\nState 2: Short-run equilibrium at $60T (PL=105).\n\nState 3: Short-run equilibrium at $65T (PL=112).\n\nFor each state: (a) identify the output gap type and magnitude; (b) state whether the economy is in LR equilibrium; (c) describe the expected long-run wage adjustment.",
+    "options": [
+      {
+        "label": "A",
+        "text": "All three states are in long-run equilibrium."
+      },
+      {
+        "label": "B",
+        "text": "State 1: −$5T recessionary; not LR equilibrium; wages fall → SRAS right → return to $60T. State 2: $0 gap; LR equilibrium if AD-SRAS-LRAS all meet at $60T; no sustained wage pressure. State 3: +$5T inflationary; not LR equilibrium; wages rise → SRAS left → return to $60T."
+      },
+      {
+        "label": "C",
+        "text": "State 1: inflationary; wages rise. State 2: recessionary; wages fall. State 3: LR equilibrium."
+      },
+      {
+        "label": "D",
+        "text": "State 1: +$5T inflationary; wages rise. State 2: LR equilibrium. State 3: −$5T recessionary; wages fall."
+      },
+      {
+        "label": "E",
+        "text": "States 1 and 3 are LR equilibria; State 2 is not."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.G.3: State 1: $55T - $60T = -$5T → recessionary; not LR equilibrium (left of LRAS); wages fall → SRAS shifts right → returns to $60T at lower PL. State 2: $60T - $60T = $0 → no gap → LR equilibrium (if AD-SRAS on LRAS at $60T); no sustained wage pressure; state 3: $65T - $60T = +$5T → inflationary; not LR equilibrium (right of LRAS); wages rise → SRAS shifts left → returns to $60T at higher PL.",
+    "reference": "MOD-2.G | MOD-2.G.2 | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "Explain why the AD-AS model predicts that the economy cannot permanently remain in a recessionary gap in the long run, without government intervention.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The economy remains in a recessionary gap permanently unless government intervenes."
+      },
+      {
+        "label": "B",
+        "text": "In the long run, the economy self-adjusts out of a recessionary gap through the wage flexibility mechanism. With actual GDP < Yf, unemployment > natural rate → excess labor supply → workers accept lower wages → production costs fall → SRAS shifts right → AD-SRAS intersection moves right along the AD curve → real GDP rises toward Yf → price level falls → economy returns to long-run equilibrium at Yf with a lower price level. The LRAS is the gravitational anchor that pulls the economy back to Yf."
+      },
+      {
+        "label": "C",
+        "text": "The economy self-adjusts only if the government increases aggregate demand."
+      },
+      {
+        "label": "D",
+        "text": "A recessionary gap automatically becomes an inflationary gap without intervention."
+      },
+      {
+        "label": "E",
+        "text": "The economy stays in a recessionary gap until the LRAS shifts right to match actual GDP."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The long-run self-correction mechanism (based on MOD-2.G.2 and wage flexibility): recessionary gap → unemployment > natural rate → labor market weak → wages fall → SRAS shifts right → AD-SRAS intersection moves toward LRAS → real GDP rises to Yf → price level falls → long-run equilibrium restored. This is MOD-2.G.2's implication: the long-run equilibrium (on the LRAS) is the economy's natural destination without policy.",
+    "reference": "MOD-2.G | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "Economy Tau is in a recessionary gap. Two simultaneous actions occur:\n\n(1) AD shifts right due to government spending.\n\n(2) SRAS shifts right due to lower oil prices.\n\nDescribe the combined effect on the short-run equilibrium price level and real GDP, and determine whether a recessionary gap, inflationary gap, or long-run equilibrium results.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real GDP rises (both shifts increase output); price level change is AMBIGUOUS (AD shift raises PL, SRAS shift lowers PL). The output gap depends on the combined magnitude of the rightward shifts — could result in a recessionary gap (if shifts were insufficient), long-run equilibrium (if perfectly calibrated), or inflationary gap (if combined shifts overshot Yf)."
+      },
+      {
+        "label": "B",
+        "text": "Real GDP falls and price level rises — the shifts cancel each other."
+      },
+      {
+        "label": "C",
+        "text": "Real GDP is unchanged; only the price level changes."
+      },
+      {
+        "label": "D",
+        "text": "Real GDP rises and price level rises unambiguously."
+      },
+      {
+        "label": "E",
+        "text": "Real GDP falls and price level falls — both shifts are deflationary."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Both rightward shifts increase the quantity of real GDP at the new AD₂ ∩ SRAS₂ intersection → real GDP RISES (both shifts reinforce each other on the output side). Price level: AD₂ shift → PL tends to rise (demand-pull); SRAS₂ shift → PL tends to fall (supply-push down); net PL change is AMBIGUOUS - depends on relative magnitudes; the output gap outcome (recessionary, LR equilibrium, or inflationary) depends on whether combined shifts bring the intersection exactly to, left of, or right of the LRAS.",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.3",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. Original AD₁ and SRAS₁ intersect left of LRAS. New AD₂ (right of AD₁) and SRAS₂ (right of SRAS₁). LRAS vertical at Yf.",
+    "graphRequired": true
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "Economy Nu is at long-run equilibrium at Yf = $70T, PL = 100. The economy simultaneously experiences: (1) a positive AD shock and (2) a negative SRAS shock (leftward shift) of equal magnitude. What is the combined effect on the short-run equilibrium, and is the economy still at Yf?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real GDP is unchanged at $70T; price level rises. The economy remains at Yf."
+      },
+      {
+        "label": "B",
+        "text": "Real GDP falls below $70T; recessionary gap; price level unchanged."
+      },
+      {
+        "label": "C",
+        "text": "Real GDP rises above $70T; inflationary gap; price level unchanged."
+      },
+      {
+        "label": "D",
+        "text": "Real GDP is AMBIGUOUS (AD shift → more output; SRAS shift → less output; could net to $70T, above, or below). Price level RISES unambiguously (both shifts raise the price level: AD shift = demand-pull, SRAS leftward = cost-push). Whether the economy is at Yf depends on relative shift magnitudes."
+      },
+      {
+        "label": "E",
+        "text": "Real GDP and price level are both unchanged — the shifts perfectly cancel in all dimensions."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Positive AD shock: raises both real GDP and PL; negative SRAS shock (leftward): raises PL but reduces real GDP; combined effect on real GDP: AMBIGUOUS - AD pushes it up, SRAS pulls it down. Net real GDP could be above $70T (inflationary gap), at $70T (LR equilibrium), or below $70T (recessionary gap), depending on magnitudes; price level: RISES unambiguously - both shocks push prices up (demand-pull + cost-push); if equal magnitude shifts are exactly offsetting for output, real GDP stays at $70T but at a higher price level.",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.3",
+    "graphDescription": "Vertical axis: Price Level. Horizontal axis: Real GDP. Original AD and SRAS intersect at $70T and PL=100 (on LRAS). New AD₂ (right) and SRAS₂ (left) shift by equal magnitude. New intersection.",
+    "graphRequired": true
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "Compare the concepts of \"short-run equilibrium\" and \"long-run equilibrium\" in the AD-AS model. In which situation is it possible to have short-run equilibrium WITHOUT long-run equilibrium, and vice versa?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both are always achieved simultaneously — there is no distinction in practice."
+      },
+      {
+        "label": "B",
+        "text": "Short-run equilibrium WITHOUT long-run equilibrium: whenever actual GDP ≠ Yf. Examples: recessionary gap or inflationary gap. The AD-SRAS intersection is not on the LRAS. Long-run equilibrium always includes short-run equilibrium (you cannot have LR without SR). They are both achieved simultaneously only when all three curves intersect at the same point."
+      },
+      {
+        "label": "C",
+        "text": "Long-run equilibrium WITHOUT short-run equilibrium: possible in countries with flexible wages that adjust faster than AD."
+      },
+      {
+        "label": "D",
+        "text": "Short-run equilibrium requires government policy; long-run equilibrium is always automatic."
+      },
+      {
+        "label": "E",
+        "text": "It is impossible to have one without the other — they are the same concept."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.G.2: Short-run equilibrium (AD = SRAS) can exist without long-run equilibrium whenever the intersection is not on the LRAS (i.e., output gap exists). Long-run equilibrium (AD = SRAS on LRAS) necessarily includes short-run equilibrium (AD = SRAS is part of the condition); therefore: LR ⊂ SR (long-run requires short-run, but not vice versa); short-run equilibrium is the more general condition; long-run equilibrium is a special case where the short-run equilibrium also happens to be at Yf.",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "Economy Pi has Yf = $45T. The following table shows short-run equilibrium data:\n\nScenario | Actual GDP | Price Level | Output Gap\n\n1        | $42T       | 98          | ?\n\n2        | $45T       | 102         | ?\n\n3        | $49T       | 108         | ?\n\nFill in the output gap column and classify each scenario.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Scenario 1: +$3T inflationary; Scenario 2: no gap; Scenario 3: −$4T recessionary."
+      },
+      {
+        "label": "B",
+        "text": "Scenario 1: −$3T recessionary; Scenario 2: $0 (LR equilibrium); Scenario 3: +$4T inflationary."
+      },
+      {
+        "label": "C",
+        "text": "All three scenarios have a gap of $45T."
+      },
+      {
+        "label": "D",
+        "text": "Scenario 1: no gap; Scenario 2: +$3T inflationary; Scenario 3: −$4T recessionary."
+      },
+      {
+        "label": "E",
+        "text": "Scenario 1: −$45T; Scenario 2: $0; Scenario 3: +$49T."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Output gap = Actual GDP - Yf; scenario 1: $42T - $45T = -$3T → recessionary gap (actual < Yf). Scenario 2: $45T - $45T = $0 → no output gap (long-run equilibrium, if all three curves intersect); scenario 3: $49T - $45T = +$4T → inflationary gap (actual > Yf); the price level data is consistent - higher output corresponds to higher price levels along the SRAS curve.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "Using the AD-AS model, explain why an inflationary gap is called \"inflationary.\" What specific pressures arise when the economy is above Yf that lead to actual inflation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Inflationary gaps are called \"inflationary\" because the price level is always rising when actual GDP > Yf."
+      },
+      {
+        "label": "B",
+        "text": "An inflationary gap is called \"inflationary\" because: (1) actual GDP > Yf → unemployment < natural rate → labor markets are tight → workers have bargaining power → nominal wages rise → production costs increase → firms pass higher costs on as higher prices. (2) Also, excess demand at above-potential output puts direct upward pressure on prices. Both demand-pull (excess demand) and cost-push (rising wages) factors create inflationary pressure when the economy is in a positive output gap."
+      },
+      {
+        "label": "C",
+        "text": "Inflationary gaps are called \"inflationary\" only because of monetary policy errors."
+      },
+      {
+        "label": "D",
+        "text": "The term \"inflationary\" refers to the higher price level compared to the recessionary gap state, not actual inflation pressures."
+      },
+      {
+        "label": "E",
+        "text": "Inflationary gaps cause deflation — the name is counterintuitive but standard."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The term \"inflationary\" gap reflects: (1) The economy is above Yf → unemployment < natural rate → tight labor market → wages rise → SRAS shifts left → higher equilibrium price level (cost-push inflation). (2) Excess aggregate demand (AD-SRAS to the right of LRAS) itself puts upward pressure on prices; both demand-side (more spending than the economy can sustainably produce) and supply-side (rising wages from tight labor markets) forces are inflationary when actual GDP > Yf.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "Economy Kappa has been in a recessionary gap for several years. The central bank decides not to intervene (no policy action). Which path does the economy take to return to long-run equilibrium, and what happens to the price level along the way?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The economy remains in a recessionary gap indefinitely without government intervention."
+      },
+      {
+        "label": "B",
+        "text": "Without intervention, the economy self-corrects via falling wages: recessionary gap → unemployment > natural rate → labor market slack → nominal wages gradually fall → SRAS shifts right → AD-SRAS intersection moves right and downward along the AD curve → real GDP rises toward Yf → price level falls → economy eventually returns to the LRAS at Yf at a LOWER price level than the original long-run equilibrium."
+      },
+      {
+        "label": "C",
+        "text": "Without intervention, the economy overcorrects and enters an inflationary gap."
+      },
+      {
+        "label": "D",
+        "text": "Without intervention, the LRAS shifts left to match actual GDP, creating a new lower Yf."
+      },
+      {
+        "label": "E",
+        "text": "Without intervention, the price level rises and real GDP falls — the recessionary gap widens."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Without intervention, the recessionary gap self-corrects through long-run wage flexibility (MOD-2.E.1): recessionary gap → unemployment > natural rate → wages fall (long run) → SRAS shifts right → AD-SRAS moves right along AD (higher output, lower price level) → economy converges to Yf on the LRAS. The long-run equilibrium price level is LOWER than the original - a natural deflationary adjustment; the LRAS is the anchor; the economy gravitates back to it.",
+    "reference": "MOD-2.G | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "Economy Lambda has Yf = $90T. After a series of economic shocks:\n\nScenario A: AD shifts right by enough to create an inflationary gap of $8T.\n\nScenario B: SRAS shifts left by enough to create a recessionary gap of $6T.\n\nFor each scenario, calculate the new actual real GDP and describe the long-run self-correction mechanism.",
+    "options": [
+      {
+        "label": "A",
+        "text": "A: $82T (recessionary gap); B: $96T (inflationary gap)."
+      },
+      {
+        "label": "B",
+        "text": "A: Actual GDP = $90T + $8T = $98T (inflationary gap of $8T); wages rise → SRAS left → returns to $90T at higher PL. B: Actual GDP = $90T − $6T = $84T (recessionary gap of $6T); wages fall → SRAS right → returns to $90T at lower PL."
+      },
+      {
+        "label": "C",
+        "text": "A: $98T inflationary; wages fall → returns. B: $84T recessionary; wages rise → returns."
+      },
+      {
+        "label": "D",
+        "text": "Both scenarios return to $90T immediately with no self-correction needed."
+      },
+      {
+        "label": "E",
+        "text": "A: $8T actual GDP; B: $6T actual GDP."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Scenario A: inflationary gap = +$8T → actual = Yf + $8T = $90T + $8T = $98T; self-correction: unemployment < natural rate → wages rise → SRAS shifts left → economy returns to Yf=$90T at higher PL. Scenario B: recessionary gap = -$6T → actual = Yf - $6T = $90T - $6T = $84T; self-correction: unemployment > natural rate → wages fall → SRAS shifts right → economy returns to Yf=$90T at lower PL.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "Which of the following correctly explains the distinction between \"short-run equilibrium\" and \"full-employment equilibrium\" in the AD-AS framework?",
+    "options": [
+      {
+        "label": "A",
+        "text": "They are the same concept — the AD-SRAS intersection always equals full-employment output."
+      },
+      {
+        "label": "B",
+        "text": "Short-run equilibrium = any AD-SRAS intersection (which may be above, below, or at Yf). Full-employment equilibrium = the special case where the AD-SRAS intersection is exactly at Yf (on the LRAS), simultaneously satisfying both short-run and long-run equilibrium conditions."
+      },
+      {
+        "label": "C",
+        "text": "Full-employment equilibrium occurs when the LRAS shifts right to meet the AD-SRAS intersection."
+      },
+      {
+        "label": "D",
+        "text": "Short-run equilibrium requires government intervention; full-employment equilibrium occurs naturally."
+      },
+      {
+        "label": "E",
+        "text": "Short-run equilibrium is always above full-employment output because of sticky wages."
+      }
+    ],
+    "answer": "B",
+    "explanation": ", MOD-2.G.2: Short-run equilibrium: any point where AD = SRAS - real GDP could be at any level; full-employment equilibrium (= long-run equilibrium): the specific case where AD = SRAS at Yf (on the LRAS). Full-employment equilibrium is a subset of short-run equilibrium; the AD-AS model explicitly allows for short-run equilibria both above and below Yf - the full-employment case is just one of three possible positions of the AD-SRAS intersection relative to the LRAS.",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "Economy Xi: Yf = $55T. Current AD-SRAS intersection: real GDP = $55T, PL = 115. LRAS is at $55T. Is this economy in long-run equilibrium? What would change this answer if we discovered that wages are currently above equilibrium and are falling?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The economy is in LR equilibrium regardless of wage dynamics."
+      },
+      {
+        "label": "B",
+        "text": "Currently YES — actual GDP = Yf = $55T and the AD-SRAS intersection is on the LRAS → long-run equilibrium criteria satisfied. BUT if wages are above equilibrium and falling, this means SRAS will shift right → the current intersection will move → real GDP will exceed $55T → inflationary gap will emerge. Falling wages suggest the economy recently had or still has a recessionary gap that is in the process of self-correcting, or wages are overshooting downward."
+      },
+      {
+        "label": "C",
+        "text": "No — the economy is always in a recessionary gap when wages are falling."
+      },
+      {
+        "label": "D",
+        "text": "Yes, and falling wages confirm LR equilibrium — wages always fall at LR equilibrium."
+      },
+      {
+        "label": "E",
+        "text": "No — the economy can never be at LR equilibrium if wages are changing."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Technically, real GDP = Yf = $55T and the AD-SRAS intersection on the LRAS satisfies the LR equilibrium definition. However, falling wages indicate ongoing adjustment - the SRAS will shift right → real GDP will rise above $55T → inflationary gap will develop; true LR equilibrium requires not just that real GDP = Yf but that there is no further pressure for wages to change (no excess labor demand or supply); falling wages signal the economy is in transition, not at a stable long-run equilibrium.",
+    "reference": "MOD-2.G | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "Two economies have identical potential GDPs (Yf = $100T each) but different short-run equilibria:\n\nEconomy A: Real GDP = $95T, PL = 90.\n\nEconomy B: Real GDP = $107T, PL = 118.\n\nCompare their output gaps (type and magnitude), the likely direction of long-run SRAS adjustment in each, and the final long-run equilibrium price level (relative to current) for each.",
+    "options": [
+      {
+        "label": "A",
+        "text": "A: +$5T inflationary; wages rise → SRAS left → PL rises to LR equilibrium. B: −$7T recessionary; wages fall → SRAS right → PL falls to LR equilibrium."
+      },
+      {
+        "label": "B",
+        "text": "A: −$5T recessionary; unemployment > natural rate; wages fall → SRAS right → returns to $100T at LOWER PL (below 90). B: +$7T inflationary; unemployment < natural rate; wages rise → SRAS left → returns to $100T at HIGHER PL (above 118)."
+      },
+      {
+        "label": "C",
+        "text": "Both economies automatically return to $100T with no change in price levels."
+      },
+      {
+        "label": "D",
+        "text": "A: −$5T recessionary; wages rise; PL rises. B: +$7T inflationary; wages fall; PL falls."
+      },
+      {
+        "label": "E",
+        "text": "A: recessionary, SRAS shifts left; B: inflationary, SRAS shifts right."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Economy A: $95T - $100T = -$5T → recessionary gap; unemployment > natural rate → wages fall → SRAS shifts right → returns to Yf = $100T at a LOWER PL than 90 (SRAS rightward shift moves intersection down the AD curve). Economy B: $107T - $100T = +$7T → inflationary gap; unemployment < natural rate → wages rise → SRAS shifts left → returns to Yf = $100T at a HIGHER PL than 118 (SRAS leftward shift moves intersection up the AD curve).",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "An AP exam question asks a student to \"draw a correctly labeled AD-AS graph showing an economy in a recessionary gap.\" What are the minimum labeling requirements, and what graphical condition must be clearly shown?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Draw a single curve labeled \"AS\" sloping upward; no other requirements."
+      },
+      {
+        "label": "B",
+        "text": "Draw AD and SRAS only; no need for LRAS in a recessionary gap diagram."
+      },
+      {
+        "label": "C",
+        "text": "Minimum requirements: (1) Vertical axis labeled \"Price Level\"; (2) Horizontal axis labeled \"Real GDP\"; (3) Downward-sloping AD curve; (4) Upward-sloping SRAS curve; (5) Vertical LRAS line at Yf; (6) AD-SRAS intersection labeled (PL and Y) to the LEFT of the LRAS, showing the recessionary gap; (7) Yf labeled on the horizontal axis at the LRAS position."
+      },
+      {
+        "label": "D",
+        "text": "Draw a vertical line labeled \"LRAS\" and a horizontal line labeled \"AD\"; SRAS is optional."
+      },
+      {
+        "label": "E",
+        "text": "Just label the price level and real GDP on the axes; the curves themselves are not required."
+      }
+    ],
+    "answer": "C",
+    "explanation": "(graphing): A correct recessionary gap AD-AS graph requires: (1) Correct axis labels (Price Level vertical; Real GDP horizontal); (2) All three curves correctly shaped (AD downward-sloping; SRAS upward-sloping; LRAS vertical). (3) AD-SRAS intersection to the LEFT of the LRAS (this is what defines the recessionary gap); (4) The intersection point labeled with PL and Y (actual); (5) Yf labeled on the horizontal axis at the LRAS; this is the standard AP exam requirement for Skill 4.B.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "Economy Mu has Yf = $70T. An inflationary gap of $5T currently exists. If no policy action is taken, describe the long-run self-adjustment path using the AD-AS model, identifying the three sequential graphical changes.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 1: LRAS shifts left to $65T. Step 2: Economy returns to lower Yf. Step 3: Recessionary gap created."
+      },
+      {
+        "label": "B",
+        "text": "Step 1: AD shifts left automatically. Step 2: SRAS stays fixed. Step 3: Economy returns to Yf."
+      },
+      {
+        "label": "C",
+        "text": "Step 1: Inflationary gap → unemployment < natural rate → tight labor market → wages rise. Step 2: Rising wages → production costs increase → SRAS shifts LEFT. Step 3: New SRAS₂ intersects AD at the LRAS → economy returns to Yf = $70T at a HIGHER price level. The inflationary gap is closed by the SRAS shifting left until all three curves meet on the LRAS."
+      },
+      {
+        "label": "D",
+        "text": "Step 1: AD shifts right further. Step 2: Price level rises without output changes. Step 3: LRAS shifts right to $75T."
+      },
+      {
+        "label": "E",
+        "text": "Step 1: The recessionary gap automatically converts to LR equilibrium. Step 2: SRAS and AD both shift. Step 3: Output falls to $65T."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Inflationary gap self-correction: Step 1 - above Yf → unemployment < natural rate → labor market tight → nominal wages rise (long-run wage flexibility); step 2 - higher wages → production costs rise → SRAS shifts LEFT (MOD-2.C.3). Step 3 - SRAS shifts left until new SRAS ∩ AD is exactly on the LRAS at Yf = $70T; price level at the new LR equilibrium is HIGHER than the original inflationary gap price level; output returns to $70T; the inflationary gap is closed.",
+    "reference": "MOD-2.G | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "Which of the following AD-AS scenarios results in BOTH a higher price level AND higher real GDP in the new short-run equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "SRAS shifts left (cost-push shock) with AD unchanged."
+      },
+      {
+        "label": "B",
+        "text": "SRAS shifts right (positive supply shock) with AD unchanged."
+      },
+      {
+        "label": "C",
+        "text": "AD shifts left (negative demand shock) with SRAS unchanged."
+      },
+      {
+        "label": "D",
+        "text": "AD shifts right (positive demand shock) with SRAS unchanged — the rightward AD shift moves the intersection up the upward-sloping SRAS, increasing both the equilibrium price level and equilibrium real GDP."
+      },
+      {
+        "label": "E",
+        "text": "LRAS shifts right, increasing potential output with no change in AD or SRAS."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Rightward AD shift + unchanged upward-sloping SRAS → new intersection is up and to the right along the SRAS → BOTH higher PL (demand-pull) AND higher real GDP. This is the fundamental short-run demand expansion result.",
+    "reference": "MOD-2.G | MOD-2.G.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "Economy Omega: Yf = $80T. Current state: AD-SRAS intersection at $80T (on LRAS). A negative supply shock (SRAS shifts left) and a positive demand shock (AD shifts right) occur simultaneously. What can be said with certainty about the new short-run equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real GDP will fall and price level will fall."
+      },
+      {
+        "label": "B",
+        "text": "Real GDP will rise and price level will rise."
+      },
+      {
+        "label": "C",
+        "text": "Real GDP effect is AMBIGUOUS — negative SRAS shock reduces output; positive AD shock increases output; net effect depends on magnitudes. Price level will RISE — both the leftward SRAS shift (cost-push) and rightward AD shift (demand-pull) raise the price level. These two inflation effects reinforce each other."
+      },
+      {
+        "label": "D",
+        "text": "Real GDP will fall and price level will rise."
+      },
+      {
+        "label": "E",
+        "text": "Real GDP will rise and price level is ambiguous."
+      }
+    ],
+    "answer": "C",
+    "explanation": "SRAS shifts left: at any given AD, less output (GDP ↓) and higher prices (PL ↑); AD shifts right: at any given SRAS, more output (GDP ↑) and higher prices (PL ↑). Combined: (1) Real GDP: SRAS says down, AD says up → AMBIGUOUS (depends on magnitudes); (2) Price level: both say up → RISES unambiguously; when both an adverse supply shock and positive demand shock occur simultaneously, the price level effect is certain (upward) but the real GDP effect is uncertain.",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "An economy starts in a recessionary gap. The government uses expansionary fiscal policy to shift AD right. Describe the difference between the effect in the SHORT RUN vs. what happens in the LONG RUN (with no further policy action after the AD shift), assuming the policy exactly closes the recessionary gap.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Short run and long run produce identical outcomes."
+      },
+      {
+        "label": "B",
+        "text": "Short run: AD shifts right → new AD-SRAS intersection → real GDP rises toward Yf at a higher price level → recessionary gap closed (economy now at LR equilibrium if policy exactly right). Long run (IF at LR equilibrium): no further change needed — economy is already at Yf on the LRAS. If policy overshoots (creates inflationary gap), then in the long run wages rise → SRAS shifts left → economy returns to Yf at an even higher price level."
+      },
+      {
+        "label": "C",
+        "text": "Short run: AD shift has no effect; long run: SRAS adjusts automatically."
+      },
+      {
+        "label": "D",
+        "text": "Short run: AD shift creates an inflationary gap; long run: LRAS shifts right."
+      },
+      {
+        "label": "E",
+        "text": "Short run: price level falls due to the fiscal expansion; long run: price level rises further."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.G.2: Short run: rightward AD shift → new AD-SRAS intersection at a higher PL and higher real GDP → moves economy toward Yf. If calibrated perfectly, the AD shift brings the economy to exactly Yf - long-run equilibrium (all three curves intersect); long run (assuming perfect calibration): no further adjustment needed - economy is at LR equilibrium; if overshot: wages rise → SRAS left → economy self-corrects back to Yf at an even higher PL.",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "Economy Phi is in long-run equilibrium at Yf = $60T, PL = 108. Three separate one-time shocks are described:\n\nShock 1: Technology improvement shifts LRAS right to Yf = $65T (with no immediate change in AD or SRAS).\n\nShock 2: Oil prices spike, shifting SRAS left.\n\nShock 3: Consumer confidence surges, shifting AD right.\n\nFor each shock, describe the resulting output gap (relative to the RELEVANT Yf) after the shock.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Shock 1: creates recessionary gap (LRAS moves right, actual stays at $60T < new $65T). Shock 2: creates recessionary gap (less output, but Yf unchanged). Shock 3: creates inflationary gap (more output demanded, Yf unchanged)."
+      },
+      {
+        "label": "B",
+        "text": "Shock 1: the LRAS shift means Yf is now $65T but actual GDP is still approximately $60T (AD and SRAS haven't moved) → recessionary gap of $5T relative to new Yf. Shock 2: SRAS shifts left → AD-SRAS intersection moves to lower output and higher PL → recessionary gap (actual < $60T Yf) AND cost-push inflation. Shock 3: AD shifts right → intersection moves to higher output and higher PL → inflationary gap (actual > $60T Yf)."
+      },
+      {
+        "label": "C",
+        "text": "All three shocks create inflationary gaps."
+      },
+      {
+        "label": "D",
+        "text": "Shock 1: no gap; Shock 2: inflationary gap; Shock 3: recessionary gap."
+      },
+      {
+        "label": "E",
+        "text": "All three shocks have no effect on the output gap since the economy self-corrects instantly."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Shock 1: LRAS shifts right to $65T but AD and SRAS remain at old position → AD-SRAS intersection still at ~$60T → recessionary gap of $5T (actual < new Yf $65T). Shock 2: SRAS shifts left → new AD-SRAS intersection is lower-output, higher-PL → actual GDP < $60T (Yf) → recessionary gap (and stagflation: higher PL + lower output); shock 3: AD shifts right → new intersection is higher-output, higher-PL → actual GDP > $60T (Yf) → inflationary gap.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "Economy Rho: Yf = $50T. The economy is observed at multiple points in time. For each observation, complete the output gap and gap classification.\n\nTime 1: Actual GDP = $46T. Output gap = ?, Gap type = ?\n\nTime 2: Actual GDP = $53T. Output gap = ?, Gap type = ?\n\nTime 3: Actual GDP = $50T. Output gap = ?, Gap type = ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "T1: +$4T inflationary; T2: −$3T recessionary; T3: $0 long-run equilibrium."
+      },
+      {
+        "label": "B",
+        "text": "T1: −$4T recessionary; T2: +$3T inflationary; T3: $0 (long-run equilibrium if AD-SRAS on LRAS)."
+      },
+      {
+        "label": "C",
+        "text": "T1: $0 LR equilibrium; T2: +$3T inflationary; T3: −$4T recessionary."
+      },
+      {
+        "label": "D",
+        "text": "All three times: $0 output gap."
+      },
+      {
+        "label": "E",
+        "text": "T1: −$4T recessionary; T2: −$3T recessionary; T3: $0 long-run equilibrium."
+      }
+    ],
+    "answer": "B",
+    "explanation": "T1: $46T - $50T = -$4T → recessionary gap (actual below Yf); T2: $53T - $50T = +$3T → inflationary gap (actual above Yf). T3: $50T - $50T = $0 → no output gap (long-run equilibrium conditions met if all three curves intersect at $50T); the output gap sign determines the classification: negative = recessionary, positive = inflationary, zero = long-run equilibrium.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "A student argues: \"Closing a recessionary gap requires only shifting AD to the right because that's what the economy needs — more demand.\" Another student says: \"The SRAS can also close the gap on its own in the long run.\" Who is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only the first student is correct — SRAS adjustments cannot close gaps."
+      },
+      {
+        "label": "B",
+        "text": "Both students are correct from their respective perspectives. The first student describes the POLICY approach: shift AD right to close the gap faster (reaching Yf sooner). The second student describes the SELF-CORRECTION approach: without policy, wages eventually fall (long-run flexibility) → SRAS shifts right → economy returns to Yf. Both mechanisms close the recessionary gap and restore long-run equilibrium. They differ in speed, price level outcomes, and whether government action is needed."
+      },
+      {
+        "label": "C",
+        "text": "Only the second student is correct — AD shifts cannot permanently close gaps."
+      },
+      {
+        "label": "D",
+        "text": "Neither student is correct — the LRAS must shift to close any gap."
+      },
+      {
+        "label": "E",
+        "text": "The first student is correct only in the short run; in the long run, neither mechanism works."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Both mechanisms close a recessionary gap and restore LR equilibrium; AD shift (policy): faster, raises PL; SRAS self-correction (automatic): slower, lowers PL; both result in real GDP = Yf. The AD-AS model recognizes both paths to the LRAS; the difference: AD policy is active (requires government action) and raises price level; SRAS self-correction is passive (requires no policy) and lowers price level; long-run equilibrium is the destination regardless of path.",
+    "reference": "MOD-2.G | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 71,
+    "difficulty": "Medium",
+    "prompt": "Economy Sigma: Yf = $75T. AD and SRAS intersect at $75T and PL = 112. The LRAS is at $75T. Long-run equilibrium confirmed. Subsequently, a technological breakthrough causes the LRAS to shift right to $82T.\n\nDescribe: (a) the new output gap (relative to the new Yf); (b) whether it is a recessionary or inflationary gap; (c) what will happen to the SRAS in the long run.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) +$7T inflationary gap (AD-SRAS still at $75T, new Yf = $82T, so actual > new Yf — wait, $75T < $82T)."
+      },
+      {
+        "label": "B",
+        "text": "(a) Output gap = $75T − $82T = −$7T; (b) recessionary gap — actual GDP ($75T) is now below the new potential ($82T = new Yf after LRAS shift). (c) In the long run, the recessionary gap pressure (unemployment > natural rate relative to new Yf) means wages will fall → SRAS shifts right → economy moves toward the new Yf = $82T at a lower price level."
+      },
+      {
+        "label": "C",
+        "text": "(a) No gap; economy automatically adjusts to any LRAS shift."
+      },
+      {
+        "label": "D",
+        "text": "(a) +$7T inflationary; wages rise; SRAS shifts left."
+      },
+      {
+        "label": "E",
+        "text": "(a) −$7T recessionary; but SRAS stays fixed — only AD can close this gap."
+      }
+    ],
+    "answer": "B",
+    "explanation": "After LRAS shifts right to $82T, the AD-SRAS intersection is still at $75T (AD and SRAS didn't move); new output gap = actual ($75T) - new Yf ($82T) = -$7T → recessionary gap; (b) Actual GDP is now $7T BELOW the new, higher potential. (c) The gap creates pressure: wages fall → SRAS shifts right → economy moves toward the new $82T Yf; note: a rightward LRAS shift without a corresponding AD or SRAS shift always creates a recessionary gap - the economy must catch up to the higher potential.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 72,
+    "difficulty": "Medium",
+    "prompt": "Evaluate the following claim: \"In the AD-AS model, long-run equilibrium is the ONLY sustainable state because any deviation will be corrected by market forces.\" Do you agree or disagree, using MOD-2.G concepts?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Disagree — long-run equilibrium is not the natural tendency; recessionary gaps are permanent."
+      },
+      {
+        "label": "B",
+        "text": "Agree. Long-run equilibrium on the LRAS is the economy's natural attractor: (1) Inflationary gaps self-correct via rising wages → SRAS left → back to Yf. (2) Recessionary gaps self-correct via falling wages → SRAS right → back to Yf. MOD-2.G.2 defines LR equilibrium as the full-employment intersection. The market mechanism (wage flexibility) always pushes the economy back to this state. However, this self-correction can be SLOW — especially for recessionary gaps where wage deflation is sluggish."
+      },
+      {
+        "label": "C",
+        "text": "Disagree — short-run equilibria at output gaps are also sustainable indefinitely."
+      },
+      {
+        "label": "D",
+        "text": "Agree — but only for inflationary gaps; recessionary gaps are permanent without policy."
+      },
+      {
+        "label": "E",
+        "text": "Agree — but the market correction is always instantaneous in the AD-AS model."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The claim is fundamentally correct: long-run equilibrium (Yf on LRAS) is the sustainable state toward which market forces push the economy; both gap types self-correct through wage adjustment. The nuance is that \"sustainable\" and \"permanent\" differ from \"quickly achieved\" - empirically, self-correction can take years, especially from recessionary gaps (downward wage rigidity is greater than upward); in the model framework, LR equilibrium is the ultimate attractor.",
+    "reference": "MOD-2.G | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 73,
+    "difficulty": "Medium",
+    "prompt": "Economy Zeta: Yf = $55T. Four consecutive quarters are observed:\n\nQ1: Actual GDP = $52T (recessionary gap)\n\nQ2: Actual GDP = $54T (narrowing gap)\n\nQ3: Actual GDP = $55T (gap closes)\n\nQ4: Actual GDP = $57T (new gap develops)\n\nFor each quarter, calculate and classify the output gap, and identify the type of equilibrium.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Q1: +$3T inflationary; Q2: +$1T inflationary; Q3: $0 LR equilibrium; Q4: −$2T recessionary."
+      },
+      {
+        "label": "B",
+        "text": "Q1: −$3T recessionary (SR equilibrium); Q2: −$1T recessionary (SR equilibrium); Q3: $0 — LR equilibrium if all three curves intersect at $55T; Q4: +$2T inflationary (SR equilibrium, above Yf)."
+      },
+      {
+        "label": "C",
+        "text": "Q1: +$3T; Q2: +$1T; Q3: $0; Q4: −$2T — all are LR equilibria."
+      },
+      {
+        "label": "D",
+        "text": "Q1: −$3T; Q2: −$1T; Q3: LR; Q4: −$2T recessionary."
+      },
+      {
+        "label": "E",
+        "text": "All four quarters show an inflationary gap of varying magnitudes."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Q1: $52T - $55T = -$3T → recessionary gap (SR equilibrium, left of LRAS); Q2: $54T - $55T = -$1T → recessionary gap, narrowing (SR equilibrium, still left of LRAS). Q3: $55T - $55T = $0 → no gap → LR equilibrium (if AD-SRAS on LRAS); Q4: $57T - $55T = +$2T → inflationary gap (SR equilibrium, right of LRAS); the economy transitioned from recessionary → LR equilibrium → inflationary over four quarters.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "Economy Alpha: Yf = $100T. Initial state: AD₁ and SRAS₁ intersect at $94T (PL = 96). Three sequential changes occur:\n\nStep 1: AD shifts right by $12T of output (new SR equilibrium at $106T, PL = 110).\n\nStep 2: Due to the inflationary gap, wages rise → SRAS shifts left → new SR equilibrium at $100T (PL = 118).\n\nStep 3: A second leftward AD shock brings the economy to $96T (PL = 108).\n\nFor each step, calculate: (a) the output gap; (b) the equilibrium type. Then determine the net change in price level from initial state to Step 3.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Initial: −$6T recessionary; Step 1: +$6T inflationary; Step 2: $0 LR equilibrium; Step 3: −$4T recessionary. Net PL change: 108 − 96 = +12 units."
+      },
+      {
+        "label": "B",
+        "text": "Initial: −$6T; Step 1: +$6T; Step 2: $0 LR; Step 3: +$4T inflationary. PL rose by 12."
+      },
+      {
+        "label": "C",
+        "text": "Initial: +$6T; Step 1: −$6T; Step 2: $0; Step 3: +$4T. PL unchanged."
+      },
+      {
+        "label": "D",
+        "text": "All steps are LR equilibrium."
+      },
+      {
+        "label": "E",
+        "text": "Step 3 is a recessionary gap of $6T; PL rose by 24 units."
+      }
+    ],
+    "answer": "A",
+    "explanation": ", MOD-2.G.2, MOD-2.G.3: Initial: $94T - $100T = -$6T → recessionary gap; step 1: $106T - $100T = +$6T → inflationary gap. Step 2: $100T - $100T = $0 → LR equilibrium (wages adjusted, SRAS shifted left, economy back to Yf at PL=118); step 3: $96T - $100T = -$4T → recessionary gap again. Net PL change: from 96 (initial) to 108 (Step 3) = +12 units (price level permanently higher due to the demand expansion in Step 1 and the wage adjustment in Step 2).",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.2 | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "Evaluate the following five statements about the AD-AS equilibrium model. Identify which are TRUE and which are FALSE.\n\nS1: Short-run equilibrium always equals long-run equilibrium.\n\nS2: Long-run equilibrium requires all three curves (AD, SRAS, LRAS) to intersect at the same point.\n\nS3: A recessionary gap means actual GDP > potential GDP.\n\nS4: An inflationary gap creates upward pressure on wages in the long run.\n\nS5: The short-run equilibrium price level and real GDP are determined by the intersection of AD and SRAS.",
+    "options": [
+      {
+        "label": "A",
+        "text": "All five are true."
+      },
+      {
+        "label": "B",
+        "text": "S2, S4, S5 are true; S1 and S3 are false."
+      },
+      {
+        "label": "C",
+        "text": "S1, S3, S4 are true; S2 and S5 are false."
+      },
+      {
+        "label": "D",
+        "text": "S2 and S5 are true; S1, S3, S4 are false."
+      },
+      {
+        "label": "E",
+        "text": "S1, S2, S5 are true; S3 and S4 are false."
+      }
+    ],
+    "answer": "B",
+    "explanation": "S1 FALSE - short-run ≠ long-run equilibrium when there is an output gap; they coincide only when AD-SRAS is on the LRAS. S2 TRUE - MOD-2.G.2 defines LR equilibrium as all three intersecting at the same point. S3 FALSE - recessionary gap means actual GDP < potential GDP (it is the INFLATIONARY gap where actual > potential); S4 TRUE - inflationary gap → unemployment < natural rate → wages rise in LR (upward wage pressure); S5 TRUE - MOD-2.G.1 defines short-run equilibrium as the AD-SRAS intersection.",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.2 | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "Economy Beta has Yf = $80T. An AD-AS graph shows:\n\n• AD: downward sloping, at PL=100 quantity demanded = $80T; at PL=110, quantity demanded = $70T.\n\n• SRAS: upward sloping, at PL=100 quantity supplied = $70T; at PL=110, quantity supplied = $80T.\n\n• LRAS: vertical at $80T.\n\nFind the short-run equilibrium (PL and real GDP). Determine the output gap and classify it.",
+    "options": [
+      {
+        "label": "A",
+        "text": "SR equilibrium: PL=100, GDP=$80T; no output gap; LR equilibrium."
+      },
+      {
+        "label": "B",
+        "text": "SR equilibrium: PL=110, GDP=$80T; no output gap; LR equilibrium."
+      },
+      {
+        "label": "C",
+        "text": "SR equilibrium: PL=110, GDP=$80T; output gap = $0 (LR equilibrium). At PL=110: AD demands $70T and SRAS supplies $80T — they don't cross here. Need to find where AD = SRAS. At PL=100: AD=$80T, SRAS=$70T → excess demand. At PL=110: AD=$70T, SRAS=$80T → excess supply. Equilibrium is between 100 and 110. By interpolation: AD=SRAS when PL≈105, GDP≈$75T. Output gap = $75T − $80T = −$5T → recessionary gap."
+      },
+      {
+        "label": "D",
+        "text": "SR equilibrium: PL=105, GDP=$75T; recessionary gap of $5T."
+      },
+      {
+        "label": "E",
+        "text": "SR equilibrium: PL=100, GDP=$70T; recessionary gap of $10T."
+      }
+    ],
+    "answer": "D",
+    "explanation": "At PL=100: AD=$80T > SRAS=$70T → excess demand → price rises; at PL=110: AD=$70T < SRAS=$80T → excess supply → price falls; equilibrium between PL=100 and 110. By interpolation (linear): AD and SRAS both change by $10T over a $10 PL range; they converge at PL≈105 and GDP≈$75T (midpoint); output gap = $75T - $80T = -$5T → recessionary gap (actual < Yf).",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.3",
+    "graphDescription": "Vertical axis: Price Level (100, 110 marked). Horizontal axis: Real GDP ($70T, $80T marked). Downward AD and upward SRAS intersecting where they cross. Vertical LRAS at $80T.",
+    "graphRequired": true
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "An economy is at long-run equilibrium at Yf = $60T, PL = 105. The following simultaneous shocks occur:\n\nShock 1: AD shifts right by $8T of output.\n\nShock 2: SRAS shifts left by $5T of output (due to an oil price spike).\n\nDescribe the net effect on the short-run equilibrium real GDP and price level, and determine the output gap.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Net GDP: unchanged at $60T; PL rises. No output gap."
+      },
+      {
+        "label": "B",
+        "text": "Net GDP: +$3T above original ($63T); PL rises significantly. Inflationary gap of $3T."
+      },
+      {
+        "label": "C",
+        "text": "Net GDP: +$3T relative to original → inflationary gap of $3T (since Yf = $60T). Price level rises from BOTH shocks (demand-pull from AD rightward + cost-push from SRAS leftward). New SR equilibrium approximately at $63T and a higher PL."
+      },
+      {
+        "label": "D",
+        "text": "Net GDP: −$3T recessionary gap; PL falls."
+      },
+      {
+        "label": "E",
+        "text": "Net GDP: +$8T above original; only AD shock matters."
+      }
+    ],
+    "answer": "C",
+    "explanation": "AD shifts right → tends to raise both GDP and PL; SRAS shifts left → tends to lower GDP and raise PL. Net GDP: right AD shift (+$8T tendency) + left SRAS shift (-$5T tendency) = net +$3T above original equilibrium; new GDP ≈ $60T + $3T = $63T. Output gap = $63T - $60T = +$3T → inflationary gap; price level: both shocks push it up → PL rises significantly above 105; the specific new PL depends on the exact intersection of new AD₂ and SRAS₂.",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "In the AD-AS model, explain why the long-run equilibrium price level after an inflationary gap self-correction (through SRAS shifting left) is HIGHER than the original pre-shock price level, even though the economy returns to the same Yf.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The price level returns to its original level — self-correction is price-neutral."
+      },
+      {
+        "label": "B",
+        "text": "The price level is higher after self-correction because: (1) the initial positive demand shock (AD right) raised the price level. (2) Wages rose during the inflationary gap period. (3) When SRAS shifts left (due to higher wages), the new SRAS₂ intersects the SAME (shifted) AD₂ at a HIGHER price level and the original Yf. The new long-run equilibrium price level = PL at the AD₂-SRAS₂-LRAS intersection, which is above both the original PL and the inflationary gap PL."
+      },
+      {
+        "label": "C",
+        "text": "The price level rises after self-correction because the LRAS shifts right."
+      },
+      {
+        "label": "D",
+        "text": "The price level is lower after self-correction from an inflationary gap."
+      },
+      {
+        "label": "E",
+        "text": "Price level is identical before and after — the AD and SRAS shifts cancel perfectly."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Path of price level through inflationary gap self-correction: (1) Originally at LR equilibrium: PL₁ (original LR equilibrium price). (2) Positive AD shock: AD shifts right → new SR equilibrium at higher PL₂ (inflationary gap price level). (3) Self-correction: wages rise → SRAS shifts left → new intersection of AD₂ and SRAS₂ on LRAS → new LR equilibrium at PL₃ > PL₂ > PL₁; the price level rises in both steps and ends up highest at the new LR equilibrium; the demand expansion permanently raised the price level.",
+    "reference": "MOD-2.G | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "Economy Gamma has Yf = $50T. The economy passes through four states:\n\nState A: Real GDP = $47T, PL = 90 (recessionary gap).\n\nState B: Real GDP = $50T, PL = 95 (LR equilibrium reached by AD policy).\n\nState C: Real GDP = $54T, PL = 105 (inflationary gap after further demand stimulus).\n\nState D: Real GDP = $50T, PL = 112 (LR equilibrium after self-correction from State C).\n\nCalculate the output gap at each state. Then find the total price level increase from State A to State D.",
+    "options": [
+      {
+        "label": "A",
+        "text": "A: −$3T; B: $0; C: +$4T; D: $0. Total PL increase: 112 − 90 = +22 units."
+      },
+      {
+        "label": "B",
+        "text": "A: +$3T; B: $0; C: −$4T; D: $0. Total PL change: −22 units."
+      },
+      {
+        "label": "C",
+        "text": "A: −$3T; B: $0; C: +$4T; D: $0. PL rose from 90 to 112 = +22 units."
+      },
+      {
+        "label": "D",
+        "text": "All four states: $0 output gap; all in LR equilibrium."
+      },
+      {
+        "label": "E",
+        "text": "A: −$7T; B: $0; C: +$8T; D: $0. PL +22 units."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A: $47T - $50T = -$3T → recessionary; B: $50T - $50T = $0 → LR equilibrium; C: $54T - $50T = +$4T → inflationary. D: $50T - $50T = $0 → LR equilibrium; total PL change: State D (112) - State A (90) = +22 units. The price level rose by 22 units from the initial recessionary state to the final long-run equilibrium after the demand expansion and self-correction; each time AD expanded (B→C) and SRAS adjusted (D), the price level ratcheted upward.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "Three economies (Alpha, Beta, Gamma) all have Yf = $100T but different AD-SRAS positions:\n\nAlpha: Short-run equilibrium at $95T, PL = 95.\n\nBeta: Short-run equilibrium at $100T, PL = 100.\n\nGamma: Short-run equilibrium at $108T, PL = 112.\n\nFor each economy: (a) calculate the output gap; (b) classify the gap; (c) state whether unemployment is above/at/below natural rate; (d) describe the LR wage adjustment direction; (e) state the price level outcome in LR equilibrium relative to current PL.",
+    "options": [
+      {
+        "label": "A",
+        "text": "All three: $0 output gap; LR equilibrium; no wage adjustment needed."
+      },
+      {
+        "label": "B",
+        "text": "Alpha: −$5T recessionary; unemployment above natural rate; wages fall; new LR PL < 95. Beta: $0 (LR equilibrium); natural rate; no sustained adjustment; PL stays at 100. Gamma: +$8T inflationary; unemployment below natural rate; wages rise; new LR PL > 112."
+      },
+      {
+        "label": "C",
+        "text": "Alpha: −$5T recessionary; wages rise; PL rises. Beta: $0 LR equilibrium. Gamma: +$8T; wages fall; PL falls."
+      },
+      {
+        "label": "D",
+        "text": "Alpha and Gamma in LR equilibrium; Beta in recessionary gap."
+      },
+      {
+        "label": "E",
+        "text": "Alpha: inflationary; Beta: recessionary; Gamma: LR equilibrium."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.G.3: Alpha: $95T - $100T = -$5T → recessionary; unemployment > natural rate. Wages fall → SRAS right → returns to $100T at LOWER PL (below 95); beta: $100T - $100T = $0 → LR equilibrium; no sustained wage pressure. PL stable at 100; gamma: $108T - $100T = +$8T → inflationary; wages rise → SRAS left → returns to $100T at HIGHER PL (above 112); all self-corrections use LRAS as the long-run anchor.",
+    "reference": "MOD-2.G | MOD-2.G.2 | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "In the AD-AS model, starting from long-run equilibrium at Yf = $70T, PL = 100:\n\n(1) A positive demand shock creates an inflationary gap.\n\n(2) The government uses contractionary fiscal policy to PREVENT the self-correction (tries to keep output above Yf).\n\nEvaluate the long-run feasibility of (2) using the AD-AS model.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Feasible — the government can permanently maintain output above Yf through fiscal policy."
+      },
+      {
+        "label": "B",
+        "text": "Not feasible. Even if the government keeps AD high (to prevent SRAS-induced self-correction), wages continue to rise due to the tight labor market (unemployment < natural rate). Each round of wage increases shifts SRAS left. To maintain output above Yf, the government must continuously increase AD further — but each increase triggers more wage increases. This creates a wage-price spiral with ever-increasing price levels but no permanent output gain above Yf. Eventually, the government cannot sustain ever-larger AD without creating hyperinflation."
+      },
+      {
+        "label": "C",
+        "text": "Feasible in the short run for up to 5 years; not feasible beyond that."
+      },
+      {
+        "label": "D",
+        "text": "Feasible — the government can offset all SRAS shifts with equivalent AD increases, maintaining output above Yf indefinitely."
+      },
+      {
+        "label": "E",
+        "text": "Not feasible — but because the LRAS shifts right to accommodate the higher output, not because of inflation."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The vertical LRAS represents the long-run equilibrium the economy gravitates toward. Trying to keep the economy above Yf permanently is infeasible: tight labor market → wages rise → SRAS shifts left → government must increase AD again to offset → more wage increases → accelerating inflation. This is the accelerationist argument: no permanent output above Yf without ever-accelerating inflation; implies the economy always returns to Yf in the long run.",
+    "reference": "MOD-2.G | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "Economy Sigma has the following AD and SRAS data (in trillions of dollars and price levels):\n\nAD: PL=100→Y=$80T; PL=105→Y=$75T; PL=110→Y=$70T.\n\nSRAS: PL=100→Y=$65T; PL=105→Y=$75T; PL=110→Y=$85T.\n\nLRAS: vertical at Yf = $78T.\n\nFind: (a) the short-run equilibrium PL and real GDP; (b) the output gap; (c) gap classification.",
+    "options": [
+      {
+        "label": "A",
+        "text": "SR equilibrium: PL=100, GDP=$80T; inflationary gap of $2T."
+      },
+      {
+        "label": "B",
+        "text": "SR equilibrium: PL=105, GDP=$75T; recessionary gap of $3T."
+      },
+      {
+        "label": "C",
+        "text": "SR equilibrium: PL=110, GDP=$70T; recessionary gap of $8T."
+      },
+      {
+        "label": "D",
+        "text": "SR equilibrium: PL=100, GDP=$65T; recessionary gap of $13T."
+      },
+      {
+        "label": "E",
+        "text": "SR equilibrium: PL=105, GDP=$75T; recessionary gap of $3T (actual $75T < Yf $78T)."
+      }
+    ],
+    "answer": "E",
+    "explanation": "Find where AD = SRAS (same PL and same quantity); at PL=105: AD=$75T and SRAS=$75T → AD = SRAS ✓; short-run equilibrium: PL=105, GDP=$75T. Output gap = $75T - $78T = -$3T → recessionary gap; the AD-SRAS intersection at $75T is to the left of the LRAS at $78T; actual GDP ($75T) < Yf ($78T); unemployment > natural rate.",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "Country Tau has Yf = $90T. The economy goes through the following sequence:\n\nPeriod 1: Recessionary gap of $12T. Government uses fiscal policy: AD shifts right by $12T of output.\n\nPeriod 2: Due to the upward-sloping SRAS, the price level rises and real GDP rises by only $10T (not the full $12T).\n\nPeriod 3: The remaining $2T gap is closed by further LR self-correction.\n\nExplain why the policy stimulus in Period 1 did not fully close the recessionary gap in Period 2, and identify the type of equilibrium at the end of Period 3.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The policy fully closed the gap; Period 2 shows LR equilibrium."
+      },
+      {
+        "label": "B",
+        "text": "Because the SRAS slopes upward: when AD shifts right by $12T, the new intersection is at a HIGHER price level — not all of the demand increase becomes real output. Some AD increase is \"absorbed\" by rising prices rather than rising real GDP. The economy moves up the SRAS, so $12T of stimulus produces only $10T of real output increase. Period 3: further self-correction (wages adjusting) closes the remaining $2T gap, returning to Yf = $90T at long-run equilibrium."
+      },
+      {
+        "label": "C",
+        "text": "The policy failed because the multiplier was too small."
+      },
+      {
+        "label": "D",
+        "text": "Period 2 creates an inflationary gap of $2T; Period 3 makes it larger."
+      },
+      {
+        "label": "E",
+        "text": "Period 1 creates a recessionary gap; Period 2 closes it; Period 3 creates an inflationary gap."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The upward-sloping SRAS is key; when AD shifts right, the economy moves up the SRAS - both output AND the price level rise. The \"price leak\" means only part of the demand stimulus translates into real output. Here, a $12T AD shift produced only $10T of real GDP increase because $2T worth of stimulus was absorbed by the price level rise; in the long run, wage adjustments (SRAS self-correction) close the remaining gap; final state: LR equilibrium at Yf = $90T at a higher price level.",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "Analyze the following claim: \"In the AD-AS model, if both the inflationary gap and recessionary gap exist simultaneously (in different sectors of the economy), the economy is still in long-run equilibrium at the aggregate level.\"\n\nEvaluate this claim using the definitions in MOD-2.G.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Correct — sectoral gaps can coexist with aggregate LR equilibrium."
+      },
+      {
+        "label": "B",
+        "text": "Partially correct: the economy CAN have some sectors operating above full employment (inflationary pressure) and others below (recessionary pressure) simultaneously. At the AGGREGATE level, if total actual GDP = Yf, the aggregate output gap is zero — aggregate LR equilibrium is achieved. However, the underlying sectoral misalignments mean there is structural unemployment and potential inflation in some areas while there is excess capacity in others. The AD-AS model works at the aggregate level, so if aggregate actual GDP = Yf, aggregate LR equilibrium is maintained per MOD-2.G.2."
+      },
+      {
+        "label": "C",
+        "text": "Incorrect — it is impossible for both gaps to coexist at any level."
+      },
+      {
+        "label": "D",
+        "text": "Incorrect — if any sector has a gap, the economy cannot be in LR equilibrium."
+      },
+      {
+        "label": "E",
+        "text": "Correct, but only if the inflationary and recessionary gaps are of exactly equal magnitude."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The AD-AS model is an aggregate model. If total actual GDP = Yf, the aggregate output gap is zero → aggregate LR equilibrium per MOD-2.G.2. However, the claim overlooks structural issues: sectors operating above capacity (inflationary) and sectors below capacity (recessionary) simultaneously create heterogeneous pressures across the economy; at the aggregate level, these offset, but sectoral structural unemployment and sector-specific inflation can coexist even at aggregate LR equilibrium.",
+    "reference": "MOD-2.G | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "Economy Phi: Yf = $50T. The following four scenarios describe the economy in the same period but under different policy regimes:\n\nRegime A: No policy → SRAS self-corrects from recessionary gap → returns to Yf at lower PL.\n\nRegime B: Government uses AD expansion → SRAS stays fixed → returns to Yf at higher PL.\n\nRegime C: Both AD expansion and SRAS improvement (supply-side reform) → Yf also shifts right to $55T.\n\nRegime D: AD contracts (austerity) deepens the recessionary gap → Yf unchanged.\n\nFor each regime, identify: (1) whether the economy achieves LR equilibrium; (2) the direction of PL change; (3) whether Yf changes.",
+    "options": [
+      {
+        "label": "A",
+        "text": "A: LR equilibrium at lower PL; Yf unchanged. B: LR equilibrium at higher PL; Yf unchanged. C: LR equilibrium at Yf=$55T; PL may be higher or lower depending on AD vs SRAS magnitudes. D: Recessionary gap worsens; no LR equilibrium achieved; Yf unchanged."
+      },
+      {
+        "label": "B",
+        "text": "All four regimes: LR equilibrium at same PL; Yf unchanged."
+      },
+      {
+        "label": "C",
+        "text": "A: LR equilibrium; PL falls; Yf unchanged. B: Inflationary gap; PL rises; Yf rises. C: LR equilibrium; PL falls; Yf rises. D: LR equilibrium; PL falls; Yf falls."
+      },
+      {
+        "label": "D",
+        "text": "A: no LR equilibrium; B: LR equilibrium; C: LR equilibrium; D: LR equilibrium."
+      },
+      {
+        "label": "E",
+        "text": "A and B both achieve LR equilibrium; C creates a new LR equilibrium at $55T; D never achieves LR equilibrium without further action."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Regime A: self-correction via falling wages → SRAS right → economy reaches Yf=$50T at LOWER PL; LR equilibrium achieved; Yf unchanged. Regime B: AD expansion → SRAS stays → economy reaches Yf=$50T at HIGHER PL. Regime C: AD expansion + supply-side reform → LRAS shifts right to $55T, SRAS shifts right → new Yf=$55T becomes new LR equilibrium; PL direction ambiguous (depends on relative magnitudes); Yf RISES; regime D: AD contracts → recessionary gap WIDENS in short run; in LR (no intervention), wages eventually fall → SRAS right → returns to Yf; but with active contraction, the adjustment just takes longer.",
+    "reference": "MOD-2.G | MOD-2.G.2 | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "In the AD-AS model, explain the difference between the short-run equilibrium price level being above the long-run equilibrium price level vs. below it. What type of output gap corresponds to each case, and what is the self-correction mechanism?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Price level above LR equilibrium → inflationary gap; price level below → recessionary gap. Both self-correct through AD shifts."
+      },
+      {
+        "label": "B",
+        "text": "Price level above LR equilibrium corresponds to an inflationary gap AND requires wages to fall (self-correction via SRAS right). Price level below LR equilibrium corresponds to a recessionary gap AND requires wages to rise. Both are wrong — the price level alone doesn't determine the gap type."
+      },
+      {
+        "label": "C",
+        "text": "Short-run PL above the long-run equilibrium PL: this suggests the economy is operating above Yf (inflationary gap) — prices were bid up by excess demand. Self-correction: wages rise → SRAS shifts left → price level rises further to new LR equilibrium at Yf. Note: the final LR PL is higher than the short-run inflationary gap PL. Short-run PL below LR equilibrium PL: recessionary gap — prices fell due to insufficient demand. Self-correction: wages fall → SRAS right → price level falls to new (lower) LR equilibrium at Yf."
+      },
+      {
+        "label": "D",
+        "text": "Price level above LR equilibrium → recessionary gap; wages fall → SRAS right → returns to Yf at lower PL. Price level below LR equilibrium → inflationary gap; wages rise → SRAS left → returns at higher PL."
+      },
+      {
+        "label": "E",
+        "text": "There is no meaningful difference — the price level does not indicate the gap type."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MOD-2.G.3: Inflationary gap (actual > Yf): short-run PL is typically high (demand-pull inflation), but self-correction via rising wages raises the LR equilibrium PL even higher (SRAS shifts left → new AD-SRAS on LRAS intersection is further up the AD curve). Recessionary gap (actual < Yf): short-run PL is typically low (deflationary pressure), and self-correction via falling wages lowers the LR equilibrium PL even further (SRAS shifts right → new intersection is lower on the AD curve). Both cases: self-correction involves SRAS adjustment, not AD movement.",
+    "reference": "MOD-2.G | MOD-2.G.2 | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "Economy Nu: Yf = $120T. Current AD-SRAS intersection: real GDP = $120T (exactly at Yf), PL = 110. Three economists make claims:\n\nEconomist A: \"This must be long-run equilibrium.\"\n\nEconomist B: \"This might be long-run equilibrium, or it could be a coincidental short-run equilibrium at Yf.\"\n\nEconomist C: \"We need to check if all three curves intersect at this point before confirming LR equilibrium.\"\n\nWho is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Economist A is correct — if GDP = Yf, it must be LR equilibrium."
+      },
+      {
+        "label": "B",
+        "text": "Economist C is most precise. Having real GDP = Yf is NECESSARY but not SUFFICIENT for long-run equilibrium. MOD-2.G.2 requires AD ∩ SRAS ∩ LRAS at the same point. If the SRAS is currently positioned so that it intersects AD at $120T AND this happens to equal the Yf = $120T (LRAS position), then LR equilibrium is confirmed. But if wages are currently far from equilibrium and the SRAS will shift soon, the economy may be at $120T only temporarily. True LR equilibrium requires stable wages and all three curves intersecting."
+      },
+      {
+        "label": "C",
+        "text": "Economist A is correct — GDP = Yf is both necessary and sufficient for LR equilibrium."
+      },
+      {
+        "label": "D",
+        "text": "Economist B is correct — but only if the SRAS is not moving."
+      },
+      {
+        "label": "E",
+        "text": "All three economists are incorrect."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.G.2 defines LR equilibrium as AD ∩ SRAS on LRAS; economist C is most precise: actual GDP = Yf is necessary but not sufficient. Sufficient condition requires: (1) AD = SRAS (short-run equilibrium achieved), AND (2) that intersection is on the LRAS (at Yf). Additionally, true LR equilibrium requires wages to be at their equilibrium level with no further pressure to adjust; if wages are still adjusting and the SRAS is moving, the economy is transitioning through $120T, not resting there in LR equilibrium.",
+    "reference": "MOD-2.G | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "Economy Lambda goes through the following complete cycle:\n\nInitial State: LR equilibrium at Yf = $80T, PL₁.\n\nShock 1: AD shifts right → inflationary gap of +$7T.\n\nAdjustment 1: No policy; self-correction via rising wages → new LR equilibrium at Yf = $80T, PL₂ (PL₂ > PL₁).\n\nShock 2: AD shifts left → recessionary gap of −$9T.\n\nAdjustment 2: No policy; self-correction via falling wages → new LR equilibrium at Yf = $80T, PL₃.\n\nDetermine whether PL₃ is above or below PL₁, and explain using the path of the AD curve and SRAS adjustments.",
+    "options": [
+      {
+        "label": "A",
+        "text": "PL₃ < PL₁ — the deflationary self-correction in Adjustment 2 returned the price level to below its original level."
+      },
+      {
+        "label": "B",
+        "text": "PL₃ = PL₁ — the two shocks cancel exactly."
+      },
+      {
+        "label": "C",
+        "text": "PL₃ is ambiguous — it depends on the relative magnitudes of Shock 1 and Shock 2."
+      },
+      {
+        "label": "D",
+        "text": "PL₃ > PL₁ IF the negative demand shock (Shock 2) is smaller in magnitude than the positive shock (Shock 1). PL₃ < PL₁ IF Shock 2 is larger. PL₃ = PL₁ IF they are equal. The path: Initial PL₁ → rises to inflationary gap PL → rises further to PL₂ (Adjustment 1) → falls to inflationary gap PL when AD shifts left → falls further to PL₃ (Adjustment 2). Whether PL₃ ≷ PL₁ depends on whether the total price level changes from both rounds net to a rise or fall."
+      },
+      {
+        "label": "E",
+        "text": "PL₃ > PL₁ always — inflationary self-corrections always dominate deflationary ones."
+      }
+    ],
+    "answer": "D",
+    "explanation": "PL₁ = initial; after Shock 1 (AD right) and Adjustment 1 (SRAS left): PL₂ > PL₁; after Shock 2 (AD left) and Adjustment 2 (SRAS right): PL₃. The path: PL₁ → rises to PL at inflationary gap → rises to PL₂ (LR) → falls to PL at recessionary gap → falls to PL₃ (new LR). PL₃ vs; PL₁ depends on whether Shock 2's AD shift is larger or smaller than Shock 1's; if |Shock 2| > |Shock 1|: PL₃ < PL₁; if equal: PL₃ = PL₁.",
+    "reference": "MOD-2.G | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "Economy Omega: initial LR equilibrium at Yf = $100T, PL = 100. The following policy sequence occurs:\n\nRound 1: Government increases G by $2T → multiplier = 4 → AD shifts right by $8T → economy moves to SR equilibrium at $108T, PL rises to 112.\n\nRound 2: AD remains at the new higher level; wages adjust; economy self-corrects to Yf = $100T at PL = 118.\n\nRound 3: Government cuts G by $2T → multiplier = 4 → AD shifts left by $8T → economy moves to SR equilibrium at $92T, PL falls to 106.\n\nFor each round, identify: (a) output gap; (b) type. Then calculate the net change in price level from initial to end of Round 3.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Round 1: +$8T inflationary; Round 2: $0 LR; Round 3: −$8T recessionary. Net PL change: 106 − 100 = +6."
+      },
+      {
+        "label": "B",
+        "text": "Round 1: +$8T inflationary; Round 2: +$8T inflationary; Round 3: no gap. Net price-level change: +18."
+      },
+      {
+        "label": "C",
+        "text": "Round 1: −$8T recessionary; Round 2: $0 LR; Round 3: +$8T inflationary. Net PL: −6."
+      },
+      {
+        "label": "D",
+        "text": "All three rounds: no output gap. Net PL: 0."
+      },
+      {
+        "label": "E",
+        "text": "Round 1: +$8T; Round 2: +$0; Round 3: +$8T. Net PL: +18."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Round 1: AD₂ ∩ SRAS at $108T; gap = $108T - $100T = +$8T → inflationary; round 2: self-correction → LR equilibrium at $100T, PL=118; gap = $0. Round 3: AD shifts left by $8T → new SR equilibrium at $92T (rounded from actual intersection), PL=106; gap = $92T - $100T = -$8T → recessionary; net PL change: 106 - 100 = +6 units. The economy ended up with a higher price level (+6) and a recessionary gap despite returning to the same G level as the start, due to the permanent price level effect of the Round 1-2 cycle.",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.2 | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "Economy Rho has Yf = $60T. An economist observes that the economy has been in a recessionary gap for 8 consecutive years with no signs of self-correction. List THREE specific reasons, grounded in the AD-AS model (MOD-2.G framework), why self-correction might be slow or incomplete, and explain each.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Self-correction is never slow — the AD-AS model predicts instant adjustment."
+      },
+      {
+        "label": "B",
+        "text": "Three reasons self-correction can be slow: (1) Downward nominal wage rigidity — workers and unions resist wage cuts even during recessions; this prevents SRAS from shifting right quickly. (2) Sticky expectations — if workers expect wages to recover, they hold out rather than accepting lower wages, delaying SRAS adjustment. (3) Deflationary debt spiral — falling prices increase the real burden of debt, discouraging spending and potentially causing AD to fall further, deepening the recessionary gap rather than closing it. All three slow the SRAS rightward shift that drives self-correction."
+      },
+      {
+        "label": "C",
+        "text": "Three reasons: government policy mistakes, central bank errors, and international trade imbalances."
+      },
+      {
+        "label": "D",
+        "text": "Self-correction is always complete within 2 years; 8 years of a gap is impossible in the AD-AS model."
+      },
+      {
+        "label": "E",
+        "text": "The only reason for slow self-correction is insufficient government spending."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The AD-AS model assumes long-run wage flexibility drives self-correction, but real-world frictions can delay it: (1) Downward wage rigidity (sticky wages) - wages are more resistant to falling than rising (institutional barriers, labor contracts, morale). SRAS cannot shift right as fast; (2) Sticky expectations - workers who expect future wage increases hold out, delaying wage acceptance. (3) Deflationary debt effects - falling prices raise real debt burdens, causing further declines in spending (AD shifts further left), offsetting or overwhelming the SRAS rightward adjustment pressure.",
+    "reference": "MOD-2.G | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "A comprehensive graph question: Draw and describe (in words) a correctly labeled AD-AS graph showing ALL of the following simultaneously:\n\n(1) A short-run equilibrium to the right of the LRAS (inflationary gap).\n\n(2) The equilibrium price level clearly labeled as PL₁.\n\n(3) The equilibrium real GDP clearly labeled as Y₁ (where Y₁ > Yf).\n\n(4) The full-employment output labeled as Yf on the horizontal axis.\n\n(5) The magnitude of the inflationary gap shown as the horizontal distance between Y₁ and Yf.\n\nWhich answer correctly describes this graph?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Price Level on horizontal; Real GDP on vertical; SRAS and LRAS both slope upward; AD is vertical."
+      },
+      {
+        "label": "B",
+        "text": "Price Level (vertical), Real GDP (horizontal). AD: downward-sloping curve. SRAS: upward-sloping curve. LRAS: vertical line at Yf. AD and SRAS intersect to the RIGHT of the LRAS at (Y₁, PL₁) where Y₁ > Yf. PL₁ labeled on the vertical axis (the height of the intersection). Y₁ labeled on the horizontal axis. Yf labeled on the horizontal axis at the LRAS line. The horizontal distance between Yf and Y₁ represents the inflationary gap magnitude."
+      },
+      {
+        "label": "C",
+        "text": "All three curves are parallel; equilibrium is at the intersection of LRAS and horizontal axis."
+      },
+      {
+        "label": "D",
+        "text": "AD and LRAS intersect to determine equilibrium; SRAS is not needed for an inflationary gap."
+      },
+      {
+        "label": "E",
+        "text": "The LRAS is to the right of the AD-SRAS intersection; the gap is the vertical distance between them."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.G.3: Correct graph description: (1) Vertical axis: Price Level; Horizontal axis: Real GDP; (2) Downward-sloping AD, upward-sloping SRAS, vertical LRAS at Yf. (3) AD and SRAS intersect to the RIGHT of the LRAS at point (Y₁, PL₁) - Y₁ > Yf; (4) The inflationary gap = horizontal distance (Y₁ - Yf) shown on the horizontal axis. (5) PL₁ = height of the AD-SRAS intersection, labeled on the vertical axis; (6) Yf at the LRAS position on the horizontal axis; the LRAS is LEFT of the AD-SRAS intersection, confirming the inflationary gap.",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "Economy Kappa has Yf = $75T. Over 5 years, the following AD-AS data is observed:\n\nYear 1: SR equilibrium at $70T, PL=95 → LRAS at $75T.\n\nYear 2: SR equilibrium at $75T, PL=100 → LRAS at $75T.\n\nYear 3: SR equilibrium at $80T, PL=108 → LRAS at $75T.\n\nYear 4: SR equilibrium at $75T, PL=115 → LRAS at $75T.\n\nYear 5: SR equilibrium at $72T, PL=110 → LRAS at $75T.\n\nFor each year: (a) output gap; (b) classification; (c) whether it is consistent with LR equilibrium.",
+    "options": [
+      {
+        "label": "A",
+        "text": "All five years: $0 gap; all in LR equilibrium."
+      },
+      {
+        "label": "B",
+        "text": "Year 1: −$5T recessionary; not LR. Year 2: $0 LR equilibrium. Year 3: +$5T inflationary; not LR. Year 4: $0 LR equilibrium. Year 5: −$3T recessionary; not LR."
+      },
+      {
+        "label": "C",
+        "text": "Year 1: +$5T; Year 2: $0; Year 3: −$5T; Year 4: $0; Year 5: +$3T."
+      },
+      {
+        "label": "D",
+        "text": "All five years are recessionary."
+      },
+      {
+        "label": "E",
+        "text": "Year 1: $0; Year 2: −$5T; Year 3: +$5T; Year 4: $0; Year 5: +$3T."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Y1: $70T-$75T=-$5T→recessionary; not LR equilibrium; Y2: $75T-$75T=$0→LR equilibrium (if AD-SRAS-LRAS all meet at $75T); Y3: $80T-$75T=+$5T→inflationary; not LR; Y4: $75T-$75T=$0→LR equilibrium. Y5: $72T-$75T=-$3T→recessionary; not LR; the economy oscillated from recessionary → LR → inflationary → LR → recessionary over 5 years, illustrating business-cycle-like fluctuations around Yf.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "Economy Xi is in long-run equilibrium. A student claims: \"Long-run equilibrium is inherently stable in the AD-AS model — any deviation is automatically and rapidly corrected.\" Critically evaluate this claim, using all three EK points of MOD-2.G.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Correct — LR equilibrium is always rapidly restored in the AD-AS model."
+      },
+      {
+        "label": "B",
+        "text": "Partially correct and partially incorrect. LR equilibrium IS the economy's natural attractor (MOD-2.G.2), and deviations create self-correcting pressures (MOD-2.G.3). However, the claim that correction is \"automatic and rapid\" is an oversimplification. The self-correction mechanism (wage flexibility) takes time — especially downward wage adjustment from recessionary gaps is slow due to wage rigidity. The AD-AS model shows the DIRECTION of correction and the DESTINATION (Yf on LRAS), but does not guarantee rapid or painless adjustment."
+      },
+      {
+        "label": "C",
+        "text": "Incorrect — LR equilibrium has no self-correcting mechanism."
+      },
+      {
+        "label": "D",
+        "text": "Correct — any deviation from LR equilibrium triggers immediate and complete correction."
+      },
+      {
+        "label": "E",
+        "text": "Incorrect — LR equilibrium is inherently unstable; it requires constant government intervention to maintain."
+      }
+    ],
+    "answer": "B",
+    "explanation": ", MOD-2.G.2, MOD-2.G.3: The claim is nuanced; LR equilibrium (MOD-2.G.2) is the model's long-run attractor - deviations (MOD-2.G.3) do create corrective pressure. But \"automatic and rapid\" overstates it: self-correction via wage adjustment is slow, particularly from recessionary gaps where wages are downwardly rigid. The economy can remain in a recessionary gap for years (empirical reality) even though the model shows it as the economy's long-run destination; the \"automatic\" part is correct as a directional tendency; \"rapid\" is not guaranteed.",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.2 | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "Economy Tau: Yf = $90T. Short-run equilibrium is at real GDP = $90T but the SRAS is currently to the LEFT of where it would need to be for LR equilibrium at PL=120 (current PL). Instead, LR equilibrium would require SRAS to pass through AD at $90T at PL=115 (the natural wage-based SRAS position). Is the economy truly in LR equilibrium?\n\nExplain using MOD-2.G.2.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes — real GDP = Yf confirms LR equilibrium regardless of other conditions."
+      },
+      {
+        "label": "B",
+        "text": "No. Although real GDP = Yf = $90T, the economy is NOT in true LR equilibrium per MOD-2.G.2. LR equilibrium requires the AD ∩ SRAS intersection to be ON the LRAS, which it is ($90T). However, if the current PL (120) is above the wage-consistent LR equilibrium PL (115), it means wages have not fully adjusted — they are still too high relative to the LR natural wage level. Wages will fall, shifting SRAS right, which will move the intersection — real GDP will temporarily rise above $90T before returning. This is a transitory state, not stable LR equilibrium."
+      },
+      {
+        "label": "C",
+        "text": "Yes — as long as the actual GDP equals Yf, the economy is by definition in LR equilibrium."
+      },
+      {
+        "label": "D",
+        "text": "No — but only because the price level is wrong, not because of SRAS position."
+      },
+      {
+        "label": "E",
+        "text": "Yes — the price level does not affect the determination of LR equilibrium."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MOD-2.G.2 requires AD ∩ SRAS ON the LRAS - this is satisfied (real GDP = Yf = $90T). However, stable LR equilibrium also implies wages are at their equilibrium level with no further pressure to change. If current PL=120 is above the wage-consistent LR equilibrium PL=115, wages are still elevated - they will fall → SRAS will shift right → real GDP will temporarily move above $90T → economy will oscillate; true LR equilibrium requires not just the intersection to be on LRAS but also for wages to be at their stable, non-adjusting level.",
+    "reference": "MOD-2.G | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "Five scenarios describe economies with Yf = $100T. For each, calculate the output gap, classify it, and determine whether the economy will self-correct via rising or falling wages (or neither). Then rank the economies from most recessionary to most inflationary.\n\nEconomy 1: Actual GDP = $95T.\n\nEconomy 2: Actual GDP = $100T.\n\nEconomy 3: Actual GDP = $105T.\n\nEconomy 4: Actual GDP = $88T.\n\nEconomy 5: Actual GDP = $112T.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Most inflationary to most recessionary: 5, 3, 2, 1, 4."
+      },
+      {
+        "label": "B",
+        "text": "Ranking from most recessionary to most inflationary: Economy 4 (−$12T), Economy 1 (−$5T), Economy 2 ($0), Economy 3 (+$5T), Economy 5 (+$12T). Wages fall in Economies 4 and 1; no adjustment in Economy 2; wages rise in Economies 3 and 5."
+      },
+      {
+        "label": "C",
+        "text": "All five have the same output gap of $0."
+      },
+      {
+        "label": "D",
+        "text": "Most recessionary to most inflationary: 5, 3, 2, 1, 4."
+      },
+      {
+        "label": "E",
+        "text": "Ranking: 4, 1, 3, 2, 5."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Output gaps: 1: $95T-$100T=-$5T (recessionary; wages fall). 2: $100T-$100T=$0 (LR equilibrium; no adjustment). 3: $105T-$100T=+$5T (inflationary; wages rise). 4: $88T-$100T=-$12T (most recessionary; wages fall). 5: $112T-$100T=+$12T (most inflationary; wages rise). Ranking from most recessionary to most inflationary: 4 (-$12T) < 1 (-$5T) < 2 ($0) < 3 (+$5T) < 5 (+$12T).",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "Economy Nu: Yf = $70T. Over a 3-year period, the economy experiences:\n\nYear 1: AD₁ ∩ SRAS₁ = $68T (recessionary gap of $2T).\n\nYear 2: SRAS shifts right (self-correction) → AD₁ ∩ SRAS₂ = $70T (LR equilibrium).\n\nYear 3: External demand shock → AD₂ ∩ SRAS₂ = $74T (new state).\n\nFor Year 3: (a) output gap; (b) gap type; (c) describe the graphical positions of all three curves; (d) long-run self-correction direction.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) −$4T; (b) recessionary; (c) AD₂-SRAS₂ left of LRAS; (d) SRAS shifts right."
+      },
+      {
+        "label": "B",
+        "text": "(a) +$4T; (b) inflationary; (c) AD₂ (shifted right from AD₁) and SRAS₂ (shifted right from Year 1 self-correction) intersect at $74T — to the RIGHT of the LRAS at $70T; (d) tight labor market → wages rise → SRAS₂ shifts LEFT → SRAS₃ ∩ AD₂ at LRAS at $70T at a higher price level."
+      },
+      {
+        "label": "C",
+        "text": "(a) +$4T; (b) inflationary; (c) all three intersect at $74T; (d) LRAS shifts right."
+      },
+      {
+        "label": "D",
+        "text": "(a) −$4T; (b) recessionary; (c) AD₂-SRAS₂ right of LRAS; (d) SRAS shifts left."
+      },
+      {
+        "label": "E",
+        "text": "(a) No gap; (b) LR equilibrium; (c) all three at $74T; (d) no adjustment needed."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Year 3: $74T - $70T = +$4T → inflationary gap. (c) Graphically: AD₂ has shifted right (external demand shock); SRAS₂ is the self-corrected curve from Year 2 (rightward from Year 1); their intersection is at $74T and a higher PL, to the RIGHT of the LRAS at $70T. (d) Inflationary gap → unemployment < natural rate → tight labor market → wages rise → SRAS₂ shifts LEFT to SRAS₃ → SRAS₃ ∩ AD₂ will be on the LRAS at $70T at a higher price level than Year 2; LR equilibrium is restored at Yf=$70T.",
+    "reference": "MOD-2.G | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "Country Xi has Yf = $120T. Provide a complete synthesis of all three EK points of MOD-2.G by analyzing the following complete scenario:\n\nPhase 1: AD and SRAS intersect at $115T and PL = 95. LRAS at $120T. (MOD-2.G.1)\n\nPhase 2: The government wants to achieve long-run equilibrium. (MOD-2.G.2)\n\nPhase 3: They identify the output gap and determine its type. (MOD-2.G.3)\n\nFor each phase: identify the relevant EK point, explain the concept, and apply it to the data.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Phase 1: MOD-2.G.2 (LR equilibrium); Phase 2: MOD-2.G.1 (SR equilibrium); Phase 3: MOD-2.G.3 (inflationary gap)."
+      },
+      {
+        "label": "B",
+        "text": "Phase 1 (MOD-2.G.1): Short-run equilibrium is at the AD-SRAS intersection = ($115T, PL=95). This is the current SR equilibrium. Phase 2 (MOD-2.G.2): LR equilibrium requires AD ∩ SRAS on LRAS at $120T. Currently the intersection is at $115T — not on the LRAS — so the economy is NOT in LR equilibrium. Achieving LR equilibrium requires either: AD shifting right (policy) or SRAS shifting right (self-correction via falling wages). Phase 3 (MOD-2.G.3): output gap = $115T − $120T = −$5T → recessionary gap. Unemployment > natural rate. Long-run pressure: wages fall → SRAS shifts right → returns to $120T."
+      },
+      {
+        "label": "C",
+        "text": "All three phases describe the same LR equilibrium state."
+      },
+      {
+        "label": "D",
+        "text": "Phase 1: inflationary gap; Phase 2: recessionary gap; Phase 3: LR equilibrium."
+      },
+      {
+        "label": "E",
+        "text": "Phase 1: no relevant EK; Phase 2: MOD-2.G.3; Phase 3: MOD-2.G.1."
+      }
+    ],
+    "answer": "B",
+    "explanation": ", MOD-2.G.2, MOD-2.G.3: Phase 1 (MOD-2.G.1): SR equilibrium at AD ∩ SRAS = ($115T, PL=95); phase 2 (MOD-2.G.2): LR equilibrium requires all three at $120T (Yf). Currently AD ∩ SRAS is NOT on LRAS ($115T ≠ $120T) → not in LR equilibrium; phase 3 (MOD-2.G.3): output gap = $115T - $120T = -$5T → recessionary gap. Unemployment > natural rate; self-correction: wages fall → SRAS shifts right → economy returns to Yf = $120T on LRAS; full synthesis of MOD-2.G.1 (defines SR equilibrium), MOD-2.G.2 (defines LR equilibrium), and MOD-2.G.3 (identifies gap type).",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.2 | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "Economy Psi: Yf = $85T. Current state: real GDP = $85T (on the LRAS), PL = 108. Wages are currently BELOW their long-run equilibrium level (still adjusting upward from a prior recessionary gap).\n\nIn the short run, what happens as wages continue to rise to their LR equilibrium level, and where does the economy end up?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nothing changes — the economy is already at Yf, so rising wages have no effect."
+      },
+      {
+        "label": "B",
+        "text": "As wages rise toward their LR equilibrium: production costs increase → SRAS shifts left → new AD-SRAS intersection moves LEFT and UP along the AD curve → real GDP temporarily FALLS BELOW $85T (creating a new recessionary gap) and the price level rises. Eventually, wages reach their LR equilibrium level and SRAS stabilizes at a new position where AD ∩ SRAS ∩ LRAS all meet at Yf = $85T but at a HIGHER price level than 108. Final state: LR equilibrium at $85T and PL > 108."
+      },
+      {
+        "label": "C",
+        "text": "As wages rise: SRAS shifts right → real GDP rises → economy moves right of LRAS."
+      },
+      {
+        "label": "D",
+        "text": "Rising wages have no effect on SRAS — only falling wages affect the SRAS curve."
+      },
+      {
+        "label": "E",
+        "text": "As wages rise: AD shifts left → real GDP falls → LR equilibrium at lower price level."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Currently actual GDP = Yf but wages are still rising (catching up from prior recessionary gap). As wages continue rising: SRAS shifts left → the AD-SRAS intersection moves left and up along AD → temporarily below Yf (recessionary gap) and higher PL. This seems paradoxical but reflects an overshooting: wages rose past their LR equilibrium, causing SRAS to overshoot leftward; the system oscillates and eventually converges to the true LR equilibrium where all three curves intersect at Yf = $85T at the new higher price level (LR equilibrium price consistent with the new higher wage level).",
+    "reference": "MOD-2.G | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "Economy Omega: Yf = $60T. Analyze the following complete AD-AS policy experiment:\n\nInitial: LR equilibrium at $60T, PL = 100.\n\nAction 1: G rises $3T (multiplier = 4) → AD shifts right by $12T of output.\n\nResult 1: New SR equilibrium at $72T, PL = 118.\n\nAction 2: Tax increase of $4T (tax multiplier = 3) → AD shifts left by $12T of output.\n\nResult 2: New SR equilibrium back at $60T, PL = 107.\n\nIs Result 2 a return to original LR equilibrium? Why or why not?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes — real GDP = $60T = Yf confirms LR equilibrium was restored."
+      },
+      {
+        "label": "B",
+        "text": "Not necessarily a return to the ORIGINAL LR equilibrium. Although real GDP = $60T = Yf in Result 2, the price level is 107 (vs. original 100). The original LR equilibrium had PL = 100; the new position has PL = 107. For Result 2 to be TRUE LR equilibrium (per MOD-2.G.2), we need AD₂ ∩ SRAS ∩ LRAS all at $60T. The AD shifted right then left (net zero AD change from original, since both shifts were $12T). But wages may have risen during the inflationary gap period → SRAS may have shifted left → the new equilibrium is at $60T but with wages and prices permanently higher. This is a new LR equilibrium, not the ORIGINAL one."
+      },
+      {
+        "label": "C",
+        "text": "Yes — the same real GDP confirms the same LR equilibrium."
+      },
+      {
+        "label": "D",
+        "text": "No — because the tax multiplier and spending multiplier are different, the two AD shifts are unequal."
+      },
+      {
+        "label": "E",
+        "text": "Yes — any time real GDP = Yf, the original LR equilibrium is restored."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Result 2 has real GDP = $60T = Yf, satisfying the output condition for LR equilibrium; but the price level is 107 (not 100); why. During the inflationary gap (Result 1), wages rose → SRAS shifted left; even after AD shifted back, the SRAS is now different (further left). New AD₂ ∩ new SRAS (shifted left by wage increases) meets on LRAS at $60T but at the higher PL = 107; this is a NEW LR equilibrium with higher wages and prices, not the original; the original LR equilibrium (PL=100) cannot be restored without SRAS shifting back right (requiring wages to fall, which is slow).",
+    "reference": "MOD-2.G | MOD-2.G.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "Final synthesis question for Topic 3.5: Integrate all three EK points (MOD-2.G.1, MOD-2.G.2, MOD-2.G.3) to answer the following complete question.\n\nEconomy Final: Yf = $50T. Three AD-AS graphs show three states:\n\nGraph A: AD ∩ SRAS at $45T, PL=95. LRAS at $50T.\n\nGraph B: AD ∩ SRAS at $50T, PL=102. LRAS at $50T.\n\nGraph C: AD ∩ SRAS at $55T, PL=115. LRAS at $50T.\n\nFor each graph: (a) identify the short-run equilibrium (MOD-2.G.1); (b) classify as LR equilibrium or output gap (MOD-2.G.2 & MOD-2.G.3); (c) describe the long-run self-correction mechanism. Then rank price levels at the post-correction LR equilibrium for each graph.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Graph A: −$5T recessionary; wages fall → SRAS right → new LR at PL<95. Graph B: $0 LR equilibrium; PL stable at 102. Graph C: +$5T inflationary; wages rise → SRAS left → new LR at PL>115. Price level ranking at new LR equilibrium: Graph A < Graph B < Graph C."
+      },
+      {
+        "label": "B",
+        "text": "All three graphs are in LR equilibrium at their current states."
+      },
+      {
+        "label": "C",
+        "text": "Graph A: no gap; Graph B: inflationary; Graph C: recessionary."
+      },
+      {
+        "label": "D",
+        "text": "Graph A: recessionary; Graph B: LR equilibrium; Graph C: inflationary. Self-correction for A: wages rise; for C: wages fall. Price ranking: B < A < C."
+      },
+      {
+        "label": "E",
+        "text": "Graph A: −$5T recessionary; LR correction PL: stable. Graph B: $0 LR; PL: stable. Graph C: +$5T; LR correction PL: falls."
+      }
+    ],
+    "answer": "A",
+    "explanation": ", MOD-2.G.2, MOD-2.G.3: Graph A: SR equilibrium (MOD-2.G.1) at $45T, PL=95; output gap = $45T-$50T=-$5T → recessionary (MOD-2.G.3); self-correction: wages fall → SRAS right → economy returns to Yf=$50T at PL<95. Graph B: SR equilibrium at $50T, PL=102; output gap = $0 → LR equilibrium (MOD-2.G.2); no self-correction needed; PL stable at 102; graph C: SR equilibrium at $55T, PL=115. Output gap = +$5T → inflationary (MOD-2.G.3); self-correction: wages rise → SRAS left → economy returns to Yf=$50T at PL>115; price level ranking at new LR equilibria: Graph A < Graph B < Graph C.",
+    "reference": "MOD-2.G | MOD-2.G.1 | MOD-2.G.2 | MOD-2.G.3",
+    "graphDescription": "",
+    "graphRequired": false
+  }
+]

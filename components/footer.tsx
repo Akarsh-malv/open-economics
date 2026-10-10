@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { BrandLogo } from "@/components/brand-logo";
 
 const footerColumns = [
   {
@@ -14,7 +15,7 @@ const footerColumns = [
     links: [
       { label: "Guided Lessons", href: "/#resources" },
       { label: "Interactive Graphs", href: "/#resources" },
-      { label: "Review Practice", href: "/#resources" },
+      { label: "Review Practice", href: "/practice" },
     ],
   },
   {
@@ -60,17 +61,21 @@ export default async function Footer() {
           ))}
         </div>
 
-        <div className="py-10 text-center">
+        <div className="flex justify-center py-10">
           <Link
             href="/"
-            className="text-5xl font-black tracking-tight text-white sm:text-7xl"
+            className="block w-full max-w-[580px]"
+            aria-label="Open Economics home"
           >
-            Open<span className="font-light">Economics</span>
+            <BrandLogo onDark className="h-17 w-full sm:h-26" />
           </Link>
         </div>
 
         <div className="border-t border-white/10 pt-6 text-center text-xs text-white/55">
-          <p>&copy; {new Date().getFullYear()} Open Economics. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} Open Economics. All rights
+            reserved.
+          </p>
         </div>
       </div>
     </footer>

@@ -12,7 +12,7 @@ export const revalidate = 2592000; // 30 days
 
 export async function GET() {
   const logoDataUrl = await fileToDataUrl(
-    new URL("../../../../public/logo512.png", import.meta.url),
+    new URL("../../../../public/brand-wordmark.png", import.meta.url),
     "image/png",
   );
 
@@ -25,14 +25,15 @@ export async function GET() {
         alignItems: "center",
         justifyContent: "center",
         background: "#ffffff",
+        overflow: "hidden",
       }}
     >
       {/* biome-ignore lint/performance/noImgElement: ImageResponse requires plain img elements. */}
       <img
         alt={`${APP_NAME} logo`}
         src={logoDataUrl}
-        width={420}
-        height={420}
+        width={1050}
+        height={226}
         style={{
           objectFit: "contain",
         }}

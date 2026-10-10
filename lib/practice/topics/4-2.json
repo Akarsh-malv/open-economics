@@ -1,0 +1,3202 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "A nominal interest rate is best defined as",
+    "options": [
+      {
+        "label": "A",
+        "text": "the interest rate after subtracting the actual inflation rate."
+      },
+      {
+        "label": "B",
+        "text": "the expected inflation rate built into a loan contract."
+      },
+      {
+        "label": "C",
+        "text": "the interest rate paid on a loan before adjusting for inflation."
+      },
+      {
+        "label": "D",
+        "text": "the expected real return on a loan after removing inflation."
+      },
+      {
+        "label": "E",
+        "text": "the difference between expected and actual inflation."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The nominal interest rate is the stated rate paid on a loan and is not adjusted for inflation. Inflation is accounted for separately when expected or realized real interest rates are determined.",
+    "reference": "MEA-3.B | MEA-3.B.1 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "A real interest rate calculated in hindsight is best defined as",
+    "options": [
+      {
+        "label": "A",
+        "text": "the nominal interest rate plus the actual inflation rate."
+      },
+      {
+        "label": "B",
+        "text": "the nominal interest rate minus the actual inflation rate."
+      },
+      {
+        "label": "C",
+        "text": "the expected inflation rate minus the nominal interest rate."
+      },
+      {
+        "label": "D",
+        "text": "the nominal interest rate minus the expected inflation rate only."
+      },
+      {
+        "label": "E",
+        "text": "the actual inflation rate minus the nominal interest rate."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The realized real interest rate measures the nominal return after accounting for the inflation that actually occurred; It is calculated as nominal interest rate minus actual inflation.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "Which of the following is true of a nominal interest rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It is calculated only after actual inflation is known."
+      },
+      {
+        "label": "B",
+        "text": "It always equals the actual real interest rate."
+      },
+      {
+        "label": "C",
+        "text": "It excludes the inflation expected when a loan is made."
+      },
+      {
+        "label": "D",
+        "text": "It is found by subtracting nominal inflation from a real rate."
+      },
+      {
+        "label": "E",
+        "text": "It is stated without an adjustment for inflation."
+      }
+    ],
+    "answer": "E",
+    "explanation": "A nominal interest rate is quoted in current percentage terms without removing inflation; The realized real rate is the rate that is adjusted using actual inflation.",
+    "reference": "MEA-3.B | MEA-3.B.1 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "When a loan is made, lenders and borrowers establish the nominal interest rate as the sum of",
+    "options": [
+      {
+        "label": "A",
+        "text": "the actual real interest rate and actual inflation."
+      },
+      {
+        "label": "B",
+        "text": "the expected real interest rate and expected inflation."
+      },
+      {
+        "label": "C",
+        "text": "the expected real interest rate and actual inflation."
+      },
+      {
+        "label": "D",
+        "text": "the nominal interest rate and expected inflation."
+      },
+      {
+        "label": "E",
+        "text": "the actual inflation rate and expected inflation."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The nominal interest rate is set using expectations formed when the loan is arranged; It equals the expected real interest rate plus the expected inflation rate.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "Which expression correctly calculates the real interest rate in hindsight?",
+    "options": [
+      {
+        "label": "A",
+        "text": "nominal interest rate + actual inflation rate"
+      },
+      {
+        "label": "B",
+        "text": "nominal interest rate - actual inflation rate"
+      },
+      {
+        "label": "C",
+        "text": "actual inflation rate - nominal interest rate"
+      },
+      {
+        "label": "D",
+        "text": "nominal interest rate - expected inflation rate"
+      },
+      {
+        "label": "E",
+        "text": "expected inflation rate - nominal interest rate"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Actual inflation is used when the real interest rate is calculated after the fact; Subtracting actual inflation from the nominal interest rate gives the realized real interest rate.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "If expected inflation increases while the expected real interest rate is unchanged, the nominal interest rate will most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "decrease by the same number of percentage points as expected inflation."
+      },
+      {
+        "label": "B",
+        "text": "remain unchanged because only actual inflation affects nominal rates."
+      },
+      {
+        "label": "C",
+        "text": "increase only after the actual inflation rate becomes known."
+      },
+      {
+        "label": "D",
+        "text": "increase by the same number of percentage points as expected inflation."
+      },
+      {
+        "label": "E",
+        "text": "decrease because expected inflation is subtracted from the real rate."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The nominal rate equals the expected real rate plus expected inflation; If the expected real rate is fixed, a higher expected inflation rate raises the nominal rate one-for-one.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "If expected inflation decreases while the expected real interest rate is unchanged, the nominal interest rate will most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "increase by the same number of percentage points as expected inflation."
+      },
+      {
+        "label": "B",
+        "text": "remain unchanged because expected inflation is not part of nominal rates."
+      },
+      {
+        "label": "C",
+        "text": "decrease only after actual inflation falls by the same amount."
+      },
+      {
+        "label": "D",
+        "text": "increase because expected inflation is subtracted from the nominal rate."
+      },
+      {
+        "label": "E",
+        "text": "decrease by the same number of percentage points as expected inflation."
+      }
+    ],
+    "answer": "E",
+    "explanation": "Expected inflation is one component of the nominal interest rate established when a loan is made. With the expected real rate unchanged, lower expected inflation lowers the nominal rate by the same amount.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "After a fixed nominal interest rate has been established, an increase in actual inflation will most directly",
+    "options": [
+      {
+        "label": "A",
+        "text": "increase the realized real interest rate."
+      },
+      {
+        "label": "B",
+        "text": "reduce the realized real interest rate."
+      },
+      {
+        "label": "C",
+        "text": "raise the nominal interest rate automatically."
+      },
+      {
+        "label": "D",
+        "text": "leave the realized real interest rate unchanged."
+      },
+      {
+        "label": "E",
+        "text": "make expected inflation equal to the nominal rate."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The realized real rate equals the fixed nominal rate minus actual inflation. A higher actual inflation rate therefore lowers the realized real rate when the nominal rate does not change.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "Which statement correctly distinguishes expected inflation from actual inflation in interest-rate calculations?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Actual inflation helps set the nominal rate, while expected inflation determines the realized real rate."
+      },
+      {
+        "label": "B",
+        "text": "Expected and actual inflation are interchangeable in both interest-rate calculations."
+      },
+      {
+        "label": "C",
+        "text": "Expected inflation helps set the nominal rate, while actual inflation is used to calculate the realized real rate."
+      },
+      {
+        "label": "D",
+        "text": "Expected inflation is used only after a loan ends, while actual inflation is used when it begins."
+      },
+      {
+        "label": "E",
+        "text": "Actual inflation is added to the nominal rate, while expected inflation is subtracted from it."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The loan contract uses expected inflation because actual inflation is not yet known. Afterward, actual inflation is subtracted from the nominal rate to determine the realized real interest rate.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "If actual inflation equals the inflation rate expected when a loan was made, which of the following is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The realized real interest rate equals the nominal interest rate."
+      },
+      {
+        "label": "B",
+        "text": "The nominal interest rate equals the inflation rate."
+      },
+      {
+        "label": "C",
+        "text": "The realized real interest rate must equal zero."
+      },
+      {
+        "label": "D",
+        "text": "The realized real interest rate equals the expected real interest rate."
+      },
+      {
+        "label": "E",
+        "text": "The expected real interest rate must exceed the nominal rate."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The nominal rate is set as expected real rate plus expected inflation, while the realized real rate subtracts actual inflation. If expected and actual inflation are equal, the same inflation component is added and later subtracted, leaving the expected real rate.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "A loan has a nominal interest rate of 7 percent and expected inflation of 3 percent. What expected real interest rate is built into the loan?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3 percent"
+      },
+      {
+        "label": "B",
+        "text": "7 percent"
+      },
+      {
+        "label": "C",
+        "text": "10 percent"
+      },
+      {
+        "label": "D",
+        "text": "4 percent"
+      },
+      {
+        "label": "E",
+        "text": "2 percent"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Expected real interest rate = nominal rate - expected inflation = 7% - 3% = 4%. This is the real rate the parties anticipated when the loan was established.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "The expected real interest rate is 2 percent and expected inflation is 5 percent. What nominal interest rate will be established?",
+    "options": [
+      {
+        "label": "A",
+        "text": "7 percent"
+      },
+      {
+        "label": "B",
+        "text": "3 percent"
+      },
+      {
+        "label": "C",
+        "text": "5 percent"
+      },
+      {
+        "label": "D",
+        "text": "2 percent"
+      },
+      {
+        "label": "E",
+        "text": "10 percent"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Nominal interest rate = expected real rate + expected inflation = 2% + 5% = 7%; Both components are incorporated when the loan rate is set.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "A loan has a nominal interest rate of 6 percent and actual inflation is 2 percent. What is the realized real interest rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4 percent"
+      },
+      {
+        "label": "B",
+        "text": "8 percent"
+      },
+      {
+        "label": "C",
+        "text": "2 percent"
+      },
+      {
+        "label": "D",
+        "text": "6 percent"
+      },
+      {
+        "label": "E",
+        "text": "3 percent"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Real interest rate = nominal rate - actual inflation = 6% - 2% = 4%; Actual inflation, not expected inflation, is used in this hindsight calculation.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "A loan has a nominal interest rate of 5 percent and actual inflation is 7 percent. What is the realized real interest rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2 percent"
+      },
+      {
+        "label": "B",
+        "text": "12 percent"
+      },
+      {
+        "label": "C",
+        "text": "5 percent"
+      },
+      {
+        "label": "D",
+        "text": "-12 percent"
+      },
+      {
+        "label": "E",
+        "text": "-2 percent"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Real interest rate = 5% - 7% = -2%; A realized real interest rate can be negative when actual inflation exceeds the nominal rate.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "A loan has a nominal interest rate of 8 percent and a realized real interest rate of 3 percent. What was the actual inflation rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "11 percent"
+      },
+      {
+        "label": "B",
+        "text": "3 percent"
+      },
+      {
+        "label": "C",
+        "text": "8 percent"
+      },
+      {
+        "label": "D",
+        "text": "2 percent"
+      },
+      {
+        "label": "E",
+        "text": "5 percent"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Because real rate = nominal rate - actual inflation, actual inflation = nominal rate - real rate = 8% - 3% = 5%. The calculation uses the realized real rate because actual inflation is being recovered after the fact.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "A nominal interest rate of 9 percent includes an expected real interest rate of 4 percent. What expected inflation rate is incorporated into the loan?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5 percent"
+      },
+      {
+        "label": "B",
+        "text": "13 percent"
+      },
+      {
+        "label": "C",
+        "text": "4 percent"
+      },
+      {
+        "label": "D",
+        "text": "9 percent"
+      },
+      {
+        "label": "E",
+        "text": "2.25 percent"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Expected inflation = nominal rate - expected real rate = 9% - 4% = 5%; This is the inflation premium incorporated when the nominal rate is established.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "If the expected real interest rate is 3 percent and expected inflation is 4 percent, the nominal interest rate is",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 percent."
+      },
+      {
+        "label": "B",
+        "text": "4 percent."
+      },
+      {
+        "label": "C",
+        "text": "7 percent."
+      },
+      {
+        "label": "D",
+        "text": "3 percent."
+      },
+      {
+        "label": "E",
+        "text": "12 percent."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The nominal rate is the sum of the expected real rate and expected inflation; Therefore, 3% + 4% = 7%.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "If the nominal interest rate is 6 percent and actual inflation is 1 percent, the realized real interest rate is",
+    "options": [
+      {
+        "label": "A",
+        "text": "5 percent."
+      },
+      {
+        "label": "B",
+        "text": "7 percent."
+      },
+      {
+        "label": "C",
+        "text": "1 percent."
+      },
+      {
+        "label": "D",
+        "text": "6 percent."
+      },
+      {
+        "label": "E",
+        "text": "-5 percent."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The realized real rate equals 6% - 1% = 5%; Subtracting actual inflation removes the loss of purchasing power from the nominal return.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "A nominal interest rate of 4 percent and an actual inflation rate of 4 percent imply a realized real interest rate of",
+    "options": [
+      {
+        "label": "A",
+        "text": "4 percent."
+      },
+      {
+        "label": "B",
+        "text": "8 percent."
+      },
+      {
+        "label": "C",
+        "text": "-4 percent."
+      },
+      {
+        "label": "D",
+        "text": "1 percent."
+      },
+      {
+        "label": "E",
+        "text": "0 percent."
+      }
+    ],
+    "answer": "E",
+    "explanation": "The realized real rate is 4% - 4% = 0%; The nominal return exactly matches the rate at which purchasing power is eroded by inflation.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "A nominal interest rate of 3 percent and an actual inflation rate of 5 percent imply a realized real interest rate of",
+    "options": [
+      {
+        "label": "A",
+        "text": "2 percent."
+      },
+      {
+        "label": "B",
+        "text": "8 percent."
+      },
+      {
+        "label": "C",
+        "text": "-8 percent."
+      },
+      {
+        "label": "D",
+        "text": "-2 percent."
+      },
+      {
+        "label": "E",
+        "text": "3 percent."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The realized real rate is 3% - 5% = -2%; Actual inflation exceeds the nominal rate by two percentage points.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "If the nominal interest rate is unchanged and actual inflation rises, which of the following will most likely occur?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The realized real interest rate will rise."
+      },
+      {
+        "label": "B",
+        "text": "The realized real interest rate will fall."
+      },
+      {
+        "label": "C",
+        "text": "The expected inflation rate must fall."
+      },
+      {
+        "label": "D",
+        "text": "The nominal interest rate will rise automatically."
+      },
+      {
+        "label": "E",
+        "text": "The expected real interest rate must equal actual inflation."
+      }
+    ],
+    "answer": "B",
+    "explanation": "With a fixed nominal rate, the realized real rate moves inversely with actual inflation; More actual inflation means a larger amount is subtracted from the same nominal rate.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "If the nominal interest rate is unchanged and actual inflation falls, which of the following will most likely occur?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The realized real interest rate will fall."
+      },
+      {
+        "label": "B",
+        "text": "The expected inflation rate must rise."
+      },
+      {
+        "label": "C",
+        "text": "The realized real interest rate will rise."
+      },
+      {
+        "label": "D",
+        "text": "The nominal interest rate will fall automatically."
+      },
+      {
+        "label": "E",
+        "text": "The expected real interest rate must equal actual inflation."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A lower actual inflation rate means less is subtracted from the unchanged nominal interest rate; The realized real rate therefore rises.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "Actual inflation turns out to be higher than the inflation rate expected when a loan was made. Which of the following is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The realized real interest rate is higher than the expected real interest rate."
+      },
+      {
+        "label": "B",
+        "text": "The nominal interest rate automatically rises by the inflation surprise."
+      },
+      {
+        "label": "C",
+        "text": "The realized and expected real interest rates must remain equal."
+      },
+      {
+        "label": "D",
+        "text": "The realized real interest rate is lower than the expected real interest rate."
+      },
+      {
+        "label": "E",
+        "text": "The expected inflation rate becomes equal to actual inflation retroactively."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The nominal rate was set using the lower expected inflation rate, but the realized real rate subtracts the higher actual inflation rate. The realized real rate therefore ends up below the expected real rate.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "Actual inflation turns out to be lower than the inflation rate expected when a loan was made. Which of the following is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The realized real interest rate is lower than the expected real interest rate."
+      },
+      {
+        "label": "B",
+        "text": "The nominal interest rate automatically falls by the inflation difference."
+      },
+      {
+        "label": "C",
+        "text": "The realized real interest rate is higher than the expected real interest rate."
+      },
+      {
+        "label": "D",
+        "text": "The realized and expected real interest rates must both equal zero."
+      },
+      {
+        "label": "E",
+        "text": "The expected inflation rate is recalculated using the realized real rate."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The nominal rate was established using a higher expected inflation rate than the inflation that actually occurred. Subtracting the lower actual inflation rate produces a realized real rate above the expected real rate.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "If actual inflation equals expected inflation, the difference between the realized and expected real interest rates is",
+    "options": [
+      {
+        "label": "A",
+        "text": "zero percentage points."
+      },
+      {
+        "label": "B",
+        "text": "equal to the nominal interest rate."
+      },
+      {
+        "label": "C",
+        "text": "equal to expected inflation."
+      },
+      {
+        "label": "D",
+        "text": "one percentage point."
+      },
+      {
+        "label": "E",
+        "text": "twice the inflation rate."
+      }
+    ],
+    "answer": "A",
+    "explanation": "When actual and expected inflation are identical, the inflation component built into the nominal rate is exactly the component later subtracted. The expected and realized real rates are therefore equal.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "Which interest rate is the rate directly stated on a loan contract before inflation is removed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The realized real interest rate"
+      },
+      {
+        "label": "B",
+        "text": "The expected inflation rate"
+      },
+      {
+        "label": "C",
+        "text": "The nominal interest rate"
+      },
+      {
+        "label": "D",
+        "text": "The actual inflation rate"
+      },
+      {
+        "label": "E",
+        "text": "The inflation-adjusted real rate"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The nominal interest rate is the stated rate paid on the loan; A real interest rate is obtained only after an inflation adjustment is made.",
+    "reference": "MEA-3.B | MEA-3.B.1 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "Which of the following best explains why the real interest rate differs from the nominal interest rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The real rate adds expected and actual inflation to the nominal rate."
+      },
+      {
+        "label": "B",
+        "text": "The real rate replaces the loan's stated nominal rate after the contract is signed."
+      },
+      {
+        "label": "C",
+        "text": "The real rate adjusts the nominal rate for changes in purchasing power caused by inflation."
+      },
+      {
+        "label": "D",
+        "text": "The real rate measures only the inflation rate expected by the borrower."
+      },
+      {
+        "label": "E",
+        "text": "The real rate is the nominal rate before any inflation expectations are considered."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Inflation changes the purchasing power of the dollars paid or received through a loan; The real interest rate adjusts the nominal rate for that change in purchasing power.",
+    "reference": "MEA-3.B | MEA-3.B.1-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "Expected inflation affects a newly established nominal interest rate because",
+    "options": [
+      {
+        "label": "A",
+        "text": "lenders and borrowers incorporate expected inflation into the rate before the loan is made."
+      },
+      {
+        "label": "B",
+        "text": "actual inflation is already known with certainty before the loan is made."
+      },
+      {
+        "label": "C",
+        "text": "expected inflation is subtracted from the expected real rate to obtain the nominal rate."
+      },
+      {
+        "label": "D",
+        "text": "the nominal rate is calculated only after the loan has been repaid."
+      },
+      {
+        "label": "E",
+        "text": "real interest rates cannot be estimated until actual inflation is observed."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The nominal rate is forward-looking at the time the loan is made because future actual inflation is unknown. Expected inflation is therefore added to the expected real rate when the nominal rate is established.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "A lender wants an expected real interest rate of 4 percent when expected inflation is 2 percent. Which nominal interest rate is consistent with that objective?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2 percent"
+      },
+      {
+        "label": "B",
+        "text": "4 percent"
+      },
+      {
+        "label": "C",
+        "text": "6 percent"
+      },
+      {
+        "label": "D",
+        "text": "8 percent"
+      },
+      {
+        "label": "E",
+        "text": "-2 percent"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The nominal rate must cover both the desired expected real rate and expected inflation; Adding 4% and 2% gives a nominal rate of 6%.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "Which statement about nominal and real interest rates is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A nominal rate subtracts actual inflation, while a real rate is unadjusted for inflation."
+      },
+      {
+        "label": "B",
+        "text": "A nominal rate uses actual inflation, while a realized real rate uses expected inflation."
+      },
+      {
+        "label": "C",
+        "text": "A nominal rate and a realized real rate are always equal when inflation is positive."
+      },
+      {
+        "label": "D",
+        "text": "A nominal rate is unadjusted for inflation, while a realized real rate subtracts actual inflation."
+      },
+      {
+        "label": "E",
+        "text": "A realized real rate is found by adding actual inflation to the nominal rate."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The nominal rate is the stated, unadjusted rate; The realized real rate removes the inflation that actually occurred by subtraction.",
+    "reference": "MEA-3.B | MEA-3.B.1-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 31,
+    "difficulty": "Medium",
+    "prompt": "A loan has a nominal interest rate of 8 percent. Expected inflation was 3 percent, but actual inflation was 5 percent. Which pair of real interest rates is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Expected real rate = 3 percent; realized real rate = 5 percent."
+      },
+      {
+        "label": "B",
+        "text": "Expected real rate = 11 percent; realized real rate = 13 percent."
+      },
+      {
+        "label": "C",
+        "text": "Expected real rate = 5 percent; realized real rate = 5 percent."
+      },
+      {
+        "label": "D",
+        "text": "Expected real rate = 5 percent; realized real rate = 3 percent."
+      },
+      {
+        "label": "E",
+        "text": "Expected real rate = 3 percent; realized real rate = 3 percent."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The expected real rate is 8% - 3% = 5%, while the realized real rate is 8% - 5% = 3%. The higher- than-expected inflation lowers the realized real rate below the expected real rate.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 32,
+    "difficulty": "Medium",
+    "prompt": "A loan has a nominal interest rate of 6 percent. Expected inflation was 2 percent, but actual inflation was 1 percent. Which pair of real interest rates is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Expected real rate = 4 percent; realized real rate = 5 percent."
+      },
+      {
+        "label": "B",
+        "text": "Expected real rate = 5 percent; realized real rate = 4 percent."
+      },
+      {
+        "label": "C",
+        "text": "Expected real rate = 8 percent; realized real rate = 7 percent."
+      },
+      {
+        "label": "D",
+        "text": "Expected real rate = 4 percent; realized real rate = 4 percent."
+      },
+      {
+        "label": "E",
+        "text": "Expected real rate = 2 percent; realized real rate = 1 percent."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Expected real = 6% - 2% = 4%, and realized real = 6% - 1% = 5%. Because actual inflation was lower than expected, the realized real rate is one percentage point higher than anticipated.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 33,
+    "difficulty": "Medium",
+    "prompt": "A loan has a nominal interest rate of 7 percent, and both expected and actual inflation are 4 percent. Which statement is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The expected real rate is 11 percent and the realized real rate is 3 percent."
+      },
+      {
+        "label": "B",
+        "text": "The expected real rate is 3 percent and the realized real rate is 11 percent."
+      },
+      {
+        "label": "C",
+        "text": "Both the expected and realized real interest rates are 7 percent."
+      },
+      {
+        "label": "D",
+        "text": "Both the expected and realized real interest rates are 3 percent."
+      },
+      {
+        "label": "E",
+        "text": "Both the expected and realized real interest rates are 4 percent."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Both calculations subtract 4% from the 7% nominal rate, producing 3%; When actual inflation matches expected inflation, the expected and realized real rates coincide.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "Expected inflation rises from 3 percent to 5 percent while the expected real interest rate remains 2 percent. How does the nominal interest rate change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls from 5 percent to 3 percent."
+      },
+      {
+        "label": "B",
+        "text": "It rises from 5 percent to 7 percent."
+      },
+      {
+        "label": "C",
+        "text": "It rises from 3 percent to 5 percent."
+      },
+      {
+        "label": "D",
+        "text": "It remains at 5 percent."
+      },
+      {
+        "label": "E",
+        "text": "It rises from 2 percent to 5 percent."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Initially, nominal = 2% + 3% = 5%; afterward, nominal = 2% + 5% = 7%. A two-percentage-point rise in expected inflation produces the same increase in the nominal rate when the expected real rate is fixed.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "The expected real interest rate falls from 4 percent to 3 percent while expected inflation rises from 2 percent to 4 percent. What happens to the nominal interest rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls from 6 percent to 5 percent."
+      },
+      {
+        "label": "B",
+        "text": "It rises from 6 percent to 7 percent."
+      },
+      {
+        "label": "C",
+        "text": "It rises from 4 percent to 6 percent."
+      },
+      {
+        "label": "D",
+        "text": "It remains at 6 percent."
+      },
+      {
+        "label": "E",
+        "text": "It falls from 8 percent to 7 percent."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The original nominal rate is 4% + 2% = 6%, and the new rate is 3% + 4% = 7%. The two components move in opposite directions, but the two-point rise in expected inflation exceeds the one-point fall in the expected real rate.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "The expected real interest rate rises from 2 percent to 4 percent while expected inflation falls from 5 percent to 3 percent. What happens to the nominal interest rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises from 7 percent to 9 percent."
+      },
+      {
+        "label": "B",
+        "text": "It falls from 7 percent to 5 percent."
+      },
+      {
+        "label": "C",
+        "text": "It rises from 5 percent to 7 percent."
+      },
+      {
+        "label": "D",
+        "text": "It falls from 9 percent to 7 percent."
+      },
+      {
+        "label": "E",
+        "text": "It remains at 7 percent."
+      }
+    ],
+    "answer": "E",
+    "explanation": "The original nominal rate is 2% + 5% = 7%, and the new rate is 4% + 3% = 7%. Equal and opposite changes in the two components leave the nominal rate unchanged.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "The nominal interest rate rises from 6 percent to 9 percent while expected inflation rises from 2 percent to 4 percent. What happens to the expected real interest rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises from 4 percent to 7 percent."
+      },
+      {
+        "label": "B",
+        "text": "It falls from 4 percent to 3 percent."
+      },
+      {
+        "label": "C",
+        "text": "It remains at 4 percent."
+      },
+      {
+        "label": "D",
+        "text": "It rises from 4 percent to 5 percent."
+      },
+      {
+        "label": "E",
+        "text": "It rises from 2 percent to 5 percent."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Expected real interest equals nominal minus expected inflation; It changes from 6%-2%=4% to 9%-4%=5%, so it rises by one percentage point.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "The nominal interest rate rises from 5 percent to 7 percent while expected inflation rises from 1 percent to 4 percent. What happens to the expected real interest rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises from 4 percent to 6 percent."
+      },
+      {
+        "label": "B",
+        "text": "It rises from 4 percent to 7 percent."
+      },
+      {
+        "label": "C",
+        "text": "It remains at 4 percent."
+      },
+      {
+        "label": "D",
+        "text": "It falls from 4 percent to 3 percent."
+      },
+      {
+        "label": "E",
+        "text": "It falls from 5 percent to 4 percent."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The expected real rate changes from 5%-1%=4% to 7%-4%=3%; Expected inflation rises by more than the nominal rate, so the expected real component declines.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "A loan has a nominal interest rate of 7 percent and an expected real rate of 3 percent. Actual inflation is 6 percent. Which statement is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Expected inflation was 4 percent, and the realized real rate is 1 percent."
+      },
+      {
+        "label": "B",
+        "text": "Expected inflation was 3 percent, and the realized real rate is 4 percent."
+      },
+      {
+        "label": "C",
+        "text": "Expected inflation was 10 percent, and the realized real rate is 13 percent."
+      },
+      {
+        "label": "D",
+        "text": "Expected inflation was 1 percent, and the realized real rate is 4 percent."
+      },
+      {
+        "label": "E",
+        "text": "Expected inflation was 4 percent, and the realized real rate is 6 percent."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Expected inflation = 7%-3%=4%, while realized real = 7%-6%=1%. The question requires using expected inflation to reconstruct the contract and actual inflation to determine the outcome.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "A loan has a nominal interest rate of 9 percent and a realized real rate of 2 percent. Expected inflation was 5 percent. Which statement is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Actual inflation was 4 percent, and the expected real rate was 7 percent."
+      },
+      {
+        "label": "B",
+        "text": "Actual inflation was 11 percent, and the expected real rate was 14 percent."
+      },
+      {
+        "label": "C",
+        "text": "Actual inflation was 7 percent, and the expected real rate was 5 percent."
+      },
+      {
+        "label": "D",
+        "text": "Actual inflation was 2 percent, and the expected real rate was 4 percent."
+      },
+      {
+        "label": "E",
+        "text": "Actual inflation was 7 percent, and the expected real rate was 4 percent."
+      }
+    ],
+    "answer": "E",
+    "explanation": "Actual inflation = 9%-2%=7%, while expected real = 9%-5%=4%. The same nominal rate is paired with different inflation measures depending on whether the calculation is expected or realized.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "Two loans have the same nominal interest rate. Loan A experiences 2 percent actual inflation and Loan B experiences 5 percent actual inflation. Which loan has the higher realized real interest rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Loan A, because less actual inflation is subtracted from the same nominal rate."
+      },
+      {
+        "label": "B",
+        "text": "Loan B, because more actual inflation raises the real rate."
+      },
+      {
+        "label": "C",
+        "text": "Loan B, because the nominal rates are the same."
+      },
+      {
+        "label": "D",
+        "text": "The loans have equal real rates because their nominal rates are equal."
+      },
+      {
+        "label": "E",
+        "text": "The comparison cannot be made unless expected inflation is known."
+      }
+    ],
+    "answer": "A",
+    "explanation": "With the same nominal rate, the loan with lower actual inflation has the higher realized real rate. Expected inflation is not required for an ex post comparison when nominal and actual inflation are known.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "Two loans experience the same actual inflation rate. Loan A has a 5 percent nominal rate and Loan B has an 8 percent nominal rate. Which loan has the higher realized real interest rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Loan A, because a lower nominal rate creates a higher real rate."
+      },
+      {
+        "label": "B",
+        "text": "Loan A, because actual inflation affects only the higher nominal rate."
+      },
+      {
+        "label": "C",
+        "text": "The loans have equal real rates because their inflation rates are equal."
+      },
+      {
+        "label": "D",
+        "text": "The comparison cannot be made unless expected inflation is known."
+      },
+      {
+        "label": "E",
+        "text": "Loan B, because the same inflation rate is subtracted from a higher nominal rate."
+      }
+    ],
+    "answer": "E",
+    "explanation": "When actual inflation is the same, the higher nominal rate produces the higher realized real rate; The inflation adjustment is identical for both loans.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "Two loans are designed to provide the same expected real interest rate. Loan A is made when expected inflation is 2 percent and Loan B when expected inflation is 5 percent. Which statement is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Loan A will have a nominal rate 3 percentage points higher than Loan B."
+      },
+      {
+        "label": "B",
+        "text": "The nominal rates will be equal because the expected real rates are equal."
+      },
+      {
+        "label": "C",
+        "text": "Loan B will have a nominal rate 3 percentage points higher than Loan A."
+      },
+      {
+        "label": "D",
+        "text": "Loan B will have a nominal rate 5 percentage points lower than Loan A."
+      },
+      {
+        "label": "E",
+        "text": "The nominal-rate difference cannot be determined from expected inflation."
+      }
+    ],
+    "answer": "C",
+    "explanation": "With equal expected real rates, the only difference in the nominal rates comes from expected inflation. A three-point higher expected inflation rate makes Loan B's nominal rate three points higher.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "Two loans are made when expected inflation is the same. Loan A is designed for a 2 percent expected real rate and Loan B for a 5 percent expected real rate. Which statement is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Loan A will have a nominal rate 3 percentage points higher than Loan B."
+      },
+      {
+        "label": "B",
+        "text": "Loan B will have a nominal rate 3 percentage points higher than Loan A."
+      },
+      {
+        "label": "C",
+        "text": "The nominal rates will be equal because expected inflation is equal."
+      },
+      {
+        "label": "D",
+        "text": "Loan B will have a nominal rate 5 percentage points lower than Loan A."
+      },
+      {
+        "label": "E",
+        "text": "The nominal-rate difference cannot be determined from expected real rates."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The nominal rate is expected real plus expected inflation. With identical expected inflation, the three-point difference in expected real rates carries directly into the nominal rates.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "Loan A has an expected real rate of 3 percent and expected inflation of 2 percent. Loan B has an expected real rate of 2 percent and expected inflation of 4 percent. Which loan has the higher nominal rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Loan A, with a nominal rate of 5 percent compared with 4 percent for Loan B."
+      },
+      {
+        "label": "B",
+        "text": "Loan B, with a nominal rate of 6 percent compared with 5 percent for Loan A."
+      },
+      {
+        "label": "C",
+        "text": "Loan A, with a nominal rate of 6 percent compared with 5 percent for Loan B."
+      },
+      {
+        "label": "D",
+        "text": "The loans have equal nominal rates of 5 percent."
+      },
+      {
+        "label": "E",
+        "text": "The loans have equal nominal rates of 6 percent."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Loan A's nominal rate is 3%+2%=5%, while Loan B's is 2%+4%=6%. A lower expected real rate can still be paired with a higher nominal rate when expected inflation is sufficiently higher.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "Loans A and B both have nominal interest rates of 6 percent. Expected inflation is 2 percent for A and 4 percent for B. Which statement is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A has a 2 percent expected real rate, while B has a 4 percent expected real rate."
+      },
+      {
+        "label": "B",
+        "text": "Both loans have expected real rates of 6 percent."
+      },
+      {
+        "label": "C",
+        "text": "Both loans have expected real rates of 2 percent."
+      },
+      {
+        "label": "D",
+        "text": "A has an 8 percent expected real rate, while B has a 10 percent expected real rate."
+      },
+      {
+        "label": "E",
+        "text": "A has a 4 percent expected real rate, while B has a 2 percent expected real rate."
+      }
+    ],
+    "answer": "E",
+    "explanation": "Expected real = nominal - expected inflation; For A it is 6%-2%=4%, while for B it is 6%-4%=2%.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "Loans A and B both have realized real interest rates of 2 percent. Actual inflation is 3 percent for A and 5 percent for B. Which pair of nominal rates is consistent with the data?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A: 5 percent; B: 7 percent"
+      },
+      {
+        "label": "B",
+        "text": "A: 1 percent; B: 3 percent"
+      },
+      {
+        "label": "C",
+        "text": "A: 5 percent; B: 5 percent"
+      },
+      {
+        "label": "D",
+        "text": "A: 6 percent; B: 10 percent"
+      },
+      {
+        "label": "E",
+        "text": "A: 3 percent; B: 5 percent"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Nominal = realized real + actual inflation for this hindsight relationship; Loan A requires 2% +3%=5%, while Loan B requires 2%+5%=7%.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "Loan A has a 5 percent nominal rate and 1 percent actual inflation. Loan B has an 8 percent nominal rate and 4 percent actual inflation. Which statement is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Loan A has a 6 percent real rate and Loan B has a 12 percent real rate."
+      },
+      {
+        "label": "B",
+        "text": "Loan A has a 4 percent real rate and Loan B has an 8 percent real rate."
+      },
+      {
+        "label": "C",
+        "text": "Both loans have realized real interest rates of 4 percent."
+      },
+      {
+        "label": "D",
+        "text": "Loan A has a 1 percent real rate and Loan B has a 4 percent real rate."
+      },
+      {
+        "label": "E",
+        "text": "Loan B has a 7 percent real rate while Loan A has a 3 percent real rate."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Loan A's realized real rate is 5%-1%=4%, and Loan B's is 8%-4%=4%. Different nominal and inflation rates can therefore produce the same realized real rate.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "A 5 percent nominal rate was established using a 3 percent expected real rate and 2 percent expected inflation. If actual inflation is 5 percent, what is the realized real rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2 percent"
+      },
+      {
+        "label": "B",
+        "text": "3 percent"
+      },
+      {
+        "label": "C",
+        "text": "5 percent"
+      },
+      {
+        "label": "D",
+        "text": "8 percent"
+      },
+      {
+        "label": "E",
+        "text": "0 percent"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The realized real rate uses actual inflation: 5%-5%=0%. The expected 3% real rate does not determine the outcome once actual inflation differs from the expectation.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "A 5 percent nominal rate was established using a 4 percent expected real rate and 1 percent expected inflation. If actual inflation is 0 percent, what is the realized real rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 percent"
+      },
+      {
+        "label": "B",
+        "text": "5 percent"
+      },
+      {
+        "label": "C",
+        "text": "4 percent"
+      },
+      {
+        "label": "D",
+        "text": "0 percent"
+      },
+      {
+        "label": "E",
+        "text": "-5 percent"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The realized real rate is 5%-0%=5%. Because actual inflation is below the 1% expected rate, the realized real rate exceeds the 4% rate that was anticipated.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "A loan is set at 5 percent nominal interest when expected inflation is 2 percent. Actual inflation later rises to 6 percent. How do the expected and realized real rates compare?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The expected real rate is -1 percent, while the realized real rate is 3 percent."
+      },
+      {
+        "label": "B",
+        "text": "The expected and realized real rates are both 3 percent."
+      },
+      {
+        "label": "C",
+        "text": "The expected and realized real rates are both -1 percent."
+      },
+      {
+        "label": "D",
+        "text": "The expected real rate is 3 percent, while the realized real rate is -1 percent."
+      },
+      {
+        "label": "E",
+        "text": "The expected real rate is 7 percent, while the realized real rate is 11 percent."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Expected real = 5%-2%=3%; realized real = 5%-6%=-1%. The four-point inflation surprise lowers the realized rate by four percentage points relative to what was expected.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "A loan is set at 7 percent nominal interest when expected inflation is 4 percent. Actual inflation later turns out to be 1 percent. How do the expected and realized real rates compare?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The expected real rate is 6 percent, while the realized real rate is 3 percent."
+      },
+      {
+        "label": "B",
+        "text": "The expected real rate is 3 percent, while the realized real rate is 6 percent."
+      },
+      {
+        "label": "C",
+        "text": "The expected and realized real rates are both 3 percent."
+      },
+      {
+        "label": "D",
+        "text": "The expected and realized real rates are both 6 percent."
+      },
+      {
+        "label": "E",
+        "text": "The expected real rate is 11 percent, while the realized real rate is 8 percent."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Expected real = 7%-4%=3%; realized real = 7%-1%=6%. Actual inflation is three points below expected inflation, so the realized real rate is three points above the expected real rate.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "A loan is set at 6 percent nominal interest when the expected real rate is 1 percent and expected inflation is 5 percent. Actual inflation is 2 percent. What is the realized real interest rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 percent"
+      },
+      {
+        "label": "B",
+        "text": "3 percent"
+      },
+      {
+        "label": "C",
+        "text": "6 percent"
+      },
+      {
+        "label": "D",
+        "text": "4 percent"
+      },
+      {
+        "label": "E",
+        "text": "8 percent"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The nominal rate is already given, so the realized real rate is 6%-2%=4%. The lower-than- expected actual inflation makes the realized real rate exceed the 1% rate anticipated at origination.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "Which change would leave the nominal interest rate unchanged?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The expected real rate rises 2 points while expected inflation rises 2 points."
+      },
+      {
+        "label": "B",
+        "text": "The expected real rate falls 2 points while expected inflation falls 2 points."
+      },
+      {
+        "label": "C",
+        "text": "The expected real rate rises 2 percentage points while expected inflation falls 2 percentage points."
+      },
+      {
+        "label": "D",
+        "text": "The expected real rate rises 1 point while expected inflation is unchanged."
+      },
+      {
+        "label": "E",
+        "text": "The expected real rate is unchanged while expected inflation rises 2 points."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The nominal rate is the sum of expected real interest and expected inflation; Equal changes in opposite directions offset exactly, leaving the sum unchanged.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "Which change would increase the nominal interest rate by 1 percentage point?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The expected real rate falls 2 points while expected inflation rises 1 point."
+      },
+      {
+        "label": "B",
+        "text": "The expected real rate rises 1 point while expected inflation falls 2 points."
+      },
+      {
+        "label": "C",
+        "text": "The expected real rate falls 1 point while expected inflation falls 2 points."
+      },
+      {
+        "label": "D",
+        "text": "The expected real rate is unchanged while expected inflation falls 1 point."
+      },
+      {
+        "label": "E",
+        "text": "The expected real rate falls 1 point while expected inflation rises 2 points."
+      }
+    ],
+    "answer": "E",
+    "explanation": "The net change in nominal interest is the sum of the component changes: -1 + 2 = +1 percentage point. The other combinations either reduce the nominal rate or move it by a different amount.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "Which change would decrease the nominal interest rate by 2 percentage points?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The expected real rate rises 3 points while expected inflation falls 1 point."
+      },
+      {
+        "label": "B",
+        "text": "The expected real rate falls 1 point while expected inflation rises 3 points."
+      },
+      {
+        "label": "C",
+        "text": "The expected real rate falls 3 points while expected inflation rises 1 point."
+      },
+      {
+        "label": "D",
+        "text": "The expected real rate rises 1 point while expected inflation falls 3 points."
+      },
+      {
+        "label": "E",
+        "text": "The expected real rate is unchanged while expected inflation rises 2 points."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The net nominal-rate change is -3 + 1 = -2 percentage points; The calculation follows directly from nominal = expected real + expected inflation.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "The nominal interest rate rises by 3 percentage points and actual inflation also rises by 3 percentage points. What happens to the realized real interest rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises by 6 percentage points."
+      },
+      {
+        "label": "B",
+        "text": "It rises by 3 percentage points."
+      },
+      {
+        "label": "C",
+        "text": "It remains unchanged."
+      },
+      {
+        "label": "D",
+        "text": "It falls by 3 percentage points."
+      },
+      {
+        "label": "E",
+        "text": "It falls by 6 percentage points."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The realized real rate is nominal minus actual inflation; Equal increases in both components cancel, so the difference is unchanged.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "The nominal interest rate rises by 1 percentage point while actual inflation falls by 1 percentage point. What happens to the realized real interest rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It remains unchanged."
+      },
+      {
+        "label": "B",
+        "text": "It rises by 1 percentage point."
+      },
+      {
+        "label": "C",
+        "text": "It falls by 1 percentage point."
+      },
+      {
+        "label": "D",
+        "text": "It rises by 2 percentage points."
+      },
+      {
+        "label": "E",
+        "text": "It falls by 2 percentage points."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A one-point increase in nominal interest raises the real rate, and a one-point decrease in actual inflation raises it again. The combined change is +1 - (-1) = +2 percentage points.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "The nominal interest rate falls by 1 percentage point while actual inflation rises by 2 percentage points. What happens to the realized real interest rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls by 1 percentage point."
+      },
+      {
+        "label": "B",
+        "text": "It falls by 2 percentage points."
+      },
+      {
+        "label": "C",
+        "text": "It rises by 1 percentage point."
+      },
+      {
+        "label": "D",
+        "text": "It falls by 3 percentage points."
+      },
+      {
+        "label": "E",
+        "text": "It rises by 3 percentage points."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The change in realized real interest is the change in nominal interest minus the change in actual inflation: -1 - 2 = -3 percentage points. Both movements push the real rate downward.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "Loan A has an 8 percent nominal rate and 4 percent actual inflation. Loan B has a 7 percent nominal rate and 2 percent actual inflation. Which loan has the higher realized real interest rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Loan A, with an 8 percent real rate compared with 7 percent for Loan B."
+      },
+      {
+        "label": "B",
+        "text": "Loan A, with a 4 percent real rate compared with 2 percent for Loan B."
+      },
+      {
+        "label": "C",
+        "text": "The loans have equal real rates because their nominal rates differ by one point."
+      },
+      {
+        "label": "D",
+        "text": "The comparison cannot be made because expected inflation is not provided."
+      },
+      {
+        "label": "E",
+        "text": "Loan B, with a 5 percent real rate compared with 4 percent for Loan A."
+      }
+    ],
+    "answer": "E",
+    "explanation": "Loan A's real rate is 8%-4%=4%, while Loan B's is 7%-2%=5%. A lower nominal rate can still produce a higher real rate when actual inflation is sufficiently lower.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "Loan A has a 6 percent nominal rate and 7 percent actual inflation. Loan B has a 4 percent nominal rate and 2 percent actual inflation. Which loan has the higher realized real interest rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Loan A, with a 13 percent real rate compared with 6 percent for Loan B."
+      },
+      {
+        "label": "B",
+        "text": "Loan A, with a 1 percent real rate compared with -2 percent for Loan B."
+      },
+      {
+        "label": "C",
+        "text": "Loan B, with a 2 percent real rate compared with -1 percent for Loan A."
+      },
+      {
+        "label": "D",
+        "text": "The loans have equal real rates because Loan A has the higher nominal rate."
+      },
+      {
+        "label": "E",
+        "text": "The comparison cannot be made because expected inflation is not provided."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Loan A's realized real rate is 6%-7%=-1%, while Loan B's is 4%-2%=2%. Nominal rates alone do not rank realized real rates when actual inflation differs.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "Loan A has a 9 percent nominal rate and 5 percent expected inflation. Loan B has an 8 percent nominal rate and 2 percent expected inflation. Which loan has the higher expected real interest rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Loan A, with a 14 percent expected real rate compared with 10 percent for Loan B."
+      },
+      {
+        "label": "B",
+        "text": "Loan A, with a 5 percent expected real rate compared with 2 percent for Loan B."
+      },
+      {
+        "label": "C",
+        "text": "The loans have equal expected real rates because Loan A has the higher nominal rate."
+      },
+      {
+        "label": "D",
+        "text": "The comparison cannot be made because actual inflation is not provided."
+      },
+      {
+        "label": "E",
+        "text": "Loan B, with a 6 percent expected real rate compared with 4 percent for Loan A."
+      }
+    ],
+    "answer": "E",
+    "explanation": "Expected real interest equals nominal minus expected inflation; Loan A gives 9%-5%=4%, while Loan B gives 8%-2%=6%.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "If expected inflation rises by more than the nominal interest rate rises, which of the following must happen to the expected real interest rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises."
+      },
+      {
+        "label": "B",
+        "text": "It remains unchanged."
+      },
+      {
+        "label": "C",
+        "text": "It falls."
+      },
+      {
+        "label": "D",
+        "text": "It becomes equal to actual inflation."
+      },
+      {
+        "label": "E",
+        "text": "It becomes equal to the nominal rate."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Expected real interest equals nominal interest minus expected inflation. If expected inflation increases by a larger amount than the nominal rate, the difference must decrease.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "If expected inflation falls by more than the nominal interest rate falls, which of the following must happen to the expected real interest rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls."
+      },
+      {
+        "label": "B",
+        "text": "It rises."
+      },
+      {
+        "label": "C",
+        "text": "It remains unchanged."
+      },
+      {
+        "label": "D",
+        "text": "It becomes equal to actual inflation."
+      },
+      {
+        "label": "E",
+        "text": "It becomes equal to the nominal rate."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The expected real rate equals nominal minus expected inflation; A larger decline in expected inflation than in the nominal rate increases that difference.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "The nominal interest rate and expected inflation both rise by 2 percentage points. Which of the following is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The expected real interest rate is unchanged."
+      },
+      {
+        "label": "B",
+        "text": "The expected real interest rate rises by 4 points."
+      },
+      {
+        "label": "C",
+        "text": "The expected real interest rate rises by 2 points."
+      },
+      {
+        "label": "D",
+        "text": "The expected real interest rate falls by 2 points."
+      },
+      {
+        "label": "E",
+        "text": "The expected real interest rate falls by 4 points."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Expected real = nominal - expected inflation; Equal increases in the two terms leave their difference unchanged.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "The table shows a loan with an 8 percent nominal rate, 3 percent expected inflation, and 6 percent actual inflation. Which pair is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Expected real rate = 2 percent; realized real rate = 5 percent."
+      },
+      {
+        "label": "B",
+        "text": "Expected real rate = 11 percent; realized real rate = 14 percent."
+      },
+      {
+        "label": "C",
+        "text": "Expected real rate = 5 percent; realized real rate = 6 percent."
+      },
+      {
+        "label": "D",
+        "text": "Expected real rate = 5 percent; realized real rate = 2 percent."
+      },
+      {
+        "label": "E",
+        "text": "Expected real rate = 3 percent; realized real rate = 2 percent."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The expected real rate is 8%-3%=5%, and the realized real rate is 8%-6%=2%; The two inflation measures serve different time horizons in the calculations.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "A loan has a 10 percent nominal rate and a 6 percent expected real rate. If actual inflation is 7 percent, which statement is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Expected inflation was 4 percent, and the realized real rate is 3 percent."
+      },
+      {
+        "label": "B",
+        "text": "Expected inflation was 16 percent, and the realized real rate is 17 percent."
+      },
+      {
+        "label": "C",
+        "text": "Expected inflation was 3 percent, and the realized real rate is 4 percent."
+      },
+      {
+        "label": "D",
+        "text": "Expected inflation was 4 percent, and the realized real rate is 7 percent."
+      },
+      {
+        "label": "E",
+        "text": "Expected inflation was 6 percent, and the realized real rate is 3 percent."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Expected inflation = 10%-6%=4%, while realized real = 10%-7%=3%. One calculation reconstructs the expectation at origination; the other measures the outcome after actual inflation is known.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "A loan has a 9 percent nominal interest rate and a realized real rate of 4 percent. If expected inflation was 3 percent, which statement is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Actual inflation was 13 percent, and the expected real rate was 12 percent."
+      },
+      {
+        "label": "B",
+        "text": "Actual inflation was 5 percent, and the expected real rate was 6 percent."
+      },
+      {
+        "label": "C",
+        "text": "Actual inflation was 4 percent, and the expected real rate was 5 percent."
+      },
+      {
+        "label": "D",
+        "text": "Actual inflation was 5 percent, and the expected real rate was 3 percent."
+      },
+      {
+        "label": "E",
+        "text": "Actual inflation was 3 percent, and the expected real rate was 6 percent."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Actual inflation = 9%-4%=5%, while expected real = 9%-3%=6%. Actual and expected inflation need not be equal, so the realized and expected real rates can differ.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "Which statement best distinguishes an expected real interest rate from a realized real interest rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The expected real rate uses expected inflation when a loan is set; the realized real rate uses actual inflation afterward."
+      },
+      {
+        "label": "B",
+        "text": "The expected real rate uses actual inflation afterward; the realized real rate uses expected inflation when a loan is set."
+      },
+      {
+        "label": "C",
+        "text": "Both rates use actual inflation, but only the expected rate includes the nominal interest rate."
+      },
+      {
+        "label": "D",
+        "text": "Both rates use expected inflation, but only the realized rate can differ from the nominal rate."
+      },
+      {
+        "label": "E",
+        "text": "The expected real rate is always nominal, while the realized real rate is always equal to inflation."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The expected real rate is an ex ante concept tied to the inflation anticipated at origination. The realized real rate is an ex post concept tied to the inflation that actually occurred.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "A loan has an 8 percent nominal rate, 3 percent expected inflation, and 6 percent actual inflation. Which statement correctly compares the expected and realized real rates?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The expected real rate is 2 percent, the realized real rate is 5 percent, and the realized rate is 3 points higher."
+      },
+      {
+        "label": "B",
+        "text": "The expected real rate is 11 percent, the realized real rate is 14 percent, and the realized rate is 3 points higher."
+      },
+      {
+        "label": "C",
+        "text": "The expected real rate is 5 percent, the realized real rate is 6 percent, and the realized rate is 1 point higher."
+      },
+      {
+        "label": "D",
+        "text": "The expected real rate is 3 percent, the realized real rate is 2 percent, and the realized rate is 1 point lower."
+      },
+      {
+        "label": "E",
+        "text": "The expected real rate is 5 percent, the realized real rate is 2 percent, and the realized rate is 3 points lower."
+      }
+    ],
+    "answer": "E",
+    "explanation": "Expected real = 8%-3%=5%, while realized real = 8%-6%=2%. The three-point excess of actual over expected inflation translates exactly into a three-point shortfall of realized relative to expected real interest.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 71,
+    "difficulty": "Hard",
+    "prompt": "A loan has a 4 percent nominal rate, 5 percent expected inflation, and 3 percent actual inflation. Which statement correctly compares the expected and realized real rates?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The expected real rate is 1 percent, the realized real rate is -1 percent, and the realized rate is 2 points lower."
+      },
+      {
+        "label": "B",
+        "text": "The expected real rate is 9 percent, the realized real rate is 7 percent, and the realized rate is 2 points lower."
+      },
+      {
+        "label": "C",
+        "text": "The expected real rate is -1 percent, the realized real rate is 3 percent, and the realized rate is 4 points higher."
+      },
+      {
+        "label": "D",
+        "text": "The expected real rate is 5 percent, the realized real rate is 3 percent, and the realized rate is 2 points lower."
+      },
+      {
+        "label": "E",
+        "text": "The expected real rate is -1 percent, the realized real rate is 1 percent, and the realized rate is 2 points higher."
+      }
+    ],
+    "answer": "E",
+    "explanation": "Expected real = 4%-5%=-1%, while realized real = 4%-3%=1%. Actual inflation is two points below expected inflation, so the realized real rate is two points above the expected real rate.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 72,
+    "difficulty": "Hard",
+    "prompt": "Loan A has a 7 percent nominal rate, 2 percent expected inflation, and 5 percent actual inflation. Loan B has an 8 percent nominal rate, 4 percent expected inflation, and 3 percent actual inflation. Which statement is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A has the higher expected real rate, but B has the higher realized real rate."
+      },
+      {
+        "label": "B",
+        "text": "A has both the higher expected real rate and the higher realized real rate."
+      },
+      {
+        "label": "C",
+        "text": "B has both the higher expected real rate and the higher realized real rate."
+      },
+      {
+        "label": "D",
+        "text": "B has the higher expected real rate, but A has the higher realized real rate."
+      },
+      {
+        "label": "E",
+        "text": "The two loans have equal expected and realized real interest rates."
+      }
+    ],
+    "answer": "A",
+    "explanation": "For A, expected real = 5% and realized real = 2%; for B, expected real = 4% and realized real = 5%. Different inflation surprises reverse the ranking between the expected and realized real rates.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 73,
+    "difficulty": "Hard",
+    "prompt": "Loan A has a 6 percent nominal rate, 3 percent expected inflation, and 1 percent actual inflation. Loan B has a 7 percent nominal rate, 2 percent expected inflation, and 4 percent actual inflation. Which statement is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A has both the higher expected real rate and the higher realized real rate."
+      },
+      {
+        "label": "B",
+        "text": "B has the higher expected real rate, but A has the higher realized real rate."
+      },
+      {
+        "label": "C",
+        "text": "B has both the higher expected real rate and the higher realized real rate."
+      },
+      {
+        "label": "D",
+        "text": "A has the higher expected real rate, but B has the higher realized real rate."
+      },
+      {
+        "label": "E",
+        "text": "The two loans have equal expected and realized real interest rates."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Loan A has expected real 3% and realized real 5%; Loan B has expected real 5% and realized real 3%. The different gaps between expected and actual inflation reverse the ranking.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "A loan was set using a 3 percent expected real rate and 4 percent expected inflation. The realized real rate was 1 percent. What actual inflation rate occurred?",
+    "options": [
+      {
+        "label": "A",
+        "text": "6 percent"
+      },
+      {
+        "label": "B",
+        "text": "2 percent"
+      },
+      {
+        "label": "C",
+        "text": "4 percent"
+      },
+      {
+        "label": "D",
+        "text": "7 percent"
+      },
+      {
+        "label": "E",
+        "text": "8 percent"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The nominal rate set at origination was 3%+4%=7%. Since realized real = nominal-actual inflation, actual inflation = 7%-1%=6%.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "A loan has a 9 percent nominal rate that was set using a 4 percent expected real rate. The realized real rate is 1 percent. Which statement is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Expected inflation was 8 percent and actual inflation was 5 percent."
+      },
+      {
+        "label": "B",
+        "text": "Expected inflation was 5 percent and actual inflation was 8 percent."
+      },
+      {
+        "label": "C",
+        "text": "Expected inflation was 13 percent and actual inflation was 10 percent."
+      },
+      {
+        "label": "D",
+        "text": "Expected inflation was 4 percent and actual inflation was 1 percent."
+      },
+      {
+        "label": "E",
+        "text": "Expected inflation was 5 percent and actual inflation was 4 percent."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Expected inflation = 9%-4%=5%, while actual inflation = 9%-1%=8%. The three-point inflation surprise explains why the realized real rate is three points below the expected real rate.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "A loan was set using a 2 percent expected real rate and 4 percent expected inflation. The realized real rate is -1 percent. Which statement is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The nominal rate is 2 percent and actual inflation is 3 percent."
+      },
+      {
+        "label": "B",
+        "text": "The nominal rate is 6 percent and actual inflation is 7 percent."
+      },
+      {
+        "label": "C",
+        "text": "The nominal rate is 6 percent and actual inflation is 5 percent."
+      },
+      {
+        "label": "D",
+        "text": "The nominal rate is 8 percent and actual inflation is 7 percent."
+      },
+      {
+        "label": "E",
+        "text": "The nominal rate is 4 percent and actual inflation is 3 percent."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The nominal rate is 2%+4%=6%. A realized real rate of -1% then requires actual inflation of 7%, because 6%-7%=-1%.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "Expected inflation increases by 3 percentage points while the expected real interest rate falls by 1 point. Which of the following must occur?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The nominal interest rate rises by 4 percentage points."
+      },
+      {
+        "label": "B",
+        "text": "The nominal interest rate falls by 2 percentage points."
+      },
+      {
+        "label": "C",
+        "text": "The nominal interest rate falls by 4 percentage points."
+      },
+      {
+        "label": "D",
+        "text": "The nominal interest rate remains unchanged."
+      },
+      {
+        "label": "E",
+        "text": "The nominal interest rate rises by 2 percentage points."
+      }
+    ],
+    "answer": "E",
+    "explanation": "The nominal rate is the sum of expected real interest and expected inflation. The net change is -1 + 3 = +2 percentage points.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "In Period 1, the expected real rate is 3 percent, expected inflation is 2 percent, and actual inflation is 1 percent. In Period 2, the expected real rate remains 3 percent, expected inflation is 5 percent, and actual inflation is 7 percent. Which statement is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The nominal rate rises from 5 to 8 percent, while the realized real rate rises from 4 to 6 percent."
+      },
+      {
+        "label": "B",
+        "text": "The nominal rate falls from 5 to 2 percent, while the realized real rate falls from 4 to 1 percent."
+      },
+      {
+        "label": "C",
+        "text": "The nominal rate remains 5 percent, while the realized real rate rises from 2 to 7 percent."
+      },
+      {
+        "label": "D",
+        "text": "The nominal rate rises from 3 to 5 percent, while the realized real rate remains 3 percent."
+      },
+      {
+        "label": "E",
+        "text": "The nominal rate rises from 5 to 8 percent, while the realized real rate falls from 4 to 1 percent."
+      }
+    ],
+    "answer": "E",
+    "explanation": "Period 1 nominal = 3%+2%=5% and realized = 5%-1%=4%. Period 2 nominal = 3%+5%=8% and realized = 8%-7%=1%, so a higher nominal rate coexists with a lower realized real rate.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "The nominal interest rate is unchanged even though expected inflation rises by 2 percentage points. What must have happened to the expected real interest rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rose by 2 percentage points."
+      },
+      {
+        "label": "B",
+        "text": "It remained unchanged."
+      },
+      {
+        "label": "C",
+        "text": "It fell by 2 percentage points."
+      },
+      {
+        "label": "D",
+        "text": "It fell by 1 percentage point."
+      },
+      {
+        "label": "E",
+        "text": "It rose by 4 percentage points."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Because nominal = expected real + expected inflation, an unchanged sum requires the expected real component to offset the two-point rise in expected inflation. It must therefore fall by two points.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "The realized real interest rate is unchanged even though actual inflation rises by 3 percentage points. What must have happened to the nominal interest rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rose by 3 percentage points."
+      },
+      {
+        "label": "B",
+        "text": "It fell by 3 percentage points."
+      },
+      {
+        "label": "C",
+        "text": "It remained unchanged."
+      },
+      {
+        "label": "D",
+        "text": "It rose by 6 percentage points."
+      },
+      {
+        "label": "E",
+        "text": "It fell by 6 percentage points."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Realized real = nominal - actual inflation. To preserve the same difference when actual inflation rises three points, the nominal rate must also rise three points.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "The expected real interest rate is unchanged while the nominal interest rate rises by 4 percentage points. What must have happened to expected inflation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It fell by 4 percentage points."
+      },
+      {
+        "label": "B",
+        "text": "It rose by 4 percentage points."
+      },
+      {
+        "label": "C",
+        "text": "It remained unchanged."
+      },
+      {
+        "label": "D",
+        "text": "It rose by 8 percentage points."
+      },
+      {
+        "label": "E",
+        "text": "It fell by 8 percentage points."
+      }
+    ],
+    "answer": "B",
+    "explanation": "With the expected real component unchanged, every change in the nominal rate must come from expected inflation. A four-point nominal increase therefore requires a four-point increase in expected inflation.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "Which pair of equations correctly distinguishes the interest rate expected when a loan is made from the interest rate realized afterward?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nominal = expected real - expected inflation; realized real = nominal + actual inflation."
+      },
+      {
+        "label": "B",
+        "text": "Nominal = expected real + expected inflation; realized real = nominal - actual inflation."
+      },
+      {
+        "label": "C",
+        "text": "Nominal = realized real + actual inflation; expected real = nominal + expected inflation."
+      },
+      {
+        "label": "D",
+        "text": "Nominal = expected inflation - expected real; realized real = actual inflation - nominal."
+      },
+      {
+        "label": "E",
+        "text": "Nominal = expected real + actual inflation; realized real = nominal - expected inflation."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The nominal rate is established ex ante from expected real interest and expected inflation. The ex post real rate is then calculated by subtracting the inflation that actually occurred.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "Which sequence correctly describes the timing of the variables in a fixed-rate loan?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Actual inflation establishes the nominal rate; expected inflation occurs later; expected inflation then determines the realized real rate."
+      },
+      {
+        "label": "B",
+        "text": "The realized real rate is fixed first; actual inflation sets expected inflation; the nominal rate is calculated last."
+      },
+      {
+        "label": "C",
+        "text": "Expected inflation is observed only after actual inflation; the nominal rate is then rewritten to match both rates."
+      },
+      {
+        "label": "D",
+        "text": "The nominal rate is unrelated to inflation expectations; actual inflation changes the stated nominal rate after the loan ends."
+      },
+      {
+        "label": "E",
+        "text": "Expected inflation helps establish the nominal rate; actual inflation occurs later; actual inflation is then used to calculate the realized real rate."
+      }
+    ],
+    "answer": "E",
+    "explanation": "Expected inflation is available when the contract is formed, while actual future inflation is not. After actual inflation is observed, it is used with the preexisting nominal rate to calculate the realized real interest rate.",
+    "reference": "MEA-3.B | MEA-3.B.1-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "Which statement is consistent with the relationships among nominal interest, expected inflation, and realized real interest?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A fixed nominal rate forces actual inflation to equal expected inflation, so the realized real rate cannot differ from the expected real rate."
+      },
+      {
+        "label": "B",
+        "text": "A realized real rate is used to determine expected inflation before the nominal rate is established."
+      },
+      {
+        "label": "C",
+        "text": "Expected inflation changes the nominal rate only after actual inflation has been observed."
+      },
+      {
+        "label": "D",
+        "text": "The nominal rate must be adjusted every period so that it always equals the realized real rate."
+      },
+      {
+        "label": "E",
+        "text": "A loan can have a fixed nominal rate, an expected real rate based on expected inflation, and a different realized real rate if actual inflation differs from expected inflation."
+      }
+    ],
+    "answer": "E",
+    "explanation": "The nominal rate is established from expectations, but the realized real rate depends on what inflation actually occurs. A difference between expected and actual inflation therefore creates a difference between expected and realized real rates without changing the original nominal rate.",
+    "reference": "MEA-3.B | MEA-3.B.1-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "A loan's nominal rate and actual inflation are known, but expected inflation is not. Which quantity can be calculated without any additional information?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The expected real interest rate"
+      },
+      {
+        "label": "B",
+        "text": "The expected inflation rate"
+      },
+      {
+        "label": "C",
+        "text": "The inflation surprise"
+      },
+      {
+        "label": "D",
+        "text": "The realized real interest rate"
+      },
+      {
+        "label": "E",
+        "text": "The difference between expected and realized real rates"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Nominal rate and actual inflation are sufficient to calculate the realized real rate. Expected quantities cannot be recovered without at least one additional expectation-based value.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "A loan's nominal rate and actual inflation are known, but the expected real interest rate is not. Which quantity cannot be determined without additional information?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The realized real interest rate"
+      },
+      {
+        "label": "B",
+        "text": "The nominal interest rate"
+      },
+      {
+        "label": "C",
+        "text": "The expected inflation rate"
+      },
+      {
+        "label": "D",
+        "text": "The actual inflation rate"
+      },
+      {
+        "label": "E",
+        "text": "The nominal-minus-actual-inflation difference"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The realized real rate is directly calculable from nominal minus actual inflation. Expected inflation cannot be separated from the expected real rate unless one of those expected components is also known.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "The nominal rate, expected real rate, and realized real rate are known for a loan. Which pair of inflation rates can be recovered?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Expected inflation from nominal plus expected real, and actual inflation from nominal plus realized real."
+      },
+      {
+        "label": "B",
+        "text": "Expected inflation from nominal minus expected real, and actual inflation from nominal minus realized real."
+      },
+      {
+        "label": "C",
+        "text": "Expected inflation from realized real minus nominal, and actual inflation from expected real minus nominal."
+      },
+      {
+        "label": "D",
+        "text": "Expected inflation from nominal minus realized real, and actual inflation from nominal minus expected real."
+      },
+      {
+        "label": "E",
+        "text": "Neither inflation rate can be recovered because inflation is independent of interest rates."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The expected relationship gives expected inflation = nominal - expected real. The hindsight relationship gives actual inflation = nominal - realized real.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "Two changes occur simultaneously: the expected real interest rate rises by 2 points and expected inflation falls by 2 points. Which statement must be true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The nominal interest rate rises by 4 points because both components increase it."
+      },
+      {
+        "label": "B",
+        "text": "The nominal interest rate falls by 4 points because expected inflation dominates the calculation."
+      },
+      {
+        "label": "C",
+        "text": "The nominal interest rate rises by 2 points because expected real interest is the only relevant component."
+      },
+      {
+        "label": "D",
+        "text": "The nominal interest rate is unchanged even though its two components have changed."
+      },
+      {
+        "label": "E",
+        "text": "The nominal interest rate falls by 2 points because expected inflation is subtracted from expected real interest."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The nominal rate is the sum of the two components, so +2 and -2 offset. The composition of the nominal rate changes even though its total does not.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "The nominal rate rises by 3 percentage points while actual inflation also rises by 3 points. Which statement must be true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The realized real rate is unchanged even though both nominal interest and inflation are higher."
+      },
+      {
+        "label": "B",
+        "text": "The realized real rate rises by 6 points because both variables increased."
+      },
+      {
+        "label": "C",
+        "text": "The realized real rate rises by 3 points because only nominal interest matters."
+      },
+      {
+        "label": "D",
+        "text": "The realized real rate falls by 3 points because actual inflation always dominates nominal interest."
+      },
+      {
+        "label": "E",
+        "text": "The realized real rate falls by 6 points because inflation is subtracted twice."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A realized real rate is the difference between nominal interest and actual inflation. Equal increases preserve that difference exactly.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "A loan is set at a 5 percent nominal rate when expected inflation is 3 percent. Actual inflation later equals 8 percent. Which statement is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The expected real rate was -3 percent, but the realized real rate is 2 percent."
+      },
+      {
+        "label": "B",
+        "text": "The expected real rate was 8 percent, and the realized real rate is 13 percent."
+      },
+      {
+        "label": "C",
+        "text": "The expected and realized real rates are both 2 percent."
+      },
+      {
+        "label": "D",
+        "text": "The expected real rate was 2 percent, but the realized real rate is -3 percent."
+      },
+      {
+        "label": "E",
+        "text": "The expected and realized real rates are both -3 percent."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Expected real = 5%-3%=2%, while realized real = 5%-8%=-3%. The five-point difference between actual and expected inflation becomes a five-point gap between the expected and realized real rates.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "A loan is set at a 7 percent nominal rate when expected inflation is 6 percent. Actual inflation later equals 2 percent. Which statement is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The expected real rate was 5 percent, but the realized real rate is 1 percent."
+      },
+      {
+        "label": "B",
+        "text": "The expected real rate was 13 percent, and the realized real rate is 9 percent."
+      },
+      {
+        "label": "C",
+        "text": "The expected real rate was 1 percent, but the realized real rate is 5 percent."
+      },
+      {
+        "label": "D",
+        "text": "The expected and realized real rates are both 1 percent."
+      },
+      {
+        "label": "E",
+        "text": "The expected and realized real rates are both 5 percent."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Expected real = 7%-6%=1%, while realized real = 7%-2%=5%. Actual inflation is four points below expected inflation, raising the realized real rate four points above the expected rate.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "A nominal interest rate of 3 percent is established when expected inflation is 4 percent. If actual inflation also equals 4 percent, which statement is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both the expected and realized real interest rates are -1 percent."
+      },
+      {
+        "label": "B",
+        "text": "Both the expected and realized real interest rates are 1 percent."
+      },
+      {
+        "label": "C",
+        "text": "The expected real rate is -1 percent, but the realized real rate is 7 percent."
+      },
+      {
+        "label": "D",
+        "text": "The expected real rate is 7 percent, but the realized real rate is -1 percent."
+      },
+      {
+        "label": "E",
+        "text": "Both the expected and realized real interest rates are 3 percent."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Expected real = 3%-4%=-1%, and actual inflation equals the expectation, so realized real is also -1%. A negative real rate is possible even when inflation is fully anticipated.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "A nominal interest rate is 0 percent, expected inflation is 2 percent, and actual inflation is 3 percent. Which statement is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The expected real rate is 2 percent and the realized real rate is 3 percent."
+      },
+      {
+        "label": "B",
+        "text": "The expected real rate is -2 percent and the realized real rate is -3 percent."
+      },
+      {
+        "label": "C",
+        "text": "The expected real rate is -3 percent and the realized real rate is -2 percent."
+      },
+      {
+        "label": "D",
+        "text": "Both the expected and realized real rates are 0 percent."
+      },
+      {
+        "label": "E",
+        "text": "The expected real rate is 2 percent and the realized real rate is -3 percent."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Expected real = 0%-2%=-2%, while realized real = 0%-3%=-3%. A zero nominal rate does not imply a zero real rate when inflation is positive.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "Loans A and B both have 6 percent nominal rates. A was set with 2 percent expected inflation and experiences 5 percent actual inflation. B was set with 4 percent expected inflation and experiences 1 percent actual inflation. Which statement is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A has the higher expected real rate and the higher realized real rate."
+      },
+      {
+        "label": "B",
+        "text": "B has the higher expected real rate and the higher realized real rate."
+      },
+      {
+        "label": "C",
+        "text": "B has the higher expected real rate, while A has the higher realized real rate."
+      },
+      {
+        "label": "D",
+        "text": "A has the higher expected real rate, while B has the higher realized real rate."
+      },
+      {
+        "label": "E",
+        "text": "The two loans have equal expected and realized real rates because the nominal rates are equal."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A has expected real 4% and realized real 1%; B has expected real 2% and realized real 5%. Equal nominal rates do not imply equal expected or realized real rates when the inflation measures differ.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "The nominal rate rises by 2 points while actual inflation rises by 5 points. Which of the following must happen to the realized real rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls by 3 percentage points."
+      },
+      {
+        "label": "B",
+        "text": "It rises by 7 percentage points."
+      },
+      {
+        "label": "C",
+        "text": "It rises by 3 percentage points."
+      },
+      {
+        "label": "D",
+        "text": "It falls by 2 percentage points."
+      },
+      {
+        "label": "E",
+        "text": "It falls by 7 percentage points."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The change in realized real interest is +2 - 5 = -3 percentage points. Actual inflation rises by more than the nominal rate, so the real rate falls.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "The nominal rate falls by 1 percentage point while actual inflation falls by 4 points. Which of the following must happen to the realized real rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls by 5 percentage points."
+      },
+      {
+        "label": "B",
+        "text": "It falls by 3 percentage points."
+      },
+      {
+        "label": "C",
+        "text": "It rises by 1 percentage point."
+      },
+      {
+        "label": "D",
+        "text": "It rises by 3 percentage points."
+      },
+      {
+        "label": "E",
+        "text": "It rises by 5 percentage points."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The change in realized real interest is -1 - (-4) = +3 percentage points. The decline in actual inflation more than offsets the decline in the nominal rate.",
+    "reference": "MEA-3.B | MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "The nominal interest rate rises by 3 percentage points while expected inflation rises by 5 points. Which of the following must happen to the expected real interest rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises by 8 percentage points."
+      },
+      {
+        "label": "B",
+        "text": "It rises by 2 percentage points."
+      },
+      {
+        "label": "C",
+        "text": "It falls by 2 percentage points."
+      },
+      {
+        "label": "D",
+        "text": "It falls by 3 percentage points."
+      },
+      {
+        "label": "E",
+        "text": "It falls by 8 percentage points."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Expected real = nominal - expected inflation. The change is +3 - 5 = -2 percentage points.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "Expected inflation falls by 4 percentage points while the expected real interest rate rises by 1 point. What happens to the nominal interest rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises by 5 percentage points."
+      },
+      {
+        "label": "B",
+        "text": "It rises by 3 percentage points."
+      },
+      {
+        "label": "C",
+        "text": "It falls by 3 percentage points."
+      },
+      {
+        "label": "D",
+        "text": "It falls by 1 percentage point."
+      },
+      {
+        "label": "E",
+        "text": "It falls by 5 percentage points."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The nominal rate changes by the sum of the component changes: +1 + (-4) = -3 percentage points. A rise in expected real interest only partly offsets the fall in expected inflation.",
+    "reference": "MEA-3.B | MEA-3.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "Initially, the nominal rate is 7 percent, expected inflation is 3 percent, and actual inflation is 2 percent. Later, the expected real rate remains 4 percent, expected inflation rises to 5 percent, and actual inflation is 6 percent. Which statement is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The new nominal rate is 9 percent, and the realized real rate falls from 5 percent to 3 percent."
+      },
+      {
+        "label": "B",
+        "text": "The new nominal rate is 7 percent, and the realized real rate rises from 5 percent to 6 percent."
+      },
+      {
+        "label": "C",
+        "text": "The new nominal rate is 9 percent, and the realized real rate rises from 4 percent to 6 percent."
+      },
+      {
+        "label": "D",
+        "text": "The new nominal rate is 5 percent, and the realized real rate falls from 5 percent to -1 percent."
+      },
+      {
+        "label": "E",
+        "text": "The new nominal rate is 11 percent, and the realized real rate remains at 5 percent."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Initially, realized real = 7%-2%=5%. The expected real rate is 4%, so with new expected inflation of 5% the new nominal rate is 9%; subtracting 6% actual inflation gives a new realized real rate of 3%.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "A loan has a 7 percent nominal rate. Expected inflation is 3 percent, but no actual inflation rate is provided. Which statement is most accurate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The realized real rate can be calculated as 4 percent, but the expected real rate cannot be determined."
+      },
+      {
+        "label": "B",
+        "text": "Both the expected and realized real rates must equal 4 percent because the nominal rate is fixed."
+      },
+      {
+        "label": "C",
+        "text": "Both the expected and realized real rates must equal 7 percent because actual inflation is unknown."
+      },
+      {
+        "label": "D",
+        "text": "Neither real rate can be calculated because expected inflation does not enter interest-rate calculations."
+      },
+      {
+        "label": "E",
+        "text": "The expected real rate can be calculated as 4 percent, but the realized real rate cannot yet be determined."
+      }
+    ],
+    "answer": "E",
+    "explanation": "Expected real interest can be calculated immediately as 7%-3%=4%. The realized real rate requires the actual inflation rate, so it cannot be determined from the information given.",
+    "reference": "MEA-3.B | MEA-3.B.2-MEA-3.B.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  }
+]

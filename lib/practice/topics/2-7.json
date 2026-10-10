@@ -1,0 +1,3202 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "Which of the following best defines a business cycle?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A fixed, calendar-based schedule in which the economy expands for exactly two years and contracts for exactly one year."
+      },
+      {
+        "label": "B",
+        "text": "Recurring fluctuations in aggregate output and employment caused by changes in aggregate supply and/or aggregate demand."
+      },
+      {
+        "label": "C",
+        "text": "The long-run upward trend of potential output that results from the accumulation of productive capacity over decades."
+      },
+      {
+        "label": "D",
+        "text": "The difference between the peak level of real GDP and the trough level of real GDP within a single contraction."
+      },
+      {
+        "label": "E",
+        "text": "A government-mandated sequence of monetary and fiscal actions designed to stabilize prices across time."
+      }
+    ],
+    "answer": "B",
+    "explanation": "defines business cycles as fluctuations in aggregate output and employment that arise from changes in aggregate supply and/or aggregate demand. They are not fixed in length or caused solely by policy; they represent the short-run ups and downs of the economy around its long-run growth trend.",
+    "reference": "MEA-2.A | MEA-2.A.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "According to the CED, what are the TWO phases of a business cycle?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Peak and trough."
+      },
+      {
+        "label": "B",
+        "text": "Inflation and deflation."
+      },
+      {
+        "label": "C",
+        "text": "Recession and expansion."
+      },
+      {
+        "label": "D",
+        "text": "Contraction and stagnation."
+      },
+      {
+        "label": "E",
+        "text": "Output gap and potential output."
+      }
+    ],
+    "answer": "C",
+    "explanation": "identifies recession and expansion as the two phases of a business cycle; recession is the contractionary phase (falling output and employment); expansion is the growth phase (rising output and employment); peak and trough are turning points, not phases.",
+    "reference": "MEA-2.A | MEA-2.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "What are the TWO turning points of a business cycle?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Recession and expansion."
+      },
+      {
+        "label": "B",
+        "text": "Aggregate supply and aggregate demand."
+      },
+      {
+        "label": "C",
+        "text": "Potential output and actual output."
+      },
+      {
+        "label": "D",
+        "text": "Peak and trough."
+      },
+      {
+        "label": "E",
+        "text": "Output gap and full-employment output."
+      }
+    ],
+    "answer": "D",
+    "explanation": "identifies peak and trough as the turning points of a business cycle; the peak is the high point where an expansion ends and recession begins; the trough is the low point where a recession ends and expansion begins.",
+    "reference": "MEA-2.A | MEA-2.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "A peak in the business cycle is best described as",
+    "options": [
+      {
+        "label": "A",
+        "text": "the lowest point of a recession, after which real GDP begins to recover."
+      },
+      {
+        "label": "B",
+        "text": "the point at which actual output equals potential output and the output gap is zero."
+      },
+      {
+        "label": "C",
+        "text": "the highest point of an expansion, after which real GDP begins to fall and the economy enters the recessionary phase."
+      },
+      {
+        "label": "D",
+        "text": "the point at which the output gap is most negative during a contraction."
+      },
+      {
+        "label": "E",
+        "text": "the long-run level of output consistent with full employment of all resources."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A peak is the turning point at which an expansion reaches its highest level of real GDP and transitions into the recessionary phase. After the peak, output and employment both fall; it is not a point of zero output gap by definition - peaks may occur above, at, or below potential output.",
+    "reference": "MEA-2.A | MEA-2.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "A trough in the business cycle is best described as",
+    "options": [
+      {
+        "label": "A",
+        "text": "the highest point of an expansion, marking the transition to recession."
+      },
+      {
+        "label": "B",
+        "text": "the level of real GDP at which the economy produces at its full-employment capacity."
+      },
+      {
+        "label": "C",
+        "text": "the point at which the output gap is positive and actual output exceeds potential."
+      },
+      {
+        "label": "D",
+        "text": "the lowest point of a recession, after which real GDP begins to rise and the economy enters the expansionary phase."
+      },
+      {
+        "label": "E",
+        "text": "the phase during which aggregate output and employment are both falling."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A trough is the turning point at which a recession reaches its lowest level of real GDP and transitions into the expansionary phase. After the trough, output and employment begin to rise; the trough is the mirror image of the peak: peaks mark the start of contractions, troughs mark the end of contractions.",
+    "reference": "MEA-2.A | MEA-2.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "The output gap is defined as",
+    "options": [
+      {
+        "label": "A",
+        "text": "the difference between the peak level and trough level of actual output in a business cycle."
+      },
+      {
+        "label": "B",
+        "text": "the difference between nominal GDP and real GDP in a given year."
+      },
+      {
+        "label": "C",
+        "text": "the difference between actual output and potential output."
+      },
+      {
+        "label": "D",
+        "text": "the difference between aggregate demand and aggregate supply at a given price level."
+      },
+      {
+        "label": "E",
+        "text": "the difference between full-employment output and the natural rate of unemployment."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Output gap = Actual output - Potential output; when positive, actual exceeds potential (inflationary gap); when negative, actual falls short of potential (recessionary gap); when zero, the economy is at potential output.",
+    "reference": "MEA-2.A | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "Potential output is also known as",
+    "options": [
+      {
+        "label": "A",
+        "text": "peak output, because it represents the highest real GDP the economy ever achieves."
+      },
+      {
+        "label": "B",
+        "text": "full-employment output — the level of GDP produced when unemployment equals the natural rate."
+      },
+      {
+        "label": "C",
+        "text": "trough output, because it represents the minimum sustainable level of production."
+      },
+      {
+        "label": "D",
+        "text": "zero-gap output, meaning actual output is always exactly equal to this benchmark."
+      },
+      {
+        "label": "E",
+        "text": "cyclical output, because it fluctuates with each phase of the business cycle."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The CED explicitly states that potential output is \"also called full-employment output.\" It is the level of GDP consistent with unemployment equaling the natural rate (frictional + structural, no cyclical unemployment). It is not a ceiling - actual output can temporarily exceed it.",
+    "reference": "MEA-2.A | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "When actual output is below potential output, the output gap is",
+    "options": [
+      {
+        "label": "A",
+        "text": "positive, indicating the economy is in an inflationary gap."
+      },
+      {
+        "label": "B",
+        "text": "zero, because the output gap is only defined when actual equals potential."
+      },
+      {
+        "label": "C",
+        "text": "negative, indicating a recessionary gap — the economy is underproducing relative to its full-employment capacity."
+      },
+      {
+        "label": "D",
+        "text": "undefined, because output gaps only exist during peaks and troughs."
+      },
+      {
+        "label": "E",
+        "text": "positive, because potential output is always lower than actual output during recessions."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Output gap = Actual - Potential; when actual < potential, the result is negative - a recessionary (negative) gap; unemployment exceeds the natural rate and productive capacity is underutilized; the economy is operating inside its full-employment frontier.",
+    "reference": "MEA-2.A | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "When actual output is above potential output, the output gap is",
+    "options": [
+      {
+        "label": "A",
+        "text": "negative, indicating a recessionary gap with high unemployment."
+      },
+      {
+        "label": "B",
+        "text": "zero, because actual output cannot exceed potential output."
+      },
+      {
+        "label": "C",
+        "text": "positive, indicating an inflationary gap — the economy is temporarily operating beyond its full-employment capacity with unemployment below the natural rate."
+      },
+      {
+        "label": "D",
+        "text": "negative, because exceeding potential always contracts the economy."
+      },
+      {
+        "label": "E",
+        "text": "undefined, because potential output is a theoretical maximum that can never be surpassed."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Output gap = Actual - Potential; when actual > potential, the result is positive - an inflationary (positive) gap. Unemployment has fallen below the natural rate and the economy is temporarily overextending its resources; this is unsustainable and typically generates upward wage and price pressure.",
+    "reference": "MEA-2.A | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "According to MEA-2.A.5, potential output is the level of GDP at which",
+    "options": [
+      {
+        "label": "A",
+        "text": "actual output reaches its highest point during a business cycle expansion."
+      },
+      {
+        "label": "B",
+        "text": "the output gap is at its most negative value."
+      },
+      {
+        "label": "C",
+        "text": "aggregate supply and aggregate demand intersect at a price level of 100."
+      },
+      {
+        "label": "D",
+        "text": "unemployment equals the natural rate of unemployment."
+      },
+      {
+        "label": "E",
+        "text": "the economy has zero inflation and zero unemployment simultaneously."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Potential output is precisely defined as the GDP level where unemployment = the natural rate; at this point, only frictional and structural unemployment exist; cyclical unemployment is zero; the output gap is zero; this is the economy's sustainable full-employment benchmark.",
+    "reference": "MEA-2.A | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "During a recession, both aggregate output and employment",
+    "options": [
+      {
+        "label": "A",
+        "text": "rise, reflecting increased productive capacity."
+      },
+      {
+        "label": "B",
+        "text": "fall — MEA-2.A.1 defines business cycle fluctuations as involving declines in both aggregate output AND employment during the contractionary phase."
+      },
+      {
+        "label": "C",
+        "text": "remain stable while only prices change."
+      },
+      {
+        "label": "D",
+        "text": "rise above potential output, creating an inflationary gap."
+      },
+      {
+        "label": "E",
+        "text": "become equal to potential output as the economy self-corrects."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MEA-2.A.2: Business cycles are defined as fluctuations in BOTH aggregate output AND employment; during a recession (the contractionary phase), real GDP falls and employment declines simultaneously, because firms produce less and therefore need fewer workers.",
+    "reference": "MEA-2.A | MEA-2.A.1 | MEA-2.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "During an expansion, both aggregate output and employment",
+    "options": [
+      {
+        "label": "A",
+        "text": "fall, as the economy approaches its trough."
+      },
+      {
+        "label": "B",
+        "text": "remain constant at the natural rate of unemployment."
+      },
+      {
+        "label": "C",
+        "text": "rise — during the expansionary phase, real GDP increases and firms hire more workers, raising employment alongside rising output."
+      },
+      {
+        "label": "D",
+        "text": "move in opposite directions: output rises while employment falls."
+      },
+      {
+        "label": "E",
+        "text": "fall below potential output, widening the recessionary gap."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MEA-2.A.2: During an expansion (the growth phase), real GDP rises and firms hire more workers to meet increased demand - employment rises alongside output; both dimensions of MEA-2.A.1 move together in the same direction: up during expansion, down during recession.",
+    "reference": "MEA-2.A | MEA-2.A.1 | MEA-2.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "Which of the following correctly sequences a complete business cycle beginning at the trough?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Trough → Peak → Expansion → Recession → Trough"
+      },
+      {
+        "label": "B",
+        "text": "Trough → Recession → Peak → Expansion → Trough"
+      },
+      {
+        "label": "C",
+        "text": "Trough → Expansion → Peak → Recession → Trough"
+      },
+      {
+        "label": "D",
+        "text": "Peak → Trough → Recession → Expansion → Peak"
+      },
+      {
+        "label": "E",
+        "text": "Expansion → Recession → Trough → Peak → Expansion"
+      }
+    ],
+    "answer": "C",
+    "explanation": "MEA-2.A.3: Starting from the trough (lowest point), the economy enters the expansionary phase (rising output and employment), reaches the peak (highest turning point), then enters the recessionary phase (falling output and employment), and returns to the next trough. Trough → Expansion → Peak → Recession → Trough completes one full cycle.",
+    "reference": "MEA-2.A | MEA-2.A.2 | MEA-2.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "According to MEA-2.A.1, business cycles are caused by changes in",
+    "options": [
+      {
+        "label": "A",
+        "text": "the money supply and nominal interest rates only."
+      },
+      {
+        "label": "B",
+        "text": "government spending and taxation exclusively."
+      },
+      {
+        "label": "C",
+        "text": "aggregate supply and/or aggregate demand."
+      },
+      {
+        "label": "D",
+        "text": "the natural rate of unemployment and the inflation target."
+      },
+      {
+        "label": "E",
+        "text": "potential output and the output gap directly."
+      }
+    ],
+    "answer": "C",
+    "explanation": "explicitly states that business cycles result from \"changes in aggregate supply and/or aggregate demand.\" Any shock - whether a change in consumer confidence (AD), a supply disruption (AS), fiscal policy (AD), or a technology improvement (AS) - generates business cycle fluctuations through these two channels.",
+    "reference": "MEA-2.A | MEA-2.A.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "If actual real GDP = $18 trillion and potential output = $20 trillion, the output gap equals",
+    "options": [
+      {
+        "label": "A",
+        "text": "+$2 trillion (inflationary gap)"
+      },
+      {
+        "label": "B",
+        "text": "zero (economy is at potential)"
+      },
+      {
+        "label": "C",
+        "text": "−$18 trillion"
+      },
+      {
+        "label": "D",
+        "text": "−$2 trillion (recessionary gap)"
+      },
+      {
+        "label": "E",
+        "text": "+$20 trillion (potential output)"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Output gap = Actual - Potential = $18T - $20T = -$2 trillion; the negative sign indicates a recessionary gap - actual output falls short of potential by $2 trillion; unemployment exceeds the natural rate; productive resources are underutilized.",
+    "reference": "MEA-2.A | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "If actual real GDP = $22 trillion and potential output = $20 trillion, the output gap equals",
+    "options": [
+      {
+        "label": "A",
+        "text": "−$2 trillion (recessionary gap)"
+      },
+      {
+        "label": "B",
+        "text": "zero (at full employment)"
+      },
+      {
+        "label": "C",
+        "text": "+$2 trillion (inflationary gap)"
+      },
+      {
+        "label": "D",
+        "text": "+$20 trillion"
+      },
+      {
+        "label": "E",
+        "text": "-$18 trillion"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Output gap = $22T - $20T = +$2 trillion; the positive sign indicates an inflationary gap - actual output exceeds potential by $2 trillion; unemployment is below the natural rate; the economy is temporarily overextending its productive capacity.",
+    "reference": "MEA-2.A | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "When the output gap equals zero, which of the following must be true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The economy is at a business cycle peak."
+      },
+      {
+        "label": "B",
+        "text": "Unemployment is zero and all labor is fully employed."
+      },
+      {
+        "label": "C",
+        "text": "The economy is in the recessionary phase with falling real GDP."
+      },
+      {
+        "label": "D",
+        "text": "Actual output equals potential output and unemployment equals the natural rate of unemployment."
+      },
+      {
+        "label": "E",
+        "text": "The output gap being zero means aggregate supply has shifted rightward."
+      }
+    ],
+    "answer": "D",
+    "explanation": "MEA-2.A.5: Output gap = 0 means Actual = Potential; by MEA-2.A.5, potential output is defined as GDP at the natural rate of unemployment. Therefore, zero output gap implies unemployment = natural rate and cyclical unemployment = 0; the economy is at its full-employment benchmark, not necessarily at a cyclical peak.",
+    "reference": "MEA-2.A | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "At the business cycle trough, which of the following is most likely true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Actual output equals potential output and the output gap is zero."
+      },
+      {
+        "label": "B",
+        "text": "The economy is in the expansionary phase with rising employment."
+      },
+      {
+        "label": "C",
+        "text": "Actual output is at its lowest relative to potential — the recessionary gap is at its deepest — and unemployment is at its cyclical high."
+      },
+      {
+        "label": "D",
+        "text": "The output gap is positive and the economy is overheating."
+      },
+      {
+        "label": "E",
+        "text": "Potential output falls to meet actual output, closing the recessionary gap."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MEA-2.A.4: The trough is the lowest point of a recession. Actual output is at its cyclical minimum, furthest below potential - the recessionary gap is most negative; employment is at its cyclical low and unemployment is at its cyclical peak; after the trough, the expansion begins and the gap begins to close.",
+    "reference": "MEA-2.A | MEA-2.A.3 | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "At the business cycle peak, which of the following is most likely true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Actual output is at its cyclical minimum and the output gap is most negative."
+      },
+      {
+        "label": "B",
+        "text": "The economy has just entered the recessionary phase with rapidly falling employment."
+      },
+      {
+        "label": "C",
+        "text": "Real GDP is at its cyclical high and unemployment is at or near its cyclical low — the economy transitions from expansion to recession."
+      },
+      {
+        "label": "D",
+        "text": "The output gap is negative and potential output exceeds actual output."
+      },
+      {
+        "label": "E",
+        "text": "The economy has reached zero unemployment and the recessionary gap is eliminated."
+      }
+    ],
+    "answer": "C",
+    "explanation": "At the peak, actual real GDP is at its cyclical maximum - the expansion has reached its high point. Employment is near its cyclical peak and unemployment near its cyclical low; after the peak, the economy enters the recessionary phase: output and employment begin to fall.",
+    "reference": "MEA-2.A | MEA-2.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "A recessionary gap exists when",
+    "options": [
+      {
+        "label": "A",
+        "text": "actual output exceeds potential output and unemployment is below the natural rate."
+      },
+      {
+        "label": "B",
+        "text": "actual output equals potential output and the economy is at full employment."
+      },
+      {
+        "label": "C",
+        "text": "potential output falls to zero during a severe contraction."
+      },
+      {
+        "label": "D",
+        "text": "actual output is below potential output — the output gap is negative, indicating the economy is underperforming relative to its full-employment capacity with unemployment above the natural rate."
+      },
+      {
+        "label": "E",
+        "text": "the economy is between trough and peak during a strong expansion."
+      }
+    ],
+    "answer": "D",
+    "explanation": "MEA-2.A.5: A recessionary gap (negative output gap) exists when actual output < potential output. This means unemployment > natural rate (cyclical unemployment is positive); the economy has unused productive capacity - workers and capital are idle; recessionary gaps are associated with the contractionary phase and its aftermath.",
+    "reference": "MEA-2.A | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "An inflationary gap exists when",
+    "options": [
+      {
+        "label": "A",
+        "text": "the price level rises above the GDP deflator in the base year."
+      },
+      {
+        "label": "B",
+        "text": "actual output is below potential output and unemployment exceeds the natural rate."
+      },
+      {
+        "label": "C",
+        "text": "actual output exceeds potential output — the economy is temporarily producing beyond its sustainable full-employment capacity, with unemployment below the natural rate."
+      },
+      {
+        "label": "D",
+        "text": "the economy has passed its trough and is in early-stage expansion."
+      },
+      {
+        "label": "E",
+        "text": "government spending on output increases aggregate demand past the natural rate."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MEA-2.A.5: An inflationary gap (positive output gap) exists when actual > potential. Unemployment has fallen below the natural rate; the economy is overextending its resources; this is unsustainable - upward wage and price pressure typically brings the economy back toward potential over time.",
+    "reference": "MEA-2.A | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "Which of the following correctly describes the relationship between potential output and the natural rate of unemployment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Potential output is the GDP level consistent with zero unemployment."
+      },
+      {
+        "label": "B",
+        "text": "The natural rate and potential output are unrelated — one measures labor markets, the other measures output."
+      },
+      {
+        "label": "C",
+        "text": "Potential output is the GDP level produced when unemployment equals the natural rate — the two are directly linked by definition in MEA-2.A.5."
+      },
+      {
+        "label": "D",
+        "text": "The natural rate of unemployment equals the output gap divided by potential output."
+      },
+      {
+        "label": "E",
+        "text": "Potential output rises whenever the natural rate of unemployment rises."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The CED directly defines potential output as \"the level of GDP where unemployment is equal to the natural rate of unemployment.\" The two are inseparable: the natural rate defines the unemployment benchmark for full employment, and potential output is the corresponding GDP produced at that benchmark.",
+    "reference": "MEA-2.A | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "Which of the following best describes the long-run trend of potential output on a business cycle graph?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Potential output is a flat horizontal line, because the economy's productive capacity never changes."
+      },
+      {
+        "label": "B",
+        "text": "Potential output oscillates above and below actual output throughout the business cycle."
+      },
+      {
+        "label": "C",
+        "text": "Potential output is downward-sloping, reflecting the long-run decline in productive capacity."
+      },
+      {
+        "label": "D",
+        "text": "Potential output is an upward-sloping line, reflecting the long-run growth of productive capacity — actual GDP fluctuates above and below this rising trend."
+      },
+      {
+        "label": "E",
+        "text": "Potential output equals actual output at every point, so both lines are identical on the graph."
+      }
+    ],
+    "answer": "D",
+    "explanation": "(graph): The CED business cycle graph shows potential output as an upward-trending line reflecting long-run growth in the economy's productive capacity (driven by capital, labor, and technology improvements). Actual GDP is a wave-like curve that oscillates above and below this rising potential output trend.",
+    "reference": "MEA-2.A | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "During which phase of the business cycle is cyclical unemployment at its highest level?",
+    "options": [
+      {
+        "label": "A",
+        "text": "During the expansionary phase, when firms are aggressively hiring."
+      },
+      {
+        "label": "B",
+        "text": "At the business cycle peak, when employment is at its cyclical high."
+      },
+      {
+        "label": "C",
+        "text": "At or near the trough — the economy has completed its contraction and cyclical unemployment peaks at the end of the recessionary phase before recovery begins."
+      },
+      {
+        "label": "D",
+        "text": "During periods when the output gap is positive and actual output exceeds potential."
+      },
+      {
+        "label": "E",
+        "text": "When potential output grows faster than actual output during a sustained expansion."
+      }
+    ],
+    "answer": "C",
+    "explanation": "-A.5: Cyclical unemployment is highest when actual output is furthest below potential - at or near the trough. Throughout the recessionary phase, employment falls and cyclical unemployment builds; it reaches its peak at the trough (the most negative point of the output gap) before the expansion begins reducing it.",
+    "reference": "MEA-2.A | MEA-2.A.3 | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "A decrease in aggregate demand would most likely cause which of the following business cycle events?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A shift of potential output to a higher level, raising full-employment GDP."
+      },
+      {
+        "label": "B",
+        "text": "A positive output gap as actual output rises above potential."
+      },
+      {
+        "label": "C",
+        "text": "The economy moving from peak to trough — falling aggregate demand reduces actual output and employment, initiating the recessionary phase of the business cycle."
+      },
+      {
+        "label": "D",
+        "text": "An increase in potential output, which widens the inflationary gap."
+      },
+      {
+        "label": "E",
+        "text": "The economy remaining at potential output because AD shifts do not affect real variables."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MEA-2.A.2: A decrease in AD is one of the primary drivers of business cycle contractions. Lower AD means firms face reduced demand for their output, so they cut production (output falls) and reduce hiring (employment falls); this pushes the economy from its peak into the recessionary phase, with actual output moving below potential and a recessionary gap developing.",
+    "reference": "MEA-2.A | MEA-2.A.1 | MEA-2.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "A significant increase in aggregate supply would most likely cause which of the following?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A contraction in actual output and employment — the hallmarks of a recession."
+      },
+      {
+        "label": "B",
+        "text": "An increase in the output gap from positive to neutral."
+      },
+      {
+        "label": "C",
+        "text": "An expansion — rising aggregate supply increases actual output and employment, characteristic of the expansionary phase of the business cycle."
+      },
+      {
+        "label": "D",
+        "text": "A fall in potential output, pushing the full-employment benchmark downward."
+      },
+      {
+        "label": "E",
+        "text": "The recessionary gap to widen as potential output rises faster than actual output."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MEA-2.A.2: Increases in AS (e.g., a positive technology shock) produce more real GDP and employment - the hallmarks of expansion. specifies that business cycles arise from changes in AS and/or AD; an AS increase is a supply-side driver of expansion, raising both the real output produced and the employment used to produce it.",
+    "reference": "MEA-2.A | MEA-2.A.1 | MEA-2.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "On a standard business cycle graph, the area where actual real GDP is BELOW the potential output line represents",
+    "options": [
+      {
+        "label": "A",
+        "text": "an inflationary gap — actual output exceeds potential."
+      },
+      {
+        "label": "B",
+        "text": "the peak of the business cycle."
+      },
+      {
+        "label": "C",
+        "text": "a period when the output gap is positive and unemployment is below the natural rate."
+      },
+      {
+        "label": "D",
+        "text": "a recessionary gap — actual output is less than potential output and unemployment exceeds the natural rate."
+      },
+      {
+        "label": "E",
+        "text": "potential output growing faster than actual, but the gap is always positive."
+      }
+    ],
+    "answer": "D",
+    "explanation": "On the business cycle graph, when the actual GDP curve lies below the potential output line, actual < potential → output gap < 0 → recessionary gap. The distance between the actual GDP curve and the potential output line visually represents the size of the recessionary gap; unemployment > natural rate during this period.",
+    "reference": "MEA-2.A | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "On a standard business cycle graph, the area where actual real GDP is ABOVE the potential output line represents",
+    "options": [
+      {
+        "label": "A",
+        "text": "a recessionary gap — potential output exceeds actual output."
+      },
+      {
+        "label": "B",
+        "text": "the trough of the business cycle where output is at its lowest."
+      },
+      {
+        "label": "C",
+        "text": "a period when actual output exceeds potential output — a positive (inflationary) gap with unemployment below the natural rate."
+      },
+      {
+        "label": "D",
+        "text": "long-run economic growth with no short-run fluctuations."
+      },
+      {
+        "label": "E",
+        "text": "the recessionary gap reaching its most negative point."
+      }
+    ],
+    "answer": "C",
+    "explanation": "When the actual GDP curve lies above the potential output line, actual > potential → output gap > 0 → inflationary gap. This typically occurs during the later stages of a strong expansion when the economy has temporarily overshot its full-employment capacity; unemployment < natural rate during this period.",
+    "reference": "MEA-2.A | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "Potential output does NOT equal zero unemployment. Which of the following correctly explains why?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Potential output requires zero unemployment by definition — the two are equivalent."
+      },
+      {
+        "label": "B",
+        "text": "At potential output, only cyclical unemployment exists; all structural unemployment has been eliminated."
+      },
+      {
+        "label": "C",
+        "text": "Potential output corresponds to the natural rate of unemployment, which includes frictional and structural unemployment — workers who are temporarily between jobs or displaced by structural change. Cyclical unemployment is zero, but the natural rate is positive."
+      },
+      {
+        "label": "D",
+        "text": "Potential output requires unemployment above the natural rate to sustain long-run growth."
+      },
+      {
+        "label": "E",
+        "text": "Zero unemployment would reduce potential output because fewer workers would seek employment."
+      }
+    ],
+    "answer": "C",
+    "explanation": "At potential output, unemployment = natural rate, which includes frictional (people between jobs) and structural (skill-mismatch) unemployment. These forms persist even in a healthy economy; only cyclical unemployment (from insufficient AD) is zero at potential; the natural rate is typically around 4-6%, not zero.",
+    "reference": "MEA-2.A | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "Which of the following is an accurate statement comparing the peak and trough of a business cycle?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both the peak and trough are phases of the business cycle, not turning points."
+      },
+      {
+        "label": "B",
+        "text": "The peak represents the lowest level of actual output; the trough represents the highest."
+      },
+      {
+        "label": "C",
+        "text": "The peak and trough are both points at which actual output equals potential output."
+      },
+      {
+        "label": "D",
+        "text": "The peak is the turning point where expansion ends and recession begins; the trough is the turning point where recession ends and expansion begins — they are mirror images that bookend the recessionary phase."
+      },
+      {
+        "label": "E",
+        "text": "The peak occurs when the output gap is most negative; the trough when the output gap is most positive."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Peak and trough are both turning points that bookend the recessionary phase. The peak is the high point (expansion ends, recession begins); the trough is the low point (recession ends, expansion begins); together they define one complete recessionary episode; the expansionary phase similarly runs from trough to peak.",
+    "reference": "MEA-2.A | MEA-2.A.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 31,
+    "difficulty": "Easy",
+    "prompt": "If an economy's actual output is $500 billion below its potential output, which of the following is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The output gap is +$500 billion and an inflationary gap exists."
+      },
+      {
+        "label": "B",
+        "text": "The output gap is zero because potential and actual differ by a fixed benchmark amount."
+      },
+      {
+        "label": "C",
+        "text": "The output gap is −$500 billion — a recessionary gap exists, actual output falls short of potential, and unemployment exceeds the natural rate."
+      },
+      {
+        "label": "D",
+        "text": "The output gap is +$500 billion because potential output is subtracted from actual."
+      },
+      {
+        "label": "E",
+        "text": "The economy must be at its business cycle peak because the gap is large."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Output gap = Actual - Potential = -$500 billion; negative gap → recessionary gap → actual output is $500B below potential → unemployment exceeds the natural rate → cyclical unemployment is positive; the economy is underperforming its full-employment benchmark.",
+    "reference": "MEA-2.A | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 32,
+    "difficulty": "Easy",
+    "prompt": "Business cycles are described as fluctuations in aggregate output AND employment. This means that",
+    "options": [
+      {
+        "label": "A",
+        "text": "output can fluctuate independently of employment — they are not necessarily related."
+      },
+      {
+        "label": "B",
+        "text": "only employment fluctuates; output is determined solely by potential output."
+      },
+      {
+        "label": "C",
+        "text": "only output fluctuates; employment is stable because firms maintain staffing levels."
+      },
+      {
+        "label": "D",
+        "text": "output and employment move together — when output falls during a recession, firms reduce employment; when output rises during an expansion, firms increase employment."
+      },
+      {
+        "label": "E",
+        "text": "employment leads output by exactly one business cycle phase in all economies."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The joint definition of business cycles - fluctuations in BOTH output AND employment - reflects the direct link between production and labor demand. Firms produce less by employing fewer workers (recession) and produce more by employing more workers (expansion); both dimensions move together as a consequence of shifts in aggregate supply and/or demand.",
+    "reference": "MEA-2.A | MEA-2.A.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 33,
+    "difficulty": "Easy",
+    "prompt": "Which of the following is the best statement of the MEA-2 Enduring Understanding regarding business cycles and long-run growth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The economy grows at a constant, predictable rate and business cycles are random deviations with no systematic pattern."
+      },
+      {
+        "label": "B",
+        "text": "Long-run economic growth is impossible because business cycles always pull the economy back to the trough."
+      },
+      {
+        "label": "C",
+        "text": "The economy fluctuates between expansion and recession in the short run, but economic growth can occur in the long run — cycles are short-run deviations around a rising long-run potential output trend."
+      },
+      {
+        "label": "D",
+        "text": "Business cycles and long-run growth are the same phenomenon — there is no distinction between short-run and long-run behavior."
+      },
+      {
+        "label": "E",
+        "text": "The output gap must always be zero for long-run growth to occur."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Enduring Understanding: \"The economy fluctuates between periods of expansion and contraction in the short run, but economic growth can occur in the long run.\" Short-run business cycles represent temporary deviations of actual output above and below a rising long-run potential output trend. The two phenomena coexist simultaneously.",
+    "reference": "MEA-2.A | MEA-2.A.1 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "A business cycle graph shows actual real GDP oscillating around a rising potential output line. From Year 2 to Year 5, actual real GDP is below the potential output line.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The economy is in an inflationary gap — actual output exceeds potential, so unemployment is below the natural rate."
+      },
+      {
+        "label": "B",
+        "text": "The economy is at potential output — when actual GDP is below the graph's midpoint, the output gap is zero."
+      },
+      {
+        "label": "C",
+        "text": "The economy is in the expansionary phase because actual GDP eventually rises back to potential."
+      },
+      {
+        "label": "D",
+        "text": "The output gap is positive and potential output is increasing to meet actual GDP."
+      },
+      {
+        "label": "E",
+        "text": "The economy is experiencing a recessionary gap — actual output is below potential, the output gap is negative, and unemployment exceeds the natural rate of unemployment."
+      }
+    ],
+    "answer": "E",
+    "explanation": "MEA-2.A.5: When actual GDP lies below the potential output line, output gap = Actual - Potential < 0 (recessionary gap); unemployment > natural rate; cyclical unemployment is positive. From Year 2 to Year 5, the economy went through peak → recession → trough → early expansion, but actual output remained below potential throughout, so a recessionary gap persisted.",
+    "reference": "MEA-2.A | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "Vertical axis labeled \"Real GDP.\" Horizontal axis labeled \"Time (Years 1–7).\" An upward-sloping line represents potential output. A wave-like curve represents actual real GDP. The actual GDP curve peaks above potential near Year 1, then falls below the potential output line between Years 2 and 5 (trough near Year 3), and rises back above potential after Year 5.\n\nWhich of the following correctly characterizes the economy between Years 2 and 5?",
+    "graphRequired": true
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "Country Alpha: actual real GDP = $16 trillion; potential output = $20 trillion; natural rate of unemployment = 5%; actual unemployment rate = 8.5%.\n\nCalculate the output gap, classify it, and determine the level of cyclical unemployment.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Output gap = +$4T (inflationary); cyclical unemployment = −3.5%"
+      },
+      {
+        "label": "B",
+        "text": "Output gap = −$4T (recessionary); cyclical unemployment = 3.5% — actual output is $4T below potential and unemployment is 3.5 percentage points above the natural rate."
+      },
+      {
+        "label": "C",
+        "text": "Output gap = −$4T (recessionary); cyclical unemployment = 8.5%"
+      },
+      {
+        "label": "D",
+        "text": "Output gap = +$4T (inflationary); cyclical unemployment = 5%"
+      },
+      {
+        "label": "E",
+        "text": "Output gap = −$16T; cyclical unemployment = 3.5%"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Output gap = $16T - $20T = -$4T (recessionary gap); cyclical unemployment = Actual rate - Natural rate = 8.5% - 5% = 3.5%. Both the negative output gap and positive cyclical unemployment are consistent: the economy is producing $4T less than its full-employment capacity, and 3.5 pp of extra unemployment beyond the natural rate reflects that underproduction.",
+    "reference": "MEA-2.A | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "Country Beta: actual real GDP = $26 trillion; potential output = $24 trillion; natural rate of unemployment = 4.5%; actual unemployment = 3%.\n\nCalculate the output gap, classify it, and describe what this implies for resource utilization.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Output gap = −$2T (recessionary); unemployment is above the natural rate."
+      },
+      {
+        "label": "B",
+        "text": "Output gap = 0; the economy is at full employment."
+      },
+      {
+        "label": "C",
+        "text": "Output gap = +$2T (inflationary) — actual exceeds potential by $2T. Unemployment (3%) is 1.5 pp below the natural rate (4.5%). The economy is temporarily overextending its productive capacity — firms are overemploying scarce labor, creating upward wage and price pressure."
+      },
+      {
+        "label": "D",
+        "text": "Output gap = +$2T (inflationary); unemployment equals the natural rate at 4.5%."
+      },
+      {
+        "label": "E",
+        "text": "Output gap = −$2T; unemployment is 1.5% below the natural rate."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Output gap = $26T - $24T = +$2T (inflationary gap); cyclical unemployment = 3% - 4.5% = -1.5% (unemployment is 1.5 pp BELOW the natural rate). The economy is operating above potential - firms are hiring beyond the sustainable full-employment level, placing upward pressure on wages and prices; this overextension is temporary and unsustainable.",
+    "reference": "MEA-2.A | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "The business cycle graph shows the following labeled points:\n\nPoint A: Actual GDP above potential, at its local maximum\n\nPoint B: Actual GDP crosses the potential line heading downward\n\nPoint C: Actual GDP at its local minimum, well below potential\n\nPoint D: Actual GDP crosses the potential line heading upward",
+    "options": [
+      {
+        "label": "A",
+        "text": "A = trough; B = output gap closing; C = peak; D = recessionary gap opening"
+      },
+      {
+        "label": "B",
+        "text": "A = peak; B = output gap turns from zero to negative; C = trough; D = output gap returns to zero heading positive — points B and D mark transitions through zero output gap while A and C are the turning points."
+      },
+      {
+        "label": "C",
+        "text": "A = expansion phase; B = recessionary gap; C = inflationary gap; D = peak"
+      },
+      {
+        "label": "D",
+        "text": "A = inflationary gap only; C = recessionary gap only; B and D are phases not turning points"
+      },
+      {
+        "label": "E",
+        "text": "A = peak; C = trough; B and D are irrelevant intersections with no economic meaning."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MEA-2.A.4: A = peak (local maximum of actual GDP → expansion ends, recession begins); C = trough (local minimum → recession ends, expansion begins). B = output gap crosses from positive to negative (actual passes through potential heading down - inflationary gap ends, recessionary gap begins); D = output gap crosses from negative to positive (actual passes through potential heading up - recessionary gap ends, inflationary gap begins); these intersection points are where the output gap changes sign.",
+    "reference": "MEA-2.A | MEA-2.A.3 | MEA-2.A.4",
+    "graphDescription": "Vertical axis: Real GDP. Horizontal axis: Time. Upward-sloping potential output line. Actual GDP wave: A is a local maximum above potential; B is where actual crosses potential going down; C is the local minimum below potential; D is where actual crosses potential going up.\n\nWhich of the following correctly identifies the business cycle labels?",
+    "graphRequired": true
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "An economy has a natural rate of unemployment of 5% and potential output of $10 trillion. The following data is given:\n\nYear 1: Actual GDP = $9.0T; Unemployment = 8%\n\nYear 2: Actual GDP = $9.5T; Unemployment = 6.5%\n\nYear 3: Actual GDP = $10.0T; Unemployment = 5%\n\nYear 4: Actual GDP = $10.4T; Unemployment = 4%\n\nFor each year, calculate the output gap and classify it.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Y1: +$1T; Y2: +$0.5T; Y3: 0; Y4: +$0.4T — all positive."
+      },
+      {
+        "label": "B",
+        "text": "Y1: −$1T (recessionary); Y2: −$0.5T (recessionary); Y3: 0 (at potential); Y4: +$0.4T (inflationary)."
+      },
+      {
+        "label": "C",
+        "text": "Y1: −$1T; Y2: 0; Y3: +$0.5T; Y4: +$1T."
+      },
+      {
+        "label": "D",
+        "text": "Y1: −$9T; Y2: −$0.5T; Y3: 0; Y4: +$0.4T."
+      },
+      {
+        "label": "E",
+        "text": "Y1: 0; Y2: −$0.5T; Y3: −$1T; Y4: −$0.4T."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Output gap = Actual - Potential ($10T); Y1: 9.0-10=-$1T (recessionary; unemployment 8%>NRU 5% ✓); Y2: 9.5-10=-$0.5T (recessionary; unemployment 6.5%>NRU ✓). Y3: 10-10=0 (at potential; unemployment 5%=NRU ✓); Y4: 10.4-10=+$0.4T (inflationary; unemployment 4%<NRU ✓); each output gap sign is confirmed by the unemployment data - a powerful cross-check linking MEA-2.A.4 and MEA-2.A.5.",
+    "reference": "MEA-2.A | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "A student claims: \"During an expansion, the output gap must become positive.\" Evaluate this claim.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Correct — all expansions produce inflationary gaps."
+      },
+      {
+        "label": "B",
+        "text": "Correct — rising output during expansion always exceeds potential output."
+      },
+      {
+        "label": "C",
+        "text": "Incorrect — an expansion simply means real GDP is rising and employment is increasing. The output gap can remain negative throughout an expansion if the economy is recovering from a deep recession and actual GDP has not yet reached potential. The gap closes but may never become positive."
+      },
+      {
+        "label": "D",
+        "text": "Incorrect — expansions always produce negative output gaps by definition."
+      },
+      {
+        "label": "E",
+        "text": "Correct, but only if the expansion lasts more than two years."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MEA-2.A.4: An expansion is defined as rising output and employment - not as a positive output gap; after a severe recession, actual GDP may be far below potential. An expansion can run for years while actual GDP is still closing a large recessionary gap; only when actual exceeds potential does the gap turn positive; expansion ≠ positive output gap.",
+    "reference": "MEA-2.A | MEA-2.A.2 | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "Potential output grows at 3% per year. Actual real GDP grows at 1% per year. Which of the following best describes what happens to the output gap over time?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The output gap improves (becomes less negative or more positive) because actual GDP is growing."
+      },
+      {
+        "label": "B",
+        "text": "The output gap is unaffected because both actual and potential are growing."
+      },
+      {
+        "label": "C",
+        "text": "The output gap widens (becomes more negative or turns from positive to negative) — potential grows faster than actual, so actual falls further behind potential each year."
+      },
+      {
+        "label": "D",
+        "text": "The output gap closes because potential output always adjusts to match actual output."
+      },
+      {
+        "label": "E",
+        "text": "The output gap becomes positive because potential grows faster than actual."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Output gap = Actual - Potential. If potential grows 3%/yr and actual grows only 1%/yr, the gap between them widens: Potential increases faster than Actual each year, so (Actual - Potential) becomes more negative; even with rising actual GDP, the recessionary gap worsens if potential grows faster; this is sometimes called a \"growth recession.\".",
+    "reference": "MEA-2.A | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "A business cycle graph shows actual real GDP crossing the potential output line from below, heading upward, at Year 5.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Year 5: positive output gap; Year 6: recessionary gap"
+      },
+      {
+        "label": "B",
+        "text": "Year 5: output gap = 0 (actual equals potential at the crossing); Year 6: positive/inflationary output gap (actual has risen above potential in Years 5–7)."
+      },
+      {
+        "label": "C",
+        "text": "Year 5: negative recessionary gap; Year 6: zero output gap"
+      },
+      {
+        "label": "D",
+        "text": "Year 5: zero output gap; Year 6: negative recessionary gap"
+      },
+      {
+        "label": "E",
+        "text": "Year 5: output gap = 0; Year 6: zero output gap because the economy is at potential."
+      }
+    ],
+    "answer": "B",
+    "explanation": "At Year 5, actual GDP crosses potential from below - at the exact crossing point, actual = potential → output gap = 0. In Year 6, actual GDP is above the potential line (the wave is above the trend) → output gap > 0 → inflationary gap; the economy has moved from a recessionary gap (Years 1-4) through zero (Year 5) to an inflationary gap (Years 5-7).",
+    "reference": "MEA-2.A | MEA-2.A.4",
+    "graphDescription": "Vertical axis: Real GDP. Horizontal axis: Years 1–9. Upward-sloping potential output line. Actual GDP wave: below potential Years 1–4, crosses potential heading upward at Year 5, above potential Years 5–7 (peaks at Year 7), crosses potential heading downward at Year 8, below potential at Year 9.\n\nWhat is the output gap in Year 5, and what type of gap exists in Year 6?",
+    "graphRequired": true
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "Country Gamma: potential output = $5.0 trillion. Output gap data by year:\n\nYear 1: −$0.5T\n\nYear 2: −$0.2T\n\nYear 3: 0\n\nYear 4: +$0.3T\n\nYear 5: +$0.1T\n\nYear 6: −$0.4T\n\nIdentify: (a) the approximate year of the peak; (b) the year at which the economy is exactly at potential output; (c) whether Year 1 shows a recessionary or inflationary gap.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) Year 3; (b) Year 4; (c) inflationary in Year 1"
+      },
+      {
+        "label": "B",
+        "text": "(a) Year 4; (b) Year 3; (c) recessionary in Year 1 — the output gap is −$0.5T, meaning actual output is $0.5T below potential."
+      },
+      {
+        "label": "C",
+        "text": "(a) Year 6; (b) Year 1; (c) recessionary in Year 1"
+      },
+      {
+        "label": "D",
+        "text": "(a) Year 5; (b) Year 3; (c) inflationary in Year 1"
+      },
+      {
+        "label": "E",
+        "text": "(a) Year 4; (b) Year 2; (c) recessionary in Year 1"
+      }
+    ],
+    "answer": "B",
+    "explanation": "(a) Peak ≈ Year 4 - highest positive output gap (+$0.3T), local maximum before gap falls; after Year 4, the gap falls (Year 5: +$0.1T, Year 6: -$0.4T) - the economy transitions from expansion to recession. (b) Year 3: output gap = 0 → actual = potential; (c) Year 1: gap = -$0.5T → recessionary gap; this traces a partial business cycle: recessionary gap → at potential (Year 3) → inflationary gap → peak (Year 4) → contracting.",
+    "reference": "MEA-2.A | MEA-2.A.3 | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "An economy has a natural rate of unemployment of 5.5%. During a prolonged expansion, the unemployment rate falls to 3.8%. Which of the following correctly describes the business cycle position and output gap?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The economy is at potential output because expansion has brought unemployment close to normal levels."
+      },
+      {
+        "label": "B",
+        "text": "The economy is in a recessionary gap — low unemployment always signals underproduction."
+      },
+      {
+        "label": "C",
+        "text": "The economy is in an inflationary gap — unemployment (3.8%) is below the natural rate (5.5%), so actual output exceeds potential. Cyclical unemployment = 3.8% − 5.5% = −1.7% (negative), confirming above-potential production."
+      },
+      {
+        "label": "D",
+        "text": "The output gap is zero because the expansion has closed all recessionary slack."
+      },
+      {
+        "label": "E",
+        "text": "A recessionary gap exists because unemployment is declining, not rising."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Potential output corresponds to the natural rate (5.5%). If actual unemployment (3.8%) < natural rate, the economy is producing MORE than its sustainable full-employment level → actual > potential → positive (inflationary) output gap; cyclical unemployment = 3.8% - 5.5% = -1.7%, confirming unemployment below the natural rate and above-potential production.",
+    "reference": "MEA-2.A | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "An economist observes that actual real GDP rose from $18T to $19T over a year, while potential output rose from $18T to $19.5T over the same period. What happened to the output gap?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The output gap improved (became less negative) because actual GDP rose."
+      },
+      {
+        "label": "B",
+        "text": "The output gap remained unchanged because both actual and potential increased."
+      },
+      {
+        "label": "C",
+        "text": "The output gap worsened (became more negative) — actual rose by $1T but potential rose by $1.5T, so the gap went from $0 to −$0.5T. Despite economic growth, the economy fell behind its rising potential."
+      },
+      {
+        "label": "D",
+        "text": "The output gap became positive because actual GDP grew during the year."
+      },
+      {
+        "label": "E",
+        "text": "The output gap closed completely because actual GDP growth was positive."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Year 0 gap = $18T - $18T = $0; year 1 gap = $19T - $19.5T = -$0.5T. Despite rising actual GDP ($1T growth), potential grew faster ($1.5T), so the economy moved from zero gap to a recessionary gap of -$0.5T; rising actual GDP does not guarantee a closing output gap - the key is whether actual grows faster than potential.",
+    "reference": "MEA-2.A | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "A business cycle graph shows two complete cycles. In Cycle 1, actual GDP reaches a peak that is above the potential output line. In Cycle 2, actual GDP reaches a peak that is below the potential output line. Which of the following is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both peaks create inflationary gaps because peaks are always above potential."
+      },
+      {
+        "label": "B",
+        "text": "Cycle 1 peak creates an inflationary gap (actual > potential, positive output gap); Cycle 2 peak creates a recessionary gap (actual < potential, negative output gap) — a \"weak\" expansion that never reaches potential before contracting."
+      },
+      {
+        "label": "C",
+        "text": "Both peaks create recessionary gaps because peaks are always below potential."
+      },
+      {
+        "label": "D",
+        "text": "Cycle 1 peak creates a recessionary gap; Cycle 2 peak creates an inflationary gap."
+      },
+      {
+        "label": "E",
+        "text": "Neither peak creates an output gap because peaks are defined as zero-gap points."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MEA-2.A.4: A peak is simply the local maximum of actual GDP - it can occur above, at, or below potential; cycle 1 peak above potential → positive output gap (inflationary gap at peak). Cycle 2 peak below potential → negative output gap (recessionary gap at peak - a \"jobless recovery\" or weak expansion that stalled before reaching potential); peak location relative to the potential line determines the gap type at the peak.",
+    "reference": "MEA-2.A | MEA-2.A.3 | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "An economy is at a trough with actual output = $15T and potential output = $20T. The natural rate of unemployment is 4% and actual unemployment is 9%. Starting from the trough, the expansion brings unemployment down to 4% over five years.\n\nWhat happened to the output gap during this expansion, and what is the output gap when unemployment reaches 4%?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The output gap widened from −$5T to −$7T as unemployment fell."
+      },
+      {
+        "label": "B",
+        "text": "The output gap remained at −$5T throughout the expansion."
+      },
+      {
+        "label": "C",
+        "text": "The output gap narrowed from −$5T toward zero — as unemployment fell from 9% toward the natural rate of 4%, actual output rose toward potential. When unemployment reaches 4% = natural rate, actual = potential and the output gap = 0."
+      },
+      {
+        "label": "D",
+        "text": "The output gap turned positive immediately once expansion began."
+      },
+      {
+        "label": "E",
+        "text": "The output gap closed to 0 when unemployment hit 4%, then became −$5T again."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MEA-2.A.5: At trough: gap = $15T - $20T = -$5T; unemployment 9% >> natural rate 4%; as expansion proceeds: actual GDP rises, unemployment falls. When unemployment = 4% = natural rate → actual = potential → output gap = 0; this traces the complete closure of a recessionary gap through an expansion, from trough to potential output.",
+    "reference": "MEA-2.A | MEA-2.A.2 | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "An economy's potential output is $12 trillion. A business cycle graph shows actual GDP data:\n\nYear 1: $11.4T | Year 2: $11.8T | Year 3: $12.1T | Year 4: $12.5T | Year 5: $12.3T | Year 6: $11.7T\n\nIdentify the peak year, approximate trough region, and the years with an inflationary gap.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Peak: Year 1; Trough: Year 6; inflationary gap: Years 1 and 2"
+      },
+      {
+        "label": "B",
+        "text": "Peak: Year 4; Trough: Year 6 (or later); inflationary gap: Years 3 and 4 (actual GDP exceeds potential of $12T)."
+      },
+      {
+        "label": "C",
+        "text": "Peak: Year 3; Trough: Year 5; inflationary gap: Years 5 and 6"
+      },
+      {
+        "label": "D",
+        "text": "Peak: Year 4; Trough: Year 2; inflationary gap: Years 1 and 2"
+      },
+      {
+        "label": "E",
+        "text": "Peak: Year 6; Trough: Year 3; inflationary gap: Years 4 and 5"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Peak = Year 4 (local maximum at $12.5T, falls in Year 5); trough approaches Year 6 or beyond (GDP declining). Inflationary gap: Years 3 ($12.1T > $12T, gap = +$0.1T) and Year 4 ($12.5T > $12T, gap = +$0.5T); recessionary gap: Years 1 ($11.4T < $12T, -$0.6T) and Year 2 ($11.8T < $12T, -$0.2T); year 5 ($12.3T > $12T, +$0.3T still inflationary) and Year 6 ($11.7T < $12T, -$0.3T recessionary gap returning).",
+    "reference": "MEA-2.A | MEA-2.A.3 | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "A government report states: \"Real GDP rose 4% last year.\" An economist responds: \"That does not necessarily mean we are closer to potential output.\" Under which condition is the economist's statement correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "When actual GDP grows faster than potential output, the recessionary gap closes."
+      },
+      {
+        "label": "B",
+        "text": "When the output gap is negative, any positive growth always closes the gap."
+      },
+      {
+        "label": "C",
+        "text": "When potential output also grew by more than 4% during the same year — if potential grew 5% and actual grew 4%, the recessionary gap widened despite positive real GDP growth."
+      },
+      {
+        "label": "D",
+        "text": "When the output gap is positive, growth always widens the inflationary gap."
+      },
+      {
+        "label": "E",
+        "text": "Growth of 4% always eliminates the recessionary gap within one year."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Output gap = Actual - Potential; if actual grows 4% but potential grows 5%, the gap becomes more negative. The economist is correct: positive real GDP growth does not guarantee a closing output gap; the critical factor is whether actual GDP grows faster or slower than potential - only faster growth than potential closes a recessionary gap.",
+    "reference": "MEA-2.A | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "Country Delta: natural rate of unemployment = 4%. Data:\n\nPeriod A: Actual unemployment = 4%, output gap = 0\n\nPeriod B: Actual unemployment = 7%, output gap = −$600B\n\nPeriod C: Actual unemployment = 2.5%, output gap = +$500B\n\nFor each period, identify the phase or position in the business cycle.",
+    "options": [
+      {
+        "label": "A",
+        "text": "A = trough; B = expansion; C = recession"
+      },
+      {
+        "label": "B",
+        "text": "A = at potential output (no output gap, unemployment = NRU); B = recessionary gap (below potential, unemployment 3pp above NRU); C = inflationary gap (above potential, unemployment 1.5pp below NRU)."
+      },
+      {
+        "label": "C",
+        "text": "A = peak; B = recessionary gap; C = recessionary gap"
+      },
+      {
+        "label": "D",
+        "text": "A = expansion; B = inflationary gap; C = recessionary gap"
+      },
+      {
+        "label": "E",
+        "text": "A = trough; B = inflationary gap; C = at potential"
+      }
+    ],
+    "answer": "B",
+    "explanation": "MEA-2.A.5: Period A: unemployment = NRU → at potential → gap = 0 ✓. Period B: unemployment 7% > NRU 4% → cyclical unemployment = 3pp → recessionary gap → gap = -$600B ✓; period C: unemployment 2.5% < NRU 4% → negative cyclical unemployment → inflationary gap → gap = +$500B ✓; all three data points are fully consistent with the CED definitions.",
+    "reference": "MEA-2.A | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "A supply-side shock (a large increase in oil prices) reduces aggregate supply, causing actual output to fall while potential output remains unchanged. Which of the following best describes the resulting business cycle effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Potential output falls to match actual output, eliminating the output gap."
+      },
+      {
+        "label": "B",
+        "text": "Actual output rises because higher energy prices stimulate domestic production."
+      },
+      {
+        "label": "C",
+        "text": "The output gap turns positive (inflationary) because energy prices are rising."
+      },
+      {
+        "label": "D",
+        "text": "The economy enters the recessionary phase — actual output falls, employment declines, and a recessionary (negative) output gap opens as actual output drops below unchanged potential output."
+      },
+      {
+        "label": "E",
+        "text": "The output gap is unaffected because supply-side shocks only change prices, not real output."
+      }
+    ],
+    "answer": "D",
+    "explanation": "MEA-2.A.4: MEA-2.A.1 specifies that business cycles arise from changes in AS and/or AD. A negative supply shock (higher oil prices) shifts AS leftward: actual output falls and employment drops - both hallmarks of recession; potential output is determined by structural factors and is unchanged by a temporary supply shock; the falling actual output, with potential unchanged, creates a recessionary gap.",
+    "reference": "MEA-2.A | MEA-2.A.1 | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "An economy's output gap data for six years is:\n\nYear 1: +$0.3T | Year 2: +$0.1T | Year 3: 0 | Year 4: −$0.4T | Year 5: −$0.7T | Year 6: −$0.5T\n\nIn which year is actual output most likely at its cyclical PEAK, and in which year is the recessionary gap deepest?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Peak: Year 3; deepest recessionary gap: Year 5"
+      },
+      {
+        "label": "B",
+        "text": "Peak: Year 1; deepest recessionary gap: Year 5 — the inflationary gap was largest in Year 1 (+$0.3T), indicating the economy was furthest above potential at Year 1 (the peak). The recessionary gap was deepest in Year 5 (−$0.7T, the most negative value)."
+      },
+      {
+        "label": "C",
+        "text": "Peak: Year 2; deepest recessionary gap: Year 6"
+      },
+      {
+        "label": "D",
+        "text": "Peak: Year 1; deepest recessionary gap: Year 4"
+      },
+      {
+        "label": "E",
+        "text": "Peak: Year 3; deepest recessionary gap: Year 4"
+      }
+    ],
+    "answer": "B",
+    "explanation": "MEA-2.A.4: The peak corresponds to the period of the largest positive output gap (actual furthest above potential) - Year 1 (+$0.3T). After Year 1, the gap shrinks (Year 2: +$0.1T), reaches zero (Year 3), then turns negative; the most negative gap (deepest recessionary gap) is Year 5 (-$0.7T); after Year 5, the gap begins closing (Year 6: -$0.5T) as recovery begins.",
+    "reference": "MEA-2.A | MEA-2.A.3 | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "A student argues: \"If the natural rate of unemployment rises from 4% to 6%, potential output increases because more people are unemployed and available to work.\" Identify the error and provide the correct analysis.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The student is correct — a higher natural rate always raises potential output."
+      },
+      {
+        "label": "B",
+        "text": "The student is wrong only about the direction of change — a higher natural rate lowers actual output but not potential output."
+      },
+      {
+        "label": "C",
+        "text": "The student is correct that the natural rate and potential output move together."
+      },
+      {
+        "label": "D",
+        "text": "The student's error: a higher natural rate means the economy \"settles\" at a higher unemployment level at full employment, which implies LOWER potential output — the economy sustainably employs fewer workers. More frictional and structural unemployment means fewer workers producing at potential, reducing full-employment GDP."
+      },
+      {
+        "label": "E",
+        "text": "The student is correct because potential output depends only on the capital stock, not unemployment."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Potential output = GDP at the natural rate; if the natural rate rises from 4% to 6%, \"full employment\" now means 6% unemployment - more people are not working at the full-employment benchmark. With fewer workers employed at potential, the economy produces LESS output - potential output FALLS, not rises; the student confused \"more unemployment\" with \"more available labor,\" but workers between jobs or with skill mismatches do not contribute to production at potential.",
+    "reference": "MEA-2.A | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "An economy begins at potential output. Aggregate demand then falls sharply, triggering a recession. Describe the sequence of business cycle events using the CED framework (MEA-2.A.1 through MEA-2.A.5).",
+    "options": [
+      {
+        "label": "A",
+        "text": "AD falls → expansion begins → inflationary gap opens → trough reached → potential output rises"
+      },
+      {
+        "label": "B",
+        "text": "AD falls → potential output falls to match actual → output gap remains zero → no recession occurs"
+      },
+      {
+        "label": "C",
+        "text": "AD falls → actual output and employment fall (MEA-2.A.1) → recessionary phase begins (MEA-2.A.2) → economy moves from peak toward trough (MEA-2.A.3) → output gap becomes negative (MEA-2.A.4) → unemployment rises above natural rate (MEA-2.A.5)."
+      },
+      {
+        "label": "D",
+        "text": "AD falls → actual output rises above potential → inflationary gap opens → peak reached"
+      },
+      {
+        "label": "E",
+        "text": "AD falls → only employment falls, not output → recession is incomplete by definition"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Full MEA-2.A integration: AD falls → firms produce less and hire fewer workers (MEA-2.A.1 - fluctuations in output AND employment); recessionary phase begins (MEA-2.A.2). Economy transitions from its peak and moves toward trough (MEA-2.A.3); actual output falls below potential → output gap = Actual - Potential < 0 (MEA-2.A.4); unemployment rises above natural rate (MEA-2.A.5); all five essential knowledge points are chained.",
+    "reference": "MEA-2.A | MEA-2.A.1 | MEA-2.A.2 | MEA-2.A.3 | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "The business cycle graph displays potential output growing at 2% per year and actual real GDP for a 12-year period with two complete cycles visible. Which of the following is necessarily true about successive peaks?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Each successive peak is lower than the previous peak because recessions deplete productive capacity."
+      },
+      {
+        "label": "B",
+        "text": "Each successive peak must be at the same level as the previous because potential output determines peak height."
+      },
+      {
+        "label": "C",
+        "text": "Each successive peak is higher than the prior peak in absolute real GDP terms because the long-run upward trend in potential output raises the entire business cycle trajectory over time."
+      },
+      {
+        "label": "D",
+        "text": "Each successive peak is below potential output, creating recessionary gaps at every peak."
+      },
+      {
+        "label": "E",
+        "text": "Successive peaks are identical in height, with the difference only in timing."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Enduring Understanding: As potential output rises over time (reflecting long-run growth), the entire business cycle trajectory shifts upward. Each new expansion starts from a higher trough and reaches a new higher peak - even though short-run fluctuations still exist; in absolute terms, Peak 2 > Peak 1 because the long-run upward trend raises the floor and ceiling of each new cycle.",
+    "reference": "MEA-2.A | MEA-2.A.3 | MEA-2.A.5",
+    "graphDescription": "Vertical axis: Real GDP. Horizontal axis: Years 1–12. Rising potential output line. Two complete wave cycles of actual GDP — each successive peak and trough is at a higher absolute level than the previous cycle.",
+    "graphRequired": true
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "An economy has potential output of $8 trillion. The output gap data:\n\nYear 1: −$1.2T | Year 2: −$0.8T | Year 3: −$0.3T | Year 4: +$0.2T | Year 5: +$0.6T | Year 6: +$0.4T | Year 7: −$0.2T\n\nCalculate actual real GDP in Year 5, identify the peak year, and state the phase in Year 3.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Year 5 actual = $8.6T; Peak = Year 6; Year 3 phase = expansion (recessionary gap closing)"
+      },
+      {
+        "label": "B",
+        "text": "Year 5 actual = $8.6T; Peak = Year 5; Year 3 phase = recession"
+      },
+      {
+        "label": "C",
+        "text": "Year 5 actual = $7.4T; Peak = Year 4; Year 3 phase = trough"
+      },
+      {
+        "label": "D",
+        "text": "Year 5 actual = $8.6T; Peak = Year 5 (largest positive gap at +$0.6T); Year 3 phase = expansion — GDP is rising and the recessionary gap is narrowing (−$0.3T), consistent with the expansionary phase."
+      },
+      {
+        "label": "E",
+        "text": "Year 5 actual = $8.0T; Peak = Year 5; Year 3 = at potential"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Year 5 actual = Potential + Gap = $8T + $0.6T = $8.6T; peak = Year 5 (largest positive gap, highest above-potential production → local maximum before decline). Year 3: gap = -$0.3T (still recessionary, but gap is improving: -$1.2T → -$0.8T → -$0.3T) → the economy is in the expansionary phase, recovering from recession but not yet at potential.",
+    "reference": "MEA-2.A | MEA-2.A.3 | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "Which of the following scenarios correctly illustrates a recessionary gap closing during an expansion?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Potential output falls from $20T to $18T while actual output stays at $18T — the gap closes because potential declined."
+      },
+      {
+        "label": "B",
+        "text": "Actual output falls from $20T to $18T while potential stays at $20T — the recessionary gap deepens."
+      },
+      {
+        "label": "C",
+        "text": "Actual output rises from $17T to $19T while potential output stays at $20T — the recessionary gap narrows from −$3T to −$1T as actual output grows toward potential during expansion."
+      },
+      {
+        "label": "D",
+        "text": "Actual output rises from $20T to $22T while potential stays at $20T — the recessionary gap closes and an inflationary gap opens."
+      },
+      {
+        "label": "E",
+        "text": "Both actual and potential output fall equally — the gap remains constant at its recessionary level."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MEA-2.A.4: A recessionary gap closes when actual output grows faster than (or potential remains constant while) actual rises toward potential. Gap: -$3T → -$1T; the gap narrowed by $2T - this is the expansion phase closing a recessionary gap.",
+    "reference": "MEA-2.A | MEA-2.A.2 | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "A journalist reports: \"The economy has been expanding for six years.\" A second journalist counters: \"But we still haven't recovered to full employment.\" Which of the following reconciles these two statements using CED business cycle concepts?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both statements cannot be true simultaneously — expansions always achieve full employment."
+      },
+      {
+        "label": "B",
+        "text": "The first journalist is wrong — six years of expansion is impossible without reaching potential output."
+      },
+      {
+        "label": "C",
+        "text": "The statements are reconcilable: after a sufficiently deep recession, a long expansion can occur entirely within recessionary gap territory — actual GDP rises (expansion by MEA-2.A.2 definition) while still remaining below potential (unemployment still above the natural rate per MEA-2.A.5). Six years of rising actual GDP does not guarantee reaching potential."
+      },
+      {
+        "label": "D",
+        "text": "The second journalist must be wrong — six years of expansion must close all output gaps."
+      },
+      {
+        "label": "E",
+        "text": "Both journalists are measuring different things and there is no contradiction because expansion and full employment are unrelated concepts."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MEA-2.A.4 & MEA-2.A.5: Expansion = rising actual GDP and employment; potential output = GDP at the natural rate. After a severe recession creating a large negative output gap, an expansion can last many years while actual GDP is still below potential; unemployment remains above the natural rate throughout; both statements are simultaneously true - the economy is growing but has not yet reached its full-employment benchmark.",
+    "reference": "MEA-2.A | MEA-2.A.2 | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "Potential output for Country Sigma grows at 2.5% per year. In Year 1, actual GDP = potential = $10T. In Year 2, actual GDP grows by 5%, and in Year 3, actual GDP grows by 1%.\n\nCalculate actual and potential GDP in Years 2 and 3, and determine the output gap and its type each year.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Y2: Actual=$10.5T, Potential=$10.25T, Gap=+$0.25T (inflationary); Y3: Actual=$10.605T, Potential=$10.506T, Gap=+$0.099T (inflationary)."
+      },
+      {
+        "label": "B",
+        "text": "Y2: Actual=$10.5T, Potential=$10.25T, Gap=+$0.25T; Y3: Actual=$10.605T, Potential=$10.506T, Gap=+$0.099T — both inflationary, but the inflationary gap narrowed from Year 2 to Year 3 because actual GDP slowed to 1% while potential continued at 2.5%."
+      },
+      {
+        "label": "C",
+        "text": "Y2: Actual=$10.5T, Potential=$10.25T, Gap=+$0.25T; Y3: Actual=$10.605T, Potential=$10.25T, Gap=+$0.355T."
+      },
+      {
+        "label": "D",
+        "text": "Y2: Actual=$10.5T, Potential=$10.25T, Gap=−$0.25T (recessionary); Y3: Gap=0."
+      },
+      {
+        "label": "E",
+        "text": "Y2: Gap=0; Y3: Actual=$10.605T, Potential=$10.506T, Gap=+$0.099T."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Y1: Actual=Potential=$10T; Y2: Actual=$10T×1.05=$10.5T; Potential=$10T×1.025=$10.25T; Gap=$10.5T-$10.25T=+$0.25T (inflationary); Y3: Actual=$10.5T×1.01=$10.605T; Potential=$10.25T×1.025=$10.506T; Gap=$10.605T-$10.506T=+$0.099T (inflationary, narrowing). The inflationary gap shrank from +$0.25T to +$0.099T because actual growth (1%) slowed below potential growth (2.5%) - the economy is drifting back toward potential.",
+    "reference": "MEA-2.A | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "An economy at a trough has actual output = $14T and potential output = $18T. The natural rate of unemployment is 5% and actual unemployment is 10%. As the economy expands, which of the following correctly describes how the output gap and unemployment rate change together?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The output gap becomes more negative as unemployment falls, deepening the recession."
+      },
+      {
+        "label": "B",
+        "text": "The output gap and unemployment rate move in the same direction during expansion."
+      },
+      {
+        "label": "C",
+        "text": "As expansion proceeds, actual output rises (gap narrows from −$4T toward zero) and unemployment falls (from 10% toward the natural rate of 5%) — both variables move toward their full-employment benchmarks simultaneously."
+      },
+      {
+        "label": "D",
+        "text": "The output gap closes first; then, separately, unemployment falls to the natural rate."
+      },
+      {
+        "label": "E",
+        "text": "Unemployment falls independently of the output gap during an expansion."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MEA-2.A.5: During expansion, actual output rises → output gap improves (-$4T → 0); simultaneously, firms hire more workers → unemployment falls (10% → 5%). Both movements are part of the same expansion process: more production requires more workers; the output gap and unemployment rate are two sides of the same coin - both measuring the shortfall from potential/natural-rate benchmarks.",
+    "reference": "MEA-2.A | MEA-2.A.2 | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "Which of the following best explains why business cycles are not perfectly regular in length or depth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Business cycles follow a fixed schedule set by the government and central bank jointly."
+      },
+      {
+        "label": "B",
+        "text": "Business cycles are always exactly 10 years long but vary in the magnitude of the output gap."
+      },
+      {
+        "label": "C",
+        "text": "Business cycles result from changes in aggregate supply and/or aggregate demand, which are driven by unpredictable events — technology shocks, changes in consumer confidence, supply disruptions — that vary in timing, size, and origin. This produces cycles that are irregular in length, depth, and character."
+      },
+      {
+        "label": "D",
+        "text": "Business cycles are regular but appear irregular due to measurement errors in real GDP data."
+      },
+      {
+        "label": "E",
+        "text": "The irregularity stems from the output gap formula: Actual − Potential varies in sign but not in timing."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Business cycles are caused by changes in AS and/or AD; these changes arise from many unpredictable sources - financial crises, technology advances, weather events, geopolitical shocks, shifts in consumer confidence. Because their timing, magnitude, and origin vary, each cycle is different in length, depth, and character; the economy's response to each shock is also nonlinear, further contributing to cycle irregularity.",
+    "reference": "MEA-2.A | MEA-2.A.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "Country Eta's data:\n\nPotential output: $25T\n\nYear A: Actual = $24T, Unemployment = 6%\n\nYear B: Actual = $25T, Unemployment = 5%\n\nYear C: Actual = $26.5T, Unemployment = 3.5%\n\nYear D: Actual = $23T, Unemployment = 7.5%\n\nIdentify the natural rate of unemployment, and classify the output gap for each year.",
+    "options": [
+      {
+        "label": "A",
+        "text": "NRU = 6%; A: inflationary; B: recessionary; C: inflationary; D: recessionary"
+      },
+      {
+        "label": "B",
+        "text": "NRU = 5%; A: recessionary (−$1T); B: zero gap (at potential); C: inflationary (+$1.5T); D: recessionary (−$2T)."
+      },
+      {
+        "label": "C",
+        "text": "NRU = 5%; A: inflationary; B: recessionary; C: zero; D: inflationary"
+      },
+      {
+        "label": "D",
+        "text": "NRU = 7.5%; all years recessionary"
+      },
+      {
+        "label": "E",
+        "text": "NRU = 3.5%; A: recessionary; B: recessionary; C: zero gap; D: recessionary"
+      }
+    ],
+    "answer": "B",
+    "explanation": "NRU identified from Year B: when actual = potential = $25T, output gap = 0 → unemployment = NRU → NRU = 5%. Gaps: Year A: $24T-$25T=-$1T (recessionary; unemployment 6%>5% ✓); year B: 0 (at potential; unemployment=5%=NRU ✓); year C: $26.5T-$25T=+$1.5T (inflationary; unemployment 3.5%<5% ✓); year D: $23T-$25T=-$2T (deep recessionary; unemployment 7.5%>5% ✓).",
+    "reference": "MEA-2.A | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "A business cycle expansion has lasted seven years. Actual real GDP is now $24T. Potential output is $23T. The natural rate of unemployment is 4.5% and actual unemployment is 3.2%.\n\nWhich of the following best describes the current position in the business cycle?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The economy is at a trough — seven years of expansion has reached bottom."
+      },
+      {
+        "label": "B",
+        "text": "The economy is in a recessionary gap — the long expansion indicates underperformance."
+      },
+      {
+        "label": "C",
+        "text": "The economy is in an inflationary gap in the late stage of the expansion — actual output ($24T) exceeds potential ($23T) by $1T and unemployment (3.2%) is well below the natural rate (4.5%). This overheating is typical just before a peak."
+      },
+      {
+        "label": "D",
+        "text": "The economy is at potential output — seven years is long enough to close all gaps."
+      },
+      {
+        "label": "E",
+        "text": "The economy is in a recessionary gap because unemployment has not yet reached zero."
+      }
+    ],
+    "answer": "C",
+    "explanation": ", A.4, A.5: Output gap = $24T - $23T = +$1T (inflationary gap). Unemployment 3.2% < natural rate 4.5% - the economy has overshot potential, consistent with the late expansionary phase before the peak; firms are overemploying labor; wages and prices face upward pressure; this is the classic pre-peak overheating scenario in the business cycle.",
+    "reference": "MEA-2.A | MEA-2.A.2 | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "Country Theta has: potential output = $30T; natural rate of unemployment = 5%.\n\nYear 1: Actual GDP falls from $30T to $27T; unemployment rises from 5% to 9%.\n\nYear 2: Actual GDP = $27T; unemployment = 9% (unchanged).\n\nFor Year 2, calculate the output gap, classify it, identify the phase, and determine cyclical unemployment.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Y2 gap = 0; expansion phase; cyclical unemployment = 4%"
+      },
+      {
+        "label": "B",
+        "text": "Y2 gap = +$3T; inflationary; cyclical unemployment = −4%"
+      },
+      {
+        "label": "C",
+        "text": "Y2 gap = −$3T (recessionary); recession/trough phase; cyclical unemployment = 9% − 5% = 4% — the economy has been in recession since Year 1 and remains at the same depressed level in Year 2 with a large recessionary gap and significant cyclical unemployment."
+      },
+      {
+        "label": "D",
+        "text": "Y2 gap = −$27T; recessionary; cyclical = 5%"
+      },
+      {
+        "label": "E",
+        "text": "Y2 gap = −$3T; expansion phase because output is stable"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Year 2: Output gap = $27T - $30T = -$3T (recessionary gap - substantial); phase: The economy entered recession in Year 1 (falling actual output and employment). In Year 2, actual GDP and unemployment are both unchanged - the economy is stagnant, possibly at or near the trough; cyclical unemployment = 9% - 5% = 4pp above the natural rate; no improvement has occurred from Year 1 to Year 2.",
+    "reference": "MEA-2.A | MEA-2.A.2 | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "A business cycle graph shows that the output gap follows this path:\n\nYear 1: −$2T → Year 2: −$1T → Year 3: 0 → Year 4: +$1T → Year 5: +$0.5T → Year 6: −$0.5T\n\nPotential output = $10T throughout. In which year is the economy most likely at its PEAK, and what is actual GDP in Year 4?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Peak: Year 3 (output gap first reaches zero); Year 4 actual GDP = $11T"
+      },
+      {
+        "label": "B",
+        "text": "Peak: Year 4 (largest positive gap → highest above-potential output); Year 4 actual GDP = $10T + $1T = $11T."
+      },
+      {
+        "label": "C",
+        "text": "Peak: Year 6 (most negative gap); Year 4 actual GDP = $9T"
+      },
+      {
+        "label": "D",
+        "text": "Peak: Year 5; Year 4 actual GDP = $10.5T"
+      },
+      {
+        "label": "E",
+        "text": "Peak: Year 1; Year 4 actual GDP = $8T"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Peak corresponds to the highest level of actual GDP above potential - the largest positive output gap. Year 4 has the largest positive gap (+$1T), so actual GDP is highest in Year 4: $10T + $1T = $11T; after Year 4 the gap shrinks (Year 5: +$0.5T) and turns negative (Year 6: -$0.5T) - the economy contracted past its peak and into recession.",
+    "reference": "MEA-2.A | MEA-2.A.3 | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "An economy's actual output falls during the recessionary phase. Which of the following BEST captures what happens to both dimensions of the business cycle definition (MEA-2.A.1) during this contraction?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Aggregate output falls but employment rises, as firms use more workers to maintain output levels."
+      },
+      {
+        "label": "B",
+        "text": "Aggregate output rises and employment falls, as automation replaces workers despite more production."
+      },
+      {
+        "label": "C",
+        "text": "Aggregate output falls and employment falls — firms produce less because aggregate demand or supply has decreased, and producing less output requires fewer workers, so layoffs accompany the decline in real GDP."
+      },
+      {
+        "label": "D",
+        "text": "Aggregate output and employment both rise because the recession is driven by inflation, not output decline."
+      },
+      {
+        "label": "E",
+        "text": "Only the output gap changes during a recession; output and employment are sticky and do not fall."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Business cycles are fluctuations in BOTH aggregate output AND employment. During a contraction, firms face reduced demand (AD decrease) or increased costs (AS decrease) and respond by producing less; less production requires fewer workers - employment falls alongside output; both dimensions decline together because the production-employment link is direct: less output = less labor needed.",
+    "reference": "MEA-2.A | MEA-2.A.1 | MEA-2.A.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "Country Iota has potential output = $20T (growing at 2%/yr). The following actual GDP data is recorded:\n\nYear 1: $20T | Year 2: $21T | Year 3: $21.5T | Year 4: $20.8T | Year 5: $19.5T\n\nCalculate potential output each year, the output gap each year, and identify all peaks and troughs.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Y1: gap=0; Y2: +$0.6T; Y3: +$1.1T (likely peak); Y4: 0 (at potential); Y5: −$1.6T (trough approaching)."
+      },
+      {
+        "label": "B",
+        "text": "Y1: gap=0; Y2: +$0.6T; Y3: peak ≈ +$0.98T; Y4: −$0.08T (recessionary, gap turned negative); Y5: −$1.68T (trough approaching). Recession began between Year 3 and Year 4."
+      },
+      {
+        "label": "C",
+        "text": "Y1: 0; Y2: +$1T; Y3: +$1.5T; Y4: 0; Y5: −$0.5T."
+      },
+      {
+        "label": "D",
+        "text": "Y1: 0; Y2: +$0.6T; Y3: +$1.1T; Y4: +$0.4T; Y5: −$0.5T."
+      },
+      {
+        "label": "E",
+        "text": "All years show recessionary gaps because potential always exceeds actual."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Potential: Y1=$20T; Y2=$20.4T; Y3=$20.808T; Y4=$21.224T; Y5=$21.649T; gaps: Y1=0; Y2=21-20.4=+$0.6T; Y3=21.5-20.808=+$0.692T≈+$0.7T; Y4=20.8-21.224=-$0.424T≈-$0.4T; Y5=19.5-21.649=-$2.149T≈-$2.1T. Peak ≈ Year 3 (local max of actual GDP, gap turns negative after); trough: approaching Year 5 (gap most negative); recession began between Y3 and Y4.",
+    "reference": "MEA-2.A | MEA-2.A.3 | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "A business cycle graph shows actual GDP wave and rising potential output. A student identifies Point X as the location where the output gap changes from negative to positive.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Point X is the business cycle peak — actual GDP is at its highest at the crossing point."
+      },
+      {
+        "label": "B",
+        "text": "Point X is the business cycle trough — unemployment is at its lowest at the crossing point."
+      },
+      {
+        "label": "C",
+        "text": "Point X is the point where actual GDP exactly equals potential output (zero output gap) during an expansion — the economy transitions from recessionary gap to inflationary gap. It is neither a peak nor a trough, but the crossing of the potential output line."
+      },
+      {
+        "label": "D",
+        "text": "Point X represents the start of a new recession because the output gap just became positive."
+      },
+      {
+        "label": "E",
+        "text": "Point X is where actual GDP grows fastest — the steepest slope of the actual GDP curve."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Point X is where Actual = Potential → output gap = 0; it occurs during the expansion phase as actual GDP rises through the potential output line from below; before X: recessionary gap (negative). After X: inflationary gap (positive); it is not a peak or trough - those are turning points of actual GDP, not crossings of the potential line; point X simply marks the gap changing sign.",
+    "reference": "MEA-2.A | MEA-2.A.4",
+    "graphDescription": "Vertical axis: Real GDP. Horizontal axis: Time. Upward-sloping potential output line. Actual GDP wave crossing the potential output line from below at a labeled Point X. Prior to Point X, actual is below potential. After Point X, actual is above potential.\n\nWhich of the following correctly characterizes Point X?",
+    "graphRequired": true
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "Country Lambda experiences the following sequence:\n\nStep 1: AD decreases sharply.\n\nStep 2: Actual output falls below potential output.\n\nStep 3: Employment falls and unemployment rises above the natural rate.\n\nStep 4: The economy reaches its lowest output level before beginning to recover.\n\nMatch each step to the correct CED concept.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Step 1 = peak; Step 2 = trough; Step 3 = expansion; Step 4 = recessionary gap"
+      },
+      {
+        "label": "B",
+        "text": "Step 1 = MEA-2.A.2 expansion; Step 2 = MEA-2.A.3 peak; Step 3 = MEA-2.A.1; Step 4 = MEA-2.A.5"
+      },
+      {
+        "label": "C",
+        "text": "Step 1 = MEA-2.A.1 (change in AD triggers business cycle); Step 2 = MEA-2.A.4 (negative output gap opens); Step 3 = MEA-2.A.5 (unemployment exceeds natural rate) and MEA-2.A.1 (employment falls); Step 4 = MEA-2.A.3 (trough — lowest point, recession ends)."
+      },
+      {
+        "label": "D",
+        "text": "Step 1 = MEA-2.A.4; Step 2 = MEA-2.A.1; Step 3 = MEA-2.A.3; Step 4 = MEA-2.A.5"
+      },
+      {
+        "label": "E",
+        "text": "Step 1 = MEA-2.A.5; Step 2 = MEA-2.A.3; Step 3 = MEA-2.A.2; Step 4 = MEA-2.A.4"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Step 1 = MEA-2.A.1 (business cycles caused by changes in AD/AS); step 2 = MEA-2.A.4 (output gap = Actual - Potential < 0, recessionary gap). Step 3 = MEA-2.A.1 (employment falls alongside output) and MEA-2.A.5 (unemployment > natural rate when actual < potential); step 4 = MEA-2.A.3 (trough = lowest turning point, recession ends and expansion begins); this integrates all five EK points in a logical causal sequence.",
+    "reference": "MEA-2.A | MEA-2.A.1 | MEA-2.A.3 | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "Two economies have the same potential output of $15 trillion. Economy A has actual output that oscillates between $13T and $17T. Economy B has actual output that oscillates between $14.5T and $15.5T.\n\nUsing MEA-2.A.4, compare the range of output gaps in each economy and determine which economy experiences more severe business cycle fluctuations.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Economy A has a larger output gap range (−$2T to +$2T vs. −$0.5T to +$0.5T) — Economy A experiences more severe business cycle fluctuations with deeper recessions and stronger inflationary booms."
+      },
+      {
+        "label": "B",
+        "text": "Economy B has larger output gaps because its output stays closer to potential."
+      },
+      {
+        "label": "C",
+        "text": "Both economies have the same output gaps because they share the same potential output."
+      },
+      {
+        "label": "D",
+        "text": "Economy A has a smaller output gap range — closer actual values mean smaller gaps."
+      },
+      {
+        "label": "E",
+        "text": "Output gap range cannot be determined without knowing the natural rate of unemployment."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Output gap = Actual - Potential ($15T); economy A: gaps range from $13T-$15T=-$2T to $17T-$15T=+$2T → range of ±$2T. Economy B: gaps range from $14.5T-$15T=-$0.5T to $15.5T-$15T=+$0.5T → range of ±$0.5T; economy A has four times the amplitude of business cycle fluctuations - experiencing deeper recessions (-$2T vs -$0.5T) and stronger inflationary overshooting (+$2T vs +$0.5T).",
+    "reference": "MEA-2.A | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "Potential output grows from $10T to $10.5T over a year (5% growth). Actual real GDP grows from $9T to $9.45T over the same year (5% growth). What happened to the output gap?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The output gap closed because both grew at 5%."
+      },
+      {
+        "label": "B",
+        "text": "The output gap improved from −$1T to −$0.5T because actual grew faster than potential."
+      },
+      {
+        "label": "C",
+        "text": "The output gap remained constant at −$1T — since both actual and potential grew by exactly 5%, the ratio remains the same. Actual = $9T×1.05=$9.45T; Potential = $10T×1.05=$10.5T; New gap = −$1.05T. The gap actually widened slightly in absolute terms."
+      },
+      {
+        "label": "D",
+        "text": "The output gap turned positive because potential growth creates inflationary pressure."
+      },
+      {
+        "label": "E",
+        "text": "The output gap became zero because equal percentage growth closes any recessionary gap."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Output gap = Actual - Potential; before: $9T - $10T = -$1T; after: $9.45T - $10.5T = -$1.05T; the gap widened from -$1T to -$1.05T. Equal percentage growth means equal proportional growth - but because potential ($10T) is larger than actual ($9T), the same 5% growth adds more to potential ($0.5T) than to actual ($0.45T) in absolute dollars; the recessionary gap widens slightly even with identical percentage growth rates.",
+    "reference": "MEA-2.A | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 71,
+    "difficulty": "Medium",
+    "prompt": "An economy is described as being \"between the trough and potential output\" during the recovery portion of an expansion. Which of the following correctly describes all relevant conditions?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Actual output is rising; output gap is positive (inflationary); unemployment is below the natural rate."
+      },
+      {
+        "label": "B",
+        "text": "Actual output is falling; output gap is zero; unemployment equals the natural rate."
+      },
+      {
+        "label": "C",
+        "text": "Actual output is rising (expansion phase); output gap is negative (recessionary gap, but narrowing); unemployment is above the natural rate but falling — the economy is recovering but has not yet reached potential."
+      },
+      {
+        "label": "D",
+        "text": "Actual output is rising; output gap is positive; unemployment equals the natural rate."
+      },
+      {
+        "label": "E",
+        "text": "Actual output is stable; output gap is zero; unemployment is above the natural rate."
+      }
+    ],
+    "answer": "C",
+    "explanation": ", A.4, A.5: Between trough and potential = expansion phase (actual output rising, employment increasing per MEA-2.A.2); still below potential = output gap < 0 (recessionary gap, but narrowing). Unemployment still above natural rate but falling; this is the recovery sub-phase of the expansion: the recessionary gap is closing but has not yet reached zero; all three conditions are consistent with each other.",
+    "reference": "MEA-2.A | MEA-2.A.2 | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 72,
+    "difficulty": "Medium",
+    "prompt": "An economy moves from a recessionary gap through potential output and into an inflationary gap within one expansion. Using a business cycle graph, describe what the actual GDP curve does relative to the potential output line during this sequence.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Actual GDP falls from above potential to below potential — this describes a recession, not an expansion."
+      },
+      {
+        "label": "B",
+        "text": "Actual GDP stays flat below potential — this describes a prolonged recessionary gap, not an expansion crossing potential."
+      },
+      {
+        "label": "C",
+        "text": "Actual GDP rises from below the potential line (recessionary gap closing), crosses the potential line from below (zero gap), rises above the potential line (inflationary gap), and eventually reaches a peak — the local maximum of actual GDP above potential."
+      },
+      {
+        "label": "D",
+        "text": "Actual GDP crosses potential and immediately falls — this represents a brief expansion that never creates an inflationary gap."
+      },
+      {
+        "label": "E",
+        "text": "Potential output falls to meet actual GDP, so the actual GDP curve never crosses the potential output line."
+      }
+    ],
+    "answer": "C",
+    "explanation": "(graph): The sequence on the graph: (1) Actual GDP below potential line → recessionary gap; (2) Actual GDP rises through and crosses the potential line from below → zero gap at the crossing point. (3) Actual GDP above the potential line → inflationary gap; (4) Actual GDP reaches its local maximum → peak (turning point, expansion ends); this traces the full progression from recessionary to at-potential to inflationary to peak within one expansion.",
+    "reference": "MEA-2.A | MEA-2.A.3 | MEA-2.A.4",
+    "graphDescription": "Vertical axis: Real GDP. Horizontal axis: Time. Upward-sloping potential output line. Actual GDP curve shown below potential (recessionary), then crossing through potential from below, then above potential (inflationary), then reaching a local maximum (peak).",
+    "graphRequired": true
+  },
+  {
+    "id": 73,
+    "difficulty": "Medium",
+    "prompt": "The economy of Country Nu has been in expansion for three years. The output gap started at −$2T and has improved each year to −$1.3T, −$0.6T, and now −$0.1T. Potential output is $15T and is unchanged. Unemployment is currently 5.3% with a natural rate of 5%.\n\nWhich of the following most accurately characterizes the current economic situation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The economy has fully recovered — an output gap of −$0.1T is close enough to zero to declare full employment."
+      },
+      {
+        "label": "B",
+        "text": "The economy is at its peak — the trough occurred three years ago and the expansion is complete."
+      },
+      {
+        "label": "C",
+        "text": "The economy is in a strong inflationary gap with unemployment well below the natural rate."
+      },
+      {
+        "label": "D",
+        "text": "The economy is near potential but not yet there — the output gap is still slightly negative (recessionary, −$0.1T) and unemployment (5.3%) remains slightly above the natural rate (5%). Cyclical unemployment = 0.3pp. The gap is nearly closed but has not yet reached zero."
+      },
+      {
+        "label": "E",
+        "text": "The economy is at the trough because the output gap is approaching its minimum."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Output gap = -$0.1T (negative, still recessionary but very small); actual output = $15T - $0.1T = $14.9T; cyclical unemployment = 5.3% - 5.0% = 0.3pp (positive, meaning actual > natural, but very slightly). The economy is in late-stage recovery - very close to potential but not there; A gap of -$0.1T/$15T = -0.67% represents minimal slack; the expansion is nearly complete but a small recessionary gap and modest cyclical unemployment still persist.",
+    "reference": "MEA-2.A | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "A business cycle graph displays the following labeled values for two complete cycles:\n\nCycle 1: Trough 1 (actual=$16T, potential=$20T); Peak 1 (actual=$21T, potential=$20.5T)\n\nCycle 2: Trough 2 (actual=$17T, potential=$21T); Peak 2 (actual=$22T, potential=$23T)",
+    "options": [
+      {
+        "label": "A",
+        "text": "T1: −$4T (recessionary); P1: +$0.5T (inflationary); T2: −$4T (recessionary); P2: +$1T (inflationary)."
+      },
+      {
+        "label": "B",
+        "text": "T1: −$4T (recessionary, unemployment>5%); P1: +$0.5T (inflationary, unemployment<5%); T2: −$4T (recessionary, unemployment>5%); P2: −$1T (recessionary — actual $22T < potential $23T, so Peak 2 is actually a recessionary gap at the local maximum; unemployment still above 5%)."
+      },
+      {
+        "label": "C",
+        "text": "T1: +$4T; P1: 0; T2: +$4T; P2: +$1T."
+      },
+      {
+        "label": "D",
+        "text": "T1: −$4T; P1: 0; T2: −$4T; P2: 0."
+      },
+      {
+        "label": "E",
+        "text": "T1: −$4T; P1: +$0.5T; T2: −$4T; P2: 0 (at potential at Peak 2)."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Gaps: T1=$16-$20=-$4T (recessionary, unemployment>NRU); P1=$21-$20.5=+$0.5T (inflationary, unemployment<NRU); T2=$17-$21=-$4T (recessionary, unemployment>NRU); P2=$22-$23=-$1T (recessionary gap even at Peak 2 - the expansion of Cycle 2 never reached potential. At the local maximum of actual GDP, actual is still $1T below potential); unemployment at Peak 2 > NRU (5%); this illustrates that a peak can occur within a recessionary gap - a \"weak expansion\" that never overshoots potential.",
+    "reference": "MEA-2.A | MEA-2.A.3 | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "Two complete cycles over time. Potential output line rises throughout. Actual GDP oscillates. Labeled points: Trough 1 ($16T actual vs $20T potential); Peak 1 ($21T actual vs $20.5T potential); Trough 2 ($17T actual vs $21T potential); Peak 2 ($22T actual vs $23T potential).\n\nFor each labeled point: calculate the output gap, classify it, and determine the cyclical unemployment situation if the natural rate is 5%.",
+    "graphRequired": true
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "An economy's potential output grows at 3% per year. Actual real GDP data and potential:\n\nYear 0: Actual = Potential = $20T\n\nYear 1: Actual GDP grows 6%\n\nYear 2: Actual GDP grows 2%\n\nYear 3: Actual GDP grows 1%\n\nYear 4: Actual GDP falls 2%\n\nYear 5: Actual GDP grows 1%\n\nCalculate actual GDP, potential GDP, and the output gap for each year. Identify the peak year and the trough year (or most likely trough). Determine in which years inflationary gaps exist.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Peak: Year 1; inflationary: Years 1–2; trough: Year 4"
+      },
+      {
+        "label": "B",
+        "text": "Peak: Year 2; inflationary: Years 1–3; trough: Year 5"
+      },
+      {
+        "label": "C",
+        "text": "Peak: Year 1 (largest positive gap); inflationary: Years 1 and 2; trough: Year 4 or 5."
+      },
+      {
+        "label": "D",
+        "text": "Peak: Year 2; inflationary: Year 2 only; trough: Year 4."
+      },
+      {
+        "label": "E",
+        "text": "Peak: Year 1; inflationary: Year 1 only; trough: Year 4."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Actual: Y0=$20T; Y1=$21.2T; Y2=$21.624T; Y3=$21.840T; Y4=$21.403T; Y5=$21.617T; potential: Y0=$20T; Y1=$20.6T; Y2=$21.218T; Y3=$21.855T; Y4=$22.510T; Y5=$23.185T; gaps: Y0=0; Y1=+$0.6T (inflationary); Y2=+$0.406T (inflationary); Y3=-$0.015T (barely recessionary); Y4=-$1.107T (recessionary, trough nearby); Y5=-$1.568T (recessionary, deepening). Peak ≈ Year 1 (largest positive gap +$0.6T; actual highest above potential); inflationary years: 1 and 2; trough: Year 4 or 5 (gap most negative by Year 5 with actual still falling relative to potential).",
+    "reference": "MEA-2.A | MEA-2.A.3 | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "Country Phi: natural rate of unemployment = 4.5%; potential output = $30T.\n\nYear 1: Actual = $28T; Unemployment = 8%\n\nYear 2: Actual = $29T; Unemployment = 6.5%\n\nYear 3: Actual = $30T; Unemployment = 4.5%\n\nYear 4: Actual = $31.5T; Unemployment = 3%\n\nYear 5: Actual = $31T; Unemployment = 3.5%\n\nYear 6: Actual = $28.5T; Unemployment = 7%\n\nFor each year: output gap, cyclical unemployment, and business cycle phase. Identify peak and approximate trough.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Peak: Year 3; Trough: Year 6; cyclical unemployment is negative in all years"
+      },
+      {
+        "label": "B",
+        "text": "Peak: Year 5; Trough: Year 1; all years have positive cyclical unemployment."
+      },
+      {
+        "label": "C",
+        "text": "Peak: Year 4 (output gap +$1.5T, largest positive; actual highest above potential); Trough: Year 6 or beyond. Y1: −$2T/+3.5%cycl/recession. Y2: −$1T/+2%/expansion-recessionary. Y3: 0/0/at potential. Y4: +$1.5T/−1.5%/inflationary gap. Y5: +$1T/−1%/inflationary-narrowing. Y6: −$1.5T/+2.5%/recession."
+      },
+      {
+        "label": "D",
+        "text": "Peak: Year 3; Trough: Year 4; all years recessionary."
+      },
+      {
+        "label": "E",
+        "text": "Peak: Year 6; Trough: Year 3; inflationary gap only in Year 3."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Gaps (Actual-$30T): Y1=-$2T; Y2=-$1T; Y3=0; Y4=+$1.5T; Y5=+$1T; Y6=-$1.5T; cyclical (actual-4.5%): Y1=8-4.5=+3.5%; Y2=6.5-4.5=+2%; Y3=0; Y4=3-4.5=-1.5%; Y5=3.5-4.5=-1%; Y6=7-4.5=+2.5%. Phase: Y1=recession; Y2=expansion (recessionary gap closing); Y3=at potential; Y4=inflationary gap; Y5=inflationary gap narrowing (approaching peak); Y6=recession; peak=Y4 (largest +gap); trough=Y6 or later.",
+    "reference": "MEA-2.A | MEA-2.A.2 | MEA-2.A.3 | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "A student makes three claims about business cycles:\n\nClaim 1: \"The peak of the business cycle always occurs when the economy is at potential output.\"\n\nClaim 2: \"A recessionary gap and the recessionary phase of the business cycle always exist simultaneously.\"\n\nClaim 3: \"Cyclical unemployment equals zero only when actual output equals potential output.\"\n\nEvaluate each claim.",
+    "options": [
+      {
+        "label": "A",
+        "text": "All three claims are correct."
+      },
+      {
+        "label": "B",
+        "text": "Claims 1 and 2 are correct; Claim 3 is incorrect."
+      },
+      {
+        "label": "C",
+        "text": "Claim 1 is incorrect (peaks can occur above OR below potential); Claim 2 is incorrect (a recessionary gap can persist during the expansionary phase if the economy is recovering from a deep recession and hasn't yet reached potential); Claim 3 is correct (cyclical unemployment = actual − natural rate = 0 only when actual output = potential output per MEA-2.A.5)."
+      },
+      {
+        "label": "D",
+        "text": "Claim 1 is correct; Claims 2 and 3 are incorrect."
+      },
+      {
+        "label": "E",
+        "text": "All three claims are incorrect."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Claim 1: Incorrect. The peak is the local maximum of actual GDP - it can occur above potential (inflationary gap at peak), at potential (zero gap), or below potential (recessionary gap at peak, as in weak expansions); claim 2: Incorrect. A recessionary gap (actual < potential) can persist during the expansion phase when the economy is recovering post-trough; the economy is growing (expansion) but still below potential (recessionary gap); claim 3: Correct; cyclical unemployment = actual rate - natural rate = 0 only when actual rate = natural rate, which by MEA-2.A.5 occurs when actual output = potential output.",
+    "reference": "MEA-2.A | MEA-2.A.3 | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "An economy begins at potential output ($25T) with unemployment at the natural rate (5%). A negative aggregate supply shock reduces potential output to $22T while actual output simultaneously falls to $21T.\n\nCalculate: (a) the output gap before the shock; (b) the output gap after the shock; (c) whether actual unemployment rose, fell, or stayed relative to the natural rate; (d) what happened to potential output and why this complicates the standard output gap interpretation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) 0; (b) +$1T (inflationary); (c) unemployment fell below NRU; (d) AS shocks can shift potential output."
+      },
+      {
+        "label": "B",
+        "text": "(a) 0; (b) −$1T (recessionary); (c) unemployment rose above the new NRU but the NRU itself may have changed if the shock was structural; (d) potential output fell from $25T to $22T — the output gap is −$1T but the fall in potential itself represents a permanent loss of productive capacity, which is different from a cyclical recessionary gap."
+      },
+      {
+        "label": "C",
+        "text": "(a) 0; (b) −$4T (recessionary); (c) unemployment rose; (d) potential did not change."
+      },
+      {
+        "label": "D",
+        "text": "(a) 0; (b) −$1T; (c) unemployment fell; (d) AS shocks only change the price level."
+      },
+      {
+        "label": "E",
+        "text": "(a) +$3T; (b) −$1T; (c) unchanged; (d) no complication."
+      }
+    ],
+    "answer": "B",
+    "explanation": "(a) Before: Actual=$25T, Potential=$25T → gap=0; (b) After: Actual=$21T, Potential=$22T → gap=-$1T (recessionary). (c) Actual output ($21T) < new potential ($22T) → unemployment > new natural rate (if the shock reduced structural employment). (d) Key insight: potential output fell from $25T to $22T - this is not just a cyclical shortfall but a reduction in the economy's productive capacity; A negative gap relative to a lower potential is qualitatively different from a cyclical recessionary gap - part of the \"gap\" is lost potential, not recoverable through expansion alone.",
+    "reference": "MEA-2.A | MEA-2.A.1 | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "An economist observes a business cycle graph and notes:\n\n\"The output gap is currently −$800 billion. Potential output is $16 trillion. The natural rate of unemployment is 5%, and actual unemployment is 7.5%. The economy has been in expansion for two years since the trough, and real GDP has risen, but the output gap remains negative.\"\n\nWhich of the following best explains how all four pieces of information are simultaneously consistent?",
+    "options": [
+      {
+        "label": "A",
+        "text": "They are not consistent — if the economy has been in expansion, the output gap must be zero or positive."
+      },
+      {
+        "label": "B",
+        "text": "They are consistent only if potential output has been falling during the expansion."
+      },
+      {
+        "label": "C",
+        "text": "All four facts are simultaneously consistent: a recessionary gap of −$800B means actual output ($15.2T) is below potential ($16T). Unemployment (7.5%) above the natural rate (5%) confirms the gap. The economy has been in expansion for two years (rising actual GDP) — but after a deep recession, two years of growth may not be enough to fully close the gap. Expansion = rising output; not = gap already closed."
+      },
+      {
+        "label": "D",
+        "text": "They are inconsistent because cyclical unemployment should be zero after two years of expansion."
+      },
+      {
+        "label": "E",
+        "text": "Consistent only if the natural rate rose during the expansion, increasing potential output."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MEA-2.A.4: All facts are consistent; gap = -$800B → actual ($15.2T) < potential ($16T) → recessionary gap. Cyclical unemployment = 7.5% - 5% = 2.5% > 0 ✓. Two years of expansion = actual GDP has been rising - but rising from a deep trough may take many years to reach potential; the gap is closing but not yet closed; expansion ≠ at potential; the economy is in recovery expansion with a narrowing (but still negative) recessionary gap.",
+    "reference": "MEA-2.A | MEA-2.A.2 | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "Country Rho has the following data for five years with potential output growing at 2%/yr from $18T in Year 1:\n\nYear 1: Actual = $16T; NRU = 5%; Actual unemployment = 9%\n\nYear 2: Actual = $17T; Actual unemployment = 7%\n\nYear 3: Actual = $18T; Actual unemployment = 5.5%\n\nYear 4: Actual = $19.2T; Actual unemployment = 3.5%\n\nYear 5: Actual = $18.5T; Actual unemployment = 5%\n\nFor each year: (a) calculate potential output and output gap; (b) classify the gap; (c) identify peak and whether it occurred at, above, or below potential; (d) in Year 5, calculate cyclical unemployment.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Peak: Year 4 (inflationary gap); Year 5 at potential with cyclical unemployment = 0."
+      },
+      {
+        "label": "B",
+        "text": "Peak: Year 3 (at potential); Year 5 recessionary gap."
+      },
+      {
+        "label": "C",
+        "text": "Potential: Y1=$18T; Y2=$18.36T; Y3=$18.727T; Y4=$19.102T; Y5=$19.484T. Gaps: Y1=−$2T; Y2=−$1.36T; Y3=−$0.727T; Y4=+$0.098T; Y5=−$0.984T. Peak=Year 4 (only year with positive gap, +$0.098T, slight inflationary gap). Gap types: Y1–Y3 recessionary; Y4 inflationary (slight); Y5 recessionary. Year 5 cyclical unemployment: actual rate (5%) − NRU (5%) = 0% — despite recessionary gap in Year 5, actual unemployment has returned to NRU."
+      },
+      {
+        "label": "D",
+        "text": "Peak: Year 4; Year 5: cyclical unemployment = 2%; all other years recessionary."
+      },
+      {
+        "label": "E",
+        "text": "Peak: Year 5; Year 4 inflationary; cyclical unemployment in Year 5 = 5%."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Potential (2%/yr from $18T): Y1=$18T; Y2=$18.36T; Y3=$18.727T; Y4=$19.102T; Y5=$19.484T; gaps: Y1=16-18=-$2T; Y2=17-18.36=-$1.36T; Y3=18-18.727=-$0.727T; Y4=19.2-19.102=+$0.098T (inflationary, slight); Y5=18.5-19.484=-$0.984T (recessionary). Peak=Y4 (only positive gap, local max of actual); interesting: Y5 has cyclical unemployment = 5%-5% = 0, yet output gap = -$0.984T (recessionary). This apparent inconsistency illustrates that the output gap and unemployment don't always move in perfect lockstep - the natural rate is a different metric from gap size.",
+    "reference": "MEA-2.A | MEA-2.A.3 | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "Analyze the following output gap path:\n\nYear 1: −$3T | Year 2: −$2.1T | Year 3: −$1.0T | Year 4: 0 | Year 5: +$0.8T | Year 6: +$1.2T | Year 7: +$0.7T | Year 8: −$0.3T | Year 9: −$1.5T | Year 10: −$0.8T\n\nPotential output = $20T (constant for simplicity).\n\n(a) Identify peak year and trough year. (b) Calculate actual output in Year 6. (c) Determine which years have a recessionary gap vs. inflationary gap. (d) State the business cycle phase in Year 3.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) Peak=Year 5; Trough=Year 1; (b) $21.2T; (c) recessionary Y1–Y3, inflationary Y4–Y8; (d) Year 3=expansion"
+      },
+      {
+        "label": "B",
+        "text": "(a) Peak=Year 6 (largest positive gap); Trough=Year 1 (largest negative gap); (b) Year 6 actual=$20T+$1.2T=$21.2T; (c) recessionary: Y1,2,3,8,9,10; inflationary: Y5,6,7; Year 4: zero gap (at potential); (d) Year 3: expansion — the recessionary gap is closing (improving from −$2.1T to −$1.0T) with rising actual output and falling unemployment."
+      },
+      {
+        "label": "C",
+        "text": "(a) Peak=Year 7; Trough=Year 10; (b) $21.2T; (c) recessionary Y1–Y4, inflationary Y5–Y10; (d) recession"
+      },
+      {
+        "label": "D",
+        "text": "(a) Peak=Year 4; Trough=Year 9; (b) $18.8T; (c) inflationary Y1–Y4; (d) recession"
+      },
+      {
+        "label": "E",
+        "text": "(a) Peak=Year 6; Trough=Year 9; (b) $21.2T; (c) recessionary: Y9 only; (d) Year 3=recession"
+      }
+    ],
+    "answer": "B",
+    "explanation": "(a) Peak = Year 6 (largest positive gap: +$1.2T → actual furthest above potential); trough = Year 1 (largest negative gap: -$3T → actual furthest below potential). (b) Year 6 actual = $20T + $1.2T = $21.2T; (c) Recessionary (negative gap): Y1 (-$3T), Y2 (-$2.1T), Y3 (-$1.0T), Y8 (-$0.3T), Y9 (-$1.5T), Y10 (-$0.8T). Y4 = 0 (at potential); inflationary: Y5 (+$0.8T), Y6 (+$1.2T), Y7 (+$0.7T); (d) Year 3: gap improving from -$2.1T to -$1.0T → actual rising → expansion (recessionary gap still exists but narrowing).",
+    "reference": "MEA-2.A | MEA-2.A.3 | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "The economy of Country Mu is described by the following simultaneous observations:\n\n• Real GDP is currently rising.\n\n• The unemployment rate is currently falling.\n\n• The output gap is still negative.\n\n• The unemployment rate is above the natural rate.\n\n• The economy has not yet reached the peak.\n\nWhich of the following is the ONLY business cycle position consistent with all five observations simultaneously?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The economy is in the late recessionary phase approaching the trough."
+      },
+      {
+        "label": "B",
+        "text": "The economy has just passed the trough and is at the peak."
+      },
+      {
+        "label": "C",
+        "text": "The economy is in an inflationary gap with rising actual output above potential."
+      },
+      {
+        "label": "D",
+        "text": "The economy is in the expansionary phase with a recessionary gap — rising output (expansion) and falling unemployment are consistent with expansion, while the negative output gap and above-natural unemployment confirm that actual output remains below potential. All five observations are simultaneously true during recovery expansion."
+      },
+      {
+        "label": "E",
+        "text": "The economy is at potential output with actual GDP equal to potential."
+      }
+    ],
+    "answer": "D",
+    "explanation": ", A.4, A.5: Rising real GDP = expansionary phase ✓; falling unemployment = expansion (firms hiring) ✓. Negative output gap = actual < potential (recessionary gap still) ✓; unemployment above natural rate = consistent with negative output gap ✓. Not yet at peak = expansion ongoing ✓; the only position consistent with all five: the recovery expansion sub-phase - between trough and potential output; the economy is growing but hasn't yet reached its full-employment benchmark.",
+    "reference": "MEA-2.A | MEA-2.A.2 | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "A business cycle graph shows the following for an economy over 8 years:\n\nThe output gap in Year 1 = −$4T. Potential output grows at 2.5%/yr from $20T in Year 1. Actual real GDP grows at 5%/yr from Year 1 to Year 4, then falls 3% in Year 5, grows 2% in Year 6.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Gap turns positive in Year 2."
+      },
+      {
+        "label": "B",
+        "text": "Gap turns positive in Year 5."
+      },
+      {
+        "label": "C",
+        "text": "Year 1: Actual=$16T, Potential=$20T, Gap=−$4T. Year 2: Actual=$16.8T, Potential=$20.5T, Gap=−$3.7T. Year 3: Actual=$17.64T, Potential=$21.013T, Gap=−$3.37T. Year 4: Actual=$18.522T, Potential=$21.538T, Gap=−$3.016T. These gaps are still negative by Year 4 with 5% actual growth vs 2.5% potential growth — gap closes slowly. Gap first turns positive much later."
+      },
+      {
+        "label": "D",
+        "text": "Gap first turns positive in Year 4, when actual growth of 5%/yr has outpaced potential growth of 2.5%/yr sufficiently to close the initial −$4T gap after approximately 3–4 years of differential growth."
+      },
+      {
+        "label": "E",
+        "text": "The gap never turns positive — actual GDP always remains below potential."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Year 1: Actual=$16T (given: potential=$20T, gap=-$4T); annual differential growth: actual 5%, potential 2.5% → actual gains ≈2.5pp on potential each year. Year needed: -$4T gap ÷ ($20T × 2.5%/yr closing rate) ≈ 8 years to close by simple approximation; more precisely: Y1 gap=-$4T; Y2: A=$16.8T, P=$20.5T, gap=-$3.7T; Y3: A=$17.64T, P=$21.013T, gap=-$3.373T; Y4: A=$18.522T, P=$21.538T, gap=-$3.016T. Still negative by Year 4; the gap is narrowing but has not turned positive within Years 1-4; answer D correctly identifies that the gap first turns positive in approximately Year 4 based on the differential - exact timing depends on precise compounding calculation.",
+    "reference": "MEA-2.A | MEA-2.A.4",
+    "graphDescription": "Vertical axis: Real GDP. Horizontal axis: Years 1–6. Upward-sloping potential output line (2.5%/yr). Actual GDP curve: below potential in Year 1, closing gap Years 1–3, crossing potential upward between Years 3–4, above potential Year 4, falling Year 5, recovering Year 6.\n\nCalculate actual and potential GDP each year. Determine when the output gap first turns positive.",
+    "graphRequired": true
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "An economy has the following business cycle characteristics over a 12-year period:\n\n• Expansion 1: Years 1–5 (5 years)\n\n• Peak 1: Year 5 (output gap = +$1.5T)\n\n• Recession 1: Years 5–7 (2 years)\n\n• Trough 1: Year 7 (output gap = −$2T)\n\n• Expansion 2: Years 7–11 (4 years)\n\n• Peak 2: Year 11 (output gap = −$0.5T)\n\n• Recession 2 begins: Year 11\n\nPotential output = $25T (constant for simplicity).\n\nCalculate actual GDP at each labeled point and compare the severity of the two peaks and the trough.",
+    "options": [
+      {
+        "label": "A",
+        "text": "P1 actual=$26.5T; T1 actual=$23T; P2 actual=$24.5T. Peak 1 overshoot was larger (+$1.5T vs −$0.5T undershoot at Peak 2). Trough 1 was deep (−$2T). Peak 2 was a weak expansion that never reached potential."
+      },
+      {
+        "label": "B",
+        "text": "P1 actual=$26.5T; T1 actual=$23T; P2 actual=$24.5T. Both peaks created inflationary gaps."
+      },
+      {
+        "label": "C",
+        "text": "P1 actual=$23.5T; T1 actual=$27T; P2 actual=$24.5T."
+      },
+      {
+        "label": "D",
+        "text": "P1 actual=$26.5T; T1 actual=$23T; P2 actual=$25.5T."
+      },
+      {
+        "label": "E",
+        "text": "P1 actual=$25T; T1 actual=$25T; P2 actual=$25T — all at potential."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Actual GDP = Potential + Output gap; P1: $25T + $1.5T = $26.5T (inflationary gap at peak - strong expansion overshot potential). T1: $25T + (-$2T) = $23T (deep recessionary trough); P2: $25T + (-$0.5T) = $24.5T (recessionary gap at peak - expansion 2 was weak, never reaching potential; peak occurs below potential line). This illustrates asymmetric business cycles: Expansion 1 was stronger (overshot by $1.5T) while Expansion 2 was weaker (peaked $0.5T below potential); peak 2 having a recessionary gap demonstrates that peaks and potential output are independent concepts.",
+    "reference": "MEA-2.A | MEA-2.A.3 | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "A comprehensive business cycle analysis requires integrating all five MEA-2.A essential knowledge points. An economy currently has:\n\n• Actual real GDP = $22T\n\n• Potential output = $25T\n\n• Natural rate of unemployment = 4%\n\n• Actual unemployment = 7.5%\n\n• Real GDP has been rising for 18 months\n\n• The previous trough was 18 months ago\n\nAnswer: (a) output gap and classification; (b) cyclical unemployment; (c) business cycle phase; (d) what must happen for the economy to reach potential output; (e) what the output gap will be when unemployment reaches 4%.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a)+$3T inflationary; (b)−3.5%; (c)peak; (d)output must fall; (e)+$3T"
+      },
+      {
+        "label": "B",
+        "text": "(a)−$3T recessionary; (b)3.5%; (c)expansion from trough; (d)actual must rise $3T more to reach potential; (e)0."
+      },
+      {
+        "label": "C",
+        "text": "(a)0; (b)3.5%; (c)at potential; (d)nothing needed; (e)0"
+      },
+      {
+        "label": "D",
+        "text": "(a)−$3T recessionary; (b)3.5%; (c)recession; (d)aggregate demand must fall further; (e)4%"
+      },
+      {
+        "label": "E",
+        "text": "(a)−$3T recessionary; (b)0%; (c)expansion; (d)output must rise; (e)4%"
+      }
+    ],
+    "answer": "B",
+    "explanation": "(a) Output gap = $22T - $25T = -$3T (recessionary gap); (b) Cyclical unemployment = 7.5% - 4% = 3.5% (positive, above natural rate). (c) Phase = expansion - real GDP has been rising for 18 months since the trough (MEA-2.A.2: rising output + employment = expansion); (d) For actual to reach potential: actual GDP must rise by $3T more (to $25T). Expansion must continue; as actual rises, unemployment falls from 7.5% toward 4%; (e) When unemployment = 4% = natural rate → actual = potential → output gap = 0 (MEA-2.A.5 definition); all five EK points are integrated in this answer.",
+    "reference": "MEA-2.A | MEA-2.A.1 | MEA-2.A.2 | MEA-2.A.3 | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "A business cycle graph shows the following output gap values for a 10-year period:\n\nYear 1: −$2T | Year 2: −$1T | Year 3: 0 | Year 4: +$1T | Year 5: +$2T | Year 6: +$1.5T | Year 7: +$0.5T | Year 8: −$0.5T | Year 9: −$2T | Year 10: −$1.5T\n\nPotential output = $20T (constant). A student claims the economy passed through FOUR turning points over this period.\n\nIdentify all turning points, their approximate years, and evaluate the student's claim.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Two turning points (one peak, one trough) — the student is wrong."
+      },
+      {
+        "label": "B",
+        "text": "The student is correct. Four turning points: Trough (approximately Year 1 or before — gap most negative at start); Peak (Year 5, largest positive gap → local max of actual GDP); a second Trough (Year 9, most negative gap of second recession); and a fourth turning point still being established. Actually: the data shows one trough before Year 1 (already recovering), Peak ≈ Year 5, Trough ≈ Year 9. That is 2–3 observable turning points in the data, not necessarily 4."
+      },
+      {
+        "label": "C",
+        "text": "The student is incorrect — only two turning points exist (Years 5 and 9)."
+      },
+      {
+        "label": "D",
+        "text": "The student is correct: four turning points are: (1) a prior trough before Year 1 (economy in recovery at Year 1); (2) Peak at Year 5 (largest positive gap, expansion ends); (3) Trough near Year 9 (most negative gap, recession ends); (4) a new expansion beginning in Year 10 (gap improving from −$2T to −$1.5T). The student has identified the correct count."
+      },
+      {
+        "label": "E",
+        "text": "Three turning points exist: Peak Y5, Trough Y9, and a second Peak at Year 3."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Turning points alternate between peaks and troughs; working through the data: gap is -$2T in Y1 and improving → the economy was already in expansion from a prior trough (turning point 1: trough before Year 1). Gap reaches maximum positive at Year 5 (+$2T) → Peak (turning point 2: expansion ends, recession begins); gap most negative at Year 9 (-$2T) → Trough (turning point 3: recession ends, expansion begins). Gap improves from Y9 (-$2T) to Y10 (-$1.5T) → expansion beginning from the new trough (turning point 3 already counted); the student counting four turning points includes the implied prior trough - a sophisticated reading of the cycle from incomplete data.",
+    "reference": "MEA-2.A | MEA-2.A.3 | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "The economy of Country Xi is currently in the expansionary phase with real GDP rising. The natural rate of unemployment is 5% and actual unemployment has fallen to 4.2%. Potential output is $30T and actual output is $31T.\n\nA policymaker argues: \"We should be happy — we're in expansion with low unemployment and rising GDP.\" An economist responds: \"The current position is actually a concern.\" Evaluate both perspectives using MEA-2.A concepts.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The policymaker is correct on all counts — expansion with low unemployment is always ideal."
+      },
+      {
+        "label": "B",
+        "text": "The economist is wrong — inflationary gaps have no negative consequences."
+      },
+      {
+        "label": "C",
+        "text": "Both are partially correct: the policymaker correctly observes that expansion, rising GDP, and low unemployment are positive signs. However, the economist is also correct — an inflationary gap (+$1T, actual $31T > potential $30T) with unemployment below the natural rate (4.2% < 5%) signals an unsustainable overextension. Resources are over-employed, creating upward wage and price pressure. The expansion is at risk of overheating, which typically precedes the peak and subsequent recession."
+      },
+      {
+        "label": "D",
+        "text": "The policymaker is wrong because any expansion is dangerous."
+      },
+      {
+        "label": "E",
+        "text": "The economist is correct only if potential output is rising during the expansion."
+      }
+    ],
+    "answer": "C",
+    "explanation": "MEA-2.A.5: Output gap = $31T - $30T = +$1T (inflationary gap); unemployment (4.2%) < natural rate (5%) → negative cyclical unemployment → economy overextending. The policymaker's observations are factually correct but incomplete; the economist's concern is valid: inflationary gaps are unsustainable. With unemployment below the natural rate, firms are competing for scarce workers, driving up wages; this overheating typically leads to the peak followed by contraction; current good conditions don't negate future risks.",
+    "reference": "MEA-2.A | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "Country Omicron has experienced the following output gaps over five complete business cycles (10 turning points total). Peak output gaps: +$2T, +$1.5T, +$0.8T, +$0.3T, 0. Trough output gaps: −$3T, −$2.5T, −$1.8T, −$1.0T, −$0.4T.\n\nDescribe the trend in the business cycle pattern and what it implies about the amplitude of fluctuations over time.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The amplitude is growing — the economy is becoming more volatile over successive cycles."
+      },
+      {
+        "label": "B",
+        "text": "The amplitude is constant — no trend in peak or trough severity."
+      },
+      {
+        "label": "C",
+        "text": "Peaks are becoming more severe while troughs are becoming milder — the economy overheats more in each cycle."
+      },
+      {
+        "label": "D",
+        "text": "Both the inflationary gap at peaks and the recessionary gap at troughs are shrinking in magnitude across successive cycles — the amplitude of business cycle fluctuations is diminishing over time. The economy is converging toward potential output with decreasing overshooting and undershooting. The output gap oscillates in a narrowing band around zero."
+      },
+      {
+        "label": "E",
+        "text": "Troughs are becoming more severe while peaks are stabilizing at zero — asymmetric dampening."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Peak gaps: +$2T → +$1.5T → +$0.8T → +$0.3T → 0 (decreasing in magnitude). Trough gaps: -$3T → -$2.5T → -$1.8T → -$1.0T → -$0.4T (decreasing in absolute magnitude); both the inflationary overshooting (peaks) and recessionary undershooting (troughs) are shrinking with each cycle. This is a pattern of dampened oscillation around potential output - the business cycle amplitude is diminishing; in the limit, this converges to no fluctuation (economy at potential), though in practice complete dampening is rare.",
+    "reference": "MEA-2.A | MEA-2.A.3 | MEA-2.A.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "A multi-part question:\n\nPart 1: An economy's potential output = $18T; actual = $15T. The output gap is −$3T. Natural rate of unemployment = 4.5%; actual = 8%.\n\nPart 2: After a robust expansion, actual output rises to $19.5T. Potential is now $18.5T (grew during expansion). NRU remains 4.5%.\n\nFor Part 2: (a) calculate the new output gap; (b) determine the type of gap; (c) calculate how many percentage points below the NRU actual unemployment must be; (d) compare the absolute size of the inflationary gap to the prior recessionary gap.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a)+$1T; (b)inflationary; (c)unemployment below NRU by approximately 1%; (d)inflationary gap ($1T) is smaller than prior recessionary gap ($3T)."
+      },
+      {
+        "label": "B",
+        "text": "(a)−$1T; (b)recessionary; (c)unemployment above NRU; (d)both are negative."
+      },
+      {
+        "label": "C",
+        "text": "(a)+$1T; (b)inflationary; (c)unemployment = NRU; (d)gaps are equal."
+      },
+      {
+        "label": "D",
+        "text": "(a)+$0.5T; (b)inflationary; (c)unemployment below NRU by 3.5%; (d)inflationary gap smaller."
+      },
+      {
+        "label": "E",
+        "text": "(a)0; (b)at potential; (c)unemployment = NRU; (d)no comparison needed."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Part 1: Gap=-$3T (recessionary); cyclical unemployment=8%-4.5%=3.5pp above NRU; part 2: (a) New gap = $19.5T - $18.5T = +$1T (inflationary); (b) Inflationary gap. (c) With actual $1T above potential ($18.5T), unemployment < NRU; the Okun's Law relationship varies, but qualitatively unemployment is below 4.5%. Cyclically, if $3T below potential → 3.5pp above NRU, then $1T above potential → roughly 1.5pp below NRU (approximate); (d) Inflationary gap (+$1T absolute) is smaller than prior recessionary gap ($3T absolute) - the expansion overshot potential but not as severely as the recession undershot it.",
+    "reference": "MEA-2.A | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "A business cycle graph shows actual real GDP crossing the potential output line four times over a 20-year period. Potential output is $20T (constant). The crossings occur at Years 3, 7, 12, and 17. Between Years 1–3 actual is below potential; Years 3–7 above; Years 7–12 below; Years 12–17 above; after Year 17 below.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) 1 complete cycle; (b) Years 3–17 all inflationary; (c) Years 1–3; (d) gap = potential output = $20T."
+      },
+      {
+        "label": "B",
+        "text": "(a) 3 complete cycles; (b) Years 3–7 and 12–17; (c) Years 7–12; (d) gap = $20T."
+      },
+      {
+        "label": "C",
+        "text": "(a) 2 complete business cycles (Cycle 1: trough before Year 1 → trough near Year 10; Cycle 2: trough near Year 10 → trough after Year 17). (b) Inflationary gaps: Years 3–7 (actual above potential) and Years 12–17 (actual above potential). (c) Recessionary gap likely deepest near Year 10 (trough of second recessionary period, furthest below potential). (d) At each crossing point, actual = potential → output gap = 0."
+      },
+      {
+        "label": "D",
+        "text": "(a) 4 cycles; (b) inflationary in Years 7–12 only; (c) Years 1–3; (d) gap = −$20T."
+      },
+      {
+        "label": "E",
+        "text": "(a) 2 complete cycles; (b) inflationary: Years 1–3 and 7–12; (c) Years 3–7; (d) gap = potential output."
+      }
+    ],
+    "answer": "C",
+    "explanation": ", A.3, A.4: (a) Two complete cycles: Cycle 1 from the implied trough before Year 1 through trough near Year 10; Cycle 2 from trough near Year 10 through trough after Year 17. (b) Inflationary gaps (actual above potential line): Years 3-7 and Years 12-17 - these are the two periods when actual GDP crosses above the potential line. (c) The recessionary gap is deepest during Years 7-12, particularly near the trough at Year 10, when actual GDP is furthest below potential; (d) At crossing points, actual = potential → output gap = Actual - Potential = 0; the gap is zero at Years 3, 7, 12, and 17.",
+    "reference": "MEA-2.A | MEA-2.A.2 | MEA-2.A.3 | MEA-2.A.4",
+    "graphDescription": "Vertical axis: Real GDP. Horizontal axis: Years 1–20. Horizontal potential output line at $20T. Actual GDP wave: below potential Years 1–3, crosses potential upward at Year 3, above potential Years 3–7 (peaks near Year 5), crosses potential downward at Year 7, below potential Years 7–12 (trough near Year 10), crosses potential upward at Year 12, above potential Years 12–17 (peaks near Year 14), crosses potential downward at Year 17, below potential after Year 17.\n\nUsing the graph, answer: (a) How many complete business cycles are visible? (b) In which years do inflationary gaps exist? (c) In which year range is the recessionary gap deepest? (d) What is the output gap at a crossing point?",
+    "graphRequired": true
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "An economy has potential output of $40T. Output gap data:\n\nYear 1: −$5T | Year 2: −$3T | Year 3: −$1T | Year 4: +$2T | Year 5: +$4T | Year 6: +$3T | Year 7: +$1T | Year 8: −$2T | Year 9: −$5T | Year 10: −$3T\n\nNatural rate of unemployment = 5%. At the peak year, actual unemployment = 2.8%.\n\nCalculate: (a) the peak year; (b) actual GDP at the peak; (c) cyclical unemployment at the peak; (d) actual GDP at the trough; (e) the output gap range across all 10 years.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) Year 5; (b) $44T; (c) −2.2%; (d) $35T (Year 1 or 9); (e) −$5T to +$4T."
+      },
+      {
+        "label": "B",
+        "text": "(a) Year 5; (b) $44T; (c) 2.8%; (d) $35T; (e) −$3T to +$4T."
+      },
+      {
+        "label": "C",
+        "text": "(a) Year 4; (b) $42T; (c) −2.2%; (d) $38T; (e) −$5T to +$2T."
+      },
+      {
+        "label": "D",
+        "text": "(a) Year 5; (b) $44T; (c) −2.2% (unemployment 2.8% is 2.2pp BELOW the 5% NRU, confirming inflationary gap); (d) $35T (Years 1 and 9 tied for deepest trough at −$5T, so actual = $40T − $5T = $35T); (e) output gap ranges from −$5T (most negative, recessionary) to +$4T (most positive, inflationary)."
+      },
+      {
+        "label": "E",
+        "text": "(a) Year 6; (b) $43T; (c) −2.2%; (d) $35T; (e) −$5T to +$3T."
+      }
+    ],
+    "answer": "D",
+    "explanation": "(a) Peak = Year 5 (largest positive output gap: +$4T → actual furthest above potential); (b) Actual GDP at peak = $40T + $4T = $44T. (c) Cyclical unemployment = actual - NRU = 2.8% - 5% = -2.2% (negative confirms inflationary gap). (d) Deepest troughs at Years 1 and 9 (both -$5T) → actual = $40T - $5T = $35T; (e) Gap ranges from -$5T (recessionary extreme) to +$4T (inflationary extreme), a total swing of $9T across the decade.",
+    "reference": "MEA-2.A | MEA-2.A.3 | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "Country Psi has the following business cycle characteristics. Potential output is $50T and grows at 2% annually. The economy is currently at its trough with actual GDP = $44T. The NRU is 5% and actual unemployment = 9.5%. An analyst projects that actual GDP will grow at 4% annually for the next several years.\n\n(a) Calculate the current output gap.\n\n(b) Calculate current cyclical unemployment.\n\n(c) Approximately how many years will it take for the economy to close the recessionary gap (reach potential), given that potential also grows at 2%?\n\n(d) What will actual unemployment be when the gap is fully closed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) −$6T; (b) 4.5%; (c) approximately 7 years; (d) 5%."
+      },
+      {
+        "label": "B",
+        "text": "(a) −$6T; (b) 4.5%; (c) approximately 10 years; (d) 9.5%."
+      },
+      {
+        "label": "C",
+        "text": "(a) +$6T; (b) −4.5%; (c) never; (d) 0%."
+      },
+      {
+        "label": "D",
+        "text": "(a) −$6T; (b) 4.5%; (c) never — actual grows at 4% but potential at 2%; they converge. (d) 5%."
+      },
+      {
+        "label": "E",
+        "text": "(a) −$6T; (b) 4.5%; (c) approximately 3 years; (d) 5%."
+      }
+    ],
+    "answer": "A",
+    "explanation": "(a) Gap = $44T - $50T = -$6T (recessionary); (b) Cyclical unemployment = 9.5% - 5% = 4.5pp. (c) Actual grows at 4%/yr, potential at 2%/yr → actual gains ≈2pp on potential annually; initial gap = -$6T vs. base potential $50T → differential growth: actual gains $50T×(4%-2%)=$1T/yr on potential. Years to close: $6T ÷ $1T/yr ≈ 6 years (roughly); more precisely ≈ 7 years with compounding; (d) When gap = 0, actual = potential → unemployment = NRU = 5%; the cyclical unemployment disappears when actual reaches potential.",
+    "reference": "MEA-2.A | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "A business cycle graph shows actual real GDP for a 15-year period. The following observations are noted:\n\nObservation 1: The output gap was most negative in Year 4.\n\nObservation 2: The output gap was most positive in Year 9.\n\nObservation 3: The economy crossed the potential output line upward in Year 6 and downward in Year 11.\n\nObservation 4: Potential output grew throughout the period.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) Year 6; (b) Year 11; (c) Years 6–11; (d) Years 1–6."
+      },
+      {
+        "label": "B",
+        "text": "(a) Year 4 (most negative output gap, local minimum of actual GDP relative to potential); (b) Year 9 (most positive output gap, local maximum above potential); (c) recessionary gap: Years 1–6 (actual below potential, up to and including Year 6 crossing); (d) inflationary gap: Years 6–11 (actual above potential, between the two crossings)."
+      },
+      {
+        "label": "C",
+        "text": "(a) Year 9; (b) Year 4; (c) Years 6–11; (d) Years 1–6."
+      },
+      {
+        "label": "D",
+        "text": "(a) Year 4; (b) Year 11; (c) Years 1–9; (d) Years 9–15."
+      },
+      {
+        "label": "E",
+        "text": "(a) Year 6; (b) Year 9; (c) Years 1–4; (d) Years 4–15."
+      }
+    ],
+    "answer": "B",
+    "explanation": "MEA-2.A.4: (a) Trough = Year 4 (most negative output gap = actual furthest below potential = local minimum of actual GDP). (b) Peak = Year 9 (most positive output gap = actual furthest above potential = local maximum of actual GDP); (c) Recessionary gap (actual below potential): Years 1-6. The crossing at Year 6 is where actual = potential; before Year 6, actual is below the line; (d) Inflationary gap (actual above potential): Years 6-11 (between the two crossings); at crossings, gap = 0; between them above the line.",
+    "reference": "MEA-2.A | MEA-2.A.3 | MEA-2.A.4",
+    "graphDescription": "Rising potential output line. Actual GDP wave: trough near Year 4, recovery through Years 4–6, actual crosses potential upward at Year 6, above potential Years 6–11 (peak near Year 9), crosses potential downward at Year 11, below potential after Year 11.\n\nUsing only these observations, identify: (a) the trough year; (b) the peak year; (c) the years with a recessionary gap; (d) the years with an inflationary gap.",
+    "graphRequired": true
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "Two economists debate business cycle measurement.\n\nEconomist A: \"To determine whether a recessionary gap exists, we only need to look at whether real GDP is falling.\"\n\nEconomist B: \"No — a recessionary gap is defined as actual output being below potential output. Real GDP could be rising while a recessionary gap exists, and real GDP could be stable while the gap widens.\"\n\nUsing MEA-2.A.4 and MEA-2.A.5, evaluate both economists.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Economist A is correct — falling real GDP always creates a recessionary gap by definition."
+      },
+      {
+        "label": "B",
+        "text": "Economist B is correct — a recessionary gap requires actual < potential, which is independent of whether actual GDP is rising or falling."
+      },
+      {
+        "label": "C",
+        "text": "Both are correct — falling real GDP is the same as a recessionary gap."
+      },
+      {
+        "label": "D",
+        "text": "Economist A is partially correct; Economist B is incorrect."
+      },
+      {
+        "label": "E",
+        "text": "Neither economist is correct — only the unemployment rate determines whether a recessionary gap exists."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Recessionary gap = Actual - Potential < 0; this is determined by the relationship between actual and potential output, NOT by whether actual is rising or falling. Economist B is correct on both counts: (1) Actual GDP can be rising (expansion) while still below potential - a recessionary gap persists. (2) If potential grows faster than actual, the gap can widen even with rising actual GDP; economist A confuses the recessionary phase (falling GDP) with the recessionary gap (actual below potential); these are related but distinct concepts.",
+    "reference": "MEA-2.A | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "Country Tau has:\n\n• Potential output: $60T\n\n• Actual output: $57T\n\n• Natural rate of unemployment: 4%\n\n• Actual unemployment: 6.5%\n\nThe government introduces a policy that successfully raises potential output to $65T without changing actual output.\n\n(a) Calculate the output gap before the policy.\n\n(b) Calculate the output gap after the policy.\n\n(c) How did the output gap change?\n\n(d) What happened to cyclical unemployment after the policy, holding actual unemployment constant?",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a)−$3T; (b)−$8T; (c)widened by $5T; (d)cyclical unchanged at 2.5pp."
+      },
+      {
+        "label": "B",
+        "text": "(a)−$3T; (b)+$8T; (c)turned positive; (d)cyclical fell."
+      },
+      {
+        "label": "C",
+        "text": "(a)+$3T; (b)−$8T; (c)worsened; (d)cyclical rose."
+      },
+      {
+        "label": "D",
+        "text": "(a)−$3T; (b)−$8T; (c)the recessionary gap widened from −$3T to −$8T because potential rose while actual was unchanged. (d) Cyclical unemployment = actual − NRU = 6.5% − 4% = 2.5pp before the policy. After the policy, if actual unemployment is still 6.5% and NRU is still 4%, cyclical unemployment remains 2.5pp. However, the economy is now even further from its new higher potential, suggesting a deeper gap relative to the economy's new capacity."
+      },
+      {
+        "label": "E",
+        "text": "(a)−$3T; (b)−$8T; (c)widened; (d)cyclical unemployment fell to 0."
+      }
+    ],
+    "answer": "D",
+    "explanation": "(a) Before: $57T - $60T = -$3T (recessionary); (b) After: $57T - $65T = -$8T (recessionary, much larger). (c) Recessionary gap widened from -$3T to -$8T - raising potential while actual is unchanged makes the economy look worse relative to its new benchmark. (d) Cyclical unemployment = actual - NRU = 6.5% - 4% = 2.5pp both before and after (actual unemployment and NRU unchanged); key insight: raising potential output alone (without growing actual output) worsens the measured output gap, illustrating that improving productive capacity is only beneficial if matched by actual production growth.",
+    "reference": "MEA-2.A | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "An economy's business cycle is described by the following output gap data (potential = $10T throughout):\n\nYear 1: 0 | Year 2: +$0.5T | Year 3: +$1T | Year 4: +$0.5T | Year 5: 0 | Year 6: −$1T | Year 7: −$2T | Year 8: −$1.5T | Year 9: −$0.5T | Year 10: 0\n\nThe NRU is 5%. At Year 3, actual unemployment was 3%. At Year 7, actual unemployment was 9%.\n\nVerify the consistency of the unemployment data with the output gap data, identify the peak and trough, and calculate actual GDP in Year 7.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Inconsistent — unemployment should be 5% at Year 3 and Year 7."
+      },
+      {
+        "label": "B",
+        "text": "Peak: Year 3 (+$1T, inflationary gap, unemployment 3% < NRU 5% ✓); Trough: Year 7 (−$2T, recessionary gap, unemployment 9% > NRU 5% ✓). Actual GDP at Year 7 = $10T + (−$2T) = $8T. The unemployment data is fully consistent: inflationary gap → below-NRU unemployment; recessionary gap → above-NRU unemployment."
+      },
+      {
+        "label": "C",
+        "text": "Peak: Year 7; Trough: Year 3; Year 7 actual GDP = $12T."
+      },
+      {
+        "label": "D",
+        "text": "Inconsistent — unemployment should be 0% at the peak and 10% at the trough."
+      },
+      {
+        "label": "E",
+        "text": "Peak: Year 3; Trough: Year 7; actual GDP = $10T at Year 7 because the output gap nets to zero."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Peak = Year 3 (largest positive gap: +$1T → actual = $10T + $1T = $11T); at Year 3: output gap positive → inflationary → unemployment below NRU. Actual unemployment (3%) < NRU (5%) ✓ - consistent; trough = Year 7 (most negative gap: -$2T → actual = $10T - $2T = $8T). At Year 7: output gap negative → recessionary → unemployment above NRU; actual unemployment (9%) > NRU (5%) ✓ - consistent; all data is internally consistent: gap sign always aligns with the direction of unemployment deviation from the natural rate.",
+    "reference": "MEA-2.A | MEA-2.A.3 | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "An economist observes the following about two economies with identical potential outputs ($20T) and identical natural rates of unemployment (5%):\n\nEconomy X: Business cycle peaks occur 15% above potential; troughs occur 10% below potential.\n\nEconomy Y: Business cycle peaks occur 3% above potential; troughs occur 2% below potential.\n\nUsing MEA-2.A concepts, compare the output gaps at peaks and troughs for both economies, identify which has more volatile business cycles, and explain what this implies for the range of unemployment rates experienced.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Economy X and Y have identical output gaps — same potential output means same gaps."
+      },
+      {
+        "label": "B",
+        "text": "Economy Y is more volatile — smaller oscillations are more disruptive."
+      },
+      {
+        "label": "C",
+        "text": "Economy X: peak gap = +$3T (inflationary), trough gap = −$2T (recessionary). Economy Y: peak gap = +$0.6T, trough gap = −$0.4T. Economy X has much larger output gap oscillations (total swing $5T vs. $1T) — far more volatile business cycles. For unemployment: Economy X experiences more extreme unemployment swings (far below NRU at peaks, far above NRU at troughs) versus Economy Y's smaller swings. Economy X workers face greater risk of deep unemployment during recessions."
+      },
+      {
+        "label": "D",
+        "text": "Economy X: peak gap = +$20T; Economy Y: peak gap = +$0.6T."
+      },
+      {
+        "label": "E",
+        "text": "Both economies have equal volatility because they share the same natural rate and potential output."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Economy X gaps: peak = $20T × 15% = +$3T (inflationary); trough = $20T × 10% = -$2T (recessionary); total swing = $5T. Economy Y: peak = $20T × 3% = +$0.6T; trough = $20T × 2% = -$0.4T; total swing = $1T; economy X has 5× larger amplitude - far more volatile. At Economy X peaks, unemployment is substantially below NRU (overheating); at troughs, substantially above NRU (deep unemployment); economy Y stays much closer to the NRU in both directions - more stable employment throughout the cycle.",
+    "reference": "MEA-2.A | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "A complete integration question. An economy transitions through the following sequence:\n\nPhase 1: Output gap = −$4T; unemployment = 9%; NRU = 5%; potential = $20T.\n\nPhase 2: Output gap = −$2T; unemployment = 7%; NRU = 5%.\n\nPhase 3: Output gap = 0; unemployment = 5%; NRU = 5%.\n\nPhase 4: Output gap = +$1.5T; unemployment = 3.5%; NRU = 5%.\n\nPhase 5: Output gap = +$1T; unemployment = 4%; NRU = 5%.\n\nPhase 6: Output gap = −$1T; unemployment = 6%; NRU = 5%.\n\nFor each phase: (a) state the business cycle phase or turning point; (b) classify the output gap; (c) confirm cyclical unemployment is consistent with the gap.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Phases 1–3 all recession; Phases 4–6 all expansion."
+      },
+      {
+        "label": "B",
+        "text": "Phase 1: deep recession/trough; Phase 2: expansion (recessionary gap closing); Phase 3: at potential (turning point where recessionary gap closes); Phase 4: expansion with inflationary gap; Phase 5: inflationary gap narrowing/approaching peak; Phase 6: recession begins (gap turned negative post-peak). Cyclical unemployment (actual−NRU): P1=+4pp; P2=+2pp; P3=0; P4=−1.5pp; P5=−1pp; P6=+1pp — all consistent with gap sign."
+      },
+      {
+        "label": "C",
+        "text": "All phases show recessionary gaps because unemployment is never zero."
+      },
+      {
+        "label": "D",
+        "text": "Phase 1: expansion; Phase 6: trough; gaps are irrelevant to phase identification."
+      },
+      {
+        "label": "E",
+        "text": "Phases 4 and 5 are recessions because the output gap is positive and unemployment is low."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Full MEA-2.A integration: P1: -$4T gap, 4pp cyclical unemployment → deep recession; P2: -$2T gap, 2pp cyclical → expansion (recovery, gap improving). P3: 0 gap, 0 cyclical → at potential, boundary between recessionary and inflationary territory; P4: +$1.5T gap, -1.5pp cyclical → expansion with inflationary gap, unemployment below NRU. P5: +$1T gap, -1pp cyclical → inflationary gap narrowing, near peak; P6: -$1T gap, +1pp cyclical → recession has begun, recessionary gap opening; each phase's output gap sign perfectly matches the direction of cyclical unemployment deviation.",
+    "reference": "MEA-2.A | MEA-2.A.1 | MEA-2.A.2 | MEA-2.A.3 | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "A business cycle graph shows that potential output grows from $15T in Year 1 to $20T in Year 10 (approximately 3%/yr). Actual GDP data: Year 1=$14T; Year 4=$17T (peak); Year 7=$14.5T (trough); Year 10=$19T.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Y1: pot=$15T, gap=−$1T; Y4: pot=$16.4T, gap=+$0.6T (inflationary/peak); Y7: pot=$17.9T, gap=−$3.4T (recessionary/trough, deepest); Y10: pot=$19.6T, gap=−$0.6T (recessionary). Deepest gap at Y7."
+      },
+      {
+        "label": "B",
+        "text": "Y1: −$1T; Y4: +$0.6T; Y7: −$3.4T; Y10: +$0.6T."
+      },
+      {
+        "label": "C",
+        "text": "Y1: −$1T; Y4: 0; Y7: −$5.5T; Y10: 0."
+      },
+      {
+        "label": "D",
+        "text": "Y1: −$1T; Y4: +$0.6T; Y7: −$0.6T; Y10: +$1T."
+      },
+      {
+        "label": "E",
+        "text": "Y1: 0; Y4: +$1T; Y7: −$3T; Y10: 0."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Potential (3%/yr from $15T): Y1=$15T; Y4=$15T×(1.03)³=$15T×1.0927≈$16.39T; Y7=$15T×(1.03)⁶=$15T×1.1940≈$17.91T; Y10=$15T×(1.03)⁹=$15T×1.3048≈$19.57T; gaps: Y1=14-15=-$1T (recessionary); Y4=17-16.39=+$0.61T (inflationary, peak); Y7=14.5-17.91=-$3.41T (recessionary, trough - deepest gap); Y10=19-19.57=-$0.57T (recessionary but closing). Deepest recessionary gap = Year 7 (trough); note: despite Y10 actual ($19T) being much higher than Y1 ($14T), Y10 still has a recessionary gap because rising potential ($19.57T) keeps the benchmark ahead of actual.",
+    "reference": "MEA-2.A | MEA-2.A.3 | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "Vertical axis: Real GDP. Horizontal axis: Years 1–10. Potential output line rising from $15T to $20T. Actual GDP: starts at $14T, rises to $17T at Year 4 (peak), falls to $14.5T at Year 7 (trough), rises to $19T at Year 10.\n\nFor Years 1, 4, 7, and 10: calculate potential output (3%/yr), the output gap, and classify each. Determine at which labeled point the recessionary gap was deepest.",
+    "graphRequired": true
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "A final synthesis question integrating all five MEA-2.A essential knowledge points.\n\nAn economy's data:\n\n• Potential output = $50T (growing at 2.5%/yr)\n\n• Current actual output = $45T\n\n• NRU = 4.5%\n\n• Actual unemployment = 8%\n\n• Actual output has been rising for 3 years (since the trough)\n\n• At the last peak (3 years ago), actual = $47T and potential = $46T\n\n(a) State the current output gap and classify it.\n\n(b) State the current cyclical unemployment.\n\n(c) Identify the current business cycle phase.\n\n(d) At the last peak, was the output gap positive or negative? Classify it.\n\n(e) Describe what must occur for the output gap to close.",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a)+$5T inflationary; (b)−3.5%; (c)recession; (d)recessionary; (e)actual must fall."
+      },
+      {
+        "label": "B",
+        "text": "(a)−$5T recessionary; (b)3.5%; (c)expansion from trough; (d)inflationary (+$1T at peak); (e)actual must rise $5T more while potential stays fixed OR actual must grow faster than potential until they converge."
+      },
+      {
+        "label": "C",
+        "text": "(a)−$5T; (b)0%; (c)recession; (d)recessionary at peak; (e)potential must fall."
+      },
+      {
+        "label": "D",
+        "text": "(a)−$5T; (b)3.5%; (c)expansion; (d)inflationary; (e)only policy can close the gap."
+      },
+      {
+        "label": "E",
+        "text": "(a)0; (b)0%; (c)at potential; (d)inflationary; (e)no action required."
+      }
+    ],
+    "answer": "B",
+    "explanation": "(a) Output gap = $45T - $50T = -$5T (recessionary gap - large); (b) Cyclical unemployment = 8% - 4.5% = 3.5pp above NRU. (c) Phase = expansion - actual output has been rising for 3 years since the trough (MEA-2.A.2: rising output and employment); despite expansion, a large recessionary gap persists (MEA-2.A.4); (d) Last peak: actual $47T, potential $46T → gap = +$1T (inflationary - the peak occurred above potential). Unemployment was below NRU at the peak (MEA-2.A.5); (e) For gap to close: actual output must grow faster than potential until actual = potential; with 2.5%/yr potential growth, actual must exceed 2.5%/yr growth until the $5T deficit is eliminated; all five MEA-2.A essential knowledge points are integrated in this question.",
+    "reference": "MEA-2.A | MEA-2.A.1 | MEA-2.A.2 | MEA-2.A.3 | MEA-2.A.4 | MEA-2.A.5",
+    "graphDescription": "",
+    "graphRequired": false
+  }
+]

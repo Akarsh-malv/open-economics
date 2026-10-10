@@ -1,14 +1,16 @@
 "use client";
 
-import { Menu, X } from "lucide-react";
+import { ChevronDown, Menu, Search, X } from "lucide-react";
 import {
   AnimatePresence,
   type HTMLMotionProps,
   motion,
   useReducedMotion,
 } from "motion/react";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useWebHaptics } from "web-haptics/react";
+import { BrandLogo } from "@/components/brand-logo";
 import { Button } from "@/components/ui/button";
 import { useMounted } from "@/hooks/use-mounted";
 import { cn } from "@/lib/ui";
@@ -18,23 +20,19 @@ interface HeaderActionProps {
   className?: string;
 }
 
-function HeaderAction({
-  onNavigate,
-  className,
-  ...props
-}: HeaderActionProps) {
+function HeaderAction({ onNavigate, className, ...props }: HeaderActionProps) {
   return (
     <Button
       asChild
       variant="ghost"
       className={cn(
-        "rounded-full px-5 text-sm font-semibold text-slate-600 hover:bg-slate-100 hover:text-[#0b1f3a]",
+        "rounded-lg border border-white/15 bg-transparent px-6 text-sm font-semibold text-white hover:bg-white/10 hover:text-white",
         className,
       )}
       {...props}
     >
-      <a href="/#contact" onClick={onNavigate}>
-        Contact
+      <a href="/auth/sign-in" onClick={onNavigate}>
+        Sign in
       </a>
     </Button>
   );
@@ -43,12 +41,8 @@ function HeaderAction({
 export function Navbar({ user: _user }: { user: unknown }) {
   const { trigger } = useWebHaptics();
   const [open, setOpen] = useState<boolean>(false);
-  const [atTop, setAtTop] = useState<boolean>(true);
-
   const prefersReducedMotion = useReducedMotion();
   const mounted = useMounted();
-
-  const showBorder = !atTop || open;
 
   const iconMotionProps: HTMLMotionProps<"div"> = prefersReducedMotion
     ? {}
@@ -78,13 +72,6 @@ export function Navbar({ user: _user }: { user: unknown }) {
       };
 
   useEffect(() => {
-    const handleScroll = () => setAtTop(window.scrollY < 10);
-    handleScroll();
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "";
   }, [open]);
 
@@ -99,62 +86,103 @@ export function Navbar({ user: _user }: { user: unknown }) {
     };
 
     document.addEventListener("click", handleCoursesClick, true);
-    return () => document.removeEventListener("click", handleCoursesClick, true);
+    return () =>
+      document.removeEventListener("click", handleCoursesClick, true);
   }, []);
 
   return (
-    <div className="mb-8">
+    <div className="h-[5.5rem]">
       <header
         suppressHydrationWarning
         className={cn(
-          "fixed z-50 w-full px-4 py-4 transition-colors duration-250 motion-reduce:transition-none motion-reduce:duration-0",
+          "fixed z-50 w-full border-b border-white/10 bg-[#061225]/95 px-5 py-4 text-white shadow-[0_12px_40px_rgba(0,0,0,0.18)] backdrop-blur-xl transition-colors duration-250 motion-reduce:transition-none motion-reduce:duration-0",
           "safari-ios:backdrop-blur-none!",
         )}
       >
-        <div
-          className={cn(
-            "mx-auto flex max-w-6xl items-center justify-between rounded-full border border-slate-200 bg-white/92 px-4 py-2.5 shadow-[0_14px_45px_rgba(15,23,42,0.08)] backdrop-blur-xl",
-            showBorder && "border-slate-300",
-            open && "bg-white",
-          )}
-        >
+        <div className="mx-auto flex max-w-[1520px] items-center justify-between">
           {/* LEFT */}
-          <div className="flex items-center gap-6">
-            <a href="/" className="flex items-center gap-3">
-              <span className="grid size-9 place-items-center rounded-full bg-slate-100 text-xs font-black text-[#0b1f3a]">
-                OE
-              </span>
-              <span className="text-lg font-extrabold tracking-tight text-[#0b1f3a]">
-                Open Economics
-              </span>
+          <div className="flex items-center gap-8">
+            <a
+              href="/"
+              className="flex items-center"
+              aria-label="Open Economics home"
+            >
+              <BrandLogo
+                onDark
+                priority
+                className="h-11 w-47 sm:h-12 sm:w-64"
+              />
             </a>
-            <div className="relative z-10 hidden items-center gap-8 text-sm font-semibold text-slate-500 md:flex">
-              <a
-                href="/#about"
-                className="pointer-events-auto transition-colors hover:text-[#0b1f3a]"
-              >
-                About
-              </a>
-              <a
-                href="/courses"
-                data-nav-courses
-                className="pointer-events-auto transition-colors hover:text-[#0b1f3a]"
-              >
-                Courses
-              </a>
-            </div>
+          </div>
+
+          <div className="relative z-10 hidden items-center gap-6 text-sm font-semibold text-white/88 xl:flex">
+            <a
+              href="/#about"
+              className="pointer-events-auto transition-colors hover:text-blue-200"
+            >
+              About
+            </a>
+            <a
+              href="/#resources"
+              className="pointer-events-auto inline-flex items-center gap-2 transition-colors hover:text-blue-200"
+            >
+              Resources
+              <ChevronDown className="size-4" />
+            </a>
+            <a
+              href="/courses"
+              data-nav-courses
+              className="pointer-events-auto transition-colors hover:text-blue-200"
+            >
+              Courses
+            </a>
+            <a
+              href="/practice"
+              className="pointer-events-auto transition-colors hover:text-blue-200"
+            >
+              Practice
+            </a>
+            <a
+              href="/graphs"
+              className="pointer-events-auto transition-colors hover:text-blue-200"
+            >
+              Interactive Graphs
+            </a>
+            <a
+              href="/#contact"
+              className="pointer-events-auto transition-colors hover:text-blue-200"
+            >
+              Contact
+            </a>
           </div>
 
           {/* DESKTOP RIGHT */}
-          <div className="hidden items-center gap-5 md:flex">
+          <div className="hidden items-center gap-4 xl:flex">
+            <button
+              type="button"
+              aria-label="Search"
+              className="grid size-11 place-items-center rounded-lg text-white/90 transition-colors hover:bg-white/10 hover:text-white"
+            >
+              <Search className="size-6" />
+            </button>
             <HeaderAction />
+            <Button
+              asChild
+              className="h-12 rounded-lg bg-blue-500 px-7 text-base font-bold text-white shadow-[0_12px_28px_rgba(37,99,235,0.26)] hover:bg-blue-400"
+            >
+              <a href="/courses" data-nav-courses>
+                Get started
+              </a>
+            </Button>
           </div>
 
-          <div className="md:hidden flex items-center sm:gap-2 gap-3">
+          <div className="xl:hidden flex items-center sm:gap-2 gap-3">
             <Button
               variant="outline"
               size="icon"
-              className="size-10 cursor-pointer overflow-hidden rounded-full border-slate-200 bg-slate-50"
+              aria-label={open ? "Close navigation" : "Open navigation"}
+              aria-expanded={open}
+              className="size-10 cursor-pointer overflow-hidden rounded-lg border-white/15 bg-white/5 text-white hover:bg-white/10 hover:text-white"
               onClick={() => {
                 trigger();
                 setOpen((v) => !v);
@@ -184,35 +212,75 @@ export function Navbar({ user: _user }: { user: unknown }) {
             {/* BACKDROP */}
             <motion.div
               onClick={() => setOpen(false)}
-              className="fixed inset-x-0 bottom-0 top-16 sm:top-18 z-30 bg-slate-950/10 backdrop-blur-xs"
+              className="fixed inset-x-0 bottom-0 top-16 sm:top-18 z-30 bg-slate-950/60 backdrop-blur-xs"
               {...backdropMotionProps}
             />
             <motion.div
-              className="fixed left-4 right-4 top-20 z-40 space-y-4 rounded-3xl border border-slate-200 bg-white p-6 shadow-xl"
+              className="fixed left-4 right-4 top-20 z-40 space-y-4 rounded-3xl border border-white/10 bg-[#061225] p-6 text-white shadow-xl"
               {...menuMotionProps}
             >
               <nav className="flex flex-col gap-3">
-                <a
-                  className="text-lg font-medium"
+                <Link
                   href="/#about"
+                  className="text-lg font-medium"
                   onClick={() => setOpen(false)}
                 >
                   About
-                </a>
-                <a
+                </Link>
+                <Link
                   className="text-lg font-medium"
+                  href="/#resources"
+                  onClick={() => setOpen(false)}
+                >
+                  Resources
+                </Link>
+                <a
                   href="/courses"
                   data-nav-courses
+                  className="text-lg font-medium"
                   onClick={() => setOpen(false)}
                 >
                   Courses
                 </a>
+                <a
+                  href="/practice"
+                  className="text-lg font-medium"
+                  onClick={() => setOpen(false)}
+                >
+                  Practice
+                </a>
+                <a
+                  href="/graphs"
+                  className="text-lg font-medium"
+                  onClick={() => setOpen(false)}
+                >
+                  Interactive Graphs
+                </a>
+                <Link
+                  className="text-lg font-medium"
+                  href="/#contact"
+                  onClick={() => setOpen(false)}
+                >
+                  Contact
+                </Link>
 
-                <div className="border-t border-slate-200 pt-6 mt-2 flex flex-col gap-4">
+                <div className="border-t border-white/10 pt-6 mt-2 flex flex-col gap-4">
                   <HeaderAction
                     onNavigate={() => setOpen(false)}
                     className="p-5 text-base"
                   />
+                  <Button
+                    asChild
+                    className="h-12 rounded-lg bg-blue-500 text-base font-bold text-white hover:bg-blue-400"
+                  >
+                    <a
+                      href="/courses"
+                      data-nav-courses
+                      onClick={() => setOpen(false)}
+                    >
+                      Get started
+                    </a>
+                  </Button>
                 </div>
               </nav>
             </motion.div>

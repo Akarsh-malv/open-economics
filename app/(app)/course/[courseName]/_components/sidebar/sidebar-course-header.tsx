@@ -1,7 +1,8 @@
 "use client";
 
-import { Home, Lock } from "lucide-react";
+import { Lock } from "lucide-react";
 import Link from "next/link";
+import { BrandLogo } from "@/components/brand-logo";
 import type { Course } from "@/types/payload-types";
 
 interface SidebarCourseHeaderProps {
@@ -26,8 +27,8 @@ export function SidebarCourseHeader({ course }: SidebarCourseHeaderProps) {
             </span>
           </span>
         </span>
-        <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-white text-black">
-          <Home className="size-5" />
+        <span className="flex size-10 shrink-0 items-center justify-center overflow-hidden rounded-xl bg-white text-black">
+          <BrandLogo variant="icon" className="size-9" />
         </span>
       </Link>
     </div>

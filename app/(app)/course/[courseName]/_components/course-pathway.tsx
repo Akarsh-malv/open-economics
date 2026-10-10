@@ -3,9 +3,11 @@
 import {
   ArrowRight,
   BookOpen,
-  ChevronDown,
+  CheckCircle2,
+  CircleHelp,
   Grid2X2,
   LineChart,
+  PenLine,
 } from "lucide-react";
 import Link from "next/link";
 import { useMemo, useState } from "react";
@@ -33,6 +35,8 @@ type CoursePathwayUnit = {
   modules: CoursePathwayModule[];
 };
 
+type PathwayTab = "content" | "practice";
+
 export function CoursePathway({
   course,
   unitCount,
@@ -45,73 +49,98 @@ export function CoursePathway({
   units: CoursePathwayUnit[];
 }) {
   const firstModule = units.find((unit) => unit.modules.length > 0)?.modules[0];
+  const [activeTab, setActiveTab] = useState<PathwayTab>("content");
   const [selectedModuleId, setSelectedModuleId] = useState(
     firstModule?.id ?? "",
   );
-  const [openUnitIds, setOpenUnitIds] = useState<string[]>(() =>
-    units.map((unit) => unit.id),
+
+  const modules = useMemo(() => units.flatMap((unit) => unit.modules), [units]);
+  const selectedModule =
+    modules.find((module) => module.id === selectedModuleId) ??
+    firstModule ??
+    null;
+  const selectedModuleIndex = Math.max(
+    1,
+    modules.findIndex((module) => module.id === selectedModule?.id) + 1,
   );
-
-  const selectedModule = useMemo(
-    () =>
-      units
-        .flatMap((unit) => unit.modules)
-        .find((module) => module.id === selectedModuleId) ??
-      firstModule ??
-      null,
-    [firstModule, selectedModuleId, units],
-  );
-
-  const selectedModuleIndex = useMemo(() => {
-    const modules = units.flatMap((unit) => unit.modules);
-    return Math.max(
-      1,
-      modules.findIndex((module) => module.id === selectedModule?.id) + 1,
-    );
-  }, [selectedModule?.id, units]);
-
-  const toggleUnit = (unitId: string) => {
-    setOpenUnitIds((current) =>
-      current.includes(unitId)
-        ? current.filter((id) => id !== unitId)
-        : [...current, unitId],
-    );
-  };
 
   return (
-    <main className="min-h-screen bg-slate-50 px-5 pb-16 pt-9 text-[#071a33] sm:px-8 lg:px-10">
-      <section className="mx-auto grid max-w-[1368px] items-start gap-10 lg:grid-cols-[430px_minmax(0,1fr)] xl:grid-cols-[450px_minmax(0,1fr)]">
+    <main className="min-h-screen bg-[#f4f6f8] pb-16 text-[#071a33]">
+      <section className="border-b border-slate-200 bg-white">
+        <div className="mx-auto flex max-w-[1180px] items-center justify-between gap-6 px-5 py-10 sm:px-8 lg:px-10">
+          <div>
+            <p className="text-xs font-extrabold uppercase tracking-[0.26em] text-[#b68b2d]">
+              Course Pathway
+            </p>
+            <h1 className="mt-3 font-serif text-4xl font-black tracking-tight text-[#071a33] sm:text-5xl">
+              {course.title}
+            </h1>
+            <p className="mt-3 max-w-2xl text-base leading-7 text-slate-600">
+              Choose a lesson or switch to practice questions when you are ready
+              to review.
+            </p>
+          </div>
+          <div className="hidden grid-cols-3 gap-8 rounded-2xl border border-slate-200 bg-slate-50 px-8 py-5 text-center md:grid">
+            <CourseTopStat value={unitCount} label="Units" />
+            <CourseTopStat value={moduleCount} label="Lessons" />
+            <CourseTopStat value={getPracticeCount(units)} label="Practice" />
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto -mt-1 grid max-w-[1180px] items-start gap-8 px-5 pt-9 sm:px-8 lg:grid-cols-[320px_minmax(0,1fr)] lg:px-10">
         <CourseOverviewCard
           course={course}
           unitCount={unitCount}
           moduleCount={moduleCount}
         />
 
-        <section className="rounded-[1.4rem] border border-slate-200 bg-white px-6 py-7 shadow-[0_22px_80px_rgba(15,23,42,0.06)] sm:px-8 lg:px-10">
-          <div className="relative min-w-0">
-            <div className="min-w-0 xl:pb-80">
-              {units.map((unit, unitIndex) => (
-                <CourseUnitSection
-                  key={unit.id}
-                  unit={unit}
-                  unitIndex={unitIndex}
-                  open={openUnitIds.includes(unit.id)}
-                  selectedModuleId={selectedModule?.id ?? ""}
-                  onToggle={() => toggleUnit(unit.id)}
-                  onSelectModule={setSelectedModuleId}
-                />
-              ))}
+        <section className="min-w-0 rounded-[1.5rem] border border-slate-200 bg-white p-5 shadow-[0_24px_70px_rgba(15,23,42,0.06)] sm:p-7">
+          <div className="flex flex-col gap-5 border-b border-slate-200 pb-5 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <p className="text-xs font-extrabold uppercase tracking-[0.24em] text-slate-400">
+                Learning Area
+              </p>
+              <h2 className="mt-2 text-2xl font-black tracking-tight text-[#071a33]">
+                Start where it makes sense
+              </h2>
             </div>
-
-            {selectedModule && (
-              <SelectedModuleCard
-                module={selectedModule}
-                moduleIndex={selectedModuleIndex}
-              />
-            )}
+            <div className="inline-flex w-fit rounded-full border border-slate-200 bg-slate-50 p-1">
+              <TabButton
+                active={activeTab === "content"}
+                onClick={() => setActiveTab("content")}
+              >
+                Content
+              </TabButton>
+              <TabButton
+                active={activeTab === "practice"}
+                onClick={() => setActiveTab("practice")}
+              >
+                Practice Questions
+              </TabButton>
+            </div>
           </div>
+
+          {activeTab === "content" ? (
+            <ContentPathway
+              units={units}
+              selectedModuleId={selectedModule?.id ?? ""}
+              onSelectModule={setSelectedModuleId}
+            />
+          ) : (
+            <PracticePathway courseSlug={course.slug} units={units} />
+          )}
         </section>
       </section>
+
+      {selectedModule && activeTab === "content" && (
+        <section className="mx-auto mt-8 max-w-[1180px] px-5 sm:px-8 lg:px-10">
+          <SelectedModulePanel
+            module={selectedModule}
+            moduleIndex={selectedModuleIndex}
+          />
+        </section>
+      )}
     </main>
   );
 }
@@ -126,89 +155,105 @@ function CourseOverviewCard({
   moduleCount: number;
 }) {
   return (
-    <aside className="self-start rounded-[1.4rem] border border-slate-200 bg-white px-8 py-9 shadow-[0_22px_80px_rgba(15,23,42,0.06)] sm:px-10">
+    <aside className="self-start rounded-[1.4rem] border border-slate-200 bg-white px-7 py-8 shadow-[0_22px_70px_rgba(15,23,42,0.06)]">
       <span className="inline-flex rounded-full border border-blue-100 bg-blue-50 px-3 py-1 text-xs font-extrabold uppercase tracking-[0.18em] text-[#2554e8]">
         {course.level}
       </span>
 
-      <h1 className="mt-6 text-balance break-words font-serif text-[2.1rem] font-black leading-[1.08] tracking-tight text-[#071a33] sm:text-[2.35rem] xl:text-[2.55rem]">
+      <h2 className="mt-5 text-balance break-words font-serif text-[2rem] font-black leading-[1.06] tracking-tight text-[#071a33]">
         {course.title}
-      </h1>
+      </h2>
 
       <CourseIllustration />
 
-      <p className="mt-7 max-w-sm text-lg leading-8 text-slate-600">
+      <p className="mt-7 text-base leading-7 text-slate-600">
         {course.description}
       </p>
 
-      <div className="mt-9 border-t border-slate-200 pt-7">
-        <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-5">
+      <div className="mt-8 border-t border-slate-200 pt-6">
+        <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-4">
           <CourseStat icon={BookOpen} value={unitCount} label="Units" />
           <div className="h-12 w-px bg-slate-200" />
-          <CourseStat icon={Grid2X2} value={moduleCount} label="Modules" />
+          <CourseStat icon={Grid2X2} value={moduleCount} label="Lessons" />
         </div>
       </div>
     </aside>
   );
 }
 
-function CourseUnitSection({
+function ContentPathway({
+  units,
+  selectedModuleId,
+  onSelectModule,
+}: {
+  units: CoursePathwayUnit[];
+  selectedModuleId: string;
+  onSelectModule: (moduleId: string) => void;
+}) {
+  return (
+    <div className="pt-2">
+      {units.map((unit, unitIndex) => (
+        <UnitGroup
+          key={unit.id}
+          unit={unit}
+          unitIndex={unitIndex}
+          selectedModuleId={selectedModuleId}
+          onSelectModule={onSelectModule}
+        />
+      ))}
+    </div>
+  );
+}
+
+function UnitGroup({
   unit,
   unitIndex,
-  open,
   selectedModuleId,
-  onToggle,
   onSelectModule,
 }: {
   unit: CoursePathwayUnit;
   unitIndex: number;
-  open: boolean;
   selectedModuleId: string;
-  onToggle: () => void;
   onSelectModule: (moduleId: string) => void;
 }) {
+  const [open, setOpen] = useState(unitIndex < 2);
+
   return (
-    <section className="border-b border-slate-200 pb-9 pt-2 first:pt-0 last:border-b-0 last:pb-0">
+    <section className="border-b border-slate-200 py-7 last:border-b-0 last:pb-2">
       <button
         type="button"
-        onClick={onToggle}
-        className="group flex w-full items-center gap-5 text-left"
+        onClick={() => setOpen((value) => !value)}
+        className="flex w-full items-center gap-4 text-left"
         aria-expanded={open}
       >
-        <span className="shrink-0 rounded-xl bg-[#0b1f3a] px-5 py-3 text-sm font-extrabold uppercase tracking-[0.14em] text-white">
+        <span className="rounded-xl bg-[#0b1f3a] px-4 py-2 text-xs font-extrabold uppercase tracking-[0.18em] text-white">
           Unit {unitIndex + 1}
         </span>
-        <span className="min-w-0 flex-1 text-balance font-serif text-2xl font-black leading-tight tracking-tight text-[#071a33] sm:text-3xl">
+        <span className="min-w-0 flex-1 font-serif text-2xl font-black leading-tight tracking-tight text-[#071a33]">
           {unit.title}
         </span>
-        <ChevronDown
-          className={cn(
-            "size-5 shrink-0 text-slate-500 transition-transform duration-200 group-hover:text-[#0b1f3a]",
-            open && "rotate-180",
-          )}
-        />
+        <span className="text-sm font-semibold text-slate-500">
+          {open ? "Hide" : "View"}
+        </span>
       </button>
 
       <div
         className={cn(
-          "grid transition-[grid-template-rows,opacity] duration-200 ease-out",
+          "grid transition-[grid-template-rows,opacity] duration-200",
           open ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0",
         )}
       >
         <div className="overflow-hidden">
-          <div className="relative ml-6 mt-7">
-            <div className="absolute left-0 top-0 h-full w-px bg-slate-200" />
-            <div className="space-y-7">
-              {unit.modules.map((module, moduleIndex) => (
-                <PathwayModuleNode
-                  key={module.id}
-                  module={module}
-                  moduleIndex={moduleIndex}
-                  selected={module.id === selectedModuleId}
-                  onSelect={() => onSelectModule(module.id)}
-                />
-              ))}
-            </div>
+          <div className="mt-5 space-y-2">
+            {unit.modules.map((module, moduleIndex) => (
+              <ContentRow
+                key={module.id}
+                module={module}
+                moduleIndex={moduleIndex}
+                selected={selectedModuleId === module.id}
+                onSelect={() => onSelectModule(module.id)}
+              />
+            ))}
           </div>
         </div>
       </div>
@@ -216,7 +261,7 @@ function CourseUnitSection({
   );
 }
 
-function PathwayModuleNode({
+function ContentRow({
   module,
   moduleIndex,
   selected,
@@ -228,33 +273,119 @@ function PathwayModuleNode({
   onSelect: () => void;
 }) {
   return (
-    <button
-      type="button"
-      onClick={onSelect}
-      className="group relative grid w-full min-h-11 grid-cols-[64px_minmax(0,1fr)] items-center text-left"
+    <div
+      className={cn(
+        "group grid grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-4 rounded-2xl border px-4 py-4 transition-colors",
+        selected
+          ? "border-[#0b1f3a] bg-slate-50"
+          : "border-transparent hover:border-slate-200 hover:bg-slate-50",
+      )}
     >
-      <span
+      <button
+        type="button"
+        onClick={onSelect}
         className={cn(
-          "relative z-10 -ml-[11px] grid size-6 place-items-center rounded-full border bg-white transition-colors",
-          selected ? "border-blue-200" : "border-slate-300",
+          "grid size-8 place-items-center rounded-full border bg-white transition-colors",
+          selected ? "border-[#0b1f3a] text-[#0b1f3a]" : "border-slate-300 text-slate-400",
         )}
+        aria-label={`Preview ${module.title}`}
       >
-        {selected && <span className="size-2.5 rounded-full bg-[#0b1f3a]" />}
-      </span>
-      <span
-        className={cn(
-          "min-w-0 text-pretty break-words pr-6 text-lg leading-7 text-[#071a33] transition-colors group-hover:text-[#0b1f3a] xl:pr-16",
-          selected && "font-semibold text-[#0b1f3a]",
-        )}
+        {selected ? <CheckCircle2 className="size-4" /> : moduleIndex + 1}
+      </button>
+
+      <button
+        type="button"
+        onClick={onSelect}
+        className="min-w-0 text-left"
       >
-        {module.title}
-      </span>
-      <span className="sr-only">Module {moduleIndex + 1}</span>
-    </button>
+        <p className="truncate text-base font-bold text-[#071a33]">
+          {module.title}
+        </p>
+        <p className="mt-1 truncate text-sm text-slate-500">
+          Focused concept lesson
+        </p>
+      </button>
+
+      <Button
+        asChild
+        variant="ghost"
+        className="h-10 rounded-full px-4 text-sm font-bold text-[#0b1f3a] hover:bg-white hover:text-[#12345c]"
+      >
+        <Link href={module.href}>
+          Start
+          <ArrowRight className="size-4" />
+        </Link>
+      </Button>
+    </div>
   );
 }
 
-function SelectedModuleCard({
+function PracticePathway({
+  courseSlug,
+  units,
+}: {
+  courseSlug: string;
+  units: CoursePathwayUnit[];
+}) {
+  return (
+    <div className="pt-2">
+      {units.map((unit, unitIndex) => (
+        <section
+          key={unit.id}
+          className="border-b border-slate-200 py-7 last:border-b-0 last:pb-2"
+        >
+          <div className="flex items-center gap-4">
+            <span className="rounded-xl bg-[#0b1f3a] px-4 py-2 text-xs font-extrabold uppercase tracking-[0.18em] text-white">
+              Unit {unitIndex + 1}
+            </span>
+            <h3 className="min-w-0 flex-1 font-serif text-2xl font-black leading-tight tracking-tight text-[#071a33]">
+              {unit.title}
+            </h3>
+          </div>
+
+          <div className="mt-5 space-y-2">
+            {getPracticeTopics(unit, unitIndex).map((topic) => (
+              <PracticeRow key={topic.id} courseSlug={courseSlug} topic={topic} />
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+  );
+}
+
+function PracticeRow({
+  courseSlug,
+  topic,
+}: {
+  courseSlug: string;
+  topic: PracticeTopic;
+}) {
+  return (
+    <Link
+      href={`/course/${courseSlug}/${topic.lessonSlug}`}
+      className="group grid grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-4 rounded-2xl border border-transparent px-4 py-4 transition-colors hover:border-slate-200 hover:bg-slate-50"
+    >
+      <span className="grid size-8 place-items-center rounded-full border border-slate-300 bg-white text-[#0b1f3a]">
+        <CircleHelp className="size-4" />
+      </span>
+      <span className="min-w-0">
+        <span className="block truncate text-base font-bold text-[#071a33]">
+          {topic.title}
+        </span>
+        <span className="mt-1 block truncate text-sm text-slate-500">
+          {topic.kind}
+        </span>
+      </span>
+      <span className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-2 text-sm font-bold text-slate-600 group-hover:text-[#0b1f3a]">
+        {topic.questions} questions
+        <ArrowRight className="size-4" />
+      </span>
+    </Link>
+  );
+}
+
+function SelectedModulePanel({
   module,
   moduleIndex,
 }: {
@@ -262,27 +393,67 @@ function SelectedModuleCard({
   moduleIndex: number;
 }) {
   return (
-    <article className="mt-10 rounded-[1.25rem] border border-slate-200 bg-white px-7 py-7 shadow-[0_22px_70px_rgba(15,23,42,0.08)] xl:absolute xl:bottom-0 xl:right-0 xl:mt-0 xl:w-[330px]">
-      <p className="text-xs font-extrabold uppercase tracking-[0.35em] text-[#2554e8]">
-        Module {moduleIndex}
-      </p>
-      <h3 className="mt-5 text-pretty font-serif text-2xl font-black leading-tight tracking-tight text-[#071a33]">
-        {module.title}
-      </h3>
-      <p className="mt-4 text-sm leading-6 text-slate-600">
-        {module.description}
-      </p>
+    <article className="rounded-[1.25rem] border border-slate-200 bg-white p-6 shadow-[0_18px_50px_rgba(15,23,42,0.06)] sm:flex sm:items-center sm:justify-between sm:gap-8">
+      <div className="min-w-0">
+        <p className="text-xs font-extrabold uppercase tracking-[0.3em] text-[#2554e8]">
+          Module {moduleIndex}
+        </p>
+        <h3 className="mt-3 text-pretty font-serif text-2xl font-black leading-tight tracking-tight text-[#071a33]">
+          {module.title}
+        </h3>
+        <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600">
+          {module.description}
+        </p>
+      </div>
       <Button
         asChild
         size="lg"
-        className="mt-7 h-13 rounded-full bg-[#0b1f3a] px-7 text-base font-bold text-white hover:bg-[#12345c]"
+        className="mt-6 h-12 rounded-full bg-[#0b1f3a] px-7 text-base font-bold text-white hover:bg-[#12345c] sm:mt-0"
       >
         <Link href={module.href}>
-          Start
+          Start Lesson
           <ArrowRight className="size-5" />
         </Link>
       </Button>
     </article>
+  );
+}
+
+function TabButton({
+  active,
+  onClick,
+  children,
+}: {
+  active: boolean;
+  onClick: () => void;
+  children: React.ReactNode;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className={cn(
+        "rounded-full px-4 py-2 text-sm font-extrabold transition-colors",
+        active
+          ? "bg-[#0b1f3a] text-white shadow-sm"
+          : "text-slate-500 hover:text-[#0b1f3a]",
+      )}
+    >
+      {children}
+    </button>
+  );
+}
+
+function CourseTopStat({ value, label }: { value: number; label: string }) {
+  return (
+    <div>
+      <p className="font-serif text-3xl font-black leading-none text-[#071a33]">
+        {value}
+      </p>
+      <p className="mt-1 text-xs font-bold uppercase tracking-[0.14em] text-slate-500">
+        {label}
+      </p>
+    </div>
   );
 }
 
@@ -297,8 +468,8 @@ function CourseStat({
 }) {
   return (
     <div className="flex items-center gap-3">
-      <span className="grid size-13 shrink-0 place-items-center rounded-xl border border-slate-200 bg-slate-50 text-[#0b1f3a]">
-        <Icon className="size-6" />
+      <span className="grid size-12 shrink-0 place-items-center rounded-xl border border-slate-200 bg-slate-50 text-[#0b1f3a]">
+        <Icon className="size-5" />
       </span>
       <div>
         <p className="font-serif text-3xl font-black leading-none text-[#071a33]">
@@ -315,7 +486,7 @@ function CourseIllustration() {
     <div className="mt-8 flex justify-center">
       <svg
         viewBox="0 0 310 255"
-        className="h-auto w-full max-w-[285px]"
+        className="h-auto w-full max-w-[250px]"
         role="img"
         aria-label="Economics globe and growth bars"
       >
@@ -328,8 +499,8 @@ function CourseIllustration() {
         <path
           d="M111 68c19 13 48 15 72 7M106 110c44-7 87-5 128 9M118 166c33-12 70-13 104-1"
           stroke="#f8fafc"
-          strokeWidth="8"
           strokeLinecap="round"
+          strokeWidth="8"
           opacity="0.75"
         />
         <rect x="58" y="174" width="34" height="52" rx="3" fill="#94a3b8" />
@@ -338,19 +509,59 @@ function CourseIllustration() {
         <path
           d="M48 226h178"
           stroke="#cbd5e1"
-          strokeWidth="2"
           strokeLinecap="round"
+          strokeWidth="2"
         />
         <path
           d="M72 80l34-28 41 19 48-43"
           fill="none"
           stroke="#0b1f3a"
-          strokeWidth="8"
           strokeLinecap="round"
           strokeLinejoin="round"
+          strokeWidth="8"
         />
         <LineChart className="hidden" />
       </svg>
     </div>
   );
+}
+
+type PracticeTopic = {
+  id: string;
+  title: string;
+  kind: string;
+  questions: number;
+  lessonSlug: string;
+};
+
+function getPracticeTopics(
+  unit: CoursePathwayUnit,
+  unitIndex: number,
+): PracticeTopic[] {
+  const fallbackSlug = unit.modules[0]?.slug ?? "scarcity-and-economic-thinking";
+  const firstThree = unit.modules.slice(0, 3);
+
+  if (firstThree.length > 0) {
+    return firstThree.map((module, index) => ({
+      id: `${unit.id}-${module.id}-practice`,
+      title: `${module.title} Practice`,
+      kind: index === 0 ? "Concept check" : index === 1 ? "Graph practice" : "Exam-style set",
+      questions: 8 + index * 2 + unitIndex,
+      lessonSlug: module.slug || fallbackSlug,
+    }));
+  }
+
+  return [
+    {
+      id: `${unit.id}-review`,
+      title: `${unit.title} Review`,
+      kind: "Mock question set",
+      questions: 10,
+      lessonSlug: fallbackSlug,
+    },
+  ];
+}
+
+function getPracticeCount(units: CoursePathwayUnit[]) {
+  return units.reduce((count, unit, index) => count + getPracticeTopics(unit, index).length, 0);
 }

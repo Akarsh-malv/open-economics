@@ -1,0 +1,3202 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "On a commercial bank balance sheet, which of the following is an asset of the bank?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Deposits created when customers borrow"
+      },
+      {
+        "label": "B",
+        "text": "Required reserve obligations to depositors"
+      },
+      {
+        "label": "C",
+        "text": "Loans made to customers"
+      },
+      {
+        "label": "D",
+        "text": "Funds customers can withdraw on demand"
+      },
+      {
+        "label": "E",
+        "text": "Checkable deposits owed to customers"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Loans are assets because borrowers owe repayment to the bank; Checkable deposits are liabilities because the bank owes those funds to its depositors.",
+    "reference": "POL-2.A | POL-2.A.1 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "On a commercial bank balance sheet, checkable deposits are classified as",
+    "options": [
+      {
+        "label": "A",
+        "text": "assets because the balances can be loaned to borrowers."
+      },
+      {
+        "label": "B",
+        "text": "loans because depositors have supplied funds to the bank."
+      },
+      {
+        "label": "C",
+        "text": "reserves because depositors can withdraw them as currency."
+      },
+      {
+        "label": "D",
+        "text": "liabilities because the bank owes the balances to depositors."
+      },
+      {
+        "label": "E",
+        "text": "excess reserves because the balances exceed required reserves."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A checkable deposit is an obligation of the bank to the depositor, so it appears as a liability. The bank must honor withdrawals or payments drawn against the account.",
+    "reference": "POL-2.A | POL-2.A.1 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "Which of the following is included among a bank’s reserves?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Vault cash held by the bank"
+      },
+      {
+        "label": "B",
+        "text": "Corporate bonds issued by the bank"
+      },
+      {
+        "label": "C",
+        "text": "Checkable deposits owed to customers"
+      },
+      {
+        "label": "D",
+        "text": "Mortgages owed by bank customers"
+      },
+      {
+        "label": "E",
+        "text": "Loans outstanding to households"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Reserves are funds the bank holds rather than lends, including cash in its vault and reserve balances; Loans are bank assets, but they are not reserves.",
+    "reference": "POL-2.A | POL-2.A.1-POL-2.A.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "Fractional reserve banking means that depository institutions",
+    "options": [
+      {
+        "label": "A",
+        "text": "hold only a fraction of deposits as reserves and can lend part of the remainder."
+      },
+      {
+        "label": "B",
+        "text": "treat all customer deposits as bank assets rather than liabilities on the bank’s balance sheet."
+      },
+      {
+        "label": "C",
+        "text": "lend all deposits and therefore hold no reserves at any time."
+      },
+      {
+        "label": "D",
+        "text": "hold every deposited dollar as reserves and make no loans."
+      },
+      {
+        "label": "E",
+        "text": "hold only excess reserves and no required reserves."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Under fractional reserve banking, banks retain a fraction of deposits as reserves rather than keeping every deposited dollar idle. Funds beyond required reserves can support lending and deposit expansion.",
+    "reference": "POL-2.A | POL-2.A.2 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "A bank’s required reserves are best described as",
+    "options": [
+      {
+        "label": "A",
+        "text": "the portion of deposits the bank has already lent."
+      },
+      {
+        "label": "B",
+        "text": "the amount of reserves the bank must hold against its deposits."
+      },
+      {
+        "label": "C",
+        "text": "the amount of reserves held above the required minimum at all times."
+      },
+      {
+        "label": "D",
+        "text": "the value of deposits created by the bank’s borrowers."
+      },
+      {
+        "label": "E",
+        "text": "the total value of all loans the bank has made."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Required reserves are the minimum reserves associated with the bank’s reservable deposits under the stated required reserve ratio; Reserves above that amount are excess reserves.",
+    "reference": "POL-2.A | POL-2.A.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "A bank’s excess reserves are equal to",
+    "options": [
+      {
+        "label": "A",
+        "text": "total loans minus required reserves."
+      },
+      {
+        "label": "B",
+        "text": "required reserves divided by total deposits."
+      },
+      {
+        "label": "C",
+        "text": "required reserves minus total reserves."
+      },
+      {
+        "label": "D",
+        "text": "total reserves minus required reserves."
+      },
+      {
+        "label": "E",
+        "text": "total deposits minus total reserves."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Excess reserves are the reserves remaining after the required amount is set aside; Those excess reserves provide the bank with additional lending capacity in the simple fractional-reserve model.",
+    "reference": "POL-2.A | POL-2.A.3-POL-2.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "A bank has $500,000 in checkable deposits and faces a 10 percent required reserve ratio. Its required reserves are",
+    "options": [
+      {
+        "label": "A",
+        "text": "$450,000"
+      },
+      {
+        "label": "B",
+        "text": "$5,000"
+      },
+      {
+        "label": "C",
+        "text": "$500,000"
+      },
+      {
+        "label": "D",
+        "text": "$50,000"
+      },
+      {
+        "label": "E",
+        "text": "$55,000"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Required reserves equal the required reserve ratio times checkable deposits: 0.10 × $500,000 = $50,000.",
+    "reference": "POL-2.A | POL-2.A.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "A bank has $90,000 in total reserves and $60,000 in required reserves. How much does it hold in excess reserves?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$60,000"
+      },
+      {
+        "label": "B",
+        "text": "$150,000"
+      },
+      {
+        "label": "C",
+        "text": "$30,000"
+      },
+      {
+        "label": "D",
+        "text": "$90,000"
+      },
+      {
+        "label": "E",
+        "text": "$20,000"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Excess reserves equal total reserves minus required reserves: $90,000 - $60,000 = $30,000.",
+    "reference": "POL-2.A | POL-2.A.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "A bank has $800,000 in checkable deposits and $120,000 in reserves. If the required reserve ratio is 10 percent, the bank’s excess reserves equal",
+    "options": [
+      {
+        "label": "A",
+        "text": "$680,000"
+      },
+      {
+        "label": "B",
+        "text": "$32,000"
+      },
+      {
+        "label": "C",
+        "text": "$40,000"
+      },
+      {
+        "label": "D",
+        "text": "$120,000"
+      },
+      {
+        "label": "E",
+        "text": "$80,000"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Required reserves are 0.10 × $800,000 = $80,000; Excess reserves are therefore $120,000 - $80,000 = $40,000.",
+    "reference": "POL-2.A | POL-2.A.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "In the simple banking model, excess reserves are important because they",
+    "options": [
+      {
+        "label": "A",
+        "text": "provide the basis for additional lending and expansion of the money supply."
+      },
+      {
+        "label": "B",
+        "text": "must remain permanently idle on every bank balance sheet and cannot support lending."
+      },
+      {
+        "label": "C",
+        "text": "are counted twice when the monetary base is measured."
+      },
+      {
+        "label": "D",
+        "text": "represent liabilities that banks owe directly to depositors."
+      },
+      {
+        "label": "E",
+        "text": "reduce deposits whenever a bank makes a new loan."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A bank can use excess reserves to support new loans. When lending creates new checkable deposits and those funds circulate through the banking system, the money supply can expand.",
+    "reference": "POL-2.A | POL-2.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "When a bank makes a new loan by crediting the borrower’s checking account, which balance-sheet change occurs immediately?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Reserves and checkable deposits both decrease by the amount of the loan."
+      },
+      {
+        "label": "B",
+        "text": "Excess reserves increase while checkable deposits decrease by the amount of the loan."
+      },
+      {
+        "label": "C",
+        "text": "Required reserves and loans both decrease by the amount of the loan."
+      },
+      {
+        "label": "D",
+        "text": "Loans decrease while checkable deposits increase by the amount of the loan."
+      },
+      {
+        "label": "E",
+        "text": "Loans and checkable deposits both increase by the amount of the loan."
+      }
+    ],
+    "answer": "E",
+    "explanation": "The new loan is an asset of the bank, while the newly credited checking balance is a liability. Both sides of the bank’s balance sheet therefore increase by the amount of the loan.",
+    "reference": "POL-2.A | POL-2.A.1-POL-2.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "Which action by a bank most directly expands checkable deposits in the simple fractional-reserve model?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Moving required reserves into the excess-reserve category"
+      },
+      {
+        "label": "B",
+        "text": "Holding additional excess reserves instead of lending them"
+      },
+      {
+        "label": "C",
+        "text": "Making a new loan and crediting the borrower’s deposit account"
+      },
+      {
+        "label": "D",
+        "text": "Reducing the amount owed to existing depositors"
+      },
+      {
+        "label": "E",
+        "text": "Reclassifying an existing loan as a bank reserve"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A new bank loan can create a new checkable deposit for the borrower. That deposit is part of the money supply, so lending is the mechanism through which the banking system expands money.",
+    "reference": "POL-2.A | POL-2.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "If a bank has no excess reserves, then in the simple model it",
+    "options": [
+      {
+        "label": "A",
+        "text": "must have no checkable deposits outstanding."
+      },
+      {
+        "label": "B",
+        "text": "has reserves greater than the amount required against deposits."
+      },
+      {
+        "label": "C",
+        "text": "can expand loans without changing any balance-sheet item."
+      },
+      {
+        "label": "D",
+        "text": "must have no required reserves on its balance sheet."
+      },
+      {
+        "label": "E",
+        "text": "has no additional reserves available to support new lending."
+      }
+    ],
+    "answer": "E",
+    "explanation": "A bank with zero excess reserves is holding exactly the reserves required against its deposits. It has no additional reserve cushion available for new lending under the simple reserve model.",
+    "reference": "POL-2.A | POL-2.A.3-POL-2.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "The money multiplier is defined as the ratio of",
+    "options": [
+      {
+        "label": "A",
+        "text": "the monetary base to the money supply."
+      },
+      {
+        "label": "B",
+        "text": "required reserves to excess reserves."
+      },
+      {
+        "label": "C",
+        "text": "the money supply to the monetary base."
+      },
+      {
+        "label": "D",
+        "text": "bank loans to checkable deposits."
+      },
+      {
+        "label": "E",
+        "text": "currency in circulation to bank reserves."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The money multiplier measures how large the money supply is relative to the monetary base; It is therefore calculated as money supply divided by monetary base.",
+    "reference": "POL-2.A | POL-2.A.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "If the money supply is $2.4 trillion and the monetary base is $600 billion, the money multiplier equals",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "4.6"
+      },
+      {
+        "label": "C",
+        "text": "0.25"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      },
+      {
+        "label": "E",
+        "text": "6"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The money multiplier equals money supply divided by monetary base: $2.4 trillion ÷ $0.6 trillion = 4.",
+    "reference": "POL-2.A | POL-2.A.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "The maximum value of the simple money multiplier is calculated as",
+    "options": [
+      {
+        "label": "A",
+        "text": "required reserves divided by total reserves."
+      },
+      {
+        "label": "B",
+        "text": "1 divided by the required reserve ratio."
+      },
+      {
+        "label": "C",
+        "text": "1 divided by the excess reserve ratio."
+      },
+      {
+        "label": "D",
+        "text": "the monetary base divided by the money supply."
+      },
+      {
+        "label": "E",
+        "text": "the required reserve ratio divided by 1."
+      }
+    ],
+    "answer": "B",
+    "explanation": "In the simple maximum-expansion model, the maximum money multiplier is the reciprocal of the required reserve ratio; A smaller required reserve ratio therefore implies a larger maximum multiplier.",
+    "reference": "POL-2.A | POL-2.A.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "If the required reserve ratio is 10 percent, the maximum simple money multiplier is",
+    "options": [
+      {
+        "label": "A",
+        "text": "90"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "0.10"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      },
+      {
+        "label": "E",
+        "text": "10"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The maximum simple money multiplier is 1 ÷ 0.10 = 10.",
+    "reference": "POL-2.A | POL-2.A.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "If the required reserve ratio is 20 percent, the maximum simple money multiplier is",
+    "options": [
+      {
+        "label": "A",
+        "text": "80"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "0.20"
+      },
+      {
+        "label": "E",
+        "text": "20"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The maximum simple money multiplier is 1 ÷ 0.20 = 5.",
+    "reference": "POL-2.A | POL-2.A.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "If the required reserve ratio decreases, the maximum simple money multiplier will",
+    "options": [
+      {
+        "label": "A",
+        "text": "decrease because banks must hold a larger fraction of deposits as reserves."
+      },
+      {
+        "label": "B",
+        "text": "increase because banks can support more deposit expansion from a given amount of reserves."
+      },
+      {
+        "label": "C",
+        "text": "remain unchanged because reserves and deposits always increase proportionally."
+      },
+      {
+        "label": "D",
+        "text": "remain unchanged because the multiplier depends only on total deposits."
+      },
+      {
+        "label": "E",
+        "text": "decrease because excess reserves automatically become required reserves."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The maximum multiplier is 1 divided by the required reserve ratio. A lower required reserve ratio raises that reciprocal and allows a given reserve base to support a larger quantity of deposits.",
+    "reference": "POL-2.A | POL-2.A.6-POL-2.A.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "If the required reserve ratio increases, the maximum simple money multiplier will",
+    "options": [
+      {
+        "label": "A",
+        "text": "increase because banks can lend a larger fraction of each deposit."
+      },
+      {
+        "label": "B",
+        "text": "remain unchanged because the monetary base fixes the multiplier at one."
+      },
+      {
+        "label": "C",
+        "text": "increase because a larger reserve requirement creates more checkable deposits."
+      },
+      {
+        "label": "D",
+        "text": "remain unchanged because only excess reserves determine the multiplier."
+      },
+      {
+        "label": "E",
+        "text": "decrease because banks must hold a larger fraction of deposits as required reserves."
+      }
+    ],
+    "answer": "E",
+    "explanation": "A higher required reserve ratio means a larger fraction of each deposit must remain in reserves and a smaller fraction can support further lending. The reciprocal 1/RRR therefore falls.",
+    "reference": "POL-2.A | POL-2.A.6-POL-2.A.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "New reserves of $50 million enter a banking system with a 10 percent required reserve ratio. If banks hold no excess reserves and the public holds no additional currency, the maximum increase in the money supply is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$500 million"
+      },
+      {
+        "label": "B",
+        "text": "$450 million"
+      },
+      {
+        "label": "C",
+        "text": "$45 million"
+      },
+      {
+        "label": "D",
+        "text": "$50 million"
+      },
+      {
+        "label": "E",
+        "text": "$5 billion"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The maximum multiplier is 1 ÷ 0.10 = 10. A $50 million increase in reserves can therefore support a maximum $50 million × 10 = $500 million increase in the money supply under the stated assumptions.",
+    "reference": "POL-2.A | POL-2.A.4-POL-2.A.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "A bank has $25,000 in excess reserves. In the simple model, the maximum new loan that this bank alone can make immediately is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$2,500"
+      },
+      {
+        "label": "B",
+        "text": "$250,000"
+      },
+      {
+        "label": "C",
+        "text": "$22,500"
+      },
+      {
+        "label": "D",
+        "text": "$27,500"
+      },
+      {
+        "label": "E",
+        "text": "$25,000"
+      }
+    ],
+    "answer": "E",
+    "explanation": "A bank can lend its excess reserves without falling below its required reserve position. The systemwide deposit expansion can be larger, but the individual bank’s immediate additional lending is limited to its excess reserves.",
+    "reference": "POL-2.A | POL-2.A.3-POL-2.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "A customer deposits $1,000 in currency into a bank that faces a 10 percent required reserve ratio. Ignoring any preexisting excess reserves, the bank will initially have",
+    "options": [
+      {
+        "label": "A",
+        "text": "$1,000 of required reserves and no excess reserves from the deposit."
+      },
+      {
+        "label": "B",
+        "text": "$100 of required reserves and $900 of excess reserves from the deposit."
+      },
+      {
+        "label": "C",
+        "text": "$100 of excess reserves and $900 of required reserves from the deposit."
+      },
+      {
+        "label": "D",
+        "text": "$900 of required reserves and $100 of excess reserves from the deposit."
+      },
+      {
+        "label": "E",
+        "text": "$1,000 of excess reserves because currency deposits have no reserve requirement."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Required reserves are 10 percent of the new $1,000 deposit, or $100; The remaining $900 is excess reserves that can support additional lending in the simple model.",
+    "reference": "POL-2.A | POL-2.A.2-POL-2.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "A bank has $900 in excess reserves and makes a $900 loan. After the borrower spends the funds and the payment clears to another bank, assuming no other changes, the originating bank’s excess reserves are",
+    "options": [
+      {
+        "label": "A",
+        "text": "$810"
+      },
+      {
+        "label": "B",
+        "text": "$100"
+      },
+      {
+        "label": "C",
+        "text": "$90"
+      },
+      {
+        "label": "D",
+        "text": "$0"
+      },
+      {
+        "label": "E",
+        "text": "$900"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The bank used its entire $900 excess-reserve lending capacity, and the payment clearing transfers the loaned reserves out of the originating bank. With no other changes, the bank is left with only its required reserves and zero excess reserves.",
+    "reference": "POL-2.A | POL-2.A.3-POL-2.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "Why may the simple money multiplier overstate the actual expansion of the money supply?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Banks may hold excess reserves instead of lending all reserves available above the requirement."
+      },
+      {
+        "label": "B",
+        "text": "Banks may classify required reserves as loans on their balance sheets."
+      },
+      {
+        "label": "C",
+        "text": "Depositors may increase required reserve ratios by writing checks."
+      },
+      {
+        "label": "D",
+        "text": "Loans may automatically reduce the monetary base by the amount borrowed."
+      },
+      {
+        "label": "E",
+        "text": "Banks may count checkable deposits as assets instead of liabilities."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The simple multiplier assumes banks lend all reserves above the required amount. If banks voluntarily hold some excess reserves, fewer loans and deposits are created than the maximum calculation predicts.",
+    "reference": "POL-2.A | POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": true
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "Which behavior by the public can cause actual money expansion to be smaller than the simple multiplier predicts?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Holding some funds as currency instead of redepositing them in banks"
+      },
+      {
+        "label": "B",
+        "text": "Keeping deposits in banks rather than converting them into currency"
+      },
+      {
+        "label": "C",
+        "text": "Using checkable deposits to purchase goods from another depositor"
+      },
+      {
+        "label": "D",
+        "text": "Allowing loan proceeds to be redeposited in the banking system"
+      },
+      {
+        "label": "E",
+        "text": "Moving funds from one checking account to another checking account"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Currency held by the public does not become reserves supporting another round of bank lending; Currency leakage therefore reduces the deposit-creation process relative to the simple maximum.",
+    "reference": "POL-2.A | POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "If banks choose to hold more excess reserves, other things equal, the actual expansion of the money supply will most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "remain unchanged because excess reserves cannot affect bank lending."
+      },
+      {
+        "label": "B",
+        "text": "increase because required reserves fall whenever excess reserves rise."
+      },
+      {
+        "label": "C",
+        "text": "increase because excess reserves are automatically counted as new deposits."
+      },
+      {
+        "label": "D",
+        "text": "decrease because a smaller share of available reserves is used to make loans."
+      },
+      {
+        "label": "E",
+        "text": "remain unchanged because the simple multiplier is always achieved exactly."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Holding more excess reserves means banks lend less than the simple model assumes; Fewer loans create fewer new deposits, so actual money expansion is smaller.",
+    "reference": "POL-2.A | POL-2.A.4-POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "If the public chooses to hold more currency after receiving loan proceeds, other things equal, the actual money multiplier will most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "be unchanged because currency choices do not affect deposit expansion."
+      },
+      {
+        "label": "B",
+        "text": "be smaller because less currency is redeposited to support additional lending."
+      },
+      {
+        "label": "C",
+        "text": "be larger because currency holdings reduce required reserves on existing deposits."
+      },
+      {
+        "label": "D",
+        "text": "be larger because currency held by the public becomes bank excess reserves."
+      },
+      {
+        "label": "E",
+        "text": "equal the reciprocal of the excess reserve ratio in every case."
+      }
+    ],
+    "answer": "B",
+    "explanation": "When more funds remain as currency outside banks, less is redeposited as reserves for subsequent lending rounds; This leakage lowers the actual expansion relative to the simple maximum.",
+    "reference": "POL-2.A | POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "The simple money multiplier gives a maximum rather than a guaranteed expansion because it assumes that",
+    "options": [
+      {
+        "label": "A",
+        "text": "required reserves are always larger than total reserves at every bank."
+      },
+      {
+        "label": "B",
+        "text": "all new loans are immediately repaid before deposits can be created."
+      },
+      {
+        "label": "C",
+        "text": "banks lend all excess reserves and the public redeposits loan proceeds rather than holding additional currency."
+      },
+      {
+        "label": "D",
+        "text": "the money supply and monetary base are always equal in size."
+      },
+      {
+        "label": "E",
+        "text": "banks hold all deposits entirely as reserves and make no new loans."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The maximum requires repeated lending and redepositing with no voluntary excess-reserve holdings and no currency leakage; Relaxing either assumption reduces the realized expansion.",
+    "reference": "POL-2.A | POL-2.A.7-POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "Under the simple fractional-reserve model, which sequence best describes money creation after a bank receives excess reserves?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Bank holds all excess reserves, deposits multiply automatically, and no further lending occurs."
+      },
+      {
+        "label": "B",
+        "text": "Bank reduces loans, deposits rise, and excess reserves disappear from the banking system."
+      },
+      {
+        "label": "C",
+        "text": "Bank converts deposits into required reserves, which permanently removes deposits from the money supply."
+      },
+      {
+        "label": "D",
+        "text": "Bank lends required reserves, the monetary base falls, and deposits contract by the same amount."
+      },
+      {
+        "label": "E",
+        "text": "Bank lends excess reserves, the loan creates a deposit, and redeposited funds support further lending."
+      }
+    ],
+    "answer": "E",
+    "explanation": "Money expansion occurs through repeated rounds of lending and deposit creation; Each redeposit can provide reserves that support another round of lending, subject to the reserve requirement.",
+    "reference": "POL-2.A | POL-2.A.2-POL-2.A.6 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 31,
+    "difficulty": "Medium",
+    "prompt": "The simplified balance sheet below applies to a bank. If the required reserve ratio is 10 percent, how much can the bank lend without falling below required reserves?\n\nAssets\n\nAmount\n\nLiabilities\n\nAmount\n\nReserves\n\n$50,000\n\nCheckable deposits\n\n$100,000\n\nLoans\n\n$50,000",
+    "options": [
+      {
+        "label": "A",
+        "text": "$400,000"
+      },
+      {
+        "label": "B",
+        "text": "$50,000"
+      },
+      {
+        "label": "C",
+        "text": "$10,000"
+      },
+      {
+        "label": "D",
+        "text": "$40,000"
+      },
+      {
+        "label": "E",
+        "text": "$90,000"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Required reserves are 10 percent of $100,000 in deposits, or $10,000. With $50,000 in actual reserves, the bank has $40,000 in excess reserves and can lend at most that amount immediately.",
+    "reference": "POL-2.A | POL-2.A.1-POL-2.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 32,
+    "difficulty": "Medium",
+    "prompt": "The simplified balance sheet below applies to a bank. If the required reserve ratio is 20 percent, which statement is true?\n\nAssets\n\nAmount\n\nLiabilities\n\nAmount\n\nReserves\n\n$60,000\n\nCheckable deposits\n\n$200,000\n\nLoans\n\n$140,000",
+    "options": [
+      {
+        "label": "A",
+        "text": "The bank is $20,000 short of required reserves."
+      },
+      {
+        "label": "B",
+        "text": "The bank has $20,000 in excess reserves."
+      },
+      {
+        "label": "C",
+        "text": "The bank has $40,000 in excess reserves."
+      },
+      {
+        "label": "D",
+        "text": "The bank has $20,000 in required reserves."
+      },
+      {
+        "label": "E",
+        "text": "The bank has no excess reserves."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Required reserves are 20 percent of $200,000, or $40,000; Because actual reserves are $60,000, excess reserves equal $20,000.",
+    "reference": "POL-2.A | POL-2.A.1-POL-2.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 33,
+    "difficulty": "Medium",
+    "prompt": "A bank has $300,000 in checkable deposits, $75,000 in reserves, and a 15 percent required reserve ratio. Which combination is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Required reserves = $45,000; excess reserves = $75,000"
+      },
+      {
+        "label": "B",
+        "text": "Required reserves = $50,000; excess reserves = $25,000"
+      },
+      {
+        "label": "C",
+        "text": "Required reserves = $45,000; excess reserves = $30,000"
+      },
+      {
+        "label": "D",
+        "text": "Required reserves = $75,000; excess reserves = $225,000"
+      },
+      {
+        "label": "E",
+        "text": "Required reserves = $30,000; excess reserves = $45,000"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Required reserves are 0.15 × $300,000 = $45,000; Excess reserves are $75,000 - $45,000 = $30,000.",
+    "reference": "POL-2.A | POL-2.A.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "A bank has $600,000 in deposits and $72,000 in total reserves. If it has $12,000 in excess reserves, what is the required reserve ratio?",
+    "options": [
+      {
+        "label": "A",
+        "text": "12 percent"
+      },
+      {
+        "label": "B",
+        "text": "14 percent"
+      },
+      {
+        "label": "C",
+        "text": "10 percent"
+      },
+      {
+        "label": "D",
+        "text": "2 percent"
+      },
+      {
+        "label": "E",
+        "text": "20 percent"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Required reserves are $72,000 - $12,000 = $60,000; The required reserve ratio is $60,000 ÷ $600,000 = 0.10, or 10 percent.",
+    "reference": "POL-2.A | POL-2.A.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "A bank has $1,000,000 in checkable deposits and faces a 12 percent required reserve ratio. If total reserves are $150,000, what is the bank’s maximum immediate new lending?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$880,000"
+      },
+      {
+        "label": "B",
+        "text": "$30,000"
+      },
+      {
+        "label": "C",
+        "text": "$120,000"
+      },
+      {
+        "label": "D",
+        "text": "$150,000"
+      },
+      {
+        "label": "E",
+        "text": "$12,000"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Required reserves are $120,000; The bank therefore has $150,000 - $120,000 = $30,000 in excess reserves, which is its maximum immediate new lending capacity.",
+    "reference": "POL-2.A | POL-2.A.3-POL-2.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "A customer deposits $2,000 of currency into a bank. The required reserve ratio is 25 percent, and the bank had no excess reserves beforehand. Which change occurs initially?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Required reserves rise by $2,000 and excess reserves do not change."
+      },
+      {
+        "label": "B",
+        "text": "Required reserves rise by $1,500 and excess reserves rise by $500."
+      },
+      {
+        "label": "C",
+        "text": "Required reserves rise by $500 and excess reserves fall by $1,500."
+      },
+      {
+        "label": "D",
+        "text": "Required reserves rise by $500 and excess reserves rise by $1,500."
+      },
+      {
+        "label": "E",
+        "text": "Required reserves do not change and excess reserves rise by $2,000."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The new deposit increases reserves and deposits by $2,000. Required reserves increase by 0.25 × $2,000 = $500, leaving $1,500 as excess reserves available for lending.",
+    "reference": "POL-2.A | POL-2.A.2-POL-2.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "A bank makes a $7,000 loan by crediting the borrower’s checking account. Before the borrower spends the funds, which balance-sheet entries increase by $7,000?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Reserves on the asset side and required reserves on the liability side"
+      },
+      {
+        "label": "B",
+        "text": "Checkable deposits on the asset side and loans on the liability side"
+      },
+      {
+        "label": "C",
+        "text": "Loans on the asset side and checkable deposits on the liability side"
+      },
+      {
+        "label": "D",
+        "text": "Excess reserves on the asset side and reserves on the liability side"
+      },
+      {
+        "label": "E",
+        "text": "Required reserves on the asset side and loans on the liability side"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The bank records the loan as an asset because the borrower owes the bank. The credited checking balance is a liability because the bank owes those funds to the borrower.",
+    "reference": "POL-2.A | POL-2.A.1-POL-2.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "A borrower repays $4,000 of loan principal using funds from a checking account at the same bank. Which immediate balance-sheet change occurs?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Loans decrease by $4,000 and reserves decrease by $4,000."
+      },
+      {
+        "label": "B",
+        "text": "Loans increase by $4,000 and checkable deposits decrease by $4,000."
+      },
+      {
+        "label": "C",
+        "text": "Reserves increase by $4,000 and checkable deposits increase by $4,000."
+      },
+      {
+        "label": "D",
+        "text": "Checkable deposits increase by $4,000 while loans are unchanged."
+      },
+      {
+        "label": "E",
+        "text": "Loans decrease by $4,000 and checkable deposits decrease by $4,000."
+      }
+    ],
+    "answer": "E",
+    "explanation": "Repaying principal extinguishes part of the bank’s loan asset and the deposit liability used to make the payment. Both loans and checkable deposits fall by the repayment amount.",
+    "reference": "POL-2.A | POL-2.A.1-POL-2.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "The money multiplier is 5 and the monetary base is $700 billion. What money supply is implied by these values?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$700 billion"
+      },
+      {
+        "label": "B",
+        "text": "$2.8 trillion"
+      },
+      {
+        "label": "C",
+        "text": "$3.5 trillion"
+      },
+      {
+        "label": "D",
+        "text": "$140 billion"
+      },
+      {
+        "label": "E",
+        "text": "$5.7 trillion"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Money supply equals the multiplier times the monetary base: 5 × $700 billion = $3.5 trillion.",
+    "reference": "POL-2.A | POL-2.A.5-POL-2.A.6 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "The money supply is $4.2 trillion and the money multiplier is 6. What is the monetary base?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$700 billion"
+      },
+      {
+        "label": "B",
+        "text": "$600 billion"
+      },
+      {
+        "label": "C",
+        "text": "$25.2 trillion"
+      },
+      {
+        "label": "D",
+        "text": "$4.8 trillion"
+      },
+      {
+        "label": "E",
+        "text": "$7.0 trillion"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The monetary base equals money supply divided by the multiplier: $4.2 trillion ÷ 6 = $0.7 trillion, or $700 billion.",
+    "reference": "POL-2.A | POL-2.A.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "If the required reserve ratio is 12.5 percent, what is the maximum simple money multiplier?",
+    "options": [
+      {
+        "label": "A",
+        "text": "12.5"
+      },
+      {
+        "label": "B",
+        "text": "0.125"
+      },
+      {
+        "label": "C",
+        "text": "7.5"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      },
+      {
+        "label": "E",
+        "text": "8"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The maximum simple money multiplier is 1 ÷ 0.125 = 8.",
+    "reference": "POL-2.A | POL-2.A.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "A banking system has a maximum simple money multiplier of 4. What required reserve ratio is consistent with that multiplier?",
+    "options": [
+      {
+        "label": "A",
+        "text": "25 percent"
+      },
+      {
+        "label": "B",
+        "text": "40 percent"
+      },
+      {
+        "label": "C",
+        "text": "20 percent"
+      },
+      {
+        "label": "D",
+        "text": "4 percent"
+      },
+      {
+        "label": "E",
+        "text": "75 percent"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Because maximum multiplier = 1/RRR, the required reserve ratio equals 1 ÷ 4 = 0.25, or 25 percent.",
+    "reference": "POL-2.A | POL-2.A.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "Banking system A has a 10 percent required reserve ratio, while banking system B has a 20 percent required reserve ratio. Under the simple maximum-expansion assumptions, which is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "System B has the larger maximum money multiplier."
+      },
+      {
+        "label": "B",
+        "text": "System A has the larger maximum money multiplier."
+      },
+      {
+        "label": "C",
+        "text": "Both systems have the same maximum money multiplier."
+      },
+      {
+        "label": "D",
+        "text": "Neither system can expand deposits because both require reserves."
+      },
+      {
+        "label": "E",
+        "text": "System A has a multiplier of 5 and system B has a multiplier of 10."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The maximum multipliers are 10 for system A and 5 for system B. The lower required reserve ratio allows a given reserve base to support more deposits.",
+    "reference": "POL-2.A | POL-2.A.6-POL-2.A.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "New reserves of $80 million enter a banking system with a 20 percent required reserve ratio. If banks hold no excess reserves and the public holds no additional currency, the maximum increase in the money supply is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$1.6 billion"
+      },
+      {
+        "label": "B",
+        "text": "$320 million"
+      },
+      {
+        "label": "C",
+        "text": "$64 million"
+      },
+      {
+        "label": "D",
+        "text": "$80 million"
+      },
+      {
+        "label": "E",
+        "text": "$400 million"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The maximum multiplier is 1 ÷ 0.20 = 5; The maximum increase in the money supply is $80 million × 5 = $400 million.",
+    "reference": "POL-2.A | POL-2.A.4-POL-2.A.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "A banking system has a 25 percent required reserve ratio. How much new reserves would be needed to support a maximum $240 million increase in the money supply under the simple model?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$240 million"
+      },
+      {
+        "label": "B",
+        "text": "$960 million"
+      },
+      {
+        "label": "C",
+        "text": "$180 million"
+      },
+      {
+        "label": "D",
+        "text": "$15 million"
+      },
+      {
+        "label": "E",
+        "text": "$60 million"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The maximum multiplier is 1 ÷ 0.25 = 4; Required new reserves equal $240 million ÷ 4 = $60 million.",
+    "reference": "POL-2.A | POL-2.A.4-POL-2.A.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "A $1,000 deposit enters a bank in a system with a 20 percent required reserve ratio. The bank lends all of the resulting excess reserves, and the entire loan is redeposited in another bank. What is the amount of the second bank’s new deposit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$800"
+      },
+      {
+        "label": "B",
+        "text": "$160"
+      },
+      {
+        "label": "C",
+        "text": "$1,000"
+      },
+      {
+        "label": "D",
+        "text": "$200"
+      },
+      {
+        "label": "E",
+        "text": "$1,200"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The first bank must keep $200 as required reserves and can lend $800. If the entire loan is redeposited, the second bank receives a new $800 deposit.",
+    "reference": "POL-2.A | POL-2.A.2-POL-2.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "The simplified balance sheet below applies to a bank. If the required reserve ratio rises from 10 percent to 15 percent while deposits and actual reserves are unchanged, what happens to the bank’s excess reserves?\n\nAssets\n\nAmount\n\nLiabilities\n\nAmount\n\nReserves\n\n$80,000\n\nCheckable deposits\n\n$400,000\n\nLoans\n\n$320,000",
+    "options": [
+      {
+        "label": "A",
+        "text": "They decrease from $40,000 to $20,000."
+      },
+      {
+        "label": "B",
+        "text": "They increase from $40,000 to $60,000."
+      },
+      {
+        "label": "C",
+        "text": "They decrease from $60,000 to $40,000."
+      },
+      {
+        "label": "D",
+        "text": "They remain $40,000 because actual reserves are unchanged."
+      },
+      {
+        "label": "E",
+        "text": "They fall from $40,000 to $0."
+      }
+    ],
+    "answer": "A",
+    "explanation": "At 10 percent, required reserves are $40,000 and excess reserves are $40,000. At 15 percent, required reserves rise to $60,000, leaving $20,000 in excess reserves.",
+    "reference": "POL-2.A | POL-2.A.3-POL-2.A.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "A bank has $500,000 in deposits and $75,000 in reserves. If the required reserve ratio falls from 10 percent to 8 percent, how does its excess-reserve position change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Excess reserves increase from $35,000 to $45,000."
+      },
+      {
+        "label": "B",
+        "text": "Excess reserves decrease from $25,000 to $15,000."
+      },
+      {
+        "label": "C",
+        "text": "Excess reserves increase from $50,000 to $60,000."
+      },
+      {
+        "label": "D",
+        "text": "Excess reserves increase from $25,000 to $35,000."
+      },
+      {
+        "label": "E",
+        "text": "Excess reserves remain $25,000 because total reserves are unchanged."
+      }
+    ],
+    "answer": "D",
+    "explanation": "At 10 percent, required reserves are $50,000 and excess reserves are $25,000. At 8 percent, required reserves fall to $40,000, so excess reserves rise to $35,000.",
+    "reference": "POL-2.A | POL-2.A.3-POL-2.A.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "A banking system receives $30 million in new reserves. The required reserve ratio is 10 percent, but banks collectively choose to keep $6 million of the new reserves as additional excess reserves. Compared with the simple maximum, actual money expansion will be",
+    "options": [
+      {
+        "label": "A",
+        "text": "the same because reserve holdings do not affect the amount banks lend."
+      },
+      {
+        "label": "B",
+        "text": "smaller because only part of the new reserves is used to support additional lending."
+      },
+      {
+        "label": "C",
+        "text": "larger because excess reserves count as new checkable deposits."
+      },
+      {
+        "label": "D",
+        "text": "the same because the required reserve ratio alone guarantees the maximum."
+      },
+      {
+        "label": "E",
+        "text": "larger because holding excess reserves raises the simple money multiplier."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The simple maximum assumes banks lend all reserves available above requirements. Keeping some reserves idle as excess reserves reduces the amount entering successive lending rounds.",
+    "reference": "POL-2.A | POL-2.A.4-POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "Two otherwise identical banking systems receive the same increase in reserves and have the same required reserve ratio. In system X, all loan proceeds are redeposited; in system Y, households hold part of the proceeds as currency. Which system will have the larger actual money expansion?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both systems, because currency holdings cannot affect reserve-based lending."
+      },
+      {
+        "label": "B",
+        "text": "System Y, because currency held by households counts as excess bank reserves."
+      },
+      {
+        "label": "C",
+        "text": "Both systems, because the required reserve ratio uniquely determines actual expansion."
+      },
+      {
+        "label": "D",
+        "text": "System X, because more funds return to banks and support additional lending rounds."
+      },
+      {
+        "label": "E",
+        "text": "System Y, because withdrawing currency raises the maximum simple multiplier."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Redeposited funds become reserves that can support further loans. Currency held outside banks interrupts that process, so system Y realizes less expansion than system X.",
+    "reference": "POL-2.A | POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": true
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "A system has a required reserve ratio of 10 percent, so its maximum simple money multiplier is 10. If its observed money supply is $4 trillion and its monetary base is $500 billion, what does the observed multiplier imply?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The observed multiplier is 5, which exceeds the simple maximum."
+      },
+      {
+        "label": "B",
+        "text": "The observed multiplier is 20, which must equal the required reserve ratio."
+      },
+      {
+        "label": "C",
+        "text": "The observed multiplier is 8, which is below the simple maximum."
+      },
+      {
+        "label": "D",
+        "text": "The observed multiplier is 10, exactly equal to the simple maximum."
+      },
+      {
+        "label": "E",
+        "text": "The observed multiplier is 0.125, which is above the simple maximum."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The observed multiplier is $4 trillion ÷ $0.5 trillion = 8. Because the simple maximum is 10, the smaller observed value is consistent with leakages such as excess reserves or currency holdings.",
+    "reference": "POL-2.A | POL-2.A.5-POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "A bank has $100,000 in excess reserves. It decides to lend only $60,000 and hold the remaining $40,000 as excess reserves. Which statement best describes the effect on money creation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The bank’s required reserves fall by $40,000 solely because it keeps excess reserves."
+      },
+      {
+        "label": "B",
+        "text": "The initial loan-created deposit is smaller than the maximum the bank could have created."
+      },
+      {
+        "label": "C",
+        "text": "The money multiplier automatically rises because the bank has chosen to lend less."
+      },
+      {
+        "label": "D",
+        "text": "The bank’s checkable-deposit liabilities must fall by $100,000 before lending can occur."
+      },
+      {
+        "label": "E",
+        "text": "The bank creates the maximum possible deposit because any positive loan uses all excess reserves."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The bank could have made up to $100,000 in new loans based on its excess reserves but chooses to make only $60,000. That choice reduces the first lending round and therefore the potential systemwide expansion.",
+    "reference": "POL-2.A | POL-2.A.4-POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "A household receives a $10,000 bank loan and keeps $2,000 as currency while $8,000 is redeposited in the banking system. Compared with full redeposit, which amount is unavailable to support the next round of bank lending?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$10,000"
+      },
+      {
+        "label": "B",
+        "text": "$800"
+      },
+      {
+        "label": "C",
+        "text": "$2,000"
+      },
+      {
+        "label": "D",
+        "text": "$8,000"
+      },
+      {
+        "label": "E",
+        "text": "$12,000"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The $2,000 held as currency does not return to bank reserves for the next lending round. Only the $8,000 redeposited can support further fractional-reserve expansion.",
+    "reference": "POL-2.A | POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "A bank has $90,000 in reserves, $600,000 in checkable deposits, and a 10 percent required reserve ratio. How much additional lending capacity does the bank have under the simple reserve model?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$90,000"
+      },
+      {
+        "label": "B",
+        "text": "$540,000"
+      },
+      {
+        "label": "C",
+        "text": "$60,000"
+      },
+      {
+        "label": "D",
+        "text": "$6,000"
+      },
+      {
+        "label": "E",
+        "text": "$30,000"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Required reserves are 0.10 × $600,000 = $60,000; Excess reserves, and therefore maximum immediate additional lending capacity, equal $90,000 - $60,000 = $30,000.",
+    "reference": "POL-2.A | POL-2.A.3-POL-2.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "A banking system has a 5 percent required reserve ratio. If $15 million of genuinely new reserves enters the system and all excess reserves are lent with all loan proceeds redeposited, the maximum increase in the money supply is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$75 million"
+      },
+      {
+        "label": "B",
+        "text": "$300 million"
+      },
+      {
+        "label": "C",
+        "text": "$750 million"
+      },
+      {
+        "label": "D",
+        "text": "$15 million"
+      },
+      {
+        "label": "E",
+        "text": "$285 million"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The maximum multiplier is 1 ÷ 0.05 = 20; The maximum money-supply increase is $15 million × 20 = $300 million.",
+    "reference": "POL-2.A | POL-2.A.4-POL-2.A.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "A banking system has a maximum simple money multiplier of 12.5. Which required reserve ratio is consistent with that multiplier?",
+    "options": [
+      {
+        "label": "A",
+        "text": "10 percent"
+      },
+      {
+        "label": "B",
+        "text": "8 percent"
+      },
+      {
+        "label": "C",
+        "text": "12.5 percent"
+      },
+      {
+        "label": "D",
+        "text": "6 percent"
+      },
+      {
+        "label": "E",
+        "text": "20 percent"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Because maximum multiplier = 1/RRR, the required reserve ratio equals 1 ÷ 12.5 = 0.08, or 8 percent.",
+    "reference": "POL-2.A | POL-2.A.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "A bank’s deposits fall by $40,000 while its reserves fall by $4,000. If the required reserve ratio is 10 percent, what happens to excess reserves from these changes alone?",
+    "options": [
+      {
+        "label": "A",
+        "text": "They fall by $36,000."
+      },
+      {
+        "label": "B",
+        "text": "They rise by $36,000."
+      },
+      {
+        "label": "C",
+        "text": "They rise by $4,000."
+      },
+      {
+        "label": "D",
+        "text": "They are unchanged."
+      },
+      {
+        "label": "E",
+        "text": "They fall by $4,000."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The deposit decline reduces required reserves by $4,000, exactly matching the $4,000 decline in actual reserves; Therefore excess reserves are unchanged.",
+    "reference": "POL-2.A | POL-2.A.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "A bank has $1.2 million in deposits and a 10 percent required reserve ratio. If its excess reserves are $18,000, what are its total reserves?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$120,000"
+      },
+      {
+        "label": "B",
+        "text": "$138,000"
+      },
+      {
+        "label": "C",
+        "text": "$180,000"
+      },
+      {
+        "label": "D",
+        "text": "$102,000"
+      },
+      {
+        "label": "E",
+        "text": "$1,218,000"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Required reserves are 0.10 × $1.2 million = $120,000; Adding $18,000 in excess reserves gives total reserves of $138,000.",
+    "reference": "POL-2.A | POL-2.A.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "A bank has $500,000 in reserves and a 20 percent required reserve ratio. If it holds no excess reserves, what level of checkable deposits can those reserves support?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$2.5 million"
+      },
+      {
+        "label": "B",
+        "text": "$2.0 million"
+      },
+      {
+        "label": "C",
+        "text": "$500,000"
+      },
+      {
+        "label": "D",
+        "text": "$10 million"
+      },
+      {
+        "label": "E",
+        "text": "$100,000"
+      }
+    ],
+    "answer": "A",
+    "explanation": "If reserves are exactly required reserves, deposits satisfy 0.20 × deposits = $500,000; Deposits therefore equal $500,000 ÷ 0.20 = $2.5 million.",
+    "reference": "POL-2.A | POL-2.A.3-POL-2.A.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "A bank has $240,000 in reserves and $1.5 million in deposits. What is the largest required reserve ratio at which the bank would still have at least $15,000 in excess reserves?",
+    "options": [
+      {
+        "label": "A",
+        "text": "15 percent"
+      },
+      {
+        "label": "B",
+        "text": "20 percent"
+      },
+      {
+        "label": "C",
+        "text": "12 percent"
+      },
+      {
+        "label": "D",
+        "text": "16 percent"
+      },
+      {
+        "label": "E",
+        "text": "10 percent"
+      }
+    ],
+    "answer": "A",
+    "explanation": "To retain $15,000 in excess reserves, required reserves can be at most $225,000. $225,000 ÷ $1.5 million = 0.15, so the largest ratio is 15 percent.",
+    "reference": "POL-2.A | POL-2.A.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "Which change would most directly reduce the gap between the maximum simple money multiplier and the actual money multiplier?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The public withdrawing more currency while banks keep lending unchanged"
+      },
+      {
+        "label": "B",
+        "text": "Banks reducing lending while the public increases currency holdings"
+      },
+      {
+        "label": "C",
+        "text": "Banks holding more excess reserves and the public holding more currency"
+      },
+      {
+        "label": "D",
+        "text": "Banks lending a larger share of their excess reserves and the public redepositing more loan proceeds"
+      },
+      {
+        "label": "E",
+        "text": "Banks increasing excess reserves while redeposit behavior is unchanged"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The simple maximum is approached when banks minimize voluntary excess-reserve holdings and loan proceeds return to the banking system. Both behaviors sustain additional rounds of deposit creation.",
+    "reference": "POL-2.A | POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "A system has a maximum simple multiplier of 10 but an actual multiplier of 7. Which observation is most consistent with this difference?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Some reserves are held as excess reserves or some funds remain as currency outside banks."
+      },
+      {
+        "label": "B",
+        "text": "The required reserve ratio must be 1/7 rather than 10 percent."
+      },
+      {
+        "label": "C",
+        "text": "Banks must be holding less than the required reserve amount at every institution."
+      },
+      {
+        "label": "D",
+        "text": "Banks must have stopped recording deposits as liabilities on balance sheets."
+      },
+      {
+        "label": "E",
+        "text": "The money supply must be smaller than the monetary base."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The simple multiplier of 10 assumes complete lending and redepositing. Excess-reserve holdings or currency leakage can make the realized money-supply-to-base ratio smaller than that maximum.",
+    "reference": "POL-2.A | POL-2.A.5-POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "A $5,000 deposit enters a bank with a 20 percent required reserve ratio. The bank lends all excess reserves, but the borrower keeps $1,000 of the loan as currency and redeposits the rest. How much is redeposited for the next lending round?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$1,000"
+      },
+      {
+        "label": "B",
+        "text": "$4,000"
+      },
+      {
+        "label": "C",
+        "text": "$6,000"
+      },
+      {
+        "label": "D",
+        "text": "$3,000"
+      },
+      {
+        "label": "E",
+        "text": "$5,000"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The bank must keep $1,000 of the original deposit as required reserves and can lend $4,000. If the borrower holds $1,000 of that loan as currency, only $3,000 is redeposited.",
+    "reference": "POL-2.A | POL-2.A.4-POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "A bank receives a $10,000 deposit in a system with a 10 percent required reserve ratio. It chooses to keep an additional $2,000 as excess reserves beyond the required amount. What is its maximum new loan from this deposit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$7,000"
+      },
+      {
+        "label": "B",
+        "text": "$2,000"
+      },
+      {
+        "label": "C",
+        "text": "$8,000"
+      },
+      {
+        "label": "D",
+        "text": "$1,000"
+      },
+      {
+        "label": "E",
+        "text": "$9,000"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Required reserves are $1,000. After also choosing to retain $2,000 as excess reserves, the bank has $10,000 - $1,000 - $2,000 = $7,000 available to lend.",
+    "reference": "POL-2.A | POL-2.A.3-POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "A bank’s simplified balance sheet initially shows $40,000 in reserves, $160,000 in loans, and $200,000 in checkable deposits. It makes a new $20,000 loan by crediting a borrower’s deposit account. Immediately after the loan and before funds leave the bank, which balance-sheet totals apply?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Assets = $200,000 and checkable deposits = $180,000"
+      },
+      {
+        "label": "B",
+        "text": "Assets = $200,000 and checkable deposits = $220,000"
+      },
+      {
+        "label": "C",
+        "text": "Assets = $220,000 and checkable deposits = $220,000"
+      },
+      {
+        "label": "D",
+        "text": "Assets = $220,000 and checkable deposits = $200,000"
+      },
+      {
+        "label": "E",
+        "text": "Assets = $240,000 and checkable deposits = $220,000"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The new loan raises loans, and therefore assets, by $20,000. The bank simultaneously creates a $20,000 checkable deposit liability, so both sides rise from $200,000 to $220,000.",
+    "reference": "POL-2.A | POL-2.A.1-POL-2.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "A bank has $50,000 in reserves and $250,000 in checkable deposits. If the required reserve ratio is 20 percent, which statement best describes the bank?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It has $10,000 in excess reserves because only part of deposits are reservable."
+      },
+      {
+        "label": "B",
+        "text": "It has zero excess reserves and cannot make additional loans from existing reserves."
+      },
+      {
+        "label": "C",
+        "text": "It has $50,000 in excess reserves and can lend all of it."
+      },
+      {
+        "label": "D",
+        "text": "It has $40,000 in excess reserves because required reserves are $10,000."
+      },
+      {
+        "label": "E",
+        "text": "It has $200,000 in required reserves and is short $150,000."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Required reserves are 0.20 × $250,000 = $50,000, exactly equal to actual reserves; The bank therefore has no excess reserves available for additional lending.",
+    "reference": "POL-2.A | POL-2.A.3-POL-2.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "A banking system’s required reserve ratio falls from 20 percent to 10 percent. Under the simple maximum-expansion assumptions, how does the maximum money multiplier change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls from 5 to 2."
+      },
+      {
+        "label": "B",
+        "text": "It remains 5 because the monetary base is unchanged."
+      },
+      {
+        "label": "C",
+        "text": "It falls from 10 to 5."
+      },
+      {
+        "label": "D",
+        "text": "It rises from 10 to 20."
+      },
+      {
+        "label": "E",
+        "text": "It rises from 5 to 10."
+      }
+    ],
+    "answer": "E",
+    "explanation": "At 20 percent, the maximum multiplier is 1/0.20 = 5; At 10 percent, it is 1/0.10 = 10, so the maximum doubles.",
+    "reference": "POL-2.A | POL-2.A.6-POL-2.A.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "A banking system’s required reserve ratio rises from 10 percent to 25 percent. Under the simple maximum-expansion assumptions, how does the maximum money multiplier change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls from 10 to 2.5."
+      },
+      {
+        "label": "B",
+        "text": "It rises from 4 to 10."
+      },
+      {
+        "label": "C",
+        "text": "It rises from 10 to 25."
+      },
+      {
+        "label": "D",
+        "text": "It remains 10 because reserve requirements do not affect the multiplier."
+      },
+      {
+        "label": "E",
+        "text": "It falls from 10 to 4."
+      }
+    ],
+    "answer": "E",
+    "explanation": "The maximum simple multiplier falls from 1/0.10 = 10 to 1/0.25 = 4. A larger reserve requirement supports less deposit expansion from a given reserve base.",
+    "reference": "POL-2.A | POL-2.A.6-POL-2.A.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "If the monetary base is $1 trillion and the actual money multiplier is 3.5, which money supply is consistent with these values?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$0.286 trillion"
+      },
+      {
+        "label": "B",
+        "text": "$1.0 trillion"
+      },
+      {
+        "label": "C",
+        "text": "$4.5 trillion"
+      },
+      {
+        "label": "D",
+        "text": "$3.5 trillion"
+      },
+      {
+        "label": "E",
+        "text": "$2.5 trillion"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Money supply equals the actual multiplier times the monetary base: 3.5 × $1 trillion = $3.5 trillion.",
+    "reference": "POL-2.A | POL-2.A.5-POL-2.A.6 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "If the money supply is $5 trillion and the monetary base is $1.25 trillion, which statement is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The maximum simple multiplier must be 5."
+      },
+      {
+        "label": "B",
+        "text": "The actual money multiplier is 0.25."
+      },
+      {
+        "label": "C",
+        "text": "The required reserve ratio must be 4 percent."
+      },
+      {
+        "label": "D",
+        "text": "The actual money multiplier is 6.25."
+      },
+      {
+        "label": "E",
+        "text": "The actual money multiplier is 4."
+      }
+    ],
+    "answer": "E",
+    "explanation": "The actual multiplier is money supply divided by monetary base: $5 ÷ $1.25 = 4. This ratio alone does not reveal the required reserve ratio or the maximum simple multiplier.",
+    "reference": "POL-2.A | POL-2.A.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 71,
+    "difficulty": "Hard",
+    "prompt": "The simplified balance sheet below applies to a bank. The required reserve ratio is 10 percent. The bank then receives a new $50,000 deposit that adds $50,000 to its reserves. What is the bank’s maximum immediate additional lending capacity after the deposit?\n\nAssets\n\nAmount\n\nLiabilities\n\nAmount\n\nReserves\n\n$55,000\n\nCheckable deposits\n\n$250,000\n\nLoans\n\n$195,000",
+    "options": [
+      {
+        "label": "A",
+        "text": "$45,000"
+      },
+      {
+        "label": "B",
+        "text": "$25,000"
+      },
+      {
+        "label": "C",
+        "text": "$75,000"
+      },
+      {
+        "label": "D",
+        "text": "$95,000"
+      },
+      {
+        "label": "E",
+        "text": "$50,000"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Before the deposit, required reserves are $25,000 and excess reserves are $30,000. The new $50,000 deposit raises required reserves by $5,000 but reserves by $50,000, adding $45,000 of excess reserves; total lending capacity becomes $75,000.",
+    "reference": "POL-2.A | POL-2.A.1-POL-2.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 72,
+    "difficulty": "Hard",
+    "prompt": "A bank has $900,000 in checkable deposits and $135,000 in reserves. The required reserve ratio rises from 10 percent to 12 percent. How much additional lending capacity does the bank have after the change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$81,000"
+      },
+      {
+        "label": "B",
+        "text": "$18,000"
+      },
+      {
+        "label": "C",
+        "text": "$108,000"
+      },
+      {
+        "label": "D",
+        "text": "$27,000"
+      },
+      {
+        "label": "E",
+        "text": "$45,000"
+      }
+    ],
+    "answer": "D",
+    "explanation": "At a 12 percent requirement, required reserves are 0.12 × $900,000 = $108,000. Excess reserves are therefore $135,000 - $108,000 = $27,000.",
+    "reference": "POL-2.A | POL-2.A.3-POL-2.A.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 73,
+    "difficulty": "Hard",
+    "prompt": "A bank has $720,000 in deposits and $90,000 in reserves. Its required reserve ratio falls from 10 percent to 7.5 percent. By how much does its excess-reserve lending capacity increase?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$18,000"
+      },
+      {
+        "label": "B",
+        "text": "$36,000"
+      },
+      {
+        "label": "C",
+        "text": "$54,000"
+      },
+      {
+        "label": "D",
+        "text": "$72,000"
+      },
+      {
+        "label": "E",
+        "text": "$9,000"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Required reserves fall from $72,000 to $54,000 when the ratio drops to 7.5 percent. With actual reserves unchanged, excess reserves rise by $18,000.",
+    "reference": "POL-2.A | POL-2.A.3-POL-2.A.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "A bank has $400,000 in deposits and $70,000 in reserves. It wants to retain $10,000 in excess reserves after satisfying its reserve requirement. What is the highest required reserve ratio consistent with that target?",
+    "options": [
+      {
+        "label": "A",
+        "text": "10 percent"
+      },
+      {
+        "label": "B",
+        "text": "12.5 percent"
+      },
+      {
+        "label": "C",
+        "text": "15 percent"
+      },
+      {
+        "label": "D",
+        "text": "20 percent"
+      },
+      {
+        "label": "E",
+        "text": "17.5 percent"
+      }
+    ],
+    "answer": "C",
+    "explanation": "To retain $10,000 in excess reserves, required reserves can be at most $60,000. $60,000 ÷ $400,000 = 0.15, so the highest consistent required reserve ratio is 15 percent.",
+    "reference": "POL-2.A | POL-2.A.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "A system has a 20 percent required reserve ratio. An initial $10,000 of new reserves supports a first loan of $8,000, all of which is redeposited. The second bank then holds $400 of the $8,000 deposit as voluntary excess reserves in addition to required reserves. What is the second bank’s maximum loan?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$1,200"
+      },
+      {
+        "label": "B",
+        "text": "$7,600"
+      },
+      {
+        "label": "C",
+        "text": "$1,600"
+      },
+      {
+        "label": "D",
+        "text": "$6,400"
+      },
+      {
+        "label": "E",
+        "text": "$6,000"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The second bank must hold $1,600 as required reserves and chooses to hold another $400 as excess reserves. Its maximum loan is $8,000 - $1,600 - $400 = $6,000.",
+    "reference": "POL-2.A | POL-2.A.3-POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": true
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "A system has a 25 percent required reserve ratio. A $12,000 new deposit leads the first bank to lend all available excess reserves. The borrower keeps one-third of the loan as currency and redeposits the rest. What is the deposit received by the next bank?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$8,000"
+      },
+      {
+        "label": "B",
+        "text": "$9,000"
+      },
+      {
+        "label": "C",
+        "text": "$3,000"
+      },
+      {
+        "label": "D",
+        "text": "$12,000"
+      },
+      {
+        "label": "E",
+        "text": "$6,000"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The first bank must retain $3,000 and can lend $9,000. One-third of the loan, $3,000, is held as currency, leaving $6,000 to be redeposited at the next bank.",
+    "reference": "POL-2.A | POL-2.A.4-POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "A system’s monetary base is $800 billion and its money supply is $3.2 trillion. The required reserve ratio is 20 percent. Which conclusion is supported?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The actual multiplier is 0.25, above the simple maximum."
+      },
+      {
+        "label": "B",
+        "text": "The actual multiplier is 4, below the simple maximum of 5."
+      },
+      {
+        "label": "C",
+        "text": "The actual multiplier is 4, above the simple maximum of 0.20."
+      },
+      {
+        "label": "D",
+        "text": "The actual multiplier is 5, equal to the simple maximum."
+      },
+      {
+        "label": "E",
+        "text": "The actual multiplier is 5, below the simple maximum of 20."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The actual multiplier is $3.2 trillion ÷ $0.8 trillion = 4. The simple maximum based on a 20 percent reserve ratio is 1 ÷ 0.20 = 5, so actual expansion is below the maximum.",
+    "reference": "POL-2.A | POL-2.A.5-POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "A system’s actual money multiplier is 6 while its required reserve ratio is 10 percent. Which statement best explains why the actual multiplier can be less than the maximum simple multiplier?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The monetary base must exceed the money supply whenever the multiplier is below 10."
+      },
+      {
+        "label": "B",
+        "text": "The required reserve ratio mathematically implies a maximum multiplier of only 0.10."
+      },
+      {
+        "label": "C",
+        "text": "The public must redeposit every dollar and banks must lend every excess dollar."
+      },
+      {
+        "label": "D",
+        "text": "Banks may hold excess reserves and the public may hold some funds as currency."
+      },
+      {
+        "label": "E",
+        "text": "Banks must classify all reserves as liabilities rather than assets."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A 10 percent required reserve ratio implies a simple maximum multiplier of 10. An actual multiplier of 6 is consistent with leakage from excess-reserve holdings, currency holdings, or both.",
+    "reference": "POL-2.A | POL-2.A.5-POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "The simplified balance sheet below applies to a bank with a 10 percent required reserve ratio. A borrower repays $30,000 of loan principal using a checkable deposit at the same bank. After the repayment, which statement is true?\n\nAssets\n\nAmount\n\nLiabilities\n\nAmount\n\nReserves\n\n$60,000\n\nCheckable deposits\n\n$500,000\n\nLoans\n\n$440,000",
+    "options": [
+      {
+        "label": "A",
+        "text": "Loans and deposits both fall by $30,000, and the bank’s required reserves fall by $3,000."
+      },
+      {
+        "label": "B",
+        "text": "Loans and deposits both rise by $30,000, and required reserves rise by $3,000."
+      },
+      {
+        "label": "C",
+        "text": "Deposits fall by $30,000, loans remain unchanged, and required reserves fall by $30,000."
+      },
+      {
+        "label": "D",
+        "text": "Loans fall by $30,000, deposits rise by $30,000, and required reserves rise by $3,000."
+      },
+      {
+        "label": "E",
+        "text": "Loans and reserves both fall by $30,000, while deposits remain unchanged."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Principal repayment extinguishes both a loan asset and a deposit liability by $30,000. Because deposits fall by $30,000, required reserves fall by 10 percent of that amount, or $3,000.",
+    "reference": "POL-2.A | POL-2.A.1-POL-2.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "A bank has $800,000 in deposits, $120,000 in reserves, and a 10 percent required reserve ratio. It loses $50,000 in deposits and $20,000 in reserves. What are its excess reserves after the changes?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$5,000"
+      },
+      {
+        "label": "B",
+        "text": "$30,000"
+      },
+      {
+        "label": "C",
+        "text": "$45,000"
+      },
+      {
+        "label": "D",
+        "text": "$20,000"
+      },
+      {
+        "label": "E",
+        "text": "$25,000"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Deposits fall to $750,000, so required reserves are $75,000. Actual reserves fall to $100,000, leaving $25,000 in excess reserves.",
+    "reference": "POL-2.A | POL-2.A.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "A banking system has a 10 percent required reserve ratio and initially receives $100 million of new reserves. Banks lend all excess reserves in the first round, but in every later round banks voluntarily retain an additional share of funds as excess reserves. Relative to the simple maximum, which outcome is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The actual money-supply increase is independent of banks’ reserve-holding behavior."
+      },
+      {
+        "label": "B",
+        "text": "The actual money-supply increase is exactly $100 million because lending cannot create deposits."
+      },
+      {
+        "label": "C",
+        "text": "The actual money-supply increase must equal exactly $1 billion."
+      },
+      {
+        "label": "D",
+        "text": "The actual money-supply increase is less than $1 billion."
+      },
+      {
+        "label": "E",
+        "text": "The actual money-supply increase must exceed $1 billion."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The simple maximum is $100 million × 10 = $1 billion. Voluntary excess-reserve holdings in later rounds interrupt full re-lending, so the realized increase must be smaller than that maximum.",
+    "reference": "POL-2.A | POL-2.A.4-POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "A banking system with a 20 percent required reserve ratio receives $50 million of new reserves. Under the simple maximum-expansion assumptions, the maximum money-supply increase is $250 million. If the observed increase is only $180 million, which explanation is most consistent with Topic 4.4?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The monetary base must have fallen by $70 million during the expansion."
+      },
+      {
+        "label": "B",
+        "text": "Banks must have counted checkable deposits as assets rather than liabilities."
+      },
+      {
+        "label": "C",
+        "text": "The required reserve ratio must have been negative during the expansion."
+      },
+      {
+        "label": "D",
+        "text": "Some banks held excess reserves, some of the public held currency, or both."
+      },
+      {
+        "label": "E",
+        "text": "The maximum multiplier formula must be 1 divided by excess reserves rather than required reserves."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The simple maximum assumes complete lending and redepositing. An observed expansion below $250 million is consistent with excess-reserve holdings or currency leakage reducing subsequent lending rounds.",
+    "reference": "POL-2.A | POL-2.A.7-POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "A system’s maximum simple money multiplier is 8. If the public begins holding more currency while the required reserve ratio is unchanged, which combination is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The maximum simple multiplier remains 8, but the actual multiplier falls below its prior value."
+      },
+      {
+        "label": "B",
+        "text": "Both multipliers remain exactly 8 because currency holdings do not affect money expansion."
+      },
+      {
+        "label": "C",
+        "text": "The maximum simple multiplier rises above 8 because currency is part of the monetary base."
+      },
+      {
+        "label": "D",
+        "text": "Both the maximum and actual multipliers must rise above 8."
+      },
+      {
+        "label": "E",
+        "text": "The maximum simple multiplier falls below 8, while the actual multiplier must remain 8."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The maximum simple multiplier depends on the required reserve ratio, which is unchanged. Greater currency leakage reduces redepositing and therefore can lower the actual multiplier without changing the simple maximum.",
+    "reference": "POL-2.A | POL-2.A.5-POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "A $20,000 new reserve injection enters a system with a 10 percent required reserve ratio. The simple maximum increase in money supply is $200,000. Suppose only 80 percent of each loan is redeposited and 20 percent is held as currency. Without calculating the exact final expansion, which statement is necessarily true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The actual increase is independent of redeposit behavior once the first loan is made."
+      },
+      {
+        "label": "B",
+        "text": "The actual increase equals $20,000 because deposits cannot be created by lending."
+      },
+      {
+        "label": "C",
+        "text": "The actual increase is less than $200,000 because currency leakage reduces each subsequent lending round."
+      },
+      {
+        "label": "D",
+        "text": "The actual increase exceeds $200,000 because currency is part of the monetary base."
+      },
+      {
+        "label": "E",
+        "text": "The actual increase equals $200,000 because the required reserve ratio fixes expansion exactly."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The $200,000 figure requires complete redepositing of loan proceeds. Holding 20 percent as currency removes funds from later reserve-based lending rounds, so actual expansion must be smaller.",
+    "reference": "POL-2.A | POL-2.A.7-POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "A bank’s balance sheet shows $300,000 in reserves, $1.7 million in loans, and $2.0 million in checkable deposits. If the required reserve ratio is 12 percent, how much can the bank lend while still retaining $20,000 in voluntary excess reserves?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$60,000"
+      },
+      {
+        "label": "B",
+        "text": "$20,000"
+      },
+      {
+        "label": "C",
+        "text": "$240,000"
+      },
+      {
+        "label": "D",
+        "text": "$280,000"
+      },
+      {
+        "label": "E",
+        "text": "$40,000"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Required reserves are 0.12 × $2.0 million = $240,000, leaving $60,000 in total excess reserves. Retaining $20,000 voluntarily leaves $40,000 available for new lending.",
+    "reference": "POL-2.A | POL-2.A.1-POL-2.A.4 | POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "A bank has $400,000 in deposits and $60,000 in reserves with a 10 percent required reserve ratio. It makes a $15,000 loan by crediting a new checking deposit. Ignoring subsequent transfers to other banks, what are total deposits immediately after the loan and the required reserves against those deposits?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Deposits = $385,000; required reserves = $38,500"
+      },
+      {
+        "label": "B",
+        "text": "Deposits = $400,000; required reserves = $41,500"
+      },
+      {
+        "label": "C",
+        "text": "Deposits = $415,000; required reserves = $41,500"
+      },
+      {
+        "label": "D",
+        "text": "Deposits = $415,000; required reserves = $55,000"
+      },
+      {
+        "label": "E",
+        "text": "Deposits = $415,000; required reserves = $40,000"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Crediting the loan creates a new $15,000 checkable deposit, raising deposits to $415,000. At a 10 percent requirement, required reserves against that deposit total are $41,500.",
+    "reference": "POL-2.A | POL-2.A.1-POL-2.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "A bank has $600,000 in deposits and $80,000 in reserves under a 10 percent required reserve ratio. It makes a new $20,000 loan by crediting a deposit account. Before the borrower spends the funds, which statement about the bank’s reserve position is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Required reserves fall to $58,000, leaving $22,000 in excess reserves."
+      },
+      {
+        "label": "B",
+        "text": "Required reserves rise to $62,000, leaving $18,000 in reserves above the requirement."
+      },
+      {
+        "label": "C",
+        "text": "Required reserves rise to $82,000, leaving the bank $2,000 short."
+      },
+      {
+        "label": "D",
+        "text": "Required reserves rise to $80,000, leaving no excess reserves."
+      },
+      {
+        "label": "E",
+        "text": "Required reserves remain $60,000, leaving $20,000 in excess reserves."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The loan raises checkable deposits from $600,000 to $620,000 while reserves remain $80,000 before funds leave the bank. Required reserves become 10 percent of $620,000, or $62,000, leaving $18,000 above the requirement.",
+    "reference": "POL-2.A | POL-2.A.1-POL-2.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "A borrower repays $25,000 of a bank loan using funds in a checking account at the same bank. The required reserve ratio is 12 percent. By how much do the bank’s required reserves change as a result of the repayment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "They decrease by $22,000."
+      },
+      {
+        "label": "B",
+        "text": "They decrease by $12,000."
+      },
+      {
+        "label": "C",
+        "text": "They increase by $3,000."
+      },
+      {
+        "label": "D",
+        "text": "They decrease by $3,000."
+      },
+      {
+        "label": "E",
+        "text": "They are unchanged because loan repayment affects only assets."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The repayment reduces checkable deposits by $25,000. Required reserves therefore fall by 0.12 × $25,000 = $3,000.",
+    "reference": "POL-2.A | POL-2.A.1-POL-2.A.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "A system has a monetary base of $500 billion and an actual money multiplier of 6. Banks then increase excess-reserve holdings so that the actual multiplier falls to 5 while the monetary base is unchanged. What happens to the money supply?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls from $3.0 trillion to $0.5 trillion."
+      },
+      {
+        "label": "B",
+        "text": "It falls from $3.0 trillion to $2.5 trillion."
+      },
+      {
+        "label": "C",
+        "text": "It rises from $3.0 trillion to $3.5 trillion."
+      },
+      {
+        "label": "D",
+        "text": "It remains $3.0 trillion because the monetary base is unchanged."
+      },
+      {
+        "label": "E",
+        "text": "It rises from $2.5 trillion to $3.0 trillion."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Initially, money supply is 6 × $500 billion = $3.0 trillion. With the multiplier at 5 and the same base, money supply is $2.5 trillion, a $500 billion decline.",
+    "reference": "POL-2.A | POL-2.A.5-POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "A system has a monetary base of $750 billion and an actual money multiplier of 4. If redepositing increases and the multiplier rises to 4.8 with the base unchanged, what is the new money supply?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$4.8 trillion"
+      },
+      {
+        "label": "B",
+        "text": "$4.05 trillion"
+      },
+      {
+        "label": "C",
+        "text": "$3.0 trillion"
+      },
+      {
+        "label": "D",
+        "text": "$3.6 trillion"
+      },
+      {
+        "label": "E",
+        "text": "$2.4 trillion"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The new money supply is 4.8 × $750 billion = $3.6 trillion. More complete redepositing can raise the actual multiplier by allowing more rounds of bank lending.",
+    "reference": "POL-2.A | POL-2.A.5-POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "A bank with a 25 percent required reserve ratio receives a $40,000 new deposit. It lends the maximum permitted amount, and 80 percent of the loan is redeposited at another bank. How much excess reserves does the second bank obtain from that redeposit, assuming it had no preexisting excess reserves?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$30,000"
+      },
+      {
+        "label": "B",
+        "text": "$18,000"
+      },
+      {
+        "label": "C",
+        "text": "$32,000"
+      },
+      {
+        "label": "D",
+        "text": "$24,000"
+      },
+      {
+        "label": "E",
+        "text": "$6,000"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The first bank lends 75 percent of $40,000, or $30,000. Eighty percent is redeposited, giving the second bank $24,000; it must keep 25 percent ($6,000), leaving $18,000 in excess reserves.",
+    "reference": "POL-2.A | POL-2.A.2-POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "The simplified balance sheet below applies to a bank with a 20 percent required reserve ratio. Deposits then increase by $100,000, but reserves increase by only $10,000. What is the bank’s new excess-reserve amount?\n\nAssets\n\nAmount\n\nLiabilities\n\nAmount\n\nReserves\n\n$100,000\n\nCheckable deposits\n\n$400,000\n\nLoans\n\n$300,000",
+    "options": [
+      {
+        "label": "A",
+        "text": "$10,000"
+      },
+      {
+        "label": "B",
+        "text": "$30,000"
+      },
+      {
+        "label": "C",
+        "text": "$0"
+      },
+      {
+        "label": "D",
+        "text": "$20,000"
+      },
+      {
+        "label": "E",
+        "text": "$50,000"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Initially, required reserves are $80,000, leaving $20,000 excess. New deposits of $500,000 require $100,000; reserves rise to $110,000, leaving $10,000 excess.",
+    "reference": "POL-2.A | POL-2.A.1-POL-2.A.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "A banking system’s simple maximum money multiplier is 5. Its actual multiplier is 3.5 and its money supply is $2.8 trillion. What is the monetary base?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$560 billion"
+      },
+      {
+        "label": "B",
+        "text": "$800 billion"
+      },
+      {
+        "label": "C",
+        "text": "$700 billion"
+      },
+      {
+        "label": "D",
+        "text": "$1.4 trillion"
+      },
+      {
+        "label": "E",
+        "text": "$1.0 trillion"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The monetary base is money supply divided by the actual multiplier: $2.8 trillion ÷ 3.5 = $0.8 trillion. The simple maximum of 5 is not used to compute the observed base because the actual multiplier is given.",
+    "reference": "POL-2.A | POL-2.A.5-POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "A banking system has a required reserve ratio of 20 percent and an actual money multiplier of 3. The monetary base is $1 trillion. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The money supply is $1 trillion because the monetary base and money supply must be equal."
+      },
+      {
+        "label": "B",
+        "text": "The money supply is $5 trillion because the required reserve ratio determines the actual multiplier exactly."
+      },
+      {
+        "label": "C",
+        "text": "The money supply is $300 billion because the multiplier is applied as a percentage."
+      },
+      {
+        "label": "D",
+        "text": "The money supply is $8 trillion because the actual and maximum multipliers are added together."
+      },
+      {
+        "label": "E",
+        "text": "The money supply is $3 trillion, below the $5 trillion implied by the simple maximum multiplier."
+      }
+    ],
+    "answer": "E",
+    "explanation": "The actual money supply is 3 × $1 trillion = $3 trillion. The simple maximum multiplier is 1/0.20 = 5, which would imply a $5 trillion maximum under full lending and redepositing.",
+    "reference": "POL-2.A | POL-2.A.5-POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "A bank’s total reserves are $96,000. Its checkable deposits are $600,000, and it wants to retain $6,000 in excess reserves. What required reserve ratio is consistent with that reserve position?",
+    "options": [
+      {
+        "label": "A",
+        "text": "15 percent"
+      },
+      {
+        "label": "B",
+        "text": "12 percent"
+      },
+      {
+        "label": "C",
+        "text": "10 percent"
+      },
+      {
+        "label": "D",
+        "text": "16 percent"
+      },
+      {
+        "label": "E",
+        "text": "17 percent"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Required reserves must be $96,000 - $6,000 = $90,000. $90,000 ÷ $600,000 = 0.15, or 15 percent.",
+    "reference": "POL-2.A | POL-2.A.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "A bank has $2 million in deposits, $260,000 in reserves, and a 10 percent required reserve ratio. It loses $300,000 in deposits and $50,000 in reserves. Which statement is correct after the changes?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The bank is $40,000 below required reserves."
+      },
+      {
+        "label": "B",
+        "text": "The bank has no excess reserves because both deposits and reserves fell."
+      },
+      {
+        "label": "C",
+        "text": "The bank has $10,000 in excess reserves."
+      },
+      {
+        "label": "D",
+        "text": "The bank has $60,000 in excess reserves."
+      },
+      {
+        "label": "E",
+        "text": "The bank has $40,000 in excess reserves."
+      }
+    ],
+    "answer": "E",
+    "explanation": "New deposits are $1.7 million, so required reserves are $170,000. New actual reserves are $210,000, leaving $40,000 in excess reserves.",
+    "reference": "POL-2.A | POL-2.A.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "Assume two banking systems have the same monetary base and the same required reserve ratio. System A has a larger observed money supply than system B. Which conclusion follows directly from the money-multiplier relationship?",
+    "options": [
+      {
+        "label": "A",
+        "text": "System A must have a larger required reserve ratio than system B."
+      },
+      {
+        "label": "B",
+        "text": "System B must have a larger maximum simple multiplier than system A."
+      },
+      {
+        "label": "C",
+        "text": "System A has a larger actual money multiplier than system B."
+      },
+      {
+        "label": "D",
+        "text": "System B must have more required reserves than total reserves."
+      },
+      {
+        "label": "E",
+        "text": "System A must have fewer bank assets than system B."
+      }
+    ],
+    "answer": "C",
+    "explanation": "With the same monetary base, money supply equals the actual multiplier times the base. A larger observed money supply therefore implies a larger actual multiplier.",
+    "reference": "POL-2.A | POL-2.A.5-POL-2.A.6 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "Assume two banking systems have the same money supply but system A has a smaller monetary base than system B. Which statement must be true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "System A has a larger actual money multiplier."
+      },
+      {
+        "label": "B",
+        "text": "System A must have a larger required reserve ratio."
+      },
+      {
+        "label": "C",
+        "text": "System B must have no excess reserves."
+      },
+      {
+        "label": "D",
+        "text": "System A has a smaller actual money multiplier."
+      },
+      {
+        "label": "E",
+        "text": "Both systems have the same actual money multiplier."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The multiplier equals money supply divided by monetary base. With the same numerator, the system with the smaller monetary base has the larger multiplier.",
+    "reference": "POL-2.A | POL-2.A.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "A bank receives a $100,000 deposit in a system with a 10 percent required reserve ratio. It holds $20,000 as voluntary excess reserves in addition to required reserves and lends the rest. If the entire loan is redeposited at another bank, what is the second bank’s required reserve amount on that deposit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$3,000"
+      },
+      {
+        "label": "B",
+        "text": "$10,000"
+      },
+      {
+        "label": "C",
+        "text": "$7,000"
+      },
+      {
+        "label": "D",
+        "text": "$8,000"
+      },
+      {
+        "label": "E",
+        "text": "$9,000"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The first bank keeps $10,000 required plus $20,000 voluntary excess, so it lends $70,000. The next bank receives a $70,000 deposit and must hold 10 percent, or $7,000, as required reserves.",
+    "reference": "POL-2.A | POL-2.A.3-POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "A system with a 10 percent required reserve ratio has a simple maximum multiplier of 10. After a reserve increase, banks hold substantial excess reserves and the public holds additional currency. Which statement best distinguishes the calculated maximum from the likely actual outcome?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The actual multiplier must remain 10 because the required reserve ratio fixes all bank and public behavior."
+      },
+      {
+        "label": "B",
+        "text": "The maximum falls below 10 automatically whenever the public holds currency, even though the reserve ratio is unchanged."
+      },
+      {
+        "label": "C",
+        "text": "The reciprocal formula still gives 10 as the maximum, but the actual multiplier can be materially smaller."
+      },
+      {
+        "label": "D",
+        "text": "The actual multiplier must exceed 10 because excess reserves and currency are both part of the monetary base."
+      },
+      {
+        "label": "E",
+        "text": "The reciprocal formula must be replaced by money supply divided by excess reserves to obtain the maximum."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The required reserve ratio determines the simple maximum of 10. Excess reserves and currency leakage do not change that reciprocal calculation, but they reduce repeated lending and redepositing, so the realized multiplier can be lower.",
+    "reference": "POL-2.A | POL-2.A.5-POL-2.A.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": true
+  }
+]
