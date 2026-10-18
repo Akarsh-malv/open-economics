@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CourseArt } from "@/components/practice/course-art";
 import { practiceCourses } from "@/lib/practice/courses";
-import { practiceTopics } from "@/lib/practice/topics";
+import { getCoursePracticeTopics } from "@/lib/practice/topics";
 
 export async function generateMetadata({
   params,
@@ -12,7 +12,7 @@ export async function generateMetadata({
 }) {
   const { course } = await params;
   return {
-    title: `${practiceCourses.find((c) => c.slug === course)?.name ?? "Course"} Practice | Open Economics`,
+    title: `${practiceCourses.find((c) => c.slug === course)?.name ?? "Course"} Practice`,
   };
 }
 
@@ -24,6 +24,7 @@ export default async function CoursePracticePage({
   const { course: slug } = await params;
   const course = practiceCourses.find((c) => c.slug === slug);
   if (!course) notFound();
+  const practiceTopics = getCoursePracticeTopics(slug);
   return (
     <div className="practice-container">
       <nav className="practice-breadcrumb" aria-label="Breadcrumb">
@@ -61,7 +62,7 @@ export default async function CoursePracticePage({
               .toLocaleString()}{" "}
             questions · Organized by unit
           </p>
-          {[1, 2, 3, 4].map((unit) => {
+          {Array.from(new Set(practiceTopics.map((topic) => topic.unit))).map((unit) => {
             const topics = practiceTopics.filter(
               (topic) => topic.unit === unit,
             );
@@ -80,7 +81,7 @@ export default async function CoursePracticePage({
                   {topics.map((topic) => (
                     <Link
                       key={topic.slug}
-                      href={`/practice/ap-macro/${topic.slug}`}
+                      href={`/practice/${slug}/${topic.slug}`}
                       className="practice-topic-row"
                     >
                       <span className="practice-topic-number">
@@ -88,15 +89,15 @@ export default async function CoursePracticePage({
                       </span>
                       <div>
                         <div className="practice-topic-kicker">
-                          TOPIC {topic.number} <span>100 QUESTIONS</span>
+                          TOPIC {topic.number} <span>{topic.count} QUESTIONS</span>
                         </div>
                         <h3>{topic.title}</h3>
                         <p>
-                          Easy to hard <span>·</span> Revised explanations
+                          Practice questions <span>·</span> Answer explanations
                           {topic.graphs > 0 && (
                             <>
                               {" "}
-                              <span>·</span> Static diagrams
+                              <span>·</span> Diagrams
                             </>
                           )}
                         </p>

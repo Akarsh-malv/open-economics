@@ -5,6 +5,7 @@ preserves questions, options, answer letters, revised explanations and CED notes
 """
 
 from collections import Counter
+import argparse
 from io import BytesIO
 import json
 from pathlib import Path
@@ -14,7 +15,6 @@ import zipfile
 import xml.etree.ElementTree as ET
 
 sys.stdout.reconfigure(encoding="utf-8")
-SOURCE = Path(r"C:\Users\akars\Downloads\Revised Question Bank-20261010T204801Z-1-001.zip")
 DEST = Path(__file__).resolve().parents[1] / "lib" / "practice" / "topics"
 NAMESPACES = {"w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main"}
 QUESTION = re.compile(r"^Question\s+(\d+)(?:\s*[—–-]?\s*(Easy|Medium|Hard))?\s*$", re.I)
@@ -25,6 +25,8 @@ UNIT_NAMES = {
     2: "Economic indicators and the business cycle",
     3: "National income and price determination",
     4: "Financial sector",
+    5: "Long-run consequences of stabilization policies",
+    6: "Open economy—international trade and finance",
 }
 
 
@@ -110,26 +112,46 @@ def topic_title(lines: list[str], slug: str) -> str:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("sources", nargs="+", type=Path, help="DOCX files or ZIP bundles")
+    parser.add_argument("--replace", action="store_true", help="Explicitly replace existing audited banks")
+    args = parser.parse_args()
     DEST.mkdir(parents=True, exist_ok=True)
-    manifest = []
-    with zipfile.ZipFile(SOURCE) as bundle:
-        files = sorted(name for name in bundle.namelist() if name.endswith(".docx"))
-        for name in files:
+    manifest_path = DEST / "manifest.json"
+    manifest = json.loads(manifest_path.read_text()) if manifest_path.exists() else []
+    documents = []
+    for source in args.sources:
+        if source.suffix.lower() == ".docx":
+            documents.append((source.name, source.read_bytes()))
+        elif source.suffix.lower() == ".zip":
+            with zipfile.ZipFile(source) as bundle:
+                documents.extend((name, bundle.read(name)) for name in sorted(bundle.namelist()) if name.endswith(".docx"))
+        else:
+            parser.error(f"Unsupported source: {source}")
+    parsed = []
+    for name, data in documents:
             match = FILE_TOPIC.search(name)
             assert match, name
             unit, topic = int(match.group(1)), int(match.group(2))
             slug = f"{unit}-{topic}"
-            with zipfile.ZipFile(BytesIO(bundle.read(name))) as doc:
+            with zipfile.ZipFile(BytesIO(data)) as doc:
                 lines = paragraphs(doc)
                 assert not [n for n in doc.namelist() if n.startswith("word/media/")], (slug, "embedded media")
             questions = parse_bank(lines, slug)
             title = topic_title(lines, slug)
-            (DEST / f"{slug}.json").write_text(json.dumps(questions, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-            manifest.append({"slug": slug, "number": slug.replace("-", "."), "unit": unit,
+            if (DEST / f"{slug}.json").exists() and not args.replace:
+                parser.error(f"{slug} already exists; use --replace only after reviewing the incoming bank")
+            if any(item[0] == slug for item in parsed):
+                parser.error(f"Duplicate source topic: {slug}")
+            parsed.append((slug, questions, {"slug": slug, "number": slug.replace("-", "."), "unit": unit,
                              "unitName": UNIT_NAMES[unit], "title": title, "count": len(questions),
-                             "graphs": sum(bool(q["graphRequired"]) for q in questions)})
-            print(f"{slug:4}  {title[:46]:46}  {dict(Counter(q['difficulty'] for q in questions))}  graphs={manifest[-1]['graphs']}")
-    assert len(manifest) == 29
+                             "graphs": sum(bool(q["graphRequired"]) for q in questions)}))
+    # Parse and validate every input before writing any bank.
+    for slug, questions, item in parsed:
+        (DEST / f"{slug}.json").write_text(json.dumps(questions, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        manifest = [entry for entry in manifest if entry["slug"] != slug] + [item]
+        print(f"{slug}: {len(questions)} questions")
+    manifest.sort(key=lambda item: tuple(map(int, item["slug"].split("-"))))
     (DEST / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     imports = "\n".join(f'  "{item["slug"]}": () => import("./topics/{item["slug"]}.json"),' for item in manifest)
     (DEST.parent / "topic-imports.ts").write_text(

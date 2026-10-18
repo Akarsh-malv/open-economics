@@ -1,0 +1,2965 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "Which statement best distinguishes income from wealth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Income and wealth are both annual flows."
+      },
+      {
+        "label": "B",
+        "text": "Income includes wages; wealth includes all other annual receipts."
+      },
+      {
+        "label": "C",
+        "text": "Income is a flow; wealth is a stock."
+      },
+      {
+        "label": "D",
+        "text": "Income is a stock; wealth is an annual flow."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Income is measured per period, such as wages per week or interest per year. Wealth is the accumulated value of assets, such as property, savings and shares, measured at a particular point in time.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.1 difference between income as a flow concept and wealth as a stock concept | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "Which is an example of wealth rather than income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The salary earned each month from the individual’s current employment during the year"
+      },
+      {
+        "label": "B",
+        "text": "The value of a house owned by an individual"
+      },
+      {
+        "label": "C",
+        "text": "The rent received from a tenant during the year"
+      },
+      {
+        "label": "D",
+        "text": "The annual interest received on savings"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A house is an asset and forms part of a person’s stock of wealth. Salary, interest and rent received are flows of income over a period.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.1 difference between income as a flow concept and wealth as a stock concept | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "Which is an example of income rather than wealth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The balance in a savings account"
+      },
+      {
+        "label": "B",
+        "text": "The market value of the individual’s shareholdings on a specified date, before any dividend payment"
+      },
+      {
+        "label": "C",
+        "text": "The value of land owned"
+      },
+      {
+        "label": "D",
+        "text": "Dividends received from shares during the year"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Dividends are a flow received from ownership of shares. The shares themselves, savings balances and land are assets and therefore part of wealth.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.1 difference between income as a flow concept and wealth as a stock concept | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "A person has $40 000 in a bank account and receives $1200 interest during the year. How should these be classified?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$40 000 is wealth; $1200 is income."
+      },
+      {
+        "label": "B",
+        "text": "The $40 000 account balance and the $1200 received during the year are both flows of income."
+      },
+      {
+        "label": "C",
+        "text": "$40 000 is income; $1200 is wealth."
+      },
+      {
+        "label": "D",
+        "text": "$40 000 and $1200 are both wealth."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The bank balance is a stock of financial assets at a point in time. Interest is a flow earned from that asset during the year.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.1 difference between income as a flow concept and wealth as a stock concept | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "Why can a person with substantial wealth have a relatively low current income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Assets may be valuable without generating much current income."
+      },
+      {
+        "label": "B",
+        "text": "Wealth must be smaller than the individual's annual income."
+      },
+      {
+        "label": "C",
+        "text": "Income and wealth must always rise in the same proportions."
+      },
+      {
+        "label": "D",
+        "text": "Asset values must automatically be paid out as annual wages."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Wealth measures the value of assets, not the size of current receipts. A valuable house, for example, may form a large part of wealth without generating a cash income for its owner.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.1 difference between income as a flow concept and wealth as a stock concept | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "How can wealth generate income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Assets generate receipts such as rent, interest and dividends."
+      },
+      {
+        "label": "B",
+        "text": "Assets generate receipts only when the government taxes their value."
+      },
+      {
+        "label": "C",
+        "text": "Assets must disappear whenever their owners receive an income payment."
+      },
+      {
+        "label": "D",
+        "text": "Assets are created automatically whenever individuals receive wage payments."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Ownership of assets can create income streams. Property may earn rent, bank deposits may earn interest and shares may pay dividends.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.1 difference between income as a flow concept and wealth as a stock concept | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "Which measurement is a stock concept?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The total pension payments received by the household during December and accumulated across the rest of the current year."
+      },
+      {
+        "label": "B",
+        "text": "The wages earned by a household during December."
+      },
+      {
+        "label": "C",
+        "text": "The interest received by a household during December."
+      },
+      {
+        "label": "D",
+        "text": "The assets owned by a household on 31 December."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A stock is measured at a particular date. Wages, interest and pensions are flows measured over a period.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.1 difference between income as a flow concept and wealth as a stock concept | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "A government pays an unemployment benefit each week. For the recipient, the payment is best described as",
+    "options": [
+      {
+        "label": "A",
+        "text": "A stock of wealth measured at one date."
+      },
+      {
+        "label": "B",
+        "text": "A physical asset owned at one date."
+      },
+      {
+        "label": "C",
+        "text": "A flow of income received over time."
+      },
+      {
+        "label": "D",
+        "text": "A tax on capital held over time."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A transfer payment is received during a period and therefore contributes to the recipient’s income flow, even though it is not a reward for providing a factor service.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.1 difference between income as a flow concept and wealth as a stock concept | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "What does a Gini coefficient measure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The share of the labour force currently without employment."
+      },
+      {
+        "label": "B",
+        "text": "The degree of inequality in an income or wealth distribution."
+      },
+      {
+        "label": "C",
+        "text": "The average real income received by each person in an economy."
+      },
+      {
+        "label": "D",
+        "text": "The growth rate of real output produced in an economy."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The Gini coefficient is a measure of how unequally income or wealth is distributed. It does not by itself measure average income, growth or unemployment.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.2 measuring income and wealth inequality: Gini coefficient (calculation not required) | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "Which Gini coefficient indicates the most equal distribution?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.57"
+      },
+      {
+        "label": "B",
+        "text": "0.22"
+      },
+      {
+        "label": "C",
+        "text": "0.74"
+      },
+      {
+        "label": "D",
+        "text": "0.38"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A lower Gini coefficient indicates a more equal distribution. A value closer to zero therefore represents less inequality.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.2 measuring income and wealth inequality: Gini coefficient (calculation not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "What does a Gini coefficient of 0 represent in theory?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Complete inequality in the measured distribution."
+      },
+      {
+        "label": "B",
+        "text": "Complete equality in the measured distribution."
+      },
+      {
+        "label": "C",
+        "text": "Zero income earned throughout the economy."
+      },
+      {
+        "label": "D",
+        "text": "Zero wealth owned throughout the economy."
+      }
+    ],
+    "answer": "B",
+    "explanation": "At the theoretical lower bound of zero, the relevant income or wealth is distributed equally. The coefficient describes distribution, not the total amount available.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.2 measuring income and wealth inequality: Gini coefficient (calculation not required) | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "A country’s Gini coefficient falls from 0.46 to 0.39. What can be concluded?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The distribution has become more equal."
+      },
+      {
+        "label": "B",
+        "text": "Average income has fallen."
+      },
+      {
+        "label": "C",
+        "text": "The distribution has become more unequal."
+      },
+      {
+        "label": "D",
+        "text": "Every household must have become richer because a reduction in measured inequality necessarily raises all individual incomes."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A fall in the Gini coefficient indicates a reduction in inequality. It does not reveal whether average income rose or fell or whether every household gained.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.2 measuring income and wealth inequality: Gini coefficient (calculation not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "Country X has a Gini coefficient of 0.31 and country Y has a coefficient of 0.48. What can be concluded?",
+    "options": [
+      {
+        "label": "A",
+        "text": "X necessarily has higher average income."
+      },
+      {
+        "label": "B",
+        "text": "X has the more equal measured distribution."
+      },
+      {
+        "label": "C",
+        "text": "Y necessarily has a larger total population."
+      },
+      {
+        "label": "D",
+        "text": "Y has the more equal measured distribution."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The Gini coefficient ranks the degree of inequality. It gives no direct information about the average level of income, the income of particular people or population size.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.2 measuring income and wealth inequality: Gini coefficient (calculation not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "Two economies have the same Gini coefficient. Which statement must be correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Their average incomes are identical."
+      },
+      {
+        "label": "B",
+        "text": "Every household in both economies receives exactly the same income because equal coefficients imply complete equality."
+      },
+      {
+        "label": "C",
+        "text": "Their measured inequality is equal despite possibly different incomes."
+      },
+      {
+        "label": "D",
+        "text": "Their total asset values are identical."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Identical Gini coefficients indicate the same measured degree of inequality, not identical income levels or identical distributions in every detail.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.2 measuring income and wealth inequality: Gini coefficient (calculation not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "Which change is most likely to increase income inequality?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Narrowing wage differences through greater access to qualifications."
+      },
+      {
+        "label": "B",
+        "text": "Reducing disposable-income differences through a more progressive income-tax schedule while other income sources remain unchanged."
+      },
+      {
+        "label": "C",
+        "text": "Narrowing income differences through reduced long-term unemployment."
+      },
+      {
+        "label": "D",
+        "text": "Widening wage differences between high-skilled and low-skilled workers."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A larger wage differential directly widens earned-income differences. Better qualifications, lower unemployment and more progressive taxation would normally work in the opposite direction.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "Why can unemployment increase income inequality?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unemployment makes income taxation progressively more equal."
+      },
+      {
+        "label": "B",
+        "text": "Unemployment raises every employed worker's earnings equally."
+      },
+      {
+        "label": "C",
+        "text": "Unemployment turns earned income into accumulated wealth."
+      },
+      {
+        "label": "D",
+        "text": "Unemployment reduces affected households' earned income sharply."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Those without work lose wages or salaries and may depend on lower transfer payments, widening the income gap between employed and unemployed households.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "Why can unequal ownership of assets lead to income inequality?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Assets prevent their owners from receiving any income."
+      },
+      {
+        "label": "B",
+        "text": "Assets remove the trade-offs between alternative productive uses."
+      },
+      {
+        "label": "C",
+        "text": "Households without assets necessarily earn greater wages than asset owners, because fewer assets guarantee higher labour earnings."
+      },
+      {
+        "label": "D",
+        "text": "Assets generate income through rent, interest and dividends."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Wealth can generate income. If asset ownership is concentrated, the associated flows of property and financial income will also tend to be concentrated.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "How can inheritance contribute to wealth inequality?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Inheritance turns accumulated assets into current wage payments."
+      },
+      {
+        "label": "B",
+        "text": "Inheritance distributes identical asset holdings to every household."
+      },
+      {
+        "label": "C",
+        "text": "Inheritance transfers concentrated asset holdings across generations."
+      },
+      {
+        "label": "D",
+        "text": "Inheritance reduces all wealth distributions to complete equality."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Inheritance can preserve or widen differences in asset ownership because some households receive substantial wealth while others receive little or none.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "Which factor is most likely to widen wage inequality?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A reduction in skill shortages"
+      },
+      {
+        "label": "B",
+        "text": "Improved access to vocational training that permits low-paid workers to obtain the skills demanded in higher-paid occupations"
+      },
+      {
+        "label": "C",
+        "text": "Poor access to vocational training for low-paid workers"
+      },
+      {
+        "label": "D",
+        "text": "An increase in employment opportunities for the unemployed"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Limited training can keep productivity and employability low for some workers while skilled workers remain scarce and better paid, widening earnings differences.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "Which policy change is most likely to reduce inequality of disposable income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Making the income tax system more progressive"
+      },
+      {
+        "label": "B",
+        "text": "Reducing transfer payments to low-income households"
+      },
+      {
+        "label": "C",
+        "text": "Reducing the minimum wage"
+      },
+      {
+        "label": "D",
+        "text": "Raising the threshold at which inheritance tax begins to apply"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A more progressive income tax system takes a larger proportion of income from higher earners and tends to narrow differences in disposable income.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "What is the main redistribution objective of a minimum wage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To increase the market value of household assets."
+      },
+      {
+        "label": "B",
+        "text": "To reduce the total money circulating in the economy."
+      },
+      {
+        "label": "C",
+        "text": "To raise low-paid workers' earnings if they retain jobs."
+      },
+      {
+        "label": "D",
+        "text": "To prevent inherited asset holdings being transferred across generations by reducing the amount of wealth left in estates."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A minimum wage sets a legal floor for wages. If it raises the pay of low-paid workers without large job losses, it can reduce income inequality.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "What is a transfer payment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A payment without a current factor service."
+      },
+      {
+        "label": "B",
+        "text": "A payment for the use of land."
+      },
+      {
+        "label": "C",
+        "text": "A payment a firm makes to a lender as remuneration for providing the funds used in production."
+      },
+      {
+        "label": "D",
+        "text": "A payment for labour supplied to firms."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Transfer payments redistribute purchasing power rather than reward current production. Examples include unemployment benefits and some state pensions.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "Which statement describes a progressive income tax?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The proportion of income paid in tax falls as income rises."
+      },
+      {
+        "label": "B",
+        "text": "Each person pays the same amount of money in income tax, regardless of how much annual income that person receives."
+      },
+      {
+        "label": "C",
+        "text": "Only inherited assets are taxed."
+      },
+      {
+        "label": "D",
+        "text": "The proportion of income paid in tax rises as income rises."
+      }
+    ],
+    "answer": "D",
+    "explanation": "With progressive income taxation, higher-income earners pay a higher percentage of their income in tax, tending to narrow disposable-income differences.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "Which tax most directly targets wealth passed between generations?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A specific indirect tax"
+      },
+      {
+        "label": "B",
+        "text": "A sales tax"
+      },
+      {
+        "label": "C",
+        "text": "Income tax"
+      },
+      {
+        "label": "D",
+        "text": "Inheritance tax"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Inheritance tax is imposed on wealth transferred at death above the rules or thresholds set by government, so it can reduce the intergenerational concentration of wealth.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "What is a likely purpose of a capital tax in redistribution policy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To guarantee automatic increases in every transfer payment."
+      },
+      {
+        "label": "B",
+        "text": "To redistribute concentrated asset holdings or capital gains."
+      },
+      {
+        "label": "C",
+        "text": "To replace progressive income taxes with proportional taxes."
+      },
+      {
+        "label": "D",
+        "text": "To guarantee a statutory minimum hourly labour payment."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Capital taxes apply to capital or wealth-related assets or gains. They can reduce the after-tax accumulation of wealth among those holding larger asset stocks.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "How can state provision of essential health services reduce inequality?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Public finance removes the opportunity cost of health provision."
+      },
+      {
+        "label": "B",
+        "text": "Public provision lowers the price barrier to essential treatment."
+      },
+      {
+        "label": "C",
+        "text": "State financing automatically equalises the market value of every household’s assets without requiring any change in their ownership."
+      },
+      {
+        "label": "D",
+        "text": "Public provision equalises the money income of every household."
+      }
+    ],
+    "answer": "B",
+    "explanation": "State provision can redistribute in kind. Access to essential services no longer depends solely on ability to pay, and the benefit is often large relative to a low-income household’s income.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "What is a possible disadvantage of setting a minimum wage above the market equilibrium wage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Firms may reduce employment as labour becomes more costly."
+      },
+      {
+        "label": "B",
+        "text": "Firms must reduce hourly wages for every existing employee."
+      },
+      {
+        "label": "C",
+        "text": "Households must experience higher inequality in inherited asset values."
+      },
+      {
+        "label": "D",
+        "text": "All workers withdraw their labour at every possible wage because a legal minimum prevents them from receiving any higher wage."
+      }
+    ],
+    "answer": "A",
+    "explanation": "An effective minimum wage raises the cost of employing low-paid labour. If employers reduce the quantity of labour demanded, some workers may lose jobs, weakening the redistributive effect.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "How do transfer payments most directly reduce income inequality?",
+    "options": [
+      {
+        "label": "A",
+        "text": "They increase the disposable income of eligible recipients."
+      },
+      {
+        "label": "B",
+        "text": "They directly raise the market value of all household assets, including assets owned by recipients who receive no payment."
+      },
+      {
+        "label": "C",
+        "text": "They convert income into capital."
+      },
+      {
+        "label": "D",
+        "text": "They lower the legal minimum wage."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Cash transfers add to recipients’ disposable income. When targeted toward low-income households, they narrow the gap between lower and higher disposable incomes.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "Which feature makes an income tax system more progressive?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Identical tax percentages apply at every income level."
+      },
+      {
+        "label": "B",
+        "text": "Income taxes are levied exclusively on purchases of goods."
+      },
+      {
+        "label": "C",
+        "text": "Higher-income households pay larger percentages of their income."
+      },
+      {
+        "label": "D",
+        "text": "Lower-income households pay larger percentages of their income."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Progressivity is about the proportion of income paid in tax. The average tax rate rises with income.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "Why may free state education reduce inequality over time as well as immediately?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower access costs improve current welfare and future earnings."
+      },
+      {
+        "label": "B",
+        "text": "Free provision gives every household identical physical capital holdings."
+      },
+      {
+        "label": "C",
+        "text": "Free provision removes the scarcity of resources used in teaching."
+      },
+      {
+        "label": "D",
+        "text": "Lower access costs guarantee identical wages in every future occupation."
+      }
+    ],
+    "answer": "A",
+    "explanation": "State education is an in-kind benefit that reduces current access barriers. By improving human capital, it may also increase future earning opportunities for people from lower-income households.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 31,
+    "difficulty": "Medium",
+    "prompt": "A household receives wages of $36 000 a year, owns a house worth $240 000 and has savings of $20 000. Which statement is correct?\n| Item | Amount |\n| annual wages | $36 000 |\n| house value | $240 000 |\n| savings balance | $20 000 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Wages are income; house and savings are wealth."
+      },
+      {
+        "label": "B",
+        "text": "All three are income because they have money values."
+      },
+      {
+        "label": "C",
+        "text": "Only savings are wealth; the house has no asset value."
+      },
+      {
+        "label": "D",
+        "text": "House value is income; wages and savings are wealth."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Wages are measured over a year and are therefore an income flow. The house and savings are assets held at a point in time and form part of the household’s wealth.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.1 difference between income as a flow concept and wealth as a stock concept | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 32,
+    "difficulty": "Medium",
+    "prompt": "A person owns shares worth $80 000. Their market value rises to $92 000, but no shares are sold and no dividend is paid. What has happened?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Wealth is unchanged and share income rises by $12 000."
+      },
+      {
+        "label": "B",
+        "text": "Wealth and share income are unchanged at their original levels."
+      },
+      {
+        "label": "C",
+        "text": "Wealth is unchanged and a transfer payment is received."
+      },
+      {
+        "label": "D",
+        "text": "Wealth rises by $12 000 without share income being received."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The higher market value raises the stock value of the shares and therefore wealth. With no dividend or other receipt during the period, there is no current income flow from the shares.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.1 difference between income as a flow concept and wealth as a stock concept | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 33,
+    "difficulty": "Medium",
+    "prompt": "A household saves part of its current income each year. What is the most direct link between income and wealth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Saving reduces the value of accumulated household assets."
+      },
+      {
+        "label": "B",
+        "text": "Saving converts accumulated assets into current wage income."
+      },
+      {
+        "label": "C",
+        "text": "Saving makes household income identical to household wealth."
+      },
+      {
+        "label": "D",
+        "text": "Saving adds to the stock of accumulated household wealth."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Income is a flow, but income that is not consumed can be saved and added to financial assets. In this way repeated saving can accumulate wealth over time.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.1 difference between income as a flow concept and wealth as a stock concept | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "An elderly person owns a valuable mortgage-free home but receives only a small pension. Which conclusion is most accurate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The pension is part of wealth rather than income."
+      },
+      {
+        "label": "B",
+        "text": "The house value is a flow of income each year."
+      },
+      {
+        "label": "C",
+        "text": "The person must be both income-rich and wealth-rich."
+      },
+      {
+        "label": "D",
+        "text": "The person may be wealth-rich but income-poor."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A valuable house creates a high stock of wealth, while a small pension implies a low current income flow. Income and wealth therefore need not rank people in the same way.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.1 difference between income as a flow concept and wealth as a stock concept | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "Country A has an income Gini coefficient of 0.29 and a wealth Gini coefficient of 0.61. What does this show?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The country has a perfectly equal income distribution."
+      },
+      {
+        "label": "B",
+        "text": "Average wealth must be twice the average annual income."
+      },
+      {
+        "label": "C",
+        "text": "Wealth has greater measured inequality than the income distribution."
+      },
+      {
+        "label": "D",
+        "text": "Income has greater measured inequality than the wealth distribution."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The higher Gini coefficient indicates the more unequal distribution. The coefficients do not compare the absolute amounts of wealth and income.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.2 measuring income and wealth inequality: Gini coefficient (calculation not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "Country B has a Gini coefficient of 0.51 and country C has 0.34. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Average income must be higher in B."
+      },
+      {
+        "label": "B",
+        "text": "Every person in C has the same income."
+      },
+      {
+        "label": "C",
+        "text": "The measured distribution is more unequal in B than in C."
+      },
+      {
+        "label": "D",
+        "text": "Country B must have more wealth in total."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A higher Gini coefficient indicates greater inequality. It does not establish the average or total amount of income or wealth.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.2 measuring income and wealth inequality: Gini coefficient (calculation not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "A country’s Gini coefficient falls while its average income also falls. What can be concluded?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower average income invalidates the observed Gini coefficient."
+      },
+      {
+        "label": "B",
+        "text": "Relative inequality has fallen despite lower average income."
+      },
+      {
+        "label": "C",
+        "text": "Every household necessarily experiences the same income reduction."
+      },
+      {
+        "label": "D",
+        "text": "Lower average income necessarily raises relative income inequality."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The Gini coefficient concerns distribution, not average income. It is possible for an economy to become more equal while average income is falling.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.2 measuring income and wealth inequality: Gini coefficient (calculation not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "Real income per head doubles in an economy but its Gini coefficient is unchanged. What is consistent with this information?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The distribution has necessarily become more unequal."
+      },
+      {
+        "label": "B",
+        "text": "The Gini coefficient measures only the change in real income per head."
+      },
+      {
+        "label": "C",
+        "text": "The relative degree of income inequality is unchanged."
+      },
+      {
+        "label": "D",
+        "text": "All income differences have disappeared."
+      }
+    ],
+    "answer": "C",
+    "explanation": "An unchanged Gini coefficient means the measured relative inequality is unchanged. Average incomes can change substantially without the Gini coefficient changing.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.2 measuring income and wealth inequality: Gini coefficient (calculation not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "Two countries both have a Gini coefficient of 0.40. Country X has much higher income per head than country Y. Which conclusion is valid?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Y necessarily has greater wealth than X."
+      },
+      {
+        "label": "B",
+        "text": "X necessarily has lower inequality than Y."
+      },
+      {
+        "label": "C",
+        "text": "Every household receives the same annual income in both countries because identical Gini coefficients guarantee identical individual incomes."
+      },
+      {
+        "label": "D",
+        "text": "Measured inequality matches despite different average incomes."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Gini coefficients can be identical even when average income levels differ greatly. The measure captures relative distribution, not living standards by itself.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.2 measuring income and wealth inequality: Gini coefficient (calculation not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "The table shows Gini coefficients for four economies. Which economy has the most equal distribution?\n| Economy | Gini coefficient |\n| P | 0.46 |\n| Q | 0.39 |\n| R | 0.55 |\n| S | 0.24 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "R"
+      },
+      {
+        "label": "B",
+        "text": "S"
+      },
+      {
+        "label": "C",
+        "text": "P"
+      },
+      {
+        "label": "D",
+        "text": "Q"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The lowest Gini coefficient indicates the most equal distribution. Economy S has the smallest value, 0.24.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.2 measuring income and wealth inequality: Gini coefficient (calculation not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "A new technology greatly increases the productivity of highly trained workers but has little effect on low-skilled workers. What is the most likely effect, other things equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Low-skilled workers necessarily receive higher income from dividends."
+      },
+      {
+        "label": "B",
+        "text": "Differences in wealth necessarily disappear through technological progress."
+      },
+      {
+        "label": "C",
+        "text": "Skilled labour demand rises and may widen wage differentials."
+      },
+      {
+        "label": "D",
+        "text": "Differences in wages necessarily disappear through technological progress."
+      }
+    ],
+    "answer": "C",
+    "explanation": "If technology raises the productivity and derived demand for skilled labour more than for low-skilled labour, skilled wages may rise relative to other wages, increasing income inequality.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "Why can regional differences in employment opportunities create income inequality?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Fewer local jobs automatically raise everyone's asset values."
+      },
+      {
+        "label": "B",
+        "text": "Fewer local jobs can reduce employment and earnings."
+      },
+      {
+        "label": "C",
+        "text": "Employment opportunities affect assets without affecting income flows."
+      },
+      {
+        "label": "D",
+        "text": "Fewer local jobs automatically raise everyone's wage rates."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Where jobs are scarce, more people may be unemployed or accept lower-paid work. Regions with stronger labour demand can therefore have higher household incomes.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "Two workers have the same hourly wage, but one works 40 hours per week and the other 15 hours. What can this contribute to?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both workers earn the same total annual labour income because equal hourly wages eliminate the effect of different working hours."
+      },
+      {
+        "label": "B",
+        "text": "Different earned incomes despite identical hourly wage rates."
+      },
+      {
+        "label": "C",
+        "text": "Different definitions of wealth despite identical asset holdings."
+      },
+      {
+        "label": "D",
+        "text": "Different individual Gini coefficients despite identical wage rates."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Income from employment depends on both the wage rate and the amount of work supplied. Differences in hours worked can therefore create income differences even at the same hourly wage.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "Why can successful entrepreneurship contribute to income inequality?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Different entrepreneurial outcomes produce different profit incomes."
+      },
+      {
+        "label": "B",
+        "text": "Equal-profit rules require entrepreneurs to receive identical incomes."
+      },
+      {
+        "label": "C",
+        "text": "Entrepreneurs' profits represent asset stocks rather than income flows."
+      },
+      {
+        "label": "D",
+        "text": "Entrepreneurship prevents any differences in ownership of productive assets."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Returns to enterprise are uncertain. Successful entrepreneurs may receive substantial profits, creating income differences and, if retained, later wealth differences.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "A sharp rise in house and share prices mainly benefits households that already own these assets. What is the most likely distributional effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Wealth inequality decreases because all gains accrue to the concentrated existing owners while households without these assets receive nothing."
+      },
+      {
+        "label": "B",
+        "text": "Income inequality must disappear because existing owners receive capital gains."
+      },
+      {
+        "label": "C",
+        "text": "Non-owners receive the same capital gains as existing asset owners."
+      },
+      {
+        "label": "D",
+        "text": "Wealth inequality may increase when existing asset ownership is concentrated."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Capital gains raise the wealth of asset owners. If high-wealth households own a disproportionately large share of property and financial assets, rising asset prices can widen wealth inequality.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "Why can inheritance reinforce both wealth and income inequality?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Inherited property represents only a payment from government."
+      },
+      {
+        "label": "B",
+        "text": "Inherited property reduces asset holdings while increasing wage payments."
+      },
+      {
+        "label": "C",
+        "text": "Inherited property increases assets and can generate future income."
+      },
+      {
+        "label": "D",
+        "text": "Inherited property increases income without affecting the stock of wealth."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Inheritance adds directly to asset holdings. Those assets can then generate future income flows, so the initial wealth difference can also contribute to later income differences.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "A government cuts unemployment benefits while employment opportunities remain unchanged. What is the most likely effect on income inequality?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower benefits necessarily raise wages and reduce income differences."
+      },
+      {
+        "label": "B",
+        "text": "Lower benefits automatically increase the progressivity of income taxes."
+      },
+      {
+        "label": "C",
+        "text": "Lower benefits reduce unemployed incomes and may widen income differences."
+      },
+      {
+        "label": "D",
+        "text": "Lower benefits cannot affect income because benefits are asset stocks."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Transfer payments are part of recipients’ current income. Cutting them lowers the disposable income of affected households and can widen the gap with households receiving wages.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "Why might better access to education reduce income inequality over time?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Better education can improve skills and future earnings."
+      },
+      {
+        "label": "B",
+        "text": "Better education immediately guarantees identical household asset holdings."
+      },
+      {
+        "label": "C",
+        "text": "Better education converts income flows into permanent asset stocks."
+      },
+      {
+        "label": "D",
+        "text": "Better education eliminates every difference in firms' labour demand."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Education can improve human capital, occupational choice and productivity. Broader access may therefore reduce persistent wage gaps caused by unequal opportunities to acquire skills.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "Which combination is most likely to widen inequality of income and wealth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower unemployment combined with wider opportunities for vocational training."
+      },
+      {
+        "label": "B",
+        "text": "Higher low-skilled unemployment combined with concentrated asset-price gains."
+      },
+      {
+        "label": "C",
+        "text": "More progressive income taxes combined with larger low-income transfers."
+      },
+      {
+        "label": "D",
+        "text": "Higher retained-job wages combined with wider access to state education."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The first change lowers earned income for a vulnerable group while the second raises the wealth of existing asset owners, so both income and wealth inequality are likely to widen.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "A binding minimum wage is raised from $9 to $11 per hour. Which outcome would most strongly support the claim that it reduces income inequality?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Most workers previously earning the minimum wage lose their jobs, while only a small minority retain employment at the higher wage."
+      },
+      {
+        "label": "B",
+        "text": "Most low-paid workers face reduced unemployment benefit entitlement."
+      },
+      {
+        "label": "C",
+        "text": "Only workers already above the minimum receive higher wages."
+      },
+      {
+        "label": "D",
+        "text": "Most low-paid workers retain employment and receive higher wages."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A minimum wage redistributes income effectively when it raises earnings for low-paid workers without causing substantial job losses. Large employment losses can offset or reverse the intended effect.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "A minimum wage is set below the current equilibrium wage in a labour market. What is its most likely effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It raises all wages to the legal minimum."
+      },
+      {
+        "label": "B",
+        "text": "It reduces the wage of every worker."
+      },
+      {
+        "label": "C",
+        "text": "It creates an excess supply of labour."
+      },
+      {
+        "label": "D",
+        "text": "It has no direct effect on the market wage or employment."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A wage floor is binding only when set above the equilibrium wage. If the market wage is already higher, the legal minimum does not constrain the market.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "Why does the effect of a higher minimum wage on inequality depend partly on firms’ demand for labour?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A higher minimum wage necessarily raises labour demand."
+      },
+      {
+        "label": "B",
+        "text": "Labour demand can affect wealth but never income."
+      },
+      {
+        "label": "C",
+        "text": "Labour demand directly determines the numerical Gini coefficient."
+      },
+      {
+        "label": "D",
+        "text": "Lost jobs can reduce affected workers' earned income."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The policy raises hourly pay for workers who remain employed, but higher labour costs may reduce employment. The net distributional effect depends on the size and location of these job losses.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "A low-income household receives a transfer payment of $300 per month. What is the most direct effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Its accumulated wealth necessarily increases by exactly $300."
+      },
+      {
+        "label": "B",
+        "text": "Its statutory income tax rate automatically becomes progressive."
+      },
+      {
+        "label": "C",
+        "text": "Its hourly wage rate necessarily increases by $300."
+      },
+      {
+        "label": "D",
+        "text": "Its disposable income rises by $300 per month."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A cash transfer adds directly to current disposable income. Whether wealth rises depends on how much of the transfer is saved rather than spent.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "A government reduces transfer payments to low-income households but makes no other policy change. What is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Disposable-income inequality increases."
+      },
+      {
+        "label": "B",
+        "text": "Wealth becomes equally distributed."
+      },
+      {
+        "label": "C",
+        "text": "The minimum wage automatically rises."
+      },
+      {
+        "label": "D",
+        "text": "The Gini coefficient must become zero."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Lower transfers reduce the disposable income of recipients relative to other households, so the distribution is likely to become more unequal.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "The table shows income tax paid by two individuals. Which description is correct?\n| Person | Income | Income tax |\n| A | $20 000 | $2 000 |\n| B | $80 000 | $20 000 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher-income individuals pay a larger proportion of income in tax."
+      },
+      {
+        "label": "B",
+        "text": "Higher-income individuals pay a smaller proportion of income in tax."
+      },
+      {
+        "label": "C",
+        "text": "Tax payments have no effect on either individual's disposable income."
+      },
+      {
+        "label": "D",
+        "text": "Higher-income individuals pay the same proportion of income in tax."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Person A pays 10% of income in tax, while person B pays 25%. Because the proportion paid rises with income, the system is progressive.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "A government raises the income threshold below which no income tax is paid. Who is most directly protected by this change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only owners of financial assets"
+      },
+      {
+        "label": "B",
+        "text": "Only firms paying indirect taxes"
+      },
+      {
+        "label": "C",
+        "text": "People with relatively low taxable incomes"
+      },
+      {
+        "label": "D",
+        "text": "Only people inheriting large estates"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A higher tax-free threshold removes or reduces income tax for people near the bottom of the taxable income range, which can increase their disposable income relative to higher earners.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "A government lowers the threshold at which inheritance tax becomes payable while leaving the rate unchanged. What is the most likely direct effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Income becomes a stock concept."
+      },
+      {
+        "label": "B",
+        "text": "More inherited estates become subject to the tax."
+      },
+      {
+        "label": "C",
+        "text": "The minimum wage falls."
+      },
+      {
+        "label": "D",
+        "text": "Fewer inherited estates become liable because reducing the exemption threshold automatically excludes more assets from the tax."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A lower threshold brings more inheritances within the tax base. This can increase the extent to which inherited wealth is taxed.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "Which is a possible disadvantage of a high capital tax?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It necessarily raises inequality in the ownership of wealth."
+      },
+      {
+        "label": "B",
+        "text": "It necessarily lowers the legally enforceable minimum wage rate."
+      },
+      {
+        "label": "C",
+        "text": "It necessarily prevents government provision of essential public services."
+      },
+      {
+        "label": "D",
+        "text": "It may weaken incentives to save or invest in assets."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Capital taxes can reduce wealth concentration, but high rates may change saving and investment behaviour or encourage avoidance. Redistribution therefore has potential efficiency and revenue trade-offs.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "A government begins providing essential medical treatment free at the point of use. Why can this reduce inequality even if money incomes are unchanged?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An in-kind benefit removes the opportunity cost of medical resources."
+      },
+      {
+        "label": "B",
+        "text": "An in-kind benefit necessarily equalises every household’s monetary income."
+      },
+      {
+        "label": "C",
+        "text": "An in-kind benefit necessarily equalises every household’s accumulated wealth."
+      },
+      {
+        "label": "D",
+        "text": "An in-kind benefit is proportionately more valuable to poorer households."
+      }
+    ],
+    "answer": "D",
+    "explanation": "State provision redistributes access to real goods and services. The value of free essential treatment is often proportionately greater for lower-income households even if their cash income does not change.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "A government expands free secondary education in areas with low household incomes. Which long-run effect would best support redistribution?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Every household’s home reaches exactly the same market value because access to secondary education automatically equalises property ownership."
+      },
+      {
+        "label": "B",
+        "text": "Better qualifications improve opportunities for higher-paid employment."
+      },
+      {
+        "label": "C",
+        "text": "Workers stop supplying labour at every wage."
+      },
+      {
+        "label": "D",
+        "text": "All occupations begin offering identical wage rates."
+      }
+    ],
+    "answer": "B",
+    "explanation": "State education can reduce inequality of opportunity and improve skills. If this increases employability and earnings for lower-income groups, income inequality may fall over time.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "Which policy combination most directly targets both low earned income and high inherited wealth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A cut in transfer payments and a less progressive income tax"
+      },
+      {
+        "label": "B",
+        "text": "A lower minimum wage and a higher tax-free inheritance threshold"
+      },
+      {
+        "label": "C",
+        "text": "A higher effective minimum wage and a stronger inheritance tax"
+      },
+      {
+        "label": "D",
+        "text": "Higher state charges for essential health services and a lower capital tax"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A minimum wage targets low pay in the labour market, while inheritance tax targets transfers of accumulated wealth between generations.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "Which combination is most likely to reduce inequality without directly changing market wages?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower minimum wages combined with reduced low-income transfers."
+      },
+      {
+        "label": "B",
+        "text": "Lower inheritance taxes combined with less progressive income taxes."
+      },
+      {
+        "label": "C",
+        "text": "Higher transfers combined with greater essential state provision."
+      },
+      {
+        "label": "D",
+        "text": "Higher user charges combined with reduced essential state provision."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Transfers raise disposable income and state provision redistributes essential services in kind. Neither policy requires the government to change the market wage rate directly.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "A government makes income tax more progressive and uses the additional revenue to increase transfer payments to low-income households. Why can the combined policy have a larger redistributive effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It lowers top disposable incomes while raising low-income transfers."
+      },
+      {
+        "label": "B",
+        "text": "It removes the ability of Gini coefficients to measure inequality."
+      },
+      {
+        "label": "C",
+        "text": "It increases every worker's pre-tax wage by an identical amount."
+      },
+      {
+        "label": "D",
+        "text": "It increases the inherited asset holdings of low-income households directly."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Progressive taxation narrows the top of the disposable-income distribution, while transfers raise incomes at the bottom. The two mechanisms reinforce one another.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "The table shows the monthly disposable income of two households before and after four possible policy packages. Which package reduces their income gap the most?\n| Package | Low-income household | High-income household |\n| Before policy | $1500 | $5500 |\n| A | $1800 | $5100 |\n| B | $2000 | $5000 |\n| C | $2200 | $4500 |\n| D | $1600 | $5200 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Package D"
+      },
+      {
+        "label": "B",
+        "text": "Package C"
+      },
+      {
+        "label": "C",
+        "text": "Package A"
+      },
+      {
+        "label": "D",
+        "text": "Package B"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The initial gap is $4000. Under A it is $3300, under B $3000, under C $2300 and under D $3600. Package C therefore produces the largest reduction in the gap.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "The graph shows income before tax on the horizontal axis and income after tax on the vertical axis. Which change makes the tax system more progressive?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The after-tax income line moves closer to the 45-degree line at high incomes."
+      },
+      {
+        "label": "B",
+        "text": "All taxpayers are charged the same fixed cash amount."
+      },
+      {
+        "label": "C",
+        "text": "The after-tax income line becomes flatter at higher pre-tax incomes."
+      },
+      {
+        "label": "D",
+        "text": "The after-tax income line becomes steeper at high incomes."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A flatter after-tax income line at high pre-tax incomes means each additional unit of gross income produces a smaller addition to disposable income, consistent with a higher tax proportion on higher incomes.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Horizontal axis: income before tax. Vertical axis: income after tax. Draw a 45-degree line showing no tax. Draw an initial after-tax income line below the 45-degree line. Show a second policy line that becomes flatter than the first at higher pre-tax incomes, indicating a more progressive tax schedule.",
+    "graphScenes": [
+      {
+        "xLabel": "Pre-tax income",
+        "yLabel": "After-tax income",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "No tax",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "Before",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 94.0,
+                "y": 75.2
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "After",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 40,
+                "y": 32
+              },
+              {
+                "x": 90,
+                "y": 52
+              }
+            ]
+          }
+        ],
+        "points": [],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "Why does state provision of essential goods and services still involve an opportunity cost?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Taxes remove the need to use labour or capital."
+      },
+      {
+        "label": "B",
+        "text": "Public resources can be used for alternative purposes."
+      },
+      {
+        "label": "C",
+        "text": "Taxes make all resources available in unlimited quantities."
+      },
+      {
+        "label": "D",
+        "text": "Public services automatically become non-rival and non-excludable goods."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Redistribution through state provision does not remove scarcity. Labour, buildings, equipment and tax revenue used for one service cannot be used elsewhere.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "A government raises a minimum wage in an economy where employers can easily replace low-skilled labour with machines. Which limitation becomes especially important?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Employment of the affected workers may fall substantially."
+      },
+      {
+        "label": "B",
+        "text": "Inheritance tax revenue must fall."
+      },
+      {
+        "label": "C",
+        "text": "The Gini coefficient can no longer measure inequality."
+      },
+      {
+        "label": "D",
+        "text": "The minimum wage cannot raise any worker’s hourly pay."
+      }
+    ],
+    "answer": "A",
+    "explanation": "When firms can substitute away from low-skilled labour easily, demand for that labour may respond strongly to a wage increase. Large job losses can weaken the policy’s redistribution effect.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "Which circumstance most increases the likelihood that transfer payments reduce income inequality effectively?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Payments reach low-income households without substantial offsetting income losses."
+      },
+      {
+        "label": "B",
+        "text": "Recipients surrender assets equal to the cash value of payments."
+      },
+      {
+        "label": "C",
+        "text": "Payments are financed by reducing every worker's statutory minimum wage."
+      },
+      {
+        "label": "D",
+        "text": "Payments are directed towards high-income households with substantial asset holdings."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Transfers are most redistributive when they raise the net disposable income of the intended low-income recipients. Offsetting losses of income or poor targeting reduce the effect.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "Why might very high progressive income tax rates be less effective at redistribution than expected?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher rates prevent collecting inheritance taxes from wealthy households."
+      },
+      {
+        "label": "B",
+        "text": "Higher rates turn accumulated assets into government transfer payments."
+      },
+      {
+        "label": "C",
+        "text": "Avoidance or weaker incentives can reduce the taxable income base."
+      },
+      {
+        "label": "D",
+        "text": "Higher rates necessarily increase the pre-tax earnings of high-income households."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Progressive taxes can narrow disposable-income gaps, but high rates may change labour supply, location or avoidance behaviour. The resulting tax base and revenue may therefore be smaller than expected.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "Which limitation applies to state provision of essential goods and services as a redistribution policy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Public provision avoids using resources with alternative productive applications."
+      },
+      {
+        "label": "B",
+        "text": "Public provision cannot improve the welfare of any low-income households."
+      },
+      {
+        "label": "C",
+        "text": "Public provision automatically converts household asset stocks into income flows."
+      },
+      {
+        "label": "D",
+        "text": "Poor quality or restricted access can diminish the redistribution benefit."
+      }
+    ],
+    "answer": "D",
+    "explanation": "In-kind provision only redistributes effectively if people can actually obtain useful services. Geographic shortages, queues or poor quality can reduce the value of the benefit.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 71,
+    "difficulty": "Hard",
+    "prompt": "A landlord owns an apartment worth $300 000, receives $18 000 rent during the year and later sells the apartment for $330 000. Which distinction is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The apartment is wealth; annual rent is income."
+      },
+      {
+        "label": "B",
+        "text": "The apartment and rent are both accumulated wealth."
+      },
+      {
+        "label": "C",
+        "text": "The apartment is income; annual rent is wealth."
+      },
+      {
+        "label": "D",
+        "text": "The apartment and rent are both current income."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The apartment is an asset and therefore wealth; rent is a flow received during the year. If the asset is sold for more than its earlier value, the owner’s stock of wealth can be higher than before, although the sale itself converts one asset form into another.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.1 difference between income as a flow concept and wealth as a stock concept | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 72,
+    "difficulty": "Hard",
+    "prompt": "Household X earns more than household Y each year, but Y has greater wealth. Which explanation is most consistent?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower current income necessarily implies fewer accumulated assets."
+      },
+      {
+        "label": "B",
+        "text": "Y may have inherited or accumulated more assets."
+      },
+      {
+        "label": "C",
+        "text": "Income and wealth rankings necessarily match between households."
+      },
+      {
+        "label": "D",
+        "text": "Wealth must equal the household's current annual income."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Current income and accumulated wealth have different time dimensions. Past saving, inheritance and asset-price changes can give a household high wealth even when its current income is relatively low.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.1 difference between income as a flow concept and wealth as a stock concept | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 73,
+    "difficulty": "Hard",
+    "prompt": "A person sells shares and immediately places all the proceeds in a bank deposit. Ignoring any capital gain or loss, what happens to total wealth at that moment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Its value falls to zero when shares are sold."
+      },
+      {
+        "label": "B",
+        "text": "Its value becomes current wages when shares are sold."
+      },
+      {
+        "label": "C",
+        "text": "Its composition changes without necessarily changing its total value."
+      },
+      {
+        "label": "D",
+        "text": "The value of the person’s wealth doubles because both the sold shares and all proceeds remain owned after the sale."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Selling one asset and acquiring another of the same value changes the form of wealth rather than necessarily changing the total stock. The transaction itself is not the same as receiving a recurring income flow.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.1 difference between income as a flow concept and wealth as a stock concept | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "Country R’s income Gini coefficient falls from 0.44 to 0.35 while its wealth Gini coefficient rises from 0.58 to 0.64. What can be concluded?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both become more unequal."
+      },
+      {
+        "label": "B",
+        "text": "Income becomes more equal while wealth becomes more unequal."
+      },
+      {
+        "label": "C",
+        "text": "Average income must have fallen and average wealth must have risen."
+      },
+      {
+        "label": "D",
+        "text": "Both income and wealth become more equal."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The two Gini coefficients describe different distributions. A lower income Gini means less income inequality, while a higher wealth Gini means greater wealth inequality; neither movement reveals the average levels.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.2 measuring income and wealth inequality: Gini coefficient (calculation not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "A country has a very low Gini coefficient but a low average income. What is the best interpretation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A relatively equal distribution proves the absence of poverty, even when the country’s average income is very low."
+      },
+      {
+        "label": "B",
+        "text": "Relatively equal incomes can coexist with low average income."
+      },
+      {
+        "label": "C",
+        "text": "Equal income distribution proves universally high living standards."
+      },
+      {
+        "label": "D",
+        "text": "Relative income equality is identical to high average income."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The Gini coefficient measures distribution, not the level of income. A country can have low inequality at either a high or a low average income.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.2 measuring income and wealth inequality: Gini coefficient (calculation not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "Why is it incorrect to conclude that a fall in the Gini coefficient means every low-income household became richer?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The coefficient measures unemployment rather than income distribution."
+      },
+      {
+        "label": "B",
+        "text": "A falling coefficient requires every household's income to decrease."
+      },
+      {
+        "label": "C",
+        "text": "The coefficient can fall through several relative-income changes."
+      },
+      {
+        "label": "D",
+        "text": "The coefficient measures total income rather than its distribution."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A Gini change summarises the distribution. Inequality could fall because high incomes fell, low incomes rose, or a combination occurred; the measure does not identify every household’s absolute change.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.2 measuring income and wealth inequality: Gini coefficient (calculation not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "Which statement about Gini coefficients is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The Gini coefficient directly states the precise fraction of national income received by the poorest household group."
+      },
+      {
+        "label": "B",
+        "text": "Identical Ginis can accompany different income levels and distributions."
+      },
+      {
+        "label": "C",
+        "text": "The Gini coefficient rises whenever national income per person rises."
+      },
+      {
+        "label": "D",
+        "text": "Identical Ginis imply identical incomes for every individual household."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The Gini coefficient compresses the distribution into one number. Different distributions can generate similar summary measures, and the coefficient gives no direct measure of the average income level.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.2 measuring income and wealth inequality: Gini coefficient (calculation not required) | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "The table shows income per head and a Gini coefficient for three economies. What can be concluded about economy T?\n| Economy | Income per head | Gini coefficient |\n| T | $18 000 | 0.28 |\n| U | $32 000 | 0.43 |\n| V | $12 000 | 0.51 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Every household has exactly the same annual income."
+      },
+      {
+        "label": "B",
+        "text": "Highest average income together with greatest measured inequality."
+      },
+      {
+        "label": "C",
+        "text": "Lowest measured inequality without the highest average income."
+      },
+      {
+        "label": "D",
+        "text": "Lowest average income together with greatest measured inequality."
+      }
+    ],
+    "answer": "C",
+    "explanation": "T has the lowest Gini coefficient, so it has the most equal distribution. Its income per head is $18 000, below U’s $32 000, showing why inequality and average income must be kept separate.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.2 measuring income and wealth inequality: Gini coefficient (calculation not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "A country experiences rapid growth in high-paid digital jobs while routine jobs disappear. Which chain is most likely to increase income inequality?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Productive assets become evenly distributed across employed households."
+      },
+      {
+        "label": "B",
+        "text": "Skilled wages rise while routine workers lose relative income."
+      },
+      {
+        "label": "C",
+        "text": "Routine wages necessarily rise above skilled digital workers' wages."
+      },
+      {
+        "label": "D",
+        "text": "Digital productivity guarantees equal wages and eliminates all unemployment."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Uneven technological change can raise demand and wages for scarce skills while reducing employment or wages in routine work. Both channels can widen the earned-income distribution.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "An economy enters recession. Job losses are concentrated among low-paid workers while high-income workers retain employment. What is the likely effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Bottom-concentrated income losses can widen relative income differences."
+      },
+      {
+        "label": "B",
+        "text": "Higher unemployment necessarily raises wages and narrows income differences."
+      },
+      {
+        "label": "C",
+        "text": "Lower total income necessarily implies a more equal distribution."
+      },
+      {
+        "label": "D",
+        "text": "Lower total income necessarily eliminates differences in household wealth."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The distribution depends on who bears the income loss. If low-paid households lose employment disproportionately while high earners retain income, relative inequality is likely to rise.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "Why can unequal access to high-quality education create persistent income inequality?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Education differences necessarily make every worker equally productive."
+      },
+      {
+        "label": "B",
+        "text": "Education differences guarantee equal employment opportunities across households."
+      },
+      {
+        "label": "C",
+        "text": "Differences in education prevent any owner of assets from receiving rent, interest or dividends, regardless of ownership."
+      },
+      {
+        "label": "D",
+        "text": "Education differences can sustain unequal skills and earnings opportunities."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Education affects human capital and occupational opportunities. If access differs systematically across households, wage and employment differences can persist across time.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "A rise in share prices increases household wealth by $100 billion, but 85% of the shares are owned by the richest 10% of households. What is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Wealth inequality increases unless offset by other changes."
+      },
+      {
+        "label": "B",
+        "text": "Income inequality necessarily falls to zero."
+      },
+      {
+        "label": "C",
+        "text": "Wealth inequality must fall because a rise in total national wealth guarantees that the poorest households gain the largest share."
+      },
+      {
+        "label": "D",
+        "text": "The poorest households receive most of the capital gain."
+      }
+    ],
+    "answer": "A",
+    "explanation": "When asset ownership is highly concentrated, an asset-price rise disproportionately increases the wealth of already wealthy households. The total stock can rise at the same time as its distribution becomes more unequal.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "Why can high income today contribute to greater wealth inequality in the future?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher income prevents households from accumulating any saving."
+      },
+      {
+        "label": "B",
+        "text": "Saving current income cannot add to wealth, because households acquire assets only through inheritance rather than their own earnings."
+      },
+      {
+        "label": "C",
+        "text": "Saving transforms households' assets into government transfer payments."
+      },
+      {
+        "label": "D",
+        "text": "Higher incomes can finance more saving and asset accumulation."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A household with a high income often has more scope to save after consumption. Repeated asset accumulation and returns on those assets can widen wealth differences over time.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "A country has equal wage rates for workers with the same skills, but a large gap in household income remains. Which factor could explain it?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A Gini coefficient showing complete equality between households."
+      },
+      {
+        "label": "B",
+        "text": "Equal working hours combined with identical asset-income receipts."
+      },
+      {
+        "label": "C",
+        "text": "Unequal work opportunities, working hours or asset-income receipts."
+      },
+      {
+        "label": "D",
+        "text": "Measuring income as a flow received over time."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Household income includes more than hourly wages. Employment status, working time and property or financial income can create large differences even when comparable workers earn the same wage rate.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "A government reduces vocational training while firms increasingly demand skilled labour. What is the most likely distributional effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower training narrows the wage gap between skill groups."
+      },
+      {
+        "label": "B",
+        "text": "Reducing vocational training guarantees increased employment among low-skilled workers despite stronger employer demand for skilled labour."
+      },
+      {
+        "label": "C",
+        "text": "Lower training equalises the asset holdings of all households."
+      },
+      {
+        "label": "D",
+        "text": "Lower training can intensify skill shortages and wage differences."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Less training constrains the supply of skilled labour at the same time as demand is rising. Relative skilled wages can therefore increase, widening earnings differences.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "An economy has rapid house-price growth and low home ownership among low-income households. Which effect is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Rising house prices affect income without affecting asset values."
+      },
+      {
+        "label": "B",
+        "text": "Rising house prices necessarily equalise the entire income distribution."
+      },
+      {
+        "label": "C",
+        "text": "Rising house prices give non-owners the same gains as owners."
+      },
+      {
+        "label": "D",
+        "text": "Rising house prices benefit owners more than asset-poor non-owners."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A house-price rise is a wealth gain for owners. If ownership is concentrated among higher-income households, the gap in asset values can widen.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "Which mechanism best explains why inheritance can create a persistent cycle of inequality?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Recipients must consume every inherited asset immediately, preventing them from retaining investments or generating future income."
+      },
+      {
+        "label": "B",
+        "text": "Inherited assets can support investment and future income generation."
+      },
+      {
+        "label": "C",
+        "text": "Inherited assets prevent recipients from saving any future income."
+      },
+      {
+        "label": "D",
+        "text": "Inherited assets eliminate differences in wealth between succeeding generations."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Inherited resources can provide both an initial asset advantage and access to opportunities that generate future earnings or returns, allowing inequality to persist across generations.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "A country cuts progressive income tax rates and transfer payments at the same time. What is the most likely effect on disposable-income inequality?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The two changes necessarily cancel exactly, leaving every household’s disposable income unchanged regardless of its previous tax and transfer position."
+      },
+      {
+        "label": "B",
+        "text": "Both changes shift disposable income towards the poorest households."
+      },
+      {
+        "label": "C",
+        "text": "Lower top taxes and lower bottom transfers can widen inequality."
+      },
+      {
+        "label": "D",
+        "text": "Both changes affect household wealth without affecting disposable income."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Both changes move disposable income in the direction of greater inequality: lower progressive taxes raise after-tax income at the top, while lower transfers reduce income at the bottom.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "Why might an improvement in low-income households’ access to education reduce both income and wealth inequality over a long period?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher skills can improve earnings and subsequent asset accumulation."
+      },
+      {
+        "label": "B",
+        "text": "Higher skills necessarily reduce the market prices of all assets."
+      },
+      {
+        "label": "C",
+        "text": "Higher skills immediately transform income flows into fixed asset stocks."
+      },
+      {
+        "label": "D",
+        "text": "Higher skills directly equalise inherited asset values across households."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Education can narrow earnings differences by improving productivity and job access. Higher lifetime income can also increase households’ ability to build wealth, affecting both distributions over time.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "Average income rises by 10%, but almost all of the increase goes to the highest-income households. Which outcome is most plausible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Income inequality rises even though average income increases."
+      },
+      {
+        "label": "B",
+        "text": "Everyone’s income must have risen by 10%."
+      },
+      {
+        "label": "C",
+        "text": "Income inequality must fall because average income rose."
+      },
+      {
+        "label": "D",
+        "text": "The Gini coefficient must be unchanged."
+      }
+    ],
+    "answer": "A",
+    "explanation": "An increase in the average says nothing about how the gain is distributed. If the increase is concentrated at the top, the relative distribution can become more unequal.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.3 economic reasons for inequality of income and wealth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "A country’s wealth is highly unequal mainly because a small group owns most productive assets. Which redistribution policy would most directly address this source of inequality?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A reduction in transfer payments to low-income households"
+      },
+      {
+        "label": "B",
+        "text": "A higher capital tax on concentrated asset wealth"
+      },
+      {
+        "label": "C",
+        "text": "A lower minimum wage"
+      },
+      {
+        "label": "D",
+        "text": "Higher user charges for state education"
+      }
+    ],
+    "answer": "B",
+    "explanation": "When inequality is driven by concentrated ownership of capital wealth, a capital tax directly reduces the after-tax value of that concentrated wealth. The other changes would reduce resources available to lower-income households rather than address the stated source.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "A government raises the minimum wage substantially in a labour market with very elastic demand for low-skilled labour. Which assessment is most appropriate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Wage regulation redistributes inherited assets rather than earned incomes."
+      },
+      {
+        "label": "B",
+        "text": "Wage gains may be offset by low-paid workers losing jobs."
+      },
+      {
+        "label": "C",
+        "text": "Wage regulation cannot affect firms' demand for low-skilled workers."
+      },
+      {
+        "label": "D",
+        "text": "Wage gains guarantee more equal incomes irrespective of employment losses."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A higher wage floor has both a wage effect and a possible employment effect. When labour demand is very elastic, job losses may be large, so the lowest-income households can lose rather than gain.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO3 Evaluation",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: wage rate. Horizontal axis: quantity of low-skilled labour. Draw a relatively flat downward-sloping demand curve for labour and an upward-sloping supply curve. Mark equilibrium wage We. Draw a substantially higher minimum wage Wmin above We and show the resulting excess supply of labour, with employment determined by quantity demanded at Wmin.",
+    "graphScenes": [
+      {
+        "xLabel": "Labour",
+        "yLabel": "Wage",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "Minimum wage",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 70
+              },
+              {
+                "x": 131.6,
+                "y": 70.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 30,
+            "y": 70
+          },
+          {
+            "id": "p2",
+            "label": "",
+            "x": 70,
+            "y": 70
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 30,
+            "y": 70,
+            "xLabel": "Ld"
+          },
+          {
+            "id": "g2",
+            "x": 70,
+            "y": 70,
+            "xLabel": "Ls"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "An economy has high unemployment among low-skilled workers. Which policy is more directly capable of raising the income of people who currently have no job?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Inheritance taxes rather than payments to unemployed households."
+      },
+      {
+        "label": "B",
+        "text": "Minimum wage increases rather than payments to unemployed households."
+      },
+      {
+        "label": "C",
+        "text": "Asset taxes rather than payments to unemployed households."
+      },
+      {
+        "label": "D",
+        "text": "Transfer payments rather than higher minimum wage requirements."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A minimum wage directly benefits only workers who are employed at the wage floor. Transfer payments can reach people with no current wage income, making them more direct for unemployed households.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "A country has moderate income inequality but extremely concentrated inherited wealth. Which tax change most directly addresses the stated problem?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A stronger inheritance tax"
+      },
+      {
+        "label": "B",
+        "text": "A lower inheritance tax and less progressive income tax"
+      },
+      {
+        "label": "C",
+        "text": "A lower minimum wage"
+      },
+      {
+        "label": "D",
+        "text": "A reduction in state education"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Progressive income tax targets current income flows, while inheritance tax directly reduces the after-tax transfer of accumulated wealth between generations. The latter matches the source of the problem more closely.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "A government wants to reduce both current income inequality and intergenerational wealth inequality. Which package is most comprehensive?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Minimum wages without any other redistribution policies."
+      },
+      {
+        "label": "B",
+        "text": "Reducing the progressivity of income taxation and lowering taxes on inherited wealth while leaving transfers to low-income households unchanged."
+      },
+      {
+        "label": "C",
+        "text": "State provision of one service without other policies."
+      },
+      {
+        "label": "D",
+        "text": "Progressive income taxes, transfers and taxes on wealth."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Income taxes and transfers affect current disposable income, while inheritance and capital taxes can act on accumulated or transferred wealth. A combined package therefore addresses both dimensions more directly.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "After a redistribution programme, the Gini coefficient falls but the real income of the poorest households also falls. What is the best judgement?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Changed average income makes the observed coefficient invalid."
+      },
+      {
+        "label": "B",
+        "text": "Greater equality necessarily proves that absolute poverty fell."
+      },
+      {
+        "label": "C",
+        "text": "Greater equality can coexist with falling bottom incomes."
+      },
+      {
+        "label": "D",
+        "text": "Greater equality necessarily proves that poorest households became richer."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A lower Gini coefficient signals greater equality, not necessarily higher absolute incomes at the bottom. Policy evaluation therefore requires distributional and level information rather than the Gini coefficient alone.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "A very high progressive income tax rate raises little additional revenue because high earners change behaviour and taxable income falls. What does this imply?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Behavioural changes necessarily reduce inequality to complete equality."
+      },
+      {
+        "label": "B",
+        "text": "Behavioural changes may weaken the expected redistribution effect."
+      },
+      {
+        "label": "C",
+        "text": "Higher statutory rates always guarantee more effective redistribution."
+      },
+      {
+        "label": "D",
+        "text": "Higher income tax rates change the tax into inheritance taxation."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Redistribution depends on the tax actually collected and the behavioural response. If the tax base shrinks substantially, the government may collect less revenue and the intended reduction in disposable-income inequality can be weaker.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "A government introduces inheritance and capital taxes, but wealthy households can legally reorganise assets to avoid much of the liability. What is the main implication?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Asset reorganisation automatically removes the effectiveness of minimum wages."
+      },
+      {
+        "label": "B",
+        "text": "Asset reorganisation turns capital taxes into government transfer payments."
+      },
+      {
+        "label": "C",
+        "text": "Avoidance can weaken the redistribution achieved by wealth taxes."
+      },
+      {
+        "label": "D",
+        "text": "Asset reorganisation necessarily makes the wealth distribution more equal."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Taxes redistribute only to the extent that taxable wealth is actually reached. Extensive avoidance reduces revenue and the after-tax change in concentrated wealth holdings.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "Which circumstance most strengthens the case for state provision rather than cash transfers as the main redistribution policy for an essential service?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Access barriers remain that additional cash cannot adequately remove."
+      },
+      {
+        "label": "B",
+        "text": "Government lacks productive resources to supply the essential service."
+      },
+      {
+        "label": "C",
+        "text": "Only wealthy households make use of the essential service."
+      },
+      {
+        "label": "D",
+        "text": "Affordable providers already serve every household without access barriers."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Cash transfers raise purchasing power, but they do not solve a shortage or geographic access problem. Direct state provision is more compelling when the service itself is unavailable to the target group.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "A country has low wages at the bottom, concentrated inherited wealth and poor access to basic education. Which policy mix most closely matches all three problems?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Minimum wages, inheritance taxation and wider state education."
+      },
+      {
+        "label": "B",
+        "text": "Income tax progressivity without asset taxes or education provision."
+      },
+      {
+        "label": "C",
+        "text": "Cash transfers without wage regulation or education provision."
+      },
+      {
+        "label": "D",
+        "text": "Lower minimum wages, lower inheritance taxation and higher education charges."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The wage floor targets low earned income, inheritance or capital taxes address concentrated wealth, and state education addresses unequal access to an essential service and future earning opportunities. No single policy in the alternatives covers all three sources.",
+    "reference": "3.3 Addressing income and wealth inequality | 3.3.4 policies to redistribute income and wealth: minimum wage; transfer payments; progressive income taxes, inheritance and capital taxes; state provision of essential goods and services | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  }
+]

@@ -1,0 +1,3202 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "An oligopoly is best described as a market with",
+    "options": [
+      {
+        "label": "A",
+        "text": "One buyer and many sellers"
+      },
+      {
+        "label": "B",
+        "text": "Few interdependent firms protected by entry barriers"
+      },
+      {
+        "label": "C",
+        "text": "Many firms selling identical products with no market power"
+      },
+      {
+        "label": "D",
+        "text": "One seller with no strategic rivals"
+      },
+      {
+        "label": "E",
+        "text": "Many price-taking firms with no barriers"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Oligopoly has a few firms protected by substantial entry barriers. Their choices are interdependent, and output is generally allocatively inefficient.",
+    "reference": "PRD-3.C | PRD-3.C.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "The term interdependence in oligopoly means that",
+    "options": [
+      {
+        "label": "A",
+        "text": "Rival actions affect each firm’s payoff"
+      },
+      {
+        "label": "B",
+        "text": "Each firm is a price taker"
+      },
+      {
+        "label": "C",
+        "text": "Firms always collude successfully"
+      },
+      {
+        "label": "D",
+        "text": "Each firm can ignore rivals completely"
+      },
+      {
+        "label": "E",
+        "text": "Firms never react to one another"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Each firm's payoff depends on both its own choice and its rivals' choices. Oligopoly decisions are therefore strategic.",
+    "reference": "PRD-3.C | PRD-3.C.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "Firms in an oligopoly have an incentive to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Become price takers"
+      },
+      {
+        "label": "B",
+        "text": "Eliminate all barriers to entry"
+      },
+      {
+        "label": "C",
+        "text": "Make products perfectly competitive"
+      },
+      {
+        "label": "D",
+        "text": "Set price equal to marginal cost by rule"
+      },
+      {
+        "label": "E",
+        "text": "Collude and form cartels"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Coordinating prices or output can raise joint profits. Oligopolists consequently have incentives to collude and form cartels.",
+    "reference": "PRD-3.C | PRD-3.C.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "A game is a situation in which",
+    "options": [
+      {
+        "label": "A",
+        "text": "One player acts with no regard to anyone else"
+      },
+      {
+        "label": "B",
+        "text": "Firms must collude"
+      },
+      {
+        "label": "C",
+        "text": "All players receive identical payoffs"
+      },
+      {
+        "label": "D",
+        "text": "Actions by all players determine individual payoffs"
+      },
+      {
+        "label": "E",
+        "text": "There is only one possible action"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A game specifies players, available actions, and payoffs for the possible combinations of choices. It models strategic interaction.",
+    "reference": "PRD-3.C | PRD-3.C.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "A strategy in game theory is",
+    "options": [
+      {
+        "label": "A",
+        "text": "A guarantee of cooperation"
+      },
+      {
+        "label": "B",
+        "text": "A legal barrier to entry"
+      },
+      {
+        "label": "C",
+        "text": "The same thing as a Nash equilibrium"
+      },
+      {
+        "label": "D",
+        "text": "The highest payoff in the matrix"
+      },
+      {
+        "label": "E",
+        "text": "A complete plan for playing the game"
+      }
+    ],
+    "answer": "E",
+    "explanation": "A strategy is a complete plan of actions for playing the game. It specifies how the player chooses to act.",
+    "reference": "PRD-3.C | PRD-3.C.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "A normal-form game is commonly represented by",
+    "options": [
+      {
+        "label": "A",
+        "text": "A payoff matrix"
+      },
+      {
+        "label": "B",
+        "text": "A Phillips curve"
+      },
+      {
+        "label": "C",
+        "text": "A production possibilities curve"
+      },
+      {
+        "label": "D",
+        "text": "An aggregate demand graph"
+      },
+      {
+        "label": "E",
+        "text": "A Lorenz curve"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A normal-form matrix lists payoffs for each combination of players' strategies. It makes conditional payoff comparisons possible.",
+    "reference": "PRD-3.C | PRD-3.C.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "A player has a dominant strategy when",
+    "options": [
+      {
+        "label": "A",
+        "text": "The player receives the largest payoff in one cell only"
+      },
+      {
+        "label": "B",
+        "text": "Earns more regardless of the rival’s action"
+      },
+      {
+        "label": "C",
+        "text": "Both actions always give the same payoff"
+      },
+      {
+        "label": "D",
+        "text": "The game has no Nash equilibrium"
+      },
+      {
+        "label": "E",
+        "text": "The player cooperates"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A dominant strategy is a best choice regardless of the rival's action. Compare its payoff against the alternative under each rival choice.",
+    "reference": "PRD-3.C | PRD-3.C.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "A Nash equilibrium is an outcome in which",
+    "options": [
+      {
+        "label": "A",
+        "text": "Firms must collude"
+      },
+      {
+        "label": "B",
+        "text": "Both players must have dominant strategies"
+      },
+      {
+        "label": "C",
+        "text": "No player benefits from changing strategy alone"
+      },
+      {
+        "label": "D",
+        "text": "All players choose identical actions"
+      },
+      {
+        "label": "E",
+        "text": "Both players receive their highest possible payoff"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A Nash equilibrium gives each player a best response to the other's choice. Neither can improve its payoff by changing strategy alone.",
+    "reference": "PRD-3.C | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "Which is beyond the scope of the AP Microeconomics game-theory content?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A two-player, two-action payoff matrix"
+      },
+      {
+        "label": "B",
+        "text": "A dominant strategy"
+      },
+      {
+        "label": "C",
+        "text": "A Prisoner's Dilemma"
+      },
+      {
+        "label": "D",
+        "text": "A Nash equilibrium"
+      },
+      {
+        "label": "E",
+        "text": "A mixed-strategy equilibrium"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Mixed-strategy equilibria involve randomizing across actions. They are explicitly outside the AP topic's assessed scope.",
+    "reference": "PRD-3.C | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "Which game format exceeds the two-player normal-form framework used in this bank?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A two-action game"
+      },
+      {
+        "label": "B",
+        "text": "A dominant strategy"
+      },
+      {
+        "label": "C",
+        "text": "A Nash equilibrium"
+      },
+      {
+        "label": "D",
+        "text": "A three-player normal-form game"
+      },
+      {
+        "label": "E",
+        "text": "A two-player normal-form game"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The assessed normal-form analysis uses two players. A three-player game exceeds that explicit scope.",
+    "reference": "PRD-3.C | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "In the matrix, if both firms cooperate, Firm A earns\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Cooperate | Defect |\n| Cooperate | 80, 80 | 20, 120 |\n| Defect | 120, 20 | 40, 40 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "100"
+      },
+      {
+        "label": "B",
+        "text": "80"
+      },
+      {
+        "label": "C",
+        "text": "120"
+      },
+      {
+        "label": "D",
+        "text": "20"
+      },
+      {
+        "label": "E",
+        "text": "40"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The first number in the Cooperate/Cooperate cell belongs to Firm A. Its payoff is 80.",
+    "reference": "PRD-3.C | PRD-3.C.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "In the matrix, if Firm A defects while Firm B cooperates, Firm A earns\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Cooperate | Defect |\n| Cooperate | 80, 80 | 20, 120 |\n| Defect | 120, 20 | 40, 40 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "100"
+      },
+      {
+        "label": "B",
+        "text": "20"
+      },
+      {
+        "label": "C",
+        "text": "120"
+      },
+      {
+        "label": "D",
+        "text": "40"
+      },
+      {
+        "label": "E",
+        "text": "80"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Firm A's payoff is the first number in the Defect/Cooperate cell. It is 120.",
+    "reference": "PRD-3.C | PRD-3.C.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "In the matrix, if Firm A cooperates while Firm B defects, Firm B earns\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Cooperate | Defect |\n| Cooperate | 80, 80 | 20, 120 |\n| Defect | 120, 20 | 40, 40 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "20"
+      },
+      {
+        "label": "B",
+        "text": "100"
+      },
+      {
+        "label": "C",
+        "text": "80"
+      },
+      {
+        "label": "D",
+        "text": "120"
+      },
+      {
+        "label": "E",
+        "text": "40"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Firm B's payoff is the second number in the Cooperate/Defect cell. It is 120.",
+    "reference": "PRD-3.C | PRD-3.C.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "In the price matrix, Firm A's dominant strategy is to\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Keep Price High | Cut Price |\n| Keep Price High | 90, 90 | 30, 120 |\n| Cut Price | 120, 30 | 50, 50 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Match Firm B only"
+      },
+      {
+        "label": "B",
+        "text": "Choose randomly"
+      },
+      {
+        "label": "C",
+        "text": "Collude"
+      },
+      {
+        "label": "D",
+        "text": "Keep price high"
+      },
+      {
+        "label": "E",
+        "text": "Cut price"
+      }
+    ],
+    "answer": "E",
+    "explanation": "If B keeps price high, A gets 120 from cutting rather than 90. If B cuts, A gets 50 from cutting rather than 30, so cutting is dominant.",
+    "reference": "PRD-3.C | PRD-3.C.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "In the price matrix, Firm B's dominant strategy is to\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Keep Price High | Cut Price |\n| Keep Price High | 90, 90 | 30, 120 |\n| Cut Price | 120, 30 | 50, 50 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cut price"
+      },
+      {
+        "label": "B",
+        "text": "Choose the opposite of Firm A"
+      },
+      {
+        "label": "C",
+        "text": "Keep price high"
+      },
+      {
+        "label": "D",
+        "text": "Collude"
+      },
+      {
+        "label": "E",
+        "text": "Choose randomly"
+      }
+    ],
+    "answer": "A",
+    "explanation": "For either action by A, B earns more by cutting price. Cut Price is B's dominant strategy.",
+    "reference": "PRD-3.C | PRD-3.C.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "The Nash equilibrium in the price matrix is\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Keep Price High | Cut Price |\n| Keep Price High | 90, 90 | 30, 120 |\n| Cut Price | 120, 30 | 50, 50 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both keep price high"
+      },
+      {
+        "label": "B",
+        "text": "There is no Nash equilibrium"
+      },
+      {
+        "label": "C",
+        "text": "Both firms cut price"
+      },
+      {
+        "label": "D",
+        "text": "Firm A cuts and Firm B keeps price high"
+      },
+      {
+        "label": "E",
+        "text": "Firm A keeps price high and Firm B cuts"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Cut Price is each firm's best response regardless of the other firm's choice. Cut/Cut is therefore the Nash equilibrium.",
+    "reference": "PRD-3.C | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "In the price matrix, the cooperative outcome that gives the firms the largest combined payoff is\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Keep Price High | Cut Price |\n| Keep Price High | 90, 90 | 30, 120 |\n| Cut Price | 120, 30 | 50, 50 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Firm A cuts while B keeps price high"
+      },
+      {
+        "label": "B",
+        "text": "All outcomes give equal combined payoff"
+      },
+      {
+        "label": "C",
+        "text": "Both cut price"
+      },
+      {
+        "label": "D",
+        "text": "Firm A keeps price high while B cuts"
+      },
+      {
+        "label": "E",
+        "text": "Both keep price high"
+      }
+    ],
+    "answer": "E",
+    "explanation": "High/High gives combined payoff 90 + 90 = 180. Cut/Cut gives 50 + 50 = 100, so cooperation has the larger joint payoff.",
+    "reference": "PRD-3.C | PRD-3.C.2 | PRD-3.C.7",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "The price matrix illustrates the Prisoner's Dilemma because\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Keep Price High | Cut Price |\n| Keep Price High | 90, 90 | 30, 120 |\n| Cut Price | 120, 30 | 50, 50 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "The Nash equilibrium maximizes joint profit"
+      },
+      {
+        "label": "B",
+        "text": "Individual incentives undermine the jointly preferred high prices"
+      },
+      {
+        "label": "C",
+        "text": "Collusion is impossible to imagine"
+      },
+      {
+        "label": "D",
+        "text": "Both firms have no dominant strategy"
+      },
+      {
+        "label": "E",
+        "text": "There is only one strategy"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Each firm gains individually by defecting, yet mutual defection produces a lower joint payoff than cooperation. This is Prisoner's Dilemma logic.",
+    "reference": "PRD-3.C | PRD-3.C.7",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "In the advertising matrix, Firm A's dominant strategy is to\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Advertise | Do Not Advertise |\n| Advertise | 60, 60 | 100, 30 |\n| Do Not Advertise | 30, 100 | 80, 80 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Not advertise"
+      },
+      {
+        "label": "B",
+        "text": "Choose randomly"
+      },
+      {
+        "label": "C",
+        "text": "Copy Firm B"
+      },
+      {
+        "label": "D",
+        "text": "Collude"
+      },
+      {
+        "label": "E",
+        "text": "Advertise"
+      }
+    ],
+    "answer": "E",
+    "explanation": "If B advertises, A gets 60 from advertising rather than 30. If B does not, A gets 100 rather than 80, so advertising is dominant.",
+    "reference": "PRD-3.C | PRD-3.C.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "In the advertising matrix, Firm B's dominant strategy is to\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Advertise | Do Not Advertise |\n| Advertise | 60, 60 | 100, 30 |\n| Do Not Advertise | 30, 100 | 80, 80 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Not advertise"
+      },
+      {
+        "label": "B",
+        "text": "Collude"
+      },
+      {
+        "label": "C",
+        "text": "Copy Firm A"
+      },
+      {
+        "label": "D",
+        "text": "Choose randomly"
+      },
+      {
+        "label": "E",
+        "text": "Advertise"
+      }
+    ],
+    "answer": "E",
+    "explanation": "B receives the larger payoff from advertising under either action by A. Advertising is its dominant strategy.",
+    "reference": "PRD-3.C | PRD-3.C.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "The Nash equilibrium in the advertising matrix is\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Advertise | Do Not Advertise |\n| Advertise | 60, 60 | 100, 30 |\n| Do Not Advertise | 30, 100 | 80, 80 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Neither advertises"
+      },
+      {
+        "label": "B",
+        "text": "No equilibrium"
+      },
+      {
+        "label": "C",
+        "text": "Only A advertises"
+      },
+      {
+        "label": "D",
+        "text": "Both advertise"
+      },
+      {
+        "label": "E",
+        "text": "Only B advertises"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Advertising is the best choice for each firm given either rival action. Advertise/Advertise is the Nash equilibrium.",
+    "reference": "PRD-3.C | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "In the advertising matrix, both firms would jointly prefer\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Advertise | Do Not Advertise |\n| Advertise | 60, 60 | 100, 30 |\n| Do Not Advertise | 30, 100 | 80, 80 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only B advertises"
+      },
+      {
+        "label": "B",
+        "text": "Neither advertises"
+      },
+      {
+        "label": "C",
+        "text": "All outcomes equally"
+      },
+      {
+        "label": "D",
+        "text": "Both advertise"
+      },
+      {
+        "label": "E",
+        "text": "Only A advertises"
+      }
+    ],
+    "answer": "B",
+    "explanation": "No Ad/No Ad gives combined payoff 160, compared with 120 under mutual advertising. Avoiding advertising has the higher joint payoff.",
+    "reference": "PRD-3.C | PRD-3.C.7",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "In the coordination matrix, one Nash equilibrium is\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Standard X | Standard Y |\n| Standard X | 100, 100 | 20, 20 |\n| Standard Y | 20, 20 | 90, 90 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "A chooses X and B chooses Y"
+      },
+      {
+        "label": "B",
+        "text": "Only mixed strategies are possible"
+      },
+      {
+        "label": "C",
+        "text": "Both choose Standard X"
+      },
+      {
+        "label": "D",
+        "text": "A chooses Y and B chooses X"
+      },
+      {
+        "label": "E",
+        "text": "There are no Nash equilibria"
+      }
+    ],
+    "answer": "C",
+    "explanation": "At X/X, each player's X is a best response to the other's X. Neither benefits by switching alone.",
+    "reference": "PRD-3.C | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "In the coordination matrix, another Nash equilibrium is\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Standard X | Standard Y |\n| Standard X | 100, 100 | 20, 20 |\n| Standard Y | 20, 20 | 90, 90 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "There can never be two equilibria"
+      },
+      {
+        "label": "B",
+        "text": "Only X/X"
+      },
+      {
+        "label": "C",
+        "text": "Both choose Standard Y"
+      },
+      {
+        "label": "D",
+        "text": "A chooses X and B chooses Y"
+      },
+      {
+        "label": "E",
+        "text": "A chooses Y and B chooses X"
+      }
+    ],
+    "answer": "C",
+    "explanation": "At Y/Y, each player's Y is a best response to the other's Y. Neither benefits by switching alone.",
+    "reference": "PRD-3.C | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "The coordination matrix shows that\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Standard X | Standard Y |\n| Standard X | 100, 100 | 20, 20 |\n| Standard Y | 20, 20 | 90, 90 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Every Nash equilibrium must maximize total payoff"
+      },
+      {
+        "label": "B",
+        "text": "Oligopoly always has one unique outcome"
+      },
+      {
+        "label": "C",
+        "text": "A game can have more than one Nash equilibrium"
+      },
+      {
+        "label": "D",
+        "text": "Mixed strategies are required"
+      },
+      {
+        "label": "E",
+        "text": "Every game has a dominant strategy"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Both X/X and Y/Y pass the unilateral-deviation test. The game has two Nash equilibria.",
+    "reference": "PRD-3.C | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "Oligopolists often have difficulty maintaining a cartel because",
+    "options": [
+      {
+        "label": "A",
+        "text": "The CED assumes collusion is impossible"
+      },
+      {
+        "label": "B",
+        "text": "There are no barriers to entry"
+      },
+      {
+        "label": "C",
+        "text": "Cartels always eliminate profit"
+      },
+      {
+        "label": "D",
+        "text": "Each firm may gain by cheating"
+      },
+      {
+        "label": "E",
+        "text": "Firms are price takers"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A cartel member may gain by breaking the agreement while others cooperate. This individual incentive can destabilize the cooperative outcome.",
+    "reference": "PRD-3.C | PRD-3.C.7",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "Compared with perfect competition, oligopoly prices are generally",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher"
+      },
+      {
+        "label": "B",
+        "text": "Unrelated to market structure"
+      },
+      {
+        "label": "C",
+        "text": "Zero"
+      },
+      {
+        "label": "D",
+        "text": "Lower"
+      },
+      {
+        "label": "E",
+        "text": "Always identical"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Oligopoly firms have market power. Their prices are generally higher than in the perfectly competitive benchmark.",
+    "reference": "PRD-3.C | PRD-3.C.7",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "Compared with perfect competition, oligopoly quantities are generally",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unrelated to market structure"
+      },
+      {
+        "label": "B",
+        "text": "Always identical"
+      },
+      {
+        "label": "C",
+        "text": "Zero"
+      },
+      {
+        "label": "D",
+        "text": "Lower"
+      },
+      {
+        "label": "E",
+        "text": "Higher"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Market power and strategic behavior generally restrict output relative to perfect competition. Oligopoly quantity is typically lower.",
+    "reference": "PRD-3.C | PRD-3.C.7",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "An oligopoly is considered inefficient partly because",
+    "options": [
+      {
+        "label": "A",
+        "text": "Every firm is a price taker"
+      },
+      {
+        "label": "B",
+        "text": "It always maximizes consumer surplus"
+      },
+      {
+        "label": "C",
+        "text": "Its output can differ from the efficient competitive level"
+      },
+      {
+        "label": "D",
+        "text": "Firms cannot earn revenue"
+      },
+      {
+        "label": "E",
+        "text": "It always has zero barriers to entry"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Higher prices and lower quantities can leave units with benefits above costs unproduced. This creates allocative inefficiency.",
+    "reference": "PRD-3.C | PRD-3.C.1 | PRD-3.C.7",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "A cartel is best understood as",
+    "options": [
+      {
+        "label": "A",
+        "text": "A mixed strategy"
+      },
+      {
+        "label": "B",
+        "text": "A government price ceiling"
+      },
+      {
+        "label": "C",
+        "text": "A perfectly competitive market"
+      },
+      {
+        "label": "D",
+        "text": "A market with no barriers"
+      },
+      {
+        "label": "E",
+        "text": "An agreement among firms to coordinate behavior"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Collusion lets firms coordinate choices to seek a higher joint payoff. A cartel is an arrangement for pursuing that outcome.",
+    "reference": "PRD-3.C | PRD-3.C.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 31,
+    "difficulty": "Easy",
+    "prompt": "The first number in each payoff-matrix cell usually represents",
+    "options": [
+      {
+        "label": "A",
+        "text": "The Nash equilibrium only"
+      },
+      {
+        "label": "B",
+        "text": "The row player's payoff"
+      },
+      {
+        "label": "C",
+        "text": "The column player's payoff"
+      },
+      {
+        "label": "D",
+        "text": "The market price"
+      },
+      {
+        "label": "E",
+        "text": "Total industry profit"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The first payoff in each ordered pair belongs to the row player. Use that number to compare the row player's strategies.",
+    "reference": "PRD-3.C | PRD-3.C.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 32,
+    "difficulty": "Easy",
+    "prompt": "The second number in each payoff-matrix cell usually represents",
+    "options": [
+      {
+        "label": "A",
+        "text": "The column player's payoff"
+      },
+      {
+        "label": "B",
+        "text": "Joint profit only"
+      },
+      {
+        "label": "C",
+        "text": "Consumer surplus"
+      },
+      {
+        "label": "D",
+        "text": "Marginal cost"
+      },
+      {
+        "label": "E",
+        "text": "The row player's payoff"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The second payoff belongs to the column player. Use that number to compare the column player's strategies.",
+    "reference": "PRD-3.C | PRD-3.C.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 33,
+    "difficulty": "Easy",
+    "prompt": "The suggested skill for Topic 4.5 emphasizes",
+    "options": [
+      {
+        "label": "A",
+        "text": "Calculations interpreting payoffs and strategic incentives"
+      },
+      {
+        "label": "B",
+        "text": "Calculating GDP"
+      },
+      {
+        "label": "C",
+        "text": "Drawing monopoly cost curves"
+      },
+      {
+        "label": "D",
+        "text": "Foreign-exchange graphs"
+      },
+      {
+        "label": "E",
+        "text": "Deriving production functions"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Payoff-table analysis compares quantitative outcomes across conditional choices. This is the calculation and interpretation skill emphasized for the topic.",
+    "reference": "PRD-3.C | PRD-3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "In the Prisoner's Dilemma matrix, what is Firm A's dominant strategy?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Cooperate | Defect |\n| Cooperate | 80, 80 | 20, 120 |\n| Defect | 120, 20 | 40, 40 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Choose the action with the highest joint payoff"
+      },
+      {
+        "label": "B",
+        "text": "There is no dominant strategy"
+      },
+      {
+        "label": "C",
+        "text": "Cooperate"
+      },
+      {
+        "label": "D",
+        "text": "Defect"
+      },
+      {
+        "label": "E",
+        "text": "Match Firm B"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Against B's cooperation, A prefers defecting because 120 exceeds 80. Against B's defection, A again prefers defecting because 40 exceeds 20.",
+    "reference": "PRD-3.C | PRD-3.C.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "In the Prisoner's Dilemma matrix, what is Firm B's dominant strategy?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Cooperate | Defect |\n| Cooperate | 80, 80 | 20, 120 |\n| Defect | 120, 20 | 40, 40 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Choose randomly"
+      },
+      {
+        "label": "B",
+        "text": "Match Firm A"
+      },
+      {
+        "label": "C",
+        "text": "Defect"
+      },
+      {
+        "label": "D",
+        "text": "Cooperate"
+      },
+      {
+        "label": "E",
+        "text": "There is no dominant strategy"
+      }
+    ],
+    "answer": "C",
+    "explanation": "B's payoff from defecting exceeds its payoff from cooperating under either action by A. Defect is dominant for B.",
+    "reference": "PRD-3.C | PRD-3.C.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "The Nash equilibrium in the Prisoner's Dilemma matrix is\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Cooperate | Defect |\n| Cooperate | 80, 80 | 20, 120 |\n| Defect | 120, 20 | 40, 40 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cooperate, Defect"
+      },
+      {
+        "label": "B",
+        "text": "Cooperate, Cooperate"
+      },
+      {
+        "label": "C",
+        "text": "Defect, Cooperate"
+      },
+      {
+        "label": "D",
+        "text": "There is no equilibrium"
+      },
+      {
+        "label": "E",
+        "text": "Defect, Defect"
+      }
+    ],
+    "answer": "E",
+    "explanation": "At Defect/Defect, each firm is already choosing its best response. Neither gains by changing strategy alone.",
+    "reference": "PRD-3.C | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "Why is Cooperate/Cooperate not a Nash equilibrium in the Prisoner's Dilemma matrix?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Cooperate | Defect |\n| Cooperate | 80, 80 | 20, 120 |\n| Defect | 120, 20 | 40, 40 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "The outcome has negative payoffs"
+      },
+      {
+        "label": "B",
+        "text": "Defection improves payoff against cooperation"
+      },
+      {
+        "label": "C",
+        "text": "Neither firm can gain by deviating"
+      },
+      {
+        "label": "D",
+        "text": "Both firms already receive their lowest payoffs"
+      },
+      {
+        "label": "E",
+        "text": "It is not a valid strategy pair"
+      }
+    ],
+    "answer": "B",
+    "explanation": "At Cooperate/Cooperate, either player can raise its payoff by defecting alone. The cooperative cell is not a Nash equilibrium.",
+    "reference": "PRD-3.C | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "If the two firms in the Prisoner's Dilemma could enforce cooperation, joint payoff would increase from\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Cooperate | Defect |\n| Cooperate | 80, 80 | 20, 120 |\n| Defect | 120, 20 | 40, 40 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "80 to 160"
+      },
+      {
+        "label": "B",
+        "text": "160 to 80"
+      },
+      {
+        "label": "C",
+        "text": "40 to 160"
+      },
+      {
+        "label": "D",
+        "text": "120 to 40"
+      },
+      {
+        "label": "E",
+        "text": "200 to 240"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Mutual defection gives 40 + 40 = 80. Mutual cooperation gives 80 + 80 = 160, twice the joint payoff.",
+    "reference": "PRD-3.C | PRD-3.C.7",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "In the no-dominant-strategy matrix, does Firm A have a dominant strategy?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Up | Down |\n| Left | 90, 70 | 30, 80 |\n| Right | 70, 40 | 60, 50 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes, Up"
+      },
+      {
+        "label": "B",
+        "text": "Yes, Right"
+      },
+      {
+        "label": "C",
+        "text": "Yes, Down"
+      },
+      {
+        "label": "D",
+        "text": "No"
+      },
+      {
+        "label": "E",
+        "text": "Yes, Left"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Against Up, A prefers Left because 90 exceeds 70. Against Down, A prefers Right because 60 exceeds 30, so it has no dominant strategy.",
+    "reference": "PRD-3.C | PRD-3.C.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "In the no-dominant-strategy matrix, does Firm B have a dominant strategy?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Up | Down |\n| Left | 90, 70 | 30, 80 |\n| Right | 70, 40 | 60, 50 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes, Right"
+      },
+      {
+        "label": "B",
+        "text": "No"
+      },
+      {
+        "label": "C",
+        "text": "Yes, Up"
+      },
+      {
+        "label": "D",
+        "text": "Yes, Down"
+      },
+      {
+        "label": "E",
+        "text": "Yes, Left"
+      }
+    ],
+    "answer": "D",
+    "explanation": "If A chooses Left, B prefers Down because 80 exceeds 70. If A chooses Right, B also prefers Down because 50 exceeds 40.",
+    "reference": "PRD-3.C | PRD-3.C.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "The Nash equilibrium in the no-dominant-strategy matrix is\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Up | Down |\n| Left | 90, 70 | 30, 80 |\n| Right | 70, 40 | 60, 50 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "There is no Nash equilibrium"
+      },
+      {
+        "label": "B",
+        "text": "Right, Down"
+      },
+      {
+        "label": "C",
+        "text": "Right, Up"
+      },
+      {
+        "label": "D",
+        "text": "Left, Up"
+      },
+      {
+        "label": "E",
+        "text": "Left, Down"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Right is A's best response to Down. Down is B's best response to Right, so Right/Down is Nash.",
+    "reference": "PRD-3.C | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "In the matrix where Firm A chooses Expand or Do Not Expand, Firm A's dominant strategy is\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Expand | Do Not Expand |\n| Expand | 70, 60 | 100, 50 |\n| Do Not Expand | 50, 90 | 80, 70 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Choose the lower payoff"
+      },
+      {
+        "label": "B",
+        "text": "Expand"
+      },
+      {
+        "label": "C",
+        "text": "Match Firm B"
+      },
+      {
+        "label": "D",
+        "text": "Do Not Expand"
+      },
+      {
+        "label": "E",
+        "text": "There is no dominant strategy"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Against B's expansion, A earns 70 from expanding rather than 50. Against no expansion, A earns 100 rather than 80, so Expand is dominant.",
+    "reference": "PRD-3.C | PRD-3.C.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "In that same matrix, Firm B's dominant strategy is\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Expand | Do Not Expand |\n| Expand | 70, 60 | 100, 50 |\n| Do Not Expand | 50, 90 | 80, 70 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Choose randomly"
+      },
+      {
+        "label": "B",
+        "text": "Copy Firm A"
+      },
+      {
+        "label": "C",
+        "text": "Expand"
+      },
+      {
+        "label": "D",
+        "text": "There is no dominant strategy"
+      },
+      {
+        "label": "E",
+        "text": "Do Not Expand"
+      }
+    ],
+    "answer": "C",
+    "explanation": "If A expands, B prefers Expand because 60 exceeds 50. If A does not, B still prefers Expand because 90 exceeds 70.",
+    "reference": "PRD-3.C | PRD-3.C.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "In the advertising matrix where Firm B has higher payoffs from 'Do Not Advertise' in both cases, Firm B's\ndominant strategy is\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Advertise | Do Not Advertise |\n| Advertise | 50, 80 | 90, 100 |\n| Do Not Advertise | 40, 60 | 70, 90 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Do Not Advertise"
+      },
+      {
+        "label": "B",
+        "text": "Match A"
+      },
+      {
+        "label": "C",
+        "text": "There is no dominant strategy"
+      },
+      {
+        "label": "D",
+        "text": "Advertise"
+      },
+      {
+        "label": "E",
+        "text": "Choose randomly"
+      }
+    ],
+    "answer": "A",
+    "explanation": "When A advertises, B prefers No Ad because 100 exceeds 80. When A does not, B again prefers No Ad because 90 exceeds 60.",
+    "reference": "PRD-3.C | PRD-3.C.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "In the same matrix, Firm A's dominant strategy is\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Advertise | Do Not Advertise |\n| Advertise | 50, 80 | 90, 100 |\n| Do Not Advertise | 40, 60 | 70, 90 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Choose randomly"
+      },
+      {
+        "label": "B",
+        "text": "Advertise"
+      },
+      {
+        "label": "C",
+        "text": "Do Not Advertise"
+      },
+      {
+        "label": "D",
+        "text": "Always match B"
+      },
+      {
+        "label": "E",
+        "text": "There is no dominant strategy"
+      }
+    ],
+    "answer": "B",
+    "explanation": "When B advertises, A prefers advertising because 50 exceeds 40. When B does not, A still prefers advertising because 90 exceeds 70.",
+    "reference": "PRD-3.C | PRD-3.C.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "The Nash equilibrium in that matrix is\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Advertise | Do Not Advertise |\n| Advertise | 50, 80 | 90, 100 |\n| Do Not Advertise | 40, 60 | 70, 90 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Do Not Advertise, Do Not Advertise"
+      },
+      {
+        "label": "B",
+        "text": "Advertise, Advertise"
+      },
+      {
+        "label": "C",
+        "text": "Do Not Advertise, Advertise"
+      },
+      {
+        "label": "D",
+        "text": "Advertise, Do Not Advertise"
+      },
+      {
+        "label": "E",
+        "text": "There is no equilibrium"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A's dominant choice is Advertise and B's is No Ad. Their intersection is the Nash equilibrium.",
+    "reference": "PRD-3.C | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "In the asymmetric price matrix, Firm A's dominant strategy is\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Low Price | High Price |\n| Low Price | 60, 50 | 100, 30 |\n| High Price | 30, 90 | 80, 70 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Choose randomly"
+      },
+      {
+        "label": "B",
+        "text": "Match B"
+      },
+      {
+        "label": "C",
+        "text": "Low Price"
+      },
+      {
+        "label": "D",
+        "text": "There is no dominant strategy"
+      },
+      {
+        "label": "E",
+        "text": "High Price"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Against B's Low Price, A prefers Low because 60 exceeds 30. Against High Price, A again prefers Low because 100 exceeds 80.",
+    "reference": "PRD-3.C | PRD-3.C.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "In the asymmetric price matrix, Firm B's dominant strategy is\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Low Price | High Price |\n| Low Price | 60, 50 | 100, 30 |\n| High Price | 30, 90 | 80, 70 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Choose randomly"
+      },
+      {
+        "label": "B",
+        "text": "There is no dominant strategy"
+      },
+      {
+        "label": "C",
+        "text": "High Price"
+      },
+      {
+        "label": "D",
+        "text": "Low Price"
+      },
+      {
+        "label": "E",
+        "text": "Match A"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Against A's Low Price, B prefers Low because 50 exceeds 30. Against High Price, B again prefers Low because 90 exceeds 70.",
+    "reference": "PRD-3.C | PRD-3.C.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "The Nash equilibrium in the asymmetric price matrix is\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Low Price | High Price |\n| Low Price | 60, 50 | 100, 30 |\n| High Price | 30, 90 | 80, 70 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "High Price, Low Price"
+      },
+      {
+        "label": "B",
+        "text": "High Price, High Price"
+      },
+      {
+        "label": "C",
+        "text": "No equilibrium"
+      },
+      {
+        "label": "D",
+        "text": "Low Price, High Price"
+      },
+      {
+        "label": "E",
+        "text": "Low Price, Low Price"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Low Price is dominant for both firms. Low/Low is the Nash equilibrium.",
+    "reference": "PRD-3.C | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "Which cell maximizes combined payoff in the asymmetric price matrix?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Low Price | High Price |\n| Low Price | 60, 50 | 100, 30 |\n| High Price | 30, 90 | 80, 70 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "High Price, High Price"
+      },
+      {
+        "label": "B",
+        "text": "Low Price, High Price"
+      },
+      {
+        "label": "C",
+        "text": "High Price, Low Price"
+      },
+      {
+        "label": "D",
+        "text": "All cells are equal"
+      },
+      {
+        "label": "E",
+        "text": "Low Price, Low Price"
+      }
+    ],
+    "answer": "A",
+    "explanation": "High/High yields joint payoff 150, while Low/Low yields 110. The cooperative high- price outcome has the larger total.",
+    "reference": "PRD-3.C | PRD-3.C.7",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "What does the gap between the cooperative and Nash outcomes in the asymmetric price matrix illustrate?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Low Price | High Price |\n| Low Price | 60, 50 | 100, 30 |\n| High Price | 30, 90 | 80, 70 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dominant strategies always maximize joint profit"
+      },
+      {
+        "label": "B",
+        "text": "Oligopolists always achieve the monopoly outcome"
+      },
+      {
+        "label": "C",
+        "text": "Strategic incentives can undermine joint-profit maximization"
+      },
+      {
+        "label": "D",
+        "text": "Perfect competition has higher prices than oligopoly"
+      },
+      {
+        "label": "E",
+        "text": "Cartels are automatically stable"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Individually preferred actions can produce a lower joint payoff than cooperation. This explains why oligopolists can struggle to sustain cooperative outcomes.",
+    "reference": "PRD-3.C | PRD-3.C.7",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "In the cartel matrix, each firm's dominant strategy is to\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Honor Cartel | Cheat |\n| Honor Cartel | 100, 100 | 60, 140 |\n| Cheat | 140, 60 | 70, 70 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Match the rival"
+      },
+      {
+        "label": "B",
+        "text": "Cheat"
+      },
+      {
+        "label": "C",
+        "text": "Honor Cartel"
+      },
+      {
+        "label": "D",
+        "text": "Choose the cooperative cell"
+      },
+      {
+        "label": "E",
+        "text": "There is no dominant strategy"
+      }
+    ],
+    "answer": "B",
+    "explanation": "If the rival honors, cheating gives 140 rather than 100. If the rival cheats, cheating gives 70 rather than 60, so Cheat is dominant.",
+    "reference": "PRD-3.C | PRD-3.C.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "The Nash equilibrium in the cartel matrix is\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Honor Cartel | Cheat |\n| Honor Cartel | 100, 100 | 60, 140 |\n| Cheat | 140, 60 | 70, 70 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "No equilibrium"
+      },
+      {
+        "label": "B",
+        "text": "Cheat, Honor"
+      },
+      {
+        "label": "C",
+        "text": "Honor, Cheat"
+      },
+      {
+        "label": "D",
+        "text": "Cheat, Cheat"
+      },
+      {
+        "label": "E",
+        "text": "Honor, Honor"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Cheating pays more under either rival action for each firm. Cheat/Cheat is the dominant-strategy equilibrium.",
+    "reference": "PRD-3.C | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "Why is Honor/Honor difficult to sustain in the cartel matrix?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Honor Cartel | Cheat |\n| Honor Cartel | 100, 100 | 60, 140 |\n| Cheat | 140, 60 | 70, 70 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "There are no strategic incentives"
+      },
+      {
+        "label": "B",
+        "text": "Both firms are price takers"
+      },
+      {
+        "label": "C",
+        "text": "Cheating raises payoff if the other honors"
+      },
+      {
+        "label": "D",
+        "text": "Honor/Honor is already a Nash equilibrium"
+      },
+      {
+        "label": "E",
+        "text": "Cheating lowers the unilateral payoff"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A member can gain by cheating on the agreement. This incentive undermines the cartel's cooperative outcome.",
+    "reference": "PRD-3.C | PRD-3.C.7",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "A penalty of $31 is imposed on Firm A whenever it cuts price in the price matrix. If Firm B keeps price high,\nA's payoff from cutting becomes\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Keep Price High | Cut Price |\n| Keep Price High | 90, 90 | 30, 120 |\n| Cut Price | 120, 30 | 50, 50 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "19"
+      },
+      {
+        "label": "B",
+        "text": "59"
+      },
+      {
+        "label": "C",
+        "text": "90"
+      },
+      {
+        "label": "D",
+        "text": "89"
+      },
+      {
+        "label": "E",
+        "text": "120"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Subtract the $31 penalty from A's cutting payoff. The adjusted payoff is 120 - 31 = 89.",
+    "reference": "PRD-3.C | PRD-3.C(c)",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "With that $31 penalty, if Firm B keeps price high, Firm A now prefers to\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Keep Price High | Cut Price |\n| Keep Price High | 90, 90 | 30, 120 |\n| Cut Price | 120, 30 | 50, 50 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Keep Price High"
+      },
+      {
+        "label": "B",
+        "text": "Exit the market"
+      },
+      {
+        "label": "C",
+        "text": "Receive equal payoffs"
+      },
+      {
+        "label": "D",
+        "text": "Cut Price"
+      },
+      {
+        "label": "E",
+        "text": "Collude automatically"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Keeping price high gives 90, while penalized cutting gives 89. Keep High is strictly better in this contingency.",
+    "reference": "PRD-3.C | PRD-3.C(c)",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "What is the minimum whole-dollar penalty that would make Firm A strictly prefer Keep Price High when Firm B\nkeeps price high?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Keep Price High | Cut Price |\n| Keep Price High | 90, 90 | 30, 120 |\n| Cut Price | 120, 30 | 50, 50 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$31"
+      },
+      {
+        "label": "B",
+        "text": "$30"
+      },
+      {
+        "label": "C",
+        "text": "$50"
+      },
+      {
+        "label": "D",
+        "text": "$29"
+      },
+      {
+        "label": "E",
+        "text": "$20"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Cutting's original advantage is 120 - 90 = $30. A $30 penalty ties the payoffs; the minimum whole-dollar strict reversal is $31.",
+    "reference": "PRD-3.C | PRD-3.C(c)",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "What is the minimum whole-dollar penalty that would make Firm A strictly prefer Keep Price High when Firm B\ncuts price?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Keep Price High | Cut Price |\n| Keep Price High | 90, 90 | 30, 120 |\n| Cut Price | 120, 30 | 50, 50 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$31"
+      },
+      {
+        "label": "B",
+        "text": "$30"
+      },
+      {
+        "label": "C",
+        "text": "$19"
+      },
+      {
+        "label": "D",
+        "text": "$20"
+      },
+      {
+        "label": "E",
+        "text": "$21"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Cutting's advantage against a cutting rival is 50 - 30 = $20. A $20 penalty ties the payoffs; $21 makes Keep High strictly better.",
+    "reference": "PRD-3.C | PRD-3.C(c)",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "To eliminate Cut Price as Firm A's dominant strategy in the price matrix, a penalty imposed on cutting must be\nlarge enough to alter at least\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Keep Price High | Cut Price |\n| Keep Price High | 90, 90 | 30, 120 |\n| Cut Price | 120, 30 | 50, 50 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "The market price only"
+      },
+      {
+        "label": "B",
+        "text": "One of the two conditional comparisons"
+      },
+      {
+        "label": "C",
+        "text": "Both players' payoffs equally"
+      },
+      {
+        "label": "D",
+        "text": "Joint profit only"
+      },
+      {
+        "label": "E",
+        "text": "Neither comparison"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A dominant strategy must be best under every rival action. Reversing even one conditional comparison is enough to remove that dominance.",
+    "reference": "PRD-3.C | PRD-3.C.5 | PRD-3.C(c)",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "In the incentive matrix, Firm A gets 70 from Advertise and 50 from No Ad when B advertises. What minimum\nwhole-dollar penalty on A's advertising makes No Ad strictly better in that case?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Advertise | No Ad |\n| Advertise | 70, 70 | 110, 40 |\n| No Ad | 50, 100 | 90, 90 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$21"
+      },
+      {
+        "label": "B",
+        "text": "$20"
+      },
+      {
+        "label": "C",
+        "text": "$40"
+      },
+      {
+        "label": "D",
+        "text": "$50"
+      },
+      {
+        "label": "E",
+        "text": "$19"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Advertising's advantage is 70 - 50 = $20. A $21 penalty is the smallest whole-dollar amount that makes No Ad strictly better.",
+    "reference": "PRD-3.C | PRD-3.C(c)",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "In the incentive matrix, when B does not advertise, A gets 110 from Advertise and 90 from No Ad. What\nminimum whole-dollar penalty on advertising makes No Ad strictly better?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Advertise | No Ad |\n| Advertise | 70, 70 | 110, 40 |\n| No Ad | 50, 100 | 90, 90 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$20"
+      },
+      {
+        "label": "B",
+        "text": "$30"
+      },
+      {
+        "label": "C",
+        "text": "$21"
+      },
+      {
+        "label": "D",
+        "text": "$10"
+      },
+      {
+        "label": "E",
+        "text": "$19"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Advertising's advantage is 110 - 90 = $20. A $21 penalty strictly reverses the ranking.",
+    "reference": "PRD-3.C | PRD-3.C(c)",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "What minimum whole-dollar penalty on Firm A's advertising makes No Ad a dominant strategy in the incentive\nmatrix?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Advertise | No Ad |\n| Advertise | 70, 70 | 110, 40 |\n| No Ad | 50, 100 | 90, 90 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$1"
+      },
+      {
+        "label": "B",
+        "text": "$40"
+      },
+      {
+        "label": "C",
+        "text": "$19"
+      },
+      {
+        "label": "D",
+        "text": "$20"
+      },
+      {
+        "label": "E",
+        "text": "$21"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Advertising leads by $20 under either rival choice. A $21 penalty makes No Ad strictly better in both cases.",
+    "reference": "PRD-3.C | PRD-3.C(c)",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "A $20 penalty on Firm A's advertising in the incentive matrix would make A\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Advertise | No Ad |\n| Advertise | 70, 70 | 110, 40 |\n| No Ad | 50, 100 | 90, 90 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Indifferent between its actions under either B action"
+      },
+      {
+        "label": "B",
+        "text": "Strictly prefer Advertise"
+      },
+      {
+        "label": "C",
+        "text": "Have a larger dominant-strategy advantage"
+      },
+      {
+        "label": "D",
+        "text": "Strictly prefer No Ad"
+      },
+      {
+        "label": "E",
+        "text": "Unable to compare payoffs"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Subtracting $20 exactly removes advertising's $20 advantage in each contingency. A is indifferent under either rival action.",
+    "reference": "PRD-3.C | PRD-3.C(c)",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "A subsidy is paid to Firm A for choosing No Ad in the incentive matrix. What minimum whole-dollar subsidy\nmakes No Ad strictly dominant?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Advertise | No Ad |\n| Advertise | 70, 70 | 110, 40 |\n| No Ad | 50, 100 | 90, 90 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$19"
+      },
+      {
+        "label": "B",
+        "text": "$21"
+      },
+      {
+        "label": "C",
+        "text": "$40"
+      },
+      {
+        "label": "D",
+        "text": "$10"
+      },
+      {
+        "label": "E",
+        "text": "$20"
+      }
+    ],
+    "answer": "B",
+    "explanation": "No Ad is behind by $20 in each contingency. A $21 subsidy makes it strictly better in both.",
+    "reference": "PRD-3.C | PRD-3.C(c)",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "Which outcome is a Nash equilibrium in the coordination matrix but does not maximize total payoff?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Standard X | Standard Y |\n| Standard X | 100, 100 | 20, 20 |\n| Standard Y | 20, 20 | 90, 90 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Y,X"
+      },
+      {
+        "label": "B",
+        "text": "There is no such equilibrium"
+      },
+      {
+        "label": "C",
+        "text": "Standard X, Standard X"
+      },
+      {
+        "label": "D",
+        "text": "X,Y"
+      },
+      {
+        "label": "E",
+        "text": "Standard Y, Standard Y"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Both cells are Nash equilibria. X/X has total payoff 200, exceeding Y/Y's 180.",
+    "reference": "PRD-3.C | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "Why can a Nash equilibrium fail to maximize total payoff?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Every player must have a dominant strategy"
+      },
+      {
+        "label": "B",
+        "text": "Unilateral incentives rather than maximum joint payoff"
+      },
+      {
+        "label": "C",
+        "text": "Payoffs are ignored in Nash analysis"
+      },
+      {
+        "label": "D",
+        "text": "Nash equilibrium always maximizes total payoff"
+      },
+      {
+        "label": "E",
+        "text": "Only cartels can have Nash equilibria"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The Nash test asks whether a player can gain by changing its action alone. If neither can, the cell is an equilibrium.",
+    "reference": "PRD-3.C | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "Which statement about dominant strategies and Nash equilibrium is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Every Nash equilibrium requires both players to have dominant strategies"
+      },
+      {
+        "label": "B",
+        "text": "Nash equilibrium is the same as joint-profit maximization"
+      },
+      {
+        "label": "C",
+        "text": "Dominant strategies require cooperation"
+      },
+      {
+        "label": "D",
+        "text": "A dominant strategy guarantees no Nash equilibrium"
+      },
+      {
+        "label": "E",
+        "text": "Equilibrium can exist without dominant strategies"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Players can have mutual best responses without either having a dominant strategy. A Nash equilibrium does not require dominance.",
+    "reference": "PRD-3.C | PRD-3.C.5-6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "Which statement about oligopoly and perfect competition matches the CED?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Perfect competition has fewer firms and higher barriers"
+      },
+      {
+        "label": "B",
+        "text": "Both always have identical prices and quantities"
+      },
+      {
+        "label": "C",
+        "text": "Oligopoly always has P=MC"
+      },
+      {
+        "label": "D",
+        "text": "Oligopoly generally has lower prices and higher quantities"
+      },
+      {
+        "label": "E",
+        "text": "Generally higher prices and lower output"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Prisoner's Dilemma incentives can prevent firms from sustaining the highest joint payoff. Individual incentives need not support cooperation.",
+    "reference": "PRD-3.C | PRD-3.C.7",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "A two-firm market with high barriers and strategic interdependence is most accurately described as",
+    "options": [
+      {
+        "label": "A",
+        "text": "A market with no strategic interaction"
+      },
+      {
+        "label": "B",
+        "text": "Perfect competition"
+      },
+      {
+        "label": "C",
+        "text": "A duopoly, which is a type of oligopoly"
+      },
+      {
+        "label": "D",
+        "text": "Monopsony"
+      },
+      {
+        "label": "E",
+        "text": "A factor market only"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A duopoly is an oligopoly with exactly two firms. Their payoffs depend strategically on each other's choices.",
+    "reference": "PRD-3.C | PRD-3.C.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "If two oligopolists successfully collude, they are attempting to move toward",
+    "options": [
+      {
+        "label": "A",
+        "text": "A zero-payoff outcome"
+      },
+      {
+        "label": "B",
+        "text": "A lower-price higher-quantity outcome than competition"
+      },
+      {
+        "label": "C",
+        "text": "The cooperative, joint-profit-maximizing outcome"
+      },
+      {
+        "label": "D",
+        "text": "The perfect-competition outcome"
+      },
+      {
+        "label": "E",
+        "text": "A mixed-strategy equilibrium"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Cartels coordinate output or pricing to raise joint returns. They seek a more cooperative, monopoly-like outcome.",
+    "reference": "PRD-3.C | PRD-3.C.2 | PRD-3.C.7",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 71,
+    "difficulty": "Medium",
+    "prompt": "The fact that oligopolists may want to collude but may also want to cheat shows",
+    "options": [
+      {
+        "label": "A",
+        "text": "A tension between collective and individual incentives"
+      },
+      {
+        "label": "B",
+        "text": "That Nash equilibrium always maximizes group payoff"
+      },
+      {
+        "label": "C",
+        "text": "That price taking dominates oligopoly"
+      },
+      {
+        "label": "D",
+        "text": "That firms are independent"
+      },
+      {
+        "label": "E",
+        "text": "That barriers to entry are irrelevant"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Defection can be individually attractive even when mutual cooperation pays more overall. This conflict is the central strategic tension.",
+    "reference": "PRD-3.C | PRD-3.C.7",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 72,
+    "difficulty": "Medium",
+    "prompt": "A payoff matrix shows Firm A's payoffs are 100 and 70 under one rival action, and 80 and 60 under the other. If the first listed action gives 100 and 80, that action is",
+    "options": [
+      {
+        "label": "A",
+        "text": "A mixed strategy"
+      },
+      {
+        "label": "B",
+        "text": "Necessarily the Nash equilibrium by itself"
+      },
+      {
+        "label": "C",
+        "text": "Not a strategy"
+      },
+      {
+        "label": "D",
+        "text": "Dominated for Firm A"
+      },
+      {
+        "label": "E",
+        "text": "Dominant for Firm A"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The first action gives the larger payoff under either rival choice. It is a dominant strategy.",
+    "reference": "PRD-3.C | PRD-3.C.5",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 73,
+    "difficulty": "Medium",
+    "prompt": "A normal-form matrix is useful because it",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eliminates strategic interdependence"
+      },
+      {
+        "label": "B",
+        "text": "Lists payoffs for each combination of actions"
+      },
+      {
+        "label": "C",
+        "text": "Shows only the Nash equilibrium"
+      },
+      {
+        "label": "D",
+        "text": "Requires more than two players"
+      },
+      {
+        "label": "E",
+        "text": "Shows only the cooperative outcome"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The normal-form matrix displays payoffs for combinations of actions. Comparing its entries identifies incentives and best responses.",
+    "reference": "PRD-3.C | PRD-3.C.4",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "In the price matrix, suppose a $31 penalty applies to each firm whenever it cuts price. What becomes the new\nNash equilibrium?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Keep Price High | Cut Price |\n| Keep Price High | 90, 90 | 30, 120 |\n| Cut Price | 120, 30 | 50, 50 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "A cuts while B keeps high"
+      },
+      {
+        "label": "B",
+        "text": "A keeps high while B cuts"
+      },
+      {
+        "label": "C",
+        "text": "Keep Price High, Keep Price High"
+      },
+      {
+        "label": "D",
+        "text": "Cut Price, Cut Price"
+      },
+      {
+        "label": "E",
+        "text": "There is no Nash equilibrium"
+      }
+    ],
+    "answer": "C",
+    "explanation": "With the $31 penalty, cutting pays 89 rather than 90 against Keep High and 19 rather than 30 against Cut. Keep High becomes strictly dominant for both firms.",
+    "reference": "PRD-3.C | PRD-3.C(c) | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "In the same price matrix, suppose a $20 penalty applies to each firm for cutting price. Which statement is\ncorrect?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Keep Price High | Cut Price |\n| Keep Price High | 90, 90 | 30, 120 |\n| Cut Price | 120, 30 | 50, 50 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Prefer Cut against Keep High; tie against Cut"
+      },
+      {
+        "label": "B",
+        "text": "Keep High becomes strictly dominant for both firms"
+      },
+      {
+        "label": "C",
+        "text": "Cut Price remains strictly dominant in both contingencies"
+      },
+      {
+        "label": "D",
+        "text": "The penalty guarantees the joint maximum"
+      },
+      {
+        "label": "E",
+        "text": "The game has no payoffs"
+      }
+    ],
+    "answer": "A",
+    "explanation": "With a $20 penalty, cutting pays 100 rather than 90 against Keep High. Against Cut, both choices pay 30, so Keep High is not dominant.",
+    "reference": "PRD-3.C | PRD-3.C(c)",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "What minimum whole-dollar penalty on cutting price would make Keep Price High strictly dominant for both\nfirms in the price matrix?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Keep Price High | Cut Price |\n| Keep Price High | 90, 90 | 30, 120 |\n| Cut Price | 120, 30 | 50, 50 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$50"
+      },
+      {
+        "label": "B",
+        "text": "$21"
+      },
+      {
+        "label": "C",
+        "text": "$30"
+      },
+      {
+        "label": "D",
+        "text": "$31"
+      },
+      {
+        "label": "E",
+        "text": "$20"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The largest cutting advantage is $30. A $31 whole-dollar penalty exceeds both conditional advantages and makes Keep High strictly dominant.",
+    "reference": "PRD-3.C | PRD-3.C(c)",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "In the cartel matrix, what minimum whole-dollar penalty on cheating would make Honor Cartel strictly\ndominant for each firm?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Honor Cartel | Cheat |\n| Honor Cartel | 100, 100 | 60, 140 |\n| Cheat | 140, 60 | 70, 70 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$71"
+      },
+      {
+        "label": "B",
+        "text": "$41"
+      },
+      {
+        "label": "C",
+        "text": "$10"
+      },
+      {
+        "label": "D",
+        "text": "$30"
+      },
+      {
+        "label": "E",
+        "text": "$40"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Cheating leads by $40 against Honor and $10 against Cheat. A $41 penalty is the smallest whole-dollar amount reversing both comparisons strictly.",
+    "reference": "PRD-3.C | PRD-3.C(c)",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "A $40 penalty on cheating in the cartel matrix would cause a firm to\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Honor Cartel | Cheat |\n| Honor Cartel | 100, 100 | 60, 140 |\n| Cheat | 140, 60 | 70, 70 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tie against Honor; prefer Honor against Cheat"
+      },
+      {
+        "label": "B",
+        "text": "Strictly prefer Honor in both cases"
+      },
+      {
+        "label": "C",
+        "text": "Have no Nash equilibrium"
+      },
+      {
+        "label": "D",
+        "text": "Strictly prefer Cheat in both cases"
+      },
+      {
+        "label": "E",
+        "text": "Be indifferent in both cases"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Against Honor, penalized cheating pays 140 - 40 = 100, tying Honor. Against Cheat, it pays 70 - 40 = 30, below Honor's 60.",
+    "reference": "PRD-3.C | PRD-3.C(c)",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "If both firms face a $41 penalty for cheating in the cartel matrix, the new Nash equilibrium is\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Honor Cartel | Cheat |\n| Honor Cartel | 100, 100 | 60, 140 |\n| Cheat | 140, 60 | 70, 70 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Honor Cartel, Honor Cartel"
+      },
+      {
+        "label": "B",
+        "text": "Honor, Cheat"
+      },
+      {
+        "label": "C",
+        "text": "Cheat, Honor"
+      },
+      {
+        "label": "D",
+        "text": "Cheat, Cheat"
+      },
+      {
+        "label": "E",
+        "text": "No equilibrium"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The penalty makes Honor pay more under either rival action. Honor becomes strictly dominant for both firms.",
+    "reference": "PRD-3.C | PRD-3.C(c) | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "In the Prisoner's Dilemma matrix, what minimum whole-dollar reward for cooperating would make Cooperate\nstrictly dominant for Firm A?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Cooperate | Defect |\n| Cooperate | 80, 80 | 20, 120 |\n| Defect | 120, 20 | 40, 40 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$80"
+      },
+      {
+        "label": "B",
+        "text": "$40"
+      },
+      {
+        "label": "C",
+        "text": "$20"
+      },
+      {
+        "label": "D",
+        "text": "$41"
+      },
+      {
+        "label": "E",
+        "text": "$61"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Cooperation trails by $40 against cooperation and $20 against defection. A $41 reward reverses both comparisons strictly.",
+    "reference": "PRD-3.C | PRD-3.C(c)",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "A $40 reward for cooperation in the Prisoner's Dilemma would make Firm A\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Cooperate | Defect |\n| Cooperate | 80, 80 | 20, 120 |\n| Defect | 120, 20 | 40, 40 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tie against cooperation; prefer cooperation against defection"
+      },
+      {
+        "label": "B",
+        "text": "Lose all payoffs"
+      },
+      {
+        "label": "C",
+        "text": "Strictly prefer Cooperate in both cases"
+      },
+      {
+        "label": "D",
+        "text": "Indifferent in both cases"
+      },
+      {
+        "label": "E",
+        "text": "Strictly prefer Defect in both cases"
+      }
+    ],
+    "answer": "A",
+    "explanation": "With a $40 reward, cooperation pays 120 against cooperation, tying defection. Against defection, cooperation pays 60 rather than 40.",
+    "reference": "PRD-3.C | PRD-3.C(c)",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "If both players receive a $41 reward for cooperation in the Prisoner's Dilemma, the new Nash equilibrium is\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Cooperate | Defect |\n| Cooperate | 80, 80 | 20, 120 |\n| Defect | 120, 20 | 40, 40 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cooperate, Cooperate"
+      },
+      {
+        "label": "B",
+        "text": "There is no equilibrium"
+      },
+      {
+        "label": "C",
+        "text": "Defect, Defect"
+      },
+      {
+        "label": "D",
+        "text": "Defect, Cooperate"
+      },
+      {
+        "label": "E",
+        "text": "Cooperate, Defect"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The reward makes cooperation strictly better under either rival action. Cooperate/Cooperate becomes the dominant-strategy equilibrium.",
+    "reference": "PRD-3.C | PRD-3.C(c) | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "In the coordination matrix, which Nash equilibrium gives both firms higher payoffs?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Standard X | Standard Y |\n| Standard X | 100, 100 | 20, 20 |\n| Standard Y | 20, 20 | 90, 90 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Neither Nash equilibrium"
+      },
+      {
+        "label": "B",
+        "text": "Standard Y, Standard Y"
+      },
+      {
+        "label": "C",
+        "text": "Standard X, Standard X"
+      },
+      {
+        "label": "D",
+        "text": "Y,X"
+      },
+      {
+        "label": "E",
+        "text": "X,Y"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Standard X/Standard X gives each firm 100, compared with 90 each at Standard Y/Standard Y. Both firms are better off at X/X, so it is Pareto-superior to Y/Y.",
+    "reference": "PRD-3.C | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "Why does the existence of two Nash equilibria in the coordination matrix not violate the definition of Nash\nequilibrium?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Standard X | Standard Y |\n| Standard X | 100, 100 | 20, 20 |\n| Standard Y | 20, 20 | 90, 90 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "One of the two must be a mixed strategy"
+      },
+      {
+        "label": "B",
+        "text": "Multiple outcomes can satisfy unilateral best responses"
+      },
+      {
+        "label": "C",
+        "text": "Dominant strategies force uniqueness"
+      },
+      {
+        "label": "D",
+        "text": "Both equilibria must have identical payoffs"
+      },
+      {
+        "label": "E",
+        "text": "A game can never have two Nash equilibria"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Nash equilibrium depends on each cell's unilateral-deviation incentives. More than one cell can satisfy that condition.",
+    "reference": "PRD-3.C | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "A policymaker wants to alter Firm A's dominant strategy in the incentive matrix from Advertise to No Ad using\na subsidy for No Ad. What is the smallest integer subsidy that works in every contingency?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Advertise | No Ad |\n| Advertise | 70, 70 | 110, 40 |\n| No Ad | 50, 100 | 90, 90 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$40"
+      },
+      {
+        "label": "B",
+        "text": "$20"
+      },
+      {
+        "label": "C",
+        "text": "$41"
+      },
+      {
+        "label": "D",
+        "text": "$19"
+      },
+      {
+        "label": "E",
+        "text": "$21"
+      }
+    ],
+    "answer": "E",
+    "explanation": "No Ad trails by $20 under either rival action. A $21 subsidy makes No Ad strictly dominant.",
+    "reference": "PRD-3.C | PRD-3.C(c)",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "Firm A receives a $20 subsidy whenever it chooses No Ad in the incentive matrix. Firm A would\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Advertise | No Ad |\n| Advertise | 70, 70 | 110, 40 |\n| No Ad | 50, 100 | 90, 90 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Have negative payoffs"
+      },
+      {
+        "label": "B",
+        "text": "Automatically collude"
+      },
+      {
+        "label": "C",
+        "text": "Have No Ad as a strict dominant strategy"
+      },
+      {
+        "label": "D",
+        "text": "Neither action is strictly dominant; both contingencies tie"
+      },
+      {
+        "label": "E",
+        "text": "Retain Advertise as a strict dominant strategy"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The $20 subsidy exactly offsets the advertising advantage in both contingencies. The actions tie, so neither is strictly dominant.",
+    "reference": "PRD-3.C | PRD-3.C.5 | PRD-3.C(c)",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "Suppose Firm A receives a $25 subsidy for No Ad in the incentive matrix. Which strategy becomes dominant?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Advertise | No Ad |\n| Advertise | 70, 70 | 110, 40 |\n| No Ad | 50, 100 | 90, 90 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Advertise"
+      },
+      {
+        "label": "B",
+        "text": "Choose randomly"
+      },
+      {
+        "label": "C",
+        "text": "No Ad"
+      },
+      {
+        "label": "D",
+        "text": "Neither"
+      },
+      {
+        "label": "E",
+        "text": "Match B"
+      }
+    ],
+    "answer": "C",
+    "explanation": "With the $25 subsidy, No Ad pays 75 versus 70 against advertising and 115 versus 110 against no advertising. No Ad becomes dominant.",
+    "reference": "PRD-3.C | PRD-3.C(c)",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "In the price matrix, suppose only Firm A faces a $31 penalty for cutting price while Firm B faces no penalty.\nWhat is the Nash equilibrium?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Keep Price High | Cut Price |\n| Keep Price High | 90, 90 | 30, 120 |\n| Cut Price | 120, 30 | 50, 50 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cut for A, Keep High for B"
+      },
+      {
+        "label": "B",
+        "text": "Keep Price High for A, Cut Price for B"
+      },
+      {
+        "label": "C",
+        "text": "Cut, Cut"
+      },
+      {
+        "label": "D",
+        "text": "Keep High, Keep High"
+      },
+      {
+        "label": "E",
+        "text": "No equilibrium"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The penalty makes Keep High dominant for A. Unpenalized B still prefers Cut, giving Keep High/Cut as the equilibrium.",
+    "reference": "PRD-3.C | PRD-3.C.5-6 | PRD-3.C(c)",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "In the cartel matrix, suppose only Firm A gets a $41 reward for honoring the cartel while Firm B's payoffs are\nunchanged. What is the Nash equilibrium?\nPayoff Matrix — first payoff: Firm A; second payoff: Firm B\nRows: Firm A; columns: Firm B.\n| Actions | Honor Cartel | Cheat |\n| Honor Cartel | 100, 100 | 60, 140 |\n| Cheat | 140, 60 | 70, 70 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Honor, Honor"
+      },
+      {
+        "label": "B",
+        "text": "Cheat for A, Honor for B"
+      },
+      {
+        "label": "C",
+        "text": "No equilibrium"
+      },
+      {
+        "label": "D",
+        "text": "Cheat, Cheat"
+      },
+      {
+        "label": "E",
+        "text": "Honor Cartel for A, Cheat for B"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The reward makes Honor dominant for A. B remains unpenalized and prefers Cheat, giving Honor/Cheat as the equilibrium.",
+    "reference": "PRD-3.C | PRD-3.C.5-6 | PRD-3.C(c)",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "Which statement best explains why oligopoly can have prices above and quantities below perfect competition even without successful cartel enforcement?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Oligopoly firms are always price takers"
+      },
+      {
+        "label": "B",
+        "text": "Strategic interdependence can sustain less competitive outcomes"
+      },
+      {
+        "label": "C",
+        "text": "All oligopoly firms must form legal cartels"
+      },
+      {
+        "label": "D",
+        "text": "Perfect competition has higher barriers to entry"
+      },
+      {
+        "label": "E",
+        "text": "Oligopoly always produces the monopoly quantity exactly"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Oligopolists can retain market power even without fully successful collusion. Prices are generally above and quantities below the perfectly competitive benchmark.",
+    "reference": "PRD-3.C | PRD-3.C.7",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "The CED says oligopolists have difficulty achieving the monopoly outcome for reasons similar to the Prisoner's Dilemma. Which explanation best matches that claim?",
+    "options": [
+      {
+        "label": "A",
+        "text": "There are no strategic incentives"
+      },
+      {
+        "label": "B",
+        "text": "Each firm is required to cooperate"
+      },
+      {
+        "label": "C",
+        "text": "The Nash equilibrium always equals the cooperative outcome"
+      },
+      {
+        "label": "D",
+        "text": "Every oligopoly is perfectly competitive"
+      },
+      {
+        "label": "E",
+        "text": "Individual deviation can undermine cooperation"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Each firm can gain by deviating from cooperation. These unilateral incentives make the cooperative outcome unstable.",
+    "reference": "PRD-3.C | PRD-3.C.7",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "A two-player, two-action game has no dominant strategy for either player but has a Nash equilibrium. Is that possible under the AP framework?",
+    "options": [
+      {
+        "label": "A",
+        "text": "No, Nash equilibrium requires dominant strategies"
+      },
+      {
+        "label": "B",
+        "text": "Only in mixed strategies, which are required"
+      },
+      {
+        "label": "C",
+        "text": "Only if there are three players"
+      },
+      {
+        "label": "D",
+        "text": "Yes"
+      },
+      {
+        "label": "E",
+        "text": "No, AP excludes games without dominant strategies"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A pure-strategy equilibrium can consist of mutual best responses without dominant strategies. That analysis fits a two-player, two-action game.",
+    "reference": "PRD-3.C | PRD-3.C.5-6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "A question asks students to solve a three-player normal-form game. According to the CED, this is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Allowed only if all players have dominant strategies"
+      },
+      {
+        "label": "B",
+        "text": "Equivalent to a 2x2 matrix"
+      },
+      {
+        "label": "C",
+        "text": "Required for oligopoly"
+      },
+      {
+        "label": "D",
+        "text": "Outside the scope of the course and AP Exam"
+      },
+      {
+        "label": "E",
+        "text": "Required content"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A three-player normal-form game exceeds the topic's explicit two-player limit. It is outside the assessed course scope.",
+    "reference": "PRD-3.C | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "A question asks students to solve a two-player game in which each player has three actions. According to the CED, this is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Required content"
+      },
+      {
+        "label": "B",
+        "text": "Outside the scope of the course and AP Exam"
+      },
+      {
+        "label": "C",
+        "text": "A standard AP 2x2 matrix"
+      },
+      {
+        "label": "D",
+        "text": "Allowed if payoffs are positive"
+      },
+      {
+        "label": "E",
+        "text": "Required for Nash equilibrium"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The topic's assessed games allow no more than two actions per player. A three-action game exceeds that scope.",
+    "reference": "PRD-3.C | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "A question asks students to find a mixed-strategy equilibrium. According to the CED, this is",
+    "options": [
+      {
+        "label": "A",
+        "text": "The only way to solve a Prisoner's Dilemma"
+      },
+      {
+        "label": "B",
+        "text": "A synonym for dominant strategy"
+      },
+      {
+        "label": "C",
+        "text": "Required whenever a game has two Nash equilibria"
+      },
+      {
+        "label": "D",
+        "text": "Outside the scope of the course and AP Exam"
+      },
+      {
+        "label": "E",
+        "text": "Required content"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Mixed-strategy equilibrium analysis is explicitly excluded from the assessed topic. Randomized strategies are not required here.",
+    "reference": "PRD-3.C | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "A question asks students to analyze a game tree in extensive form. According to the CED, this is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Required Topic 4.5 content"
+      },
+      {
+        "label": "B",
+        "text": "A payoff matrix"
+      },
+      {
+        "label": "C",
+        "text": "Required for cartels"
+      },
+      {
+        "label": "D",
+        "text": "The normal form model"
+      },
+      {
+        "label": "E",
+        "text": "Outside the scope of the course and AP Exam"
+      }
+    ],
+    "answer": "E",
+    "explanation": "An extensive-form game uses a game tree rather than the assessed normal-form matrix. Extensive-form analysis is explicitly excluded.",
+    "reference": "PRD-3.C | PRD-3.C.6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "Which statement correctly distinguishes dominant strategy from Nash equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "They are identical concepts"
+      },
+      {
+        "label": "B",
+        "text": "A Nash equilibrium is a strategy, while a dominant strategy is an outcome"
+      },
+      {
+        "label": "C",
+        "text": "Dominant strategies require cooperation"
+      },
+      {
+        "label": "D",
+        "text": "Dominance concerns strategies; equilibrium concerns mutual best responses"
+      },
+      {
+        "label": "E",
+        "text": "Nash equilibrium requires maximum joint payoff"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A dominant strategy is best regardless of the other player's choice. Nash equilibrium instead requires each chosen action to be a best response to the other's action.",
+    "reference": "PRD-3.C | PRD-3.C.5-6",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "Which statement correctly distinguishes collusion from Nash equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Collusion always gives lower joint payoff"
+      },
+      {
+        "label": "B",
+        "text": "Neither concept applies to oligopoly"
+      },
+      {
+        "label": "C",
+        "text": "Collusion coordinates behavior; equilibrium reflects individual incentives"
+      },
+      {
+        "label": "D",
+        "text": "They are always the same outcome"
+      },
+      {
+        "label": "E",
+        "text": "Nash equilibrium requires firms to sign an agreement"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Firms may want the higher joint payoff from collusion. Individual incentives can still lead them to a different noncooperative Nash outcome.",
+    "reference": "PRD-3.C | PRD-3.C.2 | PRD-3.C.7",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "An oligopoly payoff matrix has a cooperative outcome totaling $240 and a Nash equilibrium totaling $160. What does the $80 difference illustrate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A mixed-strategy probability"
+      },
+      {
+        "label": "B",
+        "text": "Marginal cost"
+      },
+      {
+        "label": "C",
+        "text": "Unrealized potential gains from cooperation"
+      },
+      {
+        "label": "D",
+        "text": "The number of firms"
+      },
+      {
+        "label": "E",
+        "text": "Consumer surplus"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Subtract the noncooperative total from the cooperative total. The difference measures the joint payoff forgone by failing to cooperate.",
+    "reference": "PRD-3.C | PRD-3.C.7",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "Which statement most accurately synthesizes Topic 4.5?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Use payoff comparisons to assess strategic incentives"
+      },
+      {
+        "label": "B",
+        "text": "Mixed strategies and game trees are central required content"
+      },
+      {
+        "label": "C",
+        "text": "Every Nash equilibrium maximizes joint profit"
+      },
+      {
+        "label": "D",
+        "text": "Game theory in AP requires three or more players"
+      },
+      {
+        "label": "E",
+        "text": "Oligopoly is a price-taking market with no barriers"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A few interdependent firms can gain from coordination yet face incentives to deviate. Simple payoff matrices use best responses, dominant strategies, and Nash equilibrium to analyze that tension.",
+    "reference": "PRD-3.C | PRD-3.C.1-7 Quality-Control Audits Audit 1 — CED Alignment and Scope All 100 questions are confined to Topic 4.5 and PRD-3.C.1–PRD-3.C.7. Coverage includes oligopoly as a high- barrier, few-firm, interdependent and inefficient market structure; incentives to collude/form cartels; games, strategies, normal-form payoff matrices, dominant strategies, Nash equilibrium, and Prisoner's Dilemma logic. The learning objective's calculation requirement is explicitly represented by multiple questions asking for the minimum penalty, subsidy, or reward sufficient to alter a player's dominant strategy. Payoff matrices are used extensively because the CED specifically calls for tables and interpretation of quantitative outcomes in Topic 4.5. The CED exclusions are enforced: no game has more than two players or more than two actions per player; no mixed-strategy equilibria, extensive-form games, or larger normal-form games are required. Audit 2 — Construction, Difficulty, and Answer Integrity Question count: 100. Difficulty distribution: 33 Easy, 40 Medium, 27 Hard. Each item has five answer choices and exactly one keyed answer. Correct-answer positions are balanced exactly: A=20, B=20, C=20, D=20, E=20. Matrix-based items were checked by comparing each player's payoff conditional on the other player's action. Nash equilibria were checked by unilateral-deviation tests, and dominant strategies were verified across both contingencies. Incentive calculations distinguish a tie from a strict strategy reversal: when a payoff advantage is $20, a $20 penalty creates indifference and a $21 penalty is the minimum whole-dollar amount that strictly reverses the ranking.",
+    "graphDescription": "",
+    "graphRequired": false
+  }
+]

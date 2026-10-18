@@ -83,8 +83,8 @@ export default function PracticePage() {
           </div>
           <h2>Start with scarcity. Keep building from there.</h2>
           <p>
-            All 29 topics are ready, from basic concepts through the financial
-            sector.
+            All {practiceTopics.length} topics are ready, from basic concepts through
+            international trade and finance.
           </p>
         </div>
         <Link href="/practice/ap-macro" className="practice-primary">

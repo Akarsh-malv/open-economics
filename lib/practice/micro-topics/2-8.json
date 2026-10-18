@@ -1,0 +1,6515 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "A price ceiling is",
+    "options": [
+      {
+        "label": "A",
+        "text": "A payment to sellers for each unit"
+      },
+      {
+        "label": "B",
+        "text": "A legally established minimum price"
+      },
+      {
+        "label": "C",
+        "text": "A legally established maximum price"
+      },
+      {
+        "label": "D",
+        "text": "A charge collected on each unit sold"
+      },
+      {
+        "label": "E",
+        "text": "A fixed quantity firms must produce"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A price ceiling is the maximum price sellers may legally charge. It constrains the market when set below equilibrium.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "A price floor is",
+    "options": [
+      {
+        "label": "A",
+        "text": "A legally established minimum price"
+      },
+      {
+        "label": "B",
+        "text": "A payment to buyers for each unit"
+      },
+      {
+        "label": "C",
+        "text": "A legally established maximum price"
+      },
+      {
+        "label": "D",
+        "text": "A fixed quantity consumers must buy"
+      },
+      {
+        "label": "E",
+        "text": "A charge collected on each unit sold"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A price floor is the minimum legal price. It constrains the market when set above equilibrium.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "A price ceiling is binding when it is set",
+    "options": [
+      {
+        "label": "A",
+        "text": "Below the supply intercept"
+      },
+      {
+        "label": "B",
+        "text": "Above the equilibrium price"
+      },
+      {
+        "label": "C",
+        "text": "Equal to the demand intercept"
+      },
+      {
+        "label": "D",
+        "text": "Below the equilibrium price"
+      },
+      {
+        "label": "E",
+        "text": "At any positive market price"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A below-equilibrium ceiling prevents price from reaching the market-clearing level. It is therefore binding.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "A price floor is binding when it is set",
+    "options": [
+      {
+        "label": "A",
+        "text": "Above the demand intercept"
+      },
+      {
+        "label": "B",
+        "text": "Above the equilibrium price"
+      },
+      {
+        "label": "C",
+        "text": "At any positive market price"
+      },
+      {
+        "label": "D",
+        "text": "Below the equilibrium price"
+      },
+      {
+        "label": "E",
+        "text": "Equal to the supply intercept"
+      }
+    ],
+    "answer": "B",
+    "explanation": "An above-equilibrium floor prevents price from falling to the market-clearing level. It is therefore binding.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "A binding price ceiling will most likely create",
+    "options": [
+      {
+        "label": "A",
+        "text": "A shortage because quantity supplied exceeds quantity demanded"
+      },
+      {
+        "label": "B",
+        "text": "A surplus because quantity demanded exceeds quantity supplied"
+      },
+      {
+        "label": "C",
+        "text": "A surplus because quantity supplied exceeds quantity demanded"
+      },
+      {
+        "label": "D",
+        "text": "An equilibrium because the legal price clears the market"
+      },
+      {
+        "label": "E",
+        "text": "A shortage because quantity demanded exceeds quantity supplied"
+      }
+    ],
+    "answer": "E",
+    "explanation": "At a binding ceiling, the low price encourages purchases but discourages supply. Quantity demanded exceeds quantity supplied, creating a shortage.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, the price ceiling Pc is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Binding and creates a surplus of QsQd"
+      },
+      {
+        "label": "B",
+        "text": "Nonbinding and creates a surplus of QsQd"
+      },
+      {
+        "label": "C",
+        "text": "Binding and creates a shortage of QsQd"
+      },
+      {
+        "label": "D",
+        "text": "Nonbinding and creates no shortage"
+      },
+      {
+        "label": "E",
+        "text": "Binding and fixes sales at Qd"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Pc is below Pe, so it restricts price. The resulting shortage is Qd - Qs.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Demand D and supply S intersect at equilibrium E with price Pe and quantity Qe. A horizontal price ceiling Pc lies below Pe, meeting S at Qs and D at Qd, with Qd greater than Qs.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 115,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "S1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "Pc",
+            "label": "Pc",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 30
+              },
+              {
+                "x": 92.0,
+                "y": 30
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E1",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 70.0,
+            "y": 30
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 30.0,
+            "y": 30
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 70.0,
+            "y": 30,
+            "xLabel": "Qd",
+            "yLabel": "Pc"
+          },
+          {
+            "id": "guide2",
+            "x": 30.0,
+            "y": 30,
+            "xLabel": "Qs"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "A binding price floor will most likely create",
+    "options": [
+      {
+        "label": "A",
+        "text": "A shortage because quantity demanded exceeds quantity supplied"
+      },
+      {
+        "label": "B",
+        "text": "A surplus because quantity supplied exceeds quantity demanded"
+      },
+      {
+        "label": "C",
+        "text": "A shortage because quantity supplied exceeds quantity demanded"
+      },
+      {
+        "label": "D",
+        "text": "A surplus because quantity demanded exceeds quantity supplied"
+      },
+      {
+        "label": "E",
+        "text": "An equilibrium because the legal price clears the market"
+      }
+    ],
+    "answer": "B",
+    "explanation": "At a binding floor, the high price encourages supply but discourages purchases. Quantity supplied exceeds quantity demanded, creating a surplus.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "A price ceiling set above equilibrium is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Binding because the market price must rise"
+      },
+      {
+        "label": "B",
+        "text": "Nonbinding because the equilibrium price remains legal"
+      },
+      {
+        "label": "C",
+        "text": "Binding because quantity supplied must fall"
+      },
+      {
+        "label": "D",
+        "text": "Binding because the legal maximum exceeds supply"
+      },
+      {
+        "label": "E",
+        "text": "Nonbinding because a shortage must remain"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Equilibrium remains below the legal maximum. The ceiling therefore permits the original market outcome and is nonbinding.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "A price floor set below equilibrium is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nonbinding because a surplus must remain"
+      },
+      {
+        "label": "B",
+        "text": "Nonbinding because the equilibrium price remains legal"
+      },
+      {
+        "label": "C",
+        "text": "Binding because the market price must fall"
+      },
+      {
+        "label": "D",
+        "text": "Binding because the legal minimum is positive"
+      },
+      {
+        "label": "E",
+        "text": "Binding because quantity demanded must rise"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Equilibrium remains above the legal minimum. The floor therefore permits the original market outcome and is nonbinding.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, the price floor Pf causes",
+    "options": [
+      {
+        "label": "A",
+        "text": "A shortage equal to Qs minus Qd"
+      },
+      {
+        "label": "B",
+        "text": "Sales equal to Qs without unsold output"
+      },
+      {
+        "label": "C",
+        "text": "Equilibrium quantity to increase to Qs"
+      },
+      {
+        "label": "D",
+        "text": "A surplus equal to Qs minus Qd"
+      },
+      {
+        "label": "E",
+        "text": "A surplus equal to Qd minus Qs"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Pf is above equilibrium. At that price, surplus equals Qs - Qd.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Demand D and supply S intersect at E with Pe and Qe. A horizontal price floor Pf lies above Pe, meeting D at Qd and S at Qs, where Qs is greater than Qd.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 115,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "S1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "Pf",
+            "label": "Pf",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 70
+              },
+              {
+                "x": 92.0,
+                "y": 70
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E1",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 30.0,
+            "y": 70
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 70.0,
+            "y": 70
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 30.0,
+            "y": 70,
+            "xLabel": "Qd",
+            "yLabel": "Pf"
+          },
+          {
+            "id": "guide2",
+            "x": 70.0,
+            "y": 70,
+            "xLabel": "Qs"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "A per-unit tax collected from sellers is represented by",
+    "options": [
+      {
+        "label": "A",
+        "text": "A movement upward along the original supply curve"
+      },
+      {
+        "label": "B",
+        "text": "A movement downward along the original demand curve"
+      },
+      {
+        "label": "C",
+        "text": "A leftward shift of the demand curve only"
+      },
+      {
+        "label": "D",
+        "text": "A leftward or upward shift of the supply curve"
+      },
+      {
+        "label": "E",
+        "text": "A rightward or downward shift of the supply curve"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A seller tax adds the same cost to each supplied unit. The supply curve shifts vertically upward by the per-unit tax.",
+    "reference": "POL-1.A | POL-1.A.2 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "A per-unit tax collected from buyers is represented by",
+    "options": [
+      {
+        "label": "A",
+        "text": "A leftward or downward shift of the demand curve"
+      },
+      {
+        "label": "B",
+        "text": "A movement upward along the original supply curve"
+      },
+      {
+        "label": "C",
+        "text": "A leftward shift of the supply curve only"
+      },
+      {
+        "label": "D",
+        "text": "A rightward or upward shift of the demand curve"
+      },
+      {
+        "label": "E",
+        "text": "A movement downward along the original demand curve"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A buyer tax reduces the amount buyers can offer sellers after paying the tax. Demand measured in the seller's price shifts down by the tax amount.",
+    "reference": "POL-1.A | POL-1.A.2 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "A per-unit subsidy paid to sellers will most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "Decrease supply and decrease equilibrium quantity"
+      },
+      {
+        "label": "B",
+        "text": "Leave supply fixed and reduce equilibrium quantity"
+      },
+      {
+        "label": "C",
+        "text": "Decrease demand and decrease equilibrium price"
+      },
+      {
+        "label": "D",
+        "text": "Increase supply and increase equilibrium quantity"
+      },
+      {
+        "label": "E",
+        "text": "Increase demand and increase equilibrium price"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A seller subsidy reduces the effective cost of supplying each unit. Supply shifts right and equilibrium trade expands.",
+    "reference": "POL-1.A | POL-1.A.2 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "A per-unit subsidy paid to buyers will most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increase demand and increase equilibrium quantity"
+      },
+      {
+        "label": "B",
+        "text": "Increase supply and decrease equilibrium price"
+      },
+      {
+        "label": "C",
+        "text": "Decrease demand and decrease equilibrium quantity"
+      },
+      {
+        "label": "D",
+        "text": "Decrease supply and increase equilibrium price"
+      },
+      {
+        "label": "E",
+        "text": "Leave demand fixed and reduce equilibrium quantity"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A buyer subsidy raises buyers' effective willingness to pay sellers. Demand shifts right and equilibrium trade expands.",
+    "reference": "POL-1.A | POL-1.A.2 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, the vertical distance between S and St represents",
+    "options": [
+      {
+        "label": "A",
+        "text": "Producer surplus after tax"
+      },
+      {
+        "label": "B",
+        "text": "Consumer surplus after tax"
+      },
+      {
+        "label": "C",
+        "text": "Total tax revenue"
+      },
+      {
+        "label": "D",
+        "text": "The quantity reduction"
+      },
+      {
+        "label": "E",
+        "text": "The per-unit tax"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The taxed supply curve is vertically above the original by the tax amount. That vertical distance is the per-unit tax wedge.",
+    "reference": "POL-1.A | POL-1.A.2 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Demand D slopes downward. Original supply S shifts vertically upward to St after a per-unit tax. The vertical distance between S and St is labeled t, and quantity falls from Qe to Qt.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 115,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "S1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "St",
+            "label": "St",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 88.1,
+                "y": 108.1
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E1",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 40.0,
+            "y": 60.0
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 40.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qe",
+            "yLabel": "Pe"
+          },
+          {
+            "id": "guide1",
+            "x": 40.0,
+            "y": 60.0,
+            "xLabel": "Qt",
+            "yLabel": "Pb"
+          },
+          {
+            "id": "guide2",
+            "x": 40.0,
+            "y": 40.0,
+            "yLabel": "Ps"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 60.0
+              },
+              {
+                "x": 40.0,
+                "y": 60.0
+              },
+              {
+                "x": 40.0,
+                "y": 40.0
+              },
+              {
+                "x": 0,
+                "y": 40.0
+              }
+            ]
+          },
+          {
+            "id": "region1",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 40.0,
+                "y": 60.0
+              },
+              {
+                "x": 40.0,
+                "y": 40.0
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "Government revenue from a per-unit tax equals",
+    "options": [
+      {
+        "label": "A",
+        "text": "The buyer price multiplied by the quantity sold after the tax"
+      },
+      {
+        "label": "B",
+        "text": "Consumer surplus plus producer surplus after the tax"
+      },
+      {
+        "label": "C",
+        "text": "The seller price multiplied by the quantity sold before the tax"
+      },
+      {
+        "label": "D",
+        "text": "The tax per unit multiplied by the quantity sold before the tax"
+      },
+      {
+        "label": "E",
+        "text": "The tax per unit multiplied by the quantity sold after the tax"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Tax is collected only on units actually traded. Revenue equals the per-unit tax times the after-tax quantity.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.3 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "Government expenditure on a per-unit subsidy equals",
+    "options": [
+      {
+        "label": "A",
+        "text": "The subsidy per unit multiplied by the quantity sold before the subsidy"
+      },
+      {
+        "label": "B",
+        "text": "The seller price multiplied by the quantity sold before the subsidy"
+      },
+      {
+        "label": "C",
+        "text": "Consumer surplus plus producer surplus after the subsidy"
+      },
+      {
+        "label": "D",
+        "text": "The buyer price multiplied by the quantity sold after the subsidy"
+      },
+      {
+        "label": "E",
+        "text": "The subsidy per unit multiplied by the quantity sold after the subsidy"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Government pays the subsidy on each unit traded. Expenditure equals the subsidy per unit times the post-subsidy quantity.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.3 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "A per-unit tax creates a wedge between",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quantity demanded and the demand curve"
+      },
+      {
+        "label": "B",
+        "text": "Quantity supplied and the supply curve"
+      },
+      {
+        "label": "C",
+        "text": "The price buyers pay and the price sellers receive"
+      },
+      {
+        "label": "D",
+        "text": "Consumer surplus and producer surplus"
+      },
+      {
+        "label": "E",
+        "text": "The equilibrium price and total revenue"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Buyers pay a gross price and sellers retain a lower net price. The difference equals the tax per unit.",
+    "reference": "POL-1.A | POL-1.A.2 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "Deadweight loss from a binding intervention represents",
+    "options": [
+      {
+        "label": "A",
+        "text": "All revenue collected by the government"
+      },
+      {
+        "label": "B",
+        "text": "All surplus transferred between buyers and sellers"
+      },
+      {
+        "label": "C",
+        "text": "The entire reduction in consumer surplus"
+      },
+      {
+        "label": "D",
+        "text": "The entire reduction in producer surplus"
+      },
+      {
+        "label": "E",
+        "text": "Gains from trade that no longer occur"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Deadweight loss is the reduction in total gains from trade. A tax prevents some units whose benefits exceed their costs from being exchanged.",
+    "reference": "POL-1.A | POL-1.A.4 | POL-1.A.5 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "If demand is less elastic than supply, buyers generally bear",
+    "options": [
+      {
+        "label": "A",
+        "text": "More of a per-unit tax because their quantity responds less to price"
+      },
+      {
+        "label": "B",
+        "text": "Exactly half of a per-unit tax in every market"
+      },
+      {
+        "label": "C",
+        "text": "None of a per-unit tax because sellers remit it"
+      },
+      {
+        "label": "D",
+        "text": "Less of a per-unit tax because their quantity responds less to price"
+      },
+      {
+        "label": "E",
+        "text": "More of a per-unit tax because supply shifts farther"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The less elastic side has fewer opportunities to adjust quantity. It therefore bears more of the tax through an unfavorable price change.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.6 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "If supply is less elastic than demand, sellers generally receive",
+    "options": [
+      {
+        "label": "A",
+        "text": "More of a subsidy because their quantity responds less to price"
+      },
+      {
+        "label": "B",
+        "text": "Exactly half of a subsidy in every market"
+      },
+      {
+        "label": "C",
+        "text": "None of a subsidy because buyers receive it"
+      },
+      {
+        "label": "D",
+        "text": "More of a subsidy because demand shifts farther"
+      },
+      {
+        "label": "E",
+        "text": "Less of a subsidy because their quantity responds less to price"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The less elastic side captures a larger subsidy benefit. When supply is less elastic, sellers receive the larger price benefit.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.6 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, government tax revenue is represented by",
+    "options": [
+      {
+        "label": "A",
+        "text": "The seller price times the original quantity"
+      },
+      {
+        "label": "B",
+        "text": "The tax wedge times the after-tax quantity"
+      },
+      {
+        "label": "C",
+        "text": "The tax wedge times the original quantity"
+      },
+      {
+        "label": "D",
+        "text": "The buyer price times the after-tax quantity"
+      },
+      {
+        "label": "E",
+        "text": "The deadweight-loss triangle alone"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Each of Qt units pays tax t. Revenue is t x Qt, the rectangle's height times width.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.3 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Demand D, original supply S, and taxed supply St are shown. The after-tax quantity is Qt, the buyer price is Pb, the seller price is Ps, and the rectangle with height Pb minus Ps and width Qt is shaded as government revenue.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 115,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "S1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "St",
+            "label": "St",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 88.1,
+                "y": 108.1
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E1",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 40.0,
+            "y": 60.0
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 40.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qe",
+            "yLabel": "Pe"
+          },
+          {
+            "id": "guide1",
+            "x": 40.0,
+            "y": 60.0,
+            "xLabel": "Qt",
+            "yLabel": "Pb"
+          },
+          {
+            "id": "guide2",
+            "x": 40.0,
+            "y": 40.0,
+            "yLabel": "Ps"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 60.0
+              },
+              {
+                "x": 40.0,
+                "y": 60.0
+              },
+              {
+                "x": 40.0,
+                "y": 40.0
+              },
+              {
+                "x": 0,
+                "y": 40.0
+              }
+            ]
+          },
+          {
+            "id": "region1",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 40.0,
+                "y": 60.0
+              },
+              {
+                "x": 40.0,
+                "y": 40.0
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "A binding quantity restriction set below equilibrium quantity will",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increase total surplus by raising price"
+      },
+      {
+        "label": "B",
+        "text": "Increase the quantity traded and eliminate deadweight loss"
+      },
+      {
+        "label": "C",
+        "text": "Leave the quantity traded at equilibrium"
+      },
+      {
+        "label": "D",
+        "text": "Reduce the quantity traded and create deadweight loss"
+      },
+      {
+        "label": "E",
+        "text": "Shift both demand and supply to the right"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A binding quantity limit excludes beneficial trades below the competitive quantity. Their forgone gains reduce total surplus.",
+    "reference": "POL-1.A | POL-1.A.1 | POL-1.A.4 | POL-1.A.5 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "A nonbinding quantity restriction is one that",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sets a maximum price below equilibrium"
+      },
+      {
+        "label": "B",
+        "text": "Sets a minimum price above equilibrium"
+      },
+      {
+        "label": "C",
+        "text": "Permits less than the equilibrium quantity to be traded"
+      },
+      {
+        "label": "D",
+        "text": "Raises the cost of every unit supplied"
+      },
+      {
+        "label": "E",
+        "text": "Permits at least the equilibrium quantity to be traded"
+      }
+    ],
+    "answer": "E",
+    "explanation": "A limit at or above equilibrium quantity leaves the competitive outcome available. It does not restrict actual trade.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "A binding price ceiling reduces the quantity actually exchanged to",
+    "options": [
+      {
+        "label": "A",
+        "text": "The larger of quantity demanded and supplied"
+      },
+      {
+        "label": "B",
+        "text": "The quantity supplied at the ceiling price"
+      },
+      {
+        "label": "C",
+        "text": "The quantity demanded at the ceiling price"
+      },
+      {
+        "label": "D",
+        "text": "The average of quantity demanded and supplied"
+      },
+      {
+        "label": "E",
+        "text": "The original equilibrium quantity"
+      }
+    ],
+    "answer": "B",
+    "explanation": "At a binding ceiling, sellers offer fewer units than buyers want. Actual trade is limited to quantity supplied.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "A binding price floor without government purchases limits actual private sales to",
+    "options": [
+      {
+        "label": "A",
+        "text": "The quantity demanded at the floor price"
+      },
+      {
+        "label": "B",
+        "text": "The quantity supplied at the floor price"
+      },
+      {
+        "label": "C",
+        "text": "The original equilibrium quantity"
+      },
+      {
+        "label": "D",
+        "text": "The average of quantity demanded and supplied"
+      },
+      {
+        "label": "E",
+        "text": "The larger of quantity demanded and supplied"
+      }
+    ],
+    "answer": "A",
+    "explanation": "At the high floor price, buyers purchase only quantity demanded. Without government purchases, the additional quantity offered remains unsold.",
+    "reference": "POL-1.A | POL-1.A.1 | POL-1.A.3 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, the triangle labeled DWL represents",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tax payments returned to market participants"
+      },
+      {
+        "label": "B",
+        "text": "Producer surplus transferred to consumers"
+      },
+      {
+        "label": "C",
+        "text": "Consumer surplus transferred to producers"
+      },
+      {
+        "label": "D",
+        "text": "Government revenue collected on units up to Qt"
+      },
+      {
+        "label": "E",
+        "text": "Lost gains from trades between Qt and Qe"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The tax reduces trade from Qe to Qt. The lost benefit-cost differences for the excluded units form deadweight loss.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.4 | POL-1.A.5 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Demand D and original supply S intersect at Qe. A per-unit tax shifts supply to St and reduces quantity to Qt. The triangle between D and S from Qt to Qe is shaded and labeled DWL.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 115,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "S1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "St",
+            "label": "St",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 88.1,
+                "y": 108.1
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E1",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 40.0,
+            "y": 60.0
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 40.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qe",
+            "yLabel": "Pe"
+          },
+          {
+            "id": "guide1",
+            "x": 40.0,
+            "y": 60.0,
+            "xLabel": "Qt",
+            "yLabel": "Pb"
+          },
+          {
+            "id": "guide2",
+            "x": 40.0,
+            "y": 40.0,
+            "yLabel": "Ps"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 60.0
+              },
+              {
+                "x": 40.0,
+                "y": 60.0
+              },
+              {
+                "x": 40.0,
+                "y": 40.0
+              },
+              {
+                "x": 0,
+                "y": 40.0
+              }
+            ]
+          },
+          {
+            "id": "region1",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 40.0,
+                "y": 60.0
+              },
+              {
+                "x": 40.0,
+                "y": 40.0
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "A subsidy generally causes the market quantity to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Equal quantity demanded at a binding price floor"
+      },
+      {
+        "label": "B",
+        "text": "Decrease below the original competitive equilibrium quantity"
+      },
+      {
+        "label": "C",
+        "text": "Remain at the original competitive equilibrium quantity"
+      },
+      {
+        "label": "D",
+        "text": "Equal quantity supplied at a binding price ceiling"
+      },
+      {
+        "label": "E",
+        "text": "Increase above the original competitive equilibrium quantity"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The subsidy improves the private incentive to buy or sell. Quantity traded rises above the original competitive equilibrium.",
+    "reference": "POL-1.A | POL-1.A.2 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "Government intervention in an initially efficient competitive market generally",
+    "options": [
+      {
+        "label": "A",
+        "text": "Equalizes consumer and producer surplus"
+      },
+      {
+        "label": "B",
+        "text": "Eliminates scarcity by changing the legal price"
+      },
+      {
+        "label": "C",
+        "text": "Increases total surplus whenever government revenue rises"
+      },
+      {
+        "label": "D",
+        "text": "Reduces total surplus when it changes the quantity traded"
+      },
+      {
+        "label": "E",
+        "text": "Leaves total surplus unchanged because transfers cancel"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Without market failures, competitive equilibrium maximizes total surplus. Forcing trade away from that quantity loses some gains or produces units with costs above benefits.",
+    "reference": "POL-1.A | POL-1.A.4 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "The statutory incidence of a tax identifies",
+    "options": [
+      {
+        "label": "A",
+        "text": "The size of the resulting deadweight loss"
+      },
+      {
+        "label": "B",
+        "text": "The quantity sold after the tax"
+      },
+      {
+        "label": "C",
+        "text": "Which side has the less elastic curve"
+      },
+      {
+        "label": "D",
+        "text": "Who ultimately bears the larger economic burden"
+      },
+      {
+        "label": "E",
+        "text": "The party legally responsible for remitting the tax"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Statutory incidence identifies who legally pays the government. Economic incidence identifies who loses through the resulting buyer and seller prices.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.6 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 31,
+    "difficulty": "Medium",
+    "prompt": "The equilibrium price is $18. A price ceiling of $14 results in quantity demanded of 90 and quantity supplied of 62. The market has",
+    "options": [
+      {
+        "label": "A",
+        "text": "A 152-unit shortage and 90 units exchanged"
+      },
+      {
+        "label": "B",
+        "text": "A 28-unit surplus and 62 units exchanged"
+      },
+      {
+        "label": "C",
+        "text": "No imbalance because the ceiling is below equilibrium"
+      },
+      {
+        "label": "D",
+        "text": "A 28-unit shortage and 90 units exchanged"
+      },
+      {
+        "label": "E",
+        "text": "A 28-unit shortage and 62 units exchanged"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Shortage is 90 - 62 = 28 units. Only the 62 supplied units are available to trade.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 32,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which change would make the price ceiling nonbinding?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An increase in demand that raises equilibrium price above Pc"
+      },
+      {
+        "label": "B",
+        "text": "A decrease in supply that lowers quantity supplied at Pc"
+      },
+      {
+        "label": "C",
+        "text": "A decrease in demand that lowers equilibrium price below Pc"
+      },
+      {
+        "label": "D",
+        "text": "An increase in demand that raises quantity demanded at Pc"
+      },
+      {
+        "label": "E",
+        "text": "A decrease in supply that raises equilibrium price above Pc"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A demand decrease can lower equilibrium price to or below Pc. The ceiling then permits equilibrium and becomes nonbinding.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Initial demand D1 and supply S intersect above a horizontal price ceiling Pc, making it binding. Demand shifts left to D2, whose intersection with S lies below Pc.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 115,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "S1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "D2",
+            "label": "D2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 65
+              },
+              {
+                "x": 65.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "Pc",
+            "label": "Pc",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 35
+              },
+              {
+                "x": 92.0,
+                "y": 35
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E1",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "E2",
+            "label": "E2",
+            "x": 32.5,
+            "y": 32.5
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 30.0,
+            "y": 35
+          },
+          {
+            "id": "point3",
+            "label": "",
+            "x": 35.0,
+            "y": 35
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 32.5,
+            "y": 32.5,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          },
+          {
+            "id": "guide2",
+            "x": 30.0,
+            "y": 35,
+            "xLabel": "Qd",
+            "yLabel": "Pc"
+          },
+          {
+            "id": "guide3",
+            "x": 35.0,
+            "y": 35,
+            "xLabel": "Qs"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "difficulty": "Medium",
+    "prompt": "The equilibrium price is $9. A price floor of $12 produces quantity demanded of 35 and quantity supplied of 57. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A 22-unit shortage exists, and 57 units are privately sold"
+      },
+      {
+        "label": "B",
+        "text": "A 92-unit surplus exists, and 57 units are privately sold"
+      },
+      {
+        "label": "C",
+        "text": "The floor is nonbinding, and 46 units are sold"
+      },
+      {
+        "label": "D",
+        "text": "A 22-unit surplus exists, and 35 units are privately sold"
+      },
+      {
+        "label": "E",
+        "text": "A 22-unit surplus exists, and 57 units are privately sold"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Surplus is 57 - 35 = 22 units. Private sales are limited to the 35 units buyers demand.",
+    "reference": "POL-1.A | POL-1.A.1 | POL-1.A.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "A rent ceiling lowers the legal rent from $1,400 to $1,100. At $1,100, 800 apartments are supplied and 1,050 are demanded. The shortage is",
+    "options": [
+      {
+        "label": "A",
+        "text": "250 apartments"
+      },
+      {
+        "label": "B",
+        "text": "1,850 apartments"
+      },
+      {
+        "label": "C",
+        "text": "800 apartments"
+      },
+      {
+        "label": "D",
+        "text": "1,050 apartments"
+      },
+      {
+        "label": "E",
+        "text": "150 apartments"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The apartment shortage is 1,050 - 800 = 250 units.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "A binding price floor raises price from $20 to $25. Quantity demanded falls from 70 to 55 and quantity supplied rises from 70 to 88. The unsold surplus is",
+    "options": [
+      {
+        "label": "A",
+        "text": "15 units"
+      },
+      {
+        "label": "B",
+        "text": "18 units"
+      },
+      {
+        "label": "C",
+        "text": "143 units"
+      },
+      {
+        "label": "D",
+        "text": "33 units"
+      },
+      {
+        "label": "E",
+        "text": "55 units"
+      }
+    ],
+    "answer": "D",
+    "explanation": "At the floor, subtract demand from supply: 88 - 55 = 33 units of surplus.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which area is deadweight loss from the binding price ceiling?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The transfer from producers to consumers on all units up to Qs"
+      },
+      {
+        "label": "B",
+        "text": "The entire consumer-surplus area above Pc and below demand"
+      },
+      {
+        "label": "C",
+        "text": "Lost gains from trades between Qs and Qe"
+      },
+      {
+        "label": "D",
+        "text": "The shortage gap between Qs and Qd measured in quantity units"
+      },
+      {
+        "label": "E",
+        "text": "The rectangle equal to Pc multiplied by the quantity Qs"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The ceiling limits trade to Qs. Beneficial trades between Qs and Qe do not occur, creating deadweight loss.",
+    "reference": "POL-1.A | POL-1.A.1 | POL-1.A.4 | POL-1.A.5 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Demand D and supply S intersect at Pe and Qe. A binding price ceiling Pc below Pe limits sales to Qs, while quantity demanded is Qd. The triangular area between D and S from Qs to Qe is shaded as DWL.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 115,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "S1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "Pc",
+            "label": "Pc",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 30
+              },
+              {
+                "x": 92.0,
+                "y": 30
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E1",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 70.0,
+            "y": 30
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 30.0,
+            "y": 30
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 70.0,
+            "y": 30,
+            "xLabel": "Qd",
+            "yLabel": "Pc"
+          },
+          {
+            "id": "guide2",
+            "x": 30.0,
+            "y": 30,
+            "xLabel": "Qs"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 30,
+                "y": 70
+              },
+              {
+                "x": 30,
+                "y": 30
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ],
+            "label": "DWL"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "A price floor of $16 is imposed when equilibrium price is $13. At $16, quantity demanded is 48 and quantity supplied is 72. If government buys the surplus, its expenditure is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$384"
+      },
+      {
+        "label": "B",
+        "text": "$144"
+      },
+      {
+        "label": "C",
+        "text": "$208"
+      },
+      {
+        "label": "D",
+        "text": "$768"
+      },
+      {
+        "label": "E",
+        "text": "$1,152"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Government buys the 72 - 48 = 24 surplus units. At $16, its expenditure is 24 x $16 = $384.",
+    "reference": "POL-1.A | POL-1.A.1 | POL-1.A.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "Demand increases while a price ceiling remains fixed below both the old and new equilibrium prices. Which change is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The ceiling becomes nonbinding because equilibrium price rises"
+      },
+      {
+        "label": "B",
+        "text": "Quantity supplied rises because the supply curve shifts right"
+      },
+      {
+        "label": "C",
+        "text": "The shortage shrinks because quantity supplied at the ceiling increases"
+      },
+      {
+        "label": "D",
+        "text": "A surplus replaces the shortage because demand shifts right"
+      },
+      {
+        "label": "E",
+        "text": "The shortage grows because quantity demanded at the ceiling increases"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Higher demand increases purchases desired at the unchanged ceiling price. With supply unchanged, the shortage grows.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "Supply increases while a binding price floor remains fixed. Which outcome is most likely at the floor price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A shortage replaces the surplus because supply shifts right"
+      },
+      {
+        "label": "B",
+        "text": "The surplus shrinks because quantity demanded increases"
+      },
+      {
+        "label": "C",
+        "text": "The surplus grows because quantity supplied increases"
+      },
+      {
+        "label": "D",
+        "text": "The floor becomes nonbinding because equilibrium price rises"
+      },
+      {
+        "label": "E",
+        "text": "Quantity demanded falls because the demand curve shifts left"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Higher supply increases output offered at the unchanged floor price. With demand unchanged, the surplus grows.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "A $4 per-unit tax reduces quantity sold from 80 to 65. Government tax revenue is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$260"
+      },
+      {
+        "label": "B",
+        "text": "$60"
+      },
+      {
+        "label": "C",
+        "text": "$580"
+      },
+      {
+        "label": "D",
+        "text": "$1,040"
+      },
+      {
+        "label": "E",
+        "text": "$320"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Tax revenue is $4 x 65 = $260.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, buyers pay $3 more and sellers receive $2 less after a tax. The per-unit tax is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$1"
+      },
+      {
+        "label": "B",
+        "text": "$3"
+      },
+      {
+        "label": "C",
+        "text": "$5"
+      },
+      {
+        "label": "D",
+        "text": "$2"
+      },
+      {
+        "label": "E",
+        "text": "$6"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Buyers pay $3 more and sellers retain $2 less. Together these price changes form a $5 tax wedge.",
+    "reference": "POL-1.A | POL-1.A.2 | Skill 3.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Demand D, supply S, and taxed supply St are shown. Before tax the price is $12. After tax buyers pay Pb = $15, sellers receive Ps = $10, and quantity falls from 90 to 72.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 130,
+        "yMax": 24,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 26.640000000000008,
+                "y": 22.56
+              },
+              {
+                "x": 122.19999999999999,
+                "y": 6.6333333333333355
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 2.0
+              },
+              {
+                "x": 122.19999999999999,
+                "y": 15.577777777777776
+              }
+            ]
+          },
+          {
+            "id": "St",
+            "label": "St",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 7.0
+              },
+              {
+                "x": 122.19999999999999,
+                "y": 20.577777777777776
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 90,
+            "y": 12
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 72,
+            "y": 15
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 72,
+            "y": 10
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 90,
+            "y": 12,
+            "xLabel": "90",
+            "yLabel": "$12"
+          },
+          {
+            "id": "guide1",
+            "x": 72,
+            "y": 15,
+            "xLabel": "72",
+            "yLabel": "$15"
+          },
+          {
+            "id": "guide2",
+            "x": 72,
+            "y": 10,
+            "yLabel": "$10"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 15
+              },
+              {
+                "x": 72,
+                "y": 15
+              },
+              {
+                "x": 72,
+                "y": 10
+              },
+              {
+                "x": 0,
+                "y": 10
+              }
+            ]
+          },
+          {
+            "id": "region1",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 72,
+                "y": 15
+              },
+              {
+                "x": 72,
+                "y": 10
+              },
+              {
+                "x": 90,
+                "y": 12
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "A $6 per-unit tax is imposed. Buyers’ price rises from $20 to $24 and sellers’ net price falls from $20 to $18. Buyers bear",
+    "options": [
+      {
+        "label": "A",
+        "text": "Two-thirds of the tax"
+      },
+      {
+        "label": "B",
+        "text": "None of the tax"
+      },
+      {
+        "label": "C",
+        "text": "One-half of the tax"
+      },
+      {
+        "label": "D",
+        "text": "One-third of the tax"
+      },
+      {
+        "label": "E",
+        "text": "All of the tax"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Buyers bear $4 of the $6 tax. Their share is 4/6 = two-thirds.",
+    "reference": "POL-1.A | POL-1.A.2 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "A $5 per-unit tax reduces quantity from 100 to 84. Tax revenue is $420, while the tax burden paid by buyers per unit is $2. Sellers bear",
+    "options": [
+      {
+        "label": "A",
+        "text": "No burden because buyers pay the tax"
+      },
+      {
+        "label": "B",
+        "text": "The remaining $3 per unit"
+      },
+      {
+        "label": "C",
+        "text": "The entire $420 per unit"
+      },
+      {
+        "label": "D",
+        "text": "The same $2 per unit"
+      },
+      {
+        "label": "E",
+        "text": "The full $5 per unit"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The $5 wedge must equal the combined burdens. If buyers bear $2, sellers bear the remaining $3 per unit.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.3 | POL-1.A.6 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "A seller subsidy of $8 lowers the buyer price by $3 and raises the seller price by $5. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Buyers receive all of the subsidy because their price falls"
+      },
+      {
+        "label": "B",
+        "text": "Buyers and sellers each receive one-half of the subsidy"
+      },
+      {
+        "label": "C",
+        "text": "Buyers receive three-eighths and sellers receive five-eighths of the subsidy"
+      },
+      {
+        "label": "D",
+        "text": "Sellers receive all of the subsidy because they collect the payment"
+      },
+      {
+        "label": "E",
+        "text": "Buyers receive five-eighths and sellers receive three-eighths of the subsidy"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The $8 subsidy splits into a $3 buyer benefit and a $5 seller benefit per unit.",
+    "reference": "POL-1.A | POL-1.A.2 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "A $7 subsidy increases quantity sold from 50 to 64. Government expenditure is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$798"
+      },
+      {
+        "label": "B",
+        "text": "$350"
+      },
+      {
+        "label": "C",
+        "text": "$98"
+      },
+      {
+        "label": "D",
+        "text": "$3,136"
+      },
+      {
+        "label": "E",
+        "text": "$448"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Government expenditure is $7 x 64 = $448.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which statement correctly describes the subsidy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The government receives the rectangle between Pb and Ps"
+      },
+      {
+        "label": "B",
+        "text": "Buyers pay Ps, sellers receive Pb, and Pb minus Ps equals the subsidy"
+      },
+      {
+        "label": "C",
+        "text": "Buyers pay Pb, sellers receive Ps, and Ps minus Pb equals the subsidy"
+      },
+      {
+        "label": "D",
+        "text": "Buyers and sellers both pay Pe, and the subsidy equals Qs minus Qd"
+      },
+      {
+        "label": "E",
+        "text": "The quantity falls from Qe to Qs because the subsidy discourages trade"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The subsidy lets sellers receive more than buyers pay. Government pays the difference per unit.",
+    "reference": "POL-1.A | POL-1.A.2 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Demand D and original supply S intersect at Pe and Qe. A seller subsidy shifts supply downward to Ss, raising quantity to Qs. At Qs, buyers pay Pb, sellers receive higher Ps, and the vertical wedge Ps minus Pb is labeled subsidy.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 115,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "S1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "Ss",
+            "label": "Ss",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 20.0,
+                "y": 0.0
+              },
+              {
+                "x": 94.0,
+                "y": 74.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E1",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 60.0,
+            "y": 40.0
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 60.0,
+            "y": 60.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qe",
+            "yLabel": "Pe"
+          },
+          {
+            "id": "guide1",
+            "x": 60.0,
+            "y": 40.0,
+            "xLabel": "Qs",
+            "yLabel": "Pb"
+          },
+          {
+            "id": "guide2",
+            "x": 60.0,
+            "y": 60.0,
+            "yLabel": "Ps"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "cost",
+            "points": [
+              {
+                "x": 0,
+                "y": 40.0
+              },
+              {
+                "x": 60.0,
+                "y": 40.0
+              },
+              {
+                "x": 60.0,
+                "y": 60.0
+              },
+              {
+                "x": 0,
+                "y": 60.0
+              }
+            ]
+          },
+          {
+            "id": "region1",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 60.0,
+                "y": 40.0
+              },
+              {
+                "x": 60.0,
+                "y": 60.0
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "A subsidy increases market quantity beyond the efficient competitive quantity. The resulting deadweight loss consists of",
+    "options": [
+      {
+        "label": "A",
+        "text": "The entire government expenditure on the subsidy"
+      },
+      {
+        "label": "B",
+        "text": "Extra production cost above willingness to pay"
+      },
+      {
+        "label": "C",
+        "text": "The transfer from taxpayers to buyers and sellers"
+      },
+      {
+        "label": "D",
+        "text": "The value of units whose willingness to pay exceeds marginal cost"
+      },
+      {
+        "label": "E",
+        "text": "The original consumer and producer surplus"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Beyond competitive equilibrium, additional units cost more to produce than buyers value them. Subsidy-induced overproduction therefore creates deadweight loss.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.4 | POL-1.A.5 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "A tax reduces quantity below the efficient competitive quantity. The resulting deadweight loss consists of",
+    "options": [
+      {
+        "label": "A",
+        "text": "The tax revenue collected on units that remain traded"
+      },
+      {
+        "label": "B",
+        "text": "Lost gains from mutually beneficial trades"
+      },
+      {
+        "label": "C",
+        "text": "The full reduction in producer revenue after the tax"
+      },
+      {
+        "label": "D",
+        "text": "The price increase paid by buyers on remaining units"
+      },
+      {
+        "label": "E",
+        "text": "The price decrease received by sellers on remaining units"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The excluded units were valued above their production costs. Preventing those trades removes their positive gains from trade.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.4 | POL-1.A.5 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "A tax of $10 reduces quantity from 60 to 48. Assuming linear curves, the deadweight loss is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$480"
+      },
+      {
+        "label": "B",
+        "text": "$48"
+      },
+      {
+        "label": "C",
+        "text": "$120"
+      },
+      {
+        "label": "D",
+        "text": "$60"
+      },
+      {
+        "label": "E",
+        "text": "$240"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Deadweight loss is one-half x $10 x 12 = $60.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "A subsidy of $6 increases quantity from 75 to 91. Assuming linear curves, the deadweight loss is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$16"
+      },
+      {
+        "label": "B",
+        "text": "$48"
+      },
+      {
+        "label": "C",
+        "text": "$96"
+      },
+      {
+        "label": "D",
+        "text": "$546"
+      },
+      {
+        "label": "E",
+        "text": "$273"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Deadweight loss is one-half x $6 x 16 = $48.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, tax revenue is $360 and deadweight loss is $45. If the tax is $6 per unit, after-tax quantity is",
+    "options": [
+      {
+        "label": "A",
+        "text": "60 units"
+      },
+      {
+        "label": "B",
+        "text": "67.5 units"
+      },
+      {
+        "label": "C",
+        "text": "45 units"
+      },
+      {
+        "label": "D",
+        "text": "15 units"
+      },
+      {
+        "label": "E",
+        "text": "90 units"
+      }
+    ],
+    "answer": "A",
+    "explanation": "After-tax quantity equals revenue divided by the tax rate: $360 / $6 = 60 units.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.3 | POL-1.A.5 | Skill 3.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. A tax wedge of $6 separates taxed supply St from original supply S. The revenue rectangle is labeled $360 and the deadweight-loss triangle is labeled $45; the after-tax quantity is Qt.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 110,
+        "yMax": 42,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 35.0
+              },
+              {
+                "x": 103.39999999999999,
+                "y": 14.32
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 5.0
+              },
+              {
+                "x": 103.39999999999999,
+                "y": 25.68
+              }
+            ]
+          },
+          {
+            "id": "St",
+            "label": "St",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 11.0
+              },
+              {
+                "x": 103.39999999999999,
+                "y": 31.68
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 75,
+            "y": 20
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 60,
+            "y": 23
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 60,
+            "y": 17
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 75,
+            "y": 20,
+            "xLabel": "Qe"
+          },
+          {
+            "id": "guide1",
+            "x": 60,
+            "y": 23,
+            "xLabel": "Qt",
+            "yLabel": "Pb"
+          },
+          {
+            "id": "guide2",
+            "x": 60,
+            "y": 17,
+            "yLabel": "Ps"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 23
+              },
+              {
+                "x": 60,
+                "y": 23
+              },
+              {
+                "x": 60,
+                "y": 17
+              },
+              {
+                "x": 0,
+                "y": 17
+              }
+            ],
+            "label": "Revenue $360"
+          },
+          {
+            "id": "region1",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 60,
+                "y": 23
+              },
+              {
+                "x": 60,
+                "y": 17
+              },
+              {
+                "x": 75,
+                "y": 20
+              }
+            ],
+            "label": "DWL $45"
+          }
+        ],
+        "annotations": [],
+        "caption": "Per-unit tax $6"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "Demand is relatively inelastic and supply is relatively elastic. A per-unit tax will most likely cause",
+    "options": [
+      {
+        "label": "A",
+        "text": "A smaller price increase for buyers than price decrease for sellers"
+      },
+      {
+        "label": "B",
+        "text": "Equal price changes for buyers and sellers in every case"
+      },
+      {
+        "label": "C",
+        "text": "A larger price increase for buyers than price decrease for sellers"
+      },
+      {
+        "label": "D",
+        "text": "No change in the price sellers receive"
+      },
+      {
+        "label": "E",
+        "text": "No change in the price buyers pay"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Demand is less elastic, so buyers adjust quantity less readily. Their price increase accounts for the larger share of the tax.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.6 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "The government changes legal responsibility for a tax from sellers to buyers without changing the tax amount. Market curves are unchanged. Economic incidence will",
+    "options": [
+      {
+        "label": "A",
+        "text": "Shift entirely to buyers because they now remit the tax"
+      },
+      {
+        "label": "B",
+        "text": "Become equal because both sides know about the tax"
+      },
+      {
+        "label": "C",
+        "text": "Remain the same because relative elasticities are unchanged"
+      },
+      {
+        "label": "D",
+        "text": "Shift entirely to sellers because they set the price"
+      },
+      {
+        "label": "E",
+        "text": "Disappear because the statutory payer changed"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Buyer and seller price responses depend on supply and demand elasticities. Changing the legal remitter does not change that economic split.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.6 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "Based on the figures below, the same tax creates a larger reduction in quantity in Market A. Which condition is most consistent?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The tax revenue must be larger in Market A"
+      },
+      {
+        "label": "B",
+        "text": "Demand and supply are more elastic in Market A"
+      },
+      {
+        "label": "C",
+        "text": "Demand and supply are less elastic in Market A"
+      },
+      {
+        "label": "D",
+        "text": "The pre-tax equilibrium price must be lower in Market A"
+      },
+      {
+        "label": "E",
+        "text": "The statutory tax is paid by sellers only in Market A"
+      }
+    ],
+    "answer": "B",
+    "explanation": "More responsive buyers and sellers reduce trade more after the tax. Their larger quantity contraction creates the larger change in market activity.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.6 | Skill 2.C",
+    "graphDescription": "Two panels have price on the vertical axis and quantity on the horizontal axis. Each begins at the same equilibrium and has the same vertical per-unit tax wedge. Market A has flatter demand and supply curves than Market B, and the decrease from Qe to Qt is larger in Market A.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 115,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 75.0
+              },
+              {
+                "x": 94.0,
+                "y": 28.0
+              }
+            ]
+          },
+          {
+            "id": "S1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 25.0
+              },
+              {
+                "x": 94.0,
+                "y": 72.0
+              }
+            ]
+          },
+          {
+            "id": "St",
+            "label": "St",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 45.0
+              },
+              {
+                "x": 94.0,
+                "y": 92.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E1",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 30.0,
+            "y": 60.0
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 30.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qe",
+            "yLabel": "Pe"
+          },
+          {
+            "id": "guide1",
+            "x": 30.0,
+            "y": 60.0,
+            "xLabel": "Qt",
+            "yLabel": "Pb"
+          },
+          {
+            "id": "guide2",
+            "x": 30.0,
+            "y": 40.0,
+            "yLabel": "Ps"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 60.0
+              },
+              {
+                "x": 30.0,
+                "y": 60.0
+              },
+              {
+                "x": 30.0,
+                "y": 40.0
+              },
+              {
+                "x": 0,
+                "y": 40.0
+              }
+            ]
+          },
+          {
+            "id": "region1",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 30.0,
+                "y": 60.0
+              },
+              {
+                "x": 30.0,
+                "y": 40.0
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      },
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 115,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 11.266666666666673,
+                "y": 108.1
+              },
+              {
+                "x": 83.33333333333334,
+                "y": -1.4210854715202004e-14
+              }
+            ]
+          },
+          {
+            "id": "S1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 16.666666666666664,
+                "y": 0.0
+              },
+              {
+                "x": 88.73333333333332,
+                "y": 108.09999999999998
+              }
+            ]
+          },
+          {
+            "id": "St",
+            "label": "St",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 3.3333333333333357,
+                "y": 0.0
+              },
+              {
+                "x": 75.39999999999999,
+                "y": 108.1
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E1",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 43.333333333333336,
+            "y": 60.0
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 43.333333333333336,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qe",
+            "yLabel": "Pe"
+          },
+          {
+            "id": "guide1",
+            "x": 43.333333333333336,
+            "y": 60.0,
+            "xLabel": "Qt",
+            "yLabel": "Pb"
+          },
+          {
+            "id": "guide2",
+            "x": 43.333333333333336,
+            "y": 40.0,
+            "yLabel": "Ps"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 60.0
+              },
+              {
+                "x": 43.333333333333336,
+                "y": 60.0
+              },
+              {
+                "x": 43.333333333333336,
+                "y": 40.0
+              },
+              {
+                "x": 0,
+                "y": 40.0
+              }
+            ]
+          },
+          {
+            "id": "region1",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 43.333333333333336,
+                "y": 60.0
+              },
+              {
+                "x": 43.333333333333336,
+                "y": 40.0
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "A binding production quota limits sales to 40 units when the competitive equilibrium quantity is 55. The quota causes",
+    "options": [
+      {
+        "label": "A",
+        "text": "A higher market price and deadweight loss from 15 lost trades"
+      },
+      {
+        "label": "B",
+        "text": "An unchanged market price and no efficiency loss"
+      },
+      {
+        "label": "C",
+        "text": "A lower market price and deadweight loss from 15 extra trades"
+      },
+      {
+        "label": "D",
+        "text": "A shortage of exactly 40 units at every price"
+      },
+      {
+        "label": "E",
+        "text": "A supply increase that raises total surplus"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The restriction lowers trade and raises buyers' willingness to pay at the allowed quantity. Excluding 15 beneficial units creates deadweight loss.",
+    "reference": "POL-1.A | POL-1.A.1 | POL-1.A.5 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "A quantity restriction permits 72 units when equilibrium quantity is 65. The restriction is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Binding, so price rises and quantity falls to 65"
+      },
+      {
+        "label": "B",
+        "text": "Nonbinding, so a seven-unit shortage remains"
+      },
+      {
+        "label": "C",
+        "text": "Binding, so price falls and quantity rises to 72"
+      },
+      {
+        "label": "D",
+        "text": "Nonbinding, so price and quantity remain at equilibrium"
+      },
+      {
+        "label": "E",
+        "text": "Binding, so a seven-unit surplus remains"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The cap exceeds the quantity the market would choose. It therefore leaves equilibrium trade unrestricted.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, the binding quota Qq creates deadweight loss because",
+    "options": [
+      {
+        "label": "A",
+        "text": "Beneficial units Qq to Qe remain untraded"
+      },
+      {
+        "label": "B",
+        "text": "The quota shifts supply to the right by Qe minus Qq"
+      },
+      {
+        "label": "C",
+        "text": "All units below Qq are sold below marginal cost"
+      },
+      {
+        "label": "D",
+        "text": "Units from Qq to Qe with cost above willingness to pay are produced"
+      },
+      {
+        "label": "E",
+        "text": "The quota shifts demand to the left by Qe minus Qq"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Between Qq and Qe, buyer values exceed seller costs. The quota eliminates these gains, forming the deadweight-loss triangle.",
+    "reference": "POL-1.A | POL-1.A.1 | POL-1.A.5 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Demand D and supply S intersect at equilibrium quantity Qe. A vertical quantity limit Qq lies left of Qe. At Qq, demand identifies buyer price Pb and supply identifies seller cost Ps; the area between D and S from Qq to Qe is shaded as DWL.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 6.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "Qq",
+            "label": "Qq",
+            "style": "reference",
+            "points": [
+              {
+                "x": 30,
+                "y": 0
+              },
+              {
+                "x": 30,
+                "y": 95
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 30,
+            "y": 70
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 30,
+            "y": 30
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 30,
+            "y": 70,
+            "xLabel": "Qq",
+            "yLabel": "Pb"
+          },
+          {
+            "id": "guide1",
+            "x": 30,
+            "y": 30,
+            "yLabel": "Ps"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 30,
+                "y": 70
+              },
+              {
+                "x": 30,
+                "y": 30
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ],
+            "label": "DWL"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "A binding price ceiling lowers producer surplus by $140 and raises consumer surplus by $80. Total surplus",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increases by $60"
+      },
+      {
+        "label": "B",
+        "text": "Remains unchanged because surplus is transferred"
+      },
+      {
+        "label": "C",
+        "text": "Decreases by $220"
+      },
+      {
+        "label": "D",
+        "text": "Increases by $220"
+      },
+      {
+        "label": "E",
+        "text": "Decreases by $60"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Total surplus changes by $80 - $140 = -$60. The $60 loss is deadweight loss.",
+    "reference": "POL-1.A | POL-1.A.1 | POL-1.A.4 | POL-1.A.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "A tax reduces consumer surplus by $170 and producer surplus by $110 while raising $230 in government revenue. Deadweight loss is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$30"
+      },
+      {
+        "label": "B",
+        "text": "$50"
+      },
+      {
+        "label": "C",
+        "text": "$60"
+      },
+      {
+        "label": "D",
+        "text": "$230"
+      },
+      {
+        "label": "E",
+        "text": "$510"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Private surplus falls $280, but $230 is transferred to government. Only the remaining $50 is lost total surplus.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.3 | POL-1.A.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "A subsidy raises consumer surplus by $120 and producer surplus by $90 while costing the government $240. The change in total surplus is",
+    "options": [
+      {
+        "label": "A",
+        "text": "No change because the gains equal the cost"
+      },
+      {
+        "label": "B",
+        "text": "A decrease of $210"
+      },
+      {
+        "label": "C",
+        "text": "A decrease of $30"
+      },
+      {
+        "label": "D",
+        "text": "An increase of $210"
+      },
+      {
+        "label": "E",
+        "text": "An increase of $30"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Private gains rise $210 while government spends $240. Net total surplus falls $30.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.3 | POL-1.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which expression measures deadweight loss from the tax?",
+    "options": [
+      {
+        "label": "A",
+        "text": "½ × tax wedge × quantity reduction"
+      },
+      {
+        "label": "B",
+        "text": "One-half times the buyer price times the original quantity"
+      },
+      {
+        "label": "C",
+        "text": "The seller price times the decrease in quantity"
+      },
+      {
+        "label": "D",
+        "text": "The tax wedge times the after-tax quantity"
+      },
+      {
+        "label": "E",
+        "text": "Consumer surplus plus producer surplus after tax"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The tax deadweight-loss triangle uses the tax wedge as its height and the reduction in trade as its base.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.5 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Original supply S and taxed supply St are separated by tax t. Quantity falls from Qe to Qt, and the triangle with height t and base Qe minus Qt is labeled DWL.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 115,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "S1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "St",
+            "label": "St",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 88.1,
+                "y": 108.1
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E1",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 40.0,
+            "y": 60.0
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 40.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qe",
+            "yLabel": "Pe"
+          },
+          {
+            "id": "guide1",
+            "x": 40.0,
+            "y": 60.0,
+            "xLabel": "Qt",
+            "yLabel": "Pb"
+          },
+          {
+            "id": "guide2",
+            "x": 40.0,
+            "y": 40.0,
+            "yLabel": "Ps"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 60.0
+              },
+              {
+                "x": 40.0,
+                "y": 60.0
+              },
+              {
+                "x": 40.0,
+                "y": 40.0
+              },
+              {
+                "x": 0,
+                "y": 40.0
+              }
+            ]
+          },
+          {
+            "id": "region1",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 40.0,
+                "y": 60.0
+              },
+              {
+                "x": 40.0,
+                "y": 40.0
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "A binding ceiling is raised closer to equilibrium. Which outcome is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The shortage disappears only if the ceiling remains below equilibrium"
+      },
+      {
+        "label": "B",
+        "text": "The shortage and deadweight loss both increase"
+      },
+      {
+        "label": "C",
+        "text": "The shortage and deadweight loss both decrease"
+      },
+      {
+        "label": "D",
+        "text": "The shortage decreases while deadweight loss increases"
+      },
+      {
+        "label": "E",
+        "text": "The shortage increases while deadweight loss decreases"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Raising the ceiling toward equilibrium increases supply and reduces desired purchases. More beneficial trades occur, reducing the shortage and deadweight loss.",
+    "reference": "POL-1.A | POL-1.A.1 | POL-1.A.5 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "A binding floor is lowered closer to equilibrium. Which outcome is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The surplus increases while deadweight loss decreases"
+      },
+      {
+        "label": "B",
+        "text": "The surplus and deadweight loss both increase"
+      },
+      {
+        "label": "C",
+        "text": "The surplus and deadweight loss both decrease"
+      },
+      {
+        "label": "D",
+        "text": "The surplus disappears only if the floor remains above equilibrium"
+      },
+      {
+        "label": "E",
+        "text": "The surplus decreases while deadweight loss increases"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Lowering the floor toward equilibrium increases purchases and reduces supply offered. Trade moves closer to equilibrium, shrinking the surplus and deadweight loss.",
+    "reference": "POL-1.A | POL-1.A.1 | POL-1.A.4 | POL-1.A.5 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "A $9 tax is imposed in a market. Buyers pay $5 more per unit and 40 units are sold. Sellers’ price falls by",
+    "options": [
+      {
+        "label": "A",
+        "text": "$5 per unit"
+      },
+      {
+        "label": "B",
+        "text": "$4 per unit"
+      },
+      {
+        "label": "C",
+        "text": "$14 per unit"
+      },
+      {
+        "label": "D",
+        "text": "$160 per unit"
+      },
+      {
+        "label": "E",
+        "text": "$9 per unit"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The $9 tax equals the two price burdens. If buyers bear $5, sellers' net price falls by $4.",
+    "reference": "POL-1.A | POL-1.A.2 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "A $12 subsidy is introduced. Sellers receive $7 more per unit and 50 units are sold. Buyers’ price falls by",
+    "options": [
+      {
+        "label": "A",
+        "text": "$7 per unit"
+      },
+      {
+        "label": "B",
+        "text": "$19 per unit"
+      },
+      {
+        "label": "C",
+        "text": "$250 per unit"
+      },
+      {
+        "label": "D",
+        "text": "$5 per unit"
+      },
+      {
+        "label": "E",
+        "text": "$12 per unit"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The $12 subsidy equals the combined price benefits. If sellers gain $7, buyers gain $5 per unit.",
+    "reference": "POL-1.A | POL-1.A.2 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, the price floor Pf is initially nonbinding. After demand shifts left, the floor becomes binding because",
+    "options": [
+      {
+        "label": "A",
+        "text": "The new equilibrium price rises above Pf"
+      },
+      {
+        "label": "B",
+        "text": "The new equilibrium price falls below Pf"
+      },
+      {
+        "label": "C",
+        "text": "The supply curve shifts upward to meet Pf"
+      },
+      {
+        "label": "D",
+        "text": "The legal minimum automatically becomes a ceiling"
+      },
+      {
+        "label": "E",
+        "text": "Quantity supplied falls below quantity demanded at Pf"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Lower demand pushes equilibrium price below the legal minimum. The floor then prevents price from clearing the market and becomes binding.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. A horizontal price floor Pf lies below the initial equilibrium of D1 and S. Demand shifts left to D2, and the new uncontrolled equilibrium lies below Pf. At Pf under D2, quantity supplied exceeds quantity demanded.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 115,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "S1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "D2",
+            "label": "D2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 65
+              },
+              {
+                "x": 65.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "Pf",
+            "label": "Pf",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 40
+              },
+              {
+                "x": 92.0,
+                "y": 40
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E1",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "E2",
+            "label": "E2",
+            "x": 32.5,
+            "y": 32.5
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 25.0,
+            "y": 40
+          },
+          {
+            "id": "point3",
+            "label": "",
+            "x": 40.0,
+            "y": 40
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 32.5,
+            "y": 32.5,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          },
+          {
+            "id": "guide2",
+            "x": 25.0,
+            "y": 40,
+            "xLabel": "Qd",
+            "yLabel": "Pf"
+          },
+          {
+            "id": "guide3",
+            "x": 40.0,
+            "y": 40,
+            "xLabel": "Qs"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "If supply is perfectly inelastic, a per-unit tax is borne",
+    "options": [
+      {
+        "label": "A",
+        "text": "Entirely by sellers because quantity supplied cannot respond"
+      },
+      {
+        "label": "B",
+        "text": "Entirely by the government through lost revenue"
+      },
+      {
+        "label": "C",
+        "text": "Equally by buyers and sellers regardless of demand"
+      },
+      {
+        "label": "D",
+        "text": "By neither side because quantity does not change"
+      },
+      {
+        "label": "E",
+        "text": "Entirely by buyers because demand determines price"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Vertical supply fixes quantity, leaving sellers unable to withdraw output. Their net price absorbs the entire tax.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.6 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "A tax produces no reduction in quantity. Which conclusion is most consistent?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The government must collect no tax revenue"
+      },
+      {
+        "label": "B",
+        "text": "The tax must be paid entirely by both sides"
+      },
+      {
+        "label": "C",
+        "text": "The tax must be nonbinding like a price ceiling"
+      },
+      {
+        "label": "D",
+        "text": "Perfectly inelastic demand or supply"
+      },
+      {
+        "label": "E",
+        "text": "Both demand and supply must be perfectly elastic"
+      }
+    ],
+    "answer": "D",
+    "explanation": "With a perfectly inelastic curve, the tax can leave trade unchanged. No units are lost, so the standard deadweight-loss triangle has zero area.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.5 | POL-1.A.6 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "A subsidy increases quantity by 20 units and costs $10 per unit. If the deadweight-loss triangle is linear, its area is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$400"
+      },
+      {
+        "label": "B",
+        "text": "$20"
+      },
+      {
+        "label": "C",
+        "text": "$2,000"
+      },
+      {
+        "label": "D",
+        "text": "$200"
+      },
+      {
+        "label": "E",
+        "text": "$100"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Deadweight loss is one-half x 20 x $10 = $100.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "A tax raises $540 in revenue and is $9 per unit. If the pre-tax quantity was 72, quantity falls by",
+    "options": [
+      {
+        "label": "A",
+        "text": "63 units"
+      },
+      {
+        "label": "B",
+        "text": "132 units"
+      },
+      {
+        "label": "C",
+        "text": "12 units"
+      },
+      {
+        "label": "D",
+        "text": "60 units"
+      },
+      {
+        "label": "E",
+        "text": "9 units"
+      }
+    ],
+    "answer": "C",
+    "explanation": "After-tax quantity is $540 / $9 = 60 units. Trade falls by 72 - 60 = 12 units.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 71,
+    "difficulty": "Hard",
+    "prompt": "A binding price ceiling causes a 40-unit shortage. Demand then decreases by 14 units at every price while supply increases by 9 units at every price. At the unchanged ceiling price,",
+    "options": [
+      {
+        "label": "A",
+        "text": "A 35-unit shortage remains"
+      },
+      {
+        "label": "B",
+        "text": "A 17-unit shortage remains"
+      },
+      {
+        "label": "C",
+        "text": "A 17-unit surplus emerges"
+      },
+      {
+        "label": "D",
+        "text": "The market reaches equilibrium exactly"
+      },
+      {
+        "label": "E",
+        "text": "A 63-unit shortage remains"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The demand decrease closes 14 units and the supply increase closes 9. The remaining shortage is 40 - 14 - 9 = 17 units.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 72,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, a supply decrease occurs while a binding ceiling remains fixed. Which conclusion is valid?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The ceiling becomes nonbinding because equilibrium price rises"
+      },
+      {
+        "label": "B",
+        "text": "The shortage expands and actual quantity traded falls"
+      },
+      {
+        "label": "C",
+        "text": "The shortage expands but actual quantity traded remains at Qd"
+      },
+      {
+        "label": "D",
+        "text": "A surplus develops because quantity supplied moves right"
+      },
+      {
+        "label": "E",
+        "text": "The shortage contracts and actual quantity traded rises"
+      }
+    ],
+    "answer": "B",
+    "explanation": "At the fixed ceiling price, lower supply reduces the units available. The shortage grows and actual sales fall.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. A binding ceiling Pc lies below equilibrium. Demand D is unchanged and supply shifts left from S1 to S2. At Pc, quantity demanded Qd is unchanged, quantity supplied falls from Qs1 to Qs2, and the shortage widens.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 115,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "S1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "S2",
+            "label": "S2",
+            "style": "muted",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 88.1,
+                "y": 108.1
+              }
+            ]
+          },
+          {
+            "id": "Pc",
+            "label": "Pc",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 30
+              },
+              {
+                "x": 92.0,
+                "y": 30
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E1",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "E2",
+            "label": "E2",
+            "x": 40.0,
+            "y": 60.0
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 70.0,
+            "y": 30
+          },
+          {
+            "id": "point3",
+            "label": "",
+            "x": 10.0,
+            "y": 30
+          },
+          {
+            "id": "point4",
+            "label": "",
+            "x": 30,
+            "y": 30
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 40.0,
+            "y": 60.0,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          },
+          {
+            "id": "guide2",
+            "x": 70.0,
+            "y": 30,
+            "xLabel": "Qd",
+            "yLabel": "Pc"
+          },
+          {
+            "id": "guide3",
+            "x": 10.0,
+            "y": 30,
+            "xLabel": "Qs2"
+          },
+          {
+            "id": "guide4",
+            "x": 30,
+            "y": 30,
+            "xLabel": "Qs1"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "difficulty": "Hard",
+    "prompt": "A binding floor creates a 36-unit surplus. Demand increases by 11 units at every price and supply decreases by 7 units at every price. At the unchanged floor price,",
+    "options": [
+      {
+        "label": "A",
+        "text": "An 18-unit surplus remains"
+      },
+      {
+        "label": "B",
+        "text": "The market reaches equilibrium exactly"
+      },
+      {
+        "label": "C",
+        "text": "An 18-unit shortage emerges"
+      },
+      {
+        "label": "D",
+        "text": "A 54-unit surplus remains"
+      },
+      {
+        "label": "E",
+        "text": "A 32-unit surplus remains"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Higher demand closes 11 surplus units, and lower supply closes 7. The remaining surplus is 36 - 11 - 7 = 18 units.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "A price ceiling is nonbinding before a supply decrease. After supply decreases, equilibrium price would be above the ceiling. Which sequence follows?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The ceiling becomes a floor, a shortage forms, and sales equal equilibrium quantity"
+      },
+      {
+        "label": "B",
+        "text": "The ceiling becomes binding, a surplus forms, and sales equal quantity supplied"
+      },
+      {
+        "label": "C",
+        "text": "The ceiling remains nonbinding, a surplus forms, and sales equal quantity demanded"
+      },
+      {
+        "label": "D",
+        "text": "The ceiling becomes binding, a shortage forms, and sales equal quantity supplied at the ceiling"
+      },
+      {
+        "label": "E",
+        "text": "The supply decrease makes the ceiling irrelevant because quantity falls"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Lower supply raises the unrestricted equilibrium above the ceiling. The ceiling becomes binding, creating a shortage and limiting trade to quantity supplied.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "A price floor is nonbinding before a demand decrease. After demand decreases, equilibrium price would be below the floor. Which sequence follows?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The demand decrease makes the floor irrelevant because quantity falls"
+      },
+      {
+        "label": "B",
+        "text": "The floor remains nonbinding, a shortage forms, and sales equal quantity supplied"
+      },
+      {
+        "label": "C",
+        "text": "The floor becomes a ceiling, a surplus forms, and sales equal equilibrium quantity"
+      },
+      {
+        "label": "D",
+        "text": "The floor becomes binding, a shortage forms, and sales equal quantity demanded"
+      },
+      {
+        "label": "E",
+        "text": "The floor becomes binding, a surplus forms, and sales equal quantity demanded at the floor"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Lower demand moves unrestricted equilibrium below the floor. The floor becomes binding, creating a surplus and limiting private trade to quantity demanded.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, the ceiling rises from Pc1 to Pc2 but remains below Pe. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quantity traded falls, the shortage grows, and deadweight loss rises"
+      },
+      {
+        "label": "B",
+        "text": "Quantity traded rises to Qe because any increase makes the ceiling nonbinding"
+      },
+      {
+        "label": "C",
+        "text": "Quantity traded rises, the shortage grows, and deadweight loss falls"
+      },
+      {
+        "label": "D",
+        "text": "Quantity traded remains fixed, the shortage shrinks, and deadweight loss rises"
+      },
+      {
+        "label": "E",
+        "text": "Quantity traded rises, the shortage shrinks, and deadweight loss falls"
+      }
+    ],
+    "answer": "E",
+    "explanation": "A higher binding ceiling allows more output and reduces excess demand. The additional beneficial trades shrink deadweight loss.",
+    "reference": "POL-1.A | POL-1.A.1 | POL-1.A.4 | POL-1.A.5 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Demand D and supply S intersect at Pe and Qe. Two binding ceilings Pc1 and higher Pc2 both lie below Pe. Pc2 has a larger quantity supplied, a smaller shortage, and a smaller deadweight loss.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 115,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "S1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "Pc1",
+            "label": "Pc1",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 25
+              },
+              {
+                "x": 92.0,
+                "y": 25
+              }
+            ]
+          },
+          {
+            "id": "Pc2",
+            "label": "Pc2",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 40
+              },
+              {
+                "x": 92.0,
+                "y": 40
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E1",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 75.0,
+            "y": 25
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 25.0,
+            "y": 25
+          },
+          {
+            "id": "point3",
+            "label": "",
+            "x": 60.0,
+            "y": 40
+          },
+          {
+            "id": "point4",
+            "label": "",
+            "x": 40.0,
+            "y": 40
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 75.0,
+            "y": 25,
+            "xLabel": "Qd",
+            "yLabel": "Pc1"
+          },
+          {
+            "id": "guide2",
+            "x": 25.0,
+            "y": 25,
+            "xLabel": "Qs"
+          },
+          {
+            "id": "guide3",
+            "x": 60.0,
+            "y": 40,
+            "xLabel": "Qd",
+            "yLabel": "Pc2"
+          },
+          {
+            "id": "guide4",
+            "x": 40.0,
+            "y": 40,
+            "xLabel": "Qs"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "A $12 tax lowers quantity from 90 to 72. Buyers’ price rises by $7. Government revenue and sellers’ per-unit burden are, respectively,",
+    "options": [
+      {
+        "label": "A",
+        "text": "$1,080 and $5"
+      },
+      {
+        "label": "B",
+        "text": "$864 and $7"
+      },
+      {
+        "label": "C",
+        "text": "$1,080 and $19"
+      },
+      {
+        "label": "D",
+        "text": "$864 and $5"
+      },
+      {
+        "label": "E",
+        "text": "$216 and $5"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Tax revenue is $12 x 72 = $864. Buyers bear $7 per unit, leaving $12 - $7 = $5 for sellers.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.3 | POL-1.A.6 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "A $10 subsidy raises quantity from 64 to 80. Sellers receive $6 more per unit. Government cost and buyers’ per-unit benefit are, respectively,",
+    "options": [
+      {
+        "label": "A",
+        "text": "$640 and $4"
+      },
+      {
+        "label": "B",
+        "text": "$800 and $4"
+      },
+      {
+        "label": "C",
+        "text": "$800 and $6"
+      },
+      {
+        "label": "D",
+        "text": "$160 and $4"
+      },
+      {
+        "label": "E",
+        "text": "$640 and $16"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Government spending is $10 x 80 = $800. If sellers gain $6 per unit, buyers gain the remaining $4.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "A $7 tax reduces consumer surplus by $250 and producer surplus by $170. Fifty units are sold after tax. Deadweight loss is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$770"
+      },
+      {
+        "label": "B",
+        "text": "$350"
+      },
+      {
+        "label": "C",
+        "text": "$70"
+      },
+      {
+        "label": "D",
+        "text": "$35"
+      },
+      {
+        "label": "E",
+        "text": "$420"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Private surplus falls $420, of which $350 becomes tax revenue. Deadweight loss is the remaining $70.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.3 | POL-1.A.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "A $6 subsidy raises consumer surplus by $190 and producer surplus by $125. Fifty-five units are sold after the subsidy. Deadweight loss is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$30"
+      },
+      {
+        "label": "B",
+        "text": "$15"
+      },
+      {
+        "label": "C",
+        "text": "$315"
+      },
+      {
+        "label": "D",
+        "text": "$330"
+      },
+      {
+        "label": "E",
+        "text": "$0"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Government spending is $6 x 55 = $330. Since private surplus rises only $315, total surplus falls $15.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.3 | POL-1.A.4 | POL-1.A.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "A tax of $8 reduces quantity by 14 units. A second market has the same tax but quantity falls by only 6 units. Assuming linear curves, deadweight loss is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Indeterminate because tax revenue is unknown"
+      },
+      {
+        "label": "B",
+        "text": "The same in both markets at $56"
+      },
+      {
+        "label": "C",
+        "text": "Larger in the first market by $64"
+      },
+      {
+        "label": "D",
+        "text": "Larger in the second market by $32"
+      },
+      {
+        "label": "E",
+        "text": "Larger in the first market by $32"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The losses are one-half x $8 x 14 = $56 and one-half x $8 x 6 = $24. The first is $32 greater.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "Based on the figures below, identical taxes produce equal revenue per unit but different deadweight losses. Why is Market A’s deadweight loss larger?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Its more elastic curves produce a larger reduction in quantity"
+      },
+      {
+        "label": "B",
+        "text": "Its original equilibrium price is necessarily higher"
+      },
+      {
+        "label": "C",
+        "text": "Its less elastic curves produce a larger buyer price increase"
+      },
+      {
+        "label": "D",
+        "text": "Its statutory tax is collected from both buyers and sellers"
+      },
+      {
+        "label": "E",
+        "text": "Its government revenue rectangle is necessarily wider and taller"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Both markets have the same tax wedge. A's larger quantity contraction gives the deadweight-loss triangle a larger base and area.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.3 | POL-1.A.5 | POL-1.A.6 | Skill 2.C",
+    "graphDescription": "Two panels have price on the vertical axis and quantity on the horizontal axis. Each shows the same tax wedge t. Market A has flatter demand and supply curves and a larger decrease from Qe to Qt than Market B. The deadweight-loss triangle is visibly larger in Market A.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 115,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 75.0
+              },
+              {
+                "x": 94.0,
+                "y": 28.0
+              }
+            ]
+          },
+          {
+            "id": "S1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 25.0
+              },
+              {
+                "x": 94.0,
+                "y": 72.0
+              }
+            ]
+          },
+          {
+            "id": "St",
+            "label": "St",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 45.0
+              },
+              {
+                "x": 94.0,
+                "y": 92.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E1",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 30.0,
+            "y": 60.0
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 30.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qe",
+            "yLabel": "Pe"
+          },
+          {
+            "id": "guide1",
+            "x": 30.0,
+            "y": 60.0,
+            "xLabel": "Qt",
+            "yLabel": "Pb"
+          },
+          {
+            "id": "guide2",
+            "x": 30.0,
+            "y": 40.0,
+            "yLabel": "Ps"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 60.0
+              },
+              {
+                "x": 30.0,
+                "y": 60.0
+              },
+              {
+                "x": 30.0,
+                "y": 40.0
+              },
+              {
+                "x": 0,
+                "y": 40.0
+              }
+            ]
+          },
+          {
+            "id": "region1",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 30.0,
+                "y": 60.0
+              },
+              {
+                "x": 30.0,
+                "y": 40.0
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      },
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 115,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 11.266666666666673,
+                "y": 108.1
+              },
+              {
+                "x": 83.33333333333334,
+                "y": -1.4210854715202004e-14
+              }
+            ]
+          },
+          {
+            "id": "S1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 16.666666666666664,
+                "y": 0.0
+              },
+              {
+                "x": 88.73333333333332,
+                "y": 108.09999999999998
+              }
+            ]
+          },
+          {
+            "id": "St",
+            "label": "St",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 3.3333333333333357,
+                "y": 0.0
+              },
+              {
+                "x": 75.39999999999999,
+                "y": 108.1
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E1",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 43.333333333333336,
+            "y": 60.0
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 43.333333333333336,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qe",
+            "yLabel": "Pe"
+          },
+          {
+            "id": "guide1",
+            "x": 43.333333333333336,
+            "y": 60.0,
+            "xLabel": "Qt",
+            "yLabel": "Pb"
+          },
+          {
+            "id": "guide2",
+            "x": 43.333333333333336,
+            "y": 40.0,
+            "yLabel": "Ps"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 60.0
+              },
+              {
+                "x": 43.333333333333336,
+                "y": 60.0
+              },
+              {
+                "x": 43.333333333333336,
+                "y": 40.0
+              },
+              {
+                "x": 0,
+                "y": 40.0
+              }
+            ]
+          },
+          {
+            "id": "region1",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 43.333333333333336,
+                "y": 60.0
+              },
+              {
+                "x": 43.333333333333336,
+                "y": 40.0
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "Demand is perfectly inelastic and supply is upward sloping. A per-unit tax is imposed. Which combination is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quantity rises, buyers bear the tax, and government revenue is zero"
+      },
+      {
+        "label": "B",
+        "text": "Quantity falls, sellers bear the tax, and deadweight loss is positive"
+      },
+      {
+        "label": "C",
+        "text": "Quantity is unchanged, buyers bear the tax, and deadweight loss is zero"
+      },
+      {
+        "label": "D",
+        "text": "Quantity falls, buyers and sellers split the tax equally, and deadweight loss is zero"
+      },
+      {
+        "label": "E",
+        "text": "Quantity is unchanged, sellers bear the tax, and deadweight loss is positive"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Vertical demand prevents buyers from reducing quantity, so they bear the full tax. With trade unchanged, the standard deadweight loss is zero.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.4 | POL-1.A.5 | POL-1.A.6 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "A tax is legally imposed on buyers in Market X and on sellers in Market Y. The markets have identical demand, supply, and tax amounts. Which statement is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Buyers bear more in Market X, while sellers bear more in Market Y"
+      },
+      {
+        "label": "B",
+        "text": "After-tax quantity is larger in the market where sellers remit the tax"
+      },
+      {
+        "label": "C",
+        "text": "Deadweight loss is larger in Market Y because supply shifts"
+      },
+      {
+        "label": "D",
+        "text": "Economic incidence and after-tax quantity are identical in both markets"
+      },
+      {
+        "label": "E",
+        "text": "Tax revenue is larger in Market X because buyers remit it"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The same tax creates the same buyer-seller wedge under identical market conditions. Changing the legal remitter leaves final prices, quantity, revenue, and incidence unchanged.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.3 | POL-1.A.6 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, a tax is drawn as a downward shift of demand rather than an upward shift of supply. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quantity falls by less whenever the tax is collected from buyers"
+      },
+      {
+        "label": "B",
+        "text": "Government revenue is zero because sellers do not remit the tax"
+      },
+      {
+        "label": "C",
+        "text": "Buyers necessarily bear the entire tax because demand shifts"
+      },
+      {
+        "label": "D",
+        "text": "Sellers necessarily bear the entire tax because supply does not shift"
+      },
+      {
+        "label": "E",
+        "text": "Unchanged economic incidence and equilibrium tax wedge"
+      }
+    ],
+    "answer": "E",
+    "explanation": "A buyer tax shifts demand down, while a seller tax shifts supply up. Equivalent taxes create the same price wedge and equilibrium outcome.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.6 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Supply S is unchanged. Original demand D shifts vertically downward to Dt by tax t. Quantity falls from Qe to Qt, buyers pay Pb, sellers receive Ps, and Pb minus Ps equals t.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 115,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "S1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "Dt",
+            "label": "Dt",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 80
+              },
+              {
+                "x": 80.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E1",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 40.0,
+            "y": 60.0
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 40.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qe",
+            "yLabel": "Pe"
+          },
+          {
+            "id": "guide1",
+            "x": 40.0,
+            "y": 60.0,
+            "xLabel": "Qt",
+            "yLabel": "Pb"
+          },
+          {
+            "id": "guide2",
+            "x": 40.0,
+            "y": 40.0,
+            "yLabel": "Ps"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 60.0
+              },
+              {
+                "x": 40.0,
+                "y": 60.0
+              },
+              {
+                "x": 40.0,
+                "y": 40.0
+              },
+              {
+                "x": 0,
+                "y": 40.0
+              }
+            ]
+          },
+          {
+            "id": "region1",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 40.0,
+                "y": 60.0
+              },
+              {
+                "x": 40.0,
+                "y": 40.0
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "A price ceiling lowers price but also reduces the number of units sold. Which statement about consumer surplus is valid?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It must rise because every buyer pays a lower price"
+      },
+      {
+        "label": "B",
+        "text": "It remains unchanged because producer losses are transfers"
+      },
+      {
+        "label": "C",
+        "text": "Ambiguous; transfers and lost trades have opposing effects"
+      },
+      {
+        "label": "D",
+        "text": "It equals the shortage multiplied by the controlled price"
+      },
+      {
+        "label": "E",
+        "text": "It must fall because fewer units are sold"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Buyers who obtain units benefit from the lower price, but some purchases disappear. The net consumer-surplus change depends on the relative gains and losses.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "A price floor raises price but reduces private sales. Which statement about producer surplus is valid?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It must rise because every seller receives a higher price"
+      },
+      {
+        "label": "B",
+        "text": "Ambiguous without government purchases of surplus"
+      },
+      {
+        "label": "C",
+        "text": "It must fall because the legal price is above equilibrium"
+      },
+      {
+        "label": "D",
+        "text": "It remains unchanged because supply does not shift"
+      },
+      {
+        "label": "E",
+        "text": "It equals quantity supplied multiplied by the floor price"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Sellers gain a higher price on units sold but lose sales. The relative areas determine whether producer surplus rises or falls.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, the government buys the surplus under a price floor. Its expenditure is represented by",
+    "options": [
+      {
+        "label": "A",
+        "text": "Pf minus Pe multiplied by Qd"
+      },
+      {
+        "label": "B",
+        "text": "Pf multiplied by Qs"
+      },
+      {
+        "label": "C",
+        "text": "Pf multiplied by Qd"
+      },
+      {
+        "label": "D",
+        "text": "Pf multiplied by (Qs minus Qd)"
+      },
+      {
+        "label": "E",
+        "text": "Pe multiplied by Qs minus Qd"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Government purchases the surplus Qs - Qd at price Pf. Spending is Pf x (Qs - Qd).",
+    "reference": "POL-1.A | POL-1.A.1 | POL-1.A.3 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. A binding floor Pf lies above equilibrium Pe. At Pf, private quantity demanded is Qd and quantity supplied is Qs. The horizontal distance Qs minus Qd is marked government purchases.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 115,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "S1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "Pf",
+            "label": "Pf",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 70
+              },
+              {
+                "x": 92.0,
+                "y": 70
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E1",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 30.0,
+            "y": 70
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 70.0,
+            "y": 70
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 30.0,
+            "y": 70,
+            "xLabel": "Qd",
+            "yLabel": "Pf"
+          },
+          {
+            "id": "guide2",
+            "x": 70.0,
+            "y": 70,
+            "xLabel": "Qs"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "A quota reduces quantity from 100 to 76. At 76 units, buyers are willing to pay $18 and sellers require $12. If demand and supply are linear, the deadweight loss is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$144"
+      },
+      {
+        "label": "B",
+        "text": "$720"
+      },
+      {
+        "label": "C",
+        "text": "$36"
+      },
+      {
+        "label": "D",
+        "text": "$72"
+      },
+      {
+        "label": "E",
+        "text": "$456"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Deadweight loss is one-half x $6 x 24 = $72.",
+    "reference": "POL-1.A | POL-1.A.1 | POL-1.A.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "A quantity restriction is tightened from 80 units to 65 units, both below equilibrium. Which outcome is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The market price remains unchanged because demand and supply do not shift"
+      },
+      {
+        "label": "B",
+        "text": "The market price rises while deadweight loss falls and quantity is fixed"
+      },
+      {
+        "label": "C",
+        "text": "The market price and deadweight loss fall while quantity traded rises"
+      },
+      {
+        "label": "D",
+        "text": "The market price falls while deadweight loss rises and quantity traded falls"
+      },
+      {
+        "label": "E",
+        "text": "The market price and deadweight loss rise while quantity traded falls"
+      }
+    ],
+    "answer": "E",
+    "explanation": "A tighter cap reduces trade further. Buyers' willingness to pay at the smaller quantity rises, and more beneficial trades are excluded.",
+    "reference": "POL-1.A | POL-1.A.1 | POL-1.A.4 | POL-1.A.5 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "A $4 tax and a binding quota each reduce quantity from 70 to 60. At 60 units, the demand-supply price gap is $4. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The quota creates no deadweight loss because quantity is legally fixed"
+      },
+      {
+        "label": "B",
+        "text": "The tax creates no deadweight loss because revenue is a transfer"
+      },
+      {
+        "label": "C",
+        "text": "The quota creates more deadweight loss because no curve shifts"
+      },
+      {
+        "label": "D",
+        "text": "Equal deadweight loss in an initially efficient market"
+      },
+      {
+        "label": "E",
+        "text": "The tax creates more deadweight loss because government receives revenue"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Both policies eliminate the same ten units with the same $4 marginal wedge. Their deadweight-loss triangles match even if their transfers differ.",
+    "reference": "POL-1.A | POL-1.A.1 | POL-1.A.2 | POL-1.A.4 | POL-1.A.5 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, a subsidy increases quantity from Qe to Qs. Which expression gives the change in total surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The subsidy wedge times Qe only"
+      },
+      {
+        "label": "B",
+        "text": "Consumer surplus minus producer surplus"
+      },
+      {
+        "label": "C",
+        "text": "Government expenditure minus all producer surplus"
+      },
+      {
+        "label": "D",
+        "text": "Private-surplus gains minus government expenditure"
+      },
+      {
+        "label": "E",
+        "text": "Private-surplus gains plus government expenditure"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Count private surplus gains and subtract government subsidy spending. Spending exceeds those gains by the deadweight loss.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.3 | POL-1.A.4 | POL-1.A.5 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. A seller subsidy shifts supply down from S to Ss, increasing quantity from Qe to Qs. Consumer and producer surplus gains are shaded, government expenditure is a rectangle with height subsidy and width Qs, and the overproduction triangle is labeled DWL.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 115,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "S1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "Ss",
+            "label": "Ss",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 20.0,
+                "y": 0.0
+              },
+              {
+                "x": 94.0,
+                "y": 74.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E1",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 60.0,
+            "y": 40.0
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 60.0,
+            "y": 60.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qe",
+            "yLabel": "Pe"
+          },
+          {
+            "id": "guide1",
+            "x": 60.0,
+            "y": 40.0,
+            "xLabel": "Qs",
+            "yLabel": "Pb"
+          },
+          {
+            "id": "guide2",
+            "x": 60.0,
+            "y": 60.0,
+            "yLabel": "Ps"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "cost",
+            "points": [
+              {
+                "x": 0,
+                "y": 40.0
+              },
+              {
+                "x": 60.0,
+                "y": 40.0
+              },
+              {
+                "x": 60.0,
+                "y": 60.0
+              },
+              {
+                "x": 0,
+                "y": 60.0
+              }
+            ]
+          },
+          {
+            "id": "region1",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 60.0,
+                "y": 40.0
+              },
+              {
+                "x": 60.0,
+                "y": 60.0
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "A $9 subsidy increases private surplus by $630 and quantity sold to 75 units. The change in total surplus is",
+    "options": [
+      {
+        "label": "A",
+        "text": "An increase of $45"
+      },
+      {
+        "label": "B",
+        "text": "A decrease of $45"
+      },
+      {
+        "label": "C",
+        "text": "No change because private gains equal public cost"
+      },
+      {
+        "label": "D",
+        "text": "A decrease of $630"
+      },
+      {
+        "label": "E",
+        "text": "An increase of $675"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Government expenditure is $9 x 75 = $675. Subtracting the $630 private gain leaves a $45 loss of total surplus.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.3 | POL-1.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "A $6 tax reduces quantity from 120 to 100. Buyers bear $4 per unit. Which combination is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sellers bear $2 per unit, revenue is $600, and deadweight loss is $120"
+      },
+      {
+        "label": "B",
+        "text": "Sellers bear $4 per unit, revenue is $720, and deadweight loss is $60"
+      },
+      {
+        "label": "C",
+        "text": "Sellers bear $10 per unit, revenue is $720, and deadweight loss is $120"
+      },
+      {
+        "label": "D",
+        "text": "Sellers bear $2 per unit, revenue is $600, and deadweight loss is $60"
+      },
+      {
+        "label": "E",
+        "text": "Sellers bear no tax, revenue is $600, and deadweight loss is zero"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Sellers bear the remaining $2 of the $6 tax. Revenue is $6 x 100 = $600, and deadweight loss is one- half x $6 x 20 = $60.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.3 | POL-1.A.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "A binding ceiling of $10 yields Qd = 90 and Qs = 50. Raising the ceiling to $12 changes Qd to 82 and Qs to 62. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The shortage falls from 40 to 12 units and sales rise by 20 units"
+      },
+      {
+        "label": "B",
+        "text": "The shortage rises from 40 to 44 units and sales fall by 12 units"
+      },
+      {
+        "label": "C",
+        "text": "The surplus falls from 40 to 20 units and sales rise by 32 units"
+      },
+      {
+        "label": "D",
+        "text": "The shortage falls from 140 to 144 units and sales remain fixed"
+      },
+      {
+        "label": "E",
+        "text": "The shortage falls from 40 to 20 units and sales rise by 12 units"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The shortage falls from 90 - 50 = 40 to 82 - 62 = 20 units. Actual sales rise from 50 to 62.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "A binding floor of $15 yields Qd = 44 and Qs = 76. Lowering the floor to $13 changes Qd to 52 and Qs to 66. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The surplus falls from 32 to 14 units and private sales rise by 8 units"
+      },
+      {
+        "label": "B",
+        "text": "The surplus rises from 32 to 38 units and private sales rise by 22 units"
+      },
+      {
+        "label": "C",
+        "text": "The shortage falls from 32 to 14 units and private sales fall by 8 units"
+      },
+      {
+        "label": "D",
+        "text": "The surplus falls from 32 to 10 units and private sales rise by 18 units"
+      },
+      {
+        "label": "E",
+        "text": "The surplus falls from 120 to 118 units and private sales remain fixed"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The surplus falls from 76 - 44 = 32 to 66 - 52 = 14 units. Private sales rise from 44 to 52.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "Based on the figures below, Market A has less elastic demand than Market B, while supply is identical. With equal taxes, which comparison is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Buyers bear more of the tax in Market A, but quantity falls less in Market A"
+      },
+      {
+        "label": "B",
+        "text": "Government revenue must be lower in Market A because buyer price rises more"
+      },
+      {
+        "label": "C",
+        "text": "Buyers bear less of the tax in Market A, but quantity falls more in Market A"
+      },
+      {
+        "label": "D",
+        "text": "Sellers bear more of the tax in Market A, and quantity falls more in Market A"
+      },
+      {
+        "label": "E",
+        "text": "Tax incidence and quantity changes are identical because supply is the same"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Less elastic demand leaves buyers bearing more of the tax. It also produces a smaller quantity response with the same supply curve.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.6 | Skill 2.C",
+    "graphDescription": "Two panels have price on the vertical axis and quantity on the horizontal axis. Supply and the per-unit tax are identical. Market A has steeper, less elastic demand than Market B. The buyer-price increase is larger and the quantity decrease smaller in Market A.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 115,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 17.72222222222223,
+                "y": 108.1
+              },
+              {
+                "x": 77.77777777777777,
+                "y": 7.105427357601002e-15
+              }
+            ]
+          },
+          {
+            "id": "S1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "St",
+            "label": "St",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 88.1,
+                "y": 108.1
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E1",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 42.857142857142854,
+            "y": 62.85714285714286
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 42.857142857142854,
+            "y": 42.85714285714286
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qe",
+            "yLabel": "Pe"
+          },
+          {
+            "id": "guide1",
+            "x": 42.857142857142854,
+            "y": 62.85714285714286,
+            "xLabel": "Qt",
+            "yLabel": "Pb"
+          },
+          {
+            "id": "guide2",
+            "x": 42.857142857142854,
+            "y": 42.85714285714286,
+            "yLabel": "Ps"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 62.85714285714286
+              },
+              {
+                "x": 42.857142857142854,
+                "y": 62.85714285714286
+              },
+              {
+                "x": 42.857142857142854,
+                "y": 42.85714285714286
+              },
+              {
+                "x": 0,
+                "y": 42.85714285714286
+              }
+            ]
+          },
+          {
+            "id": "region1",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 42.857142857142854,
+                "y": 62.85714285714286
+              },
+              {
+                "x": 42.857142857142854,
+                "y": 42.857142857142854
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      },
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 115,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 75.0
+              },
+              {
+                "x": 94.0,
+                "y": 28.0
+              }
+            ]
+          },
+          {
+            "id": "S1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "St",
+            "label": "St",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 88.1,
+                "y": 108.1
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E1",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 36.666666666666664,
+            "y": 56.66666666666667
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 36.666666666666664,
+            "y": 36.66666666666667
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qe",
+            "yLabel": "Pe"
+          },
+          {
+            "id": "guide1",
+            "x": 36.666666666666664,
+            "y": 56.66666666666667,
+            "xLabel": "Qt",
+            "yLabel": "Pb"
+          },
+          {
+            "id": "guide2",
+            "x": 36.666666666666664,
+            "y": 36.66666666666667,
+            "yLabel": "Ps"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 56.66666666666667
+              },
+              {
+                "x": 36.666666666666664,
+                "y": 56.66666666666667
+              },
+              {
+                "x": 36.666666666666664,
+                "y": 36.66666666666667
+              },
+              {
+                "x": 0,
+                "y": 36.66666666666667
+              }
+            ]
+          },
+          {
+            "id": "region1",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 36.666666666666664,
+                "y": 56.66666666666667
+              },
+              {
+                "x": 36.666666666666664,
+                "y": 36.666666666666664
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "A tax is doubled from $4 to $8 in a linear market. The quantity reduction doubles from 10 to 20 units. Deadweight loss changes from",
+    "options": [
+      {
+        "label": "A",
+        "text": "$80 to $160"
+      },
+      {
+        "label": "B",
+        "text": "$40 to $80"
+      },
+      {
+        "label": "C",
+        "text": "$20 to $80"
+      },
+      {
+        "label": "D",
+        "text": "$20 to $40"
+      },
+      {
+        "label": "E",
+        "text": "$40 to $160"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Initial loss is one-half x $4 x 10 = $20. New loss is one-half x $8 x 20 = $80, four times as large.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, a price floor and price ceiling are both present, with the floor below equilibrium and the ceiling above equilibrium. The market outcome is",
+    "options": [
+      {
+        "label": "A",
+        "text": "The original competitive equilibrium because neither control is binding"
+      },
+      {
+        "label": "B",
+        "text": "No legal price because the controls contradict each other"
+      },
+      {
+        "label": "C",
+        "text": "An average of the two legal prices with reduced quantity"
+      },
+      {
+        "label": "D",
+        "text": "The floor price with a surplus because every floor binds"
+      },
+      {
+        "label": "E",
+        "text": "The ceiling price with a shortage because every ceiling binds"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Equilibrium falls within the allowed price range. Neither the ceiling nor the floor constrains market clearing.",
+    "reference": "POL-1.A | POL-1.A.1 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Demand D and supply S intersect at Pe. A price floor Pf lies below Pe and a price ceiling Pc lies above Pe, so Pe lies inside the legal price band.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 115,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "S1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "Pf",
+            "label": "Pf",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 25
+              },
+              {
+                "x": 92.0,
+                "y": 25
+              }
+            ]
+          },
+          {
+            "id": "Pc",
+            "label": "Pc",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 75
+              },
+              {
+                "x": 92.0,
+                "y": 75
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E1",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 75.0,
+            "y": 25
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 25.0,
+            "y": 25
+          },
+          {
+            "id": "point3",
+            "label": "",
+            "x": 25.0,
+            "y": 75
+          },
+          {
+            "id": "point4",
+            "label": "",
+            "x": 75.0,
+            "y": 75
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 75.0,
+            "y": 25,
+            "xLabel": "Qd",
+            "yLabel": "Pf"
+          },
+          {
+            "id": "guide2",
+            "x": 25.0,
+            "y": 25,
+            "xLabel": "Qs"
+          },
+          {
+            "id": "guide3",
+            "x": 25.0,
+            "y": 75,
+            "xLabel": "Qd",
+            "yLabel": "Pc"
+          },
+          {
+            "id": "guide4",
+            "x": 75.0,
+            "y": 75,
+            "xLabel": "Qs"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "A tax causes no deadweight loss but produces positive government revenue. Which market condition can explain this result?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The tax revenue exactly equals the tax per unit"
+      },
+      {
+        "label": "B",
+        "text": "Both sides are perfectly elastic, so price and quantity do not change after the tax"
+      },
+      {
+        "label": "C",
+        "text": "One side of the market is perfectly inelastic, so quantity does not change"
+      },
+      {
+        "label": "D",
+        "text": "The government returns the revenue to the statutory payer"
+      },
+      {
+        "label": "E",
+        "text": "The tax is collected from buyers rather than sellers"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Perfectly inelastic demand or supply can preserve the original traded quantity after a tax. Government still collects revenue, but no beneficial trades disappear.",
+    "reference": "POL-1.A | POL-1.A.2 | POL-1.A.3 | POL-1.A.4 | POL-1.A.5 | POL-1.A.6 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  }
+]

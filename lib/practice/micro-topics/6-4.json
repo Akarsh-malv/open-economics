@@ -1,0 +1,3892 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, the unregulated monopoly quantity is determined where",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand equals marginal cost"
+      },
+      {
+        "label": "B",
+        "text": "Marginal revenue equals demand"
+      },
+      {
+        "label": "C",
+        "text": "Average total cost is minimized"
+      },
+      {
+        "label": "D",
+        "text": "Price equals average total cost"
+      },
+      {
+        "label": "E",
+        "text": "Marginal revenue equals marginal cost"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The operating monopolist selects output where rising MC meets MR. It then reads the selling price from demand at that quantity.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "Quantity is on the horizontal axis and price, revenue, and cost are on the vertical axis. Downward-sloping demand and marginal revenue are shown with marginal cost and average total cost. The unregulated quantity Qm occurs where MR = MC; regulated price and quantity labels identify the policy outcome.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price / revenue / cost",
+        "xMax": 100,
+        "yMax": 120,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 95,
+                "y": 5
+              }
+            ]
+          },
+          {
+            "id": "MR",
+            "label": "MR",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 50,
+                "y": 0
+              }
+            ]
+          },
+          {
+            "id": "MC",
+            "label": "MC",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 95,
+                "y": 20
+              }
+            ]
+          },
+          {
+            "id": "ATC",
+            "label": "ATC",
+            "style": "muted",
+            "points": [
+              {
+                "x": 10,
+                "y": 80
+              },
+              {
+                "x": 20,
+                "y": 50
+              },
+              {
+                "x": 30,
+                "y": 40
+              },
+              {
+                "x": 40,
+                "y": 35
+              },
+              {
+                "x": 60,
+                "y": 30
+              },
+              {
+                "x": 80,
+                "y": 27.5
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 40,
+            "y": 60
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 40,
+            "y": 20
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 80,
+            "y": 20
+          },
+          {
+            "id": "point3",
+            "label": "",
+            "x": 71.6227766016838,
+            "y": 28.377223398316204
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 40,
+            "y": 60,
+            "xLabel": "Qm",
+            "yLabel": "Pm"
+          },
+          {
+            "id": "guide1",
+            "x": 80,
+            "y": 20,
+            "xLabel": "Qmc",
+            "yLabel": "Pmc"
+          },
+          {
+            "id": "guide2",
+            "x": 71.6227766016838,
+            "y": 28.377223398316204,
+            "xLabel": "Qac",
+            "yLabel": "Pac"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "A lump-sum tax on a monopoly will directly",
+    "options": [
+      {
+        "label": "A",
+        "text": "Raise fixed cost; leave operating price and quantity unchanged"
+      },
+      {
+        "label": "B",
+        "text": "Decrease average fixed cost"
+      },
+      {
+        "label": "C",
+        "text": "Shift marginal revenue downward"
+      },
+      {
+        "label": "D",
+        "text": "Raise demand at every price"
+      },
+      {
+        "label": "E",
+        "text": "Increase marginal cost and reduce output"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A lump-sum tax raises fixed cost and ATC but leaves MC unchanged. For a firm that continues operating, the MR = MC quantity and demand-determined price stay the same.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "A lump-sum subsidy to a firm will directly",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increase marginal revenue for every unit"
+      },
+      {
+        "label": "B",
+        "text": "Reduce marginal cost for every unit"
+      },
+      {
+        "label": "C",
+        "text": "Shift demand to the right"
+      },
+      {
+        "label": "D",
+        "text": "Force price to equal average total cost"
+      },
+      {
+        "label": "E",
+        "text": "Reduce fixed cost while leaving MC unchanged"
+      }
+    ],
+    "answer": "E",
+    "explanation": "A lump-sum subsidy raises profit without changing marginal revenue or marginal cost. The operating firm's MR = MC output stays unchanged.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "A per-unit subsidy to a monopoly will generally",
+    "options": [
+      {
+        "label": "A",
+        "text": "Raise marginal cost and reduce quantity"
+      },
+      {
+        "label": "B",
+        "text": "Lower fixed cost and leave quantity unchanged"
+      },
+      {
+        "label": "C",
+        "text": "Eliminate market power automatically"
+      },
+      {
+        "label": "D",
+        "text": "Lower MC and expand profit-maximizing output"
+      },
+      {
+        "label": "E",
+        "text": "Shift demand left"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A per-unit subsidy lowers the effective marginal cost of production. It meets MR at a larger quantity, increasing monopoly output.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, a lump-sum tax leaves the profit-maximizing quantity unchanged because it does not shift",
+    "options": [
+      {
+        "label": "A",
+        "text": "Average total cost"
+      },
+      {
+        "label": "B",
+        "text": "Average fixed cost"
+      },
+      {
+        "label": "C",
+        "text": "Total fixed cost"
+      },
+      {
+        "label": "D",
+        "text": "Marginal cost"
+      },
+      {
+        "label": "E",
+        "text": "Economic profit"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The tax changes fixed and average total cost, not MC. The unchanged MR-MC intersection leaves the operating firm's maximizing quantity unchanged.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "Quantity is on the horizontal axis and price, revenue, and cost are on the vertical axis. Downward-sloping demand and marginal revenue are shown with marginal cost and average total cost. The unregulated quantity Qm occurs where MR = MC; regulated price and quantity labels identify the policy outcome.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price / revenue / cost",
+        "xMax": 100,
+        "yMax": 120,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 95,
+                "y": 5
+              }
+            ]
+          },
+          {
+            "id": "MR",
+            "label": "MR",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 50,
+                "y": 0
+              }
+            ]
+          },
+          {
+            "id": "MC",
+            "label": "MC",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 95,
+                "y": 20
+              }
+            ]
+          },
+          {
+            "id": "ATC",
+            "label": "ATC",
+            "style": "muted",
+            "points": [
+              {
+                "x": 10,
+                "y": 80
+              },
+              {
+                "x": 20,
+                "y": 50
+              },
+              {
+                "x": 30,
+                "y": 40
+              },
+              {
+                "x": 40,
+                "y": 35
+              },
+              {
+                "x": 60,
+                "y": 30
+              },
+              {
+                "x": 80,
+                "y": 27.5
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 40,
+            "y": 60
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 40,
+            "y": 20
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 80,
+            "y": 20
+          },
+          {
+            "id": "point3",
+            "label": "",
+            "x": 71.6227766016838,
+            "y": 28.377223398316204
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 40,
+            "y": 60,
+            "xLabel": "Qm",
+            "yLabel": "Pm"
+          },
+          {
+            "id": "guide1",
+            "x": 80,
+            "y": 20,
+            "xLabel": "Qmc",
+            "yLabel": "Pmc"
+          },
+          {
+            "id": "guide2",
+            "x": 71.6227766016838,
+            "y": 28.377223398316204,
+            "xLabel": "Qac",
+            "yLabel": "Pac"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "A price ceiling above a monopoly’s unregulated price is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Guaranteed to create a shortage"
+      },
+      {
+        "label": "B",
+        "text": "Equivalent to a per-unit tax"
+      },
+      {
+        "label": "C",
+        "text": "Binding and increases price"
+      },
+      {
+        "label": "D",
+        "text": "Nonbinding; the original price and quantity remain"
+      },
+      {
+        "label": "E",
+        "text": "Binding and forces output to zero"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The monopolist already charges below the legal maximum. The ceiling does not constrain its choice and is nonbinding.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "For a natural monopoly, average-cost regulation sets price equal to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Marginal cost and always permits normal profit"
+      },
+      {
+        "label": "B",
+        "text": "Average total cost and permits normal profit"
+      },
+      {
+        "label": "C",
+        "text": "Average fixed cost and eliminates variable cost"
+      },
+      {
+        "label": "D",
+        "text": "The demand intercept and maximizes output"
+      },
+      {
+        "label": "E",
+        "text": "Marginal revenue and creates allocative efficiency"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Average-cost regulation sets P = ATC. Revenue then covers total economic cost, including the normal return, giving zero economic profit.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "For a natural monopoly, marginal-cost regulation tends to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Raise fixed cost above variable cost"
+      },
+      {
+        "label": "B",
+        "text": "Set price equal marginal revenue"
+      },
+      {
+        "label": "C",
+        "text": "Create positive economic profit because price exceeds ATC"
+      },
+      {
+        "label": "D",
+        "text": "Create economic loss because price is below ATC"
+      },
+      {
+        "label": "E",
+        "text": "Leave output below the unregulated quantity"
+      }
+    ],
+    "answer": "D",
+    "explanation": "For a natural monopoly with declining ATC, MC is below ATC. Setting P = MC reaches efficient output but leaves revenue insufficient to cover total cost.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, a per-unit tax shifts which curve upward?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Marginal cost"
+      },
+      {
+        "label": "B",
+        "text": "The regulated price ceiling"
+      },
+      {
+        "label": "C",
+        "text": "Marginal revenue"
+      },
+      {
+        "label": "D",
+        "text": "Average fixed cost only"
+      },
+      {
+        "label": "E",
+        "text": "Market demand"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The tax adds to the cost of each extra output unit. MC shifts upward, changing the monopoly's MR = MC quantity.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "Quantity is on the horizontal axis and price, revenue, and cost are on the vertical axis. Downward-sloping demand and marginal revenue are shown with marginal cost and average total cost. The unregulated quantity Qm occurs where MR = MC; regulated price and quantity labels identify the policy outcome.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price / revenue / cost",
+        "xMax": 100,
+        "yMax": 120,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 95,
+                "y": 5
+              }
+            ]
+          },
+          {
+            "id": "MR",
+            "label": "MR",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 50,
+                "y": 0
+              }
+            ]
+          },
+          {
+            "id": "MC",
+            "label": "MC",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 95,
+                "y": 20
+              }
+            ]
+          },
+          {
+            "id": "ATC",
+            "label": "ATC",
+            "style": "muted",
+            "points": [
+              {
+                "x": 10,
+                "y": 80
+              },
+              {
+                "x": 20,
+                "y": 50
+              },
+              {
+                "x": 30,
+                "y": 40
+              },
+              {
+                "x": 40,
+                "y": 35
+              },
+              {
+                "x": 60,
+                "y": 30
+              },
+              {
+                "x": 80,
+                "y": 27.5
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 40,
+            "y": 60
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 40,
+            "y": 20
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 80,
+            "y": 20
+          },
+          {
+            "id": "point3",
+            "label": "",
+            "x": 71.6227766016838,
+            "y": 28.377223398316204
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 40,
+            "y": 60,
+            "xLabel": "Qm",
+            "yLabel": "Pm"
+          },
+          {
+            "id": "guide1",
+            "x": 80,
+            "y": 20,
+            "xLabel": "Qmc",
+            "yLabel": "Pmc"
+          },
+          {
+            "id": "guide2",
+            "x": 71.6227766016838,
+            "y": 28.377223398316204,
+            "xLabel": "Qac",
+            "yLabel": "Pac"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "In perfect competition, a binding price ceiling below equilibrium creates",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher price and lower demand"
+      },
+      {
+        "label": "B",
+        "text": "A surplus and raises the quantity traded"
+      },
+      {
+        "label": "C",
+        "text": "A shortage with reduced quantity traded"
+      },
+      {
+        "label": "D",
+        "text": "No change because firms are price takers"
+      },
+      {
+        "label": "E",
+        "text": "Normal profit for every firm"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Below competitive equilibrium, buyers want more than sellers offer. The binding ceiling creates a shortage, and available supply limits sales.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "For a monopoly, a price ceiling does not necessarily create the same shortage as in competition because",
+    "options": [
+      {
+        "label": "A",
+        "text": "The ceiling changes marginal revenue and optimal output"
+      },
+      {
+        "label": "B",
+        "text": "Fixed cost determines the shortage"
+      },
+      {
+        "label": "C",
+        "text": "Monopoly demand is perfectly inelastic"
+      },
+      {
+        "label": "D",
+        "text": "The firm must produce quantity demanded"
+      },
+      {
+        "label": "E",
+        "text": "Monopoly supply is horizontal"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A ceiling changes the monopolist's revenue schedule and output choice. It can increase output rather than producing the same supply-curve shortage analysis used in competition.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "A binding price floor above competitive equilibrium generally",
+    "options": [
+      {
+        "label": "A",
+        "text": "Reduces marginal cost"
+      },
+      {
+        "label": "B",
+        "text": "Eliminates all deadweight loss"
+      },
+      {
+        "label": "C",
+        "text": "Forces a monopolist to expand output to demand"
+      },
+      {
+        "label": "D",
+        "text": "Changes fixed cost only"
+      },
+      {
+        "label": "E",
+        "text": "Creates surplus in a competitive market"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The high floor encourages competitive sellers to offer more while buyers purchase less. Quantity supplied exceeds quantity demanded, creating a surplus.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, average-cost regulation sets the regulated price where",
+    "options": [
+      {
+        "label": "A",
+        "text": "Average fixed cost is zero"
+      },
+      {
+        "label": "B",
+        "text": "Demand intersects average total cost"
+      },
+      {
+        "label": "C",
+        "text": "Demand intersects marginal revenue"
+      },
+      {
+        "label": "D",
+        "text": "Marginal cost intersects average total cost only"
+      },
+      {
+        "label": "E",
+        "text": "Marginal revenue intersects marginal cost"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Average-cost regulation uses the demand-ATC intersection. Price equals ATC at the quantity consumers buy, allowing the natural monopoly to cover economic cost.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "Quantity is on the horizontal axis and price, revenue, and cost are on the vertical axis. Downward-sloping demand and marginal revenue are shown with marginal cost and average total cost. The unregulated quantity Qm occurs where MR = MC; regulated price and quantity labels identify the policy outcome.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price / revenue / cost",
+        "xMax": 100,
+        "yMax": 120,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 95,
+                "y": 5
+              }
+            ]
+          },
+          {
+            "id": "MR",
+            "label": "MR",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 50,
+                "y": 0
+              }
+            ]
+          },
+          {
+            "id": "MC",
+            "label": "MC",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 95,
+                "y": 20
+              }
+            ]
+          },
+          {
+            "id": "ATC",
+            "label": "ATC",
+            "style": "muted",
+            "points": [
+              {
+                "x": 10,
+                "y": 80
+              },
+              {
+                "x": 20,
+                "y": 50
+              },
+              {
+                "x": 30,
+                "y": 40
+              },
+              {
+                "x": 40,
+                "y": 35
+              },
+              {
+                "x": 60,
+                "y": 30
+              },
+              {
+                "x": 80,
+                "y": 27.5
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 40,
+            "y": 60
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 40,
+            "y": 20
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 80,
+            "y": 20
+          },
+          {
+            "id": "point3",
+            "label": "",
+            "x": 71.6227766016838,
+            "y": 28.377223398316204
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 40,
+            "y": 60,
+            "xLabel": "Qm",
+            "yLabel": "Pm"
+          },
+          {
+            "id": "guide1",
+            "x": 80,
+            "y": 20,
+            "xLabel": "Qmc",
+            "yLabel": "Pmc"
+          },
+          {
+            "id": "guide2",
+            "x": 71.6227766016838,
+            "y": 28.377223398316204,
+            "xLabel": "Qac",
+            "yLabel": "Pac"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "In a monopsony labor market, a binding minimum wage set appropriately can",
+    "options": [
+      {
+        "label": "A",
+        "text": "Raise both employment and wages toward competitive levels"
+      },
+      {
+        "label": "B",
+        "text": "Shift labor demand left"
+      },
+      {
+        "label": "C",
+        "text": "Increase marginal factor cost above the original curve at all quantities"
+      },
+      {
+        "label": "D",
+        "text": "Eliminate the value of marginal product"
+      },
+      {
+        "label": "E",
+        "text": "Lower wages and employment in every case"
+      }
+    ],
+    "answer": "A",
+    "explanation": "An appropriately set minimum wage can flatten MFC up to the labor available at that wage. It can reduce the hiring distortion and raise both wages and employment toward competitive levels.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "A minimum wage set above the competitive wage will generally",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increase employment without limit"
+      },
+      {
+        "label": "B",
+        "text": "Reduce employment and create a labor surplus"
+      },
+      {
+        "label": "C",
+        "text": "Eliminate all unemployment"
+      },
+      {
+        "label": "D",
+        "text": "Leave labor supply unchanged at zero"
+      },
+      {
+        "label": "E",
+        "text": "Make marginal revenue product horizontal"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Above the competitive wage, firms demand less labor while workers supply more. Employment is below the competitive level, and excess labor supply results.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "The burden of a per-unit tax in a competitive market depends primarily on",
+    "options": [
+      {
+        "label": "A",
+        "text": "Whether firms earn normal profit initially"
+      },
+      {
+        "label": "B",
+        "text": "The number of accounting periods"
+      },
+      {
+        "label": "C",
+        "text": "Relative demand and supply elasticities"
+      },
+      {
+        "label": "D",
+        "text": "Which side mails the tax payment"
+      },
+      {
+        "label": "E",
+        "text": "The size of fixed cost"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Relative demand and supply elasticities determine how buyer and seller prices adjust to the tax. Legal responsibility for remitting it does not determine the economic burden.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, marginal-cost regulation seeks the quantity where",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand intersects marginal cost"
+      },
+      {
+        "label": "B",
+        "text": "Marginal revenue intersects marginal cost"
+      },
+      {
+        "label": "C",
+        "text": "Marginal revenue intersects demand"
+      },
+      {
+        "label": "D",
+        "text": "Average total cost is minimized"
+      },
+      {
+        "label": "E",
+        "text": "Demand intersects average total cost"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Demand measures marginal willingness to pay. Marginal-cost regulation targets its intersection with MC, where P = MC and output is allocatively efficient.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "Quantity is on the horizontal axis and price, revenue, and cost are on the vertical axis. Downward-sloping demand and marginal revenue are shown with marginal cost and average total cost. The unregulated quantity Qm occurs where MR = MC; regulated price and quantity labels identify the policy outcome.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price / revenue / cost",
+        "xMax": 100,
+        "yMax": 120,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 95,
+                "y": 5
+              }
+            ]
+          },
+          {
+            "id": "MR",
+            "label": "MR",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 50,
+                "y": 0
+              }
+            ]
+          },
+          {
+            "id": "MC",
+            "label": "MC",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 95,
+                "y": 20
+              }
+            ]
+          },
+          {
+            "id": "ATC",
+            "label": "ATC",
+            "style": "muted",
+            "points": [
+              {
+                "x": 10,
+                "y": 80
+              },
+              {
+                "x": 20,
+                "y": 50
+              },
+              {
+                "x": 30,
+                "y": 40
+              },
+              {
+                "x": 40,
+                "y": 35
+              },
+              {
+                "x": 60,
+                "y": 30
+              },
+              {
+                "x": 80,
+                "y": 27.5
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 40,
+            "y": 60
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 40,
+            "y": 20
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 80,
+            "y": 20
+          },
+          {
+            "id": "point3",
+            "label": "",
+            "x": 71.6227766016838,
+            "y": 28.377223398316204
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 40,
+            "y": 60,
+            "xLabel": "Qm",
+            "yLabel": "Pm"
+          },
+          {
+            "id": "guide1",
+            "x": 80,
+            "y": 20,
+            "xLabel": "Qmc",
+            "yLabel": "Pmc"
+          },
+          {
+            "id": "guide2",
+            "x": 71.6227766016838,
+            "y": 28.377223398316204,
+            "xLabel": "Qac",
+            "yLabel": "Pac"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "Government intervention increases efficiency only if it",
+    "options": [
+      {
+        "label": "A",
+        "text": "Raises government revenue"
+      },
+      {
+        "label": "B",
+        "text": "Transfers surplus to consumers regardless of output"
+      },
+      {
+        "label": "C",
+        "text": "Addresses the incentive behind the market failure"
+      },
+      {
+        "label": "D",
+        "text": "Reduces every firm’s profit to zero"
+      },
+      {
+        "label": "E",
+        "text": "Sets the same price in all market structures"
+      }
+    ],
+    "answer": "C",
+    "explanation": "An intervention improves efficiency when its benefits from correcting the distortion exceed its social costs. Poorly targeted policy can instead increase deadweight loss.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "Price regulation of monopoly seeks to reduce inefficiency caused by",
+    "options": [
+      {
+        "label": "A",
+        "text": "Price above marginal cost and output below the efficient level"
+      },
+      {
+        "label": "B",
+        "text": "The absence of fixed cost"
+      },
+      {
+        "label": "C",
+        "text": "Perfectly elastic market demand"
+      },
+      {
+        "label": "D",
+        "text": "Price below marginal cost and output above the efficient level"
+      },
+      {
+        "label": "E",
+        "text": "Average fixed cost above zero"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Monopoly leaves units with willingness to pay above MC unproduced. Regulation can reduce that loss by moving output toward P = MC.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "Compared with average-cost regulation, marginal-cost regulation of a natural monopoly produces",
+    "options": [
+      {
+        "label": "A",
+        "text": "No need to cover fixed cost"
+      },
+      {
+        "label": "B",
+        "text": "Lower price, higher output; subsidy may be needed"
+      },
+      {
+        "label": "C",
+        "text": "A larger markup over marginal cost"
+      },
+      {
+        "label": "D",
+        "text": "The same price and quantity in every case"
+      },
+      {
+        "label": "E",
+        "text": "A higher price and lower output with greater profit"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Marginal-cost regulation sets a lower price and larger output than average-cost regulation in the standard natural-monopoly model. Since P = MC is below ATC, a subsidy may be needed to cover the loss.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "A monopolist pays a $500 license fee regardless of output. Which curve changes directly?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Marginal revenue"
+      },
+      {
+        "label": "B",
+        "text": "Average total cost"
+      },
+      {
+        "label": "C",
+        "text": "Average variable cost"
+      },
+      {
+        "label": "D",
+        "text": "Market demand"
+      },
+      {
+        "label": "E",
+        "text": "Marginal cost"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The fee is fixed; it raises ATC by $500/Q without changing MC.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 22,
+    "difficulty": "Medium",
+    "prompt": "A binding price ceiling sets rent at $50. At this rent, quantity demanded is 80 and quantity supplied is 50. What is the shortage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "24.00"
+      },
+      {
+        "label": "B",
+        "text": "30.00"
+      },
+      {
+        "label": "C",
+        "text": "18.00"
+      },
+      {
+        "label": "D",
+        "text": "36.00"
+      },
+      {
+        "label": "E",
+        "text": "42.00"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Shortage equals quantity demanded minus quantity supplied.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 23,
+    "difficulty": "Medium",
+    "prompt": "A binding price floor sets price at $50. Quantity supplied is 80 and quantity demanded is 50. What is the surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "48.00"
+      },
+      {
+        "label": "B",
+        "text": "42.00"
+      },
+      {
+        "label": "C",
+        "text": "30.00"
+      },
+      {
+        "label": "D",
+        "text": "36.00"
+      },
+      {
+        "label": "E",
+        "text": "54.00"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Surplus equals quantity supplied minus quantity demanded.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 24,
+    "difficulty": "Medium",
+    "prompt": "After a per-unit tax, buyers pay $50 and sellers receive $46. What is the tax per unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$4.00"
+      },
+      {
+        "label": "B",
+        "text": "$6.00"
+      },
+      {
+        "label": "C",
+        "text": "$5.00"
+      },
+      {
+        "label": "D",
+        "text": "$3.00"
+      },
+      {
+        "label": "E",
+        "text": "$7.00"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The tax wedge is buyer price minus seller price.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "A monopoly faces D: P = 30 − Q and MC = $6. With MR = 30 − 2Q, what is its unregulated quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "6 units"
+      },
+      {
+        "label": "B",
+        "text": "18 units"
+      },
+      {
+        "label": "C",
+        "text": "12 units"
+      },
+      {
+        "label": "D",
+        "text": "24 units"
+      },
+      {
+        "label": "E",
+        "text": "30 units"
+      }
+    ],
+    "answer": "C",
+    "explanation": "MR = MC gives 30 − 2Q = 6, so Q = 12.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 26,
+    "difficulty": "Medium",
+    "prompt": "A per-unit tax is $4; 20 units are sold after the tax. What is government tax revenue?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$80.00"
+      },
+      {
+        "label": "B",
+        "text": "$128.00"
+      },
+      {
+        "label": "C",
+        "text": "$64.00"
+      },
+      {
+        "label": "D",
+        "text": "$96.00"
+      },
+      {
+        "label": "E",
+        "text": "$112.00"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Tax revenue equals the tax rate times the post-tax quantity.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 27,
+    "difficulty": "Medium",
+    "prompt": "A competitive market’s price was $50. After a tax, buyers pay $53 and sellers receive $48. What is the sellers’ burden per unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$4.00"
+      },
+      {
+        "label": "B",
+        "text": "$3.00"
+      },
+      {
+        "label": "C",
+        "text": "$2.00"
+      },
+      {
+        "label": "D",
+        "text": "$6.00"
+      },
+      {
+        "label": "E",
+        "text": "$5.00"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The sellers’ burden is the fall in their net receipt from the original equilibrium price.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 28,
+    "difficulty": "Medium",
+    "prompt": "A competitive market’s price was $50. After a tax, buyers pay $53 and sellers receive $48. What is the buyers’ burden per unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$5.00"
+      },
+      {
+        "label": "B",
+        "text": "$3.00"
+      },
+      {
+        "label": "C",
+        "text": "$2.00"
+      },
+      {
+        "label": "D",
+        "text": "$4.00"
+      },
+      {
+        "label": "E",
+        "text": "$1.00"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The buyers’ burden is the rise above the original equilibrium price.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "For P = 30 − Q and MC = $6, what quantity implements allocative efficiency?",
+    "options": [
+      {
+        "label": "A",
+        "text": "24 units"
+      },
+      {
+        "label": "B",
+        "text": "30 units"
+      },
+      {
+        "label": "C",
+        "text": "12 units"
+      },
+      {
+        "label": "D",
+        "text": "6 units"
+      },
+      {
+        "label": "E",
+        "text": "18 units"
+      }
+    ],
+    "answer": "A",
+    "explanation": "D = MC gives 30 − Q = 6, so Q = 24.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 30,
+    "difficulty": "Medium",
+    "prompt": "A subsidy pays firms $4 per unit for each of 20 units sold. What is government expenditure on the subsidy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$128.00"
+      },
+      {
+        "label": "B",
+        "text": "$144.00"
+      },
+      {
+        "label": "C",
+        "text": "$80.00"
+      },
+      {
+        "label": "D",
+        "text": "$112.00"
+      },
+      {
+        "label": "E",
+        "text": "$96.00"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Multiply the subsidy per unit by the subsidized quantity.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 31,
+    "difficulty": "Medium",
+    "prompt": "A monopoly subject to average-cost pricing sells 20 units at P = ATC = $50. What is its economic profit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$-2.00"
+      },
+      {
+        "label": "B",
+        "text": "$0.00"
+      },
+      {
+        "label": "C",
+        "text": "$-1.00"
+      },
+      {
+        "label": "D",
+        "text": "$1.00"
+      },
+      {
+        "label": "E",
+        "text": "$-3.00"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Profit is (P − ATC)Q; average-cost pricing produces zero economic profit.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 32,
+    "difficulty": "Medium",
+    "prompt": "A natural monopoly is required to charge P = MC = $10. At this output, ATC is $14 and quantity is 20. What subsidy covers its economic loss?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$128.00"
+      },
+      {
+        "label": "B",
+        "text": "$96.00"
+      },
+      {
+        "label": "C",
+        "text": "$112.00"
+      },
+      {
+        "label": "D",
+        "text": "$80.00"
+      },
+      {
+        "label": "E",
+        "text": "$64.00"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The loss is (ATC − P)Q; that amount covers its deficit.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 33,
+    "difficulty": "Medium",
+    "prompt": "A price floor below a monopoly’s chosen price will in a national market",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eliminate economic profit"
+      },
+      {
+        "label": "B",
+        "text": "Increase marginal cost"
+      },
+      {
+        "label": "C",
+        "text": "Force the price down to the floor"
+      },
+      {
+        "label": "D",
+        "text": "Leave the monopoly outcome unchanged"
+      },
+      {
+        "label": "E",
+        "text": "Create a competitive supply curve"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The monopolist's chosen price already exceeds the legal minimum. The floor is nonbinding and leaves its choice unchanged.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "A natural monopoly is required to charge MC, but ATC exceeds MC at that output. Which issue follows?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The rule guarantees no subsidy is needed"
+      },
+      {
+        "label": "B",
+        "text": "Marginal revenue must exceed price"
+      },
+      {
+        "label": "C",
+        "text": "Revenue may fail to cover total cost"
+      },
+      {
+        "label": "D",
+        "text": "The firm necessarily earns excess profit"
+      },
+      {
+        "label": "E",
+        "text": "The firm’s fixed costs become zero"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Price below ATC creates an economic loss despite efficient pricing.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "A tax reduces output by 4 units. The constant tax wedge is $10, and demand and supply are linear. What is deadweight loss?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$20.00"
+      },
+      {
+        "label": "B",
+        "text": "$24.00"
+      },
+      {
+        "label": "C",
+        "text": "$28.00"
+      },
+      {
+        "label": "D",
+        "text": "$32.00"
+      },
+      {
+        "label": "E",
+        "text": "$36.00"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The loss triangle is one-half times the tax wedge times the output reduction.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "A binding price ceiling sets rent at $60. At this rent, quantity demanded is 84 and quantity supplied is 52. What is the shortage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "38.40"
+      },
+      {
+        "label": "B",
+        "text": "32.00"
+      },
+      {
+        "label": "C",
+        "text": "44.80"
+      },
+      {
+        "label": "D",
+        "text": "19.20"
+      },
+      {
+        "label": "E",
+        "text": "25.60"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Shortage equals quantity demanded minus quantity supplied.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "A per-unit tax on a monopolist may be shifted partly to consumers when in a local economy",
+    "options": [
+      {
+        "label": "A",
+        "text": "The firm keeps output and price fixed by law"
+      },
+      {
+        "label": "B",
+        "text": "Higher MC raises the profit-maximizing price"
+      },
+      {
+        "label": "C",
+        "text": "Marginal revenue shifts right"
+      },
+      {
+        "label": "D",
+        "text": "Demand becomes perfectly horizontal automatically"
+      },
+      {
+        "label": "E",
+        "text": "The tax changes fixed cost only"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A per-unit tax raises MC and generally reduces the monopolist's output. Demand can then support a higher price, shifting part of the burden to consumers.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "What is the purpose of a subsidy accompanying marginal-cost pricing of a natural monopoly?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cover a cost-recovery shortfall"
+      },
+      {
+        "label": "B",
+        "text": "Make demand perfectly inelastic"
+      },
+      {
+        "label": "C",
+        "text": "Reduce output below monopoly output"
+      },
+      {
+        "label": "D",
+        "text": "Eliminate all production costs"
+      },
+      {
+        "label": "E",
+        "text": "Raise price above monopoly price"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A subsidy can cover losses when efficient price lies below ATC.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "A binding price floor sets price at $60. Quantity supplied is 84 and quantity demanded is 52. What is the surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "19.20"
+      },
+      {
+        "label": "B",
+        "text": "32.00"
+      },
+      {
+        "label": "C",
+        "text": "25.60"
+      },
+      {
+        "label": "D",
+        "text": "38.40"
+      },
+      {
+        "label": "E",
+        "text": "12.80"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Surplus equals quantity supplied minus quantity demanded.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "After a per-unit tax, buyers pay $60 and sellers receive $55. What is the tax per unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$9.00"
+      },
+      {
+        "label": "B",
+        "text": "$6.00"
+      },
+      {
+        "label": "C",
+        "text": "$7.00"
+      },
+      {
+        "label": "D",
+        "text": "$8.00"
+      },
+      {
+        "label": "E",
+        "text": "$5.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The tax wedge is buyer price minus seller price.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "Assume other relevant factors are unchanged. A per-unit tax on a monopoly will directly",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increase fixed cost without changing marginal cost"
+      },
+      {
+        "label": "B",
+        "text": "Decrease marginal cost and increase quantity"
+      },
+      {
+        "label": "C",
+        "text": "Shift market demand to the right"
+      },
+      {
+        "label": "D",
+        "text": "Raise MC and reduce profit-maximizing output"
+      },
+      {
+        "label": "E",
+        "text": "Leave both price and quantity unchanged"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The tax increases the cost of additional production. Higher MC meets MR at a smaller quantity, reducing monopoly output.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "Average-cost regulation produces P = ATC. What does zero economic profit imply?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Marginal cost necessarily equals price"
+      },
+      {
+        "label": "B",
+        "text": "All opportunity costs are covered"
+      },
+      {
+        "label": "C",
+        "text": "Consumers receive zero surplus"
+      },
+      {
+        "label": "D",
+        "text": "The owner receives no compensation"
+      },
+      {
+        "label": "E",
+        "text": "Accounting revenue equals zero"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Normal returns and other opportunity costs are included in economic cost.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "A per-unit tax is $5; 21 units are sold after the tax. What is government tax revenue?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$126.00"
+      },
+      {
+        "label": "B",
+        "text": "$147.00"
+      },
+      {
+        "label": "C",
+        "text": "$63.00"
+      },
+      {
+        "label": "D",
+        "text": "$84.00"
+      },
+      {
+        "label": "E",
+        "text": "$105.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Tax revenue equals the tax rate times the post-tax quantity.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "A competitive market’s price was $60. After a tax, buyers pay $64 and sellers receive $57. What is the sellers’ burden per unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$6.00"
+      },
+      {
+        "label": "B",
+        "text": "$5.00"
+      },
+      {
+        "label": "C",
+        "text": "$2.00"
+      },
+      {
+        "label": "D",
+        "text": "$4.00"
+      },
+      {
+        "label": "E",
+        "text": "$3.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The sellers’ burden is the fall in their net receipt from the original equilibrium price.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "Assume other relevant factors are unchanged. An effective price ceiling on an unregulated monopoly can increase efficiency when it",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eliminates demand for the product"
+      },
+      {
+        "label": "B",
+        "text": "Raises price and restricts output further"
+      },
+      {
+        "label": "C",
+        "text": "Sets price above the monopoly price"
+      },
+      {
+        "label": "D",
+        "text": "Changes fixed cost only"
+      },
+      {
+        "label": "E",
+        "text": "Lower price and expand toward competitive output"
+      }
+    ],
+    "answer": "E",
+    "explanation": "A properly placed ceiling can lower monopoly price and encourage more sales. Producing more beneficial units reduces the deadweight loss from restricted output.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "A per-unit tax of $4 is imposed on a monopolist with constant MC. How does its output rule change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Set MR equal to original MC plus $4"
+      },
+      {
+        "label": "B",
+        "text": "Set MR equal to average fixed cost"
+      },
+      {
+        "label": "C",
+        "text": "Set price equal to original MC minus $4"
+      },
+      {
+        "label": "D",
+        "text": "Keep output fixed under every demand curve"
+      },
+      {
+        "label": "E",
+        "text": "Ignore the tax because it is not a fixed cost"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The tax adds $4 to each unit’s marginal cost.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "A competitive market’s price was $60. After a tax, buyers pay $64 and sellers receive $57. What is the buyers’ burden per unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$3.00"
+      },
+      {
+        "label": "B",
+        "text": "$4.00"
+      },
+      {
+        "label": "C",
+        "text": "$2.00"
+      },
+      {
+        "label": "D",
+        "text": "$5.00"
+      },
+      {
+        "label": "E",
+        "text": "$6.00"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The buyers’ burden is the rise above the original equilibrium price.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "A subsidy pays firms $5 per unit for each of 21 units sold. What is government expenditure on the subsidy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$63.00"
+      },
+      {
+        "label": "B",
+        "text": "$126.00"
+      },
+      {
+        "label": "C",
+        "text": "$42.00"
+      },
+      {
+        "label": "D",
+        "text": "$84.00"
+      },
+      {
+        "label": "E",
+        "text": "$105.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Multiply the subsidy per unit by the subsidized quantity.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "Assume other relevant factors are unchanged. A lump-sum subsidy may be required under marginal-cost regulation to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cover economic loss without changing MC"
+      },
+      {
+        "label": "B",
+        "text": "Shift marginal revenue left"
+      },
+      {
+        "label": "C",
+        "text": "Raise the regulated price above demand"
+      },
+      {
+        "label": "D",
+        "text": "Reduce output to the unregulated monopoly quantity"
+      },
+      {
+        "label": "E",
+        "text": "Increase the firm’s fixed tax liability"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A lump-sum subsidy can cover the gap between revenue and total cost without lowering MC. It supports continued provision while preserving the P = MC target.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "A monopolist’s lump-sum tax increases but the firm continues operating. Why is output unchanged in the standard model?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Price is forced down to zero"
+      },
+      {
+        "label": "B",
+        "text": "Demand becomes perfectly elastic"
+      },
+      {
+        "label": "C",
+        "text": "The tax is a per-unit payment"
+      },
+      {
+        "label": "D",
+        "text": "ATC and profit are unchanged"
+      },
+      {
+        "label": "E",
+        "text": "MR and MC are unchanged"
+      }
+    ],
+    "answer": "E",
+    "explanation": "A fixed payment changes profit but not the marginal output condition.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "A monopoly subject to average-cost pricing sells 21 units at P = ATC = $60. What is its economic profit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$2.00"
+      },
+      {
+        "label": "B",
+        "text": "$0.00"
+      },
+      {
+        "label": "C",
+        "text": "$3.00"
+      },
+      {
+        "label": "D",
+        "text": "$1.00"
+      },
+      {
+        "label": "E",
+        "text": "$4.00"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Profit is (P − ATC)Q; average-cost pricing produces zero economic profit.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "A natural monopoly is required to charge P = MC = $12. At this output, ATC is $17 and quantity is 21. What subsidy covers its economic loss?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$63.00"
+      },
+      {
+        "label": "B",
+        "text": "$126.00"
+      },
+      {
+        "label": "C",
+        "text": "$105.00"
+      },
+      {
+        "label": "D",
+        "text": "$84.00"
+      },
+      {
+        "label": "E",
+        "text": "$42.00"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The loss is (ATC − P)Q; that amount covers its deficit.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "A tax reduces output by 5 units. The constant tax wedge is $12, and demand and supply are linear. What is deadweight loss?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$48.00"
+      },
+      {
+        "label": "B",
+        "text": "$54.00"
+      },
+      {
+        "label": "C",
+        "text": "$36.00"
+      },
+      {
+        "label": "D",
+        "text": "$42.00"
+      },
+      {
+        "label": "E",
+        "text": "$30.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The loss triangle is one-half times the tax wedge times the output reduction.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "A regulator chooses a price between monopoly price and marginal-cost price. Must output be socially efficient?",
+    "options": [
+      {
+        "label": "A",
+        "text": "No; the regulated price can still exceed MC"
+      },
+      {
+        "label": "B",
+        "text": "Yes; ATC must equal zero"
+      },
+      {
+        "label": "C",
+        "text": "No; regulation always reduces output"
+      },
+      {
+        "label": "D",
+        "text": "Yes; monopoly demand becomes horizontal"
+      },
+      {
+        "label": "E",
+        "text": "Yes; any price reduction ensures efficiency"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Efficiency requires the relevant price–marginal-cost equality, not just a lower price.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "A binding price ceiling sets rent at $70. At this rent, quantity demanded is 88 and quantity supplied is 54. What is the shortage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "27.20"
+      },
+      {
+        "label": "B",
+        "text": "47.60"
+      },
+      {
+        "label": "C",
+        "text": "34.00"
+      },
+      {
+        "label": "D",
+        "text": "40.80"
+      },
+      {
+        "label": "E",
+        "text": "54.40"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Shortage equals quantity demanded minus quantity supplied.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "A binding price floor sets price at $70. Quantity supplied is 88 and quantity demanded is 54. What is the surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "54.40"
+      },
+      {
+        "label": "B",
+        "text": "40.80"
+      },
+      {
+        "label": "C",
+        "text": "27.20"
+      },
+      {
+        "label": "D",
+        "text": "34.00"
+      },
+      {
+        "label": "E",
+        "text": "47.60"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Surplus equals quantity supplied minus quantity demanded.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "After a per-unit tax, buyers pay $70 and sellers receive $64. What is the tax per unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$6.00"
+      },
+      {
+        "label": "B",
+        "text": "$8.40"
+      },
+      {
+        "label": "C",
+        "text": "$4.80"
+      },
+      {
+        "label": "D",
+        "text": "$9.60"
+      },
+      {
+        "label": "E",
+        "text": "$7.20"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The tax wedge is buyer price minus seller price.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "A binding monopoly price cap reduces price but is below AVC at every feasible positive output. What risk must be considered?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Marginal cost automatically falls to zero"
+      },
+      {
+        "label": "B",
+        "text": "All entry barriers disappear"
+      },
+      {
+        "label": "C",
+        "text": "The firm necessarily earns positive profit"
+      },
+      {
+        "label": "D",
+        "text": "The firm may stop producing"
+      },
+      {
+        "label": "E",
+        "text": "Output necessarily reaches the efficient quantity"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A cap must account for viability; price failing to cover variable cost can cause shutdown.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "A per-unit tax is $6; 22 units are sold after the tax. What is government tax revenue?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$211.20"
+      },
+      {
+        "label": "B",
+        "text": "$184.80"
+      },
+      {
+        "label": "C",
+        "text": "$158.40"
+      },
+      {
+        "label": "D",
+        "text": "$132.00"
+      },
+      {
+        "label": "E",
+        "text": "$237.60"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Tax revenue equals the tax rate times the post-tax quantity.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "A competitive market’s price was $70. After a tax, buyers pay $75 and sellers receive $66. What is the sellers’ burden per unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$1.00"
+      },
+      {
+        "label": "B",
+        "text": "$4.00"
+      },
+      {
+        "label": "C",
+        "text": "$2.00"
+      },
+      {
+        "label": "D",
+        "text": "$3.00"
+      },
+      {
+        "label": "E",
+        "text": "$5.00"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The sellers’ burden is the fall in their net receipt from the original equilibrium price.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "A competitive market’s price was $70. After a tax, buyers pay $75 and sellers receive $66. What is the buyers’ burden per unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$4.00"
+      },
+      {
+        "label": "B",
+        "text": "$2.00"
+      },
+      {
+        "label": "C",
+        "text": "$5.00"
+      },
+      {
+        "label": "D",
+        "text": "$1.00"
+      },
+      {
+        "label": "E",
+        "text": "$3.00"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The buyers’ burden is the rise above the original equilibrium price.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "A competitive industry has no externalities. A per-unit subsidy expands output beyond equilibrium. Which welfare effect is possible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "No government expenditure"
+      },
+      {
+        "label": "B",
+        "text": "Deadweight loss from overproduction"
+      },
+      {
+        "label": "C",
+        "text": "An increase in all consumers’ incomes"
+      },
+      {
+        "label": "D",
+        "text": "Elimination of every production cost"
+      },
+      {
+        "label": "E",
+        "text": "Guaranteed maximum total surplus"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Extra units beyond MSB = MSC cost more than they are worth.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "A subsidy pays firms $6 per unit for each of 22 units sold. What is government expenditure on the subsidy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$105.60"
+      },
+      {
+        "label": "B",
+        "text": "$158.40"
+      },
+      {
+        "label": "C",
+        "text": "$184.80"
+      },
+      {
+        "label": "D",
+        "text": "$79.20"
+      },
+      {
+        "label": "E",
+        "text": "$132.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Multiply the subsidy per unit by the subsidized quantity.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "A monopoly subject to average-cost pricing sells 22 units at P = ATC = $70. What is its economic profit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$-3.00"
+      },
+      {
+        "label": "B",
+        "text": "$-2.00"
+      },
+      {
+        "label": "C",
+        "text": "$-4.00"
+      },
+      {
+        "label": "D",
+        "text": "$-1.00"
+      },
+      {
+        "label": "E",
+        "text": "$0.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Profit is (P − ATC)Q; average-cost pricing produces zero economic profit.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "A natural monopoly is required to charge P = MC = $14. At this output, ATC is $20 and quantity is 22. What subsidy covers its economic loss?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$79.20"
+      },
+      {
+        "label": "B",
+        "text": "$52.80"
+      },
+      {
+        "label": "C",
+        "text": "$26.40"
+      },
+      {
+        "label": "D",
+        "text": "$105.60"
+      },
+      {
+        "label": "E",
+        "text": "$132.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The loss is (ATC − P)Q; that amount covers its deficit.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "A tax reduces output by 6 units. The constant tax wedge is $14, and demand and supply are linear. What is deadweight loss?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$50.40"
+      },
+      {
+        "label": "B",
+        "text": "$75.60"
+      },
+      {
+        "label": "C",
+        "text": "$58.80"
+      },
+      {
+        "label": "D",
+        "text": "$42.00"
+      },
+      {
+        "label": "E",
+        "text": "$67.20"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The loss triangle is one-half times the tax wedge times the output reduction.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "Why can identical per-unit taxes produce different quantity changes in different industries?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand and supply responsiveness differ"
+      },
+      {
+        "label": "B",
+        "text": "Every industry has the same marginal cost"
+      },
+      {
+        "label": "C",
+        "text": "Tax incidence depends only on who remits payment"
+      },
+      {
+        "label": "D",
+        "text": "Market structure never affects decisions"
+      },
+      {
+        "label": "E",
+        "text": "Equal taxes force identical prices"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Elasticities and market structure affect the response to marginal incentives.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "Assume the stated relationship applies under otherwise unchanged conditions. For a natural monopoly, marginal- cost regulation tends to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Create positive economic profit because price exceeds ATC"
+      },
+      {
+        "label": "B",
+        "text": "Raise fixed cost above variable cost"
+      },
+      {
+        "label": "C",
+        "text": "Create economic loss because price is below ATC"
+      },
+      {
+        "label": "D",
+        "text": "Leave output below the unregulated quantity"
+      },
+      {
+        "label": "E",
+        "text": "Set price equal marginal revenue"
+      }
+    ],
+    "answer": "C",
+    "explanation": "For a natural monopoly with declining ATC, MC is below ATC. Setting P = MC reaches efficient output but leaves revenue insufficient to cover total cost.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "A binding price ceiling sets rent at $80. At this rent, quantity demanded is 92 and quantity supplied is 56. What is the shortage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "43.20"
+      },
+      {
+        "label": "B",
+        "text": "21.60"
+      },
+      {
+        "label": "C",
+        "text": "28.80"
+      },
+      {
+        "label": "D",
+        "text": "36.00"
+      },
+      {
+        "label": "E",
+        "text": "50.40"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Shortage equals quantity demanded minus quantity supplied.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "A binding price floor sets price at $80. Quantity supplied is 92 and quantity demanded is 56. What is the surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "57.60"
+      },
+      {
+        "label": "B",
+        "text": "50.40"
+      },
+      {
+        "label": "C",
+        "text": "43.20"
+      },
+      {
+        "label": "D",
+        "text": "28.80"
+      },
+      {
+        "label": "E",
+        "text": "36.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Surplus equals quantity supplied minus quantity demanded.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 71,
+    "difficulty": "Hard",
+    "prompt": "A regulation raises a monopolist’s fixed cost but leaves demand and variable cost unchanged. What happens to the usual MR = MC quantity if it operates?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It necessarily doubles"
+      },
+      {
+        "label": "B",
+        "text": "It falls by the size of the fee"
+      },
+      {
+        "label": "C",
+        "text": "It becomes the competitive quantity"
+      },
+      {
+        "label": "D",
+        "text": "It becomes zero under every fixed cost"
+      },
+      {
+        "label": "E",
+        "text": "It remains unchanged"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Fixed cost does not shift MR or MC, although it can affect viability.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 72,
+    "difficulty": "Medium",
+    "prompt": "After a per-unit tax, buyers pay $80 and sellers receive $73. What is the tax per unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$2.80"
+      },
+      {
+        "label": "B",
+        "text": "$8.40"
+      },
+      {
+        "label": "C",
+        "text": "$7.00"
+      },
+      {
+        "label": "D",
+        "text": "$4.20"
+      },
+      {
+        "label": "E",
+        "text": "$5.60"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The tax wedge is buyer price minus seller price.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 73,
+    "difficulty": "Medium",
+    "prompt": "A per-unit tax is $7; 23 units are sold after the tax. What is government tax revenue?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$96.60"
+      },
+      {
+        "label": "B",
+        "text": "$161.00"
+      },
+      {
+        "label": "C",
+        "text": "$64.40"
+      },
+      {
+        "label": "D",
+        "text": "$128.80"
+      },
+      {
+        "label": "E",
+        "text": "$193.20"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Tax revenue equals the tax rate times the post-tax quantity.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 74,
+    "difficulty": "Medium",
+    "prompt": "A competitive market’s price was $80. After a tax, buyers pay $86 and sellers receive $75. What is the sellers’ burden per unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$3.00"
+      },
+      {
+        "label": "B",
+        "text": "$4.00"
+      },
+      {
+        "label": "C",
+        "text": "$5.00"
+      },
+      {
+        "label": "D",
+        "text": "$6.00"
+      },
+      {
+        "label": "E",
+        "text": "$7.00"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The sellers’ burden is the fall in their net receipt from the original equilibrium price.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "A monopoly charges $18, has ATC $14, and sells 50 units. What lump-sum tax would absorb its economic profit without changing its operating quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$700"
+      },
+      {
+        "label": "B",
+        "text": "$50"
+      },
+      {
+        "label": "C",
+        "text": "$4"
+      },
+      {
+        "label": "D",
+        "text": "$200"
+      },
+      {
+        "label": "E",
+        "text": "$900"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Profit is ($18 − $14) × 50 = $200; a fixed tax does not alter MC.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 76,
+    "difficulty": "Medium",
+    "prompt": "A competitive market’s price was $80. After a tax, buyers pay $86 and sellers receive $75. What is the buyers’ burden per unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$7.20"
+      },
+      {
+        "label": "B",
+        "text": "$4.80"
+      },
+      {
+        "label": "C",
+        "text": "$6.00"
+      },
+      {
+        "label": "D",
+        "text": "$8.40"
+      },
+      {
+        "label": "E",
+        "text": "$3.60"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The buyers’ burden is the rise above the original equilibrium price.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 77,
+    "difficulty": "Medium",
+    "prompt": "A subsidy pays firms $7 per unit for each of 23 units sold. What is government expenditure on the subsidy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$128.80"
+      },
+      {
+        "label": "B",
+        "text": "$161.00"
+      },
+      {
+        "label": "C",
+        "text": "$225.40"
+      },
+      {
+        "label": "D",
+        "text": "$193.20"
+      },
+      {
+        "label": "E",
+        "text": "$96.60"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Multiply the subsidy per unit by the subsidized quantity.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 78,
+    "difficulty": "Medium",
+    "prompt": "A monopoly subject to average-cost pricing sells 23 units at P = ATC = $80. What is its economic profit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$-1.00"
+      },
+      {
+        "label": "B",
+        "text": "$1.00"
+      },
+      {
+        "label": "C",
+        "text": "$2.00"
+      },
+      {
+        "label": "D",
+        "text": "$0.00"
+      },
+      {
+        "label": "E",
+        "text": "$3.00"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Profit is (P − ATC)Q; average-cost pricing produces zero economic profit.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "A natural monopoly sells 100 units at regulated price $8 while ATC is $11. What subsidy exactly covers its economic loss?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$800"
+      },
+      {
+        "label": "B",
+        "text": "$3"
+      },
+      {
+        "label": "C",
+        "text": "$1,900"
+      },
+      {
+        "label": "D",
+        "text": "$1,100"
+      },
+      {
+        "label": "E",
+        "text": "$300"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Loss equals ($11 − $8) × 100 = $300.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 80,
+    "difficulty": "Medium",
+    "prompt": "A natural monopoly is required to charge P = MC = $16. At this output, ATC is $23 and quantity is 23. What subsidy covers its economic loss?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$64.40"
+      },
+      {
+        "label": "B",
+        "text": "$128.80"
+      },
+      {
+        "label": "C",
+        "text": "$32.20"
+      },
+      {
+        "label": "D",
+        "text": "$96.60"
+      },
+      {
+        "label": "E",
+        "text": "$161.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The loss is (ATC − P)Q; that amount covers its deficit.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 81,
+    "difficulty": "Medium",
+    "prompt": "A tax reduces output by 7 units. The constant tax wedge is $16, and demand and supply are linear. What is deadweight loss?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$33.60"
+      },
+      {
+        "label": "B",
+        "text": "$11.20"
+      },
+      {
+        "label": "C",
+        "text": "$56.00"
+      },
+      {
+        "label": "D",
+        "text": "$22.40"
+      },
+      {
+        "label": "E",
+        "text": "$44.80"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The loss triangle is one-half times the tax wedge times the output reduction.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 82,
+    "difficulty": "Medium",
+    "prompt": "A binding price ceiling sets rent at $90. At this rent, quantity demanded is 96 and quantity supplied is 58. What is the shortage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "15.20"
+      },
+      {
+        "label": "B",
+        "text": "45.60"
+      },
+      {
+        "label": "C",
+        "text": "30.40"
+      },
+      {
+        "label": "D",
+        "text": "22.80"
+      },
+      {
+        "label": "E",
+        "text": "38.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Shortage equals quantity demanded minus quantity supplied.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "A firm’s regulated price equals ATC but exceeds MC. Which combination is possible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Positive economic profit with efficient output"
+      },
+      {
+        "label": "B",
+        "text": "Zero consumer demand with positive output"
+      },
+      {
+        "label": "C",
+        "text": "Zero accounting revenue with efficient output"
+      },
+      {
+        "label": "D",
+        "text": "Zero economic profit with allocative inefficiency"
+      },
+      {
+        "label": "E",
+        "text": "Negative ATC with positive profit"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Cost recovery and allocative efficiency are different criteria.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 84,
+    "difficulty": "Medium",
+    "prompt": "A binding price floor sets price at $90. Quantity supplied is 96 and quantity demanded is 58. What is the surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "53.20"
+      },
+      {
+        "label": "B",
+        "text": "22.80"
+      },
+      {
+        "label": "C",
+        "text": "45.60"
+      },
+      {
+        "label": "D",
+        "text": "30.40"
+      },
+      {
+        "label": "E",
+        "text": "38.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Surplus equals quantity supplied minus quantity demanded.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 85,
+    "difficulty": "Medium",
+    "prompt": "After a per-unit tax, buyers pay $90 and sellers receive $82. What is the tax per unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$11.20"
+      },
+      {
+        "label": "B",
+        "text": "$9.60"
+      },
+      {
+        "label": "C",
+        "text": "$8.00"
+      },
+      {
+        "label": "D",
+        "text": "$6.40"
+      },
+      {
+        "label": "E",
+        "text": "$12.80"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The tax wedge is buyer price minus seller price.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 86,
+    "difficulty": "Medium",
+    "prompt": "A per-unit tax is $8; 24 units are sold after the tax. What is government tax revenue?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$76.80"
+      },
+      {
+        "label": "B",
+        "text": "$115.20"
+      },
+      {
+        "label": "C",
+        "text": "$192.00"
+      },
+      {
+        "label": "D",
+        "text": "$153.60"
+      },
+      {
+        "label": "E",
+        "text": "$230.40"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Tax revenue equals the tax rate times the post-tax quantity.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "Why may requiring several firms to duplicate a natural monopoly’s network raise industry costs?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Average cost must rise with one firm’s output"
+      },
+      {
+        "label": "B",
+        "text": "Demand disappears when firms enter"
+      },
+      {
+        "label": "C",
+        "text": "Entry makes every marginal cost zero"
+      },
+      {
+        "label": "D",
+        "text": "Each duplicates large fixed infrastructure costs"
+      },
+      {
+        "label": "E",
+        "text": "All fixed costs become variable costs"
+      }
+    ],
+    "answer": "D",
+    "explanation": "One network may spread fixed cost across output more cheaply than several networks.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 88,
+    "difficulty": "Medium",
+    "prompt": "A competitive market’s price was $90. After a tax, buyers pay $97 and sellers receive $84. What is the sellers’ burden per unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$9.60"
+      },
+      {
+        "label": "B",
+        "text": "$8.40"
+      },
+      {
+        "label": "C",
+        "text": "$4.80"
+      },
+      {
+        "label": "D",
+        "text": "$6.00"
+      },
+      {
+        "label": "E",
+        "text": "$7.20"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The sellers’ burden is the fall in their net receipt from the original equilibrium price.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 89,
+    "difficulty": "Medium",
+    "prompt": "A competitive market’s price was $90. After a tax, buyers pay $97 and sellers receive $84. What is the buyers’ burden per unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$7.00"
+      },
+      {
+        "label": "B",
+        "text": "$8.40"
+      },
+      {
+        "label": "C",
+        "text": "$5.60"
+      },
+      {
+        "label": "D",
+        "text": "$2.80"
+      },
+      {
+        "label": "E",
+        "text": "$4.20"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The buyers’ burden is the rise above the original equilibrium price.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 90,
+    "difficulty": "Medium",
+    "prompt": "A subsidy pays firms $8 per unit for each of 24 units sold. What is government expenditure on the subsidy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$192.00"
+      },
+      {
+        "label": "B",
+        "text": "$115.20"
+      },
+      {
+        "label": "C",
+        "text": "$268.80"
+      },
+      {
+        "label": "D",
+        "text": "$153.60"
+      },
+      {
+        "label": "E",
+        "text": "$230.40"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Multiply the subsidy per unit by the subsidized quantity.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "Under P = 40 − Q, MR = 40 − 2Q, and MC = $8, a $4 per-unit tax is introduced. How does optimal quantity change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls from 32 to 28 units"
+      },
+      {
+        "label": "B",
+        "text": "It falls from 16 to 14 units"
+      },
+      {
+        "label": "C",
+        "text": "It falls from 16 to 12 units"
+      },
+      {
+        "label": "D",
+        "text": "It rises from 16 to 18 units"
+      },
+      {
+        "label": "E",
+        "text": "It remains at 16 units"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Before tax MR = 8 gives Q16; after tax MR = 12 gives Q14.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 92,
+    "difficulty": "Medium",
+    "prompt": "A monopoly subject to average-cost pricing sells 24 units at P = ATC = $90. What is its economic profit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$0.00"
+      },
+      {
+        "label": "B",
+        "text": "$-1.00"
+      },
+      {
+        "label": "C",
+        "text": "$-3.00"
+      },
+      {
+        "label": "D",
+        "text": "$1.00"
+      },
+      {
+        "label": "E",
+        "text": "$-2.00"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Profit is (P − ATC)Q; average-cost pricing produces zero economic profit.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 93,
+    "difficulty": "Medium",
+    "prompt": "A natural monopoly is required to charge P = MC = $18. At this output, ATC is $26 and quantity is 24. What subsidy covers its economic loss?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$268.80"
+      },
+      {
+        "label": "B",
+        "text": "$230.40"
+      },
+      {
+        "label": "C",
+        "text": "$192.00"
+      },
+      {
+        "label": "D",
+        "text": "$307.20"
+      },
+      {
+        "label": "E",
+        "text": "$345.60"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The loss is (ATC − P)Q; that amount covers its deficit.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 94,
+    "difficulty": "Medium",
+    "prompt": "A tax reduces output by 8 units. The constant tax wedge is $18, and demand and supply are linear. What is deadweight loss?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$72.00"
+      },
+      {
+        "label": "B",
+        "text": "$57.60"
+      },
+      {
+        "label": "C",
+        "text": "$86.40"
+      },
+      {
+        "label": "D",
+        "text": "$115.20"
+      },
+      {
+        "label": "E",
+        "text": "$100.80"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The loss triangle is one-half times the tax wedge times the output reduction.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "A subsidy lowers a monopolist’s MC from $12 to $8 under MR = 40 − 2Q. What quantity change follows?",
+    "options": [
+      {
+        "label": "A",
+        "text": "No change in quantity"
+      },
+      {
+        "label": "B",
+        "text": "From 28 to 32 units"
+      },
+      {
+        "label": "C",
+        "text": "From 14 to 18 units"
+      },
+      {
+        "label": "D",
+        "text": "From 14 to 16 units"
+      },
+      {
+        "label": "E",
+        "text": "From 16 to 14 units"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Solve MR = MC before and after the marginal subsidy.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 96,
+    "difficulty": "Medium",
+    "prompt": "A binding price ceiling sets rent at $100. At this rent, quantity demanded is 100 and quantity supplied is 60. What is the shortage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "56.00"
+      },
+      {
+        "label": "B",
+        "text": "48.00"
+      },
+      {
+        "label": "C",
+        "text": "32.00"
+      },
+      {
+        "label": "D",
+        "text": "40.00"
+      },
+      {
+        "label": "E",
+        "text": "64.00"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Shortage equals quantity demanded minus quantity supplied.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 97,
+    "difficulty": "Medium",
+    "prompt": "A binding price floor sets price at $100. Quantity supplied is 100 and quantity demanded is 60. What is the surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "48.00"
+      },
+      {
+        "label": "B",
+        "text": "32.00"
+      },
+      {
+        "label": "C",
+        "text": "16.00"
+      },
+      {
+        "label": "D",
+        "text": "24.00"
+      },
+      {
+        "label": "E",
+        "text": "40.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Surplus equals quantity supplied minus quantity demanded.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 98,
+    "difficulty": "Medium",
+    "prompt": "After a per-unit tax, buyers pay $100 and sellers receive $91. What is the tax per unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$5.40"
+      },
+      {
+        "label": "B",
+        "text": "$7.20"
+      },
+      {
+        "label": "C",
+        "text": "$9.00"
+      },
+      {
+        "label": "D",
+        "text": "$12.60"
+      },
+      {
+        "label": "E",
+        "text": "$10.80"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The tax wedge is buyer price minus seller price.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 99,
+    "difficulty": "Medium",
+    "prompt": "A per-unit tax is $9; 25 units are sold after the tax. What is government tax revenue?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$270.00"
+      },
+      {
+        "label": "B",
+        "text": "$225.00"
+      },
+      {
+        "label": "C",
+        "text": "$180.00"
+      },
+      {
+        "label": "D",
+        "text": "$135.00"
+      },
+      {
+        "label": "E",
+        "text": "$315.00"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Tax revenue equals the tax rate times the post-tax quantity.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "A regulator observes P = MC at an operating natural monopoly but also P below ATC. What can be concluded?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The outcome cannot occur"
+      },
+      {
+        "label": "B",
+        "text": "ATC must be irrelevant to viability"
+      },
+      {
+        "label": "C",
+        "text": "Loss proves MR equals price"
+      },
+      {
+        "label": "D",
+        "text": "Allocative efficiency can coexist with economic loss"
+      },
+      {
+        "label": "E",
+        "text": "Allocative efficiency requires positive profit"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Efficient marginal pricing need not recover total costs.",
+    "reference": "POL-4.A | POL-4.A.1 | POL-4.A.2 | POL-4.A.3 | POL-4.A.4 | POL-4.A.5 | POL-4.A.6 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  }
+]

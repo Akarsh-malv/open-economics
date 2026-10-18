@@ -1,0 +1,4833 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "What is supply-side policy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Measures expanding productive capacity"
+      },
+      {
+        "label": "B",
+        "text": "Measures reducing demand"
+      },
+      {
+        "label": "C",
+        "text": "Measures balancing the government’s annual spending and tax revenue"
+      },
+      {
+        "label": "D",
+        "text": "Measures changing only the exchange rate"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Supply-side policy aims to improve the economy's ability to produce. In AD/AS terms, successful measures increase long-run aggregate supply rather than merely changing aggregate demand.",
+    "reference": "5.4 Supply-side policy | 5.4.1 meaning of supply-side policy, in terms of its effect on LRAS curves | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "A successful supply-side policy is intended to shift which curve to the right?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The AD curve only"
+      },
+      {
+        "label": "B",
+        "text": "The LRAS curve to the left"
+      },
+      {
+        "label": "C",
+        "text": "The market demand curve for one product"
+      },
+      {
+        "label": "D",
+        "text": "The LRAS curve"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The syllabus defines supply-side policy in terms of its effect on LRAS. A successful policy raises productive potential and shifts LRAS to the right.",
+    "reference": "5.4 Supply-side policy | 5.4.1 meaning of supply-side policy, in terms of its effect on LRAS curves | AO1 Knowledge and understanding",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram: Price Level on the vertical axis and Real Output on the horizontal axis. Show LRAS1 and a rightward shift to LRAS2. Aggregate demand is not required for this identification question.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "LRAS1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 70,
+                "y": 0
+              },
+              {
+                "x": 70,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "LRAS2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 100,
+                "y": 0
+              },
+              {
+                "x": 100,
+                "y": 125
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 70,
+            "y": 0
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 100,
+            "y": 0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 70,
+            "y": 0,
+            "xLabel": "Y1"
+          },
+          {
+            "id": "g1",
+            "x": 100,
+            "y": 0,
+            "xLabel": "Y2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "What is a main objective of supply-side policy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To guarantee a government budget surplus"
+      },
+      {
+        "label": "B",
+        "text": "To reduce the money supply"
+      },
+      {
+        "label": "C",
+        "text": "To reduce the economy's potential output"
+      },
+      {
+        "label": "D",
+        "text": "To increase productive capacity"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Supply-side policy seeks to increase productive capacity and productivity. A higher productive capacity means the economy can sustain a higher level of real output.",
+    "reference": "5.4 Supply-side policy | 5.4.2 objectives of supply-side policy: increasing productivity and productive capacity | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "Which change most clearly indicates higher labour productivity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "More workers without higher output per worker"
+      },
+      {
+        "label": "B",
+        "text": "Higher prices"
+      },
+      {
+        "label": "C",
+        "text": "More output per worker-hour"
+      },
+      {
+        "label": "D",
+        "text": "Higher wage payments with no change in output produced"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Productivity concerns output produced per unit of input. If the same workforce produces more each hour, labour productivity has increased.",
+    "reference": "5.4 Supply-side policy | 5.4.2 objectives of supply-side policy: increasing productivity and productive capacity | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "Which policy is most directly intended to raise workers' skills?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Government-supported training programmes"
+      },
+      {
+        "label": "B",
+        "text": "A rise in the central bank interest rate"
+      },
+      {
+        "label": "C",
+        "text": "A cut in government purchases of all goods"
+      },
+      {
+        "label": "D",
+        "text": "A higher tariff on imported consumer goods"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Training is an explicit supply-side tool. Better skills can raise labour productivity and occupational mobility, contributing to a rightward shift of LRAS.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "How can better transport infrastructure increase aggregate supply?",
+    "options": [
+      {
+        "label": "A",
+        "text": "By raising import prices and restricting competition"
+      },
+      {
+        "label": "B",
+        "text": "By reducing the size of the labour force"
+      },
+      {
+        "label": "C",
+        "text": "By reducing firms' transport costs and improving productive efficiency"
+      },
+      {
+        "label": "D",
+        "text": "By forcing households to reduce consumption"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Improved infrastructure can reduce journey times, delivery delays and transport costs. Lower costs and better connectivity can raise productivity and productive capacity.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "Government support for technological improvement is most likely to increase",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only the price level"
+      },
+      {
+        "label": "B",
+        "text": "Only government transfer payments"
+      },
+      {
+        "label": "C",
+        "text": "The natural scarcity of all resources"
+      },
+      {
+        "label": "D",
+        "text": "Productivity and productive capacity"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Improved technology can enable a given quantity of inputs to produce more output and can expand the economy's productive potential.",
+    "reference": "5.4 Supply-side policy | 5.4.2; 5.4.3 objectives and tools of supply-side policy | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "Which action is an example of deregulation as a supply-side policy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher policy rates"
+      },
+      {
+        "label": "B",
+        "text": "Higher income tax reducing households’ spending power"
+      },
+      {
+        "label": "C",
+        "text": "Removal of costly, unnecessary legal restrictions"
+      },
+      {
+        "label": "D",
+        "text": "Higher tariffs protecting domestic producers from competition with imports"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Deregulation removes rules or barriers that impede entry, flexibility or production. If this improves efficiency and lowers costs, aggregate supply can increase.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "Why might privatisation be used as a supply-side policy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To turn private firms into public good providers"
+      },
+      {
+        "label": "B",
+        "text": "To strengthen efficiency incentives in former state firms"
+      },
+      {
+        "label": "C",
+        "text": "To reduce demand"
+      },
+      {
+        "label": "D",
+        "text": "To give the central bank greater control over commercial bank lending"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Privatisation may strengthen commercial incentives and efficiency. If productivity improves, productive potential and LRAS can increase.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "A cut in corporation tax may be used as a supply-side policy because it can",
+    "options": [
+      {
+        "label": "A",
+        "text": "Encourage investment that expands capacity"
+      },
+      {
+        "label": "B",
+        "text": "Shrink the workforce"
+      },
+      {
+        "label": "C",
+        "text": "Guarantee lower consumption"
+      },
+      {
+        "label": "D",
+        "text": "Require the central bank to reduce the quantity of money in circulation"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A lower corporation tax can leave firms with a larger post-tax return from investment. More investment can raise the capital stock and productive capacity.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "A cut in income tax can have a supply-side purpose if it is intended to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increase the incentive to work"
+      },
+      {
+        "label": "B",
+        "text": "Reduce the quantity of money in circulation"
+      },
+      {
+        "label": "C",
+        "text": "Raise the price of imported goods"
+      },
+      {
+        "label": "D",
+        "text": "Reduce firms' access to technology"
+      }
+    ],
+    "answer": "A",
+    "explanation": "If the purpose of the tax cut is to improve work incentives and labour supply, it is operating through the supply side rather than merely through aggregate demand.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "Why might a government reduce some welfare payments as a supply-side measure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To create cyclical unemployment"
+      },
+      {
+        "label": "B",
+        "text": "To discourage firms from investing in productive capital"
+      },
+      {
+        "label": "C",
+        "text": "To strengthen incentives to seek work"
+      },
+      {
+        "label": "D",
+        "text": "To reduce capacity"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Lower welfare payments may increase job-search effort for some unemployed workers. This can improve labour-market participation and supply.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "Trade union reform may increase aggregate supply if it",
+    "options": [
+      {
+        "label": "A",
+        "text": "Raises barriers to switching occupations"
+      },
+      {
+        "label": "B",
+        "text": "Improves flexibility and reduces strike disruption"
+      },
+      {
+        "label": "C",
+        "text": "Requires firms to maintain output below their existing capacity"
+      },
+      {
+        "label": "D",
+        "text": "Reduces worker training"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Greater labour-market flexibility and fewer disruptions can improve the use of labour and raise productive efficiency.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "A government subsidy to firms can support the supply side by",
+    "options": [
+      {
+        "label": "A",
+        "text": "Raising the policy interest rate"
+      },
+      {
+        "label": "B",
+        "text": "Lowering firms' costs of production"
+      },
+      {
+        "label": "C",
+        "text": "Reducing the economy's capital stock"
+      },
+      {
+        "label": "D",
+        "text": "Increasing the cost of worker training"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A subsidy can reduce firms' production costs and encourage output or investment. Whether it raises long-run productive potential depends on how it is designed and used.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "Which policy is not primarily a supply-side policy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Retraining grants for displaced workers"
+      },
+      {
+        "label": "B",
+        "text": "Transport infrastructure"
+      },
+      {
+        "label": "C",
+        "text": "Support for adopting technology that raises output per input"
+      },
+      {
+        "label": "D",
+        "text": "Rate cuts to stimulate demand during recession"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A lower interest rate used to stimulate spending is monetary policy operating through aggregate demand. The other measures are intended to improve productive capacity or productivity.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "Government spending on an engineering college is a supply-side measure when its main purpose is to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Raise the skills and productivity of the labour force"
+      },
+      {
+        "label": "B",
+        "text": "Reduce AD immediately"
+      },
+      {
+        "label": "C",
+        "text": "Increase the central bank's reserves"
+      },
+      {
+        "label": "D",
+        "text": "Restrict access to employment"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The same spending item can be classified by its intended mechanism. When education spending is intended to raise skills and productivity, it is supply-side policy.",
+    "reference": "5.4 Supply-side policy | 5.4.2; 5.4.3 productivity objective and training as a supply-side tool | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "What is meant by productive capacity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Households’ planned consumption at prevailing prices"
+      },
+      {
+        "label": "B",
+        "text": "Annual tax receipts"
+      },
+      {
+        "label": "C",
+        "text": "Output currently produced"
+      },
+      {
+        "label": "D",
+        "text": "Maximum sustainable output with current resources and technology"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Productive capacity concerns the economy's potential output, not necessarily its current actual output. Supply-side policy aims to expand this potential.",
+    "reference": "5.4 Supply-side policy | 5.4.2 objectives of supply-side policy: increasing productivity and productive capacity | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "Which change would most directly expand an economy's capital stock?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A fall in labour productivity"
+      },
+      {
+        "label": "B",
+        "text": "Investment in new productive machinery"
+      },
+      {
+        "label": "C",
+        "text": "A reduction in worker training"
+      },
+      {
+        "label": "D",
+        "text": "A rise in the depreciation of existing capital with no new investment"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Investment in productive capital expands the stock of capital and can raise potential output. This is one route through which supply-side measures can increase capacity.",
+    "reference": "5.4 Supply-side policy | 5.4.2; 5.4.3 productive capacity and supply-side tools | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "Which change raises the quality of labour as a productive resource?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Improved education and training"
+      },
+      {
+        "label": "B",
+        "text": "A reduction in the working-age population"
+      },
+      {
+        "label": "C",
+        "text": "Longer delivery delays on transport networks"
+      },
+      {
+        "label": "D",
+        "text": "A fall in access to modern equipment"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Education and training can raise workers' skills and therefore the quality and productivity of labour.",
+    "reference": "5.4 Supply-side policy | 5.4.2; 5.4.3 productivity objective and training as a tool | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "Which change is most likely to raise the quantity of productive resources available to the economy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A fall in labour-force participation"
+      },
+      {
+        "label": "B",
+        "text": "A loss of productive capital through depreciation with no replacement"
+      },
+      {
+        "label": "C",
+        "text": "An increase in the effective labour force"
+      },
+      {
+        "label": "D",
+        "text": "A decline in worker skills"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A larger effective labour force increases the quantity of labour available for production and therefore can increase productive capacity.",
+    "reference": "5.4 Supply-side policy | 5.4.2 objectives of supply-side policy: increasing productivity and productive capacity | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "If supply-side policy successfully increases productive capacity, potential output will",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increase"
+      },
+      {
+        "label": "B",
+        "text": "Decrease"
+      },
+      {
+        "label": "C",
+        "text": "Remain fixed by definition"
+      },
+      {
+        "label": "D",
+        "text": "Become equal to the price level"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Productive capacity and potential output refer to the economy's ability to produce. A successful supply-side policy raises this potential.",
+    "reference": "5.4 Supply-side policy | 5.4.2 objectives of supply-side policy: increasing productivity and productive capacity | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "A rightward shift of LRAS shows that the economy can produce",
+    "options": [
+      {
+        "label": "A",
+        "text": "Less real output at every price level"
+      },
+      {
+        "label": "B",
+        "text": "More real output at full capacity"
+      },
+      {
+        "label": "C",
+        "text": "The same potential output with fewer prices"
+      },
+      {
+        "label": "D",
+        "text": "Only more nominal output because prices are higher"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A rightward LRAS shift represents an increase in productive potential. The economy can sustain a higher level of real output.",
+    "reference": "5.4 Supply-side policy | 5.4.1 meaning of supply-side policy, in terms of its effect on LRAS curves | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram: Price Level vertical; Real Output horizontal. Draw vertical LRAS1 at Y1 and vertical LRAS2 to its right at Y2. No movement of AD is needed.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "LRAS1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 70,
+                "y": 0
+              },
+              {
+                "x": 70,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "LRAS2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 100,
+                "y": 0
+              },
+              {
+                "x": 100,
+                "y": 125
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 70,
+            "y": 0
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 100,
+            "y": 0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 70,
+            "y": 0,
+            "xLabel": "Y1"
+          },
+          {
+            "id": "g1",
+            "x": 100,
+            "y": 0,
+            "xLabel": "Y2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "If an increase in productivity shifts aggregate supply to the right while aggregate demand is unchanged, the most likely immediate combination is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher real output and a lower price level"
+      },
+      {
+        "label": "B",
+        "text": "Lower real output and a higher price level"
+      },
+      {
+        "label": "C",
+        "text": "Higher real output and a higher price level only"
+      },
+      {
+        "label": "D",
+        "text": "Unchanged real output and a higher price level"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A rightward shift of aggregate supply creates downward pressure on the price level and allows more real output to be produced at the existing aggregate demand.",
+    "reference": "5.4 Supply-side policy | 5.4.4 AD/AS analysis of the impact of supply-side policy on equilibrium national income, real output, the price level and employment | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram: Price Level vertical; Real Output horizontal. AD slopes downward. AS1 slopes upward and shifts right to AS2. Mark equilibrium E1 at AD/AS1 and E2 at AD/AS2.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "SRAS2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 20.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 111.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 40.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "A successful supply-side policy raises labour productivity and real output. What can be concluded about employment from these changes alone?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Employment falls whenever output per worker rises"
+      },
+      {
+        "label": "B",
+        "text": "Employment is fixed"
+      },
+      {
+        "label": "C",
+        "text": "Employment depends on relative growth rates"
+      },
+      {
+        "label": "D",
+        "text": "Employment rises whenever real output rises, regardless of changes in productivity"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Employment is related to output divided by output per worker. If productivity rises, a given output can be produced with fewer workers; whether employment rises depends on how strongly output expands relative to productivity.",
+    "reference": "5.4 Supply-side policy | 5.4.4 AD/AS analysis of the impact of supply-side policy on equilibrium national income, real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "Which statement best describes the general price-level effect of a successful rightward aggregate-supply shift, with aggregate demand unchanged?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Prices must rise"
+      },
+      {
+        "label": "B",
+        "text": "Prices are independent of productive supply at every output level"
+      },
+      {
+        "label": "C",
+        "text": "Prices tend to fall"
+      },
+      {
+        "label": "D",
+        "text": "Higher capacity makes firms raise their prices despite unchanged demand"
+      }
+    ],
+    "answer": "C",
+    "explanation": "With aggregate demand unchanged, a rightward supply shift reduces scarcity at each level of demand and tends to lower the equilibrium price level.",
+    "reference": "5.4 Supply-side policy | 5.4.4 AD/AS analysis of the impact of supply-side policy on equilibrium national income, real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "Which statement best distinguishes supply-side policy from demand-management policy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Supply-side policy always aims to reduce current spending"
+      },
+      {
+        "label": "B",
+        "text": "It seeks to increase productive potential"
+      },
+      {
+        "label": "C",
+        "text": "Supply-side policy changes only the money supply"
+      },
+      {
+        "label": "D",
+        "text": "Supply-side policy is defined by a government budget deficit"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The defining feature is the intended increase in productive potential, represented by a rightward LRAS shift. Demand-management policies primarily alter aggregate demand.",
+    "reference": "5.4 Supply-side policy | 5.4.1 meaning of supply-side policy, in terms of its effect on LRAS curves | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "Which policy package contains only supply-side measures?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher interest rates, lower money supply and tighter credit rules"
+      },
+      {
+        "label": "B",
+        "text": "Higher government consumption, lower taxes and lower interest rates"
+      },
+      {
+        "label": "C",
+        "text": "Training, infrastructure and production technology"
+      },
+      {
+        "label": "D",
+        "text": "Import tariffs, quotas and an embargo"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Training, infrastructure and technological improvement are explicit examples of supply-side tools in the syllabus. The other packages are monetary, demand-management or protectionist measures.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "A grant that helps unemployed workers move to regions with vacancies is most likely intended to reduce",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand-pull inflation through reduced spending"
+      },
+      {
+        "label": "B",
+        "text": "Cyclical unemployment through lower interest rates"
+      },
+      {
+        "label": "C",
+        "text": "Structural unemployment through greater mobility"
+      },
+      {
+        "label": "D",
+        "text": "Frictional unemployment through a reduction in the information available about jobs"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Mobility assistance helps workers move to where jobs exist. This is a supply-side response to structural mismatches in the labour market.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "Improved rail and road links can raise productivity most directly by",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increasing the economy's depreciation rate"
+      },
+      {
+        "label": "B",
+        "text": "Reducing the quality of capital"
+      },
+      {
+        "label": "C",
+        "text": "Raising barriers to market entry"
+      },
+      {
+        "label": "D",
+        "text": "Reducing transport time and resource waste"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Better transport links can reduce delays, widen labour and product markets and lower firms' logistics costs, improving productive efficiency.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "Which aim would contradict a successful supply-side policy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To reduce productive capacity"
+      },
+      {
+        "label": "B",
+        "text": "To increase productivity"
+      },
+      {
+        "label": "C",
+        "text": "To increase potential output"
+      },
+      {
+        "label": "D",
+        "text": "To shift LRAS to the right"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Supply-side policy is expansionary on the supply side: it aims to raise productivity, productive capacity and LRAS, not reduce them.",
+    "reference": "5.4 Supply-side policy | 5.4.1; 5.4.2 meaning and objectives of supply-side policy | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 31,
+    "difficulty": "Medium",
+    "prompt": "A factory employs 200 workers and produces 10 000 units per week. After a training programme it employs the same 200 workers and produces 11 500 units. What has happened to output per worker?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It has risen from 50 to 55 units per worker"
+      },
+      {
+        "label": "B",
+        "text": "It has risen from 50 to 57.5 units per worker"
+      },
+      {
+        "label": "C",
+        "text": "It has fallen from 57.5 to 50 units per worker"
+      },
+      {
+        "label": "D",
+        "text": "It is unchanged because employment is unchanged"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Before training, output per worker is 10 000 / 200 = 50 units. Afterwards it is 11 500 / 200 = 57.5 units, so labour productivity has risen.",
+    "reference": "5.4 Supply-side policy | 5.4.2 objectives of supply-side policy: increasing productivity and productive capacity | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 32,
+    "difficulty": "Medium",
+    "prompt": "Actual real output is unchanged, but a programme of successful infrastructure and training shifts LRAS to the right. What has definitely increased?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The current price level"
+      },
+      {
+        "label": "B",
+        "text": "Current AD"
+      },
+      {
+        "label": "C",
+        "text": "Productive capacity"
+      },
+      {
+        "label": "D",
+        "text": "Actual employment"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A rightward LRAS shift shows greater productive potential even if current demand is too weak for actual output to rise immediately. Actual output and employment need not change at once.",
+    "reference": "5.4 Supply-side policy | 5.4.1; 5.4.2 LRAS effect and productive-capacity objective | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram: Price Level vertical; Real Output horizontal. Show vertical LRAS1 at Y1 shifting right to LRAS2 at Y2. A separate marker for current output remains at a level left of both capacity points.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "LRAS1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 70,
+                "y": 0
+              },
+              {
+                "x": 70,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "LRAS2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 100,
+                "y": 0
+              },
+              {
+                "x": 100,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 70
+              },
+              {
+                "x": 70.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "SRAS",
+            "style": "muted",
+            "points": [
+              {
+                "x": 0,
+                "y": 10.0
+              },
+              {
+                "x": 131.6,
+                "y": 75.8
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 70,
+            "y": 0
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 100,
+            "y": 0
+          },
+          {
+            "id": "p2",
+            "label": "Current output",
+            "x": 40,
+            "y": 0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 70,
+            "y": 0,
+            "xLabel": "Y1"
+          },
+          {
+            "id": "g1",
+            "x": 100,
+            "y": 0,
+            "xLabel": "Y2"
+          },
+          {
+            "id": "g2",
+            "x": 40,
+            "y": 0,
+            "xLabel": "Y"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "difficulty": "Medium",
+    "prompt": "Why may increased spending on education have little effect on productive capacity in the short run?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Education immediately reduces the size of the labour force permanently"
+      },
+      {
+        "label": "B",
+        "text": "Skills take time to acquire and enter production"
+      },
+      {
+        "label": "C",
+        "text": "Training can influence only AD"
+      },
+      {
+        "label": "D",
+        "text": "Education necessarily lowers worker productivity at first"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Education and training often have long implementation lags. The spending occurs now, but workers may take years to complete courses and apply the new skills.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "A new freight railway removes a major bottleneck between factories and a port. Which chain is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher transport delays -> lower productivity -> higher LRAS"
+      },
+      {
+        "label": "B",
+        "text": "Lower transport delays -> lower unit costs -> higher AS"
+      },
+      {
+        "label": "C",
+        "text": "Lower transport delays -> lower labour skills -> lower capacity"
+      },
+      {
+        "label": "D",
+        "text": "Higher unit costs -> higher productivity -> lower price level"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Removing a transport bottleneck saves time and resources, lowering firms' costs and improving efficiency. This supports higher aggregate supply and productive potential.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "A government offers matching grants only to firms that adopt verified productivity-enhancing machinery. What is the intended supply-side mechanism?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher borrowing costs reduce demand"
+      },
+      {
+        "label": "B",
+        "text": "Lower workforce participation"
+      },
+      {
+        "label": "C",
+        "text": "Higher costs discourage output"
+      },
+      {
+        "label": "D",
+        "text": "Technology raises output per input"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The grant changes the incentive to adopt productive technology. If firms invest, the same inputs can produce more output and productive capacity can rise.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "A government cuts income tax. When is this most clearly a supply-side policy rather than a fiscal demand-management measure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "When its stated aim is to raise household consumption immediately"
+      },
+      {
+        "label": "B",
+        "text": "When the central bank simultaneously changes interest rates"
+      },
+      {
+        "label": "C",
+        "text": "When the budget deficit is the only policy concern"
+      },
+      {
+        "label": "D",
+        "text": "When the aim is stronger labour-supply incentives"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The coursebook emphasises the intention of the measure. A tax cut aimed at work incentives and labour supply is supply-side; one aimed at current aggregate demand is fiscal demand management.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "Why might privatisation fail to raise productive efficiency?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Private ownership lowers capacity"
+      },
+      {
+        "label": "B",
+        "text": "Weak competition in a private monopoly"
+      },
+      {
+        "label": "C",
+        "text": "Private firms must reduce investment whenever they acquire public assets"
+      },
+      {
+        "label": "D",
+        "text": "Unions gain power automatically"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Privatisation does not guarantee competition. If a state monopoly becomes a private monopoly, weak competitive pressure may limit efficiency gains.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "Why might deregulation fail to improve economic performance?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Some regulations may have been correcting market failure"
+      },
+      {
+        "label": "B",
+        "text": "Deregulation always increases firms' fixed costs"
+      },
+      {
+        "label": "C",
+        "text": "Removing barriers to entry always reduces competition"
+      },
+      {
+        "label": "D",
+        "text": "Deregulation automatically lowers labour productivity"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Some regulation exists to address market failures. Removing it can create costs that offset or exceed any efficiency benefit, so the effect is not automatically positive.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "A training programme greatly expands the number of courses but employers report that the new qualifications do not match future vacancies. What is the main weakness?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand falls"
+      },
+      {
+        "label": "B",
+        "text": "Productive capacity must fall whenever more courses are offered"
+      },
+      {
+        "label": "C",
+        "text": "Only prices can change"
+      },
+      {
+        "label": "D",
+        "text": "Training fails to match employers’ skill needs"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Training is effective only if it raises skills that are useful in production. A mismatch between courses and labour demand limits the productivity and mobility gains.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "A cut in income tax causes some high-paid workers to choose more leisure because they can maintain their desired income with fewer hours. What does this show?",
+    "options": [
+      {
+        "label": "A",
+        "text": "All income-tax cuts are contractionary"
+      },
+      {
+        "label": "B",
+        "text": "The labour-supply response can be uncertain"
+      },
+      {
+        "label": "C",
+        "text": "Lower tax rates always reduce productive capacity"
+      },
+      {
+        "label": "D",
+        "text": "Supply-side policy can only work through infrastructure"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A lower income-tax rate can strengthen the reward from work, but some workers may choose more leisure once they can reach their income target with fewer hours. The labour-supply effect is therefore uncertain.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "A production subsidy is paid to firms, but most firms increase profit margins rather than investment or output. What is the strongest conclusion?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The subsidy must have shifted LRAS far to the right"
+      },
+      {
+        "label": "B",
+        "text": "Firms may not change production or investment"
+      },
+      {
+        "label": "C",
+        "text": "The subsidy necessarily reduced the price level"
+      },
+      {
+        "label": "D",
+        "text": "The subsidy has become monetary policy"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A subsidy only improves the supply side if it changes costs, output, investment or productivity in the intended way. Retaining the payment as profit can weaken the effect.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "A national high-speed broadband programme allows firms to automate routine administration and serve customers remotely. Which objective is most directly supported?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A smaller productive capacity"
+      },
+      {
+        "label": "B",
+        "text": "A lower labour-force participation rate"
+      },
+      {
+        "label": "C",
+        "text": "Higher productivity"
+      },
+      {
+        "label": "D",
+        "text": "A higher structural budget deficit"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Digital infrastructure and technology can allow the same workforce and capital to produce more output or better services, raising productivity.",
+    "reference": "5.4 Supply-side policy | 5.4.2; 5.4.3 productivity objective and infrastructure/technology tools | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "A government raises the state pension age and, as a result, more people remain economically active. Which outcome is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Labour supply and productive capacity rise"
+      },
+      {
+        "label": "B",
+        "text": "The capital stock must fall"
+      },
+      {
+        "label": "C",
+        "text": "The economy's LRAS must shift left"
+      },
+      {
+        "label": "D",
+        "text": "Labour productivity must fall to zero"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A larger effective labour force increases the quantity of labour available for production. This can expand productive capacity and shift LRAS right.",
+    "reference": "5.4 Supply-side policy | 5.4.1; 5.4.2 LRAS and productive-capacity objective | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "A reduction in corporation tax is followed by a rise in private investment in modern machinery. Which chain best describes the long-run supply-side effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher investment -> lower capital stock -> lower LRAS"
+      },
+      {
+        "label": "B",
+        "text": "Lower tax -> lower skills -> lower productivity"
+      },
+      {
+        "label": "C",
+        "text": "Higher investment -> lower labour mobility -> higher unemployment"
+      },
+      {
+        "label": "D",
+        "text": "Investment -> better capital stock -> higher capacity"
+      }
+    ],
+    "answer": "D",
+    "explanation": "If a lower corporation tax encourages investment, the economy can obtain more or better capital. This increases productive capacity and can shift LRAS right.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "Which pair of outcomes is most consistent with successful trade union reform that reduces disruptive industrial action?",
+    "options": [
+      {
+        "label": "A",
+        "text": "More lost production days and lower labour mobility"
+      },
+      {
+        "label": "B",
+        "text": "Fewer strikes and higher productive efficiency"
+      },
+      {
+        "label": "C",
+        "text": "Lower productivity and lower productive capacity"
+      },
+      {
+        "label": "D",
+        "text": "Higher transport costs and lower technology adoption"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Reduced disruption and greater flexibility can allow labour and capital to be used more effectively, increasing productive efficiency.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "Deregulation makes it easier for new firms to enter a market. Which supply-side mechanism is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Market entry raises barriers to innovation"
+      },
+      {
+        "label": "B",
+        "text": "Competition necessarily reduces the capital stock"
+      },
+      {
+        "label": "C",
+        "text": "Lower entry barriers automatically reduce labour skills"
+      },
+      {
+        "label": "D",
+        "text": "Competition strengthens efficiency incentives"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Lower barriers to entry can increase competitive pressure. Firms may respond by reducing costs, innovating and using resources more efficiently.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "Privatisation is most likely to raise aggregate supply when it is accompanied by",
+    "options": [
+      {
+        "label": "A",
+        "text": "A guaranteed private monopoly protected from entry"
+      },
+      {
+        "label": "B",
+        "text": "A ban on investment by the privatised firm"
+      },
+      {
+        "label": "C",
+        "text": "Effective competition and performance incentives"
+      },
+      {
+        "label": "D",
+        "text": "Rules that require output to remain below capacity"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Ownership change alone does not ensure efficiency. Competitive pressure or strong performance incentives make productivity improvements more likely.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "A government improves roads, ports and digital networks. Why may this encourage private investment as well as raise productivity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Firms expect productive capacity to fall"
+      },
+      {
+        "label": "B",
+        "text": "Firms expect all demand to disappear"
+      },
+      {
+        "label": "C",
+        "text": "Lower operating costs and wider market access"
+      },
+      {
+        "label": "D",
+        "text": "Firms expect the labour force to become smaller automatically"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Better infrastructure can reduce operating costs and improve access to workers, suppliers and customers. This can make private investment more attractive.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "Which policy is most directly aimed at reducing structural unemployment through the supply side?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lowering interest rates to increase AD"
+      },
+      {
+        "label": "B",
+        "text": "Retraining workers whose skills are no longer demanded"
+      },
+      {
+        "label": "C",
+        "text": "Increasing government consumption during a recession"
+      },
+      {
+        "label": "D",
+        "text": "Reducing the money supply to lower inflation"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Structural unemployment reflects mismatches between worker skills or location and available jobs. Retraining directly addresses the skills mismatch.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "A government funds research partnerships that help firms adopt more efficient production techniques. What happens if the policy succeeds?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Productivity falls and LRAS shifts left"
+      },
+      {
+        "label": "B",
+        "text": "AD must fall by the same amount"
+      },
+      {
+        "label": "C",
+        "text": "Productivity rises and LRAS shifts right"
+      },
+      {
+        "label": "D",
+        "text": "Potential output becomes fixed"
+      }
+    ],
+    "answer": "C",
+    "explanation": "More efficient technology raises factor productivity. Higher productivity expands potential output and shifts LRAS to the right.",
+    "reference": "5.4 Supply-side policy | 5.4.1; 5.4.2; 5.4.3 LRAS, productivity and support for technological improvement | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram: Price Level vertical; Real Output horizontal. Draw vertical LRAS1 at Y1 shifting right to LRAS2 at Y2 after successful technological improvement.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "LRAS1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 70,
+                "y": 0
+              },
+              {
+                "x": 70,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "LRAS2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 100,
+                "y": 0
+              },
+              {
+                "x": 100,
+                "y": 125
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 70,
+            "y": 0
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 100,
+            "y": 0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 70,
+            "y": 0,
+            "xLabel": "Y1"
+          },
+          {
+            "id": "g1",
+            "x": 100,
+            "y": 0,
+            "xLabel": "Y2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "A country introduces a training programme. Before it, 400 workers produce 20 000 units per month. Afterwards, 400 workers produce 22 400 units. By what percentage has output per worker increased?",
+    "options": [
+      {
+        "label": "A",
+        "text": "6%"
+      },
+      {
+        "label": "B",
+        "text": "10%"
+      },
+      {
+        "label": "C",
+        "text": "12%"
+      },
+      {
+        "label": "D",
+        "text": "24%"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Output per worker rises from 50 to 56 units. The increase is 6 / 50 x 100 = 12%.",
+    "reference": "5.4 Supply-side policy | 5.4.2 objectives of supply-side policy: increasing productivity and productive capacity | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "An economy can produce a maximum of $500 billion of real output but currently produces $430 billion. A successful supply-side policy raises maximum output to $540 billion while current output remains $430 billion. What has increased?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Current AD"
+      },
+      {
+        "label": "B",
+        "text": "The current price level necessarily"
+      },
+      {
+        "label": "C",
+        "text": "Current employment necessarily"
+      },
+      {
+        "label": "D",
+        "text": "Spare productive capacity"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The gap between current output and capacity rises from $70bn to $110bn. Capacity has increased even though current output has not yet responded.",
+    "reference": "5.4 Supply-side policy | 5.4.2 objectives of supply-side policy: increasing productivity and productive capacity | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "Real output rises because aggregate demand increases, but LRAS is unchanged. What can be concluded?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Capacity expands in line with output"
+      },
+      {
+        "label": "B",
+        "text": "Productivity doubles"
+      },
+      {
+        "label": "C",
+        "text": "Output rises without a capacity increase"
+      },
+      {
+        "label": "D",
+        "text": "The rise in demand proves that policy increased productive supply"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A rise in actual output can occur through stronger aggregate demand without any increase in LRAS. Productive capacity is represented by LRAS, not by current output alone.",
+    "reference": "5.4 Supply-side policy | 5.4.1; 5.4.2 LRAS meaning and productive-capacity objective | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "A policy improves the match between workers' skills and vacancies. Which combination is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower labour mobility and higher structural unemployment"
+      },
+      {
+        "label": "B",
+        "text": "Higher cyclical unemployment and lower potential output"
+      },
+      {
+        "label": "C",
+        "text": "Lower technology adoption and higher transport costs"
+      },
+      {
+        "label": "D",
+        "text": "Higher labour mobility and lower structural unemployment"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Better matching and relevant training enable workers to move into jobs where their skills are demanded. This increases labour-market flexibility and reduces structural unemployment.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "Why is the time dimension especially important when assessing a large education programme?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Education affects only the price level and never output"
+      },
+      {
+        "label": "B",
+        "text": "Training benefits must occur before the programme begins"
+      },
+      {
+        "label": "C",
+        "text": "Productive capacity always falls during education spending"
+      },
+      {
+        "label": "D",
+        "text": "Productivity gains may take years to emerge"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Education is a classic supply-side policy with a potentially long lag. Resources are committed now, while the productivity benefits emerge as students complete education and enter employment.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "Which change would most improve the likely effectiveness of a vocational-training policy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Courses match skills employers expect to need"
+      },
+      {
+        "label": "B",
+        "text": "Courses are unrelated to available vacancies"
+      },
+      {
+        "label": "C",
+        "text": "Participants receive no practical instruction"
+      },
+      {
+        "label": "D",
+        "text": "Training places are concentrated in skills already in excess supply"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Training is more effective when it reduces genuine skills shortages and mismatches. Alignment with employer demand increases the chance of productivity and employment gains.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "Which infrastructure project is most likely to have the strongest supply-side effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "One that is unused by households and firms"
+      },
+      {
+        "label": "B",
+        "text": "One that removes a major economy-wide bottleneck"
+      },
+      {
+        "label": "C",
+        "text": "One that increases delivery times"
+      },
+      {
+        "label": "D",
+        "text": "One that replaces productive capital with less efficient equipment"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Infrastructure raises the supply side when it improves the productivity of other resources. Removing a major bottleneck used across the economy can have broad effects.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "Which row correctly matches a supply-side tool with its intended mechanism?\n\n| Row | Training | Infrastructure | Technology support |\n| A | reduces labour skills | raises delivery delays | reduces innovation |\n| B | raises policy interest rates | reduces labour mobility | raises import tariffs |\n| C | raises worker skills | reduces business costs | raises productivity |\n| D | reduces productive capacity | raises transport costs | reduces capital quality |",
+    "options": [
+      {
+        "label": "A",
+        "text": "A"
+      },
+      {
+        "label": "B",
+        "text": "B"
+      },
+      {
+        "label": "C",
+        "text": "C"
+      },
+      {
+        "label": "D",
+        "text": "D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Row C correctly links training with higher worker skills, infrastructure with lower business costs, and technology support with higher productivity. The other rows reverse or mismatch the mechanisms.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "Which row shows the most likely direction of change after a successful supply-side programme that shifts aggregate supply right while AD is unchanged?\n\n| Row | Real output | Price level |\n| A | falls | rises |\n| B | rises | falls |\n| C | rises | rises |\n| D | falls | falls |",
+    "options": [
+      {
+        "label": "A",
+        "text": "A"
+      },
+      {
+        "label": "B",
+        "text": "C"
+      },
+      {
+        "label": "C",
+        "text": "D"
+      },
+      {
+        "label": "D",
+        "text": "B"
+      }
+    ],
+    "answer": "D",
+    "explanation": "With conventional AD and an upward-sloping aggregate supply curve, a rightward supply shift raises equilibrium real output and lowers the price level. Row B gives that combination. Employment also depends on how the policy changes productivity and labour requirements.",
+    "reference": "5.4 Supply-side policy | 5.4.4 AD/AS analysis of the impact of supply-side policy on equilibrium national income, real output, the price level and employment | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram: Price Level vertical; Real Output horizontal. AD slopes downward. AS1 shifts right to AS2. E2 is to the right and below E1.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "SRAS2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 20.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 111.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 40.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "A firm adopts new technology and output rises from 800 to 920 units while total labour hours remain 400. What happens to output per labour hour?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises from 2.0 to 2.1 units"
+      },
+      {
+        "label": "B",
+        "text": "It falls from 2.3 to 2.0 units"
+      },
+      {
+        "label": "C",
+        "text": "It rises from 2.0 to 2.3 units"
+      },
+      {
+        "label": "D",
+        "text": "It remains 2.0 units because labour hours are unchanged"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Initial productivity is 800 / 400 = 2.0 units per hour. New productivity is 920 / 400 = 2.3 units per hour.",
+    "reference": "5.4 Supply-side policy | 5.4.2; 5.4.3 productivity objective and technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "A government reduces barriers to entry in several industries. Which sequence best represents the intended supply-side effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Less competition raises capacity"
+      },
+      {
+        "label": "B",
+        "text": "Entry barriers reduce firms’ unit costs and raise productivity"
+      },
+      {
+        "label": "C",
+        "text": "Competition creates incentives to improve productivity"
+      },
+      {
+        "label": "D",
+        "text": "Competition shrinks capital"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Deregulation can increase competitive pressure. Firms then have stronger incentives to reduce costs and improve productivity.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "A training grant raises labour productivity, but aggregate demand remains very weak. Which outcome is most likely at first?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Productive capacity rises by more than actual output"
+      },
+      {
+        "label": "B",
+        "text": "Actual output must immediately rise to the new capacity level"
+      },
+      {
+        "label": "C",
+        "text": "LRAS shifts left because demand is weak"
+      },
+      {
+        "label": "D",
+        "text": "The programme becomes monetary policy"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The supply-side programme can shift LRAS right even when firms do not immediately use the extra capacity. Weak AD can therefore limit the short-run rise in actual output.",
+    "reference": "5.4 Supply-side policy | 5.4.1; 5.4.2; 5.4.4 LRAS, productive capacity and AD/AS impact | AO3 Evaluation",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram: Price Level vertical; Real Output horizontal. LRAS1 shifts right to LRAS2. AD is relatively weak and current equilibrium real output remains well left of the new LRAS2 capacity level.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "LRAS1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 70,
+                "y": 0
+              },
+              {
+                "x": 70,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "LRAS2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 100,
+                "y": 0
+              },
+              {
+                "x": 100,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 70
+              },
+              {
+                "x": 70.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "SRAS",
+            "style": "muted",
+            "points": [
+              {
+                "x": 0,
+                "y": 10.0
+              },
+              {
+                "x": 131.6,
+                "y": 75.8
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 70,
+            "y": 0
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 100,
+            "y": 0
+          },
+          {
+            "id": "p2",
+            "label": "Current output",
+            "x": 40,
+            "y": 0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 70,
+            "y": 0,
+            "xLabel": "Y1"
+          },
+          {
+            "id": "g1",
+            "x": 100,
+            "y": 0,
+            "xLabel": "Y2"
+          },
+          {
+            "id": "g2",
+            "x": 40,
+            "y": 0,
+            "xLabel": "Y"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "A country is operating close to full productive capacity and faces strong inflationary pressure. Which supply-side measure is most likely to allow real output to rise with less upward pressure on prices?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Reduce capacity"
+      },
+      {
+        "label": "B",
+        "text": "Stimulate spending without increasing the ability to produce more output"
+      },
+      {
+        "label": "C",
+        "text": "Raise transport costs"
+      },
+      {
+        "label": "D",
+        "text": "Raise productivity to expand supply"
+      }
+    ],
+    "answer": "D",
+    "explanation": "By increasing productive capacity and aggregate supply, the economy can produce more before capacity constraints create strong price pressure.",
+    "reference": "5.4 Supply-side policy | 5.4.2; 5.4.3; 5.4.4 objectives, tools and AD/AS impact | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram: Price Level vertical; Real Output horizontal. AD intersects AS1 near capacity. A successful policy shifts AS1 right to AS2, producing a new equilibrium with higher real output and less price pressure.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 37.5,
+                "y": 0.0
+              },
+              {
+                "x": 70.4,
+                "y": 131.60000000000002
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "SRAS2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 57.5,
+                "y": 0.0
+              },
+              {
+                "x": 90.4,
+                "y": 131.60000000000002
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 66.0,
+            "y": 34.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 66.0,
+            "y": 34.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "Which statement about supply-side policy is most accurate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It can involve either more or less government intervention"
+      },
+      {
+        "label": "B",
+        "text": "All supply-side measures require privatisation"
+      },
+      {
+        "label": "C",
+        "text": "All supply-side measures require higher taxes"
+      },
+      {
+        "label": "D",
+        "text": "All supply-side measures operate only through the central bank"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Supply-side policy is defined by its intended effect on productive capacity, not by whether government intervention rises or falls. Deregulation reduces intervention; education or infrastructure spending increases it.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "Which row is most likely to represent a successful supply-side policy?\n\n| Row | LRAS | Potential output | Price pressure | Employment |\n| A | left | falls | rises | falls |\n| B | unchanged | unchanged | rises | falls |\n| C | right | falls | rises | falls |\n| D | right | rises | falls | rises |",
+    "options": [
+      {
+        "label": "A",
+        "text": "A"
+      },
+      {
+        "label": "B",
+        "text": "B"
+      },
+      {
+        "label": "C",
+        "text": "C"
+      },
+      {
+        "label": "D",
+        "text": "D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A successful supply-side policy should increase LRAS and potential output. When it also shifts current aggregate supply right, lower price pressure and higher employment are consistent outcomes. Row D matches this pattern.",
+    "reference": "5.4 Supply-side policy | 5.4.1; 5.4.2; 5.4.4 LRAS effect, objectives and macroeconomic impact | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "A government provides an investment subsidy only for equipment that reduces unit energy use. If firms adopt the equipment, which effect is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower unit costs and higher productivity"
+      },
+      {
+        "label": "B",
+        "text": "Higher unit costs and lower productivity"
+      },
+      {
+        "label": "C",
+        "text": "Lower labour skills and lower capacity"
+      },
+      {
+        "label": "D",
+        "text": "A fall in the money supply"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Technology that reduces input use per unit of output raises productive efficiency and lowers unit costs. This can shift aggregate supply right.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "What is the strongest reason that a broad infrastructure programme may raise LRAS?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It guarantees that AD falls"
+      },
+      {
+        "label": "B",
+        "text": "It fixes all relative prices"
+      },
+      {
+        "label": "C",
+        "text": "It automatically eliminates every form of unemployment"
+      },
+      {
+        "label": "D",
+        "text": "It raises the productivity of private labour and capital"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Good infrastructure is complementary to private production. By reducing delays and improving connectivity, it can raise the productivity of many existing resources and expand productive potential.",
+    "reference": "5.4 Supply-side policy | 5.4.1; 5.4.3 LRAS effect and infrastructure development | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "A government gives grants for worker relocation and retraining. Which pair of labour-market problems is it most directly addressing?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand-pull inflation and cyclical unemployment"
+      },
+      {
+        "label": "B",
+        "text": "Geographical and occupational immobility"
+      },
+      {
+        "label": "C",
+        "text": "Nominal GDP and real GDP"
+      },
+      {
+        "label": "D",
+        "text": "Budget deficits and national debt"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Relocation assistance addresses geographical immobility while retraining addresses occupational immobility. Both can reduce structural unemployment.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "Supply-side policy increases LRAS from Y1 to Y2, but aggregate demand initially remains at AD1. Which statement is most defensible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Capacity rises even if output does not immediately reach Y2"
+      },
+      {
+        "label": "B",
+        "text": "Actual output must immediately equal Y2"
+      },
+      {
+        "label": "C",
+        "text": "The price level must rise before capacity can increase"
+      },
+      {
+        "label": "D",
+        "text": "Productive capacity is unchanged until AD shifts right"
+      }
+    ],
+    "answer": "A",
+    "explanation": "LRAS represents potential output. A rightward shift raises capacity, but whether the economy uses that capacity immediately depends on aggregate demand and short-run adjustment.",
+    "reference": "5.4 Supply-side policy | 5.4.1; 5.4.2; 5.4.4 LRAS, productive capacity and AD/AS impact | AO3 Evaluation",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram: Price Level vertical; Real Output horizontal. Vertical LRAS1 at Y1 shifts right to LRAS2 at Y2. AD1 remains unchanged and a short-run equilibrium is shown left of LRAS2.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "LRAS1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 70,
+                "y": 0
+              },
+              {
+                "x": 70,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "LRAS2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 100,
+                "y": 0
+              },
+              {
+                "x": 100,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD1",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 70
+              },
+              {
+                "x": 70.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "SRAS",
+            "style": "muted",
+            "points": [
+              {
+                "x": 0,
+                "y": 10.0
+              },
+              {
+                "x": 131.6,
+                "y": 75.8
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 70,
+            "y": 0
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 100,
+            "y": 0
+          },
+          {
+            "id": "p2",
+            "label": "Current output",
+            "x": 40,
+            "y": 0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 70,
+            "y": 0,
+            "xLabel": "Y1"
+          },
+          {
+            "id": "g1",
+            "x": 100,
+            "y": 0,
+            "xLabel": "Y2"
+          },
+          {
+            "id": "g2",
+            "x": 40,
+            "y": 0,
+            "xLabel": "Y"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "Which policy is most likely to increase both labour productivity and labour mobility?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Vocational training matched to vacancies"
+      },
+      {
+        "label": "B",
+        "text": "Higher tariffs"
+      },
+      {
+        "label": "C",
+        "text": "Lower money supply to restrain aggregate demand"
+      },
+      {
+        "label": "D",
+        "text": "Less maintenance of transport networks"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Relevant vocational education can raise skills and make it easier for workers to move into occupations where labour is demanded.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 71,
+    "difficulty": "Hard",
+    "prompt": "A cut in corporation tax increases firms' current investment spending and, over time, expands the capital stock. Which combination of macroeconomic effects is most plausible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "LRAS falls first and AD must fall later"
+      },
+      {
+        "label": "B",
+        "text": "AD is unchanged because investment is not part of AD"
+      },
+      {
+        "label": "C",
+        "text": "The price level must fall immediately and permanently"
+      },
+      {
+        "label": "D",
+        "text": "AD may rise first and LRAS later"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Investment is a component of aggregate demand, so a tax-induced rise in investment can raise AD in the short run. As the capital stock grows, productive capacity and LRAS can increase later.",
+    "reference": "5.4 Supply-side policy | 5.4.1; 5.4.3; 5.4.4 supply-side tools and AD/AS impact | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Two-stage AD/AS description: Price Level vertical; Real Output horizontal. Stage 1: AD1 shifts right to AD2. Stage 2: LRAS1 shifts right to LRAS2 as the capital stock expands. The question concerns timing rather than a single final price level.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 120
+              },
+              {
+                "x": 120.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 60.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 60.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Initial demand effect"
+      },
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "LRAS1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 70,
+                "y": 0
+              },
+              {
+                "x": 70,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "LRAS2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 100,
+                "y": 0
+              },
+              {
+                "x": 100,
+                "y": 125
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 70,
+            "y": 0
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 100,
+            "y": 0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 70,
+            "y": 0,
+            "xLabel": "Y1"
+          },
+          {
+            "id": "g1",
+            "x": 100,
+            "y": 0,
+            "xLabel": "Y2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Later capacity effect"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "difficulty": "Hard",
+    "prompt": "A large infrastructure programme is financed by government spending. Which statement best captures its possible two-sided macroeconomic effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It can only reduce AD because government spending is a leakage"
+      },
+      {
+        "label": "B",
+        "text": "It can only shift LRAS and cannot affect current demand"
+      },
+      {
+        "label": "C",
+        "text": "AD can rise now and LRAS later"
+      },
+      {
+        "label": "D",
+        "text": "It must reduce productive capacity because it uses public funds"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Government infrastructure spending can add directly to aggregate demand while the project is built. If the completed infrastructure reduces costs or bottlenecks, it can also increase LRAS.",
+    "reference": "5.4 Supply-side policy | 5.4.1; 5.4.3; 5.4.4 infrastructure tool and AD/AS impact | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 73,
+    "difficulty": "Hard",
+    "prompt": "A government increases spending on training in year 1. Aggregate demand rises immediately, but the trained workers do not enter skilled jobs until year 4. Which pattern is most consistent?",
+    "options": [
+      {
+        "label": "A",
+        "text": "LRAS must shift right before any spending takes place"
+      },
+      {
+        "label": "B",
+        "text": "AD cannot change because training is always supply-side only"
+      },
+      {
+        "label": "C",
+        "text": "AD may shift right before LRAS does"
+      },
+      {
+        "label": "D",
+        "text": "Productive capacity must fall between years 1 and 4"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Training spending can affect current demand immediately, but the supply-side benefit depends on skills being acquired and used. The LRAS effect can therefore arrive with a lag.",
+    "reference": "5.4 Supply-side policy | 5.4.3; 5.4.4 training tool and AD/AS impact over time | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Timeline AD/AS description: Year 1 shows AD1 shifting right to AD2 with LRAS1 unchanged. By year 4, LRAS1 shifts right to LRAS2 as trained workers become productive.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 120
+              },
+              {
+                "x": 120.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 60.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 60.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Initial demand effect"
+      },
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "LRAS1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 70,
+                "y": 0
+              },
+              {
+                "x": 70,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "LRAS2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 100,
+                "y": 0
+              },
+              {
+                "x": 100,
+                "y": 125
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 70,
+            "y": 0
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 100,
+            "y": 0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 70,
+            "y": 0,
+            "xLabel": "Y1"
+          },
+          {
+            "id": "g1",
+            "x": 100,
+            "y": 0,
+            "xLabel": "Y2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Later capacity effect"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "A technology subsidy reduces firms' unit costs now and also raises productive capacity. Which pair of supply curves is most likely to shift right?",
+    "options": [
+      {
+        "label": "A",
+        "text": "AD and market demand only"
+      },
+      {
+        "label": "B",
+        "text": "LRAS only, with no possible short-run cost effect"
+      },
+      {
+        "label": "C",
+        "text": "SRAS and LRAS"
+      },
+      {
+        "label": "D",
+        "text": "SRAS left and LRAS right"
+      }
+    ],
+    "answer": "C",
+    "explanation": "If the technology lowers current unit costs, SRAS can shift right. If it also improves productive capacity, LRAS shifts right as well.",
+    "reference": "5.4 Supply-side policy | 5.4.1; 5.4.3; 5.4.4 technology tool and AD/AS impact | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram: Price Level vertical; Real Output horizontal. AD is unchanged. SRAS1 shifts right to SRAS2 and vertical LRAS1 shifts right to LRAS2.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "SRAS2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 20.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 111.6
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "LRAS1",
+            "style": "reference",
+            "points": [
+              {
+                "x": 50,
+                "y": 0
+              },
+              {
+                "x": 50,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "label": "LRAS2",
+            "style": "muted",
+            "points": [
+              {
+                "x": 60,
+                "y": 0
+              },
+              {
+                "x": 60,
+                "y": 125
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 40.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "A country experiences weak aggregate demand and substantial unused capacity. A supply-side programme succeeds in shifting LRAS right. What is the best evaluation of its short-run employment effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Employment may rise little while demand remains weak"
+      },
+      {
+        "label": "B",
+        "text": "Employment must rise to full employment immediately"
+      },
+      {
+        "label": "C",
+        "text": "Employment must fall because LRAS moved right"
+      },
+      {
+        "label": "D",
+        "text": "The employment effect is determined only by the money supply"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Higher capacity does not guarantee that firms will use it. With weak AD and substantial spare capacity, the economy can remain below potential, limiting the immediate employment gain.",
+    "reference": "5.4 Supply-side policy | 5.4.1; 5.4.4 LRAS effect and AD/AS impact | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram: Price Level vertical; Real Output horizontal. AD is weak and equilibrium output is well left of LRAS1. LRAS1 shifts right to LRAS2, showing more capacity but little immediate movement in current equilibrium.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "LRAS1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 70,
+                "y": 0
+              },
+              {
+                "x": 70,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "LRAS2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 100,
+                "y": 0
+              },
+              {
+                "x": 100,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 70
+              },
+              {
+                "x": 70.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "SRAS",
+            "style": "muted",
+            "points": [
+              {
+                "x": 0,
+                "y": 10.0
+              },
+              {
+                "x": 131.6,
+                "y": 75.8
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 70,
+            "y": 0
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 100,
+            "y": 0
+          },
+          {
+            "id": "p2",
+            "label": "Current output",
+            "x": 40,
+            "y": 0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 70,
+            "y": 0,
+            "xLabel": "Y1"
+          },
+          {
+            "id": "g1",
+            "x": 100,
+            "y": 0,
+            "xLabel": "Y2"
+          },
+          {
+            "id": "g2",
+            "x": 40,
+            "y": 0,
+            "xLabel": "Y"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "A country is close to capacity and demand is rising strongly. Which supply-side programme is most likely to reduce inflationary pressure without requiring lower real output?",
+    "options": [
+      {
+        "label": "A",
+        "text": "One that reduces worker skills"
+      },
+      {
+        "label": "B",
+        "text": "One that removes bottlenecks and raises productivity"
+      },
+      {
+        "label": "C",
+        "text": "One that lowers productive capacity"
+      },
+      {
+        "label": "D",
+        "text": "One that increases firms' transport costs"
+      }
+    ],
+    "answer": "B",
+    "explanation": "By shifting aggregate supply and LRAS right, productivity improvements allow higher output to be produced with less pressure on costs and prices.",
+    "reference": "5.4 Supply-side policy | 5.4.2; 5.4.3; 5.4.4 productivity objective, tools and AD/AS impact | AO3 Evaluation",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram: Price Level vertical; Real Output horizontal. AD is strong. AS1 shifts right to AS2 after productivity improvements, allowing a higher equilibrium real output with less upward pressure on the price level.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 37.5,
+                "y": 0.0
+              },
+              {
+                "x": 70.4,
+                "y": 131.60000000000002
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "SRAS2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 57.5,
+                "y": 0.0
+              },
+              {
+                "x": 90.4,
+                "y": 131.60000000000002
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 66.0,
+            "y": 34.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 66.0,
+            "y": 34.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "The wage cost per worker rises by 8% after a training programme, but output per worker rises by 12%. What happens to labour cost per unit of output, other things equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises by 20%"
+      },
+      {
+        "label": "B",
+        "text": "It is unchanged because both wages and output rise"
+      },
+      {
+        "label": "C",
+        "text": "It must rise because wages increase"
+      },
+      {
+        "label": "D",
+        "text": "It falls"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Unit labour cost depends on wage cost relative to output per worker. Because productivity rises faster than wages, labour cost per unit of output falls.",
+    "reference": "5.4 Supply-side policy | 5.4.2; 5.4.3 productivity objective and training tool | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "A training policy raises worker qualifications, but wages rise by more than the increase in output per worker. Which outcome is possible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unit labour cost must fall whenever qualifications rise"
+      },
+      {
+        "label": "B",
+        "text": "Unit labour cost can rise despite higher productivity"
+      },
+      {
+        "label": "C",
+        "text": "LRAS must shift left whenever wages rise"
+      },
+      {
+        "label": "D",
+        "text": "Training can no longer be classified as supply-side policy"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Higher productivity does not automatically mean lower unit labour costs. If wages rise by an even greater proportion, costs per unit can increase, weakening the price-level benefit.",
+    "reference": "5.4 Supply-side policy | 5.4.2; 5.4.3; 5.4.4 productivity, training and macroeconomic impact | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "Privatisation creates a single private provider protected by high barriers to entry. Which judgement is most appropriate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Private ownership alone ensures production at the minimum attainable cost."
+      },
+      {
+        "label": "B",
+        "text": "Selling existing assets necessarily creates additional productive machinery and equipment."
+      },
+      {
+        "label": "C",
+        "text": "Entry barriers may leave weak pressure to reduce unit costs."
+      },
+      {
+        "label": "D",
+        "text": "Changing ownership automatically removes the firm’s existing monopoly market power."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Supply-side gains from privatisation depend on incentives and market structure. A protected monopoly can have weak incentives to reduce costs or innovate.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "Deregulation removes a rule that had prevented firms from imposing large pollution costs on others. Which judgement is best?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower private costs may accompany greater market failure"
+      },
+      {
+        "label": "B",
+        "text": "Social efficiency must rise"
+      },
+      {
+        "label": "C",
+        "text": "Competition removes external costs"
+      },
+      {
+        "label": "D",
+        "text": "Capacity falls exactly in proportion to the reduction in compliance expenditure"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Removing a rule can lower private costs, but if the rule corrected an external cost, deregulation may worsen allocative outcomes. This limits the claim that deregulation always improves performance.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "A subsidy for domestic producers continues for many years, and firms stop searching for cheaper production methods. What risk does this illustrate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Subsidies may weaken efficiency incentives"
+      },
+      {
+        "label": "B",
+        "text": "Subsidies necessarily raise the policy interest rate"
+      },
+      {
+        "label": "C",
+        "text": "Subsidies always reduce employment"
+      },
+      {
+        "label": "D",
+        "text": "Subsidies automatically increase labour mobility"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Long-running support can protect firms from pressure to innovate or reduce costs. In that case the policy may weaken rather than strengthen productivity growth.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "A lower income-tax rate raises the after-tax return to work, but the final change in hours worked is very small. What follows?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The labour-supply response may be weak"
+      },
+      {
+        "label": "B",
+        "text": "The tax cut must have shifted LRAS left"
+      },
+      {
+        "label": "C",
+        "text": "Income tax can never affect labour supply"
+      },
+      {
+        "label": "D",
+        "text": "The tax cut must have reduced AD"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The intended mechanism is a stronger work incentive. If labour supply barely responds, the effect on productive capacity is limited even though the policy remains supply-side in intention.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "An economy has mainly cyclical unemployment caused by weak aggregate demand. Why may retraining alone be insufficient in the short run?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Retraining necessarily reduces worker skills"
+      },
+      {
+        "label": "B",
+        "text": "Structural policies always lower AD"
+      },
+      {
+        "label": "C",
+        "text": "Cyclical unemployment is caused only by transport bottlenecks"
+      },
+      {
+        "label": "D",
+        "text": "Weak demand still limits firms' hiring"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Training is well suited to structural mismatches. If unemployment is mainly cyclical, weak demand rather than skills may be the binding constraint, so training alone may have little immediate effect.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "A successful supply-side policy shifts LRAS right from Y1 to Y2. Aggregate demand also shifts right because business confidence improves. Which outcome is definitely implied?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The price level must fall"
+      },
+      {
+        "label": "B",
+        "text": "Productive capacity increases"
+      },
+      {
+        "label": "C",
+        "text": "The price level must rise"
+      },
+      {
+        "label": "D",
+        "text": "The final price level must be unchanged"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The LRAS shift definitely raises productive capacity. With both AD and LRAS shifting right, the final price-level change depends on the relative size and timing of the shifts.",
+    "reference": "5.4 Supply-side policy | 5.4.1; 5.4.2; 5.4.4 LRAS, productive capacity and AD/AS impact | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram: Price Level vertical; Real Output horizontal. LRAS1 shifts right to LRAS2 and AD1 shifts right to AD2. Do not specify relative shift magnitudes, so the final price-level direction is not predetermined.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "LRAS1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 50,
+                "y": 0
+              },
+              {
+                "x": 50,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "LRAS2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 75,
+                "y": 0
+              },
+              {
+                "x": 75,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "AD2",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 115
+              },
+              {
+                "x": 115.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 75,
+            "y": 40
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 75,
+            "y": 40,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      },
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "LRAS1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 50,
+                "y": 0
+              },
+              {
+                "x": 50,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "LRAS2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 75,
+                "y": 0
+              },
+              {
+                "x": 75,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "AD2",
+            "style": "reference",
+            "points": [
+              {
+                "x": 13.400000000000006,
+                "y": 131.6
+              },
+              {
+                "x": 131.6,
+                "y": 13.400000000000006
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 75,
+            "y": 70
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 75,
+            "y": 70,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "A supply-side tax reform increases labour supply and also increases household spending. Which combination is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "LRAS shifts left and AD must shift left"
+      },
+      {
+        "label": "B",
+        "text": "LRAS is unchanged because taxes affect only demand"
+      },
+      {
+        "label": "C",
+        "text": "AD shifts left while productive capacity must fall"
+      },
+      {
+        "label": "D",
+        "text": "LRAS shifts right and AD may also shift right"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The labour-supply effect can increase LRAS, while higher disposable income can increase consumption and AD. The same policy can therefore affect both sides of the economy.",
+    "reference": "5.4 Supply-side policy | 5.4.1; 5.4.3; 5.4.4 tax incentives and AD/AS impact | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "Labour productivity, measured as output per effective worker, rises by 6%, while the number of effective workers falls by 8%. Holding other capacity determinants fixed, what happens to total productive capacity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises by 14%."
+      },
+      {
+        "label": "B",
+        "text": "It falls by 2%."
+      },
+      {
+        "label": "C",
+        "text": "It rises by 2.48%."
+      },
+      {
+        "label": "D",
+        "text": "It falls by 2.48%."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Capacity equals output per effective worker multiplied by the number of effective workers. The new capacity is 1.06 × 0.92 = 0.9752 of the original, a fall of 2.48%. The percentage changes compound rather than simply add.",
+    "reference": "5.4 Supply-side policy | 5.4.2 objectives of supply-side policy: increasing productivity and productive capacity | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "The table shows four policy packages. Which package is most clearly supply-side?\n\n| Package | Measure 1 | Measure 2 | Measure 3 |\n| A | higher interest rate | tighter credit | lower money supply |\n| B | vocational training | port expansion | technology grants |\n| C | higher tariffs | import quota | embargo |\n| D | higher consumption spending | lower interest rate | income transfer |",
+    "options": [
+      {
+        "label": "A",
+        "text": "A"
+      },
+      {
+        "label": "B",
+        "text": "B"
+      },
+      {
+        "label": "C",
+        "text": "C"
+      },
+      {
+        "label": "D",
+        "text": "D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Package B combines training, infrastructure and support for technological improvement, all of which directly target productive capacity or productivity.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "The table gives output and employment before and after four programmes. Which programme produces the largest percentage increase in labour productivity?\n\n| Programme | Output before | Workers before | Output after | Workers after |\n| A | 2 000 | 100 | 2 150 | 100 |\n| B | 3 000 | 120 | 3 120 | 120 |\n| C | 1 600 | 80 | 1 840 | 80 |\n| D | 2 500 | 100 | 2 625 | 100 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Programme A"
+      },
+      {
+        "label": "B",
+        "text": "Programme C"
+      },
+      {
+        "label": "C",
+        "text": "Programme B"
+      },
+      {
+        "label": "D",
+        "text": "Programme D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Productivity is output per worker. A rises from 20 to 21.5 (+7.5%), B from 25 to 26 (+4%), C from 20 to 23 (+15%), and D from 25 to 26.25 (+5%). Programme C has the largest increase.",
+    "reference": "5.4 Supply-side policy | 5.4.2; 5.4.3 productivity objective and supply-side tools | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "A government must choose between a one-year increase in transfer payments and a long-term programme of technical training, with equal initial budget cost. Which is more directly a supply-side measure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Transfer payments, because any government spending shifts LRAS right"
+      },
+      {
+        "label": "B",
+        "text": "Transfer payments, because they directly increase worker skills"
+      },
+      {
+        "label": "C",
+        "text": "Neither, because government spending can never be supply-side"
+      },
+      {
+        "label": "D",
+        "text": "Technical training"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Technical training is designed to improve productive skills. Transfer payments mainly redistribute income and are not, by themselves, a direct means of increasing productive capacity.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "A country improves productivity substantially but its labour force shrinks at the same time. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Potential output must increase because productivity rose"
+      },
+      {
+        "label": "B",
+        "text": "Potential output must decrease because labour fell"
+      },
+      {
+        "label": "C",
+        "text": "LRAS cannot change when two determinants move in opposite directions"
+      },
+      {
+        "label": "D",
+        "text": "The potential-output effect is uncertain"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Higher productivity raises potential output, while a smaller labour force reduces it. The net LRAS effect depends on the relative size of the two changes.",
+    "reference": "5.4 Supply-side policy | 5.4.2 objectives of supply-side policy: increasing productivity and productive capacity | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "A technology programme raises the efficiency of machines but firms do not adopt the technology because they lack skilled workers. What would most improve the policy package?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Complementary worker training"
+      },
+      {
+        "label": "B",
+        "text": "A policy that raises transport costs"
+      },
+      {
+        "label": "C",
+        "text": "A reduction in all vocational education"
+      },
+      {
+        "label": "D",
+        "text": "A measure that restricts firms from investing"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Technology and human capital can be complementary. If skill shortages prevent adoption, targeted training increases the chance that technology support will translate into higher productivity.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "The government builds a new motorway, but it largely duplicates an uncongested existing route. Which is the best evaluation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A small gain if no important bottleneck is removed"
+      },
+      {
+        "label": "B",
+        "text": "All infrastructure spending shifts LRAS right by the same amount"
+      },
+      {
+        "label": "C",
+        "text": "The motorway must reduce labour productivity"
+      },
+      {
+        "label": "D",
+        "text": "The project becomes monetary policy because it is inefficient"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Infrastructure raises productivity when it solves a real constraint. A duplicate route with little use may have a high opportunity cost and a small effect on productive capacity.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "An economy initially has AD1, SRAS1 and LRAS1 intersecting at full-employment output Y1. A successful supply-side policy shifts SRAS and LRAS right while AD is unchanged. Which final combination is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher output, lower prices and higher capacity"
+      },
+      {
+        "label": "B",
+        "text": "Lower real output, higher price level and lower capacity"
+      },
+      {
+        "label": "C",
+        "text": "Unchanged output, higher price level and lower capacity"
+      },
+      {
+        "label": "D",
+        "text": "Higher real output, higher price level and lower capacity"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A rightward shift of both short-run and long-run aggregate supply allows more output at a lower price level, while the LRAS shift shows that productive capacity has increased.",
+    "reference": "5.4 Supply-side policy | 5.4.1; 5.4.2; 5.4.4 LRAS, productive capacity and AD/AS impact | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram: Price Level vertical; Real Output horizontal. AD is fixed. SRAS1 shifts right to SRAS2. Vertical LRAS1 at Y1 shifts right to LRAS2 at Y2. E2 lies right and below E1.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "SRAS2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 20.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 111.6
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "LRAS1",
+            "style": "reference",
+            "points": [
+              {
+                "x": 50,
+                "y": 0
+              },
+              {
+                "x": 50,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "label": "LRAS2",
+            "style": "muted",
+            "points": [
+              {
+                "x": 60,
+                "y": 0
+              },
+              {
+                "x": 60,
+                "y": 125
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 40.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "A country has an inflationary output constraint caused by inadequate electricity supply to industry. Which policy best targets the cause?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A rise in the policy interest rate only"
+      },
+      {
+        "label": "B",
+        "text": "Reliable electricity infrastructure"
+      },
+      {
+        "label": "C",
+        "text": "A cut in worker training"
+      },
+      {
+        "label": "D",
+        "text": "A reduction in productive investment"
+      }
+    ],
+    "answer": "B",
+    "explanation": "If electricity capacity is the binding supply constraint, infrastructure investment directly addresses the bottleneck. Demand restraint may lower inflation but does not remove the productive constraint.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "A government wants to reduce cost-push inflation over the long run without reducing productive capacity. Which approach is most suitable?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Measures that deliberately reduce worker skills"
+      },
+      {
+        "label": "B",
+        "text": "Raise productivity and reduce unit costs"
+      },
+      {
+        "label": "C",
+        "text": "Measures that raise transport costs"
+      },
+      {
+        "label": "D",
+        "text": "Measures that shrink the capital stock"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Supply-side improvements can lower unit costs and shift aggregate supply right, reducing inflationary pressure while increasing rather than sacrificing productive capacity.",
+    "reference": "5.4 Supply-side policy | 5.4.2; 5.4.3; 5.4.4 productivity, tools and macroeconomic impact | AO3 Evaluation",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram: Price Level vertical; Real Output horizontal. AD is unchanged. A successful productivity policy shifts AS right and LRAS right, lowering cost pressure while expanding potential output.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "SRAS2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 20.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 111.6
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "LRAS1",
+            "style": "reference",
+            "points": [
+              {
+                "x": 50,
+                "y": 0
+              },
+              {
+                "x": 50,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "label": "LRAS2",
+            "style": "muted",
+            "points": [
+              {
+                "x": 60,
+                "y": 0
+              },
+              {
+                "x": 60,
+                "y": 125
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 40.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "A country reduces corporation tax and increases training. Investment rises, but the training is poor quality. Which supply-side channel is most likely to remain effective?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Investment can still expand the capital stock"
+      },
+      {
+        "label": "B",
+        "text": "Both channels must fail because one programme is poor"
+      },
+      {
+        "label": "C",
+        "text": "Training quality determines whether private investment can occur at all"
+      },
+      {
+        "label": "D",
+        "text": "The policies must reduce LRAS because they are combined"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Different supply-side tools work through different mechanisms. Weak training limits the human-capital effect, but stronger investment can still raise the capital stock and productive capacity.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "Which statement must be true if a policy has shifted LRAS to the right?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Actual output must already equal the new potential output"
+      },
+      {
+        "label": "B",
+        "text": "Productive potential has increased"
+      },
+      {
+        "label": "C",
+        "text": "The price level must have fallen"
+      },
+      {
+        "label": "D",
+        "text": "AD must have increased"
+      }
+    ],
+    "answer": "B",
+    "explanation": "LRAS represents potential output. Its rightward shift therefore proves that productive capacity has increased, but says nothing definite about current AD, actual output or the price level.",
+    "reference": "5.4 Supply-side policy | 5.4.1; 5.4.2 LRAS meaning and productive-capacity objective | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram: Price Level vertical; Real Output horizontal. Show only vertical LRAS1 shifting right to LRAS2. No assumption about AD or current equilibrium is needed.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "LRAS1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 70,
+                "y": 0
+              },
+              {
+                "x": 70,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "LRAS2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 100,
+                "y": 0
+              },
+              {
+                "x": 100,
+                "y": 125
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 70,
+            "y": 0
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 100,
+            "y": 0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 70,
+            "y": 0,
+            "xLabel": "Y1"
+          },
+          {
+            "id": "g1",
+            "x": 100,
+            "y": 0,
+            "xLabel": "Y2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "Which package is least likely to be classified as supply-side policy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Retraining, mobility support and apprenticeships"
+      },
+      {
+        "label": "B",
+        "text": "Ports, broadband and freight rail investment"
+      },
+      {
+        "label": "C",
+        "text": "Rate cuts, easier credit and money expansion"
+      },
+      {
+        "label": "D",
+        "text": "Technology grants and fewer regulations alongside incentives for firms to invest"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Lower interest rates, easier credit and a larger money supply are monetary-policy tools aimed primarily at aggregate demand. The other packages target productive efficiency or capacity.",
+    "reference": "5.4 Supply-side policy | 5.4.3 tools of supply-side policy, for example training, infrastructure development, support for technological improvement | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "A government introduces training, infrastructure development and technology support at the same time. What common mechanism justifies classifying all three as supply-side policies?",
+    "options": [
+      {
+        "label": "A",
+        "text": "All reduce demand immediately"
+      },
+      {
+        "label": "B",
+        "text": "All alter only the budget balance without affecting production"
+      },
+      {
+        "label": "C",
+        "text": "All can expand resource productivity or capacity"
+      },
+      {
+        "label": "D",
+        "text": "All work exclusively by discouraging households from buying imported goods"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Although the measures operate differently, each can improve the quantity, quality or effectiveness of productive resources and therefore raise LRAS.",
+    "reference": "5.4 Supply-side policy | 5.4.1; 5.4.2; 5.4.3 meaning, objectives and tools of supply-side policy | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "A government combines high-quality retraining, a freight-network upgrade and support for firms adopting advanced machinery. Which outcome best indicates that the package has succeeded?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Productive capacity falls while price pressure rises"
+      },
+      {
+        "label": "B",
+        "text": "Higher productivity, potential output and LRAS"
+      },
+      {
+        "label": "C",
+        "text": "Worker skills fall and transport costs rise"
+      },
+      {
+        "label": "D",
+        "text": "LRAS shifts left even though resource quality improves"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The package addresses human capital, infrastructure and technology. Success should be visible in higher productivity, greater productive capacity and a rightward LRAS shift; if current AS also rises, output can increase with less price pressure.",
+    "reference": "5.4 Supply-side policy | 5.4.1; 5.4.2; 5.4.3; 5.4.4 complete supply-side policy chain from tools to macroeconomic impact | AO3 Evaluation",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram: Price Level vertical; Real Output horizontal. Show LRAS1 shifting right to LRAS2. Optionally show SRAS1 shifting right to SRAS2 and a new equilibrium with higher real output and lower price pressure.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "LRAS1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 70,
+                "y": 0
+              },
+              {
+                "x": 70,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "LRAS2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 100,
+                "y": 0
+              },
+              {
+                "x": 100,
+                "y": 125
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 70,
+            "y": 0
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 100,
+            "y": 0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 70,
+            "y": 0,
+            "xLabel": "Y1"
+          },
+          {
+            "id": "g1",
+            "x": 100,
+            "y": 0,
+            "xLabel": "Y2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  }
+]

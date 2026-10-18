@@ -1,0 +1,3657 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, which quantity maximizes total economic surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Qm"
+      },
+      {
+        "label": "B",
+        "text": "The quantity at the demand intercept"
+      },
+      {
+        "label": "C",
+        "text": "Every quantity above Qs"
+      },
+      {
+        "label": "D",
+        "text": "Zero units"
+      },
+      {
+        "label": "E",
+        "text": "Qs"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Qs is where marginal social benefit equals marginal social cost. Producing up to that intersection includes the beneficial units without adding units whose costs exceed benefits.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "Quantity is on the horizontal axis and marginal benefit and marginal cost are on the vertical axis. A downward- sloping MSB curve intersects an upward-sloping MSC curve at the socially efficient quantity Qs. A different market quantity Qm is labeled, and the area between MSB and MSC from Qm to Qs is shaded as deadweight loss.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Marginal benefit / cost",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MSB",
+            "label": "MSB",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 94.0,
+                "y": 14.799999999999997
+              }
+            ]
+          },
+          {
+            "id": "MSC",
+            "label": "MSC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10.0
+              },
+              {
+                "x": 94.0,
+                "y": 85.2
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 30,
+            "y": 66
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qs"
+          },
+          {
+            "id": "guide1",
+            "x": 30,
+            "y": 66,
+            "xLabel": "Qm"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 30,
+                "y": 66
+              },
+              {
+                "x": 30,
+                "y": 34
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ],
+            "label": "DWL"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "In a competitive market with all benefits and costs internalized, equilibrium is efficient because",
+    "options": [
+      {
+        "label": "A",
+        "text": "Firms set price above marginal cost"
+      },
+      {
+        "label": "B",
+        "text": "Government revenue equals deadweight loss"
+      },
+      {
+        "label": "C",
+        "text": "Demand represents MSB; supply represents MSC"
+      },
+      {
+        "label": "D",
+        "text": "Consumers receive all economic surplus"
+      },
+      {
+        "label": "E",
+        "text": "Demand measures average social benefit and supply measures fixed cost"
+      }
+    ],
+    "answer": "C",
+    "explanation": "When all effects are internalized, demand measures MSB and supply measures MSC. Their competitive intersection therefore maximizes total economic surplus.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "Producing beyond the socially efficient quantity creates deadweight loss because",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumer surplus necessarily becomes zero"
+      },
+      {
+        "label": "B",
+        "text": "Producer surplus necessarily becomes negative"
+      },
+      {
+        "label": "C",
+        "text": "Average total cost exceeds price for every firm"
+      },
+      {
+        "label": "D",
+        "text": "Marginal social benefit exceeds marginal social cost for the extra units"
+      },
+      {
+        "label": "E",
+        "text": "Marginal social cost exceeds marginal social benefit for the extra units"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Beyond the efficient quantity, each extra unit has MSC above MSB. Its cost exceeds its benefit, reducing total surplus and creating deadweight loss.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "Producing below the socially efficient quantity creates deadweight loss because",
+    "options": [
+      {
+        "label": "A",
+        "text": "All produced units have social cost above social benefit"
+      },
+      {
+        "label": "B",
+        "text": "Government receives too little revenue"
+      },
+      {
+        "label": "C",
+        "text": "Consumer surplus is transferred entirely to firms"
+      },
+      {
+        "label": "D",
+        "text": "The market price must be below average total cost"
+      },
+      {
+        "label": "E",
+        "text": "Beneficial units remain unproduced"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Below the efficient quantity, additional units have MSB above MSC. Failing to produce them sacrifices positive gains and creates deadweight loss.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "Market power can create inefficiency when a firm",
+    "options": [
+      {
+        "label": "A",
+        "text": "Produces every unit consumers request at a zero price"
+      },
+      {
+        "label": "B",
+        "text": "Eliminates scarcity through product differentiation"
+      },
+      {
+        "label": "C",
+        "text": "Expands output until marginal social cost exceeds marginal social benefit"
+      },
+      {
+        "label": "D",
+        "text": "Restricts output below the MSB = MSC quantity"
+      },
+      {
+        "label": "E",
+        "text": "Sets output where average revenue equals average cost"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Restricting output can let a firm charge a higher price. It also excludes units valued more than their cost, leaving unrealized gains from trade.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "A project’s next unit has MSB $24 and MSC $18. What happens to total surplus if that unit is produced?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls by $6"
+      },
+      {
+        "label": "B",
+        "text": "It remains unchanged"
+      },
+      {
+        "label": "C",
+        "text": "It rises by $24"
+      },
+      {
+        "label": "D",
+        "text": "It falls by $18"
+      },
+      {
+        "label": "E",
+        "text": "It rises by $6"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The unit adds benefit $24 and cost $18, a net gain of $6.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "Cost-benefit analysis is used primarily to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Maximize government revenue regardless of efficiency"
+      },
+      {
+        "label": "B",
+        "text": "Compare policies’ marginal social benefits and costs"
+      },
+      {
+        "label": "C",
+        "text": "Set consumer surplus equal to producer surplus"
+      },
+      {
+        "label": "D",
+        "text": "Replace marginal analysis with accounting profit"
+      },
+      {
+        "label": "E",
+        "text": "Guarantee that every affected person gains"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Cost-benefit analysis counts the relevant social benefits and resource costs of each option. The efficient choice has the greatest net social benefit.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "A corrective policy eliminates an inefficiency when it causes decision makers to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Account for social benefits and social costs"
+      },
+      {
+        "label": "B",
+        "text": "Transfer all producer surplus to consumers"
+      },
+      {
+        "label": "C",
+        "text": "Choose the quantity that maximizes government receipts"
+      },
+      {
+        "label": "D",
+        "text": "Ignore marginal effects and use average values"
+      },
+      {
+        "label": "E",
+        "text": "Set price equal to average fixed cost"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Corrective incentives make private decision makers account for social benefits and costs. Their chosen quantity then moves to MSB = MSC.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "If marginal social benefit is $18 and marginal social cost is $13 at the current quantity, efficiency requires",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increase output; the next unit adds $5 net"
+      },
+      {
+        "label": "B",
+        "text": "Raising price until consumer surplus is zero"
+      },
+      {
+        "label": "C",
+        "text": "Holding output fixed because both values are positive"
+      },
+      {
+        "label": "D",
+        "text": "Reducing output until marginal benefit rises to $31"
+      },
+      {
+        "label": "E",
+        "text": "Decreasing output because the next unit adds $5 of social cost"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The next unit adds $18 of social benefit and $13 of social cost. Expanding output increases total surplus by $5.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "If marginal social cost is $24 and marginal social benefit is $17 at the current quantity, efficiency requires",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increasing output because the last unit creates a $7 net social gain"
+      },
+      {
+        "label": "B",
+        "text": "Subsidizing output by $41 per unit"
+      },
+      {
+        "label": "C",
+        "text": "Holding output fixed because the values differ by less than $10"
+      },
+      {
+        "label": "D",
+        "text": "Decreasing output because the last unit creates a $7 net social loss"
+      },
+      {
+        "label": "E",
+        "text": "Setting quantity where average social cost is $17"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The unit costs $24 but benefits society only $17. Reducing output avoids the $7 net social loss.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "The area of deadweight loss from an inefficient quantity represents",
+    "options": [
+      {
+        "label": "A",
+        "text": "The transfer between consumers and producers"
+      },
+      {
+        "label": "B",
+        "text": "Lost net benefits from inefficient production levels"
+      },
+      {
+        "label": "C",
+        "text": "The entire consumer surplus at the efficient quantity"
+      },
+      {
+        "label": "D",
+        "text": "The entire producer surplus at the market quantity"
+      },
+      {
+        "label": "E",
+        "text": "Government spending required to change output"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Deadweight loss measures gains from trade lost because quantity is inefficient. A payment transferred between groups does not itself destroy total surplus.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, why is Qm socially inefficient?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Units between Qm and Qs have marginal social cost above marginal social benefit"
+      },
+      {
+        "label": "B",
+        "text": "Marginal social benefit and marginal social cost are equal at Qm"
+      },
+      {
+        "label": "C",
+        "text": "Consumer surplus equals producer surplus at Qm"
+      },
+      {
+        "label": "D",
+        "text": "Units between Qm and Qs have marginal social benefit above marginal social cost"
+      },
+      {
+        "label": "E",
+        "text": "All units below Qm have zero marginal benefit"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Qm is below the quantity where MSB equals MSC. Additional units between Qm and Qs would add more benefit than cost, so Qm underproduces.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "Quantity is on the horizontal axis and marginal benefit and marginal cost are on the vertical axis. A downward- sloping MSB curve intersects an upward-sloping MSC curve at the socially efficient quantity Qs. A different market quantity Qm is labeled, and the area between MSB and MSC from Qm to Qs is shaded as deadweight loss.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Marginal benefit / cost",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MSB",
+            "label": "MSB",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 94.0,
+                "y": 14.799999999999997
+              }
+            ]
+          },
+          {
+            "id": "MSC",
+            "label": "MSC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10.0
+              },
+              {
+                "x": 94.0,
+                "y": 85.2
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 30,
+            "y": 66
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qs"
+          },
+          {
+            "id": "guide1",
+            "x": 30,
+            "y": 66,
+            "xLabel": "Qm"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 30,
+                "y": 66
+              },
+              {
+                "x": 30,
+                "y": 34
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ],
+            "label": "DWL"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "At the efficient quantity, a small increase in output will",
+    "options": [
+      {
+        "label": "A",
+        "text": "Transfer all surplus to producers"
+      },
+      {
+        "label": "B",
+        "text": "Make the market perfectly competitive"
+      },
+      {
+        "label": "C",
+        "text": "Add at least as much cost as benefit"
+      },
+      {
+        "label": "D",
+        "text": "Necessarily increase total surplus"
+      },
+      {
+        "label": "E",
+        "text": "Leave marginal social cost unchanged at zero"
+      }
+    ],
+    "answer": "C",
+    "explanation": "At the efficient margin, MSB equals MSC. Moving beyond it makes MSC exceed MSB on additional units, reducing total surplus.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "At a quantity below the efficient level, a small increase in output will",
+    "options": [
+      {
+        "label": "A",
+        "text": "Reduce both consumer and producer surplus necessarily"
+      },
+      {
+        "label": "B",
+        "text": "Leave total surplus unchanged at every quantity"
+      },
+      {
+        "label": "C",
+        "text": "Create government revenue equal to the gain"
+      },
+      {
+        "label": "D",
+        "text": "Decrease total surplus while marginal social benefit exceeds marginal social cost"
+      },
+      {
+        "label": "E",
+        "text": "Increase total surplus while marginal social benefit exceeds marginal social cost"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The extra unit's marginal social benefit exceeds its marginal social cost. Producing it adds positive net benefits and raises total surplus.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "Private bargaining is most likely to correct an inefficiency when",
+    "options": [
+      {
+        "label": "A",
+        "text": "Property rights are undefined and transaction costs are high"
+      },
+      {
+        "label": "B",
+        "text": "Property rights are clear and transaction costs are low"
+      },
+      {
+        "label": "C",
+        "text": "The number of affected parties is extremely large"
+      },
+      {
+        "label": "D",
+        "text": "Participants are prohibited from exchanging rights"
+      },
+      {
+        "label": "E",
+        "text": "Information about costs is unavailable to all parties"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Clear property rights identify who can negotiate over the resource. Low transaction costs then allow mutually beneficial agreements that account for the external effects.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "An efficient policy should be evaluated using",
+    "options": [
+      {
+        "label": "A",
+        "text": "The equality of individual incomes"
+      },
+      {
+        "label": "B",
+        "text": "Only the transfer received by consumers"
+      },
+      {
+        "label": "C",
+        "text": "Changes in social benefits and social costs"
+      },
+      {
+        "label": "D",
+        "text": "The number of firms regardless of output"
+      },
+      {
+        "label": "E",
+        "text": "Only the accounting cost to the government"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Efficiency requires counting all social benefits and costs, including effects on third parties. It concerns the total net gain rather than which group receives it.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "If two policies reach the same efficient quantity, the preferred policy on efficiency grounds is the one that",
+    "options": [
+      {
+        "label": "A",
+        "text": "Gives identical surplus to every participant"
+      },
+      {
+        "label": "B",
+        "text": "Creates the larger transfer between buyers and sellers"
+      },
+      {
+        "label": "C",
+        "text": "Uses the highest regulated price"
+      },
+      {
+        "label": "D",
+        "text": "Collects the greatest revenue even if administration is costly"
+      },
+      {
+        "label": "E",
+        "text": "Achieves the outcome with the lower real resource cost"
+      }
+    ],
+    "answer": "E",
+    "explanation": "With the same benefits, a policy using fewer resources leaves a larger net social gain. Lower implementation and compliance costs make it preferable on efficiency grounds.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, the shaded region represents",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumer surplus at Qm"
+      },
+      {
+        "label": "B",
+        "text": "Fixed cost at the efficient quantity"
+      },
+      {
+        "label": "C",
+        "text": "Producer surplus at Qs"
+      },
+      {
+        "label": "D",
+        "text": "Government revenue from production"
+      },
+      {
+        "label": "E",
+        "text": "Deadweight loss from underproduction"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The shaded region adds MSB minus MSC for the unproduced units between Qm and Qs. Those forgone gains are the deadweight loss from underproduction.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "Quantity is on the horizontal axis and marginal benefit and marginal cost are on the vertical axis. A downward- sloping MSB curve intersects an upward-sloping MSC curve at the socially efficient quantity Qs. A different market quantity Qm is labeled, and the area between MSB and MSC from Qm to Qs is shaded as deadweight loss.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Marginal benefit / cost",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MSB",
+            "label": "MSB",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 94.0,
+                "y": 14.799999999999997
+              }
+            ]
+          },
+          {
+            "id": "MSC",
+            "label": "MSC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10.0
+              },
+              {
+                "x": 94.0,
+                "y": 85.2
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 30,
+            "y": 66
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qs"
+          },
+          {
+            "id": "guide1",
+            "x": 30,
+            "y": 66,
+            "xLabel": "Qm"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 30,
+                "y": 66
+              },
+              {
+                "x": 30,
+                "y": 34
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ],
+            "label": "DWL"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "An outcome is inefficient whenever",
+    "options": [
+      {
+        "label": "A",
+        "text": "Buyers have different willingness to pay"
+      },
+      {
+        "label": "B",
+        "text": "Firms earn accounting profit"
+      },
+      {
+        "label": "C",
+        "text": "Market price is above zero"
+      },
+      {
+        "label": "D",
+        "text": "A feasible change could increase total surplus"
+      },
+      {
+        "label": "E",
+        "text": "Producer surplus exceeds consumer surplus"
+      }
+    ],
+    "answer": "D",
+    "explanation": "If a feasible change raises total surplus, the current outcome has not maximized it. The outcome is therefore inefficient.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "When private marginal benefit equals private marginal cost at a quantity above the social optimum, the likely problem is that",
+    "options": [
+      {
+        "label": "A",
+        "text": "All social costs are already internalized"
+      },
+      {
+        "label": "B",
+        "text": "Total surplus must already be maximized"
+      },
+      {
+        "label": "C",
+        "text": "The market has produced too little"
+      },
+      {
+        "label": "D",
+        "text": "Private incentives fail to reflect social marginal values"
+      },
+      {
+        "label": "E",
+        "text": "Marginal social benefit must exceed marginal social cost"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Private decisions can omit costs imposed on others or count benefits above those society receives. The private equilibrium can then produce more than the socially efficient quantity.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "Social efficiency occurs when in Market A",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumer surplus equals producer surplus"
+      },
+      {
+        "label": "B",
+        "text": "Total revenue equals total cost"
+      },
+      {
+        "label": "C",
+        "text": "Marginal social benefit equals marginal social cost"
+      },
+      {
+        "label": "D",
+        "text": "Marginal private benefit exceeds marginal social cost"
+      },
+      {
+        "label": "E",
+        "text": "Average benefit equals average cost"
+      }
+    ],
+    "answer": "C",
+    "explanation": "At MSB = MSC, the last unit's benefit equals its cost. In the standard model, total surplus is maximized at that quantity.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 22,
+    "difficulty": "Medium",
+    "prompt": "Marginal social benefit is 50 − Q and marginal social cost is 10 + Q. What is the efficient quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "20.00"
+      },
+      {
+        "label": "B",
+        "text": "24.00"
+      },
+      {
+        "label": "C",
+        "text": "32.00"
+      },
+      {
+        "label": "D",
+        "text": "36.00"
+      },
+      {
+        "label": "E",
+        "text": "28.00"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Efficiency requires MSB = MSC. Solve 2Q = 40.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 23,
+    "difficulty": "Medium",
+    "prompt": "A unit provides social benefit $50 and imposes social cost $10. What is the change in total surplus from producing it?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$48.00"
+      },
+      {
+        "label": "B",
+        "text": "$64.00"
+      },
+      {
+        "label": "C",
+        "text": "$56.00"
+      },
+      {
+        "label": "D",
+        "text": "$40.00"
+      },
+      {
+        "label": "E",
+        "text": "$72.00"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The change is marginal social benefit minus marginal social cost.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, moving output from Qm toward Qs will most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "Decrease total surplus and increase deadweight loss"
+      },
+      {
+        "label": "B",
+        "text": "Increase total surplus and reduce deadweight loss"
+      },
+      {
+        "label": "C",
+        "text": "Transfer surplus without changing efficiency"
+      },
+      {
+        "label": "D",
+        "text": "Increase both marginal social cost and deadweight loss necessarily"
+      },
+      {
+        "label": "E",
+        "text": "Leave total surplus unchanged"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Private agents respond to the benefits and costs they personally face. If those incentives omit external effects, their best private choices can still reduce social surplus.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "Quantity is on the horizontal axis and marginal benefit and marginal cost are on the vertical axis. A downward- sloping MSB curve intersects an upward-sloping MSC curve at the socially efficient quantity Qs. A different market quantity Qm is labeled, and the area between MSB and MSC from Qm to Qs is shaded as deadweight loss.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Marginal benefit / cost",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MSB",
+            "label": "MSB",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 94.0,
+                "y": 14.799999999999997
+              }
+            ]
+          },
+          {
+            "id": "MSC",
+            "label": "MSC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10.0
+              },
+              {
+                "x": 94.0,
+                "y": 85.2
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 30,
+            "y": 66
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qs"
+          },
+          {
+            "id": "guide1",
+            "x": 30,
+            "y": 66,
+            "xLabel": "Qm"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 30,
+                "y": 66
+              },
+              {
+                "x": 30,
+                "y": 34
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ],
+            "label": "DWL"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "difficulty": "Medium",
+    "prompt": "MSB = 50 − 2Q and MSC = 10 + 2Q. At Q = 4, by how much does MSB exceed MSC?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$19.20"
+      },
+      {
+        "label": "B",
+        "text": "$24.00"
+      },
+      {
+        "label": "C",
+        "text": "$33.60"
+      },
+      {
+        "label": "D",
+        "text": "$14.40"
+      },
+      {
+        "label": "E",
+        "text": "$28.80"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Subtract MSC from MSB at the stated quantity.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "A rational private decision can be socially inefficient when in Market A",
+    "options": [
+      {
+        "label": "A",
+        "text": "All property rights are clear and transaction costs are zero"
+      },
+      {
+        "label": "B",
+        "text": "Private benefits or costs differ from social benefits or costs"
+      },
+      {
+        "label": "C",
+        "text": "The efficient quantity is chosen voluntarily"
+      },
+      {
+        "label": "D",
+        "text": "The market is competitive and all effects are internalized"
+      },
+      {
+        "label": "E",
+        "text": "Marginal private benefit equals marginal private cost and both equal social values"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Moving toward efficient output restores forgone beneficial trades or removes units whose costs exceed benefits. Either correction raises total surplus.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 27,
+    "difficulty": "Medium",
+    "prompt": "Demand is P = 50 − Q and supply is P = 10 + Q, with no externalities. What is the competitive equilibrium price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$12.00"
+      },
+      {
+        "label": "B",
+        "text": "$24.00"
+      },
+      {
+        "label": "C",
+        "text": "$30.00"
+      },
+      {
+        "label": "D",
+        "text": "$18.00"
+      },
+      {
+        "label": "E",
+        "text": "$6.00"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Set quantity demanded equal to quantity supplied; the intersection price is the average of the intercepts.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 28,
+    "difficulty": "Medium",
+    "prompt": "The efficient quantity is 20. Actual output is 12. The gap between MSB and MSC at actual output is $4; it falls linearly to zero at efficient output. What is deadweight loss?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$3.20"
+      },
+      {
+        "label": "B",
+        "text": "$16.00"
+      },
+      {
+        "label": "C",
+        "text": "$9.60"
+      },
+      {
+        "label": "D",
+        "text": "$6.40"
+      },
+      {
+        "label": "E",
+        "text": "$12.80"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The loss is a triangle: one-half times the quantity gap of 8 times the marginal-value gap.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 29,
+    "difficulty": "Medium",
+    "prompt": "The first 4 units each generate social benefit $18 and social cost $12. What total surplus do these units create?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$24.00"
+      },
+      {
+        "label": "B",
+        "text": "$9.60"
+      },
+      {
+        "label": "C",
+        "text": "$4.80"
+      },
+      {
+        "label": "D",
+        "text": "$14.40"
+      },
+      {
+        "label": "E",
+        "text": "$19.20"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Each unit contributes $6; multiply by the number of units.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, at Qs the last unit produced has",
+    "options": [
+      {
+        "label": "A",
+        "text": "Marginal social benefit equal to marginal social cost"
+      },
+      {
+        "label": "B",
+        "text": "Marginal social cost equal to zero"
+      },
+      {
+        "label": "C",
+        "text": "Average benefit equal to average cost"
+      },
+      {
+        "label": "D",
+        "text": "Marginal private benefit above marginal social benefit"
+      },
+      {
+        "label": "E",
+        "text": "Consumer surplus equal to producer surplus"
+      }
+    ],
+    "answer": "A",
+    "explanation": "At Qm, units toward Qs have MSB above MSC. Expanding output captures their positive net benefits.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "Quantity is on the horizontal axis and marginal benefit and marginal cost are on the vertical axis. A downward- sloping MSB curve intersects an upward-sloping MSC curve at the socially efficient quantity Qs. A different market quantity Qm is labeled, and the area between MSB and MSC from Qm to Qs is shaded as deadweight loss.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Marginal benefit / cost",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MSB",
+            "label": "MSB",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 94.0,
+                "y": 14.799999999999997
+              }
+            ]
+          },
+          {
+            "id": "MSC",
+            "label": "MSC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10.0
+              },
+              {
+                "x": 94.0,
+                "y": 85.2
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 30,
+            "y": 66
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qs"
+          },
+          {
+            "id": "guide1",
+            "x": 30,
+            "y": 66,
+            "xLabel": "Qm"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 30,
+                "y": 66
+              },
+              {
+                "x": 30,
+                "y": 34
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ],
+            "label": "DWL"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "difficulty": "Medium",
+    "prompt": "A market has consumer surplus $150 and producer surplus $40, with no externalities. What is total economic surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$190.00"
+      },
+      {
+        "label": "B",
+        "text": "$76.00"
+      },
+      {
+        "label": "C",
+        "text": "$152.00"
+      },
+      {
+        "label": "D",
+        "text": "$228.00"
+      },
+      {
+        "label": "E",
+        "text": "$114.00"
+      }
+    ],
+    "answer": "A",
+    "explanation": "With no external effects, total surplus equals consumer surplus plus producer surplus.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 32,
+    "difficulty": "Medium",
+    "prompt": "A policy that moves output toward the MSB-MSC quantity will most likely in a local economy",
+    "options": [
+      {
+        "label": "A",
+        "text": "Decrease both marginal benefit and marginal cost to zero"
+      },
+      {
+        "label": "B",
+        "text": "Increase deadweight loss regardless of its cost"
+      },
+      {
+        "label": "C",
+        "text": "Make average cost equal average benefit"
+      },
+      {
+        "label": "D",
+        "text": "Increase total economic surplus"
+      },
+      {
+        "label": "E",
+        "text": "Eliminate all producer surplus"
+      }
+    ],
+    "answer": "D",
+    "explanation": "At Qs, MSB and MSC are equal. The last unit has no difference between its marginal social benefit and cost.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 33,
+    "difficulty": "Medium",
+    "prompt": "An extra unit has marginal social benefit $10 and marginal social cost $50. By how much does this unit reduce total surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$40.00"
+      },
+      {
+        "label": "B",
+        "text": "$24.00"
+      },
+      {
+        "label": "C",
+        "text": "$48.00"
+      },
+      {
+        "label": "D",
+        "text": "$32.00"
+      },
+      {
+        "label": "E",
+        "text": "$16.00"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Producing a unit with MSC above MSB reduces surplus by MSC − MSB.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "MSB = 50 − Q and MSC = 10 + Q. Production is currently 4 units. How many additional units reach the efficient quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "22.40"
+      },
+      {
+        "label": "B",
+        "text": "16.00"
+      },
+      {
+        "label": "C",
+        "text": "19.20"
+      },
+      {
+        "label": "D",
+        "text": "25.60"
+      },
+      {
+        "label": "E",
+        "text": "28.80"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Find MSB = MSC and subtract the current quantity.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "Why can a producer earn positive profit at a quantity that is socially inefficient?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Profit always measures total social surplus"
+      },
+      {
+        "label": "B",
+        "text": "Profit requires zero consumer surplus"
+      },
+      {
+        "label": "C",
+        "text": "Profit includes every external cost"
+      },
+      {
+        "label": "D",
+        "text": "Positive profit proves MSB equals MSC"
+      },
+      {
+        "label": "E",
+        "text": "Profit uses private revenue and costs"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Private profitability and social efficiency evaluate different benefits and costs.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "At efficient output, total social benefit is $400 and total social cost is $90. What is net social benefit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$186.00"
+      },
+      {
+        "label": "B",
+        "text": "$310.00"
+      },
+      {
+        "label": "C",
+        "text": "$248.00"
+      },
+      {
+        "label": "D",
+        "text": "$372.00"
+      },
+      {
+        "label": "E",
+        "text": "$124.00"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Net social benefit is total social benefit minus total social cost.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "Marginal social benefit is 60 − Q and marginal social cost is 12 + Q. What is the efficient quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "28.80"
+      },
+      {
+        "label": "B",
+        "text": "38.40"
+      },
+      {
+        "label": "C",
+        "text": "33.60"
+      },
+      {
+        "label": "D",
+        "text": "43.20"
+      },
+      {
+        "label": "E",
+        "text": "24.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Efficiency requires MSB = MSC. Solve 2Q = 48.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "A market outcome can be unequal yet socially efficient when in a national market",
+    "options": [
+      {
+        "label": "A",
+        "text": "MSB = MSC; surplus shares differ"
+      },
+      {
+        "label": "B",
+        "text": "Government eliminates all market prices"
+      },
+      {
+        "label": "C",
+        "text": "Consumer and producer surplus are exactly equal"
+      },
+      {
+        "label": "D",
+        "text": "Every participant receives the same income"
+      },
+      {
+        "label": "E",
+        "text": "Marginal private benefit exceeds marginal social benefit"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Efficiency concerns maximizing total gains, while equity concerns how those gains are distributed. An unequal allocation can still maximize total surplus.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "A unit provides social benefit $60 and imposes social cost $12. What is the change in total surplus from producing it?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$67.20"
+      },
+      {
+        "label": "B",
+        "text": "$57.60"
+      },
+      {
+        "label": "C",
+        "text": "$48.00"
+      },
+      {
+        "label": "D",
+        "text": "$38.40"
+      },
+      {
+        "label": "E",
+        "text": "$28.80"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The change is marginal social benefit minus marginal social cost.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "MSB = 60 − 2Q and MSC = 12 + 2Q. At Q = 5, by how much does MSB exceed MSC?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$44.80"
+      },
+      {
+        "label": "B",
+        "text": "$33.60"
+      },
+      {
+        "label": "C",
+        "text": "$28.00"
+      },
+      {
+        "label": "D",
+        "text": "$50.40"
+      },
+      {
+        "label": "E",
+        "text": "$39.20"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Subtract MSC from MSB at the stated quantity.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "A market supplies 40 units, and units 41–45 each have MSB above MSC. Which policy objective would improve efficiency?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Enable those additional mutually beneficial units"
+      },
+      {
+        "label": "B",
+        "text": "Prohibit all exchanges"
+      },
+      {
+        "label": "C",
+        "text": "Reduce output below 40 units"
+      },
+      {
+        "label": "D",
+        "text": "Raise every producer’s fixed cost"
+      },
+      {
+        "label": "E",
+        "text": "Maximize price without regard to output"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Producing omitted units with benefit above cost increases surplus.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "Demand is P = 60 − Q and supply is P = 12 + Q, with no externalities. What is the competitive equilibrium price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$28.80"
+      },
+      {
+        "label": "B",
+        "text": "$14.40"
+      },
+      {
+        "label": "C",
+        "text": "$7.20"
+      },
+      {
+        "label": "D",
+        "text": "$36.00"
+      },
+      {
+        "label": "E",
+        "text": "$21.60"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Set quantity demanded equal to quantity supplied; the intersection price is the average of the intercepts.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "The efficient quantity is 21. Actual output is 13. The gap between MSB and MSC at actual output is $5; it falls linearly to zero at efficient output. What is deadweight loss?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$20.00"
+      },
+      {
+        "label": "B",
+        "text": "$36.00"
+      },
+      {
+        "label": "C",
+        "text": "$28.00"
+      },
+      {
+        "label": "D",
+        "text": "$24.00"
+      },
+      {
+        "label": "E",
+        "text": "$32.00"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The loss is a triangle: one-half times the quantity gap of 8 times the marginal-value gap.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "The first 5 units each generate social benefit $18 and social cost $12. What total surplus do these units create?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$42.00"
+      },
+      {
+        "label": "B",
+        "text": "$36.00"
+      },
+      {
+        "label": "C",
+        "text": "$30.00"
+      },
+      {
+        "label": "D",
+        "text": "$24.00"
+      },
+      {
+        "label": "E",
+        "text": "$18.00"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Each unit contributes $6; multiply by the number of units.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "A market has consumer surplus $180 and producer surplus $48, with no externalities. What is total economic surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$364.80"
+      },
+      {
+        "label": "B",
+        "text": "$319.20"
+      },
+      {
+        "label": "C",
+        "text": "$228.00"
+      },
+      {
+        "label": "D",
+        "text": "$182.40"
+      },
+      {
+        "label": "E",
+        "text": "$273.60"
+      }
+    ],
+    "answer": "C",
+    "explanation": "With no external effects, total surplus equals consumer surplus plus producer surplus.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "An extra unit has marginal social benefit $12 and marginal social cost $60. By how much does this unit reduce total surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$19.20"
+      },
+      {
+        "label": "B",
+        "text": "$48.00"
+      },
+      {
+        "label": "C",
+        "text": "$28.80"
+      },
+      {
+        "label": "D",
+        "text": "$57.60"
+      },
+      {
+        "label": "E",
+        "text": "$38.40"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Producing a unit with MSC above MSB reduces surplus by MSC − MSB.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "At a quantity of 70, the next unit has MSB $9 and MSC $14. Which change improves total surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Avoid producing that next unit"
+      },
+      {
+        "label": "B",
+        "text": "Ignore costs once output exceeds 70"
+      },
+      {
+        "label": "C",
+        "text": "Produce it to gain $14 net"
+      },
+      {
+        "label": "D",
+        "text": "Set its social cost to zero"
+      },
+      {
+        "label": "E",
+        "text": "Produce it to gain $9 net"
+      }
+    ],
+    "answer": "A",
+    "explanation": "That unit would reduce surplus by $5.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "MSB = 60 − Q and MSC = 12 + Q. Production is currently 5 units. How many additional units reach the efficient quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "34.20"
+      },
+      {
+        "label": "B",
+        "text": "30.40"
+      },
+      {
+        "label": "C",
+        "text": "26.60"
+      },
+      {
+        "label": "D",
+        "text": "22.80"
+      },
+      {
+        "label": "E",
+        "text": "19.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Find MSB = MSC and subtract the current quantity.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "At efficient output, total social benefit is $480 and total social cost is $108. What is net social benefit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$297.60"
+      },
+      {
+        "label": "B",
+        "text": "$223.20"
+      },
+      {
+        "label": "C",
+        "text": "$520.80"
+      },
+      {
+        "label": "D",
+        "text": "$372.00"
+      },
+      {
+        "label": "E",
+        "text": "$446.40"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Net social benefit is total social benefit minus total social cost.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "Marginal social benefit is 70 − Q and marginal social cost is 14 + Q. What is the efficient quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "11.20"
+      },
+      {
+        "label": "B",
+        "text": "22.40"
+      },
+      {
+        "label": "C",
+        "text": "16.80"
+      },
+      {
+        "label": "D",
+        "text": "28.00"
+      },
+      {
+        "label": "E",
+        "text": "5.60"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Efficiency requires MSB = MSC. Solve 2Q = 56.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "A unit provides social benefit $70 and imposes social cost $14. What is the change in total surplus from producing it?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$22.40"
+      },
+      {
+        "label": "B",
+        "text": "$44.80"
+      },
+      {
+        "label": "C",
+        "text": "$33.60"
+      },
+      {
+        "label": "D",
+        "text": "$56.00"
+      },
+      {
+        "label": "E",
+        "text": "$11.20"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The change is marginal social benefit minus marginal social cost.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "MSB = 70 − 2Q and MSC = 14 + 2Q. At Q = 6, by how much does MSB exceed MSC?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$32.00"
+      },
+      {
+        "label": "B",
+        "text": "$44.80"
+      },
+      {
+        "label": "C",
+        "text": "$38.40"
+      },
+      {
+        "label": "D",
+        "text": "$19.20"
+      },
+      {
+        "label": "E",
+        "text": "$25.60"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Subtract MSC from MSB at the stated quantity.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "A competitive equilibrium internalizes all costs and benefits. A quantity limit removes beneficial trades. Which effect follows?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumer surplus necessarily becomes zero"
+      },
+      {
+        "label": "B",
+        "text": "Total surplus decreases"
+      },
+      {
+        "label": "C",
+        "text": "Marginal benefit becomes identical at every output"
+      },
+      {
+        "label": "D",
+        "text": "The efficient quantity increases automatically"
+      },
+      {
+        "label": "E",
+        "text": "All producer surplus becomes tax revenue"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A binding restriction excludes units for which MSB exceeds MSC.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "Demand is P = 70 − Q and supply is P = 14 + Q, with no externalities. What is the competitive equilibrium price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$33.60"
+      },
+      {
+        "label": "B",
+        "text": "$42.00"
+      },
+      {
+        "label": "C",
+        "text": "$58.80"
+      },
+      {
+        "label": "D",
+        "text": "$67.20"
+      },
+      {
+        "label": "E",
+        "text": "$50.40"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Set quantity demanded equal to quantity supplied; the intersection price is the average of the intercepts.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "The efficient quantity is 22. Actual output is 14. The gap between MSB and MSC at actual output is $6; it falls linearly to zero at efficient output. What is deadweight loss?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$19.20"
+      },
+      {
+        "label": "B",
+        "text": "$33.60"
+      },
+      {
+        "label": "C",
+        "text": "$28.80"
+      },
+      {
+        "label": "D",
+        "text": "$24.00"
+      },
+      {
+        "label": "E",
+        "text": "$38.40"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The loss is a triangle: one-half times the quantity gap of 8 times the marginal-value gap.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "The first 6 units each generate social benefit $18 and social cost $12. What total surplus do these units create?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$28.80"
+      },
+      {
+        "label": "B",
+        "text": "$43.20"
+      },
+      {
+        "label": "C",
+        "text": "$36.00"
+      },
+      {
+        "label": "D",
+        "text": "$57.60"
+      },
+      {
+        "label": "E",
+        "text": "$50.40"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Each unit contributes $6; multiply by the number of units.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "A market has consumer surplus $210 and producer surplus $56, with no externalities. What is total economic surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$212.80"
+      },
+      {
+        "label": "B",
+        "text": "$159.60"
+      },
+      {
+        "label": "C",
+        "text": "$372.40"
+      },
+      {
+        "label": "D",
+        "text": "$266.00"
+      },
+      {
+        "label": "E",
+        "text": "$319.20"
+      }
+    ],
+    "answer": "D",
+    "explanation": "With no external effects, total surplus equals consumer surplus plus producer surplus.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "An extra unit has marginal social benefit $14 and marginal social cost $70. By how much does this unit reduce total surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$44.80"
+      },
+      {
+        "label": "B",
+        "text": "$56.00"
+      },
+      {
+        "label": "C",
+        "text": "$67.20"
+      },
+      {
+        "label": "D",
+        "text": "$78.40"
+      },
+      {
+        "label": "E",
+        "text": "$89.60"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Producing a unit with MSC above MSB reduces surplus by MSC − MSB.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "A consumer values a unit at $35 and its full social production cost is $20. What is the potential gain from trade?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$20"
+      },
+      {
+        "label": "B",
+        "text": "$35"
+      },
+      {
+        "label": "C",
+        "text": "$700"
+      },
+      {
+        "label": "D",
+        "text": "$15"
+      },
+      {
+        "label": "E",
+        "text": "$55"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The gain is willingness to pay minus full social cost: $35 − $20 = $15.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "MSB = 70 − Q and MSC = 14 + Q. Production is currently 6 units. How many additional units reach the efficient quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "22.00"
+      },
+      {
+        "label": "B",
+        "text": "13.20"
+      },
+      {
+        "label": "C",
+        "text": "17.60"
+      },
+      {
+        "label": "D",
+        "text": "8.80"
+      },
+      {
+        "label": "E",
+        "text": "26.40"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Find MSB = MSC and subtract the current quantity.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "At efficient output, total social benefit is $560 and total social cost is $126. What is net social benefit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$520.80"
+      },
+      {
+        "label": "B",
+        "text": "$434.00"
+      },
+      {
+        "label": "C",
+        "text": "$347.20"
+      },
+      {
+        "label": "D",
+        "text": "$173.60"
+      },
+      {
+        "label": "E",
+        "text": "$260.40"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Net social benefit is total social benefit minus total social cost.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "Marginal social benefit is 80 − Q and marginal social cost is 16 + Q. What is the efficient quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "51.20"
+      },
+      {
+        "label": "B",
+        "text": "44.80"
+      },
+      {
+        "label": "C",
+        "text": "32.00"
+      },
+      {
+        "label": "D",
+        "text": "25.60"
+      },
+      {
+        "label": "E",
+        "text": "38.40"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Efficiency requires MSB = MSC. Solve 2Q = 64.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "A unit provides social benefit $80 and imposes social cost $16. What is the change in total surplus from producing it?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$64.00"
+      },
+      {
+        "label": "B",
+        "text": "$12.80"
+      },
+      {
+        "label": "C",
+        "text": "$25.60"
+      },
+      {
+        "label": "D",
+        "text": "$51.20"
+      },
+      {
+        "label": "E",
+        "text": "$38.40"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The change is marginal social benefit minus marginal social cost.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "MSB = 80 − 2Q and MSC = 16 + 2Q. At Q = 7, by how much does MSB exceed MSC?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$43.20"
+      },
+      {
+        "label": "B",
+        "text": "$57.60"
+      },
+      {
+        "label": "C",
+        "text": "$36.00"
+      },
+      {
+        "label": "D",
+        "text": "$28.80"
+      },
+      {
+        "label": "E",
+        "text": "$50.40"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Subtract MSC from MSB at the stated quantity.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "A market has no externalities but a seller restricts output to raise price. Which equality identifies efficient output?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Profit equals consumer expenditure"
+      },
+      {
+        "label": "B",
+        "text": "Price equals total revenue"
+      },
+      {
+        "label": "C",
+        "text": "Average revenue equals total cost"
+      },
+      {
+        "label": "D",
+        "text": "Marginal willingness to pay equals marginal cost"
+      },
+      {
+        "label": "E",
+        "text": "Marginal revenue equals average fixed cost"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Demand measures marginal social benefit and MC measures marginal social cost here.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "Demand is P = 80 − Q and supply is P = 16 + Q, with no externalities. What is the competitive equilibrium price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$9.60"
+      },
+      {
+        "label": "B",
+        "text": "$48.00"
+      },
+      {
+        "label": "C",
+        "text": "$19.20"
+      },
+      {
+        "label": "D",
+        "text": "$38.40"
+      },
+      {
+        "label": "E",
+        "text": "$28.80"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Set quantity demanded equal to quantity supplied; the intersection price is the average of the intercepts.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "The efficient quantity is 23. Actual output is 15. The gap between MSB and MSC at actual output is $7; it falls linearly to zero at efficient output. What is deadweight loss?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$33.60"
+      },
+      {
+        "label": "B",
+        "text": "$11.20"
+      },
+      {
+        "label": "C",
+        "text": "$22.40"
+      },
+      {
+        "label": "D",
+        "text": "$28.00"
+      },
+      {
+        "label": "E",
+        "text": "$16.80"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The loss is a triangle: one-half times the quantity gap of 8 times the marginal-value gap.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "The first 7 units each generate social benefit $18 and social cost $12. What total surplus do these units create?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$50.40"
+      },
+      {
+        "label": "B",
+        "text": "$33.60"
+      },
+      {
+        "label": "C",
+        "text": "$25.20"
+      },
+      {
+        "label": "D",
+        "text": "$58.80"
+      },
+      {
+        "label": "E",
+        "text": "$42.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Each unit contributes $6; multiply by the number of units.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "A market has consumer surplus $240 and producer surplus $64, with no externalities. What is total economic surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$243.20"
+      },
+      {
+        "label": "B",
+        "text": "$304.00"
+      },
+      {
+        "label": "C",
+        "text": "$121.60"
+      },
+      {
+        "label": "D",
+        "text": "$60.80"
+      },
+      {
+        "label": "E",
+        "text": "$182.40"
+      }
+    ],
+    "answer": "B",
+    "explanation": "With no external effects, total surplus equals consumer surplus plus producer surplus.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "Why does a transfer from consumers to producers not necessarily create deadweight loss?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A transfer can leave total surplus unchanged"
+      },
+      {
+        "label": "B",
+        "text": "Consumer surplus cannot fall"
+      },
+      {
+        "label": "C",
+        "text": "Every transfer creates new output"
+      },
+      {
+        "label": "D",
+        "text": "Producer gains always exceed consumer losses"
+      },
+      {
+        "label": "E",
+        "text": "Transfers always increase marginal cost"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Redistribution differs from the loss of gains from mutually beneficial units.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 71,
+    "difficulty": "Medium",
+    "prompt": "An extra unit has marginal social benefit $16 and marginal social cost $80. By how much does this unit reduce total surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$51.20"
+      },
+      {
+        "label": "B",
+        "text": "$25.60"
+      },
+      {
+        "label": "C",
+        "text": "$64.00"
+      },
+      {
+        "label": "D",
+        "text": "$38.40"
+      },
+      {
+        "label": "E",
+        "text": "$76.80"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Producing a unit with MSC above MSB reduces surplus by MSC − MSB.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 72,
+    "difficulty": "Medium",
+    "prompt": "MSB = 80 − Q and MSC = 16 + Q. Production is currently 7 units. How many additional units reach the efficient quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "30.00"
+      },
+      {
+        "label": "B",
+        "text": "25.00"
+      },
+      {
+        "label": "C",
+        "text": "40.00"
+      },
+      {
+        "label": "D",
+        "text": "35.00"
+      },
+      {
+        "label": "E",
+        "text": "20.00"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Find MSB = MSC and subtract the current quantity.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 73,
+    "difficulty": "Medium",
+    "prompt": "At efficient output, total social benefit is $640 and total social cost is $144. What is net social benefit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$297.60"
+      },
+      {
+        "label": "B",
+        "text": "$396.80"
+      },
+      {
+        "label": "C",
+        "text": "$496.00"
+      },
+      {
+        "label": "D",
+        "text": "$99.20"
+      },
+      {
+        "label": "E",
+        "text": "$198.40"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Net social benefit is total social benefit minus total social cost.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 74,
+    "difficulty": "Medium",
+    "prompt": "Marginal social benefit is 90 − Q and marginal social cost is 18 + Q. What is the efficient quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "36.00"
+      },
+      {
+        "label": "B",
+        "text": "21.60"
+      },
+      {
+        "label": "C",
+        "text": "28.80"
+      },
+      {
+        "label": "D",
+        "text": "7.20"
+      },
+      {
+        "label": "E",
+        "text": "14.40"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Efficiency requires MSB = MSC. Solve 2Q = 72.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 75,
+    "difficulty": "Medium",
+    "prompt": "A unit provides social benefit $90 and imposes social cost $18. What is the change in total surplus from producing it?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$86.40"
+      },
+      {
+        "label": "B",
+        "text": "$115.20"
+      },
+      {
+        "label": "C",
+        "text": "$100.80"
+      },
+      {
+        "label": "D",
+        "text": "$129.60"
+      },
+      {
+        "label": "E",
+        "text": "$72.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The change is marginal social benefit minus marginal social cost.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "A planner chooses the quantity maximizing MSB minus MSC for the last unit rather than total surplus. What is the error?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Social costs must be ignored"
+      },
+      {
+        "label": "B",
+        "text": "Efficiency concerns cumulative net benefits across units"
+      },
+      {
+        "label": "C",
+        "text": "All units must have equal marginal benefit"
+      },
+      {
+        "label": "D",
+        "text": "The last unit must have maximum profit"
+      },
+      {
+        "label": "E",
+        "text": "Output should stop before any benefit exists"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Total surplus is maximized by including positive-net-benefit units until MSB equals MSC.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 77,
+    "difficulty": "Medium",
+    "prompt": "MSB = 90 − 2Q and MSC = 18 + 2Q. At Q = 8, by how much does MSB exceed MSC?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$24.00"
+      },
+      {
+        "label": "B",
+        "text": "$56.00"
+      },
+      {
+        "label": "C",
+        "text": "$32.00"
+      },
+      {
+        "label": "D",
+        "text": "$48.00"
+      },
+      {
+        "label": "E",
+        "text": "$40.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Subtract MSC from MSB at the stated quantity.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 78,
+    "difficulty": "Medium",
+    "prompt": "Demand is P = 90 − Q and supply is P = 18 + Q, with no externalities. What is the competitive equilibrium price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$75.60"
+      },
+      {
+        "label": "B",
+        "text": "$32.40"
+      },
+      {
+        "label": "C",
+        "text": "$64.80"
+      },
+      {
+        "label": "D",
+        "text": "$54.00"
+      },
+      {
+        "label": "E",
+        "text": "$43.20"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Set quantity demanded equal to quantity supplied; the intersection price is the average of the intercepts.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 79,
+    "difficulty": "Medium",
+    "prompt": "The efficient quantity is 24. Actual output is 16. The gap between MSB and MSC at actual output is $8; it falls linearly to zero at efficient output. What is deadweight loss?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$44.80"
+      },
+      {
+        "label": "B",
+        "text": "$51.20"
+      },
+      {
+        "label": "C",
+        "text": "$38.40"
+      },
+      {
+        "label": "D",
+        "text": "$57.60"
+      },
+      {
+        "label": "E",
+        "text": "$32.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The loss is a triangle: one-half times the quantity gap of 8 times the marginal-value gap.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 80,
+    "difficulty": "Medium",
+    "prompt": "The first 8 units each generate social benefit $18 and social cost $12. What total surplus do these units create?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$48.00"
+      },
+      {
+        "label": "B",
+        "text": "$67.20"
+      },
+      {
+        "label": "C",
+        "text": "$57.60"
+      },
+      {
+        "label": "D",
+        "text": "$38.40"
+      },
+      {
+        "label": "E",
+        "text": "$76.80"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Each unit contributes $6; multiply by the number of units.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 81,
+    "difficulty": "Medium",
+    "prompt": "A market has consumer surplus $270 and producer surplus $72, with no externalities. What is total economic surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$205.20"
+      },
+      {
+        "label": "B",
+        "text": "$273.60"
+      },
+      {
+        "label": "C",
+        "text": "$68.40"
+      },
+      {
+        "label": "D",
+        "text": "$136.80"
+      },
+      {
+        "label": "E",
+        "text": "$342.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "With no external effects, total surplus equals consumer surplus plus producer surplus.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "A production subsidy expands output past MSB = MSC in a market without externalities. Why can it reduce welfare?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand no longer measures willingness to pay"
+      },
+      {
+        "label": "B",
+        "text": "Supply becomes perfectly inelastic"
+      },
+      {
+        "label": "C",
+        "text": "All earlier units lose their benefit"
+      },
+      {
+        "label": "D",
+        "text": "Extra units cost more socially than they benefit"
+      },
+      {
+        "label": "E",
+        "text": "Government spending itself proves efficiency"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Beyond efficient output, MSC exceeds MSB.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 83,
+    "difficulty": "Medium",
+    "prompt": "An extra unit has marginal social benefit $18 and marginal social cost $90. By how much does this unit reduce total surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$28.80"
+      },
+      {
+        "label": "B",
+        "text": "$57.60"
+      },
+      {
+        "label": "C",
+        "text": "$72.00"
+      },
+      {
+        "label": "D",
+        "text": "$14.40"
+      },
+      {
+        "label": "E",
+        "text": "$43.20"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Producing a unit with MSC above MSB reduces surplus by MSC − MSB.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 84,
+    "difficulty": "Medium",
+    "prompt": "MSB = 90 − Q and MSC = 18 + Q. Production is currently 8 units. How many additional units reach the efficient quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "11.20"
+      },
+      {
+        "label": "B",
+        "text": "16.80"
+      },
+      {
+        "label": "C",
+        "text": "28.00"
+      },
+      {
+        "label": "D",
+        "text": "22.40"
+      },
+      {
+        "label": "E",
+        "text": "33.60"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Find MSB = MSC and subtract the current quantity.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 85,
+    "difficulty": "Medium",
+    "prompt": "At efficient output, total social benefit is $720 and total social cost is $162. What is net social benefit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$558.00"
+      },
+      {
+        "label": "B",
+        "text": "$446.40"
+      },
+      {
+        "label": "C",
+        "text": "$669.60"
+      },
+      {
+        "label": "D",
+        "text": "$223.20"
+      },
+      {
+        "label": "E",
+        "text": "$334.80"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Net social benefit is total social benefit minus total social cost.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 86,
+    "difficulty": "Medium",
+    "prompt": "Marginal social benefit is 100 − Q and marginal social cost is 20 + Q. What is the efficient quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "32.00"
+      },
+      {
+        "label": "B",
+        "text": "8.00"
+      },
+      {
+        "label": "C",
+        "text": "40.00"
+      },
+      {
+        "label": "D",
+        "text": "16.00"
+      },
+      {
+        "label": "E",
+        "text": "24.00"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Efficiency requires MSB = MSC. Solve 2Q = 80.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 87,
+    "difficulty": "Medium",
+    "prompt": "A unit provides social benefit $100 and imposes social cost $20. What is the change in total surplus from producing it?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$48.00"
+      },
+      {
+        "label": "B",
+        "text": "$80.00"
+      },
+      {
+        "label": "C",
+        "text": "$96.00"
+      },
+      {
+        "label": "D",
+        "text": "$64.00"
+      },
+      {
+        "label": "E",
+        "text": "$112.00"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The change is marginal social benefit minus marginal social cost.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "Two proposals change output from 40 to 45 units. Proposal A removes units with MSB below MSC; proposal B adds units with MSB above MSC. Which statement about A is inconsistent?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Its direction must match the described action"
+      },
+      {
+        "label": "B",
+        "text": "The welfare effect depends on marginal values"
+      },
+      {
+        "label": "C",
+        "text": "Quantity data should be checked against the action"
+      },
+      {
+        "label": "D",
+        "text": "It may improve surplus if overproduction exists"
+      },
+      {
+        "label": "E",
+        "text": "Removing units cannot increase quantity"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Removing units reduces quantity; the stated increase contradicts that action.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 89,
+    "difficulty": "Medium",
+    "prompt": "MSB = 100 − 2Q and MSC = 20 + 2Q. At Q = 9, by how much does MSB exceed MSC?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$35.20"
+      },
+      {
+        "label": "B",
+        "text": "$8.80"
+      },
+      {
+        "label": "C",
+        "text": "$26.40"
+      },
+      {
+        "label": "D",
+        "text": "$17.60"
+      },
+      {
+        "label": "E",
+        "text": "$44.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Subtract MSC from MSB at the stated quantity.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 90,
+    "difficulty": "Medium",
+    "prompt": "Demand is P = 100 − Q and supply is P = 20 + Q, with no externalities. What is the competitive equilibrium price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$60.00"
+      },
+      {
+        "label": "B",
+        "text": "$108.00"
+      },
+      {
+        "label": "C",
+        "text": "$72.00"
+      },
+      {
+        "label": "D",
+        "text": "$96.00"
+      },
+      {
+        "label": "E",
+        "text": "$84.00"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Set quantity demanded equal to quantity supplied; the intersection price is the average of the intercepts.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 91,
+    "difficulty": "Medium",
+    "prompt": "The efficient quantity is 25. Actual output is 17. The gap between MSB and MSC at actual output is $9; it falls linearly to zero at efficient output. What is deadweight loss?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$21.60"
+      },
+      {
+        "label": "B",
+        "text": "$36.00"
+      },
+      {
+        "label": "C",
+        "text": "$7.20"
+      },
+      {
+        "label": "D",
+        "text": "$14.40"
+      },
+      {
+        "label": "E",
+        "text": "$28.80"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The loss is a triangle: one-half times the quantity gap of 8 times the marginal-value gap.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 92,
+    "difficulty": "Medium",
+    "prompt": "The first 9 units each generate social benefit $18 and social cost $12. What total surplus do these units create?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$54.00"
+      },
+      {
+        "label": "B",
+        "text": "$75.60"
+      },
+      {
+        "label": "C",
+        "text": "$43.20"
+      },
+      {
+        "label": "D",
+        "text": "$64.80"
+      },
+      {
+        "label": "E",
+        "text": "$32.40"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Each unit contributes $6; multiply by the number of units.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 93,
+    "difficulty": "Medium",
+    "prompt": "A market has consumer surplus $300 and producer surplus $80, with no externalities. What is total economic surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$304.00"
+      },
+      {
+        "label": "B",
+        "text": "$608.00"
+      },
+      {
+        "label": "C",
+        "text": "$456.00"
+      },
+      {
+        "label": "D",
+        "text": "$532.00"
+      },
+      {
+        "label": "E",
+        "text": "$380.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "With no external effects, total surplus equals consumer surplus plus producer surplus.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "A market is efficient, but low-income households buy little of its output. What does efficiency alone establish?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Every household consumes the same amount"
+      },
+      {
+        "label": "B",
+        "text": "Government cannot pursue equity goals"
+      },
+      {
+        "label": "C",
+        "text": "Total surplus is maximized at the given demand and costs"
+      },
+      {
+        "label": "D",
+        "text": "No scarcity remains"
+      },
+      {
+        "label": "E",
+        "text": "Income is equally distributed"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Efficiency does not establish equity or equal consumption.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 95,
+    "difficulty": "Medium",
+    "prompt": "An extra unit has marginal social benefit $20 and marginal social cost $100. By how much does this unit reduce total surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$32.00"
+      },
+      {
+        "label": "B",
+        "text": "$64.00"
+      },
+      {
+        "label": "C",
+        "text": "$96.00"
+      },
+      {
+        "label": "D",
+        "text": "$48.00"
+      },
+      {
+        "label": "E",
+        "text": "$80.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Producing a unit with MSC above MSB reduces surplus by MSC − MSB.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 96,
+    "difficulty": "Medium",
+    "prompt": "MSB = 100 − Q and MSC = 20 + Q. Production is currently 9 units. How many additional units reach the efficient quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "37.20"
+      },
+      {
+        "label": "B",
+        "text": "43.40"
+      },
+      {
+        "label": "C",
+        "text": "31.00"
+      },
+      {
+        "label": "D",
+        "text": "49.60"
+      },
+      {
+        "label": "E",
+        "text": "24.80"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Find MSB = MSC and subtract the current quantity.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 97,
+    "difficulty": "Medium",
+    "prompt": "At efficient output, total social benefit is $800 and total social cost is $180. What is net social benefit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$372.00"
+      },
+      {
+        "label": "B",
+        "text": "$744.00"
+      },
+      {
+        "label": "C",
+        "text": "$248.00"
+      },
+      {
+        "label": "D",
+        "text": "$620.00"
+      },
+      {
+        "label": "E",
+        "text": "$496.00"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Net social benefit is total social benefit minus total social cost.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 98,
+    "difficulty": "Medium",
+    "prompt": "Marginal social benefit is 110 − Q and marginal social cost is 22 + Q. What is the efficient quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "52.80"
+      },
+      {
+        "label": "B",
+        "text": "79.20"
+      },
+      {
+        "label": "C",
+        "text": "44.00"
+      },
+      {
+        "label": "D",
+        "text": "61.60"
+      },
+      {
+        "label": "E",
+        "text": "70.40"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Efficiency requires MSB = MSC. Solve 2Q = 88.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 99,
+    "difficulty": "Medium",
+    "prompt": "A unit provides social benefit $110 and imposes social cost $22. What is the change in total surplus from producing it?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$123.20"
+      },
+      {
+        "label": "B",
+        "text": "$70.40"
+      },
+      {
+        "label": "C",
+        "text": "$105.60"
+      },
+      {
+        "label": "D",
+        "text": "$88.00"
+      },
+      {
+        "label": "E",
+        "text": "$52.80"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The change is marginal social benefit minus marginal social cost.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "For three additional units, net social benefits are $8, $3, and −$2. How many should be added to maximize surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "All units regardless of net benefit"
+      },
+      {
+        "label": "B",
+        "text": "One unit"
+      },
+      {
+        "label": "C",
+        "text": "Three units"
+      },
+      {
+        "label": "D",
+        "text": "Zero units"
+      },
+      {
+        "label": "E",
+        "text": "Two units"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The first two add $11; the third would reduce that gain.",
+    "reference": "POL-2.A | POL-2.B | POL-2.C | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  }
+]

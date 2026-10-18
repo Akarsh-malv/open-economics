@@ -1,0 +1,5181 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "What is a specific indirect tax?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A fixed tax on each unit sold."
+      },
+      {
+        "label": "B",
+        "text": "A fixed percentage tax on income earned."
+      },
+      {
+        "label": "C",
+        "text": "A government payment on each unit sold."
+      },
+      {
+        "label": "D",
+        "text": "A legal limit on the product's price."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A specific indirect tax is a fixed monetary amount per unit. It raises the producer’s cost per unit and therefore shifts the supply curve vertically upwards by the amount of the tax.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.1 impact and incidence of specific indirect taxes | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "A specific tax of $3 per unit is imposed on a product. What happens to its supply curve?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It shifts vertically upwards by $3 at every quantity."
+      },
+      {
+        "label": "B",
+        "text": "It moves along the existing supply curve by $3."
+      },
+      {
+        "label": "C",
+        "text": "It shifts vertically downwards by $3 at every quantity."
+      },
+      {
+        "label": "D",
+        "text": "It shifts the demand curve left by $3."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A specific tax adds the same amount to the cost of every unit, so the post-tax supply curve lies $3 above the original supply curve at each quantity.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.1 impact and incidence of specific indirect taxes | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "A specific indirect tax is imposed on a product with normal downward-sloping demand and upward-sloping supply. What is the usual market effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The consumer price rises and quantity traded falls."
+      },
+      {
+        "label": "B",
+        "text": "The price consumers pay decreases and the quantity exchanged also decreases despite the upward shift of supply."
+      },
+      {
+        "label": "C",
+        "text": "The consumer price and quantity traded both rise."
+      },
+      {
+        "label": "D",
+        "text": "The consumer price falls and quantity traded rises."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The tax raises firms’ costs, shifting supply left/up. The new equilibrium normally has a higher price paid by consumers and a lower quantity traded.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.1 impact and incidence of specific indirect taxes | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw downward-sloping demand D and upward-sloping supply S1 meeting at E1. Draw S2 parallel and above S1 to represent a specific indirect tax. Mark the new equilibrium E2 with a higher consumer price and lower quantity.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 111.6,
+                "y": 131.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 40.0,
+            "y": 60.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 40.0,
+            "y": 60.0,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "What is meant by the incidence of an indirect tax?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The change in the consumers' total gains."
+      },
+      {
+        "label": "B",
+        "text": "The sharing of the burden between buyers and sellers."
+      },
+      {
+        "label": "C",
+        "text": "The total revenue collected by the government."
+      },
+      {
+        "label": "D",
+        "text": "The tax rate applied to household income."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Tax incidence describes who actually bears the burden. Consumers may pay a higher price and producers may receive a lower net price, so the burden can be shared.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.1 impact and incidence of specific indirect taxes | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "Demand for a product is highly price inelastic relative to supply. Who is likely to bear the larger share of a specific indirect tax?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Foreign exporters only"
+      },
+      {
+        "label": "B",
+        "text": "The government"
+      },
+      {
+        "label": "C",
+        "text": "Consumers"
+      },
+      {
+        "label": "D",
+        "text": "Producers"
+      }
+    ],
+    "answer": "C",
+    "explanation": "When demand is price inelastic, consumers reduce quantity demanded relatively little as price rises. Producers can therefore pass a larger share of the tax on through a higher market price.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.1 impact and incidence of specific indirect taxes | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "What is a subsidy paid to producers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A legal minimum price received by producers."
+      },
+      {
+        "label": "B",
+        "text": "A compulsory tax charged on each unit sold."
+      },
+      {
+        "label": "C",
+        "text": "A public payment reducing producers' effective production costs."
+      },
+      {
+        "label": "D",
+        "text": "A compulsory payment consumers make directly to private producers, rather than a government payment reducing costs."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A producer subsidy reduces effective production costs. It therefore shifts the market supply curve to the right/down.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.2 impact and incidence of subsidies | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "A government introduces a subsidy of $4 per unit. What happens to the supply curve?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It shifts vertically downwards by $4 at every quantity."
+      },
+      {
+        "label": "B",
+        "text": "It shifts the demand curve right by $4."
+      },
+      {
+        "label": "C",
+        "text": "It shifts vertically upwards by $4 at every quantity."
+      },
+      {
+        "label": "D",
+        "text": "It causes a movement up the existing supply curve."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A per-unit subsidy reduces the effective cost of supplying each unit by $4, so the supply curve shifts vertically down by $4.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.2 impact and incidence of subsidies | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "A subsidy is introduced in a competitive market. What is the usual effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The consumer price and quantity traded both fall."
+      },
+      {
+        "label": "B",
+        "text": "The consumer price rises and quantity traded falls."
+      },
+      {
+        "label": "C",
+        "text": "The consumer price falls and quantity traded rises."
+      },
+      {
+        "label": "D",
+        "text": "The consumer price rises and the quantity exchanged rises, even though the subsidy reduces firms’ effective production costs."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A subsidy shifts supply right/down. The new equilibrium normally has a lower price paid by consumers and a greater quantity traded.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.2 impact and incidence of subsidies | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw downward-sloping demand D and upward-sloping supply S1 meeting at E1. Draw subsidised supply S2 parallel and below S1. Mark E2 with a lower consumer price and higher quantity.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 20.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 111.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 40.0,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "What is meant by the incidence of a subsidy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The total tax revenue collected by government authorities from the market after the subsidy is introduced."
+      },
+      {
+        "label": "B",
+        "text": "Total firms eligible to receive public payments."
+      },
+      {
+        "label": "C",
+        "text": "Sharing of the benefit between buyers and sellers."
+      },
+      {
+        "label": "D",
+        "text": "Maximum permitted price charged in the market."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Consumers can benefit through a lower price and producers through a higher net receipt once the subsidy is included. Subsidy incidence describes how the benefit is divided.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.2 impact and incidence of subsidies | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "Which action is an example of direct provision by government?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Government publishes guidance about private health treatment."
+      },
+      {
+        "label": "B",
+        "text": "Government operates hospitals and supplies health treatment."
+      },
+      {
+        "label": "C",
+        "text": "Government limits the price charged for private treatment."
+      },
+      {
+        "label": "D",
+        "text": "Government lowers taxes charged on private health treatment."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Direct provision means the government itself supplies the good or service rather than relying only on private suppliers or price incentives.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.3 direct provision of goods and services | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "What is an unavoidable economic cost of direct government provision?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand for the service becomes completely price unresponsive."
+      },
+      {
+        "label": "B",
+        "text": "The service requires no scarce resources for its production."
+      },
+      {
+        "label": "C",
+        "text": "Private producers necessarily cease all output of the service."
+      },
+      {
+        "label": "D",
+        "text": "The resources devoted to the service have alternative uses."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Government provision uses labour, capital and other scarce resources. Those resources could have been used elsewhere, so direct provision always involves opportunity cost.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.3 direct provision of goods and services | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "A government provides primary schooling free at the point of use. What is the most direct market effect for households?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Teacher supply becomes unlimited at the existing wage."
+      },
+      {
+        "label": "B",
+        "text": "Users pay zero money price when receiving schooling."
+      },
+      {
+        "label": "C",
+        "text": "Schooling becomes non-rival when provided without a charge."
+      },
+      {
+        "label": "D",
+        "text": "Schooling uses no resources with alternative productive uses."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Free provision means households do not pay a money price at the point of use. Scarce resources are still required, so the social opportunity cost does not disappear.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.3 direct provision of goods and services | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "For a maximum price to be effective, where must it be set?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Above a minimum price in every case"
+      },
+      {
+        "label": "B",
+        "text": "Exactly at any price chosen by producers"
+      },
+      {
+        "label": "C",
+        "text": "Above the market equilibrium price"
+      },
+      {
+        "label": "D",
+        "text": "Below the market equilibrium price"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A maximum price only constrains the market if it is below the equilibrium price. If it is above equilibrium, the market price can remain at equilibrium.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.4 maximum and minimum prices | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "An effective maximum price is imposed in a market with normal demand and supply. What results?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A surplus"
+      },
+      {
+        "label": "B",
+        "text": "Perfectly elastic supply"
+      },
+      {
+        "label": "C",
+        "text": "A higher equilibrium price"
+      },
+      {
+        "label": "D",
+        "text": "A shortage"
+      }
+    ],
+    "answer": "D",
+    "explanation": "At a maximum price below equilibrium, quantity demanded exceeds quantity supplied, creating excess demand or a shortage.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.4 maximum and minimum prices | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw downward-sloping demand D and upward-sloping supply S meeting at equilibrium Pe,Qe. Draw an effective maximum price Pmax below Pe. Mark Qs and Qd at Pmax and label the horizontal gap Qs to Qd as shortage.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "Pc",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 35
+              },
+              {
+                "x": 131.6,
+                "y": 35.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 35,
+            "y": 35
+          },
+          {
+            "id": "p2",
+            "label": "",
+            "x": 65,
+            "y": 35
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qe",
+            "yLabel": "Pe"
+          },
+          {
+            "id": "g1",
+            "x": 35,
+            "y": 35,
+            "xLabel": "Qs"
+          },
+          {
+            "id": "g2",
+            "x": 65,
+            "y": 35,
+            "xLabel": "Qd"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "For a minimum price to be effective, where must it be set?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Below zero"
+      },
+      {
+        "label": "B",
+        "text": "At the lowest price consumers are willing to pay"
+      },
+      {
+        "label": "C",
+        "text": "Below the market equilibrium price"
+      },
+      {
+        "label": "D",
+        "text": "Above the market equilibrium price"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A minimum price constrains the market only when set above equilibrium. Otherwise the market equilibrium price already satisfies the legal floor.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.4 maximum and minimum prices | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "An effective minimum price is imposed in a market with normal demand and supply. What results?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A surplus"
+      },
+      {
+        "label": "B",
+        "text": "A fall in market price below equilibrium"
+      },
+      {
+        "label": "C",
+        "text": "A shortage"
+      },
+      {
+        "label": "D",
+        "text": "A perfectly inelastic demand curve"
+      }
+    ],
+    "answer": "A",
+    "explanation": "At a minimum price above equilibrium, quantity supplied exceeds quantity demanded, creating excess supply.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.4 maximum and minimum prices | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw downward-sloping demand D and upward-sloping supply S meeting at equilibrium Pe,Qe. Draw an effective minimum price Pmin above Pe. Mark Qd and Qs at Pmin and label the horizontal gap Qd to Qs as surplus.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "Pf",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 70
+              },
+              {
+                "x": 131.6,
+                "y": 70.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 70,
+            "y": 70
+          },
+          {
+            "id": "p2",
+            "label": "",
+            "x": 30,
+            "y": 70
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qe",
+            "yLabel": "Pe"
+          },
+          {
+            "id": "g1",
+            "x": 70,
+            "y": 70,
+            "xLabel": "Qs"
+          },
+          {
+            "id": "g2",
+            "x": 30,
+            "y": 70,
+            "xLabel": "Qd"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "What is the main purpose of a buffer stock scheme for an agricultural product?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To replace private production with public ownership."
+      },
+      {
+        "label": "B",
+        "text": "To eliminate all responsiveness of consumers to price."
+      },
+      {
+        "label": "C",
+        "text": "To remove every producer from private agricultural markets."
+      },
+      {
+        "label": "D",
+        "text": "To stabilise the product's price within a band."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A buffer stock authority buys when market supply is abundant and prices are low, and sells stocks when supply is scarce and prices are high, aiming to stabilise price.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.5 buffer stock schemes | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "In a buffer stock scheme, what should the authority normally do when a very good harvest pushes the market price below the lower support price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Buy the excess supply"
+      },
+      {
+        "label": "B",
+        "text": "Set a maximum price below the market price"
+      },
+      {
+        "label": "C",
+        "text": "Raise a specific indirect tax"
+      },
+      {
+        "label": "D",
+        "text": "Sell stocks onto the market"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Purchasing excess supply raises demand in the market and supports the price. The purchased output is placed into the buffer stock.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.5 buffer stock schemes | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw demand D and two upward-sloping supply curves S1 and S2, with S2 to the right of S1 to show a good harvest. Draw a horizontal lower intervention price PL. Show that without government buying, the new market price would fall below PL; indicate government purchases that absorb excess supply at PL.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 40.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 91.6
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "PL",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 40
+              },
+              {
+                "x": 131.6,
+                "y": 40.0
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "label": "PU",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 70
+              },
+              {
+                "x": 131.6,
+                "y": 70.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 70.0,
+            "y": 30.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 70.0,
+            "y": 30.0,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "In a buffer stock scheme, what should the authority normally do when a poor harvest pushes the market price above the upper target price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Buy more of the product"
+      },
+      {
+        "label": "B",
+        "text": "Release stocks for sale"
+      },
+      {
+        "label": "C",
+        "text": "Set a higher minimum price"
+      },
+      {
+        "label": "D",
+        "text": "Subsidise consumers only by increasing price"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Selling from stocks increases market supply and puts downward pressure on the price, helping to keep it within the target range.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.5 buffer stock schemes | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw demand D and two upward-sloping supply curves S1 and S2, with S2 to the left of S1 to show a poor harvest. Draw a horizontal upper intervention price PU. Show that without stock release, the market price would rise above PU; indicate release of stocks increasing market supply at PU.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 60
+              },
+              {
+                "x": 71.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "PL",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 40
+              },
+              {
+                "x": 131.6,
+                "y": 40.0
+              }
+            ]
+          },
+          {
+            "id": "c4",
+            "label": "PU",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 70
+              },
+              {
+                "x": 131.6,
+                "y": 70.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 20.0,
+            "y": 80.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 20.0,
+            "y": 80.0,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "A government campaign explains the health risks of excessive salt consumption. Which method of intervention is this?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A minimum price"
+      },
+      {
+        "label": "B",
+        "text": "A buffer stock scheme"
+      },
+      {
+        "label": "C",
+        "text": "Provision of information"
+      },
+      {
+        "label": "D",
+        "text": "Direct provision"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The government is trying to change consumer decisions by improving knowledge rather than directly altering market prices or supplying the product itself.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.6 provision of information | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "What is the intended effect of providing better information about a merit good?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To ration consumption through a binding maximum price."
+      },
+      {
+        "label": "B",
+        "text": "To raise producers' costs through an indirect tax."
+      },
+      {
+        "label": "C",
+        "text": "To correct underestimation of the good's personal benefits."
+      },
+      {
+        "label": "D",
+        "text": "To remove producers' ability to exclude non-paying consumers."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Information provision can correct imperfect information by helping consumers recognise benefits they previously underestimated, which may increase demand and consumption.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.6 provision of information | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "What is the intended effect of warning labels on a demerit good?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To eliminate rivalry between consumers using the product."
+      },
+      {
+        "label": "B",
+        "text": "To increase awareness of harm and reduce consumption."
+      },
+      {
+        "label": "C",
+        "text": "To guarantee producers higher prices for their output."
+      },
+      {
+        "label": "D",
+        "text": "To lower producers' costs and encourage additional supply."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Warning labels target imperfect information. If consumers revise their assessment of the product’s disadvantages, demand may fall.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.6 provision of information | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "A product originally sells for $12. After a specific tax, consumers pay $14 and producers receive $11 after tax. How much is the tax per unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$2"
+      },
+      {
+        "label": "B",
+        "text": "$3"
+      },
+      {
+        "label": "C",
+        "text": "$5"
+      },
+      {
+        "label": "D",
+        "text": "$1"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The tax wedge is the difference between the consumer price and the producer’s net receipt: $14 − $11 = $3 per unit.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.1 impact and incidence of specific indirect taxes | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "A product originally sells for $20. After a $6 specific tax, consumers pay $24. How much of the tax is borne by producers per unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$1"
+      },
+      {
+        "label": "B",
+        "text": "$6"
+      },
+      {
+        "label": "C",
+        "text": "$4"
+      },
+      {
+        "label": "D",
+        "text": "$2"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Consumers pay $4 more than before, so they bear $4 of the $6 tax. Producers therefore bear the remaining $2 per unit.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.1 impact and incidence of specific indirect taxes | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "A product originally sells for $10. After a $4 subsidy, consumers pay $8. What is the producer’s effective receipt per unit, including the subsidy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$14"
+      },
+      {
+        "label": "B",
+        "text": "$8"
+      },
+      {
+        "label": "C",
+        "text": "$6"
+      },
+      {
+        "label": "D",
+        "text": "$12"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The producer receives the market price of $8 plus the $4 subsidy, giving an effective receipt of $12 per unit.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.2 impact and incidence of subsidies | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "A government pays a subsidy of $5 per unit and 800 units are sold after the subsidy. What is the government’s total expenditure on the subsidy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$5000"
+      },
+      {
+        "label": "B",
+        "text": "$160"
+      },
+      {
+        "label": "C",
+        "text": "$4000"
+      },
+      {
+        "label": "D",
+        "text": "$800"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Government expenditure equals subsidy per unit × quantity sold: $5 × 800 = $4000.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.2 impact and incidence of subsidies | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "At a legal maximum price, quantity demanded is 900 units and quantity supplied is 650 units. What is the size of the shortage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "150 units"
+      },
+      {
+        "label": "B",
+        "text": "650 units"
+      },
+      {
+        "label": "C",
+        "text": "1550 units"
+      },
+      {
+        "label": "D",
+        "text": "250 units"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Shortage equals quantity demanded minus quantity supplied: 900 − 650 = 250 units.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.4 maximum and minimum prices | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "At a legal minimum price, quantity supplied is 1200 units and quantity demanded is 850 units. What is the surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "850 units"
+      },
+      {
+        "label": "B",
+        "text": "250 units"
+      },
+      {
+        "label": "C",
+        "text": "2050 units"
+      },
+      {
+        "label": "D",
+        "text": "350 units"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Surplus equals quantity supplied minus quantity demanded: 1200 − 850 = 350 units.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.4 maximum and minimum prices | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "A buffer stock authority buys 300 tonnes at $40 per tonne. Ignoring storage costs, how much does the purchase cost?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$7500"
+      },
+      {
+        "label": "B",
+        "text": "$340"
+      },
+      {
+        "label": "C",
+        "text": "$12 000"
+      },
+      {
+        "label": "D",
+        "text": "$120 000"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The purchase cost is 300 × $40 = $12 000.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.5 buffer stock schemes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "An information campaign succeeds in increasing demand for vaccinations. Which curve change is most consistent with this?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The demand curve shifts to the left"
+      },
+      {
+        "label": "B",
+        "text": "The demand curve shifts to the right"
+      },
+      {
+        "label": "C",
+        "text": "The supply curve shifts to the left"
+      },
+      {
+        "label": "D",
+        "text": "There is a movement down the existing demand curve only"
+      }
+    ],
+    "answer": "B",
+    "explanation": "If consumers become more aware of the benefits of vaccination, they may be willing to buy or accept more at each price, shifting demand to the right.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.6 provision of information | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity of vaccinations. Draw supply S and initial demand D1. Draw D2 to the right of D1 to represent improved information about benefits. Mark the direction of the equilibrium change.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "D2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 120
+              },
+              {
+                "x": 120.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 60.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 60.0,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "difficulty": "Medium",
+    "prompt": "The diagram shows a market before and after a $2 specific tax. The consumer price rises from $8 to $9.20. What is the producer’s burden of the tax per unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$0.20"
+      },
+      {
+        "label": "B",
+        "text": "$1.20"
+      },
+      {
+        "label": "C",
+        "text": "$2.00"
+      },
+      {
+        "label": "D",
+        "text": "$0.80"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Consumers bear $1.20 of the $2 tax because the price they pay rises from $8 to $9.20. Producers bear the remainder: $2.00 − $1.20 = $0.80.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.1 impact and incidence of specific indirect taxes | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price ($). Horizontal axis: Quantity. Draw downward-sloping demand D and upward-sloping pre-tax supply S. Draw post-tax supply S+tax parallel and $2 vertically above S. Mark original equilibrium price $8 and post-tax consumer price $9.20. Show the vertical tax wedge of $2 at the post-tax quantity.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price ($)",
+        "xMax": 90,
+        "yMax": 24,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20.0
+              },
+              {
+                "x": 83.33333333333334,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 84.6,
+                "y": 13.536
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 2.0
+              },
+              {
+                "x": 84.6,
+                "y": 15.536
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 8
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 45,
+            "y": 9.2
+          },
+          {
+            "id": "p2",
+            "label": "",
+            "x": 45,
+            "y": 7.2
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 8,
+            "xLabel": "Q1",
+            "yLabel": "8"
+          },
+          {
+            "id": "g1",
+            "x": 45,
+            "y": 9.2,
+            "xLabel": "Q2",
+            "yLabel": "9.20"
+          },
+          {
+            "id": "g2",
+            "x": 45,
+            "y": 7.2,
+            "yLabel": "7.20"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "difficulty": "Medium",
+    "prompt": "A $4 specific tax is imposed. Before the tax the price was $15. After the tax consumers pay $17.50. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumers bear $4; producers bear zero."
+      },
+      {
+        "label": "B",
+        "text": "Consumers bear $2.50; producers bear $1.50."
+      },
+      {
+        "label": "C",
+        "text": "Consumers bear zero; producers bear $4."
+      },
+      {
+        "label": "D",
+        "text": "Consumers bear $1.50; producers bear $2.50."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The consumer burden is the price increase: $17.50 − $15 = $2.50. The remaining $1.50 of the $4 tax is borne by producers through a lower net receipt.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.1 impact and incidence of specific indirect taxes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 33,
+    "difficulty": "Medium",
+    "prompt": "Which combination is most likely to make consumers bear a large share of a specific indirect tax?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Price-elastic demand and price-elastic supply with demand more elastic"
+      },
+      {
+        "label": "B",
+        "text": "Price-elastic demand and price-inelastic supply"
+      },
+      {
+        "label": "C",
+        "text": "Price-inelastic demand and price-elastic supply"
+      },
+      {
+        "label": "D",
+        "text": "Perfectly elastic demand and perfectly inelastic supply"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The less responsive side of the market bears more of the tax burden. Inelastic demand combined with elastic supply makes consumers relatively less able to avoid the tax.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.1 impact and incidence of specific indirect taxes | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "A specific tax is imposed on a product whose demand is perfectly inelastic. What happens to tax incidence?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumers bear the entire tax burden."
+      },
+      {
+        "label": "B",
+        "text": "Producers bear the entire tax burden."
+      },
+      {
+        "label": "C",
+        "text": "The burden is always shared equally."
+      },
+      {
+        "label": "D",
+        "text": "No tax revenue can be collected."
+      }
+    ],
+    "answer": "A",
+    "explanation": "With perfectly inelastic demand, quantity demanded does not change when the consumer price rises. Producers can pass the full tax on to consumers.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.1 impact and incidence of specific indirect taxes | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw a vertical demand curve D and upward-sloping supply S1. Draw post-tax supply S2 parallel above S1. Show the consumer price rising by the full tax while quantity is unchanged.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 50,
+                "y": 0
+              },
+              {
+                "x": 50,
+                "y": 90
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 74.0,
+                "y": 94.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 50,
+            "y": 70
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 50,
+            "y": 70,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "A specific tax is imposed on a product whose demand is perfectly elastic. What happens to tax incidence?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The supply curve remains unchanged."
+      },
+      {
+        "label": "B",
+        "text": "Consumers bear the entire burden."
+      },
+      {
+        "label": "C",
+        "text": "Producers bear the entire burden."
+      },
+      {
+        "label": "D",
+        "text": "Each group bears half the burden."
+      }
+    ],
+    "answer": "C",
+    "explanation": "With perfectly elastic demand, consumers will not accept a price above the market level, so producers cannot pass the tax forward and must absorb it in their net receipt.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.1 impact and incidence of specific indirect taxes | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw a horizontal demand curve D and upward-sloping supply S1. Draw post-tax supply S2 parallel above S1. Show the consumer price unchanged and the producer net receipt falling by the tax.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 90,
+                "y": 50
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 74.0,
+                "y": 94.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 30,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 30,
+            "y": 50,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "After a $3 specific tax, 1400 units are sold. What is the government’s tax revenue?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$4200"
+      },
+      {
+        "label": "B",
+        "text": "$467"
+      },
+      {
+        "label": "C",
+        "text": "$1400"
+      },
+      {
+        "label": "D",
+        "text": "$4800"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Tax revenue equals tax per unit times the post-tax quantity: $3 × 1400 = $4200.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.1 impact and incidence of specific indirect taxes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "A government expects a $5 tax to raise $50 000, assuming 10 000 units will still be sold. Only 6000 units are sold. What tax revenue is actually received?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$60 000"
+      },
+      {
+        "label": "B",
+        "text": "$5000"
+      },
+      {
+        "label": "C",
+        "text": "$20 000"
+      },
+      {
+        "label": "D",
+        "text": "$30 000"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Actual revenue is based on the actual post-tax sales: $5 × 6000 = $30 000.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.1 impact and incidence of specific indirect taxes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "A per-unit subsidy of $6 lowers the consumer price from $20 to $16.50. How much of the subsidy benefit accrues to producers per unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$6.00"
+      },
+      {
+        "label": "B",
+        "text": "$3.50"
+      },
+      {
+        "label": "C",
+        "text": "$1.50"
+      },
+      {
+        "label": "D",
+        "text": "$2.50"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Consumers gain $3.50 per unit from the lower price. The remaining $2.50 of the $6 subsidy accrues to producers through a higher effective receipt.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.2 impact and incidence of subsidies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "Which combination is most likely to make producers receive a large share of a subsidy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Perfectly elastic supply and perfectly inelastic demand"
+      },
+      {
+        "label": "B",
+        "text": "Price-elastic supply with demand even more inelastic"
+      },
+      {
+        "label": "C",
+        "text": "Price-elastic supply and price-inelastic demand"
+      },
+      {
+        "label": "D",
+        "text": "Price-inelastic supply and price-elastic demand"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The less elastic side gains more from the subsidy. If supply is relatively inelastic while demand is elastic, producers are less responsive and receive a larger share.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.2 impact and incidence of subsidies | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "A subsidy is paid in a market with perfectly inelastic demand. Who receives the benefit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Producers receive the entire benefit through higher net receipts."
+      },
+      {
+        "label": "B",
+        "text": "Consumers receive the entire benefit through lower purchase prices."
+      },
+      {
+        "label": "C",
+        "text": "Consumers and producers receive exactly equal shares of benefit."
+      },
+      {
+        "label": "D",
+        "text": "Neither consumers nor producers receive any benefit from the payment."
+      }
+    ],
+    "answer": "B",
+    "explanation": "With perfectly inelastic demand, quantity does not respond. A supply subsidy shifts supply down and the market price can fall by the full amount, giving the benefit to consumers.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.2 impact and incidence of subsidies | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw a vertical demand curve D and upward-sloping supply S1. Draw subsidised supply S2 below S1. Show quantity unchanged and the consumer price falling by the full subsidy.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 50,
+                "y": 0
+              },
+              {
+                "x": 50,
+                "y": 90
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 20.0,
+                "y": 0.0
+              },
+              {
+                "x": 94.0,
+                "y": 74.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 50,
+            "y": 30
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 50,
+            "y": 30,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "A $2 subsidy is paid on 25 000 units. The consumer price falls by $0.75. What total monetary benefit do consumers receive?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$50 000"
+      },
+      {
+        "label": "B",
+        "text": "$18 750"
+      },
+      {
+        "label": "C",
+        "text": "$6250"
+      },
+      {
+        "label": "D",
+        "text": "$25 000"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Consumers benefit by $0.75 on each of 25 000 units: $0.75 × 25 000 = $18 750.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.2 impact and incidence of subsidies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "A subsidy increases quantity sold from 4000 to 5500 units. The subsidy is $8 per unit. What is the government’s expenditure after the subsidy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$44 000"
+      },
+      {
+        "label": "B",
+        "text": "$12 000"
+      },
+      {
+        "label": "C",
+        "text": "$76 000"
+      },
+      {
+        "label": "D",
+        "text": "$32 000"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The subsidy applies to all 5500 units sold after intervention: $8 × 5500 = $44 000.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.2 impact and incidence of subsidies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "A government directly provides a service free at the point of use. Demand exceeds the service capacity. Which outcome is most likely if no money price is introduced?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Capacity is allocated through waiting lists or other non-price rationing."
+      },
+      {
+        "label": "B",
+        "text": "Capacity expands automatically without requiring any additional resources or funding."
+      },
+      {
+        "label": "C",
+        "text": "Capacity remains unused because the service has a prohibitively high price."
+      },
+      {
+        "label": "D",
+        "text": "Capacity always matches demand because the service has no user charge."
+      }
+    ],
+    "answer": "A",
+    "explanation": "When the money price is zero and demand exceeds available capacity, access has to be rationed by another mechanism, such as waiting time, eligibility rules or queues.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.3 direct provision of goods and services | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "A government opens free clinics in an area previously served only by private clinics. Which effect is most likely, other things equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Some patients switch from private clinics towards the public service."
+      },
+      {
+        "label": "B",
+        "text": "Every private clinic must cease operating immediately after public provision begins."
+      },
+      {
+        "label": "C",
+        "text": "Demand for private treatment necessarily rises at every possible price."
+      },
+      {
+        "label": "D",
+        "text": "Health services cease using resources that have alternative productive applications."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Free direct provision gives consumers an alternative to private treatment, so some demand for private clinics is likely to shift towards the government service.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.3 direct provision of goods and services | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "Which is a possible disadvantage of direct provision even when the service is valuable?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Taxation becomes unavailable as a source of government funding."
+      },
+      {
+        "label": "B",
+        "text": "Public services cease using productive resources such as labour."
+      },
+      {
+        "label": "C",
+        "text": "Government priorities may differ from priorities expressed through consumer spending."
+      },
+      {
+        "label": "D",
+        "text": "Public provision necessarily harms every recipient because supplying a service through government cannot generate any personal benefits."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Direct provision replaces or supplements market allocation with administrative decisions. This can improve access but may also create misallocation if government priorities do not match users’ preferences.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.3 direct provision of goods and services | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "A free government service costs $12 million per year. What is the clearest opportunity cost?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The combined sales revenue all private suppliers would receive, whether or not they provide the next-best feasible alternative service."
+      },
+      {
+        "label": "B",
+        "text": "The personal preferences of individuals using the service."
+      },
+      {
+        "label": "C",
+        "text": "The best alternative use of its funding and resources."
+      },
+      {
+        "label": "D",
+        "text": "The zero user charge paid for receiving the service."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Opportunity cost is the value of the best alternative forgone. Government spending and the labour/capital used for the service could have been used elsewhere.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.3 direct provision of goods and services | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "The equilibrium price is $9. A maximum price of $11 is introduced. What is the immediate effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A shortage develops at the original market price."
+      },
+      {
+        "label": "B",
+        "text": "The control is non-binding and price can remain $9."
+      },
+      {
+        "label": "C",
+        "text": "The market price must increase to the $11 ceiling."
+      },
+      {
+        "label": "D",
+        "text": "A surplus develops at the original market price."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A maximum price above equilibrium does not constrain sellers. The equilibrium price of $9 is already below the legal ceiling.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.4 maximum and minimum prices | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw D and S meeting at equilibrium price $9. Draw a horizontal maximum-price line at $11 above equilibrium to show that it is non-binding.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price (scaled)",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "Ceiling",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 61.111111111111114
+              },
+              {
+                "x": 131.6,
+                "y": 61.111111111111114
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 0,
+            "y": 61.111111111111114
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "yLabel": "9"
+          },
+          {
+            "id": "g1",
+            "x": 0,
+            "y": 61.111111111111114,
+            "yLabel": "11"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "The equilibrium price is $14. A minimum price of $12 is introduced. What is the immediate effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The price must fall to the $12 floor because a legal minimum requires every supplier to charge precisely that price."
+      },
+      {
+        "label": "B",
+        "text": "The control is non-binding and price can remain $14."
+      },
+      {
+        "label": "C",
+        "text": "A shortage develops at the original market price."
+      },
+      {
+        "label": "D",
+        "text": "A surplus develops at the original market price."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A minimum price below equilibrium is non-binding. The equilibrium price already exceeds the legal floor.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.4 maximum and minimum prices | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw D and S meeting at equilibrium price $14. Draw a horizontal minimum-price line at $12 below equilibrium to show that it is non-binding.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price (scaled)",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "Floor",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 42.857142857142854
+              },
+              {
+                "x": 131.6,
+                "y": 42.857142857142854
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 0,
+            "y": 42.857142857142854
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "yLabel": "14"
+          },
+          {
+            "id": "g1",
+            "x": 0,
+            "y": 42.857142857142854,
+            "yLabel": "12"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "At a maximum price of $6, quantity demanded is 1500 units and quantity supplied is 900 units. If the government rations the available output equally among 900 successful buyers, how many units can actually be traded?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2400 units"
+      },
+      {
+        "label": "B",
+        "text": "600 units"
+      },
+      {
+        "label": "C",
+        "text": "900 units"
+      },
+      {
+        "label": "D",
+        "text": "1500 units"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Actual legal market transactions cannot exceed the smaller of quantity demanded and quantity supplied. With only 900 units supplied, at most 900 units can be traded.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.4 maximum and minimum prices | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw D and S. Draw a horizontal maximum-price line at $6. Mark quantity demanded 1500 and quantity supplied 900 at that price; shade or bracket the shortage from 900 to 1500.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 1800,
+        "yMax": 16,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 15.0
+              },
+              {
+                "x": 1692.0,
+                "y": 4.847999999999999
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.5999999999999996
+              },
+              {
+                "x": 1692.0,
+                "y": 10.752
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "Pc",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 6
+              },
+              {
+                "x": 1692.0,
+                "y": 6.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 900,
+            "y": 6
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 1500,
+            "y": 6
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 900,
+            "y": 6,
+            "xLabel": "900",
+            "yLabel": "6"
+          },
+          {
+            "id": "g1",
+            "x": 1500,
+            "y": 6,
+            "xLabel": "1500"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "A maximum price creates a persistent shortage. Which development is most likely if enforcement is weak?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Illegal trading at prices above the permitted maximum."
+      },
+      {
+        "label": "B",
+        "text": "Increased supply sufficient to eliminate every unsatisfied buyer."
+      },
+      {
+        "label": "C",
+        "text": "Elimination of resource scarcity through the statutory price limit."
+      },
+      {
+        "label": "D",
+        "text": "Unsold surpluses available at prices below the permitted maximum."
+      }
+    ],
+    "answer": "A",
+    "explanation": "When some buyers are unable to obtain the good legally at the controlled price, they may be willing to pay more in an informal or illegal market.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.4 maximum and minimum prices | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "A minimum price creates a surplus of an agricultural product. Which additional policy would most directly prevent the surplus from remaining unsold?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A lower maximum price"
+      },
+      {
+        "label": "B",
+        "text": "Government purchase of the excess supply"
+      },
+      {
+        "label": "C",
+        "text": "A tax on consumers"
+      },
+      {
+        "label": "D",
+        "text": "An information campaign encouraging firms to increase supply further while leaving consumer demand and the minimum price unchanged"
+      }
+    ],
+    "answer": "B",
+    "explanation": "If the government guarantees the minimum price and buys the excess quantity supplied, producers can sell output that private consumers do not demand at that price.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.4 maximum and minimum prices | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "The table shows demand and supply for a good. A maximum price of $8 is introduced. What shortage results?\n| Price ($) | Quantity demanded | Quantity supplied |\n| 12 | 40 | 60 |\n| 10 | 50 | 50 |\n| 8 | 70 | 30 |\n| 6 | 90 | 20 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "60 units"
+      },
+      {
+        "label": "B",
+        "text": "100 units"
+      },
+      {
+        "label": "C",
+        "text": "20 units"
+      },
+      {
+        "label": "D",
+        "text": "40 units"
+      }
+    ],
+    "answer": "D",
+    "explanation": "At $8, the table shows quantity demanded of 70 and quantity supplied of 30. The shortage is 70 − 30 = 40 units.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.4 maximum and minimum prices | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "The table shows demand and supply for a good. A minimum price of $15 is introduced. What surplus results?\n| Price ($) | Quantity demanded | Quantity supplied |\n| 18 | 25 | 110 |\n| 15 | 40 | 90 |\n| 12 | 60 | 60 |\n| 9 | 80 | 35 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "20 units"
+      },
+      {
+        "label": "B",
+        "text": "30 units"
+      },
+      {
+        "label": "C",
+        "text": "80 units"
+      },
+      {
+        "label": "D",
+        "text": "50 units"
+      }
+    ],
+    "answer": "D",
+    "explanation": "At $15, quantity supplied is 90 and quantity demanded is 40, so the surplus is 50 units.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.4 maximum and minimum prices | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "A buffer stock authority has a lower intervention price of $18 and an upper intervention price of $26. The free-market price falls to $16. What action is required?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Buy stocks to raise price towards the target band."
+      },
+      {
+        "label": "B",
+        "text": "Halt transactions to eliminate all demand for the product."
+      },
+      {
+        "label": "C",
+        "text": "Sell stocks to lower price towards the target band."
+      },
+      {
+        "label": "D",
+        "text": "Cap prices to prevent any rise from the current level."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A price below the lower intervention level signals excess supply. The authority buys output, increasing demand and supporting the price.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.5 buffer stock schemes | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw D and S with an unconstrained equilibrium below the lower intervention price $18. Draw horizontal intervention lines at $18 and $26. Indicate government buying at $18 to prevent price falling below the band.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price ($)",
+        "xMax": 80,
+        "yMax": 35,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 32.0
+              },
+              {
+                "x": 75.19999999999999,
+                "y": 1.9200000000000017
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 75.19999999999999,
+                "y": 30.08
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "PL",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 18
+              },
+              {
+                "x": 75.19999999999999,
+                "y": 18.0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "PU",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 26
+              },
+              {
+                "x": 75.19999999999999,
+                "y": 26.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E",
+            "x": 40,
+            "y": 16
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 35,
+            "y": 18
+          },
+          {
+            "id": "p2",
+            "label": "",
+            "x": 45,
+            "y": 18
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 40,
+            "y": 16,
+            "xLabel": "Qe",
+            "yLabel": "16"
+          },
+          {
+            "id": "g1",
+            "x": 35,
+            "y": 18,
+            "xLabel": "Qd"
+          },
+          {
+            "id": "g2",
+            "x": 45,
+            "y": 18,
+            "xLabel": "Qs"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "PL = $18; PU = $26. At PL, the authority purchases Qs − Qd."
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "A buffer stock authority holds 700 tonnes. A poor harvest would require it to sell 900 tonnes to hold the target price. What is the immediate problem?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Stock shortages necessarily remove the costs of holding inventories."
+      },
+      {
+        "label": "B",
+        "text": "Immediate buying from domestic producers resolves the poor-harvest shortage."
+      },
+      {
+        "label": "C",
+        "text": "Available stocks are insufficient to meet the required intervention."
+      },
+      {
+        "label": "D",
+        "text": "Domestic supply exceeds the available quantity consumers wish to purchase."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The authority can release at most 700 tonnes from its existing stock, which is 200 tonnes less than required. The buffer stock therefore cannot fully offset the shortage.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.5 buffer stock schemes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "A buffer stock scheme buys 500 tonnes at $24 and later sells the same 500 tonnes at $30. Ignoring storage costs, what is the net cash gain?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$12 000"
+      },
+      {
+        "label": "B",
+        "text": "$3000"
+      },
+      {
+        "label": "C",
+        "text": "$6000"
+      },
+      {
+        "label": "D",
+        "text": "$15 000"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The price difference is $6 per tonne. On 500 tonnes, the cash gain is $6 × 500 = $3000.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.5 buffer stock schemes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "Why can high storage costs make a buffer stock scheme difficult to sustain?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Storage spending guarantees prices remain inside the target band."
+      },
+      {
+        "label": "B",
+        "text": "Storage spending adds to the cost of maintaining purchased inventories."
+      },
+      {
+        "label": "C",
+        "text": "Storage spending eliminates the need to finance future market purchases."
+      },
+      {
+        "label": "D",
+        "text": "Storage spending makes consumers' demand infinitely responsive to price changes."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Buffer stocks can require goods to be stored for long periods. Storage, insurance and deterioration costs increase the financial burden on the authority.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.5 buffer stock schemes | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "Which product is least suitable for a long-running buffer stock scheme?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Durable output that can be stored cheaply for long periods and experiences predictable seasonal changes in its available supply."
+      },
+      {
+        "label": "B",
+        "text": "Grain that can be stored between regular annual harvests."
+      },
+      {
+        "label": "C",
+        "text": "Commodities that can be cheaply warehoused over several years."
+      },
+      {
+        "label": "D",
+        "text": "Produce that deteriorates rapidly when kept in available storage."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A buffer stock requires the authority to hold output from periods of abundance for release later. Rapid perishability makes this costly or physically impossible.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.5 buffer stock schemes | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "An information campaign causes consumers to reduce purchases of a demerit good at every price. What happens to the demand curve?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It shifts to the left."
+      },
+      {
+        "label": "B",
+        "text": "There is only a movement along the demand curve."
+      },
+      {
+        "label": "C",
+        "text": "The supply curve shifts to the right."
+      },
+      {
+        "label": "D",
+        "text": "It shifts to the right."
+      }
+    ],
+    "answer": "A",
+    "explanation": "If changed information alters willingness to buy at each price, demand changes rather than quantity demanded, so the entire demand curve shifts left.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.6 provision of information | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity of the demerit good. Draw supply S and initial demand D1. Draw D2 to the left of D1 after information provision, showing a lower equilibrium price and quantity.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "D2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 80
+              },
+              {
+                "x": 80.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 40.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 40.0,
+            "y": 40.0,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "A government wants to increase take-up of a beneficial screening service. Which information policy is most directly targeted at imperfect information?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Charging a specific tax on each screening appointment."
+      },
+      {
+        "label": "B",
+        "text": "Purchasing unused appointments for storage in government warehouses."
+      },
+      {
+        "label": "C",
+        "text": "Explaining screening's personal benefits and possible risks clearly."
+      },
+      {
+        "label": "D",
+        "text": "Guaranteeing providers a minimum payment per screening appointment while leaving consumers’ knowledge of its benefits and risks unchanged."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The policy directly changes what consumers know about the service, which is the relevant mechanism when under-consumption arises from imperfect information.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.6 provision of information | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "A specific tax is imposed on a product. The consumer price rises by 70% of the tax. What percentage of the tax is borne by producers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "70%"
+      },
+      {
+        "label": "B",
+        "text": "170%"
+      },
+      {
+        "label": "C",
+        "text": "20%"
+      },
+      {
+        "label": "D",
+        "text": "30%"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The tax burden shares sum to 100%. If consumers bear 70%, producers bear the remaining 30%.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.1 impact and incidence of specific indirect taxes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "A $10 subsidy lowers the consumer price by $7. What share of the subsidy benefit goes to consumers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "100%"
+      },
+      {
+        "label": "B",
+        "text": "70%"
+      },
+      {
+        "label": "C",
+        "text": "30%"
+      },
+      {
+        "label": "D",
+        "text": "170%"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Consumers receive a $7 price reduction from a $10 subsidy, so their share is 7/10 = 70%.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.2 impact and incidence of subsidies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "The diagram shows a subsidy shifting supply from S1 to S2. The market price falls from P1 to P2 and producers receive P3 including the subsidy. Which vertical distance is the subsidy per unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "P1 − P2"
+      },
+      {
+        "label": "B",
+        "text": "P3 − P1"
+      },
+      {
+        "label": "C",
+        "text": "P1 − 0"
+      },
+      {
+        "label": "D",
+        "text": "P3 − P2"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The subsidy wedge is the difference between the effective price received by producers, including the payment, and the market price paid by consumers at the post-subsidy quantity.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.2 impact and incidence of subsidies | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw downward-sloping demand D. Draw supply S1 and a parallel subsidised supply S2 below it. Mark initial equilibrium at P1,Q1. Mark post-subsidy consumer price P2 at Q2. At Q2 mark producer effective receipt P3 on S1, vertically above P2. Label P3−P2 as the subsidy wedge.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 20.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 111.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 40.0
+          },
+          {
+            "id": "p2",
+            "label": "",
+            "x": 60,
+            "y": 60
+          },
+          {
+            "id": "p3",
+            "label": "",
+            "x": 60,
+            "y": 40
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 40.0,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          },
+          {
+            "id": "g2",
+            "x": 60,
+            "y": 60,
+            "yLabel": "P3"
+          },
+          {
+            "id": "g3",
+            "x": 60,
+            "y": 40,
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "The diagram shows a specific tax shifting supply from S1 to S2. Consumers pay P2 after the tax and producers receive P3 net of tax. Which vertical distance is the tax per unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "P3 − 0"
+      },
+      {
+        "label": "B",
+        "text": "P2 − P1"
+      },
+      {
+        "label": "C",
+        "text": "P2 − P3"
+      },
+      {
+        "label": "D",
+        "text": "P1 − P3"
+      }
+    ],
+    "answer": "C",
+    "explanation": "At the post-tax quantity, the tax creates a wedge between the price consumers pay and the net price producers receive. That wedge is P2 − P3.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.1 impact and incidence of specific indirect taxes | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw downward-sloping demand D. Draw pre-tax supply S1 and parallel post-tax supply S2 above it. Mark initial price P1 at Q1. Mark post-tax consumer price P2 at Q2 on S2 and producer net receipt P3 at Q2 on S1. Label the vertical gap P2−P3 as the tax per unit.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 111.6,
+                "y": 131.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 40.0,
+            "y": 60.0
+          },
+          {
+            "id": "p2",
+            "label": "",
+            "x": 40,
+            "y": 40
+          },
+          {
+            "id": "p3",
+            "label": "",
+            "x": 40,
+            "y": 60
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 40.0,
+            "y": 60.0,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          },
+          {
+            "id": "g2",
+            "x": 40,
+            "y": 40,
+            "yLabel": "P3"
+          },
+          {
+            "id": "g3",
+            "x": 40,
+            "y": 60,
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "A government directly provides a merit good free of charge and also runs an information campaign about its benefits. Why might the two policies reinforce each other?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both raise the legal minimum price of obtaining treatment."
+      },
+      {
+        "label": "B",
+        "text": "Information removes rivalry between individuals consuming the medical service."
+      },
+      {
+        "label": "C",
+        "text": "Information encourages use while free provision removes price barriers."
+      },
+      {
+        "label": "D",
+        "text": "Both reduce the quantity of treatment available from providers."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The two methods act through different channels: direct provision can improve access and reduce the price paid by users, while information can increase perceived benefits and demand.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.3 direct provision of goods and services | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "A price ceiling is imposed below equilibrium while the government simultaneously subsidises producers. What can be concluded about the shortage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The price ceiling necessarily changes into a price floor."
+      },
+      {
+        "label": "B",
+        "text": "The shortage necessarily disappears regardless of the subsidy amount."
+      },
+      {
+        "label": "C",
+        "text": "The shortage may shrink as supply at the ceiling rises."
+      },
+      {
+        "label": "D",
+        "text": "The shortage necessarily grows as subsidies reduce quantity supplied."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A subsidy shifts supply right. At the same maximum price, this can increase the quantity supplied and therefore reduce the shortage, although the size of the effect depends on the subsidy and elasticities.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.4 maximum and minimum prices | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw demand D, original supply S1 and subsidised supply S2 to the right/below S1. Draw a horizontal maximum price below the original equilibrium. At the controlled price, mark the original and post-subsidy quantities supplied to show the shortage becoming smaller.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "Pc",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 35
+              },
+              {
+                "x": 131.6,
+                "y": 35.0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 20.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 111.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 35,
+            "y": 35
+          },
+          {
+            "id": "p2",
+            "label": "",
+            "x": 65,
+            "y": 35
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qe",
+            "yLabel": "Pe"
+          },
+          {
+            "id": "g1",
+            "x": 35,
+            "y": 35,
+            "xLabel": "Qs"
+          },
+          {
+            "id": "g2",
+            "x": 65,
+            "y": 35,
+            "xLabel": "Qd"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "A minimum price is imposed above equilibrium and the government simultaneously runs an advertising campaign encouraging consumption. What can happen to the surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Greater demand may reduce surplus at the controlled price."
+      },
+      {
+        "label": "B",
+        "text": "Greater demand necessarily produces a shortage at the controlled price."
+      },
+      {
+        "label": "C",
+        "text": "Greater demand necessarily makes the minimum price non-binding immediately."
+      },
+      {
+        "label": "D",
+        "text": "Greater demand necessarily reduces purchases at the controlled price."
+      }
+    ],
+    "answer": "A",
+    "explanation": "If the information campaign shifts demand right, the gap between quantity supplied and quantity demanded at the fixed minimum price can shrink.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.4 maximum and minimum prices | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw supply S, initial demand D1 and post-information demand D2 to the right of D1. Draw a horizontal minimum price above the original equilibrium. At that price, show the gap between quantity supplied and quantity demanded shrinking after the demand shift.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "Pf",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 70
+              },
+              {
+                "x": 131.6,
+                "y": 70.0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "D2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 120
+              },
+              {
+                "x": 120.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 70,
+            "y": 70
+          },
+          {
+            "id": "p2",
+            "label": "",
+            "x": 30,
+            "y": 70
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qe",
+            "yLabel": "Pe"
+          },
+          {
+            "id": "g1",
+            "x": 70,
+            "y": 70,
+            "xLabel": "Qs"
+          },
+          {
+            "id": "g2",
+            "x": 30,
+            "y": 70,
+            "xLabel": "Qd"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "A buffer stock scheme repeatedly buys large quantities but rarely sells any stock. What is the most likely long-run concern?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Stocks and financing costs may accumulate beyond sustainable levels."
+      },
+      {
+        "label": "B",
+        "text": "Prices necessarily exceed the upper limit despite repeated purchases."
+      },
+      {
+        "label": "C",
+        "text": "The product loses excludability because the authority purchases surplus output."
+      },
+      {
+        "label": "D",
+        "text": "The authority exhausts stocks despite continuing to buy additional output."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Persistent purchases without offsetting sales cause stockpiles to grow and require continuing finance and storage, threatening the scheme’s sustainability.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.5 buffer stock schemes | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "An information campaign about a merit good shifts demand right, but supply is highly inelastic in the short run. What is the most likely short-run effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Price rises substantially while quantity increases only slightly"
+      },
+      {
+        "label": "B",
+        "text": "The equilibrium price decreases substantially and quantity rises greatly, despite the limited short-run ability of producers to expand output"
+      },
+      {
+        "label": "C",
+        "text": "Quantity rises greatly with no price change"
+      },
+      {
+        "label": "D",
+        "text": "Price and quantity both fall"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A rightward demand shift against highly inelastic supply produces a relatively large price increase and only a small increase in quantity.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.6 provision of information | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw a steep upward-sloping short-run supply S and initial demand D1. Shift demand right to D2 after an information campaign. Show a large price increase and a small quantity increase.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 25.0,
+                "y": 0.0
+              },
+              {
+                "x": 90.8,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "D2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 120
+              },
+              {
+                "x": 120.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 56.666666666666664,
+            "y": 63.333333333333336
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 56.666666666666664,
+            "y": 63.333333333333336,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "An information campaign reduces demand for a harmful product, but the product has highly elastic supply. What is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quantity rises and price rises"
+      },
+      {
+        "label": "B",
+        "text": "The quantity exchanged remains unchanged because highly elastic supply prevents a decrease in demand from affecting market sales"
+      },
+      {
+        "label": "C",
+        "text": "The supply curve must shift left"
+      },
+      {
+        "label": "D",
+        "text": "Quantity traded falls and the market price also falls"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A leftward demand shift reduces equilibrium price and quantity. With elastic supply, producers respond strongly to the lower price, reinforcing the fall in quantity supplied.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.6 provision of information | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw a relatively flat upward-sloping supply S and initial demand D1. Shift demand left to D2 after an information campaign. Show both equilibrium price and quantity falling.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 30.0
+              },
+              {
+                "x": 131.6,
+                "y": 82.64
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "D2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 80
+              },
+              {
+                "x": 80.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 35.714285714285715,
+            "y": 44.285714285714285
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 35.714285714285715,
+            "y": 44.285714285714285,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "difficulty": "Hard",
+    "prompt": "A $4 specific tax is imposed. The pre-tax equilibrium price is $18. After tax, consumers pay $20.50 and 900 units are sold. Which row is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumer burden $2.50; producer burden $1.50; tax revenue $3600"
+      },
+      {
+        "label": "B",
+        "text": "Consumer burden $1.50; producer burden $2.50; tax revenue $2250"
+      },
+      {
+        "label": "C",
+        "text": "Consumer burden $2.50; producer burden $4.00; tax revenue $3600"
+      },
+      {
+        "label": "D",
+        "text": "Consumer burden $4.00; producer burden $0; tax revenue $18 000"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The consumer price rises by $2.50, so consumers bear $2.50 and producers the remaining $1.50. Government revenue is $4 × 900 = $3600.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.1 impact and incidence of specific indirect taxes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 72,
+    "difficulty": "Hard",
+    "prompt": "A government wants a specific tax to reduce consumption substantially rather than mainly raise revenue. Which market is the best target?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A market where both demand and supply are highly price inelastic, allowing very little quantity adjustment after the tax"
+      },
+      {
+        "label": "B",
+        "text": "A market with price-elastic demand and price-elastic supply"
+      },
+      {
+        "label": "C",
+        "text": "A market with perfectly inelastic supply"
+      },
+      {
+        "label": "D",
+        "text": "A market with perfectly inelastic demand"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A tax reduces quantity most when both buyers and sellers can respond strongly to the tax-induced price wedge. If either demand or supply is perfectly inelastic, quantity cannot fall.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.1 impact and incidence of specific indirect taxes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 73,
+    "difficulty": "Hard",
+    "prompt": "A tax is imposed on a product with highly inelastic demand and highly elastic supply. Which combination is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The consumer price rises only slightly and the quantity exchanged falls substantially because inelastic demand makes buyers highly responsive to price"
+      },
+      {
+        "label": "B",
+        "text": "No change in consumer price but a large fall in quantity"
+      },
+      {
+        "label": "C",
+        "text": "A relatively large rise in consumer price and a relatively small fall in quantity"
+      },
+      {
+        "label": "D",
+        "text": "A fall in consumer price and a rise in quantity"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Inelastic demand means consumers respond little to price, while elastic supply allows producers to adjust. Consumers bear most of the tax and quantity falls relatively little.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.1 impact and incidence of specific indirect taxes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "A tax raises the consumer price by $1.80 and lowers the producer’s net receipt by $1.20. Demand becomes more elastic over time while supply is unchanged. What is most likely to happen to the incidence of the same tax in the long run?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The burden must become exactly equal between consumers and producers, regardless of how much the elasticity of demand changes"
+      },
+      {
+        "label": "B",
+        "text": "Producers bear a larger share than before"
+      },
+      {
+        "label": "C",
+        "text": "Consumers bear a larger share than before"
+      },
+      {
+        "label": "D",
+        "text": "The tax wedge disappears"
+      }
+    ],
+    "answer": "B",
+    "explanation": "As demand becomes more elastic, consumers can avoid the tax more easily by reducing purchases. Producers must absorb more of the fixed tax wedge in a lower net price.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.1 impact and incidence of specific indirect taxes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "A $5 tax reduces sales from 10 000 to 7000 units. A proposed increase to $8 is expected to reduce sales to 3500 units. Which statement is correct about tax revenue?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tax receipts rise from $35 000 at the original tax rate to $56 000 after the tax increase reduces sales."
+      },
+      {
+        "label": "B",
+        "text": "Revenue falls from $35 000 to $28 000."
+      },
+      {
+        "label": "C",
+        "text": "Revenue rises from $50 000 to $64 000."
+      },
+      {
+        "label": "D",
+        "text": "Revenue remains $35 000."
+      }
+    ],
+    "answer": "B",
+    "explanation": "At $5, revenue is 5 × 7000 = $35 000. At $8, revenue is 8 × 3500 = $28 000. A higher tax per unit can reduce total revenue if quantity falls sufficiently.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.1 impact and incidence of specific indirect taxes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "A $6 subsidy lowers the consumer price by $2 and increases quantity from 2000 to 2800. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumers gain the entire $6 subsidy per unit and producers also gain the entire $6 subsidy on each sale."
+      },
+      {
+        "label": "B",
+        "text": "Consumers gain $2; producers gain $4 per unit."
+      },
+      {
+        "label": "C",
+        "text": "Consumers gain $4; producers gain $2 per unit."
+      },
+      {
+        "label": "D",
+        "text": "Consumers gain $2; producers gain zero per unit."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The $6 subsidy is split between a $2 lower consumer price and a $4 higher effective producer receipt relative to the original price.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.2 impact and incidence of subsidies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "A government wants a subsidy to reduce the consumer price as much as possible. Which combination would best achieve this?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Perfectly elastic demand and perfectly inelastic supply"
+      },
+      {
+        "label": "B",
+        "text": "Price-inelastic supply and very elastic demand"
+      },
+      {
+        "label": "C",
+        "text": "Price-elastic demand and price-inelastic supply"
+      },
+      {
+        "label": "D",
+        "text": "Price-inelastic demand and price-elastic supply"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Consumers receive a larger subsidy share when demand is less elastic relative to supply. Elastic supply also means producers expand output readily rather than retaining much of the subsidy as a higher net return.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.2 impact and incidence of subsidies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "A subsidy is intended to increase consumption of a merit good, but demand is highly price inelastic. What limitation follows?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Subsidisation necessarily shifts the product's supply curve leftwards."
+      },
+      {
+        "label": "B",
+        "text": "Subsidisation avoids any payment on the units originally sold."
+      },
+      {
+        "label": "C",
+        "text": "Subsidisation necessarily raises the price paid by consumers."
+      },
+      {
+        "label": "D",
+        "text": "Price reductions may induce relatively little extra consumption."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A subsidy can lower the market price, but with price-inelastic demand the resulting percentage increase in quantity demanded is relatively small.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.2 impact and incidence of subsidies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "A subsidy of $10 per unit increases sales from 3000 to 5000. Consumers receive $6 of the subsidy per unit. What is the total post-subsidy benefit received by producers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$20 000"
+      },
+      {
+        "label": "B",
+        "text": "$12 000"
+      },
+      {
+        "label": "C",
+        "text": "$30 000"
+      },
+      {
+        "label": "D",
+        "text": "$50 000"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Producers receive the remaining $4 per unit. On 5000 post-subsidy units, their total benefit is $4 × 5000 = $20 000.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.2 impact and incidence of subsidies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "A government subsidises a good for several years. Productivity does not improve and firms become dependent on the payment. Which judgement is most justified?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Every subsidy payment necessarily goes entirely to consumers through lower prices, irrespective of the relative responsiveness of demand and supply."
+      },
+      {
+        "label": "B",
+        "text": "Subsidy dependence necessarily eliminates the policy's public expenditure implications."
+      },
+      {
+        "label": "C",
+        "text": "Supporting output may weaken efficiency incentives and prolong funding needs."
+      },
+      {
+        "label": "D",
+        "text": "Subsidy dependence necessarily prevents any increase in quantity after intervention."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Subsidies can support output and lower prices, but sustained support can reduce pressure on firms to control costs or innovate. Government spending also has an opportunity cost.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.2 impact and incidence of subsidies | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "A government directly provides a service free to everyone, but queues become very long and high-income users also consume large amounts. Which conclusion is best?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Zero-priced public provision removes the scarcity of productive resources."
+      },
+      {
+        "label": "B",
+        "text": "Zero-priced public provision eliminates the opportunity costs of production."
+      },
+      {
+        "label": "C",
+        "text": "Access improves but excess demand can require non-price rationing."
+      },
+      {
+        "label": "D",
+        "text": "Long queues necessarily show that demand is highly price elastic."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Free-at-point-use provision can remove financial barriers, but it does not remove scarcity. When demand exceeds capacity, queues or eligibility rules ration access.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.3 direct provision of goods and services | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "A government considers replacing direct provision of a service with vouchers usable at private providers. Which effect would most weaken the case for ending direct provision?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Insufficient private capacity leaves remote households unable to use vouchers."
+      },
+      {
+        "label": "B",
+        "text": "Printing vouchers involves little administrative cost for the government."
+      },
+      {
+        "label": "C",
+        "text": "Providers can exclude individuals who cannot present a valid voucher."
+      },
+      {
+        "label": "D",
+        "text": "Some households prefer using private providers to government-run services."
+      }
+    ],
+    "answer": "A",
+    "explanation": "If private supply is absent where users live, purchasing power alone does not ensure access. Direct provision may still be needed to ensure the service exists in those areas.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.3 direct provision of goods and services | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "A maximum price is set below equilibrium. At the controlled price, demand is 1000 and supply is 700. A subsidy then shifts supply so that 900 units are supplied at that price. What happens?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A surplus of 100 units develops."
+      },
+      {
+        "label": "B",
+        "text": "The shortage rises from 300 to 500 units."
+      },
+      {
+        "label": "C",
+        "text": "The shortage falls from 300 to 100 units."
+      },
+      {
+        "label": "D",
+        "text": "The maximum price becomes a minimum price."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Initially the shortage is 1000 − 700 = 300. After the subsidy, it is 1000 − 900 = 100, so the shortage falls by 200 units.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.4 maximum and minimum prices | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw demand D, initial supply S1 and subsidised supply S2 to the right/below S1. Draw a binding maximum price. At this price mark Qd=1000, Qs1=700 and Qs2=900, illustrating the shortage falling from 300 to 100.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 1800,
+        "yMax": 16,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 12.0
+              },
+              {
+                "x": 1692.0,
+                "y": 1.847999999999999
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 1.7999999999999998
+              },
+              {
+                "x": 1692.0,
+                "y": 11.952000000000002
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "Pc",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 6
+              },
+              {
+                "x": 1692.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.5999999999999996
+              },
+              {
+                "x": 1692.0,
+                "y": 10.752
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 700,
+            "y": 6
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 1000,
+            "y": 6
+          },
+          {
+            "id": "p2",
+            "label": "",
+            "x": 900,
+            "y": 6
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 700,
+            "y": 6,
+            "xLabel": "Qs1",
+            "yLabel": "6"
+          },
+          {
+            "id": "g1",
+            "x": 1000,
+            "y": 6,
+            "xLabel": "1000"
+          },
+          {
+            "id": "g2",
+            "x": 900,
+            "y": 6,
+            "xLabel": "Qs2 = 900"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "A minimum price is set above equilibrium. At the controlled price, supply is 1200 and demand is 800. An information campaign raises demand to 1050 at that price. What happens to the surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls from 400 to 150 units."
+      },
+      {
+        "label": "B",
+        "text": "It becomes a shortage of 250 units."
+      },
+      {
+        "label": "C",
+        "text": "It remains 400 units."
+      },
+      {
+        "label": "D",
+        "text": "It rises from 400 to 650 units."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The original surplus is 1200 − 800 = 400. After demand rises, the surplus is 1200 − 1050 = 150.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.4 maximum and minimum prices | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw supply S, initial demand D1 and post-information demand D2 to the right. Draw a binding minimum price. At this price mark Qs=1200, Qd1=800 and Qd2=1050, illustrating the surplus falling from 400 to 150.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 1800,
+        "yMax": 16,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 14.8
+              },
+              {
+                "x": 1692.0,
+                "y": 4.648
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 2.8
+              },
+              {
+                "x": 1692.0,
+                "y": 12.952000000000002
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "Pf",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 1692.0,
+                "y": 10.0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "D2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 210.00000000000026,
+                "y": 15.04
+              },
+              {
+                "x": 1692.0,
+                "y": 6.148
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 1200,
+            "y": 10
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 800,
+            "y": 10
+          },
+          {
+            "id": "p2",
+            "label": "",
+            "x": 1050,
+            "y": 10
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 1200,
+            "y": 10,
+            "xLabel": "1200",
+            "yLabel": "10"
+          },
+          {
+            "id": "g1",
+            "x": 800,
+            "y": 10,
+            "xLabel": "Qd1"
+          },
+          {
+            "id": "g2",
+            "x": 1050,
+            "y": 10,
+            "xLabel": "Qd2 = 1050"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "A maximum price on rented housing is kept far below equilibrium for several years. Which combination is most plausible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Excess supply persists while landlords gain incentives to expand rental output."
+      },
+      {
+        "label": "B",
+        "text": "Excess demand persists while landlords may reduce supply or maintenance."
+      },
+      {
+        "label": "C",
+        "text": "The legal price rises while landlords expand available rental accommodation."
+      },
+      {
+        "label": "D",
+        "text": "Lower legal rents ensure that demand falls to match available supply."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A low ceiling increases quantity demanded but can reduce quantity supplied and the return to landlords. Over time, this may worsen shortages and weaken maintenance or investment incentives.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.4 maximum and minimum prices | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "A minimum price for a farm product is guaranteed by government purchases. Which condition makes the policy most costly to taxpayers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The guaranteed minimum price equals the market-clearing price, so government must finance purchases despite there being no excess supply"
+      },
+      {
+        "label": "B",
+        "text": "The minimum price is far above equilibrium and supply is highly elastic"
+      },
+      {
+        "label": "C",
+        "text": "The minimum price is below equilibrium"
+      },
+      {
+        "label": "D",
+        "text": "Demand is perfectly elastic at the equilibrium price"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A high price floor creates a large gap between quantity supplied and demanded. Elastic supply magnifies the increase in production, so the government may have to buy a large surplus.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.4 maximum and minimum prices | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "A maximum price is introduced to improve affordability, but the shortage is allocated by long queues. Which consumer may still fail to benefit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A producer who receives the legally controlled rental payment."
+      },
+      {
+        "label": "B",
+        "text": "A low-income worker unable to spend much time queuing."
+      },
+      {
+        "label": "C",
+        "text": "A consumer who can obtain the product without waiting."
+      },
+      {
+        "label": "D",
+        "text": "A consumer who has sufficient time to queue successfully."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A lower money price can improve affordability but non-price rationing imposes other costs, such as waiting time. Some intended beneficiaries may therefore still be disadvantaged.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.4 maximum and minimum prices | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "A minimum price is introduced to raise producer incomes, but demand is price elastic and supply is price elastic. Why may total producer revenue not rise as much as expected?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Purchases may fall substantially while a large production surplus develops."
+      },
+      {
+        "label": "B",
+        "text": "Elastic supply prevents producers from raising output at higher prices."
+      },
+      {
+        "label": "C",
+        "text": "Producer revenue must fall under every possible minimum-price scheme."
+      },
+      {
+        "label": "D",
+        "text": "Elastic demand causes purchases to rise when the legal price increases."
+      }
+    ],
+    "answer": "A",
+    "explanation": "With elastic demand, buyers reduce purchases strongly at the higher price. Elastic supply encourages producers to expand output, so unsold surplus can be large unless government buys it.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.4 maximum and minimum prices | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "A buffer stock authority begins with 2000 tonnes and a cash reserve of $60 000. In year 1 it buys 1500 tonnes at $20; in year 2 it must buy another 2000 tonnes at $18. Ignoring storage, what cash reserve remains after year 2?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A cash reserve of $24 000 remains because only the year-2 purchases must be deducted from the initial reserve"
+      },
+      {
+        "label": "B",
+        "text": "The authority is short of $6000"
+      },
+      {
+        "label": "C",
+        "text": "$6000 remains"
+      },
+      {
+        "label": "D",
+        "text": "$54 000 remains"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Year 1 costs $30 000 and year 2 costs $36 000, total $66 000. With only $60 000, the authority is $6000 short.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.5 buffer stock schemes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "A buffer stock authority sells 1200 tonnes at $28 after previously buying them at $21, but storage cost is $9 per tonne. What is the financial result on these stocks?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A loss of $10 800"
+      },
+      {
+        "label": "B",
+        "text": "A gain of $2400"
+      },
+      {
+        "label": "C",
+        "text": "A gain of $8400"
+      },
+      {
+        "label": "D",
+        "text": "A loss of $2400"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The gross price gain is $7 per tonne, but storage costs $9, giving a net loss of $2 per tonne. On 1200 tonnes, the loss is $2400.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.5 buffer stock schemes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "Which combination makes a buffer stock scheme most likely to be financially sustainable?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Low storage costs and later shortages allowing resale of purchased stocks."
+      },
+      {
+        "label": "B",
+        "text": "Rapid deterioration of purchased inventories combined with a permanent reduction in demand below the quantity produced at the support price."
+      },
+      {
+        "label": "C",
+        "text": "Very responsive supply and support prices far above long-run equilibrium."
+      },
+      {
+        "label": "D",
+        "text": "High storage costs and repeated surpluses without opportunities for later resale."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A sustainable scheme needs manageable storage costs and opportunities to sell accumulated stocks when supply is tight. Persistent purchases without sales create growing financial and storage burdens.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.5 buffer stock schemes | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "A buffer stock authority fixes a narrow price band around the long-run equilibrium price. What is one advantage over a very high support price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It necessarily guarantees higher farmer income in every season."
+      },
+      {
+        "label": "B",
+        "text": "It necessarily removes quantity responsiveness from the supply curve."
+      },
+      {
+        "label": "C",
+        "text": "It reduces incentives for persistent overproduction and accumulated stocks."
+      },
+      {
+        "label": "D",
+        "text": "It necessarily eliminates all costs of storing purchased output."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A support price close to equilibrium reduces the incentive for producers to expand output excessively and lowers the quantity the authority may need to purchase.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.5 buffer stock schemes | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "Demand for a crop falls permanently because consumer tastes change, but a buffer stock authority keeps buying whenever price reaches the lower support level. What is the central problem?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Falling consumer demand raises the prevailing free-market crop price."
+      },
+      {
+        "label": "B",
+        "text": "Repeated purchases immediately exhaust the authority's physical stocks."
+      },
+      {
+        "label": "C",
+        "text": "Government purchases turn the agricultural crop into a public good."
+      },
+      {
+        "label": "D",
+        "text": "Permanent demand weakness leads to accumulating unsaleable government stocks."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Buffer stocks are better suited to temporary fluctuations. If demand has fallen permanently, maintaining the old price may require continuing purchases and growing stocks.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.5 buffer stock schemes | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "An information campaign tells consumers that a product is harmful, but demand is driven mainly by addiction and is highly price inelastic and relatively insensitive to risk warnings. Which conclusion is most defensible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Information campaigns impose the same costs as indirect taxation."
+      },
+      {
+        "label": "B",
+        "text": "Information campaigns necessarily increase firms' willingness to supply output."
+      },
+      {
+        "label": "C",
+        "text": "Full awareness necessarily eliminates consumption of the addictive product."
+      },
+      {
+        "label": "D",
+        "text": "Better awareness may produce little change in actual consumption."
+      }
+    ],
+    "answer": "D",
+    "explanation": "If consumers already face strong behavioural constraints and demand is very unresponsive, improved information may not translate into a large reduction in consumption.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.6 provision of information | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "A government provides detailed energy-efficiency labels on appliances. Which evidence best shows the policy is working through information rather than price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Purchasing shifts towards efficient models with relative prices unchanged."
+      },
+      {
+        "label": "B",
+        "text": "Production of inefficient models becomes prohibited by government regulation."
+      },
+      {
+        "label": "C",
+        "text": "All appliance prices become subject to a statutory maximum price."
+      },
+      {
+        "label": "D",
+        "text": "Producers receive a subsidy on sales of energy-efficient models."
+      }
+    ],
+    "answer": "A",
+    "explanation": "If choices change while relative prices and legal constraints are unchanged, the most direct explanation is that the new information altered consumer preferences or understanding.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.6 provision of information | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "A campaign increases demand for a merit good, but the service has a fixed short-run capacity. What is the most likely immediate outcome if price is unchanged?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quantity supplied must immediately match demand"
+      },
+      {
+        "label": "B",
+        "text": "The campaign reduces the opportunity cost of capacity"
+      },
+      {
+        "label": "C",
+        "text": "Excess demand and non-price rationing may increase"
+      },
+      {
+        "label": "D",
+        "text": "The supply curve becomes perfectly elastic"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Information can shift demand right, but if short-run supply cannot expand and price is fixed, excess demand can increase and access may be rationed by queues or waiting lists.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.6 provision of information | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "Which evidence most strongly suggests that provision of information is a better first intervention than a tax for a demerit good?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Disclosing previously unknown personal risks substantially reduces consumer purchases."
+      },
+      {
+        "label": "B",
+        "text": "The government's main priority is raising revenue from current purchases."
+      },
+      {
+        "label": "C",
+        "text": "Consumers already assess the product's personal risks with accurate information."
+      },
+      {
+        "label": "D",
+        "text": "Repeatedly explaining personal risks leaves consumer purchases largely unchanged."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A large response to genuinely new information indicates that imperfect information was important. An information policy can therefore target the source of the problem without directly changing price.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.6 provision of information | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "Which evidence most strongly suggests that information provision alone will not solve under-consumption of a beneficial service?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumers are unaware that the service is available."
+      },
+      {
+        "label": "B",
+        "text": "Consumers know the benefits but have no accessible providers."
+      },
+      {
+        "label": "C",
+        "text": "Leaflets about the service increase consumers' intended use."
+      },
+      {
+        "label": "D",
+        "text": "Consumers underestimate the personal benefits of obtaining treatment."
+      }
+    ],
+    "answer": "B",
+    "explanation": "If consumers are already informed but physical access is absent, the binding constraint is supply rather than information. Direct provision or supply-side support may be needed.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.6 provision of information | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "A government compares two ways to increase vaccination: free direct provision and an information campaign. Which circumstance most favours using both?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumers know the benefits and affordable private providers are available."
+      },
+      {
+        "label": "B",
+        "text": "Policymakers intend to discourage additional vaccination within the target population."
+      },
+      {
+        "label": "C",
+        "text": "Consumers overestimate the benefits and vaccination is already used excessively."
+      },
+      {
+        "label": "D",
+        "text": "Consumers underestimate benefits and face barriers to private vaccination."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Information addresses underestimation of benefits, while direct provision can reduce price and access barriers. When both problems exist, the policies can complement each other.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.3 direct provision of goods and services | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "A government taxes a demerit good and also runs a warning campaign. Why might the combined effect on quantity be greater than either policy alone?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both policies expand supply and increase quantity purchased."
+      },
+      {
+        "label": "B",
+        "text": "Both policies offset each other and leave quantity unchanged."
+      },
+      {
+        "label": "C",
+        "text": "Higher supply costs and lower demand both reduce quantity."
+      },
+      {
+        "label": "D",
+        "text": "Lower production costs and higher demand both increase quantity."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The tax works mainly through a higher consumer price, while the information campaign can lower demand at every price. Their effects can reinforce one another.",
+    "reference": "3.2 Methods and effects of government intervention in markets | 3.2.6 provision of information | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  }
+]

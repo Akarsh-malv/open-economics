@@ -1,0 +1,4636 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "Which of the following best describes demand for a good?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The quantities consumers are willing and able to purchase at different prices"
+      },
+      {
+        "label": "B",
+        "text": "The satisfaction consumers receive from the last unit purchased"
+      },
+      {
+        "label": "C",
+        "text": "The income consumers have available after purchasing the good"
+      },
+      {
+        "label": "D",
+        "text": "The number of consumers who are legally permitted to buy the good"
+      },
+      {
+        "label": "E",
+        "text": "The quantity consumers purchase at one price during a given period"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Demand lists how much consumers are willing and able to buy at each possible price.",
+    "reference": "MKT-3.A | MKT-3.A.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "The law of demand states that, other things constant,",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand decreases whenever consumers' nominal income increases"
+      },
+      {
+        "label": "B",
+        "text": "Demand increases whenever the number of consumers decreases"
+      },
+      {
+        "label": "C",
+        "text": "Quantity demanded remains constant when the good's price changes"
+      },
+      {
+        "label": "D",
+        "text": "Quantity demanded decreases when the good's own price increases"
+      },
+      {
+        "label": "E",
+        "text": "Quantity demanded increases when the good's own price increases"
+      }
+    ],
+    "answer": "D",
+    "explanation": "With other factors held constant, a higher price makes consumers willing to buy fewer units. This inverse relationship is the law of demand.",
+    "reference": "MKT-3.A | MKT-3.A.4 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "If the price of a good decreases, which of the following will most likely occur, ceteris paribus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The quantity demanded of the good will decrease"
+      },
+      {
+        "label": "B",
+        "text": "The quantity demanded of the good will remain unchanged"
+      },
+      {
+        "label": "C",
+        "text": "The quantity demanded of the good will increase"
+      },
+      {
+        "label": "D",
+        "text": "The demand for the good will shift to the left"
+      },
+      {
+        "label": "E",
+        "text": "The demand for the good will shift to the right"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A lower price encourages consumers to buy more units. This is movement down the existing demand curve.",
+    "reference": "MKT-3.A | MKT-3.A.4 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "Which of the following is a determinant that can shift the demand curve for a good?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The slope measured between two points on the curve"
+      },
+      {
+        "label": "B",
+        "text": "Consumers' expectations about the good's future price"
+      },
+      {
+        "label": "C",
+        "text": "The good's current price, with other factors constant"
+      },
+      {
+        "label": "D",
+        "text": "The price-quantity combination selected on the curve"
+      },
+      {
+        "label": "E",
+        "text": "The quantity currently shown on the demand curve"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Expected future prices affect when consumers choose to buy. A change in expectations can therefore shift current demand at every price.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "A downward-sloping demand curve shows that",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher expected prices are associated with smaller current demand"
+      },
+      {
+        "label": "B",
+        "text": "Lower prices are associated with larger quantities demanded"
+      },
+      {
+        "label": "C",
+        "text": "Lower prices are associated with smaller quantities demanded"
+      },
+      {
+        "label": "D",
+        "text": "More buyers are associated with smaller market demand"
+      },
+      {
+        "label": "E",
+        "text": "Higher incomes are associated with larger quantities demanded"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A downward-sloping curve pairs lower prices with larger quantities demanded, holding other demand determinants constant.",
+    "reference": "MKT-3.A | MKT-3.A.4 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, which labeled point represents the larger quantity demanded?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Neither point, because both lie on the same demand curve"
+      },
+      {
+        "label": "B",
+        "text": "Point B, because it is associated with the lower price"
+      },
+      {
+        "label": "C",
+        "text": "Point A, because it is farther from the quantity axis"
+      },
+      {
+        "label": "D",
+        "text": "Point A, because it is associated with the higher price"
+      },
+      {
+        "label": "E",
+        "text": "Point B, because it represents a rightward demand shift"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Point B has a lower price and a larger quantity than point A. Both points lie on the same demand curve.",
+    "reference": "MKT-3.A | MKT-3.A.4 | Skill 1.B",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. A downward-sloping curve labeled D contains point A at a high price and low quantity and point B at a lower price and larger quantity.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 6.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 30,
+            "y": 70
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 65,
+            "y": 35
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 30,
+            "y": 70,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 65,
+            "y": 35,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "A change in a good's own price causes",
+    "options": [
+      {
+        "label": "A",
+        "text": "A rightward shift of its demand curve at every price"
+      },
+      {
+        "label": "B",
+        "text": "A change in consumer preferences for the good"
+      },
+      {
+        "label": "C",
+        "text": "Movement along the demand curve"
+      },
+      {
+        "label": "D",
+        "text": "A change in the number of buyers in its market"
+      },
+      {
+        "label": "E",
+        "text": "A leftward shift of its demand curve at every price"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Changing the good's own price changes the quantity consumers choose on the existing demand curve.",
+    "reference": "MKT-3.A | MKT-3.A.4 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "An increase in demand for a good means that consumers",
+    "options": [
+      {
+        "label": "A",
+        "text": "Buy more at each possible price"
+      },
+      {
+        "label": "B",
+        "text": "Buy more only because the good's current price has fallen"
+      },
+      {
+        "label": "C",
+        "text": "Move upward and leftward along the existing demand curve"
+      },
+      {
+        "label": "D",
+        "text": "Face a smaller quantity range on the existing demand schedule"
+      },
+      {
+        "label": "E",
+        "text": "Are willing to buy less at every possible price"
+      }
+    ],
+    "answer": "A",
+    "explanation": "When demand increases, consumers are willing and able to buy more at each price. The demand curve shifts right.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "For a normal good, an increase in consumer income will most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "Decrease demand for the good"
+      },
+      {
+        "label": "B",
+        "text": "Increase demand for the good"
+      },
+      {
+        "label": "C",
+        "text": "Decrease quantity demanded by raising its price"
+      },
+      {
+        "label": "D",
+        "text": "Leave demand unchanged at every price"
+      },
+      {
+        "label": "E",
+        "text": "Increase quantity demanded by lowering its price"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Consumers buy more of a normal good at each price when their income rises, shifting demand right.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, the change from point A to point B is best described as",
+    "options": [
+      {
+        "label": "A",
+        "text": "A decrease in quantity demanded caused by a lower price"
+      },
+      {
+        "label": "B",
+        "text": "Higher quantity demanded after a price decrease"
+      },
+      {
+        "label": "C",
+        "text": "A decrease in demand caused by weaker preferences"
+      },
+      {
+        "label": "D",
+        "text": "An increase in demand caused by more consumers"
+      },
+      {
+        "label": "E",
+        "text": "An increase in demand caused by an increase in income"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The move to B lowers price and raises quantity on D1. It therefore represents an increase in quantity demanded.",
+    "reference": "MKT-3.A | MKT-3.A.4 | Skill 1.B",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. A downward-sloping curve labeled D1 contains point A at price P1 and quantity Q1 and point B at lower price P2 and larger quantity Q2. An arrow points from A to B.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 6.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 30,
+            "y": 70
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 65,
+            "y": 35
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 30,
+            "y": 70,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 65,
+            "y": 35,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "For an inferior good, an increase in consumer income will most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increase quantity demanded along the same curve"
+      },
+      {
+        "label": "B",
+        "text": "Decrease demand for the good"
+      },
+      {
+        "label": "C",
+        "text": "Increase demand for the good"
+      },
+      {
+        "label": "D",
+        "text": "Leave demand unchanged because income is not a price"
+      },
+      {
+        "label": "E",
+        "text": "Decrease quantity demanded along the same curve"
+      }
+    ],
+    "answer": "B",
+    "explanation": "An inferior good is one consumers buy less of as income rises. Higher income shifts its demand curve left.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "If tea and coffee are substitutes, an increase in the price of tea will most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increase the quantity demanded of coffee along its curve"
+      },
+      {
+        "label": "B",
+        "text": "Decrease the demand for coffee"
+      },
+      {
+        "label": "C",
+        "text": "Decrease the quantity demanded of coffee along its curve"
+      },
+      {
+        "label": "D",
+        "text": "Increase the demand for coffee"
+      },
+      {
+        "label": "E",
+        "text": "Leave the demand for coffee unchanged at every price"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A higher tea price makes coffee a more attractive substitute. Consumers demand more coffee at each coffee price.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "If printers and ink cartridges are complements, a decrease in the price of printers will most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increase the demand for ink cartridges"
+      },
+      {
+        "label": "B",
+        "text": "Leave the demand for ink cartridges unchanged at every price"
+      },
+      {
+        "label": "C",
+        "text": "Decrease the quantity demanded of ink cartridges along its curve"
+      },
+      {
+        "label": "D",
+        "text": "Decrease the demand for ink cartridges"
+      },
+      {
+        "label": "E",
+        "text": "Increase the quantity demanded of ink cartridges along its curve"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Cheaper printers encourage printer purchases. Since ink is used with printers, demand for ink cartridges increases.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, which of the following could have caused the shift from D1 to D2 for a normal good?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An increase in consumer income"
+      },
+      {
+        "label": "B",
+        "text": "An increase in the good's current price"
+      },
+      {
+        "label": "C",
+        "text": "A decrease in consumer income"
+      },
+      {
+        "label": "D",
+        "text": "A decrease in the number of consumers"
+      },
+      {
+        "label": "E",
+        "text": "A decrease in the good's current price"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The rightward shift to D2 shows greater demand at each price. Higher income produces this change for a normal good.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 1.B",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. Two downward-sloping curves are labeled D1 and D2, with D2 entirely to the right of D1. An arrow points from D1 toward D2.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 6.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "D2",
+            "label": "D2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 26.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 26.0
+              }
+            ]
+          }
+        ],
+        "points": [],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "An increase in consumers' preference for a good will most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "Shift the demand curve for the good to the right"
+      },
+      {
+        "label": "B",
+        "text": "Shift the demand curve for the good to the left"
+      },
+      {
+        "label": "C",
+        "text": "Leave the demand curve in its original position"
+      },
+      {
+        "label": "D",
+        "text": "Cause movement downward along the demand curve"
+      },
+      {
+        "label": "E",
+        "text": "Cause movement upward along the demand curve"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A stronger preference makes consumers willing to buy more at the same prices, shifting demand right.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "An increase in the number of buyers in a market will most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increase quantity demanded on one consumer's curve"
+      },
+      {
+        "label": "B",
+        "text": "Decrease market demand at each price"
+      },
+      {
+        "label": "C",
+        "text": "Leave market demand unchanged at each price"
+      },
+      {
+        "label": "D",
+        "text": "Increase market demand at each price"
+      },
+      {
+        "label": "E",
+        "text": "Decrease quantity demanded on one consumer's curve"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Adding buyers adds their purchases to the market total at each price. Market demand therefore increases.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.6 | MKT-3.B.1 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "If consumers expect a good's price to rise next month, its current demand will most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "Remain unchanged because the expected price is not current"
+      },
+      {
+        "label": "B",
+        "text": "Decrease as some purchases are moved to the future"
+      },
+      {
+        "label": "C",
+        "text": "Increase only after the current price has decreased"
+      },
+      {
+        "label": "D",
+        "text": "Decrease only after the current price has increased"
+      },
+      {
+        "label": "E",
+        "text": "Increase as some purchases are moved to the present"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Consumers expecting a higher future price may buy now to avoid paying more later. This increases current demand.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.2 | MKT-3.B.1 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, which of the following is consistent with the shift shown for bus rides?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An increase in the number of people who regularly commute"
+      },
+      {
+        "label": "B",
+        "text": "An increase in the current price of a bus ride"
+      },
+      {
+        "label": "C",
+        "text": "An increase in preference for public transportation"
+      },
+      {
+        "label": "D",
+        "text": "A decrease in the number of people who regularly commute"
+      },
+      {
+        "label": "E",
+        "text": "A decrease in the current price of a bus ride"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Fewer commuters mean fewer potential buyers of bus rides. This reduces demand and shifts the curve left.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 1.B",
+    "graphDescription": "Price per bus ride is on the vertical axis and quantity of bus rides demanded is on the horizontal axis. Two downward-sloping curves are labeled D1 and D2, with D2 entirely to the left of D1. An arrow points from D1 toward D2.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 6.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "D2",
+            "label": "D2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 80
+              },
+              {
+                "x": 80.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "The market demand curve for a good is found by",
+    "options": [
+      {
+        "label": "A",
+        "text": "Selecting the individual demand curve with the most purchases"
+      },
+      {
+        "label": "B",
+        "text": "Subtracting the smallest individual demand from the largest"
+      },
+      {
+        "label": "C",
+        "text": "Adding the prices each consumer pays at each quantity"
+      },
+      {
+        "label": "D",
+        "text": "Averaging individual quantities demanded at each price"
+      },
+      {
+        "label": "E",
+        "text": "Adding individual quantities demanded at each price"
+      }
+    ],
+    "answer": "E",
+    "explanation": "At any given price, add the quantities demanded by all buyers. Repeating this across prices produces market demand.",
+    "reference": "MKT-3.A | MKT-3.A.6 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "At a price of $8, Ana demands 3 units and Ben demands 5 units. If they are the only buyers, market quantity demanded is",
+    "options": [
+      {
+        "label": "A",
+        "text": "5 units"
+      },
+      {
+        "label": "B",
+        "text": "8 units"
+      },
+      {
+        "label": "C",
+        "text": "15 units"
+      },
+      {
+        "label": "D",
+        "text": "3 units"
+      },
+      {
+        "label": "E",
+        "text": "2 units"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Both buyers face the same $8 price, so their quantities add to 3 + 5 = 8 units.",
+    "reference": "MKT-3.A | MKT-3.A.6 | Skill 1.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "Why are well-defined property rights important for a market system?",
+    "options": [
+      {
+        "label": "A",
+        "text": "They require every good to have the same demand curve"
+      },
+      {
+        "label": "B",
+        "text": "They ensure every consumer assigns the same value to property"
+      },
+      {
+        "label": "C",
+        "text": "They prevent consumer preferences from changing over time"
+      },
+      {
+        "label": "D",
+        "text": "They clarify who may use, exchange, and benefit from property"
+      },
+      {
+        "label": "E",
+        "text": "They make every buyer face the same income constraint"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Property rights identify who controls an asset and can transfer it. Buyers and sellers can exchange more confidently when these rights are clear.",
+    "reference": "MKT-3.A | MKT-3.A.1 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "A consumer who wants a concert ticket but cannot afford it is primarily facing",
+    "options": [
+      {
+        "label": "A",
+        "text": "A substitution effect"
+      },
+      {
+        "label": "B",
+        "text": "A market-demand calculation"
+      },
+      {
+        "label": "C",
+        "text": "A change in tastes"
+      },
+      {
+        "label": "D",
+        "text": "A diminishing-utility schedule"
+      },
+      {
+        "label": "E",
+        "text": "An income constraint"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The consumer's income limits what they can afford. Without enough money for the ticket, the desired purchase is outside that budget.",
+    "reference": "MKT-3.A | MKT-3.A.3 | Skill 1.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "A commuter chooses a nearby grocery store because only 20 minutes are available to shop. This decision best illustrates",
+    "options": [
+      {
+        "label": "A",
+        "text": "A substitution effect caused by relative prices"
+      },
+      {
+        "label": "B",
+        "text": "A movement along a market demand curve"
+      },
+      {
+        "label": "C",
+        "text": "A change in market demand caused by more buyers"
+      },
+      {
+        "label": "D",
+        "text": "An income effect caused by a price change"
+      },
+      {
+        "label": "E",
+        "text": "A time constraint affecting consumer choice"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Only stores reachable within the available 20 minutes are practical options. The time constraint therefore affects the commuter's choice.",
+    "reference": "MKT-3.A | MKT-3.A.3 | Skill 1.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, a decrease in the good's price from P1 to P2 causes",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quantity demanded to increase from Q1 to Q2"
+      },
+      {
+        "label": "B",
+        "text": "Demand to decrease along the same curve"
+      },
+      {
+        "label": "C",
+        "text": "Quantity demanded to decrease from Q2 to Q1"
+      },
+      {
+        "label": "D",
+        "text": "Demand to increase from D1 to D2"
+      },
+      {
+        "label": "E",
+        "text": "The number of buyers to increase automatically"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Moving from P1 to the lower P2 on D1 raises quantity demanded from Q1 to Q2.",
+    "reference": "MKT-3.A | MKT-3.A.4 | Skill 1.B",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. A downward-sloping curve labeled D1 contains point A at price P1 and quantity Q1 and point B at lower price P2 and larger quantity Q2. Dashed guides connect both points to their labeled axis values.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 6.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 30,
+            "y": 70
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 65,
+            "y": 35
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 30,
+            "y": 70,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 65,
+            "y": 35,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "Diminishing marginal utility helps explain the downward slope of demand because",
+    "options": [
+      {
+        "label": "A",
+        "text": "Additional units generally provide more extra satisfaction, so buyers accept higher prices"
+      },
+      {
+        "label": "B",
+        "text": "Lower incomes generally increase purchasing power, so buyers purchase more units"
+      },
+      {
+        "label": "C",
+        "text": "Additional units generally provide less extra satisfaction, so buyers require lower prices"
+      },
+      {
+        "label": "D",
+        "text": "Additional buyers generally reduce market demand, so each consumer purchases fewer units"
+      },
+      {
+        "label": "E",
+        "text": "Higher expected prices generally reduce current purchases, so buyers postpone consumption"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Successive units usually provide less additional satisfaction. Consumers consequently need a lower price to make buying those extra units worthwhile.",
+    "reference": "MKT-3.A | MKT-3.A.5 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "The substitution effect of a decrease in a good's price predicts that consumers will",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand less of every alternative because their money income has fallen"
+      },
+      {
+        "label": "B",
+        "text": "Purchase more of the good because it is cheaper relative to alternatives"
+      },
+      {
+        "label": "C",
+        "text": "Purchase less of the good because it is cheaper relative to alternatives"
+      },
+      {
+        "label": "D",
+        "text": "Shift the good's demand curve right because its own price is lower"
+      },
+      {
+        "label": "E",
+        "text": "Shift the good's demand curve left because its own price is lower"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The price decrease makes the good cheaper relative to alternatives. Consumers substitute toward it and buy more.",
+    "reference": "MKT-3.A | MKT-3.A.5 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "The income effect of a decrease in a good's price occurs because the lower price",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increases the consumer's nominal income by the price change"
+      },
+      {
+        "label": "B",
+        "text": "Decreases the purchasing power of the consumer's income"
+      },
+      {
+        "label": "C",
+        "text": "Increases the number of buyers included in market demand"
+      },
+      {
+        "label": "D",
+        "text": "Increases the purchasing power of the consumer's income"
+      },
+      {
+        "label": "E",
+        "text": "Decreases the number of alternatives available to the consumer"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A lower price lets the same income buy more goods and services. The resulting increase in real purchasing power creates the income effect.",
+    "reference": "MKT-3.A | MKT-3.A.5 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "A demand curve may also be interpreted as a marginal benefit curve because it shows",
+    "options": [
+      {
+        "label": "A",
+        "text": "The number of consumers willing to enter the market at each price"
+      },
+      {
+        "label": "B",
+        "text": "The minimum income consumers need to purchase every available unit"
+      },
+      {
+        "label": "C",
+        "text": "The total satisfaction consumers receive from all units purchased"
+      },
+      {
+        "label": "D",
+        "text": "The change in purchasing power created by each additional buyer"
+      },
+      {
+        "label": "E",
+        "text": "The maximum price consumers are willing to pay for each additional unit"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Willingness to pay for one additional unit measures its marginal benefit. A demand curve shows these values for successive units.",
+    "reference": "MKT-3.A | MKT-3.A.4 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "Which statement correctly distinguishes demand from quantity demanded?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand is an amount at one price; quantity demanded is the full price-quantity relationship"
+      },
+      {
+        "label": "B",
+        "text": "Demand applies to individuals; quantity demanded applies only to an entire market"
+      },
+      {
+        "label": "C",
+        "text": "Demand is the full price-quantity relationship; quantity demanded is an amount at one price"
+      },
+      {
+        "label": "D",
+        "text": "Demand changes only with own-price; quantity demanded changes only with consumer income"
+      },
+      {
+        "label": "E",
+        "text": "Demand measures willingness to buy; quantity demanded measures willingness without ability"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Demand is the complete relationship between prices and purchases. Quantity demanded is the amount consumers choose at one particular price.",
+    "reference": "MKT-3.A | MKT-3.A.3 | MKT-3.A.4 | Skill 1.D",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "A law prohibiting minors from purchasing a particular product primarily changes their consumer decisions by imposing",
+    "options": [
+      {
+        "label": "A",
+        "text": "Diminishing marginal utility"
+      },
+      {
+        "label": "B",
+        "text": "A legal constraint"
+      },
+      {
+        "label": "C",
+        "text": "A substitution effect"
+      },
+      {
+        "label": "D",
+        "text": "An income effect"
+      },
+      {
+        "label": "E",
+        "text": "A market-demand summation"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The prohibition makes the purchase legally unavailable to minors. It therefore limits their feasible choices through a legal constraint.",
+    "reference": "MKT-3.A | MKT-3.A.3 | Skill 1.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 31,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which combination of events is represented by the movement from A to B and the shift from D1 to D2?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A decrease in the good's price, followed by an increase in consumer preference"
+      },
+      {
+        "label": "B",
+        "text": "An increase in consumer income, followed by a decrease in the good's price"
+      },
+      {
+        "label": "C",
+        "text": "An expected future price decrease, followed by an increase in the good's price"
+      },
+      {
+        "label": "D",
+        "text": "A decrease in the number of buyers, followed by an increase in the good's price"
+      },
+      {
+        "label": "E",
+        "text": "An increase in the good's price, followed by a decrease in consumer preference"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A to B is a price decrease along D1, which increases quantity demanded. The later shift to D2 reflects stronger demand at every price, such as from greater preference.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.4 | MKT-3.B.1 | Skill 2.B",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. D1 and D2 slope downward, with D2 to the right of D1. Point A is high on D1, point B is lower and to the right on D1, and point C is directly right of B on D2 at the same price.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 6.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "D2",
+            "label": "D2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 26.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 26.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 30,
+            "y": 70
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 60,
+            "y": 40
+          },
+          {
+            "id": "C",
+            "label": "C",
+            "x": 80,
+            "y": 40
+          }
+        ],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "difficulty": "Medium",
+    "prompt": "Household incomes increase, and purchases of restaurant meals rise at every listed price. Which conclusion is best supported?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The market demand curve for meals must have shifted left"
+      },
+      {
+        "label": "B",
+        "text": "The households moved upward along their demand curves"
+      },
+      {
+        "label": "C",
+        "text": "Restaurant meals are a normal good for these households"
+      },
+      {
+        "label": "D",
+        "text": "Restaurant meals are an inferior good for these households"
+      },
+      {
+        "label": "E",
+        "text": "The own-price of restaurant meals must have decreased"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Purchases increase at every price after income rises. That positive relationship between income and demand identifies restaurant meals as a normal good.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 33,
+    "difficulty": "Medium",
+    "prompt": "A worker receives a raise and purchases fewer instant noodles at every price. The worker's demand behavior indicates that instant noodles are",
+    "options": [
+      {
+        "label": "A",
+        "text": "A substitute good whose quantity demanded falls as price rises"
+      },
+      {
+        "label": "B",
+        "text": "An inferior good whose demand decreases as income rises"
+      },
+      {
+        "label": "C",
+        "text": "A complementary good whose demand rises as income rises"
+      },
+      {
+        "label": "D",
+        "text": "A normal good whose demand increases as income rises"
+      },
+      {
+        "label": "E",
+        "text": "A normal good whose quantity demanded rises as price falls"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The worker demands fewer noodles after the raise. This negative income-demand relationship makes noodles an inferior good for that worker.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "Movie tickets and streaming subscriptions are substitutes. If streaming subscription prices decrease, which of the following will most likely occur?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quantity demanded of movie tickets will increase along its curve"
+      },
+      {
+        "label": "B",
+        "text": "Demand for movie tickets will decrease at every ticket price"
+      },
+      {
+        "label": "C",
+        "text": "Demand for movie tickets will increase at every ticket price"
+      },
+      {
+        "label": "D",
+        "text": "Demand for movie tickets will remain unchanged at every ticket price"
+      },
+      {
+        "label": "E",
+        "text": "Quantity demanded of movie tickets will decrease along its curve"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Lower streaming prices make streaming more attractive compared with movie tickets. Demand for movie tickets therefore falls.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 3.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, the shift in demand for Good X is most consistent with which event?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A decrease in the current price of Good X"
+      },
+      {
+        "label": "B",
+        "text": "A decrease in consumers' preference for Good X"
+      },
+      {
+        "label": "C",
+        "text": "An increase in the current price of Good X"
+      },
+      {
+        "label": "D",
+        "text": "An increase in the price of a substitute for Good X"
+      },
+      {
+        "label": "E",
+        "text": "A decrease in the price of a substitute for Good X"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A more expensive substitute encourages consumers to choose Good X instead. This shifts X's demand right from D1 to D2.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 2.A",
+    "graphDescription": "Price of Good X is on the vertical axis and quantity of Good X demanded is on the horizontal axis. Two downward- sloping curves are labeled D1 and D2, with D2 to the right of D1. A rightward arrow connects the curves.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 6.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "D2",
+            "label": "D2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 26.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 26.0
+              }
+            ]
+          }
+        ],
+        "points": [],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "If smartphones and protective cases are complements, an increase in the price of smartphones will most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "Leave demand for cases unchanged because only smartphone prices changed"
+      },
+      {
+        "label": "B",
+        "text": "Decrease quantity demanded of cases because the case price has increased"
+      },
+      {
+        "label": "C",
+        "text": "Increase demand for protective cases because smartphones are now more valuable"
+      },
+      {
+        "label": "D",
+        "text": "Increase quantity demanded of cases because the case price has decreased"
+      },
+      {
+        "label": "E",
+        "text": "Decrease demand for protective cases because fewer smartphones are purchased"
+      }
+    ],
+    "answer": "E",
+    "explanation": "More expensive smartphones lead to fewer smartphone purchases. Since cases are purchased for smartphones, demand for cases decreases.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "Consumers expect laptop prices to fall substantially next month. Which of the following will most likely occur in the current month?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Current laptop demand will decrease as consumers postpone purchases"
+      },
+      {
+        "label": "B",
+        "text": "Current laptop quantity demanded will decrease because today's price rose"
+      },
+      {
+        "label": "C",
+        "text": "Current laptop demand will remain unchanged until next month's price changes"
+      },
+      {
+        "label": "D",
+        "text": "Current laptop quantity demanded will increase because today's price fell"
+      },
+      {
+        "label": "E",
+        "text": "Current laptop demand will increase as consumers accelerate purchases"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Consumers can save money by waiting for next month's lower prices. Postponed purchases reduce current laptop demand.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.2 | MKT-3.B.1 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "A university opens a new residence hall near several restaurants. If the residents become potential restaurant customers, the change will most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "Shift the market demand for restaurant meals to the right"
+      },
+      {
+        "label": "B",
+        "text": "Shift the market demand for restaurant meals to the left"
+      },
+      {
+        "label": "C",
+        "text": "Shift each existing customer's demand curve to the right"
+      },
+      {
+        "label": "D",
+        "text": "Cause movement up each existing customer's demand curve"
+      },
+      {
+        "label": "E",
+        "text": "Cause movement down the existing market demand curve"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The residence hall adds potential customers to the local market. Their purchases raise restaurant demand at each price.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.6 | MKT-3.B.1 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, what does the horizontal distance between D1 and D2 at price P represent?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The decrease in quantity demanded caused by a higher own-price"
+      },
+      {
+        "label": "B",
+        "text": "The increase in quantity demanded caused by a lower own-price"
+      },
+      {
+        "label": "C",
+        "text": "The increase in marginal utility from consuming fewer units"
+      },
+      {
+        "label": "D",
+        "text": "Additional quantity demanded at the given price"
+      },
+      {
+        "label": "E",
+        "text": "The decrease in market demand after the number of buyers rises"
+      }
+    ],
+    "answer": "D",
+    "explanation": "At price P, D2 shows more purchases than D1. The horizontal gap measures the additional quantity demanded at that unchanged price.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. D1 and D2 slope downward, with D2 to the right. A horizontal line at price P intersects D1 at Q1 and D2 at the larger quantity Q2; the interval from Q1 to Q2 is highlighted.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 6.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "D2",
+            "label": "D2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 26.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 26.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 45,
+            "y": 55
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 65,
+            "y": 55
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 45,
+            "y": 55,
+            "xLabel": "Q1",
+            "yLabel": "P"
+          },
+          {
+            "id": "guide1",
+            "x": 65,
+            "y": 55,
+            "xLabel": "Q2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "At a price of $12, three consumers demand 2, 4, and 5 units, respectively. At a price of $10, they demand 3, 5, and 7 units. Which pair gives market quantity demanded at the two prices?",
+    "options": [
+      {
+        "label": "A",
+        "text": "9 units at $12 and 12 units at $10"
+      },
+      {
+        "label": "B",
+        "text": "15 units at $12 and 11 units at $10"
+      },
+      {
+        "label": "C",
+        "text": "11 units at $12 and 12 units at $10"
+      },
+      {
+        "label": "D",
+        "text": "24 units at $12 and 30 units at $10"
+      },
+      {
+        "label": "E",
+        "text": "11 units at $12 and 15 units at $10"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Add the buyers' quantities separately at each price: 2 + 4 + 5 = 11 at $12, and 3 + 5 + 7 = 15 at $10.",
+    "reference": "MKT-3.A | MKT-3.A.6 | Skill 1.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "At a price of $6, market quantity demanded is 24 units. If two buyers demand 7 and 9 units, how many units does the third buyer demand?",
+    "options": [
+      {
+        "label": "A",
+        "text": "6 units"
+      },
+      {
+        "label": "B",
+        "text": "10 units"
+      },
+      {
+        "label": "C",
+        "text": "16 units"
+      },
+      {
+        "label": "D",
+        "text": "40 units"
+      },
+      {
+        "label": "E",
+        "text": "8 units"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Subtract the two known buyers from the market total. The third buyer demands 24 - 7 - 9 = 8 units.",
+    "reference": "MKT-3.A | MKT-3.A.6 | Skill 1.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "At every price, a new buyer demands 3 units of a good. If all original buyers' demands remain unchanged, market demand will",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increase only when the good's price falls"
+      },
+      {
+        "label": "B",
+        "text": "Increase by 3 units at each price"
+      },
+      {
+        "label": "C",
+        "text": "Increase by 3 percent at each price"
+      },
+      {
+        "label": "D",
+        "text": "Decrease by 3 units at each price"
+      },
+      {
+        "label": "E",
+        "text": "Remain unchanged because individual demand is unchanged"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The new buyer adds 3 units to purchases at every price. Market demand rises by that amount at each price.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.6 | MKT-3.B.1 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which relationship among the curves is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "At each quantity, DM equals the smaller price on DA or DB"
+      },
+      {
+        "label": "B",
+        "text": "At each price, DM equals the quantities on DA and DB added together"
+      },
+      {
+        "label": "C",
+        "text": "At each price, DM equals the larger quantity on DA or DB"
+      },
+      {
+        "label": "D",
+        "text": "At each price, DM equals the average quantity on DA and DB"
+      },
+      {
+        "label": "E",
+        "text": "At each quantity, DM equals the prices on DA and DB added together"
+      }
+    ],
+    "answer": "B",
+    "explanation": "At a common price, add the quantities on DA and DB. Their sum gives the quantity on market demand DM.",
+    "reference": "MKT-3.A | MKT-3.A.6 | Skill 2.C",
+    "graphDescription": "Three aligned panels use price on each vertical axis and quantity demanded on each horizontal axis. The first two panels show individual curves DA and DB. The third shows market curve DM; at labeled price P, QA on DA plus QB on DB equals QM on DM.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "DA",
+            "label": "DA",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 70
+              },
+              {
+                "x": 70.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 20,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 20,
+            "y": 50,
+            "xLabel": "QA",
+            "yLabel": "P"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      },
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "DB",
+            "label": "DB",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 80
+              },
+              {
+                "x": 80.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 30,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 30,
+            "y": 50,
+            "xLabel": "QB",
+            "yLabel": "P"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      },
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "DM",
+            "label": "DM",
+            "style": "primary",
+            "points": [
+              {
+                "x": 6.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 50,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "QM",
+            "yLabel": "P"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "A consumer chooses a more expensive nearby pharmacy rather than a distant discount pharmacy because medication is needed immediately. Which factor best explains the choice?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The consumer's income effect raises nominal purchasing power"
+      },
+      {
+        "label": "B",
+        "text": "The consumer's time constraint changes the feasible alternatives"
+      },
+      {
+        "label": "C",
+        "text": "The market demand curve excludes the consumer from aggregation"
+      },
+      {
+        "label": "D",
+        "text": "A change in the medicine's own price shifts the demand curve"
+      },
+      {
+        "label": "E",
+        "text": "Diminishing marginal utility makes the distant pharmacy unavailable"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The medication is needed immediately, making the longer trip impractical. The tighter time constraint explains choosing the nearby pharmacy despite its price.",
+    "reference": "MKT-3.A | MKT-3.A.2 | MKT-3.A.3 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "A city requires a permit before residents may purchase a restricted chemical. Holding prices constant, the requirement will most directly",
+    "options": [
+      {
+        "label": "A",
+        "text": "Reduce demand among residents who cannot obtain the permit"
+      },
+      {
+        "label": "B",
+        "text": "Reduce quantity demanded because the chemical's own price rose"
+      },
+      {
+        "label": "C",
+        "text": "Leave consumer choices unchanged because income is unchanged"
+      },
+      {
+        "label": "D",
+        "text": "Increase quantity demanded because the chemical's own price fell"
+      },
+      {
+        "label": "E",
+        "text": "Increase demand among residents who cannot obtain the permit"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Residents without the required permit can no longer make the purchase. Removing their purchases reduces demand at each price.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.3 | MKT-3.B.1 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "Secure ownership records make buyers more willing to purchase used bicycles because buyers can verify that sellers may legally transfer them. This outcome best illustrates how property rights",
+    "options": [
+      {
+        "label": "A",
+        "text": "Create an income effect by lowering each bicycle's price"
+      },
+      {
+        "label": "B",
+        "text": "Increase demand by raising every buyer's money income"
+      },
+      {
+        "label": "C",
+        "text": "Support exchange by clarifying control and transfer rights"
+      },
+      {
+        "label": "D",
+        "text": "Convert individual demand directly into market quantity"
+      },
+      {
+        "label": "E",
+        "text": "Eliminate diminishing marginal utility from bicycle ownership"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Ownership records show that the seller can legally transfer the bicycle. This reduces uncertainty and supports exchange.",
+    "reference": "MKT-3.A | MKT-3.A.1 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "Demand for a normal good will unambiguously increase if consumer income rises and",
+    "options": [
+      {
+        "label": "A",
+        "text": "The price of a substitute also rises"
+      },
+      {
+        "label": "B",
+        "text": "The number of buyers decreases"
+      },
+      {
+        "label": "C",
+        "text": "The price of a substitute decreases"
+      },
+      {
+        "label": "D",
+        "text": "Consumers expect a lower future price"
+      },
+      {
+        "label": "E",
+        "text": "The price of a complement increases"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Higher income raises demand for the normal good, and a higher substitute price directs buyers toward it. Both effects shift demand right.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which statement best explains why demand moved from D1 to D2 despite an increase in consumer income for this normal good?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The income increase reduced demand because the good must be normal"
+      },
+      {
+        "label": "B",
+        "text": "Another determinant reduced demand by more than the income increase raised it"
+      },
+      {
+        "label": "C",
+        "text": "Another determinant raised demand by more than the income increase did"
+      },
+      {
+        "label": "D",
+        "text": "The good's current price increased and shifted demand from D1 to D2"
+      },
+      {
+        "label": "E",
+        "text": "The income increase caused movement upward along D1 instead of a shift"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Higher income pushes a normal good's demand right, yet the graph shows a leftward shift. Another demand-reducing change must have outweighed the income effect.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 2.B",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. Demand shifts left from D1 to D2. A note states that consumer income increased and the good is normal, while the graph shows the net change after all determinants changed.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 6.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "D2",
+            "label": "D2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 80
+              },
+              {
+                "x": 80.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "The price of a normal good decreases at the same time consumer income increases. Which statement correctly describes the two effects?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand shifts left while quantity demanded increases along the original curve"
+      },
+      {
+        "label": "B",
+        "text": "Quantity demanded increases twice along the original demand curve"
+      },
+      {
+        "label": "C",
+        "text": "Quantity demanded increases along a demand curve, and the demand curve shifts right"
+      },
+      {
+        "label": "D",
+        "text": "Quantity demanded decreases along a demand curve, and the demand curve shifts left"
+      },
+      {
+        "label": "E",
+        "text": "Demand shifts right twice because both changes are demand determinants"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The price decrease raises quantity demanded along the curve. The income increase separately shifts demand right because the good is normal.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.4 | MKT-3.B.1 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "Consumer income rises for a normal good while the good's own price remains unchanged. The resulting increase in purchases is best described as",
+    "options": [
+      {
+        "label": "A",
+        "text": "A decrease in demand measured at the unchanged price"
+      },
+      {
+        "label": "B",
+        "text": "An increase in demand measured at the unchanged price"
+      },
+      {
+        "label": "C",
+        "text": "A movement along the original curve caused by higher income"
+      },
+      {
+        "label": "D",
+        "text": "A decrease in quantity demanded caused by a higher own-price"
+      },
+      {
+        "label": "E",
+        "text": "An increase in quantity demanded caused by a lower own-price"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Income changes the quantity consumers want at every price. Purchases rise at the unchanged price because the normal good's demand shifts right.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "The price of Good X decreases while the price of its substitute, Good Y, increases. Which statement about Good X is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both changes increase the quantity of Good X purchased, but through different mechanisms"
+      },
+      {
+        "label": "B",
+        "text": "The effects necessarily offset because one changes price and the other changes demand"
+      },
+      {
+        "label": "C",
+        "text": "The lower price of X shifts its demand right, while the higher price of Y causes movement"
+      },
+      {
+        "label": "D",
+        "text": "The lower price of X causes movement, while the higher price of Y shifts demand left"
+      },
+      {
+        "label": "E",
+        "text": "Both changes decrease the quantity of Good X purchased through the same mechanism"
+      }
+    ],
+    "answer": "A",
+    "explanation": "X's lower price increases purchases along its demand curve. Y's higher price makes X more attractive as a substitute and shifts X's demand right.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.4 | MKT-3.B.1 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "Consumers expect the price of game consoles to rise next month while the current price of complementary games increases. What is the effect on current demand for consoles?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It remains unchanged because neither change is the console's current price"
+      },
+      {
+        "label": "B",
+        "text": "Current console demand will increase because both changes make current console purchases relatively more attractive"
+      },
+      {
+        "label": "C",
+        "text": "It increases because the game-price increase causes movement down the console demand curve"
+      },
+      {
+        "label": "D",
+        "text": "It decreases because both changes make current console purchases less attractive"
+      },
+      {
+        "label": "E",
+        "text": "It is indeterminate because the expectation raises demand while the game-price increase lowers it"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Expected higher console prices encourage buying now, while more expensive complementary games discourage console purchases. The net effect depends on which change is larger.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which sequence is represented by the change from A to B and then from B to C?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A decrease in demand followed by an increase in the good's own price"
+      },
+      {
+        "label": "B",
+        "text": "An increase in demand followed by a decrease in the good's own price"
+      },
+      {
+        "label": "C",
+        "text": "An increase in the good's own price followed by an increase in demand"
+      },
+      {
+        "label": "D",
+        "text": "An increase in quantity demanded followed by a decrease in demand"
+      },
+      {
+        "label": "E",
+        "text": "A decrease in the good's own price followed by a decrease in demand"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A to B raises purchases at the same price by shifting demand right. B to C then lowers price along D2 and increases quantity demanded.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.4 | MKT-3.B.1 | Skill 2.B",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. D2 lies to the right of D1. Point A is on D1 and point B is directly right of A on D2 at price P1. Point C is lower and to the right of B on D2 at price P2.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 6.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "D2",
+            "label": "D2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 26.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 26.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 35,
+            "y": 65
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 55,
+            "y": 65
+          },
+          {
+            "id": "C",
+            "label": "C",
+            "x": 85,
+            "y": 35
+          }
+        ],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "A consumer is willing to pay $18 for a fourth unit and $14 for a fifth unit. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The marginal benefit of the fifth unit is $14 and is lower than that of the fourth"
+      },
+      {
+        "label": "B",
+        "text": "The consumer's market demand is $18 at four units and $32 at five units because willingness to pay is added vertically"
+      },
+      {
+        "label": "C",
+        "text": "The decline in willingness to pay shows that demand shifted left between units"
+      },
+      {
+        "label": "D",
+        "text": "The marginal benefit of the fifth unit is $32 because willingness to pay is cumulative"
+      },
+      {
+        "label": "E",
+        "text": "The marginal benefit of the fourth unit is $14 and rises for the fifth unit"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The fifth unit's $14 willingness to pay is its marginal benefit. It is $4 below the fourth unit's $18 benefit.",
+    "reference": "MKT-3.A | MKT-3.A.4 | MKT-3.A.5 | Skill 2.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "Which of the following best explains why a consumer may buy a second slice of pizza only at a lower price than the first?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The second slice increases the consumer's nominal income less than the first"
+      },
+      {
+        "label": "B",
+        "text": "The second slice shifts the consumer's demand curve farther to the right"
+      },
+      {
+        "label": "C",
+        "text": "The first slice adds another buyer to the market demand curve"
+      },
+      {
+        "label": "D",
+        "text": "The second slice provides less marginal utility than the first slice"
+      },
+      {
+        "label": "E",
+        "text": "The first slice creates a legal constraint that applies to later slices"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The second slice adds less satisfaction than the first. A lower price is therefore needed to make that additional slice worth buying.",
+    "reference": "MKT-3.A | MKT-3.A.5 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "A 20 percent decrease in the price of a frequently purchased good causes a consumer to buy more of it. Which two mechanisms can both contribute to this response?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The substitution effect and the increase in real purchasing power"
+      },
+      {
+        "label": "B",
+        "text": "The substitution effect and a decrease in real purchasing power"
+      },
+      {
+        "label": "C",
+        "text": "Diminishing marginal utility and a decrease in nominal income"
+      },
+      {
+        "label": "D",
+        "text": "A larger number of buyers and an increase in nominal income"
+      },
+      {
+        "label": "E",
+        "text": "A rightward demand shift and a smaller number of alternatives"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The lower price makes the good more attractive relative to substitutes. It also lets the same income purchase more, increasing real purchasing power.",
+    "reference": "MKT-3.A | MKT-3.A.5 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "At a price of $5, three buyers demand 8, 6, and 4 units. One buyer's demand then rises from 6 to 9 units at that price. What happens to market quantity demanded?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It increases from 18 units to 21 units"
+      },
+      {
+        "label": "B",
+        "text": "It decreases from 18 units to 15 units"
+      },
+      {
+        "label": "C",
+        "text": "It remains at 18 units because only one buyer changed"
+      },
+      {
+        "label": "D",
+        "text": "It increases from 14 units to 17 units"
+      },
+      {
+        "label": "E",
+        "text": "It increases from 18 units to 24 units"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Initial purchases total 8 + 6 + 4 = 18 units. The buyer's extra 3 units raise market quantity to 21.",
+    "reference": "MKT-3.A | MKT-3.A.6 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, at price P, which expression gives the quantity on the market demand curve DM?",
+    "options": [
+      {
+        "label": "A",
+        "text": "QB + P"
+      },
+      {
+        "label": "B",
+        "text": "QA + P"
+      },
+      {
+        "label": "C",
+        "text": "QA + QB"
+      },
+      {
+        "label": "D",
+        "text": "QB - QA"
+      },
+      {
+        "label": "E",
+        "text": "QA - QB"
+      }
+    ],
+    "answer": "C",
+    "explanation": "At P, add both buyers' quantities. The quantity on DM is QA + QB.",
+    "reference": "MKT-3.A | MKT-3.A.6 | Skill 1.C",
+    "graphDescription": "Three aligned panels show individual demand curves DA and DB and market demand curve DM. A horizontal guide at price P identifies quantities QA and QB in the first two panels and quantity QM in the market panel.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "DA",
+            "label": "DA",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 70
+              },
+              {
+                "x": 70.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 20,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 20,
+            "y": 50,
+            "xLabel": "QA",
+            "yLabel": "P"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      },
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "DB",
+            "label": "DB",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 80
+              },
+              {
+                "x": 80.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 30,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 30,
+            "y": 50,
+            "xLabel": "QB",
+            "yLabel": "P"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      },
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "DM",
+            "label": "DM",
+            "style": "primary",
+            "points": [
+              {
+                "x": 6.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 50,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "QM",
+            "yLabel": "P"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "The table shows individual quantities demanded at a price of $9: Kai demands 3 units, Lina demands 7, and Mo demands 0. If the price falls to $7 and their quantities become 5, 9, and 2, market quantity demanded increases by",
+    "options": [
+      {
+        "label": "A",
+        "text": "4 units"
+      },
+      {
+        "label": "B",
+        "text": "2 units"
+      },
+      {
+        "label": "C",
+        "text": "16 units"
+      },
+      {
+        "label": "D",
+        "text": "10 units"
+      },
+      {
+        "label": "E",
+        "text": "6 units"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Market purchases total 10 units at $9 and 16 units at $7. Quantity demanded therefore increases by 16 - 10 = 6 units.",
+    "reference": "MKT-3.A | MKT-3.A.4 | MKT-3.A.6 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "A regulation makes a service unavailable to consumers under age 18. Which observation would best demonstrate a decrease in market demand rather than movement along demand?",
+    "options": [
+      {
+        "label": "A",
+        "text": "At two different prices, total purchases follow the original demand schedule"
+      },
+      {
+        "label": "B",
+        "text": "At every listed price, total purchases fall after underage consumers leave the market"
+      },
+      {
+        "label": "C",
+        "text": "At one unchanged price, adult consumers purchase the same quantity as before"
+      },
+      {
+        "label": "D",
+        "text": "At a lower service price, all consumers purchase a larger total quantity"
+      },
+      {
+        "label": "E",
+        "text": "At a higher service price, all eligible consumers purchase a smaller total quantity along the original curve"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Underage consumers leave the market at all prices after the regulation. Their removal reduces market demand rather than creating a price-driven movement along the curve.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.3 | MKT-3.A.6 | MKT-3.B.1 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "A shopper values two stores equally but chooses the closer one after the available shopping time falls from one hour to twenty minutes. This change shows that",
+    "options": [
+      {
+        "label": "A",
+        "text": "A time constraint affects only market demand, not individual decisions"
+      },
+      {
+        "label": "B",
+        "text": "A shorter trip creates a movement along the product's demand curve"
+      },
+      {
+        "label": "C",
+        "text": "Unchanged preferences require the shopper to make the same choice"
+      },
+      {
+        "label": "D",
+        "text": "A tighter time constraint can alter the choice even when preferences are unchanged"
+      },
+      {
+        "label": "E",
+        "text": "A tighter time constraint must reduce the shopper's nominal income before any purchase choice can change"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Less shopping time makes the farther store harder to use. The consumer can change stores because feasible choices change even when preferences stay the same.",
+    "reference": "MKT-3.A | MKT-3.A.2 | MKT-3.A.3 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "Which of the following would most directly weaken a buyer's incentive to participate in a market for used electronics?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Clear records showing that sellers own the devices they offer"
+      },
+      {
+        "label": "B",
+        "text": "A larger number of buyers included in the market demand schedule"
+      },
+      {
+        "label": "C",
+        "text": "A higher expected future price for comparable electronic devices"
+      },
+      {
+        "label": "D",
+        "text": "Uncertainty about whether sellers have the right to transfer ownership"
+      },
+      {
+        "label": "E",
+        "text": "A lower current price for the device the buyer is considering"
+      }
+    ],
+    "answer": "D",
+    "explanation": "If the seller cannot securely transfer ownership, the buyer risks losing control of the purchase. That uncertainty weakens the incentive to buy.",
+    "reference": "MKT-3.A | MKT-3.A.1 | MKT-3.A.2 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which conclusion is valid?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quantity demanded increased because the good's own price fell from P1 to P2"
+      },
+      {
+        "label": "B",
+        "text": "Demand rises at both prices, not necessarily equally"
+      },
+      {
+        "label": "C",
+        "text": "Demand decreased at P2 because D2 is flatter than D1 at that price"
+      },
+      {
+        "label": "D",
+        "text": "Demand increased only at P1 because the curves are not parallel"
+      },
+      {
+        "label": "E",
+        "text": "Quantity demanded remained unchanged because both curves slope downward"
+      }
+    ],
+    "answer": "B",
+    "explanation": "D2 is farther right at both P1 and P2, so demand is higher at each price. The horizontal gaps can differ because demand shifts need not be parallel.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. Two downward-sloping, nonparallel curves are labeled D1 and D2, with D2 to the right of D1 at prices P1 and P2. Horizontal guides identify Q1 and Q2 on both curves.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 6.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "D2",
+            "label": "D2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 7.142857142857139,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 33.2
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 30,
+            "y": 70
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 60,
+            "y": 40
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 30,
+            "y": 70,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 60,
+            "y": 40,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "Demand for a normal good increases when income rises. Which additional change would reinforce that increase?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An increase in the price of a complement"
+      },
+      {
+        "label": "B",
+        "text": "A decrease in the price of a substitute"
+      },
+      {
+        "label": "C",
+        "text": "An increase in the number of buyers"
+      },
+      {
+        "label": "D",
+        "text": "An expectation that the good's future price will fall"
+      },
+      {
+        "label": "E",
+        "text": "A decrease in the number of buyers"
+      }
+    ],
+    "answer": "C",
+    "explanation": "More buyers add purchases to market demand at every price. This reinforces the increase caused by higher income for a normal good.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.6 | MKT-3.B.1 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "Consumer income rises for a normal good while the price of a substitute falls. What can be concluded about demand for the good?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand must increase because both determinants shift it to the right"
+      },
+      {
+        "label": "B",
+        "text": "Quantity demanded must decrease along the original demand curve"
+      },
+      {
+        "label": "C",
+        "text": "The direction is indeterminate because the two determinants have opposing effects"
+      },
+      {
+        "label": "D",
+        "text": "Quantity demanded must increase because the own-price is unchanged"
+      },
+      {
+        "label": "E",
+        "text": "Demand must decrease because both determinants shift it to the left"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Higher income raises demand for the normal good, but a cheaper substitute draws buyers away. Their relative effects are needed to determine the net shift.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "Consumers develop a stronger preference for a good at the same time its own price rises. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both changes cause rightward shifts because each increases willingness to buy"
+      },
+      {
+        "label": "B",
+        "text": "Demand shifts left, while the higher price causes movement downward along the new curve"
+      },
+      {
+        "label": "C",
+        "text": "Demand shifts right, while the higher price causes movement upward along the new curve"
+      },
+      {
+        "label": "D",
+        "text": "Demand remains fixed because preferences and price are changing simultaneously"
+      },
+      {
+        "label": "E",
+        "text": "Both changes cause movement because each changes the quantity purchased"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Greater preference shifts demand right. The higher price then moves the chosen quantity up and left along that new curve.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.4 | MKT-3.B.1 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "Income rises by the same amount for two consumers. Demand for Good A rises while demand for Good B falls. Which classification is supported?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Goods A and B are substitutes because their demands move oppositely"
+      },
+      {
+        "label": "B",
+        "text": "Both goods are normal because the consumers' nominal income increased"
+      },
+      {
+        "label": "C",
+        "text": "Good A is inferior and Good B is normal for these consumers"
+      },
+      {
+        "label": "D",
+        "text": "Good A is normal and Good B is inferior for these consumers"
+      },
+      {
+        "label": "E",
+        "text": "Goods A and B are complements because their demands move oppositely"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Good A's demand rises with income, making it normal. Good B's demand falls with income, making it inferior for these consumers.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "Based on the figures below, which statement correctly compares the effects of the same income increase?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand for both goods shifts left because the own-prices are unchanged"
+      },
+      {
+        "label": "B",
+        "text": "The normal good shows movement down its curve, while the inferior good shifts right"
+      },
+      {
+        "label": "C",
+        "text": "Demand for the normal good shifts right, while demand for the inferior good shifts left"
+      },
+      {
+        "label": "D",
+        "text": "Demand for both goods shifts right because purchasing power increased"
+      },
+      {
+        "label": "E",
+        "text": "The normal good shifts left, while the inferior good shows movement up its curve"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Income increases purchases of the normal good at each price and reduces purchases of the inferior good. Their demand curves shift right and left, respectively.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 2.C",
+    "graphDescription": "Two panels have price on the vertical axis and quantity demanded on the horizontal axis. In the normal-good panel, demand shifts right from DN1 to DN2. In the inferior-good panel, demand shifts left from DI1 to DI2. A note states that consumer income increased in both markets.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "DN1",
+            "label": "DN1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 6.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "DN2",
+            "label": "DN2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 26.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 26.0
+              }
+            ]
+          }
+        ],
+        "points": [],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      },
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "DI1",
+            "label": "DI1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 6.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "DI2",
+            "label": "DI2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 80
+              },
+              {
+                "x": 80.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "A product's current price is unchanged, but consumers expect it to become scarce and more expensive next month. Which observation is most consistent with the law of demand and the expectations effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher current demand without a current-price change"
+      },
+      {
+        "label": "B",
+        "text": "Current demand remains fixed because only future market conditions have changed"
+      },
+      {
+        "label": "C",
+        "text": "Current quantity demanded falls along the curve because next month's price is higher"
+      },
+      {
+        "label": "D",
+        "text": "Current demand shifts left because expected scarcity reduces current willingness to buy"
+      },
+      {
+        "label": "E",
+        "text": "Current quantity demanded rises along the curve because today's price is unchanged"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Expecting scarcity and higher future prices encourages earlier purchases. Current demand shifts right even though today's price stays the same.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.2 | MKT-3.B.1 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "Two consumers place the same value on a gym membership, but only one has sufficient income and time to attend. Which statement best explains their different purchase decisions?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Identical preferences require both consumers to have identical quantities demanded"
+      },
+      {
+        "label": "B",
+        "text": "Different time constraints cause movement along a shared market demand curve"
+      },
+      {
+        "label": "C",
+        "text": "Effective demand depends on ability to purchase and relevant constraints, not preference alone"
+      },
+      {
+        "label": "D",
+        "text": "Income affects demand only when the membership's own price changes"
+      },
+      {
+        "label": "E",
+        "text": "The consumer who does not purchase must receive greater marginal utility from membership"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A consumer must be willing and able to buy and use the membership. Income and time constraints can prevent a purchase despite a strong preference.",
+    "reference": "MKT-3.A | MKT-3.A.3 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 71,
+    "difficulty": "Hard",
+    "prompt": "At a price of $10, four consumers demand 6, 5, 4, and 3 units. The consumer demanding 5 units exits the market, while each remaining consumer increases demand by 2 units at that price. What is the new market quantity demanded?",
+    "options": [
+      {
+        "label": "A",
+        "text": "17 units"
+      },
+      {
+        "label": "B",
+        "text": "13 units"
+      },
+      {
+        "label": "C",
+        "text": "24 units"
+      },
+      {
+        "label": "D",
+        "text": "21 units"
+      },
+      {
+        "label": "E",
+        "text": "19 units"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Removing the 5-unit buyer leaves 6 + 4 + 3 = 13 units. Three remaining buyers each add 2, giving 13 + 6 = 19 units.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.6 | MKT-3.B.1 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 72,
+    "difficulty": "Hard",
+    "prompt": "At a price of $15, buyers A, B, and C demand 4, 0, and 3 units. At a price of $12, they demand 6, 2, and 5 units. Which statement correctly describes market demand?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Market quantity rises from 4 to 6 units because only buyer A purchases at both prices"
+      },
+      {
+        "label": "B",
+        "text": "Market demand shifts right by 6 units because price falls from $15 to $12"
+      },
+      {
+        "label": "C",
+        "text": "Market quantity falls from 13 to 7 units because lower prices reduce marginal benefit"
+      },
+      {
+        "label": "D",
+        "text": "Market quantity rises from 7 to 11 units because buyer B is excluded from horizontal summation"
+      },
+      {
+        "label": "E",
+        "text": "Market quantity rises from 7 to 13 units as price falls, including buyer B's entry at $12"
+      }
+    ],
+    "answer": "E",
+    "explanation": "At $15, market demand totals 4 + 0 + 3 = 7 units. At $12, it totals 6 + 2 + 5 = 13, including B's 2 units.",
+    "reference": "MKT-3.A | MKT-3.A.4 | MKT-3.A.6 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 73,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, which sequence of changes is represented by A to B to C?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A higher own-price decreases quantity demanded, then a demand increase reduces purchases at the new price"
+      },
+      {
+        "label": "B",
+        "text": "A demand decrease reduces purchases, then a higher own-price increases quantity demanded on the new curve"
+      },
+      {
+        "label": "C",
+        "text": "A lower own-price shifts demand right, then fewer buyers cause movement along the new curve"
+      },
+      {
+        "label": "D",
+        "text": "A demand increase raises purchases, then a lower own-price reduces quantity demanded on the new curve"
+      },
+      {
+        "label": "E",
+        "text": "A lower own-price increases quantity demanded, then a demand decrease reduces purchases at the new price"
+      }
+    ],
+    "answer": "E",
+    "explanation": "A to B lowers price on D1 and increases quantity demanded. B to C shifts demand left at the new price, reducing purchases.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.4 | MKT-3.B.1 | Skill 2.B",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. D1 is to the right of D2. Point A is high on D1 at P1, point B is lower on D1 at P2, and point C is directly left of B on D2 at P2. Arrows show A to B and B to C.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 6.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "D2",
+            "label": "D2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 80
+              },
+              {
+                "x": 80.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 30,
+            "y": 70
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 60,
+            "y": 40
+          },
+          {
+            "id": "C",
+            "label": "C",
+            "x": 40,
+            "y": 40
+          }
+        ],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "Demand for a normal good is affected by a rise in income, a fall in the price of a substitute, and an expected increase in the good's future price. Which conclusion is valid?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quantity demanded must rise because the good's current price is unchanged"
+      },
+      {
+        "label": "B",
+        "text": "Demand must rise because all three determinants increase current demand"
+      },
+      {
+        "label": "C",
+        "text": "Demand must fall because all three determinants decrease current demand"
+      },
+      {
+        "label": "D",
+        "text": "Indeterminate; the opposing effects have unknown sizes"
+      },
+      {
+        "label": "E",
+        "text": "Quantity demanded must fall along the curve because the substitute is cheaper"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Higher income and expected future price increases raise current demand. The cheaper substitute lowers it, so the combined direction depends on the sizes of these effects.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "At every price, a decrease in the price of a complement adds 6 units to demand for Good X, while the exit of several buyers removes 4 units. Which change occurs in market demand for Good X?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It decreases by 2 units at each price"
+      },
+      {
+        "label": "B",
+        "text": "It increases by 10 units at each price"
+      },
+      {
+        "label": "C",
+        "text": "It is indeterminate because two determinants changed"
+      },
+      {
+        "label": "D",
+        "text": "It increases by 2 units at each price"
+      },
+      {
+        "label": "E",
+        "text": "It decreases by 10 units at each price"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The cheaper complement adds 6 units while buyer exit subtracts 4 at each price. Net demand increases by 6 - 4 = 2 units at every price.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.6 | MKT-3.B.1 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "At a price of $20, three original buyers demand 5, 7, and 4 units. A fourth buyer enters demanding 6 units, while each original buyer reduces demand by 1 unit. What is the new market quantity demanded at $20?",
+    "options": [
+      {
+        "label": "A",
+        "text": "19 units"
+      },
+      {
+        "label": "B",
+        "text": "25 units"
+      },
+      {
+        "label": "C",
+        "text": "22 units"
+      },
+      {
+        "label": "D",
+        "text": "13 units"
+      },
+      {
+        "label": "E",
+        "text": "16 units"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The original buyers now demand 4 + 6 + 3 = 13 units. The entrant adds 6, producing a market total of 19.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.6 | MKT-3.B.1 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "At a price of $8, market quantity demanded is 30 units. Buyer A demands 12 units, and Buyer B demands twice as many units as Buyer C. If these are the only buyers, how many units does Buyer B demand?",
+    "options": [
+      {
+        "label": "A",
+        "text": "24 units"
+      },
+      {
+        "label": "B",
+        "text": "6 units"
+      },
+      {
+        "label": "C",
+        "text": "18 units"
+      },
+      {
+        "label": "D",
+        "text": "12 units"
+      },
+      {
+        "label": "E",
+        "text": "9 units"
+      }
+    ],
+    "answer": "D",
+    "explanation": "B and C together demand 30 - 12 = 18 units. Dividing this into three equal parts gives C = 6 and B = 12.",
+    "reference": "MKT-3.A | MKT-3.A.6 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "Based on the figures below, which statement correctly explains the shape of the market demand curve?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It shifts left because Buyer B's marginal benefit is initially below price"
+      },
+      {
+        "label": "B",
+        "text": "It shifts right because a lower price adds Buyer B to horizontal summation"
+      },
+      {
+        "label": "C",
+        "text": "It remains linear because individual quantities are averaged at each price"
+      },
+      {
+        "label": "D",
+        "text": "It becomes steeper because Buyer A leaves the market at the lower price"
+      },
+      {
+        "label": "E",
+        "text": "It becomes flatter after price falls enough for Buyer B to begin purchasing"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Below B's reservation price, both buyers contribute to market demand. Adding their quantity responses makes market demand flatter than when only A purchases.",
+    "reference": "MKT-3.A | MKT-3.A.4 | MKT-3.A.6 | Skill 2.C",
+    "graphDescription": "Three panels show individual demand curves DA and DB and market demand DM. DB reaches zero quantity at price P*, while DA still has positive quantity. The market curve has a kink at P*: above P* only A demands the good; below P* both individual quantities are horizontally summed.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "DA",
+            "label": "DA",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90
+              },
+              {
+                "x": 90.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 35,
+            "y": 55
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 35,
+            "y": 55,
+            "xLabel": "QA",
+            "yLabel": "P*"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      },
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "DB",
+            "label": "DB",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 55
+              },
+              {
+                "x": 70,
+                "y": 0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 0,
+            "y": 55
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 0,
+            "y": 55,
+            "xLabel": "0",
+            "yLabel": "P*"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      },
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "DM",
+            "label": "DM",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10,
+                "y": 85
+              },
+              {
+                "x": 35,
+                "y": 55
+              },
+              {
+                "x": 85,
+                "y": 25
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "K",
+            "label": "K",
+            "x": 35,
+            "y": 55
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 35,
+            "y": 55,
+            "yLabel": "PK"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "A digital marketplace introduces verified ownership records and lowers the time needed to confirm a seller's title. Holding prices constant, which outcome is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Fewer buyers participate because stronger property rights reduce consumer incentives"
+      },
+      {
+        "label": "B",
+        "text": "Quantity demanded falls along each curve because verification became faster"
+      },
+      {
+        "label": "C",
+        "text": "More buyers participate because uncertainty and a time constraint both decrease"
+      },
+      {
+        "label": "D",
+        "text": "Market demand decreases because verified ownership removes marginal benefit"
+      },
+      {
+        "label": "E",
+        "text": "Demand remains unchanged because neither consumer income nor own-price changed"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Verified ownership reduces the risk of buying, and faster checks reduce the time required. Both changes encourage more buyers to participate at unchanged prices.",
+    "reference": "MKT-3.A | MKT-3.A.1 | MKT-3.A.2 | MKT-3.A.3 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "A consumer's marginal benefits from the first four units are $24, $18, $13, and $9. At a price of $12, which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The consumer demands one unit because the first unit has the greatest marginal benefit"
+      },
+      {
+        "label": "B",
+        "text": "The consumer demands four units because total benefit exceeds the price of one unit"
+      },
+      {
+        "label": "C",
+        "text": "The consumer demands two units because only the first two marginal benefits exceed the fourth unit's benefit"
+      },
+      {
+        "label": "D",
+        "text": "The consumer demands zero units because marginal benefit declines as quantity increases"
+      },
+      {
+        "label": "E",
+        "text": "The consumer demands three units because the third unit's benefit exceeds price but the fourth's does not"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The first three units have marginal benefits above the $12 price. The fourth is worth only $9, so the consumer buys three units.",
+    "reference": "MKT-3.A | MKT-3.A.4 | MKT-3.A.5 | Skill 2.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "A consumer buys three units at $15 each but five units at $10 each. Which explanation is most consistent with a downward-sloping demand curve?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The number of buyers increases, causing this consumer to demand five units"
+      },
+      {
+        "label": "B",
+        "text": "The price decrease shifts demand right, making the additional units available"
+      },
+      {
+        "label": "C",
+        "text": "The price decrease reduces purchasing power, making five units affordable"
+      },
+      {
+        "label": "D",
+        "text": "Higher marginal utility makes the additional units worthwhile only at the lower price"
+      },
+      {
+        "label": "E",
+        "text": "Lower marginal utility makes the additional units worthwhile only at the lower price"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Extra units provide less additional satisfaction and have lower willingness to pay. Cutting price makes the fourth and fifth units worthwhile purchases.",
+    "reference": "MKT-3.A | MKT-3.A.4 | MKT-3.A.5 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, why does market demand have a kink at point K?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The good changes from normal to inferior at price PK"
+      },
+      {
+        "label": "B",
+        "text": "Consumer income changes when the market price reaches PK"
+      },
+      {
+        "label": "C",
+        "text": "The participating consumer set changes at PK"
+      },
+      {
+        "label": "D",
+        "text": "Demand shifts because marginal utility begins diminishing at PK"
+      },
+      {
+        "label": "E",
+        "text": "The number of potential buyers changes whenever price moves along DM"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A new buyer starts purchasing when price falls below PK. Adding that buyer's quantity changes the slope of market demand at K.",
+    "reference": "MKT-3.A | MKT-3.A.6 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and market quantity demanded is on the horizontal axis. A downward-sloping, piecewise-linear market demand curve DM has a labeled kink K at price PK. A note indicates that Buyer B's quantity demanded is zero above PK and positive below PK.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "DM",
+            "label": "DM",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10,
+                "y": 85
+              },
+              {
+                "x": 35,
+                "y": 55
+              },
+              {
+                "x": 85,
+                "y": 25
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "K",
+            "label": "K",
+            "x": 35,
+            "y": 55
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 35,
+            "y": 55,
+            "yLabel": "PK"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "The price of tea rises, demand for coffee rises, and demand for cream also rises. Which set of relationships is consistent with these observations, ceteris paribus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tea and coffee are substitutes, while tea and cream must be substitutes"
+      },
+      {
+        "label": "B",
+        "text": "Coffee is inferior, while tea and cream must both be normal goods"
+      },
+      {
+        "label": "C",
+        "text": "Tea and coffee are complements, while tea and cream must be complements"
+      },
+      {
+        "label": "D",
+        "text": "Tea and coffee are substitutes, while coffee and cream are complements"
+      },
+      {
+        "label": "E",
+        "text": "Tea and coffee are complements, while coffee and cream are substitutes"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A higher tea price encourages buyers to substitute coffee. More coffee purchases also raise cream demand when coffee and cream are consumed together.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "Income rises for a normal good, but consumers also expect the good's price to fall next month. Which information is needed to predict the change in current demand?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The relative sizes of the rightward income effect and leftward expectations effect"
+      },
+      {
+        "label": "B",
+        "text": "The marginal utility from only the first unit purchased by each consumer"
+      },
+      {
+        "label": "C",
+        "text": "The average rather than total quantity demanded by current consumers"
+      },
+      {
+        "label": "D",
+        "text": "The size of the good's current price change along the original demand curve"
+      },
+      {
+        "label": "E",
+        "text": "The nominal income level without knowing how income affects this normal good"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Higher income encourages current purchases, while expected lower future prices encourage waiting. The larger of these opposing effects determines the net change.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "A good's price falls while an unrelated change shifts its demand curve left. What can be concluded about the final quantity purchased compared with the initial quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It must decrease because a leftward demand shift always lowers the final quantity purchased"
+      },
+      {
+        "label": "B",
+        "text": "It equals the original quantity because own-price changes cannot accompany demand shifts"
+      },
+      {
+        "label": "C",
+        "text": "It remains unchanged because a movement and a shift always offset exactly"
+      },
+      {
+        "label": "D",
+        "text": "It must increase because a lower own-price always raises the final quantity purchased"
+      },
+      {
+        "label": "E",
+        "text": "It is indeterminate because the movement and shift affect purchases in opposite directions"
+      }
+    ],
+    "answer": "E",
+    "explanation": "A lower price encourages more purchases, but lower demand discourages them. Their relative sizes determine whether final purchases rise or fall.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.4 | MKT-3.B.1 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "Researchers observe that a good's price and quantity purchased both increased between two months. Why does this observation not disprove the law of demand?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The law of demand applies only when consumer income changes between observations"
+      },
+      {
+        "label": "B",
+        "text": "The law of demand predicts that price and quantity always rise together over time"
+      },
+      {
+        "label": "C",
+        "text": "Market demand is found by vertically adding individual prices between observations"
+      },
+      {
+        "label": "D",
+        "text": "A higher price shifts the demand curve right and raises the quantity purchased"
+      },
+      {
+        "label": "E",
+        "text": "A demand determinant may have shifted the demand curve between the observations"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The law of demand assumes other determinants remain constant. A rightward demand shift can produce observations with both a higher price and more purchases.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.4 | MKT-3.B.1 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, which comparison isolates the change in demand from D1 to D2?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Compare point C with point D because both lie on D2"
+      },
+      {
+        "label": "B",
+        "text": "Compare point B with point C because both have quantity Q2"
+      },
+      {
+        "label": "C",
+        "text": "Compare point A with point B because both lie on D1 and show the effect of the same demand determinant"
+      },
+      {
+        "label": "D",
+        "text": "Compare point A on D1 with point C on D2 at the same price P1"
+      },
+      {
+        "label": "E",
+        "text": "Compare point A with point D because both are on downward-sloping curves"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A and C use the same price P1 on different demand curves. Their quantity difference therefore isolates the change in demand.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.4 | MKT-3.B.1 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. D2 lies right of D1. Point A is on D1 at P1, point B is on D1 at lower P2, point C is on D2 at P1, and point D is on D2 at P2. Dashed horizontal guides connect A with C and B with D.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 6.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "D2",
+            "label": "D2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 26.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 26.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 30,
+            "y": 70
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 60,
+            "y": 40
+          },
+          {
+            "id": "C",
+            "label": "C",
+            "x": 50,
+            "y": 70
+          },
+          {
+            "id": "D",
+            "label": "D",
+            "x": 80,
+            "y": 40
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 30,
+            "y": 70,
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 50,
+            "y": 70,
+            "yLabel": "P1"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "At a price of $7, three buyers initially demand 9, 6, and 5 units. A change in tastes raises the first buyer's demand by 3 units and lowers the second buyer's demand by 2 units, while the third is unchanged. Market quantity demanded becomes",
+    "options": [
+      {
+        "label": "A",
+        "text": "19 units"
+      },
+      {
+        "label": "B",
+        "text": "20 units"
+      },
+      {
+        "label": "C",
+        "text": "25 units"
+      },
+      {
+        "label": "D",
+        "text": "15 units"
+      },
+      {
+        "label": "E",
+        "text": "21 units"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Initial demand is 9 + 6 + 5 = 20 units. The net taste effect is +3 - 2 = +1, giving 21 units.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.6 | MKT-3.B.1 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "At price P1, Buyers A and B demand 8 and 6 units. At lower price P2, market quantity demanded is 20 units, and Buyer A demands 11 units. If there are no other buyers, Buyer B's quantity at P2 is",
+    "options": [
+      {
+        "label": "A",
+        "text": "14 units"
+      },
+      {
+        "label": "B",
+        "text": "3 units"
+      },
+      {
+        "label": "C",
+        "text": "6 units"
+      },
+      {
+        "label": "D",
+        "text": "9 units"
+      },
+      {
+        "label": "E",
+        "text": "17 units"
+      }
+    ],
+    "answer": "D",
+    "explanation": "At P2, the market's 20 units include A's 11. Buyer B demands the remaining 20 - 11 = 9 units.",
+    "reference": "MKT-3.A | MKT-3.A.6 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "A consumer's demand curve shows willingness to pay of $30, $22, $16, and $11 for successive units. If the price falls from $20 to $12, which change occurs?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand shifts left because marginal utility declines across units"
+      },
+      {
+        "label": "B",
+        "text": "Quantity demanded falls from three units to two units"
+      },
+      {
+        "label": "C",
+        "text": "Quantity demanded rises from one unit to four units"
+      },
+      {
+        "label": "D",
+        "text": "Quantity demanded rises from two units to three units"
+      },
+      {
+        "label": "E",
+        "text": "Demand shifts right by one unit at every possible price"
+      }
+    ],
+    "answer": "D",
+    "explanation": "At $20, the first two units are worth at least their price. At $12, the third also qualifies, increasing purchases from two to three units.",
+    "reference": "MKT-3.A | MKT-3.A.4 | MKT-3.A.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "Unverified property claims make buyers reluctant to purchase land even when listed prices fall. Which explanation best accounts for this behavior?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The lower price shifts land demand right, and insecure rights cause movement back along that curve"
+      },
+      {
+        "label": "B",
+        "text": "The lower price reduces real purchasing power, while insecure rights increase marginal utility"
+      },
+      {
+        "label": "C",
+        "text": "The lower price creates an incentive to buy, but insecure property rights remain a constraint on exchange"
+      },
+      {
+        "label": "D",
+        "text": "The lower price eliminates income constraints, so property rights cannot affect demand"
+      },
+      {
+        "label": "E",
+        "text": "The lower price adds buyers to market demand, while insecure rights change horizontal summation"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A lower price encourages buying, but uncertain ownership makes the transaction risky. Insecure property rights can therefore continue to discourage purchases.",
+    "reference": "MKT-3.A | MKT-3.A.1 | MKT-3.A.2 | MKT-3.A.3 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "For an ordinary good, a decrease in its own price increases quantity demanded through both the substitution and income effects because",
+    "options": [
+      {
+        "label": "A",
+        "text": "The good becomes relatively cheaper and the consumer's real purchasing power rises"
+      },
+      {
+        "label": "B",
+        "text": "The number of buyers increases and each buyer's nominal income remains unchanged"
+      },
+      {
+        "label": "C",
+        "text": "The demand curve shifts right and the consumer's nominal income automatically rises"
+      },
+      {
+        "label": "D",
+        "text": "Marginal utility rises for successive units and the consumer postpones purchases"
+      },
+      {
+        "label": "E",
+        "text": "The good becomes relatively more expensive and the consumer's real purchasing power falls"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The lower price makes the good cheaper than alternatives and raises the purchasing power of unchanged income. For the ordinary good described, these effects support increased quantity demanded.",
+    "reference": "MKT-3.A | MKT-3.A.5 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, which event sequence is consistent with the movement from A to B and then B to C?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand decreases at price P1, and then a lower own-price reduces quantity demanded on D2"
+      },
+      {
+        "label": "B",
+        "text": "Quantity demanded decreases on D1, and then stronger preferences shift demand left"
+      },
+      {
+        "label": "C",
+        "text": "Demand increases at price P1, and then a higher own-price reduces quantity demanded on D2"
+      },
+      {
+        "label": "D",
+        "text": "Demand increases twice, first through income and then through a higher own-price"
+      },
+      {
+        "label": "E",
+        "text": "Quantity demanded increases on D1, and then the own-price shifts demand to D2"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A to B increases demand at P1. B to C then raises price on D2 and reduces quantity demanded along that curve.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.4 | MKT-3.B.1 | Skill 2.B",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. D2 lies to the right of D1. Point A is on D1 at P1, point B is directly right of A on D2 at P1, and point C is above and left of B on D2 at P2. Arrows show A to B and B to C.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 6.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "D2",
+            "label": "D2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 26.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 26.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 35,
+            "y": 65
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 55,
+            "y": 65
+          },
+          {
+            "id": "C",
+            "label": "C",
+            "x": 35,
+            "y": 85
+          }
+        ],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "Income increases for both a normal good and an inferior good while each good's own price decreases. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Purchases of the normal good rise, but the change in purchases of the inferior good is indeterminate"
+      },
+      {
+        "label": "B",
+        "text": "Purchases of both goods must rise because both demand curves shift right"
+      },
+      {
+        "label": "C",
+        "text": "Purchases of the normal good are indeterminate, but purchases of the inferior good rise"
+      },
+      {
+        "label": "D",
+        "text": "Purchases of both goods must fall because both own-prices decrease"
+      },
+      {
+        "label": "E",
+        "text": "Purchases of the normal good fall, while purchases of the inferior good are unchanged"
+      }
+    ],
+    "answer": "A",
+    "explanation": "For the normal good, higher income and a lower price both raise purchases. For the inferior good, the income-driven demand decrease opposes the price-driven increase, leaving the net effect uncertain.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.4 | MKT-3.B.1 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "The price of Good Y increases, and the demand curve for Good X shifts right. If all other demand determinants for X are unchanged, which conclusion is supported?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Good X is inferior and Good Y is normal"
+      },
+      {
+        "label": "B",
+        "text": "Good X is normal and Good Y is inferior"
+      },
+      {
+        "label": "C",
+        "text": "Goods X and Y are substitutes"
+      },
+      {
+        "label": "D",
+        "text": "The change is movement along Good X's demand curve"
+      },
+      {
+        "label": "E",
+        "text": "Goods X and Y are complements"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Consumers demand more X when Y becomes more expensive. This indicates that they can substitute X for Y.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "Which combination of changes will unambiguously decrease current demand for a normal good?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Income rises, a complement's price falls, and consumers expect the future price to fall"
+      },
+      {
+        "label": "B",
+        "text": "Income rises, a substitute's price falls, and consumers expect the future price to rise"
+      },
+      {
+        "label": "C",
+        "text": "Income falls, a complement's price falls, and consumers expect the future price to rise"
+      },
+      {
+        "label": "D",
+        "text": "Income falls, a substitute's price rises, and the number of buyers increases"
+      },
+      {
+        "label": "E",
+        "text": "Income falls, a substitute's price falls, and consumers expect the good's future price to fall"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Lower income reduces demand for a normal good, and a cheaper substitute attracts buyers away. Expected future price decreases also encourage waiting, so all three changes reduce current demand.",
+    "reference": "MKT-3.B | MKT-3.B.1 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "At a price of $9, four buyers demand 8, 7, 5, and 4 units. The buyer demanding 7 units exits, and each remaining buyer increases demand by 1 unit. Market quantity demanded changes by",
+    "options": [
+      {
+        "label": "A",
+        "text": "An increase of 4 units"
+      },
+      {
+        "label": "B",
+        "text": "A decrease of 7 units"
+      },
+      {
+        "label": "C",
+        "text": "An increase of 3 units"
+      },
+      {
+        "label": "D",
+        "text": "A decrease of 4 units"
+      },
+      {
+        "label": "E",
+        "text": "A decrease of 3 units"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Buyer exit leaves 17 units from the original 24. Adding 1 unit for each of three remaining buyers gives 20, which is 4 below the original total.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.6 | MKT-3.B.1 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, which statement correctly distinguishes the two changes?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A to B and B to C are both demand shifts caused by nonprice determinants"
+      },
+      {
+        "label": "B",
+        "text": "A to B is an increase in quantity demanded; B to C is a demand decrease"
+      },
+      {
+        "label": "C",
+        "text": "A to B is a demand increase; B to C is a decrease in quantity demanded"
+      },
+      {
+        "label": "D",
+        "text": "A to B is a demand decrease; B to C is an increase in quantity demanded"
+      },
+      {
+        "label": "E",
+        "text": "A to B and B to C are both movements caused by changes in own-price"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A to B moves right between curves at an unchanged price, showing increased demand. B to C moves up D2, showing a price-driven decrease in quantity demanded.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.4 | MKT-3.B.1 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. D2 lies right of D1. Point A is on D1 at P1, point B is on D2 at P1, and point C is above and left of B on D2 at P2. Arrows identify A to B and B to C.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 6.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "D2",
+            "label": "D2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 26.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 26.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 35,
+            "y": 65
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 55,
+            "y": 65
+          },
+          {
+            "id": "C",
+            "label": "C",
+            "x": 35,
+            "y": 85
+          }
+        ],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "At price P1, four buyers demand 5, 4, 3, and 0 units. Income then rises; the good is normal for the first two buyers, inferior for the third, and still unaffordable for the fourth. Their quantities change by +2, +1, -1, and 0. The good's price then falls, adding 1 unit to each buyer's quantity. What is the final market quantity demanded?",
+    "options": [
+      {
+        "label": "A",
+        "text": "17 units"
+      },
+      {
+        "label": "B",
+        "text": "18 units"
+      },
+      {
+        "label": "C",
+        "text": "14 units"
+      },
+      {
+        "label": "D",
+        "text": "16 units"
+      },
+      {
+        "label": "E",
+        "text": "20 units"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The income changes raise the initial 12 units by a net 2 to 14. Four buyers each add 1 after the price decrease, giving 18 units.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.4 | MKT-3.A.6 | MKT-3.B.1 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "After several buyers enter and others leave a market, the total quantity demanded at every listed price is unchanged. Which conclusion is supported?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The good's own price must have changed by the same amount at every listed quantity"
+      },
+      {
+        "label": "B",
+        "text": "Every individual demand curve must be unchanged because market totals are unchanged"
+      },
+      {
+        "label": "C",
+        "text": "Market demand is unchanged even though the composition and individual demands may have changed"
+      },
+      {
+        "label": "D",
+        "text": "Market demand shifted right and then moved left along the new demand curve"
+      },
+      {
+        "label": "E",
+        "text": "The entrants and exiting buyers must demand identical quantities at every price"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Market demand adds individual purchases at each price. Changes in who buys can leave those totals, and therefore the market demand curve, unchanged.",
+    "reference": "MKT-3.A | MKT-3.B | MKT-3.A.6 | MKT-3.B.1 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  }
+]

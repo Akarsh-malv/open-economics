@@ -57,11 +57,17 @@ export type SceneAnnotation = {
 };
 
 export type Scene = {
+  diagram?: {
+    nodes: { id: string; label: string; x: number; y: number }[];
+    edges: { id: string; from: string; to: string; label: string; kind: "real" | "money"; lane: number }[];
+  };
   caption?: string;
   xLabel: string;
   yLabel: string;
   xMax: number;
   yMax: number;
+  /** Lower vertical bound; defaults to zero. */
+  yMin?: number;
   curves: SceneCurve[];
   regions?: SceneRegion[];
   guides?: SceneGuide[];

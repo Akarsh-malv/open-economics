@@ -6,26 +6,26 @@
     "options": [
       {
         "label": "A",
-        "text": "total consumption divided by total disposable income."
+        "text": "Total savings divided by total consumption"
       },
       {
         "label": "B",
-        "text": "the change in consumer spending divided by the change in disposable income."
+        "text": "The change in savings divided by the change in disposable income"
       },
       {
         "label": "C",
-        "text": "the change in savings divided by the change in disposable income."
+        "text": "Total consumption divided by total disposable income"
       },
       {
         "label": "D",
-        "text": "total savings divided by total consumption."
+        "text": "The change in investment divided by the change in consumer spending"
       },
       {
         "label": "E",
-        "text": "the change in investment divided by the change in consumer spending."
+        "text": "The change in consumer spending divided by the change in disposable income"
       }
     ],
-    "answer": "B",
+    "answer": "E",
     "explanation": "MPC = ΔConsumption ÷ ΔDisposable Income; it measures the fraction of each additional dollar of disposable income that households choose to spend on consumption, for example, if disposable income rises by $100 and consumption rises by $80, MPC = 0.80.",
     "reference": "MOD-2.B | MOD-2.B.5",
     "graphDescription": "",
@@ -38,23 +38,23 @@
     "options": [
       {
         "label": "A",
-        "text": "the change in consumer spending divided by the change in disposable income."
+        "text": "Total consumption divided by total savings"
       },
       {
         "label": "B",
-        "text": "total savings divided by total disposable income."
+        "text": "Total savings divided by total disposable income"
       },
       {
         "label": "C",
-        "text": "the change in savings divided by the change in disposable income."
+        "text": "The change in savings divided by the change in disposable income"
       },
       {
         "label": "D",
-        "text": "total consumption divided by total savings."
+        "text": "The change in consumer spending divided by the change in disposable income"
       },
       {
         "label": "E",
-        "text": "one divided by the expenditure multiplier."
+        "text": "One divided by the expenditure multiplier"
       }
     ],
     "answer": "C",
@@ -70,7 +70,7 @@
     "options": [
       {
         "label": "A",
-        "text": "0.20"
+        "text": "0.80"
       },
       {
         "label": "B",
@@ -78,7 +78,7 @@
       },
       {
         "label": "C",
-        "text": "0.80"
+        "text": "0.20"
       },
       {
         "label": "D",
@@ -89,7 +89,7 @@
         "text": "0.50"
       }
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "MPC = ΔC ÷ ΔYd = $400 ÷ $500 = 0.80; the household spends 80 cents of every additional dollar of disposable income on consumption and saves the remaining 20 cents.",
     "reference": "MOD-2.B | MOD-2.B.5",
     "graphDescription": "",
@@ -102,11 +102,11 @@
     "options": [
       {
         "label": "A",
-        "text": "0.75"
+        "text": "1.75"
       },
       {
         "label": "B",
-        "text": "1.75"
+        "text": "0.33"
       },
       {
         "label": "C",
@@ -114,11 +114,11 @@
       },
       {
         "label": "D",
-        "text": "7.5"
+        "text": "0.75"
       },
       {
         "label": "E",
-        "text": "0.33"
+        "text": "7.5"
       }
     ],
     "answer": "C",
@@ -166,11 +166,11 @@
     "options": [
       {
         "label": "A",
-        "text": "0.20"
+        "text": "0.80"
       },
       {
         "label": "B",
-        "text": "2.0"
+        "text": "20.0"
       },
       {
         "label": "C",
@@ -178,11 +178,11 @@
       },
       {
         "label": "D",
-        "text": "20.0"
+        "text": "0.20"
       },
       {
         "label": "E",
-        "text": "0.80"
+        "text": "2.0"
       }
     ],
     "answer": "C",
@@ -198,15 +198,15 @@
     "options": [
       {
         "label": "A",
-        "text": "0.80"
+        "text": "5.0"
       },
       {
         "label": "B",
-        "text": "1.25"
+        "text": "8.0"
       },
       {
         "label": "C",
-        "text": "5.0"
+        "text": "1.25"
       },
       {
         "label": "D",
@@ -214,10 +214,10 @@
       },
       {
         "label": "E",
-        "text": "8.0"
+        "text": "0.80"
       }
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "MOD-2.B.4: Expenditure multiplier = 1/(1-MPC) = 1/(1-0.80) = 1/0.20 = 5; alternatively, MPS = 1 - 0.80 = 0.20, and multiplier = 1/0.20 = 5.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.4",
     "graphDescription": "",
@@ -242,11 +242,11 @@
       },
       {
         "label": "D",
-        "text": "1 ÷ MPC"
+        "text": "MPC × MPS"
       },
       {
         "label": "E",
-        "text": "MPC × MPS"
+        "text": "1 ÷ MPC"
       }
     ],
     "answer": "B",
@@ -262,26 +262,26 @@
     "options": [
       {
         "label": "A",
-        "text": "1 ÷ MPS"
-      },
-      {
-        "label": "B",
-        "text": "MPS ÷ MPC"
-      },
-      {
-        "label": "C",
         "text": "MPC ÷ MPS"
       },
       {
+        "label": "B",
+        "text": "MPC × (1 ÷ MPS)"
+      },
+      {
+        "label": "C",
+        "text": "1 ÷ MPS"
+      },
+      {
         "label": "D",
-        "text": "1 ÷ MPC"
+        "text": "MPS ÷ MPC"
       },
       {
         "label": "E",
-        "text": "MPC × (1 ÷ MPS)"
+        "text": "1 ÷ MPC"
       }
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "MOD-2.B.4: The tax multiplier = MPC/MPS; A tax change affects disposable income, which then affects consumption by MPC × ΔTax - so taxes operate one step removed from spending changes. The effect on real GDP from a tax change = (MPC/MPS) × ΔTax, and it works in the opposite direction (tax increase → AD falls; tax decrease → AD rises).",
     "reference": "MOD-2.B | MOD-2.B.3 | MOD-2.B.4",
     "graphDescription": "",
@@ -294,26 +294,26 @@
     "options": [
       {
         "label": "A",
-        "text": "4"
-      },
-      {
-        "label": "B",
-        "text": "3"
-      },
-      {
-        "label": "C",
         "text": "0.75"
       },
       {
-        "label": "D",
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
         "text": "1.33"
       },
       {
-        "label": "E",
+        "label": "D",
         "text": "7"
+      },
+      {
+        "label": "E",
+        "text": "3"
       }
     ],
-    "answer": "B",
+    "answer": "E",
     "explanation": "MOD-2.B.4: Tax multiplier = MPC/MPS = 0.75/(1-0.75) = 0.75/0.25 = 3. (Applied in the opposite direction from the spending change - a tax cut of $1 increases real GDP by $3; a tax increase of $1 decreases real GDP by $3.).",
     "reference": "MOD-2.B | MOD-2.B.3 | MOD-2.B.4",
     "graphDescription": "",
@@ -326,26 +326,26 @@
     "options": [
       {
         "label": "A",
-        "text": "$160 billion"
-      },
-      {
-        "label": "B",
-        "text": "$200 billion"
-      },
-      {
-        "label": "C",
-        "text": "$800 billion"
-      },
-      {
-        "label": "D",
         "text": "$1,000 billion"
       },
       {
-        "label": "E",
+        "label": "B",
+        "text": "$800 billion"
+      },
+      {
+        "label": "C",
         "text": "$250 billion"
+      },
+      {
+        "label": "D",
+        "text": "$200 billion"
+      },
+      {
+        "label": "E",
+        "text": "$160 billion"
       }
     ],
-    "answer": "D",
+    "answer": "A",
     "explanation": "Expenditure multiplier = 1/MPS = 1/(1-0.80) = 1/0.20 = 5. ΔGDP = multiplier × ΔSpending = 5 × $200B = $1,000B; real GDP ultimately rises by $1 trillion.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.4",
     "graphDescription": "",
@@ -358,26 +358,26 @@
     "options": [
       {
         "label": "A",
-        "text": "the tendency of higher GDP to reduce the MPC."
+        "text": "The fact that government spending is always more efficient than private spending"
       },
       {
         "label": "B",
-        "text": "the multiplier process — the initial $1 of spending becomes income for someone, who then spends a fraction (MPC) of it, which becomes income for someone else, who spends a fraction of that, and so on, leading to a cumulative change in real GDP larger than the original $1."
+        "text": "The tendency of higher GDP to reduce the MPC"
       },
       {
         "label": "C",
-        "text": "the fact that government spending is always more efficient than private spending."
+        "text": "The automatic stabilizers built into the fiscal system"
       },
       {
         "label": "D",
-        "text": "the exchange rate effect, which increases net exports following a rise in spending."
+        "text": "Successive rounds of spending as recipients spend part of new income"
       },
       {
         "label": "E",
-        "text": "the automatic stabilizers built into the fiscal system."
+        "text": "The exchange rate effect, which increases net exports following a rise in spending"
       }
     ],
-    "answer": "B",
+    "answer": "D",
     "explanation": "MOD-2.B.1 states that a $1 change in autonomous expenditures leads to further changes in total expenditures and output. This is the multiplier process: each round of spending creates income, a fraction of which (MPC) is re-spent, generating more income, and so on in diminishing rounds until the total cumulative change equals the multiplier times the original spending change.",
     "reference": "MOD-2.B | MOD-2.B.1",
     "graphDescription": "",
@@ -398,7 +398,7 @@
       },
       {
         "label": "C",
-        "text": "2.50"
+        "text": "0.40"
       },
       {
         "label": "D",
@@ -406,10 +406,10 @@
       },
       {
         "label": "E",
-        "text": "0.40"
+        "text": "2.50"
       }
     ],
-    "answer": "C",
+    "answer": "E",
     "explanation": "MPS = 1 - MPC = 1 - 0.60 = 0.40; expenditure multiplier = 1/MPS = 1/0.40 = 2.50; every $1 increase in autonomous spending raises real GDP by $2.50.",
     "reference": "MOD-2.B | MOD-2.B.2",
     "graphDescription": "",
@@ -422,26 +422,26 @@
     "options": [
       {
         "label": "A",
-        "text": "0.80"
-      },
-      {
-        "label": "B",
         "text": "0.20"
       },
       {
+        "label": "B",
+        "text": "1.25"
+      },
+      {
         "label": "C",
-        "text": "4.0"
+        "text": "0.80"
       },
       {
         "label": "D",
-        "text": "0.60"
+        "text": "4.0"
       },
       {
         "label": "E",
-        "text": "1.25"
+        "text": "0.60"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "ΔYd = $60,000 - $50,000 = $10,000. ΔC = $48,000 - $40,000 = $8,000; MPC = $8,000/$10,000 = 0.80. MPS = 1 - MPC = 1 - 0.80 = 0.20; alternatively, ΔSavings = $10,000 - $8,000 = $2,000; MPS = $2,000/$10,000 = 0.20.",
     "reference": "MOD-2.B | MOD-2.B.5",
     "graphDescription": "",
@@ -454,26 +454,26 @@
     "options": [
       {
         "label": "A",
-        "text": "A tax cut directly increases government spending, which is then multiplied by the expenditure multiplier."
+        "text": "Directly reduces the volume of imports"
       },
       {
         "label": "B",
-        "text": "A tax cut increases disposable income, which raises consumption by MPC × (tax cut). This initial increase in consumption then ripples through the economy via the multiplier process."
+        "text": "Eliminates all subsequent spending rounds"
       },
       {
         "label": "C",
-        "text": "A tax cut shifts the tax multiplier to zero, eliminating any multiplier effect."
+        "text": "Directly increases government purchases"
       },
       {
         "label": "D",
-        "text": "A tax cut has no effect on real GDP because it reduces government revenue by the same amount it raises private spending."
+        "text": "Raises disposable income and consumption"
       },
       {
         "label": "E",
-        "text": "A tax cut directly reduces imports, which raises net exports and real GDP."
+        "text": "Leaves aggregate demand unchanged"
       }
     ],
-    "answer": "B",
+    "answer": "D",
     "explanation": "MOD-2.B.5: A tax cut → disposable income rises → consumption rises by MPC × ΔTax → this initial increase in C acts like an autonomous expenditure change → multiplied through the economy. The tax multiplier = MPC/MPS captures this chain; unlike a direct spending increase, the tax cut first filters through MPC before the multiplier process begins.",
     "reference": "MOD-2.B | MOD-2.B.3 | MOD-2.B.5",
     "graphDescription": "",
@@ -486,7 +486,7 @@
     "options": [
       {
         "label": "A",
-        "text": "Expenditure multiplier = 2.5; Tax multiplier = 2.0"
+        "text": "Expenditure multiplier = 3; Tax multiplier = 2"
       },
       {
         "label": "B",
@@ -494,15 +494,15 @@
       },
       {
         "label": "C",
-        "text": "Expenditure multiplier = 4; Tax multiplier = 4"
-      },
-      {
-        "label": "D",
         "text": "Expenditure multiplier = 5; Tax multiplier = 4"
       },
       {
+        "label": "D",
+        "text": "Expenditure multiplier = 2.5; Tax multiplier = 2.0"
+      },
+      {
         "label": "E",
-        "text": "Expenditure multiplier = 3; Tax multiplier = 2"
+        "text": "Expenditure multiplier = 4; Tax multiplier = 4"
       }
     ],
     "answer": "B",
@@ -518,26 +518,26 @@
     "options": [
       {
         "label": "A",
-        "text": "a higher MPC means households save more of each additional dollar, reducing the rounds of spending."
+        "text": "MPC equals the expenditure multiplier directly"
       },
       {
         "label": "B",
-        "text": "a higher MPC means households spend a larger fraction of each additional dollar of income, generating more rounds of spending and a larger total change in real GDP."
+        "text": "MPC determines government spending directly"
       },
       {
         "label": "C",
-        "text": "the MPC determines the level of government spending, which is the only component affected by the multiplier."
+        "text": "MPC determines the income tax rate directly"
       },
       {
         "label": "D",
-        "text": "the MPC is directly equal to the expenditure multiplier for all values above 0.5."
+        "text": "More new income is spent in each round"
       },
       {
         "label": "E",
-        "text": "a higher MPC always means a higher tax rate, which reduces the effective multiplier."
+        "text": "More new income is saved in each round"
       }
     ],
-    "answer": "B",
+    "answer": "D",
     "explanation": "The expenditure multiplier = 1/MPS = 1/(1-MPC). A higher MPC means households spend more of each income increment → each round of spending is larger → the cumulative multiplied effect on real GDP is greater; conversely, a lower MPC (higher MPS) means more leaks into saving at each round → smaller multiplier.",
     "reference": "MOD-2.B | MOD-2.B.4",
     "graphDescription": "",
@@ -550,26 +550,26 @@
     "options": [
       {
         "label": "A",
-        "text": "9.0"
-      },
-      {
-        "label": "B",
         "text": "10.0"
       },
       {
-        "label": "C",
-        "text": "0.90"
+        "label": "B",
+        "text": "9.0"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "1.11"
       },
       {
-        "label": "E",
+        "label": "D",
         "text": "0.10"
+      },
+      {
+        "label": "E",
+        "text": "0.90"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "MPS = 1 - 0.90 = 0.10; expenditure multiplier = 1/MPS = 1/0.10 = 10. A very high MPC (like 0.90) produces a very large multiplier because households spend 90 cents of every additional income dollar, generating extensive rounds of re-spending.",
     "reference": "MOD-2.B | MOD-2.B.2",
     "graphDescription": "",
@@ -582,26 +582,26 @@
     "options": [
       {
         "label": "A",
-        "text": "an increase of $1,500 billion."
+        "text": "An increase of $1,500 billion"
       },
       {
         "label": "B",
-        "text": "a decrease of $1,500 billion."
+        "text": "A decrease of $1,500 billion"
       },
       {
         "label": "C",
-        "text": "a decrease of $1,200 billion."
+        "text": "A decrease of $240 billion"
       },
       {
         "label": "D",
-        "text": "an increase of $300 billion."
+        "text": "A decrease of $1,200 billion"
       },
       {
         "label": "E",
-        "text": "a decrease of $240 billion."
+        "text": "An increase of $300 billion"
       }
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "Tax multiplier = MPC/MPS = 0.80/0.20 = 4. A tax INCREASE reduces disposable income and ultimately reduces real GDP: ΔGDP = -(tax multiplier) × ΔTax = -4 × $300B = -$1,200B; GDP falls by $1.2 trillion; the negative sign reflects the inverse relationship between tax increases and GDP.",
     "reference": "MOD-2.B | MOD-2.B.3",
     "graphDescription": "",
@@ -614,26 +614,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Expenditure multiplier = tax multiplier."
+        "text": "Expenditure multiplier < tax multiplier"
       },
       {
         "label": "B",
-        "text": "Expenditure multiplier < tax multiplier."
+        "text": "They are equal only when MPC = 0.50"
       },
       {
         "label": "C",
-        "text": "Expenditure multiplier > tax multiplier (in absolute value) — the spending multiplier is always exactly 1 unit larger than the tax multiplier."
+        "text": "Expenditure multiplier = tax multiplier"
       },
       {
         "label": "D",
-        "text": "Tax multiplier is always greater than 1; the expenditure multiplier is always less than 1."
+        "text": "Tax multiplier is always greater than 1; the expenditure multiplier is always less than 1"
       },
       {
         "label": "E",
-        "text": "They are equal only when MPC = 0.50."
+        "text": "The spending multiplier exceeds the tax multiplier's magnitude by 1"
       }
     ],
-    "answer": "C",
+    "answer": "E",
     "explanation": "MOD-2.B.3: Expenditure multiplier = 1/MPS; tax multiplier = MPC/MPS; difference = 1/MPS - MPC/MPS = (1-MPC)/MPS = MPS/MPS = 1; the expenditure multiplier is always exactly 1 larger than the tax multiplier. This is because a spending change of $1 puts the entire $1 into the spending stream immediately, while a tax cut of $1 first goes to disposable income, and only MPC × $1 enters the spending stream.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -646,26 +646,26 @@
     "options": [
       {
         "label": "A",
-        "text": "10"
-      },
-      {
-        "label": "B",
-        "text": "0.90"
-      },
-      {
-        "label": "C",
         "text": "9"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "1.11"
       },
       {
-        "label": "E",
+        "label": "C",
         "text": "0.10"
+      },
+      {
+        "label": "D",
+        "text": "0.90"
+      },
+      {
+        "label": "E",
+        "text": "10"
       }
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "MPC = 1 - MPS = 1 - 0.10 = 0.90; tax multiplier = MPC/MPS = 0.90/0.10 = 9; (The expenditure multiplier in this case = 1/0.10 = 10, which is exactly 1 more than the tax multiplier of 9.).",
     "reference": "MOD-2.B | MOD-2.B.3 | MOD-2.B.4",
     "graphDescription": "",
@@ -678,11 +678,11 @@
     "options": [
       {
         "label": "A",
-        "text": "+$100 billion"
+        "text": "+$80 billion"
       },
       {
         "label": "B",
-        "text": "+$80 billion"
+        "text": "+$20 billion"
       },
       {
         "label": "C",
@@ -690,7 +690,7 @@
       },
       {
         "label": "D",
-        "text": "+$20 billion"
+        "text": "+$100 billion"
       },
       {
         "label": "E",
@@ -710,26 +710,26 @@
     "options": [
       {
         "label": "A",
-        "text": "government spending is automatically multiplied by the tax rate each time it circulates."
+        "text": "Spending creates income that generates further spending"
       },
       {
         "label": "B",
-        "text": "one person's spending becomes another person's income, which then generates further spending in subsequent rounds, so that a single autonomous change in spending has a cumulative effect on real GDP larger than the initial change."
+        "text": "Spending automatically multiplies by the tax rate"
       },
       {
         "label": "C",
-        "text": "the Federal Reserve automatically increases the money supply in response to any increase in autonomous spending."
+        "text": "Exchange rates multiply every spending increase automatically"
       },
       {
         "label": "D",
-        "text": "international trade amplifies domestic spending changes through the exchange rate."
+        "text": "The central bank automatically finances every spending increase"
       },
       {
         "label": "E",
-        "text": "rising prices during economic expansion make each dollar of spending worth more in real terms."
+        "text": "Higher prices raise each dollar’s real purchasing power"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "The multiplier works because spending flows circularly through the economy. An initial autonomous spending change becomes income for others, who spend a fraction (MPC) of it, which becomes income for still others, who spend MPC of that, and so on; each round is smaller than the last (by a factor of MPC), but the infinite sum converges to 1/MPS × the initial change.",
     "reference": "MOD-2.B | MOD-2.B.1",
     "graphDescription": "",
@@ -742,15 +742,15 @@
     "options": [
       {
         "label": "A",
-        "text": "0.50"
-      },
-      {
-        "label": "B",
         "text": "1.50"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "2.00"
+      },
+      {
+        "label": "C",
+        "text": "0.50"
       },
       {
         "label": "D",
@@ -761,7 +761,7 @@
         "text": "0.20"
       }
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "MPS = 1 - MPC = 1 - 0.50 = 0.50; expenditure multiplier = 1/MPS = 1/0.50 = 2.00. An MPC of 0.50 produces one of the smallest multipliers (beyond MPC = 0) because half of every income dollar leaks into saving at each round.",
     "reference": "MOD-2.B | MOD-2.B.2",
     "graphDescription": "",
@@ -774,23 +774,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Tax changes only affect businesses, not households, reducing their multiplied effect."
+        "text": "Tax changes are more uncertain than spending changes, so economists discount them"
       },
       {
         "label": "B",
-        "text": "The tax multiplier is applied before the MPC, amplifying leakages."
+        "text": "Tax multipliers are always exactly half the expenditure multiplier"
       },
       {
         "label": "C",
-        "text": "A spending increase of $1 immediately injects $1 into the spending stream. A tax cut of $1 first raises disposable income by $1, but only MPC × $1 enters the spending stream (the rest is saved). So the tax multiplier is MPC × (1/MPS) = MPC/MPS, which is 1 less than 1/MPS."
+        "text": "Only the MPC fraction of a tax cut becomes initial spending"
       },
       {
         "label": "D",
-        "text": "Tax multipliers are always exactly half the expenditure multiplier."
+        "text": "Tax changes only affect businesses, not households, reducing their multiplied effect"
       },
       {
         "label": "E",
-        "text": "Tax changes are more uncertain than spending changes, so economists discount them."
+        "text": "The tax multiplier is applied before the MPC, amplifying leakages"
       }
     ],
     "answer": "C",
@@ -806,7 +806,7 @@
     "options": [
       {
         "label": "A",
-        "text": "0.30"
+        "text": "0.40"
       },
       {
         "label": "B",
@@ -814,15 +814,15 @@
       },
       {
         "label": "C",
-        "text": "3.33"
+        "text": "0.30"
       },
       {
         "label": "D",
-        "text": "0.60"
+        "text": "3.33"
       },
       {
         "label": "E",
-        "text": "0.40"
+        "text": "0.60"
       }
     ],
     "answer": "B",
@@ -838,26 +838,26 @@
     "options": [
       {
         "label": "A",
-        "text": "the change in the MPC caused by a change in government spending."
+        "text": "Tax-multiplier excess over the spending multiplier"
       },
       {
         "label": "B",
-        "text": "the total change in real GDP resulting from a $1 change in any component of aggregate demand (autonomous spending)."
+        "text": "MPC change per dollar of government spending"
       },
       {
         "label": "C",
-        "text": "the amount by which the tax multiplier exceeds the spending multiplier."
+        "text": "Number of rounds before spending completely stops"
       },
       {
         "label": "D",
-        "text": "the fraction of disposable income that households choose to save."
+        "text": "Disposable-income fraction saved by households"
       },
       {
         "label": "E",
-        "text": "the number of spending rounds required before the multiplier effect is complete."
+        "text": "Output change per dollar of autonomous spending"
       }
     ],
-    "answer": "B",
+    "answer": "E",
     "explanation": "The expenditure multiplier = 1/MPS quantifies the total change in aggregate demand (and real GDP) resulting from a $1 change in any autonomous spending component (consumption, investment, government spending, or net exports). It tells us the ultimate cumulative impact of an initial spending change on the economy.",
     "reference": "MOD-2.B | MOD-2.B.2",
     "graphDescription": "",
@@ -870,26 +870,26 @@
     "options": [
       {
         "label": "A",
-        "text": "0.50"
+        "text": "0.90"
       },
       {
         "label": "B",
-        "text": "0.60"
-      },
-      {
-        "label": "C",
-        "text": "0.70"
-      },
-      {
-        "label": "D",
         "text": "0.80"
       },
       {
+        "label": "C",
+        "text": "0.50"
+      },
+      {
+        "label": "D",
+        "text": "0.70"
+      },
+      {
         "label": "E",
-        "text": "0.90"
+        "text": "0.60"
       }
     ],
-    "answer": "E",
+    "answer": "A",
     "explanation": "Expenditure multiplier = 1/(1-MPC) = 1/MPS; A higher MPC → lower MPS → larger multiplier; MPC = 0.90 → multiplier = 1/0.10 = 10, which is the largest of the options; as MPC approaches 1, the multiplier approaches infinity.",
     "reference": "MOD-2.B | MOD-2.B.4",
     "graphDescription": "",
@@ -902,26 +902,26 @@
     "options": [
       {
         "label": "A",
-        "text": "0.90"
-      },
-      {
-        "label": "B",
-        "text": "0.80"
-      },
-      {
-        "label": "C",
         "text": "0.75"
       },
       {
-        "label": "D",
+        "label": "B",
+        "text": "0.25"
+      },
+      {
+        "label": "C",
         "text": "0.50"
       },
       {
+        "label": "D",
+        "text": "0.80"
+      },
+      {
         "label": "E",
-        "text": "0.25"
+        "text": "0.90"
       }
     ],
-    "answer": "E",
+    "answer": "B",
     "explanation": "Expenditure multiplier = 1/(1-MPC); A lower MPC → higher MPS → smaller multiplier. MPC = 0.25 → MPS = 0.75 → multiplier = 1/0.75 ≈ 1.33, the smallest among the options; lower MPC means more saving at each round → more leakage → smaller cumulative effect.",
     "reference": "MOD-2.B | MOD-2.B.4",
     "graphDescription": "",
@@ -934,26 +934,26 @@
     "options": [
       {
         "label": "A",
-        "text": "+$1,600 billion"
-      },
-      {
-        "label": "B",
         "text": "+$1,200 billion"
       },
       {
+        "label": "B",
+        "text": "+$1,600 billion"
+      },
+      {
         "label": "C",
-        "text": "+$300 billion"
+        "text": "+$533 billion"
       },
       {
         "label": "D",
-        "text": "+$400 billion"
+        "text": "+$300 billion"
       },
       {
         "label": "E",
-        "text": "+$533 billion"
+        "text": "+$400 billion"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "Tax multiplier = MPC/MPS = 0.75/0.25 = 3. A tax CUT increases real GDP: ΔGDP = tax multiplier × |ΔTax| = 3 × $400B = $1,200B; real GDP rises by $1.2 trillion (tax cut → disposable income rises → consumption rises → multiplier process).",
     "reference": "MOD-2.B | MOD-2.B.3",
     "graphDescription": "",
@@ -966,26 +966,26 @@
     "options": [
       {
         "label": "A",
-        "text": "only the size of the investment increase, not the MPC."
+        "text": "The investment increase without any multiplied effect"
       },
       {
         "label": "B",
-        "text": "the investment increase multiplied by the expenditure multiplier (1/MPS) — a higher MPC produces a larger rightward shift for the same initial investment change."
+        "text": "The investment increase multiplied by −MPC/MPS"
       },
       {
         "label": "C",
-        "text": "only the MPC, not the size of the investment increase."
+        "text": "The borrowing interest rate without spending amounts"
       },
       {
         "label": "D",
-        "text": "the tax multiplier applied to the investment change."
+        "text": "The investment increase multiplied by 1/MPS"
       },
       {
         "label": "E",
-        "text": "the interest rate at which firms borrowed to finance the investment."
+        "text": "The MPC without the investment change"
       }
     ],
-    "answer": "B",
+    "answer": "D",
     "explanation": "The total change in aggregate demand (rightward shift of AD curve) equals the expenditure multiplier × the change in autonomous spending. Both the size of the initial spending change AND the MPC (which determines the multiplier) matter. ΔGDP = (1/MPS) × ΔInvestment.",
     "reference": "MOD-2.B | MOD-2.B.2",
     "graphDescription": "",
@@ -998,15 +998,15 @@
     "options": [
       {
         "label": "A",
-        "text": "2.5"
+        "text": "4.0"
       },
       {
         "label": "B",
-        "text": "1.5"
+        "text": "2.5"
       },
       {
         "label": "C",
-        "text": "4.0"
+        "text": "0.40"
       },
       {
         "label": "D",
@@ -1014,10 +1014,10 @@
       },
       {
         "label": "E",
-        "text": "0.40"
+        "text": "1.5"
       }
     ],
-    "answer": "B",
+    "answer": "E",
     "explanation": "MPC = 1 - MPS = 1 - 0.40 = 0.60; tax multiplier = MPC/MPS = 0.60/0.40 = 1.5. The expenditure multiplier = 1/MPS = 1/0.40 = 2.5, which is 1 more than the tax multiplier (2.5 - 1.5 = 1.0). ✓.",
     "reference": "MOD-2.B | MOD-2.B.3 | MOD-2.B.4",
     "graphDescription": "",
@@ -1030,26 +1030,26 @@
     "options": [
       {
         "label": "A",
-        "text": "A tax increase leads to a positive change in real GDP through the multiplier process."
+        "text": "The tax multiplier has no relationship with the MPC"
       },
       {
         "label": "B",
-        "text": "The tax multiplier equals 1/MPS, the same as the expenditure multiplier."
+        "text": "Higher disposable income raises consumption and initiates further spending rounds"
       },
       {
         "label": "C",
-        "text": "A tax cut increases disposable income, which raises consumption spending, which then ripples through the economy via the multiplier, ultimately increasing real GDP by the tax multiplier × the tax cut."
+        "text": "A tax increase leads to a positive change in real GDP through the multiplier process"
       },
       {
         "label": "D",
-        "text": "The tax multiplier has no relationship with the MPC."
+        "text": "The tax multiplier equals 1/MPS, the same as the expenditure multiplier"
       },
       {
         "label": "E",
-        "text": "The tax multiplier is always greater than the expenditure multiplier for the same MPC."
+        "text": "The tax multiplier is always greater than the expenditure multiplier for the same MPC"
       }
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "A tax cut → disposable income rises → consumption rises by MPC × tax cut → this enters the spending stream and is multiplied → total ΔGDP = (MPC/MPS) × tax cut. The process works in reverse for a tax increase: disposable income falls → consumption falls → GDP falls by (MPC/MPS) × tax increase; the tax multiplier captures this chain.",
     "reference": "MOD-2.B | MOD-2.B.3",
     "graphDescription": "",
@@ -1062,26 +1062,26 @@
     "options": [
       {
         "label": "A",
-        "text": "(a) 5; (b) +$2,500B; (c) +$2,500B — tax cuts and spending increases have identical multiplied effects."
+        "text": "5; +$2,500B from spending; +$2,000B from taxes"
       },
       {
         "label": "B",
-        "text": "(a) 5; (b) +$2,000B; (c) +$1,500B."
+        "text": "(a) 5; (b) +$2,000B; (c) +$1,500B"
       },
       {
         "label": "C",
-        "text": "(a) 5; (b) +$2,500B; (c) +$2,000B — the tax multiplier (4) is one less than the expenditure multiplier (5), so the same $500B tax cut produces a $2,000B GDP increase."
+        "text": "(a) 4; (b) +$2,000B; (c) +$1,500B"
       },
       {
         "label": "D",
-        "text": "(a) 4; (b) +$2,000B; (c) +$1,500B."
+        "text": "(a) 5; (b) +$2,500B; (c) −$2,000B — tax cuts decrease GDP"
       },
       {
         "label": "E",
-        "text": "(a) 5; (b) +$2,500B; (c) −$2,000B — tax cuts decrease GDP."
+        "text": "(a) 5; (b) +$2,500B; (c) +$2,500B — tax cuts and spending increases have identical multiplied effects"
       }
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "MOD-2.B.3: MPS = 0.20; (a) Expenditure multiplier = 1/0.20 = 5; (b) ΔGDP = 5 × $500B = $2,500B; (c) Tax multiplier = MPC/MPS = 0.80/0.20 = 4. Tax CUT → ΔGDP = +4 × $500B = +$2,000B; the tax cut produces a smaller stimulus ($2,000B vs. $2,500B) because the first round effect is MPC × $500B = $400B (not the full $500B).",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3 | MOD-2.B.4",
     "graphDescription": "",
@@ -1094,26 +1094,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Correct — four rounds is a sufficient approximation."
+        "text": "Incorrect — the multiplier only applies to tax changes, not government spending"
       },
       {
         "label": "B",
-        "text": "The student undercounts — the full multiplier process requires an infinite number of rounds that sum to 1/MPS × $100 = 5 × $100 = $500B. The four-round approach understates because it ignores all rounds after the fourth. The infinite geometric series 100/(1−0.80) = $500 is exact."
+        "text": "The student overcounts — the multiplier effect stops after the first round"
       },
       {
         "label": "C",
-        "text": "Incorrect — the multiplier only applies to tax changes, not government spending."
+        "text": "Correct — four rounds is a sufficient approximation"
       },
       {
         "label": "D",
-        "text": "The student overcounts — the multiplier effect stops after the first round."
+        "text": "$500B; stopping after four rounds omits further spending"
       },
       {
         "label": "E",
-        "text": "Correct — the multiplier process is only approximate; no exact answer exists."
+        "text": "Correct — the multiplier process is only approximate; no exact answer exists"
       }
     ],
-    "answer": "B",
+    "answer": "D",
     "explanation": "MOD-2.B.2: The student correctly identifies the process (spending → income → re-spending) but stops too early; the multiplier process involves infinitely many rounds. The geometric series: $100 + $80 + $64 + $51.20 + ... = $100 × (1/(1-0.80)) = $100 × 5 = $500; the four-round sum is $236.16, not $480, and total would be $336.16 - the student also made an arithmetic error; the exact answer is always multiplier × initial change = $500.",
     "reference": "MOD-2.B | MOD-2.B.1 | MOD-2.B.2",
     "graphDescription": "",
@@ -1126,26 +1126,26 @@
     "options": [
       {
         "label": "A",
-        "text": "MPC=0.80; MPS=0.20; Expenditure multiplier=5; Tax multiplier=4."
+        "text": "MPC=0.85; MPS=0.15; Expenditure multiplier≈6.67; Tax multiplier≈5.67"
       },
       {
         "label": "B",
-        "text": "MPC=0.90; MPS=0.10; Expenditure multiplier=10; Tax multiplier=9."
+        "text": "MPC=0.90; MPS=0.10; Expenditure multiplier=10; Tax multiplier=9"
       },
       {
         "label": "C",
-        "text": "MPC=0.85; MPS=0.15; Expenditure multiplier≈6.67; Tax multiplier≈5.67."
+        "text": "MPC=0.75; MPS=0.25; Expenditure multiplier=4; Tax multiplier=3"
       },
       {
         "label": "D",
-        "text": "MPC=0.80; MPS=0.20; Expenditure multiplier=4; Tax multiplier=3."
+        "text": "MPC=0.80; MPS=0.20; Expenditure multiplier=4; Tax multiplier=3"
       },
       {
         "label": "E",
-        "text": "MPC=0.75; MPS=0.25; Expenditure multiplier=4; Tax multiplier=3."
+        "text": "MPC=0.80; MPS=0.20; Expenditure multiplier=5; Tax multiplier=4"
       }
     ],
-    "answer": "A",
+    "answer": "E",
     "explanation": "From $10K to $20K: ΔYd=$10K, ΔC=$8K → MPC=0.80; from $20K to $30K: ΔYd=$10K, ΔC=$8K → MPC=0.80; consistent; MPS=1-0.80=0.20; expenditure multiplier=1/0.20=5; tax multiplier=MPC/MPS=0.80/0.20=4.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3 | MOD-2.B.4 | MOD-2.B.5",
     "graphDescription": "",
@@ -1158,26 +1158,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Alpha ΔGDP = +$800B; Beta ΔGDP = +$500B. Alpha has a larger multiplied effect because its higher MPC means more of each income dollar is re-spent at each round."
+        "text": "Alpha +$200B; Beta +$200B"
       },
       {
         "label": "B",
-        "text": "Alpha ΔGDP = +$150B; Beta ΔGDP = +$120B. Higher MPC always produces a smaller effect."
+        "text": "Alpha +$800B; Beta +$600B"
       },
       {
         "label": "C",
-        "text": "Both economies have the same ΔGDP because the spending change is identical."
+        "text": "Alpha +$600B; Beta +$800B"
       },
       {
         "label": "D",
-        "text": "Alpha ΔGDP = +$800B; Beta ΔGDP = +$600B."
+        "text": "Alpha +$800B; Beta +$500B"
       },
       {
         "label": "E",
-        "text": "Alpha ΔGDP = +$600B; Beta ΔGDP = +$800B — higher MPC reduces the multiplier."
+        "text": "Alpha +$150B; Beta +$120B"
       }
     ],
-    "answer": "A",
+    "answer": "D",
     "explanation": "Alpha: multiplier = 1/(1-0.75) = 1/0.25 = 4. ΔGDP = 4 × $200B = $800B. Beta: multiplier = 1/(1-0.60) = 1/0.40 = 2.5. ΔGDP = 2.5 × $200B = $500B; alpha's higher MPC (0.75 vs. 0.60) produces a larger multiplier (4 vs. 2.5) and thus a larger total change in real GDP from the same initial spending increase.",
     "reference": "MOD-2.B | MOD-2.B.4",
     "graphDescription": "",
@@ -1190,23 +1190,23 @@
     "options": [
       {
         "label": "A",
-        "text": "(a) G increase of $150B; (b) Tax cut of $150B — they require the same policy action."
+        "text": "G +$100B; tax cut $133B"
       },
       {
         "label": "B",
-        "text": "(a) G increase of $150B; (b) Tax cut of $200B — the tax cut must be larger because the tax multiplier is smaller."
+        "text": "G +$150B; tax cut $200B"
       },
       {
         "label": "C",
-        "text": "(a) G increase of $200B; (b) Tax cut of $150B."
+        "text": "G +$600B; tax cut $600B"
       },
       {
         "label": "D",
-        "text": "(a) G increase of $600B; (b) Tax cut of $600B."
+        "text": "G +$150B; tax cut $150B"
       },
       {
         "label": "E",
-        "text": "(a) G increase of $100B; (b) Tax cut of $133B."
+        "text": "G +$200B; tax cut $150B"
       }
     ],
     "answer": "B",
@@ -1222,26 +1222,26 @@
     "options": [
       {
         "label": "A",
-        "text": "ΔGDP = 0 — equal spending and tax changes always cancel."
+        "text": "Zero GDP change"
       },
       {
         "label": "B",
-        "text": "ΔGDP = +$300B — the net effect equals the spending change dollar-for-dollar."
+        "text": "GDP rises $1,200B"
       },
       {
         "label": "C",
-        "text": "ΔGDP = +$1,500B − $1,200B = +$300B. Spending increase effect: 5 × $300B = +$1,500B. Tax increase effect: −4 × $300B = −$1,200B. Net = +$300B. This is the balanced budget multiplier theorem — a balanced increase in G and T changes GDP by the same dollar amount."
+        "text": "GDP rises $600B"
       },
       {
         "label": "D",
-        "text": "ΔGDP = −$300B — the tax increase dominates because tax multiplier > expenditure multiplier."
+        "text": "GDP rises $300B"
       },
       {
         "label": "E",
-        "text": "ΔGDP = +$600B — spending and tax effects compound each other."
+        "text": "GDP falls $300B"
       }
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "MOD-2.B.3: G effect: multiplier 1/0.20 = 5 → +5 × $300B = +$1,500B; tax effect: multiplier 0.80/0.20 = 4 → -4 × $300B = -$1,200B. Net ΔGDP = +$1,500B - $1,200B = +$300B; the balanced budget multiplier = expenditure multiplier - tax multiplier = 5 - 4 = 1; A balanced budget increase of $X always raises GDP by exactly $X (the multiplier = 1).",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -1254,26 +1254,26 @@
     "options": [
       {
         "label": "A",
-        "text": "$305.08B — the sum of the five rounds shown."
+        "text": "$750B"
       },
       {
         "label": "B",
-        "text": "$375B — five rounds multiplied by MPC."
+        "text": "$400B"
       },
       {
         "label": "C",
-        "text": "$400B — the expenditure multiplier (1/MPS = 1/0.25 = 4) times the initial $100B."
+        "text": "$375B"
       },
       {
         "label": "D",
-        "text": "$300B — three times the initial spending."
+        "text": "$305.08B"
       },
       {
         "label": "E",
-        "text": "$750B — MPC times the multiplier times the initial spending."
+        "text": "$300B"
       }
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "MOD-2.B.2: The infinite geometric series sum: $100B/(1-0.75) = $100B/0.25 = $400B. This equals the expenditure multiplier (1/MPS = 1/0.25 = 4) times the initial change ($100B); the five rounds shown sum to only $305.08B - the process continues beyond five rounds, converging to $400B in the limit.",
     "reference": "MOD-2.B | MOD-2.B.1 | MOD-2.B.2",
     "graphDescription": "",
@@ -1286,26 +1286,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Option 1: Cut G by $900B; Option 2: Raise taxes by $900B."
+        "text": "G cut $360B; tax increase $540B"
       },
       {
         "label": "B",
-        "text": "Option 1: Cut G by $360B; Option 2: Raise taxes by $540B."
+        "text": "G cut $450B; tax increase $900B"
       },
       {
         "label": "C",
-        "text": "Option 1: Cut G by $225B (multiplier = 2.5 → $900B/2.5 = $360B); Option 2: Raise taxes by $600B (tax multiplier = 1.5 → $900B/1.5 = $600B)."
+        "text": "G cut $225B; tax increase $600B"
       },
       {
         "label": "D",
-        "text": "Option 1: Cut G by $450B; Option 2: Raise taxes by $900B."
+        "text": "G cut $360B; tax increase $600B"
       },
       {
         "label": "E",
-        "text": "Option 1: Cut G by $360B; Option 2: Raise taxes by $600B — expenditure multiplier = 1/0.40 = 2.5; tax multiplier = 0.60/0.40 = 1.5."
+        "text": "G cut $900B; tax increase $900B"
       }
     ],
-    "answer": "E",
+    "answer": "D",
     "explanation": "MOD-2.B.3: MPS = 0.40; expenditure multiplier = 1/0.40 = 2.5; required G cut: $900B/2.5 = $360B; tax multiplier = 0.60/0.40 = 1.5; required tax increase: $900B/1.5 = $600B. The government must raise taxes by a larger amount ($600B) than the spending cut ($360B) to achieve the same $900B GDP reduction, because the tax multiplier is smaller.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -1318,26 +1318,26 @@
     "options": [
       {
         "label": "A",
-        "text": "MPC=0.85; MPS=0.15; Multiplier≈6.67; ΔGDP≈$3,333B."
+        "text": "MPC=0.80; MPS=0.20; Multiplier=5; ΔGDP=$2,500B"
       },
       {
         "label": "B",
-        "text": "MPC=0.84; MPS=0.16; Multiplier=6.25; ΔGDP=$3,125B."
+        "text": "MPC=0.75; MPS=0.25; Multiplier=4; ΔGDP=$2,000B"
       },
       {
         "label": "C",
-        "text": "MPC=0.80; MPS=0.20; Multiplier=5; ΔGDP=$2,500B."
+        "text": "MPC=0.85; MPS=0.15; Multiplier≈6.67; ΔGDP≈$3,333B"
       },
       {
         "label": "D",
-        "text": "MPC=0.75; MPS=0.25; Multiplier=4; ΔGDP=$2,000B."
+        "text": "MPC=0.90; MPS=0.10; Multiplier=10; ΔGDP=$5,000B"
       },
       {
         "label": "E",
-        "text": "MPC=0.90; MPS=0.10; Multiplier=10; ΔGDP=$5,000B."
+        "text": "MPC=0.84; MPS=0.16; Multiplier=6.25; ΔGDP=$3,125B"
       }
     ],
-    "answer": "B",
+    "answer": "E",
     "explanation": "MOD-2.B.2: ΔYd = $50,000 - $40,000 = $10,000. ΔC = $42,400 - $34,000 = $8,400; MPC = $8,400/$10,000 = 0.84. MPS = 1 - 0.84 = 0.16; expenditure multiplier = 1/0.16 = 6.25. ΔGDP = 6.25 × $500B = $3,125B.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.5",
     "graphDescription": "",
@@ -1350,26 +1350,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Correct — a higher MPC always improves economic outcomes."
+        "text": "Incorrect — a higher MPC always reduces the multiplier"
       },
       {
         "label": "B",
-        "text": "The claim is partly correct but incomplete. A higher MPC does produce a larger expenditure multiplier, amplifying expansionary changes in spending. However, it also amplifies contractionary changes — if autonomous spending falls, a higher MPC produces a larger decrease in real GDP. Additionally, a higher MPC means lower saving, which may reduce available funds for investment in the long run."
+        "text": "Incorrect — the MPC has no effect on the size of the multiplier"
       },
       {
         "label": "C",
-        "text": "Incorrect — a higher MPC always reduces the multiplier."
+        "text": "A higher MPC amplifies both positive and negative spending shocks"
       },
       {
         "label": "D",
-        "text": "Correct, but only when the economy is below full employment."
+        "text": "Correct, but only when the economy is below full employment"
       },
       {
         "label": "E",
-        "text": "Incorrect — the MPC has no effect on the size of the multiplier."
+        "text": "Correct — a higher MPC always improves economic outcomes"
       }
     ],
-    "answer": "B",
+    "answer": "C",
     "explanation": "A higher MPC increases the expenditure multiplier (1/MPS), which is a double-edged characteristic; during expansions, larger multipliers amplify positive spending changes. But during contractions, they amplify negative shocks - a fall in autonomous spending produces a larger GDP decline when MPC is higher; the claim is partially correct but ignores the symmetric amplification of negative shocks.",
     "reference": "MOD-2.B | MOD-2.B.4",
     "graphDescription": "",
@@ -1382,26 +1382,26 @@
     "options": [
       {
         "label": "A",
-        "text": "+$1,250B — only the spending increase matters."
+        "text": "+$2,500B"
       },
       {
         "label": "B",
-        "text": "+$2,250B — spending multiplied by 5 plus tax cut multiplied by 4: 5×$250B + 4×$250B = $1,250B + $1,000B = $2,250B."
+        "text": "+$1,250B"
       },
       {
         "label": "C",
-        "text": "+$1,000B — the two effects cancel."
+        "text": "+$500B"
       },
       {
         "label": "D",
-        "text": "+$500B — they each produce $250B of GDP growth."
+        "text": "+$2,250B"
       },
       {
         "label": "E",
-        "text": "+$2,500B — the combined multiplier is 10."
+        "text": "+$1,000B"
       }
     ],
-    "answer": "B",
+    "answer": "D",
     "explanation": "MOD-2.B.3: Spending multiplier = 1/0.20 = 5; G effect: +5 × $250B = +$1,250B; tax multiplier = 0.80/0.20 = 4. Tax cut effect: +4 × $250B = +$1,000B; total ΔGDP = +$1,250B + $1,000B = +$2,250B; both policies shift AD to the right - a spending increase AND a tax cut are both expansionary.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -1414,26 +1414,26 @@
     "options": [
       {
         "label": "A",
-        "text": "$1,500B"
+        "text": "$2,000B"
       },
       {
         "label": "B",
-        "text": "$375B"
+        "text": "$1,500B"
       },
       {
         "label": "C",
-        "text": "$1,125B"
+        "text": "$375B"
       },
       {
         "label": "D",
-        "text": "$500B"
+        "text": "$1,125B"
       },
       {
         "label": "E",
-        "text": "$2,000B"
+        "text": "$500B"
       }
     ],
-    "answer": "B",
+    "answer": "C",
     "explanation": "Expenditure multiplier = 1/(1-0.75) = 1/0.25 = 4; required spending increase: recessionary gap ÷ multiplier = $1,500B ÷ 4 = $375B. The government only needs to increase spending by $375B because the multiplier process amplifies this into a $1,500B increase in real GDP, closing the gap.",
     "reference": "MOD-2.B | MOD-2.B.2",
     "graphDescription": "",
@@ -1446,26 +1446,26 @@
     "options": [
       {
         "label": "A",
-        "text": "R1=$200B; R2=$160B; R3=$128B; R4=$102.40B. Sum=$590.40B. Fraction=59.04%."
+        "text": "R1=$200B; R2=$200B; R3=$200B; R4=$200B. Each round is identical"
       },
       {
         "label": "B",
-        "text": "R1=$200B; R2=$160B; R3=$128B; R4=$102.40B. Sum=$590.40B. Fraction=59.04% of $1,000B."
+        "text": "R1=$200B; R2=$160B; R3=$128B; R4=$102.40B. Sum=$590.40B. Fraction=59.04%"
       },
       {
         "label": "C",
-        "text": "R1=$160B; R2=$128B; R3=$102.40B; R4=$81.92B."
+        "text": "R1=$200B; R2=$160B; R3=$128B; R4=$102.40B. Sum=$590.40B. Fraction=59.04% of $1,000B"
       },
       {
         "label": "D",
-        "text": "R1=$200B; R2=$160B; R3=$128B; R4=$102.40B. Sum=$590.40B. This is 59.04% of the total $1,000B multiplied effect. Rounds beyond Round 4 account for the remaining $409.60B."
+        "text": "R1=$160B; R2=$128B; R3=$102.40B; R4=$81.92B"
       },
       {
         "label": "E",
-        "text": "R1=$200B; R2=$200B; R3=$200B; R4=$200B. Each round is identical."
+        "text": "$200B,$160B,$128B,$102.4B; sum=$590.4B, or 59.04% of total"
       }
     ],
-    "answer": "D",
+    "answer": "E",
     "explanation": "R1=$200B (initial); R2=0.80×$200B=$160B; R3=0.80×$160B=$128B; R4=0.80×$128B=$102.40B; sum of 4 rounds=$590.40B; total effect = multiplier × $200B = 5 × $200B = $1,000B. Fraction = $590.40B/$1,000B = 59.04%; the multiplier process continues beyond round 4, with each subsequent round shrinking (by a factor of 0.80).",
     "reference": "MOD-2.B | MOD-2.B.1 | MOD-2.B.2",
     "graphDescription": "",
@@ -1478,27 +1478,27 @@
     "options": [
       {
         "label": "A",
-        "text": "Option A: G rises $200B; Option B: Tax cut $200B. Same size required."
+        "text": "G +$160B; tax cut $200B; G is smaller"
       },
       {
         "label": "B",
-        "text": "Option A: G rises $160B; Option B: Tax cut $200B. Option A requires less."
+        "text": "G +$200B; tax cut $200B; equal amounts"
       },
       {
         "label": "C",
-        "text": "Option A: G rises $200B; Option B: Tax cut $250B. Option A requires the smaller dollar action because the expenditure multiplier (5) exceeds the tax multiplier (4), so the same stimulus can be achieved with a smaller spending increase than tax cut."
+        "text": "G +$160B; tax cut $250B; G is smaller"
       },
       {
         "label": "D",
-        "text": "Option A: G rises $250B; Option B: Tax cut $200B. Option B requires less."
+        "text": "G +$800B; tax cut $800B; equal amounts"
       },
       {
         "label": "E",
-        "text": "Option A: G rises $800B; Option B: Tax cut $800B. Neither is multiplied."
+        "text": "G +$250B; tax cut $200B; taxes are smaller"
       }
     ],
-    "answer": "C",
-    "explanation": "MOD-2.B.3: Expenditure multiplier = 1/0.20 = 5; required G increase: $800B/5 = $160B; tax multiplier = 0.80/0.20 = 4. Required tax cut: $800B/4 = $200B; the spending multiplier is larger, so less initial spending is needed to achieve the same GDP target.",
+    "answer": "A",
+    "explanation": "With MPC=0.8, the spending multiplier is 5 and the tax-cut multiplier magnitude is 4. To raise GDP $800B, increase G by $160B or cut taxes $200B. Purchases require the smaller change.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
     "graphRequired": false
@@ -1510,26 +1510,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Economy X ΔGDP = −$2,000B; Economy Y ΔGDP = −$1,000B. Economy X suffers a larger GDP loss because its higher MPC produces a larger multiplier (5 vs. 2.5), amplifying the same negative shock."
+        "text": "X −$2,000B; Y −$1,200B"
       },
       {
         "label": "B",
-        "text": "Economy X ΔGDP = −$2,000B; Economy Y ΔGDP = −$1,000B."
+        "text": "X −$400B; Y −$400B"
       },
       {
         "label": "C",
-        "text": "Both economies lose exactly $400B — the multiplier only applies to positive spending changes."
+        "text": "X −$1,000B; Y −$2,000B"
       },
       {
         "label": "D",
-        "text": "Economy X ΔGDP = −$1,600B; Economy Y ΔGDP = −$1,200B."
+        "text": "X −$1,600B; Y −$1,200B"
       },
       {
         "label": "E",
-        "text": "Economy Y loses more because lower MPC means more saving to buffer the shock."
+        "text": "X −$2,000B; Y −$1,000B"
       }
     ],
-    "answer": "A",
+    "answer": "E",
     "explanation": "Economy X: multiplier = 1/(1-0.80) = 5. ΔGDP = -5 × $400B = -$2,000B; economy Y: multiplier = 1/(1-0.60) = 2.5. ΔGDP = -2.5 × $400B = -$1,000B. Economy X experiences twice the GDP loss for the same initial shock because its higher MPC produces a larger multiplier; this illustrates that a high MPC amplifies both positive AND negative economic shocks.",
     "reference": "MOD-2.B | MOD-2.B.4",
     "graphDescription": "",
@@ -1542,26 +1542,26 @@
     "options": [
       {
         "label": "A",
-        "text": "MPC is not constant — it changes across periods."
+        "text": "Insufficient data — MPC cannot be determined from two data points"
       },
       {
         "label": "B",
-        "text": "MPC = 0.90 in all periods; constant. Multiplier = 1/0.10 = 10."
+        "text": "MPC is not constant — it changes across periods"
       },
       {
         "label": "C",
-        "text": "MPC = 0.90 in Periods 1 and 2 but 0.85 in Period 3; not constant."
+        "text": "MPC = 0.90 in Periods 1 and 2 but 0.85 in Period 3; not constant"
       },
       {
         "label": "D",
-        "text": "MPC = 0.80 in all periods; constant. Multiplier = 5."
+        "text": "MPC = 0.90 in all periods; constant. Multiplier = 1/0.10 = 10"
       },
       {
         "label": "E",
-        "text": "Insufficient data — MPC cannot be determined from two data points."
+        "text": "MPC = 0.80 in all periods; constant. Multiplier = 5"
       }
     ],
-    "answer": "B",
+    "answer": "D",
     "explanation": "MOD-2.B.2: Period 1→2: ΔYd=$3,000; ΔC=$2,700 → MPC=0.90; period 2→3: ΔYd=$3,000; ΔC=$2,700 → MPC=0.90; MPC is constant at 0.90 across both intervals; MPS=0.10; expenditure multiplier=1/0.10=10.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.5",
     "graphDescription": "",
@@ -1574,26 +1574,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Option A: tax increase = $500B; Option B: spending cut = $400B."
+        "text": "Taxes +$500B; G cut $400B"
       },
       {
         "label": "B",
-        "text": "Option A: tax increase = $500B; Option B: spending cut = $400B. A tax increase of $500B produces ΔGDP = −4×$500B = −$2,000B. A spending cut of $400B produces ΔGDP = −5×$400B = −$2,000B. Both achieve the $2T reduction but require different dollar amounts."
+        "text": "Taxes +$400B; G cut $500B"
       },
       {
         "label": "C",
-        "text": "Option A: tax increase = $400B; Option B: spending cut = $500B."
+        "text": "Taxes +$500B; G cut $500B"
       },
       {
         "label": "D",
-        "text": "Both options require exactly $2,000B."
+        "text": "Taxes +$2,500B; G cut $2,000B"
       },
       {
         "label": "E",
-        "text": "Option A: tax increase = $2,500B; Option B: spending cut = $2,000B."
+        "text": "Taxes +$2,000B; G cut $2,000B"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "MOD-2.B.3: Expenditure multiplier = 1/0.20 = 5; spending cut needed: $2,000B/5 = $400B; tax multiplier = 0.80/0.20 = 4; tax increase needed: $2,000B/4 = $500B. The tax increase must be larger ($500B vs. $400B) to achieve the same $2T GDP reduction because the tax multiplier (4) is smaller than the expenditure multiplier (5).",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -1606,26 +1606,26 @@
     "options": [
       {
         "label": "A",
-        "text": "(a) 4; (b) +$640B; (c) +$480B."
+        "text": "(a) 3; (b) +$480B; (c) +$360B"
       },
       {
         "label": "B",
-        "text": "(a) 4; (b) +$480B; (c) +$640B."
+        "text": "(a) 5; (b) +$800B; (c) +$600B"
       },
       {
         "label": "C",
-        "text": "(a) 3; (b) +$480B; (c) +$360B."
+        "text": "(a) 4; (b) +$480B; (c) +$640B"
       },
       {
         "label": "D",
-        "text": "(a) 4; (b) +$640B; (c) +$640B — NX and tax cuts have the same multiplied effect."
+        "text": "(a) 4; (b) +$640B; (c) +$480B"
       },
       {
         "label": "E",
-        "text": "(a) 5; (b) +$800B; (c) +$600B."
+        "text": "(a) 4; (b) +$640B; (c) +$640B — NX and tax cuts have the same multiplied effect"
       }
     ],
-    "answer": "A",
+    "answer": "D",
     "explanation": "MOD-2.B.3: MPS=0.25; (a) Expenditure multiplier=1/0.25=4; (b) ΔGDP=4×$160B=+$640B; the NX increase is an autonomous spending change, so the full expenditure multiplier applies. (c) Tax multiplier=0.75/0.25=3; tax cut ΔGDP=3×$160B=+$480B; the tax cut generates a smaller GDP increase because only MPC×$160B=$120B initially enters the spending stream.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -1638,26 +1638,26 @@
     "options": [
       {
         "label": "A",
-        "text": "MPC=0.75: MPS=0.25; Exp. multiplier=4; Tax multiplier=3."
+        "text": "All rows are correctly described by options A, B, and C above"
       },
       {
         "label": "B",
-        "text": "MPC=0.80: MPS=0.20; Exp. multiplier=4; Tax multiplier=3."
+        "text": "MPC=0.75: MPS=0.25; Exp. multiplier=4; Tax multiplier=3"
       },
       {
         "label": "C",
-        "text": "MPC=0.60: MPS=0.40; expenditure multiplier=2; tax multiplier=1.5."
+        "text": "MPC=0.50: MPS=0.50; Exp. multiplier=2; Tax multiplier=2"
       },
       {
         "label": "D",
-        "text": "MPC=0.50: MPS=0.50; Exp. multiplier=2; Tax multiplier=2."
+        "text": "MPC=0.80: MPS=0.20; Exp. multiplier=4; Tax multiplier=3"
       },
       {
         "label": "E",
-        "text": "All rows are correctly described by options A, B, and C above."
+        "text": "MPC=0.60: MPS=0.40; expenditure multiplier=2; tax multiplier=1.5"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "When MPC is 0.75, MPS is 0.25, so the expenditure multiplier is 1/0.25 = 4 and the tax multiplier is 0.75/0.25 = 3.",
     "reference": "MOD-2.B | MOD-2.B.4",
     "graphDescription": "",
@@ -1670,26 +1670,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Pi ΔGDP = +$800B; Sigma ΔGDP = +$800B — same MPC means same multiplied effect."
+        "text": "Pi +$800B; Sigma +$600B"
       },
       {
         "label": "B",
-        "text": "Pi ΔGDP = +$800B; Sigma ΔGDP = +$600B — the spending multiplier (4) exceeds the tax multiplier (3) for MPC=0.75."
+        "text": "Pi +$200B; Sigma +$150B"
       },
       {
         "label": "C",
-        "text": "Pi ΔGDP = +$600B; Sigma ΔGDP = +$800B."
+        "text": "Pi +$800B; Sigma +$200B"
       },
       {
         "label": "D",
-        "text": "Pi ΔGDP = +$200B; Sigma ΔGDP = +$150B."
+        "text": "Pi +$600B; Sigma +$800B"
       },
       {
         "label": "E",
-        "text": "Pi ΔGDP = +$800B; Sigma ΔGDP = +$200B — tax cuts only change income, not spending."
+        "text": "Pi +$800B; Sigma +$800B"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "MOD-2.B.3: Both economies have MPC=0.75, MPS=0.25; pi (autonomous spending): multiplier=1/0.25=4 → ΔGDP=4×$200B=+$800B; sigma (tax cut): multiplier=0.75/0.25=3 → ΔGDP=3×$200B=+$600B. Even with identical MPC and identical dollar policy action, the spending increase generates more GDP growth ($800B vs. $600B) because it injects the full $200B into the spending stream initially.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -1702,26 +1702,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Correct — the two policy actions are always equivalent."
+        "text": "Both $125B actions reduce GDP $500B"
       },
       {
         "label": "B",
-        "text": "Incorrect — the multipliers are not the same. With MPC=0.75: Expenditure multiplier=4; Tax multiplier=3. A $125B spending cut closes 4×$125B=$500B of GDP ✓. But a $125B tax increase closes only 3×$125B=$375B of GDP, not $500B. To close $500B with taxes: need $500B/3≈$167B tax increase."
+        "text": "Balanced-budget effects make both actions equivalent"
       },
       {
         "label": "C",
-        "text": "Correct, but only when the MPC equals 0.75."
+        "text": "G cut $125B; equivalent tax increase $166.67B"
       },
       {
         "label": "D",
-        "text": "Incorrect — tax increases have no multiplied effect on GDP."
+        "text": "Both $125B actions reduce GDP $375B"
       },
       {
         "label": "E",
-        "text": "Correct — the balanced budget multiplier ensures equal effects."
+        "text": "Tax increases have no multiplied GDP effect"
       }
     ],
-    "answer": "B",
+    "answer": "C",
     "explanation": "MOD-2.B.3: MPS=0.25; expenditure multiplier=4; Tax multiplier=3; these are NOT equal. A $125B spending cut: ΔGDP=-4×$125B=-$500B ✓ (closes the $500B inflationary gap); A $125B tax increase: ΔGDP=-3×$125B=-$375B ✗ (insufficient); to close $500B with taxes: need $500B/3≈$167B; the policymaker's claim is incorrect.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -1734,26 +1734,26 @@
     "options": [
       {
         "label": "A",
-        "text": "(a) MPC=0.75; (b) MPS=0.25; (c) multiplier=4; (d) Investment must rise by $750B."
+        "text": "(a) MPC=0.80; (b) MPS=0.20; (c) multiplier=5; (d) Investment must rise by $600B"
       },
       {
         "label": "B",
-        "text": "(a) MPC=0.75; (b) MPS=0.25; (c) multiplier=4; (d) Investment must rise by $3,000B."
+        "text": "(a) MPC=0.75; (b) MPS=0.25; (c) multiplier=3; (d) Investment must rise by $1,000B"
       },
       {
         "label": "C",
-        "text": "(a) MPC=0.75; (b) MPS=0.25; (c) multiplier=3; (d) Investment must rise by $900B."
+        "text": "(a) MPC=0.75; (b) MPS=0.25; (c) multiplier=4; (d) Investment must rise by $750B"
       },
       {
         "label": "D",
-        "text": "(a) MPC=0.80; (b) MPS=0.20; (c) multiplier=5; (d) Investment must rise by $600B."
+        "text": "(a) MPC=0.75; (b) MPS=0.25; (c) multiplier=3; (d) Investment must rise by $900B"
       },
       {
         "label": "E",
-        "text": "(a) MPC=0.75; (b) MPS=0.25; (c) multiplier=3; (d) Investment must rise by $1,000B."
+        "text": "(a) MPC=0.75; (b) MPS=0.25; (c) multiplier=4; (d) Investment must rise by $3,000B"
       }
     ],
-    "answer": "A",
+    "answer": "C",
     "explanation": "MOD-2.B.2: (a) MPC = $750/$1,000 = 0.75; (b) MPS = 1-0.75 = 0.25; (c) Expenditure multiplier = 1/0.25 = 4. (d) Required ΔI: ΔGDP = multiplier × ΔI → $3,000B = 4 × ΔI → ΔI = $750B; investment only needs to rise by $750B because the multiplier process amplifies it to $3,000B.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.5",
     "graphDescription": "",
@@ -1766,26 +1766,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Student A is correct on the formula and the direction (tax increase → GDP falls)."
+        "text": "B: correct magnitude, incorrect direction"
       },
       {
         "label": "B",
-        "text": "Student B is correct — the tax multiplier equals the expenditure multiplier."
+        "text": "A: correct magnitude and direction"
       },
       {
         "label": "C",
-        "text": "Both are wrong — tax changes have no multiplied effect on GDP."
+        "text": "B: correct magnitude and direction"
       },
       {
         "label": "D",
-        "text": "Student A is correct on the magnitude but wrong on the direction — a tax increase raises GDP."
+        "text": "A: correct magnitude, incorrect direction"
       },
       {
         "label": "E",
-        "text": "Student B is correct on the formula but wrong on the direction."
+        "text": "Neither: taxes have no multiplied effect"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "Student A is fully correct; tax multiplier = MPC/MPS = 0.80/0.20 = 4. A tax INCREASE reduces disposable income → consumption falls → GDP falls by 4 × $300B = $1,200B; student B is wrong on both counts: the formula 1/(1-MPC) is the expenditure multiplier, not the tax multiplier; and a tax increase reduces GDP (not increases it).",
     "reference": "MOD-2.B | MOD-2.B.3 | MOD-2.B.4",
     "graphDescription": "",
@@ -1798,26 +1798,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Government spending is more efficiently spent than private spending."
+        "text": "Government spending has a higher MPC than private consumption"
       },
       {
         "label": "B",
-        "text": "A $100B spending increase immediately injects $100B into the spending stream (first round = $100B). A $100B tax cut first raises disposable income by $100B, but households only spend MPC×$100B=$80B (saving $20B). The first round of the tax cut is only $80B. All subsequent rounds are identical for both policies. So the spending increase has a $20B larger initial injection, ultimately generating $20B×(1/MPS) = $20B×5 = $100B more GDP."
+        "text": "Tax cuts reduce government revenue, which forces spending cuts, partially offsetting the effect"
       },
       {
         "label": "C",
-        "text": "Tax cuts go to higher-income households who save more, so less reaches the spending stream."
+        "text": "Spending initially injects $100B; the tax cut initially injects $80B"
       },
       {
         "label": "D",
-        "text": "Government spending has a higher MPC than private consumption."
+        "text": "Government spending is more efficiently spent than private spending"
       },
       {
         "label": "E",
-        "text": "Tax cuts reduce government revenue, which forces spending cuts, partially offsetting the effect."
+        "text": "Tax cuts go to higher-income households who save more, so less reaches the spending stream"
       }
     ],
-    "answer": "B",
+    "answer": "C",
     "explanation": "MOD-2.B.3: The key insight is the first-round difference; A $100B G increase: full $100B immediately spent (first round = $100B); A $100B tax cut: first round = MPC × $100B = $80B (because $20B is saved). The difference in first-round injection is $20B; this $20B difference is itself multiplied by 1/MPS = 5, producing a $100B difference in final GDP; this explains why spending multiplier (5) = tax multiplier (4) + 1.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -1830,26 +1830,26 @@
     "options": [
       {
         "label": "A",
-        "text": "The net change is -$500B."
+        "text": "The net change is +$300B"
       },
       {
         "label": "B",
-        "text": "The net change is +$300B."
+        "text": "$0; the three multiplied effects offset"
       },
       {
         "label": "C",
-        "text": "ΔGDP = −$500B + $300B + $200B = $0. Multiplier=5 for I and G; Tax multiplier=4. −5×$100B + 5×$60B + 4×$50B = −$500B + $300B + $200B = $0."
+        "text": "The net change is -$500B"
       },
       {
         "label": "D",
-        "text": "ΔGDP = +$500B."
+        "text": "ΔGDP = +$500B"
       },
       {
         "label": "E",
-        "text": "The net change is +$200B."
+        "text": "The net change is +$200B"
       }
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "MOD-2.B.3: Expenditure multiplier = 5; Tax multiplier = 4; (1) ΔI = -$100B → ΔGDP = -5×$100B = -$500B. (2) ΔG = +$60B → ΔGDP = +5×$60B = +$300B; (3) ΔTax = -$50B → ΔGDP = +4×$50B = +$200B; net ΔGDP = -$500B + $300B + $200B = $0; all three simultaneous changes exactly cancel each other.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -1862,26 +1862,26 @@
     "options": [
       {
         "label": "A",
-        "text": "(a) Exp. mult=2.5; Tax mult=1.5. (b) Required tax increase = $800B/1.5 ≈ $533.33B."
+        "text": "Spending 1.67; tax magnitude 0.67; taxes +$1,200B"
       },
       {
         "label": "B",
-        "text": "(a) Exp. mult=4; Tax mult=3. (b) Required tax increase = $800B/3 ≈ $266.67B."
+        "text": "Spending 4; tax magnitude 3; taxes +$266.67B"
       },
       {
         "label": "C",
-        "text": "(a) Exp. mult=2.5; Tax mult=1.5. (b) Required tax increase = $800B/2.5 = $320B."
+        "text": "Spending 2.5; tax magnitude 1.5; taxes +$533.33B"
       },
       {
         "label": "D",
-        "text": "(a) Exp. mult=2.5; Tax mult=1.5. (b) Required tax increase = $800B."
+        "text": "Spending 2.5; tax magnitude 1.5; taxes +$800B"
       },
       {
         "label": "E",
-        "text": "(a) Exp. mult=1.67; Tax mult=0.67. (b) Required tax increase = $1,200B."
+        "text": "Spending 2.5; tax magnitude 1.5; taxes +$320B"
       }
     ],
-    "answer": "A",
+    "answer": "C",
     "explanation": "MPS=0.40; expenditure multiplier=1/0.40=2.5; tax multiplier=0.60/0.40=1.5; required tax increase: $800B÷1.5=$533.33B. A tax increase of ~$533B will reduce GDP by 1.5×$533B=$800B, closing the inflationary gap; (Compare: a spending cut would only need $800B/2.5=$320B - less than half the tax increase.).",
     "reference": "MOD-2.B | MOD-2.B.3",
     "graphDescription": "",
@@ -1894,23 +1894,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Round 1: $400B; Round 2: $300B; Round 3: $225B; Round 4: $168.75B; ... Total = $1,600B = 4 × $400B."
+        "text": "Rounds $400B/$300B/$225B/$168.75B; eventual total $1,600B"
       },
       {
         "label": "B",
-        "text": "Round 1: $300B; Round 2: $225B; Round 3: $168.75B; ... Total = $1,200B = 3 × $400B."
+        "text": "Rounds $300B/$225B/$168.75B/$126.56B; eventual total $1,200B"
       },
       {
         "label": "C",
-        "text": "Round 1: $400B; Round 2: $400B; Round 3: $400B; Round 4: $400B; Total = $1,600B."
+        "text": "Rounds $400B/$400B/$400B/$400B; eventual total $1,600B"
       },
       {
         "label": "D",
-        "text": "Round 1: $400B; Round 2: $300B; Round 3: $225B; Total = $925B (only three rounds)."
+        "text": "Rounds $400B/$100B/$25B; complete total $525B"
       },
       {
         "label": "E",
-        "text": "Round 1: $400B; Round 2: $100B; Round 3: $25B; Total = $525B."
+        "text": "Rounds $400B/$300B/$225B; complete total $925B"
       }
     ],
     "answer": "A",
@@ -1926,26 +1926,26 @@
     "options": [
       {
         "label": "A",
-        "text": "(a) $540B; (b) $540B; (c) no difference."
+        "text": "G +$540B; tax cut $540B; difference zero"
       },
       {
         "label": "B",
-        "text": "(a) $540B; (b) $756B; (c) $216B more tax cut needed."
+        "text": "G +$600B; tax cut $800B; difference $200B"
       },
       {
         "label": "C",
-        "text": "(a) $540B; (b) $630B; (c) $90B more tax cut needed."
+        "text": "G +$540B; tax cut $771.43B; difference $231.43B"
       },
       {
         "label": "D",
-        "text": "(a) $600B; (b) $800B; (c) $200B more."
+        "text": "G +$540B; tax cut $630B; difference $90B"
       },
       {
         "label": "E",
-        "text": "(a) $540B; (b) approximately $771.4B; (c) approximately $231.4B more tax reduction is needed."
+        "text": "G +$540B; tax cut $756B; difference $216B"
       }
     ],
-    "answer": "E",
+    "answer": "C",
     "explanation": "With MPS = 0.30, the expenditure multiplier is 10/3 and the tax multiplier is 7/3. Therefore spending must rise by $1,800B divided by 10/3, or $540B, while taxes must fall by about $771.4B, a difference of about $231.4B.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -1958,11 +1958,11 @@
     "options": [
       {
         "label": "A",
-        "text": "MPC = 0.60"
+        "text": "MPC = 0.50"
       },
       {
         "label": "B",
-        "text": "MPC = 0.70"
+        "text": "MPC = 0.80"
       },
       {
         "label": "C",
@@ -1970,11 +1970,11 @@
       },
       {
         "label": "D",
-        "text": "MPC = 0.80"
+        "text": "MPC = 0.70"
       },
       {
         "label": "E",
-        "text": "MPC = 0.50"
+        "text": "MPC = 0.60"
       }
     ],
     "answer": "C",
@@ -1990,23 +1990,23 @@
     "options": [
       {
         "label": "A",
-        "text": "+$1,250B − $800B = +$450B."
+        "text": "+$400B"
       },
       {
         "label": "B",
-        "text": "+$1,250B + $800B = +$2,050B."
+        "text": "+$50B"
       },
       {
         "label": "C",
-        "text": "+$1,250B − $1,000B = +$250B."
+        "text": "+$250B"
       },
       {
         "label": "D",
-        "text": "+$1,250B − $800B = +$450B. Expenditure multiplier=5; Tax multiplier=5−1=4. Net ΔGDP = 5×$250B − 4×$200B = $1,250B − $800B = +$450B."
+        "text": "+$450B"
       },
       {
         "label": "E",
-        "text": "+$250B − $200B = +$50B (no multiplier effect)."
+        "text": "+$2,050B"
       }
     ],
     "answer": "D",
@@ -2022,26 +2022,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Option 1 only closes the gap with $400B G increase."
+        "text": "Only Option 2 achieves the target"
       },
       {
         "label": "B",
-        "text": "Option 1: G increase of $400B → ΔGDP=+$2,000B ✓; Option 2: Tax cut of $500B → ΔGDP=+$2,000B ✓; Option 3: 5×$150B + 4×$125B = $750B + $500B = $1,250B ✗ — falls short."
+        "text": "All three options achieve exactly $2,000B"
       },
       {
         "label": "C",
-        "text": "All three options achieve exactly $2,000B."
+        "text": "Option 3 is sufficient; Options 1 and 2 overshoot"
       },
       {
         "label": "D",
-        "text": "Option 3 is sufficient; Options 1 and 2 overshoot."
+        "text": "Options 1 and 2 meet the target; option 3 gives $1,250B"
       },
       {
         "label": "E",
-        "text": "Only Option 2 achieves the target."
+        "text": "Option 1 only closes the gap with $400B G increase"
       }
     ],
-    "answer": "B",
+    "answer": "D",
     "explanation": "MOD-2.B.3: Expenditure multiplier=5; Tax multiplier=4.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -2054,26 +2054,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Correct — only government spending has a multiplied effect on real GDP."
+        "text": "Only government purchases generate multiplied effects"
       },
       {
         "label": "B",
-        "text": "Incorrect — the expenditure multiplier applies to any change in autonomous spending, regardless of which sector initiates it. A $100B increase in autonomous investment, government spending, or net exports will all produce the same $100B × (1/MPS) increase in real GDP. The multiplier quantifies the effect of any autonomous change in aggregate demand components."
+        "text": "Government purchases and taxes are the only relevant changes"
       },
       {
         "label": "C",
-        "text": "Correct — private investment changes are more uncertain and thus not multiplied."
+        "text": "Investment is multiplied but net exports never are"
       },
       {
         "label": "D",
-        "text": "Partially correct — the multiplier applies to G and investment but not net exports."
+        "text": "Only certain public investment changes generate multiplied effects"
       },
       {
         "label": "E",
-        "text": "Correct — the multiplier only applies to government spending and tax changes."
+        "text": "All autonomous spending changes generate multiplied effects"
       }
     ],
-    "answer": "B",
+    "answer": "E",
     "explanation": "The expenditure multiplier applies to any change in autonomous spending - consumption (C), investment (I), government spending (G), or net exports (NX). states: \"The expenditure multiplier quantifies the size of the change in aggregate demand as a result of a change in ANY of the components of aggregate demand.\" Sector origin does not matter; what matters is the size of the initial change and the MPC.",
     "reference": "MOD-2.B | MOD-2.B.2",
     "graphDescription": "",
@@ -2086,26 +2086,26 @@
     "options": [
       {
         "label": "A",
-        "text": "(a) New GDP=$21.2T; (b) a recessionary gap of $0.8T still exists."
+        "text": "(a) New GDP=$21.2T; (b) no gap — the economy exceeded potential"
       },
       {
         "label": "B",
-        "text": "(a) New GDP=$21.6T; (b) no gap — potential is exactly reached."
+        "text": "(a) New GDP=$22.0T; (b) gap is closed exactly"
       },
       {
         "label": "C",
-        "text": "(a) New GDP=$20.4T; (b) recessionary gap of $1.6T remains."
+        "text": "(a) New GDP=$21.6T; (b) no gap — potential is exactly reached"
       },
       {
         "label": "D",
-        "text": "(a) New GDP=$21.2T; (b) no gap — the economy exceeded potential."
+        "text": "(a) New GDP=$21.2T; (b) a recessionary gap of $0.8T still exists"
       },
       {
         "label": "E",
-        "text": "(a) New GDP=$22.0T; (b) gap is closed exactly."
+        "text": "(a) New GDP=$20.4T; (b) recessionary gap of $1.6T remains"
       }
     ],
-    "answer": "A",
+    "answer": "D",
     "explanation": "Tax multiplier=MPC/MPS=0.75/0.25=3. ΔGDP=3×$400B=+$1,200B=$1.2T; new GDP=$20T+$1.2T=$21.2T; potential=$22T; remaining gap=$22T-$21.2T=$0.8T. The tax cut reduces but does not fully close the $2T recessionary gap; an additional policy action would be needed to close the remaining $0.8T gap.",
     "reference": "MOD-2.B | MOD-2.B.3",
     "graphDescription": "",
@@ -2118,26 +2118,26 @@
     "options": [
       {
         "label": "A",
-        "text": "ΔGDP = 0 — equal changes always cancel."
+        "text": "GDP falls $420B"
       },
       {
         "label": "B",
-        "text": "ΔGDP = +$420B — the balanced budget multiplier equals 1."
+        "text": "GDP rises $420B"
       },
       {
         "label": "C",
-        "text": "ΔGDP = +$1,400B − $980B = +$420B — confirmed: balanced budget multiplier = 1."
+        "text": "GDP rises $840B"
       },
       {
         "label": "D",
-        "text": "ΔGDP = −$420B — the tax increase dominates."
+        "text": "GDP unchanged"
       },
       {
         "label": "E",
-        "text": "ΔGDP = +$840B — the effects add rather than partially cancel."
+        "text": "GDP rises $1,400B"
       }
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "MOD-2.B.3: MPS=0.30, MPC=0.70; expenditure multiplier=1/0.30≈3.333; tax multiplier=0.70/0.30≈2.333; G effect: 3.333×$420B=$1,400B; tax effect: -2.333×$420B=-$980B; net ΔGDP=$1,400B-$980B=+$420B. This confirms the balanced budget multiplier = 1: equal increases in G and T always raise GDP by exactly the dollar amount of the change, regardless of MPC.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -2154,7 +2154,7 @@
       },
       {
         "label": "B",
-        "text": "MPC = 0.875"
+        "text": "MPC = 0.88"
       },
       {
         "label": "C",
@@ -2166,10 +2166,10 @@
       },
       {
         "label": "E",
-        "text": "MPC = 0.88"
+        "text": "MPC = 0.875"
       }
     ],
-    "answer": "B",
+    "answer": "E",
     "explanation": "Expenditure multiplier = 1/MPS = 8 → MPS = 1/8 = 0.125. MPC = 1 - MPS = 1 - 0.125 = 0.875; check: Tax multiplier = MPC/MPS = 0.875/0.125 = 7, which is 1 less than 8 ✓.",
     "reference": "MOD-2.B | MOD-2.B.4",
     "graphDescription": "",
@@ -2182,26 +2182,26 @@
     "options": [
       {
         "label": "A",
-        "text": "MPC + MPS = 1."
+        "text": "A higher MPC produces a smaller tax multiplier because less is spent"
       },
       {
         "label": "B",
-        "text": "MPC = ΔConsumption ÷ ΔDisposable Income."
+        "text": "The expenditure multiplier equals 1/MPS"
       },
       {
         "label": "C",
-        "text": "A higher MPC always produces a larger expenditure multiplier."
+        "text": "A higher MPC always produces a larger expenditure multiplier"
       },
       {
         "label": "D",
-        "text": "The expenditure multiplier equals 1/MPS."
+        "text": "MPC + MPS = 1"
       },
       {
         "label": "E",
-        "text": "A higher MPC produces a smaller tax multiplier because households spend less of each tax cut dollar."
+        "text": "MPC = ΔConsumption ÷ ΔDisposable Income"
       }
     ],
-    "answer": "E",
+    "answer": "A",
     "explanation": "MOD-2.B.5: Statement E is FALSE; A higher MPC produces a LARGER tax multiplier (MPC/MPS); as MPC rises, MPS falls, so MPC/MPS = MPC/(1-MPC) rises. A higher MPC means households spend MORE of each tax cut dollar on consumption, generating MORE rounds of re-spending, producing a LARGER (not smaller) tax multiplier; statements A, B, C, and D are all true.",
     "reference": "MOD-2.B | MOD-2.B.4 | MOD-2.B.5",
     "graphDescription": "",
@@ -2214,26 +2214,26 @@
     "options": [
       {
         "label": "A",
-        "text": "The tax effect is $2.5T, creating a $0.5T inflationary gap."
+        "text": "GDP gain $2.5T; final $20.5T; overshoot $0.5T"
       },
       {
         "label": "B",
-        "text": "Tax effect = 5×$500B = $2.5T. New GDP = $20.5T. Inflationary gap created."
+        "text": "GDP gain $2T; final $20T; gap exactly closed"
       },
       {
         "label": "C",
-        "text": "The tax effect is $1.5T, leaving a $0.5T recessionary gap."
+        "text": "GDP gain $2T; final $19T; shortfall $1T"
       },
       {
         "label": "D",
-        "text": "Tax effect = 4×$500B = $2T. New GDP = $20T — the gap is exactly closed because MPC=0.80 gives tax multiplier=4 and $500B×4=$2T."
+        "text": "GDP gain $1.5T; final $19.5T; shortfall $0.5T"
       },
       {
         "label": "E",
-        "text": "Tax effect = 3×$500B = $1.5T. Gap underclosed by $0.5T."
+        "text": "GDP gain $0.5T; final $18.5T; shortfall $1.5T"
       }
     ],
-    "answer": "D",
+    "answer": "B",
     "explanation": "Tax multiplier = MPC/MPS = 0.80/0.20 = 4; tax cut = $500B → ΔGDP = 4×$500B = +$2,000B = +$2T. New GDP = $18T + $2T = $20T = Potential GDP; the recessionary gap is exactly closed - neither overclosed (inflationary gap created) nor underclosed; A tax cut of exactly $500B is the precise amount needed.",
     "reference": "MOD-2.B | MOD-2.B.3",
     "graphDescription": "",
@@ -2242,30 +2242,30 @@
   {
     "id": 71,
     "difficulty": "Medium",
-    "prompt": "The expenditure multiplier and tax multiplier always satisfy: Expenditure multiplier = Tax multiplier + 1. Prove this algebraically using MPC and MPS.",
+    "prompt": "The expenditure multiplier and tax multiplier always satisfy: Expenditure multiplier = Tax multiplier magnitude + 1. Prove this algebraically using MPC and MPS.",
     "options": [
       {
         "label": "A",
-        "text": "They are equal; the relationship stated is incorrect."
+        "text": "The difference is MPS for every MPC"
       },
       {
         "label": "B",
-        "text": "Expenditure multiplier − Tax multiplier = 1/MPS − MPC/MPS = (1−MPC)/MPS = MPS/MPS = 1. Since MPC+MPS=1, (1−MPC)=MPS, so the difference is always exactly 1."
+        "text": "The difference is zero for every MPC"
       },
       {
         "label": "C",
-        "text": "The expenditure multiplier exceeds the tax multiplier by MPC, not by 1."
+        "text": "The difference equals 1 only at MPC=0.75"
       },
       {
         "label": "D",
-        "text": "The relationship holds only when MPC = 0.75."
+        "text": "The magnitude difference is (1−MPC)/MPS=1"
       },
       {
         "label": "E",
-        "text": "Expenditure multiplier = Tax multiplier + MPS, not + 1."
+        "text": "The difference is MPC for every MPC"
       }
     ],
-    "answer": "B",
+    "answer": "D",
     "explanation": "MOD-2.B.3: Expenditure multiplier = 1/MPS; tax multiplier = MPC/MPS; difference = 1/MPS - MPC/MPS = (1-MPC)/MPS; since MPC+MPS=1 (MOD-2.B.5), we have 1-MPC=MPS. Therefore (1-MPC)/MPS = MPS/MPS = 1; the expenditure multiplier always exceeds the tax multiplier by exactly 1, regardless of the value of MPC (as long as 0 < MPC < 1).",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3 | MOD-2.B.5",
     "graphDescription": "",
@@ -2278,26 +2278,26 @@
     "options": [
       {
         "label": "A",
-        "text": "ΔGDP = +$1,000B − $1,200B = −$200B. Economy moves further from potential."
+        "text": "GDP unchanged; recessionary gap $3T"
       },
       {
         "label": "B",
-        "text": "ΔGDP = +$1,000B − $1,200B = −$200B. Economy moves further from potential — from $3T below potential to $3.2T below."
+        "text": "GDP −$500B; recessionary gap $3.5T"
       },
       {
         "label": "C",
-        "text": "ΔGDP = +$1,000B + $1,200B = +$2,200B. Economy moves to potential."
+        "text": "GDP +$2,200B; recessionary gap $0.8T"
       },
       {
         "label": "D",
-        "text": "ΔGDP = +$1,000B − $1,200B = −$200B. The economy worsens: gap widens from $3T to $3.2T."
+        "text": "GDP −$100B; recessionary gap $3.1T"
       },
       {
         "label": "E",
-        "text": "ΔGDP = 0 — investment and tax changes cancel."
+        "text": "GDP −$200B; recessionary gap $3.2T"
       }
     ],
-    "answer": "B",
+    "answer": "E",
     "explanation": "MOD-2.B.3: Expenditure multiplier=5; Tax multiplier=4; investment increase: +5×$200B=+$1,000B; tax increase: -4×$300B=-$1,200B; net ΔGDP=+$1,000B-$1,200B=-$200B; new GDP=$25T-$0.2T=$24.8T. Gap was $3T; gap is now $28T-$24.8T=$3.2T; economy moves FURTHER from potential - the recessionary gap widens by $0.2T.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -2310,26 +2310,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Only Economist 1 is correct — higher MPC is always beneficial for fiscal policy effectiveness."
+        "text": "Both; greater MPC amplifies positive and negative spending effects"
       },
       {
         "label": "B",
-        "text": "Only Economist 2 is correct — higher MPC makes fiscal policy counterproductive."
+        "text": "Only 1; greater MPC never amplifies negative shocks"
       },
       {
         "label": "C",
-        "text": "Both economists are correct from their respective perspectives. Higher MPC → higher multiplier (1/MPS) → same spending or tax action produces a larger GDP effect (Economist 1 is correct). But a higher multiplier also means larger GDP swings from any shock — positive or negative — making the economy more volatile (Economist 2 is also correct). The multiplier is symmetric: it amplifies both expansionary and contractionary changes equally."
+        "text": "Neither; MPC has no multiplier effect"
       },
       {
         "label": "D",
-        "text": "Neither is correct — the MPC has no effect on fiscal policy effectiveness."
+        "text": "1 for purchases only; 2 for taxes only"
       },
       {
         "label": "E",
-        "text": "Economist 1 is correct for spending policy; Economist 2 is correct only for tax policy."
+        "text": "Only 2; greater MPC eliminates positive policy effects"
       }
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "Both economists make valid points; higher MPC → lower MPS → higher 1/MPS multiplier. Economist 1 is correct: more fiscal \"bang for the buck.\" But Economist 2 is also correct: the multiplier is symmetric - it amplifies both positive (government spending increases, tax cuts) and negative (spending cuts, tax increases) fiscal actions equally; A high-MPC economy gets more stimulus from expansionary policy but also more contraction from austerity.",
     "reference": "MOD-2.B | MOD-2.B.4",
     "graphDescription": "",
@@ -2342,26 +2342,26 @@
     "options": [
       {
         "label": "A",
-        "text": "(a) −$800B; (b) $1,000B remaining; (c) $1,000B/3 ≈ $333.3B; (d) G cut: $1 reduces GDP by $4; Tax increase: $1 reduces GDP by $3."
+        "text": "GDP −$800B; gap $1,000B; tax +$250B; ratios 0.25/0.33"
       },
       {
         "label": "B",
-        "text": "(a) −$800B; (b) $1,000B remaining; (c) $333.3B tax increase; (d) G cut ratio: $0.25 per $1 GDP reduction; Tax ratio: $0.33 per $1 GDP reduction."
+        "text": "GDP −$800B; gap $1,000B; tax +$333.33B; ratios 0.25/0.25"
       },
       {
         "label": "C",
-        "text": "(a) −$800B; (b) $1,000B remaining; (c) $333.3B; (d) G cut: each $1 spent produces $4 GDP reduction; Tax: each $1 raised produces $3 GDP reduction."
+        "text": "GDP −$600B; gap $1,200B; tax +$400B; ratios 0.33/0.33"
       },
       {
         "label": "D",
-        "text": "(a) −$800B; (b) $1,000B remaining; (c) $333.3B tax increase needed to close remaining $1,000B gap. G cut ratio: $200B/$800B = $0.25 per $1 of GDP reduction. Tax ratio: $333B/$1,000B ≈ $0.333 per $1 of GDP reduction. Spending cut is more efficient per dollar of GDP reduction than a tax increase."
+        "text": "GDP −$800B; gap $1,000B; tax +$250B; ratios 0.25/0.25"
       },
       {
         "label": "E",
-        "text": "(a) −$600B; (b) $1,200B remaining; (c) $400B."
+        "text": "GDP −$800B; gap $1,000B; tax +$333.33B; ratios 0.25/0.33"
       }
     ],
-    "answer": "D",
+    "answer": "E",
     "explanation": "MOD-2.B.3: MPS=0.25; exp. mult=4; Tax mult=3; (a) G cut $200B: ΔGDP=-4×$200B=-$800B; (b) Remaining gap=$1,800B-$800B=$1,000B; (c) Tax increase needed: $1,000B÷3=$333.33B. (d) G cut efficiency: $200B reduces GDP by $800B → ratio=$200/$800=$0.25 per $1 GDP reduction; tax increase efficiency: $333B reduces GDP by $1,000B → ratio=$333/$1,000≈$0.333 per $1 GDP reduction; government spending cuts are more efficient (lower dollar cost per $1 of GDP reduction) than tax increases.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -2374,23 +2374,23 @@
     "options": [
       {
         "label": "A",
-        "text": "All three are correct."
+        "text": "Only Student B is correct"
       },
       {
         "label": "B",
-        "text": "Student A is correct; Students B and C are wrong."
+        "text": "All three are incorrect — MPC cannot be recovered from multipliers alone"
       },
       {
         "label": "C",
-        "text": "Students B and C are correct; Student A is incorrect. MPC ≠ expenditure multiplier − tax multiplier (that equals 1, not MPC). MPC = tax multiplier/expenditure multiplier (B is correct) and MPC = 1 − 1/expenditure multiplier (C is correct)."
+        "text": "B and C; MPC=tax magnitude/spending multiplier=1−1/spending multiplier"
       },
       {
         "label": "D",
-        "text": "Only Student B is correct."
+        "text": "Student A is correct; Students B and C are wrong"
       },
       {
         "label": "E",
-        "text": "All three are incorrect — MPC cannot be recovered from multipliers alone."
+        "text": "All three are correct"
       }
     ],
     "answer": "C",
@@ -2402,30 +2402,30 @@
   {
     "id": 76,
     "difficulty": "Hard",
-    "prompt": "An economy has an output gap table:\n\nSituation | Real GDP | Potential GDP | Gap | MPC | Recessionary/Inflationary\n\nA         | $18T     | $20T          | ?   | 0.80 | ?\n\nB         | $22T     | $20T          | ?   | 0.75 | ?\n\nC         | $15T     | $20T          | ?   | 0.60 | ?\n\nFor each situation: (a) calculate the output gap; (b) classify; (c) calculate the government spending change needed to close the gap; (d) calculate the tax change needed to close the gap.",
+    "prompt": "An economy has an output gap table:\n\nSituation | Real GDP | Potential GDP | Gap | MPC | Recessionary/Inflationary\n\nA         | $18T     | $20T          | ?   | 0.80 | ?\n\nB         | $22T     | $20T          | ?   | 0.75 | ?\n\nC         | $15T     | $20T          | ?   | 0.60 | ?\n\nFor each situation: (a) calculate the output gap; (b) classify; (c) calculate the government spending change needed to close the gap; (d) calculate the tax change needed to close the gap.\n\nAmounts are rounded to the nearest billion. Choose the row that closes all three gaps; G changes refer to purchases and T changes to taxes.",
     "options": [
       {
         "label": "A",
-        "text": "A: −$2T recessionary; G increase=$500B or tax cut=$625B. B: +$2T inflationary; G cut=$500B or tax hike=$667B. C: −$5T recessionary; G increase=$2,000B or tax cut=$3,571B."
+        "text": "A: G+$500B/T−$625B; B: G−$500B/T+$667B; C: G+$2,000B/T−$3,333B"
       },
       {
         "label": "B",
-        "text": "A: −$2T recessionary; G increase=$400B or tax cut=$500B. B: +$2T inflationary; G cut=$500B or tax hike=$667B. C: −$5T recessionary; G increase=$2,000B or tax cut=$3,333B."
+        "text": "A: G+$400B/T−$500B; B: G−$500B/T+$667B; C: G+$2,000B/T−$3,333B"
       },
       {
         "label": "C",
-        "text": "A: −$2T recessionary; G=$400B or T cut=$500B. B: +$2T inflationary; G cut=$500B or T hike=$667B. C: −$5T recessionary; G=$2,000B or T cut=$3,333B."
+        "text": "A: G+$500B/T−$625B; B: G−$500B/T+$667B; C: G+$2,000B/T−$3,571B"
       },
       {
         "label": "D",
-        "text": "A: gap=−$2T; G increase=$500B; tax cut=$625B. B: gap=+$2T; G cut=$500B; tax hike=$667B. C: gap=−$5T; G=$2,000B; tax cut=$3,333B."
+        "text": "A: G+$400B/T−$500B; B: G+$500B/T−$667B; C: G−$2,000B/T+$3,333B"
       },
       {
         "label": "E",
-        "text": "A: gap=−$2T; G=$400B; T=$500B. B: gap=+$2T; G=$500B; T=$667B. C: gap=−$5T; G=$2,000B; T=$3,333B."
+        "text": "A: G+$400B/T−$500B; B: G−$500B/T+$667B; C: G+$2,000B/T−$3,000B"
       }
     ],
-    "answer": "E",
+    "answer": "D",
     "explanation": "Full calculation: A: MPS=0.20, Exp.mult=5, Tax mult=4; gap=-$2T; G needed=$2T/5=$400B; tax cut needed=$2T/4=$500B. B: MPS=0.25, Exp.mult=4, Tax mult=3; G cut=$2T/4=$500B; tax hike=$2T/3=$667B; C: MPS=0.40, Exp.mult=2.5, Tax mult=1.5; gap=-$5T; G needed=$5T/2.5=$2,000B; tax cut=$5T/1.5=$3,333B.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3 | MOD-2.B.4",
     "graphDescription": "",
@@ -2438,26 +2438,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Government actions: +$1,500B + $1,000B = +$2,500B. Private shocks: −$500B − $750B = −$1,250B. Net ΔGDP = +$1,250B. Government policies more than offset the shocks."
+        "text": "Government actions: +$1,500B + $1,000B = +$2,500B. Private shocks: −$500B − $750B = −$1,250B. Net ΔGDP = +$1,250B. Government policies more than offset the shocks"
       },
       {
         "label": "B",
-        "text": "Government actions: +$1,500B + $1,000B = +$2,500B. Private shocks: −$500B − $750B = −$1,250B. Net ΔGDP = +$1,250B. Yes, government policies (+$2,500B) more than offset private shocks (−$1,250B)."
+        "text": "Net ΔGDP = +$750B. Government policies were insufficient"
       },
       {
         "label": "C",
-        "text": "Net ΔGDP = +$750B. Government policies were insufficient."
+        "text": "Net ΔGDP = 0 — all effects cancel"
       },
       {
         "label": "D",
-        "text": "Net ΔGDP = 0 — all effects cancel."
+        "text": "+$1,250B; government stimulus exceeds the negative private shocks"
       },
       {
         "label": "E",
-        "text": "Net ΔGDP = −$1,250B — private shocks dominate."
+        "text": "Net ΔGDP = −$1,250B — private shocks dominate"
       }
     ],
-    "answer": "B",
+    "answer": "D",
     "explanation": "MOD-2.B.3: Exp. mult=5; Tax mult=4; (1) G +$300B: +5×$300B=+$1,500B; (2) Tax cut $250B: +4×$250B=+$1,000B; government actions total: +$2,500B; (3) Investment -$100B: -5×$100B=-$500B. (4) NX -$150B: -5×$150B=-$750B; private shocks total: -$1,250B; net ΔGDP=+$2,500B-$1,250B=+$1,250B; government policies overshot: they added +$2,500B against shocks of -$1,250B, creating a net stimulus of +$1,250B.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -2470,26 +2470,26 @@
     "options": [
       {
         "label": "A",
-        "text": "(a) MPC from spending: Multiplier=$1,600/$400=4 → MPS=0.25 → MPC=0.75. (b) MPC from tax: Tax mult=$1,500/$500=3 → MPC=MPS×3=0.25×3=0.75. (c) Both give MPC=0.75 — consistent. (d) Tax multiplier=3 from both approaches."
+        "text": "(a) MPC=0.75; (b) MPC=0.75; consistent. Tax multiplier=3"
       },
       {
         "label": "B",
-        "text": "(a) MPC=0.80; (b) MPC=0.75; inconsistent."
+        "text": "Both imply MPC=0.75 and tax-multiplier magnitude=3"
       },
       {
         "label": "C",
-        "text": "(a) MPC=0.75; (b) MPC=0.80; inconsistent."
+        "text": "(a) MPC=0.75; (b) MPC=0.80; inconsistent"
       },
       {
         "label": "D",
-        "text": "(a) Exp. mult=4; MPC=0.80. (b) Tax mult=3; MPC=0.75. Inconsistent."
+        "text": "(a) MPC=0.80; (b) MPC=0.75; inconsistent"
       },
       {
         "label": "E",
-        "text": "(a) MPC=0.75; (b) MPC=0.75; consistent. Tax multiplier=3."
+        "text": "(a) Exp. mult=4; MPC=0.80. (b) Tax mult=3; MPC=0.75. Inconsistent"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": ", MOD-2.B.3, MOD-2.B.4: (a) Exp. mult = $1,600B/$400B = 4 → MPS=1/4=0.25 → MPC=1-0.25=0.75; (b) Tax mult = $1,500B/$500B = 3 → MPC = Tax mult × MPS = 3×0.25=0.75. Check: MPC/MPS=0.75/0.25=3 ✓; (c) Both methods give MPC=0.75 - fully consistent; (d) Tax multiplier=3 from both; note: A also equals E in content but A is listed first with complete reasoning.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3 | MOD-2.B.4",
     "graphDescription": "",
@@ -2502,26 +2502,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Combination A: 4×$300B=$1,200B ✓; Combination B: 3×$400B=$1,200B ✓; Combination C: 4×$150B+3×$200B=$600B+$600B=$1,200B ✓. All three achieve the target."
+        "text": "None achieve exactly $1,200B"
       },
       {
         "label": "B",
-        "text": "Only Combination A achieves the target."
+        "text": "All three combinations achieve $1,200B"
       },
       {
         "label": "C",
-        "text": "Combinations A and C achieve the target; B falls short."
+        "text": "Only Combination A achieves the target"
       },
       {
         "label": "D",
-        "text": "Combinations B and C achieve the target; A falls short."
+        "text": "Combinations A and C achieve the target; B falls short"
       },
       {
         "label": "E",
-        "text": "None achieve exactly $1,200B."
+        "text": "Combinations B and C achieve the target; A falls short"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "MOD-2.B.3: MPS=0.25; exp. mult=4; Tax mult=3; A: 4×$300B=$1,200B ✓; B: 3×$400B=$1,200B ✓; C: 4×$150B+3×$200B=$600B+$600B=$1,200B ✓; all three combinations achieve exactly the $1,200B target. This illustrates that there are multiple combinations of fiscal policy actions that can achieve the same GDP target, though they require different dollar amounts and have different distributional effects.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -2534,26 +2534,26 @@
     "options": [
       {
         "label": "A",
-        "text": "(a) All intervals: MPC=0.92; (b) constant; (c) Exp. mult=12.5, Tax mult=11.5; (d) ΔGDP=$10,000B."
+        "text": "MPC varies; spending and tax multipliers are indeterminate"
       },
       {
         "label": "B",
-        "text": "(a) All intervals: MPC=0.92; (b) constant; (c) Exp. mult≈12.5; (d) ΔGDP=$10,000B."
+        "text": "MPC .92; spending 11.5; tax 10.5; GDP +$9,200B"
       },
       {
         "label": "C",
-        "text": "(a) 1→2: MPC=0.92; 2→3: MPC=0.92; 3→4: MPC=0.92. (b) Constant at 0.92. (c) MPS=0.08; Exp. mult=1/0.08=12.5; Tax mult=0.92/0.08=11.5. (d) ΔGDP=12.5×$800B=$10,000B."
+        "text": "MPC .92; spending 12.5; tax 12.5; GDP +$10,000B"
       },
       {
         "label": "D",
-        "text": "(a) MPC=0.80; (b) constant; (c) Exp. mult=5; (d) ΔGDP=$4,000B."
+        "text": "MPC .80; spending 5; tax 4; GDP +$4,000B"
       },
       {
         "label": "E",
-        "text": "(a) Variable MPC — not constant across intervals."
+        "text": "MPC .92; spending 12.5; tax 11.5; GDP +$10,000B"
       }
     ],
-    "answer": "C",
+    "answer": "E",
     "explanation": "MOD-2.B.2: 1→2: ΔYd=$2,500, ΔC=$2,300 → MPC=$2,300/$2,500=0.92. 2→3: ΔYd=$2,500, ΔC=$2,300 → MPC=0.92. 3→4: ΔYd=$2,500, ΔC=$2,300 → MPC=0.92. Constant; MPS=1-0.92=0.08; exp. mult=1/0.08=12.5; tax mult=0.92/0.08=11.5. ΔGDP=12.5×$800B=$10,000B.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.5",
     "graphDescription": "",
@@ -2566,23 +2566,23 @@
     "options": [
       {
         "label": "A",
-        "text": "(a) ΔGDP = −$1,000B−$750B+$750B−$500B = −$1,500B; (b) $28.5T; (c) recessionary gap of $1.5T."
+        "text": "GDP −$750B; final $29.25T; gap −$0.75T"
       },
       {
         "label": "B",
-        "text": "(a) ΔGDP = −$1,000B+$750B−$1,000B−$500B = −$1,750B; (b) $28.25T; (c) recessionary gap $1.75T."
+        "text": "GDP +$250B; final $30.25T; gap +$0.25T"
       },
       {
         "label": "C",
-        "text": "(a) Net ΔGDP: −5×$200B + 5×$150B − 4×$250B − 5×$100B = −$1,000B + $750B − $1,000B − $500B = −$1,750B. (b) New GDP=$30T−$1.75T=$28.25T. (c) Recessionary gap=$1.75T."
+        "text": "GDP −$1,750B; final $28.25T; gap −$1.75T"
       },
       {
         "label": "D",
-        "text": "(a) Net ΔGDP = −$750B; (b) $29.25T; (c) recessionary gap $0.75T."
+        "text": "GDP −$1,500B; final $28.5T; gap −$1.5T"
       },
       {
         "label": "E",
-        "text": "(a) Net ΔGDP = +$250B; (b) $30.25T; (c) inflationary gap $0.25T."
+        "text": "GDP −$1,000B; final $29T; gap −$1T"
       }
     ],
     "answer": "C",
@@ -2598,26 +2598,26 @@
     "options": [
       {
         "label": "A",
-        "text": "The student is correct — the tax increase dominates."
+        "text": "Net ΔGDP = +$1,000B; student is completely wrong"
       },
       {
         "label": "B",
-        "text": "The student is incorrect — spending and tax changes always cancel."
+        "text": "Net change=$0 because the different multipliers equalize the effects"
       },
       {
         "label": "C",
-        "text": "The student's dollar-based reasoning is incorrect; the student must apply the respective multipliers. G effect: +5×$200B=+$1,000B. Tax effect: −4×$250B=−$1,000B. Net ΔGDP=$0. Despite the $50B larger tax increase, the multipliers equalize the effects — a $50B difference in initial actions produces the same GDP effect because the spending multiplier (5) and tax multiplier (4) create a self-canceling result here."
+        "text": "The student is incorrect — spending and tax changes always cancel"
       },
       {
         "label": "D",
-        "text": "The student is correct — net ΔGDP = −$50B."
+        "text": "The student is correct — the tax increase dominates"
       },
       {
         "label": "E",
-        "text": "Net ΔGDP = +$1,000B; student is completely wrong."
+        "text": "The student is correct — net ΔGDP = −$50B"
       }
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "MOD-2.B.3: The student wrongly assumes the dollar magnitude of policy actions directly determines their net effect; must apply multipliers: G +$200B: +5×$200B=+$1,000B; tax +$250B: -4×$250B=-$1,000B; net ΔGDP=$0. The $50B larger tax increase is multiplied by 4 (not 5), exactly offsetting the $200B G increase multiplied by 5; the ratio $200B×5=$250B×4=$1,000B demonstrates the multiplier difference matters, not the dollar difference.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -2630,27 +2630,27 @@
     "options": [
       {
         "label": "A",
-        "text": "Consistent: MPC=0.75 from spending data; MPC=0.75 from tax data."
+        "text": "Consistent: spending MPC=0.80; tax MPC=0.80"
       },
       {
         "label": "B",
-        "text": "Inconsistent: spending implies MPC=0.80; tax implies MPC=0.75."
+        "text": "Consistent: spending MPC=0.75; tax MPC=0.75"
       },
       {
         "label": "C",
-        "text": "Consistent: spending implies multiplier=5 → MPS=0.20 → MPC=0.80. Tax implies multiplier=3 → MPC=MPS×3=0.20×3=0.60. Not the same — inconsistent."
+        "text": "Inconsistent: spending MPC=0.80; tax MPC=0.75"
       },
       {
         "label": "D",
-        "text": "Inconsistent: spending data implies MPC=0.80 (mult=5); tax data implies MPC=0.60 (mult=3, but MPC/MPS=3 → MPC=3×0.20=0.60≠0.80)."
+        "text": "Inconsistent: spending MPC=0.80; tax MPC=0.60"
       },
       {
         "label": "E",
-        "text": "Both data points imply MPC=0.80 — consistent."
+        "text": "Consistent: spending MPC=0.60; tax MPC=0.60"
       }
     ],
-    "answer": "D",
-    "explanation": "MOD-2.B.3: From spending: mult=$3,000/$600=5 → MPS=0.20 → MPC=0.80; from tax: tax mult=$1,200/$400=3; tax mult=MPC/MPS → 3=MPC/0.20 → MPC=0.60. The two data points imply different MPCs (0.80 vs. 0.60) - they are INCONSISTENT; this could indicate measurement error, different time periods, or real-world complications that make the simple multiplier model imprecise.",
+    "answer": "C",
+    "explanation": "The spending multiplier is 3000/600=5, so MPS=1/5 and MPC=0.8. The tax-multiplier magnitude is 1200/400=3, so MPC/(1−MPC)=3 and MPC=0.75. The observations imply different MPC values and are inconsistent with one common simple-model MPC.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3 | MOD-2.B.4",
     "graphDescription": "",
     "graphRequired": false
@@ -2662,23 +2662,23 @@
     "options": [
       {
         "label": "A",
-        "text": "ΔGDPtotal = (1/MPS)×ΔG − (MPC/MPS)×ΔT = ΔG/MPS − MPC×ΔT/MPS. When ΔG=ΔT=X: ΔGDP = X/MPS − MPC×X/MPS = X(1−MPC)/MPS = X×MPS/MPS = X. Verified: 5×$500B − 4×$500B = $2,500B − $2,000B = $500B = ΔG ✓."
+        "text": "GDP=X×MPS; example GDP+$100B"
       },
       {
         "label": "B",
-        "text": "ΔGDP = (1/MPS − MPC/MPS) × X = (1/MPS)(1−MPC) × X = 1 × X. Always true."
+        "text": "GDP=X/MPS; example GDP+$2,500B"
       },
       {
         "label": "C",
-        "text": "ΔGDP = X × (multiplier difference) = X × 1 = X. Verified."
+        "text": "GDP=MPC×X/MPS; example GDP+$2,000B"
       },
       {
         "label": "D",
-        "text": "The theorem is wrong — ΔGDP > X when MPC > 0.5."
+        "text": "GDP=X×MPC; example GDP+$400B"
       },
       {
         "label": "E",
-        "text": "All of A, B, C prove the theorem correctly using algebra."
+        "text": "GDP=X×(1−MPC)/MPS=X; example GDP+$500B"
       }
     ],
     "answer": "E",
@@ -2694,26 +2694,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Option 1: $750B; Option 2: $1,000B; Option 3: $X each such that $3T = (4+3)×X = 7X → X=$428.6B. Option 2 requires the largest single action ($1,000B), but Option 3 requires $428.6B from each source ($857.2B total)."
+        "text": "G $750B; tax cut $1,000B; combined $428.57B each"
       },
       {
         "label": "B",
-        "text": "Option 1: $750B; Option 2: $1,000B; Option 3: $428.6B each. Option 2 requires largest single-policy action."
+        "text": "G $750B; tax cut $750B; combined $750B each"
       },
       {
         "label": "C",
-        "text": "Option 1: $3,000B; Option 2: $4,000B; Option 3: $1,500B each."
+        "text": "G $1,000B; tax cut $750B; combined $428.57B each"
       },
       {
         "label": "D",
-        "text": "All three require the same dollar action because they close the same gap."
+        "text": "G $750B; tax cut $1,000B; combined $500B each"
       },
       {
         "label": "E",
-        "text": "Option 3 requires the most because it combines two policies."
+        "text": "G $3,000B; tax cut $4,000B; combined $1,500B each"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "MOD-2.B.3: MPS=0.25; Exp.mult=4; Tax mult=3. More tax dollars are needed to achieve the same GDP target.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -2726,26 +2726,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Combo 1: G +$700B only (6×$700=$4,200 ✓); Combo 2: Tax cut $840B only (5×$840=$4,200 ✓); Combo 3: G +$350B + Tax cut $420B (6×$350+5×$420=$2,100+$2,100=$4,200 ✓); Combo 4: G +$100B + Tax cut $780B (6×$100+5×$780=$600+$3,900=$4,500 ✗)."
+        "text": "Only Combo 1 achieves $4,200B — the other combinations overshoot or undershoot"
       },
       {
         "label": "B",
-        "text": "Combo 1: G +$700B; Combo 2: Tax cut $840B; Combo 3: G +$350B + Tax cut $420B; Combo 4: G +$100B + Tax cut $780B. Only Combos 1–3 achieve $4,200B; Combo 4 gives $4,500B."
+        "text": "All four combos achieve exactly $4,200B"
       },
       {
         "label": "C",
-        "text": "All four combos achieve exactly $4,200B."
+        "text": "Combinations 1–3 meet the target; combination 4 gives $4,500B"
       },
       {
         "label": "D",
-        "text": "Only Combo 1 achieves $4,200B — the other combinations overshoot or undershoot."
+        "text": "Combos 1 and 2 achieve the target; Combos 3 and 4 do not"
       },
       {
         "label": "E",
-        "text": "Combos 1 and 2 achieve the target; Combos 3 and 4 do not."
+        "text": "Combo 1: G +$700B only (6×$700=$4,200 ✓); Combo 2: Tax cut $840B only (5×$840=$4,200 ✓); Combo 3: G +$350B + Tax cut $420B (6×$350+5×$420=$2,100+$2,100=$4,200 ✓); Combo 4: G +$100B + Tax cut $780B (6×$100+5×$780=$600+$3,900=$4,500 ✗)"
       }
     ],
-    "answer": "B",
+    "answer": "C",
     "explanation": "MOD-2.B.3: Exp.mult=6; Tax mult=5; combo 1: 6×$700B=$4,200B ✓; combo 2: 5×$840B=$4,200B ✓; combo 3: 6×$350B+5×$420B=$2,100B+$2,100B=$4,200B ✓. Combo 4: 6×$100B+5×$780B=$600B+$3,900B=$4,500B ✗ (overshoots by $300B); three of the four combinations achieve the exact $4,200B target; Combo 4 overshoots.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -2758,26 +2758,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Period 1: −$500B. Period 2: +$100B. Cumulative: −$400B."
+        "text": "Period 1: −$2,500B. Period 2: +$1,500B. Cumulative: −$1,000B"
       },
       {
         "label": "B",
-        "text": "Period 1: [−5×$500B + 5×$200B + 4×$150B] = [−$2,500B + $1,000B + $600B] = −$900B. Period 2: [5×$300B − 4×$400B] = [$1,500B − $1,600B] = −$100B. Cumulative: −$1,000B."
+        "text": "Period 1: +$100B. Period 2: −$500B. Cumulative: −$400B"
       },
       {
         "label": "C",
-        "text": "Period 1: −$900B. Period 2: −$100B. Cumulative: −$1,000B."
+        "text": "Period 1: [−5×$500B + 5×$200B + 4×$150B] = [−$2,500B + $1,000B + $600B] = −$900B. Period 2: [5×$300B − 4×$400B] = [$1,500B − $1,600B] = −$100B. Cumulative: −$1,000B"
       },
       {
         "label": "D",
-        "text": "Period 1: +$100B. Period 2: −$500B. Cumulative: −$400B."
+        "text": "Period 1: −$900B. Period 2: −$100B. Cumulative: −$1,000B"
       },
       {
         "label": "E",
-        "text": "Period 1: −$2,500B. Period 2: +$1,500B. Cumulative: −$1,000B."
+        "text": "Period 1: −$500B. Period 2: +$100B. Cumulative: −$400B"
       }
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "MOD-2.B.3: Exp.mult=5; Tax mult=4; period 1: ΔI=-$500B(-$2,500B) + ΔG=+$200B(+$1,000B) + Tax cut=$150B(+$600B) = -$2,500B+$1,000B+$600B = -$900B. Period 2: ΔNX=+$300B(+$1,500B) + Tax hike=$400B(-$1,600B) = +$1,500B-$1,600B = -$100B; cumulative ΔGDP = -$900B + (-$100B) = -$1,000B.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -2790,23 +2790,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Correct — by increasing G and T each by $2,000B, real GDP rises by exactly $2,000B, closing the gap."
+        "text": "Correct; equal $2,000B increases in G and T raise GDP $2,000B"
       },
       {
         "label": "B",
-        "text": "Incorrect — the balanced budget multiplier equals 0 for equal spending and tax changes."
+        "text": "Correct — but only when MPC = 0.75"
       },
       {
         "label": "C",
-        "text": "Correct — but only when MPC = 0.75."
+        "text": "Incorrect — the balanced budget multiplier is 1 only when ΔG = ΔT = $1. For larger values, the multiplier changes"
       },
       {
         "label": "D",
-        "text": "Incorrect — the balanced budget multiplier is 1 only when ΔG = ΔT = $1. For larger values, the multiplier changes."
+        "text": "Correct in principle, but politically unrealistic — the policymaker's arithmetic is accurate"
       },
       {
         "label": "E",
-        "text": "Correct in principle, but politically unrealistic — the policymaker's arithmetic is accurate."
+        "text": "Incorrect — the balanced budget multiplier equals 0 for equal spending and tax changes"
       }
     ],
     "answer": "A",
@@ -2822,26 +2822,26 @@
     "options": [
       {
         "label": "A",
-        "text": "SC = $400B, TI = $200B (5×$400B + 4×$200B = $2,000B + $800B = $2,800B ≠ $3,000B). No solution exists."
+        "text": "Spending cut $0B; tax increase $600B"
       },
       {
         "label": "B",
-        "text": "SC = $500B, TI = $100B (5×$500B + 4×$100B = $2,500B + $400B = $2,900B ≠ $3,000B). No exact solution."
+        "text": "Spending cut $600B; tax increase $0B"
       },
       {
         "label": "C",
-        "text": "SC = $600B, TI = $0B (5×$600B = $3,000B ✓, and $600B budget used). But taxes not increased."
+        "text": "Spending cut $500B; tax increase $100B"
       },
       {
         "label": "D",
-        "text": "No integer solution — $3,000B cannot be achieved with exactly $600B using a mix of spending cuts and tax increases when multipliers are 5 and 4."
+        "text": "Spending cut $400B; tax increase $200B"
       },
       {
         "label": "E",
-        "text": "SC and TI satisfy: 5×SC + 4×TI = $3,000B and SC + TI = $600B. Solving: SC=$600B, TI=$0B is one solution; alternatively from the system: SC=3,000−4×(600−SC)/... Let TI=600−SC: 5SC+4(600−SC)=3,000 → 5SC+2,400−4SC=3,000 → SC=$600B, TI=$0B."
+        "text": "Spending cut $300B; tax increase $300B"
       }
     ],
-    "answer": "E",
+    "answer": "B",
     "explanation": "MOD-2.B.3: Exp.mult=5 (spending cut reduces GDP by 5× the cut); Tax mult=4; system: (1) 5×SC + 4×TI = $3,000B [GDP target]. (2) SC + TI = $600B [budget constraint]. Substitute TI = $600B - SC into (1): 5SC + 4($600B-SC) = $3,000B → 5SC + $2,400B - 4SC = $3,000B → SC = $600B, TI = $0B; the only solution is to use the entire $600B as a spending cut (SC=$600B, TI=0); A pure spending cut of $600B × 5 = $3,000B closes the gap exactly.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -2854,26 +2854,26 @@
     "options": [
       {
         "label": "A",
-        "text": "(a) Alpha: $500B; Beta: $1,000B. (b) Alpha: 5×$500B=$2,500B; Beta: 2.5×$1,000B=$2,500B. (c) Alpha requires the smaller initial injection ($500B vs. $1,000B)."
+        "text": "Alpha $2,500B; Beta $2,500B; GDP gains $2,500B each"
       },
       {
         "label": "B",
-        "text": "(a) Alpha: $500B; Beta: $1,000B. (b) Both generate $2,500B total. (c) Alpha (high MPC) requires smaller initial G because its multiplier is larger, producing the same GDP effect from a smaller initial action."
+        "text": "Alpha $500B; Beta $1,000B; GDP gains $3,000B each"
       },
       {
         "label": "C",
-        "text": "(a) Alpha: $500B; Beta: $1,000B. Both generate $2,500B total. Alpha requires smaller initial injection because MPC=0.80 → multiplier=5 > Beta's multiplier=2.5."
+        "text": "Alpha $1,000B; Beta $500B; GDP gains $2,500B each"
       },
       {
         "label": "D",
-        "text": "(a) Alpha: $1,000B; Beta: $500B. Beta requires less."
+        "text": "Alpha $500B; Beta $1,000B; GDP gains $2,000B each"
       },
       {
         "label": "E",
-        "text": "(a) Both need $2,500B — the multiplier only applies after the initial spending."
+        "text": "Alpha $500B; Beta $1,000B; GDP gains $2,500B each"
       }
     ],
-    "answer": "C",
+    "answer": "E",
     "explanation": "MOD-2.B.4: Alpha: mult=1/(1-0.80)=5; G needed=$2,500B/5=$500B; beta: mult=1/(1-0.60)=2.5; G needed=$2,500B/2.5=$1,000B; both generate $2,500B total GDP increase. Alpha (MPC=0.80) requires only $500B initial G - half as much as Beta ($1,000B) - because Alpha's higher MPC produces a larger multiplier; high-MPC economies achieve the same GDP target with smaller initial government spending.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.4",
     "graphDescription": "",
@@ -2886,23 +2886,23 @@
     "options": [
       {
         "label": "A",
-        "text": "All five are true."
+        "text": "All five are true"
       },
       {
         "label": "B",
-        "text": "S1, S2, S4, S5 are true; S3 is false."
+        "text": "S1, S2, S4, S5 are true; S3 is false"
       },
       {
         "label": "C",
-        "text": "S1, S2, S5 are true; S3 and S4 are false."
+        "text": "S2, S3, S4 are true; S1 and S5 are false"
       },
       {
         "label": "D",
-        "text": "S2, S3, S4 are true; S1 and S5 are false."
+        "text": "S1 is true; S2, S3, S4, S5 require case-by-case evaluation"
       },
       {
         "label": "E",
-        "text": "S1 is true; S2, S3, S4, S5 require case-by-case evaluation."
+        "text": "S1, S2, S5 are true; S3 and S4 are false"
       }
     ],
     "answer": "B",
@@ -2918,26 +2918,26 @@
     "options": [
       {
         "label": "A",
-        "text": "The combined changes reduce real GDP by $230B."
+        "text": "−$200B"
       },
       {
         "label": "B",
-        "text": "The combined changes leave real GDP unchanged."
+        "text": "Zero"
       },
       {
         "label": "C",
-        "text": "ΔGDP = 5×$400B − 4×$300B − 5×$100B + 5×$50B − 4×$80B = $2,000B − $1,200B − $500B + $250B − $320B = $230B."
+        "text": "−$230B"
       },
       {
         "label": "D",
-        "text": "ΔGDP = $2,000B − $1,200B − $500B + $250B = $550B (transfer payments not included)."
+        "text": "+$550B"
       },
       {
         "label": "E",
-        "text": "ΔGDP = −$200B (only private sector shocks matter)."
+        "text": "+$230B"
       }
     ],
-    "answer": "C",
+    "answer": "E",
     "explanation": "MOD-2.B.3: Exp.mult=5; Tax mult=4; G +$400B: +5×$400B=+$2,000B; tax +$300B: -4×$300B=-$1,200B; investment -$100B: -5×$100B=-$500B. NX +$50B: +5×$50B=+$250B; transfer payments cut $80B (equivalent to tax increase): -4×$80B=-$320B; net ΔGDP=+$2,000B-$1,200B-$500B+$250B-$320B=+$230B.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -2950,26 +2950,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Maximum GDP reduction: use all $700B as spending cuts → ΔGDP = −4×$700B = −$2,800B."
+        "text": "All $700B tax increases; GDP falls $2,100B"
       },
       {
         "label": "B",
-        "text": "Maximum GDP reduction: use all $700B as tax increases → ΔGDP = −3×$700B = −$2,100B."
+        "text": "All $700B spending cuts; GDP falls $2,800B"
       },
       {
         "label": "C",
-        "text": "Split $350B each: ΔGDP = −4×$350B − 3×$350B = −$1,400B − $1,050B = −$2,450B."
+        "text": "Split $350B each; GDP falls $2,800B"
       },
       {
         "label": "D",
-        "text": "All $700B as spending cuts produces maximum GDP reduction: −4×$700B = −$2,800B > −3×$700B = −$2,100B. Since the spending multiplier (4) > tax multiplier (3), each dollar of spending cut reduces GDP more than a dollar of tax increase."
+        "text": "All $700B spending cuts; GDP falls $2,100B"
       },
       {
         "label": "E",
-        "text": "Equal split maximizes GDP reduction because diversification is always optimal."
+        "text": "Split $350B each; GDP falls $2,450B"
       }
     ],
-    "answer": "D",
+    "answer": "B",
     "explanation": "MOD-2.B.3: Objective: maximize |ΔGDP| = 4×SC + 3×TI, subject to SC + TI = $700B, SC,TI ≥ 0. Since the coefficient of SC (4) > coefficient of TI (3), the maximum is achieved at the corner solution: SC=$700B, TI=$0; maximum ΔGDP=-4×$700B=-$2,800B. This is larger than: all taxes (-$2,100B), or any mix (e.g., 50/50: -$2,450B); spending cuts are always more contractionary per dollar than equivalent tax increases.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -2982,27 +2982,27 @@
     "options": [
       {
         "label": "A",
-        "text": "Both produce ΔGDP = $2,500B — equally effective."
+        "text": "Tax cut: +$2,500B; spending: +$2,500B; extra tax cut: $300B; extra spending: $300B"
       },
       {
         "label": "B",
-        "text": "A: Tax cut $500B → ΔGDP = +4×$500B = +$2,000B (gap not closed; $2,000B remains). B: G increase $500B → ΔGDP = +5×$500B = +$2,500B (gap not closed; $1,500B remains). Economist B is more effective per dollar. Additional action: A needs tax cut of $2,000B/4=$500B more; B needs G increase of $1,500B/5=$300B more."
+        "text": "Tax cut: +$1,600B; spending: +$2,000B; extra tax cut: $750B; extra spending: $500B"
       },
       {
         "label": "C",
-        "text": "A: +$2,000B; B: +$2,500B. B is better. Additional: A needs $500B more tax cut; B needs $300B more G."
+        "text": "Tax cut: +$2,000B; spending: +$2,500B; extra tax cut: $300B; extra spending: $500B"
       },
       {
         "label": "D",
-        "text": "A: +$1,600B; B: +$2,000B. B is better."
+        "text": "Tax cut: +$2,000B; spending: +$2,500B; extra tax cut: $400B; extra spending: $375B"
       },
       {
         "label": "E",
-        "text": "A produces $2,000B; B produces $2,500B. Economist B is correct that spending is more effective per dollar of fiscal action."
+        "text": "Tax cut: +$2,000B; spending: +$2,500B; extra tax cut: $500B; extra spending: $300B"
       }
     ],
-    "answer": "C",
-    "explanation": "MOD-2.B.3: Exp.mult=5; Tax mult=4; A: Tax cut $500B → +4×$500B=+$2,000B; remaining gap=$4,000B-$2,000B=$2,000B; additional tax cut needed: $2,000B/4=$500B; B: G increase $500B → +5×$500B=+$2,500B. Remaining gap=$4,000B-$2,000B... wait: $4,000B-$2,500B=$1,500B; additional G needed: $1,500B/5=$300B; economist B is correct that government spending produces more GDP per dollar of fiscal action ($5 vs. $4 per dollar).",
+    "answer": "E",
+    "explanation": "The spending multiplier is 5 and the tax-multiplier magnitude is 4. A $500B tax cut raises GDP $2,000B, leaving a $2,000B gap that requires another $500B tax cut. A $500B spending increase raises GDP $2,500B, leaving a $1,500B gap that requires another $300B spending increase. Spending produces the larger GDP effect per dollar in this simple model.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
     "graphRequired": false
@@ -3014,26 +3014,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Period 1: +$2,500B; Period 2: +$200B. Cumulative: +$2,700B."
+        "text": "+$2,150B"
       },
       {
         "label": "B",
-        "text": "Period 1: [4×$400B + 3×$300B] = [$1,600B + $900B] = +$2,500B. Period 2: [4×$200B − 3×$350B] = [$800B − $1,050B] = −$250B. Cumulative: +$2,500B − $250B = +$2,250B."
+        "text": "+$2,500B"
       },
       {
         "label": "C",
-        "text": "Cumulative: +$2,250B."
+        "text": "+$2,700B"
       },
       {
         "label": "D",
-        "text": "Period 1: +$2,500B; Period 2: −$350B. Cumulative: +$2,150B."
+        "text": "+$2,250B"
       },
       {
         "label": "E",
-        "text": "Period 1: +$1,600B; Period 2: −$250B. Cumulative: +$1,350B."
+        "text": "+$1,350B"
       }
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "MOD-2.B.3: MPS=0.25; Exp.mult=4; Tax mult=3; period 1: G +$400B(+4×$400B=+$1,600B) + Tax cut $300B(+3×$300B=+$900B) = +$2,500B. Period 2: Autonomous C +$200B(+4×$200B=+$800B) + Tax hike $350B(-3×$350B=-$1,050B) = -$250B; cumulative = +$2,500B + (-$250B) = +$2,250B.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -3046,23 +3046,23 @@
     "options": [
       {
         "label": "A",
-        "text": "(a) 5×$200B=+$1,000B; (b) no shortfall; (c) no tax cut needed."
+        "text": "G effect +$1,000B; remaining $3,000B; tax cut $1,000B"
       },
       {
         "label": "B",
-        "text": "(a) 5×$200B=+$1,000B; (b) shortfall remains — wait, shock was $800B×5=$4,000B. After G: $4,000B−$1,000B=$3,000B remains. (c) Tax cut=$3,000B/4=$750B."
+        "text": "G effect +$800B; remaining $200B; tax cut $50B"
       },
       {
         "label": "C",
-        "text": "(a) 5×$200B=+$1,000B. (b) Total shortfall=5×$800B=$4,000B. After G: $4,000B−$1,000B=$3,000B remains. (c) Tax cut needed=$3,000B/4=$750B."
+        "text": "G effect +$1,000B; remaining $3,000B; tax cut $750B"
       },
       {
         "label": "D",
-        "text": "(a) +$800B; (b) $200B shortfall; (c) $50B tax cut."
+        "text": "G effect +$1,000B; remaining $3,000B; tax cut $600B"
       },
       {
         "label": "E",
-        "text": "(a) +$1,000B; (b) $0 shortfall — no tax cut needed because G alone closes the gap."
+        "text": "G effect +$1,000B; remaining zero; tax cut zero"
       }
     ],
     "answer": "C",
@@ -3078,27 +3078,27 @@
     "options": [
       {
         "label": "A",
-        "text": "Student A is correct; Student B is wrong."
+        "text": "Both are invalid; the tax multiplier equals 5"
       },
       {
         "label": "B",
-        "text": "Both are correct — both derivations give the same answer of 4."
+        "text": "A gives magnitude 5; B gives magnitude 4"
       },
       {
         "label": "C",
-        "text": "Student B is correct in both the process and result. Student A's formula 1−(1/MPS) is mathematically incorrect as a derivation (though it accidentally gives the right sign for the tax multiplier magnitude in this case: 1−5=−4, |−4|=4). Student B's step-by-step reasoning correctly shows: tax cut → Δdisposable income → MPC × Δincome spent → multiplied by exp. mult = MPC/MPS = 0.80/0.20 = 4."
+        "text": "Both yield magnitude 4; A gives the signed tax multiplier, B the tax-cut effect"
       },
       {
         "label": "D",
-        "text": "Neither is correct — the tax multiplier = MPS, not MPC/MPS."
+        "text": "Only B is valid; A uses an unrelated expression"
       },
       {
         "label": "E",
-        "text": "Student A is correct in formula; Student B is correct in process. Both give the right answer."
+        "text": "Only A is valid; B must multiply by MPS"
       }
     ],
     "answer": "C",
-    "explanation": "MOD-2.B.4: Student B's derivation is the correct economic reasoning: tax cut → Δdisposable income → MPC fraction spent initially → expenditure multiplier applies to that initial spending → total effect = MPC × (1/MPS) = MPC/MPS = 4. Student A's formula \"1-1/MPS\" = 1-5 = -4 happens to give the right magnitude but is not a valid derivation formula. The correct tax multiplier = MPC/MPS = 0.80/0.20 = 4.",
+    "explanation": "The signed tax multiplier is −MPC/MPS=−4. A uses the equivalent expression 1−1/MPS=(MPS−1)/MPS=−MPC/MPS. B derives the positive effect of a $1 tax cut, with magnitude 4; calling +4 the signed multiplier for a tax increase would be imprecise.",
     "reference": "MOD-2.B | MOD-2.B.3 | MOD-2.B.4",
     "graphDescription": "",
     "graphRequired": false
@@ -3110,26 +3110,26 @@
     "options": [
       {
         "label": "A",
-        "text": "GDP rises by $1,000B+$900B+$600B = $2,500B. New GDP=$44.5T. Recessionary gap of $0.5T remains."
+        "text": "GDP rises by $4×$250B+3×$300B+3×$200B = $1,000B+$900B+$600B=$2,500B. New GDP=$42T+$2.5T=$44.5T. Potential=$45T. Remaining recessionary gap=$0.5T"
       },
       {
         "label": "B",
-        "text": "GDP rises by $4×$250B+3×$300B+3×$200B = $1,000B+$900B+$600B=$2,500B. New GDP=$42T+$2.5T=$44.5T. Potential=$45T. Remaining recessionary gap=$0.5T."
+        "text": "New GDP=$44.5T; remaining recessionary gap=$500B"
       },
       {
         "label": "C",
-        "text": "New GDP=$44.5T; remaining recessionary gap=$500B."
+        "text": "GDP rises by $3T exactly; gap fully closed"
       },
       {
         "label": "D",
-        "text": "GDP rises by $3T exactly; gap fully closed."
+        "text": "GDP rises by $1,000B+$900B+$600B = $2,500B. New GDP=$44.5T. Recessionary gap of $0.5T remains"
       },
       {
         "label": "E",
-        "text": "All three options: GDP rises by $1,000+$900+$600=$2,500B → $44.5T → recessionary gap $500B remains."
+        "text": "All three options: GDP rises by $1,000+$900+$600=$2,500B → $44.5T → recessionary gap $500B remains"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "MOD-2.B.3: MPS=0.25; Exp.mult=4; Tax mult=3; G +$250B: 4×$250B=+$1,000B; tax cut $300B: 3×$300B=+$900B; transfer payments +$200B (treated as tax cut): 3×$200B=+$600B. Total ΔGDP=+$1,000B+$900B+$600B=+$2,500B; new GDP=$42T+$2.5T=$44.5T; potential=$45T; remaining gap=$45T-$44.5T=$0.5T (still recessionary); the three policies reduced but did not fully close the $3T recessionary gap.",
     "reference": "MOD-2.B | MOD-2.B.2 | MOD-2.B.3",
     "graphDescription": "",
@@ -3138,31 +3138,31 @@
   {
     "id": 99,
     "difficulty": "Hard",
-    "prompt": "Country Psi: MPC = 0.80. Three economists are asked: \"What happens to the expenditure multiplier and tax multiplier if MPC rises from 0.80 to 0.90?\"\n\nEconomist A: \"Both multipliers increase, but the expenditure multiplier increases more.\"\n\nEconomist B: \"Both multipliers increase by the same amount.\"\n\nEconomist C: \"The expenditure multiplier increases from 5 to 10, and the tax multiplier increases from 4 to 9.\"\n\nEvaluate all three.",
+    "prompt": "Country Psi: MPC = 0.80. Three economists are asked: \"What happens to the expenditure multiplier and tax multiplier if MPC rises from 0.80 to 0.90?\"\n\nEconomist A: \"Both multipliers increase, but the expenditure multiplier increases more.\"\n\nEconomist B: \"Both multipliers increase by the same amount.\"\n\nEconomist C: \"The expenditure multiplier increases from 5 to 10, and the tax multiplier increases from 4 to 9.\"\n\nEvaluate all three. Interpret every quoted tax multiplier as its absolute magnitude.",
     "options": [
       {
         "label": "A",
-        "text": "Economist A is correct; B and C are wrong."
+        "text": "None; spending and tax multipliers remain unchanged"
       },
       {
         "label": "B",
-        "text": "Economist C is correct; A and B are wrong."
+        "text": "Only A; spending 5→10, tax magnitude 4→8"
       },
       {
         "label": "C",
-        "text": "Economists A and C are both correct. C states the specific values; A notes that exp. mult increases more in absolute terms (from 5 to 10 = +5 gain vs. tax mult from 4 to 9 = +5 gain — actually equal gains). So A is partially wrong and C is correct."
+        "text": "A and C; spending 5→10, tax magnitude 4→9"
       },
       {
         "label": "D",
-        "text": "Economists B and C are correct; both multipliers rise by 5, from 5 to 10 and from 4 to 9."
+        "text": "Only C; spending 5→10, tax magnitude 4→9"
       },
       {
         "label": "E",
-        "text": "All three economists are wrong — the multipliers do not change with MPC."
+        "text": "B and C; spending 5→10, tax magnitude 4→9"
       }
     ],
-    "answer": "D",
-    "explanation": "When MPC rises from 0.80 to 0.90, the expenditure multiplier rises from 5 to 10 and the tax multiplier rises from 4 to 9. Both increase by the same absolute amount, so Economists B and C are correct.",
+    "answer": "E",
+    "explanation": "At MPC=0.80, the spending multiplier is 5 and the tax multiplier is −4. At MPC=0.90, they are 10 and −9. Spending and the magnitude of the tax multiplier both increase by 5, so B and C are correct when tax multipliers are discussed in absolute value. A is wrong because spending does not increase by more.",
     "reference": "MOD-2.B | MOD-2.B.4",
     "graphDescription": "",
     "graphRequired": false
@@ -3174,26 +3174,26 @@
     "options": [
       {
         "label": "A",
-        "text": "(a) MPC=0.80, MPS=0.20, sum=1.00; (b) $1 becomes income → MPC fraction re-spent → further rounds; (c) Exp.mult=5>Tax mult=4; (d) G increase=$600B; (e) Tax cut=$750B. Tax cut must be larger."
+        "text": "MPC .80/MPS .20; multipliers 5/−4; G+$600B or T−$600B"
       },
       {
         "label": "B",
-        "text": "(a) MPC=0.80, MPS=0.20, sum=1.00; (b) Initial spending creates income for others who re-spend a fraction (MPC), generating further rounds; (c) Exp.mult=5>Tax mult=4; (d) G increase=$600B; (e) Tax cut=$750B>$600B — larger tax cut required because tax multiplier (4) < spending multiplier (5)."
+        "text": "MPC .80/MPS .20; multipliers 5/−4; G+$600B or T−$750B"
       },
       {
         "label": "C",
-        "text": "(a) MPC=0.80, MPS=0.20; (b) Multiplier process; (c) Exp.mult=5, Tax mult=4; (d) $600B; (e) $750B."
+        "text": "MPC .80/MPS .20; multipliers 5/−4; G+$750B or T−$600B"
       },
       {
         "label": "D",
-        "text": "(a) MPC=0.80, MPS=0.20, sum=1.00; (b) multiplier process creates rounds of spending; (c) Exp.mult=5>Tax mult=4; (d) G=$600B; (e) T cut=$750B."
+        "text": "MPC .80/MPS .20; multipliers 5/−5; G+$600B or T−$600B"
       },
       {
         "label": "E",
-        "text": "(a) MPC=0.80, MPS=0.20, sum=1; (b) rounds of re-spending amplify initial change; (c) Exp.mult=5, Tax mult=4, spending multiplier larger; (d) $3,000B/5=$600B G increase; (e) $3,000B/4=$750B tax cut; tax cut requires $150B more because the tax multiplier is smaller."
+        "text": "MPC .80/MPS .20; multipliers 4/−5; G+$750B or T−$600B"
       }
     ],
-    "answer": "E",
+    "answer": "B",
     "explanation": "Full integration: (a) MOD-2.B.5: MPC=0.80, MPS=1-0.80=0.20; MPC+MPS=1.00 ✓. (b) MOD-2.B.1: A $1 spending increase becomes $1 income; households spend MPC×$1, which becomes income for others who spend more - infinite rounds summing to 1/MPS. (c) MOD-2.B.4: Exp.mult=1/0.20=5; Tax mult=0.80/0.20=4; spending multiplier is larger by exactly 1; (d) MOD-2.B.2: G needed=$3,000B/5=$600B; (e) MOD-2.B.3: Tax cut needed=$3,000B/4=$750B; $150B larger than G increase because tax multiplier is smaller (tax cut first filtered through MPC before entering spending stream).",
     "reference": "MOD-2.B | MOD-2.B.1 | MOD-2.B.2 | MOD-2.B.3 | MOD-2.B.4 | MOD-2.B.5",
     "graphDescription": "",

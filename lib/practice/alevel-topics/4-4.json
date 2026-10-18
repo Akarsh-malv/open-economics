@@ -1,0 +1,5439 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "What is meant by economic growth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher consumer prices over the period."
+      },
+      {
+        "label": "B",
+        "text": "Higher nominal wages with unchanged output."
+      },
+      {
+        "label": "C",
+        "text": "Fewer residents over the period."
+      },
+      {
+        "label": "D",
+        "text": "Higher real output over the period."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Economic growth refers to an increase in the quantity of goods and services produced. It is therefore measured using real, not merely money, values of output.",
+    "reference": "4.4 Economic growth | 4.4.1 meaning of economic growth | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "Which measure is most appropriate for measuring economic growth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The percentage change in nominal GDP only"
+      },
+      {
+        "label": "B",
+        "text": "The percentage change in the consumer price index"
+      },
+      {
+        "label": "C",
+        "text": "The percentage change in the money supply"
+      },
+      {
+        "label": "D",
+        "text": "The percentage change in real GDP"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Real GDP removes the effect of changes in the price level, so its percentage change measures the change in the volume of national output.",
+    "reference": "4.4 Economic growth | 4.4.2 measurement of economic growth | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "Real GDP rises from $500 billion to $520 billion. What is the economic growth rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2%"
+      },
+      {
+        "label": "B",
+        "text": "20%"
+      },
+      {
+        "label": "C",
+        "text": "104%"
+      },
+      {
+        "label": "D",
+        "text": "4%"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The growth rate is (520 - 500) / 500 x 100 = 4%.",
+    "reference": "4.4 Economic growth | 4.4.2 measurement of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "An economy's real GDP falls from one year to the next. What has happened?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real economic growth is negative over the period."
+      },
+      {
+        "label": "B",
+        "text": "Nominal output necessarily falls over the same period."
+      },
+      {
+        "label": "C",
+        "text": "Consumer prices necessarily fall over the same period."
+      },
+      {
+        "label": "D",
+        "text": "Population necessarily rises over the same measured period."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A fall in real GDP means the volume of output has decreased, so the economic growth rate is negative.",
+    "reference": "4.4 Economic growth | 4.4.1 meaning of economic growth | 4.4.2 measurement of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "Why is nominal GDP alone an unreliable measure of economic growth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Price increases can raise its value without increasing output."
+      },
+      {
+        "label": "B",
+        "text": "It omits the value of all services provided domestically."
+      },
+      {
+        "label": "C",
+        "text": "Its value is necessarily lower than real output measures."
+      },
+      {
+        "label": "D",
+        "text": "Its value cannot be expressed using units of money."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Nominal GDP values current output at current prices. A higher nominal value may therefore reflect inflation rather than more production.",
+    "reference": "4.4 Economic growth | 4.4.3 distinction between growth in nominal GDP and real GDP | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "Nominal GDP rises by 8% while the general price level rises by 8%. Approximately what happens to real GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises by 8%"
+      },
+      {
+        "label": "B",
+        "text": "It falls by 8%"
+      },
+      {
+        "label": "C",
+        "text": "It doubles"
+      },
+      {
+        "label": "D",
+        "text": "It is unchanged"
+      }
+    ],
+    "answer": "D",
+    "explanation": "If money GDP and the price level rise by the same proportion, the volume of output is approximately unchanged.",
+    "reference": "4.4 Economic growth | 4.4.3 distinction between growth in nominal GDP and real GDP | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "Nominal GDP rises by 6% while the general price level rises by 2%. What is the approximate real economic growth rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2%"
+      },
+      {
+        "label": "B",
+        "text": "6%"
+      },
+      {
+        "label": "C",
+        "text": "8%"
+      },
+      {
+        "label": "D",
+        "text": "4%"
+      }
+    ],
+    "answer": "D",
+    "explanation": "For small percentage changes, real growth is approximately nominal GDP growth minus inflation: 6% - 2% = 4%.",
+    "reference": "4.4 Economic growth | 4.4.3 distinction between growth in nominal GDP and real GDP | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "Which change is most likely to cause economic growth by increasing the quantity of capital?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Firms allow machinery to wear out without replacement"
+      },
+      {
+        "label": "B",
+        "text": "Workers retire earlier with no replacement workers"
+      },
+      {
+        "label": "C",
+        "text": "Firms undertake net investment in machinery"
+      },
+      {
+        "label": "D",
+        "text": "A drought reduces usable farmland"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Net investment adds to the capital stock and increases the resources available for production.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "Which change is most likely to cause economic growth by improving the quality of labour?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A reduction in labour-force participation"
+      },
+      {
+        "label": "B",
+        "text": "A fall in investment"
+      },
+      {
+        "label": "C",
+        "text": "More effective education and training"
+      },
+      {
+        "label": "D",
+        "text": "A reduction in the working-age population"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Education and training raise human capital and labour productivity, enabling more output to be produced from available resources.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "Which change is most likely to increase productive capacity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Less training"
+      },
+      {
+        "label": "B",
+        "text": "Loss of factories and machinery"
+      },
+      {
+        "label": "C",
+        "text": "Better production technology"
+      },
+      {
+        "label": "D",
+        "text": "Declining participation in the workforce"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Better technology raises the productivity of resources and increases the amount of output that can be produced.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "Which change can increase an economy's labour supply and therefore contribute to growth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Working-age immigration"
+      },
+      {
+        "label": "B",
+        "text": "A lower retirement age"
+      },
+      {
+        "label": "C",
+        "text": "A lower share of adults seeking paid employment"
+      },
+      {
+        "label": "D",
+        "text": "More long-term illness"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A larger available workforce increases the quantity of labour resources that can be used to produce output.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "Which change is most likely to increase output in an economy with substantial unemployed resources?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumer confidence falls, reducing planned household consumption."
+      },
+      {
+        "label": "B",
+        "text": "Export demand falls, reducing foreign purchases of output."
+      },
+      {
+        "label": "C",
+        "text": "Business investment falls, reducing planned purchases of capital."
+      },
+      {
+        "label": "D",
+        "text": "Aggregate demand rises, increasing use of spare capacity."
+      }
+    ],
+    "answer": "D",
+    "explanation": "When spare capacity exists, stronger aggregate demand can bring unemployed resources into production and raise real GDP.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "Which is a likely benefit of economic growth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher output per person can improve average material consumption."
+      },
+      {
+        "label": "B",
+        "text": "Higher output necessarily guarantees a more equal income distribution."
+      },
+      {
+        "label": "C",
+        "text": "Higher output necessarily guarantees less pollution in every industry."
+      },
+      {
+        "label": "D",
+        "text": "Higher output necessarily guarantees a surplus on international trade."
+      }
+    ],
+    "answer": "A",
+    "explanation": "More real output per person can increase the quantity of goods and services available to households, although distribution matters.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "Which is a likely effect of economic growth on employment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher output necessarily requires fewer workers in every industry."
+      },
+      {
+        "label": "B",
+        "text": "Higher output may increase firms' demand for additional workers."
+      },
+      {
+        "label": "C",
+        "text": "Higher output necessarily eliminates every possible form of unemployment."
+      },
+      {
+        "label": "D",
+        "text": "Higher output necessarily removes firms' demand for productive labour."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Higher output usually raises derived demand for labour, particularly when growth comes from stronger demand and spare capacity exists.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "Which is a possible adverse consequence of rapid economic growth when the economy is close to full capacity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A necessary fall in the price level"
+      },
+      {
+        "label": "B",
+        "text": "Demand-pull inflationary pressure"
+      },
+      {
+        "label": "C",
+        "text": "A guaranteed fall in imports"
+      },
+      {
+        "label": "D",
+        "text": "A guaranteed reduction in pollution"
+      }
+    ],
+    "answer": "B",
+    "explanation": "If demand grows faster than productive capacity, firms face capacity constraints and the general price level may rise.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "Why might economic growth worsen the current account of the balance of payments?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher incomes can increase household demand for imports."
+      },
+      {
+        "label": "B",
+        "text": "Higher output necessarily prevents households from purchasing imported products."
+      },
+      {
+        "label": "C",
+        "text": "Higher growth necessarily lowers the country's foreign exchange rate."
+      },
+      {
+        "label": "D",
+        "text": "Higher GDP excludes the value of all exported products."
+      }
+    ],
+    "answer": "A",
+    "explanation": "As incomes rise, households and firms may buy more imports, which can worsen the current account if exports do not increase by as much.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "Which is a possible environmental cost of economic growth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Larger production volumes automatically restore damaged forest habitats."
+      },
+      {
+        "label": "B",
+        "text": "Larger production volumes can generate more pollution and waste."
+      },
+      {
+        "label": "C",
+        "text": "Larger production volumes necessarily reduce total consumption of energy."
+      },
+      {
+        "label": "D",
+        "text": "Larger production volumes necessarily eliminate congestion within transport networks."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Growth can increase resource use, emissions and waste, especially when production relies on pollution-intensive methods.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "Which statement about economic growth and living standards is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Growth gives every household an identical increase in income."
+      },
+      {
+        "label": "B",
+        "text": "Growth can improve average living standards with uneven gains."
+      },
+      {
+        "label": "C",
+        "text": "Growth necessarily reduces differences between high and low incomes."
+      },
+      {
+        "label": "D",
+        "text": "Growth cannot affect either household consumption or living standards."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Economic growth expands total output, but who benefits depends on income distribution and other conditions.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "A country's nominal GDP rises from $800 billion to $880 billion while its price index rises from 100 to 110. What happens to real GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises by 10%"
+      },
+      {
+        "label": "B",
+        "text": "It falls by 10%"
+      },
+      {
+        "label": "C",
+        "text": "It is unchanged"
+      },
+      {
+        "label": "D",
+        "text": "It rises by 21%"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Real GDP in the second year at base-year prices is 880 / 110 x 100 = $800 billion, the same as initially.",
+    "reference": "4.4 Economic growth | 4.4.3 distinction between growth in nominal GDP and real GDP | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "Real GDP is $600 billion in year 1 and $618 billion in year 2. What is the growth rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3%"
+      },
+      {
+        "label": "B",
+        "text": "1.8%"
+      },
+      {
+        "label": "C",
+        "text": "6%"
+      },
+      {
+        "label": "D",
+        "text": "18%"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The increase is $18 billion. Dividing 18 by 600 and multiplying by 100 gives 3%.",
+    "reference": "4.4 Economic growth | 4.4.2 measurement of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "Which would most likely shift an economy's production possibility curve outward?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Greater unemployment"
+      },
+      {
+        "label": "B",
+        "text": "Lower utilisation of the existing stock of factories"
+      },
+      {
+        "label": "C",
+        "text": "Falling demand without changes to resources"
+      },
+      {
+        "label": "D",
+        "text": "Productivity gains across industries"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Higher productivity increases the maximum output obtainable from existing resources, expanding production possibilities.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: capital goods. Horizontal axis: consumer goods. Draw an initial PPC labelled PPC1 and a second PPC labelled PPC2 lying outside PPC1. The question concerns a cause of the outward shift.",
+    "graphScenes": [
+      {
+        "xLabel": "Good X",
+        "yLabel": "Good Y",
+        "xMax": 120.0,
+        "yMax": 120.0,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "PPC1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 80.0
+              },
+              {
+                "x": 1.3333333333333333,
+                "y": 79.98888811717676
+              },
+              {
+                "x": 2.6666666666666665,
+                "y": 79.95554320301306
+              },
+              {
+                "x": 4.0,
+                "y": 79.89993742175271
+              },
+              {
+                "x": 5.333333333333333,
+                "y": 79.82202425117742
+              },
+              {
+                "x": 6.666666666666667,
+                "y": 79.72173828734266
+              },
+              {
+                "x": 8.0,
+                "y": 79.5989949685296
+              },
+              {
+                "x": 9.333333333333334,
+                "y": 79.45369021567777
+              },
+              {
+                "x": 10.666666666666666,
+                "y": 79.2856999856987
+              },
+              {
+                "x": 12.0,
+                "y": 79.09487973314076
+              },
+              {
+                "x": 13.333333333333334,
+                "y": 78.88106377466156
+              },
+              {
+                "x": 14.666666666666666,
+                "y": 78.644064549646
+              },
+              {
+                "x": 16.0,
+                "y": 78.38367176906169
+              },
+              {
+                "x": 17.333333333333332,
+                "y": 78.09965144323985
+              },
+              {
+                "x": 18.666666666666668,
+                "y": 77.79174477767904
+              },
+              {
+                "x": 20.0,
+                "y": 77.45966692414834
+              },
+              {
+                "x": 21.333333333333332,
+                "y": 77.10310557227179
+              },
+              {
+                "x": 22.666666666666668,
+                "y": 76.72171936435095
+              },
+              {
+                "x": 24.0,
+                "y": 76.31513611335565
+              },
+              {
+                "x": 25.333333333333332,
+                "y": 75.88295080070505
+              },
+              {
+                "x": 26.666666666666668,
+                "y": 75.42472332656507
+              },
+              {
+                "x": 28.0,
+                "y": 74.93997598078079
+              },
+              {
+                "x": 29.333333333333332,
+                "y": 74.42819059708194
+              },
+              {
+                "x": 30.666666666666668,
+                "y": 73.88880534665286
+              },
+              {
+                "x": 32.0,
+                "y": 73.32121111929344
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 72.72474743090476
+              },
+              {
+                "x": 34.666666666666664,
+                "y": 72.0986977845108
+              },
+              {
+                "x": 36.0,
+                "y": 71.442284397967
+              },
+              {
+                "x": 37.333333333333336,
+                "y": 70.75466219424852
+              },
+              {
+                "x": 38.666666666666664,
+                "y": 70.03491192890078
+              },
+              {
+                "x": 40.0,
+                "y": 69.28203230275508
+              },
+              {
+                "x": 41.333333333333336,
+                "y": 68.49493087488705
+              },
+              {
+                "x": 42.666666666666664,
+                "y": 67.6724135490641
+              },
+              {
+                "x": 44.0,
+                "y": 66.81317235396025
+              },
+              {
+                "x": 45.333333333333336,
+                "y": 65.91577116964413
+              },
+              {
+                "x": 46.666666666666664,
+                "y": 64.9786289653931
+              },
+              {
+                "x": 48.0,
+                "y": 64.0
+              },
+              {
+                "x": 49.333333333333336,
+                "y": 62.9779502859709
+              },
+              {
+                "x": 50.666666666666664,
+                "y": 61.91032941996746
+              },
+              {
+                "x": 52.0,
+                "y": 60.794736614282655
+              },
+              {
+                "x": 53.333333333333336,
+                "y": 59.62847939999438
+              },
+              {
+                "x": 54.666666666666664,
+                "y": 58.4085229701587
+              },
+              {
+                "x": 56.0,
+                "y": 57.131427428342796
+              },
+              {
+                "x": 57.333333333333336,
+                "y": 55.7932692077538
+              },
+              {
+                "x": 58.666666666666664,
+                "y": 54.389541478323046
+              },
+              {
+                "x": 60.0,
+                "y": 52.91502622129181
+              },
+              {
+                "x": 61.333333333333336,
+                "y": 51.36362742468859
+              },
+              {
+                "x": 62.666666666666664,
+                "y": 49.728149863924045
+              },
+              {
+                "x": 64.0,
+                "y": 47.999999999999986
+              },
+              {
+                "x": 65.33333333333333,
+                "y": 46.16877251514876
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 44.221663871405326
+              },
+              {
+                "x": 68.0,
+                "y": 42.14261501141096
+              },
+              {
+                "x": 69.33333333333333,
+                "y": 39.91101212558873
+              },
+              {
+                "x": 70.66666666666667,
+                "y": 37.49962962780061
+              },
+              {
+                "x": 72.0,
+                "y": 34.871191548325385
+              },
+              {
+                "x": 73.33333333333333,
+                "y": 31.97221015541814
+              },
+              {
+                "x": 74.66666666666667,
+                "y": 28.720878971384014
+              },
+              {
+                "x": 76.0,
+                "y": 24.979991993593597
+              },
+              {
+                "x": 77.33333333333333,
+                "y": 20.483055327649645
+              },
+              {
+                "x": 78.66666666666667,
+                "y": 14.544949486180915
+              },
+              {
+                "x": 80.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "PPC2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 110.0
+              },
+              {
+                "x": 1.8333333333333333,
+                "y": 109.98472116111805
+              },
+              {
+                "x": 3.6666666666666665,
+                "y": 109.93887190414297
+              },
+              {
+                "x": 5.5,
+                "y": 109.86241395490998
+              },
+              {
+                "x": 7.333333333333333,
+                "y": 109.75528334536895
+              },
+              {
+                "x": 9.166666666666666,
+                "y": 109.61739014509615
+              },
+              {
+                "x": 11.0,
+                "y": 109.4486180817282
+              },
+              {
+                "x": 12.833333333333334,
+                "y": 109.24882404655692
+              },
+              {
+                "x": 14.666666666666666,
+                "y": 109.01783748033571
+              },
+              {
+                "x": 16.5,
+                "y": 108.75545963306854
+              },
+              {
+                "x": 18.333333333333332,
+                "y": 108.46146269015964
+              },
+              {
+                "x": 20.166666666666668,
+                "y": 108.13558875576327
+              },
+              {
+                "x": 22.0,
+                "y": 107.77754868245984
+              },
+              {
+                "x": 23.833333333333332,
+                "y": 107.3870207344548
+              },
+              {
+                "x": 25.666666666666668,
+                "y": 106.96364906930869
+              },
+              {
+                "x": 27.5,
+                "y": 106.50704202070396
+              },
+              {
+                "x": 29.333333333333332,
+                "y": 106.01677016187371
+              },
+              {
+                "x": 31.166666666666668,
+                "y": 105.49236412598255
+              },
+              {
+                "x": 33.0,
+                "y": 104.93331215586402
+              },
+              {
+                "x": 34.833333333333336,
+                "y": 104.33905735096944
+              },
+              {
+                "x": 36.666666666666664,
+                "y": 103.70899457402697
+              },
+              {
+                "x": 38.5,
+                "y": 103.04246697357357
+              },
+              {
+                "x": 40.333333333333336,
+                "y": 102.33876207098766
+              },
+              {
+                "x": 42.166666666666664,
+                "y": 101.59710735164768
+              },
+              {
+                "x": 44.0,
+                "y": 100.81666528902848
+              },
+              {
+                "x": 45.833333333333336,
+                "y": 99.99652771749405
+              },
+              {
+                "x": 47.666666666666664,
+                "y": 99.13570945370235
+              },
+              {
+                "x": 49.5,
+                "y": 98.23314104720463
+              },
+              {
+                "x": 51.333333333333336,
+                "y": 97.28766051709172
+              },
+              {
+                "x": 53.166666666666664,
+                "y": 96.29800390223858
+              },
+              {
+                "x": 55.0,
+                "y": 95.26279441628824
+              },
+              {
+                "x": 56.833333333333336,
+                "y": 94.18052995296969
+              },
+              {
+                "x": 58.666666666666664,
+                "y": 93.04956862996315
+              },
+              {
+                "x": 60.5,
+                "y": 91.86811198669535
+              },
+              {
+                "x": 62.333333333333336,
+                "y": 90.63418535826068
+              },
+              {
+                "x": 64.16666666666667,
+                "y": 89.3456148274155
+              },
+              {
+                "x": 66.0,
+                "y": 88.0
+              },
+              {
+                "x": 67.83333333333333,
+                "y": 86.59468164321
+              },
+              {
+                "x": 69.66666666666667,
+                "y": 85.12670295245526
+              },
+              {
+                "x": 71.5,
+                "y": 83.59276284463864
+              },
+              {
+                "x": 73.33333333333333,
+                "y": 81.9891591749923
+              },
+              {
+                "x": 75.16666666666667,
+                "y": 80.31171908396821
+              },
+              {
+                "x": 77.0,
+                "y": 78.55571271397135
+              },
+              {
+                "x": 78.83333333333333,
+                "y": 76.71574516066148
+              },
+              {
+                "x": 80.66666666666667,
+                "y": 74.78561953269416
+              },
+              {
+                "x": 82.5,
+                "y": 72.75816105427624
+              },
+              {
+                "x": 84.33333333333333,
+                "y": 70.62498770894682
+              },
+              {
+                "x": 86.16666666666667,
+                "y": 68.37620606289556
+              },
+              {
+                "x": 88.0,
+                "y": 65.99999999999999
+              },
+              {
+                "x": 89.83333333333333,
+                "y": 63.482062208329545
+              },
+              {
+                "x": 91.66666666666667,
+                "y": 60.80478782318232
+              },
+              {
+                "x": 93.5,
+                "y": 57.946095640690075
+              },
+              {
+                "x": 95.33333333333333,
+                "y": 54.8776416726845
+              },
+              {
+                "x": 97.16666666666667,
+                "y": 51.56199073822583
+              },
+              {
+                "x": 99.0,
+                "y": 47.9478883789474
+              },
+              {
+                "x": 100.83333333333333,
+                "y": 43.961788963699945
+              },
+              {
+                "x": 102.66666666666667,
+                "y": 39.49120858565302
+              },
+              {
+                "x": 104.5,
+                "y": 34.3474889911912
+              },
+              {
+                "x": 106.33333333333333,
+                "y": 28.16420107551824
+              },
+              {
+                "x": 108.16666666666667,
+                "y": 19.99930554349876
+              },
+              {
+                "x": 110.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "An economy moves from a point inside its production possibility curve to a point on the curve. What can this show?",
+    "options": [
+      {
+        "label": "A",
+        "text": "More or better resources"
+      },
+      {
+        "label": "B",
+        "text": "Lower output despite higher utilisation of existing productive resources"
+      },
+      {
+        "label": "C",
+        "text": "Lower productive capacity"
+      },
+      {
+        "label": "D",
+        "text": "Higher utilisation of existing capacity"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Using previously unemployed resources raises actual real output even if the economy's maximum production possibilities do not change.",
+    "reference": "4.4 Economic growth | 4.4.1 meaning of growth | 4.4.4 causes of growth | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: capital goods. Horizontal axis: consumer goods. Draw one PPC. Mark point X clearly inside the curve and point Y on the curve to the north-east of X.",
+    "graphScenes": [
+      {
+        "xLabel": "Good X",
+        "yLabel": "Good Y",
+        "xMax": 120.0,
+        "yMax": 120.0,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "PPC1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 80.0
+              },
+              {
+                "x": 1.3333333333333333,
+                "y": 79.98888811717676
+              },
+              {
+                "x": 2.6666666666666665,
+                "y": 79.95554320301306
+              },
+              {
+                "x": 4.0,
+                "y": 79.89993742175271
+              },
+              {
+                "x": 5.333333333333333,
+                "y": 79.82202425117742
+              },
+              {
+                "x": 6.666666666666667,
+                "y": 79.72173828734266
+              },
+              {
+                "x": 8.0,
+                "y": 79.5989949685296
+              },
+              {
+                "x": 9.333333333333334,
+                "y": 79.45369021567777
+              },
+              {
+                "x": 10.666666666666666,
+                "y": 79.2856999856987
+              },
+              {
+                "x": 12.0,
+                "y": 79.09487973314076
+              },
+              {
+                "x": 13.333333333333334,
+                "y": 78.88106377466156
+              },
+              {
+                "x": 14.666666666666666,
+                "y": 78.644064549646
+              },
+              {
+                "x": 16.0,
+                "y": 78.38367176906169
+              },
+              {
+                "x": 17.333333333333332,
+                "y": 78.09965144323985
+              },
+              {
+                "x": 18.666666666666668,
+                "y": 77.79174477767904
+              },
+              {
+                "x": 20.0,
+                "y": 77.45966692414834
+              },
+              {
+                "x": 21.333333333333332,
+                "y": 77.10310557227179
+              },
+              {
+                "x": 22.666666666666668,
+                "y": 76.72171936435095
+              },
+              {
+                "x": 24.0,
+                "y": 76.31513611335565
+              },
+              {
+                "x": 25.333333333333332,
+                "y": 75.88295080070505
+              },
+              {
+                "x": 26.666666666666668,
+                "y": 75.42472332656507
+              },
+              {
+                "x": 28.0,
+                "y": 74.93997598078079
+              },
+              {
+                "x": 29.333333333333332,
+                "y": 74.42819059708194
+              },
+              {
+                "x": 30.666666666666668,
+                "y": 73.88880534665286
+              },
+              {
+                "x": 32.0,
+                "y": 73.32121111929344
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 72.72474743090476
+              },
+              {
+                "x": 34.666666666666664,
+                "y": 72.0986977845108
+              },
+              {
+                "x": 36.0,
+                "y": 71.442284397967
+              },
+              {
+                "x": 37.333333333333336,
+                "y": 70.75466219424852
+              },
+              {
+                "x": 38.666666666666664,
+                "y": 70.03491192890078
+              },
+              {
+                "x": 40.0,
+                "y": 69.28203230275508
+              },
+              {
+                "x": 41.333333333333336,
+                "y": 68.49493087488705
+              },
+              {
+                "x": 42.666666666666664,
+                "y": 67.6724135490641
+              },
+              {
+                "x": 44.0,
+                "y": 66.81317235396025
+              },
+              {
+                "x": 45.333333333333336,
+                "y": 65.91577116964413
+              },
+              {
+                "x": 46.666666666666664,
+                "y": 64.9786289653931
+              },
+              {
+                "x": 48.0,
+                "y": 64.0
+              },
+              {
+                "x": 49.333333333333336,
+                "y": 62.9779502859709
+              },
+              {
+                "x": 50.666666666666664,
+                "y": 61.91032941996746
+              },
+              {
+                "x": 52.0,
+                "y": 60.794736614282655
+              },
+              {
+                "x": 53.333333333333336,
+                "y": 59.62847939999438
+              },
+              {
+                "x": 54.666666666666664,
+                "y": 58.4085229701587
+              },
+              {
+                "x": 56.0,
+                "y": 57.131427428342796
+              },
+              {
+                "x": 57.333333333333336,
+                "y": 55.7932692077538
+              },
+              {
+                "x": 58.666666666666664,
+                "y": 54.389541478323046
+              },
+              {
+                "x": 60.0,
+                "y": 52.91502622129181
+              },
+              {
+                "x": 61.333333333333336,
+                "y": 51.36362742468859
+              },
+              {
+                "x": 62.666666666666664,
+                "y": 49.728149863924045
+              },
+              {
+                "x": 64.0,
+                "y": 47.999999999999986
+              },
+              {
+                "x": 65.33333333333333,
+                "y": 46.16877251514876
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 44.221663871405326
+              },
+              {
+                "x": 68.0,
+                "y": 42.14261501141096
+              },
+              {
+                "x": 69.33333333333333,
+                "y": 39.91101212558873
+              },
+              {
+                "x": 70.66666666666667,
+                "y": 37.49962962780061
+              },
+              {
+                "x": 72.0,
+                "y": 34.871191548325385
+              },
+              {
+                "x": 73.33333333333333,
+                "y": 31.97221015541814
+              },
+              {
+                "x": 74.66666666666667,
+                "y": 28.720878971384014
+              },
+              {
+                "x": 76.0,
+                "y": 24.979991993593597
+              },
+              {
+                "x": 77.33333333333333,
+                "y": 20.483055327649645
+              },
+              {
+                "x": 78.66666666666667,
+                "y": 14.544949486180915
+              },
+              {
+                "x": 80.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "A",
+            "x": 30,
+            "y": 30
+          },
+          {
+            "id": "p1",
+            "label": "B",
+            "x": 60,
+            "y": 52.91502622129181
+          }
+        ],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "Which change is most likely to increase productivity and economic growth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Reliable transport reducing delivery delays and firms' costs."
+      },
+      {
+        "label": "B",
+        "text": "Greater congestion increasing delivery delays and firms' costs."
+      },
+      {
+        "label": "C",
+        "text": "Less reliable electricity disrupting firms' regular production schedules."
+      },
+      {
+        "label": "D",
+        "text": "Poorer worker skills reducing output per hour worked."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Infrastructure can reduce production and transaction costs, enabling the same resources to produce more output.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "Which change is most likely to slow economic growth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Destruction of productive capital"
+      },
+      {
+        "label": "B",
+        "text": "Better health"
+      },
+      {
+        "label": "C",
+        "text": "More investment by firms in machinery and buildings"
+      },
+      {
+        "label": "D",
+        "text": "Improved techniques for producing goods"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Destruction of capital reduces productive resources and therefore the amount of output the economy can produce.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "A country's real GDP rises by 5% and its population rises by 2%. What is the approximate change in real GDP per head?",
+    "options": [
+      {
+        "label": "A",
+        "text": "About −3%"
+      },
+      {
+        "label": "B",
+        "text": "About +3%"
+      },
+      {
+        "label": "C",
+        "text": "About +7%"
+      },
+      {
+        "label": "D",
+        "text": "No change"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Real output is growing faster than population, so real GDP per head rises by approximately 5% - 2% = 3%.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "Which consequence of economic growth could increase government tax revenue even if tax rates are unchanged?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower output reduces the tax base"
+      },
+      {
+        "label": "B",
+        "text": "Growth replaces income taxation with taxes levied on products"
+      },
+      {
+        "label": "C",
+        "text": "Higher output removes public spending needs"
+      },
+      {
+        "label": "D",
+        "text": "Growth increases taxable incomes and profits"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Growth can raise household income, company profits and expenditure, increasing tax receipts at unchanged tax rates.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "Which cause of growth involves an increase in the quality rather than the quantity of a factor of production?",
+    "options": [
+      {
+        "label": "A",
+        "text": "More workers"
+      },
+      {
+        "label": "B",
+        "text": "More factories"
+      },
+      {
+        "label": "C",
+        "text": "Additional land brought into use for agricultural production"
+      },
+      {
+        "label": "D",
+        "text": "Better worker skills"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Skills raise the productivity or quality of labour rather than the number of units of labour available.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "Which cause of growth involves an increase in the quantity rather than the quality of resources?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Better management"
+      },
+      {
+        "label": "B",
+        "text": "Improved training programmes for the existing workforce"
+      },
+      {
+        "label": "C",
+        "text": "A larger capital stock"
+      },
+      {
+        "label": "D",
+        "text": "Higher efficiency of an unchanged quantity of machinery"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A larger capital stock increases the quantity of productive resources available.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "If nominal GDP rises while real GDP falls, what must have happened?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Prices fall sufficiently to outweigh the reduction in output."
+      },
+      {
+        "label": "B",
+        "text": "Prices rise sufficiently to outweigh the reduction in output."
+      },
+      {
+        "label": "C",
+        "text": "Prices remain unchanged despite the reduction in output."
+      },
+      {
+        "label": "D",
+        "text": "Output is valued at constant prices despite the reduction."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Nominal GDP reflects prices and quantities. It can rise despite lower real output only if higher prices are sufficiently strong.",
+    "reference": "4.4 Economic growth | 4.4.3 distinction between growth in nominal GDP and real GDP | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "Which statement best distinguishes nominal from real GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nominal excludes services; real includes services"
+      },
+      {
+        "label": "B",
+        "text": "Nominal excludes imports; real includes imports"
+      },
+      {
+        "label": "C",
+        "text": "Nominal uses current prices; real removes price changes"
+      },
+      {
+        "label": "D",
+        "text": "Nominal GDP is always higher than real GDP, including in the base year"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The core difference is the treatment of prices: real GDP removes the effect of price-level changes.",
+    "reference": "4.4 Economic growth | 4.4.3 distinction between growth in nominal GDP and real GDP | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 31,
+    "difficulty": "Medium",
+    "prompt": "The table shows nominal GDP and a price index. Which year has the higher real GDP?\n| year | nominal GDP ($bn) | price index |\n| 1 | 900 | 100 |\n| 2 | 990 | 105 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Year 2"
+      },
+      {
+        "label": "B",
+        "text": "Year 1"
+      },
+      {
+        "label": "C",
+        "text": "Real GDP is the same in both years"
+      },
+      {
+        "label": "D",
+        "text": "It cannot be calculated from the information"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Real GDP in year 1 is 900/100 x 100 = 900. In year 2 it is 990/105 x 100 = about 943, so real output is higher in year 2.",
+    "reference": "4.4 Economic growth | 4.4.2 measurement of growth | 4.4.3 nominal and real GDP | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 32,
+    "difficulty": "Medium",
+    "prompt": "Nominal GDP increases from $1 200 billion to $1 296 billion while the GDP price index rises from 100 to 104. What is the real growth rate, rounded to one decimal place?",
+    "options": [
+      {
+        "label": "A",
+        "text": "About 4.0%"
+      },
+      {
+        "label": "B",
+        "text": "About 3.8%"
+      },
+      {
+        "label": "C",
+        "text": "About 8.0%"
+      },
+      {
+        "label": "D",
+        "text": "About 12.0%"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Real GDP in year 2 is 1296/104 x 100 = about 1246.2. Growth from 1200 is about 3.85%.",
+    "reference": "4.4 Economic growth | 4.4.2 measurement of growth | 4.4.3 nominal and real GDP | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 33,
+    "difficulty": "Medium",
+    "prompt": "A country reports nominal GDP growth of 5% and inflation of 7%. Which conclusion is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real GDP has risen by 12%"
+      },
+      {
+        "label": "B",
+        "text": "Real GDP is unchanged"
+      },
+      {
+        "label": "C",
+        "text": "Economic growth is necessarily 5%"
+      },
+      {
+        "label": "D",
+        "text": "Real GDP has fallen"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Prices rose faster than nominal GDP, implying that the volume of output declined.",
+    "reference": "4.4 Economic growth | 4.4.3 distinction between growth in nominal GDP and real GDP | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "Country A has real GDP growth of 4% and population growth of 1%. Country B has real GDP growth of 5% and population growth of 4%. Which country is more likely to have the larger rise in real GDP per head?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country B"
+      },
+      {
+        "label": "B",
+        "text": "Both have the same rise"
+      },
+      {
+        "label": "C",
+        "text": "Neither because population growth prevents economic growth"
+      },
+      {
+        "label": "D",
+        "text": "Country A"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Approximate per-head growth is 3% in A and 1% in B. Faster total growth does not necessarily mean faster growth in output per person.",
+    "reference": "4.4 Economic growth | 4.4.2 measurement of growth | 4.4.5 consequences | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "Which change can raise real GDP in the short run without increasing the economy's quantity or quality of resources?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower investment"
+      },
+      {
+        "label": "B",
+        "text": "Fewer workers participating in production despite unchanged technology"
+      },
+      {
+        "label": "C",
+        "text": "Greater use of unemployed resources"
+      },
+      {
+        "label": "D",
+        "text": "Loss of capital"
+      }
+    ],
+    "answer": "C",
+    "explanation": "With spare capacity, higher aggregate demand can bring idle labour and capital into use, increasing real output without changing the resource stock.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "Which combination is most likely to generate sustained economic growth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Capital depreciation exceeding investment alongside declining productive skills."
+      },
+      {
+        "label": "B",
+        "text": "Falling labour participation alongside declining productive technology quality."
+      },
+      {
+        "label": "C",
+        "text": "Positive net investment alongside improving productivity of resources."
+      },
+      {
+        "label": "D",
+        "text": "Shrinking productive capital alongside declining productivity of resources."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A growing capital stock and higher productivity increase the quantity and quality of productive resources.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "Why can a higher rate of saving contribute to future economic growth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Saving reduces the capital stock"
+      },
+      {
+        "label": "B",
+        "text": "Saving releases resources for capital investment"
+      },
+      {
+        "label": "C",
+        "text": "Saving immediately increases purchases of consumer goods by households"
+      },
+      {
+        "label": "D",
+        "text": "Saving prevents investment"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Resources not used for current consumption can be directed toward investment, expanding productive capacity.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "An economy is initially operating below full capacity. Consumer confidence rises sharply. What is the most likely short-run result?",
+    "options": [
+      {
+        "label": "A",
+        "text": "AD falls and real GDP increases"
+      },
+      {
+        "label": "B",
+        "text": "Productive resources necessarily increase in quantity"
+      },
+      {
+        "label": "C",
+        "text": "AD rises and real GDP increases"
+      },
+      {
+        "label": "D",
+        "text": "The PPC must shift inward"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Higher confidence raises consumption, shifting AD right. With spare capacity, firms can respond by increasing output.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: general price level. Horizontal axis: real GDP. Draw upward-sloping AS and downward-sloping AD1. Shift AD right to AD2 on a relatively elastic section of AS, showing higher real GDP.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 40.0
+              },
+              {
+                "x": 131.6,
+                "y": 66.32
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 120
+              },
+              {
+                "x": 120.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 66.66666666666667,
+            "y": 53.33333333333333
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 66.66666666666667,
+            "y": 53.33333333333333,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "An economy is at or near maximum capacity. Aggregate demand rises strongly. Why may the rise in real GDP be small?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Limited capacity constrains output and raises price pressure"
+      },
+      {
+        "label": "B",
+        "text": "Higher spending cannot raise output"
+      },
+      {
+        "label": "C",
+        "text": "Higher spending reduces the money value of all domestic production"
+      },
+      {
+        "label": "D",
+        "text": "Demand growth reduces the need for workers across all industries"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Capacity constraints make aggregate supply less responsive. Additional spending then creates more inflation than real-output growth.",
+    "reference": "4.4 Economic growth | 4.4.4 causes | 4.4.5 consequences of growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "A government funds widespread vocational training. Through which sequence can this raise economic growth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Better skills → no labour supply → more output."
+      },
+      {
+        "label": "B",
+        "text": "Worse skills → higher costs → more output."
+      },
+      {
+        "label": "C",
+        "text": "Less capital → higher productivity → more output."
+      },
+      {
+        "label": "D",
+        "text": "Better skills → higher productivity → more output."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Training increases human capital and productivity, enabling a larger volume of output from available labour.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "A country discovers a large commercially usable mineral deposit. Why can this cause economic growth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A lower price level"
+      },
+      {
+        "label": "B",
+        "text": "More available natural resources"
+      },
+      {
+        "label": "C",
+        "text": "A smaller workforce"
+      },
+      {
+        "label": "D",
+        "text": "A sharp fall in the money value of domestic production"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The discovery increases the available quantity of land/natural-resource inputs and can expand production.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "Why can improved health care contribute to economic growth even before the labour force grows?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Better health necessarily reduces private investment in productive capital."
+      },
+      {
+        "label": "B",
+        "text": "Better health necessarily reduces household demand for consumer goods."
+      },
+      {
+        "label": "C",
+        "text": "Better health necessarily reduces the quality of productive labour."
+      },
+      {
+        "label": "D",
+        "text": "Better health can raise productivity and reduce worker absences."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Better health can raise the quality and effective supply of labour through higher productivity and lower absence.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "Which investment is most likely to raise economic growth in the long run?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Building reliable electricity infrastructure for multiple productive industries."
+      },
+      {
+        "label": "B",
+        "text": "Replacing effective machinery with less productive older equipment."
+      },
+      {
+        "label": "C",
+        "text": "Closing reliable transport links between major productive regions."
+      },
+      {
+        "label": "D",
+        "text": "Restricting firms' access to productive digital communications networks."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Infrastructure that supports many firms can lower costs and raise the productivity of capital and labour.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "Why must gross investment exceed depreciation for the capital stock to increase?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Replacement maintains rather than expands the stock"
+      },
+      {
+        "label": "B",
+        "text": "Depreciation adds equipment"
+      },
+      {
+        "label": "C",
+        "text": "Gross investment omits spending on replacing worn-out equipment"
+      },
+      {
+        "label": "D",
+        "text": "Machinery retains its productive value regardless of wear and ageing"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Depreciation reduces the capital stock. Net investment equals gross investment minus depreciation and must be positive for the stock to grow.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "Which diagram change most clearly represents growth caused by an increase in productive capacity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Output reallocates along an unchanged production possibilities frontier."
+      },
+      {
+        "label": "B",
+        "text": "Production possibilities expand through an outward frontier shift."
+      },
+      {
+        "label": "C",
+        "text": "Output moves inside an unchanged production possibilities frontier."
+      },
+      {
+        "label": "D",
+        "text": "Production possibilities contract through an inward frontier shift."
+      }
+    ],
+    "answer": "B",
+    "explanation": "An outward PPC shift means the economy can produce more combinations of goods and services than before.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: capital goods. Horizontal axis: consumer goods. Show PPC1 and PPC2, with PPC2 lying outside PPC1 at every relevant point.",
+    "graphScenes": [
+      {
+        "xLabel": "Good X",
+        "yLabel": "Good Y",
+        "xMax": 120.0,
+        "yMax": 120.0,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "PPC1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 80.0
+              },
+              {
+                "x": 1.3333333333333333,
+                "y": 79.98888811717676
+              },
+              {
+                "x": 2.6666666666666665,
+                "y": 79.95554320301306
+              },
+              {
+                "x": 4.0,
+                "y": 79.89993742175271
+              },
+              {
+                "x": 5.333333333333333,
+                "y": 79.82202425117742
+              },
+              {
+                "x": 6.666666666666667,
+                "y": 79.72173828734266
+              },
+              {
+                "x": 8.0,
+                "y": 79.5989949685296
+              },
+              {
+                "x": 9.333333333333334,
+                "y": 79.45369021567777
+              },
+              {
+                "x": 10.666666666666666,
+                "y": 79.2856999856987
+              },
+              {
+                "x": 12.0,
+                "y": 79.09487973314076
+              },
+              {
+                "x": 13.333333333333334,
+                "y": 78.88106377466156
+              },
+              {
+                "x": 14.666666666666666,
+                "y": 78.644064549646
+              },
+              {
+                "x": 16.0,
+                "y": 78.38367176906169
+              },
+              {
+                "x": 17.333333333333332,
+                "y": 78.09965144323985
+              },
+              {
+                "x": 18.666666666666668,
+                "y": 77.79174477767904
+              },
+              {
+                "x": 20.0,
+                "y": 77.45966692414834
+              },
+              {
+                "x": 21.333333333333332,
+                "y": 77.10310557227179
+              },
+              {
+                "x": 22.666666666666668,
+                "y": 76.72171936435095
+              },
+              {
+                "x": 24.0,
+                "y": 76.31513611335565
+              },
+              {
+                "x": 25.333333333333332,
+                "y": 75.88295080070505
+              },
+              {
+                "x": 26.666666666666668,
+                "y": 75.42472332656507
+              },
+              {
+                "x": 28.0,
+                "y": 74.93997598078079
+              },
+              {
+                "x": 29.333333333333332,
+                "y": 74.42819059708194
+              },
+              {
+                "x": 30.666666666666668,
+                "y": 73.88880534665286
+              },
+              {
+                "x": 32.0,
+                "y": 73.32121111929344
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 72.72474743090476
+              },
+              {
+                "x": 34.666666666666664,
+                "y": 72.0986977845108
+              },
+              {
+                "x": 36.0,
+                "y": 71.442284397967
+              },
+              {
+                "x": 37.333333333333336,
+                "y": 70.75466219424852
+              },
+              {
+                "x": 38.666666666666664,
+                "y": 70.03491192890078
+              },
+              {
+                "x": 40.0,
+                "y": 69.28203230275508
+              },
+              {
+                "x": 41.333333333333336,
+                "y": 68.49493087488705
+              },
+              {
+                "x": 42.666666666666664,
+                "y": 67.6724135490641
+              },
+              {
+                "x": 44.0,
+                "y": 66.81317235396025
+              },
+              {
+                "x": 45.333333333333336,
+                "y": 65.91577116964413
+              },
+              {
+                "x": 46.666666666666664,
+                "y": 64.9786289653931
+              },
+              {
+                "x": 48.0,
+                "y": 64.0
+              },
+              {
+                "x": 49.333333333333336,
+                "y": 62.9779502859709
+              },
+              {
+                "x": 50.666666666666664,
+                "y": 61.91032941996746
+              },
+              {
+                "x": 52.0,
+                "y": 60.794736614282655
+              },
+              {
+                "x": 53.333333333333336,
+                "y": 59.62847939999438
+              },
+              {
+                "x": 54.666666666666664,
+                "y": 58.4085229701587
+              },
+              {
+                "x": 56.0,
+                "y": 57.131427428342796
+              },
+              {
+                "x": 57.333333333333336,
+                "y": 55.7932692077538
+              },
+              {
+                "x": 58.666666666666664,
+                "y": 54.389541478323046
+              },
+              {
+                "x": 60.0,
+                "y": 52.91502622129181
+              },
+              {
+                "x": 61.333333333333336,
+                "y": 51.36362742468859
+              },
+              {
+                "x": 62.666666666666664,
+                "y": 49.728149863924045
+              },
+              {
+                "x": 64.0,
+                "y": 47.999999999999986
+              },
+              {
+                "x": 65.33333333333333,
+                "y": 46.16877251514876
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 44.221663871405326
+              },
+              {
+                "x": 68.0,
+                "y": 42.14261501141096
+              },
+              {
+                "x": 69.33333333333333,
+                "y": 39.91101212558873
+              },
+              {
+                "x": 70.66666666666667,
+                "y": 37.49962962780061
+              },
+              {
+                "x": 72.0,
+                "y": 34.871191548325385
+              },
+              {
+                "x": 73.33333333333333,
+                "y": 31.97221015541814
+              },
+              {
+                "x": 74.66666666666667,
+                "y": 28.720878971384014
+              },
+              {
+                "x": 76.0,
+                "y": 24.979991993593597
+              },
+              {
+                "x": 77.33333333333333,
+                "y": 20.483055327649645
+              },
+              {
+                "x": 78.66666666666667,
+                "y": 14.544949486180915
+              },
+              {
+                "x": 80.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "PPC2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 110.0
+              },
+              {
+                "x": 1.8333333333333333,
+                "y": 109.98472116111805
+              },
+              {
+                "x": 3.6666666666666665,
+                "y": 109.93887190414297
+              },
+              {
+                "x": 5.5,
+                "y": 109.86241395490998
+              },
+              {
+                "x": 7.333333333333333,
+                "y": 109.75528334536895
+              },
+              {
+                "x": 9.166666666666666,
+                "y": 109.61739014509615
+              },
+              {
+                "x": 11.0,
+                "y": 109.4486180817282
+              },
+              {
+                "x": 12.833333333333334,
+                "y": 109.24882404655692
+              },
+              {
+                "x": 14.666666666666666,
+                "y": 109.01783748033571
+              },
+              {
+                "x": 16.5,
+                "y": 108.75545963306854
+              },
+              {
+                "x": 18.333333333333332,
+                "y": 108.46146269015964
+              },
+              {
+                "x": 20.166666666666668,
+                "y": 108.13558875576327
+              },
+              {
+                "x": 22.0,
+                "y": 107.77754868245984
+              },
+              {
+                "x": 23.833333333333332,
+                "y": 107.3870207344548
+              },
+              {
+                "x": 25.666666666666668,
+                "y": 106.96364906930869
+              },
+              {
+                "x": 27.5,
+                "y": 106.50704202070396
+              },
+              {
+                "x": 29.333333333333332,
+                "y": 106.01677016187371
+              },
+              {
+                "x": 31.166666666666668,
+                "y": 105.49236412598255
+              },
+              {
+                "x": 33.0,
+                "y": 104.93331215586402
+              },
+              {
+                "x": 34.833333333333336,
+                "y": 104.33905735096944
+              },
+              {
+                "x": 36.666666666666664,
+                "y": 103.70899457402697
+              },
+              {
+                "x": 38.5,
+                "y": 103.04246697357357
+              },
+              {
+                "x": 40.333333333333336,
+                "y": 102.33876207098766
+              },
+              {
+                "x": 42.166666666666664,
+                "y": 101.59710735164768
+              },
+              {
+                "x": 44.0,
+                "y": 100.81666528902848
+              },
+              {
+                "x": 45.833333333333336,
+                "y": 99.99652771749405
+              },
+              {
+                "x": 47.666666666666664,
+                "y": 99.13570945370235
+              },
+              {
+                "x": 49.5,
+                "y": 98.23314104720463
+              },
+              {
+                "x": 51.333333333333336,
+                "y": 97.28766051709172
+              },
+              {
+                "x": 53.166666666666664,
+                "y": 96.29800390223858
+              },
+              {
+                "x": 55.0,
+                "y": 95.26279441628824
+              },
+              {
+                "x": 56.833333333333336,
+                "y": 94.18052995296969
+              },
+              {
+                "x": 58.666666666666664,
+                "y": 93.04956862996315
+              },
+              {
+                "x": 60.5,
+                "y": 91.86811198669535
+              },
+              {
+                "x": 62.333333333333336,
+                "y": 90.63418535826068
+              },
+              {
+                "x": 64.16666666666667,
+                "y": 89.3456148274155
+              },
+              {
+                "x": 66.0,
+                "y": 88.0
+              },
+              {
+                "x": 67.83333333333333,
+                "y": 86.59468164321
+              },
+              {
+                "x": 69.66666666666667,
+                "y": 85.12670295245526
+              },
+              {
+                "x": 71.5,
+                "y": 83.59276284463864
+              },
+              {
+                "x": 73.33333333333333,
+                "y": 81.9891591749923
+              },
+              {
+                "x": 75.16666666666667,
+                "y": 80.31171908396821
+              },
+              {
+                "x": 77.0,
+                "y": 78.55571271397135
+              },
+              {
+                "x": 78.83333333333333,
+                "y": 76.71574516066148
+              },
+              {
+                "x": 80.66666666666667,
+                "y": 74.78561953269416
+              },
+              {
+                "x": 82.5,
+                "y": 72.75816105427624
+              },
+              {
+                "x": 84.33333333333333,
+                "y": 70.62498770894682
+              },
+              {
+                "x": 86.16666666666667,
+                "y": 68.37620606289556
+              },
+              {
+                "x": 88.0,
+                "y": 65.99999999999999
+              },
+              {
+                "x": 89.83333333333333,
+                "y": 63.482062208329545
+              },
+              {
+                "x": 91.66666666666667,
+                "y": 60.80478782318232
+              },
+              {
+                "x": 93.5,
+                "y": 57.946095640690075
+              },
+              {
+                "x": 95.33333333333333,
+                "y": 54.8776416726845
+              },
+              {
+                "x": 97.16666666666667,
+                "y": 51.56199073822583
+              },
+              {
+                "x": 99.0,
+                "y": 47.9478883789474
+              },
+              {
+                "x": 100.83333333333333,
+                "y": 43.961788963699945
+              },
+              {
+                "x": 102.66666666666667,
+                "y": 39.49120858565302
+              },
+              {
+                "x": 104.5,
+                "y": 34.3474889911912
+              },
+              {
+                "x": 106.33333333333333,
+                "y": 28.16420107551824
+              },
+              {
+                "x": 108.16666666666667,
+                "y": 19.99930554349876
+              },
+              {
+                "x": 110.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "A country diverts resources from consumer goods to capital goods while operating on its PPC. Why might this raise future economic growth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Productive capital can expand future output possibilities."
+      },
+      {
+        "label": "B",
+        "text": "Current consumption necessarily rises alongside additional capital output."
+      },
+      {
+        "label": "C",
+        "text": "Productive capital necessarily contracts as additional machinery appears."
+      },
+      {
+        "label": "D",
+        "text": "Current investment necessarily involves no sacrifice of alternative output."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Producing more capital goods can increase future production possibilities, but the opportunity cost is lower current consumption.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "Which development is most likely to raise both nominal GDP and real GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher prices with no increase in output volume."
+      },
+      {
+        "label": "B",
+        "text": "Higher output volume accompanied by positive price inflation."
+      },
+      {
+        "label": "C",
+        "text": "Lower output volume outweighing the increase in prices."
+      },
+      {
+        "label": "D",
+        "text": "Lower output volume accompanied by negative price inflation."
+      }
+    ],
+    "answer": "B",
+    "explanation": "More output raises real GDP. If prices also rise, nominal GDP rises as well.",
+    "reference": "4.4 Economic growth | 4.4.3 nominal and real GDP | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "Which development can raise nominal GDP while reducing real GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower prices accompanied by higher real output."
+      },
+      {
+        "label": "B",
+        "text": "Lower prices accompanied by lower real output."
+      },
+      {
+        "label": "C",
+        "text": "Large price increases outweigh a small output reduction."
+      },
+      {
+        "label": "D",
+        "text": "Higher real output accompanied by unchanged prices."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Nominal GDP can rise when the price increase outweighs the fall in quantity, even though real GDP declines.",
+    "reference": "4.4 Economic growth | 4.4.3 nominal and real GDP | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "Nominal GDP is $2 100 billion when the price index is 105. What is real GDP at base-year prices?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$1 995 billion"
+      },
+      {
+        "label": "B",
+        "text": "$2 000 billion"
+      },
+      {
+        "label": "C",
+        "text": "$2 100 billion"
+      },
+      {
+        "label": "D",
+        "text": "$2 205 billion"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Real GDP = 2100 / 105 x 100 = $2 000 billion.",
+    "reference": "4.4 Economic growth | 4.4.2 measurement of growth | 4.4.3 nominal and real GDP | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "The price index is 100 in year 1 and 108 in year 2. Nominal GDP is $750 billion in year 1 and $810 billion in year 2. What happened to real GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It was unchanged"
+      },
+      {
+        "label": "B",
+        "text": "It rose by 8%"
+      },
+      {
+        "label": "C",
+        "text": "It fell by 8%"
+      },
+      {
+        "label": "D",
+        "text": "It rose by 16%"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Year-2 real GDP = 810 / 108 x 100 = 750. The entire rise in nominal GDP is explained by higher prices.",
+    "reference": "4.4 Economic growth | 4.4.3 nominal and real GDP | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "Real GDP grows by 2%, but the population grows by 3%. Which consequence is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real GDP per head rises by 5%"
+      },
+      {
+        "label": "B",
+        "text": "Real GDP per head is unchanged"
+      },
+      {
+        "label": "C",
+        "text": "Real GDP per head falls"
+      },
+      {
+        "label": "D",
+        "text": "Nominal GDP must fall"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Output is increasing more slowly than population, so average real output per person decreases.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "Which consequence is most likely when economic growth is driven mainly by export demand?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Import purchases necessarily disappear from the economy."
+      },
+      {
+        "label": "B",
+        "text": "The current-account balance necessarily becomes more negative."
+      },
+      {
+        "label": "C",
+        "text": "The general price level necessarily declines sharply."
+      },
+      {
+        "label": "D",
+        "text": "Employment and receipts from export sales may increase."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Higher export demand raises aggregate demand and firms' sales, supporting output and employment. The current-account effect may be favourable rather than adverse.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "Why might economic growth reduce a government budget deficit without any discretionary policy change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Growth removes the requirement for public expenditure in every sector."
+      },
+      {
+        "label": "B",
+        "text": "Growth reduces every statutory tax rate without any policy decision."
+      },
+      {
+        "label": "C",
+        "text": "Growth separates the tax base from the level of national income."
+      },
+      {
+        "label": "D",
+        "text": "Growth can raise tax receipts and reduce unemployment benefit spending."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Growth can automatically strengthen public finances through a larger tax base and lower cyclical welfare spending.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "Which condition makes economic growth more likely to increase inflation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand grows more slowly than capacity"
+      },
+      {
+        "label": "B",
+        "text": "Productivity rises"
+      },
+      {
+        "label": "C",
+        "text": "Demand outpaces productive capacity"
+      },
+      {
+        "label": "D",
+        "text": "Unit costs fall as more efficient production methods spread"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Inflationary pressure is strongest when spending expands more rapidly than the economy's ability to produce.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "Which condition makes economic growth less likely to worsen the current account?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumption-led growth relies heavily on imported goods"
+      },
+      {
+        "label": "B",
+        "text": "Consumers buy more imports"
+      },
+      {
+        "label": "C",
+        "text": "Export-led growth and competitive import substitution"
+      },
+      {
+        "label": "D",
+        "text": "Export capacity stays fixed while household spending on imports expands"
+      }
+    ],
+    "answer": "C",
+    "explanation": "If exports expand and domestic production substitutes for imports, the external balance need not deteriorate as output grows.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "A country experiences 6% real GDP growth, but most gains accrue to a small high-income group. What follows?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Recorded growth fails to represent any increase in real output."
+      },
+      {
+        "label": "B",
+        "text": "Average output rises without every household receiving equal gains."
+      },
+      {
+        "label": "C",
+        "text": "Every household necessarily becomes better off by the same percentage."
+      },
+      {
+        "label": "D",
+        "text": "Recorded growth necessarily reduces differences between rich and poor households."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Economic growth is about total real output. It does not specify how additional income and consumption opportunities are distributed.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "A rapidly growing economy uses more fossil fuel and experiences severe urban congestion. Which conclusion is most appropriate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher output can coexist with greater environmental and social costs."
+      },
+      {
+        "label": "B",
+        "text": "Higher output necessarily worsens the welfare of every individual household."
+      },
+      {
+        "label": "C",
+        "text": "Higher pollution prevents any recorded increase in real national output."
+      },
+      {
+        "label": "D",
+        "text": "Higher pollution is automatically deducted from real national output statistics."
+      }
+    ],
+    "answer": "A",
+    "explanation": "GDP records production, not all external costs. Growth can therefore coexist with pollution and congestion.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "Why can economic growth allow higher government spending on health and education without increasing tax rates?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Output pays public-sector bills directly"
+      },
+      {
+        "label": "B",
+        "text": "Higher output removes the need for financing public services"
+      },
+      {
+        "label": "C",
+        "text": "Growth expands the tax base"
+      },
+      {
+        "label": "D",
+        "text": "Public services become costless"
+      }
+    ],
+    "answer": "C",
+    "explanation": "With a larger tax base, existing tax rates can generate higher receipts, giving government greater spending capacity.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "Which outcome is most likely if economic growth is caused by a rightward shift of aggregate supply rather than only by stronger aggregate demand?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Greater aggregate supply necessarily reduces real output."
+      },
+      {
+        "label": "B",
+        "text": "Greater aggregate supply can reduce inflationary pressure."
+      },
+      {
+        "label": "C",
+        "text": "Greater aggregate supply necessarily raises prices sharply."
+      },
+      {
+        "label": "D",
+        "text": "Greater aggregate supply necessarily increases unemployment."
+      }
+    ],
+    "answer": "B",
+    "explanation": "An outward shift of aggregate supply increases the economy's ability to produce, so higher output need not be accompanied by as much upward pressure on prices.",
+    "reference": "4.4 Economic growth | 4.4.4 causes | 4.4.5 consequences of economic growth | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: general price level. Horizontal axis: real GDP. Draw downward-sloping AD and upward-sloping AS1. Shift AS right to AS2, showing higher equilibrium real GDP and a lower or less rapidly rising price level.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "SRAS2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 20.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 111.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 40.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "Which change is most likely to increase real GDP but leave nominal GDP unchanged?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Output and prices rise"
+      },
+      {
+        "label": "B",
+        "text": "Output rises; prices fall enough to offset it"
+      },
+      {
+        "label": "C",
+        "text": "Output falls with prices unchanged"
+      },
+      {
+        "label": "D",
+        "text": "Real output remains unchanged while the price level rises"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Nominal GDP is price multiplied by quantity. More real output can be offset by a lower price level, leaving the money value unchanged.",
+    "reference": "4.4 Economic growth | 4.4.3 nominal and real GDP | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "The table shows real GDP. Which statement is correct?\n| year | real GDP index |\n| 1 | 1000 |\n| 2 | 1050 |\n| 3 | 1071 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real GDP falls between the second and third years."
+      },
+      {
+        "label": "B",
+        "text": "Real GDP continues rising but its growth rate declines."
+      },
+      {
+        "label": "C",
+        "text": "Real GDP growth accelerates in every successive measured year."
+      },
+      {
+        "label": "D",
+        "text": "Real GDP falls below the initial level in year three."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Real GDP rises from 1 050 to 1 071, so output still grows, but the percentage increase is 2%, lower than the 5% rise from year 1 to year 2.",
+    "reference": "4.4 Economic growth | 4.4.2 measurement of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "A country's growth rate falls from 6% to 2%. What does this mean?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real output rises at a slower rate."
+      },
+      {
+        "label": "B",
+        "text": "Real output falls at a faster rate."
+      },
+      {
+        "label": "C",
+        "text": "Consumer prices fall at a faster rate."
+      },
+      {
+        "label": "D",
+        "text": "Nominal output stays at its previous level."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A positive 2% growth rate means output continues to increase. The fall refers to the rate of growth, not necessarily the level of output.",
+    "reference": "4.4 Economic growth | 4.4.2 measurement of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "A country records a growth rate of -3%. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nominal output necessarily fell by the same measured 3%."
+      },
+      {
+        "label": "B",
+        "text": "The general price level fell by the same measured 3%."
+      },
+      {
+        "label": "C",
+        "text": "Real output fell by 3% over the measured period."
+      },
+      {
+        "label": "D",
+        "text": "Real output per person necessarily rose despite the recorded contraction."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A negative growth rate means the measured volume of output contracted by that percentage.",
+    "reference": "4.4 Economic growth | 4.4.2 measurement of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "Why can a rise in business investment increase economic growth through both demand and supply?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Investment reduces current expenditure and reduces future productive capacity."
+      },
+      {
+        "label": "B",
+        "text": "Investment changes market prices without changing expenditure or productive capacity."
+      },
+      {
+        "label": "C",
+        "text": "Investment adds current expenditure and can expand future productive capacity."
+      },
+      {
+        "label": "D",
+        "text": "Investment changes neither current expenditure nor the productive capital stock."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Investment is an AD component and also adds to the capital stock, so it can support both current output and future productive ability.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "A country's roads and ports improve, but total employment and the capital stock are initially unchanged. Why can output still grow?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Infrastructure lowers the productive quality of resources"
+      },
+      {
+        "label": "B",
+        "text": "Existing resources become more productive"
+      },
+      {
+        "label": "C",
+        "text": "Only more workers can increase real output"
+      },
+      {
+        "label": "D",
+        "text": "Output cannot grow unless the number of residents first increases"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Better infrastructure reduces delays and costs, raising total factor productivity even before resource quantities change.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "Which change is most likely to reduce the growth rate without causing an immediate fall in real GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Investment growth slows while investment expenditure remains positive."
+      },
+      {
+        "label": "B",
+        "text": "Most productive capital disappears after a large natural disaster."
+      },
+      {
+        "label": "C",
+        "text": "All sources of aggregate expenditure cease simultaneously without replacement."
+      },
+      {
+        "label": "D",
+        "text": "Government prohibits every existing firm from supplying domestic output."
+      }
+    ],
+    "answer": "A",
+    "explanation": "If investment still adds to capacity but more slowly, output may continue to grow at a reduced rate rather than contract.",
+    "reference": "4.4 Economic growth | 4.4.2 measurement | 4.4.4 causes of growth | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "A country's real GDP grows 4% for three consecutive years. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The absolute annual increases are equal"
+      },
+      {
+        "label": "B",
+        "text": "Real output remains unchanged"
+      },
+      {
+        "label": "C",
+        "text": "Compounding makes the annual absolute increases larger"
+      },
+      {
+        "label": "D",
+        "text": "Output rises only 4% over the entire three-year period"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A constant percentage applied to a growing base produces progressively larger absolute increases and cumulative growth above 12%.",
+    "reference": "4.4 Economic growth | 4.4.2 measurement of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "Real GDP is 100 in year 0. It grows by 10% in year 1 and then falls by 10% in year 2. What is real GDP in year 2?",
+    "options": [
+      {
+        "label": "A",
+        "text": "90"
+      },
+      {
+        "label": "B",
+        "text": "100"
+      },
+      {
+        "label": "C",
+        "text": "101"
+      },
+      {
+        "label": "D",
+        "text": "99"
+      }
+    ],
+    "answer": "D",
+    "explanation": "After 10% growth, GDP is 110. A 10% fall from 110 is 11, leaving 99. Equal percentage rises and falls do not cancel.",
+    "reference": "4.4 Economic growth | 4.4.2 measurement of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "Why can rapid growth create shortages of skilled labour?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Growth reduces firms' demand for skilled workers throughout production."
+      },
+      {
+        "label": "B",
+        "text": "Labour demand can rise faster than the available skilled workforce."
+      },
+      {
+        "label": "C",
+        "text": "Growth removes the need for workers to possess relevant qualifications."
+      },
+      {
+        "label": "D",
+        "text": "Growth automatically equips every available worker with additional productive skills."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Strong expansion can tighten particular labour markets and bid up wages when skills are scarce.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "Which statement about economic growth and poverty is most defensible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Growth eliminates poverty"
+      },
+      {
+        "label": "B",
+        "text": "Growth increases poverty wherever it occurs, regardless of distribution"
+      },
+      {
+        "label": "C",
+        "text": "Poverty is unaffected by employment and household earnings"
+      },
+      {
+        "label": "D",
+        "text": "Poverty may fall, depending on who gains"
+      }
+    ],
+    "answer": "D",
+    "explanation": "More output can create income opportunities, but unequal distribution may limit the reduction in poverty.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 71,
+    "difficulty": "Hard",
+    "prompt": "Nominal GDP rises from $1 000 billion to $1 120 billion while the price index rises from 100 to 106. What is the real economic growth rate, rounded to one decimal place?",
+    "options": [
+      {
+        "label": "A",
+        "text": "About 5.7%"
+      },
+      {
+        "label": "B",
+        "text": "About 6.0%"
+      },
+      {
+        "label": "C",
+        "text": "About 12.0%"
+      },
+      {
+        "label": "D",
+        "text": "About 18.0%"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Year-2 real GDP = 1120/106 x 100 = about 1056.6. Relative to 1000, real growth is about 5.7%.",
+    "reference": "4.4 Economic growth | 4.4.2 measurement | 4.4.3 nominal and real GDP | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 72,
+    "difficulty": "Hard",
+    "prompt": "Country X has nominal GDP growth of 9% and inflation of 4%. Country Y has nominal GDP growth of 7% and inflation of 1%. Which has the higher approximate real growth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country X"
+      },
+      {
+        "label": "B",
+        "text": "Country Y"
+      },
+      {
+        "label": "C",
+        "text": "Both are equal"
+      },
+      {
+        "label": "D",
+        "text": "It is impossible to compare"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Approximate real growth is 5% in X and 6% in Y. Faster nominal growth does not imply faster real growth.",
+    "reference": "4.4 Economic growth | 4.4.3 distinction between growth in nominal GDP and real GDP | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 73,
+    "difficulty": "Hard",
+    "prompt": "An economy's nominal GDP is unchanged, but the price level falls by 4%. What is most likely to have happened to real GDP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It fell by approximately 4%"
+      },
+      {
+        "label": "B",
+        "text": "It was unchanged"
+      },
+      {
+        "label": "C",
+        "text": "It increased by approximately 4%"
+      },
+      {
+        "label": "D",
+        "text": "It became zero"
+      }
+    ],
+    "answer": "C",
+    "explanation": "With the money value of output unchanged but prices lower, a larger volume of goods and services must have been produced.",
+    "reference": "4.4 Economic growth | 4.4.3 nominal and real GDP | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "The table shows nominal GDP and the GDP deflator. Which period shows the fastest real economic growth?\n| year | nominal GDP | GDP deflator |\n| 1 | 1000 | 100 |\n| 2 | 1050 | 102 |\n| 3 | 1134 | 105 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Year 2 to year 3"
+      },
+      {
+        "label": "B",
+        "text": "Year 1 to year 2"
+      },
+      {
+        "label": "C",
+        "text": "Real growth is the same in both periods"
+      },
+      {
+        "label": "D",
+        "text": "Real growth cannot be inferred"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Real GDP values are 1000, 1050/1.02 ≈1029.4, and 1134/1.05 =1080. Growth is about 2.9% then 4.9%, so the second period is faster.",
+    "reference": "4.4 Economic growth | 4.4.2 measurement | 4.4.3 nominal and real GDP | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "A country's real GDP rises by 4%, but real GDP per head falls. What must be true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Population fell faster than real output."
+      },
+      {
+        "label": "B",
+        "text": "Nominal GDP fell despite higher real output."
+      },
+      {
+        "label": "C",
+        "text": "Prices fell by more than real output rose."
+      },
+      {
+        "label": "D",
+        "text": "Population rose faster than real output."
+      }
+    ],
+    "answer": "D",
+    "explanation": "For real output per person to fall while total real output rises 4%, the population must be increasing at a faster rate than output.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "An economy moves from point A inside a PPC to point B on the PPC, then several years later the PPC shifts outward. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both raise output; only the shift raises capacity"
+      },
+      {
+        "label": "B",
+        "text": "Only higher utilisation can represent a rise in real output"
+      },
+      {
+        "label": "C",
+        "text": "Only an outward shift can increase real output"
+      },
+      {
+        "label": "D",
+        "text": "Neither change raises output"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Using idle resources raises actual output; improving resource quantity or quality shifts the PPC outward and increases the economy's maximum possible output.",
+    "reference": "4.4 Economic growth | 4.4.1 meaning | 4.4.4 causes of economic growth | AO3 Evaluation",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: capital goods; horizontal axis: consumer goods. Draw PPC1 and a later outward PPC2. Mark A inside PPC1 and B on PPC1 to the north-east of A. The stem compares A→B with PPC1→PPC2.",
+    "graphScenes": [
+      {
+        "xLabel": "Good X",
+        "yLabel": "Good Y",
+        "xMax": 120.0,
+        "yMax": 120.0,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "PPC1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 80.0
+              },
+              {
+                "x": 1.3333333333333333,
+                "y": 79.98888811717676
+              },
+              {
+                "x": 2.6666666666666665,
+                "y": 79.95554320301306
+              },
+              {
+                "x": 4.0,
+                "y": 79.89993742175271
+              },
+              {
+                "x": 5.333333333333333,
+                "y": 79.82202425117742
+              },
+              {
+                "x": 6.666666666666667,
+                "y": 79.72173828734266
+              },
+              {
+                "x": 8.0,
+                "y": 79.5989949685296
+              },
+              {
+                "x": 9.333333333333334,
+                "y": 79.45369021567777
+              },
+              {
+                "x": 10.666666666666666,
+                "y": 79.2856999856987
+              },
+              {
+                "x": 12.0,
+                "y": 79.09487973314076
+              },
+              {
+                "x": 13.333333333333334,
+                "y": 78.88106377466156
+              },
+              {
+                "x": 14.666666666666666,
+                "y": 78.644064549646
+              },
+              {
+                "x": 16.0,
+                "y": 78.38367176906169
+              },
+              {
+                "x": 17.333333333333332,
+                "y": 78.09965144323985
+              },
+              {
+                "x": 18.666666666666668,
+                "y": 77.79174477767904
+              },
+              {
+                "x": 20.0,
+                "y": 77.45966692414834
+              },
+              {
+                "x": 21.333333333333332,
+                "y": 77.10310557227179
+              },
+              {
+                "x": 22.666666666666668,
+                "y": 76.72171936435095
+              },
+              {
+                "x": 24.0,
+                "y": 76.31513611335565
+              },
+              {
+                "x": 25.333333333333332,
+                "y": 75.88295080070505
+              },
+              {
+                "x": 26.666666666666668,
+                "y": 75.42472332656507
+              },
+              {
+                "x": 28.0,
+                "y": 74.93997598078079
+              },
+              {
+                "x": 29.333333333333332,
+                "y": 74.42819059708194
+              },
+              {
+                "x": 30.666666666666668,
+                "y": 73.88880534665286
+              },
+              {
+                "x": 32.0,
+                "y": 73.32121111929344
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 72.72474743090476
+              },
+              {
+                "x": 34.666666666666664,
+                "y": 72.0986977845108
+              },
+              {
+                "x": 36.0,
+                "y": 71.442284397967
+              },
+              {
+                "x": 37.333333333333336,
+                "y": 70.75466219424852
+              },
+              {
+                "x": 38.666666666666664,
+                "y": 70.03491192890078
+              },
+              {
+                "x": 40.0,
+                "y": 69.28203230275508
+              },
+              {
+                "x": 41.333333333333336,
+                "y": 68.49493087488705
+              },
+              {
+                "x": 42.666666666666664,
+                "y": 67.6724135490641
+              },
+              {
+                "x": 44.0,
+                "y": 66.81317235396025
+              },
+              {
+                "x": 45.333333333333336,
+                "y": 65.91577116964413
+              },
+              {
+                "x": 46.666666666666664,
+                "y": 64.9786289653931
+              },
+              {
+                "x": 48.0,
+                "y": 64.0
+              },
+              {
+                "x": 49.333333333333336,
+                "y": 62.9779502859709
+              },
+              {
+                "x": 50.666666666666664,
+                "y": 61.91032941996746
+              },
+              {
+                "x": 52.0,
+                "y": 60.794736614282655
+              },
+              {
+                "x": 53.333333333333336,
+                "y": 59.62847939999438
+              },
+              {
+                "x": 54.666666666666664,
+                "y": 58.4085229701587
+              },
+              {
+                "x": 56.0,
+                "y": 57.131427428342796
+              },
+              {
+                "x": 57.333333333333336,
+                "y": 55.7932692077538
+              },
+              {
+                "x": 58.666666666666664,
+                "y": 54.389541478323046
+              },
+              {
+                "x": 60.0,
+                "y": 52.91502622129181
+              },
+              {
+                "x": 61.333333333333336,
+                "y": 51.36362742468859
+              },
+              {
+                "x": 62.666666666666664,
+                "y": 49.728149863924045
+              },
+              {
+                "x": 64.0,
+                "y": 47.999999999999986
+              },
+              {
+                "x": 65.33333333333333,
+                "y": 46.16877251514876
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 44.221663871405326
+              },
+              {
+                "x": 68.0,
+                "y": 42.14261501141096
+              },
+              {
+                "x": 69.33333333333333,
+                "y": 39.91101212558873
+              },
+              {
+                "x": 70.66666666666667,
+                "y": 37.49962962780061
+              },
+              {
+                "x": 72.0,
+                "y": 34.871191548325385
+              },
+              {
+                "x": 73.33333333333333,
+                "y": 31.97221015541814
+              },
+              {
+                "x": 74.66666666666667,
+                "y": 28.720878971384014
+              },
+              {
+                "x": 76.0,
+                "y": 24.979991993593597
+              },
+              {
+                "x": 77.33333333333333,
+                "y": 20.483055327649645
+              },
+              {
+                "x": 78.66666666666667,
+                "y": 14.544949486180915
+              },
+              {
+                "x": 80.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "PPC2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 110.0
+              },
+              {
+                "x": 1.8333333333333333,
+                "y": 109.98472116111805
+              },
+              {
+                "x": 3.6666666666666665,
+                "y": 109.93887190414297
+              },
+              {
+                "x": 5.5,
+                "y": 109.86241395490998
+              },
+              {
+                "x": 7.333333333333333,
+                "y": 109.75528334536895
+              },
+              {
+                "x": 9.166666666666666,
+                "y": 109.61739014509615
+              },
+              {
+                "x": 11.0,
+                "y": 109.4486180817282
+              },
+              {
+                "x": 12.833333333333334,
+                "y": 109.24882404655692
+              },
+              {
+                "x": 14.666666666666666,
+                "y": 109.01783748033571
+              },
+              {
+                "x": 16.5,
+                "y": 108.75545963306854
+              },
+              {
+                "x": 18.333333333333332,
+                "y": 108.46146269015964
+              },
+              {
+                "x": 20.166666666666668,
+                "y": 108.13558875576327
+              },
+              {
+                "x": 22.0,
+                "y": 107.77754868245984
+              },
+              {
+                "x": 23.833333333333332,
+                "y": 107.3870207344548
+              },
+              {
+                "x": 25.666666666666668,
+                "y": 106.96364906930869
+              },
+              {
+                "x": 27.5,
+                "y": 106.50704202070396
+              },
+              {
+                "x": 29.333333333333332,
+                "y": 106.01677016187371
+              },
+              {
+                "x": 31.166666666666668,
+                "y": 105.49236412598255
+              },
+              {
+                "x": 33.0,
+                "y": 104.93331215586402
+              },
+              {
+                "x": 34.833333333333336,
+                "y": 104.33905735096944
+              },
+              {
+                "x": 36.666666666666664,
+                "y": 103.70899457402697
+              },
+              {
+                "x": 38.5,
+                "y": 103.04246697357357
+              },
+              {
+                "x": 40.333333333333336,
+                "y": 102.33876207098766
+              },
+              {
+                "x": 42.166666666666664,
+                "y": 101.59710735164768
+              },
+              {
+                "x": 44.0,
+                "y": 100.81666528902848
+              },
+              {
+                "x": 45.833333333333336,
+                "y": 99.99652771749405
+              },
+              {
+                "x": 47.666666666666664,
+                "y": 99.13570945370235
+              },
+              {
+                "x": 49.5,
+                "y": 98.23314104720463
+              },
+              {
+                "x": 51.333333333333336,
+                "y": 97.28766051709172
+              },
+              {
+                "x": 53.166666666666664,
+                "y": 96.29800390223858
+              },
+              {
+                "x": 55.0,
+                "y": 95.26279441628824
+              },
+              {
+                "x": 56.833333333333336,
+                "y": 94.18052995296969
+              },
+              {
+                "x": 58.666666666666664,
+                "y": 93.04956862996315
+              },
+              {
+                "x": 60.5,
+                "y": 91.86811198669535
+              },
+              {
+                "x": 62.333333333333336,
+                "y": 90.63418535826068
+              },
+              {
+                "x": 64.16666666666667,
+                "y": 89.3456148274155
+              },
+              {
+                "x": 66.0,
+                "y": 88.0
+              },
+              {
+                "x": 67.83333333333333,
+                "y": 86.59468164321
+              },
+              {
+                "x": 69.66666666666667,
+                "y": 85.12670295245526
+              },
+              {
+                "x": 71.5,
+                "y": 83.59276284463864
+              },
+              {
+                "x": 73.33333333333333,
+                "y": 81.9891591749923
+              },
+              {
+                "x": 75.16666666666667,
+                "y": 80.31171908396821
+              },
+              {
+                "x": 77.0,
+                "y": 78.55571271397135
+              },
+              {
+                "x": 78.83333333333333,
+                "y": 76.71574516066148
+              },
+              {
+                "x": 80.66666666666667,
+                "y": 74.78561953269416
+              },
+              {
+                "x": 82.5,
+                "y": 72.75816105427624
+              },
+              {
+                "x": 84.33333333333333,
+                "y": 70.62498770894682
+              },
+              {
+                "x": 86.16666666666667,
+                "y": 68.37620606289556
+              },
+              {
+                "x": 88.0,
+                "y": 65.99999999999999
+              },
+              {
+                "x": 89.83333333333333,
+                "y": 63.482062208329545
+              },
+              {
+                "x": 91.66666666666667,
+                "y": 60.80478782318232
+              },
+              {
+                "x": 93.5,
+                "y": 57.946095640690075
+              },
+              {
+                "x": 95.33333333333333,
+                "y": 54.8776416726845
+              },
+              {
+                "x": 97.16666666666667,
+                "y": 51.56199073822583
+              },
+              {
+                "x": 99.0,
+                "y": 47.9478883789474
+              },
+              {
+                "x": 100.83333333333333,
+                "y": 43.961788963699945
+              },
+              {
+                "x": 102.66666666666667,
+                "y": 39.49120858565302
+              },
+              {
+                "x": 104.5,
+                "y": 34.3474889911912
+              },
+              {
+                "x": 106.33333333333333,
+                "y": 28.16420107551824
+              },
+              {
+                "x": 108.16666666666667,
+                "y": 19.99930554349876
+              },
+              {
+                "x": 110.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "A",
+            "x": 30,
+            "y": 30
+          },
+          {
+            "id": "p1",
+            "label": "B",
+            "x": 60,
+            "y": 52.91502622129181
+          }
+        ],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "A country experiences rapid growth because of stronger consumer spending, but investment and productivity are stagnant. Which risk is greatest?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Capacity expands without investment"
+      },
+      {
+        "label": "B",
+        "text": "Higher spending prevents inflation"
+      },
+      {
+        "label": "C",
+        "text": "The capital stock must expand despite unchanged investment and depreciation"
+      },
+      {
+        "label": "D",
+        "text": "Growth may slow as spare capacity runs out"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Demand-led growth can raise output while idle resources exist, but without investment or productivity gains capacity may not expand sufficiently for continued growth.",
+    "reference": "4.4 Economic growth | 4.4.4 causes | 4.4.5 consequences | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "A country increases investment substantially, but most of it merely replaces worn-out capital. Why might the effect on future growth be small?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Replacement doubles the capital stock"
+      },
+      {
+        "label": "B",
+        "text": "Depreciation adds capacity"
+      },
+      {
+        "label": "C",
+        "text": "Much gross investment may simply cover depreciation"
+      },
+      {
+        "label": "D",
+        "text": "Gross investment counts additions to productive capital but excludes replacement spending"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Only investment beyond depreciation adds to the capital stock. High gross investment can therefore coexist with little capacity expansion.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "Two economies have the same rise in labour force. Economy A also improves worker skills; Economy B does not. Why may A grow faster?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A gains both more workers and more productive workers."
+      },
+      {
+        "label": "B",
+        "text": "B necessarily has more productive workers despite unchanged worker skills."
+      },
+      {
+        "label": "C",
+        "text": "A loses effective labour supply through improving workers' productive skills."
+      },
+      {
+        "label": "D",
+        "text": "B necessarily matches A because labour quality cannot affect output."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A combines more workers with higher productivity per worker, giving a stronger supply-side increase.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "A new transport network reduces firms' costs and also stimulates construction demand during building. Why can the growth effect occur through two different channels?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both channels lower output"
+      },
+      {
+        "label": "B",
+        "text": "Construction boosts demand; better infrastructure raises productivity"
+      },
+      {
+        "label": "C",
+        "text": "Only prices change"
+      },
+      {
+        "label": "D",
+        "text": "Construction withdraws spending from the economy instead of adding demand"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Infrastructure investment can add to current spending and later increase the productivity of the economy.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "A country has rapid real GDP growth and rapid import growth, but exports are unchanged. What is the most likely external consequence?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The current account must improve"
+      },
+      {
+        "label": "B",
+        "text": "Imports are not part of the current account"
+      },
+      {
+        "label": "C",
+        "text": "The current account may deteriorate"
+      },
+      {
+        "label": "D",
+        "text": "Real GDP growth guarantees currency appreciation"
+      }
+    ],
+    "answer": "C",
+    "explanation": "If growth raises import expenditure while export earnings are unchanged, the trade balance and current account can weaken.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "A country's growth is mainly export-led. Which consequence is least certain?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher domestic output"
+      },
+      {
+        "label": "B",
+        "text": "Higher demand for some labour"
+      },
+      {
+        "label": "C",
+        "text": "Higher export receipts"
+      },
+      {
+        "label": "D",
+        "text": "A worsening current-account balance"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Export-led growth directly raises export receipts, so the usual import-driven deterioration of the current account is less certain.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "Which pattern most strongly suggests growth is being accompanied by demand-pull inflation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real GDP rises while the price level falls because AS shifts right"
+      },
+      {
+        "label": "B",
+        "text": "Real GDP falls while unemployment rises"
+      },
+      {
+        "label": "C",
+        "text": "Real GDP rises while the price level rises and unemployment falls"
+      },
+      {
+        "label": "D",
+        "text": "Real GDP is unchanged while the price level falls"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Stronger aggregate demand can raise output and employment while putting upward pressure on the price level.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: general price level. Horizontal axis: real GDP. Draw upward-sloping AS. Shift AD right from AD1 to AD2, showing higher equilibrium real GDP and a higher price level.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 120
+              },
+              {
+                "x": 120.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 60.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 60.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "Which pattern most strongly suggests growth is being driven by improved productive capacity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Output falls; prices rise"
+      },
+      {
+        "label": "B",
+        "text": "Output is unchanged; prices rise"
+      },
+      {
+        "label": "C",
+        "text": "Output falls; unemployment rises"
+      },
+      {
+        "label": "D",
+        "text": "Output rises with weak price pressure"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A rightward shift of aggregate supply can increase real output while reducing price pressure, unlike purely demand-led growth.",
+    "reference": "4.4 Economic growth | 4.4.4 causes | 4.4.5 consequences | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "A country's real GDP doubles over twenty years, but population also almost doubles. Which conclusion is most defensible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Average living standards necessarily doubled alongside aggregate output."
+      },
+      {
+        "label": "B",
+        "text": "Output per person may have increased only slightly."
+      },
+      {
+        "label": "C",
+        "text": "No aggregate economic growth occurred during the measured period."
+      },
+      {
+        "label": "D",
+        "text": "Output per person necessarily doubled alongside aggregate output."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Total real GDP growth can be large while per-person growth is small if population expands at a similar rate.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "A country grows quickly by extracting a non-renewable resource. Which statement is most accurate within the consequences of growth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Current output rises despite possible future resource and environmental costs."
+      },
+      {
+        "label": "B",
+        "text": "Current extraction necessarily guarantees permanently higher future productive capacity."
+      },
+      {
+        "label": "C",
+        "text": "Current extraction automatically subtracts depletion from measured national output."
+      },
+      {
+        "label": "D",
+        "text": "Current extraction cannot alter environmental conditions or household living standards."
+      }
+    ],
+    "answer": "A",
+    "explanation": "GDP records current production, but intensive resource extraction can impose future scarcity and environmental costs.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "Economic growth raises average incomes, but housing and transport become severely congested. What does this show?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Output measures omit some changes in quality of life."
+      },
+      {
+        "label": "B",
+        "text": "Output measures must contain errors whenever congestion becomes worse."
+      },
+      {
+        "label": "C",
+        "text": "Congestion necessarily lowers the monetary value of all national output."
+      },
+      {
+        "label": "D",
+        "text": "Output growth cannot coexist with any adverse environmental spillovers."
+      }
+    ],
+    "answer": "A",
+    "explanation": "GDP measures production, not all non-market costs and external effects, so welfare can change differently from output.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "A country's real GDP grows 5%, tax revenue grows 8%, and unemployment-benefit spending falls. Which consequence is illustrated?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Growth necessarily causes a budget deficit"
+      },
+      {
+        "label": "B",
+        "text": "Economic growth can improve the government budget balance"
+      },
+      {
+        "label": "C",
+        "text": "Growth reduces the tax base"
+      },
+      {
+        "label": "D",
+        "text": "Real GDP is unrelated to public finances"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Higher incomes, profits and spending can raise tax receipts, while lower unemployment can reduce some government spending.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "A country's real GDP grows rapidly after a large inflow of working-age migrants. Which statement best explains the effect on real GDP per head?",
+    "options": [
+      {
+        "label": "A",
+        "text": "More migrants necessarily raise output per resident."
+      },
+      {
+        "label": "B",
+        "text": "Output per resident depends on relative output and population growth."
+      },
+      {
+        "label": "C",
+        "text": "More migrants necessarily lower output per resident."
+      },
+      {
+        "label": "D",
+        "text": "More migrants cannot influence total real output."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Migration can raise both output and population. The effect on average output per person depends on their relative growth rates.",
+    "reference": "4.4 Economic growth | 4.4.4 causes | 4.4.5 consequences | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "An economy's capital stock increases 4%, labour force increases 1%, but real GDP increases 7%. What is a plausible additional explanation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Prices fall"
+      },
+      {
+        "label": "B",
+        "text": "Existing resources become more productive"
+      },
+      {
+        "label": "C",
+        "text": "Nominal output falls"
+      },
+      {
+        "label": "D",
+        "text": "Productivity cannot help explain growth beyond the increase in factor inputs"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Output growing faster than factor quantities can reflect improved technology, skills, organisation or other productivity gains.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "A country improves education but many skilled workers emigrate. Why may the growth effect be smaller than expected?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Education does not improve labour quality"
+      },
+      {
+        "label": "B",
+        "text": "Emigration expands the remaining domestic labour force"
+      },
+      {
+        "label": "C",
+        "text": "Output is independent of resources"
+      },
+      {
+        "label": "D",
+        "text": "Emigration removes some newly acquired skills"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Training raises human capital, but outward migration reduces the amount of that human capital available for domestic production.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "A large rise in investment increases current aggregate demand and also the capital stock. If the economy is initially near full capacity, what is the likely sequence?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Inflation falls immediately and remains permanently below its initial level."
+      },
+      {
+        "label": "B",
+        "text": "Real output remains fixed until every new machine fully depreciates."
+      },
+      {
+        "label": "C",
+        "text": "Demand pressure can precede the eventual expansion of productive capacity."
+      },
+      {
+        "label": "D",
+        "text": "Investment initially reduces expenditure before eventually adding to productive capacity."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Investment spending raises AD immediately, while the productive-capacity effect of new capital often occurs with a time lag.",
+    "reference": "4.4 Economic growth | 4.4.4 causes | 4.4.5 consequences | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "A country reports 10% nominal GDP growth and 3% real GDP growth. Approximately how much of the nominal rise reflects higher prices?",
+    "options": [
+      {
+        "label": "A",
+        "text": "About 7 percentage points"
+      },
+      {
+        "label": "B",
+        "text": "About 3 percentage points"
+      },
+      {
+        "label": "C",
+        "text": "About 10 percentage points"
+      },
+      {
+        "label": "D",
+        "text": "About 13 percentage points"
+      }
+    ],
+    "answer": "A",
+    "explanation": "For small changes, nominal growth is approximately real growth plus inflation, so the implied price rise is about 7%.",
+    "reference": "4.4 Economic growth | 4.4.3 distinction between growth in nominal GDP and real GDP | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "Real GDP rises from 2 000 to 2 080, then to 2 142.4. What happened to the growth rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rose from 3% to 4%"
+      },
+      {
+        "label": "B",
+        "text": "It remained at 4%"
+      },
+      {
+        "label": "C",
+        "text": "It fell from 4% to 3%"
+      },
+      {
+        "label": "D",
+        "text": "Real GDP fell in the second period"
+      }
+    ],
+    "answer": "C",
+    "explanation": "First growth = 80/2000 = 4%. Second growth = 62.4/2080 = 3%. Output rises in both periods, but more slowly in the second.",
+    "reference": "4.4 Economic growth | 4.4.2 measurement of economic growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "Which evidence most strongly supports the claim that growth came from better use of existing resources rather than a larger productive capacity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Technological progress shifts the PPC outward"
+      },
+      {
+        "label": "B",
+        "text": "Both labour and capital resources increase in quantity"
+      },
+      {
+        "label": "C",
+        "text": "Unemployment falls with an unchanged PPC"
+      },
+      {
+        "label": "D",
+        "text": "Productivity improves permanently"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Moving idle resources into employment raises output without necessarily changing the economy's maximum production possibilities.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "Which evidence most strongly supports the claim that growth came from an increase in productive capacity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Productivity increases sustainably while the production possibilities frontier expands."
+      },
+      {
+        "label": "B",
+        "text": "Unemployment decreases temporarily while resources and productivity remain unchanged."
+      },
+      {
+        "label": "C",
+        "text": "Households reduce saving temporarily while resources and productivity remain unchanged."
+      },
+      {
+        "label": "D",
+        "text": "Firms lengthen machine operating hours while resources and productivity remain unchanged."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Persistent productivity gains and outward production possibilities indicate a supply-side expansion rather than only fuller use of idle resources.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "A country can choose between producing more consumer goods now or more capital goods. Which choice is most likely to produce a larger future PPC?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumption expands while depreciation exceeds investment"
+      },
+      {
+        "label": "B",
+        "text": "Investment falls"
+      },
+      {
+        "label": "C",
+        "text": "Investment in capital that expands capacity"
+      },
+      {
+        "label": "D",
+        "text": "Infrastructure quality declines as maintenance expenditure is cut"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Capital formation can expand future production possibilities, but only if investment adds useful productive capacity.",
+    "reference": "4.4 Economic growth | 4.4.4 causes of economic growth | AO3 Evaluation",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: capital goods. Horizontal axis: consumer goods. Draw a PPC with point A having relatively high consumer-goods output and point B having relatively high capital-goods output. Indicate that the question concerns which choice is more likely to shift a future PPC outward.",
+    "graphScenes": [
+      {
+        "xLabel": "Consumer goods",
+        "yLabel": "Capital goods",
+        "xMax": 120.0,
+        "yMax": 120.0,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "PPC1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 80.0
+              },
+              {
+                "x": 1.3333333333333333,
+                "y": 79.98888811717676
+              },
+              {
+                "x": 2.6666666666666665,
+                "y": 79.95554320301306
+              },
+              {
+                "x": 4.0,
+                "y": 79.89993742175271
+              },
+              {
+                "x": 5.333333333333333,
+                "y": 79.82202425117742
+              },
+              {
+                "x": 6.666666666666667,
+                "y": 79.72173828734266
+              },
+              {
+                "x": 8.0,
+                "y": 79.5989949685296
+              },
+              {
+                "x": 9.333333333333334,
+                "y": 79.45369021567777
+              },
+              {
+                "x": 10.666666666666666,
+                "y": 79.2856999856987
+              },
+              {
+                "x": 12.0,
+                "y": 79.09487973314076
+              },
+              {
+                "x": 13.333333333333334,
+                "y": 78.88106377466156
+              },
+              {
+                "x": 14.666666666666666,
+                "y": 78.644064549646
+              },
+              {
+                "x": 16.0,
+                "y": 78.38367176906169
+              },
+              {
+                "x": 17.333333333333332,
+                "y": 78.09965144323985
+              },
+              {
+                "x": 18.666666666666668,
+                "y": 77.79174477767904
+              },
+              {
+                "x": 20.0,
+                "y": 77.45966692414834
+              },
+              {
+                "x": 21.333333333333332,
+                "y": 77.10310557227179
+              },
+              {
+                "x": 22.666666666666668,
+                "y": 76.72171936435095
+              },
+              {
+                "x": 24.0,
+                "y": 76.31513611335565
+              },
+              {
+                "x": 25.333333333333332,
+                "y": 75.88295080070505
+              },
+              {
+                "x": 26.666666666666668,
+                "y": 75.42472332656507
+              },
+              {
+                "x": 28.0,
+                "y": 74.93997598078079
+              },
+              {
+                "x": 29.333333333333332,
+                "y": 74.42819059708194
+              },
+              {
+                "x": 30.666666666666668,
+                "y": 73.88880534665286
+              },
+              {
+                "x": 32.0,
+                "y": 73.32121111929344
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 72.72474743090476
+              },
+              {
+                "x": 34.666666666666664,
+                "y": 72.0986977845108
+              },
+              {
+                "x": 36.0,
+                "y": 71.442284397967
+              },
+              {
+                "x": 37.333333333333336,
+                "y": 70.75466219424852
+              },
+              {
+                "x": 38.666666666666664,
+                "y": 70.03491192890078
+              },
+              {
+                "x": 40.0,
+                "y": 69.28203230275508
+              },
+              {
+                "x": 41.333333333333336,
+                "y": 68.49493087488705
+              },
+              {
+                "x": 42.666666666666664,
+                "y": 67.6724135490641
+              },
+              {
+                "x": 44.0,
+                "y": 66.81317235396025
+              },
+              {
+                "x": 45.333333333333336,
+                "y": 65.91577116964413
+              },
+              {
+                "x": 46.666666666666664,
+                "y": 64.9786289653931
+              },
+              {
+                "x": 48.0,
+                "y": 64.0
+              },
+              {
+                "x": 49.333333333333336,
+                "y": 62.9779502859709
+              },
+              {
+                "x": 50.666666666666664,
+                "y": 61.91032941996746
+              },
+              {
+                "x": 52.0,
+                "y": 60.794736614282655
+              },
+              {
+                "x": 53.333333333333336,
+                "y": 59.62847939999438
+              },
+              {
+                "x": 54.666666666666664,
+                "y": 58.4085229701587
+              },
+              {
+                "x": 56.0,
+                "y": 57.131427428342796
+              },
+              {
+                "x": 57.333333333333336,
+                "y": 55.7932692077538
+              },
+              {
+                "x": 58.666666666666664,
+                "y": 54.389541478323046
+              },
+              {
+                "x": 60.0,
+                "y": 52.91502622129181
+              },
+              {
+                "x": 61.333333333333336,
+                "y": 51.36362742468859
+              },
+              {
+                "x": 62.666666666666664,
+                "y": 49.728149863924045
+              },
+              {
+                "x": 64.0,
+                "y": 47.999999999999986
+              },
+              {
+                "x": 65.33333333333333,
+                "y": 46.16877251514876
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 44.221663871405326
+              },
+              {
+                "x": 68.0,
+                "y": 42.14261501141096
+              },
+              {
+                "x": 69.33333333333333,
+                "y": 39.91101212558873
+              },
+              {
+                "x": 70.66666666666667,
+                "y": 37.49962962780061
+              },
+              {
+                "x": 72.0,
+                "y": 34.871191548325385
+              },
+              {
+                "x": 73.33333333333333,
+                "y": 31.97221015541814
+              },
+              {
+                "x": 74.66666666666667,
+                "y": 28.720878971384014
+              },
+              {
+                "x": 76.0,
+                "y": 24.979991993593597
+              },
+              {
+                "x": 77.33333333333333,
+                "y": 20.483055327649645
+              },
+              {
+                "x": 78.66666666666667,
+                "y": 14.544949486180915
+              },
+              {
+                "x": 80.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "PPC2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 110.0
+              },
+              {
+                "x": 1.8333333333333333,
+                "y": 109.98472116111805
+              },
+              {
+                "x": 3.6666666666666665,
+                "y": 109.93887190414297
+              },
+              {
+                "x": 5.5,
+                "y": 109.86241395490998
+              },
+              {
+                "x": 7.333333333333333,
+                "y": 109.75528334536895
+              },
+              {
+                "x": 9.166666666666666,
+                "y": 109.61739014509615
+              },
+              {
+                "x": 11.0,
+                "y": 109.4486180817282
+              },
+              {
+                "x": 12.833333333333334,
+                "y": 109.24882404655692
+              },
+              {
+                "x": 14.666666666666666,
+                "y": 109.01783748033571
+              },
+              {
+                "x": 16.5,
+                "y": 108.75545963306854
+              },
+              {
+                "x": 18.333333333333332,
+                "y": 108.46146269015964
+              },
+              {
+                "x": 20.166666666666668,
+                "y": 108.13558875576327
+              },
+              {
+                "x": 22.0,
+                "y": 107.77754868245984
+              },
+              {
+                "x": 23.833333333333332,
+                "y": 107.3870207344548
+              },
+              {
+                "x": 25.666666666666668,
+                "y": 106.96364906930869
+              },
+              {
+                "x": 27.5,
+                "y": 106.50704202070396
+              },
+              {
+                "x": 29.333333333333332,
+                "y": 106.01677016187371
+              },
+              {
+                "x": 31.166666666666668,
+                "y": 105.49236412598255
+              },
+              {
+                "x": 33.0,
+                "y": 104.93331215586402
+              },
+              {
+                "x": 34.833333333333336,
+                "y": 104.33905735096944
+              },
+              {
+                "x": 36.666666666666664,
+                "y": 103.70899457402697
+              },
+              {
+                "x": 38.5,
+                "y": 103.04246697357357
+              },
+              {
+                "x": 40.333333333333336,
+                "y": 102.33876207098766
+              },
+              {
+                "x": 42.166666666666664,
+                "y": 101.59710735164768
+              },
+              {
+                "x": 44.0,
+                "y": 100.81666528902848
+              },
+              {
+                "x": 45.833333333333336,
+                "y": 99.99652771749405
+              },
+              {
+                "x": 47.666666666666664,
+                "y": 99.13570945370235
+              },
+              {
+                "x": 49.5,
+                "y": 98.23314104720463
+              },
+              {
+                "x": 51.333333333333336,
+                "y": 97.28766051709172
+              },
+              {
+                "x": 53.166666666666664,
+                "y": 96.29800390223858
+              },
+              {
+                "x": 55.0,
+                "y": 95.26279441628824
+              },
+              {
+                "x": 56.833333333333336,
+                "y": 94.18052995296969
+              },
+              {
+                "x": 58.666666666666664,
+                "y": 93.04956862996315
+              },
+              {
+                "x": 60.5,
+                "y": 91.86811198669535
+              },
+              {
+                "x": 62.333333333333336,
+                "y": 90.63418535826068
+              },
+              {
+                "x": 64.16666666666667,
+                "y": 89.3456148274155
+              },
+              {
+                "x": 66.0,
+                "y": 88.0
+              },
+              {
+                "x": 67.83333333333333,
+                "y": 86.59468164321
+              },
+              {
+                "x": 69.66666666666667,
+                "y": 85.12670295245526
+              },
+              {
+                "x": 71.5,
+                "y": 83.59276284463864
+              },
+              {
+                "x": 73.33333333333333,
+                "y": 81.9891591749923
+              },
+              {
+                "x": 75.16666666666667,
+                "y": 80.31171908396821
+              },
+              {
+                "x": 77.0,
+                "y": 78.55571271397135
+              },
+              {
+                "x": 78.83333333333333,
+                "y": 76.71574516066148
+              },
+              {
+                "x": 80.66666666666667,
+                "y": 74.78561953269416
+              },
+              {
+                "x": 82.5,
+                "y": 72.75816105427624
+              },
+              {
+                "x": 84.33333333333333,
+                "y": 70.62498770894682
+              },
+              {
+                "x": 86.16666666666667,
+                "y": 68.37620606289556
+              },
+              {
+                "x": 88.0,
+                "y": 65.99999999999999
+              },
+              {
+                "x": 89.83333333333333,
+                "y": 63.482062208329545
+              },
+              {
+                "x": 91.66666666666667,
+                "y": 60.80478782318232
+              },
+              {
+                "x": 93.5,
+                "y": 57.946095640690075
+              },
+              {
+                "x": 95.33333333333333,
+                "y": 54.8776416726845
+              },
+              {
+                "x": 97.16666666666667,
+                "y": 51.56199073822583
+              },
+              {
+                "x": 99.0,
+                "y": 47.9478883789474
+              },
+              {
+                "x": 100.83333333333333,
+                "y": 43.961788963699945
+              },
+              {
+                "x": 102.66666666666667,
+                "y": 39.49120858565302
+              },
+              {
+                "x": 104.5,
+                "y": 34.3474889911912
+              },
+              {
+                "x": 106.33333333333333,
+                "y": 28.16420107551824
+              },
+              {
+                "x": 108.16666666666667,
+                "y": 19.99930554349876
+              },
+              {
+                "x": 110.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "A",
+            "x": 70,
+            "y": 38.72983346207417
+          },
+          {
+            "id": "p1",
+            "label": "B",
+            "x": 30,
+            "y": 74.16198487095663
+          }
+        ],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "A country experiences rapid growth, rising employment and rising tax revenue, but also higher inflation and pollution. Which conclusion is best?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Adverse consequences prove that no real output growth occurred."
+      },
+      {
+        "label": "B",
+        "text": "Only inflation determines the overall welfare effects of growth."
+      },
+      {
+        "label": "C",
+        "text": "Every consequence of growth must affect welfare in the same direction."
+      },
+      {
+        "label": "D",
+        "text": "Higher output can generate benefits alongside costs and trade-offs."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Higher output can improve jobs and fiscal capacity while also increasing demand pressure and environmental damage. Evaluation requires weighing the effects.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "Which condition would make a given real GDP growth rate more likely to improve average living standards?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Population grows faster than output and environmental conditions deteriorate."
+      },
+      {
+        "label": "B",
+        "text": "Output grows faster than population and gains reach many households."
+      },
+      {
+        "label": "C",
+        "text": "Output gains accrue exclusively to a small high-income group."
+      },
+      {
+        "label": "D",
+        "text": "Prices increase faster than the monetary value of total output."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Per-head output and distribution both matter for living standards. Growth is more beneficial when output per person rises and the gains are widely shared.",
+    "reference": "4.4 Economic growth | 4.4.5 consequences of economic growth | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "Which statement best summarises the distinction between measuring growth and evaluating its consequences?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nominal output growth captures every possible change in household welfare."
+      },
+      {
+        "label": "B",
+        "text": "Real output growth automatically subtracts every adverse environmental production cost."
+      },
+      {
+        "label": "C",
+        "text": "Price inflation alone measures the welfare consequences of real output growth."
+      },
+      {
+        "label": "D",
+        "text": "Real output growth does not establish distribution or environmental consequences."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Real GDP is the appropriate output measure, but welfare consequences require additional information about population, distribution and external effects.",
+    "reference": "4.4 Economic growth | 4.4.2 measurement | 4.4.5 consequences of economic growth | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  }
+]

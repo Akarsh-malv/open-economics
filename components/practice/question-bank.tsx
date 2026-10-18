@@ -22,17 +22,20 @@ import type {
   PracticeQuestion,
 } from "@/lib/practice/types";
 import { QuestionGraph } from "./question-graph";
+import { QuestionText } from "./question-text";
 
 type Attempts = Record<number, AnswerResult>;
 
 export function QuestionBank({
   topic,
   questions,
+  course = "ap-macro",
 }: {
+  course?: "ap-macro" | "ap-micro" | "a-level";
   topic: PracticeTopic;
   questions: PracticeQuestion[];
 }) {
-  const storageKey = `oe-practice-ap-macro-${topic.slug}-v2`;
+  const storageKey = `oe-practice-${course}-${topic.slug}-v${topic.revision ?? 4}`;
   const [currentId, setCurrentId] = useState(1);
   const [difficulty, setDifficulty] = useState<"All" | Difficulty>("All");
   const [drafts, setDrafts] = useState<Record<number, string>>({});
@@ -45,7 +48,7 @@ export function QuestionBank({
   const [navigatorOpen, setNavigatorOpen] = useState(false);
   const [showSummary, setShowSummary] = useState(false);
   const [confirmReset, setConfirmReset] = useState(false);
-  const questionHeading = useRef<HTMLHeadingElement>(null);
+  const questionHeading = useRef<HTMLDivElement>(null);
   const feedback = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -134,7 +137,7 @@ export function QuestionBank({
     setBusy(true);
     setError("");
     try {
-      const response = await fetch(`/api/practice/ap-macro/${topic.slug}`, {
+      const response = await fetch(`/api/practice/${course}/${topic.slug}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ id: question.id, selected }),
@@ -183,7 +186,7 @@ export function QuestionBank({
       <nav className="practice-breadcrumb" aria-label="Breadcrumb">
         <Link href="/practice">Practice</Link>
         <ChevronRight size={14} />
-        <Link href="/practice/ap-macro">AP Macro</Link>
+        <Link href={`/practice/${course}`}>{course === "a-level" ? "A-level" : course === "ap-micro" ? "AP Micro" : "AP Macro"}</Link>
         <ChevronRight size={14} />
         <span>Topic {topic.number}</span>
       </nav>
@@ -210,7 +213,7 @@ export function QuestionBank({
             <button
               key={d}
               type="button"
-              disabled={busy}
+              disabled={busy || !ready}
               aria-pressed={difficulty === d}
               onClick={() => filterQuestions(d)}
             >
@@ -288,7 +291,7 @@ export function QuestionBank({
                 <button
                   type="button"
                   key={q.id}
-                  disabled={busy}
+                  disabled={busy || !ready}
                   aria-current={question.id === q.id ? "step" : undefined}
                   aria-label={`Question ${q.id}${attempts[q.id] ? (attempts[q.id].correct ? ", correct" : ", incorrect") : ", unanswered"}${bookmarks.includes(q.id) ? ", saved" : ""}`}
                   className={`${attempts[q.id] ? (attempts[q.id].correct ? "is-correct" : "is-incorrect") : ""} ${question.id === q.id ? "is-current" : ""}`}
@@ -437,7 +440,7 @@ export function QuestionBank({
             <>
               <section
                 className="practice-question-card"
-                aria-labelledby="practice-question-heading"
+                aria-labelledby="practice-question-title"
               >
                 <div className="practice-question-meta">
                   <div>
@@ -472,19 +475,27 @@ export function QuestionBank({
                     {isBookmarked ? "Saved" : "Save"}
                   </button>
                 </div>
-                <h2
+                <h2 id="practice-question-title" className="sr-only">Question {question.id}</h2>
+                {course === "ap-macro" && topic.slug === "4-3" && (
+                  <p className="practice-measure-convention">
+                    For these historical-model questions, M1 includes currency and checkable deposits;
+                    savings deposits enter M2. Modern U.S. M1 also includes savings deposits.
+                  </p>
+                )}
+                <div
                   id="practice-question-heading"
                   tabIndex={-1}
                   ref={questionHeading}
                   className="practice-question-prompt"
                 >
-                  {question.prompt}
-                </h2>
+                  <QuestionText text={question.prompt} />
+                </div>
                 <QuestionGraph
                   topic={topic.slug}
                   id={question.id}
                   description={question.graphDescription}
                   required={question.graphRequired}
+                  scenes={question.graphScenes}
                   revealed={!!result}
                 />
                 <fieldset
@@ -566,7 +577,7 @@ export function QuestionBank({
                     </div>
                     <p>{result.explanation}</p>
                     <div className="practice-reference">
-                      CED reference · {result.reference}
+                      {course === "a-level" ? "Syllabus reference" : "CED reference"} · {result.reference.replace(/\s*\|\s*AO\d.*$/, "")}
                     </div>
                   </div>
                 )}
@@ -612,7 +623,7 @@ export function QuestionBank({
               <div className="practice-pagination">
                 <button
                   type="button"
-                  disabled={currentIndex <= 0 || busy}
+                  disabled={currentIndex <= 0 || busy || !ready}
                   onClick={() => goTo(visible[currentIndex - 1].id)}
                 >
                   <ArrowLeft size={16} /> Previous
@@ -623,7 +634,7 @@ export function QuestionBank({
                 </span>
                 <button
                   type="button"
-                  disabled={busy}
+                  disabled={busy || !ready}
                   onClick={() =>
                     currentIndex < visible.length - 1
                       ? goTo(visible[currentIndex + 1].id)

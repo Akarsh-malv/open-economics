@@ -15,7 +15,7 @@ export const practiceCourses = [
     tag: "Decisions & markets",
     description: "Explore the choices of consumers, firms, and markets.",
     icon: "micro",
-    available: false,
+    available: true,
   },
   {
     slug: "a-level",
@@ -24,7 +24,7 @@ export const practiceCourses = [
     tag: "Theory into practice",
     description: "Build your economic reasoning, analysis, and evaluation.",
     icon: "alevel",
-    available: false,
+    available: true,
   },
   {
     slug: "ib",

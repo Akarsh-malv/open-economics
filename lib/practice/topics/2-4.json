@@ -6,27 +6,27 @@
     "options": [
       {
         "label": "A",
-        "text": "a measure of the total output of all final goods and services produced in an economy in a given year."
+        "text": "The value of final domestic output at current prices"
       },
       {
         "label": "B",
-        "text": "a measure of the change in income a consumer would need to maintain the same standard of living over time as prices change."
+        "text": "The cost of a consumer basket relative to its base-year cost"
       },
       {
         "label": "C",
-        "text": "a measure of average hourly wages paid to workers across all industries."
+        "text": "Government purchases of goods and services during a fiscal year"
       },
       {
         "label": "D",
-        "text": "a measure of prices that producers receive for output before it reaches consumers."
+        "text": "Average hourly earnings across industries relative to base-year earnings"
       },
       {
         "label": "E",
-        "text": "a measure of government spending on goods and services each fiscal year."
+        "text": "Prices received by producers before goods reach consumers"
       }
     ],
     "answer": "B",
-    "explanation": "The CPI measures the change in income needed to maintain a constant standard of living as the overall price level changes. It tracks a fixed market basket of consumer goods and services over time; it is NOT a measure of output (GDP), wages, producer prices (PPI), or government spending.",
+    "explanation": "The CPI tracks the price of a consumer basket relative to its base-year price. In the simplified fixed-basket model, CPI = (current basket cost ÷ base-year basket cost) × 100. It measures consumer prices, rather than domestic output, wages, producer prices, or government purchases.",
     "reference": "MEA-1.F | MEA-1.F.1",
     "graphDescription": "",
     "graphRequired": false
@@ -38,26 +38,26 @@
     "options": [
       {
         "label": "A",
-        "text": "the average salary of workers in all major industries."
+        "text": "The change in home values and real estate prices over time"
       },
       {
         "label": "B",
-        "text": "the total dollar value of goods and services produced by the economy."
+        "text": "The total dollar value of goods and services produced by the economy"
       },
       {
         "label": "C",
-        "text": "the cost of a fixed market basket of goods and services in a given year relative to the cost of that same basket in a designated base year."
+        "text": "The prices that businesses charge other businesses for intermediate inputs"
       },
       {
         "label": "D",
-        "text": "the prices that businesses charge other businesses for intermediate inputs."
+        "text": "The average salary of workers in all major industries"
       },
       {
         "label": "E",
-        "text": "the change in home values and real estate prices over time."
+        "text": "The current basket cost relative to its base-year cost"
       }
     ],
-    "answer": "C",
+    "answer": "E",
     "explanation": "The CPI compares the cost of a fixed market basket in the current year to the cost of that same basket in the base year. The basket holds quantities constant so that only price changes - not quantity changes - drive the index; this isolates the pure price effect.",
     "reference": "MEA-1.F | MEA-1.F.2",
     "graphDescription": "",
@@ -70,23 +70,23 @@
     "options": [
       {
         "label": "A",
-        "text": "0, because there is no measured inflation in the starting year."
+        "text": "50"
       },
       {
         "label": "B",
-        "text": "50, representing the midpoint of all possible price levels."
+        "text": "200"
       },
       {
         "label": "C",
-        "text": "100, because the current-year basket cost equals the base-year basket cost, making the ratio equal to 1, multiplied by 100."
+        "text": "100"
       },
       {
         "label": "D",
-        "text": "200, because prices in the base year are double future values."
+        "text": "0"
       },
       {
         "label": "E",
-        "text": "The base-year CPI cannot be determined without knowing actual prices."
+        "text": "Cannot be determined"
       }
     ],
     "answer": "C",
@@ -102,26 +102,26 @@
     "options": [
       {
         "label": "A",
-        "text": "(Cost of basket in base year ÷ Cost of basket in current year) × 100"
-      },
-      {
-        "label": "B",
-        "text": "(Cost of basket in current year ÷ Cost of basket in base year) × 100"
-      },
-      {
-        "label": "C",
         "text": "(Current CPI − Previous CPI) ÷ Previous CPI × 100"
       },
       {
-        "label": "D",
+        "label": "B",
+        "text": "(Current wages ÷ Base-year wages) × 100"
+      },
+      {
+        "label": "C",
         "text": "(Nominal GDP ÷ Real GDP) × 100"
       },
       {
+        "label": "D",
+        "text": "(Current basket cost ÷ base-year basket cost) × 100"
+      },
+      {
         "label": "E",
-        "text": "(Current wages ÷ Base-year wages) × 100"
+        "text": "(Cost of basket in base year ÷ Cost of basket in current year) × 100"
       }
     ],
-    "answer": "B",
+    "answer": "D",
     "explanation": "CPI = (Current-year basket cost ÷ Base-year basket cost) × 100; the most common error is inverting the fraction; the current-year cost must be in the numerator so that rising prices produce a CPI above 100.",
     "reference": "MEA-1.F | MEA-1.F.2",
     "graphDescription": "",
@@ -134,26 +134,26 @@
     "options": [
       {
         "label": "A",
-        "text": "the CPI in the current year minus the CPI in the base year."
+        "text": "The CPI change divided by the previous CPI, multiplied by 100"
       },
       {
         "label": "B",
-        "text": "(Current CPI − Previous CPI) ÷ Previous CPI × 100 — the percentage change in the price index from one period to the next."
+        "text": "The previous CPI divided by the current CPI, multiplied by 100"
       },
       {
         "label": "C",
-        "text": "the CPI in the current year divided by the CPI in the base year."
+        "text": "The current CPI divided by nominal GDP, multiplied by 100"
       },
       {
         "label": "D",
-        "text": "the change in the quantity of goods in the market basket from one year to the next."
+        "text": "The percentage change in quantities in the consumer basket"
       },
       {
         "label": "E",
-        "text": "the difference between the nominal interest rate and the real interest rate."
+        "text": "The current CPI minus the previous CPI"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "Inflation rate = [(CPI_current - CPI_previous) ÷ CPI_previous] × 100; this is the standard percentage-change formula applied to any price index; A positive result is inflation; a negative result is deflation.",
     "reference": "MEA-1.F | MEA-1.F.3",
     "graphDescription": "",
@@ -166,26 +166,26 @@
     "options": [
       {
         "label": "A",
-        "text": "6.0 percent"
-      },
-      {
-        "label": "B",
         "text": "5.0 percent"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "4.8 percent"
       },
       {
+        "label": "C",
+        "text": "10.5 percent"
+      },
+      {
         "label": "D",
-        "text": "7.2 percent"
+        "text": "6.0 percent"
       },
       {
         "label": "E",
-        "text": "10.5 percent"
+        "text": "7.2 percent"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "Inflation rate = [(126 - 120) ÷ 120] × 100 = (6 ÷ 120) × 100 = 5.0%. The most common error is simply subtracting the two CPI values and reporting 6%-this omits the division by the prior year's CPI; the denominator must always be the previous year's CPI, not 100.",
     "reference": "MEA-1.F | MEA-1.F.3",
     "graphDescription": "",
@@ -198,26 +198,26 @@
     "options": [
       {
         "label": "A",
-        "text": "18 percent"
-      },
-      {
-        "label": "B",
         "text": "15 percent"
       },
       {
+        "label": "B",
+        "text": "18 percent"
+      },
+      {
         "label": "C",
-        "text": "118 percent"
+        "text": "82 percent"
       },
       {
         "label": "D",
-        "text": "82 percent"
+        "text": "118 percent"
       },
       {
         "label": "E",
         "text": "1.18 percent"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "Inflation rate = [(118 - 100) ÷ 100] × 100 = 18%. When the base year CPI is exactly 100, the inflation rate simplifies to (Current CPI - 100); here: (118 - 100) = 18, divided by 100 × 100 = 18%.",
     "reference": "MEA-1.F | MEA-1.F.3",
     "graphDescription": "",
@@ -230,7 +230,7 @@
     "options": [
       {
         "label": "A",
-        "text": "115"
+        "text": "104"
       },
       {
         "label": "B",
@@ -238,18 +238,18 @@
       },
       {
         "label": "C",
-        "text": "86.9"
-      },
-      {
-        "label": "D",
         "text": "60"
       },
       {
+        "label": "D",
+        "text": "115"
+      },
+      {
         "label": "E",
-        "text": "104"
+        "text": "86.9"
       }
     ],
-    "answer": "A",
+    "answer": "D",
     "explanation": "CPI = (460 ÷ 400) × 100 = 115; this confirms that prices are 15% higher than in the base year. The base-year CPI would be (400 ÷ 400) × 100 = 100, confirming the base-year definition; the inflation rate from base to current year = 15%.",
     "reference": "MEA-1.F | MEA-1.F.2",
     "graphDescription": "",
@@ -262,26 +262,26 @@
     "options": [
       {
         "label": "A",
-        "text": "a sustained decrease in the overall price level in an economy over time."
+        "text": "A rise in one individual product’s price"
       },
       {
         "label": "B",
-        "text": "a sustained increase in the overall price level — prices on average rise continuously over time, eroding the purchasing power of money."
+        "text": "A sustained decline in the general price level"
       },
       {
         "label": "C",
-        "text": "a slowdown in the rate of price increases, though prices are still rising."
+        "text": "A decline in a positive inflation rate"
       },
       {
         "label": "D",
-        "text": "a one-time jump in the price of a single important commodity."
+        "text": "An increase in the currency’s purchasing power"
       },
       {
         "label": "E",
-        "text": "an increase in the purchasing power of money relative to foreign currencies."
+        "text": "A sustained rise in the general price level"
       }
     ],
-    "answer": "B",
+    "answer": "E",
     "explanation": "Inflation is a sustained increase in the overall price level. It is not the same as deflation (falling price level), disinflation (slowing rate of inflation), a single-market price change, or exchange-rate movements; inflation reduces the purchasing power of money - each dollar buys fewer goods and services over time.",
     "reference": "MEA-1.F | MEA-1.F.1",
     "graphDescription": "",
@@ -294,26 +294,26 @@
     "options": [
       {
         "label": "A",
-        "text": "a sustained increase in the overall price level over time."
+        "text": "A decline in a positive inflation rate"
       },
       {
         "label": "B",
-        "text": "a slowdown in the rate at which prices are rising, while prices continue to go up."
+        "text": "A sustained decline in the general price level"
       },
       {
         "label": "C",
-        "text": "a sustained decrease in the overall price level — the inflation rate is negative and the CPI falls over time."
+        "text": "A sustained rise in the general price level"
       },
       {
         "label": "D",
-        "text": "a one-time reduction in the price of a specific consumer good."
+        "text": "An unchanged general price level over time"
       },
       {
         "label": "E",
-        "text": "a period where the price level is stable and neither rising nor falling."
+        "text": "A fall in one individual product’s price"
       }
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "Deflation occurs when the overall price level falls over time - the inflation rate turns negative. This is fundamentally different from disinflation (positive but declining inflation rate) and price stability (near-zero positive inflation); deflation increases the real burden of nominal debts and can trigger economic downturns.",
     "reference": "MEA-1.F | MEA-1.F.1",
     "graphDescription": "",
@@ -326,26 +326,26 @@
     "options": [
       {
         "label": "A",
-        "text": "a period of falling overall price levels, where the inflation rate is negative."
+        "text": "A zero inflation rate remaining unchanged"
       },
       {
         "label": "B",
-        "text": "a period where the overall price level rises at a decreasing rate — inflation is still positive, but it is slowing down."
+        "text": "A negative inflation rate becoming more negative"
       },
       {
         "label": "C",
-        "text": "a period where prices are completely stable with zero percent inflation."
+        "text": "A positive inflation rate declining over time"
       },
       {
         "label": "D",
-        "text": "a rapid acceleration in the rate of inflation."
+        "text": "A positive inflation rate increasing over time"
       },
       {
         "label": "E",
-        "text": "a permanent reduction in the number of goods included in the CPI basket."
+        "text": "A consumer basket containing fewer goods over time"
       }
     ],
-    "answer": "B",
+    "answer": "C",
     "explanation": "Disinflation = a reduction in the rate of inflation; prices are still rising (inflation > 0%), just more slowly than before. Example: if inflation falls from 8% to 3%, that is disinflation - not deflation; the price level continues to rise during disinflation; it only falls during deflation; this distinction is one of the most-tested on the AP exam.",
     "reference": "MEA-1.F | MEA-1.F.1",
     "graphDescription": "",
@@ -358,26 +358,26 @@
     "options": [
       {
         "label": "A",
-        "text": "100, 106, 110, 113 — CPI rising but at a slowing pace"
-      },
-      {
-        "label": "B",
         "text": "100, 103, 103, 103 — CPI flat after initial rise"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "100, 97, 94, 91 — CPI falling each year"
       },
       {
+        "label": "C",
+        "text": "100, 108, 112, 115 — CPI rising at roughly the same pace"
+      },
+      {
         "label": "D",
-        "text": "100, 106, 109, 111 — CPI rising but decelerating"
+        "text": "100, 106, 110, 113 — CPI rising but at a slowing pace"
       },
       {
         "label": "E",
-        "text": "100, 108, 112, 115 — CPI rising at roughly the same pace"
+        "text": "100, 106, 109, 111 — CPI rising but decelerating"
       }
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "Deflation means the CPI falls - the overall price level decreases; the CPI falls every year (100 → 97 → 94 → 91), producing a negative inflation rate each period.",
     "reference": "MEA-1.F | MEA-1.F.1",
     "graphDescription": "",
@@ -390,27 +390,27 @@
     "options": [
       {
         "label": "A",
-        "text": "100, 97, 94, 91 — falling CPI each year"
+        "text": "100, 110, 121, 133.1"
       },
       {
         "label": "B",
-        "text": "100, 100, 100, 100 — no change in CPI"
+        "text": "100, 108, 114, 118"
       },
       {
         "label": "C",
-        "text": "100, 108, 114, 118 — CPI rising, but at a progressively slower rate"
+        "text": "100, 97, 94, 91"
       },
       {
         "label": "D",
-        "text": "100, 108, 116, 124 — CPI rising at a constant rate"
+        "text": "100, 100, 100, 100"
       },
       {
         "label": "E",
-        "text": "100, 110, 105, 100 — CPI rising then falling"
+        "text": "100, 110, 105, 100"
       }
     ],
-    "answer": "C",
-    "explanation": "Disinflation requires a positive but declining inflation rate; : Year 1 inflation = 8%, Year 2 ≈ 5.6%, Year 3 ≈ 3.5%; the CPI rises every year (no deflation), but the rate of increase slows - this is disinflation.",
+    "answer": "B",
+    "explanation": "The sequence 100, 108, 114, 118 has inflation rates of 8%, about 5.56%, and about 3.51%. Prices keep rising, but inflation declines. The sequence 100, 110, 121, 133.1 instead has a constant 10% inflation rate.",
     "reference": "MEA-1.F | MEA-1.F.1",
     "graphDescription": "",
     "graphRequired": false
@@ -422,26 +422,26 @@
     "options": [
       {
         "label": "A",
-        "text": "measures only tangible goods, excluding services."
+        "text": "Is adjusted for the price level to measure purchasing power"
       },
       {
         "label": "B",
-        "text": "is expressed in current-year dollars and automatically increases with inflation."
+        "text": "Is expressed in current-year dollars and automatically increases with inflation"
       },
       {
         "label": "C",
-        "text": "has been adjusted for changes in the price level, reflecting actual purchasing power rather than unadjusted dollar amounts."
+        "text": "Measures only tangible goods, excluding services"
       },
       {
         "label": "D",
-        "text": "is calculated solely using base-year CPI values and never changes."
+        "text": "Is always larger than the corresponding nominal variable"
       },
       {
         "label": "E",
-        "text": "is always larger than the corresponding nominal variable."
+        "text": "Is calculated solely using base-year CPI values and never changes"
       }
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "Real variables are nominal variables deflated by the price level; they measure actual quantities or purchasing power. A nominal wage of $60,000 when CPI = 150 reflects the dollar amount paid; the real wage ($40,000 in base-year dollars) reflects what that wage actually buys; real variables strip out the inflation effect.",
     "reference": "MEA-1.F | MEA-1.F.4",
     "graphDescription": "",
@@ -458,22 +458,22 @@
       },
       {
         "label": "B",
-        "text": "$57,600"
-      },
-      {
-        "label": "C",
-        "text": "$40,000"
-      },
-      {
-        "label": "D",
         "text": "$43,200"
       },
       {
-        "label": "E",
+        "label": "C",
         "text": "$36,000"
+      },
+      {
+        "label": "D",
+        "text": "$40,000"
+      },
+      {
+        "label": "E",
+        "text": "$57,600"
       }
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "Real wage = (Nominal wage ÷ CPI) × 100 = (48,000 ÷ 120) × 100 = $40,000. Alternatively: Real = Nominal ÷ (CPI/100) = 48,000 ÷ 1.20 = $40,000; when CPI = 120, prices are 20% above the base year, so $48,000 in current dollars is worth only $40,000 in base-year purchasing power.",
     "reference": "MEA-1.F | MEA-1.F.4",
     "graphDescription": "",
@@ -486,26 +486,26 @@
     "options": [
       {
         "label": "A",
-        "text": "that it is collected only once a year, making it too infrequent for policy purposes."
+        "text": "A fixed basket misses substitution toward relatively cheaper goods"
       },
       {
         "label": "B",
-        "text": "that it includes producer prices, which distort its measurement of consumer costs."
+        "text": "The CPI measures only prices charged by producers"
       },
       {
         "label": "C",
-        "text": "substitution bias — the fixed basket does not account for consumers switching to cheaper alternatives when prices rise, causing the CPI to overstate the true cost-of-living increase."
+        "text": "A fixed basket measures prices only in its base year"
       },
       {
         "label": "D",
-        "text": "that it understates inflation by only measuring food and energy prices."
+        "text": "The CPI includes only food and energy prices"
       },
       {
         "label": "E",
-        "text": "that it measures the base year rather than the current year."
+        "text": "The CPI includes only prices of imported products"
       }
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "Substitution bias is the primary shortcoming of the CPI. Because the basket is fixed, the CPI assumes consumers keep buying the same quantities even when relative prices shift; in reality, consumers switch to cheaper substitutes when prices rise - but the fixed basket ignores this, overstating the true rise in the cost of living.",
     "reference": "MEA-1.G | MEA-1.G.1",
     "graphDescription": "",
@@ -518,26 +518,26 @@
     "options": [
       {
         "label": "A",
-        "text": "the CPI basket is updated monthly, causing erratic fluctuations."
+        "text": "The CPI basket is updated monthly, causing erratic fluctuations"
       },
       {
         "label": "B",
-        "text": "consumers switch to more expensive goods when incomes rise, causing the CPI to understate inflation."
+        "text": "The fixed basket ignores substitution toward relatively cheaper goods"
       },
       {
         "label": "C",
-        "text": "the fixed basket does not capture consumers' ability to switch to relatively cheaper goods when prices of other goods rise — causing the CPI to overstate the true cost of maintaining their living standard."
+        "text": "The CPI only measures substitute goods, ignoring complementary goods"
       },
       {
         "label": "D",
-        "text": "the CPI only measures substitute goods, ignoring complementary goods."
+        "text": "Consumers switch to more expensive goods when incomes rise, causing the CPI to understate inflation"
       },
       {
         "label": "E",
-        "text": "nominal and real wages diverge, creating a bias in price measurement."
+        "text": "Nominal and real wages diverge, creating a bias in price measurement"
       }
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "When the price of one good rises, rational consumers buy less of it and more of cheaper substitutes. A fixed basket assigns the same base-year quantities even after this substitution; the basket therefore costs more than what a smart consumer actually spends to maintain a similar living standard; result: the CPI overstates the true inflation rate.",
     "reference": "MEA-1.G | MEA-1.G.1",
     "graphDescription": "",
@@ -550,11 +550,11 @@
     "options": [
       {
         "label": "A",
-        "text": "The Consumer Price Index (CPI)"
+        "text": "A weighted average price index"
       },
       {
         "label": "B",
-        "text": "The GDP deflator"
+        "text": "The Consumer Price Index (CPI)"
       },
       {
         "label": "C",
@@ -562,7 +562,7 @@
       },
       {
         "label": "D",
-        "text": "A weighted average price index"
+        "text": "The GDP deflator"
       },
       {
         "label": "E",
@@ -582,26 +582,26 @@
     "options": [
       {
         "label": "A",
-        "text": "$55,000"
+        "text": "$44,000"
       },
       {
         "label": "B",
-        "text": "$60,500"
-      },
-      {
-        "label": "C",
         "text": "$50,000"
       },
       {
+        "label": "C",
+        "text": "$60,500"
+      },
+      {
         "label": "D",
-        "text": "$49,545"
+        "text": "$55,000"
       },
       {
         "label": "E",
-        "text": "$44,000"
+        "text": "$49,545"
       }
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "Real wage = (55,000 ÷ 110) × 100 = $50,000. The CPI of 110 means prices are 10% above the base year; dividing by 1.10 converts the current-dollar wage to base-year purchasing power; equivalently: (55,000 ÷ 110) × 100 = 50,000.",
     "reference": "MEA-1.F | MEA-1.F.4",
     "graphDescription": "",
@@ -614,26 +614,26 @@
     "options": [
       {
         "label": "A",
-        "text": "A worker's nominal salary of $75,000 this year"
+        "text": "A worker’s wage adjusted for the price level"
       },
       {
         "label": "B",
-        "text": "The total dollar value of goods produced in the economy this year at current prices"
+        "text": "Government purchases valued at current market prices"
       },
       {
         "label": "C",
-        "text": "A worker's wage adjusted for changes in the price level — for example, $75,000 nominal with CPI = 125 yields a real wage of $60,000 in base-year dollars"
+        "text": "The dollar interest earned on a savings account"
       },
       {
         "label": "D",
-        "text": "The price of a single consumer good in the current year"
+        "text": "The cost of a basket at current market prices"
       },
       {
         "label": "E",
-        "text": "The number of units in the CPI market basket"
+        "text": "The dollar amount of a worker’s paycheck"
       }
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "A real variable is a nominal variable deflated by the price level; real wage = (75,000 ÷ 125) × 100 = $60,000 in base-year dollars. This reflects actual purchasing power, not the dollar amount; nominal salary ($75,000 at current prices) and total nominal GDP are nominal variables - not adjusted for inflation.",
     "reference": "MEA-1.F | MEA-1.F.4",
     "graphDescription": "",
@@ -646,26 +646,26 @@
     "options": [
       {
         "label": "A",
-        "text": "103.6"
-      },
-      {
-        "label": "B",
-        "text": "120"
-      },
-      {
-        "label": "C",
-        "text": "60"
-      },
-      {
-        "label": "D",
         "text": "360"
       },
       {
-        "label": "E",
+        "label": "B",
+        "text": "103.6"
+      },
+      {
+        "label": "C",
         "text": "3.60"
+      },
+      {
+        "label": "D",
+        "text": "60"
+      },
+      {
+        "label": "E",
+        "text": "120"
       }
     ],
-    "answer": "B",
+    "answer": "E",
     "explanation": "Base cost = 100 × $3.00 = $300; current cost = 100 × $3.60 = $360. CPI = (360 ÷ 300) × 100 = 120; with a single good, the CPI is simply the ratio of current price to base price × 100, confirming a 20% price increase.",
     "reference": "MEA-1.F | MEA-1.F.2",
     "graphDescription": "",
@@ -682,7 +682,7 @@
       },
       {
         "label": "B",
-        "text": "13 percent"
+        "text": "115 percent"
       },
       {
         "label": "C",
@@ -690,11 +690,11 @@
       },
       {
         "label": "D",
-        "text": "75 percent"
+        "text": "13 percent"
       },
       {
         "label": "E",
-        "text": "115 percent"
+        "text": "75 percent"
       }
     ],
     "answer": "C",
@@ -710,26 +710,26 @@
     "options": [
       {
         "label": "A",
-        "text": "inflation, because the CPI is still measuring prices."
+        "text": "Inflation, because the CPI is still measuring prices"
       },
       {
         "label": "B",
-        "text": "disinflation, because the rate of increase is decelerating."
+        "text": "Stagflation, because prices changed significantly"
       },
       {
         "label": "C",
-        "text": "deflation — a falling CPI means the overall price level has decreased and the annual inflation rate is negative."
+        "text": "Disinflation, because the rate of increase is decelerating"
       },
       {
         "label": "D",
-        "text": "stagflation, because prices changed significantly."
+        "text": "Deflation, because the overall price level falls"
       },
       {
         "label": "E",
-        "text": "price stability, because the CPI did not rise."
+        "text": "Price stability, because the CPI did not rise"
       }
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "When the CPI falls between two periods, the price level declined - this is deflation (a negative inflation rate). The fact that the CPI might still be above 100 (above the base year level) is irrelevant; what matters for classification is whether prices fell relative to the prior period; disinflation requires the rate to be positive but declining.",
     "reference": "MEA-1.F | MEA-1.F.1 | MEA-1.F.3",
     "graphDescription": "",
@@ -742,7 +742,7 @@
     "options": [
       {
         "label": "A",
-        "text": "100"
+        "text": "The value cannot be determined without calculating each good separately"
       },
       {
         "label": "B",
@@ -750,18 +750,18 @@
       },
       {
         "label": "C",
-        "text": "200"
+        "text": "100"
       },
       {
         "label": "D",
-        "text": "50"
+        "text": "200"
       },
       {
         "label": "E",
-        "text": "The value cannot be determined without calculating each good separately."
+        "text": "50"
       }
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "If every price doubles, the current-year basket cost = 2 × base-year basket cost; CPI = (2 × base ÷ base) × 100 = 200. The factor of 2 cancels in the numerator and denominator, yielding exactly 200 regardless of the specific prices or quantities in the basket; this represents 100% inflation from the base year.",
     "reference": "MEA-1.F | MEA-1.F.2",
     "graphDescription": "",
@@ -774,26 +774,26 @@
     "options": [
       {
         "label": "A",
-        "text": "falls, because prices are decreasing."
+        "text": "Falls, because deflation typically reduces nominal wages"
       },
       {
         "label": "B",
-        "text": "is unchanged, because deflation and past inflation cancel each other."
+        "text": "Rises as each unit of money buys more"
       },
       {
         "label": "C",
-        "text": "rises — as the overall price level falls, each unit of currency buys more goods and services than before."
+        "text": "Falls, because prices are decreasing"
       },
       {
         "label": "D",
-        "text": "falls, because deflation typically reduces nominal wages."
+        "text": "Is unchanged, because deflation and past inflation cancel each other"
       },
       {
         "label": "E",
-        "text": "is unrelated to changes in the price level."
+        "text": "Is unrelated to changes in the price level"
       }
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "Deflation = falling price level; when prices fall, a fixed amount of money buys more. If apples cost $1.00 but fall to $0.80, a dollar now buys 1.25 apples instead of 1; the purchasing power of each unit of currency increases during deflation - the opposite of inflation, which erodes purchasing power.",
     "reference": "MEA-1.F | MEA-1.F.1",
     "graphDescription": "",
@@ -806,26 +806,26 @@
     "options": [
       {
         "label": "A",
-        "text": "remain at $5,000 because the payment is contractually fixed."
+        "text": "Be unaffected by the CPI since bonds are real assets"
       },
       {
         "label": "B",
-        "text": "increase, because higher prices make money more valuable."
+        "text": "Increase proportionally with the CPI"
       },
       {
         "label": "C",
-        "text": "decrease — as the CPI rises, $5,000 buys fewer goods and services, so the real purchasing power of the fixed payment falls."
+        "text": "Increase, because higher prices make money more valuable"
       },
       {
         "label": "D",
-        "text": "increase proportionally with the CPI."
+        "text": "Remain at $5,000 because the payment is contractually fixed"
       },
       {
         "label": "E",
-        "text": "be unaffected by the CPI since bonds are real assets."
+        "text": "Decrease as the fixed payment buys less"
       }
     ],
-    "answer": "C",
+    "answer": "E",
     "explanation": "Real value = (Nominal ÷ CPI) × 100; as the CPI rises, the denominator increases and the real value of the fixed $5,000 payment falls. Holders of fixed nominal assets (bonds, fixed pensions, cash) lose real purchasing power during inflation; this is a key mechanism studied in Topic 2.5 (costs of inflation) but the real-value calculation is grounded in MEA-1.F.4.",
     "reference": "MEA-1.F | MEA-1.F.4",
     "graphDescription": "",
@@ -838,26 +838,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Nominal wages always rise faster than real wages due to inflation."
+        "text": "Real wages equal nominal wages when the CPI equals zero"
       },
       {
         "label": "B",
-        "text": "Real wages equal nominal wages when the CPI equals zero."
+        "text": "Nominal wages measure purchasing power; real wages measure dollar amounts"
       },
       {
         "label": "C",
-        "text": "The real wage is the nominal wage adjusted for the price level — it measures actual purchasing power; the nominal wage is the unadjusted dollar amount paid."
+        "text": "Nominal wages always rise faster than real wages due to inflation"
       },
       {
         "label": "D",
-        "text": "Nominal wages measure purchasing power; real wages measure dollar amounts."
+        "text": "Real wages measure purchasing power; nominal wages measure dollars paid"
       },
       {
         "label": "E",
-        "text": "Real wages and nominal wages are always identical in the current year."
+        "text": "Real wages and nominal wages are always identical in the current year"
       }
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "Nominal wage = the dollar amount paid (unadjusted); real wage = nominal wage ÷ (CPI/100) = the amount adjusted for inflation, reflecting actual purchasing power in base-year dollars. In the base year (CPI = 100), nominal and real wages are numerically equal; after inflation, real wages diverge downward from nominal unless nominal wages rise faster than prices.",
     "reference": "MEA-1.F | MEA-1.F.4",
     "graphDescription": "",
@@ -870,26 +870,26 @@
     "options": [
       {
         "label": "A",
-        "text": "The real wage rose by 6% because the nominal wage increased."
+        "text": "Falls by 6%"
       },
       {
         "label": "B",
-        "text": "The real wage rose by 12% because both wages and prices changed."
+        "text": "Rises by 12%"
       },
       {
         "label": "C",
-        "text": "The real wage is unchanged — when nominal wages and the price level rise by the same percentage, purchasing power stays constant."
+        "text": "Doubles in value"
       },
       {
         "label": "D",
-        "text": "The real wage fell by 6% because inflation eroded the gains."
+        "text": "Remains unchanged"
       },
       {
         "label": "E",
-        "text": "The real wage doubled because two 6% increases were applied."
+        "text": "Rises by 6%"
       }
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "Real wage = Nominal ÷ (CPI/100). If both numerator and denominator rise by the same factor (1.06), the ratio is unchanged: (Nominal × 1.06) ÷ (CPI × 1.06 / 100) = Nominal ÷ (CPI/100); purchasing power is identical; A nominal raise improves real living standards only if it exceeds the inflation rate.",
     "reference": "MEA-1.F | MEA-1.F.4",
     "graphDescription": "",
@@ -902,15 +902,15 @@
     "options": [
       {
         "label": "A",
-        "text": "$70"
+        "text": "$100"
       },
       {
         "label": "B",
-        "text": "$80"
+        "text": "$90"
       },
       {
         "label": "C",
-        "text": "$100"
+        "text": "$70"
       },
       {
         "label": "D",
@@ -918,10 +918,10 @@
       },
       {
         "label": "E",
-        "text": "$90"
+        "text": "$80"
       }
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "Basket cost = (5 × $8) + (10 × $6) = $40 + $60 = $100. This base calculation underlies every CPI computation: multiply each item's quantity by its price and sum across all items; the total becomes the denominator (base year) or numerator (current year) in the CPI formula.",
     "reference": "MEA-1.F | MEA-1.F.2",
     "graphDescription": "",
@@ -934,23 +934,23 @@
     "options": [
       {
         "label": "A",
-        "text": "To ensure consumers always purchase the same goods regardless of prices."
+        "text": "It automatically incorporates every change in consumer purchasing patterns"
       },
       {
         "label": "B",
-        "text": "So that only price changes — not changes in quantities purchased — drive changes in the index, allowing the CPI to purely measure the price effect."
+        "text": "It isolates price changes from changes in purchased quantities"
       },
       {
         "label": "C",
-        "text": "To make the index consistent with the GDP deflator methodology."
+        "text": "It restricts price measurement to one observation each decade"
       },
       {
         "label": "D",
-        "text": "To allow the basket to automatically update as consumer preferences change."
+        "text": "It makes the CPI identical to the GDP deflator"
       },
       {
         "label": "E",
-        "text": "Because the Bureau of Labor Statistics only surveys consumers once every decade."
+        "text": "It requires consumers to purchase identical quantities every year"
       }
     ],
     "answer": "B",
@@ -966,26 +966,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Deflation, because the CPI is below 200."
+        "text": "Prices rose by about 4.76%"
       },
       {
         "label": "B",
-        "text": "Disinflation, because the CPI rose more slowly than in Year 1."
+        "text": "Prices remained unchanged"
       },
       {
         "label": "C",
-        "text": "Inflation — the price level rose from Year 1 to Year 2. The inflation rate = [(110 − 105) ÷ 105] × 100 ≈ 4.76%."
+        "text": "Prices rose by about 5.00%"
       },
       {
         "label": "D",
-        "text": "Stagflation, because both prices and costs increased."
+        "text": "Prices rose by about 9.52%"
       },
       {
         "label": "E",
-        "text": "Price stability, because the CPI changed by fewer than 10 points."
+        "text": "Prices fell by about 4.76%"
       }
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "CPI rose from 105 to 110 - the price level increased; inflation rate = [(110 - 105) ÷ 105] × 100 ≈ 4.76%; this is inflation (positive rate). It is NOT deflation (prices rose, not fell), not necessarily disinflation (we need two consecutive inflation rates to know if the rate is declining), and not stagflation (no unemployment data given).",
     "reference": "MEA-1.F | MEA-1.F.1 | MEA-1.F.3",
     "graphDescription": "",
@@ -998,26 +998,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Real wage rose — the nominal wage increased by $6,000."
+        "text": "Real wage stayed at $40,000 in base-year dollars"
       },
       {
         "label": "B",
-        "text": "Real wage rose — any positive nominal increase improves purchasing power."
+        "text": "Real wage rose to $46,000 in base-year dollars"
       },
       {
         "label": "C",
-        "text": "Real wage rose — nominal wages grew 15% while prices grew 15%, so they grew at the same rate... Wait — let's check: nominal growth = 15%; CPI growth = 15%. Real wage is unchanged."
+        "text": "Real wage rose to $43,000 in base-year dollars"
       },
       {
         "label": "D",
-        "text": "Real wage rose because nominal wages grew faster than inflation."
+        "text": "Real wage fell to $38,000 in base-year dollars"
       },
       {
         "label": "E",
-        "text": "Real wage fell — the worker's income failed to keep up with the 15% price increase. Nominal wages grew exactly 15% but prices also grew exactly 15%, leaving real wages unchanged."
+        "text": "Real wage fell to $34,000 in base-year dollars"
       }
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "Nominal wage growth = (46,000 - 40,000) ÷ 40,000 = 15%; inflation = (115 - 100) ÷ 100 = 15%; both grew by 15% - real wage unchanged. Real wage Y1 = (40,000 ÷ 100) × 100 = $40,000; real wage Y5 = (46,000 ÷ 115) × 100 = $40,000; purchasing power is identical - the nominal raise exactly offset inflation.",
     "reference": "MEA-1.F | MEA-1.F.4",
     "graphDescription": "",
@@ -1030,26 +1030,26 @@
     "options": [
       {
         "label": "A",
-        "text": "The CPI basket is updated monthly to reflect current spending habits."
+        "text": "The CPI includes both goods and services in its basket"
       },
       {
         "label": "B",
-        "text": "The CPI includes both goods and services in its basket."
+        "text": "The fixed basket ignores substitution toward cheaper alternatives"
       },
       {
         "label": "C",
-        "text": "The fixed basket does not account for consumers switching to cheaper alternatives when prices rise — this substitution bias causes the CPI to record a larger cost increase than consumers actually experience."
+        "text": "The CPI basket contains too many goods, averaging out individual price changes"
       },
       {
         "label": "D",
-        "text": "The CPI uses base-year prices in its denominator."
+        "text": "The CPI basket is updated monthly to reflect current spending habits"
       },
       {
         "label": "E",
-        "text": "The CPI basket contains too many goods, averaging out individual price changes."
+        "text": "The CPI uses base-year prices in its denominator"
       }
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "Substitution bias causes CPI overstatement. When the price of beef rises, consumers buy more chicken - their true cost of living rises less than the fixed-basket CPI implies; the basket still prices the original beef quantity, overstating how much more it costs to maintain the consumer's living standard.",
     "reference": "MEA-1.G | MEA-1.G.1",
     "graphDescription": "",
@@ -1062,26 +1062,26 @@
     "options": [
       {
         "label": "A",
-        "text": "CPI = 115; Inflation rate = 15%"
-      },
-      {
-        "label": "B",
         "text": "CPI = 111.1; Inflation rate = 11.1%"
       },
       {
-        "label": "C",
+        "label": "B",
         "text": "CPI = 120; Inflation rate = 20%"
       },
       {
+        "label": "C",
+        "text": "CPI = 110; Inflation rate = 10%"
+      },
+      {
         "label": "D",
-        "text": "CPI = 114.3; Inflation rate = 14.3%"
+        "text": "CPI = 115; Inflation rate = 15%"
       },
       {
         "label": "E",
-        "text": "CPI = 110; Inflation rate = 10%"
+        "text": "CPI = 114.3; Inflation rate = 14.3%"
       }
     ],
-    "answer": "D",
+    "answer": "E",
     "explanation": "The basket costs $140 in the base year and $160 in the current year. CPI is 160/140 x 100 = 114.3, so the inflation rate from the base year is 14.3 percent.",
     "reference": "MEA-1.F | MEA-1.F.2 | MEA-1.F.3",
     "graphDescription": "",
@@ -1094,26 +1094,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Base = $704; Year 1 = $798; CPI ≈ 113.4; Inflation ≈ 13.4%"
+        "text": "CPI = 106.67; inflation = 6.67%"
       },
       {
         "label": "B",
-        "text": "Base = $704; Year 1 = $762; CPI approximately 108.2; Inflation approximately 8.2%"
+        "text": "CPI = 104.17; inflation = 4.17%"
       },
       {
         "label": "C",
-        "text": "Base = $720; Year 1 = $810; CPI ≈ 112.5; Inflation = 12.5%"
+        "text": "CPI = 105.00; inflation = 5.00%"
       },
       {
         "label": "D",
-        "text": "Base = $720; Year 1 = $762; CPI approximately 105.8; Inflation approximately 5.8%"
+        "text": "CPI = 110.00; inflation = 10.00%"
       },
       {
         "label": "E",
-        "text": "Base = $720; Year 1 = $798; CPI approximately 110.8; Inflation approximately 10.8%"
+        "text": "CPI = 105.83; inflation = 5.83%"
       }
     ],
-    "answer": "D",
+    "answer": "E",
     "explanation": "The base-year basket costs $720, and the Year 1 basket costs $762. CPI is 762/720 x 100 = 105.8, which represents about 5.8 percent inflation.",
     "reference": "MEA-1.F | MEA-1.F.2 | MEA-1.F.3",
     "graphDescription": "",
@@ -1126,26 +1126,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Y1→Y2: 8%; Y2→Y3: 5.6%; Y3→Y4: 3.5%; Trend: disinflation"
+        "text": "Y1→Y2: 8%; Y2→Y3: 5.6%; Y3→Y4: 3.5%; Trend: price stability"
       },
       {
         "label": "B",
-        "text": "Y1→Y2: 8%; Y2→Y3: 6%; Y3→Y4: 4%; Trend: deflation"
-      },
-      {
-        "label": "C",
         "text": "Y1→Y2: 8%; Y2→Y3: 5.6%; Y3→Y4: 3.5%; Trend: deflation"
       },
       {
-        "label": "D",
+        "label": "C",
         "text": "Y1→Y2: 8%; Y2→Y3: 14%; Y3→Y4: 18%; Trend: hyperinflation"
       },
       {
+        "label": "D",
+        "text": "Y1→Y2: 8%; Y2→Y3: 5.6%; Y3→Y4: 3.5%; Trend: disinflation"
+      },
+      {
         "label": "E",
-        "text": "Y1→Y2: 8%; Y2→Y3: 5.6%; Y3→Y4: 3.5%; Trend: price stability"
+        "text": "Y1→Y2: 8%; Y2→Y3: 6%; Y3→Y4: 4%; Trend: deflation"
       }
     ],
-    "answer": "A",
+    "answer": "D",
     "explanation": "Y1→Y2: [(108-100)÷100]×100 = 8%; Y2→Y3: [(114-108)÷108]×100 = (6÷108)×100 ≈ 5.6%; Y3→Y4: [(118-114)÷114]×100 = (4÷114)×100 ≈ 3.5%. The CPI rises in every period (no deflation) but the annual inflation rate falls continuously (8% → 5.6% → 3.5%); this is disinflation - falling inflation rate with a still-rising price level.",
     "reference": "MEA-1.F | MEA-1.F.1 | MEA-1.F.3",
     "graphDescription": "",
@@ -1158,26 +1158,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Real wage improved — $50,400 > $42,000."
+        "text": "Real wages rise $8,400"
       },
       {
         "label": "B",
-        "text": "Real wage fell — inflation always reduces real wages."
+        "text": "Real wages fall 26%"
       },
       {
         "label": "C",
-        "text": "Real wage is unchanged — both rose by the same percentage, since nominal wages grew exactly 20% and prices grew exactly 26%. Wait — let's verify: 50,400/42,000 − 1 = 20%; (126−100)/100 = 26%. Nominal grew LESS than prices → real wage fell."
+        "text": "Real wages rise 20%"
       },
       {
         "label": "D",
-        "text": "Real wage fell — nominal wages grew 20% but prices grew 26%. Real wage Year 4 = (50,400÷126)×100 = $40,000 < $42,000. Purchasing power fell by $2,000 (about 4.8%)."
+        "text": "Real wages are unchanged"
       },
       {
         "label": "E",
-        "text": "Real wage rose by $8,400 because the nominal salary increased by that amount."
+        "text": "Real wages fall about 4.8% to $40,000"
       }
     ],
-    "answer": "D",
+    "answer": "E",
     "explanation": "Nominal wage growth = (50,400 - 42,000) ÷ 42,000 = 20%; inflation = (126 - 100) ÷ 100 = 26%; inflation exceeded nominal wage growth. Real wage Year 4 = (50,400 ÷ 126) × 100 = $40,000; base-year real wage = $42,000; the real wage fell from $42,000 to $40,000 - a drop of $2,000 (-4.8%); A nominal raise that is smaller than the inflation rate still represents a real wage loss.",
     "reference": "MEA-1.F | MEA-1.F.4",
     "graphDescription": "",
@@ -1190,23 +1190,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The student used the wrong formula — the correct inflation rate is 124%."
+        "text": "7.26%"
       },
       {
         "label": "B",
-        "text": "The student forgot to multiply by 100, so the answer should be 0.09%."
+        "text": "10.43%"
       },
       {
         "label": "C",
-        "text": "The student did not divide the change by the prior year's CPI. The correct formula is [(124 − 115) ÷ 115] × 100 = (9 ÷ 115) × 100 ≈ 7.83%, not 9%."
+        "text": "7.83%"
       },
       {
         "label": "D",
-        "text": "The student should have used the base-year CPI (100) as the denominator."
+        "text": "9.00%"
       },
       {
         "label": "E",
-        "text": "There is no error — the inflation rate is correctly calculated as 9%."
+        "text": "6.25%"
       }
     ],
     "answer": "C",
@@ -1222,26 +1222,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Constant inflation — prices rise at the same rate each year."
+        "text": "Prices rise at a constant percentage rate"
       },
       {
         "label": "B",
-        "text": "Deflation — the CPI decreases in later years."
+        "text": "Prices remain unchanged throughout the sequence"
       },
       {
         "label": "C",
-        "text": "Inflation with disinflation — prices rise every year (inflation), but the annual inflation rate decelerates each year (8%→6% → 4.7% → 3.5% → 0.9%), indicating sustained disinflation."
+        "text": "Prices rise at an accelerating percentage rate"
       },
       {
         "label": "D",
-        "text": "Hyperinflation — the price level more than doubled."
+        "text": "Prices rise at a declining percentage rate"
       },
       {
         "label": "E",
-        "text": "Price stability — the CPI remained near 100 throughout."
+        "text": "Prices decline throughout the sequence"
       }
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "Annual inflation: Y0→Y1 = 6%; Y1→Y2 = [(110-106)÷106]×100 ≈ 3.8%; Y2→Y3 ≈ 1.8%; Y3→Y4 ≈ 0.9%. The CPI rises every year - inflation persists; but the rate falls each year - sustained disinflation; this is not deflation (prices never fell) and not constant inflation (the rate changes).",
     "reference": "MEA-1.F | MEA-1.F.1 | MEA-1.F.3",
     "graphDescription": "",
@@ -1254,26 +1254,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Real value = $50,400; the pensioner benefited from inflation."
+        "text": "Real pension ≈ $25,714; purchasing power falls 28.57%"
       },
       {
         "label": "B",
-        "text": "Real value = $36,000; nominal payments are always equal to real payments."
+        "text": "Real pension = $36,000; purchasing power stays unchanged"
       },
       {
         "label": "C",
-        "text": "Real value = $25,714; the pensioner lost real purchasing power — $36,000 today buys what only $25,714 would have bought in the base year, a 28.6% loss in real value due to 40% cumulative inflation."
+        "text": "Real pension = $50,400; purchasing power rises 40%"
       },
       {
         "label": "D",
-        "text": "Real value = $36,000 × 1.40 = $50,400; inflation increased the real payment."
+        "text": "Real pension = $30,000; purchasing power falls 16.67%"
       },
       {
         "label": "E",
-        "text": "Real value cannot be determined without knowing which goods the pensioner buys."
+        "text": "Real pension = $21,600; purchasing power falls 40%"
       }
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "Real value = (36,000 ÷ 140) × 100 = $25,714. With 40% cumulative inflation (CPI from 100 to 140), the $36,000 fixed payment buys only 71.4% of what it bought originally; the pensioner lost 28.6% of real purchasing power; this illustrates why fixed nominal payments (bonds, pensions, cash savings) lose real value during inflation.",
     "reference": "MEA-1.F | MEA-1.F.4",
     "graphDescription": "",
@@ -1286,27 +1286,27 @@
     "options": [
       {
         "label": "A",
-        "text": "CPI = 115; Housing has greater impact due to its large spending share."
+        "text": "CPI = 125; food adds more to the basket’s cost"
       },
       {
         "label": "B",
-        "text": "CPI = 115; Food has greater impact because it has more units in the basket."
+        "text": "CPI = 105; housing adds more to the basket’s cost"
       },
       {
         "label": "C",
-        "text": "CPI = 115; both goods have equal impact because both prices changed."
+        "text": "CPI ≈ 106.82; housing adds more to the basket’s cost"
       },
       {
         "label": "D",
-        "text": "CPI = 125; Food dominates because its price increased the most."
+        "text": "CPI ≈ 106.82; both add equally to the basket’s cost"
       },
       {
         "label": "E",
-        "text": "CPI = 105; Housing dominates because it has the highest price."
+        "text": "CPI ≈ 106.82; food adds more to the basket’s cost"
       }
     ],
-    "answer": "A",
-    "explanation": "Base cost = (20×$4) + (1×$800) = $80 + $800 = $880; current: Food = 20×$5 = $100; Housing = 1×$840 = $840; current total = $940; CPI = (940÷880)×100 ≈ 106.8. Housing's spending share = $800/$880 ≈ 90.9% of the basket; even though Food's price rose more (25% vs. 5%), Housing dominates the CPI because of its massive spending weight; the CPI is a weighted average - spending shares matter more than unit-price change percentages.",
+    "answer": "C",
+    "explanation": "Base cost = 20 × $4 + $800 = $880. Current cost = 20 × $5 + $840 = $940. CPI = (940/880) × 100 ≈ 106.82. Housing adds $40 to the basket’s cost, compared with food’s $20, so housing has the greater impact despite its smaller percentage price increase.",
     "reference": "MEA-1.F | MEA-1.F.2",
     "graphDescription": "",
     "graphRequired": false
@@ -1318,26 +1318,26 @@
     "options": [
       {
         "label": "A",
-        "text": "The budget is unaffected — CPI adjustments are precise."
+        "text": "CPI bias only affects private contracts, not government programs"
       },
       {
         "label": "B",
-        "text": "Payments are too low — overstating inflation means retirees are compensated insufficiently."
+        "text": "Payments are too low because substitution bias understates inflation"
       },
       {
         "label": "C",
-        "text": "Payments are too high — if true inflation is 0.8 pp lower than measured, Social Security payments are increased by more than needed to maintain purchasing power, overpaying retirees and creating a growing fiscal burden over 20 years."
+        "text": "The budget is unaffected — CPI adjustments are precise"
       },
       {
         "label": "D",
-        "text": "Payments are too low because substitution bias understates inflation."
+        "text": "Payments are too low — overstating inflation means retirees are compensated insufficiently"
       },
       {
         "label": "E",
-        "text": "CPI bias only affects private contracts, not government programs."
+        "text": "Payments rise more than needed if measured inflation overstates living-cost growth"
       }
     ],
-    "answer": "C",
+    "answer": "E",
     "explanation": "CPI substitution bias overstates inflation; if true inflation is 2% but measured CPI inflation is 2.8%, Social Security is indexed at 2.8%. Recipients receive a real income INCREASE of 0.8% per year above what is needed to maintain purchasing power; compounded over 20 years, this overcompensation becomes very large - a major fiscal concern in Social Security reform debates.",
     "reference": "MEA-1.F | MEA-1.G | MEA-1.G.1",
     "graphDescription": "",
@@ -1350,23 +1350,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Y1→Y2: deflation (−4%); Y2→Y3: deflation (−3.1%); Y3→Y4: inflation (2.2%). Overall: two years of deflation followed by recovery."
+        "text": "−4%, −3.1%, then +2.2%; deflation followed by inflation"
       },
       {
         "label": "B",
-        "text": "Y1→Y2: disinflation; Y2→Y3: disinflation; Y3→Y4: inflation"
+        "text": "All periods are disinflation — prices rose more slowly each year"
       },
       {
         "label": "C",
-        "text": "Y1→Y2: deflation; Y2→Y3: deflation; Y3→Y4: deflation"
-      },
-      {
-        "label": "D",
         "text": "Y1→Y2: inflation (−4%); Y2→Y3: inflation (−3%); Y3→Y4: inflation (2%)"
       },
       {
+        "label": "D",
+        "text": "Y1→Y2: deflation; Y2→Y3: deflation; Y3→Y4: deflation"
+      },
+      {
         "label": "E",
-        "text": "All periods are disinflation — prices rose more slowly each year."
+        "text": "Y1→Y2: disinflation; Y2→Y3: disinflation; Y3→Y4: inflation"
       }
     ],
     "answer": "A",
@@ -1382,26 +1382,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Real wage rose by 8% — you add the two rates."
+        "text": "Falls by approximately 2%"
       },
       {
         "label": "B",
-        "text": "Real wage rose by approximately 2% — the nominal raise exceeded inflation by about 2 percentage points."
+        "text": "Remains approximately unchanged"
       },
       {
         "label": "C",
-        "text": "Real wage is unchanged because only real raises count."
+        "text": "Rises by approximately 5%"
       },
       {
         "label": "D",
-        "text": "Real wage fell by 2% — inflation always exceeds nominal raises."
+        "text": "Rises by approximately 8%"
       },
       {
         "label": "E",
-        "text": "Real wage rose by 5% — the inflation effect cancels out."
+        "text": "Rises by approximately 2%"
       }
     ],
-    "answer": "B",
+    "answer": "E",
     "explanation": "Approximate real wage growth ≈ Nominal wage growth - Inflation rate = 5% - 3% = 2%. More precisely: (1.05 ÷ 1.03) - 1 ≈ 1.94%; when a nominal raise exceeds inflation, real purchasing power improves; the 2-percentage-point margin represents the real gain in living standards.",
     "reference": "MEA-1.F | MEA-1.F.4",
     "graphDescription": "",
@@ -1414,26 +1414,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Year 5 highest ($48,000) > Year 3 ($49,000) > Year 1 ($50,000)"
-      },
-      {
-        "label": "B",
-        "text": "Year 1 highest ($50,000) > Year 3 ($49,000) > Year 5 ($48,000)"
-      },
-      {
-        "label": "C",
         "text": "Year 3 highest ($49,000) > Year 1 ($50,000) > Year 5 ($48,000)"
       },
       {
+        "label": "B",
+        "text": "All years have equal real wages because the worker was at the same job"
+      },
+      {
+        "label": "C",
+        "text": "Year 1 and Year 3 are tied; Year 5 is lowest"
+      },
+      {
         "label": "D",
-        "text": "Year 1 and Year 3 are tied; Year 5 is lowest."
+        "text": "Year 1 highest ($50,000) > Year 3 ($49,000) > Year 5 ($48,000)"
       },
       {
         "label": "E",
-        "text": "All years have equal real wages because the worker was at the same job."
+        "text": "Year 5 highest ($48,000) > Year 3 ($49,000) > Year 1 ($50,000)"
       }
     ],
-    "answer": "B",
+    "answer": "D",
     "explanation": "Year 1 real wage = (50,000÷100)×100 = $50,000; year 3 real wage = (56,350÷115)×100 = $49,000; year 5 real wage = (60,000÷125)×100 = $48,000. Despite rising nominal wages, real purchasing power fell each period because inflation outpaced nominal raises; ranking: Year 1 ($50K) > Year 3 ($49K) > Year 5 ($48K); the worker earned progressively more nominal dollars but consistently lost real purchasing power.",
     "reference": "MEA-1.F | MEA-1.F.4",
     "graphDescription": "",
@@ -1446,26 +1446,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Y1: 6%; Y2: 5%; Y3: 4%; Trend: disinflation"
-      },
-      {
-        "label": "B",
         "text": "Y1: 6%; Y2: 11.3%; Y3: 15.7%; Trend: accelerating inflation"
       },
       {
-        "label": "C",
-        "text": "Y1: 6%; Y2: 5%; Y3: 4%; Trend: deflation"
-      },
-      {
-        "label": "D",
+        "label": "B",
         "text": "Y1: 6%; Y2: 5.96%; Y3: 3.96%; Trend: disinflation"
       },
       {
-        "label": "E",
+        "label": "C",
         "text": "Y1: 6%; Y2: 4.7%; Y3: 4%; Trend: disinflation"
+      },
+      {
+        "label": "D",
+        "text": "Y1: 6%; Y2: 5%; Y3: 4%; Trend: deflation"
+      },
+      {
+        "label": "E",
+        "text": "Y1: 6%; Y2: 5%; Y3: 4%; Trend: disinflation"
       }
     ],
-    "answer": "A",
+    "answer": "E",
     "explanation": "The annual inflation rates are 60/1,000 = 6 percent, 53/1,060 = 5 percent, and 44/1,113 = about 4 percent. Because the price level rises each year while the inflation rate falls, the pattern is disinflation.",
     "reference": "MEA-1.F | MEA-1.F.1 | MEA-1.F.3",
     "graphDescription": "",
@@ -1478,7 +1478,7 @@
     "options": [
       {
         "label": "A",
-        "text": "$45,000"
+        "text": "$58,500"
       },
       {
         "label": "B",
@@ -1486,18 +1486,18 @@
       },
       {
         "label": "C",
-        "text": "$58,500"
+        "text": "$45,000"
       },
       {
         "label": "D",
-        "text": "$51,000"
+        "text": "$72,000"
       },
       {
         "label": "E",
-        "text": "$72,000"
+        "text": "$51,000"
       }
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "To maintain a real wage of $45,000 when CPI = 130: Nominal = Real × (CPI ÷ 100) = $45,000 × 1.30 = $58,500. This is the reverse of the real-to-nominal conversion; with prices 30% above base year, a worker needs $58,500 nominally to have the same purchasing power as $45,000 in base-year dollars.",
     "reference": "MEA-1.F | MEA-1.F.4",
     "graphDescription": "",
@@ -1510,26 +1510,26 @@
     "options": [
       {
         "label": "A",
-        "text": "All four years show inflation because the inflation rate is sometimes positive."
+        "text": "Y1: hyperinflation; Y2–Y3: disinflation; Y4: price stability"
       },
       {
         "label": "B",
-        "text": "Y1: Inflation (9%); Y2: Disinflation — rate fell from 9% to 5%; Y3: Disinflation — rate fell further to 2%; Y4: Deflation — rate turned negative (−1%), meaning the price level fell."
+        "text": "Y1: deflation; Y2–Y3: disinflation; Y4: inflation"
       },
       {
         "label": "C",
-        "text": "Y1: Hyperinflation; Y2−Y3: disinflation; Y4: price stability"
+        "text": "Y1: inflation; Y2–Y3: accelerating inflation; Y4: deflation"
       },
       {
         "label": "D",
-        "text": "Y1−Y3: inflation; Y4: deflation"
+        "text": "Y1: inflation; Y2: disinflation; Y3: price stability; Y4: deflation"
       },
       {
         "label": "E",
-        "text": "Y1: Inflation; Y2: Disinflation; Y3: Price stability; Y4: Deflation"
+        "text": "Y1: inflation; Y2–Y3: disinflation; Y4: deflation"
       }
     ],
-    "answer": "B",
+    "answer": "E",
     "explanation": "Y1 (9%): inflation; Y2 (5%): inflation, but rate slowed from Y1 - disinflation; Y3 (2%): inflation, rate slowed further - continued disinflation. Y4 (-1%): DEFLATION - the inflation rate turned negative, meaning the price level actually fell; the transition from disinflation (positive but declining rate) to deflation (negative rate) is a key distinction.",
     "reference": "MEA-1.F | MEA-1.F.1 | MEA-1.F.3",
     "graphDescription": "",
@@ -1542,26 +1542,26 @@
     "options": [
       {
         "label": "A",
-        "text": "All four years — any positive nominal raise improves real wages."
+        "text": "Year 2 and Year 3 — real wages improve when inflation equals the COLA"
       },
       {
         "label": "B",
-        "text": "No years — COLAs never exceed inflation."
+        "text": "Years 1 and 4, when COLA exceeds inflation"
       },
       {
         "label": "C",
-        "text": "Year 1 and Year 4 — in those years the COLA (3%) exceeded inflation (2% and 1%), so real wages rose. In Years 2 and 3, inflation matched or exceeded the COLA."
+        "text": "All four years — any positive nominal raise improves real wages"
       },
       {
         "label": "D",
-        "text": "Year 2 and Year 3 — real wages improve when inflation equals the COLA."
+        "text": "Year 1, Year 3, and Year 4"
       },
       {
         "label": "E",
-        "text": "Year 1, Year 3, and Year 4."
+        "text": "No years — COLAs never exceed inflation"
       }
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "Compare 3% COLA to actual inflation each year: Y1: 3% > 2% → real wage rises; Y2: 3% < 4% → real wage falls. Y3: 3% = 3% → real wage unchanged; Y4: 3% > 1% → real wage rises; real wages improve only when the nominal raise exceeds the inflation rate; in Year 3 with equal rates, real wages are exactly unchanged.",
     "reference": "MEA-1.F | MEA-1.F.4",
     "graphDescription": "",
@@ -1574,26 +1574,26 @@
     "options": [
       {
         "label": "A",
-        "text": "higher measured inflation than the standard CPI, because allowing substitution increases spending."
+        "text": "The same inflation rate as the standard CPI, since substitution bias only affects individual goods"
       },
       {
         "label": "B",
-        "text": "the same inflation rate as the standard CPI, since substitution bias only affects individual goods."
+        "text": "Lower measured inflation only during periods of deflation"
       },
       {
         "label": "C",
-        "text": "lower measured inflation than the standard CPI — the corrected index allows consumers to switch to cheaper alternatives, reducing the measured cost increase and thus producing a lower inflation rate."
+        "text": "Higher measured inflation than the standard CPI, because allowing substitution increases spending"
       },
       {
         "label": "D",
-        "text": "lower measured inflation only during periods of deflation."
+        "text": "Higher measured inflation only when consumers substitute into luxury goods"
       },
       {
         "label": "E",
-        "text": "higher measured inflation only when consumers substitute into luxury goods."
+        "text": "Lower measured inflation by accounting for substitution"
       }
     ],
-    "answer": "C",
+    "answer": "E",
     "explanation": "Substitution bias causes the standard fixed-weight CPI to OVERSTATE inflation. A chained or superlative index that allows the basket to update as consumers substitute toward cheaper goods produces systematically lower inflation readings - typically 0.3-0.5 percentage points lower annually; the corrected measure better reflects the true cost of maintaining consumer utility.",
     "reference": "MEA-1.G | MEA-1.G.1",
     "graphDescription": "",
@@ -1610,7 +1610,7 @@
       },
       {
         "label": "B",
-        "text": "Real income = $75,000 ÷ 125 = $600"
+        "text": "Real income = $75,000 − 125 = $74,875"
       },
       {
         "label": "C",
@@ -1618,11 +1618,11 @@
       },
       {
         "label": "D",
-        "text": "Real income = $75,000 − 125 = $74,875"
+        "text": "Real income = $46,875"
       },
       {
         "label": "E",
-        "text": "Real income = $46,875"
+        "text": "Real income = $75,000 ÷ 125 = $600"
       }
     ],
     "answer": "C",
@@ -1638,26 +1638,26 @@
     "options": [
       {
         "label": "A",
-        "text": "The journalist is correct — falling inflation means falling prices."
+        "text": "Disinflation means prices rise more slowly, not that they fall"
       },
       {
         "label": "B",
-        "text": "The journalist correctly identifies disinflation but incorrectly describes it. A decline in the INFLATION RATE from 7% to 4% means prices still rose — just by 4% instead of 7%. Prices did not drop; they rose more slowly. Price drops would require negative inflation (deflation). The journalist confused the rate of price change with the direction of price change."
+        "text": "The journalist is wrong only if the base year CPI is above 100"
       },
       {
         "label": "C",
-        "text": "The journalist is correct — 4% inflation is close enough to zero to say prices dropped."
+        "text": "There is no error — a falling inflation rate always corresponds to falling prices"
       },
       {
         "label": "D",
-        "text": "The journalist is wrong only if the base year CPI is above 100."
+        "text": "The journalist is correct — 4% inflation is close enough to zero to say prices dropped"
       },
       {
         "label": "E",
-        "text": "There is no error — a falling inflation rate always corresponds to falling prices."
+        "text": "The journalist is correct — falling inflation means falling prices"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "Disinflation ≠ deflation; A fall in the inflation rate from 7% to 4% means prices rose by 4% - still rising, just more slowly. The price level is HIGHER than last year, not lower; prices only drop when the inflation rate goes negative (deflation); the journalist confused \"prices rose less quickly\" with \"prices fell\" - one of the most common misunderstandings tested on the AP exam.",
     "reference": "MEA-1.F | MEA-1.F.1",
     "graphDescription": "",
@@ -1670,26 +1670,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Y1=$648; Y2=$680.4; Y3=$700.00"
-      },
-      {
-        "label": "B",
-        "text": "Y1=$648; Y2=$680.4; Y3=$700.81"
-      },
-      {
-        "label": "C",
         "text": "Y1=$648; Y2=$672; Y3=$690"
       },
       {
-        "label": "D",
+        "label": "B",
+        "text": "Y1=$660; Y2=$693; Y3=$713.8"
+      },
+      {
+        "label": "C",
         "text": "Y1=$648; Y2=$680.00; Y3=$700.8"
       },
       {
+        "label": "D",
+        "text": "Y1=$648; Y2=$680.4; Y3=$700.00"
+      },
+      {
         "label": "E",
-        "text": "Y1=$660; Y2=$693; Y3=$713.8"
+        "text": "Y1=$648; Y2=$680.4; Y3=$700.81"
       }
     ],
-    "answer": "B",
+    "answer": "E",
     "explanation": "Y1: $600 × 1.08 = $648; Y2: $648 × 1.05 = $680.40; Y3: $680.40 × 1.03 = $700.81. Each year's starting point is the previous year's basket cost - prices compound; the cumulative price increase = $700.81 vs. $600 = 16.8%; note: this is NOT simply 8% + 5% + 3% = 16%; compounding yields slightly more.",
     "reference": "MEA-1.F | MEA-1.F.2 | MEA-1.F.3",
     "graphDescription": "",
@@ -1702,26 +1702,26 @@
     "options": [
       {
         "label": "A",
-        "text": "CPI = 108; Inflation of 8%"
-      },
-      {
-        "label": "B",
-        "text": "CPI = 101.8; Inflation of 1.8%"
-      },
-      {
-        "label": "C",
         "text": "CPI = 98; Deflation of 2%"
       },
       {
+        "label": "B",
+        "text": "CPI = 104; Inflation of 4%"
+      },
+      {
+        "label": "C",
+        "text": "CPI = 101.8; Inflation of 1.8%"
+      },
+      {
         "label": "D",
-        "text": "CPI = 100; Price stability"
+        "text": "CPI = 108; Inflation of 8%"
       },
       {
         "label": "E",
-        "text": "CPI = 104; Inflation of 4%"
+        "text": "CPI = 100; Price stability"
       }
     ],
-    "answer": "B",
+    "answer": "C",
     "explanation": "Base cost = (10×$8) + (5×$20) = $80 + $100 = $180; year 1 cost = (10×$10) + (5×$18) = $100 + $90 = $190; CPI = (190÷180)×100 ≈ 105.6; inflation ≈ 5.6%. Good X's price rose ($80 spending → cost +$20), Good Y's price fell ($100 spending → cost -$10); net: +$10 increase; overall: inflation; the basket-weighted outcome is determined by the relative magnitudes of price changes weighted by spending shares - not just whether individual prices rose or fell.",
     "reference": "MEA-1.F | MEA-1.F.2 | MEA-1.F.3",
     "graphDescription": "",
@@ -1734,7 +1734,7 @@
     "options": [
       {
         "label": "A",
-        "text": "Year 5 CPI = 130; Cumulative = 30%"
+        "text": "Year 5 CPI = 130; Cumulative ≈ 33.8%"
       },
       {
         "label": "B",
@@ -1742,11 +1742,11 @@
       },
       {
         "label": "C",
-        "text": "Year 5 CPI = 130; Cumulative ≈ 33.8%"
+        "text": "Year 5 CPI = 133.8; Cumulative = 30%"
       },
       {
         "label": "D",
-        "text": "Year 5 CPI = 133.8; Cumulative = 30%"
+        "text": "Year 5 CPI = 130; Cumulative = 30%"
       },
       {
         "label": "E",
@@ -1770,7 +1770,7 @@
       },
       {
         "label": "B",
-        "text": "$1.92 trillion"
+        "text": "$2.00 trillion"
       },
       {
         "label": "C",
@@ -1778,14 +1778,14 @@
       },
       {
         "label": "D",
-        "text": "$2.00 trillion"
+        "text": "$2.20 trillion"
       },
       {
         "label": "E",
-        "text": "$2.20 trillion"
+        "text": "$1.92 trillion"
       }
     ],
-    "answer": "D",
+    "answer": "B",
     "explanation": "Real GDP = (Nominal GDP ÷ GDP deflator) × 100 = (2.4 trillion ÷ 120) × 100 = $2.0 trillion. This is the same formula as converting any nominal variable to a real variable: divide by the price index (÷ CPI or deflator) and multiply by 100; the GDP deflator is a price index used to convert between nominal and real GDP - analogous to how the CPI converts nominal wages to real wages.",
     "reference": "MEA-1.F | MEA-1.F.3 | MEA-1.F.4",
     "graphDescription": "",
@@ -1798,26 +1798,26 @@
     "options": [
       {
         "label": "A",
-        "text": "The country had 10% inflation because the CPI is a positive number."
+        "text": "The country had exactly 90% inflation relative to the base year"
       },
       {
         "label": "B",
-        "text": "The country experienced price stability because the CPI is close to 100."
+        "text": "The CPI cannot be below 100, so this scenario is impossible"
       },
       {
         "label": "C",
-        "text": "The country had a price level 10% BELOW the base year — prices in Year 1 were lower than in the base year. This could indicate deflation occurred between the base year and Year 1."
+        "text": "The country had 10% inflation because the CPI is a positive number"
       },
       {
         "label": "D",
-        "text": "The CPI cannot be below 100, so this scenario is impossible."
+        "text": "Prices are 10% below the base-year level"
       },
       {
         "label": "E",
-        "text": "The country had exactly 90% inflation relative to the base year."
+        "text": "The country experienced price stability because the CPI is close to 100"
       }
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "A CPI of 90 means the basket costs 90% of what it cost in the base year - prices are 10% LOWER than the base year. This could reflect deflation that occurred since the base year was set, or it could mean the base year was chosen during a period of relatively high prices; A CPI below 100 is possible and indicates a price level below the base-year reference point.",
     "reference": "MEA-1.F | MEA-1.F.2",
     "graphDescription": "",
@@ -1830,23 +1830,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Y0: $40,000; Y1: $40,300; Y2: $40,000 — real wages peaked in Year 1."
+        "text": "$40,000, $40,300, $40,000; year 1 is highest"
       },
       {
         "label": "B",
-        "text": "Y0: $40,000; Y1: $40,300; Y2: $40,000 — up then back to start."
+        "text": "Y0: $40,000; Y1: $40,300; Y2: $40,000 — up then back to start"
       },
       {
         "label": "C",
-        "text": "Y0: $40,000; Y1: $40,300; Y2: $40,000. Real wage rose 0.75% in Year 1 then fell back. Overall, real wages are unchanged."
+        "text": "Y0: $40,000; Y1: $40,112; Y2: $40,000 — real wages slightly up then flat"
       },
       {
         "label": "D",
-        "text": "Y0: $40,000; Y1: $43,120; Y2: $44,960 — nominal wages rose each year."
+        "text": "Y0: $40,000; Y1: $43,120; Y2: $44,960 — nominal wages rose each year"
       },
       {
         "label": "E",
-        "text": "Y0: $40,000; Y1: $40,112; Y2: $40,000 — real wages slightly up then flat."
+        "text": "Y0: $40,000; Y1: $40,300; Y2: $40,000. Real wage rose 0.75% in Year 1 then fell back. Overall, real wages are unchanged"
       }
     ],
     "answer": "A",
@@ -1862,23 +1862,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Workers will receive inadequate protection from inflation because the CPI understates it."
+        "text": "Workers will receive exactly the right COLA because the CPI perfectly measures inflation"
       },
       {
         "label": "B",
-        "text": "Workers will receive compensation that slightly overpays for actual inflation — CPI-based COLA adjustments are larger than needed to maintain true purchasing power, giving workers a small real wage increase each year that substitution bias masked."
+        "text": "COLA exceeds the increase needed to preserve true purchasing power"
       },
       {
         "label": "C",
-        "text": "Workers will receive exactly the right COLA because the CPI perfectly measures inflation."
+        "text": "Workers should use the PPI instead of the CPI for COLA adjustments"
       },
       {
         "label": "D",
-        "text": "Workers should use the PPI instead of the CPI for COLA adjustments."
+        "text": "COLA adjustments tied to CPI always reduce real wages"
       },
       {
         "label": "E",
-        "text": "COLA adjustments tied to CPI always reduce real wages."
+        "text": "Workers will receive inadequate protection from inflation because the CPI understates it"
       }
     ],
     "answer": "B",
@@ -1894,26 +1894,26 @@
     "options": [
       {
         "label": "A",
-        "text": "(a) Y1=106, Y2=110.25, Y3=113.5; (b) Y1=6%, Y2≈4%, Y3≈2.95%; (c) Disinflation; (d) Year 1 faster."
+        "text": "CPI: 106, 110.25, 113.5; inflation: 6%, 6%, 6%; constant inflation; equally fast"
       },
       {
         "label": "B",
-        "text": "(a) Y1=106, Y2=110.25, Y3=113.5; (b) Y1=6%, Y2=4.25%, Y3=2.95%; (c) Deflation; (d) Year 1 faster."
+        "text": "CPI: 106, 110.5, 114; inflation: 6%, 4.5%, 3.2%; disinflation; Year 1 fastest"
       },
       {
         "label": "C",
-        "text": "(a) Y1=106, Y2=110.25, Y3=113.5; (b) Y1=6%, Y2≈4%, Y3≈2.95%; (c) Disinflation; (d) Year 3 faster."
+        "text": "CPI: 106, 110.25, 113.5; inflation: 6%, 4.25%, 2.95%; deflation; Year 1 fastest"
       },
       {
         "label": "D",
-        "text": "(a) Y1=106, Y2=110.5, Y3=114; (b) Y1=6%, Y2=4.5%, Y3=3.2%; (c) Inflation; (d) Year 1 faster."
+        "text": "CPI: 106, 110.25, 113.5; inflation: 6%, 4.01%, 2.95%; disinflation; Year 1 fastest"
       },
       {
         "label": "E",
-        "text": "(a) Y1=106, Y2=110.25, Y3=113.5; (b) same each year; (c) constant inflation; (d) same rate."
+        "text": "CPI: 106, 110.25, 113.5; inflation: 6%, 4.01%, 2.95%; disinflation; Year 3 fastest"
       }
     ],
-    "answer": "A",
+    "answer": "D",
     "explanation": "(a) Y1 CPI=(1,272÷1,200)×100=106; Y2=(1,323÷1,200)×100=110.25; Y3=(1,362÷1,200)×100=113.5; (b) Y1: 6%; Y2: [(1,323-1,272)÷1,272]×100=(51÷1,272)×100≈4.01%; Y3: [(1,362-1,323)÷1,323]×100=(39÷1,323)×100≈2.95%. (c) Annual rates fall each year (6%→4%→~3%): disinflation; (d) Year 1 had the highest inflation rate (6%) - prices rose fastest in Year 1.",
     "reference": "MEA-1.F | MEA-1.F.1 | MEA-1.F.2 | MEA-1.F.3",
     "graphDescription": "",
@@ -1926,26 +1926,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Worker A — she earned more nominal dollars."
+        "text": "Neither worker experienced real gains because inflation exceeded 15%"
       },
       {
         "label": "B",
-        "text": "Worker B — he had lower initial wages, so growth matters more."
+        "text": "Both gain approximately 4.35% in real wages"
       },
       {
         "label": "C",
-        "text": "Both workers experienced identical real wage gains. Worker A: real wage rose from $50,000 to $52,174 (+4.35%). Worker B: real wage rose from $45,000 to $46,957 (+4.35%). The percentage real wage gain is identical because both had the same nominal growth rate (20%) compared to the same inflation (15%)."
+        "text": "Worker A experienced greater gains because her nominal raise was $10,000 vs. $9,000"
       },
       {
         "label": "D",
-        "text": "Worker A experienced greater gains because her nominal raise was $10,000 vs. $9,000."
+        "text": "Worker B — he had lower initial wages, so growth matters more"
       },
       {
         "label": "E",
-        "text": "Neither worker experienced real gains because inflation exceeded 15%."
+        "text": "Worker A — she earned more nominal dollars"
       }
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "Worker A: real gain = (60,000÷115)×100 - 50,000 = 52,174 - 50,000 = +$2,174 (+4.35%). Worker B: real gain = (54,000÷115)×100 - 45,000 = 46,957 - 45,000 = +$1,957 (+4.35%); both nominal wages grew 20% (Worker A: 60K/50K; Worker B: 54K/45K) against 15% inflation; the percentage real gain is identical (≈4.35%) regardless of the absolute dollar amounts.",
     "reference": "MEA-1.F | MEA-1.F.4",
     "graphDescription": "",
@@ -1958,26 +1958,26 @@
     "options": [
       {
         "label": "A",
-        "text": "The student is correct — the basket cost increased by $500, and $500/$2,500 = 20%."
+        "text": "25%; compare the increase with the $2,000 base cost"
       },
       {
         "label": "B",
-        "text": "The economist is correct — the inflation rate = [(2,500−2,000)÷2,000]×100 = 25%. The denominator must be the BASE-YEAR cost ($2,000), not the current-year cost ($2,500)."
+        "text": "Neither is correct — the inflation rate is exactly $500"
       },
       {
         "label": "C",
-        "text": "Both are wrong — inflation must be measured using the CPI formula, not basket costs."
+        "text": "Both are wrong — inflation must be measured using the CPI formula, not basket costs"
       },
       {
         "label": "D",
-        "text": "The student is correct for CPI purposes; the economist is correct for GDP purposes."
+        "text": "The student is correct for CPI purposes; the economist is correct for GDP purposes"
       },
       {
         "label": "E",
-        "text": "Neither is correct — the inflation rate is exactly $500."
+        "text": "The student is correct — the basket cost increased by $500, and $500/$2,500 = 20%"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "Inflation rate = [(Current - Base) ÷ Base] × 100 = [(2,500 - 2,000) ÷ 2,000] × 100 = 25%. The student's error: dividing by the current-year cost ($2,500 → 20%) instead of the base-year cost ($2,000 → 25%); percentage change always uses the starting value as the denominator; this is the same error as dividing the numerator by the wrong year in the inflation formula.",
     "reference": "MEA-1.F | MEA-1.F.3",
     "graphDescription": "",
@@ -1990,26 +1990,26 @@
     "options": [
       {
         "label": "A",
-        "text": "A 50% price increase in a good representing 2% of the basket."
+        "text": "A 40% price increase in a good representing 3% of the basket"
       },
       {
         "label": "B",
-        "text": "A 10% price increase in a good representing 30% of the basket."
+        "text": "A 50% price increase in a good representing 2% of the basket"
       },
       {
         "label": "C",
-        "text": "A 40% price increase in a good representing 3% of the basket."
+        "text": "A 10% price increase in a good representing 30% of the basket"
       },
       {
         "label": "D",
-        "text": "A 20% price increase in a good representing 5% of the basket."
+        "text": "A 100% price increase in a good representing 1% of the basket"
       },
       {
         "label": "E",
-        "text": "A 100% price increase in a good representing 1% of the basket."
+        "text": "A 20% price increase in a good representing 5% of the basket"
       }
     ],
-    "answer": "B",
+    "answer": "C",
     "explanation": "Impact on CPI ≈ Price change × Spending weight; A: 50% × 2% = 1.0 pp; B: 10% × 30% = 3.0 pp; C: 40% × 3% = 1.2 pp. D: 20% × 5% = 1.0 pp; E: 100% × 1% = 1.0 pp; A large price change on a small-weight item has less impact than a moderate change on a high-weight item.",
     "reference": "MEA-1.F | MEA-1.F.2",
     "graphDescription": "",
@@ -2022,23 +2022,23 @@
     "options": [
       {
         "label": "A",
-        "text": "True rate ≈ 8.89%, because we add the bias to get the true rate."
+        "text": "True rate ≈ 8.89%, because we add the bias to get the true rate"
       },
       {
         "label": "B",
-        "text": "True rate ≈ 6.49%, because we subtract the 1.2 pp substitution bias from the measured 7.69%."
+        "text": "Approximately 6.49%, after subtracting the assumed bias"
       },
       {
         "label": "C",
-        "text": "True rate ≈ 7.69% — bias does not affect the calculated rate."
+        "text": "True rate ≈ 9.23%, because we multiply by the bias factor"
       },
       {
         "label": "D",
-        "text": "True rate ≈ 1.2%, because substitution bias is the entire measured rate."
+        "text": "True rate ≈ 1.2%, because substitution bias is the entire measured rate"
       },
       {
         "label": "E",
-        "text": "True rate ≈ 9.23%, because we multiply by the bias factor."
+        "text": "True rate ≈ 7.69% — bias does not affect the calculated rate"
       }
     ],
     "answer": "B",
@@ -2058,22 +2058,22 @@
       },
       {
         "label": "B",
-        "text": "CPI = 111.4; Good A contributes 0 pp; Good B contributes 11.4 pp"
-      },
-      {
-        "label": "C",
-        "text": "CPI = 110; Good A contributes 0 pp; Good B contributes 10 pp"
-      },
-      {
-        "label": "D",
         "text": "CPI = 120; Good A and B each contribute 10 pp"
       },
       {
-        "label": "E",
+        "label": "C",
+        "text": "CPI=111.4; A contributes 0 points, B contributes 11.4"
+      },
+      {
+        "label": "D",
         "text": "CPI = 112.5; Good A contributes 6.25 pp; Good B contributes 6.25 pp"
+      },
+      {
+        "label": "E",
+        "text": "CPI = 110; Good A contributes 0 pp; Good B contributes 10 pp"
       }
     ],
-    "answer": "B",
+    "answer": "C",
     "explanation": "The basket cost rises from $350 to $390, so CPI is 390/350 x 100 = 111.4 and inflation is 11.4 percent. Good A's price is unchanged, while Good B accounts for the entire $40 increase and therefore all 11.4 percentage points of inflation.",
     "reference": "MEA-1.F | MEA-1.F.2 | MEA-1.F.3",
     "graphDescription": "",
@@ -2086,7 +2086,7 @@
     "options": [
       {
         "label": "A",
-        "text": "Y0→Y1: inflation (5%); Y1→Y2: deflation (−1.9%); Y2→Y3: deflation (−1.94%); Cumulative: +1% (still above Year 0)"
+        "text": "5%,−1.9%,−1.94%; final prices remain 1% above base"
       },
       {
         "label": "B",
@@ -2094,18 +2094,18 @@
       },
       {
         "label": "C",
-        "text": "Y0→Y1: inflation; Y1→Y2: deflation; Y2→Y3: deflation; Cumulative: +1%"
+        "text": "All years: deflation. Cumulative: −1%"
       },
       {
         "label": "D",
-        "text": "All years: deflation. Cumulative: −1%."
+        "text": "Y0→Y1: inflation; Y1→Y2: deflation; Y2→Y3: deflation; Cumulative: +1%"
       },
       {
         "label": "E",
-        "text": "Y0→Y1: 5% inflation; Y1→Y2: −1.9% deflation; Y2→Y3: −1.94% deflation; Cumulative price level: 1% above base."
+        "text": "Y0→Y1: inflation (5%); Y1→Y2: deflation (−1.9%); Y2→Y3: deflation (−1.94%); Cumulative: +1% (still above Year 0)"
       }
     ],
-    "answer": "E",
+    "answer": "A",
     "explanation": "Y0→Y1: [(105-100)÷100]×100 = 5% → Inflation; Y1→Y2: [(103-105)÷105]×100 = (-2÷105)×100 ≈ -1.9% → Deflation; Y2→Y3: [(101-103)÷103]×100 = (-2÷103)×100 ≈ -1.94% → Deflation. Cumulative: the CPI is 101 at the end of Year 3 vs. 100 at Year 0 → prices are still 1% above the base year overall, despite two years of deflation after the initial rise.",
     "reference": "MEA-1.F | MEA-1.F.1 | MEA-1.F.3",
     "graphDescription": "",
@@ -2118,26 +2118,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Decreased — $60,000 < $65,000."
+        "text": "Increased only if inflation was above 10%"
       },
       {
         "label": "B",
-        "text": "Increased — real wages rose despite the nominal pay cut, because prices fell proportionally more than wages."
+        "text": "Decreased — $60,000 < $65,000"
       },
       {
         "label": "C",
-        "text": "Unchanged — both nominal wages and prices fell."
+        "text": "Unchanged — both nominal wages and prices fell"
       },
       {
         "label": "D",
-        "text": "Decreased — any reduction in nominal wages reduces real wages."
+        "text": "Decreased — any reduction in nominal wages reduces real wages"
       },
       {
         "label": "E",
-        "text": "Increased only if inflation was above 10%."
+        "text": "Increased, because prices fell proportionally more than wages"
       }
     ],
-    "answer": "B",
+    "answer": "E",
     "explanation": "Real wage Y1 = (65,000÷130)×100 = $50,000; real wage Y2 = (60,000÷115)×100 ≈ $52,174; real wages ROSE from $50,000 to $52,174 despite a nominal pay cut from $65,000 to $60,000. This is possible because prices fell even more than wages - CPI dropped from 130 to 115 (a 11.5% fall) while nominal wages dropped only 7.7%; the real wage comparison corrects for the price level change.",
     "reference": "MEA-1.F | MEA-1.F.4",
     "graphDescription": "",
@@ -2150,26 +2150,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Country X — it started lower and grew proportionally more."
+        "text": "Both countries reach the same CPI because they have the same inflation rate"
       },
       {
         "label": "B",
-        "text": "Country Y — it started from 180 and grew 4%, yielding CPI = 187.2."
+        "text": "Country X — it started lower and grew proportionally more"
       },
       {
         "label": "C",
-        "text": "Both countries reach the same CPI because they have the same inflation rate."
+        "text": "Cannot be determined without knowing basket compositions"
       },
       {
         "label": "D",
-        "text": "Country X — lower CPI values always outpace higher ones."
+        "text": "Country Y, with CPI=187.2"
       },
       {
         "label": "E",
-        "text": "Cannot be determined without knowing basket compositions."
+        "text": "Country X — lower CPI values always outpace higher ones"
       }
     ],
-    "answer": "B",
+    "answer": "D",
     "explanation": "Country X: CPI = 100 × 1.04 = 104; country Y: CPI = 180 × 1.04 = 187.2; country Y has the higher CPI level because it started from a higher base. The same 4% rate produces a larger absolute CPI increase when applied to a larger base: 4% of 180 = 7.2 points vs. 4% of 100 = 4 points; this shows that CPI levels cannot be compared across countries without knowing their base years and starting points.",
     "reference": "MEA-1.F | MEA-1.F.2 | MEA-1.F.3",
     "graphDescription": "",
@@ -2182,26 +2182,26 @@
     "options": [
       {
         "label": "A",
-        "text": "The CPI fell by 3.2% this month."
+        "text": "Individual consumer prices each rose by exactly 3.2%"
       },
       {
         "label": "B",
-        "text": "The CPI is now 3.2 points above 100."
+        "text": "The CPI is now 3.2 points above 100"
       },
       {
         "label": "C",
-        "text": "The inflation rate this month was 3.2% (annualized) — the current CPI is 3.2% higher than the CPI from the comparison period (typically 12 months earlier). The overall price level rose by 3.2%."
+        "text": "The price level fell by 3.2% due to consumer confusion"
       },
       {
         "label": "D",
-        "text": "Individual consumer prices each rose by exactly 3.2%."
+        "text": "The CPI fell by 3.2% this month"
       },
       {
         "label": "E",
-        "text": "The price level fell by 3.2% due to consumer confusion."
+        "text": "Prices rose 3.2% over the stated comparison period"
       }
     ],
-    "answer": "C",
+    "answer": "E",
     "explanation": "A 3.2% CPI increase means the inflation rate was 3.2% - the overall price level rose by 3.2% compared to the prior period. Individual goods prices may have varied widely (some rose more, some less, some fell), but the weighted average across the basket increased by 3.2%; this is the standard meaning of \"consumer prices increased X%.\".",
     "reference": "MEA-1.F | MEA-1.F.3",
     "graphDescription": "",
@@ -2214,26 +2214,26 @@
     "options": [
       {
         "label": "A",
-        "text": "$10,000 — nominal payments always equal their face value."
+        "text": "$10,000 — nominal payments always equal their face value"
       },
       {
         "label": "B",
-        "text": "$16,200 — the payment grows with the CPI."
+        "text": "$16,200 — the payment grows with the CPI"
       },
       {
         "label": "C",
-        "text": "$6,173 — the real value = ($10,000 ÷ 162) × 100 ≈ $6,173, meaning 62% cumulative inflation has eroded the payment's real value by nearly 38%."
+        "text": "$8,000 — a rough estimate based on a typical real discount"
       },
       {
         "label": "D",
-        "text": "$8,000 — a rough estimate based on a typical real discount."
+        "text": "$12,000 — the bond was designed to keep pace with inflation"
       },
       {
         "label": "E",
-        "text": "$12,000 — the bond was designed to keep pace with inflation."
+        "text": "Approximately $6,173 in base-year purchasing power"
       }
     ],
-    "answer": "C",
+    "answer": "E",
     "explanation": "Real value = (10,000 ÷ 162) × 100 = $6,173; with CPI rising from 100 to 162, there has been 62% cumulative inflation. The $10,000 nominal payment in Year 10 buys only what $6,173 would have purchased when the bond was issued - a 38.3% loss in real purchasing power; fixed-nominal assets lose real value during sustained inflation.",
     "reference": "MEA-1.F | MEA-1.F.4",
     "graphDescription": "",
@@ -2246,26 +2246,26 @@
     "options": [
       {
         "label": "A",
-        "text": "(a) CPI=107; Inflation=7%; (b) CPI=116.7; Year 3 inflation≈9%; (c) Inflation accelerating — not disinflation"
+        "text": "(a) CPI=107; Inflation=7%; (b) CPI=115.7; Year 3 inflation approximately 8.1%; (c) Re-acceleration of inflation"
       },
       {
         "label": "B",
-        "text": "(a) CPI=107; Inflation=7%; (b) CPI=115.7; Year 3 inflation approximately 8.1%; (c) Re-acceleration of inflation."
+        "text": "CPI:107,116.7; inflation:7%,≈9%; inflation accelerates"
       },
       {
         "label": "C",
-        "text": "(a) CPI=107; Inflation=7%; (b) CPI=116.7; Year 3 inflation≈8.4%; (c) Inflation"
+        "text": "(a) CPI=107; Inflation=7%; (b) CPI=116.7; Year 3 inflation≈9%; (c) Disinflation"
       },
       {
         "label": "D",
-        "text": "(a) CPI=107; Inflation=7%; (b) CPI=116.7; Year 3 inflation≈9%; (c) Disinflation"
+        "text": "(a) CPI=107; Inflation=7%; (b) CPI=116.7; Year 3 inflation≈8.4%; (c) Inflation"
       },
       {
         "label": "E",
         "text": "(a) CPI=107; Inflation=7%; (b) CPI=116.7; Year 3 inflation≈9%; (c) Deflation"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "(a) Y2 CPI=(963÷900)×100=107; inflation=7%; (b) Y3 CPI=(1,050÷900)×100=116.7; Y3 inflation=[(1,050-963)÷963]×100=(87÷963)×100≈9.03%. (c) Inflation rate rose from 7% to 9% - this is the OPPOSITE of disinflation (accelerating inflation); prices continue to rise, and the rate of increase is growing; this is re-acceleration of inflation, not disinflation or deflation.",
     "reference": "MEA-1.F | MEA-1.F.1 | MEA-1.F.2 | MEA-1.F.3",
     "graphDescription": "",
@@ -2278,23 +2278,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Real wages rose because the 3% raise exceeded the 5% inflation expectation."
+        "text": "Real wages rose by 2% because actual inflation was higher than expected"
       },
       {
         "label": "B",
-        "text": "Real wages are unchanged — expected and actual inflation always cancel out."
+        "text": "Real wages are unchanged — expected and actual inflation always cancel out"
       },
       {
         "label": "C",
-        "text": "Real wages fell — because actual inflation (5%) exceeded the nominal raise (which was based on 3% expected inflation). Workers received less real compensation than they expected."
+        "text": "Real wages fall because prices rise more than nominal wages"
       },
       {
         "label": "D",
-        "text": "Real wages rose by 2% because actual inflation was higher than expected."
+        "text": "The employer benefits; the worker is unaffected by inflation surprises"
       },
       {
         "label": "E",
-        "text": "The employer benefits; the worker is unaffected by inflation surprises."
+        "text": "Real wages rose because the 3% raise exceeded the 5% inflation expectation"
       }
     ],
     "answer": "C",
@@ -2314,19 +2314,19 @@
       },
       {
         "label": "B",
-        "text": "Real GDP = $6.25T; Real consumer spending = $3.54T"
-      },
-      {
-        "label": "C",
         "text": "Real GDP = $4T; Real consumer spending = $2.54T"
       },
       {
+        "label": "C",
+        "text": "Real GDP = $5T; Real consumer spending = $3T"
+      },
+      {
         "label": "D",
-        "text": "Real GDP = $4T; Real consumer spending = $3T"
+        "text": "Real GDP = $6.25T; Real consumer spending = $3.54T"
       },
       {
         "label": "E",
-        "text": "Real GDP = $5T; Real consumer spending = $3T"
+        "text": "Real GDP = $4T; Real consumer spending = $3T"
       }
     ],
     "answer": "A",
@@ -2342,26 +2342,26 @@
     "options": [
       {
         "label": "A",
-        "text": "(a) $232; (b) CPI=115.9, Inflation=15.9%; (c) CPI=119.8, Inflation≈3.4%; (d) Disinflation"
-      },
-      {
-        "label": "B",
         "text": "(a) $232; (b) CPI=115.1, Inflation=15.1%; (c) CPI=119.8, Inflation≈4.1%; (d) Inflation"
       },
       {
-        "label": "C",
-        "text": "(a) $232; (b) CPI=112.9, Inflation=12.9%; (c) CPI=116.4, Inflation approximately 3.1%; (d) Disinflation"
-      },
-      {
-        "label": "D",
+        "label": "B",
         "text": "(a) $240; (b) CPI=115, Inflation=15%; (c) CPI=120, Inflation=4.3%; (d) Disinflation"
       },
       {
-        "label": "E",
+        "label": "C",
         "text": "(a) $232; (b) CPI=115.1, Inflation=15.1%; (c) CPI=119.8, Inflation≈4.1%; (d) Deflation"
+      },
+      {
+        "label": "D",
+        "text": "(a) $232; (b) CPI=115.9, Inflation=15.9%; (c) CPI=119.8, Inflation≈3.4%; (d) Disinflation"
+      },
+      {
+        "label": "E",
+        "text": "(a) $232; (b) CPI=112.9, Inflation=12.9%; (c) CPI=116.4, Inflation approximately 3.1%; (d) Disinflation"
       }
     ],
-    "answer": "C",
+    "answer": "E",
     "explanation": "The basket costs $232 in the base year, $262 in Year 1, and $270 in Year 2, giving CPI values of 112.9 and 116.4. Inflation slows from 12.9 percent in Year 1 to about 3.1 percent in Year 2, so the economy experiences disinflation.",
     "reference": "MEA-1.F | MEA-1.F.2 | MEA-1.F.3",
     "graphDescription": "",
@@ -2374,26 +2374,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Y0=$48K; Y1=$48K; Y2=$48K; Y3=$48K — real wages unchanged throughout."
+        "text": "Y0=$48,000; Y1=$48,000; Y2=$48,000; Y3=$50,000 - real wages grow only in Year 3"
       },
       {
         "label": "B",
-        "text": "Y0=$48K; Y1=$47K; Y2=$46K; Y3=$45K - real wages decline each year."
+        "text": "Y0=$48,000; Y1=$46,000; Y2=$48,000; Y3=$50,000 - real wages first decline and then grow"
       },
       {
         "label": "C",
-        "text": "Y0=$48,000; Y1=$49,000; Y2=$50,000; Y3=$51,000 - real wages grow each year."
+        "text": "Y0=$48K; Y1=$48K; Y2=$48K; Y3=$48K — real wages unchanged throughout"
       },
       {
         "label": "D",
-        "text": "Y0=$48,000; Y1=$48,000; Y2=$48,000; Y3=$50,000 - real wages grow only in Year 3."
+        "text": "Y0=$48,000; Y1=$49,000; Y2=$50,000; Y3=$51,000 - real wages grow each year"
       },
       {
         "label": "E",
-        "text": "Y0=$48,000; Y1=$46,000; Y2=$48,000; Y3=$50,000 - real wages first decline and then grow."
+        "text": "Y0=$48K; Y1=$47K; Y2=$46K; Y3=$45K - real wages decline each year"
       }
     ],
-    "answer": "A",
+    "answer": "C",
     "explanation": "Y0: (48,000÷100)×100 = $48,000; Y1: (51,840÷108)×100 = $48,000 [nominal grew 8%; CPI grew 8%]; Y2: (54,720÷114)×100 = $48,000 [nominal grew 5.56%; CPI grew 5.56%]. Y3: (56,640÷118)×100 = $48,000 [nominal grew 3.5%; CPI grew 3.51%]; every year, the nominal raise was calibrated exactly to match inflation - a perfect COLA. Real wages are unchanged throughout; this illustrates that a nominal raise equal to the inflation rate leaves purchasing power intact but does not improve it.",
     "reference": "MEA-1.F | MEA-1.F.4",
     "graphDescription": "",
@@ -2406,23 +2406,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Y0=$40K; Y1=$41,121; Y2=$41,121; Y3=$41,723 — rising real wages throughout."
+        "text": "Real wages: $40,000, $41,121, $44,000, $41,723; Year 2 rises"
       },
       {
         "label": "B",
-        "text": "Y0=$40K; Y1=$41,121; Y2=$41,121; Y3=$41,723 — real wages rose from Y0 to Y1, flat from Y1 to Y2, rose again to Y3."
+        "text": "Real wages: $40,000, $41,121, $40,000, $41,723; Year 2 falls"
       },
       {
         "label": "C",
-        "text": "Y0=$40K; Y1=$41,121; Y2=$41,121; Y3=$41,723. Y2 explanation: nominal wages AND prices are both unchanged from Y1 — so the real wage is identical in Y1 and Y2, representing price stability with no real wage change."
+        "text": "Real wages: $40,000, $41,121, $41,121, $41,723; Year 2 unchanged"
       },
       {
         "label": "D",
-        "text": "Y0=$40K; Y1=$41,121; Y2=$44,000; Y3=$41,723 — Y2 nominal wage equals real wage."
+        "text": "Real wages: $40,000, $41,121, $41,121, $41,723; Year 2 falls"
       },
       {
         "label": "E",
-        "text": "Y0=$40K; Y1=$41,121; Y2=$41,121; Y3=$41,723 — real wages flat from Y0 to Y3."
+        "text": "Real wages: $40,000, $41,121, $41,121, $41,723; Year 2 rises"
       }
     ],
     "answer": "C",
@@ -2438,27 +2438,27 @@
     "options": [
       {
         "label": "A",
-        "text": "(a) 19.3%; (b) Y0=$50K, Y5=$50K; (c) 0%; (d) Exactly matched inflation."
+        "text": "Inflation: 19.3%; real wages: $50,000 → $48,000; real growth: −4%; lagged inflation"
       },
       {
         "label": "B",
-        "text": "(a) 19.3%; (b) Y0=$50K, Y5=$49,958; (c) ≈ −0.08%; (d) Slightly lagged inflation."
+        "text": "Inflation: 19.3%; real wages: $50,000 → $49,958; real growth: −0.08%; lagged inflation"
       },
       {
         "label": "C",
-        "text": "(a) 19.3%; (b) Y0=$50K, Y5=$50,000; (c) 0%; (d) Exactly matched."
+        "text": "Inflation: 19.3%; real wages: $50,000 → $50,000; real growth: zero; matched inflation"
       },
       {
         "label": "D",
-        "text": "(a) 19.3%; (b) Y0=$50K, Y5=$50,042; (c) ≈ +0.08%; (d) Slightly exceeded inflation."
+        "text": "Inflation: 19.3%; real wages: $50,000 → $59,650; real growth: +19.3%; exceeded inflation"
       },
       {
         "label": "E",
-        "text": "(a) 19.3%; (b) Y0=$50K, Y5=$50,042; (c) ≈ +0.08%; (d) Slightly exceeded."
+        "text": "Inflation: 19.3%; real wages: $50,000 → $50,042; real growth: +0.08%; exceeded inflation"
       }
     ],
-    "answer": "E",
-    "explanation": "(a) Cumulative inflation = [(119.3-100)÷100]×100 = 19.3%; (b) Y0 real=(50,000÷100)×100=$50,000; Y5 real=(59,650÷119.3)×100≈$50,042; (c) Change=[(50,042-50,000)÷50,000]×100≈+0.08%. (d) The worker's nominal wages grew 59,650/50,000-1=19.3% exactly... wait: 59,650/50,000=1.193 which is exactly 19.3% nominal growth matching 19.3% inflation → real wage = $50,000; if exactly $50,000 it matched; if $50,042 then slightly exceeded; answer E with $50,042 suggests nominal grew by 19.3% + a tiny bit more.",
+    "answer": "C",
+    "explanation": "Cumulative inflation is 119.3/100 − 1 = 19.3%. Nominal wages also rise by 59,650/50,000 − 1 = 19.3%. Real wages are $50,000 initially and $59,650/1.193 = $50,000 finally. Purchasing power stays exactly unchanged; the nominal raise matches inflation.",
     "reference": "MEA-1.F | MEA-1.F.3 | MEA-1.F.4",
     "graphDescription": "",
     "graphRequired": false
@@ -2470,26 +2470,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Y1=102; Y2=104.55; Y3=107.69; Y4=111.45; Accelerating inflation; Cumulative≈11.45%"
-      },
-      {
-        "label": "B",
-        "text": "Y1=102; Y2=104.5; Y3=107.6; Y4=111.4; Disinflation; Cumulative=11.4%"
-      },
-      {
-        "label": "C",
         "text": "Y1=102; Y2=104.55; Y3=107.69; Y4=111.45; Disinflation; Cumulative≈11.45%"
       },
       {
-        "label": "D",
+        "label": "B",
+        "text": "Y1=102; Y2=104.55; Y3=107.69; Y4=111.45; Deflation; Cumulative≈11.45%"
+      },
+      {
+        "label": "C",
         "text": "Y1=102; Y2=104.55; Y3=107.69; Y4=111.45; Constant inflation; Cumulative≈11.45%"
       },
       {
+        "label": "D",
+        "text": "Y1=102; Y2=104.55; Y3=107.69; Y4=111.45; Accelerating inflation; Cumulative≈11.45%"
+      },
+      {
         "label": "E",
-        "text": "Y1=102; Y2=104.55; Y3=107.69; Y4=111.45; Deflation; Cumulative≈11.45%"
+        "text": "Y1=102; Y2=104.5; Y3=107.6; Y4=111.4; Disinflation; Cumulative=11.4%"
       }
     ],
-    "answer": "A",
+    "answer": "D",
     "explanation": "Y1: 100×1.02=102; Y2: 102×1.025=104.55; Y3: 104.55×1.03=107.69; Y4: 107.69×1.035=111.45; cumulative=11.45%. Annual inflation rates rise each year: 2%→2.5%→3%→3.5% - this is ACCELERATING inflation (the opposite of disinflation); prices rise every year AND the rate of increase grows each year.",
     "reference": "MEA-1.F | MEA-1.F.1 | MEA-1.F.3",
     "graphDescription": "",
@@ -2502,26 +2502,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Both are wrong — the CPI is perfectly accurate."
+        "text": "An outdated basket can misrepresent spending; substitution bias tends to overstate inflation"
       },
       {
         "label": "B",
-        "text": "The advocacy group is right; the economist misunderstands the fixed-basket problem."
+        "text": "The economist is correct, but only during periods of deflation"
       },
       {
         "label": "C",
-        "text": "Both arguments contain valid elements but point to different effects. The advocacy group's intuition is that an outdated basket may miss new expensive items consumers now buy — a valid concern about the basket becoming unrepresentative. The economist is correct that the primary measured bias is substitution bias (MEA-1.G.1) — which overstates inflation by ignoring substitution toward cheaper goods. The net effect of all biases generally leads economists to conclude that the CPI overstates the true cost-of-living increase, consistent with MEA-1.G.1."
+        "text": "The advocacy group is right; the economist misunderstands the fixed-basket problem"
       },
       {
         "label": "D",
-        "text": "The advocacy group is correct — old baskets always understate inflation."
+        "text": "The advocacy group is correct — old baskets always understate inflation"
       },
       {
         "label": "E",
-        "text": "The economist is correct, but only during periods of deflation."
+        "text": "Both are wrong — the CPI is perfectly accurate"
       }
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "The advocacy group points to basket-representativeness concerns (outdated basket may miss expensive new categories). The economist refers to substitution bias - the dominant known bias (MEA-1.G.1) that causes the CPI to OVERSTATE inflation. Economists' consensus is that the cumulative effect of substitution bias, new-goods bias, and quality-improvement bias leads to CPI overstating true inflation by roughly 0.5-1 pp per year; the fixed basket creates substitution bias that outweighs representativeness concerns in the direction of overstatement.",
     "reference": "MEA-1.G | MEA-1.G.1",
     "graphDescription": "",
@@ -2534,26 +2534,26 @@
     "options": [
       {
         "label": "A",
-        "text": "(a) CPI≈148.0; (b) $40,317; (c) $27,241; (d) real wage fell ≈ −9.2%"
-      },
-      {
-        "label": "B",
-        "text": "(a) CPI approximately 148.0; (b) $40,317; (c) $27,241; (d) real wage fell approximately 8.2%"
-      },
-      {
-        "label": "C",
         "text": "(a) CPI approximately 148.0; (b) $41,317; (c) $27,241; (d) real wage fell approximately 9.2%"
       },
       {
-        "label": "D",
+        "label": "B",
+        "text": "(a) CPI≈148.0; (b) $40,317; (c) $27,241; (d) real wage fell ≈ −9.2%"
+      },
+      {
+        "label": "C",
         "text": "(a) CPI approximately 148.0; (b) $40,317; (c) $28,241; (d) real wage fell approximately 5.9%"
       },
       {
-        "label": "E",
+        "label": "D",
         "text": "(a) CPI≈148.0; (b) $40,317; (c) $30,000; (d) real unchanged"
+      },
+      {
+        "label": "E",
+        "text": "(a) CPI approximately 148.0; (b) $40,317; (c) $27,241; (d) real wage fell approximately 8.2%"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "(a) CPI Y10 = 100×(1.04)^10 = 100×1.4802 ≈ 148.0; (b) Nominal Y10 = 30,000×(1.03)^10 = 30,000×1.3439 ≈ $40,317; (c) Real Y10 = (40,317÷148.0)×100 ≈ $27,241; (d) Real change = [(27,241-30,000)÷30,000]×100 ≈ -9.2%. Over 10 years, 3% annual nominal raises compounded to 34.4% nominal growth, but 4% annual inflation compounded to 48% price growth; the worker's real purchasing power fell about 9.2% over the decade.",
     "reference": "MEA-1.F | MEA-1.F.3 | MEA-1.F.4",
     "graphDescription": "",
@@ -2566,26 +2566,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Y0=$24K; Y1=$22,222; Y2=$20,690; Y3=$20,690; Y4=$21,239; Y5=$20,870 — continuous decline except Y3→Y4."
+        "text": "Y0=$24K; Y1=$22,222; Y2=$20,690; Y3=$20,690; Y4=$21,239; Y5=$20,870 — all years: fell"
       },
       {
         "label": "B",
-        "text": "Y0=$24K; Y1=$22,222; Y2=$20,690; Y3=$20,690; Y4=$21,239; Y5=$20,870. Changes: Y0→Y1: fell; Y1→Y2: fell; Y2→Y3: unchanged; Y3→Y4: rose (deflation boosted real value); Y4→Y5: fell. Overall trend: declining real value with a temporary deflation-driven recovery."
+        "text": "Y0=$24K through Y5=$24K — nominal payments are always real payments"
       },
       {
         "label": "C",
-        "text": "Y0=$24K; Y1=$22,222; Y2=$20,690; Y3=$20,690; Y4=$21,239; Y5=$20,870 — all years: fell."
+        "text": "$24,000,$22,222,$20,690,$20,690,$21,239,$20,870; overall decline"
       },
       {
         "label": "D",
-        "text": "Y0=$24K through Y5=$24K — nominal payments are always real payments."
+        "text": "Y0=$24K; Y1=$25,920; Y2=$27,840 — real pension rose with CPI"
       },
       {
         "label": "E",
-        "text": "Y0=$24K; Y1=$25,920; Y2=$27,840 — real pension rose with CPI."
+        "text": "Y0=$24K; Y1=$22,222; Y2=$20,690; Y3=$20,690; Y4=$21,239; Y5=$20,870 — continuous decline except Y3→Y4"
       }
     ],
-    "answer": "B",
+    "answer": "C",
     "explanation": "Real pension = (24,000 ÷ CPI) × 100; Y0=$24,000; Y1=(24,000÷108)×100=$22,222 (fell); Y2=(24,000÷116)×100=$20,690 (fell); Y3=(24,000÷116)×100=$20,690 (unchanged - CPI flat, zero inflation). Y4=(24,000÷113)×100=$21,239 (rose - deflation increased real value); Y5=(24,000÷115)×100=$20,870 (fell - inflation resumed); the only improvement was Y3→Y4 when deflation (CPI fell from 116 to 113) boosted the real value of the fixed payment.",
     "reference": "MEA-1.F | MEA-1.F.4",
     "graphDescription": "",
@@ -2598,23 +2598,23 @@
     "options": [
       {
         "label": "A",
-        "text": "True — higher inflation always generates higher real wages."
+        "text": "False only if the worker's raise is less than 4%"
       },
       {
         "label": "B",
-        "text": "False — this statement is the opposite of the truth. Real wage gain ≈ Nominal raise − Inflation rate. With 4% nominal raise: if inflation = 2% (disinflation from 8%), real gain ≈ +2%. If inflation = 8% (higher), real gain ≈ 4% − 8% = −4%. The worker gains MORE in real terms when inflation is LOWER (disinflation), not less. Disinflation helps workers with fixed nominal contracts."
+        "text": "False; lower inflation improves purchasing power for a given nominal raise"
       },
       {
         "label": "C",
-        "text": "True — disinflation reduces nominal raises, hurting workers."
+        "text": "True — the statement is correct under all circumstances"
       },
       {
         "label": "D",
-        "text": "True — the statement is correct under all circumstances."
+        "text": "True — disinflation reduces nominal raises, hurting workers"
       },
       {
         "label": "E",
-        "text": "False only if the worker's raise is less than 4%."
+        "text": "True — higher inflation always generates higher real wages"
       }
     ],
     "answer": "B",
@@ -2630,26 +2630,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Y1: Base=$871; Y1 cost=$933.25; CPI approximately 107.15; Inflation approximately 7.15%; Energy and shelter drove Y1. Y2 cost=$954; CPI approximately 109.53; Y2 inflation approximately 2.22%; shelter drove Y2 while the energy decline partly offset it."
+        "text": "Y1: Base=$800; Y1 cost=$900; CPI=112.5; Inflation=12.5%; all goods rose"
       },
       {
         "label": "B",
-        "text": "Y1: Base=$800; Y1 cost=$900; CPI=112.5; Inflation=12.5%; all goods rose."
+        "text": "Y1: Base=$835; Y1 cost=$880; CPI≈105.4; Inflation≈5.4%; Shelter drove"
       },
       {
         "label": "C",
-        "text": "Y1: Base=$835; Y1 cost=$902.25; CPI≈108.1; Inflation≈8.1%. Y2 cost=$927; CPI≈111; Y2 inflation≈2.7%."
+        "text": "Y1: Base=$835; Y1 cost=$902.25; CPI≈108.1; Inflation≈8.1%. Y2 cost=$927; CPI≈111; Y2 inflation≈2.7%"
       },
       {
         "label": "D",
-        "text": "Y1: Base=$835; Y1 cost=$880; CPI≈105.4; Inflation≈5.4%; Shelter drove."
+        "text": "CPI:107.15,109.53; inflation:7.15%,2.22%; energy then shelter dominate"
       },
       {
         "label": "E",
-        "text": "Y1: Base=$835; Y2=$910; CPI≈109; Inflation≈9%."
+        "text": "Y1: Base=$835; Y2=$910; CPI≈109; Inflation≈9%"
       }
     ],
-    "answer": "A",
+    "answer": "D",
     "explanation": "The basket costs $871 in the base year, $933.25 in Year 1, and $954 in Year 2, giving CPI values of 107.15 and 109.53. Inflation is about 7.15 percent in Year 1 and 2.22 percent in Year 2; energy and shelter drive the first increase, while shelter drives the second as lower energy prices partly offset it.",
     "reference": "MEA-1.F | MEA-1.F.2 | MEA-1.F.3",
     "graphDescription": "",
@@ -2658,30 +2658,30 @@
   {
     "id": 84,
     "difficulty": "Hard",
-    "prompt": "A worker argues: \"My nominal wage rose 12% over two years while the CPI rose from 100 to 115. My real wage must have risen because 12% > 15%... wait, that's not right.\" Identify and correct the worker's error, then determine whether real wages rose, fell, or stayed the same.",
+    "prompt": "A worker argues: \"My nominal wage rose 12% over two years while the CPI rose from 100 to 115. My real wage must have risen because my nominal wage increased.\" Identify and correct the worker's error, then determine whether real wages rose, fell, or stayed the same.",
     "options": [
       {
         "label": "A",
-        "text": "The worker is correct — 12% nominal raise exceeds 15% inflation, so real wages rose."
+        "text": "The worker's error is using the wrong base — real wages are unchanged at 12%"
       },
       {
         "label": "B",
-        "text": "The worker has the comparison backwards. Nominal rose 12%; CPI rose 15% (from 100 to 115). Because the PRICE LEVEL rose more (15%) than the nominal wage (12%), real wages FELL. Real wage = (1.12 × old nominal) ÷ 1.15 = (1.12 ÷ 1.15) × old nominal ≈ 0.974 × old nominal. Real wages fell approximately 2.6%."
+        "text": "The worker is correct — inflation always equals the percentage CPI change from 0, not 100"
       },
       {
         "label": "C",
-        "text": "The worker is correct — any positive nominal raise improves real wages."
+        "text": "The worker is correct — any positive nominal raise improves real wages"
       },
       {
         "label": "D",
-        "text": "The worker's error is using the wrong base — real wages are unchanged at 12%."
+        "text": "The worker is correct — 12% nominal raise exceeds 15% inflation, so real wages rose"
       },
       {
         "label": "E",
-        "text": "The worker is correct — inflation always equals the percentage CPI change from 0, not 100."
+        "text": "Real wages fall approximately 2.6%, since prices outpace nominal pay"
       }
     ],
-    "answer": "B",
+    "answer": "E",
     "explanation": "The worker confused \"12% > 15%\" directionality. Nominal wages grew 12% but prices grew 15% (CPI from 100 to 115 = 15% increase). Real wage change ≈ nominal growth - inflation = 12% - 15% = -3% (approximately); more precisely: real factor = (1.12) ÷ (1.15) ≈ 0.9739 → real wages fell ≈ 2.6%; the worker cannot afford as many goods as before - prices outpaced the raise.",
     "reference": "MEA-1.F | MEA-1.F.4",
     "graphDescription": "",
@@ -2694,27 +2694,27 @@
     "options": [
       {
         "label": "A",
-        "text": "Y1 CPI=105.3; Y2 CPI=106.5; Both years show mild inflation."
+        "text": "CPI: 105.30, 104.70; Year 2 inflation: −0.57%; deflation"
       },
       {
         "label": "B",
-        "text": "Y1 CPI=105.3; Y2 CPI=106.1; Year 2 inflation lower than Year 1."
+        "text": "CPI: 106.29, 108.86; Year 2 inflation: −2.42%; deflation"
       },
       {
         "label": "C",
-        "text": "Y1 CPI=105.3; Y2 CPI=106.5; Year 2 shows a slight acceleration in price level above Year 1 CPI, though Year 1→Y2 annual inflation rate is lower than base→Y1 rate."
+        "text": "CPI: 106.29, 108.86; Year 2 inflation: 2.42%; disinflation"
       },
       {
         "label": "D",
-        "text": "Y1 CPI=105.3; Y2 CPI=104.7; Year 2 shows deflation — CPI fell from Y1."
+        "text": "CPI: 105.30, 106.50; Year 2 inflation: 1.14%; disinflation"
       },
       {
         "label": "E",
-        "text": "Y1 CPI=105; Y2 CPI=106; Both show constant mild inflation."
+        "text": "CPI: 106.29, 108.86; Year 2 inflation: 2.42%; accelerating inflation"
       }
     ],
-    "answer": "D",
-    "explanation": "Base=(20×4)+(12×10)+(3×50)=80+120+150=$350; Y1=(20×4.80)+(12×10.50)+(3×50)=96+126+150=$372; Y1 CPI=(372÷350)×100≈106.3; Y2=(20×4.80)+(12×10.00)+(3×55)=96+120+165=$381; Y2 CPI=(381÷350)×100≈108.9; Y2 annual inflation=[(381-372)÷372]×100≈2.4%; both years show CPI > 100 (inflation from base); CPI rose Y1→Y2. The unusual element: Good Y's price FELL in Year 2, partially offsetting Good Z's rise - but the net is still modest inflation. Answer D (deflation Y1→Y2) would require Y2 CPI < Y1 CPI = 106.3; here Y2 = 108.9, so no deflation; correct methodology yields inflation in both years.",
+    "answer": "C",
+    "explanation": "Base basket cost is $350; Year 1 cost is $372; Year 2 cost is $381. CPIs are approximately 106.29 and 108.86. Inflation from base to Year 1 is 6.29%, then falls to (381/372 − 1) × 100 ≈ 2.42% in Year 2. This is disinflation: the price level still rises, even though Good Y’s falling price offsets part of Good Z’s increase.",
     "reference": "MEA-1.F | MEA-1.F.2 | MEA-1.F.3",
     "graphDescription": "",
     "graphRequired": false
@@ -2726,26 +2726,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Correct — a 35-point CPI rise means exactly 35% purchasing power loss."
+        "text": "Correct — the 35% CPI rise directly translates to 35% purchasing power loss"
       },
       {
         "label": "B",
-        "text": "Incorrect — she lost less than 35% purchasing power."
+        "text": "Correct — a 35-point CPI rise means exactly 35% purchasing power loss"
       },
       {
         "label": "C",
-        "text": "Incorrect — she overstates the loss. Purchasing power fell from $30,000 to (30,000÷135)×100=$22,222. The loss = $7,778. As a percentage: (7,778÷30,000)×100=25.9%. The CPI rose 35 points (35% from base), but purchasing power fell only 25.9% — because the percentage decline in purchasing power = (CPI change ÷ new CPI) × 100 = (35÷135)×100≈25.9%, not 35%."
+        "text": "Incorrect — she lost less than 35% purchasing power"
       },
       {
         "label": "D",
-        "text": "Correct — the 35% CPI rise directly translates to 35% purchasing power loss."
+        "text": "Incorrect — she understates the loss; it is actually 40%"
       },
       {
         "label": "E",
-        "text": "Incorrect — she understates the loss; it is actually 40%."
+        "text": "Purchasing power falls 25.9%, rather than 35%"
       }
     ],
-    "answer": "C",
+    "answer": "E",
     "explanation": "The retiree correctly identifies that prices rose 35% (CPI from 100 to 135); but the purchasing power loss is calculated differently: Real value = (30,000÷135)×100 = $22,222. Loss = $30,000 - $22,222 = $7,778; percentage loss = (7,778÷30,000)×100 ≈ 25.9%; the formula: purchasing power loss% = (ΔCPI ÷ New CPI) × 100 = (35÷135)×100 ≈ 25.9%. A 35% price increase reduces purchasing power by less than 35% because the new dollar buys less - not because prices rose 35% of the new (higher) price level.",
     "reference": "MEA-1.F | MEA-1.F.4",
     "graphDescription": "",
@@ -2758,23 +2758,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Y0 highest; Y1; Y2; Y3; Y4 second-highest; Y5; Y6 lowest."
+        "text": "All years equal — nominal wages are flat so real wages do not change"
       },
       {
         "label": "B",
-        "text": "Y4 highest ($49,057) > Y3 ($48,148) > Y0 ($52,000)... wait, Y0 CPI=100 gives highest real."
+        "text": "Y4 highest ($49,057) > Y3 ($48,148) > Y0 ($52,000)... wait, Y0 CPI=100 gives highest real"
       },
       {
         "label": "C",
-        "text": "Y0=$52,000 highest; Y4≈$49,057; Y3≈$48,148; Y5≈$47,706; Y1≈$48,598; Y2≈$46,429; Y6≈$45,614 lowest."
+        "text": "Y0=$52,000 highest; Y4≈$49,057; Y3≈$48,148; Y5≈$47,706; Y1≈$48,598; Y2≈$46,429; Y6≈$45,614 lowest"
       },
       {
         "label": "D",
-        "text": "Y6 highest; Y5 second; Y4 third; rest lower."
+        "text": "Y0 highest; Y1; Y2; Y3; Y4 second-highest; Y5; Y6 lowest"
       },
       {
         "label": "E",
-        "text": "All years equal — nominal wages are flat so real wages do not change."
+        "text": "Y6 highest; Y5 second; Y4 third; rest lower"
       }
     ],
     "answer": "C",
@@ -2790,26 +2790,26 @@
     "options": [
       {
         "label": "A",
-        "text": "The economist is entirely correct — all statistics should be abandoned."
+        "text": "The economist is entirely correct — all statistics should be abandoned"
       },
       {
         "label": "B",
-        "text": "The economist is entirely wrong — CPI bias has no effect on economic statistics."
+        "text": "The economist is entirely wrong — CPI bias has no effect on economic statistics"
       },
       {
         "label": "C",
-        "text": "The economist raises a valid but overstated point. CPI substitution bias (MEA-1.G.1) does affect CPI-adjusted statistics: if true inflation is lower than measured CPI, real GDP growth is higher than reported, real wages fell less than calculated, and poverty thresholds are set too high. However, the bias (typically 0.3–0.8 pp/year) does not invalidate the statistics — it suggests modest corrections. Economic agencies do use alternative deflators (chained CPI, PCE) and acknowledge these limitations. The argument identifies a real measurement challenge but overstates its implications by calling all statistics systematically wrong."
+        "text": "The argument only applies during periods of high inflation above 5%"
       },
       {
         "label": "D",
-        "text": "The economist is correct only for wage statistics, not GDP."
+        "text": "Substitution bias affects some real comparisons without invalidating all statistics"
       },
       {
         "label": "E",
-        "text": "The argument only applies during periods of high inflation above 5%."
+        "text": "The economist is correct only for wage statistics, not GDP"
       }
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "identifies substitution bias as a genuine limitation. The downstream effects are real: CPI-deflated real GDP and real wages appear worse than they truly are if CPI overstates inflation. However: (1) the bias is small (not catastrophic); (2) statistical agencies have developed corrections (chained CPI); (3) the directional conclusion - that true real wage growth is slightly better than CPI-deflated figures suggest - is well-accepted; the economist is directionally correct but overstates by implying all statistics are wrong rather than slightly biased.",
     "reference": "MEA-1.F | MEA-1.G | MEA-1.G.1",
     "graphDescription": "",
@@ -2822,26 +2822,26 @@
     "options": [
       {
         "label": "A",
-        "text": "(a) Base=$320; Y2=$347; Y3=$352; (b) CPI=108.4; Inf=8.4%; (c) CPI=110; Inf≈1.4%; (d) 10%; (e) Disinflation"
+        "text": "Costs: $320, $347, $352; CPI: 108.44, 110; annual inflation: 1.44%; cumulative: 10%; disinflation"
       },
       {
         "label": "B",
-        "text": "(a) Base=$320; Y2=$346; Y3=$350; (b) CPI=108.1; Inf=8.1%; (c) CPI=109.4; Inf≈1.2%; (d) 9.4%; (e) Disinflation"
+        "text": "Costs: $320, $346, $350; CPI: 108.13, 109.38; annual inflation: 1.16%; cumulative: 9.38%; disinflation"
       },
       {
         "label": "C",
-        "text": "(a) Base=$320; Y2=$347; Y3=$352; (b) CPI=108.4; Inf=8.4%; (c) CPI=110; Inf≈1.4%; (d) 10%; (e) Deflation"
+        "text": "Costs: $300, $323, $328; CPI: 107.67, 109.33; annual inflation: 1.55%; cumulative: 9.33%; disinflation"
       },
       {
         "label": "D",
-        "text": "(a) Base=$300; Y2=$323; Y3=$328; (b) CPI=107.7; Inflation=7.7%; (c) CPI=109.3; Inflation approximately 1.5%; (d) 9.3%; (e) Disinflation"
+        "text": "Costs: $300, $323, $328; CPI: 107.67, 109.33; annual inflation: 1.55%; cumulative: 9.33%; deflation"
       },
       {
         "label": "E",
-        "text": "(a) Base=$320; Y2=$345; Y3=$348; (b) CPI=107.8; Inf=7.8%; (c) CPI=108.75; Inf≈0.9%; (d) 8.75%; (e) Disinflation"
+        "text": "Costs: $320, $345, $348; CPI: 107.81, 108.75; annual inflation: 0.87%; cumulative: 8.75%; disinflation"
       }
     ],
-    "answer": "D",
+    "answer": "C",
     "explanation": "The basket costs $300 in the base year, $323 in Year 2, and $328 in Year 3, giving CPI values of 107.7 and 109.3. Inflation slows from 7.7 percent to about 1.5 percent, so the price level is still rising but the economy is experiencing disinflation.",
     "reference": "MEA-1.F | MEA-1.F.2 | MEA-1.F.3",
     "graphDescription": "",
@@ -2854,7 +2854,7 @@
     "options": [
       {
         "label": "A",
-        "text": "Y1=$53,922; Y2=$51,848; Y3=$49,379; Y4=$47,942; Y5=$47,005; Cumulative approximately -12.5%"
+        "text": "Y1=$53,922; Y2=$51,848; Y3=$50,379; Y4=$47,942; Y5=$47,005; Cumulative approximately -14.5%"
       },
       {
         "label": "B",
@@ -2866,14 +2866,14 @@
       },
       {
         "label": "D",
-        "text": "Y1=$53,922; Y2=$51,848; Y3=$50,379; Y4=$47,942; Y5=$47,005; Cumulative approximately -14.5%"
+        "text": "Y1=$53,922; Y2=$51,848; Y3=$49,379; Y4=$47,942; Y5=$47,005; Cumulative approximately -14.5%"
       },
       {
         "label": "E",
-        "text": "Y1=$53,922; Y2=$51,848; Y3=$49,379; Y4=$47,942; Y5=$47,005; Cumulative approximately -14.5%"
+        "text": "Y1=$53,922; Y2=$51,848; Y3=$49,379; Y4=$47,942; Y5=$47,005; Cumulative approximately -12.5%"
       }
     ],
-    "answer": "E",
+    "answer": "D",
     "explanation": "CPI: Y1=102; Y2=102×1.04=106.08; Y3=106.08×1.05=111.38; Y4=111.38×1.03=114.72; Y5=114.72×1.02=117.01; real wages: Y1=(55,000÷102)×100=$53,922; Y2=(55,000÷106.08)×100=$51,848; Y3=(55,000÷111.38)×100=$49,379; Y4=(55,000÷114.72)×100=$47,942; Y5=(55,000÷117.01)×100=$47,006; cumulative change=[(47,006-55,000)÷55,000]×100≈-14.5%. A fixed nominal salary lost 14.5% of its real value over 5 years of moderate inflation - illustrating the cost of nominally fixed contracts during sustained price increases.",
     "reference": "MEA-1.F | MEA-1.F.3 | MEA-1.F.4",
     "graphDescription": "",
@@ -2886,26 +2886,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Both workers have the same real wage because they earn the same nominal salary."
+        "text": "Both workers experienced real wage growth because $70,000 > $50,000"
       },
       {
         "label": "B",
-        "text": "Country X worker: real wage fell significantly; Country Y worker: real wage rose. Specifically — Country X: real wage = (70,000÷175)×100=$40,000 (fell from $50,000 by 20%). Country Y: real wage = (70,000÷130)×100=$53,846 (rose from $50,000 by 7.7%). Identical nominal wage growth (40%) produces opposite real outcomes depending on the inflation environment."
+        "text": "Country Y worker has a higher real wage in absolute dollar terms"
       },
       {
         "label": "C",
-        "text": "Country Y worker has a higher real wage in absolute dollar terms."
+        "text": "Both workers have the same real wage because they earn the same nominal salary"
       },
       {
         "label": "D",
-        "text": "Both workers experienced real wage growth because $70,000 > $50,000."
+        "text": "X falls to $40,000; Y rises to approximately $53,846"
       },
       {
         "label": "E",
-        "text": "Country X worker gained more because the high inflation boosted their purchasing power."
+        "text": "Country X worker gained more because the high inflation boosted their purchasing power"
       }
     ],
-    "answer": "B",
+    "answer": "D",
     "explanation": "Country X: real Y0=$50,000; real Y10=(70,000÷175)×100=$40,000; real wage FELL by $10,000 (-20%); country Y: real Y0=$50,000; real Y10=(70,000÷130)×100≈$53,846; real wage ROSE by $3,846 (+7.7%). Same 40% nominal wage increase; opposite real wage outcomes; country X had 75% cumulative inflation (CPI 100→175) - far exceeding the 40% nominal raise. Country Y had only 30% cumulative inflation - the 40% raise exceeded it; the inflation environment determines whether nominal raises translate into real gains.",
     "reference": "MEA-1.F | MEA-1.F.4",
     "graphDescription": "",
@@ -2918,26 +2918,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Option A better addresses substitution bias — more frequent updates are always superior."
+        "text": "The chained index better reflects substitution through changing spending weights"
       },
       {
         "label": "B",
-        "text": "Neither option addresses substitution bias — only the basket contents matter."
+        "text": "Option A is better because it provides more consistent comparisons"
       },
       {
         "label": "C",
-        "text": "Option B (chained index) better addresses substitution bias. Substitution bias arises because the fixed basket fails to reflect that consumers shift toward relatively cheaper goods when prices change. Option A only partially helps — updating every 5 years reduces the problem but still uses a fixed basket within each 5-year period. Option B continuously updates spending weights to reflect actual consumer substitution, directly eliminating the between-period bias. The chained index is the methodological solution to MEA-1.G.1's substitution bias problem."
+        "text": "Neither option addresses substitution bias — only the basket contents matter"
       },
       {
         "label": "D",
-        "text": "Option A is better because it provides more consistent comparisons."
+        "text": "Option A better addresses substitution bias — more frequent updates are always superior"
       },
       {
         "label": "E",
-        "text": "Both options produce identical results — basket update frequency does not affect substitution bias."
+        "text": "Both options produce identical results — basket update frequency does not affect substitution bias"
       }
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "Substitution bias = fixed basket fails to capture consumer substitution. The chained CPI-U used by the U.S; BLS is exactly this approach and consistently shows lower inflation than the traditional CPI.",
     "reference": "MEA-1.G | MEA-1.G.1",
     "graphDescription": "",
@@ -2950,27 +2950,27 @@
     "options": [
       {
         "label": "A",
-        "text": "Y1: CPI=108, Inf=8%, Real=$25,926, Real growth>Inf growth (W beats inflation). Y2: CPI=113.4, Inf≈5%, Real=$26,013, Real>Inf. Y3: CPI=117.8, Inf≈3.9%, Real=$26,230, Real>Inf."
+        "text": "CPI: 108, 113.4, 117.8; real wages: $25,926, $26,013, $25,000; nominal growth above inflation"
       },
       {
         "label": "B",
-        "text": "Y1: CPI=108, Inf=8%, Real=$25,926. Y2: CPI=113.4, Inf≈5%, Real=$26,013. Y3: CPI=117.8, Inf≈3.9%, Real=$26,230. In all years, nominal wage growth exceeded inflation, producing real gains."
+        "text": "CPI: 108, 113.4, 117.8; real wages: $25,926, $26,014, $26,231; nominal growth above inflation"
       },
       {
         "label": "C",
-        "text": "Y1: CPI=108, Inf=8%, Real=$25,926. Y2: CPI=113.4, Inf=5%, Real=$26,013. Y3: CPI=117.8, Inf=3.9%, Real=$26,230. Nominal growth Y1=12%>8%, Y2=5.36%≈5%, Y3=4.75%>3.9% — worker beat or matched inflation each year."
+        "text": "CPI: 108, 113.4, 117.8; real wages: $25,926, $26,013, $26,231; nominal growth below inflation"
       },
       {
         "label": "D",
-        "text": "Y1: CPI=108, Real=$25,926; Y2: CPI=113.4, Real=$26,013; Y3: CPI=117.8, Real=$26,230. All real wages rose."
+        "text": "CPI: 108, 113.4, 117.8; real wages: $25,000, $25,000, $25,000; nominal growth equals inflation"
       },
       {
         "label": "E",
-        "text": "All years: CPI rose and real wages fell because prices always outpace wages."
+        "text": "CPI: 108, 113.4, 117.8; real wages: $25,926, $26,014, $26,231; nominal growth equals inflation"
       }
     ],
-    "answer": "C",
-    "explanation": "Y1 CPI=(540÷500)×100=108; Y1 Inf=8%; nominal growth=(28,000-25,000)÷25,000=12%>8% → real wage rose; real Y1=(28,000÷108)×100=$25,926; Y2 CPI=(567÷500)×100=113.4; Y2 Inf=[(567-540)÷540]×100≈5.0%; nominal growth=(29,500-28,000)÷28,000≈5.36%>5% → slight real gain. Real Y2=(29,500÷113.4)×100≈$26,013; Y3 CPI=(589÷500)×100=117.8; Y3 Inf=[(589-567)÷567]×100≈3.88%; nominal growth=(30,900-29,500)÷29,500≈4.75%>3.88% → real gain; real Y3=(30,900÷117.8)×100≈$26,230; worker beat inflation all three years; real wages rose each period.",
+    "answer": "B",
+    "explanation": "CPIs are 108, 113.4, and 117.8. Annual inflation is 8%, 5%, and about 3.88%. Dividing each nominal wage by its CPI and multiplying by 100 gives real wages of approximately $25,926, $26,014, and $26,231. Nominal wage growth exceeds inflation in each year, so real wages rise, although the real wage growth rate is smaller than inflation in each year.",
     "reference": "MEA-1.F | MEA-1.F.2 | MEA-1.F.3 | MEA-1.F.4",
     "graphDescription": "",
     "graphRequired": false
@@ -2982,26 +2982,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Y1≈101.5; Y4≈109.2; Y8≈106.4; Disinflation then deflation starting Y7."
+        "text": "Y1≈101.5; Y4≈109.2; Y8≈106.4; All inflation until Y8"
       },
       {
         "label": "B",
-        "text": "Y1≈101.5; Y4≈109.2; Y8≈106.4; All inflation until Y8."
+        "text": "Y1≈101.5; Y4≈109.2; Y8≈103; Deflation from Y5 onward"
       },
       {
         "label": "C",
-        "text": "Y1≈101.5; Y4≈109.2; Y8≈104.4; Disinflation then deflation starting Y7."
+        "text": "Y1≈101.5; Y4≈109.2; Y8≈104.4; Disinflation then deflation starting Y7"
       },
       {
         "label": "D",
-        "text": "Y1≈101.5; Y4≈109.2; Y8≈103; Deflation from Y5 onward."
+        "text": "Y1≈101.5; Y4≈109.2; Y8≈106.4; Disinflation then deflation starting Y7"
       },
       {
         "label": "E",
-        "text": "Y1≈101.5; Y4≈109.2; Y8≈106.4; Constant inflation throughout."
+        "text": "Y1≈101.5; Y4≈109.2; Y8≈106.4; Constant inflation throughout"
       }
     ],
-    "answer": "A",
+    "answer": "D",
     "explanation": "Y1: 100×1.015=101.5; Y2: ×1.02=103.53; Y3: ×1.025=106.12; Y4: ×1.03=109.30; Y5: ×1.02=111.49; Y6: ×1.01=112.60; Y7: ×0.995=112.04 (deflation begins - negative rate); Y8: ×0.99=110.92. Trend: Y1-Y4 accelerating inflation; Y5-Y6 disinflation; Y7-Y8 deflation; CPI at Y4≈109.2; CPI at Y8≈110.9 (still above base year despite two years of deflation); deflation begins in Y7 when inflation rate first goes negative.",
     "reference": "MEA-1.F | MEA-1.F.1 | MEA-1.F.3",
     "graphDescription": "",
@@ -3014,23 +3014,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Y0=$60K; Y5=$56,818; Y10=$56,962. Y5→Y10 showed greater improvement."
+        "text": "Y0=$60K; Y5=$56,818; Y10=$56,962. Y5→Y10 showed greater improvement"
       },
       {
         "label": "B",
-        "text": "Y0=$60K; Y5=$56,818; Y10=$56,962. Y0→Y5 period was worse (real fell); Y5→Y10 was a tiny gain."
+        "text": "Y0=$60K; Y5=$56,818; Y10=$56,962. Y0→Y5 period was worse (real fell); Y5→Y10 was a tiny gain"
       },
       {
         "label": "C",
-        "text": "Y0=$60K; Y5=$56,818; Y10=$56,962. Both periods showed a real wage decline from Y0; the second period (Y5→Y10) showed a slight recovery but still below Y0."
+        "text": "$60,000,$56,818,$56,962; slight later recovery remains below base"
       },
       {
         "label": "D",
-        "text": "Y0=$60K; Y5=$56,818; Y10=$56,962. Real wages fell in Y0→Y5, then improved slightly in Y5→Y10."
+        "text": "Y0=$60K; Y5=$56,818; Y10=$56,962. Real wages declined overall from Y0 to Y10"
       },
       {
         "label": "E",
-        "text": "Y0=$60K; Y5=$56,818; Y10=$56,962. Real wages declined overall from Y0 to Y10."
+        "text": "Y0=$60K; Y5=$56,818; Y10=$56,962. Real wages fell in Y0→Y5, then improved slightly in Y5→Y10"
       }
     ],
     "answer": "C",
@@ -3046,26 +3046,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Base=$430; Y1=$456; Y1 CPI=106.05; Y1 inf≈6%. Y2=$453; Y2 CPI=105.35; Y2 annual inf≈−0.66% (deflation Y1→Y2). Q fell, R rose — Q's decline outweighed R's rise."
+        "text": "Base=$430; Y1=$456; Y1 CPI=106.05; Y1 inf≈6%. Y2=$453; Y2 CPI=105.35; Y2 annual inf≈−0.66% (deflation Y1→Y2). Q fell, R rose — Q's decline outweighed R's rise"
       },
       {
         "label": "B",
-        "text": "Base=$430; Y1=$456; Y1 CPI=106.05; inf≈6%. Y2=$460; Y2 CPI=107; annual inf≈0.9% (mild inflation)."
+        "text": "Base=$430; Y1=$456; Y1 CPI=106.05; inf≈6%. Y2=$455; Y2 CPI=105.8; Y2 annual inf≈−0.22% (deflation Y1→Y2)"
       },
       {
         "label": "C",
-        "text": "Base=$430; Y1=$456; Y1 CPI=106.05; inf≈6%. Y2=$455; Y2 CPI=105.8; Y2 annual inf≈−0.22% (deflation Y1→Y2)."
+        "text": "Base=$430; Y1=$456; Y1 CPI=106.05. Y2=$457; Y2 CPI=106.3; inflation accelerated"
       },
       {
         "label": "D",
-        "text": "Base=$430; Y1=$456; Y1 CPI=106.05. Y2=$457; Y2 CPI=106.3; inflation accelerated."
+        "text": "Base=$430; Y1=$456; Y1 CPI=106.05; inf≈6%. Y2=$453; Y2 CPI=105.35; Y1→Y2: deflation"
       },
       {
         "label": "E",
-        "text": "Base=$430; Y1=$456; Y1 CPI=106.05; inf≈6%. Y2=$453; Y2 CPI=105.35; Y1→Y2: deflation."
+        "text": "Base=$430; Y1=$456; Y1 CPI=106.05; inf≈6%. Y2=$460; Y2 CPI=107; annual inf≈0.9% (mild inflation)"
       }
     ],
-    "answer": "E",
+    "answer": "D",
     "explanation": "Base=(10×12)+(5×30)+(2×80)=120+150+160=$430; Y1=(10×13.20)+(5×30)+(2×84)=132+150+168=$450; Y1 CPI=(450÷430)×100≈104.65; Y1 inf≈4.65%; Y2=(10×13.20)+(5×29)+(2×90)=132+145+180=$457; Y2 CPI=(457÷430)×100≈106.28; Y2 annual inf=[(457-450)÷450]×100=(7÷450)×100≈1.56%; both years: inflation (CPI rose). Y1→Y2 was still positive inflation (1.56%), just lower than Y1's rate (4.65%) - disinflation, not deflation; good Q's price fell ($30→$29) while Good R's rose ($84→$90); Good R's rise dominated, keeping the basket cost higher.",
     "reference": "MEA-1.F | MEA-1.F.2 | MEA-1.F.3",
     "graphDescription": "",
@@ -3074,31 +3074,31 @@
   {
     "id": 97,
     "difficulty": "Hard",
-    "prompt": "An economist compares two eras for a worker: Era A (Y0–Y5) had 15% cumulative nominal wage growth and 10% cumulative inflation. Era B (Y6–Y10) had 8% cumulative nominal wage growth and 12% cumulative inflation.\n\nCalculate the approximate real wage change in each era and determine overall real wage change across both eras combined.",
+    "prompt": "An economist compares two eras for a worker: Era A (Y0–Y5) had 15% cumulative nominal wage growth and 10% cumulative inflation. Era B (Y6–Y10) had 8% cumulative nominal wage growth and 12% cumulative inflation.\n\nCalculate the approximate real wage change in each era and determine overall real wage change across both eras combined. Assume there is no wage or price change between the two eras.",
     "options": [
       {
         "label": "A",
-        "text": "Era A: real ≈ +4.5%; Era B: real ≈ −3.6%; Combined: real ≈ +0.9%"
+        "text": "Era A: +4.55%; Era B: −3.57%; combined: +0.98%"
       },
       {
         "label": "B",
-        "text": "Era A: real ≈ +4.5%; Era B: real ≈ −3.6%; Combined: real ≈ +0.7%"
+        "text": "Era A: +4.55%; Era B: −3.57%; combined: +0.70%"
       },
       {
         "label": "C",
-        "text": "Era A: real ≈ +4.5%; Era B: real ≈ −3.6%; Combined: overall slight gain."
+        "text": "Era A: +4.55%; Era B: −3.57%; combined: +0.81%"
       },
       {
         "label": "D",
-        "text": "Era A: real ≈ +5%; Era B: real ≈ −4%; Combined: roughly flat."
+        "text": "Era A: +4.55%; Era B: −3.57%; combined: −0.81%"
       },
       {
         "label": "E",
-        "text": "Era A: real ≈ +4.5%; Era B: real ≈ −3.6%; Combined: slight net gain of ~0.7%."
+        "text": "Era A: +5.00%; Era B: −4.00%; combined: +1.00%"
       }
     ],
-    "answer": "B",
-    "explanation": "Era A: real factor = 1.15 ÷ 1.10 ≈ 1.0455 → real wage rose ≈ 4.55%. Era B: real factor = 1.08 ÷ 1.12 ≈ 0.9643 → real wage fell ≈ 3.57%. Combined over both eras: 1.0455 × 0.9643 ≈ 1.0081 → net real gain ≈ 0.81% over the full period; era A outperformed (nominal exceeded inflation); Era B underperformed (inflation exceeded nominal); the combined outcome is a slight net real gain of approximately 0.7-0.8%.",
+    "answer": "C",
+    "explanation": "Era A real wage change = 1.15/1.10 − 1 ≈ +4.55%. Era B change = 1.08/1.12 − 1 ≈ −3.57%. Assuming no intervening change, compound the two real factors: (1.15/1.10) × (1.08/1.12) − 1 ≈ +0.81%. Adding rounded percentage changes does not give the exact cumulative result.",
     "reference": "MEA-1.F | MEA-1.F.3 | MEA-1.F.4",
     "graphDescription": "",
     "graphRequired": false
@@ -3110,26 +3110,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Y1 basket=$1,073; CPI=107.3; Inflation=7.3%; Housing dominates due to its 60% spending share — its 10% rise contributes 6 pp to the CPI alone, while food contributes only 1 pp and transport subtracts 0.75 pp."
+        "text": "Y1 basket=$1,073; CPI=107.3; Inflation=7.3%; All three goods equally affect the CPI"
       },
       {
         "label": "B",
-        "text": "Y1 basket=$1,073; CPI=107.3; Inflation=7.3%; All three goods equally affect the CPI."
+        "text": "Y1 basket=$1,073; CPI=107.3; Inflation=7.3%; Food dominates because it has the most units"
       },
       {
         "label": "C",
-        "text": "Y1 basket=$1,073; CPI=107.3; Inflation=7.3%; Food dominates because it has the most units."
+        "text": "Y1 basket=$1,050; CPI=105; Inflation=5%; Simple average of 10%, 4%, −5%"
       },
       {
         "label": "D",
-        "text": "Y1 basket=$1,050; CPI=105; Inflation=5%; Simple average of 10%, 4%, −5%."
+        "text": "Y1 basket=$1,073; CPI=107.3; Inflation=7.3%; Transport dominates because it fell, pulling down the rate"
       },
       {
         "label": "E",
-        "text": "Y1 basket=$1,073; CPI=107.3; Inflation=7.3%; Transport dominates because it fell, pulling down the rate."
+        "text": "Basket=$1,073; CPI=107.3; inflation=7.3%; housing contributes most"
       }
     ],
-    "answer": "A",
+    "answer": "E",
     "explanation": "Y1: Housing=$600×1.10=$660; Food=$250×1.04=$260; Transport=$150×0.95=$142.50; total=$1,062.50; CPI=(1,062.50÷1,000)×100=106.25; inflation=6.25%; weighted contributions: Housing: 0.60×10%=6.0 pp; food: 0.25×4%=1.0 pp; transport: 0.15×(-5%)=-0.75 pp; net: 6+1-0.75=6.25 pp. Housing's 60% spending weight means its 10% price rise contributes 6 full percentage points to the CPI - much more than food (1 pp) or transport (-0.75 pp); the CPI reflects spending weights, not equal averaging.",
     "reference": "MEA-1.F | MEA-1.F.2 | MEA-1.G",
     "graphDescription": "",
@@ -3142,26 +3142,26 @@
     "options": [
       {
         "label": "A",
-        "text": "Y1: real=$50K, CPI rose; Y2: real=$51K, CPI rose; Y3: real=$52.2K, CPI rose; Y4: real=$53.5K, CPI fell (deflation); Y5: real=$55.5K, CPI rose."
+        "text": "Real wages: $50,000, $50,000, $51,018, $52,153, $53,513, $55,500; prices fall in Year 4"
       },
       {
         "label": "B",
-        "text": "Y0=$50K; Y1=$50K; Y2=$51,018; Y3=$52,153; Y4=$53,513; Y5=$55,500."
+        "text": "Real wages: $50,000, $50,000, $51,018, $52,153, $53,513, $55,500; real wages fall in Year 4"
       },
       {
         "label": "C",
-        "text": "Y0=$50K; Y1=$50K; Y2=$51,018; Y3=$52,153; Y4=$53,513; Y5=$55,500. Price trends: Y0→Y1: inflation; Y1→Y2: inflation; Y2→Y3: inflation; Y3→Y4: deflation; Y4→Y5: inflation. Real wage: Y0→Y1 flat; Y1→Y2 rose; Y2→Y3 rose; Y3→Y4 rose (deflation boosted it); Y4→Y5 rose."
+        "text": "Real wages: $50,000, $50,000, $51,018, $52,153, $53,513, $55,500; real wages rise in Year 1"
       },
       {
         "label": "D",
-        "text": "Y0=$50K; Y1=$50K; Y2=$51K; Y3=$52K; Y4=$53.5K; Y5=$55.5K — all rose after Y0."
+        "text": "Real wages: $50,000, $50,000, $51,018, $52,153, $53,513, $55,500; prices fall in Year 5"
       },
       {
         "label": "E",
-        "text": "Real wages rose every year because nominal wages always increased."
+        "text": "Real wages: $50,000, $50,000, $51,018, $52,153, $53,513, $55,500; prices rise every year"
       }
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "Y0 real=$50,000; Y1 real=(53,000÷106)×100=$50,000 [nominal+6%, CPI+6%: flat real]; Y2 real=(57,650÷113)×100=$51,018 [nominal+8.77%, CPI+6.6%: real rose]; Y3 real=(61,540÷118)×100=$52,153 [nominal+6.73%, CPI+4.4%: real rose]; Y4 real=(61,540÷115)×100=$53,513 [nominal flat, CPI fell 2.5%: deflation raised real wage]. Y5 real=(65,490÷118)×100=$55,500 [nominal+6.4%, CPI+2.6%: real rose]; price trends: Y0→Y1 inflation; Y1→Y2 inflation; Y2→Y3 inflation; Y3→Y4 deflation; Y4→Y5 inflation; real wages: Y0→Y1 flat; Y1→Y2 rose; Y2→Y3 rose; Y3→Y4 rose (deflation); Y4→Y5 rose.",
     "reference": "MEA-1.F | MEA-1.F.1 | MEA-1.F.3 | MEA-1.F.4",
     "graphDescription": "",
@@ -3174,26 +3174,26 @@
     "options": [
       {
         "label": "A",
-        "text": "(a) Y1 CPI=108, inf=8%; Y2 CPI=113.3, inf≈4.9%; Y3 CPI=110, inf≈−2.9% (deflation). (b) Y1=$36,852; Y2=$36,805; Y3=$37,909. (c) Cumulative CPI change=10%; real fell then recovered. (d) True Y1 inf=7%; True Y2 inf≈3.9%; True Y3 inf≈−3.9% (deeper deflation). True Y3 real wage slightly higher than measured."
+        "text": "CPI: 108, 113.3, 110; final real wage: $37,909; removing upward bias raises it"
       },
       {
         "label": "B",
-        "text": "(a) Y1 CPI=108, inf=8%; Y2 CPI=113.3, inf≈4.9%; Y3 CPI=110, inf≈−2.9% (deflation). (b) Y0=$37,500; Y1=$36,852; Y2=$36,805; Y3=$37,909. (c) Cumulative: CPI +10% vs. base; real wages ended +$409 above base. (d) If CPI overstates by 1 pp each year, true Y3 inflation ≈ −3.9%. Lower true price level → higher true real wage. True real Y3 = (41,700 ÷ true Y3 price index) × 100 > $37,909."
+        "text": "CPI: 108, 115, 120; final real wage: $34,750; removing upward bias raises it"
       },
       {
         "label": "C",
-        "text": "(a) Y1 CPI=108, inf=8%; Y2 CPI=113.3, inf=5%; Y3 CPI=110, inf=−3%. (b) all fell."
+        "text": "CPI: 108, 113.3, 110; final real wage: $41,700; removing upward bias leaves it unchanged"
       },
       {
         "label": "D",
-        "text": "(a) all years inflation; (b) all years real wages rose."
+        "text": "CPI: 108, 113.3, 110; final real wage: $36,805; removing upward bias lowers it"
       },
       {
         "label": "E",
-        "text": "(a) Y1 CPI=108; Y2 CPI=113.3; Y3 CPI=110; (b) Y3 real=$37,909; (c) overall recovery; (d) true rate unknown without more data."
+        "text": "CPI: 108, 113.3, 110; final real wage: $37,909; removing upward bias lowers it"
       }
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "(a) Y1 CPI=(810÷750)×100=108; inf=8%; Y2 CPI=(850÷750)×100=113.3; inf=[(850-810)÷810]×100=4.94%; Y3 CPI=(825÷750)×100=110; inf=[(825-850)÷850]×100=-2.94% (DEFLATION); (b) Y0 real=$37,500; Y1 real=(39,800÷108)×100=$36,852; Y2 real=(41,700÷113.3)×100=$36,805; Y3 real=(41,700÷110)×100=$37,909; (c) Cumulative CPI: +10% (Y0→Y3). Real wages: ended $409 above base; (d) If CPI overstates by 1 pp: true Y1 inf=7%, true Y2≈3.9%, true Y3≈-3.9%. The true price index in Y3 would be lower than 110 → true real wage in Y3 would be HIGHER than $37,909 - MEA-1.G.1 implies real wages are better than the measured CPI suggests.",
     "reference": "MEA-1.F | MEA-1.F.2 | MEA-1.F.3 | MEA-1.F.4 | MEA-1.G | MEA-1.G.1",
     "graphDescription": "",

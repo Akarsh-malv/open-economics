@@ -38,23 +38,23 @@
     "options": [
       {
         "label": "A",
-        "text": "quantity of money demanded"
+        "text": "Quantity of money demanded"
       },
       {
         "label": "B",
-        "text": "quantity of money supplied"
+        "text": "Quantity of money supplied"
       },
       {
         "label": "C",
-        "text": "equilibrium quantity of money"
+        "text": "Equilibrium quantity of money"
       },
       {
         "label": "D",
-        "text": "nominal interest rate"
+        "text": "Nominal interest rate"
       },
       {
         "label": "E",
-        "text": "difference between money demanded and money supplied"
+        "text": "Difference between money demanded and money supplied"
       }
     ],
     "answer": "D",
@@ -70,23 +70,23 @@
     "options": [
       {
         "label": "A",
-        "text": "nominal interest rate"
+        "text": "Nominal interest rate"
       },
       {
         "label": "B",
-        "text": "equilibrium interest rate"
+        "text": "Equilibrium interest rate"
       },
       {
         "label": "C",
-        "text": "change in the nominal interest rate"
+        "text": "Change in the nominal interest rate"
       },
       {
         "label": "D",
-        "text": "size of the money market surplus or shortage"
+        "text": "Size of the money market surplus or shortage"
       },
       {
         "label": "E",
-        "text": "quantity of money"
+        "text": "Quantity of money"
       }
     ],
     "answer": "E",
@@ -102,23 +102,23 @@
     "options": [
       {
         "label": "A",
-        "text": "increases as the nominal interest rate increases"
+        "text": "Increases as the nominal interest rate increases"
       },
       {
         "label": "B",
-        "text": "remains unchanged as the nominal interest rate increases"
+        "text": "Remains unchanged as the nominal interest rate increases"
       },
       {
         "label": "C",
-        "text": "equals the quantity of money supplied at every nominal interest rate"
+        "text": "Equals the quantity of money supplied at every nominal interest rate"
       },
       {
         "label": "D",
-        "text": "decreases as the nominal interest rate increases"
+        "text": "Decreases as the nominal interest rate increases"
       },
       {
         "label": "E",
-        "text": "changes only when the money supply changes rather than when the nominal interest rate changes"
+        "text": "Changes only when the money supply changes rather than when the nominal interest rate changes"
       }
     ],
     "answer": "D",
@@ -134,23 +134,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The quantity of money demanded will increase."
+        "text": "The quantity of money demanded will increase"
       },
       {
         "label": "B",
-        "text": "The quantity of money demanded will remain unchanged."
+        "text": "The quantity of money demanded will remain unchanged"
       },
       {
         "label": "C",
-        "text": "The quantity of money demanded will decrease."
+        "text": "The quantity of money demanded will decrease"
       },
       {
         "label": "D",
-        "text": "The quantity of money supplied will decrease along the money supply curve."
+        "text": "The quantity of money supplied will decrease along the money supply curve"
       },
       {
         "label": "E",
-        "text": "The quantity of money supplied will increase while money demand remains unchanged."
+        "text": "The quantity of money supplied will increase while money demand remains unchanged"
       }
     ],
     "answer": "C",
@@ -166,23 +166,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The quantity of money demanded will decrease."
+        "text": "The quantity of money demanded will decrease"
       },
       {
         "label": "B",
-        "text": "The quantity of money demanded will increase."
+        "text": "The quantity of money demanded will increase"
       },
       {
         "label": "C",
-        "text": "The quantity of money demanded will remain unchanged."
+        "text": "The quantity of money demanded will remain unchanged"
       },
       {
         "label": "D",
-        "text": "The quantity of money supplied will decrease with the interest rate."
+        "text": "The quantity of money supplied will decrease with the interest rate"
       },
       {
         "label": "E",
-        "text": "The money supply curve will become downward sloping."
+        "text": "The money supply curve will become downward sloping"
       }
     ],
     "answer": "B",
@@ -198,23 +198,23 @@
     "options": [
       {
         "label": "A",
-        "text": "It is downward sloping because a higher nominal interest rate reduces the quantity of money supplied."
+        "text": "It is downward sloping because a higher nominal interest rate reduces the quantity of money supplied"
       },
       {
         "label": "B",
-        "text": "It is upward sloping because a higher nominal interest rate increases the quantity of money supplied."
+        "text": "It is upward sloping because a higher nominal interest rate increases the quantity of money supplied"
       },
       {
         "label": "C",
-        "text": "It is horizontal because the nominal interest rate is fixed at every quantity of money supplied."
+        "text": "It is horizontal because the nominal interest rate is fixed at every quantity of money supplied"
       },
       {
         "label": "D",
-        "text": "It has the same downward slope as money demand because both quantities respond inversely to the nominal interest rate."
+        "text": "It has the same downward slope as money demand because both quantities respond inversely to the nominal interest rate"
       },
       {
         "label": "E",
-        "text": "It is vertical because the quantity of money supplied is independent of the nominal interest rate."
+        "text": "It is vertical because the quantity of money supplied is independent of the nominal interest rate"
       }
     ],
     "answer": "E",
@@ -253,7 +253,65 @@
     "explanation": "Money supply is independent of the nominal interest rate for a given monetary base, so it is represented by a vertical curve; The downward-sloping curve represents money demand.",
     "reference": "MKT-3.A | MKT-3.A.2 | Skill 4.A",
     "graphDescription": "Money market graph with nominal interest rate on the vertical axis and quantity of money on the horizontal axis. A downward-sloping curve is labeled MD and a vertical curve is labeled MS. The curves intersect at equilibrium point E.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of money",
+        "yLabel": "Nominal interest rate",
+        "xMax": 85.0,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MD₁",
+            "label": "MD₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 76.5,
+                "y": 23.5
+              }
+            ]
+          },
+          {
+            "id": "MS₁",
+            "label": "MS₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 50,
+                "y": 8.0
+              },
+              {
+                "x": 50,
+                "y": 90.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qs",
+            "yLabel": "rE"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 9,
@@ -262,23 +320,23 @@
     "options": [
       {
         "label": "A",
-        "text": "the nominal interest rate equals zero"
+        "text": "The nominal interest rate equals zero"
       },
       {
         "label": "B",
-        "text": "the quantity of money demanded equals the quantity of money supplied"
+        "text": "The quantity of money demanded equals the quantity of money supplied"
       },
       {
         "label": "C",
-        "text": "the money demand curve becomes vertical"
+        "text": "The money demand curve becomes vertical"
       },
       {
         "label": "D",
-        "text": "the quantity of money demanded reaches its maximum value"
+        "text": "The quantity of money demanded reaches its maximum value"
       },
       {
         "label": "E",
-        "text": "the quantity of money supplied changes with the nominal interest rate"
+        "text": "The quantity of money supplied changes with the nominal interest rate"
       }
     ],
     "answer": "B",
@@ -326,23 +384,23 @@
     "options": [
       {
         "label": "A",
-        "text": "a surplus of money because the quantity supplied exceeds the quantity demanded"
+        "text": "A surplus of money because the quantity supplied exceeds the quantity demanded"
       },
       {
         "label": "B",
-        "text": "a shortage of money because the quantity demanded exceeds the quantity supplied"
+        "text": "A shortage of money because the quantity demanded exceeds the quantity supplied"
       },
       {
         "label": "C",
-        "text": "a surplus of money because the quantity demanded exceeds the quantity supplied"
+        "text": "A surplus of money because the quantity demanded exceeds the quantity supplied"
       },
       {
         "label": "D",
-        "text": "a shortage of money because the quantity supplied exceeds the quantity demanded"
+        "text": "A shortage of money because the quantity supplied exceeds the quantity demanded"
       },
       {
         "label": "E",
-        "text": "equilibrium because the money supply is independent of the nominal interest rate"
+        "text": "Equilibrium because the money supply is independent of the nominal interest rate"
       }
     ],
     "answer": "A",
@@ -381,7 +439,77 @@
     "explanation": "At r1, the graph shows the fixed money supply to the right of the quantity demanded on MD. Because quantity supplied exceeds quantity demanded, the market has a surplus of money.",
     "reference": "MKT-3.C | MKT-3.C.1 | Skill 4.A",
     "graphDescription": "Money market graph with nominal interest rate on the vertical axis and quantity of money on the horizontal axis. MD slopes downward and MS is vertical. They intersect at E with equilibrium rate rE. A horizontal line at r1 lies above rE; it meets MD at quantity Qd1 to the left of the vertical MS quantity Qs.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of money",
+        "yLabel": "Nominal interest rate",
+        "xMax": 85.0,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MD₁",
+            "label": "MD₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 76.5,
+                "y": 23.5
+              }
+            ]
+          },
+          {
+            "id": "MS₁",
+            "label": "MS₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 50,
+                "y": 8.0
+              },
+              {
+                "x": 50,
+                "y": 90.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qs",
+            "yLabel": "rE"
+          },
+          {
+            "id": "r₁",
+            "x": 30.0,
+            "y": 70,
+            "xLabel": "Qdr₁",
+            "yLabel": "r₁"
+          },
+          {
+            "id": "r₁s",
+            "x": 50,
+            "y": 70
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 13,
@@ -390,23 +518,23 @@
     "options": [
       {
         "label": "A",
-        "text": "a surplus of money because the quantity supplied exceeds the quantity demanded"
+        "text": "A surplus of money because the quantity supplied exceeds the quantity demanded"
       },
       {
         "label": "B",
-        "text": "a shortage of money because the quantity supplied exceeds the quantity demanded"
+        "text": "A shortage of money because the quantity supplied exceeds the quantity demanded"
       },
       {
         "label": "C",
-        "text": "a shortage of money because the quantity demanded exceeds the quantity supplied"
+        "text": "A shortage of money because the quantity demanded exceeds the quantity supplied"
       },
       {
         "label": "D",
-        "text": "a surplus of money because the quantity demanded exceeds the quantity supplied"
+        "text": "A surplus of money because the quantity demanded exceeds the quantity supplied"
       },
       {
         "label": "E",
-        "text": "equilibrium because the nominal interest rate does not affect money demand"
+        "text": "Equilibrium because the nominal interest rate does not affect money demand"
       }
     ],
     "answer": "C",
@@ -422,23 +550,23 @@
     "options": [
       {
         "label": "A",
-        "text": "increase farther above its equilibrium level"
+        "text": "Increase farther above its equilibrium level"
       },
       {
         "label": "B",
-        "text": "decrease toward its equilibrium level"
+        "text": "Decrease toward its equilibrium level"
       },
       {
         "label": "C",
-        "text": "remain fixed because the money supply curve is vertical"
+        "text": "Remain fixed because the money supply curve is vertical"
       },
       {
         "label": "D",
-        "text": "decrease until the quantity of money demanded becomes zero"
+        "text": "Decrease until the quantity of money demanded becomes zero"
       },
       {
         "label": "E",
-        "text": "increase until the quantity of money supplied begins to fall"
+        "text": "Increase until the quantity of money supplied begins to fall"
       }
     ],
     "answer": "B",
@@ -454,23 +582,23 @@
     "options": [
       {
         "label": "A",
-        "text": "decrease farther below its equilibrium level"
+        "text": "Decrease farther below its equilibrium level"
       },
       {
         "label": "B",
-        "text": "remain fixed because the money supply is independent of the interest rate"
+        "text": "Remain fixed despite excess demand for money"
       },
       {
         "label": "C",
-        "text": "increase until the quantity of money supplied rises along the money supply curve"
+        "text": "Increase until nominal money supply becomes larger"
       },
       {
         "label": "D",
-        "text": "decrease until the quantity of money demanded equals zero"
+        "text": "Decrease until money demand becomes zero"
       },
       {
         "label": "E",
-        "text": "increase toward its equilibrium level"
+        "text": "Increase toward the money-market equilibrium level"
       }
     ],
     "answer": "E",
@@ -486,23 +614,23 @@
     "options": [
       {
         "label": "A",
-        "text": "increase whenever the nominal interest rate rises"
+        "text": "Increase whenever the nominal interest rate rises"
       },
       {
         "label": "B",
-        "text": "decrease whenever the nominal interest rate rises"
+        "text": "Decrease whenever the nominal interest rate rises"
       },
       {
         "label": "C",
-        "text": "remain unchanged"
+        "text": "Remain unchanged"
       },
       {
         "label": "D",
-        "text": "increase whenever the nominal interest rate falls"
+        "text": "Increase whenever the nominal interest rate falls"
       },
       {
         "label": "E",
-        "text": "move inversely with the quantity of money demanded"
+        "text": "Move inversely with the quantity of money demanded"
       }
     ],
     "answer": "C",
@@ -518,23 +646,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Both points represent the same quantity of money supplied."
+        "text": "Both points represent the same quantity of money supplied"
       },
       {
         "label": "B",
-        "text": "The higher-rate point represents a larger quantity of money supplied."
+        "text": "The higher-rate point represents a larger quantity of money supplied"
       },
       {
         "label": "C",
-        "text": "The lower-rate point represents a larger quantity of money supplied."
+        "text": "The lower-rate point represents a larger quantity of money supplied"
       },
       {
         "label": "D",
-        "text": "Each point represents equilibrium because both lie on the money supply curve."
+        "text": "Each point represents equilibrium because both lie on the money supply curve"
       },
       {
         "label": "E",
-        "text": "The quantity supplied differs because money supply has an inverse relationship with the nominal interest rate."
+        "text": "The quantity supplied differs because money supply has an inverse relationship with the nominal interest rate"
       }
     ],
     "answer": "A",
@@ -550,30 +678,86 @@
     "options": [
       {
         "label": "A",
-        "text": "It increases from QH to QL along the money demand curve."
+        "text": "It increases from QH to QL along the money demand curve"
       },
       {
         "label": "B",
-        "text": "It decreases from QL to QH along the money demand curve."
+        "text": "It decreases from QL to QH along the money demand curve"
       },
       {
         "label": "C",
-        "text": "It remains fixed because the money supply curve is vertical."
+        "text": "It remains fixed because the money supply curve is vertical"
       },
       {
         "label": "D",
-        "text": "It increases because the money demand curve shifts to the right."
+        "text": "It increases because the money demand curve shifts to the right"
       },
       {
         "label": "E",
-        "text": "It decreases because the money supply curve shifts to the left."
+        "text": "It decreases because the money supply curve shifts to the left"
       }
     ],
     "answer": "A",
     "explanation": "The graph shows movement down and to the right along MD as the nominal interest rate falls. The lower rate is associated with a larger quantity of money demanded.",
     "reference": "MKT-3.A | MKT-3.A.1 | Skill 4.A",
     "graphDescription": "Money market graph showing only a downward-sloping money demand curve MD. The vertical axis is nominal interest rate and the horizontal axis is quantity of money. Point H is on MD at the higher rate rH and quantity QH; point L is on MD at the lower rate rL and larger quantity QL.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of money",
+        "yLabel": "Nominal interest rate",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MD₁",
+            "label": "MD₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 10.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "H",
+            "label": "H",
+            "x": 30,
+            "y": 70
+          },
+          {
+            "id": "L",
+            "label": "L",
+            "x": 70,
+            "y": 30
+          }
+        ],
+        "guides": [
+          {
+            "id": "h",
+            "x": 30,
+            "y": 70,
+            "xLabel": "QH",
+            "yLabel": "rH"
+          },
+          {
+            "id": "l",
+            "x": 70,
+            "y": 30,
+            "xLabel": "QL",
+            "yLabel": "rL"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 19,
@@ -582,23 +766,23 @@
     "options": [
       {
         "label": "A",
-        "text": "above the equilibrium nominal interest rate"
+        "text": "Above the equilibrium nominal interest rate"
       },
       {
         "label": "B",
-        "text": "equal to the equilibrium nominal interest rate"
+        "text": "Equal to the equilibrium nominal interest rate"
       },
       {
         "label": "C",
-        "text": "below the equilibrium nominal interest rate"
+        "text": "Below the equilibrium nominal interest rate"
       },
       {
         "label": "D",
-        "text": "at the highest point on the money demand curve"
+        "text": "At the highest point on the money demand curve"
       },
       {
         "label": "E",
-        "text": "independent of the location of the money demand curve"
+        "text": "Independent of the location of the money demand curve"
       }
     ],
     "answer": "C",
@@ -614,23 +798,23 @@
     "options": [
       {
         "label": "A",
-        "text": "below the equilibrium nominal interest rate"
+        "text": "Below the equilibrium nominal interest rate"
       },
       {
         "label": "B",
-        "text": "equal to the equilibrium nominal interest rate"
+        "text": "Equal to the equilibrium nominal interest rate"
       },
       {
         "label": "C",
-        "text": "at a point where the money supply curve slopes downward"
+        "text": "At a point where the money supply curve slopes downward"
       },
       {
         "label": "D",
-        "text": "at a point where quantity demanded rises as the interest rate rises"
+        "text": "At a point where quantity demanded rises as the interest rate rises"
       },
       {
         "label": "E",
-        "text": "above the equilibrium nominal interest rate"
+        "text": "Above the equilibrium nominal interest rate"
       }
     ],
     "answer": "E",
@@ -646,23 +830,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The nominal interest rate falls, increasing the quantity of money demanded until it equals the quantity supplied."
+        "text": "The nominal interest rate falls, increasing the quantity of money demanded until it equals the quantity supplied"
       },
       {
         "label": "B",
-        "text": "The nominal interest rate rises, increasing the quantity of money supplied until it equals the quantity demanded."
+        "text": "The nominal interest rate rises, increasing the quantity of money supplied until it equals the quantity demanded"
       },
       {
         "label": "C",
-        "text": "The nominal interest rate rises, reducing the quantity of money demanded until it equals the quantity supplied."
+        "text": "The nominal interest rate rises, reducing the quantity of money demanded until it equals the quantity supplied"
       },
       {
         "label": "D",
-        "text": "The nominal interest rate falls, reducing the quantity of money supplied until it equals the quantity demanded."
+        "text": "The nominal interest rate falls, reducing the quantity of money supplied until it equals the quantity demanded"
       },
       {
         "label": "E",
-        "text": "The nominal interest rate remains fixed while both money demand and money supply become vertical."
+        "text": "The nominal interest rate remains fixed while both money demand and money supply become vertical"
       }
     ],
     "answer": "C",
@@ -678,23 +862,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The nominal interest rate rises, decreasing the quantity of money demanded until it equals the quantity supplied."
+        "text": "The nominal interest rate rises, decreasing the quantity of money demanded until it equals the quantity supplied"
       },
       {
         "label": "B",
-        "text": "The nominal interest rate falls, increasing the quantity of money demanded until it equals the quantity supplied."
+        "text": "The nominal interest rate falls, increasing the quantity of money demanded until it equals the quantity supplied"
       },
       {
         "label": "C",
-        "text": "The nominal interest rate falls, decreasing the quantity of money supplied until it equals the quantity demanded."
+        "text": "The nominal interest rate falls, decreasing the quantity of money supplied until it equals the quantity demanded"
       },
       {
         "label": "D",
-        "text": "The nominal interest rate rises, increasing the quantity of money supplied until it equals the quantity demanded."
+        "text": "The nominal interest rate rises, increasing the quantity of money supplied until it equals the quantity demanded"
       },
       {
         "label": "E",
-        "text": "The nominal interest rate remains unchanged while the money demand curve becomes vertical."
+        "text": "The nominal interest rate remains unchanged while the money demand curve becomes vertical"
       }
     ],
     "answer": "B",
@@ -710,23 +894,23 @@
     "options": [
       {
         "label": "A",
-        "text": "There is no money surplus or shortage at the equilibrium nominal interest rate."
+        "text": "There is no money surplus or shortage at the equilibrium nominal interest rate"
       },
       {
         "label": "B",
-        "text": "The quantity of money demanded is greater than the quantity supplied at the equilibrium nominal interest rate."
+        "text": "The quantity of money demanded is greater than the quantity supplied at the equilibrium nominal interest rate"
       },
       {
         "label": "C",
-        "text": "The quantity of money supplied is greater than the quantity demanded at the equilibrium nominal interest rate."
+        "text": "The quantity of money supplied is greater than the quantity demanded at the equilibrium nominal interest rate"
       },
       {
         "label": "D",
-        "text": "The money demand curve is vertical at the equilibrium nominal interest rate."
+        "text": "The money demand curve is vertical at the equilibrium nominal interest rate"
       },
       {
         "label": "E",
-        "text": "The quantity of money supplied changes whenever the equilibrium nominal interest rate changes."
+        "text": "The quantity of money supplied changes whenever the equilibrium nominal interest rate changes"
       }
     ],
     "answer": "A",
@@ -765,7 +949,79 @@
     "explanation": "The equilibrium is the intersection of MD and MS. The graph labels that point at a nominal interest rate of 5 percent and a quantity of money of $700 billion.",
     "reference": "MKT-3.B | MKT-3.B.1 | Skill 4.A",
     "graphDescription": "Money market graph with nominal interest rate on the vertical axis and quantity of money on the horizontal axis. MD slopes downward and MS is vertical at $700 billion. The curves intersect at point E at a nominal interest rate of 5 percent. MD also passes through $900 billion at 3 percent and $500 billion at 7 percent.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of money (billions)",
+        "yLabel": "Nominal interest rate (%)",
+        "xMax": 1190.0,
+        "yMax": 10,
+        "curves": [
+          {
+            "id": "MD",
+            "label": "MD",
+            "style": "primary",
+            "points": [
+              {
+                "x": 300.0,
+                "y": 9.0
+              },
+              {
+                "x": 1071.0,
+                "y": 1.29
+              }
+            ]
+          },
+          {
+            "id": "MS",
+            "label": "MS",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 700,
+                "y": 0.8
+              },
+              {
+                "x": 700,
+                "y": 9.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E",
+            "x": 700,
+            "y": 5
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 700,
+            "y": 5,
+            "xLabel": "700",
+            "yLabel": "5"
+          },
+          {
+            "id": "probe",
+            "x": 900,
+            "y": 3,
+            "xLabel": "900",
+            "yLabel": "3"
+          },
+          {
+            "id": "other-point",
+            "x": 500,
+            "y": 7,
+            "xLabel": "500",
+            "yLabel": "7"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 25,
@@ -806,23 +1062,23 @@
     "options": [
       {
         "label": "A",
-        "text": "a movement up and to the left along the money demand curve"
+        "text": "A movement up and to the left along the money demand curve"
       },
       {
         "label": "B",
-        "text": "a movement down and to the right along the money demand curve"
+        "text": "A movement down and to the right along the money demand curve"
       },
       {
         "label": "C",
-        "text": "a rightward shift of the money demand curve"
+        "text": "A rightward shift of the money demand curve"
       },
       {
         "label": "D",
-        "text": "a leftward shift of the money demand curve"
+        "text": "A leftward shift of the money demand curve"
       },
       {
         "label": "E",
-        "text": "a movement to a larger quantity on the vertical money supply curve"
+        "text": "A movement to a larger quantity on the vertical money supply curve"
       }
     ],
     "answer": "B",
@@ -838,23 +1094,23 @@
     "options": [
       {
         "label": "A",
-        "text": "a movement up and to the left along the money demand curve"
+        "text": "A movement up and to the left along the money demand curve"
       },
       {
         "label": "B",
-        "text": "a movement down and to the right along the money demand curve"
+        "text": "A movement down and to the right along the money demand curve"
       },
       {
         "label": "C",
-        "text": "a rightward shift of the money demand curve"
+        "text": "A rightward shift of the money demand curve"
       },
       {
         "label": "D",
-        "text": "a leftward shift of the money demand curve"
+        "text": "A leftward shift of the money demand curve"
       },
       {
         "label": "E",
-        "text": "a movement to a smaller quantity supplied on the vertical money supply curve"
+        "text": "A movement to a smaller quantity supplied on the vertical money supply curve"
       }
     ],
     "answer": "A",
@@ -893,7 +1149,77 @@
     "explanation": "At 8 percent, the graph shows quantity supplied of $800 billion and quantity demanded of $600 billion; The surplus is $800 billion minus $600 billion, or $200 billion.",
     "reference": "MKT-3.C | MKT-3.C.1 | Skill 4.A",
     "graphDescription": "Money market graph with nominal interest rate on the vertical axis and quantity of money on the horizontal axis. MS is vertical at $800 billion. MD slopes downward and intersects MS at 6 percent. At 8 percent, MD corresponds to $600 billion. A horizontal guide line marks the 8 percent rate.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of money (billions)",
+        "yLabel": "Nominal interest rate (%)",
+        "xMax": 1360.0,
+        "yMax": 12,
+        "curves": [
+          {
+            "id": "MD",
+            "label": "MD",
+            "style": "primary",
+            "points": [
+              {
+                "x": 319.99999999999994,
+                "y": 10.8
+              },
+              {
+                "x": 1224.0,
+                "y": 1.7599999999999998
+              }
+            ]
+          },
+          {
+            "id": "MS",
+            "label": "MS",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 800,
+                "y": 0.96
+              },
+              {
+                "x": 800,
+                "y": 10.8
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E",
+            "x": 800,
+            "y": 6
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 800,
+            "y": 6,
+            "xLabel": "800",
+            "yLabel": "6"
+          },
+          {
+            "id": "probe",
+            "x": 600,
+            "y": 8,
+            "xLabel": "600",
+            "yLabel": "8"
+          },
+          {
+            "id": "supply-at-probe",
+            "x": 800,
+            "y": 8
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 29,
@@ -966,23 +1292,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Quantity of money demanded increases, while quantity of money supplied remains unchanged."
+        "text": "Quantity of money demanded increases, while quantity of money supplied remains unchanged"
       },
       {
         "label": "B",
-        "text": "Quantity of money demanded decreases, and quantity of money supplied decreases by the same amount."
+        "text": "Quantity of money demanded decreases, and quantity of money supplied decreases by the same amount"
       },
       {
         "label": "C",
-        "text": "Quantity of money demanded decreases, while quantity of money supplied remains unchanged."
+        "text": "Quantity of money demanded decreases, while quantity of money supplied remains unchanged"
       },
       {
         "label": "D",
-        "text": "Quantity of money demanded remains unchanged, while quantity of money supplied increases."
+        "text": "Quantity of money demanded remains unchanged, while quantity of money supplied increases"
       },
       {
         "label": "E",
-        "text": "Both quantities increase because a higher nominal interest rate raises the return to holding money."
+        "text": "Both quantities increase because a higher nominal interest rate raises the return to holding money"
       }
     ],
     "answer": "C",
@@ -998,11 +1324,11 @@
     "options": [
       {
         "label": "A",
-        "text": "r1"
+        "text": "R1"
       },
       {
         "label": "B",
-        "text": "r3"
+        "text": "R3"
       },
       {
         "label": "C",
@@ -1010,7 +1336,7 @@
       },
       {
         "label": "D",
-        "text": "r2"
+        "text": "R2"
       },
       {
         "label": "E",
@@ -1021,7 +1347,89 @@
     "explanation": "Equilibrium occurs where MD intersects MS; On the graph, that intersection is located at r2.",
     "reference": "MKT-3.B | MKT-3.B.1 | Skill 4.A",
     "graphDescription": "Money market graph with nominal interest rate on the vertical axis and quantity of money on the horizontal axis. MD slopes downward and MS is vertical. Three horizontal rates are labeled r1, r2, and r3, with r1 above r2 and r3 below r2. MD and MS intersect exactly at the horizontal level r2.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of money",
+        "yLabel": "Nominal interest rate",
+        "xMax": 85.0,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MD₁",
+            "label": "MD₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 76.5,
+                "y": 23.5
+              }
+            ]
+          },
+          {
+            "id": "MS₁",
+            "label": "MS₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 50,
+                "y": 8.0
+              },
+              {
+                "x": 50,
+                "y": 90.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qs",
+            "yLabel": "r₂"
+          },
+          {
+            "id": "r₁",
+            "x": 30.0,
+            "y": 70,
+            "xLabel": "Qdr₁",
+            "yLabel": "r₁"
+          },
+          {
+            "id": "r₁s",
+            "x": 50,
+            "y": 70
+          },
+          {
+            "id": "r₃",
+            "x": 70.0,
+            "y": 30,
+            "xLabel": "Qdr₃",
+            "yLabel": "r₃"
+          },
+          {
+            "id": "r₃s",
+            "x": 50,
+            "y": 30
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 33,
@@ -1062,23 +1470,23 @@
     "options": [
       {
         "label": "A",
-        "text": "a $140 billion money surplus"
+        "text": "A $140 billion money surplus"
       },
       {
         "label": "B",
-        "text": "a $220 billion money shortage"
+        "text": "A $220 billion money shortage"
       },
       {
         "label": "C",
-        "text": "a $220 billion money surplus"
+        "text": "A $220 billion money surplus"
       },
       {
         "label": "D",
-        "text": "a $140 billion money shortage"
+        "text": "A $140 billion money shortage"
       },
       {
         "label": "E",
-        "text": "money market equilibrium"
+        "text": "Money market equilibrium"
       }
     ],
     "answer": "D",
@@ -1094,23 +1502,23 @@
     "options": [
       {
         "label": "A",
-        "text": "A $180 billion surplus will put downward pressure on the nominal interest rate."
+        "text": "A $180 billion surplus will put downward pressure on the nominal interest rate"
       },
       {
         "label": "B",
-        "text": "A $180 billion shortage will put upward pressure on the nominal interest rate."
+        "text": "A $180 billion shortage will put upward pressure on the nominal interest rate"
       },
       {
         "label": "C",
-        "text": "A $260 billion surplus will put upward pressure on the nominal interest rate."
+        "text": "A $260 billion surplus will put upward pressure on the nominal interest rate"
       },
       {
         "label": "D",
-        "text": "A $260 billion shortage will put downward pressure on the nominal interest rate."
+        "text": "A $260 billion shortage will put downward pressure on the nominal interest rate"
       },
       {
         "label": "E",
-        "text": "The market will be in equilibrium because the nominal interest rate is positive."
+        "text": "The market will be in equilibrium because the nominal interest rate is positive"
       }
     ],
     "answer": "A",
@@ -1126,30 +1534,112 @@
     "options": [
       {
         "label": "A",
-        "text": "The nominal interest rate will rise, and quantity of money demanded will decrease."
+        "text": "The nominal interest rate will rise, and quantity of money demanded will decrease"
       },
       {
         "label": "B",
-        "text": "The nominal interest rate will fall, and quantity of money demanded will increase."
+        "text": "The nominal interest rate will fall, and quantity of money demanded will increase"
       },
       {
         "label": "C",
-        "text": "The nominal interest rate will fall, and quantity of money supplied will decrease."
+        "text": "The nominal interest rate will fall, and quantity of money supplied will decrease"
       },
       {
         "label": "D",
-        "text": "The nominal interest rate will rise, and quantity of money supplied will increase."
+        "text": "The nominal interest rate will rise, and quantity of money supplied will increase"
       },
       {
         "label": "E",
-        "text": "The nominal interest rate will remain at rA because point A lies on the money supply curve."
+        "text": "The nominal interest rate will remain at rA because point A lies on the money supply curve"
       }
     ],
     "answer": "B",
     "explanation": "Point A is at a rate above the equilibrium rate, where quantity supplied exceeds quantity demanded. The nominal interest rate falls and quantity demanded rises along MD until the market reaches E.",
     "reference": "MKT-3.C | MKT-3.C.1 | Skill 4.A",
     "graphDescription": "Money market graph with nominal interest rate on the vertical axis and quantity of money on the horizontal axis. MD slopes downward and MS is vertical. Equilibrium E occurs at rE. A horizontal line at rA above rE intersects MD at QdA and MS at the larger quantity Qs; point A is marked at the MS intersection of that horizontal line.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of money",
+        "yLabel": "Nominal interest rate",
+        "xMax": 85.0,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MD₁",
+            "label": "MD₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 76.5,
+                "y": 23.5
+              }
+            ]
+          },
+          {
+            "id": "MS₁",
+            "label": "MS₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 50,
+                "y": 8.0
+              },
+              {
+                "x": 50,
+                "y": 90.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "A",
+            "label": "A",
+            "x": 50,
+            "y": 70
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qs",
+            "yLabel": "rE"
+          },
+          {
+            "id": "rA",
+            "x": 30.0,
+            "y": 70,
+            "xLabel": "QdrA",
+            "yLabel": "rA"
+          },
+          {
+            "id": "rAs",
+            "x": 50,
+            "y": 70
+          },
+          {
+            "id": "A",
+            "x": 50,
+            "y": 70,
+            "yLabel": "rA"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 37,
@@ -1254,30 +1744,95 @@
     "options": [
       {
         "label": "A",
-        "text": "There is a money shortage, so the nominal interest rate will rise toward 5 percent."
+        "text": "There is a money shortage, so the nominal interest rate will rise toward 5 percent"
       },
       {
         "label": "B",
-        "text": "There is a money surplus, so the nominal interest rate will fall farther below 3 percent."
+        "text": "There is a money surplus, so the nominal interest rate will fall farther below 3 percent"
       },
       {
         "label": "C",
-        "text": "There is a money surplus, so the quantity of money supplied will decline until equilibrium is restored."
+        "text": "There is a money surplus, so the quantity of money supplied will decline until equilibrium is restored"
       },
       {
         "label": "D",
-        "text": "There is a money shortage, so the nominal interest rate will fall toward 1 percent."
+        "text": "There is a money shortage, so the nominal interest rate will fall toward 1 percent"
       },
       {
         "label": "E",
-        "text": "The market is already in equilibrium because the money supply curve is vertical."
+        "text": "The market is already in equilibrium because the money supply curve is vertical"
       }
     ],
     "answer": "A",
     "explanation": "The equilibrium rate is 5 percent, and the current 3 percent rate lies below it. The graph therefore shows quantity demanded greater than quantity supplied, creating upward pressure on the nominal interest rate.",
     "reference": "MKT-3.C | MKT-3.C.1 | Skill 4.A",
     "graphDescription": "Money market graph with nominal interest rate on the vertical axis and quantity of money on the horizontal axis. MD slopes downward and MS is vertical at $650 billion. The equilibrium point E is at 5 percent. At 3 percent, MD shows $800 billion demanded while MS remains $650 billion.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of money (billions)",
+        "yLabel": "Nominal interest rate (%)",
+        "xMax": 1105.0,
+        "yMax": 10,
+        "curves": [
+          {
+            "id": "MD",
+            "label": "MD",
+            "style": "primary",
+            "points": [
+              {
+                "x": 350.0,
+                "y": 9.0
+              },
+              {
+                "x": 965.0,
+                "y": 0.7999999999999998
+              }
+            ]
+          },
+          {
+            "id": "MS",
+            "label": "MS",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 650,
+                "y": 0.8
+              },
+              {
+                "x": 650,
+                "y": 9.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E",
+            "x": 650,
+            "y": 5
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 650,
+            "y": 5,
+            "xLabel": "650",
+            "yLabel": "5"
+          },
+          {
+            "id": "probe",
+            "x": 800,
+            "y": 3,
+            "xLabel": "800",
+            "yLabel": "3"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 41,
@@ -1318,30 +1873,100 @@
     "options": [
       {
         "label": "A",
-        "text": "The nominal interest rate falls and quantity of money demanded rises from Q1 to QS."
+        "text": "The nominal interest rate falls and quantity of money demanded rises from Q1 to QS"
       },
       {
         "label": "B",
-        "text": "The nominal interest rate rises and quantity of money demanded falls from QS to Q1."
+        "text": "The nominal interest rate rises and quantity of money demanded falls from QS to Q1"
       },
       {
         "label": "C",
-        "text": "The nominal interest rate falls and quantity of money supplied falls from QS to Q1."
+        "text": "The nominal interest rate falls and quantity of money supplied falls from QS to Q1"
       },
       {
         "label": "D",
-        "text": "The nominal interest rate rises and quantity of money supplied rises from Q1 to QS."
+        "text": "The nominal interest rate rises and quantity of money supplied rises from Q1 to QS"
       },
       {
         "label": "E",
-        "text": "The nominal interest rate remains at r1 while the money demand curve shifts to pass through QS."
+        "text": "The nominal interest rate remains at r1 while the money demand curve shifts to pass through QS"
       }
     ],
     "answer": "A",
     "explanation": "At r1 above equilibrium, the market has a money surplus. As the nominal interest rate falls to rE, quantity demanded rises along MD from Q1 to the fixed money supply QS.",
     "reference": "MKT-3.C | MKT-3.C.1 | Skill 4.A",
     "graphDescription": "Money market graph with nominal interest rate on the vertical axis and quantity of money on the horizontal axis. MD slopes downward and MS is vertical at QS. Equilibrium E is at rE. A higher rate r1 intersects MD at Q1, with Q1 less than QS. An arrow on the vertical axis points downward from r1 toward rE.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of money",
+        "yLabel": "Nominal interest rate",
+        "xMax": 85.0,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MD₁",
+            "label": "MD₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 76.5,
+                "y": 23.5
+              }
+            ]
+          },
+          {
+            "id": "MS₁",
+            "label": "MS₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 50,
+                "y": 8.0
+              },
+              {
+                "x": 50,
+                "y": 90.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qs",
+            "yLabel": "rE"
+          },
+          {
+            "id": "r₁",
+            "x": 30.0,
+            "y": 70,
+            "xLabel": "Qdr₁",
+            "yLabel": "r₁"
+          },
+          {
+            "id": "r₁s",
+            "x": 50,
+            "y": 70
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 43,
@@ -1350,23 +1975,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The money shortage becomes larger because quantity demanded has risen."
+        "text": "The money shortage becomes larger because quantity demanded has risen"
       },
       {
         "label": "B",
-        "text": "The money surplus becomes smaller but has not yet been eliminated."
+        "text": "The money surplus becomes smaller but has not yet been eliminated"
       },
       {
         "label": "C",
-        "text": "The money surplus becomes larger because quantity demanded has risen."
+        "text": "The money surplus becomes larger because quantity demanded has risen"
       },
       {
         "label": "D",
-        "text": "The market moves below equilibrium because any decrease in the rate creates a shortage."
+        "text": "The market moves below equilibrium because any decrease in the rate creates a shortage"
       },
       {
         "label": "E",
-        "text": "The quantity of money supplied decreases, eliminating the disequilibrium immediately."
+        "text": "The quantity of money supplied decreases, eliminating the disequilibrium immediately"
       }
     ],
     "answer": "B",
@@ -1382,23 +2007,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The money surplus becomes larger because quantity demanded has fallen."
+        "text": "The money surplus becomes larger because quantity demanded has fallen"
       },
       {
         "label": "B",
-        "text": "The money shortage becomes larger because quantity demanded has fallen."
+        "text": "The money shortage becomes larger because quantity demanded has fallen"
       },
       {
         "label": "C",
-        "text": "The money shortage becomes smaller but has not yet been eliminated."
+        "text": "The money shortage becomes smaller but has not yet been eliminated"
       },
       {
         "label": "D",
-        "text": "The market moves above equilibrium because any increase in the rate creates a surplus."
+        "text": "The market moves above equilibrium because any increase in the rate creates a surplus"
       },
       {
         "label": "E",
-        "text": "The quantity of money supplied increases, eliminating the disequilibrium immediately."
+        "text": "The quantity of money supplied increases, eliminating the disequilibrium immediately"
       }
     ],
     "answer": "C",
@@ -1414,23 +2039,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Quantity of money demanded is larger, while quantity of money supplied is the same."
+        "text": "Quantity of money demanded is larger, while quantity of money supplied is the same"
       },
       {
         "label": "B",
-        "text": "Both quantity demanded and quantity supplied are smaller."
+        "text": "Both quantity demanded and quantity supplied are smaller"
       },
       {
         "label": "C",
-        "text": "Quantity of money demanded is smaller, while quantity of money supplied is the same."
+        "text": "Quantity of money demanded is smaller, while quantity of money supplied is the same"
       },
       {
         "label": "D",
-        "text": "Both quantity demanded and quantity supplied are larger."
+        "text": "Both quantity demanded and quantity supplied are larger"
       },
       {
         "label": "E",
-        "text": "Quantity of money demanded is unchanged, while quantity of money supplied is smaller."
+        "text": "Quantity of money demanded is unchanged, while quantity of money supplied is smaller"
       }
     ],
     "answer": "C",
@@ -1469,7 +2094,72 @@
     "explanation": "At rH, quantity supplied is $900 billion and quantity demanded is $650 billion; The difference is a $250 billion surplus because supply exceeds demand.",
     "reference": "MKT-3.C | MKT-3.C.1 | Skill 4.A",
     "graphDescription": "Money market graph with nominal interest rate on the vertical axis and quantity of money on the horizontal axis. MS is vertical at $900 billion. MD slopes downward and intersects MS at rE. At a higher labeled rate rH, MD corresponds to $650 billion. Horizontal guide lines identify $650 billion and $900 billion.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of money",
+        "yLabel": "Nominal interest rate",
+        "xMax": 1530.0,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MD₁",
+            "label": "MD₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 180.0,
+                "y": 90.0
+              },
+              {
+                "x": 1377.0,
+                "y": 23.5
+              }
+            ]
+          },
+          {
+            "id": "MS₁",
+            "label": "MS₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 900,
+                "y": 8.0
+              },
+              {
+                "x": 900,
+                "y": 90.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E",
+            "x": 900,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 900,
+            "y": 50,
+            "xLabel": "900",
+            "yLabel": "rE"
+          },
+          {
+            "id": "probe",
+            "x": 650,
+            "y": 63.888888888888886,
+            "xLabel": "650",
+            "yLabel": "rH"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 47,
@@ -1478,23 +2168,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The nominal interest rate must fall so that quantity of money demanded rises."
+        "text": "The nominal interest rate must fall so that quantity of money demanded rises"
       },
       {
         "label": "B",
-        "text": "The nominal interest rate must rise so that quantity of money supplied rises."
+        "text": "The nominal interest rate must rise so that quantity of money supplied rises"
       },
       {
         "label": "C",
-        "text": "The nominal interest rate must fall so that quantity of money supplied falls."
+        "text": "The nominal interest rate must fall so that quantity of money supplied falls"
       },
       {
         "label": "D",
-        "text": "The nominal interest rate must remain unchanged until the shortage disappears on its own."
+        "text": "The nominal interest rate must remain unchanged until the shortage disappears on its own"
       },
       {
         "label": "E",
-        "text": "The nominal interest rate must rise so that quantity of money demanded falls."
+        "text": "The nominal interest rate must rise so that quantity of money demanded falls"
       }
     ],
     "answer": "E",
@@ -1510,23 +2200,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The quantity of money demanded exceeds the quantity of money supplied."
+        "text": "The quantity of money demanded exceeds the quantity of money supplied"
       },
       {
         "label": "B",
-        "text": "The quantity of money demanded equals the quantity of money supplied."
+        "text": "The quantity of money demanded equals the quantity of money supplied"
       },
       {
         "label": "C",
-        "text": "The money supply curve is vertical at the current quantity of money."
+        "text": "The money supply curve is vertical at the current quantity of money"
       },
       {
         "label": "D",
-        "text": "The quantity of money supplied exceeds the quantity of money demanded."
+        "text": "The quantity of money supplied exceeds the quantity of money demanded"
       },
       {
         "label": "E",
-        "text": "The money demand curve slopes downward at the current quantity of money."
+        "text": "The money demand curve slopes downward at the current quantity of money"
       }
     ],
     "answer": "D",
@@ -1542,23 +2232,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The quantity of money supplied exceeds the quantity of money demanded."
+        "text": "The quantity of money supplied exceeds the quantity of money demanded"
       },
       {
         "label": "B",
-        "text": "The quantity of money demanded equals the quantity of money supplied."
+        "text": "The quantity of money demanded equals the quantity of money supplied"
       },
       {
         "label": "C",
-        "text": "The money supply curve is vertical at the current quantity of money."
+        "text": "The money supply curve is vertical at the current quantity of money"
       },
       {
         "label": "D",
-        "text": "The money demand curve slopes downward at the current quantity of money."
+        "text": "The money demand curve slopes downward at the current quantity of money"
       },
       {
         "label": "E",
-        "text": "The quantity of money demanded exceeds the quantity of money supplied."
+        "text": "The quantity of money demanded exceeds the quantity of money supplied"
       }
     ],
     "answer": "E",
@@ -1574,30 +2264,100 @@
     "options": [
       {
         "label": "A",
-        "text": "Quantity of money supplied exceeds quantity demanded, creating downward pressure on the nominal interest rate."
+        "text": "Quantity of money supplied exceeds quantity demanded, creating downward pressure on the nominal interest rate"
       },
       {
         "label": "B",
-        "text": "Quantity of money demanded equals quantity supplied, so the nominal interest rate is at equilibrium."
+        "text": "Quantity of money demanded equals quantity supplied, so the nominal interest rate is at equilibrium"
       },
       {
         "label": "C",
-        "text": "Quantity of money supplied rises as the nominal interest rate rises from rL because MS slopes upward."
+        "text": "Quantity of money supplied rises as the nominal interest rate rises from rL because MS slopes upward"
       },
       {
         "label": "D",
-        "text": "Quantity of money demanded rises as the nominal interest rate rises from rL because MD slopes upward."
+        "text": "Quantity of money demanded rises as the nominal interest rate rises from rL because MD slopes upward"
       },
       {
         "label": "E",
-        "text": "Quantity of money demanded exceeds quantity supplied, creating upward pressure on the nominal interest rate."
+        "text": "Quantity of money demanded exceeds quantity supplied, creating upward pressure on the nominal interest rate"
       }
     ],
     "answer": "E",
     "explanation": "The rate rL is below equilibrium, where the graph shows Qd greater than Qs; That shortage puts upward pressure on the nominal interest rate.",
     "reference": "MKT-3.C | MKT-3.C.1 | Skill 4.A",
     "graphDescription": "Money market graph with nominal interest rate on the vertical axis and quantity of money on the horizontal axis. MD slopes downward and MS is vertical. Equilibrium E is at rE. A lower rate rL intersects MD at QdL to the right of the vertical MS quantity Qs, so QdL is greater than Qs.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of money",
+        "yLabel": "Nominal interest rate",
+        "xMax": 85.0,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MD₁",
+            "label": "MD₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 76.5,
+                "y": 23.5
+              }
+            ]
+          },
+          {
+            "id": "MS₁",
+            "label": "MS₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 50,
+                "y": 8.0
+              },
+              {
+                "x": 50,
+                "y": 90.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qs",
+            "yLabel": "rE"
+          },
+          {
+            "id": "rL",
+            "x": 70.0,
+            "y": 30,
+            "xLabel": "QdrL",
+            "yLabel": "rL"
+          },
+          {
+            "id": "rLs",
+            "x": 50,
+            "y": 30
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 51,
@@ -1606,23 +2366,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The change shifts the money demand curve because every interest-rate change changes money demand."
+        "text": "The change shifts the money demand curve because every interest-rate change changes money demand"
       },
       {
         "label": "B",
-        "text": "The change is a change in quantity of money demanded, not a change in the money demand curve itself."
+        "text": "The change is a change in quantity of money demanded, not a change in the money demand curve itself"
       },
       {
         "label": "C",
-        "text": "The change shifts the money supply curve because the money market must remain in equilibrium."
+        "text": "The change shifts the money supply curve because the money market must remain in equilibrium"
       },
       {
         "label": "D",
-        "text": "The change rotates the money supply curve because the monetary base is held constant."
+        "text": "The change rotates the money supply curve because the monetary base is held constant"
       },
       {
         "label": "E",
-        "text": "The change leaves quantity of money demanded unchanged because only money supply responds to interest rates."
+        "text": "The change leaves quantity of money demanded unchanged because only money supply responds to interest rates"
       }
     ],
     "answer": "B",
@@ -1638,19 +2398,19 @@
     "options": [
       {
         "label": "A",
-        "text": "less than $750 billion because the nominal interest rate fell"
+        "text": "Less than $750 billion because the nominal interest rate fell"
       },
       {
         "label": "B",
-        "text": "greater than $750 billion because the nominal interest rate fell"
+        "text": "Greater than $750 billion because the nominal interest rate fell"
       },
       {
         "label": "C",
-        "text": "equal to the quantity of money demanded at 9 percent"
+        "text": "Equal to the quantity of money demanded at 9 percent"
       },
       {
         "label": "D",
-        "text": "undetermined because a vertical money supply curve has no fixed quantity"
+        "text": "Undetermined because a vertical money supply curve has no fixed quantity"
       },
       {
         "label": "E",
@@ -1670,23 +2430,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The nominal interest rate should rise because the market has a money shortage."
+        "text": "The nominal interest rate should rise because the market has a money shortage"
       },
       {
         "label": "B",
-        "text": "The quantity of money supplied should rise because money demand is too low."
+        "text": "The quantity of money supplied should rise because money demand is too low"
       },
       {
         "label": "C",
-        "text": "The nominal interest rate should fall because the market has a money surplus."
+        "text": "The nominal interest rate should fall because the market has a money surplus"
       },
       {
         "label": "D",
-        "text": "The quantity of money supplied should fall because money demand is too high."
+        "text": "The quantity of money supplied should fall because money demand is too high"
       },
       {
         "label": "E",
-        "text": "The nominal interest rate should remain at 7 percent because money supply is vertical."
+        "text": "The nominal interest rate should remain at 7 percent because money supply is vertical"
       }
     ],
     "answer": "C",
@@ -1702,23 +2462,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The nominal interest rate should fall because the market has a money surplus."
+        "text": "The nominal interest rate should fall because the market has a money surplus"
       },
       {
         "label": "B",
-        "text": "The quantity of money supplied should rise along the vertical money supply curve."
+        "text": "The quantity of money supplied should rise along the vertical money supply curve"
       },
       {
         "label": "C",
-        "text": "The quantity of money demanded should rise because the nominal interest rate is too low."
+        "text": "The quantity of money demanded should rise because the nominal interest rate is too low"
       },
       {
         "label": "D",
-        "text": "The nominal interest rate should remain at 2 percent because money demand is downward sloping."
+        "text": "The nominal interest rate should remain at 2 percent because money demand is downward sloping"
       },
       {
         "label": "E",
-        "text": "The nominal interest rate should rise because the market has a money shortage."
+        "text": "The nominal interest rate should rise because the market has a money shortage"
       }
     ],
     "answer": "E",
@@ -1821,7 +2581,77 @@
     "explanation": "At 9 percent, money supply is $850 billion and money demand is $550 billion. The $300 billion surplus creates downward pressure on the nominal interest rate.",
     "reference": "MKT-3.C | MKT-3.C.1 | Skill 4.A",
     "graphDescription": "Money market graph with MS vertical at $850 billion and MD downward sloping. Equilibrium occurs at 6 percent. At 9 percent, MD corresponds to $550 billion. The 9 percent horizontal guide reaches MS at $850 billion.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of money (billions)",
+        "yLabel": "Nominal interest rate (%)",
+        "xMax": 1445.0,
+        "yMax": 12,
+        "curves": [
+          {
+            "id": "MD",
+            "label": "MD",
+            "style": "primary",
+            "points": [
+              {
+                "x": 369.99999999999994,
+                "y": 10.8
+              },
+              {
+                "x": 1300.5,
+                "y": 1.495
+              }
+            ]
+          },
+          {
+            "id": "MS",
+            "label": "MS",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 850,
+                "y": 0.96
+              },
+              {
+                "x": 850,
+                "y": 10.8
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E",
+            "x": 850,
+            "y": 6
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 850,
+            "y": 6,
+            "xLabel": "850",
+            "yLabel": "6"
+          },
+          {
+            "id": "probe",
+            "x": 550,
+            "y": 9,
+            "xLabel": "550",
+            "yLabel": "9"
+          },
+          {
+            "id": "supply-at-probe",
+            "x": 850,
+            "y": 9
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 58,
@@ -1830,23 +2660,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Quantity demanded rises while quantity supplied stays constant."
+        "text": "Quantity demanded rises while quantity supplied stays constant"
       },
       {
         "label": "B",
-        "text": "Quantity demanded falls while quantity supplied stays constant."
+        "text": "Quantity demanded falls while quantity supplied stays constant"
       },
       {
         "label": "C",
-        "text": "Quantity demanded stays constant while quantity supplied falls."
+        "text": "Quantity demanded stays constant while quantity supplied falls"
       },
       {
         "label": "D",
-        "text": "Both quantity demanded and quantity supplied rise by the same amount."
+        "text": "Both quantity demanded and quantity supplied rise by the same amount"
       },
       {
         "label": "E",
-        "text": "Both quantity demanded and quantity supplied fall by the same amount."
+        "text": "Both quantity demanded and quantity supplied fall by the same amount"
       }
     ],
     "answer": "A",
@@ -1862,23 +2692,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Quantity demanded rises while quantity supplied stays constant."
+        "text": "Quantity demanded rises while quantity supplied stays constant"
       },
       {
         "label": "B",
-        "text": "Quantity demanded stays constant while quantity supplied rises."
+        "text": "Quantity demanded stays constant while quantity supplied rises"
       },
       {
         "label": "C",
-        "text": "Both quantity demanded and quantity supplied rise by the same amount."
+        "text": "Both quantity demanded and quantity supplied rise by the same amount"
       },
       {
         "label": "D",
-        "text": "Quantity demanded falls while quantity supplied stays constant."
+        "text": "Quantity demanded falls while quantity supplied stays constant"
       },
       {
         "label": "E",
-        "text": "Both quantity demanded and quantity supplied fall by the same amount."
+        "text": "Both quantity demanded and quantity supplied fall by the same amount"
       }
     ],
     "answer": "D",
@@ -1894,23 +2724,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The quantity supplied changes with the nominal interest rate until it matches money demand."
+        "text": "The quantity supplied changes with the nominal interest rate until it matches money demand"
       },
       {
         "label": "B",
-        "text": "The fixed quantity supplied equals the quantity demanded at the nominal interest rate where the curves cross."
+        "text": "The fixed quantity supplied equals the quantity demanded at the nominal interest rate where the curves cross"
       },
       {
         "label": "C",
-        "text": "The money demand curve becomes vertical at the equilibrium quantity of money."
+        "text": "The money demand curve becomes vertical at the equilibrium quantity of money"
       },
       {
         "label": "D",
-        "text": "The nominal interest rate is fixed by the vertical money supply curve at every point on the graph."
+        "text": "The nominal interest rate is fixed by the vertical money supply curve at every point on the graph"
       },
       {
         "label": "E",
-        "text": "The quantity demanded is constant at every nominal interest rate represented on the money demand curve."
+        "text": "The quantity demanded is constant at every nominal interest rate represented on the money demand curve"
       }
     ],
     "answer": "B",
@@ -1926,23 +2756,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The 7 percent rate is below equilibrium and will face upward market pressure."
+        "text": "The 7 percent rate is below equilibrium and will face upward market pressure"
       },
       {
         "label": "B",
-        "text": "The 7 percent rate is also an equilibrium rate because money supply is vertical."
+        "text": "The 7 percent rate is also an equilibrium rate because money supply is vertical"
       },
       {
         "label": "C",
-        "text": "The 7 percent rate is above equilibrium and will face downward market pressure."
+        "text": "The 7 percent rate is above equilibrium and will face downward market pressure"
       },
       {
         "label": "D",
-        "text": "The 7 percent rate will cause quantity supplied to fall until the $120 billion gap disappears."
+        "text": "The 7 percent rate will cause quantity supplied to fall until the $120 billion gap disappears"
       },
       {
         "label": "E",
-        "text": "The 7 percent rate will cause quantity demanded to fall further until it equals quantity supplied."
+        "text": "The 7 percent rate will cause quantity demanded to fall further until it equals quantity supplied"
       }
     ],
     "answer": "C",
@@ -1958,23 +2788,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The 4 percent rate is above equilibrium and will face downward market pressure."
+        "text": "The 4 percent rate is above equilibrium and will face downward market pressure"
       },
       {
         "label": "B",
-        "text": "The 4 percent rate is also an equilibrium rate because money demand is downward sloping."
+        "text": "The 4 percent rate is also an equilibrium rate because money demand is downward sloping"
       },
       {
         "label": "C",
-        "text": "The 4 percent rate will cause quantity supplied to rise until the $160 billion gap disappears."
+        "text": "The 4 percent rate will cause quantity supplied to rise until the $160 billion gap disappears"
       },
       {
         "label": "D",
-        "text": "The 4 percent rate is below equilibrium and will face upward market pressure."
+        "text": "The 4 percent rate is below equilibrium and will face upward market pressure"
       },
       {
         "label": "E",
-        "text": "The 4 percent rate will cause quantity demanded to rise further until it equals quantity supplied."
+        "text": "The 4 percent rate will cause quantity demanded to rise further until it equals quantity supplied"
       }
     ],
     "answer": "D",
@@ -1990,30 +2820,112 @@
     "options": [
       {
         "label": "A",
-        "text": "At rA there is a shortage; at rB there is a surplus."
+        "text": "At rA there is a shortage; at rB there is a surplus"
       },
       {
         "label": "B",
-        "text": "At both rA and rB there are money shortages."
+        "text": "At both rA and rB there are money shortages"
       },
       {
         "label": "C",
-        "text": "At rA there is a surplus; at rB there is a shortage."
+        "text": "At rA there is a surplus; at rB there is a shortage"
       },
       {
         "label": "D",
-        "text": "At both rA and rB there are money surpluses."
+        "text": "At both rA and rB there are money surpluses"
       },
       {
         "label": "E",
-        "text": "At both rA and rB the money market is in equilibrium."
+        "text": "At both rA and rB the money market is in equilibrium"
       }
     ],
     "answer": "C",
     "explanation": "The graph places rA above equilibrium, where quantity supplied exceeds quantity demanded, and rB below equilibrium, where quantity demanded exceeds quantity supplied. Thus the two rates create opposite disequilibria.",
     "reference": "MKT-3.C | MKT-3.C.1 | Skill 4.A",
     "graphDescription": "Money market graph with MD downward sloping and MS vertical. Their intersection E is at rE. A horizontal rate rA is above rE and a horizontal rate rB is below rE. At rA, the MD intersection lies left of MS; at rB, the MD intersection lies right of MS.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of money",
+        "yLabel": "Nominal interest rate",
+        "xMax": 85.0,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MD₁",
+            "label": "MD₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 76.5,
+                "y": 23.5
+              }
+            ]
+          },
+          {
+            "id": "MS₁",
+            "label": "MS₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 50,
+                "y": 8.0
+              },
+              {
+                "x": 50,
+                "y": 90.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qs",
+            "yLabel": "rE"
+          },
+          {
+            "id": "rA",
+            "x": 30.0,
+            "y": 70,
+            "xLabel": "QdrA",
+            "yLabel": "rA"
+          },
+          {
+            "id": "rAs",
+            "x": 50,
+            "y": 70
+          },
+          {
+            "id": "rB",
+            "x": 70.0,
+            "y": 30,
+            "xLabel": "QdrB",
+            "yLabel": "rB"
+          },
+          {
+            "id": "rBs",
+            "x": 50,
+            "y": 30
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 64,
@@ -2150,23 +3062,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The equilibrium nominal interest rate must equal the quantity of money supplied."
+        "text": "The equilibrium nominal interest rate must equal the quantity of money supplied"
       },
       {
         "label": "B",
-        "text": "The equilibrium quantity of money demanded must be zero."
+        "text": "The equilibrium quantity of money demanded must be zero"
       },
       {
         "label": "C",
-        "text": "The money demand curve must be vertical at equilibrium."
+        "text": "The money demand curve must be vertical at equilibrium"
       },
       {
         "label": "D",
-        "text": "The money supply curve must become downward sloping at equilibrium."
+        "text": "The money supply curve must become downward sloping at equilibrium"
       },
       {
         "label": "E",
-        "text": "The equilibrium quantity of money demanded equals the equilibrium quantity of money supplied."
+        "text": "The equilibrium quantity of money demanded equals the equilibrium quantity of money supplied"
       }
     ],
     "answer": "E",
@@ -2182,23 +3094,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The quantity of money demanded decreases while the quantity supplied stays fixed."
+        "text": "The quantity of money demanded decreases while the quantity supplied stays fixed"
       },
       {
         "label": "B",
-        "text": "The quantity of money demanded increases while the quantity supplied stays fixed."
+        "text": "The quantity of money demanded increases while the quantity supplied stays fixed"
       },
       {
         "label": "C",
-        "text": "The quantity of money supplied decreases while the quantity demanded stays fixed."
+        "text": "The quantity of money supplied decreases while the quantity demanded stays fixed"
       },
       {
         "label": "D",
-        "text": "The quantity of money supplied increases while the quantity demanded stays fixed."
+        "text": "The quantity of money supplied increases while the quantity demanded stays fixed"
       },
       {
         "label": "E",
-        "text": "Both money demand and money supply shift toward one another at the same nominal interest rate."
+        "text": "Both money demand and money supply shift toward one another at the same nominal interest rate"
       }
     ],
     "answer": "B",
@@ -2214,23 +3126,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The quantity of money demanded increases while the quantity supplied stays fixed."
+        "text": "The quantity of money demanded increases while the quantity supplied stays fixed"
       },
       {
         "label": "B",
-        "text": "The quantity of money supplied increases while the quantity demanded stays fixed."
+        "text": "The quantity of money supplied increases while the quantity demanded stays fixed"
       },
       {
         "label": "C",
-        "text": "The quantity of money supplied decreases while the quantity demanded stays fixed."
+        "text": "The quantity of money supplied decreases while the quantity demanded stays fixed"
       },
       {
         "label": "D",
-        "text": "The quantity of money demanded decreases while the quantity supplied stays fixed."
+        "text": "The quantity of money demanded decreases while the quantity supplied stays fixed"
       },
       {
         "label": "E",
-        "text": "Both money demand and money supply shift toward one another at the same nominal interest rate."
+        "text": "Both money demand and money supply shift toward one another at the same nominal interest rate"
       }
     ],
     "answer": "D",
@@ -2246,23 +3158,23 @@
     "options": [
       {
         "label": "A",
-        "text": "There is a $300 billion surplus; the rate falls; quantity demanded rises; equilibrium is reached at 6 percent."
+        "text": "There is a $300 billion surplus; the rate falls; quantity demanded rises; equilibrium is reached at 6 percent"
       },
       {
         "label": "B",
-        "text": "There is a $150 billion shortage; the rate rises; quantity supplied rises; equilibrium is reached at 4 percent."
+        "text": "There is a $150 billion shortage; the rate rises; quantity supplied rises; equilibrium is reached at 4 percent"
       },
       {
         "label": "C",
-        "text": "There is a $450 billion shortage; the rate falls; quantity demanded rises; equilibrium is reached at 8 percent."
+        "text": "There is a $450 billion shortage; the rate falls; quantity demanded rises; equilibrium is reached at 8 percent"
       },
       {
         "label": "D",
-        "text": "There is a $300 billion shortage; the rate rises; quantity demanded falls; equilibrium is reached at 6 percent."
+        "text": "There is a $300 billion shortage; the rate rises; quantity demanded falls; equilibrium is reached at 6 percent"
       },
       {
         "label": "E",
-        "text": "There is no disequilibrium because the money supply is fixed at $700 billion at every interest rate."
+        "text": "There is no disequilibrium because the money supply is fixed at $700 billion at every interest rate"
       }
     ],
     "answer": "D",
@@ -2278,30 +3190,100 @@
     "options": [
       {
         "label": "A",
-        "text": "Qs > Qd at rA; r falls; Qd rises along MD; Qs stays fixed; Qd = Qs at E."
+        "text": "Qs > Qd at rA; r falls; Qd rises along MD; Qs stays fixed; Qd = Qs at E"
       },
       {
         "label": "B",
-        "text": "Qd > Qs at rA; r rises; Qd falls along MD; Qs stays fixed; Qd = Qs at E."
+        "text": "Qd > Qs at rA; r rises; Qd falls along MD; Qs stays fixed; Qd = Qs at E"
       },
       {
         "label": "C",
-        "text": "Qs > Qd at rA; r rises; Qd falls along MD; Qs rises along MS; Qd = Qs at E."
+        "text": "Qs > Qd at rA; r rises; Qd falls along MD; Qs rises along MS; Qd = Qs at E"
       },
       {
         "label": "D",
-        "text": "Qd > Qs at rA; r falls; Qd rises along MD; Qs falls along MS; Qd = Qs at E."
+        "text": "Qd > Qs at rA; r falls; Qd rises along MD; Qs falls along MS; Qd = Qs at E"
       },
       {
         "label": "E",
-        "text": "Qs = Qd at rA; r stays unchanged; MD shifts until it crosses MS again at E."
+        "text": "Qs = Qd at rA; r stays unchanged; MD shifts until it crosses MS again at E"
       }
     ],
     "answer": "A",
     "explanation": "The graph places rA above equilibrium, so Qs exceeds Qd and the market has a surplus. The rate falls, increasing Qd along MD while Qs remains fixed, until the quantities are equal at E.",
     "reference": "MKT-3.C | MKT-3.C.1 | Skill 4.A",
     "graphDescription": "Money market graph with nominal interest rate on the vertical axis and quantity of money on the horizontal axis. MD slopes downward and MS is vertical at QS. Equilibrium E occurs at rE. The current rate rA is above rE, where MD intersects at QdA to the left of QS. Arrows indicate potential movement along MD and along the interest-rate axis, but no arrow is drawn on MS.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of money",
+        "yLabel": "Nominal interest rate",
+        "xMax": 85.0,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MD₁",
+            "label": "MD₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 76.5,
+                "y": 23.5
+              }
+            ]
+          },
+          {
+            "id": "MS₁",
+            "label": "MS₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 50,
+                "y": 8.0
+              },
+              {
+                "x": 50,
+                "y": 90.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qs",
+            "yLabel": "rE"
+          },
+          {
+            "id": "rA",
+            "x": 30.0,
+            "y": 70,
+            "xLabel": "QdrA",
+            "yLabel": "rA"
+          },
+          {
+            "id": "rAs",
+            "x": 50,
+            "y": 70
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 73,
@@ -2310,23 +3292,23 @@
     "options": [
       {
         "label": "A",
-        "text": "A $50 billion surplus remains, so the nominal interest rate must fall to reach equilibrium."
+        "text": "A $50 billion surplus remains, so the nominal interest rate must fall to reach equilibrium"
       },
       {
         "label": "B",
-        "text": "A $50 billion shortage remains, so the nominal interest rate must rise further to reach equilibrium."
+        "text": "A $50 billion shortage remains, so the nominal interest rate must rise further to reach equilibrium"
       },
       {
         "label": "C",
-        "text": "A $250 billion shortage remains, so the nominal interest rate must rise further to reach equilibrium."
+        "text": "A $250 billion shortage remains, so the nominal interest rate must rise further to reach equilibrium"
       },
       {
         "label": "D",
-        "text": "The market is now in equilibrium because any rise in the nominal interest rate eliminates a shortage."
+        "text": "The market is now in equilibrium because any rise in the nominal interest rate eliminates a shortage"
       },
       {
         "label": "E",
-        "text": "The quantity of money supplied must fall by $50 billion because money supply responds to the higher rate."
+        "text": "The quantity of money supplied must fall by $50 billion because money supply responds to the higher rate"
       }
     ],
     "answer": "B",
@@ -2342,23 +3324,23 @@
     "options": [
       {
         "label": "A",
-        "text": "A $60 billion shortage remains, so the nominal interest rate must rise to reach equilibrium."
+        "text": "A $60 billion shortage remains, so the nominal interest rate must rise to reach equilibrium"
       },
       {
         "label": "B",
-        "text": "A $300 billion surplus remains, so the nominal interest rate must fall further to reach equilibrium."
+        "text": "A $300 billion surplus remains, so the nominal interest rate must fall further to reach equilibrium"
       },
       {
         "label": "C",
-        "text": "The market is now in equilibrium because any fall in the nominal interest rate eliminates a surplus."
+        "text": "The market is now in equilibrium because any fall in the nominal interest rate eliminates a surplus"
       },
       {
         "label": "D",
-        "text": "The quantity of money supplied must rise by $60 billion because money supply responds to the lower rate."
+        "text": "The quantity of money supplied must rise by $60 billion because money supply responds to the lower rate"
       },
       {
         "label": "E",
-        "text": "A $60 billion surplus remains, so the nominal interest rate must fall further to reach equilibrium."
+        "text": "A $60 billion surplus remains, so the nominal interest rate must fall further to reach equilibrium"
       }
     ],
     "answer": "E",
@@ -2374,23 +3356,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The adjustment is in the wrong direction because shortages require a lower nominal interest rate."
+        "text": "The adjustment is in the wrong direction because shortages require a lower nominal interest rate"
       },
       {
         "label": "B",
-        "text": "The adjustment is complete because any increase in the nominal interest rate restores equilibrium."
+        "text": "The adjustment is complete because any increase in the nominal interest rate restores equilibrium"
       },
       {
         "label": "C",
-        "text": "The adjustment is in the correct direction but is incomplete, so the nominal interest rate should continue rising."
+        "text": "The adjustment is in the correct direction but is incomplete, so the nominal interest rate should continue rising"
       },
       {
         "label": "D",
-        "text": "The quantity of money supplied must now decrease so that the shortage can disappear."
+        "text": "The quantity of money supplied must now decrease so that the shortage can disappear"
       },
       {
         "label": "E",
-        "text": "The money demand curve must shift left because quantity demanded cannot change along the same curve at the current nominal interest rate."
+        "text": "The money demand curve must shift left because quantity demanded cannot change along the same curve at the current nominal interest rate"
       }
     ],
     "answer": "C",
@@ -2406,30 +3388,124 @@
     "options": [
       {
         "label": "A",
-        "text": "r2"
+        "text": "R2"
       },
       {
         "label": "B",
-        "text": "r3"
+        "text": "R3"
       },
       {
         "label": "C",
-        "text": "r1"
+        "text": "R1"
       },
       {
         "label": "D",
-        "text": "rE"
+        "text": "RE"
       },
       {
         "label": "E",
-        "text": "The surplus is the same at every rate because MS is vertical."
+        "text": "The surplus is the same at every rate because MS is vertical"
       }
     ],
     "answer": "C",
     "explanation": "The highest labeled rate r1 corresponds to the smallest quantity demanded on MD while Qs is fixed. Therefore Qs minus Qd is greatest at r1, producing the largest surplus.",
     "reference": "MKT-3.A | MKT-3.C.1 | Skill 4.A",
     "graphDescription": "Money market graph with downward-sloping MD and vertical MS at QS. Equilibrium occurs at rE. Three rates above equilibrium are labeled r1, r2, and r3 from highest to lowest, so r1 > r2 > r3 > rE. Horizontal guides show successively larger Qd values as the rate falls.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of money",
+        "yLabel": "Nominal interest rate",
+        "xMax": 85.0,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MD₁",
+            "label": "MD₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 76.5,
+                "y": 23.5
+              }
+            ]
+          },
+          {
+            "id": "MS₁",
+            "label": "MS₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 50,
+                "y": 8.0
+              },
+              {
+                "x": 50,
+                "y": 90.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qs",
+            "yLabel": "rE"
+          },
+          {
+            "id": "r₁",
+            "x": 15.0,
+            "y": 85,
+            "xLabel": "Qdr₁",
+            "yLabel": "r₁"
+          },
+          {
+            "id": "r₁s",
+            "x": 50,
+            "y": 85
+          },
+          {
+            "id": "r₂",
+            "x": 25.0,
+            "y": 75,
+            "xLabel": "Qdr₂",
+            "yLabel": "r₂"
+          },
+          {
+            "id": "r₂s",
+            "x": 50,
+            "y": 75
+          },
+          {
+            "id": "r₃",
+            "x": 35.0,
+            "y": 65,
+            "xLabel": "Qdr₃",
+            "yLabel": "r₃"
+          },
+          {
+            "id": "r₃s",
+            "x": 50,
+            "y": 65
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 77,
@@ -2438,23 +3514,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The rate remains below equilibrium, creating a $100 billion shortage and upward pressure on the rate."
+        "text": "The rate remains below equilibrium, creating a $100 billion shortage and upward pressure on the rate"
       },
       {
         "label": "B",
-        "text": "The market is in equilibrium because the rate rose and quantity demanded fell."
+        "text": "The market is in equilibrium because the rate rose and quantity demanded fell"
       },
       {
         "label": "C",
-        "text": "The rate has moved above equilibrium, creating a $200 billion shortage and upward pressure on the rate."
+        "text": "The rate has moved above equilibrium, creating a $200 billion shortage and upward pressure on the rate"
       },
       {
         "label": "D",
-        "text": "The money supply must fall to $700 billion because quantity supplied adjusts to the new interest rate."
+        "text": "The money supply must fall to $700 billion because quantity supplied adjusts to the new interest rate"
       },
       {
         "label": "E",
-        "text": "The rate has moved above equilibrium, creating a $100 billion surplus and downward pressure on the rate."
+        "text": "The rate has moved above equilibrium, creating a $100 billion surplus and downward pressure on the rate"
       }
     ],
     "answer": "E",
@@ -2470,23 +3546,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The rate has moved below equilibrium, creating an $80 billion shortage and upward pressure on the rate."
+        "text": "The rate has moved below equilibrium, creating an $80 billion shortage and upward pressure on the rate"
       },
       {
         "label": "B",
-        "text": "The rate remains above equilibrium, creating an $80 billion surplus and downward pressure on the rate."
+        "text": "The rate remains above equilibrium, creating an $80 billion surplus and downward pressure on the rate"
       },
       {
         "label": "C",
-        "text": "The market is in equilibrium because the rate fell and quantity demanded rose."
+        "text": "The market is in equilibrium because the rate fell and quantity demanded rose"
       },
       {
         "label": "D",
-        "text": "The rate has moved below equilibrium, creating a $200 billion surplus and downward pressure on the rate."
+        "text": "The rate has moved below equilibrium, creating a $200 billion surplus and downward pressure on the rate"
       },
       {
         "label": "E",
-        "text": "The money supply must rise to $760 billion because quantity supplied adjusts to the new interest rate."
+        "text": "The money supply must rise to $760 billion because quantity supplied adjusts to the new interest rate"
       }
     ],
     "answer": "A",
@@ -2502,23 +3578,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The nominal interest rate fell past the equilibrium rate, so market pressure should reverse and push the rate upward."
+        "text": "The nominal interest rate fell past the equilibrium rate, so market pressure should reverse and push the rate upward"
       },
       {
         "label": "B",
-        "text": "The nominal interest rate rose past the equilibrium rate, so market pressure should reverse and push the rate downward."
+        "text": "The nominal interest rate rose past the equilibrium rate, so market pressure should reverse and push the rate downward"
       },
       {
         "label": "C",
-        "text": "The quantity of money supplied must have changed because a vertical MS curve cannot be associated with both a surplus and a shortage."
+        "text": "The quantity of money supplied must have changed because a vertical MS curve cannot be associated with both a surplus and a shortage"
       },
       {
         "label": "D",
-        "text": "The money demand curve must have shifted because moving along one curve cannot change the sign of disequilibrium."
+        "text": "The money demand curve must have shifted because moving along one curve cannot change the sign of disequilibrium"
       },
       {
         "label": "E",
-        "text": "The market reached equilibrium twice because every rate between a surplus and a shortage is an equilibrium rate."
+        "text": "The market reached equilibrium twice because every rate between a surplus and a shortage is an equilibrium rate"
       }
     ],
     "answer": "A",
@@ -2557,7 +3633,89 @@
     "explanation": "Above rE, Qs exceeds Qd, so rH creates a surplus. At rE the quantities are equal, and below rE, Qd exceeds Qs, so rL creates a shortage.",
     "reference": "MKT-3.B | MKT-3.C.1 | Skill 4.A",
     "graphDescription": "Money market graph with MD downward sloping and MS vertical. Equilibrium E occurs at rE. A higher rate rH and a lower rate rL are labeled on the vertical axis. At rH, MD is left of MS; at rE, MD intersects MS; at rL, MD is right of MS. A downward arrow runs from rH through rE to rL.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of money",
+        "yLabel": "Nominal interest rate",
+        "xMax": 85.0,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MD₁",
+            "label": "MD₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 76.5,
+                "y": 23.5
+              }
+            ]
+          },
+          {
+            "id": "MS₁",
+            "label": "MS₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 50,
+                "y": 8.0
+              },
+              {
+                "x": 50,
+                "y": 90.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qs",
+            "yLabel": "rE"
+          },
+          {
+            "id": "rH",
+            "x": 30.0,
+            "y": 70,
+            "xLabel": "QdrH",
+            "yLabel": "rH"
+          },
+          {
+            "id": "rHs",
+            "x": 50,
+            "y": 70
+          },
+          {
+            "id": "rL",
+            "x": 70.0,
+            "y": 30,
+            "xLabel": "QdrL",
+            "yLabel": "rL"
+          },
+          {
+            "id": "rLs",
+            "x": 50,
+            "y": 30
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 81,
@@ -2566,23 +3724,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Quantity demanded is $950 billion, and the nominal interest rate faces upward pressure."
+        "text": "Quantity demanded is $950 billion, and the nominal interest rate faces upward pressure"
       },
       {
         "label": "B",
-        "text": "Quantity demanded is $650 billion, and the nominal interest rate faces upward pressure."
+        "text": "Quantity demanded is $650 billion, and the nominal interest rate faces upward pressure"
       },
       {
         "label": "C",
-        "text": "Quantity demanded is $650 billion, and the nominal interest rate faces downward pressure."
+        "text": "Quantity demanded is $650 billion, and the nominal interest rate faces downward pressure"
       },
       {
         "label": "D",
-        "text": "Quantity demanded is $950 billion, and the nominal interest rate faces downward pressure."
+        "text": "Quantity demanded is $950 billion, and the nominal interest rate faces downward pressure"
       },
       {
         "label": "E",
-        "text": "Quantity demanded is $800 billion, and the nominal interest rate is already at equilibrium."
+        "text": "Quantity demanded is $800 billion, and the nominal interest rate is already at equilibrium"
       }
     ],
     "answer": "C",
@@ -2598,23 +3756,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Quantity demanded is $590 billion, and the nominal interest rate faces downward pressure."
+        "text": "Quantity demanded is $590 billion, and the nominal interest rate faces downward pressure"
       },
       {
         "label": "B",
-        "text": "Quantity demanded is $850 billion, and the nominal interest rate faces downward pressure."
+        "text": "Quantity demanded is $850 billion, and the nominal interest rate faces downward pressure"
       },
       {
         "label": "C",
-        "text": "Quantity demanded is $590 billion, and the nominal interest rate faces upward pressure."
+        "text": "Quantity demanded is $590 billion, and the nominal interest rate faces upward pressure"
       },
       {
         "label": "D",
-        "text": "Quantity demanded is $720 billion, and the nominal interest rate is already at equilibrium."
+        "text": "Quantity demanded is $720 billion, and the nominal interest rate is already at equilibrium"
       },
       {
         "label": "E",
-        "text": "Quantity demanded is $850 billion, and the nominal interest rate faces upward pressure."
+        "text": "Quantity demanded is $850 billion, and the nominal interest rate faces upward pressure"
       }
     ],
     "answer": "E",
@@ -2630,23 +3788,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The $150 billion surplus pushes the rate down to 2 percent, increasing quantity demanded while quantity supplied remains $700 billion."
+        "text": "The $150 billion surplus pushes the rate down to 2 percent, increasing quantity demanded while quantity supplied remains $700 billion"
       },
       {
         "label": "B",
-        "text": "The $150 billion shortage pushes the rate up to 8 percent, reducing quantity supplied by $150 billion while quantity demanded remains fixed."
+        "text": "The $150 billion shortage pushes the rate up to 8 percent, reducing quantity supplied by $150 billion while quantity demanded remains fixed"
       },
       {
         "label": "C",
-        "text": "The $300 billion shortage pushes the rate up to 6 percent, reducing both quantity demanded and quantity supplied by $150 billion."
+        "text": "The $300 billion shortage pushes the rate up to 6 percent, reducing both quantity demanded and quantity supplied by $150 billion"
       },
       {
         "label": "D",
-        "text": "The $150 billion shortage pushes the rate up to 6 percent, reducing quantity demanded by $150 billion while quantity supplied remains $700 billion."
+        "text": "The $150 billion shortage pushes the rate up to 6 percent, reducing quantity demanded by $150 billion while quantity supplied remains $700 billion"
       },
       {
         "label": "E",
-        "text": "The market remains at 4 percent because a vertical money supply curve prevents the nominal interest rate from adjusting."
+        "text": "The market remains at 4 percent because a vertical money supply curve prevents the nominal interest rate from adjusting"
       }
     ],
     "answer": "D",
@@ -2662,23 +3820,23 @@
     "options": [
       {
         "label": "A",
-        "text": "A money shortage appears, and the rate rises as quantity demanded falls along MD."
+        "text": "A money shortage appears, and the rate rises as quantity demanded falls along MD"
       },
       {
         "label": "B",
-        "text": "A money surplus appears, and the rate falls as quantity demanded rises along MD."
+        "text": "A money surplus appears, and the rate falls as quantity demanded rises along MD"
       },
       {
         "label": "C",
-        "text": "A money surplus appears, and the rate rises as quantity supplied increases along MS."
+        "text": "A money surplus appears, and the rate rises as quantity supplied increases along MS"
       },
       {
         "label": "D",
-        "text": "A money shortage appears, and the rate falls as quantity supplied decreases along MS."
+        "text": "A money shortage appears, and the rate falls as quantity supplied decreases along MS"
       },
       {
         "label": "E",
-        "text": "No disequilibrium appears because every point on the vertical MS curve is an equilibrium point."
+        "text": "No disequilibrium appears because every point on the vertical MS curve is an equilibrium point"
       }
     ],
     "answer": "B",
@@ -2694,23 +3852,23 @@
     "options": [
       {
         "label": "A",
-        "text": "A money shortage appears, and the rate rises as quantity demanded falls along MD."
+        "text": "A money shortage appears, and the rate rises as quantity demanded falls along MD"
       },
       {
         "label": "B",
-        "text": "A money surplus appears, and the rate falls as quantity demanded rises along MD."
+        "text": "A money surplus appears, and the rate falls as quantity demanded rises along MD"
       },
       {
         "label": "C",
-        "text": "A money shortage appears, and the rate falls as quantity supplied decreases along MS."
+        "text": "A money shortage appears, and the rate falls as quantity supplied decreases along MS"
       },
       {
         "label": "D",
-        "text": "A money surplus appears, and the rate rises as quantity supplied increases along MS."
+        "text": "A money surplus appears, and the rate rises as quantity supplied increases along MS"
       },
       {
         "label": "E",
-        "text": "No disequilibrium appears because every point on the downward-sloping MD curve is an equilibrium point."
+        "text": "No disequilibrium appears because every point on the downward-sloping MD curve is an equilibrium point"
       }
     ],
     "answer": "A",
@@ -2726,30 +3884,112 @@
     "options": [
       {
         "label": "A",
-        "text": "The surplus is smaller at rN than at rC, but downward pressure on the nominal interest rate remains."
+        "text": "The surplus is smaller at rN than at rC, but downward pressure on the nominal interest rate remains"
       },
       {
         "label": "B",
-        "text": "The market is in equilibrium at rN because quantity demanded fell when the rate rose."
+        "text": "The market is in equilibrium at rN because quantity demanded fell when the rate rose"
       },
       {
         "label": "C",
-        "text": "The shortage is larger at rN because quantity demanded fell while quantity supplied stayed fixed."
+        "text": "The shortage is larger at rN because quantity demanded fell while quantity supplied stayed fixed"
       },
       {
         "label": "D",
-        "text": "The money supply falls between rC and rN, so the size of the shortage cannot be determined."
+        "text": "The money supply falls between rC and rN, so the size of the shortage cannot be determined"
       },
       {
         "label": "E",
-        "text": "The shortage is smaller at rN than at rC, but upward pressure on the nominal interest rate remains."
+        "text": "The shortage is smaller at rN than at rC, but upward pressure on the nominal interest rate remains"
       }
     ],
     "answer": "E",
     "explanation": "Both rC and rN lie below equilibrium, so both create shortages. Because rN is higher, quantity demanded is lower there and the shortage is smaller, but Qd still exceeds Qs until rE is reached.",
     "reference": "MKT-3.C | MKT-3.C.1 | Skill 4.A",
     "graphDescription": "Money market graph with MD downward sloping and MS vertical. Equilibrium occurs at rE. Two rates below equilibrium are labeled rC and rN, with rC below rN below rE. Horizontal guides show that Qd at rC is farther right of MS than Qd at rN.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of money",
+        "yLabel": "Nominal interest rate",
+        "xMax": 85.0,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MD₁",
+            "label": "MD₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 76.5,
+                "y": 23.5
+              }
+            ]
+          },
+          {
+            "id": "MS₁",
+            "label": "MS₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 50,
+                "y": 8.0
+              },
+              {
+                "x": 50,
+                "y": 90.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qs",
+            "yLabel": "rE"
+          },
+          {
+            "id": "rC",
+            "x": 75.0,
+            "y": 25,
+            "xLabel": "QdrC",
+            "yLabel": "rC"
+          },
+          {
+            "id": "rCs",
+            "x": 50,
+            "y": 25
+          },
+          {
+            "id": "rN",
+            "x": 65.0,
+            "y": 35,
+            "xLabel": "QdrN",
+            "yLabel": "rN"
+          },
+          {
+            "id": "rNs",
+            "x": 50,
+            "y": 35
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 87,
@@ -2758,23 +3998,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The equilibrium nominal interest rate is 8 percent, and the adjustment created a shortage at 5 percent."
+        "text": "The equilibrium nominal interest rate is 8 percent, and the adjustment created a shortage at 5 percent"
       },
       {
         "label": "B",
-        "text": "The equilibrium nominal interest rate is 5 percent, and the adjustment eliminated the surplus by increasing quantity demanded."
+        "text": "The equilibrium nominal interest rate is 5 percent, and the adjustment eliminated the surplus by increasing quantity demanded"
       },
       {
         "label": "C",
-        "text": "The equilibrium nominal interest rate is between 5 and 8 percent because a falling rate always overshoots equilibrium."
+        "text": "The equilibrium nominal interest rate is between 5 and 8 percent because a falling rate always overshoots equilibrium"
       },
       {
         "label": "D",
-        "text": "The equilibrium nominal interest rate cannot be identified because money supply is independent of the rate."
+        "text": "The equilibrium nominal interest rate cannot be identified because money supply is independent of the rate"
       },
       {
         "label": "E",
-        "text": "The adjustment eliminated the surplus by reducing quantity supplied from its 8 percent level."
+        "text": "The adjustment eliminated the surplus by reducing quantity supplied from its 8 percent level"
       }
     ],
     "answer": "B",
@@ -2790,23 +4030,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The equilibrium nominal interest rate is 6 percent, and the adjustment eliminated the shortage by decreasing quantity demanded."
+        "text": "The equilibrium nominal interest rate is 6 percent, and the adjustment eliminated the shortage by decreasing quantity demanded"
       },
       {
         "label": "B",
-        "text": "The equilibrium nominal interest rate is 3 percent, and the adjustment created a surplus at 6 percent."
+        "text": "The equilibrium nominal interest rate is 3 percent, and the adjustment created a surplus at 6 percent"
       },
       {
         "label": "C",
-        "text": "The equilibrium nominal interest rate is between 3 and 6 percent because a rising rate always overshoots equilibrium for the fixed money supply shown in the market."
+        "text": "The equilibrium nominal interest rate is between 3 and 6 percent because a rising rate always overshoots equilibrium for the fixed money supply shown in the market"
       },
       {
         "label": "D",
-        "text": "The equilibrium nominal interest rate cannot be identified because money demand is downward sloping."
+        "text": "The equilibrium nominal interest rate cannot be identified because money demand is downward sloping"
       },
       {
         "label": "E",
-        "text": "The adjustment eliminated the shortage by increasing quantity supplied from its 3 percent level."
+        "text": "The adjustment eliminated the shortage by increasing quantity supplied from its 3 percent level"
       }
     ],
     "answer": "A",
@@ -2822,23 +4062,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The shortage automatically becomes a surplus because the money supply curve is vertical."
+        "text": "The shortage automatically becomes a surplus because the money supply curve is vertical"
       },
       {
         "label": "B",
-        "text": "The money shortage persists as long as the rate and the curves remain unchanged."
+        "text": "The money shortage persists as long as the rate and the curves remain unchanged"
       },
       {
         "label": "C",
-        "text": "The quantity supplied rises along MS until it equals quantity demanded even though the rate is fixed."
+        "text": "The quantity supplied rises along MS until it equals quantity demanded even though the rate is fixed"
       },
       {
         "label": "D",
-        "text": "The quantity demanded falls along MD until it equals quantity supplied even though the rate is fixed."
+        "text": "The quantity demanded falls along MD until it equals quantity supplied even though the rate is fixed"
       },
       {
         "label": "E",
-        "text": "Equilibrium is restored because a fixed nominal interest rate eliminates pressure from disequilibrium."
+        "text": "Equilibrium is restored because a fixed nominal interest rate eliminates pressure from disequilibrium"
       }
     ],
     "answer": "B",
@@ -2854,30 +4094,95 @@
     "options": [
       {
         "label": "A",
-        "text": "Quantity demanded falls from $750 billion to $500 billion, while quantity supplied remains $750 billion at the current nominal interest rate."
+        "text": "Quantity demanded falls from $750 billion to $500 billion, while quantity supplied remains $750 billion at the current nominal interest rate"
       },
       {
         "label": "B",
-        "text": "Quantity supplied falls from $750 billion to $500 billion, while quantity demanded remains $500 billion."
+        "text": "Quantity supplied falls from $750 billion to $500 billion, while quantity demanded remains $500 billion"
       },
       {
         "label": "C",
-        "text": "Both quantities rise from $500 billion to $750 billion as the nominal interest rate falls."
+        "text": "Both quantities rise from $500 billion to $750 billion as the nominal interest rate falls"
       },
       {
         "label": "D",
-        "text": "The money demand curve shifts right so that $500 billion becomes the equilibrium quantity."
+        "text": "The money demand curve shifts right so that $500 billion becomes the equilibrium quantity"
       },
       {
         "label": "E",
-        "text": "Quantity demanded rises from $500 billion to $750 billion, while quantity supplied remains $750 billion."
+        "text": "Quantity demanded rises from $500 billion to $750 billion, while quantity supplied remains $750 billion"
       }
     ],
     "answer": "E",
     "explanation": "At rH, the graph shows Qd of $500 billion and Qs of $750 billion, a surplus. Falling to rE raises Qd along MD to the unchanged $750 billion supply, restoring equilibrium.",
     "reference": "MKT-3.C | MKT-3.C.1 | Skill 4.A",
     "graphDescription": "Money market graph with MS vertical at $750 billion and MD downward sloping. Equilibrium E occurs at rE = 5 percent and $750 billion. A higher rate rH = 9 percent corresponds to $500 billion demanded on MD. An arrow points downward from rH to rE.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of money (billions)",
+        "yLabel": "Nominal interest rate (%)",
+        "xMax": 1275.0,
+        "yMax": 10,
+        "curves": [
+          {
+            "id": "MD",
+            "label": "MD",
+            "style": "primary",
+            "points": [
+              {
+                "x": 500.0,
+                "y": 9.0
+              },
+              {
+                "x": 1012.5,
+                "y": 0.7999999999999998
+              }
+            ]
+          },
+          {
+            "id": "MS",
+            "label": "MS",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 750,
+                "y": 0.8
+              },
+              {
+                "x": 750,
+                "y": 9.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E",
+            "x": 750,
+            "y": 5
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 750,
+            "y": 5,
+            "xLabel": "750",
+            "yLabel": "5"
+          },
+          {
+            "id": "probe",
+            "x": 500,
+            "y": 9,
+            "xLabel": "500",
+            "yLabel": "9"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 91,
@@ -2886,23 +4191,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Upward pressure first raises the rate; after the rate passes equilibrium a surplus creates downward pressure."
+        "text": "Upward pressure first raises the rate; after the rate passes equilibrium a surplus creates downward pressure"
       },
       {
         "label": "B",
-        "text": "Downward pressure lowers both the rate and quantity supplied until a shortage appears at a smaller money supply."
+        "text": "Downward pressure lowers both the rate and quantity supplied until a shortage appears at a smaller money supply"
       },
       {
         "label": "C",
-        "text": "Downward pressure first lowers the rate; after the rate passes equilibrium a shortage creates upward pressure."
+        "text": "Downward pressure first lowers the rate; after the rate passes equilibrium a shortage creates upward pressure"
       },
       {
         "label": "D",
-        "text": "Upward pressure raises both the rate and quantity demanded until a shortage appears at a larger quantity demanded."
+        "text": "Upward pressure raises both the rate and quantity demanded until a shortage appears at a larger quantity demanded"
       },
       {
         "label": "E",
-        "text": "The sequence is impossible because an unchanged money market can never switch from surplus to shortage."
+        "text": "The sequence is impossible because an unchanged money market can never switch from surplus to shortage"
       }
     ],
     "answer": "C",
@@ -2918,23 +4223,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Downward pressure first lowers the rate; after the rate passes equilibrium a shortage creates upward pressure."
+        "text": "Downward pressure first lowers the rate; after the rate passes equilibrium a shortage creates upward pressure"
       },
       {
         "label": "B",
-        "text": "Upward pressure raises both the rate and quantity supplied until a surplus appears at a larger money supply."
+        "text": "Upward pressure raises both the rate and quantity supplied until a surplus appears at a larger money supply"
       },
       {
         "label": "C",
-        "text": "Downward pressure lowers both the rate and quantity demanded until a surplus appears at a smaller quantity demanded."
+        "text": "Downward pressure lowers both the rate and quantity demanded until a surplus appears at a smaller quantity demanded"
       },
       {
         "label": "D",
-        "text": "Upward pressure first raises the rate; after the rate passes equilibrium a surplus creates downward pressure."
+        "text": "Upward pressure first raises the rate; after the rate passes equilibrium a surplus creates downward pressure"
       },
       {
         "label": "E",
-        "text": "The sequence is impossible because an unchanged money market can never switch from shortage to surplus."
+        "text": "The sequence is impossible because an unchanged money market can never switch from shortage to surplus"
       }
     ],
     "answer": "D",
@@ -2950,30 +4255,112 @@
     "options": [
       {
         "label": "A",
-        "text": "Qd at r1 is greater than the fixed Qs, while Qd at r2 is less than the fixed Qs."
+        "text": "Qd at r1 is greater than the fixed Qs, while Qd at r2 is less than the fixed Qs"
       },
       {
         "label": "B",
-        "text": "Qd at r1 is less than the fixed Qs, while Qd at r2 is greater than the fixed Qs."
+        "text": "Qd at r1 is less than the fixed Qs, while Qd at r2 is greater than the fixed Qs"
       },
       {
         "label": "C",
-        "text": "Qd at both r1 and r2 equals the fixed Qs because both rates lie on the money market graph."
+        "text": "Qd at both r1 and r2 equals the fixed Qs because both rates lie on the money market graph"
       },
       {
         "label": "D",
-        "text": "Qd at r1 and r2 is identical because money demand is independent of the nominal interest rate."
+        "text": "Qd at r1 and r2 is identical because money demand is independent of the nominal interest rate"
       },
       {
         "label": "E",
-        "text": "Qd at r1 is less than Qd at r2, but Qs also falls as the rate moves from r1 to r2."
+        "text": "Qd at r1 is less than Qd at r2, but Qs also falls as the rate moves from r1 to r2"
       }
     ],
     "answer": "B",
     "explanation": "At a rate above equilibrium, Qd lies to the left of the fixed supply quantity; at a rate below equilibrium, Qd lies to the right. The vertical MS curve keeps Qs unchanged across the comparison.",
     "reference": "MKT-3.A | MKT-3.C.1 | Skill 4.A",
     "graphDescription": "Money market graph with downward-sloping MD and vertical MS at QS. Equilibrium E occurs at rE. Rate r1 is above rE and intersects MD to the left of QS. Rate r2 is below rE and intersects MD to the right of QS. Both horizontal rates are labeled clearly.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of money",
+        "yLabel": "Nominal interest rate",
+        "xMax": 85.0,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MD₁",
+            "label": "MD₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 76.5,
+                "y": 23.5
+              }
+            ]
+          },
+          {
+            "id": "MS₁",
+            "label": "MS₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 50,
+                "y": 8.0
+              },
+              {
+                "x": 50,
+                "y": 90.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qs",
+            "yLabel": "rE"
+          },
+          {
+            "id": "r₁",
+            "x": 30.0,
+            "y": 70,
+            "xLabel": "Qdr₁",
+            "yLabel": "r₁"
+          },
+          {
+            "id": "r₁s",
+            "x": 50,
+            "y": 70
+          },
+          {
+            "id": "r₂",
+            "x": 70.0,
+            "y": 30,
+            "xLabel": "Qdr₂",
+            "yLabel": "r₂"
+          },
+          {
+            "id": "r₂s",
+            "x": 50,
+            "y": 30
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 94,
@@ -2982,23 +4369,23 @@
     "options": [
       {
         "label": "A",
-        "text": "A $150 billion shortage pushes the rate up to 10 percent, lowering quantity demanded while quantity supplied stays fixed at the current nominal interest rate."
+        "text": "A $150 billion shortage pushes the rate up to 10 percent, lowering quantity demanded while quantity supplied stays fixed at the current nominal interest rate"
       },
       {
         "label": "B",
-        "text": "A $300 billion surplus pushes the rate down to 4 percent, lowering quantity supplied to $750 billion."
+        "text": "A $300 billion surplus pushes the rate down to 4 percent, lowering quantity supplied to $750 billion"
       },
       {
         "label": "C",
-        "text": "A $150 billion surplus pushes the rate down to 6 percent, raising quantity demanded to $900 billion while quantity supplied stays fixed."
+        "text": "A $150 billion surplus pushes the rate down to 6 percent, raising quantity demanded to $900 billion while quantity supplied stays fixed"
       },
       {
         "label": "D",
-        "text": "A $150 billion surplus pushes the rate up to 10 percent, lowering quantity demanded to restore equilibrium."
+        "text": "A $150 billion surplus pushes the rate up to 10 percent, lowering quantity demanded to restore equilibrium"
       },
       {
         "label": "E",
-        "text": "The market remains at 8 percent because a fixed $900 billion supply means every interest rate is an equilibrium rate."
+        "text": "The market remains at 8 percent because a fixed $900 billion supply means every interest rate is an equilibrium rate"
       }
     ],
     "answer": "C",
@@ -3014,23 +4401,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The observed rate cannot be equilibrium because equilibrium must occur at the midpoint of the vertical axis."
+        "text": "The observed rate cannot be equilibrium because equilibrium must occur at the midpoint of the vertical axis"
       },
       {
         "label": "B",
-        "text": "The observed rate is above equilibrium because Qs is fixed while Qd is downward sloping."
+        "text": "The observed rate is above equilibrium because Qs is fixed while Qd is downward sloping"
       },
       {
         "label": "C",
-        "text": "The observed rate is below equilibrium because Qd must exceed Qs at all positive rates."
+        "text": "The observed rate is below equilibrium because Qd must exceed Qs at all positive rates"
       },
       {
         "label": "D",
-        "text": "The observed rate is the equilibrium nominal interest rate regardless of its relative position on the axis."
+        "text": "The observed rate is the equilibrium nominal interest rate regardless of its relative position on the axis"
       },
       {
         "label": "E",
-        "text": "The equilibrium rate cannot be identified without first changing the quantity of money supplied."
+        "text": "The equilibrium rate cannot be identified without first changing the quantity of money supplied"
       }
     ],
     "answer": "D",
@@ -3046,23 +4433,23 @@
     "options": [
       {
         "label": "A",
-        "text": "A $200 billion surplus remains because a lower rate reduces quantity demanded."
+        "text": "A $200 billion surplus remains because a lower rate reduces quantity demanded"
       },
       {
         "label": "B",
-        "text": "A $100 billion shortage remains because the rate fell below equilibrium by definition."
+        "text": "A $100 billion shortage remains because the rate fell below equilibrium by definition"
       },
       {
         "label": "C",
-        "text": "The market cannot reach equilibrium unless the quantity of money supplied also changes."
+        "text": "The market cannot reach equilibrium unless the quantity of money supplied also changes"
       },
       {
         "label": "D",
-        "text": "The market reaches equilibrium because the original surplus is exactly eliminated."
+        "text": "The market reaches equilibrium because the original surplus is exactly eliminated"
       },
       {
         "label": "E",
-        "text": "The market remains in surplus because money supply is vertical at every nominal interest rate."
+        "text": "The market remains in surplus because money supply is vertical at every nominal interest rate"
       }
     ],
     "answer": "D",
@@ -3078,23 +4465,23 @@
     "options": [
       {
         "label": "A",
-        "text": "A $280 billion shortage remains because a higher rate increases quantity demanded."
+        "text": "A $280 billion shortage remains because a higher rate increases quantity demanded"
       },
       {
         "label": "B",
-        "text": "A $140 billion surplus remains because the rate rose above equilibrium by definition."
+        "text": "A $140 billion surplus remains because the rate rose above equilibrium by definition"
       },
       {
         "label": "C",
-        "text": "The market reaches equilibrium because the original shortage is exactly eliminated."
+        "text": "The market reaches equilibrium because the original shortage is exactly eliminated"
       },
       {
         "label": "D",
-        "text": "The market cannot reach equilibrium unless the quantity of money supplied also changes."
+        "text": "The market cannot reach equilibrium unless the quantity of money supplied also changes"
       },
       {
         "label": "E",
-        "text": "The market remains in shortage because money supply is vertical at every nominal interest rate."
+        "text": "The market remains in shortage because money supply is vertical at every nominal interest rate"
       }
     ],
     "answer": "C",
@@ -3110,30 +4497,112 @@
     "options": [
       {
         "label": "A",
-        "text": "At rM, quantity supplied exceeds quantity demanded, so a money surplus continues to push the nominal interest rate upward at the current nominal interest rate."
+        "text": "At rM, quantity supplied exceeds quantity demanded, so a money surplus continues to push the nominal interest rate upward at the current nominal interest rate"
       },
       {
         "label": "B",
-        "text": "At rM, quantity demanded still exceeds quantity supplied, so a money shortage continues to push the nominal interest rate upward."
+        "text": "At rM, quantity demanded still exceeds quantity supplied, so a money shortage continues to push the nominal interest rate upward"
       },
       {
         "label": "C",
-        "text": "At rM, quantity demanded equals quantity supplied, but the rate must continue rising until MD becomes vertical."
+        "text": "At rM, quantity demanded equals quantity supplied, but the rate must continue rising until MD becomes vertical"
       },
       {
         "label": "D",
-        "text": "At rM, money supply falls as the rate rises, so the market cannot reach a fixed equilibrium quantity."
+        "text": "At rM, money supply falls as the rate rises, so the market cannot reach a fixed equilibrium quantity"
       },
       {
         "label": "E",
-        "text": "At rM, the money demand curve shifts left whenever the nominal interest rate rises, preventing equilibrium."
+        "text": "At rM, the money demand curve shifts left whenever the nominal interest rate rises, preventing equilibrium"
       }
     ],
     "answer": "B",
     "explanation": "The graph places rM below the equilibrium rate rE, with Qd still to the right of Qs. The remaining shortage continues to create upward pressure until the rate reaches rE.",
     "reference": "MKT-3.C | MKT-3.C.1 | Skill 4.A",
     "graphDescription": "Money market graph with MD downward sloping and MS vertical. Equilibrium E is at rE. A starting rate rL lies well below rE, and an intermediate rate rM lies above rL but still below rE. At rM, MD intersects to the right of the vertical MS quantity Qs.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of money",
+        "yLabel": "Nominal interest rate",
+        "xMax": 85.0,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MD₁",
+            "label": "MD₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 76.5,
+                "y": 23.5
+              }
+            ]
+          },
+          {
+            "id": "MS₁",
+            "label": "MS₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 50,
+                "y": 8.0
+              },
+              {
+                "x": 50,
+                "y": 90.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qs",
+            "yLabel": "rE"
+          },
+          {
+            "id": "rL",
+            "x": 80.0,
+            "y": 20,
+            "xLabel": "QdrL",
+            "yLabel": "rL"
+          },
+          {
+            "id": "rLs",
+            "x": 50,
+            "y": 20
+          },
+          {
+            "id": "rM",
+            "x": 65.0,
+            "y": 35,
+            "xLabel": "QdrM",
+            "yLabel": "rM"
+          },
+          {
+            "id": "rMs",
+            "x": 50,
+            "y": 35
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 99,
@@ -3142,23 +4611,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The current rate is below equilibrium, and an increase in the rate will increase quantity demanded."
+        "text": "The current rate is below equilibrium, and an increase in the rate will increase quantity demanded"
       },
       {
         "label": "B",
-        "text": "The current rate is above equilibrium, and a decrease in the rate will decrease quantity supplied."
+        "text": "The current rate is above equilibrium, and a decrease in the rate will decrease quantity supplied"
       },
       {
         "label": "C",
-        "text": "The current rate is below equilibrium, and an increase in the rate will increase quantity supplied."
+        "text": "The current rate is below equilibrium, and an increase in the rate will increase quantity supplied"
       },
       {
         "label": "D",
-        "text": "The current rate is above equilibrium, and a decrease in the rate will increase quantity demanded."
+        "text": "The current rate is above equilibrium, and a decrease in the rate will increase quantity demanded"
       },
       {
         "label": "E",
-        "text": "The current rate equals equilibrium, and the difference between Qs and Qd will disappear without a rate change."
+        "text": "The current rate equals equilibrium, and the difference between Qs and Qd will disappear without a rate change"
       }
     ],
     "answer": "D",
@@ -3174,23 +4643,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The current rate is below equilibrium, and an increase in the rate will decrease quantity demanded."
+        "text": "The current rate is below equilibrium, and an increase in the rate will decrease quantity demanded"
       },
       {
         "label": "B",
-        "text": "The current rate is above equilibrium, and a decrease in the rate will decrease quantity demanded."
+        "text": "The current rate is above equilibrium, and a decrease in the rate will decrease quantity demanded"
       },
       {
         "label": "C",
-        "text": "The current rate is below equilibrium, and an increase in the rate will increase quantity supplied."
+        "text": "The current rate is below equilibrium, and an increase in the rate will increase quantity supplied"
       },
       {
         "label": "D",
-        "text": "The current rate is above equilibrium, and a decrease in the rate will decrease quantity supplied."
+        "text": "The current rate is above equilibrium, and a decrease in the rate will decrease quantity supplied"
       },
       {
         "label": "E",
-        "text": "The current rate equals equilibrium, and the difference between Qd and Qs will disappear without a rate change."
+        "text": "The current rate equals equilibrium, and the difference between Qd and Qs will disappear without a rate change"
       }
     ],
     "answer": "A",

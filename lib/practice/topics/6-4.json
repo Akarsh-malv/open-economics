@@ -1,0 +1,3460 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "Consumers abroad develop a stronger preference for goods produced in the United States. Which of the following will most likely occur in the foreign exchange market for the dollar?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand for the dollar decreases and the dollar appreciates"
+      },
+      {
+        "label": "B",
+        "text": "Demand for the dollar increases and the dollar appreciates"
+      },
+      {
+        "label": "C",
+        "text": "Supply of the dollar decreases and the dollar depreciates"
+      },
+      {
+        "label": "D",
+        "text": "Demand for the dollar increases and the dollar depreciates"
+      },
+      {
+        "label": "E",
+        "text": "Supply of the dollar increases and the dollar appreciates"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Foreign buyers need more dollars to purchase more U.S. goods and services.",
+    "reference": "MKT-5.E | MKT-5.E.1 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "Foreign investors increase their purchases of financial assets issued in Japan. Which of the following will most likely occur in the market for the yen?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand for the yen decreases and the yen appreciates"
+      },
+      {
+        "label": "B",
+        "text": "Supply of the yen decreases and the yen depreciates"
+      },
+      {
+        "label": "C",
+        "text": "Demand for the yen increases and the yen depreciates"
+      },
+      {
+        "label": "D",
+        "text": "Demand for the yen increases and the yen appreciates"
+      },
+      {
+        "label": "E",
+        "text": "Supply of the yen increases and the yen appreciates"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Greater foreign demand for Japanese financial assets requires foreigners to obtain more yen.",
+    "reference": "MKT-5.E | MKT-5.E.1 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "Households in the United Kingdom increase their purchases of foreign goods and services. Which of the following will most likely occur in the market for the pound?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Supply of the pound increases and the pound depreciates"
+      },
+      {
+        "label": "B",
+        "text": "Demand for the pound decreases and the pound appreciates"
+      },
+      {
+        "label": "C",
+        "text": "Supply of the pound decreases and the pound depreciates"
+      },
+      {
+        "label": "D",
+        "text": "Demand for the pound increases and the pound depreciates"
+      },
+      {
+        "label": "E",
+        "text": "Supply of the pound increases and the pound appreciates"
+      }
+    ],
+    "answer": "A",
+    "explanation": "When residents of the United Kingdom buy more foreign goods, they supply more pounds in exchange for foreign currency.",
+    "reference": "MKT-5.E | MKT-5.E.1 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "The graph shows a leftward shift in the supply of the Canadian dollar. Which of the following would most likely cause the shift?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An increase in Canadian purchases of foreign goods"
+      },
+      {
+        "label": "B",
+        "text": "An increase in Canadian purchases of foreign assets"
+      },
+      {
+        "label": "C",
+        "text": "A decline in foreign demand for Canadian exports"
+      },
+      {
+        "label": "D",
+        "text": "A decrease in foreign demand for Canadian financial assets"
+      },
+      {
+        "label": "E",
+        "text": "A tariff or quota that reduces Canadian imports"
+      }
+    ],
+    "answer": "E",
+    "explanation": "When a tariff or quota reduces imports, residents need less foreign currency and therefore supply fewer Canadian dollars in exchange.",
+    "reference": "MKT-5.E | MKT-5.E.1 | Skill 4.C",
+    "graphDescription": "The supply curve shifts left from S₁ to S₂; demand is unchanged. The initial equilibrium is E₁ and the new equilibrium is E₂. Diagram not to scale.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of CAD",
+        "yLabel": "USD per CAD",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D₁",
+            "label": "D₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 10.0
+              }
+            ]
+          },
+          {
+            "id": "S₁",
+            "label": "S₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 8.0,
+                "y": 8.0
+              },
+              {
+                "x": 90.0,
+                "y": 90.0
+              }
+            ]
+          },
+          {
+            "id": "S₂",
+            "label": "S₂",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 7.000000000000001,
+                "y": 27.0
+              },
+              {
+                "x": 70.0,
+                "y": 90.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E₁",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "E₂",
+            "label": "E₂",
+            "x": 40.0,
+            "y": 60.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q₁",
+            "yLabel": "e₁"
+          },
+          {
+            "id": "E₂",
+            "x": 40.0,
+            "y": 60.0,
+            "xLabel": "Q₂",
+            "yLabel": "e₂"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "Mexico imposes a binding quota on imports from its trading partners. Which of the following is the most likely effect on the market for the peso?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand for the peso decreases and the peso appreciates"
+      },
+      {
+        "label": "B",
+        "text": "Supply of the peso decreases and the peso depreciates"
+      },
+      {
+        "label": "C",
+        "text": "Supply of the peso decreases and the peso appreciates"
+      },
+      {
+        "label": "D",
+        "text": "Demand for the peso increases and the peso depreciates"
+      },
+      {
+        "label": "E",
+        "text": "Supply of the peso increases and the peso appreciates"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A binding quota that reduces imports lowers the amount of pesos supplied in the foreign-exchange market.",
+    "reference": "MKT-5.E | MKT-5.E.1 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "Real income rises substantially in countries that purchase exports from the United States. Which of the following will most likely occur in the market for the dollar?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand for the dollar increases and the dollar appreciates"
+      },
+      {
+        "label": "B",
+        "text": "Demand for the dollar decreases and the dollar appreciates"
+      },
+      {
+        "label": "C",
+        "text": "Supply of the dollar decreases and the dollar depreciates"
+      },
+      {
+        "label": "D",
+        "text": "Demand for the dollar increases and the dollar depreciates"
+      },
+      {
+        "label": "E",
+        "text": "Supply of the dollar increases and the dollar appreciates"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Higher foreign income can increase purchases of the U.S. exports.",
+    "reference": "MKT-5.E | MKT-5.E.1 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "Real income rises in Japan, increasing purchases of imported goods. Which of the following will most likely occur in the market for the yen?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand for the yen decreases and the yen appreciates"
+      },
+      {
+        "label": "B",
+        "text": "Supply of the yen decreases and the yen depreciates"
+      },
+      {
+        "label": "C",
+        "text": "Supply of the yen increases and the yen depreciates"
+      },
+      {
+        "label": "D",
+        "text": "Demand for the yen increases and the yen depreciates"
+      },
+      {
+        "label": "E",
+        "text": "Supply of the yen increases and the yen appreciates"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Higher income in Japan tends to increase imports.",
+    "reference": "MKT-5.E | MKT-5.E.1 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "The graph shows a leftward shift in demand for the pound. Which of the following would be most likely to cause the change shown?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An increase in foreign demand for British exports"
+      },
+      {
+        "label": "B",
+        "text": "A decrease in foreign demand for British exports or financial assets"
+      },
+      {
+        "label": "C",
+        "text": "A decrease in the British purchases of foreign goods"
+      },
+      {
+        "label": "D",
+        "text": "A tariff imposed by the United Kingdom that reduces imports"
+      },
+      {
+        "label": "E",
+        "text": "An increase in the relative return on British financial assets"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A leftward demand shift means foreigners demand fewer pounds at every exchange rate.",
+    "reference": "MKT-5.E | MKT-5.E.1 | Skill 4.C",
+    "graphDescription": "The demand curve shifts left from D₁ to D₂; supply is unchanged. The initial equilibrium is E₁ and the new equilibrium is E₂. Diagram not to scale.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of GBP",
+        "yLabel": "USD per GBP",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D₁",
+            "label": "D₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 10.0
+              }
+            ]
+          },
+          {
+            "id": "S₁",
+            "label": "S₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 8.0,
+                "y": 8.0
+              },
+              {
+                "x": 90.0,
+                "y": 90.0
+              }
+            ]
+          },
+          {
+            "id": "D₂",
+            "label": "D₂",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 7.000000000000001,
+                "y": 73.0
+              },
+              {
+                "x": 72.0,
+                "y": 8.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E₁",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "E₂",
+            "label": "E₂",
+            "x": 40.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q₁",
+            "yLabel": "e₁"
+          },
+          {
+            "id": "E₂",
+            "x": 40.0,
+            "y": 40.0,
+            "xLabel": "Q₂",
+            "yLabel": "e₂"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "A major foreign-market trend increases demand for products exported by Canada. Which of the following will most likely occur in the foreign exchange market for the Canadian dollar?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand for the Canadian dollar decreases and the Canadian dollar appreciates"
+      },
+      {
+        "label": "B",
+        "text": "Supply of the Canadian dollar decreases and the Canadian dollar depreciates"
+      },
+      {
+        "label": "C",
+        "text": "Demand for the Canadian dollar increases and the Canadian dollar depreciates"
+      },
+      {
+        "label": "D",
+        "text": "Supply of the Canadian dollar increases and the Canadian dollar appreciates"
+      },
+      {
+        "label": "E",
+        "text": "Demand for the Canadian dollar increases and the Canadian dollar appreciates"
+      }
+    ],
+    "answer": "E",
+    "explanation": "A stronger foreign preference for Canadian products raises export demand.",
+    "reference": "MKT-5.E | MKT-5.E.1 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "The central bank of Mexico conducts expansionary monetary policy, lowering domestic interest rates relative to foreign rates. Which of the following will most likely occur?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand for the peso decreases and the peso appreciates"
+      },
+      {
+        "label": "B",
+        "text": "Supply of the peso decreases and the peso depreciates"
+      },
+      {
+        "label": "C",
+        "text": "Demand for the peso increases and the peso depreciates"
+      },
+      {
+        "label": "D",
+        "text": "Supply of the peso increases and the peso depreciates"
+      },
+      {
+        "label": "E",
+        "text": "Supply of the peso increases and the peso appreciates"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Expansionary monetary policy lowers domestic interest rates, making Mexican financial assets relatively less attractive.",
+    "reference": "MKT-5.E | MKT-5.E.3 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "The central bank of the United States conducts contractionary monetary policy, raising domestic interest rates relative to foreign rates. Which of the following will most likely occur?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand for the dollar decreases and the dollar appreciates"
+      },
+      {
+        "label": "B",
+        "text": "Supply of the dollar decreases and the dollar depreciates"
+      },
+      {
+        "label": "C",
+        "text": "Demand for the dollar increases and the dollar depreciates"
+      },
+      {
+        "label": "D",
+        "text": "Demand for the dollar increases and the dollar appreciates"
+      },
+      {
+        "label": "E",
+        "text": "Supply of the dollar increases and the dollar appreciates"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Contractionary monetary policy raises domestic interest rates, making U.S. assets relatively more attractive.",
+    "reference": "MKT-5.E | MKT-5.E.3 | Skill 4.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "The graph shows a leftward shift in demand for the yen. Which of the following would be most likely to cause the change shown?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An increase in foreign demand for Japanese exports"
+      },
+      {
+        "label": "B",
+        "text": "A decrease in Japanese purchases of foreign goods"
+      },
+      {
+        "label": "C",
+        "text": "A tariff imposed by Japan that reduces imports"
+      },
+      {
+        "label": "D",
+        "text": "An increase in the relative return on Japanese financial assets"
+      },
+      {
+        "label": "E",
+        "text": "A decrease in foreign demand for Japanese exports or financial assets"
+      }
+    ],
+    "answer": "E",
+    "explanation": "A leftward demand shift means foreigners demand fewer yen at every exchange rate.",
+    "reference": "MKT-5.E | MKT-5.E.2 | Skill 4.C",
+    "graphDescription": "The demand curve shifts left from D₁ to D₂; supply is unchanged. The initial equilibrium is E₁ and the new equilibrium is E₂. Diagram not to scale.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of JPY",
+        "yLabel": "USD per JPY",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D₁",
+            "label": "D₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 10.0
+              }
+            ]
+          },
+          {
+            "id": "S₁",
+            "label": "S₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 8.0,
+                "y": 8.0
+              },
+              {
+                "x": 90.0,
+                "y": 90.0
+              }
+            ]
+          },
+          {
+            "id": "D₂",
+            "label": "D₂",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 7.000000000000001,
+                "y": 73.0
+              },
+              {
+                "x": 72.0,
+                "y": 8.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E₁",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "E₂",
+            "label": "E₂",
+            "x": 40.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q₁",
+            "yLabel": "e₁"
+          },
+          {
+            "id": "E₂",
+            "x": 40.0,
+            "y": 40.0,
+            "xLabel": "Q₂",
+            "yLabel": "e₂"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "A foreign hospital orders medical equipment from a U.S. manufacturer and must pay in dollars. Which currency-market transaction accompanies the payment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The hospital demands dollars to pay the exporter"
+      },
+      {
+        "label": "B",
+        "text": "The transaction leaves all currency demand unchanged"
+      },
+      {
+        "label": "C",
+        "text": "The hospital supplies dollars to pay the exporter"
+      },
+      {
+        "label": "D",
+        "text": "The exporter demands foreign currency to receive dollars"
+      },
+      {
+        "label": "E",
+        "text": "The exporter supplies dollars before receiving payment"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Buying a country’s exports creates demand for its currency when payment requires that currency.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "A Japanese pension fund buys a euro-denominated government bond using yen. In the yen market, which curve shifts?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yen supply shifts left"
+      },
+      {
+        "label": "B",
+        "text": "Yen supply shifts right"
+      },
+      {
+        "label": "C",
+        "text": "Neither yen curve shifts"
+      },
+      {
+        "label": "D",
+        "text": "Yen demand shifts left"
+      },
+      {
+        "label": "E",
+        "text": "Yen demand shifts right"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Residents sell their domestic currency to purchase foreign assets. This increases the supply of yen in the foreign-exchange market.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "U.S. residents cancel planned vacations abroad. With other spending unchanged, what pressure does this put on the dollar?",
+    "options": [
+      {
+        "label": "A",
+        "text": "No effect because travel involves services"
+      },
+      {
+        "label": "B",
+        "text": "Depreciation through increased dollar demand"
+      },
+      {
+        "label": "C",
+        "text": "Appreciation through reduced dollar supply"
+      },
+      {
+        "label": "D",
+        "text": "Depreciation through reduced dollar supply"
+      },
+      {
+        "label": "E",
+        "text": "Appreciation through reduced dollar demand"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Fewer foreign-service purchases mean fewer dollars exchanged for foreign currency. Dollar supply falls, putting upward pressure on its exchange rate.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "Foreign firms stop buying Canadian lumber after finding an alternative supplier. What happens in the market for Canadian dollars, other things equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand falls and the currency appreciates"
+      },
+      {
+        "label": "B",
+        "text": "Demand rises and the currency appreciates"
+      },
+      {
+        "label": "C",
+        "text": "Supply falls and the currency depreciates"
+      },
+      {
+        "label": "D",
+        "text": "Supply rises and the currency appreciates"
+      },
+      {
+        "label": "E",
+        "text": "Demand falls and the currency depreciates"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Reduced purchases of Canadian exports reduce demand for Canadian dollars.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "A binding import restriction is removed, and domestic buyers purchase more foreign goods. Which change belongs in the domestic-currency market?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Supply shifts left"
+      },
+      {
+        "label": "B",
+        "text": "Supply shifts right"
+      },
+      {
+        "label": "C",
+        "text": "Demand shifts left"
+      },
+      {
+        "label": "D",
+        "text": "Demand shifts right"
+      },
+      {
+        "label": "E",
+        "text": "Movement along unchanged supply only"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Domestic residents sell more domestic currency to pay for imports. The policy changes currency supply, rather than merely causing movement along it.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "Foreign students begin paying more tuition to universities in Australia. Tuition is paid in Australian dollars. Which prediction is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Australian-dollar supply falls"
+      },
+      {
+        "label": "B",
+        "text": "Australian-dollar supply becomes vertical"
+      },
+      {
+        "label": "C",
+        "text": "Australian-dollar demand falls"
+      },
+      {
+        "label": "D",
+        "text": "Australian-dollar demand rises"
+      },
+      {
+        "label": "E",
+        "text": "Australian-dollar supply rises"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Education purchased by foreigners is a service export. Payment increases demand for Australian dollars.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "A recession in a trading partner reduces its purchases of domestic exports. Why might the domestic currency depreciate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Foreign buyers demand less domestic currency"
+      },
+      {
+        "label": "B",
+        "text": "Domestic currency supply necessarily becomes zero"
+      },
+      {
+        "label": "C",
+        "text": "The domestic money supply necessarily contracts"
+      },
+      {
+        "label": "D",
+        "text": "Foreign buyers supply less domestic currency"
+      },
+      {
+        "label": "E",
+        "text": "Domestic importers demand less domestic currency"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Lower export purchases reduce demand for the exporter’s currency. Holding currency supply constant, its exchange rate falls.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "Domestic consumers switch from imported furniture to locally produced furniture at unchanged income. What happens to currency supply?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises because domestic exports must also rise"
+      },
+      {
+        "label": "B",
+        "text": "It rises as fewer import payments require foreign currency"
+      },
+      {
+        "label": "C",
+        "text": "It falls as fewer import payments require foreign currency"
+      },
+      {
+        "label": "D",
+        "text": "It stays fixed because only income affects imports"
+      },
+      {
+        "label": "E",
+        "text": "It falls because domestic exports must also fall"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The spending shift reduces imports and the associated sales of domestic currency.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "Foreign investors sell domestic bonds and convert the proceeds into foreign currency. Which pressure follows?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Greater domestic-currency supply and appreciation"
+      },
+      {
+        "label": "B",
+        "text": "Greater domestic-currency demand and appreciation"
+      },
+      {
+        "label": "C",
+        "text": "Lower domestic-currency demand and appreciation"
+      },
+      {
+        "label": "D",
+        "text": "Lower domestic-currency supply and depreciation"
+      },
+      {
+        "label": "E",
+        "text": "Greater domestic-currency supply and depreciation"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Converting domestic sale proceeds into foreign currency supplies domestic currency to the market.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "Domestic interest rates rise while foreign rates and expected inflation remain unchanged. Which initial response is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The domestic currency supply becomes perfectly elastic"
+      },
+      {
+        "label": "B",
+        "text": "Every domestic exporter immediately cuts its foreign price"
+      },
+      {
+        "label": "C",
+        "text": "Foreign investors decrease demand for domestic assets"
+      },
+      {
+        "label": "D",
+        "text": "Foreign investors increase demand for domestic assets"
+      },
+      {
+        "label": "E",
+        "text": "Domestic residents necessarily buy more foreign assets"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Higher relative expected real returns attract financial capital, increasing demand for domestic currency.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "Foreign interest rates rise with domestic rates unchanged. Hold risk and expected inflation constant. Which response puts downward pressure on the domestic currency?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Domestic savers sell foreign assets to buy domestic assets"
+      },
+      {
+        "label": "B",
+        "text": "Foreign consumers increase purchases of domestic exports"
+      },
+      {
+        "label": "C",
+        "text": "Domestic savers buy more foreign financial assets"
+      },
+      {
+        "label": "D",
+        "text": "Foreign savers buy more domestic financial assets"
+      },
+      {
+        "label": "E",
+        "text": "Domestic households replace imports with domestic goods"
+      }
+    ],
+    "answer": "C",
+    "explanation": "More attractive foreign returns encourage domestic residents to sell domestic currency to acquire foreign assets.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "Domestic interest rates fall, but expected domestic inflation falls by the same number of percentage points. Foreign expected real rates are unchanged. What happens to the expected real interest differential?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It necessarily decreases"
+      },
+      {
+        "label": "B",
+        "text": "It stays unchanged"
+      },
+      {
+        "label": "C",
+        "text": "It necessarily increases"
+      },
+      {
+        "label": "D",
+        "text": "It becomes equal to zero"
+      },
+      {
+        "label": "E",
+        "text": "It becomes equal to nominal inflation"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Expected real interest is approximately nominal interest minus expected inflation. Equal declines leave that real rate and its differential unchanged.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "Which observation identifies a supply shift in the dollar market rather than movement along a fixed supply curve?",
+    "options": [
+      {
+        "label": "A",
+        "text": "At every exchange rate, residents buy more foreign assets"
+      },
+      {
+        "label": "B",
+        "text": "A lower exchange rate induces fewer dollar sales on the same curve"
+      },
+      {
+        "label": "C",
+        "text": "The exchange rate changes while import preferences remain fixed"
+      },
+      {
+        "label": "D",
+        "text": "A higher exchange rate induces more dollar sales on the same curve"
+      },
+      {
+        "label": "E",
+        "text": "The equilibrium moves along supply after foreign export demand rises"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A change in desired foreign-asset purchases shifts dollar supply at every exchange rate; an exchange-rate change alone causes movement along supply.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "A tariff reduces imports, with no retaliation or other changes. Which currency-market effect is most direct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The currency demand curve becomes horizontal"
+      },
+      {
+        "label": "B",
+        "text": "Foreign buyers demand more currency to buy exports"
+      },
+      {
+        "label": "C",
+        "text": "Residents supply less currency to buy foreign goods"
+      },
+      {
+        "label": "D",
+        "text": "Foreign buyers demand less currency to buy exports"
+      },
+      {
+        "label": "E",
+        "text": "Residents supply more currency to buy foreign goods"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The tariff’s direct import channel reduces domestic-currency supply. Retaliation would be a separate demand-side effect.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "An export promotion campaign succeeds only in increasing foreign purchases of domestic products. Which outcome follows with currency supply fixed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The currency depreciates and traded quantity rises"
+      },
+      {
+        "label": "B",
+        "text": "The currency appreciates and traded quantity falls"
+      },
+      {
+        "label": "C",
+        "text": "The currency depreciates and traded quantity falls"
+      },
+      {
+        "label": "D",
+        "text": "The currency value and traded quantity stay unchanged"
+      },
+      {
+        "label": "E",
+        "text": "The currency appreciates and traded quantity rises"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Higher export demand shifts currency demand right. With upward-sloping supply, both exchange rate and equilibrium currency quantity rise.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "Domestic income falls while foreign income stays constant, and domestic import spending decreases. Which currency-market outcome is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The currency appreciates and traded quantity falls"
+      },
+      {
+        "label": "B",
+        "text": "The currency depreciates and traded quantity falls"
+      },
+      {
+        "label": "C",
+        "text": "Both variables stay unchanged at their original values"
+      },
+      {
+        "label": "D",
+        "text": "The currency depreciates and traded quantity rises"
+      },
+      {
+        "label": "E",
+        "text": "The currency appreciates and traded quantity rises"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Reduced imports shift domestic-currency supply left. The exchange rate rises and traded currency quantity falls.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "Which event directly shifts demand for a currency left?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Domestic savers sell foreign assets and bring funds home"
+      },
+      {
+        "label": "B",
+        "text": "The country imposes a binding import restriction"
+      },
+      {
+        "label": "C",
+        "text": "Domestic residents reduce spending on imported goods"
+      },
+      {
+        "label": "D",
+        "text": "Foreign buyers reduce purchases of that country’s exports"
+      },
+      {
+        "label": "E",
+        "text": "Domestic residents reduce purchases of foreign assets"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Reduced export purchases reduce foreign demand for the currency. The other events reduce its supply.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "A foreign recession and a domestic recovery occur together. Foreigners buy fewer domestic exports, while residents buy more imports. What pressure do both channels put on the domestic currency?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Neither changes demand or supply for the currency"
+      },
+      {
+        "label": "B",
+        "text": "Both put downward pressure on its value"
+      },
+      {
+        "label": "C",
+        "text": "Both put upward pressure on its value"
+      },
+      {
+        "label": "D",
+        "text": "They guarantee equal offsetting exchange-rate changes"
+      },
+      {
+        "label": "E",
+        "text": "One guarantees appreciation and the other guarantees no change"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Falling export demand shifts currency demand left; rising imports shift currency supply right. Both lower the exchange rate.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 31,
+    "difficulty": "Medium",
+    "prompt": "A country reduces imports through a quota, but foreign consumers also lose interest in its exports. Which currency-market variable has an unambiguous direction?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The traded quantity rises"
+      },
+      {
+        "label": "B",
+        "text": "The traded quantity falls"
+      },
+      {
+        "label": "C",
+        "text": "The exchange rate stays unchanged"
+      },
+      {
+        "label": "D",
+        "text": "The exchange rate falls"
+      },
+      {
+        "label": "E",
+        "text": "The exchange rate rises"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Supply and demand both shift left. Their common effect is a smaller equilibrium quantity; their effects on the exchange rate oppose each other.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 32,
+    "difficulty": "Medium",
+    "prompt": "Foreign tourism rises while domestic residents make more overseas investments. In the domestic-currency market, what can be concluded?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Exchange rate rises; the quantity direction is uncertain"
+      },
+      {
+        "label": "B",
+        "text": "Exchange rate falls; the quantity direction is uncertain"
+      },
+      {
+        "label": "C",
+        "text": "Both exchange rate and quantity stay unchanged"
+      },
+      {
+        "label": "D",
+        "text": "Quantity rises; the exchange-rate direction is uncertain"
+      },
+      {
+        "label": "E",
+        "text": "Quantity falls; the exchange-rate direction is uncertain"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Foreign tourism raises demand for domestic currency, while outward investment raises its supply. Both increase traded quantity, but their price effects oppose.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 33,
+    "difficulty": "Medium",
+    "prompt": "Foreign investors withdraw from domestic assets while an import ban reduces residents’ foreign purchases. Why is the exchange-rate effect uncertain?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand falls and supply falls, with opposing price effects"
+      },
+      {
+        "label": "B",
+        "text": "Neither channel affects any currency-market curve"
+      },
+      {
+        "label": "C",
+        "text": "Demand rises and supply falls, with opposing price effects"
+      },
+      {
+        "label": "D",
+        "text": "Demand rises and supply rises, with identical price effects"
+      },
+      {
+        "label": "E",
+        "text": "Demand falls and supply rises, with opposing price effects"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Withdrawal reduces currency demand; the import ban reduces currency supply. Demand reduction lowers the exchange rate, whereas supply reduction raises it.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "A monetary contraction attracts foreign investors. At the same time, consumers abroad increase purchases of domestic exports. With supply fixed, what is certain?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Currency supply rises and the exchange rate falls"
+      },
+      {
+        "label": "B",
+        "text": "Currency demand falls and the exchange rate falls"
+      },
+      {
+        "label": "C",
+        "text": "Currency demand rises and the exchange rate rises"
+      },
+      {
+        "label": "D",
+        "text": "Opposing demand shifts make the exchange rate indeterminate"
+      },
+      {
+        "label": "E",
+        "text": "Currency supply falls and the exchange rate falls"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Both higher relative returns and greater export purchases increase demand for the domestic currency.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "An analyst attributes depreciation entirely to falling export demand. However, import purchases also increased. What correction is needed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The observed depreciation rules out any supply change"
+      },
+      {
+        "label": "B",
+        "text": "Imports affect currency demand but never currency supply"
+      },
+      {
+        "label": "C",
+        "text": "Higher import purchases must offset the lower export demand"
+      },
+      {
+        "label": "D",
+        "text": "Export demand affects currency supply but never currency demand"
+      },
+      {
+        "label": "E",
+        "text": "Both lower demand and higher supply can explain depreciation"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Falling exports reduce currency demand; higher imports increase currency supply. Both contribute to depreciation, so the demand-only attribution is incomplete.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "A domestic stimulus raises residents’ imports. Foreign income growth also raises purchases of domestic exports. Which result requires information about the relative shift sizes?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Whether the domestic currency appreciates or depreciates"
+      },
+      {
+        "label": "B",
+        "text": "Whether domestic-currency supply shifts right"
+      },
+      {
+        "label": "C",
+        "text": "Whether both trade channels involve currency transactions"
+      },
+      {
+        "label": "D",
+        "text": "Whether domestic-currency demand shifts right"
+      },
+      {
+        "label": "E",
+        "text": "Whether traded domestic-currency quantity increases"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Demand and supply both rise, so quantity increases. Their opposing exchange-rate effects make the direction of the rate uncertain.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "Foreign demand for domestic exports falls, yet the domestic currency appreciates. Which additional change could explain this?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Currency demand falls by an additional large amount"
+      },
+      {
+        "label": "B",
+        "text": "Domestic imports rise with currency demand unchanged"
+      },
+      {
+        "label": "C",
+        "text": "Foreign demand falls with currency supply unchanged"
+      },
+      {
+        "label": "D",
+        "text": "Currency supply rises by a sufficiently large amount"
+      },
+      {
+        "label": "E",
+        "text": "Currency supply falls by a sufficiently large amount"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Lower demand alone depreciates the currency. A sufficiently large leftward supply shift can instead raise its equilibrium exchange rate.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "Residents increase imports, yet the domestic currency appreciates. Which second event could outweigh the import effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A further increase in residents’ purchases of foreign goods"
+      },
+      {
+        "label": "B",
+        "text": "A sufficiently large decrease in foreign demand for domestic assets"
+      },
+      {
+        "label": "C",
+        "text": "A sufficiently large increase in foreign demand for domestic assets"
+      },
+      {
+        "label": "D",
+        "text": "A further increase in residents’ purchases of foreign assets"
+      },
+      {
+        "label": "E",
+        "text": "A decrease in domestic interest rates with foreign rates fixed"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Higher imports raise currency supply and tend to depreciate it. Stronger asset inflows can shift demand right enough to produce appreciation overall.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "A tariff and foreign retaliation occur together. The tariff lowers domestic imports; retaliation lowers domestic exports. Which statement correctly separates the channels?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Domestic supply rises; foreign demand falls"
+      },
+      {
+        "label": "B",
+        "text": "Domestic supply rises; foreign demand rises"
+      },
+      {
+        "label": "C",
+        "text": "Only domestic-currency demand changes"
+      },
+      {
+        "label": "D",
+        "text": "Domestic supply falls; foreign demand falls"
+      },
+      {
+        "label": "E",
+        "text": "Domestic supply falls; foreign demand rises"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Lower imports reduce the supply of domestic currency. Lower exports reduce foreign demand for it. Their exchange-rate effects oppose each other.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "A student says that an export boom shifts currency supply right because exporters receive currency. What is the error?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Export transactions always shift both curves equally right"
+      },
+      {
+        "label": "B",
+        "text": "Foreign customers must demand the currency to pay exporters"
+      },
+      {
+        "label": "C",
+        "text": "Exporters’ receipts make all currency demand disappear"
+      },
+      {
+        "label": "D",
+        "text": "Exports reduce residents’ income and therefore currency supply"
+      },
+      {
+        "label": "E",
+        "text": "Export transactions do not require any currency-market payment"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The buyer’s need for payment currency determines the direct foreign-exchange channel. Foreign demand for exports increases demand for the exporting country’s currency.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "A student says an increase in domestic imports shifts currency demand right. Which transaction corrects the analysis?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Residents reduce the supply of domestic currency after every import"
+      },
+      {
+        "label": "B",
+        "text": "Residents buy domestic currency to pay foreign suppliers"
+      },
+      {
+        "label": "C",
+        "text": "Foreign suppliers buy more domestic currency before every import"
+      },
+      {
+        "label": "D",
+        "text": "Residents sell domestic currency to obtain foreign payment currency"
+      },
+      {
+        "label": "E",
+        "text": "Foreign suppliers must hold domestic bonds after every import"
+      }
+    ],
+    "answer": "D",
+    "explanation": "In the standard AP model, residents supply their own currency to obtain the foreign currency used to purchase imports.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "A central bank raises nominal rates by 2 points, while expected inflation rises by 3 points. Foreign expected real rates stay fixed. Using the Fisher approximation, what happens to domestic relative expected real returns?",
+    "options": [
+      {
+        "label": "A",
+        "text": "They fall by 5 percentage points"
+      },
+      {
+        "label": "B",
+        "text": "They rise by 5 percentage points"
+      },
+      {
+        "label": "C",
+        "text": "They fall by 1 percentage point"
+      },
+      {
+        "label": "D",
+        "text": "They remain unchanged"
+      },
+      {
+        "label": "E",
+        "text": "They rise by 1 percentage point"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The change in expected real interest is +2 − 3 = −1 percentage point. Nominal-rate increases alone do not establish higher real returns.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "Domestic nominal interest is 7% and expected inflation is 4%. Foreign nominal interest is 5% and expected inflation is 1%. Ignore exchange-rate expectations and risk differences. Which country offers the higher expected real return?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The foreign country: 4% versus 3% domestically"
+      },
+      {
+        "label": "B",
+        "text": "Both countries: the expected real return is 3%"
+      },
+      {
+        "label": "C",
+        "text": "Both countries: the expected real return is 4%"
+      },
+      {
+        "label": "D",
+        "text": "The domestic country: 4% versus 3% abroad"
+      },
+      {
+        "label": "E",
+        "text": "The domestic country: 7% versus 5% abroad"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Expected real returns are approximately 7 − 4 = 3% at home and 5 − 1 = 4% abroad. The foreign asset offers the higher assumed real return.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "Domestic expected real rates rise relative to foreign rates. Which pair of investment responses reinforces appreciation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Foreigners buy domestic assets; residents buy more foreign assets"
+      },
+      {
+        "label": "B",
+        "text": "Foreigners buy fewer domestic assets; residents buy more foreign assets"
+      },
+      {
+        "label": "C",
+        "text": "Foreigners buy fewer domestic assets; residents buy fewer foreign assets"
+      },
+      {
+        "label": "D",
+        "text": "Both groups stop trading assets and currency quantity becomes zero"
+      },
+      {
+        "label": "E",
+        "text": "Foreigners buy domestic assets; residents buy fewer foreign assets"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Capital inflow raises domestic-currency demand, and reduced outflow lowers domestic-currency supply. Both put upward pressure on its value.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "An increase in foreign expected real rates encourages both foreign and domestic savers to move funds abroad. Which domestic-currency curve changes are consistent with this?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand rises and supply falls"
+      },
+      {
+        "label": "B",
+        "text": "Demand falls and supply rises"
+      },
+      {
+        "label": "C",
+        "text": "Demand and supply remain unchanged"
+      },
+      {
+        "label": "D",
+        "text": "Demand rises and supply rises"
+      },
+      {
+        "label": "E",
+        "text": "Demand falls and supply falls"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Foreign savers demand fewer domestic assets, reducing currency demand; residents buy more foreign assets, increasing currency supply.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "Government borrowing raises domestic real interest rates. Holding other influences fixed, how can that affect the currency market?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Financial inflow raises domestic-currency demand"
+      },
+      {
+        "label": "B",
+        "text": "The currency supply curve becomes horizontal"
+      },
+      {
+        "label": "C",
+        "text": "The currency demand curve becomes vertical"
+      },
+      {
+        "label": "D",
+        "text": "Lower export prices reduce domestic-currency demand"
+      },
+      {
+        "label": "E",
+        "text": "Financial outflow raises domestic-currency supply"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Higher relative real interest rates attract financial capital and increase demand for the domestic currency.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "Domestic output falls during a recession, reducing import purchases. Meanwhile, the central bank lowers relative real interest rates. Why is the currency’s direction uncertain?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both channels leave the currency’s exchange rate unchanged"
+      },
+      {
+        "label": "B",
+        "text": "Both channels support appreciation through currency demand"
+      },
+      {
+        "label": "C",
+        "text": "Fewer imports support appreciation; lower returns support depreciation"
+      },
+      {
+        "label": "D",
+        "text": "Fewer imports support depreciation; lower returns support appreciation"
+      },
+      {
+        "label": "E",
+        "text": "Both channels support depreciation through currency supply"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The import channel reduces currency supply, pushing its value up. Lower returns can reduce demand or increase outflow, pushing its value down.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "A stronger foreign economy increases its purchases of domestic exports and raises its own real interest rates. Which channels work against each other in the domestic-currency market?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Neither change can affect the domestic exchange rate"
+      },
+      {
+        "label": "B",
+        "text": "Both changes reduce domestic-currency demand"
+      },
+      {
+        "label": "C",
+        "text": "Export demand supports depreciation; foreign returns support appreciation"
+      },
+      {
+        "label": "D",
+        "text": "Export demand supports appreciation; foreign returns support depreciation"
+      },
+      {
+        "label": "E",
+        "text": "Both changes reduce domestic-currency supply"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Higher foreign income increases demand for domestic exports, while higher foreign returns can redirect capital away from domestic assets.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "After a tariff, domestic imports fall but domestic exports are unchanged. Which graph change should be drawn first in the domestic-currency market?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A movement along demand with both curves fixed"
+      },
+      {
+        "label": "B",
+        "text": "A rightward demand shift with supply fixed"
+      },
+      {
+        "label": "C",
+        "text": "A leftward demand shift with supply fixed"
+      },
+      {
+        "label": "D",
+        "text": "A rightward supply shift with demand fixed"
+      },
+      {
+        "label": "E",
+        "text": "A leftward supply shift with demand fixed"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Reduced imports reduce sales of domestic currency. With exports and other demand determinants unchanged, the first change is a leftward supply shift.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "A foreign investor converts domestic-currency bond proceeds into foreign currency. A student calls this additional demand for domestic currency. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Conversion adds domestic-currency demand to the market"
+      },
+      {
+        "label": "B",
+        "text": "Conversion adds domestic-currency supply to the market"
+      },
+      {
+        "label": "C",
+        "text": "Conversion shifts neither domestic-currency curve"
+      },
+      {
+        "label": "D",
+        "text": "Conversion reduces domestic-currency supply to the market"
+      },
+      {
+        "label": "E",
+        "text": "Conversion must appreciate both currencies simultaneously"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Selling domestic currency to obtain foreign currency adds to domestic-currency supply.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "A domestic exporter’s foreign sales double, but its imported input purchases also double. What information is needed to determine the currency effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The resulting changes in currency demand and supply"
+      },
+      {
+        "label": "B",
+        "text": "Only the number of exporters and importers"
+      },
+      {
+        "label": "C",
+        "text": "Only the percentage increase in export sales"
+      },
+      {
+        "label": "D",
+        "text": "Only the unchanged domestic interest rate"
+      },
+      {
+        "label": "E",
+        "text": "Only the percentage increase in imported input purchases"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Export sales raise currency demand; imported inputs raise currency supply. Equal percentage increases need not produce equal currency amounts, so their magnitudes matter.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "Demand for the domestic currency rises while its supply stays fixed. Which change in the reciprocal foreign-currency quotation follows?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises because both currencies appreciate together"
+      },
+      {
+        "label": "B",
+        "text": "It stays unchanged because reciprocal quotes are unrelated"
+      },
+      {
+        "label": "C",
+        "text": "It rises because each foreign unit costs more domestic currency"
+      },
+      {
+        "label": "D",
+        "text": "It falls because each foreign unit costs less domestic currency"
+      },
+      {
+        "label": "E",
+        "text": "It falls because the domestic currency depreciates"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Domestic appreciation means one domestic unit buys more foreign currency. The reciprocal domestic-units-per-foreign-unit rate therefore falls.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "Residents’ purchases of imported goods rise with income. Which market identity explains why the domestic-currency supply curve shifts right?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Currency sold for imports disappears permanently from the exchange market"
+      },
+      {
+        "label": "B",
+        "text": "Import purchases force domestic currency demand to increase equally"
+      },
+      {
+        "label": "C",
+        "text": "Currency sold for imports becomes available to foreign-exchange buyers"
+      },
+      {
+        "label": "D",
+        "text": "Import purchases necessarily reduce residents’ demand for foreign currency"
+      },
+      {
+        "label": "E",
+        "text": "Import purchases create foreign demand for domestic exports"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Residents offer more domestic currency in exchange for foreign currency; that is an increase in its supply to the market.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "A country’s import quota is nonbinding: desired imports are already below the quota. With no other changes, what immediate currency-market shift should be attributed to the quota?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Supply left, because every announced quota restricts imports"
+      },
+      {
+        "label": "B",
+        "text": "Demand right, because every announced quota attracts investors"
+      },
+      {
+        "label": "C",
+        "text": "Demand left, because every announced quota reduces exports"
+      },
+      {
+        "label": "D",
+        "text": "Supply right, because every announced quota expands imports"
+      },
+      {
+        "label": "E",
+        "text": "None, because the quota does not change import purchases"
+      }
+    ],
+    "answer": "E",
+    "explanation": "A nonbinding limit does not alter actual import purchases, so it creates no immediate shift through the import channel.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "An import tax is introduced, but residents’ import purchases do not change over the period studied. What can be concluded about its direct foreign-exchange effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Supply must rise because tax receipts increased"
+      },
+      {
+        "label": "B",
+        "text": "No supply change follows from unchanged import purchases"
+      },
+      {
+        "label": "C",
+        "text": "Demand must rise because residents pay the tax"
+      },
+      {
+        "label": "D",
+        "text": "Demand must fall because residents pay the tax"
+      },
+      {
+        "label": "E",
+        "text": "Supply must fall because the policy is called a tariff"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The currency channel depends on changes in cross-border purchases. An unchanged import volume and payment amount imply no direct supply shift under the stated assumptions.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "Exporters receive more foreign orders, but every additional order is paid for with domestic currency already held abroad and no new currency exchange occurs. What assumption underlies the usual immediate demand-shift prediction?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Exports affect only currency supply and never currency demand"
+      },
+      {
+        "label": "B",
+        "text": "Additional purchases create additional demand for currency exchange"
+      },
+      {
+        "label": "C",
+        "text": "Foreign-held domestic currency cannot pay for domestic products"
+      },
+      {
+        "label": "D",
+        "text": "Every export automatically raises the domestic nominal interest rate"
+      },
+      {
+        "label": "E",
+        "text": "Every export requires a new increase in the domestic money supply"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The standard AP prediction treats greater export purchases as increasing demand for the exporter’s currency. The specified pre-existing balances remove the immediate new conversion transaction; the usual prediction needs its payment-demand assumption.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "An import restriction is expected to lower domestic currency supply. What separate development would reinforce its appreciation effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A fall in domestic real interest relative to foreign rates"
+      },
+      {
+        "label": "B",
+        "text": "A rise in residents’ spending on imported services"
+      },
+      {
+        "label": "C",
+        "text": "A rise in foreign demand for domestic assets"
+      },
+      {
+        "label": "D",
+        "text": "A rise in residents’ purchases of foreign assets"
+      },
+      {
+        "label": "E",
+        "text": "A fall in foreign demand for domestic exports"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Lower currency supply and higher currency demand both push the exchange rate up.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "Foreign consumers purchase fewer domestic exports. Which separate change would reinforce the resulting depreciation pressure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Foreign investors increase purchases of domestic bonds"
+      },
+      {
+        "label": "B",
+        "text": "Domestic real returns rise relative to foreign returns"
+      },
+      {
+        "label": "C",
+        "text": "Residents reduce purchases of imported goods"
+      },
+      {
+        "label": "D",
+        "text": "Residents sell foreign assets and bring proceeds home"
+      },
+      {
+        "label": "E",
+        "text": "Residents increase purchases of foreign assets"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Lower export demand reduces currency demand. More outward investment increases its supply; both produce depreciation pressure.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "A currency appreciates after domestic real rates rise. Why does the interest-rate change shift a currency curve rather than merely move along it?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It makes the foreign-exchange market cease to exist"
+      },
+      {
+        "label": "B",
+        "text": "It affects only money supply, never international asset purchases"
+      },
+      {
+        "label": "C",
+        "text": "It is itself the price on the currency graph’s vertical axis"
+      },
+      {
+        "label": "D",
+        "text": "It changes asset demand at each exchange rate"
+      },
+      {
+        "label": "E",
+        "text": "It changes only the quantity demanded at the existing exchange rate"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The currency graph’s price is an exchange rate. A change in relative asset returns is a nonprice determinant of currency demand or supply.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "A domestic currency’s exchange rate falls with demand fixed. Which supply-side event can explain that movement to a new equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Residents buy more imported services"
+      },
+      {
+        "label": "B",
+        "text": "Residents repatriate proceeds from foreign investments"
+      },
+      {
+        "label": "C",
+        "text": "Residents buy fewer foreign financial assets"
+      },
+      {
+        "label": "D",
+        "text": "Residents buy fewer imported goods"
+      },
+      {
+        "label": "E",
+        "text": "A binding quota reduces import purchases"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Greater spending abroad increases the supply of domestic currency, lowering its exchange rate along unchanged demand.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "A currency market has demand Qd=120−20e and supply Qs=20+20e, where e is foreign units per domestic unit. Find the initial equilibrium.",
+    "options": [
+      {
+        "label": "A",
+        "text": "e=2.0; Q=60"
+      },
+      {
+        "label": "B",
+        "text": "e=5.0; Q=20"
+      },
+      {
+        "label": "C",
+        "text": "e=3.0; Q=80"
+      },
+      {
+        "label": "D",
+        "text": "e=1.0; Q=100"
+      },
+      {
+        "label": "E",
+        "text": "e=2.5; Q=70"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Set 120 − 20e = 20 + 20e. Then 40e = 100, so e=2.5 and Q=70.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "Currency demand changes from Qd=120−20e to Qd=140−20e after an export boom. Supply remains Qs=20+20e. What is the new equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "e=4.0; Q=100"
+      },
+      {
+        "label": "B",
+        "text": "e=3.5; Q=90"
+      },
+      {
+        "label": "C",
+        "text": "e=2.5; Q=70"
+      },
+      {
+        "label": "D",
+        "text": "e=3.0; Q=80"
+      },
+      {
+        "label": "E",
+        "text": "e=2.0; Q=60"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Equate 140 − 20e and 20 + 20e: e=3 and Q=80. Greater export demand appreciates the domestic currency.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "Currency supply changes from Qs=20+20e to Qs=40+20e after imports rise. Demand remains Qd=120−20e. What is the new equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "e=3.0; Q=80"
+      },
+      {
+        "label": "B",
+        "text": "e=2.0; Q=80"
+      },
+      {
+        "label": "C",
+        "text": "e=2.0; Q=60"
+      },
+      {
+        "label": "D",
+        "text": "e=2.5; Q=70"
+      },
+      {
+        "label": "E",
+        "text": "e=1.5; Q=90"
+      }
+    ],
+    "answer": "B",
+    "explanation": "120 − 20e = 40 + 20e gives e=2 and Q=80. Higher currency supply depreciates the currency while raising traded quantity.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "A binding import limit changes supply from Qs=20+20e to Qs=20e. Demand is Qd=120−20e. What is the equilibrium after the restriction?",
+    "options": [
+      {
+        "label": "A",
+        "text": "e=3.0; Q=60"
+      },
+      {
+        "label": "B",
+        "text": "e=3.0; Q=80"
+      },
+      {
+        "label": "C",
+        "text": "e=2.5; Q=70"
+      },
+      {
+        "label": "D",
+        "text": "e=2.0; Q=80"
+      },
+      {
+        "label": "E",
+        "text": "e=4.0; Q=40"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Set 120 − 20e = 20e to obtain e=3 and Q=60. Lower supply raises the exchange rate and lowers equilibrium quantity.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "Foreign asset demand falls, changing currency demand to Qd=100−20e. Supply is Qs=20+20e. Calculate the equilibrium.",
+    "options": [
+      {
+        "label": "A",
+        "text": "e=2.5; Q=70"
+      },
+      {
+        "label": "B",
+        "text": "e=1.5; Q=70"
+      },
+      {
+        "label": "C",
+        "text": "e=2.0; Q=60"
+      },
+      {
+        "label": "D",
+        "text": "e=3.0; Q=80"
+      },
+      {
+        "label": "E",
+        "text": "e=2.0; Q=80"
+      }
+    ],
+    "answer": "C",
+    "explanation": "100 − 20e = 20 + 20e gives e=2 and Q=60. Lower demand reduces both exchange rate and quantity.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "Initially Qd=120−20e and Qs=20+20e. Export purchases and import purchases each increase the relevant curve’s quantity by 20 units at every e. Which new equilibrium results?",
+    "options": [
+      {
+        "label": "A",
+        "text": "e=3.5; Q=90"
+      },
+      {
+        "label": "B",
+        "text": "e=2.5; Q=70"
+      },
+      {
+        "label": "C",
+        "text": "e=2.5; Q=90"
+      },
+      {
+        "label": "D",
+        "text": "e=2.0; Q=80"
+      },
+      {
+        "label": "E",
+        "text": "e=3.0; Q=80"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The new curves are 140 − 20e and 40 + 20e. Their equal horizontal increases leave e=2.5 unchanged and raise Q from 70 to 90.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "Initially Qd=120−20e and Qs=20+20e. Export purchases and import purchases each decrease by 20 currency units at every e. Which new equilibrium results?",
+    "options": [
+      {
+        "label": "A",
+        "text": "e=2.0; Q=60"
+      },
+      {
+        "label": "B",
+        "text": "e=2.5; Q=50"
+      },
+      {
+        "label": "C",
+        "text": "e=3.0; Q=60"
+      },
+      {
+        "label": "D",
+        "text": "e=1.5; Q=50"
+      },
+      {
+        "label": "E",
+        "text": "e=2.5; Q=70"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The new curves are 100 − 20e and 20e. Equilibrium e remains 2.5 and Q falls to 50.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "A policy increases demand for domestic currency from 100−10e to 120−10e. Supply falls from 20+10e to 10+10e. What is the new exchange rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4.5 foreign units per domestic unit"
+      },
+      {
+        "label": "B",
+        "text": "4.0 foreign units per domestic unit"
+      },
+      {
+        "label": "C",
+        "text": "5.0 foreign units per domestic unit"
+      },
+      {
+        "label": "D",
+        "text": "5.5 foreign units per domestic unit"
+      },
+      {
+        "label": "E",
+        "text": "6.0 foreign units per domestic unit"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Set 120 − 10e = 10 + 10e, giving e=5.5. The original equilibrium was e=4; increased demand and reduced supply both support appreciation.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "After a foreign recession and higher domestic import spending, currency demand is Qd=80−10e and supply is Qs=40+10e. What exchange rate clears the market?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4 foreign units per domestic unit"
+      },
+      {
+        "label": "B",
+        "text": "5 foreign units per domestic unit"
+      },
+      {
+        "label": "C",
+        "text": "6 foreign units per domestic unit"
+      },
+      {
+        "label": "D",
+        "text": "3 foreign units per domestic unit"
+      },
+      {
+        "label": "E",
+        "text": "2 foreign units per domestic unit"
+      }
+    ],
+    "answer": "E",
+    "explanation": "80 − 10e = 40 + 10e implies e=2. Both falling demand and rising supply put downward pressure on the currency.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "At a fixed quotation e=3, currency demand is Qd=120−20e and supply is Qs=20+20e. What imbalance exists before the quotation adjusts?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A surplus of 20 domestic-currency units"
+      },
+      {
+        "label": "B",
+        "text": "No surplus or shortage of domestic currency"
+      },
+      {
+        "label": "C",
+        "text": "A shortage of 40 domestic-currency units"
+      },
+      {
+        "label": "D",
+        "text": "A surplus of 40 domestic-currency units"
+      },
+      {
+        "label": "E",
+        "text": "A shortage of 20 domestic-currency units"
+      }
+    ],
+    "answer": "A",
+    "explanation": "At e=3, Qd=60 and Qs=80. The 20-unit surplus puts downward pressure on the exchange rate.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 71,
+    "difficulty": "Hard",
+    "prompt": "A currency initially trades at e=2.5 with Qd=120−20e and Qs=20+20e. Monetary tightening raises demand to 150−20e, while an import boom raises supply to 30+20e. Find the new rate and explain the dominant channel.",
+    "options": [
+      {
+        "label": "A",
+        "text": "e=2.5; the two changes cancel at the original rate"
+      },
+      {
+        "label": "B",
+        "text": "e=2.0; the supply increase dominates the demand increase"
+      },
+      {
+        "label": "C",
+        "text": "e=2.0; the demand increase causes depreciation"
+      },
+      {
+        "label": "D",
+        "text": "e=3.0; the supply increase causes appreciation"
+      },
+      {
+        "label": "E",
+        "text": "e=3.0; the demand increase dominates the supply increase"
+      }
+    ],
+    "answer": "E",
+    "explanation": "New equilibrium satisfies 150 − 20e = 30 + 20e, so e=3. Demand increases by 30 units and supply by 10 units, producing net appreciation.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 72,
+    "difficulty": "Hard",
+    "prompt": "Domestic expected real rates rise, but the currency depreciates. Foreign export demand also falls sharply. Which inference is justified?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The export-demand reduction can outweigh the asset-demand increase"
+      },
+      {
+        "label": "B",
+        "text": "Depreciation proves domestic imports must have fallen"
+      },
+      {
+        "label": "C",
+        "text": "The currency market must violate downward-sloping demand"
+      },
+      {
+        "label": "D",
+        "text": "Both shocks necessarily increased domestic-currency demand"
+      },
+      {
+        "label": "E",
+        "text": "Higher relative real rates cannot ever attract capital inflow"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Higher asset returns support currency demand; lower exports reduce it. The observed depreciation is consistent with a larger negative export-demand effect, without disproving the interest channel.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 73,
+    "difficulty": "Hard",
+    "prompt": "An import quota reduces currency supply by 30 units at every e. Foreign retaliation reduces currency demand by 10 units at every e. Initial curves are Qd=120−20e and Qs=20+20e. Find the new equilibrium rate.",
+    "options": [
+      {
+        "label": "A",
+        "text": "e=1.5; the supply reduction causes depreciation"
+      },
+      {
+        "label": "B",
+        "text": "e=3.0; the supply reduction dominates"
+      },
+      {
+        "label": "C",
+        "text": "e=2.5; both shifts cancel exactly"
+      },
+      {
+        "label": "D",
+        "text": "e=2.0; the demand reduction dominates"
+      },
+      {
+        "label": "E",
+        "text": "e=3.5; the demand reduction causes appreciation"
+      }
+    ],
+    "answer": "B",
+    "explanation": "New demand is 110 − 20e and new supply is −10 + 20e. Equating them gives e=3. The larger supply reduction supports appreciation despite weaker export demand.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "A currency appreciates from 0.80 to 0.88 foreign units per domestic unit after monetary contraction. By what percentage does the reciprocal domestic-units-per-foreign-unit rate change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises about 9.09%"
+      },
+      {
+        "label": "B",
+        "text": "It remains unchanged at its previous value"
+      },
+      {
+        "label": "C",
+        "text": "It falls about 9.09%"
+      },
+      {
+        "label": "D",
+        "text": "It rises exactly 10.00%"
+      },
+      {
+        "label": "E",
+        "text": "It falls exactly 10.00%"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The domestic currency appreciates 10%. The reciprocal rate changes by 0.80/0.88 − 1 ≈ −9.09%; reciprocal percentage changes are not equal in magnitude.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "Domestic nominal interest rises from 5% to 7%, while expected inflation rises from 2% to 5%. Foreign nominal interest stays 4% and expected inflation stays 1%. How does the expected real-rate differential change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "From zero to 1 point in favor of domestic assets"
+      },
+      {
+        "label": "B",
+        "text": "From 1 point to 3 points in favor of domestic assets"
+      },
+      {
+        "label": "C",
+        "text": "From 1 point to 3 points in favor of foreign assets"
+      },
+      {
+        "label": "D",
+        "text": "From zero to 1 point in favor of foreign assets"
+      },
+      {
+        "label": "E",
+        "text": "It remains zero because both nominal rates are positive"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Initially both expected real rates are 3%. The domestic rate then falls to 2%, while the foreign rate remains 3%, producing a one-point foreign advantage.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "Foreign income rises and domestic income falls. Export orders rise while domestic imports fall. Which pair of equilibrium changes follows, holding asset transactions fixed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The currency depreciates; traded quantity is indeterminate"
+      },
+      {
+        "label": "B",
+        "text": "The currency value stays fixed; traded quantity necessarily rises"
+      },
+      {
+        "label": "C",
+        "text": "The currency appreciates; traded quantity necessarily rises"
+      },
+      {
+        "label": "D",
+        "text": "The currency depreciates; traded quantity necessarily falls"
+      },
+      {
+        "label": "E",
+        "text": "The currency appreciates; traded quantity is indeterminate"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Demand rises while supply falls. Both push the rate upward, but they put opposing pressure on traded quantity.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "Foreign income falls and domestic income rises. Export orders fall while domestic imports rise. Which pair of equilibrium changes follows, holding asset transactions fixed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The currency value stays fixed; traded quantity necessarily falls"
+      },
+      {
+        "label": "B",
+        "text": "The currency depreciates; traded quantity is indeterminate"
+      },
+      {
+        "label": "C",
+        "text": "The currency appreciates; traded quantity is indeterminate"
+      },
+      {
+        "label": "D",
+        "text": "The currency depreciates; traded quantity necessarily rises"
+      },
+      {
+        "label": "E",
+        "text": "The currency appreciates; traded quantity necessarily falls"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Currency demand falls and supply rises. Both lower the rate, but their quantity effects oppose.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "A tariff reduces import spending by $20 million, while foreign purchases of domestic assets increase by $50 million. Can these dollar amounts alone determine the percentage appreciation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes; asset purchases determine the exchange rate dollar for dollar"
+      },
+      {
+        "label": "B",
+        "text": "No; tariffs and financial assets cannot affect an exchange rate"
+      },
+      {
+        "label": "C",
+        "text": "No; the slopes and initial currency-market conditions are also needed"
+      },
+      {
+        "label": "D",
+        "text": "Yes; appreciation must equal the $70 million sum as a percentage"
+      },
+      {
+        "label": "E",
+        "text": "Yes; appreciation must equal the $30 million difference as a percentage"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Both changes support appreciation, but amounts of spending do not alone establish a percentage price change. Currency conversion, initial levels, and curve responsiveness matter.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "Currency demand rises and supply falls. A student concludes that traded quantity must rise because the currency appreciates. What is the error?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Price rises unambiguously, but the quantity effects oppose"
+      },
+      {
+        "label": "B",
+        "text": "Price falls unambiguously, but the quantity effects reinforce"
+      },
+      {
+        "label": "C",
+        "text": "Demand shifts affect price but can never affect quantity"
+      },
+      {
+        "label": "D",
+        "text": "Supply shifts affect quantity but can never affect price"
+      },
+      {
+        "label": "E",
+        "text": "Both price and quantity must fall after these shifts"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Higher demand raises quantity, whereas lower supply reduces it. Both raise the exchange rate, but appreciation does not determine the net quantity change.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "Domestic real interest falls while a binding import quota reduces residents’ imports. Which additional fact would settle the direction of the currency’s value?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Whether the currency market has a horizontal axis"
+      },
+      {
+        "label": "B",
+        "text": "Whether both nominal interest rates are above zero"
+      },
+      {
+        "label": "C",
+        "text": "Whether the currency is called a dollar or a peso"
+      },
+      {
+        "label": "D",
+        "text": "The relative sizes of the asset and import effects"
+      },
+      {
+        "label": "E",
+        "text": "Whether some residents continue buying domestic goods"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Lower real returns support depreciation; reduced imports support appreciation. Their relative effects are needed to identify the net direction.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "Initially Qd=100−10e and Qs=20+10e. After policy changes, demand is 110−10e and supply is 40+10e. Calculate the change in e and Q.",
+    "options": [
+      {
+        "label": "A",
+        "text": "e rises 0.5; Q rises 15"
+      },
+      {
+        "label": "B",
+        "text": "e rises 0.5; Q falls 15"
+      },
+      {
+        "label": "C",
+        "text": "e falls 0.5; Q falls 15"
+      },
+      {
+        "label": "D",
+        "text": "e falls 0.5; Q rises 15"
+      },
+      {
+        "label": "E",
+        "text": "e stays fixed; Q rises 30"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Initially e=4, Q=60. Finally 110 − 10e = 40 + 10e gives e=3.5, Q=75. The greater supply increase causes depreciation despite higher demand.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "Initially Qd=100−10e and Qs=20+10e. Demand falls to 80−10e and supply falls to 10+10e. Calculate the change in e and Q.",
+    "options": [
+      {
+        "label": "A",
+        "text": "e falls 0.5; Q falls 15"
+      },
+      {
+        "label": "B",
+        "text": "e rises 0.5; Q falls 15"
+      },
+      {
+        "label": "C",
+        "text": "e rises 0.5; Q rises 15"
+      },
+      {
+        "label": "D",
+        "text": "e stays fixed; Q falls 30"
+      },
+      {
+        "label": "E",
+        "text": "e falls 0.5; Q rises 15"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The initial equilibrium is e=4, Q=60. The final equilibrium is e=3.5, Q=45. The larger demand reduction lowers the rate; both reductions lower quantity.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "A capital inflow raises demand for domestic currency by 20 units, and residents reduce foreign purchases so supply falls by 20 units. With Qd=120−20e and Qs=20+20e initially, what happens to equilibrium quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises to 80 units"
+      },
+      {
+        "label": "B",
+        "text": "It rises to 90 units"
+      },
+      {
+        "label": "C",
+        "text": "It falls to 50 units"
+      },
+      {
+        "label": "D",
+        "text": "It falls to 60 units"
+      },
+      {
+        "label": "E",
+        "text": "It stays at 70 units"
+      }
+    ],
+    "answer": "E",
+    "explanation": "New curves are 140 − 20e and 20e. They meet at e=3.5, Q=70. With equal slopes and equal opposite horizontal shifts, the rate rises while quantity is unchanged.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "Currency supply rises by 20 units and demand falls by 20 units. Initial curves are Qd=120−20e and Qs=20+20e. What is the final equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "e=2.0; Q=80"
+      },
+      {
+        "label": "B",
+        "text": "e=1.5; Q=50"
+      },
+      {
+        "label": "C",
+        "text": "e=1.5; Q=70"
+      },
+      {
+        "label": "D",
+        "text": "e=2.5; Q=70"
+      },
+      {
+        "label": "E",
+        "text": "e=3.5; Q=70"
+      }
+    ],
+    "answer": "C",
+    "explanation": "New demand is 100 − 20e and supply is 40 + 20e. Equilibrium is e=1.5 and Q=70. Opposing quantity effects cancel under these symmetric curves.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "Foreign investors demand less domestic currency and residents supply more of it. The quoted rate is foreign units per domestic unit. Which reciprocal-quotation prediction is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The reciprocal quotation must stay unchanged"
+      },
+      {
+        "label": "B",
+        "text": "Domestic units per foreign unit rise"
+      },
+      {
+        "label": "C",
+        "text": "Domestic units per foreign unit fall"
+      },
+      {
+        "label": "D",
+        "text": "Both reciprocal quotations must rise"
+      },
+      {
+        "label": "E",
+        "text": "Both reciprocal quotations must fall"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The domestic currency depreciates, so foreign units per domestic unit fall. Its reciprocal, domestic units per foreign unit, rises.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "Monetary contraction raises relative real returns but also slows domestic income growth, reducing imports. Which currency-market shifts can reinforce each other?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand unchanged and supply right"
+      },
+      {
+        "label": "B",
+        "text": "Demand right and supply left"
+      },
+      {
+        "label": "C",
+        "text": "Demand right and supply right"
+      },
+      {
+        "label": "D",
+        "text": "Demand left and supply left"
+      },
+      {
+        "label": "E",
+        "text": "Demand left and supply right"
+      }
+    ],
+    "answer": "B",
+    "explanation": "More attractive assets raise currency demand. Lower imports reduce its supply. Both channels support appreciation.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "Monetary expansion lowers relative real returns but raises domestic income and imports. Which currency-market shifts can reinforce each other?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand left and supply right"
+      },
+      {
+        "label": "B",
+        "text": "Demand unchanged and supply left"
+      },
+      {
+        "label": "C",
+        "text": "Demand right and supply left"
+      },
+      {
+        "label": "D",
+        "text": "Demand left and supply left"
+      },
+      {
+        "label": "E",
+        "text": "Demand right and supply right"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Lower relative returns can reduce foreign demand for domestic assets, while higher imports increase currency supply. Both support depreciation.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "A foreign investor buys a domestic bond and later sells it, converting the proceeds abroad. Which sequence describes the currency transactions?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Initial supply of domestic currency; later supply of domestic currency"
+      },
+      {
+        "label": "B",
+        "text": "Initial demand for domestic currency; later demand for domestic currency"
+      },
+      {
+        "label": "C",
+        "text": "Initial supply of domestic currency; later demand for domestic currency"
+      },
+      {
+        "label": "D",
+        "text": "Initial demand for domestic currency; later supply of domestic currency"
+      },
+      {
+        "label": "E",
+        "text": "No currency transaction at either stage of the investment"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Acquiring the bond requires domestic currency; converting sale proceeds to foreign currency supplies domestic currency later. The two stages have different direct channels.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "Higher domestic real returns attract $40 million in foreign investment, but residents buy $70 million more foreign assets. Must the domestic currency appreciate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes; currency-market supply must stay fixed during capital flows"
+      },
+      {
+        "label": "B",
+        "text": "Yes; only foreign investment affects currency demand and supply"
+      },
+      {
+        "label": "C",
+        "text": "No; financial investment never influences currency exchange rates"
+      },
+      {
+        "label": "D",
+        "text": "Yes; any positive financial inflow guarantees appreciation"
+      },
+      {
+        "label": "E",
+        "text": "No; increased outward investment puts opposing pressure on its value"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Inflow increases domestic-currency demand; outward investment increases its supply. The presence of inflow alone does not determine the net exchange-rate effect.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "An import quota is binding before a recession. During the recession, desired imports fall below the quota. Why might further tightening of that still-nonbinding quota fail to shift currency supply?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A quota always shifts currency demand instead of supply"
+      },
+      {
+        "label": "B",
+        "text": "Every quota changes the domestic money supply directly"
+      },
+      {
+        "label": "C",
+        "text": "Actual import purchases remain unchanged by the new limit"
+      },
+      {
+        "label": "D",
+        "text": "Recessions make all foreign-exchange supply curves vertical"
+      },
+      {
+        "label": "E",
+        "text": "Currency supply responds only to export transactions"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Both the old and new quotas remain above desired imports. Because neither quota is binding, relaxing the quota does not change actual imports or the supply of domestic currency.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "A government removes a binding import quota, but foreign consumers simultaneously increase orders for domestic exports. The exchange rate is unchanged afterward. Which interpretation is consistent with that observation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand and supply increases offset at the original exchange rate"
+      },
+      {
+        "label": "B",
+        "text": "Demand increased while supply stayed fixed"
+      },
+      {
+        "label": "C",
+        "text": "Demand fell while supply increased"
+      },
+      {
+        "label": "D",
+        "text": "Supply increased while demand stayed fixed"
+      },
+      {
+        "label": "E",
+        "text": "Neither demand nor supply can have shifted"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Quota removal increases currency supply; greater exports increase currency demand. The unchanged rate can result from offsetting price effects, even though quantity rises.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "Export purchases fall and residents reduce foreign-asset purchases. The currency’s exchange rate is unchanged. Which conclusion about equilibrium currency quantity is supported?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises because both demand and supply decrease"
+      },
+      {
+        "label": "B",
+        "text": "It stays unchanged because the exchange rate is unchanged"
+      },
+      {
+        "label": "C",
+        "text": "It falls because both demand and supply decrease"
+      },
+      {
+        "label": "D",
+        "text": "It rises because lower exports increase currency demand"
+      },
+      {
+        "label": "E",
+        "text": "It is indeterminate even though both curves shift left"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Lower exports reduce demand and lower outward investment reduces supply. Both lower traded quantity, even when their rate effects cancel.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "A domestic currency appreciates after foreign asset purchases increase. In a market for the foreign currency, using domestic units per foreign unit on the vertical axis, which direct transaction is the counterpart?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Domestic-currency assets attract foreign-currency demand"
+      },
+      {
+        "label": "B",
+        "text": "Domestic-currency assets reduce foreign-currency supply"
+      },
+      {
+        "label": "C",
+        "text": "Domestic-currency assets leave all foreign-currency transactions unchanged"
+      },
+      {
+        "label": "D",
+        "text": "Both currencies appreciate in their reciprocal quotations"
+      },
+      {
+        "label": "E",
+        "text": "Domestic-currency assets attract foreign-currency supply"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Foreign investors sell their own currency to obtain the domestic currency used for asset purchases. That adds foreign-currency supply and lowers its price in domestic units.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "Domestic import purchases increase. In the market for foreign currency, using domestic units per foreign unit as the price, which direct change accompanies the domestic-currency supply increase?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Foreign-currency supply falls"
+      },
+      {
+        "label": "B",
+        "text": "Foreign-currency demand becomes vertical"
+      },
+      {
+        "label": "C",
+        "text": "Foreign-currency demand falls"
+      },
+      {
+        "label": "D",
+        "text": "Foreign-currency demand rises"
+      },
+      {
+        "label": "E",
+        "text": "Foreign-currency supply rises"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Domestic importers supply their own currency and demand foreign currency. The paired markets reflect opposite sides of the same exchange.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "A central bank raises nominal rates, but an analyst predicts capital outflow because expected inflation rises even more. Which assumption makes that reasoning consistent?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher nominal rates must reduce currency supply to zero"
+      },
+      {
+        "label": "B",
+        "text": "Investors compare expected real returns with risk held constant"
+      },
+      {
+        "label": "C",
+        "text": "Investors always ignore expected inflation when choosing assets"
+      },
+      {
+        "label": "D",
+        "text": "Capital flows respond only to the names of currencies"
+      },
+      {
+        "label": "E",
+        "text": "Nominal interest rates equal real interest rates in every economy"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A larger expected-inflation increase can lower expected real returns despite higher nominal rates. Under the stated investor assumptions, that can encourage outflow.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "Domestic nominal interest is 8%, expected inflation is 5%, and foreign expected real interest is 4%. Domestic inflation expectations then fall to 3% with nominal interest fixed. How does the return ranking change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Domestic goes from 1 point higher to 1 point lower"
+      },
+      {
+        "label": "B",
+        "text": "Both expected real returns remain equal throughout"
+      },
+      {
+        "label": "C",
+        "text": "Domestic stays 1 point lower throughout"
+      },
+      {
+        "label": "D",
+        "text": "Domestic goes from 1 point lower to 1 point higher"
+      },
+      {
+        "label": "E",
+        "text": "Domestic stays 1 point higher throughout"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Domestic expected real interest rises from 8 − 5 = 3% to 8 − 3 = 5%. Compared with the foreign 4%, the domestic advantage changes from −1 to +1 point.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "Currency demand is Qd=150−25e and supply is Qs=25+25e. Foreign export demand then falls by 25 units at every e. Calculate the rate change.",
+    "options": [
+      {
+        "label": "A",
+        "text": "From e=2.5 to e=3.0"
+      },
+      {
+        "label": "B",
+        "text": "From e=3.0 to e=2.5"
+      },
+      {
+        "label": "C",
+        "text": "From e=2.5 to e=1.5"
+      },
+      {
+        "label": "D",
+        "text": "From e=2.0 to e=2.5"
+      },
+      {
+        "label": "E",
+        "text": "From e=2.5 to e=2.0"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Initially 150 − 25e = 25 + 25e, giving e=2.5. New demand is 125 − 25e, so equilibrium becomes e=2.0.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "A policy reduces currency supply by 15 units at every e. Demand is Qd=90−15e and initial supply is Qs=15+15e. How much does the exchange rate rise?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1.5 foreign units per domestic unit"
+      },
+      {
+        "label": "B",
+        "text": "1.0 foreign unit per domestic unit"
+      },
+      {
+        "label": "C",
+        "text": "0.5 foreign units per domestic unit"
+      },
+      {
+        "label": "D",
+        "text": "2.5 foreign units per domestic unit"
+      },
+      {
+        "label": "E",
+        "text": "2.0 foreign units per domestic unit"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Initial e=(90 − 15)/30=2.5. New supply is 15e, giving e=3.0. The exchange rate rises by 0.5.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "The domestic currency appreciates 25% in a foreign-units-per-domestic-unit quotation. What is the percentage change in the reciprocal quotation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A 20% decrease"
+      },
+      {
+        "label": "B",
+        "text": "A 25% increase"
+      },
+      {
+        "label": "C",
+        "text": "A 25% decrease"
+      },
+      {
+        "label": "D",
+        "text": "A 20% increase"
+      },
+      {
+        "label": "E",
+        "text": "A 50% decrease"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The reciprocal factor is 1/1.25=0.8, so domestic units per foreign unit fall 20%.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "A currency initially has Qd=120−20e and Qs=20+20e. A foreign recession lowers demand by 10 units, while an import restriction lowers supply by 30 units. A student predicts depreciation solely from the recession. Evaluate the complete result.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Depreciation to e=2.0 because only export demand matters"
+      },
+      {
+        "label": "B",
+        "text": "Appreciation to e=3.0 because the supply reduction is larger"
+      },
+      {
+        "label": "C",
+        "text": "Appreciation to e=3.5 because both shifts raise the rate"
+      },
+      {
+        "label": "D",
+        "text": "Depreciation to e=1.5 because both shifts lower the rate"
+      },
+      {
+        "label": "E",
+        "text": "No change at e=2.5 because both curves move left"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The final curves are 110 − 20e and −10 + 20e, giving e=3.0 instead of 2.5. The 30-unit supply reduction outweighs the 10-unit demand reduction, so the currency appreciates despite weaker exports.",
+    "reference": "MKT-5.E | MKT-5.E.1 | MKT-5.E.3",
+    "graphDescription": "",
+    "graphRequired": false
+  }
+]

@@ -102,23 +102,23 @@
     "options": [
       {
         "label": "A",
-        "text": "nominal interest rate"
+        "text": "Nominal interest rate"
       },
       {
         "label": "B",
-        "text": "quantity of loanable funds"
+        "text": "Quantity of loanable funds"
       },
       {
         "label": "C",
-        "text": "amount of national savings"
+        "text": "Amount of national savings"
       },
       {
         "label": "D",
-        "text": "real interest rate"
+        "text": "Real interest rate"
       },
       {
         "label": "E",
-        "text": "net capital inflow"
+        "text": "Net capital inflow"
       }
     ],
     "answer": "D",
@@ -134,23 +134,23 @@
     "options": [
       {
         "label": "A",
-        "text": "real interest rate"
+        "text": "Real interest rate"
       },
       {
         "label": "B",
-        "text": "nominal interest rate"
+        "text": "Nominal interest rate"
       },
       {
         "label": "C",
-        "text": "change in public savings"
+        "text": "Change in public savings"
       },
       {
         "label": "D",
-        "text": "difference between borrowing and saving"
+        "text": "Difference between borrowing and saving"
       },
       {
         "label": "E",
-        "text": "quantity of loanable funds"
+        "text": "Quantity of loanable funds"
       }
     ],
     "answer": "E",
@@ -166,30 +166,101 @@
     "options": [
       {
         "label": "A",
-        "text": "The quantity of loanable funds demanded decreases along the existing demand curve."
+        "text": "The quantity of loanable funds demanded decreases along the existing demand curve"
       },
       {
         "label": "B",
-        "text": "The demand curve for loanable funds shifts right because borrowing becomes more attractive."
+        "text": "The demand curve for loanable funds shifts right because borrowing becomes more attractive"
       },
       {
         "label": "C",
-        "text": "The quantity of loanable funds demanded increases along the existing demand curve."
+        "text": "The quantity of loanable funds demanded increases along the existing demand curve"
       },
       {
         "label": "D",
-        "text": "The supply curve for loanable funds shifts left because saving becomes less attractive."
+        "text": "The supply curve for loanable funds shifts left because saving becomes less attractive"
       },
       {
         "label": "E",
-        "text": "The quantity of loanable funds supplied decreases along the existing supply curve."
+        "text": "The quantity of loanable funds supplied decreases along the existing supply curve"
       }
     ],
     "answer": "A",
     "explanation": "The demand for loanable funds has an inverse relationship with the real interest rate. A higher real interest rate therefore causes a movement up and left along the existing demand curve, reducing quantity demanded.",
     "reference": "MKT-4.A | MKT-4.A.2 | Skill 4.C",
     "graphDescription": "Loanable funds market with real interest rate on the vertical axis and quantity of loanable funds on the horizontal axis. The demand curve DLF slopes downward and the supply curve SLF slopes upward. Two points on DLF are labeled A at real interest rate r1 and quantity Q1 and B at the higher real interest rate r2 and lower quantity Q2. An arrow along DLF points from A to B.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of loanable funds",
+        "yLabel": "Real interest rate",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D₁",
+            "label": "D₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 10.0
+              }
+            ]
+          },
+          {
+            "id": "S₁",
+            "label": "S₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 8.0,
+                "y": 8.0
+              },
+              {
+                "x": 90.0,
+                "y": 90.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 70,
+            "y": 30
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 30,
+            "y": 70
+          }
+        ],
+        "guides": [
+          {
+            "id": "A",
+            "x": 70,
+            "y": 30,
+            "xLabel": "Q1",
+            "yLabel": "r1"
+          },
+          {
+            "id": "B",
+            "x": 30,
+            "y": 70,
+            "xLabel": "Q2",
+            "yLabel": "r2"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 7,
@@ -198,23 +269,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The quantity of loanable funds demanded will increase."
+        "text": "The quantity of loanable funds demanded will increase"
       },
       {
         "label": "B",
-        "text": "The quantity of loanable funds demanded will decrease."
+        "text": "The quantity of loanable funds demanded will decrease"
       },
       {
         "label": "C",
-        "text": "The demand curve for loanable funds will shift left."
+        "text": "The demand curve for loanable funds will shift left"
       },
       {
         "label": "D",
-        "text": "The supply curve for loanable funds will shift right."
+        "text": "The supply curve for loanable funds will shift right"
       },
       {
         "label": "E",
-        "text": "The quantity of loanable funds supplied will increase along the supply curve."
+        "text": "The quantity of loanable funds supplied will increase along the supply curve"
       }
     ],
     "answer": "A",
@@ -230,23 +301,23 @@
     "options": [
       {
         "label": "A",
-        "text": "It slopes downward because a higher real interest rate is associated with a smaller quantity supplied."
+        "text": "It slopes downward because a higher real interest rate is associated with a smaller quantity supplied"
       },
       {
         "label": "B",
-        "text": "It is vertical because saving is independent of the real interest rate."
+        "text": "It is vertical because saving is independent of the real interest rate"
       },
       {
         "label": "C",
-        "text": "It is horizontal because savers supply the same return at every quantity of funds."
+        "text": "It is horizontal because savers supply the same return at every quantity of funds"
       },
       {
         "label": "D",
-        "text": "It slopes upward because a higher real interest rate is associated with a larger quantity supplied."
+        "text": "It slopes upward because a higher real interest rate is associated with a larger quantity supplied"
       },
       {
         "label": "E",
-        "text": "It slopes downward because savers reduce saving when the return to saving increases."
+        "text": "It slopes downward because savers reduce saving when the return to saving increases"
       }
     ],
     "answer": "D",
@@ -262,30 +333,101 @@
     "options": [
       {
         "label": "A",
-        "text": "The supply curve for loanable funds shifts right because saving becomes more profitable."
+        "text": "The supply curve for loanable funds shifts right because saving becomes more profitable"
       },
       {
         "label": "B",
-        "text": "The quantity of loanable funds supplied decreases along the existing supply curve."
+        "text": "The quantity of loanable funds supplied decreases along the existing supply curve"
       },
       {
         "label": "C",
-        "text": "The quantity of loanable funds supplied increases along the existing supply curve."
+        "text": "The quantity of loanable funds supplied increases along the existing supply curve"
       },
       {
         "label": "D",
-        "text": "The demand curve for loanable funds shifts left because borrowing becomes more expensive."
+        "text": "The demand curve for loanable funds shifts left because borrowing becomes more expensive"
       },
       {
         "label": "E",
-        "text": "The quantity of loanable funds demanded increases along the existing demand curve."
+        "text": "The quantity of loanable funds demanded increases along the existing demand curve"
       }
     ],
     "answer": "C",
     "explanation": "The supply of loanable funds has a positive relationship with the real interest rate. A higher real interest rate causes movement up and right along the existing supply curve, increasing quantity supplied.",
     "reference": "MKT-4.A | MKT-4.A.3 | Skill 4.C",
     "graphDescription": "Loanable funds market with real interest rate on the vertical axis and quantity of loanable funds on the horizontal axis. SLF slopes upward and DLF slopes downward. Two points on SLF are labeled C at r1 and quantity Q1 and D at the higher rate r2 and larger quantity Q2. An arrow along SLF points from C to D.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of loanable funds",
+        "yLabel": "Real interest rate",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D₁",
+            "label": "D₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 10.0
+              }
+            ]
+          },
+          {
+            "id": "S₁",
+            "label": "S₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 8.0,
+                "y": 8.0
+              },
+              {
+                "x": 90.0,
+                "y": 90.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "C",
+            "label": "C",
+            "x": 30,
+            "y": 30
+          },
+          {
+            "id": "D",
+            "label": "D",
+            "x": 70,
+            "y": 70
+          }
+        ],
+        "guides": [
+          {
+            "id": "C",
+            "x": 30,
+            "y": 30,
+            "xLabel": "Q1",
+            "yLabel": "r1"
+          },
+          {
+            "id": "D",
+            "x": 70,
+            "y": 70,
+            "xLabel": "Q2",
+            "yLabel": "r2"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 10,
@@ -294,23 +436,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The quantity of loanable funds supplied will increase."
+        "text": "The quantity of loanable funds supplied will increase"
       },
       {
         "label": "B",
-        "text": "The quantity of loanable funds supplied will decrease."
+        "text": "The quantity of loanable funds supplied will decrease"
       },
       {
         "label": "C",
-        "text": "The supply curve for loanable funds will shift right."
+        "text": "The supply curve for loanable funds will shift right"
       },
       {
         "label": "D",
-        "text": "The demand curve for loanable funds will shift left."
+        "text": "The demand curve for loanable funds will shift left"
       },
       {
         "label": "E",
-        "text": "The quantity of loanable funds demanded will decrease along the demand curve."
+        "text": "The quantity of loanable funds demanded will decrease along the demand curve"
       }
     ],
     "answer": "B",
@@ -326,23 +468,23 @@
     "options": [
       {
         "label": "A",
-        "text": "the real interest rate equals the nominal interest rate"
+        "text": "The real interest rate equals the nominal interest rate"
       },
       {
         "label": "B",
-        "text": "public savings equals private savings"
+        "text": "Public savings equals private savings"
       },
       {
         "label": "C",
-        "text": "national savings equals zero"
+        "text": "National savings equals zero"
       },
       {
         "label": "D",
-        "text": "net capital inflow equals domestic investment"
+        "text": "Net capital inflow equals domestic investment"
       },
       {
         "label": "E",
-        "text": "the quantity of loanable funds demanded equals the quantity supplied"
+        "text": "The quantity of loanable funds demanded equals the quantity supplied"
       }
     ],
     "answer": "E",
@@ -381,7 +523,84 @@
     "explanation": "At a real interest rate above equilibrium, the upward-sloping supply curve shows a larger quantity supplied while the downward-sloping demand curve shows a smaller quantity demanded. The result is a surplus of loanable funds.",
     "reference": "MKT-4.C | MKT-4.D.1 | Skill 4.C",
     "graphDescription": "Loanable funds market with real interest rate on the vertical axis and quantity of loanable funds on the horizontal axis. DLF slopes downward and SLF slopes upward, intersecting at E with equilibrium rate rE. A horizontal line at rH lies above rE and intersects DLF at QdH and SLF at the larger quantity QsH.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of loanable funds",
+        "yLabel": "Real interest rate",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D₁",
+            "label": "D₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 10.0
+              }
+            ]
+          },
+          {
+            "id": "S₁",
+            "label": "S₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 8.0,
+                "y": 8.0
+              },
+              {
+                "x": 90.0,
+                "y": 90.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "",
+            "label": "",
+            "x": 30,
+            "y": 70
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q₁",
+            "yLabel": "rE"
+          },
+          {
+            "id": "",
+            "x": 30,
+            "y": 70,
+            "xLabel": "Qd",
+            "yLabel": "rH"
+          },
+          {
+            "id": "supply-probe",
+            "x": 70,
+            "y": 70,
+            "xLabel": "Qs"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 13,
@@ -413,7 +632,84 @@
     "explanation": "At a real interest rate below equilibrium, quantity demanded exceeds quantity supplied; Borrowers want more funds than savers provide, so the market experiences a shortage.",
     "reference": "MKT-4.C | MKT-4.D.1 | Skill 4.C",
     "graphDescription": "Loanable funds market with real interest rate on the vertical axis and quantity of loanable funds on the horizontal axis. DLF slopes downward and SLF slopes upward, intersecting at E with equilibrium rate rE. A horizontal line at rL lies below rE and intersects SLF at QsL and DLF at the larger quantity QdL.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of loanable funds",
+        "yLabel": "Real interest rate",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D₁",
+            "label": "D₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 10.0
+              }
+            ]
+          },
+          {
+            "id": "S₁",
+            "label": "S₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 8.0,
+                "y": 8.0
+              },
+              {
+                "x": 90.0,
+                "y": 90.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "",
+            "label": "",
+            "x": 70,
+            "y": 30
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q₁",
+            "yLabel": "rE"
+          },
+          {
+            "id": "",
+            "x": 70,
+            "y": 30,
+            "xLabel": "Qd",
+            "yLabel": "rL"
+          },
+          {
+            "id": "supply-probe",
+            "x": 30,
+            "y": 30,
+            "xLabel": "Qs"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 14,
@@ -422,23 +718,23 @@
     "options": [
       {
         "label": "A",
-        "text": "increase farther above equilibrium"
+        "text": "Increase farther above equilibrium"
       },
       {
         "label": "B",
-        "text": "decrease toward equilibrium"
+        "text": "Decrease toward equilibrium"
       },
       {
         "label": "C",
-        "text": "remain unchanged because saving already exceeds borrowing"
+        "text": "Remain unchanged because saving already exceeds borrowing"
       },
       {
         "label": "D",
-        "text": "increase until quantity demanded becomes zero"
+        "text": "Increase until quantity demanded becomes zero"
       },
       {
         "label": "E",
-        "text": "decrease until the supply curve shifts left"
+        "text": "Decrease until the supply curve shifts left"
       }
     ],
     "answer": "B",
@@ -454,23 +750,23 @@
     "options": [
       {
         "label": "A",
-        "text": "increase toward equilibrium"
+        "text": "Increase toward equilibrium"
       },
       {
         "label": "B",
-        "text": "decrease farther below equilibrium"
+        "text": "Decrease farther below equilibrium"
       },
       {
         "label": "C",
-        "text": "remain unchanged because borrowing already exceeds saving"
+        "text": "Remain unchanged because borrowing already exceeds saving"
       },
       {
         "label": "D",
-        "text": "decrease until quantity supplied becomes zero"
+        "text": "Decrease until quantity supplied becomes zero"
       },
       {
         "label": "E",
-        "text": "increase until the demand curve shifts left"
+        "text": "Increase until the demand curve shifts left"
       }
     ],
     "answer": "A",
@@ -486,23 +782,23 @@
     "options": [
       {
         "label": "A",
-        "text": "public savings minus private savings"
+        "text": "Public savings minus private savings"
       },
       {
         "label": "B",
-        "text": "private savings minus public savings"
+        "text": "Private savings minus public savings"
       },
       {
         "label": "C",
-        "text": "domestic investment plus net capital inflow"
+        "text": "Domestic investment plus net capital inflow"
       },
       {
         "label": "D",
-        "text": "domestic investment minus public savings"
+        "text": "Domestic investment minus public savings"
       },
       {
         "label": "E",
-        "text": "public savings plus private savings"
+        "text": "Public savings plus private savings"
       }
     ],
     "answer": "E",
@@ -582,23 +878,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Investment equals national savings plus net capital inflow."
+        "text": "Investment equals national savings plus net capital inflow"
       },
       {
         "label": "B",
-        "text": "Investment equals national savings minus public savings."
+        "text": "Investment equals national savings minus public savings"
       },
       {
         "label": "C",
-        "text": "Investment equals private savings plus public borrowing only."
+        "text": "Investment equals private savings plus public borrowing only"
       },
       {
         "label": "D",
-        "text": "National savings equals investment plus net capital inflow."
+        "text": "National savings equals investment plus net capital inflow"
       },
       {
         "label": "E",
-        "text": "Net capital inflow equals national savings plus investment."
+        "text": "Net capital inflow equals national savings plus investment"
       }
     ],
     "answer": "A",
@@ -710,23 +1006,23 @@
     "options": [
       {
         "label": "A",
-        "text": "increase"
+        "text": "Increase"
       },
       {
         "label": "B",
-        "text": "remain unchanged while quantity demanded increases"
+        "text": "Remain unchanged while quantity demanded increases"
       },
       {
         "label": "C",
-        "text": "decrease"
+        "text": "Decrease"
       },
       {
         "label": "D",
-        "text": "remain unchanged while quantity demanded decreases"
+        "text": "Remain unchanged while quantity demanded decreases"
       },
       {
         "label": "E",
-        "text": "increase only because the real interest rate falls"
+        "text": "Increase only because the real interest rate falls"
       }
     ],
     "answer": "C",
@@ -742,23 +1038,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The supply of loanable funds will decrease."
+        "text": "The supply of loanable funds will decrease"
       },
       {
         "label": "B",
-        "text": "The supply of loanable funds will increase."
+        "text": "The supply of loanable funds will increase"
       },
       {
         "label": "C",
-        "text": "The demand for loanable funds will increase."
+        "text": "The demand for loanable funds will increase"
       },
       {
         "label": "D",
-        "text": "The quantity supplied will decrease along the existing supply curve."
+        "text": "The quantity supplied will decrease along the existing supply curve"
       },
       {
         "label": "E",
-        "text": "The quantity demanded will increase along the existing demand curve."
+        "text": "The quantity demanded will increase along the existing demand curve"
       }
     ],
     "answer": "B",
@@ -774,23 +1070,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The supply of loanable funds will increase."
+        "text": "The supply of loanable funds will increase"
       },
       {
         "label": "B",
-        "text": "The demand for loanable funds will decrease."
+        "text": "The demand for loanable funds will decrease"
       },
       {
         "label": "C",
-        "text": "The quantity supplied will increase along the existing supply curve."
+        "text": "The quantity supplied will increase along the existing supply curve"
       },
       {
         "label": "D",
-        "text": "The supply of loanable funds will decrease."
+        "text": "The supply of loanable funds will decrease"
       },
       {
         "label": "E",
-        "text": "The quantity demanded will decrease along the existing demand curve."
+        "text": "The quantity demanded will decrease along the existing demand curve"
       }
     ],
     "answer": "D",
@@ -806,23 +1102,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Demand for loanable funds decreases, lowering the equilibrium real interest rate and equilibrium quantity."
+        "text": "Demand for loanable funds decreases, lowering the equilibrium real interest rate and equilibrium quantity"
       },
       {
         "label": "B",
-        "text": "Supply of loanable funds increases, lowering the equilibrium real interest rate and raising equilibrium quantity."
+        "text": "Supply of loanable funds increases, lowering the equilibrium real interest rate and raising equilibrium quantity"
       },
       {
         "label": "C",
-        "text": "Supply of loanable funds decreases, raising the equilibrium real interest rate and lowering equilibrium quantity."
+        "text": "Supply of loanable funds decreases, raising the equilibrium real interest rate and lowering equilibrium quantity"
       },
       {
         "label": "D",
-        "text": "Quantity demanded falls along the existing demand curve while equilibrium remains unchanged."
+        "text": "Quantity demanded falls along the existing demand curve while equilibrium remains unchanged"
       },
       {
         "label": "E",
-        "text": "Demand for loanable funds increases, raising the equilibrium real interest rate and equilibrium quantity."
+        "text": "Demand for loanable funds increases, raising the equilibrium real interest rate and equilibrium quantity"
       }
     ],
     "answer": "E",
@@ -838,23 +1134,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Demand for loanable funds increases, raising the equilibrium real interest rate and equilibrium quantity."
+        "text": "Demand for loanable funds increases, raising the equilibrium real interest rate and equilibrium quantity"
       },
       {
         "label": "B",
-        "text": "Supply of loanable funds decreases, raising the equilibrium real interest rate and lowering equilibrium quantity."
+        "text": "Supply of loanable funds decreases, raising the equilibrium real interest rate and lowering equilibrium quantity"
       },
       {
         "label": "C",
-        "text": "Demand for loanable funds decreases, lowering the equilibrium real interest rate and equilibrium quantity."
+        "text": "Demand for loanable funds decreases, lowering the equilibrium real interest rate and equilibrium quantity"
       },
       {
         "label": "D",
-        "text": "Supply of loanable funds increases, lowering the equilibrium real interest rate and raising equilibrium quantity."
+        "text": "Supply of loanable funds increases, lowering the equilibrium real interest rate and raising equilibrium quantity"
       },
       {
         "label": "E",
-        "text": "Quantity supplied rises along the existing supply curve while equilibrium remains unchanged."
+        "text": "Quantity supplied rises along the existing supply curve while equilibrium remains unchanged"
       }
     ],
     "answer": "C",
@@ -870,23 +1166,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The demand for loanable funds shifts right and the equilibrium real interest rate rises."
+        "text": "The demand for loanable funds shifts right and the equilibrium real interest rate rises"
       },
       {
         "label": "B",
-        "text": "The demand for loanable funds shifts left and the equilibrium real interest rate falls."
+        "text": "The demand for loanable funds shifts left and the equilibrium real interest rate falls"
       },
       {
         "label": "C",
-        "text": "The supply of loanable funds shifts right and the equilibrium real interest rate falls."
+        "text": "The supply of loanable funds shifts right and the equilibrium real interest rate falls"
       },
       {
         "label": "D",
-        "text": "The supply of loanable funds shifts left and the equilibrium real interest rate falls."
+        "text": "The supply of loanable funds shifts left and the equilibrium real interest rate falls"
       },
       {
         "label": "E",
-        "text": "There is only a movement down the existing demand curve with no change in equilibrium."
+        "text": "There is only a movement down the existing demand curve with no change in equilibrium"
       }
     ],
     "answer": "A",
@@ -902,23 +1198,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The demand for loanable funds shifts left and the equilibrium real interest rate falls."
+        "text": "The demand for loanable funds shifts left and the equilibrium real interest rate falls"
       },
       {
         "label": "B",
-        "text": "The demand for loanable funds shifts right and the equilibrium real interest rate rises."
+        "text": "The demand for loanable funds shifts right and the equilibrium real interest rate rises"
       },
       {
         "label": "C",
-        "text": "The supply of loanable funds shifts left and the equilibrium real interest rate rises."
+        "text": "The supply of loanable funds shifts left and the equilibrium real interest rate rises"
       },
       {
         "label": "D",
-        "text": "The supply of loanable funds shifts right and the equilibrium real interest rate rises."
+        "text": "The supply of loanable funds shifts right and the equilibrium real interest rate rises"
       },
       {
         "label": "E",
-        "text": "There is only a movement up the existing demand curve with no change in equilibrium."
+        "text": "There is only a movement up the existing demand curve with no change in equilibrium"
       }
     ],
     "answer": "A",
@@ -934,23 +1230,23 @@
     "options": [
       {
         "label": "A",
-        "text": "A change in saving behavior causes movement along demand, while a change in the real interest rate shifts demand."
+        "text": "A change in saving behavior causes movement along demand, while a change in the real interest rate shifts demand"
       },
       {
         "label": "B",
-        "text": "A change in the real interest rate shifts demand, while an investment tax credit causes movement along demand."
+        "text": "A change in the real interest rate shifts demand, while an investment tax credit causes movement along demand"
       },
       {
         "label": "C",
-        "text": "Government borrowing causes movement along demand, while the real interest rate shifts the supply curve."
+        "text": "Government borrowing causes movement along demand, while the real interest rate shifts the supply curve"
       },
       {
         "label": "D",
-        "text": "A change in the real interest rate causes movement along demand, while a change in borrowing incentives can shift demand."
+        "text": "A change in the real interest rate causes movement along demand, while a change in borrowing incentives can shift demand"
       },
       {
         "label": "E",
-        "text": "A change in national savings causes movement along demand, while the real interest rate shifts both curves."
+        "text": "A change in national savings causes movement along demand, while the real interest rate shifts both curves"
       }
     ],
     "answer": "D",
@@ -966,30 +1262,116 @@
     "options": [
       {
         "label": "A",
-        "text": "The real interest rate increases and the equilibrium quantity decreases."
+        "text": "The real interest rate increases and the equilibrium quantity decreases"
       },
       {
         "label": "B",
-        "text": "The real interest rate and the equilibrium quantity of loanable funds both increase."
+        "text": "The real interest rate and the equilibrium quantity of loanable funds both increase"
       },
       {
         "label": "C",
-        "text": "The real interest rate decreases and the equilibrium quantity increases."
+        "text": "The real interest rate decreases and the equilibrium quantity increases"
       },
       {
         "label": "D",
-        "text": "The real interest rate and equilibrium quantity both decrease."
+        "text": "The real interest rate and equilibrium quantity both decrease"
       },
       {
         "label": "E",
-        "text": "The real interest rate is unchanged while only the equilibrium quantity increases."
+        "text": "The real interest rate is unchanged while only the equilibrium quantity increases"
       }
     ],
     "answer": "B",
     "explanation": "An investment tax credit increases demand for loanable funds. With supply unchanged, the rightward demand shift raises both the equilibrium real interest rate and the equilibrium quantity.",
     "reference": "MKT-4.E | MKT-4.E.2 | Skill 4.C",
     "graphDescription": "Loanable funds market with real interest rate on the vertical axis and quantity of loanable funds on the horizontal axis. Supply SLF slopes upward. Demand shifts right from D1 to D2. Initial equilibrium E1 is at D1 and SLF; new equilibrium E2 is at D2 and SLF, above and to the right of E1.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of loanable funds",
+        "yLabel": "Real interest rate",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D₁",
+            "label": "D₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 10.0
+              }
+            ]
+          },
+          {
+            "id": "S₁",
+            "label": "S₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 8.0,
+                "y": 8.0
+              },
+              {
+                "x": 90.0,
+                "y": 90.0
+              }
+            ]
+          },
+          {
+            "id": "D₂",
+            "label": "D₂",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 30.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 30.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E₁",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "E₂",
+            "label": "E₂",
+            "x": 60.0,
+            "y": 60.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q₁",
+            "yLabel": "r₁"
+          },
+          {
+            "id": "E₂",
+            "x": 60.0,
+            "y": 60.0,
+            "xLabel": "Q₂",
+            "yLabel": "r₂"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 32,
@@ -998,30 +1380,116 @@
     "options": [
       {
         "label": "A",
-        "text": "The real interest rate decreases and the equilibrium quantity of loanable funds increases."
+        "text": "The real interest rate decreases and the equilibrium quantity of loanable funds increases"
       },
       {
         "label": "B",
-        "text": "The real interest rate increases and the equilibrium quantity decreases."
+        "text": "The real interest rate increases and the equilibrium quantity decreases"
       },
       {
         "label": "C",
-        "text": "The real interest rate and equilibrium quantity both increase."
+        "text": "The real interest rate and equilibrium quantity both increase"
       },
       {
         "label": "D",
-        "text": "The real interest rate and equilibrium quantity both decrease."
+        "text": "The real interest rate and equilibrium quantity both decrease"
       },
       {
         "label": "E",
-        "text": "The real interest rate is unchanged while only the equilibrium quantity decreases."
+        "text": "The real interest rate is unchanged while only the equilibrium quantity decreases"
       }
     ],
     "answer": "A",
     "explanation": "Greater saving shifts the supply of loanable funds to the right. With demand unchanged, the equilibrium real interest rate falls and the equilibrium quantity rises.",
     "reference": "MKT-4.E | MKT-4.E.2 | Skill 4.C",
     "graphDescription": "Loanable funds market with real interest rate on the vertical axis and quantity of loanable funds on the horizontal axis. Demand DLF slopes downward. Supply shifts right from S1 to S2. Initial equilibrium E1 is at DLF and S1; new equilibrium E2 is at DLF and S2, below and to the right of E1.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of loanable funds",
+        "yLabel": "Real interest rate",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D₁",
+            "label": "D₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 10.0
+              }
+            ]
+          },
+          {
+            "id": "S₁",
+            "label": "S₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 8.0,
+                "y": 8.0
+              },
+              {
+                "x": 90.0,
+                "y": 90.0
+              }
+            ]
+          },
+          {
+            "id": "S₂",
+            "label": "S₂",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 28.0,
+                "y": 8.0
+              },
+              {
+                "x": 90.0,
+                "y": 70.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E₁",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "E₂",
+            "label": "E₂",
+            "x": 60.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q₁",
+            "yLabel": "r₁"
+          },
+          {
+            "id": "E₂",
+            "x": 60.0,
+            "y": 40.0,
+            "xLabel": "Q₂",
+            "yLabel": "r₂"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 33,
@@ -1030,23 +1498,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Demand shifts right, increasing both the equilibrium real interest rate and equilibrium quantity."
+        "text": "Demand shifts right, increasing both the equilibrium real interest rate and equilibrium quantity"
       },
       {
         "label": "B",
-        "text": "Supply shifts left, increasing the real interest rate and decreasing equilibrium quantity."
+        "text": "Supply shifts left, increasing the real interest rate and decreasing equilibrium quantity"
       },
       {
         "label": "C",
-        "text": "Supply shifts right, decreasing the real interest rate and increasing equilibrium quantity."
+        "text": "Supply shifts right, decreasing the real interest rate and increasing equilibrium quantity"
       },
       {
         "label": "D",
-        "text": "Demand shifts left, decreasing both the equilibrium real interest rate and equilibrium quantity."
+        "text": "Demand shifts left, decreasing both the equilibrium real interest rate and equilibrium quantity"
       },
       {
         "label": "E",
-        "text": "Demand remains fixed and quantity demanded rises because the real interest rate falls first."
+        "text": "Demand remains fixed and quantity demanded rises because the real interest rate falls first"
       }
     ],
     "answer": "D",
@@ -1062,30 +1530,116 @@
     "options": [
       {
         "label": "A",
-        "text": "The real interest rate increases and the equilibrium quantity of loanable funds decreases."
+        "text": "The real interest rate increases and the equilibrium quantity of loanable funds decreases"
       },
       {
         "label": "B",
-        "text": "The real interest rate decreases and the equilibrium quantity increases."
+        "text": "The real interest rate decreases and the equilibrium quantity increases"
       },
       {
         "label": "C",
-        "text": "The real interest rate and equilibrium quantity both increase."
+        "text": "The real interest rate and equilibrium quantity both increase"
       },
       {
         "label": "D",
-        "text": "The real interest rate and equilibrium quantity both decrease."
+        "text": "The real interest rate and equilibrium quantity both decrease"
       },
       {
         "label": "E",
-        "text": "The real interest rate is unchanged while only the equilibrium quantity decreases."
+        "text": "The real interest rate is unchanged while only the equilibrium quantity decreases"
       }
     ],
     "answer": "A",
     "explanation": "Less saving shifts the supply curve left. With demand unchanged, the new equilibrium has a higher real interest rate and a lower quantity of loanable funds.",
     "reference": "MKT-4.E | MKT-4.E.2 | Skill 4.C",
     "graphDescription": "Loanable funds market with real interest rate on the vertical axis and quantity of loanable funds on the horizontal axis. Demand DLF slopes downward. Supply shifts left from S1 to S2. Initial equilibrium E1 is at DLF and S1; new equilibrium E2 is at DLF and S2, above and to the left of E1.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of loanable funds",
+        "yLabel": "Real interest rate",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D₁",
+            "label": "D₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 10.0
+              }
+            ]
+          },
+          {
+            "id": "S₁",
+            "label": "S₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 8.0,
+                "y": 8.0
+              },
+              {
+                "x": 90.0,
+                "y": 90.0
+              }
+            ]
+          },
+          {
+            "id": "S₂",
+            "label": "S₂",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 7.000000000000001,
+                "y": 27.0
+              },
+              {
+                "x": 70.0,
+                "y": 90.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E₁",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "E₂",
+            "label": "E₂",
+            "x": 40.0,
+            "y": 60.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q₁",
+            "yLabel": "r₁"
+          },
+          {
+            "id": "E₂",
+            "x": 40.0,
+            "y": 60.0,
+            "xLabel": "Q₂",
+            "yLabel": "r₂"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 35,
@@ -1094,23 +1648,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The supply curve shifts right because borrowers supply more funds."
+        "text": "The supply curve shifts right because borrowers supply more funds"
       },
       {
         "label": "B",
-        "text": "The supply curve shifts left because government borrowing directly reduces saving behavior."
+        "text": "The supply curve shifts left because government borrowing directly reduces saving behavior"
       },
       {
         "label": "C",
-        "text": "The supply curve becomes vertical because the government sets the real interest rate."
+        "text": "The supply curve becomes vertical because the government sets the real interest rate"
       },
       {
         "label": "D",
-        "text": "The supply curve remains unchanged while the equilibrium moves up along it."
+        "text": "The supply curve remains unchanged while the equilibrium moves up along it"
       },
       {
         "label": "E",
-        "text": "The supply curve shifts right and demand remains unchanged."
+        "text": "The supply curve shifts right and demand remains unchanged"
       }
     ],
     "answer": "D",
@@ -1126,23 +1680,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Government borrowing falls, demand for loanable funds shifts left, and the equilibrium real interest rate falls while the other loanable-funds curve remains unchanged."
+        "text": "Government borrowing falls, demand for loanable funds shifts left, and the equilibrium real interest rate falls while the other loanable-funds curve remains unchanged"
       },
       {
         "label": "B",
-        "text": "Government borrowing rises, supply of loanable funds shifts right, and the equilibrium real interest rate falls."
+        "text": "Government borrowing rises, supply of loanable funds shifts right, and the equilibrium real interest rate falls"
       },
       {
         "label": "C",
-        "text": "Government borrowing rises, demand for loanable funds shifts right, and the equilibrium real interest rate rises."
+        "text": "Government borrowing rises, demand for loanable funds shifts right, and the equilibrium real interest rate rises"
       },
       {
         "label": "D",
-        "text": "Government borrowing rises, demand remains fixed, and quantity demanded falls before equilibrium changes."
+        "text": "Government borrowing rises, demand remains fixed, and quantity demanded falls before equilibrium changes"
       },
       {
         "label": "E",
-        "text": "Government borrowing falls, supply of loanable funds shifts left, and the equilibrium real interest rate rises."
+        "text": "Government borrowing falls, supply of loanable funds shifts left, and the equilibrium real interest rate rises"
       }
     ],
     "answer": "C",
@@ -1158,23 +1712,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Government borrowing rises, demand for loanable funds shifts right, and the equilibrium real interest rate rises."
+        "text": "Government borrowing rises, demand for loanable funds shifts right, and the equilibrium real interest rate rises"
       },
       {
         "label": "B",
-        "text": "Government borrowing falls, supply of loanable funds shifts left, and the equilibrium real interest rate rises."
+        "text": "Government borrowing falls, supply of loanable funds shifts left, and the equilibrium real interest rate rises"
       },
       {
         "label": "C",
-        "text": "Government borrowing falls, demand for loanable funds shifts left, and the equilibrium real interest rate falls."
+        "text": "Government borrowing falls, demand for loanable funds shifts left, and the equilibrium real interest rate falls"
       },
       {
         "label": "D",
-        "text": "Government borrowing falls, demand remains fixed, and quantity supplied rises before equilibrium changes."
+        "text": "Government borrowing falls, demand remains fixed, and quantity supplied rises before equilibrium changes"
       },
       {
         "label": "E",
-        "text": "Government borrowing rises, supply of loanable funds shifts right, and the equilibrium real interest rate falls."
+        "text": "Government borrowing rises, supply of loanable funds shifts right, and the equilibrium real interest rate falls"
       }
     ],
     "answer": "C",
@@ -1254,23 +1808,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Investment is greater than national savings."
+        "text": "Investment is greater than national savings"
       },
       {
         "label": "B",
-        "text": "Investment equals national savings."
+        "text": "Investment equals national savings"
       },
       {
         "label": "C",
-        "text": "Public savings must be negative."
+        "text": "Public savings must be negative"
       },
       {
         "label": "D",
-        "text": "Private savings must be smaller than public savings."
+        "text": "Private savings must be smaller than public savings"
       },
       {
         "label": "E",
-        "text": "Investment is less than national savings."
+        "text": "Investment is less than national savings"
       }
     ],
     "answer": "E",
@@ -1286,23 +1840,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Closed-economy national savings includes net capital inflow, while open-economy investment excludes it."
+        "text": "Closed-economy national savings includes net capital inflow, while open-economy investment excludes it"
       },
       {
         "label": "B",
-        "text": "Closed-economy national savings is public plus private savings, while open-economy investment also reflects net capital inflow."
+        "text": "Closed-economy national savings is public plus private savings, while open-economy investment also reflects net capital inflow"
       },
       {
         "label": "C",
-        "text": "Closed-economy national savings equals private savings only, while open-economy investment equals public savings only."
+        "text": "Closed-economy national savings equals private savings only, while open-economy investment equals public savings only"
       },
       {
         "label": "D",
-        "text": "Closed-economy national savings is investment plus net capital inflow, while open-economy investment is national savings minus private savings."
+        "text": "Closed-economy national savings is investment plus net capital inflow, while open-economy investment is national savings minus private savings"
       },
       {
         "label": "E",
-        "text": "Closed and open economies use the same identity because international borrowing and lending never affect investment financing."
+        "text": "Closed and open economies use the same identity because international borrowing and lending never affect investment financing"
       }
     ],
     "answer": "B",
@@ -1341,7 +1895,64 @@
     "explanation": "At 8 percent, the graph shows quantity supplied of $900 billion and quantity demanded of $700 billion. The surplus is $900 billion - $700 billion = $200 billion.",
     "reference": "MKT-4.C | MKT-4.D.1 | Skill 4.C",
     "graphDescription": "Loanable funds market with real interest rate on the vertical axis and quantity of loanable funds in billions of dollars on the horizontal axis. DLF slopes downward and SLF slopes upward. At 8 percent, DLF intersects at $700 billion and SLF at $900 billion. The curves intersect at a lower equilibrium real interest rate.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Loanable funds (billions)",
+        "yLabel": "Real interest rate (%)",
+        "xMax": 1200,
+        "yMax": 12,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 349.99999999999994,
+                "y": 10.8
+              },
+              {
+                "x": 1080.0,
+                "y": 4.96
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 84.00000000000001,
+                "y": 1.4719999999999995
+              },
+              {
+                "x": 1080.0,
+                "y": 9.44
+              }
+            ]
+          }
+        ],
+        "points": [],
+        "guides": [
+          {
+            "id": "d",
+            "x": 700,
+            "y": 8,
+            "xLabel": "700",
+            "yLabel": "8"
+          },
+          {
+            "id": "s",
+            "x": 900,
+            "y": 8,
+            "xLabel": "900"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 43,
@@ -1373,7 +1984,64 @@
     "explanation": "At 3 percent, quantity demanded is $800 billion and quantity supplied is $620 billion. The shortage is $800 billion - $620 billion = $180 billion.",
     "reference": "MKT-4.C | MKT-4.D.1 | Skill 4.C",
     "graphDescription": "Loanable funds market with real interest rate on the vertical axis and quantity of loanable funds in billions of dollars on the horizontal axis. DLF slopes downward and SLF slopes upward. At 3 percent, SLF intersects at $620 billion and DLF at $800 billion. The curves intersect at a higher equilibrium real interest rate.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Loanable funds (billions)",
+        "yLabel": "Real interest rate (%)",
+        "xMax": 1200,
+        "yMax": 12,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 84.00000000000001,
+                "y": 8.728
+              },
+              {
+                "x": 1055.0,
+                "y": 0.96
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 365.0,
+                "y": 0.96
+              },
+              {
+                "x": 1080.0,
+                "y": 6.68
+              }
+            ]
+          }
+        ],
+        "points": [],
+        "guides": [
+          {
+            "id": "d",
+            "x": 800,
+            "y": 3,
+            "xLabel": "800",
+            "yLabel": "3"
+          },
+          {
+            "id": "s",
+            "x": 620,
+            "y": 3,
+            "xLabel": "620"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 44,
@@ -1542,23 +2210,23 @@
     "options": [
       {
         "label": "A",
-        "text": "A higher real interest rate causes a decrease in the quantity of loanable funds supplied at the stated real interest rate in the loanable funds market."
+        "text": "A higher real interest rate causes a decrease in the quantity of loanable funds supplied at the stated real interest rate in the loanable funds market"
       },
       {
         "label": "B",
-        "text": "A lower real interest rate causes an increase in the quantity of loanable funds supplied."
+        "text": "A lower real interest rate causes an increase in the quantity of loanable funds supplied"
       },
       {
         "label": "C",
-        "text": "The supply curve shifts right because the tax credit directly changes saving behavior."
+        "text": "The supply curve shifts right because the tax credit directly changes saving behavior"
       },
       {
         "label": "D",
-        "text": "The supply curve shifts left because borrowers demand more funds."
+        "text": "The supply curve shifts left because borrowers demand more funds"
       },
       {
         "label": "E",
-        "text": "A higher real interest rate causes an increase in the quantity of loanable funds supplied."
+        "text": "A higher real interest rate causes an increase in the quantity of loanable funds supplied"
       }
     ],
     "answer": "E",
@@ -1574,23 +2242,23 @@
     "options": [
       {
         "label": "A",
-        "text": "A lower real interest rate causes a decrease in the quantity of loanable funds demanded."
+        "text": "A lower real interest rate causes a decrease in the quantity of loanable funds demanded"
       },
       {
         "label": "B",
-        "text": "A higher real interest rate causes an increase in the quantity of loanable funds demanded."
+        "text": "A higher real interest rate causes an increase in the quantity of loanable funds demanded"
       },
       {
         "label": "C",
-        "text": "The demand curve shifts right because savers provide more funds."
+        "text": "The demand curve shifts right because savers provide more funds"
       },
       {
         "label": "D",
-        "text": "A lower real interest rate causes an increase in the quantity of loanable funds demanded."
+        "text": "A lower real interest rate causes an increase in the quantity of loanable funds demanded"
       },
       {
         "label": "E",
-        "text": "The demand curve shifts left because the equilibrium quantity increases."
+        "text": "The demand curve shifts left because the equilibrium quantity increases"
       }
     ],
     "answer": "D",
@@ -1606,23 +2274,23 @@
     "options": [
       {
         "label": "A",
-        "text": "It decreases by $80 billion."
+        "text": "It decreases by $80 billion"
       },
       {
         "label": "B",
-        "text": "It increases by $20 billion."
+        "text": "It increases by $20 billion"
       },
       {
         "label": "C",
-        "text": "It decreases by $20 billion."
+        "text": "It decreases by $20 billion"
       },
       {
         "label": "D",
-        "text": "It increases by $80 billion."
+        "text": "It increases by $80 billion"
       },
       {
         "label": "E",
-        "text": "It remains unchanged."
+        "text": "It remains unchanged"
       }
     ],
     "answer": "B",
@@ -1638,23 +2306,23 @@
     "options": [
       {
         "label": "A",
-        "text": "It decreases by $95 billion."
+        "text": "It decreases by $95 billion"
       },
       {
         "label": "B",
-        "text": "It increases by $95 billion."
+        "text": "It increases by $95 billion"
       },
       {
         "label": "C",
-        "text": "It increases by $45 billion."
+        "text": "It increases by $45 billion"
       },
       {
         "label": "D",
-        "text": "It decreases by $45 billion."
+        "text": "It decreases by $45 billion"
       },
       {
         "label": "E",
-        "text": "It remains unchanged."
+        "text": "It remains unchanged"
       }
     ],
     "answer": "C",
@@ -1670,23 +2338,23 @@
     "options": [
       {
         "label": "A",
-        "text": "It remains unchanged."
+        "text": "It remains unchanged"
       },
       {
         "label": "B",
-        "text": "It rises by $80 billion."
+        "text": "It rises by $80 billion"
       },
       {
         "label": "C",
-        "text": "It falls by $80 billion."
+        "text": "It falls by $80 billion"
       },
       {
         "label": "D",
-        "text": "It rises by $40 billion."
+        "text": "It rises by $40 billion"
       },
       {
         "label": "E",
-        "text": "It falls by $40 billion."
+        "text": "It falls by $40 billion"
       }
     ],
     "answer": "A",
@@ -1702,23 +2370,23 @@
     "options": [
       {
         "label": "A",
-        "text": "It decreases by $60 billion."
+        "text": "It decreases by $60 billion"
       },
       {
         "label": "B",
-        "text": "It increases by twice the change in net capital inflow."
+        "text": "It increases by twice the change in net capital inflow"
       },
       {
         "label": "C",
-        "text": "It remains unchanged because national savings is unchanged."
+        "text": "It remains unchanged because national savings is unchanged"
       },
       {
         "label": "D",
-        "text": "It decreases until it equals national savings."
+        "text": "It decreases until it equals national savings"
       },
       {
         "label": "E",
-        "text": "It increases by $60 billion."
+        "text": "It increases by $60 billion"
       }
     ],
     "answer": "E",
@@ -1734,23 +2402,23 @@
     "options": [
       {
         "label": "A",
-        "text": "It decreases by $35 billion."
+        "text": "It decreases by $35 billion"
       },
       {
         "label": "B",
-        "text": "It remains unchanged."
+        "text": "It remains unchanged"
       },
       {
         "label": "C",
-        "text": "It increases by $35 billion."
+        "text": "It increases by $35 billion"
       },
       {
         "label": "D",
-        "text": "It increases by $70 billion."
+        "text": "It increases by $70 billion"
       },
       {
         "label": "E",
-        "text": "It decreases by $70 billion."
+        "text": "It decreases by $70 billion"
       }
     ],
     "answer": "C",
@@ -1766,23 +2434,23 @@
     "options": [
       {
         "label": "A",
-        "text": "It increases by $10 billion."
+        "text": "It increases by $10 billion"
       },
       {
         "label": "B",
-        "text": "It decreases by $50 billion."
+        "text": "It decreases by $50 billion"
       },
       {
         "label": "C",
-        "text": "It decreases by $10 billion."
+        "text": "It decreases by $10 billion"
       },
       {
         "label": "D",
-        "text": "It increases by $50 billion."
+        "text": "It increases by $50 billion"
       },
       {
         "label": "E",
-        "text": "It remains unchanged because private savings is unchanged."
+        "text": "It remains unchanged because private savings is unchanged"
       }
     ],
     "answer": "D",
@@ -1798,30 +2466,116 @@
     "options": [
       {
         "label": "A",
-        "text": "The real interest rate is lower and the quantity of loanable funds is greater."
+        "text": "The real interest rate is lower and the quantity of loanable funds is greater"
       },
       {
         "label": "B",
-        "text": "The real interest rate is higher and the quantity of loanable funds is smaller."
+        "text": "The real interest rate is higher and the quantity of loanable funds is smaller"
       },
       {
         "label": "C",
-        "text": "The real interest rate is higher and the quantity of loanable funds is greater."
+        "text": "The real interest rate is higher and the quantity of loanable funds is greater"
       },
       {
         "label": "D",
-        "text": "The real interest rate and quantity are both lower."
+        "text": "The real interest rate and quantity are both lower"
       },
       {
         "label": "E",
-        "text": "The real interest rate is unchanged because supply did not shift."
+        "text": "The real interest rate is unchanged because supply did not shift"
       }
     ],
     "answer": "C",
     "explanation": "Greater government borrowing shifts demand for loanable funds to the right. The new intersection with the unchanged supply curve has both a higher real interest rate and a larger equilibrium quantity.",
     "reference": "MKT-4.E | MKT-4.E.1 | Skill 4.C",
     "graphDescription": "Loanable funds market with real interest rate on the vertical axis and quantity of loanable funds on the horizontal axis. Supply SLF slopes upward. Demand shifts right from D1 to D2 because government borrowing increases. E1 is the initial equilibrium and E2 is above and to the right of E1.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of loanable funds",
+        "yLabel": "Real interest rate",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D₁",
+            "label": "D₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 10.0
+              }
+            ]
+          },
+          {
+            "id": "S₁",
+            "label": "S₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 8.0,
+                "y": 8.0
+              },
+              {
+                "x": 90.0,
+                "y": 90.0
+              }
+            ]
+          },
+          {
+            "id": "D₂",
+            "label": "D₂",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 30.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 30.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E₁",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "E₂",
+            "label": "E₂",
+            "x": 60.0,
+            "y": 60.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q₁",
+            "yLabel": "r₁"
+          },
+          {
+            "id": "E₂",
+            "x": 60.0,
+            "y": 60.0,
+            "xLabel": "Q₂",
+            "yLabel": "r₂"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 58,
@@ -1853,7 +2607,100 @@
     "explanation": "At the original rate, the rightward supply shift increases quantity supplied while demand is unchanged. Quantity supplied therefore exceeds quantity demanded, creating a surplus that puts downward pressure on the real interest rate.",
     "reference": "MKT-4.D | MKT-4.E.2 | Skill 4.C",
     "graphDescription": "Loanable funds market with real interest rate on the vertical axis and quantity of loanable funds on the horizontal axis. Demand DLF slopes downward. Supply shifts right from S1 to S2. Initial equilibrium E1 is at DLF and S1 with real interest rate r1. At r1 after the shift, S2 shows a quantity supplied to the right of the quantity demanded on DLF.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of loanable funds",
+        "yLabel": "Real interest rate",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D₁",
+            "label": "D₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 10.0
+              }
+            ]
+          },
+          {
+            "id": "S₁",
+            "label": "S₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 8.0,
+                "y": 8.0
+              },
+              {
+                "x": 90.0,
+                "y": 90.0
+              }
+            ]
+          },
+          {
+            "id": "S₂",
+            "label": "S₂",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 28.0,
+                "y": 8.0
+              },
+              {
+                "x": 90.0,
+                "y": 70.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E₁",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "E₂",
+            "label": "E₂",
+            "x": 60.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q₁",
+            "yLabel": "r₁"
+          },
+          {
+            "id": "E₂",
+            "x": 60.0,
+            "y": 40.0,
+            "xLabel": "Q₂",
+            "yLabel": "r₂"
+          },
+          {
+            "id": "old-rate",
+            "x": 70,
+            "y": 50,
+            "xLabel": "Qs₂",
+            "yLabel": "r₁"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 59,
@@ -1862,23 +2709,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The equilibrium real interest rate increases."
+        "text": "The equilibrium real interest rate increases"
       },
       {
         "label": "B",
-        "text": "The equilibrium real interest rate decreases."
+        "text": "The equilibrium real interest rate decreases"
       },
       {
         "label": "C",
-        "text": "The equilibrium quantity of loanable funds decreases."
+        "text": "The equilibrium quantity of loanable funds decreases"
       },
       {
         "label": "D",
-        "text": "The equilibrium real interest rate and quantity both remain unchanged."
+        "text": "The equilibrium real interest rate and quantity both remain unchanged"
       },
       {
         "label": "E",
-        "text": "The equilibrium quantity of loanable funds increases."
+        "text": "The equilibrium quantity of loanable funds increases"
       }
     ],
     "answer": "E",
@@ -1894,23 +2741,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The equilibrium real interest rate decreases."
+        "text": "The equilibrium real interest rate decreases"
       },
       {
         "label": "B",
-        "text": "The equilibrium quantity of loanable funds increases."
+        "text": "The equilibrium quantity of loanable funds increases"
       },
       {
         "label": "C",
-        "text": "The equilibrium quantity of loanable funds decreases."
+        "text": "The equilibrium quantity of loanable funds decreases"
       },
       {
         "label": "D",
-        "text": "The equilibrium real interest rate increases."
+        "text": "The equilibrium real interest rate increases"
       },
       {
         "label": "E",
-        "text": "The equilibrium real interest rate remains unchanged."
+        "text": "The equilibrium real interest rate remains unchanged"
       }
     ],
     "answer": "D",
@@ -1926,23 +2773,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The equilibrium real interest rate decreases."
+        "text": "The equilibrium real interest rate decreases"
       },
       {
         "label": "B",
-        "text": "The equilibrium real interest rate increases."
+        "text": "The equilibrium real interest rate increases"
       },
       {
         "label": "C",
-        "text": "The equilibrium quantity of loanable funds increases."
+        "text": "The equilibrium quantity of loanable funds increases"
       },
       {
         "label": "D",
-        "text": "The equilibrium quantity of loanable funds decreases."
+        "text": "The equilibrium quantity of loanable funds decreases"
       },
       {
         "label": "E",
-        "text": "The equilibrium real interest rate remains unchanged."
+        "text": "The equilibrium real interest rate remains unchanged"
       }
     ],
     "answer": "A",
@@ -1958,23 +2805,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The equilibrium real interest rate increases."
+        "text": "The equilibrium real interest rate increases"
       },
       {
         "label": "B",
-        "text": "The equilibrium quantity of loanable funds decreases."
+        "text": "The equilibrium quantity of loanable funds decreases"
       },
       {
         "label": "C",
-        "text": "The equilibrium real interest rate decreases."
+        "text": "The equilibrium real interest rate decreases"
       },
       {
         "label": "D",
-        "text": "The equilibrium quantity of loanable funds increases."
+        "text": "The equilibrium quantity of loanable funds increases"
       },
       {
         "label": "E",
-        "text": "The equilibrium real interest rate remains unchanged."
+        "text": "The equilibrium real interest rate remains unchanged"
       }
     ],
     "answer": "B",
@@ -1990,23 +2837,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Quantity demanded falls and quantity supplied rises."
+        "text": "Quantity demanded falls and quantity supplied rises"
       },
       {
         "label": "B",
-        "text": "Both quantity demanded and quantity supplied rise."
+        "text": "Both quantity demanded and quantity supplied rise"
       },
       {
         "label": "C",
-        "text": "Both quantity demanded and quantity supplied fall."
+        "text": "Both quantity demanded and quantity supplied fall"
       },
       {
         "label": "D",
-        "text": "Quantity demanded is unchanged while quantity supplied falls."
+        "text": "Quantity demanded is unchanged while quantity supplied falls"
       },
       {
         "label": "E",
-        "text": "Quantity demanded rises and quantity supplied falls."
+        "text": "Quantity demanded rises and quantity supplied falls"
       }
     ],
     "answer": "E",
@@ -2022,23 +2869,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Quantity demanded falls and quantity supplied rises."
+        "text": "Quantity demanded falls and quantity supplied rises"
       },
       {
         "label": "B",
-        "text": "Quantity demanded rises and quantity supplied falls."
+        "text": "Quantity demanded rises and quantity supplied falls"
       },
       {
         "label": "C",
-        "text": "Both quantity demanded and quantity supplied rise."
+        "text": "Both quantity demanded and quantity supplied rise"
       },
       {
         "label": "D",
-        "text": "Both quantity demanded and quantity supplied fall."
+        "text": "Both quantity demanded and quantity supplied fall"
       },
       {
         "label": "E",
-        "text": "Quantity supplied is unchanged while quantity demanded falls."
+        "text": "Quantity supplied is unchanged while quantity demanded falls"
       }
     ],
     "answer": "A",
@@ -2054,23 +2901,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Quantity demanded of loanable funds is greater than quantity supplied before any further market adjustment changes the real interest rate."
+        "text": "Quantity demanded of loanable funds is greater than quantity supplied before any further market adjustment changes the real interest rate"
       },
       {
         "label": "B",
-        "text": "Quantity supplied of loanable funds is greater than quantity demanded."
+        "text": "Quantity supplied of loanable funds is greater than quantity demanded"
       },
       {
         "label": "C",
-        "text": "Quantity demanded and quantity supplied are equal."
+        "text": "Quantity demanded and quantity supplied are equal"
       },
       {
         "label": "D",
-        "text": "Demand for loanable funds must have shifted right."
+        "text": "Demand for loanable funds must have shifted right"
       },
       {
         "label": "E",
-        "text": "Supply of loanable funds must have shifted left."
+        "text": "Supply of loanable funds must have shifted left"
       }
     ],
     "answer": "B",
@@ -2182,30 +3029,131 @@
     "options": [
       {
         "label": "A",
-        "text": "The equilibrium real interest rate falls while the equilibrium quantity is unchanged before any further market adjustment changes the real interest rate."
+        "text": "The equilibrium real interest rate falls while the equilibrium quantity is unchanged before any further market adjustment changes the real interest rate"
       },
       {
         "label": "B",
-        "text": "The equilibrium real interest rate is unchanged while the equilibrium quantity rises."
+        "text": "The equilibrium real interest rate is unchanged while the equilibrium quantity rises"
       },
       {
         "label": "C",
-        "text": "Both the equilibrium real interest rate and quantity rise."
+        "text": "Both the equilibrium real interest rate and quantity rise"
       },
       {
         "label": "D",
-        "text": "Both the equilibrium real interest rate and quantity fall."
+        "text": "Both the equilibrium real interest rate and quantity fall"
       },
       {
         "label": "E",
-        "text": "The equilibrium real interest rate rises while the equilibrium quantity is unchanged."
+        "text": "The equilibrium real interest rate rises while the equilibrium quantity is unchanged"
       }
     ],
     "answer": "E",
     "explanation": "The graph explicitly places E2 above E1 at the same horizontal quantity. A demand increase and supply decrease both raise the real interest rate, and in this particular graph their quantity effects offset.",
     "reference": "MKT-4.E | MKT-4.E.2 | Skill 4.C",
     "graphDescription": "Loanable funds market with real interest rate on the vertical axis and quantity of loanable funds on the horizontal axis. Initial curves D1 and S1 intersect at E1. Demand shifts right to D2 and supply shifts left to S2. New equilibrium E2 is drawn vertically above E1 at the same quantity Q1 but at a higher real interest rate r2.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of loanable funds",
+        "yLabel": "Real interest rate",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D₁",
+            "label": "D₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 10.0
+              }
+            ]
+          },
+          {
+            "id": "S₁",
+            "label": "S₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 8.0,
+                "y": 8.0
+              },
+              {
+                "x": 90.0,
+                "y": 90.0
+              }
+            ]
+          },
+          {
+            "id": "D₂",
+            "label": "D₂",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 30.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 30.0
+              }
+            ]
+          },
+          {
+            "id": "S₂",
+            "label": "S₂",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 7.000000000000001,
+                "y": 27.0
+              },
+              {
+                "x": 70.0,
+                "y": 90.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E₁",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "E₂",
+            "label": "E₂",
+            "x": 50.0,
+            "y": 70.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q₁",
+            "yLabel": "r₁"
+          },
+          {
+            "id": "E₂",
+            "x": 50.0,
+            "y": 70.0,
+            "xLabel": "Q₂",
+            "yLabel": "r₂"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 70,
@@ -2214,23 +3162,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The lower real interest rate causes the quantity of loanable funds supplied to increase."
+        "text": "The lower real interest rate causes the quantity of loanable funds supplied to increase"
       },
       {
         "label": "B",
-        "text": "The higher real interest rate causes the quantity of loanable funds supplied to increase."
+        "text": "The higher real interest rate causes the quantity of loanable funds supplied to increase"
       },
       {
         "label": "C",
-        "text": "The supply curve shifts right because reduced borrowing increases saving behavior."
+        "text": "The supply curve shifts right because reduced borrowing increases saving behavior"
       },
       {
         "label": "D",
-        "text": "The lower real interest rate causes the quantity of loanable funds supplied to decrease."
+        "text": "The lower real interest rate causes the quantity of loanable funds supplied to decrease"
       },
       {
         "label": "E",
-        "text": "The supply curve shifts left because the equilibrium quantity of funds decreases."
+        "text": "The supply curve shifts left because the equilibrium quantity of funds decreases"
       }
     ],
     "answer": "D",
@@ -2246,23 +3194,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The equilibrium real interest rate rises, while the change in equilibrium quantity is indeterminate while the other loanable-funds curve remains unchanged."
+        "text": "The equilibrium real interest rate rises, while the change in equilibrium quantity is indeterminate while the other loanable-funds curve remains unchanged"
       },
       {
         "label": "B",
-        "text": "The equilibrium quantity rises, while the change in the equilibrium real interest rate is indeterminate."
+        "text": "The equilibrium quantity rises, while the change in the equilibrium real interest rate is indeterminate"
       },
       {
         "label": "C",
-        "text": "The equilibrium real interest rate falls, while the change in equilibrium quantity is indeterminate."
+        "text": "The equilibrium real interest rate falls, while the change in equilibrium quantity is indeterminate"
       },
       {
         "label": "D",
-        "text": "Both the equilibrium real interest rate and quantity necessarily rise."
+        "text": "Both the equilibrium real interest rate and quantity necessarily rise"
       },
       {
         "label": "E",
-        "text": "The equilibrium quantity falls, while the real interest rate is indeterminate."
+        "text": "The equilibrium quantity falls, while the real interest rate is indeterminate"
       }
     ],
     "answer": "B",
@@ -2278,23 +3226,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The equilibrium quantity falls, while the change in the equilibrium real interest rate is indeterminate."
+        "text": "The equilibrium quantity falls, while the change in the equilibrium real interest rate is indeterminate"
       },
       {
         "label": "B",
-        "text": "The equilibrium real interest rate rises, while the change in equilibrium quantity is indeterminate at the stated real interest rate in the loanable funds market."
+        "text": "The equilibrium real interest rate rises, while the change in equilibrium quantity is indeterminate at the stated real interest rate in the loanable funds market"
       },
       {
         "label": "C",
-        "text": "The equilibrium real interest rate falls, while the change in equilibrium quantity is indeterminate."
+        "text": "The equilibrium real interest rate falls, while the change in equilibrium quantity is indeterminate"
       },
       {
         "label": "D",
-        "text": "Both the equilibrium real interest rate and quantity necessarily fall."
+        "text": "Both the equilibrium real interest rate and quantity necessarily fall"
       },
       {
         "label": "E",
-        "text": "The equilibrium quantity rises, while the real interest rate is indeterminate."
+        "text": "The equilibrium quantity rises, while the real interest rate is indeterminate"
       }
     ],
     "answer": "A",
@@ -2310,23 +3258,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The equilibrium real interest rate falls, while the change in equilibrium quantity is indeterminate before any further market adjustment changes the real interest rate."
+        "text": "The equilibrium real interest rate falls, while the change in equilibrium quantity is indeterminate before any further market adjustment changes the real interest rate"
       },
       {
         "label": "B",
-        "text": "The equilibrium quantity rises, while the change in the real interest rate is indeterminate."
+        "text": "The equilibrium quantity rises, while the change in the real interest rate is indeterminate"
       },
       {
         "label": "C",
-        "text": "The equilibrium quantity falls, while the change in the real interest rate is indeterminate."
+        "text": "The equilibrium quantity falls, while the change in the real interest rate is indeterminate"
       },
       {
         "label": "D",
-        "text": "Both the equilibrium real interest rate and quantity necessarily rise."
+        "text": "Both the equilibrium real interest rate and quantity necessarily rise"
       },
       {
         "label": "E",
-        "text": "The equilibrium real interest rate rises, while the change in equilibrium quantity is indeterminate."
+        "text": "The equilibrium real interest rate rises, while the change in equilibrium quantity is indeterminate"
       }
     ],
     "answer": "E",
@@ -2342,23 +3290,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The equilibrium real interest rate rises, while the change in equilibrium quantity is indeterminate for the same underlying saving and borrowing conditions."
+        "text": "The equilibrium real interest rate rises, while the change in equilibrium quantity is indeterminate for the same underlying saving and borrowing conditions"
       },
       {
         "label": "B",
-        "text": "The equilibrium quantity rises, while the change in the real interest rate is indeterminate."
+        "text": "The equilibrium quantity rises, while the change in the real interest rate is indeterminate"
       },
       {
         "label": "C",
-        "text": "The equilibrium real interest rate falls, while the change in equilibrium quantity is indeterminate."
+        "text": "The equilibrium real interest rate falls, while the change in equilibrium quantity is indeterminate"
       },
       {
         "label": "D",
-        "text": "The equilibrium quantity falls, while the change in the real interest rate is indeterminate."
+        "text": "The equilibrium quantity falls, while the change in the real interest rate is indeterminate"
       },
       {
         "label": "E",
-        "text": "Both the equilibrium real interest rate and quantity necessarily fall."
+        "text": "Both the equilibrium real interest rate and quantity necessarily fall"
       }
     ],
     "answer": "C",
@@ -2374,30 +3322,131 @@
     "options": [
       {
         "label": "A",
-        "text": "The equilibrium quantity decreases while the equilibrium real interest rate remains unchanged while the other loanable-funds curve remains unchanged."
+        "text": "The equilibrium quantity decreases while the equilibrium real interest rate remains unchanged while the other loanable-funds curve remains unchanged"
       },
       {
         "label": "B",
-        "text": "The equilibrium real interest rate increases while the equilibrium quantity remains unchanged."
+        "text": "The equilibrium real interest rate increases while the equilibrium quantity remains unchanged"
       },
       {
         "label": "C",
-        "text": "The equilibrium quantity increases while the equilibrium real interest rate remains unchanged."
+        "text": "The equilibrium quantity increases while the equilibrium real interest rate remains unchanged"
       },
       {
         "label": "D",
-        "text": "Both the equilibrium real interest rate and quantity increase."
+        "text": "Both the equilibrium real interest rate and quantity increase"
       },
       {
         "label": "E",
-        "text": "Both the equilibrium real interest rate and quantity decrease."
+        "text": "Both the equilibrium real interest rate and quantity decrease"
       }
     ],
     "answer": "C",
     "explanation": "The graph shows E2 at a larger quantity but the same vertical interest-rate level as E1. In this case the opposing interest-rate effects of the demand and supply increases exactly offset.",
     "reference": "MKT-4.E | MKT-4.E.2 | Skill 4.C",
     "graphDescription": "Loanable funds market with real interest rate on the vertical axis and quantity of loanable funds on the horizontal axis. Initial D1 and S1 intersect at E1. Demand shifts right to D2 and supply shifts right to S2. E2 is drawn directly to the right of E1 at a larger quantity Q2 but the same real interest rate r1.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of loanable funds",
+        "yLabel": "Real interest rate",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D₁",
+            "label": "D₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 10.0
+              }
+            ]
+          },
+          {
+            "id": "S₁",
+            "label": "S₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 8.0,
+                "y": 8.0
+              },
+              {
+                "x": 90.0,
+                "y": 90.0
+              }
+            ]
+          },
+          {
+            "id": "D₂",
+            "label": "D₂",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 30.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 30.0
+              }
+            ]
+          },
+          {
+            "id": "S₂",
+            "label": "S₂",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 28.0,
+                "y": 8.0
+              },
+              {
+                "x": 90.0,
+                "y": 70.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E₁",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "E₂",
+            "label": "E₂",
+            "x": 70.0,
+            "y": 50.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q₁",
+            "yLabel": "r₁"
+          },
+          {
+            "id": "E₂",
+            "x": 70.0,
+            "y": 50.0,
+            "xLabel": "Q₂",
+            "yLabel": "r₂"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 76,
@@ -2406,30 +3455,131 @@
     "options": [
       {
         "label": "A",
-        "text": "The real interest rate increases while the equilibrium quantity remains unchanged."
+        "text": "The real interest rate increases while the equilibrium quantity remains unchanged"
       },
       {
         "label": "B",
-        "text": "The real interest rate decreases while the equilibrium quantity remains unchanged."
+        "text": "The real interest rate decreases while the equilibrium quantity remains unchanged"
       },
       {
         "label": "C",
-        "text": "The real interest rate remains unchanged while the equilibrium quantity increases."
+        "text": "The real interest rate remains unchanged while the equilibrium quantity increases"
       },
       {
         "label": "D",
-        "text": "Both the real interest rate and equilibrium quantity increase."
+        "text": "Both the real interest rate and equilibrium quantity increase"
       },
       {
         "label": "E",
-        "text": "Both the real interest rate and equilibrium quantity decrease."
+        "text": "Both the real interest rate and equilibrium quantity decrease"
       }
     ],
     "answer": "A",
     "explanation": "A demand increase and supply decrease both place upward pressure on the real interest rate. The graph shows their opposing quantity effects exactly offsetting, so equilibrium quantity is unchanged.",
     "reference": "MKT-4.E | MKT-4.E.2 | Skill 4.C",
     "graphDescription": "Loanable funds market with real interest rate on the vertical axis and quantity of loanable funds on the horizontal axis. D1 and S1 intersect at E1. D shifts right to D2 and S shifts left to S2. New equilibrium E2 is vertically above E1 at the same quantity Q1 and a higher real interest rate r2.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of loanable funds",
+        "yLabel": "Real interest rate",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D₁",
+            "label": "D₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 10.0
+              }
+            ]
+          },
+          {
+            "id": "S₁",
+            "label": "S₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 8.0,
+                "y": 8.0
+              },
+              {
+                "x": 90.0,
+                "y": 90.0
+              }
+            ]
+          },
+          {
+            "id": "D₂",
+            "label": "D₂",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 30.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 30.0
+              }
+            ]
+          },
+          {
+            "id": "S₂",
+            "label": "S₂",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 7.000000000000001,
+                "y": 27.0
+              },
+              {
+                "x": 70.0,
+                "y": 90.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E₁",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "E₂",
+            "label": "E₂",
+            "x": 50.0,
+            "y": 70.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q₁",
+            "yLabel": "r₁"
+          },
+          {
+            "id": "E₂",
+            "x": 50.0,
+            "y": 70.0,
+            "xLabel": "Q₂",
+            "yLabel": "r₂"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 77,
@@ -2438,30 +3588,131 @@
     "options": [
       {
         "label": "A",
-        "text": "The rightward supply shift exerts the stronger effect on the real interest rate, while both shifts lower equilibrium quantity."
+        "text": "The rightward supply shift exerts the stronger effect on the real interest rate, while both shifts lower equilibrium quantity"
       },
       {
         "label": "B",
-        "text": "The two shifts have equal effects on the real interest rate, so only equilibrium quantity changes."
+        "text": "The two shifts have equal effects on the real interest rate, so only equilibrium quantity changes"
       },
       {
         "label": "C",
-        "text": "The demand shift must be smaller because the real interest rate increased."
+        "text": "The demand shift must be smaller because the real interest rate increased"
       },
       {
         "label": "D",
-        "text": "The supply shift must have been leftward because the real interest rate increased."
+        "text": "The supply shift must have been leftward because the real interest rate increased"
       },
       {
         "label": "E",
-        "text": "The rightward demand shift exerts the stronger effect on the real interest rate, while both shifts raise equilibrium quantity."
+        "text": "The rightward demand shift exerts the stronger effect on the real interest rate, while both shifts raise equilibrium quantity"
       }
     ],
     "answer": "E",
     "explanation": "Both rightward shifts raise equilibrium quantity. Because the new equilibrium real interest rate is higher, the upward pressure from increased demand dominates the downward pressure from increased supply.",
     "reference": "MKT-4.E | MKT-4.E.2 | Skill 4.C",
     "graphDescription": "Loanable funds market with real interest rate on the vertical axis and quantity of loanable funds on the horizontal axis. Initial curves D1 and S1 intersect at E1. Both shift right to D2 and S2. New equilibrium E2 is drawn above and to the right of E1, showing both a higher real interest rate r2 and larger quantity Q2.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of loanable funds",
+        "yLabel": "Real interest rate",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D₁",
+            "label": "D₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 10.0
+              }
+            ]
+          },
+          {
+            "id": "S₁",
+            "label": "S₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 8.0,
+                "y": 8.0
+              },
+              {
+                "x": 90.0,
+                "y": 90.0
+              }
+            ]
+          },
+          {
+            "id": "D₂",
+            "label": "D₂",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 40.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 40.0
+              }
+            ]
+          },
+          {
+            "id": "S₂",
+            "label": "S₂",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 18.0,
+                "y": 8.0
+              },
+              {
+                "x": 90.0,
+                "y": 80.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E₁",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "E₂",
+            "label": "E₂",
+            "x": 70.0,
+            "y": 60.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q₁",
+            "yLabel": "r₁"
+          },
+          {
+            "id": "E₂",
+            "x": 70.0,
+            "y": 60.0,
+            "xLabel": "Q₂",
+            "yLabel": "r₂"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 78,
@@ -2470,30 +3721,131 @@
     "options": [
       {
         "label": "A",
-        "text": "The rightward demand shift exerts the stronger effect on the real interest rate, while both shifts lower equilibrium quantity."
+        "text": "The rightward demand shift exerts the stronger effect on the real interest rate, while both shifts lower equilibrium quantity"
       },
       {
         "label": "B",
-        "text": "The two shifts have equal effects on the real interest rate, so equilibrium quantity cannot change."
+        "text": "The two shifts have equal effects on the real interest rate, so equilibrium quantity cannot change"
       },
       {
         "label": "C",
-        "text": "The demand shift must have been leftward because the real interest rate fell."
+        "text": "The demand shift must have been leftward because the real interest rate fell"
       },
       {
         "label": "D",
-        "text": "The supply shift must be smaller because the equilibrium quantity increased."
+        "text": "The supply shift must be smaller because the equilibrium quantity increased"
       },
       {
         "label": "E",
-        "text": "The rightward supply shift exerts the stronger effect on the real interest rate, while both shifts raise equilibrium quantity."
+        "text": "The rightward supply shift exerts the stronger effect on the real interest rate, while both shifts raise equilibrium quantity"
       }
     ],
     "answer": "E",
     "explanation": "Both rightward shifts raise equilibrium quantity. Because the real interest rate falls, the downward pressure from the supply increase dominates the upward pressure from the demand increase.",
     "reference": "MKT-4.E | MKT-4.E.2 | Skill 4.C",
     "graphDescription": "Loanable funds market with real interest rate on the vertical axis and quantity of loanable funds on the horizontal axis. Initial D1 and S1 intersect at E1. Both shift right to D2 and S2. New equilibrium E2 is drawn below and to the right of E1, showing a lower real interest rate r2 and larger quantity Q2.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of loanable funds",
+        "yLabel": "Real interest rate",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D₁",
+            "label": "D₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 10.0
+              }
+            ]
+          },
+          {
+            "id": "S₁",
+            "label": "S₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 8.0,
+                "y": 8.0
+              },
+              {
+                "x": 90.0,
+                "y": 90.0
+              }
+            ]
+          },
+          {
+            "id": "D₂",
+            "label": "D₂",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 20.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 20.0
+              }
+            ]
+          },
+          {
+            "id": "S₂",
+            "label": "S₂",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 38.0,
+                "y": 8.0
+              },
+              {
+                "x": 90.0,
+                "y": 60.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E₁",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "E₂",
+            "label": "E₂",
+            "x": 70.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q₁",
+            "yLabel": "r₁"
+          },
+          {
+            "id": "E₂",
+            "x": 70.0,
+            "y": 40.0,
+            "xLabel": "Q₂",
+            "yLabel": "r₂"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 79,
@@ -2502,23 +3854,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The equilibrium quantity of loanable funds increases, but the change in the real interest rate is indeterminate."
+        "text": "The equilibrium quantity of loanable funds increases, but the change in the real interest rate is indeterminate"
       },
       {
         "label": "B",
-        "text": "The equilibrium real interest rate increases, but the quantity is indeterminate."
+        "text": "The equilibrium real interest rate increases, but the quantity is indeterminate"
       },
       {
         "label": "C",
-        "text": "The equilibrium real interest rate decreases, but the quantity is indeterminate."
+        "text": "The equilibrium real interest rate decreases, but the quantity is indeterminate"
       },
       {
         "label": "D",
-        "text": "The equilibrium quantity decreases, but the real interest rate is indeterminate."
+        "text": "The equilibrium quantity decreases, but the real interest rate is indeterminate"
       },
       {
         "label": "E",
-        "text": "Both the equilibrium real interest rate and quantity remain unchanged."
+        "text": "Both the equilibrium real interest rate and quantity remain unchanged"
       }
     ],
     "answer": "A",
@@ -2534,23 +3886,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The equilibrium real interest rate must rise, and quantity must decrease."
+        "text": "The equilibrium real interest rate must rise, and quantity must decrease"
       },
       {
         "label": "B",
-        "text": "The equilibrium quantity of loanable funds increases, but the real interest rate may rise, fall, or remain unchanged."
+        "text": "The equilibrium quantity of loanable funds increases, but the real interest rate may rise, fall, or remain unchanged"
       },
       {
         "label": "C",
-        "text": "The equilibrium real interest rate must fall, and quantity must increase."
+        "text": "The equilibrium real interest rate must fall, and quantity must increase"
       },
       {
         "label": "D",
-        "text": "The equilibrium quantity must decrease, while the real interest rate is indeterminate."
+        "text": "The equilibrium quantity must decrease, while the real interest rate is indeterminate"
       },
       {
         "label": "E",
-        "text": "The equilibrium real interest rate and quantity must both remain unchanged."
+        "text": "The equilibrium real interest rate and quantity must both remain unchanged"
       }
     ],
     "answer": "B",
@@ -2566,23 +3918,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The equilibrium real interest rate decreases, while the equilibrium quantity is indeterminate for the same underlying saving and borrowing conditions."
+        "text": "The equilibrium real interest rate decreases, while the equilibrium quantity is indeterminate for the same underlying saving and borrowing conditions"
       },
       {
         "label": "B",
-        "text": "The equilibrium quantity increases, while the real interest rate is indeterminate."
+        "text": "The equilibrium quantity increases, while the real interest rate is indeterminate"
       },
       {
         "label": "C",
-        "text": "The equilibrium quantity decreases, while the real interest rate is indeterminate."
+        "text": "The equilibrium quantity decreases, while the real interest rate is indeterminate"
       },
       {
         "label": "D",
-        "text": "The equilibrium real interest rate remains unchanged because the shifts offset exactly."
+        "text": "The equilibrium real interest rate remains unchanged because the shifts offset exactly"
       },
       {
         "label": "E",
-        "text": "The equilibrium real interest rate increases, while the equilibrium quantity is indeterminate."
+        "text": "The equilibrium real interest rate increases, while the equilibrium quantity is indeterminate"
       }
     ],
     "answer": "E",
@@ -2598,23 +3950,23 @@
     "options": [
       {
         "label": "A",
-        "text": "The equilibrium real interest rate increases, while the equilibrium quantity is indeterminate while the other loanable-funds curve remains unchanged."
+        "text": "The equilibrium real interest rate increases, while the equilibrium quantity is indeterminate while the other loanable-funds curve remains unchanged"
       },
       {
         "label": "B",
-        "text": "The equilibrium quantity increases, while the real interest rate is indeterminate."
+        "text": "The equilibrium quantity increases, while the real interest rate is indeterminate"
       },
       {
         "label": "C",
-        "text": "The equilibrium real interest rate decreases, while the equilibrium quantity is indeterminate."
+        "text": "The equilibrium real interest rate decreases, while the equilibrium quantity is indeterminate"
       },
       {
         "label": "D",
-        "text": "The equilibrium quantity decreases, while the real interest rate is indeterminate."
+        "text": "The equilibrium quantity decreases, while the real interest rate is indeterminate"
       },
       {
         "label": "E",
-        "text": "The equilibrium real interest rate remains unchanged because the shifts offset exactly."
+        "text": "The equilibrium real interest rate remains unchanged because the shifts offset exactly"
       }
     ],
     "answer": "C",
@@ -2758,30 +4110,123 @@
     "options": [
       {
         "label": "A",
-        "text": "The real interest rate falls, quantity demanded rises above Q3, and quantity supplied falls below Q1 until they are equal."
+        "text": "The real interest rate falls, quantity demanded rises above Q3, and quantity supplied falls below Q1 until they are equal"
       },
       {
         "label": "B",
-        "text": "The real interest rate rises, quantity demanded falls from Q3, and quantity supplied rises from Q1 until they are equal."
+        "text": "The real interest rate rises, quantity demanded falls from Q3, and quantity supplied rises from Q1 until they are equal"
       },
       {
         "label": "C",
-        "text": "The real interest rate rises, both quantities fall, and equilibrium is restored at a quantity below Q1."
+        "text": "The real interest rate rises, both quantities fall, and equilibrium is restored at a quantity below Q1"
       },
       {
         "label": "D",
-        "text": "The real interest rate remains at r1 because the supply curve did not shift, so the shortage persists."
+        "text": "The real interest rate remains at r1 because the supply curve did not shift, so the shortage persists"
       },
       {
         "label": "E",
-        "text": "The supply curve shifts right automatically until Q3 becomes the equilibrium quantity at r1."
+        "text": "The supply curve shifts right automatically until Q3 becomes the equilibrium quantity at r1"
       }
     ],
     "answer": "B",
     "explanation": "The demand shift creates a shortage at the old rate. A rising real interest rate moves borrowers up the new demand curve to a smaller quantity demanded and savers up the supply curve to a larger quantity supplied until the two quantities meet.",
     "reference": "MKT-4.D | MKT-4.E.2 | Skill 4.C",
     "graphDescription": "Loanable funds market with real interest rate on the vertical axis and quantity on the horizontal axis. Supply S slopes upward. Demand shifts right from D1 to D2. E1 is at r1 and Q1. At r1, D2 shows quantity demanded Q3 to the right of Q1. New equilibrium E2 lies above and to the right of E1 at r2 and Q2, with Q1 < Q2 < Q3.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of loanable funds",
+        "yLabel": "Real interest rate",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D₁",
+            "label": "D₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 10.0
+              }
+            ]
+          },
+          {
+            "id": "S₁",
+            "label": "S₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 8.0,
+                "y": 8.0
+              },
+              {
+                "x": 90.0,
+                "y": 90.0
+              }
+            ]
+          },
+          {
+            "id": "D₂",
+            "label": "D₂",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 30.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 30.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E₁",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "E₂",
+            "label": "E₂",
+            "x": 60.0,
+            "y": 60.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q₁",
+            "yLabel": "r₁"
+          },
+          {
+            "id": "E₂",
+            "x": 60.0,
+            "y": 60.0,
+            "xLabel": "Q₂",
+            "yLabel": "r₂"
+          },
+          {
+            "id": "old-rate",
+            "x": 70,
+            "y": 50,
+            "xLabel": "Q₃",
+            "yLabel": "r₁"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 88,
@@ -2790,30 +4235,123 @@
     "options": [
       {
         "label": "A",
-        "text": "The real interest rate falls, quantity demanded rises above Q1, and quantity supplied falls below Q0 until they are equal."
+        "text": "The real interest rate falls, quantity demanded rises above Q1, and quantity supplied falls below Q0 until they are equal"
       },
       {
         "label": "B",
-        "text": "The real interest rate rises, quantity demanded falls from Q1, and quantity supplied rises from Q0 until they are equal."
+        "text": "The real interest rate rises, quantity demanded falls from Q1, and quantity supplied rises from Q0 until they are equal"
       },
       {
         "label": "C",
-        "text": "The real interest rate rises, both quantities rise, and equilibrium is restored at a quantity above Q1."
+        "text": "The real interest rate rises, both quantities rise, and equilibrium is restored at a quantity above Q1"
       },
       {
         "label": "D",
-        "text": "The real interest rate remains at r1 because demand did not shift, so the shortage persists."
+        "text": "The real interest rate remains at r1 because demand did not shift, so the shortage persists"
       },
       {
         "label": "E",
-        "text": "The demand curve shifts left automatically until Q0 becomes the equilibrium quantity at r1."
+        "text": "The demand curve shifts left automatically until Q0 becomes the equilibrium quantity at r1"
       }
     ],
     "answer": "B",
     "explanation": "The supply decrease creates a shortage at the old rate. The real interest rate rises, reducing quantity demanded and increasing quantity supplied along the new supply curve until the quantities become equal.",
     "reference": "MKT-4.D | MKT-4.E.2 | Skill 4.C",
     "graphDescription": "Loanable funds market with real interest rate on the vertical axis and quantity on the horizontal axis. Demand D slopes downward. Supply shifts left from S1 to S2. E1 is at r1 and Q1. At r1, S2 shows quantity supplied Q0 to the left of Q1. New equilibrium E2 lies above and to the left of E1 at r2 and Q2, with Q0 < Q2 < Q1.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of loanable funds",
+        "yLabel": "Real interest rate",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D₁",
+            "label": "D₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 10.0
+              }
+            ]
+          },
+          {
+            "id": "S₁",
+            "label": "S₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 8.0,
+                "y": 8.0
+              },
+              {
+                "x": 90.0,
+                "y": 90.0
+              }
+            ]
+          },
+          {
+            "id": "S₂",
+            "label": "S₂",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 7.000000000000001,
+                "y": 27.0
+              },
+              {
+                "x": 70.0,
+                "y": 90.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E₁",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "E₂",
+            "label": "E₂",
+            "x": 40.0,
+            "y": 60.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q₁",
+            "yLabel": "r₁"
+          },
+          {
+            "id": "E₂",
+            "x": 40.0,
+            "y": 60.0,
+            "xLabel": "Q₂",
+            "yLabel": "r₂"
+          },
+          {
+            "id": "old-rate",
+            "x": 30,
+            "y": 50,
+            "xLabel": "Q₀",
+            "yLabel": "r₁"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 89,
@@ -2822,23 +4360,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Investment increases by $65 billion for the same underlying saving and borrowing conditions."
+        "text": "Investment increases by $65 billion for the same underlying saving and borrowing conditions"
       },
       {
         "label": "B",
-        "text": "Investment decreases by $35 billion."
+        "text": "Investment decreases by $35 billion"
       },
       {
         "label": "C",
-        "text": "Investment decreases by $65 billion."
+        "text": "Investment decreases by $65 billion"
       },
       {
         "label": "D",
-        "text": "Investment increases by $35 billion."
+        "text": "Investment increases by $35 billion"
       },
       {
         "label": "E",
-        "text": "Investment increases by $20 billion."
+        "text": "Investment increases by $20 billion"
       }
     ],
     "answer": "D",
@@ -2854,23 +4392,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Investment increases by $50 billion while the other loanable-funds curve remains unchanged."
+        "text": "Investment increases by $50 billion while the other loanable-funds curve remains unchanged"
       },
       {
         "label": "B",
-        "text": "Investment decreases by $10 billion."
+        "text": "Investment decreases by $10 billion"
       },
       {
         "label": "C",
-        "text": "Investment decreases by $30 billion."
+        "text": "Investment decreases by $30 billion"
       },
       {
         "label": "D",
-        "text": "Investment increases by $30 billion."
+        "text": "Investment increases by $30 billion"
       },
       {
         "label": "E",
-        "text": "Investment increases by $10 billion."
+        "text": "Investment increases by $10 billion"
       }
     ],
     "answer": "E",
@@ -2886,23 +4424,23 @@
     "options": [
       {
         "label": "A",
-        "text": "It decreases by $30 billion at the stated real interest rate in the loanable funds market."
+        "text": "It decreases by $30 billion at the stated real interest rate in the loanable funds market"
       },
       {
         "label": "B",
-        "text": "It increases by $50 billion."
+        "text": "It increases by $50 billion"
       },
       {
         "label": "C",
-        "text": "It decreases by $50 billion."
+        "text": "It decreases by $50 billion"
       },
       {
         "label": "D",
-        "text": "It increases by $30 billion."
+        "text": "It increases by $30 billion"
       },
       {
         "label": "E",
-        "text": "It remains unchanged."
+        "text": "It remains unchanged"
       }
     ],
     "answer": "D",
@@ -2918,23 +4456,23 @@
     "options": [
       {
         "label": "A",
-        "text": "It decreases by $10 billion before any further market adjustment changes the real interest rate."
+        "text": "It decreases by $10 billion before any further market adjustment changes the real interest rate"
       },
       {
         "label": "B",
-        "text": "It increases by $40 billion."
+        "text": "It increases by $40 billion"
       },
       {
         "label": "C",
-        "text": "It decreases by $40 billion."
+        "text": "It decreases by $40 billion"
       },
       {
         "label": "D",
-        "text": "It increases by $10 billion."
+        "text": "It increases by $10 billion"
       },
       {
         "label": "E",
-        "text": "It remains unchanged."
+        "text": "It remains unchanged"
       }
     ],
     "answer": "C",
@@ -2950,30 +4488,123 @@
     "options": [
       {
         "label": "A",
-        "text": "A $120 billion surplus emerges at r1, creating downward pressure on the real interest rate toward E2."
+        "text": "A $120 billion surplus emerges at r1, creating downward pressure on the real interest rate toward E2"
       },
       {
         "label": "B",
-        "text": "A $120 billion shortage emerges at r1, creating upward pressure on the real interest rate toward E2."
+        "text": "A $120 billion shortage emerges at r1, creating upward pressure on the real interest rate toward E2"
       },
       {
         "label": "C",
-        "text": "A $120 billion shortage emerges at r1, but the real interest rate must fall to restore equilibrium."
+        "text": "A $120 billion shortage emerges at r1, but the real interest rate must fall to restore equilibrium"
       },
       {
         "label": "D",
-        "text": "No imbalance emerges because supply did not shift and the original rate remains an equilibrium rate."
+        "text": "No imbalance emerges because supply did not shift and the original rate remains an equilibrium rate"
       },
       {
         "label": "E",
-        "text": "A $120 billion surplus emerges because higher borrowing reduces the quantity demanded of funds."
+        "text": "A $120 billion surplus emerges because higher borrowing reduces the quantity demanded of funds"
       }
     ],
     "answer": "B",
     "explanation": "The rightward demand shift raises quantity demanded at the old rate above quantity supplied, creating a shortage. Competition among borrowers pushes the real interest rate upward until the new intersection E2 is reached.",
     "reference": "MKT-4.D | MKT-4.E.1 | Skill 4.C",
     "graphDescription": "Loanable funds market with real interest rate on the vertical axis and quantity on the horizontal axis. Supply S slopes upward. Demand shifts right from D1 to D2 because government borrowing increases. E1 is the initial equilibrium at r1. At r1 after the shift, D2 shows quantity demanded $120 billion greater than the quantity supplied on S. E2 lies above and to the right of E1.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Loanable funds (billions)",
+        "yLabel": "Real interest rate",
+        "xMax": 1000,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D₁",
+            "label": "D₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 70.0,
+                "y": 84.4
+              },
+              {
+                "x": 900.0,
+                "y": 18.0
+              }
+            ]
+          },
+          {
+            "id": "S₁",
+            "label": "S₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 70.0,
+                "y": 15.600000000000001
+              },
+              {
+                "x": 900.0,
+                "y": 82.0
+              }
+            ]
+          },
+          {
+            "id": "D₂",
+            "label": "D₂",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 120.0,
+                "y": 90.0
+              },
+              {
+                "x": 900.0,
+                "y": 27.599999999999998
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E₁",
+            "x": 500,
+            "y": 50
+          },
+          {
+            "id": "E₂",
+            "label": "E₂",
+            "x": 560.0,
+            "y": 54.8
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 500,
+            "y": 50,
+            "xLabel": "Q₁",
+            "yLabel": "r₁"
+          },
+          {
+            "id": "E₂",
+            "x": 560.0,
+            "y": 54.8,
+            "xLabel": "Q₂",
+            "yLabel": "r₂"
+          },
+          {
+            "id": "probe",
+            "x": 620,
+            "y": 50,
+            "xLabel": "Q₁ + 120",
+            "yLabel": "r₁"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 94,
@@ -2982,30 +4613,123 @@
     "options": [
       {
         "label": "A",
-        "text": "A $150 billion shortage emerges at r1, creating upward pressure on the real interest rate toward E2 while the other loanable-funds curve remains unchanged."
+        "text": "A $150 billion shortage emerges at r1, creating upward pressure on the real interest rate toward E2 while the other loanable-funds curve remains unchanged"
       },
       {
         "label": "B",
-        "text": "A $150 billion surplus emerges at r1, but the real interest rate must rise to restore equilibrium."
+        "text": "A $150 billion surplus emerges at r1, but the real interest rate must rise to restore equilibrium"
       },
       {
         "label": "C",
-        "text": "No imbalance emerges because demand did not shift and the original rate remains an equilibrium rate."
+        "text": "No imbalance emerges because demand did not shift and the original rate remains an equilibrium rate"
       },
       {
         "label": "D",
-        "text": "A $150 billion surplus emerges at r1, creating downward pressure on the real interest rate toward E2."
+        "text": "A $150 billion surplus emerges at r1, creating downward pressure on the real interest rate toward E2"
       },
       {
         "label": "E",
-        "text": "A $150 billion shortage emerges because greater saving reduces the quantity supplied of funds."
+        "text": "A $150 billion shortage emerges because greater saving reduces the quantity supplied of funds"
       }
     ],
     "answer": "D",
     "explanation": "The rightward supply shift raises quantity supplied above quantity demanded at the old rate, creating a surplus. That surplus puts downward pressure on the real interest rate until the new equilibrium is reached.",
     "reference": "MKT-4.D | MKT-4.E.2 | Skill 4.C",
     "graphDescription": "Loanable funds market with real interest rate on the vertical axis and quantity on the horizontal axis. Demand D slopes downward. Supply shifts right from S1 to S2 because saving behavior increases. E1 is the initial equilibrium at r1. At r1 after the shift, S2 shows quantity supplied $150 billion greater than quantity demanded on D. E2 lies below and to the right of E1.",
-    "graphRequired": true
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Loanable funds (billions)",
+        "yLabel": "Real interest rate",
+        "xMax": 1000,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D₁",
+            "label": "D₁",
+            "style": "primary",
+            "points": [
+              {
+                "x": 70.0,
+                "y": 84.4
+              },
+              {
+                "x": 900.0,
+                "y": 18.0
+              }
+            ]
+          },
+          {
+            "id": "S₁",
+            "label": "S₁",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 70.0,
+                "y": 15.600000000000001
+              },
+              {
+                "x": 900.0,
+                "y": 82.0
+              }
+            ]
+          },
+          {
+            "id": "S₂",
+            "label": "S₂",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 125.0,
+                "y": 8.0
+              },
+              {
+                "x": 900.0,
+                "y": 70.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E₁",
+            "label": "E₁",
+            "x": 500,
+            "y": 50
+          },
+          {
+            "id": "E₂",
+            "label": "E₂",
+            "x": 575.0,
+            "y": 44.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "E₁",
+            "x": 500,
+            "y": 50,
+            "xLabel": "Q₁",
+            "yLabel": "r₁"
+          },
+          {
+            "id": "E₂",
+            "x": 575.0,
+            "y": 44.0,
+            "xLabel": "Q₂",
+            "yLabel": "r₂"
+          },
+          {
+            "id": "probe",
+            "x": 650,
+            "y": 50,
+            "xLabel": "Q₁ + 150",
+            "yLabel": "r₁"
+          }
+        ],
+        "caption": "Schematic; not to scale"
+      }
+    ]
   },
   {
     "id": 95,
@@ -3014,23 +4738,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Quantity demanded decreases and quantity supplied increases."
+        "text": "Quantity demanded decreases and quantity supplied increases"
       },
       {
         "label": "B",
-        "text": "Quantity demanded increases and quantity supplied decreases."
+        "text": "Quantity demanded increases and quantity supplied decreases"
       },
       {
         "label": "C",
-        "text": "Both quantity demanded and quantity supplied increase."
+        "text": "Both quantity demanded and quantity supplied increase"
       },
       {
         "label": "D",
-        "text": "Both quantity demanded and quantity supplied decrease."
+        "text": "Both quantity demanded and quantity supplied decrease"
       },
       {
         "label": "E",
-        "text": "Quantity demanded increases while quantity supplied remains fixed."
+        "text": "Quantity demanded increases while quantity supplied remains fixed"
       }
     ],
     "answer": "B",
@@ -3046,23 +4770,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Quantity demanded decreases and quantity supplied increases."
+        "text": "Quantity demanded decreases and quantity supplied increases"
       },
       {
         "label": "B",
-        "text": "Quantity demanded increases and quantity supplied decreases."
+        "text": "Quantity demanded increases and quantity supplied decreases"
       },
       {
         "label": "C",
-        "text": "Both quantity demanded and quantity supplied increase."
+        "text": "Both quantity demanded and quantity supplied increase"
       },
       {
         "label": "D",
-        "text": "Both quantity demanded and quantity supplied decrease."
+        "text": "Both quantity demanded and quantity supplied decrease"
       },
       {
         "label": "E",
-        "text": "Quantity supplied increases while quantity demanded remains fixed."
+        "text": "Quantity supplied increases while quantity demanded remains fixed"
       }
     ],
     "answer": "A",
@@ -3078,23 +4802,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Demand for loanable funds increases and the equilibrium real interest rate rises."
+        "text": "Demand for loanable funds increases and the equilibrium real interest rate rises"
       },
       {
         "label": "B",
-        "text": "Demand for loanable funds decreases and the equilibrium real interest rate falls."
+        "text": "Demand for loanable funds decreases and the equilibrium real interest rate falls"
       },
       {
         "label": "C",
-        "text": "Supply of loanable funds increases and the equilibrium real interest rate falls."
+        "text": "Supply of loanable funds increases and the equilibrium real interest rate falls"
       },
       {
         "label": "D",
-        "text": "Supply of loanable funds decreases and the equilibrium real interest rate falls."
+        "text": "Supply of loanable funds decreases and the equilibrium real interest rate falls"
       },
       {
         "label": "E",
-        "text": "Only the quantity demanded changes along the original demand curve, leaving equilibrium unchanged."
+        "text": "Only the quantity demanded changes along the original demand curve, leaving equilibrium unchanged"
       }
     ],
     "answer": "A",
@@ -3110,23 +4834,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Demand for loanable funds increases and the equilibrium real interest rate rises."
+        "text": "Demand for loanable funds increases and the equilibrium real interest rate rises"
       },
       {
         "label": "B",
-        "text": "Supply of loanable funds decreases and the equilibrium real interest rate rises."
+        "text": "Supply of loanable funds decreases and the equilibrium real interest rate rises"
       },
       {
         "label": "C",
-        "text": "Supply of loanable funds increases and the equilibrium real interest rate rises."
+        "text": "Supply of loanable funds increases and the equilibrium real interest rate rises"
       },
       {
         "label": "D",
-        "text": "Only the quantity supplied changes along the original supply curve, leaving equilibrium unchanged."
+        "text": "Only the quantity supplied changes along the original supply curve, leaving equilibrium unchanged"
       },
       {
         "label": "E",
-        "text": "Demand for loanable funds decreases and the equilibrium real interest rate falls."
+        "text": "Demand for loanable funds decreases and the equilibrium real interest rate falls"
       }
     ],
     "answer": "E",
@@ -3142,23 +4866,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Investment is $640 billion in both periods even though national savings increases."
+        "text": "Investment is $640 billion in both periods even though national savings increases"
       },
       {
         "label": "B",
-        "text": "Investment rises from $550 billion to $600 billion because public savings increases."
+        "text": "Investment rises from $550 billion to $600 billion because public savings increases"
       },
       {
         "label": "C",
-        "text": "Investment falls from $640 billion to $600 billion because net capital inflow decreases."
+        "text": "Investment falls from $640 billion to $600 billion because net capital inflow decreases"
       },
       {
         "label": "D",
-        "text": "Investment rises from $640 billion to $680 billion because national savings and capital inflow both increase."
+        "text": "Investment rises from $640 billion to $680 billion because national savings and capital inflow both increase"
       },
       {
         "label": "E",
-        "text": "Investment falls from $550 billion to $540 billion because private savings decreases."
+        "text": "Investment falls from $550 billion to $540 billion because private savings decreases"
       }
     ],
     "answer": "A",
@@ -3174,23 +4898,23 @@
     "options": [
       {
         "label": "A",
-        "text": "Investment rises from $450 billion to $500 billion because private savings increases by $20 billion."
+        "text": "Investment rises from $450 billion to $500 billion because private savings increases by $20 billion"
       },
       {
         "label": "B",
-        "text": "Investment falls from $500 billion to $450 billion because public savings becomes negative."
+        "text": "Investment falls from $500 billion to $450 billion because public savings becomes negative"
       },
       {
         "label": "C",
-        "text": "Investment rises from $450 billion to $490 billion because net capital inflow becomes less negative."
+        "text": "Investment rises from $450 billion to $490 billion because net capital inflow becomes less negative"
       },
       {
         "label": "D",
-        "text": "Investment remains $450 billion because the $40 billion decrease in national savings is exactly offset by a $40 billion increase in net capital inflow."
+        "text": "Investment remains $450 billion because the $40 billion decrease in national savings is exactly offset by a $40 billion increase in net capital inflow"
       },
       {
         "label": "E",
-        "text": "Investment falls from $450 billion to $410 billion because national savings decreases by $40 billion before any further market adjustment changes the real interest rate."
+        "text": "Investment falls from $450 billion to $410 billion because national savings decreases by $40 billion before any further market adjustment changes the real interest rate"
       }
     ],
     "answer": "D",

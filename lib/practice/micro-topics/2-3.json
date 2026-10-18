@@ -1,0 +1,4862 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "Which of the following best describes price elasticity of demand?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The responsiveness of price to a change in the quantity demanded"
+      },
+      {
+        "label": "B",
+        "text": "The absolute change in quantity demanded after a price change"
+      },
+      {
+        "label": "C",
+        "text": "The change in total expenditure caused by a fixed quantity change"
+      },
+      {
+        "label": "D",
+        "text": "The slope of a demand curve measured in dollars per unit"
+      },
+      {
+        "label": "E",
+        "text": "Quantity demanded’s responsiveness to own price"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Price elasticity of demand measures how strongly quantity demanded responds to a percentage change in the good's own price.",
+    "reference": "MKT-3.E | MKT-3.E.1 | MKT-3.E.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "Price elasticity of demand is calculated as",
+    "options": [
+      {
+        "label": "A",
+        "text": "Change in quantity demanded divided by the original market price"
+      },
+      {
+        "label": "B",
+        "text": "Change in price multiplied by the final quantity demanded"
+      },
+      {
+        "label": "C",
+        "text": "Percentage change in total revenue divided by percentage change in price"
+      },
+      {
+        "label": "D",
+        "text": "Percentage change in price divided by percentage change in quantity demanded"
+      },
+      {
+        "label": "E",
+        "text": "Percentage change in quantity demanded divided by percentage change in price"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Divide the percentage change in quantity demanded by the percentage change in price. The magnitude measures responsiveness regardless of the negative sign.",
+    "reference": "MKT-3.E | MKT-3.E.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "If the magnitude of price elasticity of demand is 1.6, demand over the stated price range is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unresponsive to price"
+      },
+      {
+        "label": "B",
+        "text": "Inelastic"
+      },
+      {
+        "label": "C",
+        "text": "Unit elastic"
+      },
+      {
+        "label": "D",
+        "text": "Perfectly inelastic"
+      },
+      {
+        "label": "E",
+        "text": "Elastic"
+      }
+    ],
+    "answer": "E",
+    "explanation": "An elasticity magnitude of 1.6 exceeds 1. Quantity demanded changes proportionally more than price, so demand is elastic.",
+    "reference": "MKT-3.E | MKT-3.E.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "If the magnitude of price elasticity of demand is 0.4, demand over the stated price range is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Inelastic"
+      },
+      {
+        "label": "B",
+        "text": "Elastic"
+      },
+      {
+        "label": "C",
+        "text": "Proportional in response"
+      },
+      {
+        "label": "D",
+        "text": "Perfectly elastic"
+      },
+      {
+        "label": "E",
+        "text": "Unit elastic"
+      }
+    ],
+    "answer": "A",
+    "explanation": "An elasticity magnitude of 0.4 is below 1. Quantity demanded changes proportionally less than price, so demand is inelastic.",
+    "reference": "MKT-3.E | MKT-3.E.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "Demand is unit elastic over a price range when",
+    "options": [
+      {
+        "label": "A",
+        "text": "Equal-magnitude percentage changes in price and quantity"
+      },
+      {
+        "label": "B",
+        "text": "Quantity demanded changes by a smaller percentage than price"
+      },
+      {
+        "label": "C",
+        "text": "Quantity demanded changes by a larger percentage than price"
+      },
+      {
+        "label": "D",
+        "text": "Price and quantity demanded change by equal absolute amounts"
+      },
+      {
+        "label": "E",
+        "text": "Price changes while quantity demanded remains completely unchanged"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Equal percentage changes in price and quantity give an elasticity magnitude of 1. This is unit elasticity.",
+    "reference": "MKT-3.E | MKT-3.E.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, which demand curve is more price elastic at price P?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both curves, because they pass through the same labeled point"
+      },
+      {
+        "label": "B",
+        "text": "D1, because it is steeper over the displayed price range"
+      },
+      {
+        "label": "C",
+        "text": "D1, because quantity demanded changes less for the same price change"
+      },
+      {
+        "label": "D",
+        "text": "D2, because it crosses the quantity axis at a larger value"
+      },
+      {
+        "label": "E",
+        "text": "D2, because quantity demanded changes more for the same price change"
+      }
+    ],
+    "answer": "E",
+    "explanation": "At the common point, D2 has the larger quantity response to the same price change. Its percentage responsiveness is therefore greater.",
+    "reference": "MKT-3.E | MKT-3.E.1 | MKT-3.E.2 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. Two downward-sloping demand curves, D1 and D2, pass through point A at price P and quantity Q. D1 is steeper than D2, and equal vertical price changes around P are marked on both curves.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 5.294117647058826,
+                "y": 94.0
+              },
+              {
+                "x": 60.58823529411765,
+                "y": -7.105427357601002e-15
+              }
+            ]
+          },
+          {
+            "id": "D2",
+            "label": "D2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 57.0
+              },
+              {
+                "x": 94.0,
+                "y": 5.299999999999997
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 40,
+            "y": 35
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 48.82352941176471,
+            "y": 20
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 67.27272727272727,
+            "y": 20
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 40,
+            "y": 35,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 48.82352941176471,
+            "y": 20,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          },
+          {
+            "id": "guide2",
+            "x": 67.27272727272727,
+            "y": 20,
+            "xLabel": "Q3"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "A 10 percent increase in price causes quantity demanded to decrease by 20 percent. The magnitude of price elasticity of demand is",
+    "options": [
+      {
+        "label": "A",
+        "text": "10.0"
+      },
+      {
+        "label": "B",
+        "text": "1.0"
+      },
+      {
+        "label": "C",
+        "text": "2.0"
+      },
+      {
+        "label": "D",
+        "text": "0.5"
+      },
+      {
+        "label": "E",
+        "text": "30.0"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The elasticity magnitude is 20% / 10% = 2.0. Quantity demanded is twice as responsive in percentage terms as price.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "A 12 percent decrease in price causes quantity demanded to increase by 6 percent. Demand is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unit elastic because the two changes have opposite signs"
+      },
+      {
+        "label": "B",
+        "text": "Inelastic because the elasticity magnitude is 2.0"
+      },
+      {
+        "label": "C",
+        "text": "Elastic because the elasticity magnitude is 0.5"
+      },
+      {
+        "label": "D",
+        "text": "Inelastic because the elasticity magnitude is 0.5"
+      },
+      {
+        "label": "E",
+        "text": "Elastic because the elasticity magnitude is 2.0"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The elasticity magnitude is 6% / 12% = 0.5. Because this is below 1, demand is inelastic.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "Which of the following would most likely make demand for a product more elastic?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A stronger perception that the product is a necessity"
+      },
+      {
+        "label": "B",
+        "text": "A decrease in the number of close substitutes available"
+      },
+      {
+        "label": "C",
+        "text": "A smaller share of consumer income spent on the product"
+      },
+      {
+        "label": "D",
+        "text": "An increase in the number of close substitutes available"
+      },
+      {
+        "label": "E",
+        "text": "A shorter period for consumers to adjust their purchases"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Close substitutes make it easier to switch after a price change. More substitutes therefore increase demand's price responsiveness.",
+    "reference": "MKT-3.E | MKT-3.E.4 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, at which labeled point is demand most likely unit elastic?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Point C"
+      },
+      {
+        "label": "B",
+        "text": "Every labeled point"
+      },
+      {
+        "label": "C",
+        "text": "No labeled point"
+      },
+      {
+        "label": "D",
+        "text": "Point A"
+      },
+      {
+        "label": "E",
+        "text": "Point B"
+      }
+    ],
+    "answer": "E",
+    "explanation": "B is the midpoint of the straight demand curve. Demand is unit elastic there because percentage price and quantity responses are equal in magnitude.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. A straight downward-sloping demand curve runs from the price-axis intercept to the quantity-axis intercept. Point A is in the upper portion, point B is exactly at the midpoint, and point C is in the lower portion.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 20,
+            "y": 70
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 45,
+            "y": 45
+          },
+          {
+            "id": "C",
+            "label": "C",
+            "x": 70,
+            "y": 20
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 20,
+            "y": 70,
+            "xLabel": "QA",
+            "yLabel": "PA"
+          },
+          {
+            "id": "guide1",
+            "x": 45,
+            "y": 45,
+            "xLabel": "QB",
+            "yLabel": "PB"
+          },
+          {
+            "id": "guide2",
+            "x": 70,
+            "y": 20,
+            "xLabel": "QC",
+            "yLabel": "PC"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "If demand is elastic, a decrease in price will most likely cause total revenue to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Decrease because quantity demanded rises by a smaller percentage than price falls"
+      },
+      {
+        "label": "B",
+        "text": "Remain unchanged because price and quantity demanded change proportionally"
+      },
+      {
+        "label": "C",
+        "text": "Decrease because quantity demanded rises by the same percentage as price falls"
+      },
+      {
+        "label": "D",
+        "text": "Increase because quantity demanded rises by a larger percentage than price falls"
+      },
+      {
+        "label": "E",
+        "text": "Increase because quantity demanded rises by a smaller percentage than price falls"
+      }
+    ],
+    "answer": "D",
+    "explanation": "In an elastic range, a price cut produces enough additional sales to increase price times quantity. Total revenue therefore rises.",
+    "reference": "MKT-3.E | MKT-3.E.3 | MKT-3.E.5 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "If demand is inelastic, an increase in price will most likely cause total revenue to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Remain unchanged because price and quantity demanded change proportionally"
+      },
+      {
+        "label": "B",
+        "text": "Decrease because quantity demanded falls by a larger percentage than price rises"
+      },
+      {
+        "label": "C",
+        "text": "Decrease because quantity demanded falls by the same percentage as price rises"
+      },
+      {
+        "label": "D",
+        "text": "Increase because quantity demanded falls by a smaller percentage than price rises"
+      },
+      {
+        "label": "E",
+        "text": "Increase because quantity demanded falls by a larger percentage than price rises"
+      }
+    ],
+    "answer": "D",
+    "explanation": "In an inelastic range, the higher price outweighs the reduction in sales. Price times quantity, and therefore total revenue, rises.",
+    "reference": "MKT-3.E | MKT-3.E.3 | MKT-3.E.5 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "If demand is unit elastic, a change in price will most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "Leave total revenue unchanged"
+      },
+      {
+        "label": "B",
+        "text": "Decrease total revenue regardless of direction"
+      },
+      {
+        "label": "C",
+        "text": "Make quantity demanded completely unresponsive"
+      },
+      {
+        "label": "D",
+        "text": "Increase total revenue regardless of direction"
+      },
+      {
+        "label": "E",
+        "text": "Make the demand curve horizontal"
+      }
+    ],
+    "answer": "A",
+    "explanation": "For unit-elastic demand, price and quantity adjust so their product remains unchanged. Total revenue stays the same.",
+    "reference": "MKT-3.E | MKT-3.E.3 | MKT-3.E.5 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "Total revenue received by sellers equals",
+    "options": [
+      {
+        "label": "A",
+        "text": "Percentage price change times quantity sold"
+      },
+      {
+        "label": "B",
+        "text": "Quantity sold divided by price"
+      },
+      {
+        "label": "C",
+        "text": "Price multiplied by quantity sold"
+      },
+      {
+        "label": "D",
+        "text": "Price plus quantity sold"
+      },
+      {
+        "label": "E",
+        "text": "Price divided by quantity sold"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Each unit earns the selling price. Multiplying that price by the number sold gives total revenue.",
+    "reference": "MKT-3.E | MKT-3.E.5 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "When a price decrease causes total expenditure on a good to decrease, demand over that price range is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Elastic"
+      },
+      {
+        "label": "B",
+        "text": "Unit elastic"
+      },
+      {
+        "label": "C",
+        "text": "Perfectly elastic"
+      },
+      {
+        "label": "D",
+        "text": "Proportional in response"
+      },
+      {
+        "label": "E",
+        "text": "Inelastic"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Spending falls despite consumers buying more after the price cut. The quantity response is too small to offset the lower price, indicating inelastic demand.",
+    "reference": "MKT-3.E | MKT-3.E.3 | MKT-3.E.5 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "Which good is most likely to have relatively inelastic demand?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A vacation package that can be postponed easily"
+      },
+      {
+        "label": "B",
+        "text": "A necessary medication with few close substitutes"
+      },
+      {
+        "label": "C",
+        "text": "A brand of bottled water with many close substitutes"
+      },
+      {
+        "label": "D",
+        "text": "A restaurant meal among many nearby alternatives"
+      },
+      {
+        "label": "E",
+        "text": "A particular snack sold beside many similar snacks"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Consumers need the medication and have few alternatives. They cannot readily reduce purchases after a price increase, making demand relatively inelastic.",
+    "reference": "MKT-3.E | MKT-3.E.4 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, which statement best describes demand curve D?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Perfectly inelastic; quantity remains fixed"
+      },
+      {
+        "label": "B",
+        "text": "Demand is inelastic because both price and quantity remain fixed"
+      },
+      {
+        "label": "C",
+        "text": "Demand is perfectly elastic because consumers accept only one price"
+      },
+      {
+        "label": "D",
+        "text": "Demand is elastic because quantity changes more than price"
+      },
+      {
+        "label": "E",
+        "text": "Demand is unit elastic because price and quantity change proportionally"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The vertical curve shows the same quantity at every price. A zero quantity response gives zero elasticity, or perfectly inelastic demand.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. Demand curve D is vertical at quantity Q. Two points on D show different prices but the same quantity demanded.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 45,
+                "y": 10
+              },
+              {
+                "x": 45,
+                "y": 85
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 45,
+            "y": 30
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 45,
+            "y": 70
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 45,
+            "y": 30,
+            "xLabel": "Q",
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 45,
+            "y": 70,
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "How should the horizontal demand curve in the figure be classified?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand is perfectly inelastic because quantity is fixed at Q"
+      },
+      {
+        "label": "B",
+        "text": "Demand is perfectly elastic because consumers accept only price P"
+      },
+      {
+        "label": "C",
+        "text": "Demand is elastic because price and quantity both remain fixed"
+      },
+      {
+        "label": "D",
+        "text": "Demand is unit elastic because all expenditures are identical"
+      },
+      {
+        "label": "E",
+        "text": "Demand is inelastic because price changes more than quantity"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The horizontal curve permits purchases only at P. Raising price above P eliminates demand, indicating perfectly elastic demand.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. Demand curve D is horizontal at price P. Two labeled quantities lie on D at the same price.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10,
+                "y": 45
+              },
+              {
+                "x": 85,
+                "y": 45
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 30,
+            "y": 45
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 70,
+            "y": 45
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 30,
+            "y": 45,
+            "xLabel": "Q1",
+            "yLabel": "P"
+          },
+          {
+            "id": "guide1",
+            "x": 70,
+            "y": 45,
+            "xLabel": "Q2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "Which statement about elasticity and slope is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Constant slope can coexist with varying elasticity"
+      },
+      {
+        "label": "B",
+        "text": "Slope and elasticity are identical because both use percentage changes"
+      },
+      {
+        "label": "C",
+        "text": "Slope varies along every straight demand curve while elasticity is fixed"
+      },
+      {
+        "label": "D",
+        "text": "Elasticity changes only when the demand curve itself shifts"
+      },
+      {
+        "label": "E",
+        "text": "Elasticity is constant whenever a demand curve has a constant slope"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A straight curve has constant absolute slope, but price and quantity levels vary along it. These different bases produce different percentage responses and elasticities.",
+    "reference": "MKT-3.E | MKT-3.E.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "The price of a ticket is $12 and 50 tickets are sold. Total revenue is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$0.24"
+      },
+      {
+        "label": "B",
+        "text": "$62"
+      },
+      {
+        "label": "C",
+        "text": "$4,200"
+      },
+      {
+        "label": "D",
+        "text": "$600"
+      },
+      {
+        "label": "E",
+        "text": "$240"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Total revenue is $12 x 50 = $600.",
+    "reference": "MKT-3.E | MKT-3.E.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "A product with many narrowly defined brand substitutes will generally have demand that is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Equally elastic because both products have the same price"
+      },
+      {
+        "label": "B",
+        "text": "Less elastic than demand for the broader product category"
+      },
+      {
+        "label": "C",
+        "text": "Perfectly inelastic because buyers recognize the brand"
+      },
+      {
+        "label": "D",
+        "text": "More elastic than demand for the broader product category"
+      },
+      {
+        "label": "E",
+        "text": "Unit elastic because brands divide the same total market"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A particular brand has other brands as close alternatives. This makes its demand more responsive than demand for the entire category.",
+    "reference": "MKT-3.E | MKT-3.E.4 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "Demand for a good is likely to become more elastic over time because consumers",
+    "options": [
+      {
+        "label": "A",
+        "text": "Have less time to compare the good with available substitutes"
+      },
+      {
+        "label": "B",
+        "text": "Must spend the same share of income on the good forever"
+      },
+      {
+        "label": "C",
+        "text": "Have more time to find substitutes and adjust their behavior"
+      },
+      {
+        "label": "D",
+        "text": "Treat every good as a necessity in the long run"
+      },
+      {
+        "label": "E",
+        "text": "Become unable to change the quantity they purchase"
+      }
+    ],
+    "answer": "C",
+    "explanation": "More time lets consumers find substitutes and adjust habits. Their purchases can then respond more strongly to a price change.",
+    "reference": "MKT-3.E | MKT-3.E.4 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "A 5 percent decrease in price causes a 5 percent increase in quantity demanded. Demand is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Perfectly elastic"
+      },
+      {
+        "label": "B",
+        "text": "Unit elastic"
+      },
+      {
+        "label": "C",
+        "text": "Elastic"
+      },
+      {
+        "label": "D",
+        "text": "Perfectly inelastic"
+      },
+      {
+        "label": "E",
+        "text": "Inelastic"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The elasticity magnitude is 5% / 5% = 1. Equal percentage responses indicate unit elasticity.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, a price decrease from P1 to P2 causes total revenue to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Remain unchanged because the two rectangles have equal widths"
+      },
+      {
+        "label": "B",
+        "text": "Decrease because price and quantity demanded move in opposite directions"
+      },
+      {
+        "label": "C",
+        "text": "Increase because the original rectangle has area P1 times Q2"
+      },
+      {
+        "label": "D",
+        "text": "Increase because the larger revenue rectangle has area P2 times Q2"
+      },
+      {
+        "label": "E",
+        "text": "Decrease because the smaller revenue rectangle has area P2 times Q1"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Revenue equals the area of the price-by-quantity rectangle. P2 x Q2 has the larger area, so the price decrease raises revenue.",
+    "reference": "MKT-3.E | MKT-3.E.5 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. A downward-sloping demand curve contains point A at price P1 and quantity Q1 and point B at lower price P2 and larger quantity Q2. Shaded price-by-quantity rectangles are drawn for both points, and the P2 by Q2 rectangle has the larger area.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 20,
+            "y": 70
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 40,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 20,
+            "y": 70,
+            "xLabel": "QA",
+            "yLabel": "PA"
+          },
+          {
+            "id": "guide1",
+            "x": 40,
+            "y": 50,
+            "xLabel": "QB",
+            "yLabel": "PB"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 20,
+                "y": 0
+              },
+              {
+                "x": 20,
+                "y": 70
+              },
+              {
+                "x": 0,
+                "y": 70
+              }
+            ]
+          },
+          {
+            "id": "region1",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 40,
+                "y": 0
+              },
+              {
+                "x": 40,
+                "y": 50
+              },
+              {
+                "x": 0,
+                "y": 50
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "If a 4 percent price increase reduces quantity demanded by 12 percent, demand is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Elastic because the elasticity magnitude is 3"
+      },
+      {
+        "label": "B",
+        "text": "Elastic because the elasticity magnitude is one-third"
+      },
+      {
+        "label": "C",
+        "text": "Unit elastic because both variables changed by percentages"
+      },
+      {
+        "label": "D",
+        "text": "Inelastic because the elasticity magnitude is 3"
+      },
+      {
+        "label": "E",
+        "text": "Inelastic because the elasticity magnitude is one-third"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The elasticity magnitude is 12% / 4% = 3. Because 3 exceeds 1, demand is elastic.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "If demand is elastic, which price change would increase sellers' total revenue?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A decrease in price"
+      },
+      {
+        "label": "B",
+        "text": "Either price change equally"
+      },
+      {
+        "label": "C",
+        "text": "No change in price"
+      },
+      {
+        "label": "D",
+        "text": "An increase in price"
+      },
+      {
+        "label": "E",
+        "text": "A change that leaves quantity fixed"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A price cut in an elastic range raises sales enough to increase total revenue.",
+    "reference": "MKT-3.E | MKT-3.E.3 | MKT-3.E.5 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "If demand is inelastic, which price change would decrease consumers' total expenditure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Either price change equally"
+      },
+      {
+        "label": "B",
+        "text": "A decrease in price"
+      },
+      {
+        "label": "C",
+        "text": "A change that leaves price fixed"
+      },
+      {
+        "label": "D",
+        "text": "An increase in price"
+      },
+      {
+        "label": "E",
+        "text": "No change in price"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In an inelastic range, a price cut reduces spending because the additional purchases do not offset the lower price.",
+    "reference": "MKT-3.E | MKT-3.E.3 | MKT-3.E.5 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "Which observation is consistent with elastic demand?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A 6 percent price increase causes a 15 percent decrease in quantity demanded"
+      },
+      {
+        "label": "B",
+        "text": "A 20 percent price increase causes no change in quantity demanded"
+      },
+      {
+        "label": "C",
+        "text": "A 15 percent price increase causes a 6 percent decrease in quantity demanded"
+      },
+      {
+        "label": "D",
+        "text": "A 9 percent price increase causes a 9 percent decrease in quantity demanded"
+      },
+      {
+        "label": "E",
+        "text": "A 12 percent price increase causes a 4 percent decrease in quantity demanded"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The elasticity magnitude is 15% / 6% = 2.5. This exceeds 1, indicating elastic demand.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "Which observation is consistent with inelastic demand?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A 4 percent price decrease causes a 12 percent increase in quantity demanded"
+      },
+      {
+        "label": "B",
+        "text": "A 2 percent price decrease causes a 10 percent increase in quantity demanded"
+      },
+      {
+        "label": "C",
+        "text": "A 7 percent price decrease causes a 7 percent increase in quantity demanded"
+      },
+      {
+        "label": "D",
+        "text": "An 8 percent price decrease causes a 3 percent increase in quantity demanded"
+      },
+      {
+        "label": "E",
+        "text": "A 3 percent price decrease causes an 8 percent increase in quantity demanded"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The elasticity magnitude is 3% / 8% = 0.375. This is below 1, indicating inelastic demand.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "Which of the following best explains why demand for a narrowly defined good is often relatively elastic?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Its demand curve must have a constant numerical slope"
+      },
+      {
+        "label": "B",
+        "text": "Consumers can identify more close substitutes for it"
+      },
+      {
+        "label": "C",
+        "text": "Consumers must devote a larger quantity to every purchase"
+      },
+      {
+        "label": "D",
+        "text": "Sellers can hold its market price constant indefinitely"
+      },
+      {
+        "label": "E",
+        "text": "Its total revenue must remain unchanged at every price"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Buyers can switch readily from a narrowly defined product to similar alternatives. This makes its quantity demanded more responsive to price.",
+    "reference": "MKT-3.E | MKT-3.E.4 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 31,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which statement correctly compares the two labeled price ranges on the linear demand curve?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand has the same elasticity in both ranges because slope is constant"
+      },
+      {
+        "label": "B",
+        "text": "Demand becomes more elastic as the curve approaches the quantity intercept"
+      },
+      {
+        "label": "C",
+        "text": "Demand is more elastic from A to B than from C to D"
+      },
+      {
+        "label": "D",
+        "text": "Demand is more inelastic from A to B than from C to D"
+      },
+      {
+        "label": "E",
+        "text": "Demand is unit elastic in both ranges because each is on one line"
+      }
+    ],
+    "answer": "C",
+    "explanation": "AB is in the high-price, low-quantity portion of the straight curve. Quantity changes are proportionally larger there, making demand more elastic than in CD.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. A straight downward-sloping demand curve has points A and B in its upper half and points C and D in its lower half. The vertical and horizontal changes from A to B equal those from C to D.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 15,
+            "y": 75
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 25,
+            "y": 65
+          },
+          {
+            "id": "C",
+            "label": "C",
+            "x": 65,
+            "y": 25
+          },
+          {
+            "id": "D",
+            "label": "D",
+            "x": 75,
+            "y": 15
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 15,
+            "y": 75,
+            "xLabel": "QA",
+            "yLabel": "PA"
+          },
+          {
+            "id": "guide1",
+            "x": 25,
+            "y": 65,
+            "xLabel": "QB",
+            "yLabel": "PB"
+          },
+          {
+            "id": "guide2",
+            "x": 65,
+            "y": 25,
+            "xLabel": "QC",
+            "yLabel": "PC"
+          },
+          {
+            "id": "guide3",
+            "x": 75,
+            "y": 15,
+            "xLabel": "QD",
+            "yLabel": "PD"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "difficulty": "Medium",
+    "prompt": "The price of a product rises by 8 percent, and quantity demanded falls by 10 percent. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand is inelastic, and total revenue most likely increases"
+      },
+      {
+        "label": "B",
+        "text": "Demand is elastic, and total revenue most likely increases"
+      },
+      {
+        "label": "C",
+        "text": "Demand is unit elastic, and total revenue remains unchanged"
+      },
+      {
+        "label": "D",
+        "text": "Demand is elastic, and total revenue most likely decreases"
+      },
+      {
+        "label": "E",
+        "text": "Demand is inelastic, and total revenue most likely decreases"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The elasticity magnitude is 10% / 8% = 1.25, so demand is elastic. The price rise reduces revenue because the sales decline outweighs the higher price.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | MKT-3.E.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 33,
+    "difficulty": "Medium",
+    "prompt": "The price of a product decreases by 15 percent, and quantity demanded rises by 9 percent. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand is inelastic, and total expenditure most likely increases"
+      },
+      {
+        "label": "B",
+        "text": "Demand is inelastic, and total expenditure most likely decreases"
+      },
+      {
+        "label": "C",
+        "text": "Demand is unit elastic, and total expenditure remains unchanged"
+      },
+      {
+        "label": "D",
+        "text": "Demand is elastic, and total expenditure most likely decreases"
+      },
+      {
+        "label": "E",
+        "text": "Demand is elastic, and total expenditure most likely increases"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The elasticity magnitude is 9% / 15% = 0.6, so demand is inelastic. The price cut reduces spending because the quantity increase cannot offset it.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | MKT-3.E.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "A firm lowers price from $10 to $9, and sales rise from 80 units to 92 units. What happens to total revenue?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises from $720 to $920"
+      },
+      {
+        "label": "B",
+        "text": "It falls from $828 to $800"
+      },
+      {
+        "label": "C",
+        "text": "It rises from $800 to $828"
+      },
+      {
+        "label": "D",
+        "text": "It remains at $800"
+      },
+      {
+        "label": "E",
+        "text": "It falls from $920 to $720"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Revenue changes from $10 x 80 = $800 to $9 x 92 = $828. It rises by $28.",
+    "reference": "MKT-3.E | MKT-3.E.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, what happens to total revenue when price rises from P1 to P2?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Total revenue remains unchanged because the curve does not shift"
+      },
+      {
+        "label": "B",
+        "text": "Total revenue decreases because the P1 by Q2 rectangle is smaller"
+      },
+      {
+        "label": "C",
+        "text": "Total revenue decreases because the P2 by Q2 rectangle is smaller"
+      },
+      {
+        "label": "D",
+        "text": "Total revenue increases because quantity demanded falls along demand"
+      },
+      {
+        "label": "E",
+        "text": "Total revenue increases because the P2 by Q1 rectangle is larger"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The P2 x Q2 rectangle is smaller than the original rectangle. The price rise therefore reduces revenue, indicating elastic demand over the change.",
+    "reference": "MKT-3.E | MKT-3.E.3 | MKT-3.E.5 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. A downward-sloping demand curve contains point A at price P1 and quantity Q1 and point B at higher price P2 and smaller quantity Q2. Shaded price-by-quantity rectangles are drawn for both points, and the P2 by Q2 rectangle has the smaller area.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 40,
+            "y": 50
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 20,
+            "y": 70
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 40,
+            "y": 50,
+            "xLabel": "QA",
+            "yLabel": "PA"
+          },
+          {
+            "id": "guide1",
+            "x": 20,
+            "y": 70,
+            "xLabel": "QB",
+            "yLabel": "PB"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 40,
+                "y": 0
+              },
+              {
+                "x": 40,
+                "y": 50
+              },
+              {
+                "x": 0,
+                "y": 50
+              }
+            ]
+          },
+          {
+            "id": "region1",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 20,
+                "y": 0
+              },
+              {
+                "x": 20,
+                "y": 70
+              },
+              {
+                "x": 0,
+                "y": 70
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "A 25 percent decrease in quantity demanded results from a price increase. If demand has an elasticity magnitude of 2.5, the percentage price increase is",
+    "options": [
+      {
+        "label": "A",
+        "text": "27.5 percent"
+      },
+      {
+        "label": "B",
+        "text": "62.5 percent"
+      },
+      {
+        "label": "C",
+        "text": "22.5 percent"
+      },
+      {
+        "label": "D",
+        "text": "10 percent"
+      },
+      {
+        "label": "E",
+        "text": "6.25 percent"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Rearrange elasticity = percentage quantity change / percentage price change. The price increase is 25% / 2.5 = 10%.",
+    "reference": "MKT-3.E | MKT-3.E.2 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "A 9 percent price decrease causes quantity demanded to rise by 6 percent. What percentage increase in quantity demanded would instead make demand unit elastic?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3 percent"
+      },
+      {
+        "label": "B",
+        "text": "6 percent"
+      },
+      {
+        "label": "C",
+        "text": "9 percent"
+      },
+      {
+        "label": "D",
+        "text": "54 percent"
+      },
+      {
+        "label": "E",
+        "text": "15 percent"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Unit elasticity requires equal percentage responses in magnitude. The required quantity increase is therefore 9%.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "Two goods take the same share of income, but Good X has many close substitutes while Good Y has few. Which statement is most likely true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both goods have unit-elastic demand because income shares match"
+      },
+      {
+        "label": "B",
+        "text": "Demand for Good Y is perfectly elastic because substitutes are scarce"
+      },
+      {
+        "label": "C",
+        "text": "Both goods have identical elasticity because their prices may differ"
+      },
+      {
+        "label": "D",
+        "text": "Demand for Good X is more elastic than demand for Good Y"
+      },
+      {
+        "label": "E",
+        "text": "Demand for Good X is less elastic than demand for Good Y"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Good X offers more opportunities to switch after a price increase. Its demand is consequently more elastic than Y's, other factors equal.",
+    "reference": "MKT-3.E | MKT-3.E.4 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which conclusion about point A is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand is perfectly inelastic because quantity is positive at point A"
+      },
+      {
+        "label": "B",
+        "text": "Demand is perfectly elastic because price changes at point A"
+      },
+      {
+        "label": "C",
+        "text": "Demand is inelastic because the curve is downward-sloping at point A"
+      },
+      {
+        "label": "D",
+        "text": "Elastic; quantity changes proportionally more than price"
+      },
+      {
+        "label": "E",
+        "text": "Demand is unit elastic because point A lies on a straight line"
+      }
+    ],
+    "answer": "D",
+    "explanation": "At A, price is high and quantity is low. A small movement causes a proportionally larger quantity change than price change, making demand elastic.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. A straight downward-sloping demand curve has point A in its upper portion, above the midpoint. Equal small changes in price and quantity around A are shown with dashed guides.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 20,
+            "y": 70
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 20,
+            "y": 70,
+            "xLabel": "QA",
+            "yLabel": "PA"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "Using the midpoint method, price falls from $12 to $8 and quantity demanded rises from 30 to 50 units. The elasticity magnitude is",
+    "options": [
+      {
+        "label": "A",
+        "text": "1.00"
+      },
+      {
+        "label": "B",
+        "text": "0.80"
+      },
+      {
+        "label": "C",
+        "text": "1.25"
+      },
+      {
+        "label": "D",
+        "text": "0.50"
+      },
+      {
+        "label": "E",
+        "text": "2.00"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The midpoint quantity change is 20/40 = 50%, and the price change is 4/10 = 40%. Elasticity is 50% / 40% = 1.25.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "Using the midpoint method, price rises from $15 to $21 while quantity demanded falls from 90 to 60 units. The elasticity magnitude is closest to",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.33"
+      },
+      {
+        "label": "B",
+        "text": "1.67"
+      },
+      {
+        "label": "C",
+        "text": "1.20"
+      },
+      {
+        "label": "D",
+        "text": "3.00"
+      },
+      {
+        "label": "E",
+        "text": "0.60"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The midpoint quantity change is 30/75 = 40%, and the price change is 6/18 = 33.3%. Elasticity is about 40/33.3 = 1.20.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "A seller raises price by 5 percent and observes total revenue increase. Which conclusion is supported?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quantity demanded rose by exactly 5 percent, so demand was unit elastic"
+      },
+      {
+        "label": "B",
+        "text": "Quantity demanded remained fixed, so demand was perfectly elastic"
+      },
+      {
+        "label": "C",
+        "text": "Quantity demanded fell by more than 5 percent, so demand was elastic"
+      },
+      {
+        "label": "D",
+        "text": "Quantity demanded fell by exactly 10 percent, so demand was elastic"
+      },
+      {
+        "label": "E",
+        "text": "Quantity demanded fell by less than 5 percent, so demand was inelastic"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Revenue rises after the price increase, so the sales reduction is too small to offset the higher price. This indicates inelastic demand.",
+    "reference": "MKT-3.E | MKT-3.E.3 | MKT-3.E.5 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which statement about the two price changes is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The lower range is more elastic because its quantities are larger"
+      },
+      {
+        "label": "B",
+        "text": "The same absolute price change produces identical elasticities because slope is constant"
+      },
+      {
+        "label": "C",
+        "text": "Elasticity cannot be compared because both changes lie on one curve"
+      },
+      {
+        "label": "D",
+        "text": "Both ranges are unit elastic because their price changes match"
+      },
+      {
+        "label": "E",
+        "text": "Different starting values create different percentage changes"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Equal dollar price changes can be different percentages of different starting prices. Quantity bases also differ, so the resulting elasticities can differ.",
+    "reference": "MKT-3.E | MKT-3.E.2 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. A straight downward-sloping demand curve shows two separate movements of equal vertical and horizontal size: A to B in the upper half and C to D in the lower half. The curve has the same slope throughout.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 15,
+            "y": 75
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 25,
+            "y": 65
+          },
+          {
+            "id": "C",
+            "label": "C",
+            "x": 65,
+            "y": 25
+          },
+          {
+            "id": "D",
+            "label": "D",
+            "x": 75,
+            "y": 15
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 15,
+            "y": 75,
+            "xLabel": "QA",
+            "yLabel": "PA"
+          },
+          {
+            "id": "guide1",
+            "x": 25,
+            "y": 65,
+            "xLabel": "QB",
+            "yLabel": "PB"
+          },
+          {
+            "id": "guide2",
+            "x": 65,
+            "y": 25,
+            "xLabel": "QC",
+            "yLabel": "PC"
+          },
+          {
+            "id": "guide3",
+            "x": 75,
+            "y": 15,
+            "xLabel": "QD",
+            "yLabel": "PD"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "Demand for a good is elastic over a price range. If price falls by 7 percent, which quantity response is consistent with that classification?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quantity demanded rises by 11 percent"
+      },
+      {
+        "label": "B",
+        "text": "Quantity demanded falls by 11 percent"
+      },
+      {
+        "label": "C",
+        "text": "Quantity demanded remains unchanged"
+      },
+      {
+        "label": "D",
+        "text": "Quantity demanded rises by 3 percent"
+      },
+      {
+        "label": "E",
+        "text": "Quantity demanded rises by 7 percent"
+      }
+    ],
+    "answer": "A",
+    "explanation": "An 11% quantity increase exceeds the 7% price decrease in magnitude. Their ratio exceeds 1, consistent with elastic demand.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "Demand for a good is inelastic over a price range. If price rises by 14 percent, which quantity response is consistent with that classification?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quantity demanded falls by 14 percent"
+      },
+      {
+        "label": "B",
+        "text": "Quantity demanded falls by 20 percent"
+      },
+      {
+        "label": "C",
+        "text": "Quantity demanded falls by 6 percent"
+      },
+      {
+        "label": "D",
+        "text": "Quantity demanded rises by 6 percent"
+      },
+      {
+        "label": "E",
+        "text": "Quantity demanded remains infinitely responsive"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A 6% quantity decrease is smaller than the 14% price increase. Their ratio is below 1, consistent with inelastic demand.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "A movie theater finds that cutting ticket price increases total revenue. Which explanation is most consistent with this result?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The percentage increase in tickets sold was smaller than the percentage decrease in price"
+      },
+      {
+        "label": "B",
+        "text": "The number of tickets sold did not respond to the lower price"
+      },
+      {
+        "label": "C",
+        "text": "The percentage increase in tickets sold equaled the percentage decrease in price"
+      },
+      {
+        "label": "D",
+        "text": "The percentage increase in tickets sold exceeded the percentage decrease in price"
+      },
+      {
+        "label": "E",
+        "text": "The demand curve became steeper solely because price decreased"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The ticket price cut brings in enough extra sales to raise total revenue. This is the total-revenue pattern of elastic demand.",
+    "reference": "MKT-3.E | MKT-3.E.3 | MKT-3.E.5 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "A transit system raises fares and total fare revenue falls. Which conclusion is most likely correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand was elastic over the fare increase"
+      },
+      {
+        "label": "B",
+        "text": "Demand was perfectly inelastic over the fare increase"
+      },
+      {
+        "label": "C",
+        "text": "Elasticity could not affect fare revenue"
+      },
+      {
+        "label": "D",
+        "text": "Demand was inelastic over the fare increase"
+      },
+      {
+        "label": "E",
+        "text": "Demand was unit elastic over the fare increase"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Higher fares reduce ridership enough to lower total revenue. Demand is therefore elastic over the fare change.",
+    "reference": "MKT-3.E | MKT-3.E.3 | MKT-3.E.5 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which labeled segment has the greatest price elasticity of demand?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Segment AB"
+      },
+      {
+        "label": "B",
+        "text": "The segment nearest the quantity intercept"
+      },
+      {
+        "label": "C",
+        "text": "All segments equally"
+      },
+      {
+        "label": "D",
+        "text": "Segment BC"
+      },
+      {
+        "label": "E",
+        "text": "Segment CD"
+      }
+    ],
+    "answer": "A",
+    "explanation": "AB is in the upper, high-price and low-quantity portion of the curve. It has the greatest percentage quantity response relative to the percentage price change.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. A straight downward-sloping demand curve is divided by labeled points A, B, C, and D into three segments. Segment AB is in the upper portion, BC straddles the midpoint, and CD is in the lower portion.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 10,
+            "y": 80
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 30,
+            "y": 60
+          },
+          {
+            "id": "C",
+            "label": "C",
+            "x": 60,
+            "y": 30
+          },
+          {
+            "id": "D",
+            "label": "D",
+            "x": 80,
+            "y": 10
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 10,
+            "y": 80,
+            "xLabel": "QA",
+            "yLabel": "PA"
+          },
+          {
+            "id": "guide1",
+            "x": 30,
+            "y": 60,
+            "xLabel": "QB",
+            "yLabel": "PB"
+          },
+          {
+            "id": "guide2",
+            "x": 60,
+            "y": 30,
+            "xLabel": "QC",
+            "yLabel": "PC"
+          },
+          {
+            "id": "guide3",
+            "x": 80,
+            "y": 10,
+            "xLabel": "QD",
+            "yLabel": "PD"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "A 16 percent decrease in price causes quantity demanded to rise by 24 percent. Which pair is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Elasticity magnitude 1.0; total revenue is unchanged"
+      },
+      {
+        "label": "B",
+        "text": "Elasticity magnitude 1.5; total revenue increases"
+      },
+      {
+        "label": "C",
+        "text": "Elasticity magnitude 0.67; total revenue decreases"
+      },
+      {
+        "label": "D",
+        "text": "Elasticity magnitude 1.5; total revenue decreases"
+      },
+      {
+        "label": "E",
+        "text": "Elasticity magnitude 0.67; total revenue increases"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The elasticity magnitude is 24% / 16% = 1.5. Demand is elastic, and the price cut raises total revenue.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | MKT-3.E.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "The price of a subscription rises from $20 to $25, while subscribers fall from 1,000 to 850. What happens to total revenue?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls from $21,250 to $20,000"
+      },
+      {
+        "label": "B",
+        "text": "It rises from $20,000 to $21,250"
+      },
+      {
+        "label": "C",
+        "text": "It falls from $25,000 to $17,000"
+      },
+      {
+        "label": "D",
+        "text": "It rises from $17,000 to $25,000"
+      },
+      {
+        "label": "E",
+        "text": "It remains at $20,000"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Revenue changes from $20 x 1,000 = $20,000 to $25 x 850 = $21,250. The increase is $1,250.",
+    "reference": "MKT-3.E | MKT-3.E.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "Two products have identical prices. Product X is a necessity with few substitutes, while Product Y is a luxury with many substitutes. Which comparison is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand for Product Y is perfectly inelastic because it is a luxury"
+      },
+      {
+        "label": "B",
+        "text": "Demand for Product Y is more elastic than demand for Product X"
+      },
+      {
+        "label": "C",
+        "text": "Demand for Product X is more elastic than demand for Product Y"
+      },
+      {
+        "label": "D",
+        "text": "Both products have equal elasticity because their prices are identical"
+      },
+      {
+        "label": "E",
+        "text": "Both products have unit elasticity because one is a necessity"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Buyers can replace or postpone the luxury more easily than the necessity. Product Y therefore has more price-responsive demand.",
+    "reference": "MKT-3.E | MKT-3.E.4 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "A price decrease raises quantity demanded by 18 percent. What price decrease would make the elasticity magnitude equal to 1.5?",
+    "options": [
+      {
+        "label": "A",
+        "text": "9 percent"
+      },
+      {
+        "label": "B",
+        "text": "18 percent"
+      },
+      {
+        "label": "C",
+        "text": "12 percent"
+      },
+      {
+        "label": "D",
+        "text": "27 percent"
+      },
+      {
+        "label": "E",
+        "text": "3 percent"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The required price decrease is 18% / 1.5 = 12%. This gives the stated elasticity magnitude.",
+    "reference": "MKT-3.E | MKT-3.E.2 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which statement correctly describes the move from A to B?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Price falls, total revenue falls, and demand is inelastic over the range"
+      },
+      {
+        "label": "B",
+        "text": "Price rises, total revenue falls, and demand is elastic over the range"
+      },
+      {
+        "label": "C",
+        "text": "Price falls, total revenue rises, and demand is elastic over the range"
+      },
+      {
+        "label": "D",
+        "text": "Price rises, total revenue rises, and demand is inelastic over the range"
+      },
+      {
+        "label": "E",
+        "text": "Price falls, total revenue is unchanged, and demand is unit elastic"
+      }
+    ],
+    "answer": "C",
+    "explanation": "B's price-by-quantity rectangle has a larger area than A's. Revenue rises as price falls, indicating elastic demand over the range.",
+    "reference": "MKT-3.E | MKT-3.E.3 | MKT-3.E.5 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. On a downward-sloping demand curve, point A has price P1 and quantity Q1, while point B has lower price P2 and larger quantity Q2. Revenue rectangles are shown, and the rectangle at B is larger than the rectangle at A.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 20,
+            "y": 70
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 40,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 20,
+            "y": 70,
+            "xLabel": "QA",
+            "yLabel": "PA"
+          },
+          {
+            "id": "guide1",
+            "x": 40,
+            "y": 50,
+            "xLabel": "QB",
+            "yLabel": "PB"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 20,
+                "y": 0
+              },
+              {
+                "x": 20,
+                "y": 70
+              },
+              {
+                "x": 0,
+                "y": 70
+              }
+            ]
+          },
+          {
+            "id": "region1",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 40,
+                "y": 0
+              },
+              {
+                "x": 40,
+                "y": 50
+              },
+              {
+                "x": 0,
+                "y": 50
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "A firm estimates demand elasticity at 0.75 over its current price range. If it wants to increase total revenue, it should most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower price because demand is unit elastic"
+      },
+      {
+        "label": "B",
+        "text": "Raise price because demand is inelastic"
+      },
+      {
+        "label": "C",
+        "text": "Raise price because demand is elastic"
+      },
+      {
+        "label": "D",
+        "text": "Leave price unchanged because revenue cannot vary"
+      },
+      {
+        "label": "E",
+        "text": "Lower price because demand is inelastic"
+      }
+    ],
+    "answer": "B",
+    "explanation": "An elasticity magnitude of 0.75 indicates inelastic demand. Raising price increases revenue because sales decline relatively little.",
+    "reference": "MKT-3.E | MKT-3.E.3 | MKT-3.E.5 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "A firm estimates demand elasticity at 1.8 over its current price range. If it wants to increase total revenue, it should most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "Raise price because demand is elastic"
+      },
+      {
+        "label": "B",
+        "text": "Lower price because demand is inelastic"
+      },
+      {
+        "label": "C",
+        "text": "Leave price unchanged because revenue cannot vary"
+      },
+      {
+        "label": "D",
+        "text": "Raise price because demand is unit elastic"
+      },
+      {
+        "label": "E",
+        "text": "Lower price because demand is elastic"
+      }
+    ],
+    "answer": "E",
+    "explanation": "An elasticity magnitude of 1.8 indicates elastic demand. Lowering price increases revenue because sales respond strongly.",
+    "reference": "MKT-3.E | MKT-3.E.3 | MKT-3.E.5 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "Price increases from $30 to $33 and quantity demanded decreases from 400 to 360 units. Using the initial-value method, the elasticity magnitude is",
+    "options": [
+      {
+        "label": "A",
+        "text": "10.0"
+      },
+      {
+        "label": "B",
+        "text": "0.1"
+      },
+      {
+        "label": "C",
+        "text": "1.1"
+      },
+      {
+        "label": "D",
+        "text": "1.0"
+      },
+      {
+        "label": "E",
+        "text": "0.9"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Using initial values, price rises 3/30 = 10% and quantity falls 40/400 = 10%. The elasticity magnitude is 10/10 = 1.0.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "Price decreases from $50 to $45, and quantity demanded increases from 200 to 230 units. Using initial values, which classification is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unit elastic, because price changes by $5"
+      },
+      {
+        "label": "B",
+        "text": "Elastic, because the elasticity magnitude is 0.67"
+      },
+      {
+        "label": "C",
+        "text": "Elastic, because the elasticity magnitude is 1.5"
+      },
+      {
+        "label": "D",
+        "text": "Inelastic, because the elasticity magnitude is 0.67"
+      },
+      {
+        "label": "E",
+        "text": "Inelastic, because the elasticity magnitude is 1.5"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Quantity rises 30/200 = 15%, while price falls 5/50 = 10%. The elasticity magnitude is 1.5, so demand is elastic.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which statement best explains why demand is more elastic at A than at C?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The same absolute movement is a larger percentage of the larger quantity near C"
+      },
+      {
+        "label": "B",
+        "text": "The demand curve has a different slope at every labeled point"
+      },
+      {
+        "label": "C",
+        "text": "The price at C is higher relative to the quantity demanded there"
+      },
+      {
+        "label": "D",
+        "text": "The same absolute movement is a larger percentage of the smaller quantity near A"
+      },
+      {
+        "label": "E",
+        "text": "The demand curve is flatter at A even though it is a straight line"
+      }
+    ],
+    "answer": "D",
+    "explanation": "At A, the smaller starting quantity makes an equal unit change a larger percentage. Combined with its higher price, this gives greater elasticity than at C.",
+    "reference": "MKT-3.E | MKT-3.E.2 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. A straight downward-sloping demand curve contains point A in the upper portion, point B at the midpoint, and point C in the lower portion. Equal-sized movement markers are shown around A and C.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 20,
+            "y": 70
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 45,
+            "y": 45
+          },
+          {
+            "id": "C",
+            "label": "C",
+            "x": 70,
+            "y": 20
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 20,
+            "y": 70,
+            "xLabel": "QA",
+            "yLabel": "PA"
+          },
+          {
+            "id": "guide1",
+            "x": 45,
+            "y": 45,
+            "xLabel": "QB",
+            "yLabel": "PB"
+          },
+          {
+            "id": "guide2",
+            "x": 70,
+            "y": 20,
+            "xLabel": "QC",
+            "yLabel": "PC"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "Over a price range, the percentage changes in price and quantity demanded are equal in magnitude. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unit elastic; total revenue is approximately unchanged"
+      },
+      {
+        "label": "B",
+        "text": "Demand is elastic, so total revenue necessarily increases"
+      },
+      {
+        "label": "C",
+        "text": "Demand is perfectly elastic, so total revenue becomes zero"
+      },
+      {
+        "label": "D",
+        "text": "Demand is inelastic, so total revenue necessarily decreases"
+      },
+      {
+        "label": "E",
+        "text": "Demand is perfectly inelastic, so total revenue doubles"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Equal percentage responses give an elasticity magnitude of 1. In the small-change approximation used here, their effects on revenue offset.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | MKT-3.E.5 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "A price cut causes total revenue to remain unchanged. Which quantity response is most consistent with this result?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quantity demanded increases by the same percentage that price decreases"
+      },
+      {
+        "label": "B",
+        "text": "Quantity demanded decreases by the same percentage as price decreases"
+      },
+      {
+        "label": "C",
+        "text": "Quantity demanded increases by a larger percentage than price decreases"
+      },
+      {
+        "label": "D",
+        "text": "Quantity demanded increases by a smaller percentage than price decreases"
+      },
+      {
+        "label": "E",
+        "text": "Quantity demanded remains fixed while price decreases"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Constant revenue means the quantity increase exactly offsets the price cut. This identifies unit elasticity by the total-revenue test; equal percentage changes are an approximation for small changes.",
+    "reference": "MKT-3.E | MKT-3.E.3 | MKT-3.E.5 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "Using the midpoint method, price rises from $6 to $10 and quantity demanded falls from 70 to 50 units. The elasticity magnitude is",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.83"
+      },
+      {
+        "label": "B",
+        "text": "0.67"
+      },
+      {
+        "label": "C",
+        "text": "1.50"
+      },
+      {
+        "label": "D",
+        "text": "0.40"
+      },
+      {
+        "label": "E",
+        "text": "1.20"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The midpoint quantity change is 20/60 = 33.3%, and price changes by 4/8 = 50%. Elasticity is about 33.3/50 = 0.67.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "Using the midpoint method, price falls from $18 to $12 and quantity demanded rises from 40 to 70 units. The elasticity magnitude is",
+    "options": [
+      {
+        "label": "A",
+        "text": "1.36"
+      },
+      {
+        "label": "B",
+        "text": "1.83"
+      },
+      {
+        "label": "C",
+        "text": "1.00"
+      },
+      {
+        "label": "D",
+        "text": "0.55"
+      },
+      {
+        "label": "E",
+        "text": "0.73"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The midpoint quantity change is 30/55 = 54.5%, and price changes by 6/15 = 40%. Elasticity is about 54.5/40 = 1.36.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which statement about total revenue is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Revenue is zero at point B because elasticity equals one"
+      },
+      {
+        "label": "B",
+        "text": "Revenue is maximized at point A, where demand is most elastic"
+      },
+      {
+        "label": "C",
+        "text": "Revenue is maximized at point C, where quantity demanded is largest"
+      },
+      {
+        "label": "D",
+        "text": "Revenue is equal at all points because the demand curve is linear"
+      },
+      {
+        "label": "E",
+        "text": "Revenue is maximized at point B, where demand is unit elastic"
+      }
+    ],
+    "answer": "E",
+    "explanation": "B is the midpoint of the linear demand curve, where demand is unit elastic. Its price-quantity product is the largest on the curve.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | MKT-3.E.5 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. A straight downward-sloping demand curve has point A in the upper portion, point B at the midpoint, and point C in the lower portion. Price-by-quantity rectangles are shown, with the rectangle at B having the greatest area.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 20,
+            "y": 70
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 45,
+            "y": 45
+          },
+          {
+            "id": "C",
+            "label": "C",
+            "x": 70,
+            "y": 20
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 20,
+            "y": 70,
+            "xLabel": "QA",
+            "yLabel": "PA"
+          },
+          {
+            "id": "guide1",
+            "x": 45,
+            "y": 45,
+            "xLabel": "QB",
+            "yLabel": "PB"
+          },
+          {
+            "id": "guide2",
+            "x": 70,
+            "y": 20,
+            "xLabel": "QC",
+            "yLabel": "PC"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 20,
+                "y": 0
+              },
+              {
+                "x": 20,
+                "y": 70
+              },
+              {
+                "x": 0,
+                "y": 70
+              }
+            ]
+          },
+          {
+            "id": "region1",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 45,
+                "y": 0
+              },
+              {
+                "x": 45,
+                "y": 45
+              },
+              {
+                "x": 0,
+                "y": 45
+              }
+            ]
+          },
+          {
+            "id": "region2",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 70,
+                "y": 0
+              },
+              {
+                "x": 70,
+                "y": 20
+              },
+              {
+                "x": 0,
+                "y": 20
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "A 6 percent price increase causes total revenue to remain unchanged. The quantity demanded most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "Decreases by approximately 3 percent"
+      },
+      {
+        "label": "B",
+        "text": "Decreases by approximately 12 percent"
+      },
+      {
+        "label": "C",
+        "text": "Remains completely unchanged"
+      },
+      {
+        "label": "D",
+        "text": "Increases by approximately 6 percent"
+      },
+      {
+        "label": "E",
+        "text": "Decreases by approximately 6 percent"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Maintaining revenue requires a quantity decrease that offsets the price rise. For a 6% price increase, the decrease is about 6% (exactly 1 - 1/1.06, or 5.66%).",
+    "reference": "MKT-3.E | MKT-3.E.3 | MKT-3.E.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "Which change would most likely make the demand for home heating fuel more elastic?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The fuel becomes a smaller but unavoidable household necessity"
+      },
+      {
+        "label": "B",
+        "text": "The market definition expands to include every source of household energy"
+      },
+      {
+        "label": "C",
+        "text": "Consumers gain access to several practical heating alternatives"
+      },
+      {
+        "label": "D",
+        "text": "Consumers have less time to replace existing heating systems"
+      },
+      {
+        "label": "E",
+        "text": "Consumers lose access to all alternative heating technologies"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Practical heating alternatives let consumers switch away from the fuel. This increases the price elasticity of demand.",
+    "reference": "MKT-3.E | MKT-3.E.4 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "Demand for gasoline is estimated to be less elastic over one week than over five years. Which explanation is most plausible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumers face fewer substitutes after five years than after one week"
+      },
+      {
+        "label": "B",
+        "text": "Gasoline necessarily becomes a luxury whenever more time passes"
+      },
+      {
+        "label": "C",
+        "text": "Consumers can change vehicles and travel patterns more fully over five years"
+      },
+      {
+        "label": "D",
+        "text": "The demand curve becomes upward-sloping after long adjustment periods"
+      },
+      {
+        "label": "E",
+        "text": "The elasticity formula uses dollars in the short run but percentages later"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Over five years, consumers can change vehicles and travel arrangements. These adjustments make demand more elastic than over one week.",
+    "reference": "MKT-3.E | MKT-3.E.4 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "A seller lowers price from $25 to $20. Quantity sold must rise to what level to keep revenue at its original $5,000?",
+    "options": [
+      {
+        "label": "A",
+        "text": "200 units"
+      },
+      {
+        "label": "B",
+        "text": "250 units"
+      },
+      {
+        "label": "C",
+        "text": "400 units"
+      },
+      {
+        "label": "D",
+        "text": "225 units"
+      },
+      {
+        "label": "E",
+        "text": "160 units"
+      }
+    ],
+    "answer": "B",
+    "explanation": "At $20 per unit, revenue of $5,000 requires $5,000 / $20 = 250 units.",
+    "reference": "MKT-3.E | MKT-3.E.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which price change is associated with inelastic demand?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The move from B to A"
+      },
+      {
+        "label": "B",
+        "text": "Every move along the curve"
+      },
+      {
+        "label": "C",
+        "text": "No move along the curve"
+      },
+      {
+        "label": "D",
+        "text": "The move from A to B"
+      },
+      {
+        "label": "E",
+        "text": "The move from C to B"
+      }
+    ],
+    "answer": "E",
+    "explanation": "C to B lies in the lower half of the straight demand curve. Demand is inelastic there because quantity responds proportionally less than price.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. A straight downward-sloping demand curve contains point A in the upper half, point B below the midpoint, and point C still lower and farther right. An arrow marks the movement from C upward to B.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 20,
+            "y": 70
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 60,
+            "y": 30
+          },
+          {
+            "id": "C",
+            "label": "C",
+            "x": 75,
+            "y": 15
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 20,
+            "y": 70,
+            "xLabel": "QA",
+            "yLabel": "PA"
+          },
+          {
+            "id": "guide1",
+            "x": 60,
+            "y": 30,
+            "xLabel": "QB",
+            "yLabel": "PB"
+          },
+          {
+            "id": "guide2",
+            "x": 75,
+            "y": 15,
+            "xLabel": "QC",
+            "yLabel": "PC"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "Two demand curves have the same slope but refer to different price and quantity ranges. Which conclusion is valid?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The curve with the larger quantities must be more elastic at every point"
+      },
+      {
+        "label": "B",
+        "text": "Their elasticities may differ because percentage changes depend on starting values"
+      },
+      {
+        "label": "C",
+        "text": "Their elasticities must match because equal slopes always imply equal responsiveness"
+      },
+      {
+        "label": "D",
+        "text": "Neither curve can be elastic because their slopes are finite"
+      },
+      {
+        "label": "E",
+        "text": "Both curves must be unit elastic because each slope is constant"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Equal slopes describe equal absolute responses. Different price and quantity levels can still produce different percentage responses and elasticities.",
+    "reference": "MKT-3.E | MKT-3.E.2 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "A firm knows that a 4 percent price cut increased sales by 3 percent. Which conclusion follows?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand was unit elastic, and total revenue was unchanged"
+      },
+      {
+        "label": "B",
+        "text": "Demand was elastic, and total revenue likely increased"
+      },
+      {
+        "label": "C",
+        "text": "Demand was elastic, and total revenue likely decreased"
+      },
+      {
+        "label": "D",
+        "text": "Demand was inelastic, and total revenue likely increased"
+      },
+      {
+        "label": "E",
+        "text": "Demand was inelastic, and total revenue likely decreased"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The elasticity magnitude is 3% / 4% = 0.75. Demand is inelastic, so the price cut lowers total revenue.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | MKT-3.E.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 71,
+    "difficulty": "Hard",
+    "prompt": "A firm raises price by 10 percent. Sales fall by 8 percent in the first month and by 18 percent after one year. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand is unit elastic in both periods because the same price change applies"
+      },
+      {
+        "label": "B",
+        "text": "Demand is elastic in both periods because the demand curve slopes downward"
+      },
+      {
+        "label": "C",
+        "text": "Demand is initially inelastic but becomes elastic over the longer adjustment period"
+      },
+      {
+        "label": "D",
+        "text": "Demand is inelastic in both periods because sales fall after price rises"
+      },
+      {
+        "label": "E",
+        "text": "Demand is initially elastic but becomes inelastic over the longer adjustment period"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The first-month elasticity is 8/10 = 0.8, while the one-year value is 18/10 = 1.8. More adjustment time changes the response from inelastic to elastic.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | MKT-3.E.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 72,
+    "difficulty": "Hard",
+    "prompt": "Price rises from $8 to $10, and quantity demanded falls from 120 to 90 units. Which conclusion follows from the total-revenue test?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Revenue rises from $900 to $960, so demand is inelastic over the change"
+      },
+      {
+        "label": "B",
+        "text": "Revenue rises from $720 to $1,200, so demand is elastic over the change"
+      },
+      {
+        "label": "C",
+        "text": "Revenue falls from $960 to $900, so demand is elastic over the change"
+      },
+      {
+        "label": "D",
+        "text": "Revenue falls from $1,200 to $720, so demand is inelastic over the change"
+      },
+      {
+        "label": "E",
+        "text": "Revenue remains at $960, so demand is unit elastic over the change"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Revenue falls from $8 x 120 = $960 to $10 x 90 = $900. A price rise that lowers revenue indicates elastic demand.",
+    "reference": "MKT-3.E | MKT-3.E.3 | MKT-3.E.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 73,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, which conclusion is supported by the two equal-size movements?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Elastic above; inelastic below, despite equal slopes"
+      },
+      {
+        "label": "B",
+        "text": "Both movements are inelastic because each has the same absolute price change"
+      },
+      {
+        "label": "C",
+        "text": "Both movements are unit elastic because they occur on the same curve"
+      },
+      {
+        "label": "D",
+        "text": "The upper movement is inelastic and the lower movement is elastic"
+      },
+      {
+        "label": "E",
+        "text": "Both movements are elastic because each has the same absolute quantity change"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The upper movement occurs where price is high and quantity is low, giving elastic demand. The lower movement has the opposite percentage relationship and is inelastic.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. A straight downward-sloping demand curve shows movement A to B in the upper half and movement C to D in the lower half. Both movements have identical absolute price and quantity changes, and the curve has constant slope.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 15,
+            "y": 75
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 25,
+            "y": 65
+          },
+          {
+            "id": "C",
+            "label": "C",
+            "x": 65,
+            "y": 25
+          },
+          {
+            "id": "D",
+            "label": "D",
+            "x": 75,
+            "y": 15
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 15,
+            "y": 75,
+            "xLabel": "QA",
+            "yLabel": "PA"
+          },
+          {
+            "id": "guide1",
+            "x": 25,
+            "y": 65,
+            "xLabel": "QB",
+            "yLabel": "PB"
+          },
+          {
+            "id": "guide2",
+            "x": 65,
+            "y": 25,
+            "xLabel": "QC",
+            "yLabel": "PC"
+          },
+          {
+            "id": "guide3",
+            "x": 75,
+            "y": 15,
+            "xLabel": "QD",
+            "yLabel": "PD"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "Good X has few substitutes now, but several close substitutes will enter the market next year. If X's price increases by the same percentage in both periods, which outcome is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quantity demanded will increase later because substitutes become available"
+      },
+      {
+        "label": "B",
+        "text": "Total revenue will necessarily rise in both periods by the same amount"
+      },
+      {
+        "label": "C",
+        "text": "The later percentage decrease in quantity demanded will be larger"
+      },
+      {
+        "label": "D",
+        "text": "The later percentage decrease in quantity demanded will be smaller"
+      },
+      {
+        "label": "E",
+        "text": "The percentage decrease will be identical because the price change matches"
+      }
+    ],
+    "answer": "C",
+    "explanation": "New close substitutes make switching easier. The same price increase then causes a larger percentage reduction in purchases.",
+    "reference": "MKT-3.E | MKT-3.E.4 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "A firm's price falls by 12 percent, quantity demanded rises by 9 percent, and its original revenue was $40,000. Which conclusion is best supported without assuming exact compounding?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand is elastic, so total revenue decreases"
+      },
+      {
+        "label": "B",
+        "text": "Demand is inelastic, so total revenue decreases"
+      },
+      {
+        "label": "C",
+        "text": "Demand is unit elastic, so total revenue remains $40,000"
+      },
+      {
+        "label": "D",
+        "text": "Demand is elastic, so total revenue increases"
+      },
+      {
+        "label": "E",
+        "text": "Demand is inelastic, so total revenue increases"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The elasticity magnitude is 9/12 = 0.75, so demand is inelastic. Revenue falls; using the stated initial-value changes, its factor is 0.88 x 1.09 = 0.9592.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | MKT-3.E.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "Using the midpoint method, price rises from $6 to $8 while quantity demanded falls from 90 to 70 units. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand is inelastic because the elasticity magnitude is 0.875"
+      },
+      {
+        "label": "B",
+        "text": "Demand is unit elastic because both midpoint percentage changes are 25 percent"
+      },
+      {
+        "label": "C",
+        "text": "Demand is elastic because the quantity change is 20 units while the price change is $2"
+      },
+      {
+        "label": "D",
+        "text": "Demand is unit elastic because initial total revenue and final total revenue both equal $540"
+      },
+      {
+        "label": "E",
+        "text": "Demand is elastic because the midpoint elasticity equals 1.25"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Midpoint quantity change is 20/80 = 25%, and price change is 2/7 = 28.6%. Their ratio is 0.875, indicating inelastic demand.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "The price of each of two goods rises by 8 percent. Quantity demanded falls by 4 percent for good X and by 12 percent for good Y. Which conclusion is valid?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand for X is inelastic, while demand for Y is elastic"
+      },
+      {
+        "label": "B",
+        "text": "Demand for both goods is elastic because quantity demanded falls"
+      },
+      {
+        "label": "C",
+        "text": "Demand for both goods is inelastic because the same price change applies"
+      },
+      {
+        "label": "D",
+        "text": "Demand for X is unit elastic, while demand for Y is perfectly elastic"
+      },
+      {
+        "label": "E",
+        "text": "Demand for X is elastic, while demand for Y is inelastic"
+      }
+    ],
+    "answer": "A",
+    "explanation": "X's elasticity magnitude is 4/8 = 0.5, while Y's is 12/8 = 1.5. X is inelastic and Y is elastic.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, which conclusion follows from the change from A to B?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Total revenue is unchanged, indicating unit-elastic demand over the range"
+      },
+      {
+        "label": "B",
+        "text": "Total revenue rises, indicating elastic demand over the range"
+      },
+      {
+        "label": "C",
+        "text": "Total revenue rises, indicating inelastic demand over the range"
+      },
+      {
+        "label": "D",
+        "text": "Total revenue falls, indicating elastic demand over the range"
+      },
+      {
+        "label": "E",
+        "text": "Total revenue falls, indicating inelastic demand over the range"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Revenue rises from $8 x 2 = $16 to $4 x 6 = $24. The price cut raises revenue, showing elastic demand over the change.",
+    "reference": "MKT-3.E | MKT-3.E.3 | MKT-3.E.5 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. A straight demand curve labeled D contains point A at price $8 and quantity 2 and point B at price $4 and quantity 6. Shaded price-times-quantity rectangles extend from each point to both axes.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 11.11111111111111,
+        "yMax": 11.11111111111111,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10,
+                "y": 0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 2,
+            "y": 8
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 6,
+            "y": 4
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 2,
+            "y": 8,
+            "xLabel": "2",
+            "yLabel": "$8"
+          },
+          {
+            "id": "guide1",
+            "x": 6,
+            "y": 4,
+            "xLabel": "6",
+            "yLabel": "$4"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 2,
+                "y": 0
+              },
+              {
+                "x": 2,
+                "y": 8
+              },
+              {
+                "x": 0,
+                "y": 8
+              }
+            ]
+          },
+          {
+            "id": "region1",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 6,
+                "y": 0
+              },
+              {
+                "x": 6,
+                "y": 4
+              },
+              {
+                "x": 0,
+                "y": 4
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Price × quantity rectangles; values stated in question"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "A product has a price elasticity of demand magnitude of 1.4. If its price decreases by 5 percent, which outcome is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quantity demanded rises by about 7 percent, and total revenue decreases"
+      },
+      {
+        "label": "B",
+        "text": "Quantity demanded rises by about 7 percent, and total revenue increases"
+      },
+      {
+        "label": "C",
+        "text": "Quantity demanded falls by about 7 percent, and total revenue increases"
+      },
+      {
+        "label": "D",
+        "text": "Quantity demanded rises by about 3.6 percent, and total revenue decreases"
+      },
+      {
+        "label": "E",
+        "text": "Quantity demanded rises by about 5 percent, and total revenue is unchanged"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The approximate quantity increase is 1.4 x 5% = 7%. This strong response to the price cut raises total revenue.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | MKT-3.E.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "A seller initially charges $15 and sells 400 units. After lowering price to $12, which quantity sold would show that demand was elastic over the change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Between 401 and 499 units"
+      },
+      {
+        "label": "B",
+        "text": "Exactly 400 units"
+      },
+      {
+        "label": "C",
+        "text": "Exactly 500 units"
+      },
+      {
+        "label": "D",
+        "text": "Fewer than 320 units"
+      },
+      {
+        "label": "E",
+        "text": "More than 500 units"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Initial revenue is $15 x 400 = $6,000. At $12, sales must exceed $6,000 / $12 = 500 units for revenue to rise and indicate elastic demand.",
+    "reference": "MKT-3.E | MKT-3.E.3 | MKT-3.E.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "Which change would most likely make demand for a product more elastic even if the product remains a necessity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "More close substitutes become available and consumers have more time to adjust"
+      },
+      {
+        "label": "B",
+        "text": "Consumers view the product as more necessary and alternatives become harder to find"
+      },
+      {
+        "label": "C",
+        "text": "The product takes a smaller budget share and consumers have less time to adjust"
+      },
+      {
+        "label": "D",
+        "text": "The product takes a smaller budget share and close substitutes disappear"
+      },
+      {
+        "label": "E",
+        "text": "Fewer close substitutes become available and consumers have less time to adjust"
+      }
+    ],
+    "answer": "A",
+    "explanation": "More substitutes and more adjustment time both let consumers respond more strongly to price. These can increase elasticity even for a necessity.",
+    "reference": "MKT-3.E | MKT-3.E.4 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, which sequence correctly describes a price decrease from A to B and then from B to C?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Total revenue falls after both decreases"
+      },
+      {
+        "label": "B",
+        "text": "Total revenue first falls and then rises"
+      },
+      {
+        "label": "C",
+        "text": "Total revenue rises after both decreases"
+      },
+      {
+        "label": "D",
+        "text": "Total revenue first rises and then falls"
+      },
+      {
+        "label": "E",
+        "text": "Total revenue remains unchanged after both decreases"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The price cut toward B moves through the elastic region and raises revenue. The further cut toward C moves through the inelastic region and lowers revenue.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | MKT-3.E.5 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. A straight demand curve labeled D contains point A in its upper half, point B at its midpoint, and point C in its lower half. Arrows show price decreases from A to B and then from B to C.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 20,
+            "y": 70
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 45,
+            "y": 45
+          },
+          {
+            "id": "C",
+            "label": "C",
+            "x": 70,
+            "y": 20
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 20,
+            "y": 70,
+            "xLabel": "QA",
+            "yLabel": "PA"
+          },
+          {
+            "id": "guide1",
+            "x": 45,
+            "y": 45,
+            "xLabel": "QB",
+            "yLabel": "PB"
+          },
+          {
+            "id": "guide2",
+            "x": 70,
+            "y": 20,
+            "xLabel": "QC",
+            "yLabel": "PC"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "A 6 percent price increase causes a 9 percent decrease in quantity demanded. Which combination is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Elasticity is 1.5, and total revenue decreases"
+      },
+      {
+        "label": "B",
+        "text": "Elasticity is 0.67, and total revenue decreases"
+      },
+      {
+        "label": "C",
+        "text": "Elasticity is 0.67, and total revenue increases"
+      },
+      {
+        "label": "D",
+        "text": "Elasticity is 1.0, and total revenue is unchanged"
+      },
+      {
+        "label": "E",
+        "text": "Elasticity is 1.5, and total revenue increases"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The elasticity magnitude is 9/6 = 1.5. Demand is elastic, so the price rise lowers total revenue.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | MKT-3.E.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "Demand for a particular brand of cereal is more elastic than demand for cereal as a broad category. Which explanation is best?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The broad category is defined more narrowly than the individual brand"
+      },
+      {
+        "label": "B",
+        "text": "The brand necessarily takes a larger share of every consumer's income"
+      },
+      {
+        "label": "C",
+        "text": "The broad category has more close substitutes than the individual brand"
+      },
+      {
+        "label": "D",
+        "text": "The brand has more close substitutes than the broad category"
+      },
+      {
+        "label": "E",
+        "text": "The brand's demand must be more steeply sloped at every price"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Other cereal brands are close substitutes for one particular brand. Replacing cereal as an entire category is harder, making category demand less elastic.",
+    "reference": "MKT-3.E | MKT-3.E.4 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "At two points on the same straight demand curve, equal $1 price decreases cause equal 10-unit increases in quantity demanded. Why can the elasticities differ?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Elasticity depends only on the dollar change and ignores the initial values"
+      },
+      {
+        "label": "B",
+        "text": "Different starting values create different percentage changes"
+      },
+      {
+        "label": "C",
+        "text": "Equal quantity changes always imply equal elasticities on one demand curve"
+      },
+      {
+        "label": "D",
+        "text": "The elasticity formula reverses its numerator below the curve's midpoint"
+      },
+      {
+        "label": "E",
+        "text": "The curve's slope must change between the two points despite being straight"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The same $1 and 10-unit changes use different starting price and quantity bases. Their percentage ratio, and hence elasticity, can differ.",
+    "reference": "MKT-3.E | MKT-3.E.2 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "A firm's total revenue is $18,000 before and after it changes price. Which statement is best supported?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand is perfectly elastic over the observed price change"
+      },
+      {
+        "label": "B",
+        "text": "Demand is inelastic because price must have changed"
+      },
+      {
+        "label": "C",
+        "text": "Demand is perfectly inelastic over the observed price change"
+      },
+      {
+        "label": "D",
+        "text": "Demand is unit elastic over the observed price change"
+      },
+      {
+        "label": "E",
+        "text": "Demand is elastic because quantity demanded must have changed"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Price times quantity remains $18,000 after the change. The total-revenue test therefore indicates unit-elastic demand over that interval.",
+    "reference": "MKT-3.E | MKT-3.E.3 | MKT-3.E.5 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, if price rises from P1 to P2, what happens to total revenue?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls on D1 and rises on D2"
+      },
+      {
+        "label": "B",
+        "text": "It rises on both D1 and D2"
+      },
+      {
+        "label": "C",
+        "text": "It rises on D1 and falls to zero on D2"
+      },
+      {
+        "label": "D",
+        "text": "It falls to zero on both curves"
+      },
+      {
+        "label": "E",
+        "text": "It remains unchanged on both curves"
+      }
+    ],
+    "answer": "C",
+    "explanation": "On vertical D1, quantity stays fixed and the higher price raises revenue. On horizontal D2, price above P1 eliminates purchases, reducing revenue to zero.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | MKT-3.E.5 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. D1 is vertical at quantity Q1, with labeled prices P1 and P2 on it. D2 is horizontal at price P1, and P2 is above D2.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D1",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 45,
+                "y": 10
+              },
+              {
+                "x": 45,
+                "y": 85
+              }
+            ]
+          },
+          {
+            "id": "D2",
+            "label": "D2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 10,
+                "y": 35
+              },
+              {
+                "x": 85,
+                "y": 35
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 45,
+            "y": 35
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 45,
+            "y": 70
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 45,
+            "y": 35,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 45,
+            "y": 70,
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "The magnitude of price elasticity of demand is 0.6, and quantity demanded decreases by 9 percent. The price most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increased by 15 percent"
+      },
+      {
+        "label": "B",
+        "text": "Increased by 9.6 percent"
+      },
+      {
+        "label": "C",
+        "text": "Increased by 5.4 percent"
+      },
+      {
+        "label": "D",
+        "text": "Decreased by 5.4 percent"
+      },
+      {
+        "label": "E",
+        "text": "Decreased by 15 percent"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The price change is 9% / 0.6 = 15%. It must be an increase to account for the decrease in quantity demanded.",
+    "reference": "MKT-3.E | MKT-3.E.2 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "A firm lowers price first across an elastic range and then by the same dollar amount across an inelastic range. Which outcome is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Revenue falls after both cuts because price decreases each time"
+      },
+      {
+        "label": "B",
+        "text": "Revenue falls after the first cut but rises after the second cut"
+      },
+      {
+        "label": "C",
+        "text": "Revenue rises after both cuts because quantity demanded increases"
+      },
+      {
+        "label": "D",
+        "text": "Revenue remains unchanged after both cuts because the dollar changes match"
+      },
+      {
+        "label": "E",
+        "text": "Revenue rises after the first cut but falls after the second cut"
+      }
+    ],
+    "answer": "E",
+    "explanation": "A price cut in the elastic range raises revenue through a strong sales response. A cut in the inelastic range lowers revenue because the sales response is too small.",
+    "reference": "MKT-3.E | MKT-3.E.3 | MKT-3.E.5 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "Price decreases from $20 to $16 while quantity demanded increases from 300 to 390 units. Which conclusion is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Revenue remains at $6,000, indicating unit-elastic demand"
+      },
+      {
+        "label": "B",
+        "text": "Revenue rises from $4,800 to $7,800, indicating inelastic demand"
+      },
+      {
+        "label": "C",
+        "text": "Revenue falls from $6,240 to $6,000, indicating inelastic demand"
+      },
+      {
+        "label": "D",
+        "text": "Revenue falls from $7,800 to $4,800, indicating elastic demand"
+      },
+      {
+        "label": "E",
+        "text": "Revenue rises from $6,000 to $6,240, indicating elastic demand"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Revenue increases from $20 x 300 = $6,000 to $16 x 390 = $6,240. The price cut raises revenue, indicating elastic demand over the interval.",
+    "reference": "MKT-3.E | MKT-3.E.3 | MKT-3.E.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "A price increase raises total revenue over one range but lowers total revenue over another range of the same demand curve. Which statement must be true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand has the same elasticity over both ranges because slope is unchanged"
+      },
+      {
+        "label": "B",
+        "text": "Demand is perfectly inelastic over the first range and perfectly elastic over the second"
+      },
+      {
+        "label": "C",
+        "text": "Demand is elastic over the first range and inelastic over the second"
+      },
+      {
+        "label": "D",
+        "text": "Demand is inelastic over the first range and elastic over the second"
+      },
+      {
+        "label": "E",
+        "text": "Demand is unit elastic over both ranges because one curve is used"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The first price increase raises revenue, indicating inelastic demand. The second lowers revenue, indicating elastic demand in that range.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | MKT-3.E.5 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "For a straight downward-sloping demand curve, total revenue is maximized at the quantity where",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand first becomes perfectly elastic"
+      },
+      {
+        "label": "B",
+        "text": "Price reaches its vertical intercept"
+      },
+      {
+        "label": "C",
+        "text": "Demand is unit elastic"
+      },
+      {
+        "label": "D",
+        "text": "Quantity reaches its horizontal intercept"
+      },
+      {
+        "label": "E",
+        "text": "Demand is most inelastic"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Revenue grows as quantity increases through the elastic region and falls through the inelastic region. The maximum occurs at unit elasticity, the midpoint of the straight curve.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | MKT-3.E.5 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, which statement correctly compares points A and C?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand is unit elastic at both A and C because the curve is linear"
+      },
+      {
+        "label": "B",
+        "text": "Demand has equal elasticity at A and C because both points share one slope"
+      },
+      {
+        "label": "C",
+        "text": "Demand is less elastic at A because its price is higher there"
+      },
+      {
+        "label": "D",
+        "text": "Demand is more elastic at C because quantity demanded is larger there"
+      },
+      {
+        "label": "E",
+        "text": "More elastic at A, despite equal slopes"
+      }
+    ],
+    "answer": "E",
+    "explanation": "A has a higher price and lower quantity than C. Percentage quantity responsiveness relative to price is therefore larger at A, despite the constant slope.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. A single straight downward-sloping demand curve labeled D contains point A in the upper portion, point B at the midpoint, and point C in the lower portion. Equal-sized price intervals are marked around A and C.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 20,
+            "y": 70
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 45,
+            "y": 45
+          },
+          {
+            "id": "C",
+            "label": "C",
+            "x": 70,
+            "y": 20
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 20,
+            "y": 70,
+            "xLabel": "QA",
+            "yLabel": "PA"
+          },
+          {
+            "id": "guide1",
+            "x": 45,
+            "y": 45,
+            "xLabel": "QB",
+            "yLabel": "PB"
+          },
+          {
+            "id": "guide2",
+            "x": 70,
+            "y": 20,
+            "xLabel": "QC",
+            "yLabel": "PC"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "Which pair of changes would both tend to reduce the price elasticity of demand for a good?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A narrower market definition and more close substitutes"
+      },
+      {
+        "label": "B",
+        "text": "A broader market definition and a longer adjustment period"
+      },
+      {
+        "label": "C",
+        "text": "Fewer close substitutes and a larger share of consumer income"
+      },
+      {
+        "label": "D",
+        "text": "More close substitutes and a longer adjustment period"
+      },
+      {
+        "label": "E",
+        "text": "Fewer close substitutes and a smaller share of consumer income"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Fewer substitutes make switching harder. A smaller budget share also reduces the incentive to adjust purchases, lowering elasticity.",
+    "reference": "MKT-3.E | MKT-3.E.4 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "A firm cuts price from $30 to $24 and wants total revenue to rise by exactly 4 percent from its initial $9,000. How many units must it sell?",
+    "options": [
+      {
+        "label": "A",
+        "text": "360 units"
+      },
+      {
+        "label": "B",
+        "text": "390 units"
+      },
+      {
+        "label": "C",
+        "text": "375 units"
+      },
+      {
+        "label": "D",
+        "text": "312 units"
+      },
+      {
+        "label": "E",
+        "text": "450 units"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The revenue target is $9,000 x 1.04 = $9,360. At $24, required sales are $9,360 / $24 = 390 units.",
+    "reference": "MKT-3.E | MKT-3.E.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "A commuter has no immediate alternative to a toll road, but can change jobs or move within two years. Which statement is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand is unit elastic in both periods because the toll is unchanged"
+      },
+      {
+        "label": "B",
+        "text": "Long-run demand is more elastic because more adjustments become possible"
+      },
+      {
+        "label": "C",
+        "text": "Short-run demand is more elastic because alternatives require time"
+      },
+      {
+        "label": "D",
+        "text": "Long-run demand is less elastic because the road remains the same good"
+      },
+      {
+        "label": "E",
+        "text": "Elasticity cannot differ unless the demand curve's slope changes"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Relocation and job changes give the commuter alternatives over time. Demand can therefore respond more strongly to toll changes in the long run.",
+    "reference": "MKT-3.E | MKT-3.E.4 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "Using the midpoint method, price falls from $30 to $24 and quantity demanded rises from 50 to 70 units. What is the elasticity magnitude?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2.00"
+      },
+      {
+        "label": "B",
+        "text": "1.20"
+      },
+      {
+        "label": "C",
+        "text": "0.67"
+      },
+      {
+        "label": "D",
+        "text": "1.50"
+      },
+      {
+        "label": "E",
+        "text": "0.90"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Midpoint quantity change is 20/60 = 33.3%, and price change is 6/27 = 22.2%. Their ratio gives an elasticity magnitude of 1.50.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, which conclusion is supported by points A and B?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The rectangle at B is larger, so demand is inelastic over the change"
+      },
+      {
+        "label": "B",
+        "text": "The rectangle at A is larger, so demand is elastic over the change"
+      },
+      {
+        "label": "C",
+        "text": "The two rectangles have equal width, so demand is perfectly inelastic"
+      },
+      {
+        "label": "D",
+        "text": "The two rectangles have equal height, so demand is perfectly elastic"
+      },
+      {
+        "label": "E",
+        "text": "Unit elastic; revenue rectangle areas are equal"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Revenue is $8 x 2 = $16 at A and $2 x 8 = $16 at B. Equal revenue indicates unit elasticity over the interval by the total-revenue test.",
+    "reference": "MKT-3.E | MKT-3.E.3 | MKT-3.E.5 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity demanded is on the horizontal axis. A straight demand curve labeled D contains point A at price $8 and quantity 2 and point B at price $2 and quantity 8. Shaded price-times-quantity rectangles extend from both points to the axes and have equal area.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 11.11111111111111,
+        "yMax": 11.11111111111111,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10,
+                "y": 0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 2,
+            "y": 8
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 8,
+            "y": 2
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 2,
+            "y": 8,
+            "xLabel": "2",
+            "yLabel": "$8"
+          },
+          {
+            "id": "guide1",
+            "x": 8,
+            "y": 2,
+            "xLabel": "8",
+            "yLabel": "$2"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 2,
+                "y": 0
+              },
+              {
+                "x": 2,
+                "y": 8
+              },
+              {
+                "x": 0,
+                "y": 8
+              }
+            ]
+          },
+          {
+            "id": "region1",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 8,
+                "y": 0
+              },
+              {
+                "x": 8,
+                "y": 2
+              },
+              {
+                "x": 0,
+                "y": 2
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Price × quantity rectangles; values stated in question"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "A firm's data show elastic demand from $12 to $10 and inelastic demand from $10 to $8. What can be concluded about a price of $10?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It lies in a perfectly inelastic region because revenue cannot change"
+      },
+      {
+        "label": "B",
+        "text": "It lies in a perfectly elastic region because elasticity changes there"
+      },
+      {
+        "label": "C",
+        "text": "It must produce zero total revenue because two elasticity ranges meet"
+      },
+      {
+        "label": "D",
+        "text": "It must be the price-axis intercept of a straight demand curve"
+      },
+      {
+        "label": "E",
+        "text": "It lies at or near the revenue-maximizing unit-elastic region"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Cutting price to $10 raises revenue in the elastic range, but cutting it further lowers revenue in the inelastic range. This places $10 at or near the revenue-maximizing transition.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | MKT-3.E.5 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "On a straight demand curve, price-quantity combinations are $9 and 3 units, $6 and 6 units, and $3 and 9 units. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Revenue is lowest at $6, where price and quantity are equal"
+      },
+      {
+        "label": "B",
+        "text": "Revenue is greatest at $6, where demand is unit elastic"
+      },
+      {
+        "label": "C",
+        "text": "Revenue is equal at all three prices because the curve is straight"
+      },
+      {
+        "label": "D",
+        "text": "Revenue is greatest at $3, where quantity demanded is largest"
+      },
+      {
+        "label": "E",
+        "text": "Revenue is greatest at $9, where demand is most elastic"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The three revenues are $9 x 3 = $27, $6 x 6 = $36, and $3 x 9 = $27. The $6 combination is the linear curve's unit-elastic midpoint and has the largest revenue.",
+    "reference": "MKT-3.E | MKT-3.E.2 | MKT-3.E.3 | MKT-3.E.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  }
+]

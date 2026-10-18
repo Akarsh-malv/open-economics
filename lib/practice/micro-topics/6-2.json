@@ -1,0 +1,4042 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, the market produces Qm rather than Qs because producers consider",
+    "options": [
+      {
+        "label": "A",
+        "text": "Average social cost rather than marginal cost"
+      },
+      {
+        "label": "B",
+        "text": "Only consumer surplus rather than revenue"
+      },
+      {
+        "label": "C",
+        "text": "Marginal social cost rather than marginal private cost"
+      },
+      {
+        "label": "D",
+        "text": "Private cost rather than full social cost"
+      },
+      {
+        "label": "E",
+        "text": "Marginal external benefit rather than private benefit"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Producers base supply on marginal private cost and do not bear the external harm. The market therefore produces Qm above the socially efficient Qs.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "Quantity is on the horizontal axis and marginal benefit and marginal cost are on the vertical axis. Demand is labeled MPB = MSB. MPC lies below MSC, and Qm at MPB = MPC is to the right of Qs at MSB = MSC. The vertical gap is labeled marginal external cost.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Marginal benefit / cost",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MPB = MSB",
+            "label": "MPB = MSB",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 94.0,
+                "y": 14.799999999999997
+              }
+            ]
+          },
+          {
+            "id": "MPC",
+            "label": "MPC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10.0
+              },
+              {
+                "x": 94.0,
+                "y": 85.2
+              }
+            ]
+          },
+          {
+            "id": "MSC",
+            "label": "MSC",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 34.0
+              },
+              {
+                "x": 75.0,
+                "y": 94.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 35,
+            "y": 62
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qm"
+          },
+          {
+            "id": "guide1",
+            "x": 35,
+            "y": 62,
+            "xLabel": "Qs"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 35,
+                "y": 62
+              },
+              {
+                "x": 50,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 74
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "A positive consumption externality exists when",
+    "options": [
+      {
+        "label": "A",
+        "text": "Buyers capture every benefit from consumption"
+      },
+      {
+        "label": "B",
+        "text": "The market produces more than the social optimum"
+      },
+      {
+        "label": "C",
+        "text": "Production imposes costs on people outside the market"
+      },
+      {
+        "label": "D",
+        "text": "Sellers face marginal social cost above private cost"
+      },
+      {
+        "label": "E",
+        "text": "Consumption benefits people outside the transaction"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Consumption benefits people beyond the buyer. Adding those external benefits makes MSB exceed MPB.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "With a negative production externality, an unregulated market generally",
+    "options": [
+      {
+        "label": "A",
+        "text": "Produces more than the socially efficient quantity"
+      },
+      {
+        "label": "B",
+        "text": "Maximizes total social surplus automatically"
+      },
+      {
+        "label": "C",
+        "text": "Produces less than the socially efficient quantity"
+      },
+      {
+        "label": "D",
+        "text": "Sets marginal private cost above marginal social cost"
+      },
+      {
+        "label": "E",
+        "text": "Eliminates all external cost through price"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The market supply curve omits costs imposed on others. It lies below MSC, so unregulated output exceeds the social optimum.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "With a positive consumption externality, an unregulated market generally",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eliminates the free-rider problem"
+      },
+      {
+        "label": "B",
+        "text": "Causes marginal social cost to exceed private cost"
+      },
+      {
+        "label": "C",
+        "text": "Produces less than the socially efficient quantity"
+      },
+      {
+        "label": "D",
+        "text": "Sets marginal private benefit above marginal social benefit"
+      },
+      {
+        "label": "E",
+        "text": "Produces more than the socially efficient quantity"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Buyers consider their own benefits but not benefits to others. Demand understates MSB, leaving output below the socially efficient quantity.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, the externality is best classified as",
+    "options": [
+      {
+        "label": "A",
+        "text": "A negative consumption externality"
+      },
+      {
+        "label": "B",
+        "text": "A positive production externality"
+      },
+      {
+        "label": "C",
+        "text": "A negative production externality"
+      },
+      {
+        "label": "D",
+        "text": "A public-good free-rider problem"
+      },
+      {
+        "label": "E",
+        "text": "A positive consumption externality"
+      }
+    ],
+    "answer": "C",
+    "explanation": "MSC is above MPC because production harms third parties. This is a negative production externality.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "Quantity is on the horizontal axis and marginal benefit and marginal cost are on the vertical axis. Demand is labeled MPB = MSB. MPC lies below MSC, and Qm at MPB = MPC is to the right of Qs at MSB = MSC. The vertical gap is labeled marginal external cost.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Marginal benefit / cost",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MPB = MSB",
+            "label": "MPB = MSB",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 94.0,
+                "y": 14.799999999999997
+              }
+            ]
+          },
+          {
+            "id": "MPC",
+            "label": "MPC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10.0
+              },
+              {
+                "x": 94.0,
+                "y": 85.2
+              }
+            ]
+          },
+          {
+            "id": "MSC",
+            "label": "MSC",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 34.0
+              },
+              {
+                "x": 75.0,
+                "y": 94.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 35,
+            "y": 62
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qm"
+          },
+          {
+            "id": "guide1",
+            "x": 35,
+            "y": 62,
+            "xLabel": "Qs"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 35,
+                "y": 62
+              },
+              {
+                "x": 50,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 74
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "The marginal external benefit of consumption equals",
+    "options": [
+      {
+        "label": "A",
+        "text": "Marginal social benefit minus marginal private benefit"
+      },
+      {
+        "label": "B",
+        "text": "Marginal private benefit minus marginal social benefit"
+      },
+      {
+        "label": "C",
+        "text": "Producer surplus minus consumer surplus"
+      },
+      {
+        "label": "D",
+        "text": "The subsidy multiplied by market quantity"
+      },
+      {
+        "label": "E",
+        "text": "Marginal social cost minus marginal private cost"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Marginal external benefit is the benefit received by others from one extra unit. It equals MSB minus MPB at that quantity.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "A corrective tax for a negative production externality should ideally equal",
+    "options": [
+      {
+        "label": "A",
+        "text": "The difference between average and marginal cost"
+      },
+      {
+        "label": "B",
+        "text": "Marginal external cost at efficient output"
+      },
+      {
+        "label": "C",
+        "text": "Marginal private benefit at every quantity"
+      },
+      {
+        "label": "D",
+        "text": "Consumer surplus at the social optimum"
+      },
+      {
+        "label": "E",
+        "text": "The total external cost at the market quantity"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A tax equal to marginal external cost at the efficient quantity adds the omitted cost to private decisions. MPC plus the tax then matches MSC at the target output.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "A corrective subsidy for a positive consumption externality should ideally equal",
+    "options": [
+      {
+        "label": "A",
+        "text": "Producer surplus before the subsidy"
+      },
+      {
+        "label": "B",
+        "text": "Marginal social cost at every quantity"
+      },
+      {
+        "label": "C",
+        "text": "The total private benefit at the market quantity"
+      },
+      {
+        "label": "D",
+        "text": "The difference between fixed and variable cost"
+      },
+      {
+        "label": "E",
+        "text": "Marginal external benefit at efficient output"
+      }
+    ],
+    "answer": "E",
+    "explanation": "A subsidy equal to marginal external benefit at efficient output adds the omitted benefit to private incentives. It brings the private choice toward the full social-benefit margin.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, the unregulated market creates deadweight loss because",
+    "options": [
+      {
+        "label": "A",
+        "text": "The market produces below Qs"
+      },
+      {
+        "label": "B",
+        "text": "All units below Qs have zero private benefit"
+      },
+      {
+        "label": "C",
+        "text": "Units between Qs and Qm have MSB above MSC"
+      },
+      {
+        "label": "D",
+        "text": "MPC exceeds MSC at every quantity"
+      },
+      {
+        "label": "E",
+        "text": "Units between Qs and Qm have MSC above MSB"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Units beyond Qs have social costs above their benefits. Their negative net benefits form the deadweight loss from overproduction.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "Quantity is on the horizontal axis and marginal benefit and marginal cost are on the vertical axis. Demand is labeled MPB = MSB. MPC lies below MSC, and Qm at MPB = MPC is to the right of Qs at MSB = MSC. The vertical gap is labeled marginal external cost.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Marginal benefit / cost",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MPB = MSB",
+            "label": "MPB = MSB",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 94.0,
+                "y": 14.799999999999997
+              }
+            ]
+          },
+          {
+            "id": "MPC",
+            "label": "MPC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10.0
+              },
+              {
+                "x": 94.0,
+                "y": 85.2
+              }
+            ]
+          },
+          {
+            "id": "MSC",
+            "label": "MSC",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 34.0
+              },
+              {
+                "x": 75.0,
+                "y": 94.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 35,
+            "y": 62
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qm"
+          },
+          {
+            "id": "guide1",
+            "x": 35,
+            "y": 62,
+            "xLabel": "Qs"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 35,
+                "y": 62
+              },
+              {
+                "x": 50,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 74
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "High transaction costs make private correction less likely because",
+    "options": [
+      {
+        "label": "A",
+        "text": "They make every good excludable"
+      },
+      {
+        "label": "B",
+        "text": "They force firms to maximize social surplus"
+      },
+      {
+        "label": "C",
+        "text": "They cause external benefits to become private costs"
+      },
+      {
+        "label": "D",
+        "text": "They guarantee that marginal social cost equals private cost"
+      },
+      {
+        "label": "E",
+        "text": "Bargaining costs may exceed the potential gains"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Search, negotiation, monitoring, and enforcement use resources. If these transaction costs exceed the gains from an agreement, private bargaining may not occur.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "A negative consumption externality causes market demand to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Shift marginal private cost upward"
+      },
+      {
+        "label": "B",
+        "text": "Overstate marginal social benefit"
+      },
+      {
+        "label": "C",
+        "text": "Understate marginal social benefit"
+      },
+      {
+        "label": "D",
+        "text": "Equal marginal social cost at every quantity"
+      },
+      {
+        "label": "E",
+        "text": "Represent only external benefit"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Consumers enjoy private benefits but impose harm on others. Their MPB exceeds the lower MSB after that harm is counted.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "A positive production externality causes market supply to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Equal marginal social benefit at every quantity"
+      },
+      {
+        "label": "B",
+        "text": "Overstate marginal social cost"
+      },
+      {
+        "label": "C",
+        "text": "Represent only external cost"
+      },
+      {
+        "label": "D",
+        "text": "Understate marginal social cost"
+      },
+      {
+        "label": "E",
+        "text": "Shift marginal private benefit downward"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Production benefits third parties as well as the producer. Deducting those benefits from private cost makes MSC lower than MPC, so private supply overstates social cost.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, an efficient corrective tax would move output",
+    "options": [
+      {
+        "label": "A",
+        "text": "Without changing private marginal cost"
+      },
+      {
+        "label": "B",
+        "text": "From Qm leftward toward Qs"
+      },
+      {
+        "label": "C",
+        "text": "Above Qm"
+      },
+      {
+        "label": "D",
+        "text": "From Qs rightward toward Qm"
+      },
+      {
+        "label": "E",
+        "text": "To the demand intercept"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The corrective tax makes producers face the previously omitted external cost. Output falls from Qm toward Qs, where MSB equals MSC.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "Quantity is on the horizontal axis and marginal benefit and marginal cost are on the vertical axis. Demand is labeled MPB = MSB. MPC lies below MSC, and Qm at MPB = MPC is to the right of Qs at MSB = MSC. The vertical gap is labeled marginal external cost.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Marginal benefit / cost",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MPB = MSB",
+            "label": "MPB = MSB",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 94.0,
+                "y": 14.799999999999997
+              }
+            ]
+          },
+          {
+            "id": "MPC",
+            "label": "MPC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10.0
+              },
+              {
+                "x": 94.0,
+                "y": 85.2
+              }
+            ]
+          },
+          {
+            "id": "MSC",
+            "label": "MSC",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 34.0
+              },
+              {
+                "x": 75.0,
+                "y": 94.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 35,
+            "y": 62
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qm"
+          },
+          {
+            "id": "guide1",
+            "x": 35,
+            "y": 62,
+            "xLabel": "Qs"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 35,
+                "y": 62
+              },
+              {
+                "x": 50,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 74
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "For a positive production externality, the socially efficient quantity is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Above the unregulated market quantity"
+      },
+      {
+        "label": "B",
+        "text": "Zero whenever an external benefit exists"
+      },
+      {
+        "label": "C",
+        "text": "Determined where MPB equals MPC only"
+      },
+      {
+        "label": "D",
+        "text": "Equal to the market quantity regardless of spillovers"
+      },
+      {
+        "label": "E",
+        "text": "Below the unregulated market quantity"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A positive production externality makes MSC lower than MPC. More units have benefits above social cost than the private market recognizes, so efficient output is higher.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "Environmental regulation can improve efficiency when it",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sets output where marginal private benefit equals zero"
+      },
+      {
+        "label": "B",
+        "text": "Eliminates every unit of production regardless of benefit"
+      },
+      {
+        "label": "C",
+        "text": "Raises transaction costs above all bargaining gains"
+      },
+      {
+        "label": "D",
+        "text": "Damage reduction benefits exceed the compliance costs"
+      },
+      {
+        "label": "E",
+        "text": "Ignores the marginal damage caused by production"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Avoiding external harm creates a social benefit. Regulation improves efficiency when that benefit exceeds its real compliance and implementation costs.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "Public provision can address a positive externality by",
+    "options": [
+      {
+        "label": "A",
+        "text": "Removing every benefit received by nonbuyers"
+      },
+      {
+        "label": "B",
+        "text": "Raising marginal private cost above social cost"
+      },
+      {
+        "label": "C",
+        "text": "Increase consumption toward the MSB = MSC quantity"
+      },
+      {
+        "label": "D",
+        "text": "Making marginal social benefit equal zero"
+      },
+      {
+        "label": "E",
+        "text": "Reducing consumption below the private market quantity"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Public provision can increase use of the good when private demand ignores benefits to others. Expansion toward efficient output realizes those external gains.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, the vertical gap between MSC and MPC measures",
+    "options": [
+      {
+        "label": "A",
+        "text": "Total external cost"
+      },
+      {
+        "label": "B",
+        "text": "Producer surplus"
+      },
+      {
+        "label": "C",
+        "text": "Marginal external cost"
+      },
+      {
+        "label": "D",
+        "text": "Government revenue"
+      },
+      {
+        "label": "E",
+        "text": "Marginal external benefit"
+      }
+    ],
+    "answer": "C",
+    "explanation": "MSC includes private cost plus external production cost. The vertical difference MSC - MPC measures marginal external cost.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "Quantity is on the horizontal axis and marginal benefit and marginal cost are on the vertical axis. Demand is labeled MPB = MSB. MPC lies below MSC, and Qm at MPB = MPC is to the right of Qs at MSB = MSC. The vertical gap is labeled marginal external cost.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Marginal benefit / cost",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MPB = MSB",
+            "label": "MPB = MSB",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 94.0,
+                "y": 14.799999999999997
+              }
+            ]
+          },
+          {
+            "id": "MPC",
+            "label": "MPC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10.0
+              },
+              {
+                "x": 94.0,
+                "y": 85.2
+              }
+            ]
+          },
+          {
+            "id": "MSC",
+            "label": "MSC",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 34.0
+              },
+              {
+                "x": 75.0,
+                "y": 94.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 35,
+            "y": 62
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qm"
+          },
+          {
+            "id": "guide1",
+            "x": 35,
+            "y": 62,
+            "xLabel": "Qs"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 35,
+                "y": 62
+              },
+              {
+                "x": 50,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 74
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "If a $7 external cost exists at the efficient quantity, a $7 tax can",
+    "options": [
+      {
+        "label": "A",
+        "text": "Turn the good into a public good"
+      },
+      {
+        "label": "B",
+        "text": "Shift marginal social benefit upward by $14"
+      },
+      {
+        "label": "C",
+        "text": "Eliminate the external harm from every remaining unit"
+      },
+      {
+        "label": "D",
+        "text": "Make the efficient quantity exceed the market quantity"
+      },
+      {
+        "label": "E",
+        "text": "Align MPC with MSC at efficient output"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The $7 tax adds the omitted $7 marginal external cost. At the efficient quantity, MPC plus tax equals MSC.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "If a subsidy is smaller than the marginal external benefit, the corrected quantity will generally",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eliminate the external benefit"
+      },
+      {
+        "label": "B",
+        "text": "Equal zero because demand shifts left"
+      },
+      {
+        "label": "C",
+        "text": "Make marginal private cost exceed marginal social cost"
+      },
+      {
+        "label": "D",
+        "text": "Rise above the socially efficient quantity"
+      },
+      {
+        "label": "E",
+        "text": "Remain below the socially efficient quantity"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The subsidy adds only part of the external benefit to private incentives. Output increases but generally remains below the efficient quantity.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "If a corrective tax exceeds marginal external cost, output will generally",
+    "options": [
+      {
+        "label": "A",
+        "text": "Rise above the socially efficient quantity"
+      },
+      {
+        "label": "B",
+        "text": "Remain above the unregulated quantity"
+      },
+      {
+        "label": "C",
+        "text": "Make external cost become an external benefit"
+      },
+      {
+        "label": "D",
+        "text": "Fall below the socially efficient quantity"
+      },
+      {
+        "label": "E",
+        "text": "Equal the unregulated market quantity"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A tax above marginal external cost makes decision makers face too high a cost at the efficient margin. It overcorrects and pushes output below the social optimum.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "A factory’s MPC is $12 and marginal external cost is $5 at efficient output. What is MSC?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$7"
+      },
+      {
+        "label": "B",
+        "text": "$12"
+      },
+      {
+        "label": "C",
+        "text": "$17"
+      },
+      {
+        "label": "D",
+        "text": "$5"
+      },
+      {
+        "label": "E",
+        "text": "$60"
+      }
+    ],
+    "answer": "C",
+    "explanation": "MSC = MPC + marginal external cost = $17.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 22,
+    "difficulty": "Medium",
+    "prompt": "A firm has marginal private cost $10 and marginal external cost $4. What is marginal social cost?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$25.20"
+      },
+      {
+        "label": "B",
+        "text": "$14.00"
+      },
+      {
+        "label": "C",
+        "text": "$22.40"
+      },
+      {
+        "label": "D",
+        "text": "$19.60"
+      },
+      {
+        "label": "E",
+        "text": "$16.80"
+      }
+    ],
+    "answer": "B",
+    "explanation": "MSC = MPC + marginal external cost.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 23,
+    "difficulty": "Medium",
+    "prompt": "Marginal private benefit from a vaccination is $50; its marginal external benefit is $4. What is marginal social benefit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$64.80"
+      },
+      {
+        "label": "B",
+        "text": "$97.20"
+      },
+      {
+        "label": "C",
+        "text": "$75.60"
+      },
+      {
+        "label": "D",
+        "text": "$86.40"
+      },
+      {
+        "label": "E",
+        "text": "$54.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "MSB = MPB + marginal external benefit.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 24,
+    "difficulty": "Medium",
+    "prompt": "Each unit of output imposes constant external damage of $4. What per-unit corrective tax internalizes that damage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$5.00"
+      },
+      {
+        "label": "B",
+        "text": "$3.00"
+      },
+      {
+        "label": "C",
+        "text": "$4.00"
+      },
+      {
+        "label": "D",
+        "text": "$6.00"
+      },
+      {
+        "label": "E",
+        "text": "$7.00"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A corrective tax equals marginal external damage at efficient output.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "A vaccine provides MPB $20 and marginal external benefit $8 at the relevant quantity. What is MSB?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$8"
+      },
+      {
+        "label": "B",
+        "text": "$20"
+      },
+      {
+        "label": "C",
+        "text": "$12"
+      },
+      {
+        "label": "D",
+        "text": "$160"
+      },
+      {
+        "label": "E",
+        "text": "$28"
+      }
+    ],
+    "answer": "E",
+    "explanation": "MSB adds private and external benefits.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 26,
+    "difficulty": "Medium",
+    "prompt": "Education provides a constant marginal external benefit of $4 per unit. What per-unit corrective subsidy aligns private and social benefits?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$6.00"
+      },
+      {
+        "label": "B",
+        "text": "$3.00"
+      },
+      {
+        "label": "C",
+        "text": "$5.00"
+      },
+      {
+        "label": "D",
+        "text": "$4.00"
+      },
+      {
+        "label": "E",
+        "text": "$7.00"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The corrective subsidy equals marginal external benefit at efficient output.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 27,
+    "difficulty": "Medium",
+    "prompt": "MPB = 50 − Q, MPC = 10 + Q, and constant marginal external cost is $4. What is the socially efficient quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "21.60"
+      },
+      {
+        "label": "B",
+        "text": "28.80"
+      },
+      {
+        "label": "C",
+        "text": "32.40"
+      },
+      {
+        "label": "D",
+        "text": "18.00"
+      },
+      {
+        "label": "E",
+        "text": "25.20"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Set MPB equal to MPC plus external cost; 2Q = 36.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 28,
+    "difficulty": "Medium",
+    "prompt": "MPB = 50 − Q, MPC = 10 + Q, and constant marginal external benefit is $4. What is the socially efficient quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "22.00"
+      },
+      {
+        "label": "B",
+        "text": "26.40"
+      },
+      {
+        "label": "C",
+        "text": "17.60"
+      },
+      {
+        "label": "D",
+        "text": "13.20"
+      },
+      {
+        "label": "E",
+        "text": "30.80"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Set MPB plus external benefit equal to MPC.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "A tax equal to marginal external cost at efficient output is imposed on polluters. What does it aim to align?",
+    "options": [
+      {
+        "label": "A",
+        "text": "All household incomes"
+      },
+      {
+        "label": "B",
+        "text": "Market price with zero cost"
+      },
+      {
+        "label": "C",
+        "text": "Private marginal cost with social marginal cost"
+      },
+      {
+        "label": "D",
+        "text": "Total revenue with government spending"
+      },
+      {
+        "label": "E",
+        "text": "Private benefit with average fixed cost"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The corrective tax makes firms account for the external cost at the efficient margin.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 30,
+    "difficulty": "Medium",
+    "prompt": "Each of 20 units imposes $4 of external damage. What is total external cost?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$128.00"
+      },
+      {
+        "label": "B",
+        "text": "$80.00"
+      },
+      {
+        "label": "C",
+        "text": "$64.00"
+      },
+      {
+        "label": "D",
+        "text": "$96.00"
+      },
+      {
+        "label": "E",
+        "text": "$112.00"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Multiply damage per unit by the number of units.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 31,
+    "difficulty": "Medium",
+    "prompt": "Private output exceeds efficient output by 4 units. The linear MSB–MSC gap reaches $10 at private output. What is deadweight loss?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$16.00"
+      },
+      {
+        "label": "B",
+        "text": "$24.00"
+      },
+      {
+        "label": "C",
+        "text": "$12.00"
+      },
+      {
+        "label": "D",
+        "text": "$20.00"
+      },
+      {
+        "label": "E",
+        "text": "$28.00"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The loss is one-half times the quantity gap times the marginal-value gap.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 32,
+    "difficulty": "Medium",
+    "prompt": "Two firms have marginal abatement costs $10 and $50. Moving one unit of abatement from the higher-cost firm to the lower-cost firm leaves total emissions unchanged. What is the cost saving?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$72.00"
+      },
+      {
+        "label": "B",
+        "text": "$64.00"
+      },
+      {
+        "label": "C",
+        "text": "$56.00"
+      },
+      {
+        "label": "D",
+        "text": "$40.00"
+      },
+      {
+        "label": "E",
+        "text": "$48.00"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The same abatement is achieved at the difference in marginal costs.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 33,
+    "difficulty": "Medium",
+    "prompt": "For a negative consumption externality, the socially efficient quantity is in a national market",
+    "options": [
+      {
+        "label": "A",
+        "text": "Determined where MPB equals MPC only"
+      },
+      {
+        "label": "B",
+        "text": "Below the unregulated market quantity"
+      },
+      {
+        "label": "C",
+        "text": "Zero whenever an external cost exists"
+      },
+      {
+        "label": "D",
+        "text": "Equal to the market quantity regardless of harm"
+      },
+      {
+        "label": "E",
+        "text": "Above the unregulated market quantity"
+      }
+    ],
+    "answer": "B",
+    "explanation": "With negative consumption effects, MSB is below MPB. The social benefit-cost intersection occurs at a smaller quantity than the private equilibrium.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "A pollution tax is calibrated using average damage rather than marginal damage at efficient output. What is missing?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The average household wage"
+      },
+      {
+        "label": "B",
+        "text": "The damage caused by the last relevant unit"
+      },
+      {
+        "label": "C",
+        "text": "The number of shareholders"
+      },
+      {
+        "label": "D",
+        "text": "The firm’s total historical revenue"
+      },
+      {
+        "label": "E",
+        "text": "The size of sunk costs"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The efficient corrective rate is marginal external cost at efficient output.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "A buyer values a unit at $50, its production costs $10, and it imposes external damage $4. What net social benefit does that unit generate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$14.40"
+      },
+      {
+        "label": "B",
+        "text": "$28.80"
+      },
+      {
+        "label": "C",
+        "text": "$21.60"
+      },
+      {
+        "label": "D",
+        "text": "$36.00"
+      },
+      {
+        "label": "E",
+        "text": "$7.20"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Subtract both private resource cost and external damage from the benefit.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "A firm has marginal private cost $12 and marginal external cost $5. What is marginal social cost?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$17.00"
+      },
+      {
+        "label": "B",
+        "text": "$27.20"
+      },
+      {
+        "label": "C",
+        "text": "$13.60"
+      },
+      {
+        "label": "D",
+        "text": "$23.80"
+      },
+      {
+        "label": "E",
+        "text": "$20.40"
+      }
+    ],
+    "answer": "A",
+    "explanation": "MSC = MPC + marginal external cost.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "A tradable emissions-permit system can reduce a negative production externality by in a local economy",
+    "options": [
+      {
+        "label": "A",
+        "text": "Creating an opportunity cost for using the right to emit"
+      },
+      {
+        "label": "B",
+        "text": "Requiring every firm to reduce emissions by the same amount"
+      },
+      {
+        "label": "C",
+        "text": "Setting marginal external cost equal to zero automatically"
+      },
+      {
+        "label": "D",
+        "text": "Subsidizing each unit of the pollution-generating good"
+      },
+      {
+        "label": "E",
+        "text": "Making marginal private benefit equal marginal social benefit"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Using an emissions permit sacrifices its resale value, so emissions carry an opportunity cost. Firms reduce emissions where doing so costs less than obtaining or keeping the required permits.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, an efficient corrective subsidy would move output",
+    "options": [
+      {
+        "label": "A",
+        "text": "To zero"
+      },
+      {
+        "label": "B",
+        "text": "From Qs leftward toward Qm"
+      },
+      {
+        "label": "C",
+        "text": "From Qm rightward toward Qs"
+      },
+      {
+        "label": "D",
+        "text": "Below Qm"
+      },
+      {
+        "label": "E",
+        "text": "Without changing private marginal benefit"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The subsidy makes consumers perceive more of the good's full social benefit. Quantity expands toward the MSB-MSC intersection.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "Quantity is on the horizontal axis and marginal benefit and marginal cost are on the vertical axis. Supply is labeled MPC = MSC. MPB lies below MSB, and Qm at MPB = MPC is to the left of Qs at MSB = MSC. The vertical gap is labeled marginal external benefit.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Marginal benefit / cost",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MPB",
+            "label": "MPB",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 94.0,
+                "y": 14.799999999999997
+              }
+            ]
+          },
+          {
+            "id": "MPC = MSC",
+            "label": "MPC = MSC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10.0
+              },
+              {
+                "x": 94.0,
+                "y": 85.2
+              }
+            ]
+          },
+          {
+            "id": "MSB",
+            "label": "MSB",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 25.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 38.8
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 65,
+            "y": 62
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qm"
+          },
+          {
+            "id": "guide1",
+            "x": 65,
+            "y": 62,
+            "xLabel": "Qs"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 50,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 74
+              },
+              {
+                "x": 65,
+                "y": 62
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "Marginal private benefit from a vaccination is $60; its marginal external benefit is $5. What is marginal social benefit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$39.00"
+      },
+      {
+        "label": "B",
+        "text": "$13.00"
+      },
+      {
+        "label": "C",
+        "text": "$52.00"
+      },
+      {
+        "label": "D",
+        "text": "$26.00"
+      },
+      {
+        "label": "E",
+        "text": "$65.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "MSB = MPB + marginal external benefit.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "Each unit of output imposes constant external damage of $5. What per-unit corrective tax internalizes that damage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$6.00"
+      },
+      {
+        "label": "B",
+        "text": "$5.00"
+      },
+      {
+        "label": "C",
+        "text": "$3.00"
+      },
+      {
+        "label": "D",
+        "text": "$4.00"
+      },
+      {
+        "label": "E",
+        "text": "$2.00"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A corrective tax equals marginal external damage at efficient output.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "Assume other relevant factors are unchanged. A negative production externality exists when",
+    "options": [
+      {
+        "label": "A",
+        "text": "Production imposes uncompensated costs on third parties"
+      },
+      {
+        "label": "B",
+        "text": "The market quantity is below the social optimum"
+      },
+      {
+        "label": "C",
+        "text": "Firms receive a subsidy for each unit produced"
+      },
+      {
+        "label": "D",
+        "text": "Consumption creates an uncompensated benefit for others"
+      },
+      {
+        "label": "E",
+        "text": "Buyers pay the full social cost of consumption"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A negative production externality imposes harm that producers do not pay for. MSC therefore exceeds MPC.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, the vertical gap between MSB and MPB measures",
+    "options": [
+      {
+        "label": "A",
+        "text": "Total private benefit"
+      },
+      {
+        "label": "B",
+        "text": "Government expenditure"
+      },
+      {
+        "label": "C",
+        "text": "Producer surplus"
+      },
+      {
+        "label": "D",
+        "text": "Marginal external cost"
+      },
+      {
+        "label": "E",
+        "text": "Marginal external benefit"
+      }
+    ],
+    "answer": "E",
+    "explanation": "MSB includes private benefit plus benefit to others. Subtracting MPB gives marginal external benefit.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "Quantity is on the horizontal axis and marginal benefit and marginal cost are on the vertical axis. Supply is labeled MPC = MSC. MPB lies below MSB, and Qm at MPB = MPC is to the left of Qs at MSB = MSC. The vertical gap is labeled marginal external benefit.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Marginal benefit / cost",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MPB",
+            "label": "MPB",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 94.0,
+                "y": 14.799999999999997
+              }
+            ]
+          },
+          {
+            "id": "MPC = MSC",
+            "label": "MPC = MSC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10.0
+              },
+              {
+                "x": 94.0,
+                "y": 85.2
+              }
+            ]
+          },
+          {
+            "id": "MSB",
+            "label": "MSB",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 25.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 38.8
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 65,
+            "y": 62
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qm"
+          },
+          {
+            "id": "guide1",
+            "x": 65,
+            "y": 62,
+            "xLabel": "Qs"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 50,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 74
+              },
+              {
+                "x": 65,
+                "y": 62
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "Education provides a constant marginal external benefit of $5 per unit. What per-unit corrective subsidy aligns private and social benefits?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$6.00"
+      },
+      {
+        "label": "B",
+        "text": "$8.00"
+      },
+      {
+        "label": "C",
+        "text": "$5.00"
+      },
+      {
+        "label": "D",
+        "text": "$9.00"
+      },
+      {
+        "label": "E",
+        "text": "$7.00"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The corrective subsidy equals marginal external benefit at efficient output.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "MPB = 60 − Q, MPC = 12 + Q, and constant marginal external cost is $5. What is the socially efficient quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "8.60"
+      },
+      {
+        "label": "B",
+        "text": "21.50"
+      },
+      {
+        "label": "C",
+        "text": "4.30"
+      },
+      {
+        "label": "D",
+        "text": "17.20"
+      },
+      {
+        "label": "E",
+        "text": "12.90"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Set MPB equal to MPC plus external cost; 2Q = 43.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "Assume other relevant factors are unchanged. The marginal external cost of production equals",
+    "options": [
+      {
+        "label": "A",
+        "text": "Total external cost divided by all past output in every case"
+      },
+      {
+        "label": "B",
+        "text": "Marginal social benefit minus marginal private benefit"
+      },
+      {
+        "label": "C",
+        "text": "Marginal social cost minus marginal private cost"
+      },
+      {
+        "label": "D",
+        "text": "Marginal private cost minus marginal social cost"
+      },
+      {
+        "label": "E",
+        "text": "The market price minus consumer surplus"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Marginal external cost is the extra third-party harm from producing one more unit. It is the vertical gap MSC - MPC.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, the market produces Qm rather than Qs because consumers consider",
+    "options": [
+      {
+        "label": "A",
+        "text": "Marginal external cost rather than private cost"
+      },
+      {
+        "label": "B",
+        "text": "Only producer surplus rather than utility"
+      },
+      {
+        "label": "C",
+        "text": "Marginal social benefit rather than marginal private benefit"
+      },
+      {
+        "label": "D",
+        "text": "Private benefit rather than full social benefit"
+      },
+      {
+        "label": "E",
+        "text": "Average social benefit rather than marginal benefit"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Consumers base purchases on MPB and omit benefits received by others. The private quantity Qm remains below the efficient Qs.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "Quantity is on the horizontal axis and marginal benefit and marginal cost are on the vertical axis. Supply is labeled MPC = MSC. MPB lies below MSB, and Qm at MPB = MPC is to the left of Qs at MSB = MSC. The vertical gap is labeled marginal external benefit.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Marginal benefit / cost",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "MPB",
+            "label": "MPB",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 94.0,
+                "y": 14.799999999999997
+              }
+            ]
+          },
+          {
+            "id": "MPC = MSC",
+            "label": "MPC = MSC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10.0
+              },
+              {
+                "x": 94.0,
+                "y": 85.2
+              }
+            ]
+          },
+          {
+            "id": "MSB",
+            "label": "MSB",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 25.0,
+                "y": 94.0
+              },
+              {
+                "x": 94.0,
+                "y": 38.8
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 65,
+            "y": 62
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qm"
+          },
+          {
+            "id": "guide1",
+            "x": 65,
+            "y": 62,
+            "xLabel": "Qs"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "dwl",
+            "points": [
+              {
+                "x": 50,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 74
+              },
+              {
+                "x": 65,
+                "y": 62
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "MPB = 60 − Q, MPC = 12 + Q, and constant marginal external benefit is $5. What is the socially efficient quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "26.50"
+      },
+      {
+        "label": "B",
+        "text": "15.90"
+      },
+      {
+        "label": "C",
+        "text": "5.30"
+      },
+      {
+        "label": "D",
+        "text": "21.20"
+      },
+      {
+        "label": "E",
+        "text": "10.60"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Set MPB plus external benefit equal to MPC.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "Each of 21 units imposes $5 of external damage. What is total external cost?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$168.00"
+      },
+      {
+        "label": "B",
+        "text": "$105.00"
+      },
+      {
+        "label": "C",
+        "text": "$189.00"
+      },
+      {
+        "label": "D",
+        "text": "$126.00"
+      },
+      {
+        "label": "E",
+        "text": "$147.00"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Multiply damage per unit by the number of units.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "Assume other relevant factors are unchanged. Assigning property rights can address an externality when",
+    "options": [
+      {
+        "label": "A",
+        "text": "Affected parties can bargain at low transaction cost"
+      },
+      {
+        "label": "B",
+        "text": "No party can identify who holds the relevant right"
+      },
+      {
+        "label": "C",
+        "text": "Transaction costs exceed all possible gains from agreement"
+      },
+      {
+        "label": "D",
+        "text": "The number of affected people makes negotiation impossible"
+      },
+      {
+        "label": "E",
+        "text": "Information about damages is unavailable"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Defined property rights give affected parties a basis for negotiation. With low transaction costs, bargaining can make private choices account for the external effect.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "A subsidy encourages an activity with positive consumption spillovers. Which benefit is otherwise omitted from private decisions?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The consumer’s own willingness to pay"
+      },
+      {
+        "label": "B",
+        "text": "The payment made by the buyer"
+      },
+      {
+        "label": "C",
+        "text": "The producer’s explicit cost"
+      },
+      {
+        "label": "D",
+        "text": "Benefits received by third parties"
+      },
+      {
+        "label": "E",
+        "text": "The seller’s private revenue"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Positive external benefits accrue to people outside the transaction.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "Private output exceeds efficient output by 5 units. The linear MSB–MSC gap reaches $12 at private output. What is deadweight loss?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$36.00"
+      },
+      {
+        "label": "B",
+        "text": "$30.00"
+      },
+      {
+        "label": "C",
+        "text": "$42.00"
+      },
+      {
+        "label": "D",
+        "text": "$24.00"
+      },
+      {
+        "label": "E",
+        "text": "$18.00"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The loss is one-half times the quantity gap times the marginal-value gap.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "Two firms have marginal abatement costs $12 and $60. Moving one unit of abatement from the higher-cost firm to the lower-cost firm leaves total emissions unchanged. What is the cost saving?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$48.00"
+      },
+      {
+        "label": "B",
+        "text": "$57.60"
+      },
+      {
+        "label": "C",
+        "text": "$76.80"
+      },
+      {
+        "label": "D",
+        "text": "$67.20"
+      },
+      {
+        "label": "E",
+        "text": "$86.40"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The same abatement is achieved at the difference in marginal costs.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "A buyer values a unit at $60, its production costs $12, and it imposes external damage $5. What net social benefit does that unit generate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$17.20"
+      },
+      {
+        "label": "B",
+        "text": "$34.40"
+      },
+      {
+        "label": "C",
+        "text": "$8.60"
+      },
+      {
+        "label": "D",
+        "text": "$43.00"
+      },
+      {
+        "label": "E",
+        "text": "$25.80"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Subtract both private resource cost and external damage from the benefit.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "A plant buys costly pollution controls, and no damage reaches third parties. Does high private cost alone establish a negative externality?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes; every high cost is external"
+      },
+      {
+        "label": "B",
+        "text": "No; externalities require monopoly"
+      },
+      {
+        "label": "C",
+        "text": "Yes; private cost equals external cost"
+      },
+      {
+        "label": "D",
+        "text": "Yes; all pollution controls create spillover costs"
+      },
+      {
+        "label": "E",
+        "text": "No; external damage must fall on others"
+      }
+    ],
+    "answer": "E",
+    "explanation": "An externality is an uncompensated effect on third parties, not simply a high private cost.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "A firm has marginal private cost $14 and marginal external cost $6. What is marginal social cost?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$24.00"
+      },
+      {
+        "label": "B",
+        "text": "$20.00"
+      },
+      {
+        "label": "C",
+        "text": "$12.00"
+      },
+      {
+        "label": "D",
+        "text": "$16.00"
+      },
+      {
+        "label": "E",
+        "text": "$28.00"
+      }
+    ],
+    "answer": "B",
+    "explanation": "MSC = MPC + marginal external cost.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "Marginal private benefit from a vaccination is $70; its marginal external benefit is $6. What is marginal social benefit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$60.80"
+      },
+      {
+        "label": "B",
+        "text": "$30.40"
+      },
+      {
+        "label": "C",
+        "text": "$15.20"
+      },
+      {
+        "label": "D",
+        "text": "$45.60"
+      },
+      {
+        "label": "E",
+        "text": "$76.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "MSB = MPB + marginal external benefit.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "Each unit of output imposes constant external damage of $6. What per-unit corrective tax internalizes that damage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$4.80"
+      },
+      {
+        "label": "B",
+        "text": "$2.40"
+      },
+      {
+        "label": "C",
+        "text": "$1.20"
+      },
+      {
+        "label": "D",
+        "text": "$6.00"
+      },
+      {
+        "label": "E",
+        "text": "$3.60"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A corrective tax equals marginal external damage at efficient output.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "At market output, MSC is $30 and MSB is $22 for the final unit. What is its net social effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A gain of $8"
+      },
+      {
+        "label": "B",
+        "text": "No change because it is sold"
+      },
+      {
+        "label": "C",
+        "text": "A loss of $30"
+      },
+      {
+        "label": "D",
+        "text": "A gain of $22"
+      },
+      {
+        "label": "E",
+        "text": "A loss of $8"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The final unit’s social cost exceeds its benefit by $8.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "Education provides a constant marginal external benefit of $6 per unit. What per-unit corrective subsidy aligns private and social benefits?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$6.00"
+      },
+      {
+        "label": "B",
+        "text": "$9.60"
+      },
+      {
+        "label": "C",
+        "text": "$8.40"
+      },
+      {
+        "label": "D",
+        "text": "$7.20"
+      },
+      {
+        "label": "E",
+        "text": "$4.80"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The corrective subsidy equals marginal external benefit at efficient output.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "MPB = 70 − Q, MPC = 14 + Q, and constant marginal external cost is $6. What is the socially efficient quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "35.00"
+      },
+      {
+        "label": "B",
+        "text": "30.00"
+      },
+      {
+        "label": "C",
+        "text": "15.00"
+      },
+      {
+        "label": "D",
+        "text": "25.00"
+      },
+      {
+        "label": "E",
+        "text": "20.00"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Set MPB equal to MPC plus external cost; 2Q = 50.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "MPB = 70 − Q, MPC = 14 + Q, and constant marginal external benefit is $6. What is the socially efficient quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "24.80"
+      },
+      {
+        "label": "B",
+        "text": "18.60"
+      },
+      {
+        "label": "C",
+        "text": "37.20"
+      },
+      {
+        "label": "D",
+        "text": "31.00"
+      },
+      {
+        "label": "E",
+        "text": "43.40"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Set MPB plus external benefit equal to MPC.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "An education program has external benefits, but a subsidy expands participation beyond MSB = MSC. What is the concern?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Any subsidy guarantees efficient output"
+      },
+      {
+        "label": "B",
+        "text": "The subsidy may cause inefficient overexpansion"
+      },
+      {
+        "label": "C",
+        "text": "Positive externalities justify unlimited output"
+      },
+      {
+        "label": "D",
+        "text": "External benefits must become negative"
+      },
+      {
+        "label": "E",
+        "text": "Private benefit becomes irrelevant to MSB"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A corrective subsidy must target the efficient quantity rather than maximize participation without limit.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "Each of 22 units imposes $6 of external damage. What is total external cost?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$184.80"
+      },
+      {
+        "label": "B",
+        "text": "$211.20"
+      },
+      {
+        "label": "C",
+        "text": "$132.00"
+      },
+      {
+        "label": "D",
+        "text": "$105.60"
+      },
+      {
+        "label": "E",
+        "text": "$158.40"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Multiply damage per unit by the number of units.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "Private output exceeds efficient output by 6 units. The linear MSB–MSC gap reaches $14 at private output. What is deadweight loss?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$33.60"
+      },
+      {
+        "label": "B",
+        "text": "$50.40"
+      },
+      {
+        "label": "C",
+        "text": "$42.00"
+      },
+      {
+        "label": "D",
+        "text": "$25.20"
+      },
+      {
+        "label": "E",
+        "text": "$16.80"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The loss is one-half times the quantity gap times the marginal-value gap.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "Two firms have marginal abatement costs $14 and $70. Moving one unit of abatement from the higher-cost firm to the lower-cost firm leaves total emissions unchanged. What is the cost saving?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$44.80"
+      },
+      {
+        "label": "B",
+        "text": "$56.00"
+      },
+      {
+        "label": "C",
+        "text": "$22.40"
+      },
+      {
+        "label": "D",
+        "text": "$67.20"
+      },
+      {
+        "label": "E",
+        "text": "$33.60"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The same abatement is achieved at the difference in marginal costs.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "A buyer values a unit at $70, its production costs $14, and it imposes external damage $6. What net social benefit does that unit generate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$50.00"
+      },
+      {
+        "label": "B",
+        "text": "$20.00"
+      },
+      {
+        "label": "C",
+        "text": "$10.00"
+      },
+      {
+        "label": "D",
+        "text": "$30.00"
+      },
+      {
+        "label": "E",
+        "text": "$40.00"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Subtract both private resource cost and external damage from the benefit.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "A firm pays for damage it previously imposed on neighbors. What changes in its decision?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Social cost disappears automatically"
+      },
+      {
+        "label": "B",
+        "text": "Marginal external benefit increases necessarily"
+      },
+      {
+        "label": "C",
+        "text": "Its revenue must become zero"
+      },
+      {
+        "label": "D",
+        "text": "Private costs no longer matter"
+      },
+      {
+        "label": "E",
+        "text": "More of the social cost becomes private cost"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Internalization makes the decision-maker bear costs previously external to its transaction.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "A firm has marginal private cost $16 and marginal external cost $7. What is marginal social cost?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$27.60"
+      },
+      {
+        "label": "B",
+        "text": "$32.20"
+      },
+      {
+        "label": "C",
+        "text": "$36.80"
+      },
+      {
+        "label": "D",
+        "text": "$41.40"
+      },
+      {
+        "label": "E",
+        "text": "$23.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "MSC = MPC + marginal external cost.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "Marginal private benefit from a vaccination is $80; its marginal external benefit is $7. What is marginal social benefit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$34.80"
+      },
+      {
+        "label": "B",
+        "text": "$69.60"
+      },
+      {
+        "label": "C",
+        "text": "$52.20"
+      },
+      {
+        "label": "D",
+        "text": "$87.00"
+      },
+      {
+        "label": "E",
+        "text": "$104.40"
+      }
+    ],
+    "answer": "D",
+    "explanation": "MSB = MPB + marginal external benefit.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "Each unit of output imposes constant external damage of $7. What per-unit corrective tax internalizes that damage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$5.60"
+      },
+      {
+        "label": "B",
+        "text": "$4.20"
+      },
+      {
+        "label": "C",
+        "text": "$9.80"
+      },
+      {
+        "label": "D",
+        "text": "$7.00"
+      },
+      {
+        "label": "E",
+        "text": "$8.40"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A corrective tax equals marginal external damage at efficient output.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 71,
+    "difficulty": "Hard",
+    "prompt": "Why is a lost-profit claim by a competing store usually not a negative externality in the AP model?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Externalities must involve government"
+      },
+      {
+        "label": "B",
+        "text": "Lost profits enter marginal social benefit"
+      },
+      {
+        "label": "C",
+        "text": "Competition through prices is a market effect"
+      },
+      {
+        "label": "D",
+        "text": "Competitors never affect one another"
+      },
+      {
+        "label": "E",
+        "text": "All producer losses are external costs"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A price-mediated competitive effect is distinguished from a third-party spillover outside the transaction.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 72,
+    "difficulty": "Medium",
+    "prompt": "Education provides a constant marginal external benefit of $7 per unit. What per-unit corrective subsidy aligns private and social benefits?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$5.60"
+      },
+      {
+        "label": "B",
+        "text": "$9.80"
+      },
+      {
+        "label": "C",
+        "text": "$7.00"
+      },
+      {
+        "label": "D",
+        "text": "$4.20"
+      },
+      {
+        "label": "E",
+        "text": "$8.40"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The corrective subsidy equals marginal external benefit at efficient output.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 73,
+    "difficulty": "Medium",
+    "prompt": "MPB = 80 − Q, MPC = 16 + Q, and constant marginal external cost is $7. What is the socially efficient quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "39.90"
+      },
+      {
+        "label": "B",
+        "text": "17.10"
+      },
+      {
+        "label": "C",
+        "text": "22.80"
+      },
+      {
+        "label": "D",
+        "text": "28.50"
+      },
+      {
+        "label": "E",
+        "text": "34.20"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Set MPB equal to MPC plus external cost; 2Q = 57.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 74,
+    "difficulty": "Medium",
+    "prompt": "MPB = 80 − Q, MPC = 16 + Q, and constant marginal external benefit is $7. What is the socially efficient quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "35.50"
+      },
+      {
+        "label": "B",
+        "text": "28.40"
+      },
+      {
+        "label": "C",
+        "text": "21.30"
+      },
+      {
+        "label": "D",
+        "text": "7.10"
+      },
+      {
+        "label": "E",
+        "text": "14.20"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Set MPB plus external benefit equal to MPC.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "A noise ordinance lowers neighborhood damage while raising firms’ control costs. How should efficiency be evaluated?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ignore all control costs"
+      },
+      {
+        "label": "B",
+        "text": "Compare marginal social benefits and costs of abatement"
+      },
+      {
+        "label": "C",
+        "text": "Count only firms’ lost revenue"
+      },
+      {
+        "label": "D",
+        "text": "Treat every rule as equally efficient"
+      },
+      {
+        "label": "E",
+        "text": "Require all emissions to reach zero"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Efficient abatement balances additional damage reduction against additional control cost.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 76,
+    "difficulty": "Medium",
+    "prompt": "Each of 23 units imposes $7 of external damage. What is total external cost?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$225.40"
+      },
+      {
+        "label": "B",
+        "text": "$257.60"
+      },
+      {
+        "label": "C",
+        "text": "$161.00"
+      },
+      {
+        "label": "D",
+        "text": "$289.80"
+      },
+      {
+        "label": "E",
+        "text": "$193.20"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Multiply damage per unit by the number of units.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 77,
+    "difficulty": "Medium",
+    "prompt": "Private output exceeds efficient output by 7 units. The linear MSB–MSC gap reaches $16 at private output. What is deadweight loss?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$56.00"
+      },
+      {
+        "label": "B",
+        "text": "$44.80"
+      },
+      {
+        "label": "C",
+        "text": "$67.20"
+      },
+      {
+        "label": "D",
+        "text": "$78.40"
+      },
+      {
+        "label": "E",
+        "text": "$89.60"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The loss is one-half times the quantity gap times the marginal-value gap.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 78,
+    "difficulty": "Medium",
+    "prompt": "Two firms have marginal abatement costs $16 and $80. Moving one unit of abatement from the higher-cost firm to the lower-cost firm leaves total emissions unchanged. What is the cost saving?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$64.00"
+      },
+      {
+        "label": "B",
+        "text": "$51.20"
+      },
+      {
+        "label": "C",
+        "text": "$102.40"
+      },
+      {
+        "label": "D",
+        "text": "$89.60"
+      },
+      {
+        "label": "E",
+        "text": "$76.80"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The same abatement is achieved at the difference in marginal costs.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "Marginal external damage rises as output increases. Why might a flat tax based on damage at a low output miss the efficient target?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Any fixed tax rate eliminates all output"
+      },
+      {
+        "label": "B",
+        "text": "Rising damage makes private supply irrelevant"
+      },
+      {
+        "label": "C",
+        "text": "Its rate may be too low at the efficient margin"
+      },
+      {
+        "label": "D",
+        "text": "Marginal damage is never relevant"
+      },
+      {
+        "label": "E",
+        "text": "The tax cannot affect private costs"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A constant rate can implement efficiency if set at the external damage at efficient output, not an arbitrary low-output rate.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 80,
+    "difficulty": "Medium",
+    "prompt": "A buyer values a unit at $80, its production costs $16, and it imposes external damage $7. What net social benefit does that unit generate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$102.60"
+      },
+      {
+        "label": "B",
+        "text": "$68.40"
+      },
+      {
+        "label": "C",
+        "text": "$91.20"
+      },
+      {
+        "label": "D",
+        "text": "$79.80"
+      },
+      {
+        "label": "E",
+        "text": "$57.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Subtract both private resource cost and external damage from the benefit.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 81,
+    "difficulty": "Medium",
+    "prompt": "A firm has marginal private cost $18 and marginal external cost $8. What is marginal social cost?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$26.00"
+      },
+      {
+        "label": "B",
+        "text": "$15.60"
+      },
+      {
+        "label": "C",
+        "text": "$5.20"
+      },
+      {
+        "label": "D",
+        "text": "$10.40"
+      },
+      {
+        "label": "E",
+        "text": "$20.80"
+      }
+    ],
+    "answer": "A",
+    "explanation": "MSC = MPC + marginal external cost.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 82,
+    "difficulty": "Medium",
+    "prompt": "Marginal private benefit from a vaccination is $90; its marginal external benefit is $8. What is marginal social benefit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$117.60"
+      },
+      {
+        "label": "B",
+        "text": "$78.40"
+      },
+      {
+        "label": "C",
+        "text": "$58.80"
+      },
+      {
+        "label": "D",
+        "text": "$137.20"
+      },
+      {
+        "label": "E",
+        "text": "$98.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "MSB = MPB + marginal external benefit.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "At efficient output, MPC is $16, MSB is $25, and MPB equals MSB. What corrective tax matches the external cost?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$25"
+      },
+      {
+        "label": "B",
+        "text": "$400"
+      },
+      {
+        "label": "C",
+        "text": "$16"
+      },
+      {
+        "label": "D",
+        "text": "$41"
+      },
+      {
+        "label": "E",
+        "text": "$9"
+      }
+    ],
+    "answer": "E",
+    "explanation": "At efficiency MSC = MSB = $25. External cost is MSC − MPC = $9.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 84,
+    "difficulty": "Medium",
+    "prompt": "Each unit of output imposes constant external damage of $8. What per-unit corrective tax internalizes that damage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$4.80"
+      },
+      {
+        "label": "B",
+        "text": "$3.20"
+      },
+      {
+        "label": "C",
+        "text": "$8.00"
+      },
+      {
+        "label": "D",
+        "text": "$6.40"
+      },
+      {
+        "label": "E",
+        "text": "$1.60"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A corrective tax equals marginal external damage at efficient output.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 85,
+    "difficulty": "Medium",
+    "prompt": "Education provides a constant marginal external benefit of $8 per unit. What per-unit corrective subsidy aligns private and social benefits?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$4.80"
+      },
+      {
+        "label": "B",
+        "text": "$8.00"
+      },
+      {
+        "label": "C",
+        "text": "$6.40"
+      },
+      {
+        "label": "D",
+        "text": "$9.60"
+      },
+      {
+        "label": "E",
+        "text": "$3.20"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The corrective subsidy equals marginal external benefit at efficient output.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 86,
+    "difficulty": "Medium",
+    "prompt": "MPB = 90 − Q, MPC = 18 + Q, and constant marginal external cost is $8. What is the socially efficient quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "44.80"
+      },
+      {
+        "label": "B",
+        "text": "38.40"
+      },
+      {
+        "label": "C",
+        "text": "25.60"
+      },
+      {
+        "label": "D",
+        "text": "32.00"
+      },
+      {
+        "label": "E",
+        "text": "19.20"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Set MPB equal to MPC plus external cost; 2Q = 64.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "At efficient participation, MSC is $30 and MPB is $19. What subsidy reflects the external benefit if no external costs exist?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$11"
+      },
+      {
+        "label": "B",
+        "text": "$19"
+      },
+      {
+        "label": "C",
+        "text": "$49"
+      },
+      {
+        "label": "D",
+        "text": "$570"
+      },
+      {
+        "label": "E",
+        "text": "$30"
+      }
+    ],
+    "answer": "A",
+    "explanation": "MSB equals MSC at efficiency; external benefit is $30 − $19 = $11.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 88,
+    "difficulty": "Medium",
+    "prompt": "MPB = 90 − Q, MPC = 18 + Q, and constant marginal external benefit is $8. What is the socially efficient quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "40.00"
+      },
+      {
+        "label": "B",
+        "text": "48.00"
+      },
+      {
+        "label": "C",
+        "text": "72.00"
+      },
+      {
+        "label": "D",
+        "text": "56.00"
+      },
+      {
+        "label": "E",
+        "text": "64.00"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Set MPB plus external benefit equal to MPC.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 89,
+    "difficulty": "Medium",
+    "prompt": "Each of 24 units imposes $8 of external damage. What is total external cost?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$38.40"
+      },
+      {
+        "label": "B",
+        "text": "$76.80"
+      },
+      {
+        "label": "C",
+        "text": "$153.60"
+      },
+      {
+        "label": "D",
+        "text": "$115.20"
+      },
+      {
+        "label": "E",
+        "text": "$192.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Multiply damage per unit by the number of units.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 90,
+    "difficulty": "Medium",
+    "prompt": "Private output exceeds efficient output by 8 units. The linear MSB–MSC gap reaches $18 at private output. What is deadweight loss?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$43.20"
+      },
+      {
+        "label": "B",
+        "text": "$72.00"
+      },
+      {
+        "label": "C",
+        "text": "$28.80"
+      },
+      {
+        "label": "D",
+        "text": "$57.60"
+      },
+      {
+        "label": "E",
+        "text": "$86.40"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The loss is one-half times the quantity gap times the marginal-value gap.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "A tax reduces emissions but does not eliminate them. Can it still implement efficient output?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes, because every tax rate is efficient"
+      },
+      {
+        "label": "B",
+        "text": "Yes, if the remaining margin equates MSB and MSC"
+      },
+      {
+        "label": "C",
+        "text": "Only if all firms shut down"
+      },
+      {
+        "label": "D",
+        "text": "No, efficiency requires zero pollution"
+      },
+      {
+        "label": "E",
+        "text": "No, any remaining output creates full market failure"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Efficiency balances benefits and full costs; it need not require zero emissions.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 92,
+    "difficulty": "Medium",
+    "prompt": "Two firms have marginal abatement costs $18 and $90. Moving one unit of abatement from the higher-cost firm to the lower-cost firm leaves total emissions unchanged. What is the cost saving?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$43.20"
+      },
+      {
+        "label": "B",
+        "text": "$86.40"
+      },
+      {
+        "label": "C",
+        "text": "$72.00"
+      },
+      {
+        "label": "D",
+        "text": "$57.60"
+      },
+      {
+        "label": "E",
+        "text": "$28.80"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The same abatement is achieved at the difference in marginal costs.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 93,
+    "difficulty": "Medium",
+    "prompt": "A buyer values a unit at $90, its production costs $18, and it imposes external damage $8. What net social benefit does that unit generate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$51.20"
+      },
+      {
+        "label": "B",
+        "text": "$38.40"
+      },
+      {
+        "label": "C",
+        "text": "$76.80"
+      },
+      {
+        "label": "D",
+        "text": "$89.60"
+      },
+      {
+        "label": "E",
+        "text": "$64.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Subtract both private resource cost and external damage from the benefit.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 94,
+    "difficulty": "Medium",
+    "prompt": "A firm has marginal private cost $20 and marginal external cost $9. What is marginal social cost?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$5.80"
+      },
+      {
+        "label": "B",
+        "text": "$23.20"
+      },
+      {
+        "label": "C",
+        "text": "$29.00"
+      },
+      {
+        "label": "D",
+        "text": "$17.40"
+      },
+      {
+        "label": "E",
+        "text": "$11.60"
+      }
+    ],
+    "answer": "C",
+    "explanation": "MSC = MPC + marginal external cost.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "A buyer’s garden benefits nearby residents who do not pay. Which pair correctly describes the spillover?",
+    "options": [
+      {
+        "label": "A",
+        "text": "External benefit; private provision may be too low"
+      },
+      {
+        "label": "B",
+        "text": "External benefit; private provision must be too high"
+      },
+      {
+        "label": "C",
+        "text": "External cost; private provision may be too high"
+      },
+      {
+        "label": "D",
+        "text": "Tax revenue; private provision is efficient"
+      },
+      {
+        "label": "E",
+        "text": "Private cost; no spillover exists"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The decision-maker omits benefits received by neighbors, tending toward underprovision.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 96,
+    "difficulty": "Medium",
+    "prompt": "Marginal private benefit from a vaccination is $100; its marginal external benefit is $9. What is marginal social benefit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$43.60"
+      },
+      {
+        "label": "B",
+        "text": "$65.40"
+      },
+      {
+        "label": "C",
+        "text": "$130.80"
+      },
+      {
+        "label": "D",
+        "text": "$109.00"
+      },
+      {
+        "label": "E",
+        "text": "$87.20"
+      }
+    ],
+    "answer": "D",
+    "explanation": "MSB = MPB + marginal external benefit.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 97,
+    "difficulty": "Medium",
+    "prompt": "Each unit of output imposes constant external damage of $9. What per-unit corrective tax internalizes that damage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$5.40"
+      },
+      {
+        "label": "B",
+        "text": "$9.00"
+      },
+      {
+        "label": "C",
+        "text": "$3.60"
+      },
+      {
+        "label": "D",
+        "text": "$7.20"
+      },
+      {
+        "label": "E",
+        "text": "$10.80"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A corrective tax equals marginal external damage at efficient output.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 98,
+    "difficulty": "Medium",
+    "prompt": "Education provides a constant marginal external benefit of $9 per unit. What per-unit corrective subsidy aligns private and social benefits?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$7.20"
+      },
+      {
+        "label": "B",
+        "text": "$10.80"
+      },
+      {
+        "label": "C",
+        "text": "$5.40"
+      },
+      {
+        "label": "D",
+        "text": "$9.00"
+      },
+      {
+        "label": "E",
+        "text": "$3.60"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The corrective subsidy equals marginal external benefit at efficient output.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 99,
+    "difficulty": "Medium",
+    "prompt": "MPB = 100 − Q, MPC = 20 + Q, and constant marginal external cost is $9. What is the socially efficient quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "35.50"
+      },
+      {
+        "label": "B",
+        "text": "28.40"
+      },
+      {
+        "label": "C",
+        "text": "49.70"
+      },
+      {
+        "label": "D",
+        "text": "42.60"
+      },
+      {
+        "label": "E",
+        "text": "21.30"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Set MPB equal to MPC plus external cost; 2Q = 71.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "What additional information is needed to compute deadweight loss from a negative externality?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only the firm’s accounting profit"
+      },
+      {
+        "label": "B",
+        "text": "Only government tax collections"
+      },
+      {
+        "label": "C",
+        "text": "The marginal-value gap over the excess output range"
+      },
+      {
+        "label": "D",
+        "text": "Only the market price"
+      },
+      {
+        "label": "E",
+        "text": "Only the number of affected households"
+      }
+    ],
+    "answer": "C",
+    "explanation": "DWL sums MSC minus MSB over units produced beyond efficient output.",
+    "reference": "POL-3.A | POL-3.B | POL-3.A.1 | POL-3.A.2 | POL-3.A.3 | POL-3.A.4 | POL-3.B.1 | Skill 4.B",
+    "graphDescription": "",
+    "graphRequired": false
+  }
+]

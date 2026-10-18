@@ -1,0 +1,4835 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "What is an exchange rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The price of one currency in another currency."
+      },
+      {
+        "label": "B",
+        "text": "The difference between export receipts and import spending."
+      },
+      {
+        "label": "C",
+        "text": "The ratio between export prices and import prices."
+      },
+      {
+        "label": "D",
+        "text": "The interest rate charged on borrowing from abroad."
+      }
+    ],
+    "answer": "A",
+    "explanation": "An exchange rate is the price of one currency expressed in terms of another currency.",
+    "reference": "6.4 Exchange rates | 6.4.1 definition of exchange rate | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "What determines a freely floating exchange rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Private banks’ holdings of gold reserves."
+      },
+      {
+        "label": "B",
+        "text": "A government target maintained by central-bank intervention to prevent the rate moving away from its announced value."
+      },
+      {
+        "label": "C",
+        "text": "The government’s tax revenue and expenditure."
+      },
+      {
+        "label": "D",
+        "text": "Currency demand and supply in the market."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Under a floating system the exchange rate is determined by demand and supply in the foreign-exchange market.",
+    "reference": "6.4 Exchange rates | 6.4.2 determination of a floating exchange rate | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "A rise in the value of a currency caused by market forces is called",
+    "options": [
+      {
+        "label": "A",
+        "text": "A depreciation."
+      },
+      {
+        "label": "B",
+        "text": "An appreciation."
+      },
+      {
+        "label": "C",
+        "text": "Inflation."
+      },
+      {
+        "label": "D",
+        "text": "A devaluation."
+      }
+    ],
+    "answer": "B",
+    "explanation": "For a floating currency, a market-driven increase in its external value is an appreciation.",
+    "reference": "6.4 Exchange rates | 6.4.3 distinction between depreciation and appreciation of a floating exchange rate | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "A fall in the value of a currency caused by market forces is called",
+    "options": [
+      {
+        "label": "A",
+        "text": "Deflation."
+      },
+      {
+        "label": "B",
+        "text": "An appreciation."
+      },
+      {
+        "label": "C",
+        "text": "A revaluation."
+      },
+      {
+        "label": "D",
+        "text": "A depreciation."
+      }
+    ],
+    "answer": "D",
+    "explanation": "For a floating currency, a market-driven decrease in its external value is a depreciation.",
+    "reference": "6.4 Exchange rates | 6.4.3 distinction between depreciation and appreciation of a floating exchange rate | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "Which transaction creates demand for country X's currency?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A domestic household buys a foreign-made car."
+      },
+      {
+        "label": "B",
+        "text": "A domestic resident pays for an overseas holiday."
+      },
+      {
+        "label": "C",
+        "text": "A foreign household buys a domestically produced export."
+      },
+      {
+        "label": "D",
+        "text": "A domestic firm buys a factory located overseas."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Foreign buyers of X's exports need X's currency to pay producers in X, increasing demand for the currency.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "Which transaction increases the supply of country X's currency on the foreign-exchange market?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A foreign visitor buys a domestic hotel stay."
+      },
+      {
+        "label": "B",
+        "text": "A foreign investor buys shares issued domestically."
+      },
+      {
+        "label": "C",
+        "text": "A domestic resident buys a foreign-made television."
+      },
+      {
+        "label": "D",
+        "text": "A foreign firm buys goods produced domestically."
+      }
+    ],
+    "answer": "C",
+    "explanation": "To buy an import, the resident supplies the domestic currency in exchange for foreign currency.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "Other things equal, what is most likely to happen to a floating currency when demand for it increases?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Its value is fixed."
+      },
+      {
+        "label": "B",
+        "text": "Its purchasing power within the country must fall."
+      },
+      {
+        "label": "C",
+        "text": "It depreciates."
+      },
+      {
+        "label": "D",
+        "text": "It appreciates."
+      }
+    ],
+    "answer": "D",
+    "explanation": "An increase in demand raises the equilibrium price of the currency, so it appreciates.",
+    "reference": "6.4 Exchange rates | 6.4.2 determination of a floating exchange rate | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "Other things equal, what is most likely to happen to a floating currency when its supply increases?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Its exchange rate cannot change."
+      },
+      {
+        "label": "B",
+        "text": "It appreciates."
+      },
+      {
+        "label": "C",
+        "text": "Its domestic price level must fall."
+      },
+      {
+        "label": "D",
+        "text": "It depreciates."
+      }
+    ],
+    "answer": "D",
+    "explanation": "An increase in the supply of the currency lowers its equilibrium external price.",
+    "reference": "6.4 Exchange rates | 6.4.2 determination of a floating exchange rate | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "Which change is most likely to increase demand for a country's currency?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher domestic spending on imported products."
+      },
+      {
+        "label": "B",
+        "text": "Higher domestic purchases of overseas assets."
+      },
+      {
+        "label": "C",
+        "text": "Higher foreign spending on domestic exports."
+      },
+      {
+        "label": "D",
+        "text": "Stronger expectations of future currency depreciation."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Greater export demand requires more purchases of the exporting country's currency.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "Which change is most likely to increase the supply of a country's currency?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An increase in its imports."
+      },
+      {
+        "label": "B",
+        "text": "An increase in its exports."
+      },
+      {
+        "label": "C",
+        "text": "An increase in inward investment."
+      },
+      {
+        "label": "D",
+        "text": "An expectation that its currency will appreciate."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Importers sell domestic currency to obtain foreign currency, increasing its supply.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "If foreign investors become more willing to buy assets in country X, what is the most likely effect on X's floating currency?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Depreciation: currency demand falls."
+      },
+      {
+        "label": "B",
+        "text": "Appreciation: currency supply rises."
+      },
+      {
+        "label": "C",
+        "text": "No change: investment flows have no effect."
+      },
+      {
+        "label": "D",
+        "text": "Appreciation: currency demand rises."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Foreign investors normally need X's currency to purchase assets in X, shifting currency demand to the right.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "If residents of country X greatly increase their purchases of foreign assets, what is the most likely effect on X's currency?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Appreciation: currency demand rises."
+      },
+      {
+        "label": "B",
+        "text": "Depreciation: currency supply rises."
+      },
+      {
+        "label": "C",
+        "text": "Appreciation: currency supply falls."
+      },
+      {
+        "label": "D",
+        "text": "No change: floating rates cannot respond."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Residents exchange X's currency for foreign currencies to buy foreign assets, increasing its supply.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "A currency changes from $1.20 per unit to $1.32 per unit. What has happened to the currency?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It has been devalued."
+      },
+      {
+        "label": "B",
+        "text": "Domestic goods prices have fallen because a stronger currency necessarily causes deflation throughout the economy."
+      },
+      {
+        "label": "C",
+        "text": "It has appreciated against the dollar."
+      },
+      {
+        "label": "D",
+        "text": "It has depreciated against the dollar."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Each unit now buys more dollars, so its external value has risen.",
+    "reference": "6.4 Exchange rates | 6.4.3 distinction between depreciation and appreciation of a floating exchange rate | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "A currency changes from €0.90 per unit to €0.81 per unit. What has happened to the currency?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It has appreciated against the euro."
+      },
+      {
+        "label": "B",
+        "text": "It has depreciated against the euro."
+      },
+      {
+        "label": "C",
+        "text": "Its domestic purchasing power must have increased."
+      },
+      {
+        "label": "D",
+        "text": "It has been revalued."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Each unit now buys fewer euros, so its external value has fallen.",
+    "reference": "6.4 Exchange rates | 6.4.3 distinction between depreciation and appreciation of a floating exchange rate | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "Which change is most likely to cause an appreciation of a floating currency?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Expectations of future currency depreciation."
+      },
+      {
+        "label": "B",
+        "text": "Stronger domestic demand for imported products."
+      },
+      {
+        "label": "C",
+        "text": "Weaker foreign demand for exported products."
+      },
+      {
+        "label": "D",
+        "text": "Higher interest rates than abroad."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A relatively higher interest rate can attract financial inflows, raising demand for the currency.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "Which change is most likely to cause a depreciation of a floating currency?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher inward investment from foreign firms."
+      },
+      {
+        "label": "B",
+        "text": "Expectations of future appreciation of the currency."
+      },
+      {
+        "label": "C",
+        "text": "Stronger foreign demand for exported products."
+      },
+      {
+        "label": "D",
+        "text": "Lower interest rates than abroad."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A lower relative interest rate can reduce demand for domestic financial assets and the currency.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "Speculators expect country X's currency to rise in value. What is their immediate action most likely to do?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher currency supply, encouraging depreciation."
+      },
+      {
+        "label": "B",
+        "text": "Equal demand and supply falls, fixing the price."
+      },
+      {
+        "label": "C",
+        "text": "Higher currency demand, encouraging appreciation."
+      },
+      {
+        "label": "D",
+        "text": "An unchanged rate imposed by the government."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Buying the currency in anticipation of a gain raises current demand for it.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "What is the most direct effect of a depreciation on the foreign-currency price of a country's exports, other things equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises."
+      },
+      {
+        "label": "B",
+        "text": "It falls."
+      },
+      {
+        "label": "C",
+        "text": "It is unchanged in all cases."
+      },
+      {
+        "label": "D",
+        "text": "It becomes equal to domestic prices."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A weaker domestic currency means foreigners need less of their currency to buy a given domestic-currency-priced export.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "What is the most direct effect of a depreciation on the domestic-currency price of imports, other things equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls."
+      },
+      {
+        "label": "B",
+        "text": "It becomes zero."
+      },
+      {
+        "label": "C",
+        "text": "It is unchanged."
+      },
+      {
+        "label": "D",
+        "text": "It rises."
+      }
+    ],
+    "answer": "D",
+    "explanation": "More domestic currency is needed to buy a given amount of foreign currency, making imports dearer domestically.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "What is the most direct effect of an appreciation on the domestic-currency price of imports, other things equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It is unchanged in all cases."
+      },
+      {
+        "label": "B",
+        "text": "It falls."
+      },
+      {
+        "label": "C",
+        "text": "It must equal the export price."
+      },
+      {
+        "label": "D",
+        "text": "It rises."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A stronger currency buys more foreign currency, reducing the domestic-currency cost of imports.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "A depreciation increases net exports. Which component of Aggregate Demand rises directly?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Exports minus imports."
+      },
+      {
+        "label": "B",
+        "text": "Consumption only."
+      },
+      {
+        "label": "C",
+        "text": "Private investment in domestic productive capital."
+      },
+      {
+        "label": "D",
+        "text": "Government spending."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Net exports are a component of Aggregate Demand, so an increase shifts AD to the right.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "If an appreciation reduces net exports, what is the most likely direction of the Aggregate Demand curve?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It becomes vertical."
+      },
+      {
+        "label": "B",
+        "text": "It shifts to the left."
+      },
+      {
+        "label": "C",
+        "text": "It shifts to the right."
+      },
+      {
+        "label": "D",
+        "text": "It is unchanged by definition."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Lower net exports reduce Aggregate Demand, shifting the AD curve left.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "A depreciation raises Aggregate Demand when the economy has spare capacity. What is the most likely effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Falling prices and unchanged real output."
+      },
+      {
+        "label": "B",
+        "text": "Unchanged output and higher unemployment."
+      },
+      {
+        "label": "C",
+        "text": "Rising output and lower unemployment."
+      },
+      {
+        "label": "D",
+        "text": "Falling output and higher unemployment."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Higher AD increases equilibrium output and labour demand when there is spare capacity.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "An appreciation reduces Aggregate Demand. What is the most likely effect on unemployment, other things equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unemployment rises."
+      },
+      {
+        "label": "B",
+        "text": "Unemployment is always unchanged."
+      },
+      {
+        "label": "C",
+        "text": "Employment must exceed the labour force."
+      },
+      {
+        "label": "D",
+        "text": "Unemployment falls."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Lower AD reduces output and derived demand for labour, tending to increase unemployment.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "Why can a depreciation create cost-push inflation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Appreciation raises the price of imports."
+      },
+      {
+        "label": "B",
+        "text": "Depreciation raises the price of imported inputs."
+      },
+      {
+        "label": "C",
+        "text": "Depreciation lowers the price of imported inputs."
+      },
+      {
+        "label": "D",
+        "text": "Appreciation raises the productivity of domestic workers."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A weaker currency raises the domestic price of imported inputs, increasing firms' costs.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "Why can an appreciation reduce inflationary pressure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dearer imported inputs; potentially higher AD."
+      },
+      {
+        "label": "B",
+        "text": "Cheaper exports abroad; potentially higher AD."
+      },
+      {
+        "label": "C",
+        "text": "Cheaper imported inputs; potentially lower AD."
+      },
+      {
+        "label": "D",
+        "text": "No domestic money supply; potentially lower AD."
+      }
+    ],
+    "answer": "C",
+    "explanation": "An appreciation can lower import costs and reduce net exports, placing downward pressure on the price level.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "The diagram shows demand and supply for a floating currency. Demand shifts right while supply is unchanged. What happens to the equilibrium exchange rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises."
+      },
+      {
+        "label": "B",
+        "text": "It falls."
+      },
+      {
+        "label": "C",
+        "text": "It is unchanged."
+      },
+      {
+        "label": "D",
+        "text": "It becomes indeterminate."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A rightward demand shift raises the equilibrium price of the currency.",
+    "reference": "6.4 Exchange rates | 6.4.2 determination of a floating exchange rate | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Foreign-exchange market with exchange rate on the vertical axis and quantity of currency on the horizontal axis. Upward-sloping supply S and downward-sloping demand D1. Shift demand right to D2, showing a higher equilibrium exchange rate and quantity.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of domestic currency",
+        "yLabel": "Foreign currency per domestic unit",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "D2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 120
+              },
+              {
+                "x": 120.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 60.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 60.0,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "The diagram shows demand and supply for a floating currency. Supply shifts right while demand is unchanged. What happens to the equilibrium exchange rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls."
+      },
+      {
+        "label": "B",
+        "text": "It rises."
+      },
+      {
+        "label": "C",
+        "text": "It is unchanged."
+      },
+      {
+        "label": "D",
+        "text": "It must be fixed by the central bank."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A rightward shift of currency supply lowers its equilibrium market price.",
+    "reference": "6.4 Exchange rates | 6.4.2 determination of a floating exchange rate | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Foreign-exchange market with exchange rate on vertical axis and quantity of currency on horizontal axis. Demand D unchanged; supply shifts right from S1 to S2. Mark the lower equilibrium exchange rate.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of domestic currency",
+        "yLabel": "Foreign currency per domestic unit",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 20.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 111.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 40.0,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "Which statement about a floating exchange rate is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Exports alone determine its value."
+      },
+      {
+        "label": "B",
+        "text": "Market demand and supply influence its value."
+      },
+      {
+        "label": "C",
+        "text": "Only government announcements can change its value."
+      },
+      {
+        "label": "D",
+        "text": "Market equilibrium guarantees stability of its value."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Market clearing occurs at an exchange rate that can change whenever demand or supply shifts.",
+    "reference": "6.4 Exchange rates | 6.4.2 determination of a floating exchange rate | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "A country imports more goods while all other foreign-exchange flows are unchanged. What is most likely to happen to its currency?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It depreciates."
+      },
+      {
+        "label": "B",
+        "text": "It must remain unchanged."
+      },
+      {
+        "label": "C",
+        "text": "It is revalued."
+      },
+      {
+        "label": "D",
+        "text": "It appreciates."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Higher imports increase the supply of domestic currency to purchase foreign currency.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 31,
+    "difficulty": "Medium",
+    "prompt": "Country X's exports become more popular abroad while its residents buy fewer imports. What is the most likely effect on X's currency?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Appreciation: demand rises; supply falls."
+      },
+      {
+        "label": "B",
+        "text": "Depreciation: demand falls; supply rises."
+      },
+      {
+        "label": "C",
+        "text": "No change: demand and supply effects offset."
+      },
+      {
+        "label": "D",
+        "text": "Depreciation: both changes raise currency supply."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Stronger exports raise demand for X's currency, while fewer imports reduce its supply. Both changes raise its exchange rate.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 32,
+    "difficulty": "Medium",
+    "prompt": "Country X experiences higher inflation than its main trading partners. What is the most likely effect on its floating exchange rate, other things equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Appreciation: imports become less attractive to residents."
+      },
+      {
+        "label": "B",
+        "text": "Depreciation: domestic products lose international price competitiveness."
+      },
+      {
+        "label": "C",
+        "text": "Appreciation: exports become cheaper for foreign consumers."
+      },
+      {
+        "label": "D",
+        "text": "No change: inflation affects only domestic purchasing power."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Higher relative inflation can reduce export demand and increase import demand, lowering demand for and raising supply of the currency.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 33,
+    "difficulty": "Medium",
+    "prompt": "Country X has lower inflation than its trading partners. What is the most likely effect on X's floating currency?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Depreciation: domestic consumers demand more imported products."
+      },
+      {
+        "label": "B",
+        "text": "Appreciation: domestic products gain international price competitiveness."
+      },
+      {
+        "label": "C",
+        "text": "Depreciation: foreign consumers demand fewer exported products."
+      },
+      {
+        "label": "D",
+        "text": "No change: government intervention is necessary for appreciation."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Lower relative inflation tends to support exports and discourage imports, strengthening demand for the currency relative to supply.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "The central bank raises interest rates while foreign interest rates are unchanged. Why may the currency appreciate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Domestic asset returns become relatively more attractive."
+      },
+      {
+        "label": "B",
+        "text": "The government announces a lower fixed exchange rate."
+      },
+      {
+        "label": "C",
+        "text": "Domestic households necessarily increase purchases of imported goods."
+      },
+      {
+        "label": "D",
+        "text": "Exports become dearer before the exchange rate changes."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A higher relative return can attract financial inflows, increasing demand for the domestic currency.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "The central bank cuts interest rates sharply. Which chain is most plausible for the exchange rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower asset returns → lower currency demand → depreciation."
+      },
+      {
+        "label": "B",
+        "text": "Lower asset returns → no currency-market response → unchanged rate."
+      },
+      {
+        "label": "C",
+        "text": "Lower asset returns → higher currency demand → appreciation."
+      },
+      {
+        "label": "D",
+        "text": "Lower asset returns → lower currency supply → appreciation."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Lower relative returns can discourage inward financial flows, weakening currency demand.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "Country X receives a surge of foreign direct investment. Which foreign-exchange diagram best represents the immediate effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Supply shifts left; the currency depreciates."
+      },
+      {
+        "label": "B",
+        "text": "Demand shifts right; the currency appreciates."
+      },
+      {
+        "label": "C",
+        "text": "Demand shifts left; the currency depreciates."
+      },
+      {
+        "label": "D",
+        "text": "Supply shifts right; the currency depreciates."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Foreign investors must acquire X's currency to purchase domestic assets, increasing demand.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Foreign-exchange market for currency X. Exchange rate on vertical axis, quantity on horizontal. Supply S fixed. Demand shifts right D1 to D2, raising equilibrium exchange rate from E1 to E2.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of domestic currency",
+        "yLabel": "Foreign currency per domestic unit",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "D2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 120
+              },
+              {
+                "x": 120.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 60.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 60.0,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "Residents of country X increasingly purchase foreign government bonds. Which foreign-exchange diagram best represents the immediate effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand shifts right; the currency appreciates."
+      },
+      {
+        "label": "B",
+        "text": "Supply shifts right; the currency depreciates."
+      },
+      {
+        "label": "C",
+        "text": "Supply shifts left; the currency appreciates."
+      },
+      {
+        "label": "D",
+        "text": "Demand shifts left; the currency appreciates."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Residents sell X's currency to obtain foreign currencies for foreign asset purchases, increasing supply.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Foreign-exchange market for currency X. Demand D fixed. Supply shifts right S1 to S2, lowering equilibrium exchange rate.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of domestic currency",
+        "yLabel": "Foreign currency per domestic unit",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 20.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 111.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 40.0,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "A country removes restrictions that had discouraged its residents from taking holidays abroad. What is the most likely effect on its currency?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Currency supply rises, causing depreciation."
+      },
+      {
+        "label": "B",
+        "text": "Currency supply falls, causing appreciation."
+      },
+      {
+        "label": "C",
+        "text": "Currency demand rises, causing appreciation."
+      },
+      {
+        "label": "D",
+        "text": "Currency demand stays unchanged, preventing any effect."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Residents need foreign currency to pay for tourism abroad, so they supply more domestic currency.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "A major international sporting event attracts many foreign visitors to country X. What is the most likely effect on X's currency?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Currency supply rises, causing depreciation."
+      },
+      {
+        "label": "B",
+        "text": "Currency demand rises, causing appreciation."
+      },
+      {
+        "label": "C",
+        "text": "Currency demand stays unchanged, preventing any effect."
+      },
+      {
+        "label": "D",
+        "text": "Currency demand falls, causing depreciation."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Foreign visitors need X's currency to buy services there, increasing demand.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "Speculators suddenly expect a currency to depreciate. Which change is most likely today?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Government intervention necessarily fixes the exchange rate."
+      },
+      {
+        "label": "B",
+        "text": "Demand rises and supply falls, encouraging appreciation."
+      },
+      {
+        "label": "C",
+        "text": "Demand and supply necessarily become perfectly inelastic."
+      },
+      {
+        "label": "D",
+        "text": "Demand falls or supply rises, encouraging depreciation."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Expectations can be self-reinforcing: holders sell and potential buyers delay purchases, weakening the currency.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "The price of country X's currency rises from 1.50 units of foreign currency to 1.65. What is the percentage appreciation, using the initial rate as the base?",
+    "options": [
+      {
+        "label": "A",
+        "text": "9.1%."
+      },
+      {
+        "label": "B",
+        "text": "15%."
+      },
+      {
+        "label": "C",
+        "text": "0.15%."
+      },
+      {
+        "label": "D",
+        "text": "10%."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The increase is 0.15 on an initial 1.50: 0.15/1.50 × 100 = 10%.",
+    "reference": "6.4 Exchange rates | 6.4.3 distinction between depreciation and appreciation of a floating exchange rate | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "The price of country X's currency falls from $2.00 to $1.70. What is the percentage depreciation, using the initial rate as the base?",
+    "options": [
+      {
+        "label": "A",
+        "text": "15%."
+      },
+      {
+        "label": "B",
+        "text": "17.6%."
+      },
+      {
+        "label": "C",
+        "text": "30%."
+      },
+      {
+        "label": "D",
+        "text": "85%."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The fall is $0.30 on $2.00: 0.30/2.00 × 100 = 15%.",
+    "reference": "6.4 Exchange rates | 6.4.3 distinction between depreciation and appreciation of a floating exchange rate | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "£1 exchanges for US$1.25. Approximately how many pounds are needed to buy US$500?",
+    "options": [
+      {
+        "label": "A",
+        "text": "£625."
+      },
+      {
+        "label": "B",
+        "text": "£500."
+      },
+      {
+        "label": "C",
+        "text": "£400."
+      },
+      {
+        "label": "D",
+        "text": "£250."
+      }
+    ],
+    "answer": "C",
+    "explanation": "If £1 = $1.25, pounds required = 500 / 1.25 = £400.",
+    "reference": "6.4 Exchange rates | 6.4.1 definition of exchange rate | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "€1 exchanges for US$1.10. The euro appreciates to US$1.21. A €100 product keeps the same euro price. What happens to its dollar price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The price rises from $100 to $110."
+      },
+      {
+        "label": "B",
+        "text": "The price falls from $110 to $100."
+      },
+      {
+        "label": "C",
+        "text": "The price stays unchanged at $110."
+      },
+      {
+        "label": "D",
+        "text": "The price rises from $110 to $121."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Dollar price equals euro price multiplied by dollars per euro. Appreciation makes the euro-priced export dearer to US buyers.",
+    "reference": "6.4 Exchange rates | 6.4.3 distinction between depreciation and appreciation of a floating exchange rate; 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "A $200 imported component costs 160 units of domestic currency when 1 domestic unit = $1.25. The domestic currency depreciates to $1.00 per unit. What is the new domestic-currency cost?",
+    "options": [
+      {
+        "label": "A",
+        "text": "160 units."
+      },
+      {
+        "label": "B",
+        "text": "125 units."
+      },
+      {
+        "label": "C",
+        "text": "200 units."
+      },
+      {
+        "label": "D",
+        "text": "250 units."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Initially 200/1.25 = 160 domestic units. After depreciation to $1 per unit, $200 costs 200 domestic units.",
+    "reference": "6.4 Exchange rates | 6.4.3 distinction between depreciation and appreciation of a floating exchange rate; 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "A depreciation raises net exports. In a conventional AD/AS diagram with spare capacity, which change is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "SRAS right: lower prices; unchanged AD."
+      },
+      {
+        "label": "B",
+        "text": "AD left: lower output; lower prices."
+      },
+      {
+        "label": "C",
+        "text": "AD right: higher output; higher prices."
+      },
+      {
+        "label": "D",
+        "text": "AD unchanged: no effect on domestic activity."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Higher net exports are an injection into AD, producing a rightward shift and a higher equilibrium output and price level.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram with price level vertical and real output horizontal. Upward-sloping SRAS fixed. AD shifts right from AD1 to AD2, raising equilibrium real output and price level.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 120
+              },
+              {
+                "x": 120.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 60.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 60.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "An appreciation reduces net exports. In a conventional AD/AS diagram, which change is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "AD right: higher output and prices."
+      },
+      {
+        "label": "B",
+        "text": "LRAS right: greater productive capacity automatically."
+      },
+      {
+        "label": "C",
+        "text": "SRAS left: higher prices and lower output."
+      },
+      {
+        "label": "D",
+        "text": "AD left: lower output and prices."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Lower net exports reduce Aggregate Demand, producing a leftward shift in AD.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram with price level vertical and real output horizontal. SRAS fixed. AD shifts left from AD1 to AD2, lowering equilibrium real output and price level.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 80
+              },
+              {
+                "x": 80.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 40.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 40.0,
+            "y": 40.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "Why may the inflationary effect of a depreciation be especially strong in an economy that imports a large share of its raw materials?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher AD and higher production costs."
+      },
+      {
+        "label": "B",
+        "text": "Higher exports but unchanged domestic prices."
+      },
+      {
+        "label": "C",
+        "text": "Higher SRAS from cheaper imported inputs."
+      },
+      {
+        "label": "D",
+        "text": "Lower import costs and lower AD."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A depreciation may raise net exports and AD while simultaneously raising imported input costs and shifting SRAS left.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "A country's currency appreciates while the economy is close to full capacity. Why might the government welcome this?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Rising net exports raise domestic inflation because appreciation makes exported goods cheaper to foreign buyers."
+      },
+      {
+        "label": "B",
+        "text": "Faster real growth is guaranteed by appreciation."
+      },
+      {
+        "label": "C",
+        "text": "Cheaper imports and lower AD may reduce inflation."
+      },
+      {
+        "label": "D",
+        "text": "Higher input costs reduce the supply of goods."
+      }
+    ],
+    "answer": "C",
+    "explanation": "At high capacity, restraining AD and lowering imported costs can help contain inflation.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "A depreciation occurs when unemployment is high and firms have substantial spare capacity. Which outcome is most likely if net exports respond strongly?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Output falls sharply and unemployment rises because cheaper exports reduce firms’ total sales revenue."
+      },
+      {
+        "label": "B",
+        "text": "A guaranteed price fall despite increasing demand."
+      },
+      {
+        "label": "C",
+        "text": "A relatively large output rise and smaller price rise."
+      },
+      {
+        "label": "D",
+        "text": "Unchanged domestic output despite increasing net exports."
+      }
+    ],
+    "answer": "C",
+    "explanation": "With spare capacity, a rightward AD shift can raise output substantially before severe capacity constraints create strong inflation.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "A depreciation occurs when the economy is already near full employment. Which outcome is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Falling output and a falling price level."
+      },
+      {
+        "label": "B",
+        "text": "Strong output growth and unchanged prices."
+      },
+      {
+        "label": "C",
+        "text": "Unchanged output and an unchanged price level."
+      },
+      {
+        "label": "D",
+        "text": "Prices rise strongly; output rises less."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Near capacity, extra AD meets supply constraints, so inflationary pressure is stronger and output gains are limited.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "A stronger currency reduces the domestic price of imported machinery. Which additional short-run effect is possible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The domestic labour force falls automatically."
+      },
+      {
+        "label": "B",
+        "text": "AD rises because exports become cheaper abroad."
+      },
+      {
+        "label": "C",
+        "text": "SRAS falls because imported inputs become cheaper."
+      },
+      {
+        "label": "D",
+        "text": "SRAS rises because imported inputs become cheaper."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Cheaper imported capital goods and inputs can reduce production costs, supporting a rightward SRAS shift.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "A weaker currency raises the domestic price of imported energy. Which additional short-run effect is possible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "SRAS rises because imported inputs become cheaper."
+      },
+      {
+        "label": "B",
+        "text": "LRAS rises because productive capacity necessarily increases."
+      },
+      {
+        "label": "C",
+        "text": "SRAS falls because imported inputs become dearer."
+      },
+      {
+        "label": "D",
+        "text": "AD falls because exports become cheaper abroad."
+      }
+    ],
+    "answer": "C",
+    "explanation": "More expensive imported energy raises production costs and can reduce short-run Aggregate Supply.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "Country X has an exchange rate of $0.80 per X. Country Y has an exchange rate of $1.60 per Y. Which statement is valid?",
+    "options": [
+      {
+        "label": "A",
+        "text": "X must export twice as much as Y because its currency buys fewer dollars."
+      },
+      {
+        "label": "B",
+        "text": "Y’s inflation rate is half X’s rate."
+      },
+      {
+        "label": "C",
+        "text": "Y buys twice as many dollars as X."
+      },
+      {
+        "label": "D",
+        "text": "Y’s real output is twice X’s output."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The numerical quote compares currency units only. It does not by itself reveal economic strength, inflation or trade performance.",
+    "reference": "6.4 Exchange rates | 6.4.1 definition of exchange rate | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "Domestic interest rates rise, but investors expect a large future depreciation. What can be concluded about the currency now?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Appreciation: interest-rate changes necessarily dominate expectations."
+      },
+      {
+        "label": "B",
+        "text": "Uncertain: interest-rate incentives conflict with depreciation expectations."
+      },
+      {
+        "label": "C",
+        "text": "Depreciation: exchange-rate expectations necessarily dominate interest rates."
+      },
+      {
+        "label": "D",
+        "text": "Unchanged: conflicting influences necessarily offset each other."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Higher interest rates may attract funds, while expected depreciation may discourage holding the currency; relative strengths determine the outcome.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "A country's exports rise and imports fall. Which combination best describes the foreign-exchange market?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Currency demand rises; currency supply rises."
+      },
+      {
+        "label": "B",
+        "text": "Currency demand falls; currency supply rises."
+      },
+      {
+        "label": "C",
+        "text": "Currency demand rises; currency supply falls."
+      },
+      {
+        "label": "D",
+        "text": "Currency demand falls; currency supply falls."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Exports require foreign buyers to demand the currency; lower imports mean residents supply less of it.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "A country's exports fall and imports rise. Which combination best describes the foreign-exchange market?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Currency demand falls; currency supply rises."
+      },
+      {
+        "label": "B",
+        "text": "Currency demand rises; currency supply rises."
+      },
+      {
+        "label": "C",
+        "text": "Currency demand rises; currency supply falls."
+      },
+      {
+        "label": "D",
+        "text": "Currency demand falls; currency supply falls."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Lower exports reduce currency demand, while higher imports increase currency supply.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "The foreign-exchange market begins in equilibrium. Demand shifts right and supply shifts left. What can be concluded?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quantity traded definitely falls."
+      },
+      {
+        "label": "B",
+        "text": "The exchange rate definitely stays unchanged."
+      },
+      {
+        "label": "C",
+        "text": "The currency definitely appreciates."
+      },
+      {
+        "label": "D",
+        "text": "The currency definitely depreciates."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Both shifts put upward pressure on the currency price, so appreciation is definite, although the quantity effect is ambiguous.",
+    "reference": "6.4 Exchange rates | 6.4.2 determination of a floating exchange rate; 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Foreign-exchange diagram: initial D1 and S1. Shift demand right to D2 and supply left to S2. Show a higher new equilibrium exchange rate. Do not imply a definite direction for equilibrium quantity.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of domestic currency",
+        "yLabel": "Foreign currency per domestic unit",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "D2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 120
+              },
+              {
+                "x": 120.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 111.6,
+                "y": 131.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 50.0,
+            "y": 70.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 50.0,
+            "y": 70.0,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "The foreign-exchange market begins in equilibrium. Demand shifts left and supply shifts right. What can be concluded?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quantity traded definitely increases."
+      },
+      {
+        "label": "B",
+        "text": "The currency definitely depreciates."
+      },
+      {
+        "label": "C",
+        "text": "The exchange rate definitely stays unchanged."
+      },
+      {
+        "label": "D",
+        "text": "The currency definitely appreciates."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Both shifts put downward pressure on the currency price, so depreciation is definite.",
+    "reference": "6.4 Exchange rates | 6.4.2 determination of a floating exchange rate; 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Foreign-exchange diagram: initial D1 and S1. Shift demand left to D2 and supply right to S2. Show a lower new equilibrium exchange rate; quantity change may be ambiguous.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of domestic currency",
+        "yLabel": "Foreign currency per domestic unit",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "D2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 80
+              },
+              {
+                "x": 80.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 20.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 111.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 50.0,
+            "y": 30.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 50.0,
+            "y": 30.0,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "Demand and supply of a currency both increase. What can be concluded about the equilibrium exchange rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls because a larger currency supply always outweighs an increase in demand."
+      },
+      {
+        "label": "B",
+        "text": "Its direction is uncertain."
+      },
+      {
+        "label": "C",
+        "text": "It must rise."
+      },
+      {
+        "label": "D",
+        "text": "It must be unchanged."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Higher demand pushes the rate up while higher supply pushes it down; without magnitudes the final exchange rate is indeterminate.",
+    "reference": "6.4 Exchange rates | 6.4.2 determination of a floating exchange rate | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "Demand and supply of a currency both decrease. What can be concluded about the equilibrium exchange rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It must rise."
+      },
+      {
+        "label": "B",
+        "text": "It falls because a lower currency supply must lower its market value."
+      },
+      {
+        "label": "C",
+        "text": "Its direction is uncertain."
+      },
+      {
+        "label": "D",
+        "text": "It must be unchanged."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Lower demand pushes the rate down while lower supply pushes it up; the relative shifts determine the result.",
+    "reference": "6.4 Exchange rates | 6.4.2 determination of a floating exchange rate | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "A floating currency appreciates. Which statement must be true at the new equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The government has lowered its fixed rate."
+      },
+      {
+        "label": "B",
+        "text": "Its price in another currency has risen."
+      },
+      {
+        "label": "C",
+        "text": "Its domestic interest rate has necessarily risen."
+      },
+      {
+        "label": "D",
+        "text": "Its goods-export volume has necessarily increased."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Appreciation describes the market outcome, not any single necessary cause.",
+    "reference": "6.4 Exchange rates | 6.4.3 distinction between depreciation and appreciation of a floating exchange rate | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "A floating currency depreciates. Which statement must be true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The government has lowered its fixed rate."
+      },
+      {
+        "label": "B",
+        "text": "Its current-account balance has necessarily improved."
+      },
+      {
+        "label": "C",
+        "text": "Its price in another currency has fallen."
+      },
+      {
+        "label": "D",
+        "text": "The volume of imported goods must increase because a weaker currency reduces their price to domestic consumers."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Depreciation is defined by a market-driven fall in the currency's external value; its causes and consequences can vary.",
+    "reference": "6.4 Exchange rates | 6.4.3 distinction between depreciation and appreciation of a floating exchange rate | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "A depreciation shifts AD right but also SRAS left because imported inputs are expensive. What can be said about the price level?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls because both shifts reduce prices."
+      },
+      {
+        "label": "B",
+        "text": "It rises because both shifts increase prices."
+      },
+      {
+        "label": "C",
+        "text": "It stays unchanged because the shifts offset."
+      },
+      {
+        "label": "D",
+        "text": "It rises only at zero unemployment."
+      }
+    ],
+    "answer": "B",
+    "explanation": "AD moving right and SRAS moving left both tend to increase the equilibrium price level.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram. Initial equilibrium at AD1 and SRAS1. Show AD shifting right to AD2 and SRAS shifting left to SRAS2. The new price level is unambiguously higher; real-output effect depends on shift sizes.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 130.0
+              },
+              {
+                "x": 130.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "SRAS2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10.0
+              },
+              {
+                "x": 121.6,
+                "y": 131.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 70.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 70.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Possible shift magnitudes 1"
+      },
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 110.0
+              },
+              {
+                "x": 110.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "SRAS2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 30.0
+              },
+              {
+                "x": 101.6,
+                "y": 131.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 40.0,
+            "y": 70.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 40.0,
+            "y": 70.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Possible shift magnitudes 2"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "A depreciation shifts AD right but also SRAS left because imported inputs are expensive. What can be said about real output?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises because both shifts increase output."
+      },
+      {
+        "label": "B",
+        "text": "It falls because both shifts decrease output."
+      },
+      {
+        "label": "C",
+        "text": "Output depends on the relative sizes of the shifts."
+      },
+      {
+        "label": "D",
+        "text": "Output is unchanged because exchange-rate changes affect prices alone, leaving demand and production quantities fixed."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The AD increase tends to raise real output, while the SRAS decrease tends to lower it. Magnitudes determine the net effect.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO3 Evaluation",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram with AD1→AD2 rightward and SRAS1→SRAS2 leftward. Emphasise that both raise price level but create opposing effects on equilibrium real output.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 130.0
+              },
+              {
+                "x": 130.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "SRAS2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10.0
+              },
+              {
+                "x": 121.6,
+                "y": 131.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 70.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 70.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Possible shift magnitudes 1"
+      },
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 110.0
+              },
+              {
+                "x": 110.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "SRAS2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 30.0
+              },
+              {
+                "x": 101.6,
+                "y": 131.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 40.0,
+            "y": 70.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 40.0,
+            "y": 70.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Possible shift magnitudes 2"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "An appreciation shifts AD left but also SRAS right because imported inputs are cheaper. What can be said about the price level?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises because both shifts increase prices."
+      },
+      {
+        "label": "B",
+        "text": "It falls because both shifts reduce prices."
+      },
+      {
+        "label": "C",
+        "text": "It falls only if export volumes increase."
+      },
+      {
+        "label": "D",
+        "text": "It stays unchanged because the shifts offset."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Lower AD and higher SRAS both tend to reduce the equilibrium price level.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram with AD1→AD2 leftward and SRAS1→SRAS2 rightward. Show an unambiguously lower price level; output effect is ambiguous.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 70.0
+              },
+              {
+                "x": 70.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "SRAS2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 121.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 40.0,
+            "y": 30.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 40.0,
+            "y": 30.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Possible shift magnitudes 1"
+      },
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "SRAS2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 30.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 101.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 30.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 30.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Possible shift magnitudes 2"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "An appreciation shifts AD left but also SRAS right because imported inputs are cheaper. What can be said about real output?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Its direction is uncertain."
+      },
+      {
+        "label": "B",
+        "text": "It must fall."
+      },
+      {
+        "label": "C",
+        "text": "It must rise."
+      },
+      {
+        "label": "D",
+        "text": "It remains unchanged because changes in import costs and net exports always cancel out."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The AD fall tends to reduce output while the SRAS rise tends to increase it, so the net output effect depends on relative shifts.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO3 Evaluation",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram with AD shifting left and SRAS shifting right. Note the opposing effects on real output and common downward effect on the price level.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 70.0
+              },
+              {
+                "x": 70.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "SRAS2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 121.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 40.0,
+            "y": 30.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 40.0,
+            "y": 30.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Possible shift magnitudes 1"
+      },
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "SRAS2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 30.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 101.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 30.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 30.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Possible shift magnitudes 2"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "A country becomes a more attractive tourist destination while its residents also take more holidays abroad. Which exchange-rate conclusion is best?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Uncertain: both currency demand and supply rise."
+      },
+      {
+        "label": "B",
+        "text": "Unchanged: service transactions cannot affect currency markets."
+      },
+      {
+        "label": "C",
+        "text": "Depreciation: tourism always increases currency supply only."
+      },
+      {
+        "label": "D",
+        "text": "Appreciation: tourism always increases currency demand only."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Foreign visitors raise demand for the currency; residents travelling abroad raise its supply.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "Which event most directly shifts the demand curve for a country's currency to the left?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher domestic demand for imported goods."
+      },
+      {
+        "label": "B",
+        "text": "Higher domestic spending on foreign holidays."
+      },
+      {
+        "label": "C",
+        "text": "Lower foreign demand for domestic exports."
+      },
+      {
+        "label": "D",
+        "text": "Higher domestic purchases of overseas assets."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A fall in exports reduces foreign buyers' need for the domestic currency, directly reducing its demand.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "Which event most directly shifts the supply curve of a country's currency to the left?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher foreign purchases of domestic tourism services."
+      },
+      {
+        "label": "B",
+        "text": "Higher foreign demand for goods exported domestically."
+      },
+      {
+        "label": "C",
+        "text": "Higher inward investment from foreign firms and households."
+      },
+      {
+        "label": "D",
+        "text": "Lower domestic demand for goods produced abroad."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Fewer imports mean residents need less foreign currency and therefore supply less domestic currency.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 71,
+    "difficulty": "Hard",
+    "prompt": "Country X has a floating exchange rate. Foreign incomes rise, increasing demand for X's exports, but X's central bank also cuts interest rates. What is the best conclusion?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Uncertain: export demand and interest rates exert opposing pressures."
+      },
+      {
+        "label": "B",
+        "text": "Unchanged: the two influences necessarily cancel each other exactly."
+      },
+      {
+        "label": "C",
+        "text": "The currency appreciates because any growth in export demand necessarily outweighs interest-rate effects on financial flows."
+      },
+      {
+        "label": "D",
+        "text": "Depreciation: financial flows necessarily dominate all trade influences."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The two shocks affect demand for the currency in opposite directions; without relative magnitudes there is no definite exchange-rate prediction.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 72,
+    "difficulty": "Hard",
+    "prompt": "Country X has a floating exchange rate. Domestic inflation falls below foreign inflation while residents sharply increase purchases of foreign assets. What is the best conclusion?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The two influences push in opposite directions."
+      },
+      {
+        "label": "B",
+        "text": "The currency stays fixed because changes in inflation and foreign asset purchases must exactly cancel."
+      },
+      {
+        "label": "C",
+        "text": "The currency must appreciate."
+      },
+      {
+        "label": "D",
+        "text": "The currency must depreciate."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Improved price competitiveness tends to raise demand for X's currency, while outward investment raises its supply.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 73,
+    "difficulty": "Hard",
+    "prompt": "The table shows changes affecting currency X. Which outcome for the exchange rate is certain?\n| change | effect |\n| value of exports from X | increases |\n| value of imports into X | decreases |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unchanged: the two movements necessarily offset."
+      },
+      {
+        "label": "B",
+        "text": "Depreciation: fewer imports increase currency supply."
+      },
+      {
+        "label": "C",
+        "text": "Appreciation: government intervention alone raises the rate."
+      },
+      {
+        "label": "D",
+        "text": "Appreciation: currency demand rises and supply falls."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A rise in exports increases demand for X, while a fall in imports reduces supply of X. Both changes strengthen the currency.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "A country experiences a depreciation. Export volumes rise strongly, but many exporters use imported components. Which macroeconomic conclusion is most defensible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "AD rises; SRAS rises; prices necessarily rise."
+      },
+      {
+        "label": "B",
+        "text": "AD falls; SRAS rises; prices necessarily fall."
+      },
+      {
+        "label": "C",
+        "text": "AD rises and SRAS falls, raising prices."
+      },
+      {
+        "label": "D",
+        "text": "AD falls; SRAS falls; prices necessarily fall."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Higher exports support AD, while expensive imported inputs raise costs and can shift SRAS left.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "A country experiences an appreciation. Import-intensive firms reduce prices, while exporters lose foreign sales. Which combination of shifts is most plausible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both shift left because appreciation reduces net exports and raises the cost of imported inputs."
+      },
+      {
+        "label": "B",
+        "text": "Both AD and SRAS shift right."
+      },
+      {
+        "label": "C",
+        "text": "AD shifts left and SRAS shifts right."
+      },
+      {
+        "label": "D",
+        "text": "AD shifts right and SRAS shifts left."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Lower exports reduce AD, while cheaper imported inputs reduce production costs and raise SRAS.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram: appreciation causes AD1→AD2 left via lower net exports and SRAS1→SRAS2 right via cheaper imported inputs. Price level falls; real-output effect is ambiguous.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 70.0
+              },
+              {
+                "x": 70.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "SRAS2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 10.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 121.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 40.0,
+            "y": 30.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 40.0,
+            "y": 30.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Possible shift magnitudes 1"
+      },
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 90.0
+              },
+              {
+                "x": 90.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "SRAS2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 30.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 101.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 30.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 30.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Possible shift magnitudes 2"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "A depreciation moves AD from AD1 to AD2 and SRAS from SRAS1 to SRAS2. The new equilibrium has a higher price level but the same real output. Which explanation is best?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The appreciation lowered import costs and net exports."
+      },
+      {
+        "label": "B",
+        "text": "AD and SRAS both shifted right equally."
+      },
+      {
+        "label": "C",
+        "text": "AD and SRAS remained in their original positions."
+      },
+      {
+        "label": "D",
+        "text": "The AD increase offsets the SRAS contraction."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A depreciation can raise AD and reduce SRAS; if their output effects offset, output can be unchanged while both shifts raise the price level.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO3 Evaluation",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram with initial equilibrium. AD shifts right and SRAS shifts left such that the final equilibrium lies vertically above the initial equilibrium at the same real output and a higher price level.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 120
+              },
+              {
+                "x": 120.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "label": "SRAS2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 111.6,
+                "y": 131.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 50.0,
+            "y": 70.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 50.0,
+            "y": 70.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "An appreciation moves AD left and SRAS right. The price level definitely falls. Why can the effect on employment be uncertain?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both shifts necessarily raise domestic employment."
+      },
+      {
+        "label": "B",
+        "text": "The shifts push output and employment in opposite directions."
+      },
+      {
+        "label": "C",
+        "text": "Both shifts reduce output and employment because cheaper imported inputs cause domestic production to contract."
+      },
+      {
+        "label": "D",
+        "text": "Only the exchange-rate quotation determines employment."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The two channels have opposing effects on equilibrium real output and therefore on derived demand for labour.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "Country X has high unemployment. Its currency depreciates, but foreign demand for its exports is very weak. Which statement is most defensible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Weak export demand may limit the output response."
+      },
+      {
+        "label": "B",
+        "text": "Depreciation leaves domestic demand unchanged because exchange rates affect only prices charged in foreign markets."
+      },
+      {
+        "label": "C",
+        "text": "Domestic real output must increase substantially."
+      },
+      {
+        "label": "D",
+        "text": "Domestic unemployment must immediately reach zero."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The AD impact depends on how strongly export and import spending respond. Weak foreign demand can limit the expansionary effect.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "A currency appreciates after a rise in interest rates. At the same time, higher interest rates reduce domestic consumption and investment. What happens to Aggregate Demand?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only net exports fall, because changes in borrowing costs cannot affect domestic consumption and investment."
+      },
+      {
+        "label": "B",
+        "text": "Domestic and trade effects necessarily offset each other."
+      },
+      {
+        "label": "C",
+        "text": "AD necessarily rises because the domestic currency strengthens."
+      },
+      {
+        "label": "D",
+        "text": "Weaker domestic spending and net exports both reduce AD."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Higher interest rates can reduce C and I, while appreciation can reduce X-M. Both channels lower AD.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency; 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "A currency depreciates after a cut in interest rates. Which combination is most likely, other things equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher net exports and necessarily lower aggregate demand."
+      },
+      {
+        "label": "B",
+        "text": "Household consumption falls and net exports fall because a lower interest rate reduces both domestic and foreign demand."
+      },
+      {
+        "label": "C",
+        "text": "Higher domestic spending and net exports both raise AD."
+      },
+      {
+        "label": "D",
+        "text": "No change because monetary and trade effects necessarily cancel."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Lower rates can stimulate interest-sensitive spending, while depreciation can raise net exports, reinforcing the AD increase.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency; 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "The exchange rate is quoted as units of foreign currency per unit of domestic currency. Which movement represents a 25% depreciation from 1.60?",
+    "options": [
+      {
+        "label": "A",
+        "text": "From 1.60 to 1.20."
+      },
+      {
+        "label": "B",
+        "text": "From 1.60 to 0.40."
+      },
+      {
+        "label": "C",
+        "text": "From 1.60 to 1.35."
+      },
+      {
+        "label": "D",
+        "text": "From 1.60 to 2.00."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A 25% fall in 1.60 is 0.40, so the new quote is 1.20.",
+    "reference": "6.4 Exchange rates | 6.4.3 distinction between depreciation and appreciation of a floating exchange rate | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "Country X exports a service priced at 600 X. The rate changes from 1 X = $0.50 to 1 X = $0.40, with the X price unchanged. What happens to the dollar price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$1200 to $1500."
+      },
+      {
+        "label": "B",
+        "text": "$240 to $300."
+      },
+      {
+        "label": "C",
+        "text": "$300 to $360."
+      },
+      {
+        "label": "D",
+        "text": "$300 to $240."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Initially 600 × 0.50 = $300. After depreciation, 600 × 0.40 = $240, making the export cheaper in dollars.",
+    "reference": "6.4 Exchange rates | 6.4.3 distinction between depreciation and appreciation of a floating exchange rate; 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "A machine imported from abroad costs $9000. The rate changes from 1 domestic unit = $1.50 to $1.20. Approximately how many domestic units are now required to buy the machine?",
+    "options": [
+      {
+        "label": "A",
+        "text": "10 800."
+      },
+      {
+        "label": "B",
+        "text": "7500."
+      },
+      {
+        "label": "C",
+        "text": "6000."
+      },
+      {
+        "label": "D",
+        "text": "13 500."
+      }
+    ],
+    "answer": "B",
+    "explanation": "At $1.20 per domestic unit, the cost is 9000 / 1.20 = 7500 domestic units.",
+    "reference": "6.4 Exchange rates | 6.4.3 distinction between depreciation and appreciation of a floating exchange rate; 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "A depreciation makes exports cheaper abroad and imports dearer at home. Why does this not by itself prove that equilibrium real output will rise?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Depreciation necessarily lowers net exports and AD."
+      },
+      {
+        "label": "B",
+        "text": "Depreciation necessarily makes imported inputs cheaper."
+      },
+      {
+        "label": "C",
+        "text": "Input-cost increases may offset the demand boost."
+      },
+      {
+        "label": "D",
+        "text": "Exchange-rate changes cannot influence domestic output."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The syllabus requires AD/AS analysis: both demand and cost channels matter, and the net output effect depends on their relative strength.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "An appreciation makes imports cheaper. Why does this not necessarily cause unemployment to rise?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cheaper imports necessarily increase aggregate demand."
+      },
+      {
+        "label": "B",
+        "text": "Cheaper inputs may offset weaker net exports."
+      },
+      {
+        "label": "C",
+        "text": "Domestic employment is unrelated to real output."
+      },
+      {
+        "label": "D",
+        "text": "Appreciation necessarily increases the volume of exports."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Although net exports may fall, cheaper inputs can reduce costs and expand SRAS, so the employment outcome is not mechanically fixed.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "Country X simultaneously experiences a boom abroad and a domestic recession. How may both changes affect X's currency?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Foreign growth reduces demand for domestic exports."
+      },
+      {
+        "label": "B",
+        "text": "Higher exports and lower imports support appreciation."
+      },
+      {
+        "label": "C",
+        "text": "Both developments necessarily favour depreciation."
+      },
+      {
+        "label": "D",
+        "text": "Domestic recession increases demand for imported goods."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Higher foreign incomes can raise demand for exports, and weaker domestic income can reduce imports and currency supply.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "Country X simultaneously experiences recession abroad and rapid domestic growth. How may both changes affect X's currency?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Weaker exports and stronger imports favour depreciation."
+      },
+      {
+        "label": "B",
+        "text": "Both developments necessarily favour appreciation."
+      },
+      {
+        "label": "C",
+        "text": "Domestic growth reduces demand for imported goods."
+      },
+      {
+        "label": "D",
+        "text": "Foreign recession increases demand for domestic exports."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Lower foreign income reduces demand for X's currency through exports, while stronger domestic import demand increases currency supply.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "The table shows two simultaneous changes in country X. What can be concluded?\n| change | foreign-exchange effect |\n| foreign demand for X exports | increases |\n| residents of X buying foreign assets | decreases |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Depreciation; quantity necessarily rises."
+      },
+      {
+        "label": "B",
+        "text": "The exchange rate is uncertain, but both changes necessarily increase the equilibrium quantity of currency traded."
+      },
+      {
+        "label": "C",
+        "text": "Unchanged exchange rate and quantity."
+      },
+      {
+        "label": "D",
+        "text": "Appreciation; quantity may rise or fall."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Higher export demand shifts currency demand right, while lower outward investment shifts currency supply left. Both raise the exchange rate, but the equilibrium quantity can move either way.",
+    "reference": "6.4 Exchange rates | 6.4.2 determination of a floating exchange rate; 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "The table shows two simultaneous changes in country X. What can be concluded?\n| change | foreign-exchange effect |\n| foreign demand for X exports | decreases |\n| residents of X taking holidays abroad | increases |",
+    "options": [
+      {
+        "label": "A",
+        "text": "The exchange rate is uncertain, but both changes necessarily reduce the equilibrium quantity of currency traded."
+      },
+      {
+        "label": "B",
+        "text": "Appreciation; quantity necessarily rises."
+      },
+      {
+        "label": "C",
+        "text": "Unchanged exchange rate and quantity."
+      },
+      {
+        "label": "D",
+        "text": "Depreciation; quantity may rise or fall."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Lower export demand shifts demand left and higher outward tourism shifts supply right. Both lower the exchange rate, while quantity is ambiguous.",
+    "reference": "6.4 Exchange rates | 6.4.2 determination of a floating exchange rate; 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "A depreciation raises the price level through both demand-pull and cost-push channels. Which combination identifies these channels correctly?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher net exports raise AD; dearer inputs reduce SRAS."
+      },
+      {
+        "label": "B",
+        "text": "Lower net exports raise AD; cheaper inputs reduce SRAS."
+      },
+      {
+        "label": "C",
+        "text": "Higher imports raise LRAS; lower exports raise SRAS."
+      },
+      {
+        "label": "D",
+        "text": "Higher net exports reduce AD; dearer inputs raise SRAS."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A weaker currency may stimulate net exports while raising the domestic cost of imported inputs.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "An appreciation lowers the price level through two channels. Which combination is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower net exports reduce AD; cheaper inputs raise SRAS."
+      },
+      {
+        "label": "B",
+        "text": "Lower net exports raise AD; cheaper inputs reduce SRAS."
+      },
+      {
+        "label": "C",
+        "text": "Higher imports reduce LRAS; higher exports raise SRAS."
+      },
+      {
+        "label": "D",
+        "text": "Higher net exports raise AD; dearer inputs reduce SRAS."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A stronger currency can restrain demand and lower production costs simultaneously.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "The diagram shows a depreciation shifting AD right. Which assumption is required for this representation to be valid?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The currency movement reduces foreign demand for exports."
+      },
+      {
+        "label": "B",
+        "text": "The currency movement reduces domestic import prices."
+      },
+      {
+        "label": "C",
+        "text": "The currency operates under a fixed-rate regime."
+      },
+      {
+        "label": "D",
+        "text": "The currency movement increases net exports overall."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A rightward AD shift represents the net-export demand channel; it assumes the trade response raises X-M.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO3 Evaluation",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram showing AD1→AD2 right after a depreciation. The question focuses on the assumption behind representing the exchange-rate change as an increase in net exports.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 120
+              },
+              {
+                "x": 120.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 60.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 60.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "The diagram shows an appreciation shifting SRAS right. Which assumption is required?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Appreciation makes imported oil dearer in domestic currency."
+      },
+      {
+        "label": "B",
+        "text": "Imported inputs account for a meaningful share of costs."
+      },
+      {
+        "label": "C",
+        "text": "The appreciation must raise overall aggregate demand because the export losses are always smaller than gains from imports."
+      },
+      {
+        "label": "D",
+        "text": "Exported products become cheaper to buyers located abroad."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A rightward SRAS shift from appreciation relies on cheaper imported inputs materially reducing costs.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO3 Evaluation",
+    "graphRequired": true,
+    "graphDescription": "AD/AS diagram showing SRAS1→SRAS2 right after an appreciation, with AD held constant for the isolated cost-channel analysis.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "AD",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "SRAS1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "SRAS2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 20.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 111.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 40.0,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "A floating currency appreciates despite a fall in the country's exports. Which explanation is most plausible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Export decline makes any currency appreciation impossible."
+      },
+      {
+        "label": "B",
+        "text": "Government revaluation occurs despite the floating-rate regime."
+      },
+      {
+        "label": "C",
+        "text": "Inward investment exceeds the loss of export-related demand."
+      },
+      {
+        "label": "D",
+        "text": "Falling exports necessarily raise demand for the currency."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Exchange rates reflect all sources of currency demand and supply; financial flows can outweigh trade flows.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "Country X has an appreciation and a simultaneous rise in world commodity prices. X imports most of its raw materials. What can be concluded about its production costs?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Costs must be unchanged."
+      },
+      {
+        "label": "B",
+        "text": "Costs must rise."
+      },
+      {
+        "label": "C",
+        "text": "Costs must fall."
+      },
+      {
+        "label": "D",
+        "text": "The effect is uncertain."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Appreciation reduces the domestic-currency import price while higher world prices raise it; magnitudes matter.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "A country with a floating exchange rate has weak domestic demand and high unemployment. Which exchange-rate movement is more likely, other things equal, to support real output through Aggregate Demand?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Depreciation that potentially increases net exports."
+      },
+      {
+        "label": "B",
+        "text": "Appreciation that makes exports more expensive abroad."
+      },
+      {
+        "label": "C",
+        "text": "Neither movement because net exports cannot respond."
+      },
+      {
+        "label": "D",
+        "text": "Appreciation that necessarily increases aggregate demand."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A depreciation can switch spending toward domestic output and exports, increasing net exports and AD.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "A country is experiencing strong demand-pull inflation and is near productive capacity. Which exchange-rate movement is more likely, other things equal, to reduce inflationary pressure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A depreciation."
+      },
+      {
+        "label": "B",
+        "text": "An appreciation."
+      },
+      {
+        "label": "C",
+        "text": "Neither movement can affect the price level."
+      },
+      {
+        "label": "D",
+        "text": "Either movement must increase inflation."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Appreciation can reduce net exports and import costs, lowering both demand-pull and cost-push pressure.",
+    "reference": "6.4 Exchange rates | 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "Which statement best distinguishes an exchange-rate cause from an exchange-rate consequence?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher exports → depreciation → lower aggregate demand."
+      },
+      {
+        "label": "B",
+        "text": "Lower domestic import prices → currency depreciates in the market → imported products become cheaper still."
+      },
+      {
+        "label": "C",
+        "text": "Exchange-rate movements have causes but no consequences."
+      },
+      {
+        "label": "D",
+        "text": "Export demand rises → currency appreciates → competitiveness weakens."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The first link describes a demand shift in the currency market; the second describes feedback from the changed exchange rate to trade competitiveness.",
+    "reference": "6.4 Exchange rates | 6.4.4 causes of changes in a floating exchange rate: demand and supply of the currency; 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "A country's currency appreciates from 0.75 foreign units per domestic unit to 0.90, while the domestic price of an export rises by 10%. Approximately what happens to its foreign-currency price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises by about 32%."
+      },
+      {
+        "label": "B",
+        "text": "It rises by 10% only."
+      },
+      {
+        "label": "C",
+        "text": "It falls by about 17%."
+      },
+      {
+        "label": "D",
+        "text": "It is unchanged."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Foreign price initially is P×0.75. Afterward it is 1.10P×0.90 = 0.99P versus 0.75P initially, an increase of 0.24/0.75 = 32%.",
+    "reference": "6.4 Exchange rates | 6.4.3 distinction between depreciation and appreciation of a floating exchange rate; 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "A country's currency depreciates by 20%, while the domestic-currency price of an export rises by 25%. What happens to the export's foreign-currency price if the exchange-rate quote is foreign currency per domestic unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls by 5%."
+      },
+      {
+        "label": "B",
+        "text": "It falls by 20%."
+      },
+      {
+        "label": "C",
+        "text": "It rises by 5%."
+      },
+      {
+        "label": "D",
+        "text": "It is unchanged."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Let the initial exchange-rate factor be 1. After depreciation it is 0.8, while domestic price becomes 1.25 times higher. 1.25×0.8 = 1.00, so the foreign-currency price is unchanged.",
+    "reference": "6.4 Exchange rates | 6.4.3 distinction between depreciation and appreciation of a floating exchange rate; 6.4.5 AD/AS analysis of the impact of exchange rate changes on the domestic economy's equilibrium national income and the level of real output, the price level and employment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  }
+]

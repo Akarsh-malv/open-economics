@@ -1,0 +1,3202 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "Absolute advantage is best defined as the ability of a producer to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Produce more output from the same quantity of resources"
+      },
+      {
+        "label": "B",
+        "text": "Trade a good at a price below its domestic production cost"
+      },
+      {
+        "label": "C",
+        "text": "Export more goods than it imports over a given period"
+      },
+      {
+        "label": "D",
+        "text": "Specialize in producing only one type of good"
+      },
+      {
+        "label": "E",
+        "text": "Produce a good at a lower opportunity cost than another producer"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Absolute advantage means a producer can produce more output with the same quantity of resources (or equivalently, produce the same output with fewer resources) than another producer; it is a measure of productivity, not opportunity cost.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "Comparative advantage is best defined as the ability of a producer to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Produce more of a good than any other producer with the same inputs"
+      },
+      {
+        "label": "B",
+        "text": "Produce at a lower opportunity cost than another producer"
+      },
+      {
+        "label": "C",
+        "text": "Import goods more cheaply than it can produce them domestically"
+      },
+      {
+        "label": "D",
+        "text": "Produce two goods simultaneously without any trade-off"
+      },
+      {
+        "label": "E",
+        "text": "Achieve full employment of all factors of production"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Comparative advantage is defined as the ability to produce a good or service at a lower opportunity cost than another producer; it is based on relative opportunity costs, not absolute productivity.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "Country A can produce 60 units of wheat OR 120 units of cloth per year. Country B can produce 30 units of wheat OR 90 units of cloth per year. Which country has the absolute advantage in wheat production?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country B, because it has a lower opportunity cost of wheat"
+      },
+      {
+        "label": "B",
+        "text": "Both countries have an equal absolute advantage in wheat"
+      },
+      {
+        "label": "C",
+        "text": "Country A produces more wheat with equal inputs"
+      },
+      {
+        "label": "D",
+        "text": "Neither country has an absolute advantage in wheat"
+      },
+      {
+        "label": "E",
+        "text": "Country B, because it produces more cloth"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Absolute advantage in wheat: Country A produces 60 units versus Country B's 30 units with the same resources; country A produces more wheat, so it has the absolute advantage in wheat.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "Using these production capacities (Country A: max 60 wheat or 120 cloth; Country B: max 30 wheat or 90 cloth), which country has the absolute advantage in cloth production?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country B, because it has a lower opportunity cost of cloth"
+      },
+      {
+        "label": "B",
+        "text": "Country B, because it specializes in cloth"
+      },
+      {
+        "label": "C",
+        "text": "Neither country — they have equal absolute advantage in cloth"
+      },
+      {
+        "label": "D",
+        "text": "Country A, because its PPC is larger"
+      },
+      {
+        "label": "E",
+        "text": "Country A, with greater cloth output from the same resources"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Absolute advantage in cloth: Country A produces a maximum of 120 units versus Country B's 90 units; country A can produce more cloth with the same resources, giving it the absolute advantage in cloth as well.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "Country A can produce 60 wheat OR 120 cloth; Country B can produce 30 wheat OR 90 cloth. What is the opportunity cost of one unit of wheat for Country A?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3 units of cloth"
+      },
+      {
+        "label": "B",
+        "text": "1 unit of cloth"
+      },
+      {
+        "label": "C",
+        "text": "2 units of cloth"
+      },
+      {
+        "label": "D",
+        "text": "0.5 units of cloth"
+      },
+      {
+        "label": "E",
+        "text": "60 units of cloth"
+      }
+    ],
+    "answer": "C",
+    "explanation": "For Country A: giving up all wheat (60 units) gains 120 cloth; therefore, 1 unit of wheat = 120/60 = 2 units of cloth; the opportunity cost of 1 wheat in Country A is 2 cloth.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "Country A: max 60 wheat OR 120 cloth. Country B: max 30 wheat OR 90 cloth. What is the opportunity cost of one unit of wheat for Country B?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.5 units of cloth"
+      },
+      {
+        "label": "B",
+        "text": "1 unit of cloth"
+      },
+      {
+        "label": "C",
+        "text": "2 units of cloth"
+      },
+      {
+        "label": "D",
+        "text": "3 units of cloth"
+      },
+      {
+        "label": "E",
+        "text": "0.33 units of cloth"
+      }
+    ],
+    "answer": "D",
+    "explanation": "For Country B: 1 unit of wheat = 90/30 = 3 units of cloth; the opportunity cost of 1 wheat in Country B is 3 cloth.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "Country A: OC of wheat = 2 cloth. Country B: OC of wheat = 3 cloth. Which country has the comparative advantage in wheat production?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both countries have equal comparative advantage in wheat"
+      },
+      {
+        "label": "B",
+        "text": "Country B, because it has the absolute advantage in cloth"
+      },
+      {
+        "label": "C",
+        "text": "Country A; 2 cloth per wheat rather than 3"
+      },
+      {
+        "label": "D",
+        "text": "Country B, because 3 > 2"
+      },
+      {
+        "label": "E",
+        "text": "Neither country — comparative advantage requires a linear PPC"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Comparative advantage in wheat goes to the country with the lower opportunity cost of wheat; country A gives up only 2 cloth per unit of wheat, versus Country B's 3 cloth; country A has the comparative advantage in wheat.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "Country A: OC of wheat = 2 cloth; OC of cloth = 0.5 wheat. Country B: OC of wheat = 3 cloth; OC of cloth = 0.33 wheat. Which country has the comparative advantage in cloth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country B; one-third wheat per cloth rather than one-half"
+      },
+      {
+        "label": "B",
+        "text": "Country A, because it produces more cloth"
+      },
+      {
+        "label": "C",
+        "text": "Country A, because it has absolute advantage in both goods"
+      },
+      {
+        "label": "D",
+        "text": "Country B, because it has a smaller PPC"
+      },
+      {
+        "label": "E",
+        "text": "Neither — a country with absolute advantage in both goods has comparative advantage in neither"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Country B's opportunity cost of cloth is 0.33 wheat, lower than Country A's 0.5 wheat; country B gives up less wheat per unit of cloth produced, so it has the comparative advantage in cloth.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "Which of the following statements about comparative advantage is always true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Comparative advantage is only relevant when countries have identical resources"
+      },
+      {
+        "label": "B",
+        "text": "Different relative costs give the countries advantages in different goods"
+      },
+      {
+        "label": "C",
+        "text": "A country with absolute advantage in both goods also has comparative advantage in both"
+      },
+      {
+        "label": "D",
+        "text": "Comparative advantage is determined by total output, not opportunity cost"
+      },
+      {
+        "label": "E",
+        "text": "A country can have a comparative advantage in every good it produces"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Comparative advantage is inherently relative. If Country A has the lower opportunity cost in Good X, then Country B must have the lower opportunity cost in Good Y; it is impossible for one country to have comparative advantage in all goods simultaneously - comparative advantage is always a reciprocal concept.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "Gains from trade occur when two producers specialize according to",
+    "options": [
+      {
+        "label": "A",
+        "text": "The highest nominal wage rates in each industry"
+      },
+      {
+        "label": "B",
+        "text": "Absolute advantage and then exchange goods"
+      },
+      {
+        "label": "C",
+        "text": "Comparative advantage with mutually beneficial trade"
+      },
+      {
+        "label": "D",
+        "text": "The largest PPC and then restrict imports"
+      },
+      {
+        "label": "E",
+        "text": "Equal production of all goods to minimize opportunity costs"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Gains from trade arise from specialization according to comparative advantage (lower opportunity cost) combined with exchange at terms of trade that lie between the two producers' opportunity costs; this allows both parties to consume combinations beyond their individual PPCs.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "After specialization according to comparative advantage and trade, a country can potentially consume",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only the good in which it has absolute advantage"
+      },
+      {
+        "label": "B",
+        "text": "Only at points on its individual PPC"
+      },
+      {
+        "label": "C",
+        "text": "At the same level as before trade, since trade does not create new output"
+      },
+      {
+        "label": "D",
+        "text": "Only inside its PPC because trade involves costs"
+      },
+      {
+        "label": "E",
+        "text": "At combinations beyond its own PPC"
+      }
+    ],
+    "answer": "E",
+    "explanation": "One of the central results of comparative advantage theory is that specialization and trade allow countries to consume at combinations beyond their own PPCs. By producing what they are relatively better at and trading for the rest, both parties expand their consumption possibilities.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "Terms of trade refer to",
+    "options": [
+      {
+        "label": "A",
+        "text": "The exchange rate between two countries' currencies"
+      },
+      {
+        "label": "B",
+        "text": "The total value of exports minus imports"
+      },
+      {
+        "label": "C",
+        "text": "The interest rate on international loans"
+      },
+      {
+        "label": "D",
+        "text": "The tariff rate imposed on imported goods"
+      },
+      {
+        "label": "E",
+        "text": "The exchange ratio between the goods traded"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Terms of trade describe the rate at which one good is exchanged for another in trade between producers or countries; for trade to be mutually beneficial, the terms of trade must fall between each country's domestic opportunity costs.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "Country A's opportunity cost of wheat is 2 cloth; Country B's opportunity cost of wheat is 3 cloth. For trade to be mutually beneficial, the terms of trade for wheat must be",
+    "options": [
+      {
+        "label": "A",
+        "text": "Between 2 and 3 cloth per wheat"
+      },
+      {
+        "label": "B",
+        "text": "Less than 2 cloth per wheat"
+      },
+      {
+        "label": "C",
+        "text": "Equal to either 2 or 3 cloth per wheat, but not in between"
+      },
+      {
+        "label": "D",
+        "text": "Exactly 2.5 cloth per wheat"
+      },
+      {
+        "label": "E",
+        "text": "Greater than 3 cloth per wheat"
+      }
+    ],
+    "answer": "A",
+    "explanation": "For mutually beneficial trade, the terms of trade must fall strictly between both countries' domestic opportunity costs; here, the terms of trade must be between 2 cloth/wheat (Country A's OC) and 3 cloth/wheat (Country B's OC) to benefit both parties.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "Which of the following production tables shows that Country X has the absolute advantage in both goods?",
+    "options": [
+      {
+        "label": "A",
+        "text": "X produces 15 wheat, 20 cloth; Y produces 15 wheat, 40 cloth"
+      },
+      {
+        "label": "B",
+        "text": "X produces 40 wheat, 40 cloth; Y produces 40 wheat, 60 cloth"
+      },
+      {
+        "label": "C",
+        "text": "X produces 10 wheat, 50 cloth; Y produces 20 wheat, 30 cloth"
+      },
+      {
+        "label": "D",
+        "text": "X produces 20 wheat, 30 cloth; Y produces 25 wheat, 35 cloth"
+      },
+      {
+        "label": "E",
+        "text": "X produces 50 wheat, 80 cloth; Y produces 30 wheat, 60 cloth"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Absolute advantage means producing more with the same resources; country X produces 50 wheat (> Y's 30) and 80 cloth (> Y's 60) - Country X produces more of both goods, giving it absolute advantage in both.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "Two workers, Ana and Ben, each have 8 hours to work. Ana can produce 4 shirts per hour or 2 hats per hour. Ben can produce 2 shirts per hour or 2 hats per hour. Who has the absolute advantage in shirt production?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ana; 4 shirts per hour rather than 2"
+      },
+      {
+        "label": "B",
+        "text": "Ben, because he produces fewer shirts"
+      },
+      {
+        "label": "C",
+        "text": "Ben, because he has equal productivity in both goods"
+      },
+      {
+        "label": "D",
+        "text": "Neither — they have equal absolute advantage"
+      },
+      {
+        "label": "E",
+        "text": "Ana, because she has a larger opportunity cost"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Absolute advantage compares raw productivity; ana produces 4 shirts per hour versus Ben's 2 shirts per hour - Ana produces twice as many shirts per unit of time, giving her the absolute advantage in shirt production.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "Ana produces 4 shirts/hr or 2 hats/hr. Ben produces 2 shirts/hr or 2 hats/hr. What is Ana's opportunity cost of producing one shirt?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.5 hats"
+      },
+      {
+        "label": "B",
+        "text": "1 hat"
+      },
+      {
+        "label": "C",
+        "text": "4 hats"
+      },
+      {
+        "label": "D",
+        "text": "0.25 hats"
+      },
+      {
+        "label": "E",
+        "text": "2 hats"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Ana produces 4 shirts or 2 hats per hour; the opportunity cost of 1 shirt = 2/4 = 0.5 hats; ana gives up 0.5 hats for every shirt she produces.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "Ana: OC of 1 shirt = 0.5 hats. Ben produces 2 shirts/hr or 2 hats/hr; his OC of 1 shirt = 1 hat. Who has the comparative advantage in shirt production?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ben, because he has equal productivity in hats"
+      },
+      {
+        "label": "B",
+        "text": "Ana; 0.5 hats per shirt rather than 1"
+      },
+      {
+        "label": "C",
+        "text": "Ana, because she has the absolute advantage in shirts"
+      },
+      {
+        "label": "D",
+        "text": "Neither — they trade at equal terms"
+      },
+      {
+        "label": "E",
+        "text": "Ben, because he produces fewer shirts"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Comparative advantage goes to the producer with the lower opportunity cost; ana gives up 0.5 hats per shirt versus Ben's 1 hat per shirt; ana has the lower opportunity cost, so she has the comparative advantage in shirts.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "Ana: OC of 1 hat = 2 shirts. Ben: OC of 1 hat = 1 shirt. Who has the comparative advantage in hat production?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ben; 1 shirt per hat rather than 2"
+      },
+      {
+        "label": "B",
+        "text": "Ana, because producing hats is more valuable"
+      },
+      {
+        "label": "C",
+        "text": "Ana, because she has absolute advantage in shirts"
+      },
+      {
+        "label": "D",
+        "text": "Neither — comparative advantage requires different absolute advantages"
+      },
+      {
+        "label": "E",
+        "text": "Ben, because he has equal productivity in both goods"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Ben gives up only 1 shirt per hat produced, versus Ana's 2 shirts per hat; ben's lower opportunity cost of hat production gives him the comparative advantage in hats.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "According to the principle of comparative advantage, Ana (comparative advantage in shirts) and Ben (comparative advantage in hats) should",
+    "options": [
+      {
+        "label": "A",
+        "text": "Each produce equal amounts of both goods to minimize trade costs"
+      },
+      {
+        "label": "B",
+        "text": "Produce only the good for which they have absolute advantage"
+      },
+      {
+        "label": "C",
+        "text": "Ana specializes in hats; Ben specializes in shirts"
+      },
+      {
+        "label": "D",
+        "text": "Both stop producing the good they are least efficient at"
+      },
+      {
+        "label": "E",
+        "text": "Ana specializes in shirts; Ben specializes in hats, then they trade"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Comparative advantage predicts that each producer should specialize in the good for which they have the lower opportunity cost: Ana in shirts, Ben in hats. They then trade to maximize joint output and allow each to consume beyond their individual production constraints.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "Country A has absolute advantage in both wheat and steel. Which of the following is true regarding comparative advantage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country A has comparative advantage in neither good"
+      },
+      {
+        "label": "B",
+        "text": "They specialize in different goods if their relative costs differ"
+      },
+      {
+        "label": "C",
+        "text": "Comparative advantage cannot be determined when one country has absolute advantage in all goods"
+      },
+      {
+        "label": "D",
+        "text": "Trade will not benefit either country because Country A is superior in both goods"
+      },
+      {
+        "label": "E",
+        "text": "Country A also has comparative advantage in both goods"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Even if Country A has absolute advantage in both goods, comparative advantage is determined by relative opportunity costs. It is mathematically impossible for one country to have the lower opportunity cost in both goods simultaneously - each country always has comparative advantage in the good for which its relative opportunity cost is lowest.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "A linear PPC for Country Z shows it can produce a maximum of 100 units of fish OR 200 units of timber. What is Country Z's opportunity cost of producing one unit of timber?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 unit of fish"
+      },
+      {
+        "label": "B",
+        "text": "100 units of fish"
+      },
+      {
+        "label": "C",
+        "text": "0.5 units of fish"
+      },
+      {
+        "label": "D",
+        "text": "2 units of fish"
+      },
+      {
+        "label": "E",
+        "text": "200 units of fish"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Country Z: max 100 fish or 200 timber; the opportunity cost of 1 unit of timber = 100/200 = 0.5 units of fish; each unit of timber costs half a unit of fish.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "Country Z: OC of 1 timber = 0.5 fish. Country W: OC of 1 timber = 0.25 fish. Which country should specialize in timber according to comparative advantage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country W, because it has the absolute advantage in fish"
+      },
+      {
+        "label": "B",
+        "text": "Country Z, because 0.5 > 0.25"
+      },
+      {
+        "label": "C",
+        "text": "Country Z, because it produces more timber"
+      },
+      {
+        "label": "D",
+        "text": "Neither — both countries should produce both goods"
+      },
+      {
+        "label": "E",
+        "text": "Country W; 0.25 fish per timber rather than 0.5"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Comparative advantage in timber goes to the country with the lower opportunity cost of timber production; country W gives up only 0.25 fish per timber versus Country Z's 0.5 fish; country W should specialize in timber.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "For trade to make Country W (OC of timber = 0.25 fish) better off, the terms of trade for timber must be",
+    "options": [
+      {
+        "label": "A",
+        "text": "Exactly 0.5 fish per timber"
+      },
+      {
+        "label": "B",
+        "text": "Greater than 0.25 fish per timber"
+      },
+      {
+        "label": "C",
+        "text": "Less than 0.25 fish per timber"
+      },
+      {
+        "label": "D",
+        "text": "Greater than 0.5 fish per timber"
+      },
+      {
+        "label": "E",
+        "text": "Exactly 0.25 fish per timber"
+      }
+    ],
+    "answer": "B",
+    "explanation": "For Country W (the timber exporter with OC = 0.25 fish) to gain from trade, it must receive more than 0.25 fish per timber in exchange - otherwise it would be better off producing the fish itself. The terms of trade must exceed the exporting country's opportunity cost.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "Which of the following correctly explains why a country with absolute advantage in all goods should still engage in trade?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Even with absolute advantage in all goods, opportunity costs differ, so specialization and trade allow both countries to consume more than they could alone"
+      },
+      {
+        "label": "B",
+        "text": "A country with absolute advantage does not benefit from trade because it can produce everything cheaply"
+      },
+      {
+        "label": "C",
+        "text": "Trade is legally required by international agreements"
+      },
+      {
+        "label": "D",
+        "text": "Trade is only beneficial when both countries have equal absolute advantage"
+      },
+      {
+        "label": "E",
+        "text": "A country with absolute advantage will always benefit from restricting imports"
+      }
+    ],
+    "answer": "C",
+    "explanation": "OC of soybeans in X = 300/100 = 3 corn; OC of soybeans in Y = 200/200 = 1 corn. Y exports soybeans (OC = 1 corn); X imports (OC = 3 corn); mutually beneficial terms for 1 soybean: strictly between 1 and 3 corn; this result (2 corn per soybean) falls strictly between 1 and 3 - both countries gain.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "The production possibilities table below shows maximum output per worker per day. A worker in Country A can produce 8 computers or 4 phones. A worker in Country B can produce 3 computers or 6 phones. Which country has the absolute advantage in computers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country A produces more computers per worker"
+      },
+      {
+        "label": "B",
+        "text": "Neither country has absolute advantage in computers"
+      },
+      {
+        "label": "C",
+        "text": "Both have equal absolute advantage"
+      },
+      {
+        "label": "D",
+        "text": "Country B, because it produces more phones"
+      },
+      {
+        "label": "E",
+        "text": "Country B, because it has a lower opportunity cost of computers"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Country A's worker produces 8 computers per day versus Country B's 3 - Country A has higher computer productivity (absolute advantage in computers).",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "Country A: max 8 computers or 4 phones per worker per day. Country B: max 3 computers or 6 phones per worker per day. What is the opportunity cost of 1 computer for Country A?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2 phones"
+      },
+      {
+        "label": "B",
+        "text": "8 phones"
+      },
+      {
+        "label": "C",
+        "text": "1 phone"
+      },
+      {
+        "label": "D",
+        "text": "0.5 phones"
+      },
+      {
+        "label": "E",
+        "text": "4 phones"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Country A: 8 computers costs 4 phones, so 1 computer = 4/8 = 0.5 phones.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "Country A: OC of 1 computer = 0.5 phones. Country B: max 3 computers or 6 phones → OC of 1 computer = 6/3 = 2 phones. Which country has the comparative advantage in computers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country B, because it produces more phones"
+      },
+      {
+        "label": "B",
+        "text": "Country A; 0.5 phones per computer rather than 2"
+      },
+      {
+        "label": "C",
+        "text": "Country B, because 2 > 0.5"
+      },
+      {
+        "label": "D",
+        "text": "Neither country — comparative advantage requires equal PPCs"
+      },
+      {
+        "label": "E",
+        "text": "Country A, because it has absolute advantage in both goods"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Country A gives up only 0.5 phones per computer versus Country B's 2 phones per computer; country A has the lower opportunity cost of computers - comparative advantage in computers.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "Country A: OC of 1 phone = 2 computers. Country B: OC of 1 phone = 0.5 computers. Which country has the comparative advantage in phones?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country A, because it produces 4 phones maximum"
+      },
+      {
+        "label": "B",
+        "text": "Country A, because it has absolute advantage in computers"
+      },
+      {
+        "label": "C",
+        "text": "Country B, because it produces 6 phones maximum"
+      },
+      {
+        "label": "D",
+        "text": "Neither, because the opportunity costs are too different"
+      },
+      {
+        "label": "E",
+        "text": "Country B; fewer computers sacrificed per phone"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Country B gives up 0.5 computers per phone versus Country A's 2 computers per phone; country B has the lower opportunity cost of phones - comparative advantage in phones.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "Based on comparative advantage (Country A: computers; Country B: phones), which of the following trade arrangements would be mutually beneficial?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country A exports phones to Country B; Country B exports computers to Country A"
+      },
+      {
+        "label": "B",
+        "text": "Country B exports computers; Country A exports phones"
+      },
+      {
+        "label": "C",
+        "text": "Both countries produce equal amounts of both goods and do not trade"
+      },
+      {
+        "label": "D",
+        "text": "A exports computers; B exports phones"
+      },
+      {
+        "label": "E",
+        "text": "Country A imports both computers and phones from Country B"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Each country should export the good in which it has the comparative advantage; country A specializes and exports computers; Country B specializes and exports phones; this pattern of trade is consistent with comparative advantage and generates gains for both.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "Country A: OC of 1 computer = 0.5 phones. Country B: OC of 1 computer = 2 phones. For mutually beneficial trade, the terms of trade for 1 computer must be",
+    "options": [
+      {
+        "label": "A",
+        "text": "Exactly 1 phone per computer"
+      },
+      {
+        "label": "B",
+        "text": "Greater than 2 phones per computer"
+      },
+      {
+        "label": "C",
+        "text": "Between 0.5 and 2 phones per computer"
+      },
+      {
+        "label": "D",
+        "text": "Less than 0.5 phones per computer"
+      },
+      {
+        "label": "E",
+        "text": "Equal to either 0.5 or 2, but not in between"
+      }
+    ],
+    "answer": "C",
+    "explanation": "For mutually beneficial terms of trade, the price of computers (in phones) must fall between the two countries' opportunity costs: between 0.5 and 2 phones per computer. Country A gains if it gets more than 0.5 phones per computer; Country B gains if it pays less than 2 phones per computer.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 31,
+    "difficulty": "Easy",
+    "prompt": "Which of the following is true about specialization according to comparative advantage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It results in one country always specializing in the good it produces least efficiently"
+      },
+      {
+        "label": "B",
+        "text": "It leads to consumption possibilities beyond the PPC for both trading partners"
+      },
+      {
+        "label": "C",
+        "text": "It benefits only the country with the larger economy"
+      },
+      {
+        "label": "D",
+        "text": "It always requires that one country has absolute advantage in at least one good"
+      },
+      {
+        "label": "E",
+        "text": "It is only applicable when trade is free of all tariffs and barriers"
+      }
+    ],
+    "answer": "B",
+    "explanation": "When countries specialize according to comparative advantage and trade at mutually beneficial terms, both can consume combinations that lie beyond their individual PPCs; this is the fundamental gain from trade established by comparative advantage theory.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 32,
+    "difficulty": "Easy",
+    "prompt": "Country P has a linear PPC: max 80 oranges or 40 apples. Country Q has a linear PPC: max 60 oranges or 60 apples. What is Country P's opportunity cost of 1 apple?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 orange"
+      },
+      {
+        "label": "B",
+        "text": "0.5 oranges"
+      },
+      {
+        "label": "C",
+        "text": "2 oranges"
+      },
+      {
+        "label": "D",
+        "text": "40 oranges"
+      },
+      {
+        "label": "E",
+        "text": "3 oranges"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Country P: max 80 oranges or 40 apples; OC of 1 apple = 80/40 = 2 oranges.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 33,
+    "difficulty": "Easy",
+    "prompt": "Country P: OC of 1 apple = 2 oranges. Country Q: max 60 oranges or 60 apples → OC of 1 apple = 60/60 = 1 orange. Which country has the comparative advantage in apple production?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country Q; 1 orange per apple rather than 2"
+      },
+      {
+        "label": "B",
+        "text": "Neither country — opportunity costs must be equal for comparative advantage to apply"
+      },
+      {
+        "label": "C",
+        "text": "Country P, because it can produce more oranges"
+      },
+      {
+        "label": "D",
+        "text": "Country Q, because it has equal productivity in both goods"
+      },
+      {
+        "label": "E",
+        "text": "Country P, because it has absolute advantage in oranges"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Country Q gives up only 1 orange per apple versus Country P's 2 oranges per apple; country Q has the lower opportunity cost of apple production - comparative advantage in apples.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "The following table shows the maximum output per worker per day in two countries:\n\n               Wheat    Cloth\nCountry A:     50       100\nCountry B:     40        60\n\nWhich country has the comparative advantage in wheat, and what is the evidence?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 grain per fish"
+      },
+      {
+        "label": "B",
+        "text": "2 grain per 5 fish (0.4 grain per fish)"
+      },
+      {
+        "label": "C",
+        "text": "2 grain per fish"
+      },
+      {
+        "label": "D",
+        "text": "1 grain per 2 fish (0.5 grain per fish)"
+      },
+      {
+        "label": "E",
+        "text": "1 grain per 3 fish (0.33 grain per fish)"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Town A's OC of fish = 4/12 = 0.33 grain per fish; town B's OC of fish = 1 grain per fish; mutually beneficial ToT: between 0.33 and 1 grain per fish. Town B benefits most when it pays the lowest price strictly above 0.33; among the options, 0.4 grain per fish is just above A's OC, giving Town B the greatest gain (pays least) while still benefiting Town A.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "Using the supplied table (A: 50 wheat/100 cloth; B: 40 wheat/60 cloth), which country has the comparative advantage in cloth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country A, because it has absolute advantage in cloth"
+      },
+      {
+        "label": "B",
+        "text": "Country B, because 60 > 40"
+      },
+      {
+        "label": "C",
+        "text": "Country B, because it produces more cloth total"
+      },
+      {
+        "label": "D",
+        "text": "Neither — both have equal comparative advantage in cloth"
+      },
+      {
+        "label": "E",
+        "text": "Country A; 0.5 wheat per cloth rather than 0.67"
+      }
+    ],
+    "answer": "E",
+    "explanation": "OC of cloth in A = 50/100 = 0.5 wheat; OC of cloth in B = 40/60 = 0.67 wheat. Country A gives up only 0.5 wheat per unit of cloth versus Country B's 0.67 wheat; country A has the comparative advantage in cloth.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "Using the table (A: 50 wheat/100 cloth; B: 40 wheat/60 cloth), for trade to be mutually beneficial, what must the terms of trade for 1 unit of wheat be?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Greater than 2 cloth per wheat"
+      },
+      {
+        "label": "B",
+        "text": "Between 1.5 and 2 cloth per wheat"
+      },
+      {
+        "label": "C",
+        "text": "Between 0.5 and 0.67 cloth per wheat"
+      },
+      {
+        "label": "D",
+        "text": "Exactly 1.75 cloth per wheat"
+      },
+      {
+        "label": "E",
+        "text": "Less than 1.5 cloth per wheat"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Country B exports wheat (OC = 1.5 cloth) and Country A exports cloth. For both to benefit, the terms of trade for wheat must be between B's OC of wheat (1.5 cloth) and A's OC of wheat (2 cloth); country B gains if it receives more than 1.5 cloth per wheat; Country A gains if it pays less than 2 cloth per wheat.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "Country A: 50 wheat / 100 cloth. Country B: 40 wheat / 60 cloth. Before trade, Country A produces 25 wheat and 50 cloth (on its PPC). After specializing in cloth and trading at 1.8 cloth per wheat, Country A sends 36 cloth to Country B and receives 20 wheat. What is Country A's consumption bundle after trade?",
+    "options": [
+      {
+        "label": "A",
+        "text": "45 wheat and 50 cloth"
+      },
+      {
+        "label": "B",
+        "text": "25 wheat and 64 cloth"
+      },
+      {
+        "label": "C",
+        "text": "25 wheat and 50 cloth"
+      },
+      {
+        "label": "D",
+        "text": "20 wheat and 64 cloth"
+      },
+      {
+        "label": "E",
+        "text": "20 wheat and 50 cloth"
+      }
+    ],
+    "answer": "D",
+    "explanation": "If Country A fully specializes in cloth, it produces 100 cloth; it sends 36 cloth to Country B and receives 20 wheat. Consumption: 20 wheat + (100 - 36) = 64 cloth; this combination (20 wheat, 64 cloth) exceeds what A could produce alone at (25 wheat, 50 cloth).",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "Worker tables:\n\n               Phones  Laptops\nSamira:         6        3\nTomás:          2        2\n\nWhat is Samira's opportunity cost of 1 laptop?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3 phones"
+      },
+      {
+        "label": "B",
+        "text": "0.5 phones"
+      },
+      {
+        "label": "C",
+        "text": "6 phones"
+      },
+      {
+        "label": "D",
+        "text": "2 phones"
+      },
+      {
+        "label": "E",
+        "text": "1 phone"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Samira can produce 6 phones or 3 laptops; OC of 1 laptop = 6/3 = 2 phones.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "Samira: 6 phones or 3 laptops per day. Tomás: 2 phones or 2 laptops per day. What is Tomás's opportunity cost of 1 laptop?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.5 phones"
+      },
+      {
+        "label": "B",
+        "text": "4 phones"
+      },
+      {
+        "label": "C",
+        "text": "3 phones"
+      },
+      {
+        "label": "D",
+        "text": "2 phones"
+      },
+      {
+        "label": "E",
+        "text": "1 phone"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Tomás produces 2 phones or 2 laptops; OC of 1 laptop = 2/2 = 1 phone.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "Samira: OC of 1 laptop = 2 phones. Tomás: OC of 1 laptop = 1 phone. Who has the comparative advantage in laptops, and what terms of trade would make this trade mutually beneficial?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Samira has comparative advantage in laptops; terms of trade must be between 1 and 2 phones per laptop"
+      },
+      {
+        "label": "B",
+        "text": "Tomás has comparative advantage in laptops; terms must be less than 1 phone per laptop"
+      },
+      {
+        "label": "C",
+        "text": "Neither has comparative advantage because Samira has absolute advantage in both"
+      },
+      {
+        "label": "D",
+        "text": "Tomás; mutually beneficial terms are 1–2 phones per laptop, excluding endpoints"
+      },
+      {
+        "label": "E",
+        "text": "Samira has comparative advantage in laptops; terms must be more than 2 phones per laptop"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Tomás has the lower OC of laptops (1 phone < Samira's 2 phones) → comparative advantage in laptops. For mutually beneficial trade, the terms of trade must be between the two OC values: between 1 and 2 phones per laptop.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "Country A: max 200 wheat or 100 steel. Country B: max 150 wheat or 150 steel. Which country should export wheat and which should export steel?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country A exports steel; Country B exports wheat"
+      },
+      {
+        "label": "B",
+        "text": "Country A exports both goods; Country B imports both"
+      },
+      {
+        "label": "C",
+        "text": "Country A exports wheat; Country B exports steel"
+      },
+      {
+        "label": "D",
+        "text": "Neither should specialize — trade offers no benefit when PPCs differ"
+      },
+      {
+        "label": "E",
+        "text": "Both countries should export wheat because wheat is more valuable"
+      }
+    ],
+    "answer": "C",
+    "explanation": "OC of wheat in A = 100/200 = 0.5 steel; OC of wheat in B = 150/150 = 1 steel. Country A has lower OC of wheat (0.5 < 1) → comparative advantage in wheat → exports wheat; country B has lower OC of steel (1/1.5 ≈ 0.67 < A's 2) → exports steel.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "Country A: max 200 wheat or 100 steel. Country B: max 150 wheat or 150 steel. What is the range of mutually beneficial terms of trade for 1 unit of steel?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Exactly 1.5 wheat per steel"
+      },
+      {
+        "label": "B",
+        "text": "Less than 1 wheat per steel"
+      },
+      {
+        "label": "C",
+        "text": "Between 0.5 and 1 steel per wheat"
+      },
+      {
+        "label": "D",
+        "text": "Strictly between 1 and 2 wheat per steel"
+      },
+      {
+        "label": "E",
+        "text": "Greater than 2 wheat per steel"
+      }
+    ],
+    "answer": "D",
+    "explanation": "OC of steel in A = 200/100 = 2 wheat per steel; OC of steel in B = 150/150 = 1 wheat per steel. Country B exports steel (OC = 1 wheat); terms of trade for steel must be between 1 wheat/steel (B's OC) and 2 wheat/steel (A's OC); both gain when 1 < terms < 2.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "The following data shows maximum daily output per worker:\n\n            Coffee   Tea\nNation X:    12        6\nNation Y:     4        8\n\nCalculate each nation's opportunity cost of 1 unit of coffee and identify the comparative advantage.",
+    "options": [
+      {
+        "label": "A",
+        "text": "X: OC coffee = 2 tea; Y: OC coffee = 2 tea — neither has comparative advantage"
+      },
+      {
+        "label": "B",
+        "text": "X: OC coffee = 2 tea; Y: OC coffee = 0.5 tea — Nation Y has comparative advantage in coffee"
+      },
+      {
+        "label": "C",
+        "text": "X: OC coffee = 6 tea; Y: OC coffee = 8 tea — Nation X has comparative advantage in coffee"
+      },
+      {
+        "label": "D",
+        "text": "X: 0.5 tea; Y: 2 tea per coffee; X has comparative advantage"
+      },
+      {
+        "label": "E",
+        "text": "X: OC coffee = 0.5 tea; Y: OC coffee = 0.5 tea — both have equal comparative advantage"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Nation X: OC of 1 coffee = 6/12 = 0.5 tea. Nation Y: OC of 1 coffee = 8/4 = 2 tea; nation X has the lower OC of coffee (0.5 < 2), so Nation X has the comparative advantage in coffee.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "Nation X: OC of coffee = 0.5 tea. Nation Y: OC of coffee = 2 tea. What is the range of mutually beneficial terms of trade for 1 unit of coffee?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Less than 0.5 tea per coffee"
+      },
+      {
+        "label": "B",
+        "text": "Greater than 2 tea per coffee"
+      },
+      {
+        "label": "C",
+        "text": "Between 2 and 4 tea per coffee"
+      },
+      {
+        "label": "D",
+        "text": "Exactly 1 tea per coffee"
+      },
+      {
+        "label": "E",
+        "text": "Between 0.5 and 2 tea per coffee"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Nation X exports coffee (OC = 0.5 tea); nation Y imports coffee (OC = 2 tea). Mutually beneficial terms for coffee must lie between 0.5 and 2 tea per coffee: Nation X gets more than 0.5, Nation Y pays less than 2.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "Nation X specializes fully in coffee (producing 12 units/worker/day) and trades 4 units of coffee to Nation Y at the terms of 1 tea per coffee. What is Nation X's consumption after trade?",
+    "options": [
+      {
+        "label": "A",
+        "text": "12 coffee and 0 tea"
+      },
+      {
+        "label": "B",
+        "text": "12 coffee and 4 tea"
+      },
+      {
+        "label": "C",
+        "text": "6 coffee and 6 tea"
+      },
+      {
+        "label": "D",
+        "text": "4 coffee and 4 tea"
+      },
+      {
+        "label": "E",
+        "text": "8 coffee and 4 tea"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Nation X produces 12 coffee; it exports 4 coffee and receives 4 × 1 = 4 tea; consumption: 12 - 4 = 8 coffee and 4 tea. Without trade, Nation X could produce at most 6 coffee and 3 tea (at the midpoint) - so (8 coffee, 4 tea) is beyond its PPC, confirming gains from trade.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "Two countries produce only grain and textiles. Country Alpha has a lower opportunity cost of grain; Country Beta has a lower opportunity cost of textiles. If they trade, which of the following outcomes is consistent with gains from trade?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Gains from trade only occur when both countries have equal-sized PPCs"
+      },
+      {
+        "label": "B",
+        "text": "Country Alpha consumes a bundle it could not produce alone; Country Beta cannot gain because it has lower productivity"
+      },
+      {
+        "label": "C",
+        "text": "Both countries consume bundles that lie beyond their own individual PPCs"
+      },
+      {
+        "label": "D",
+        "text": "Both countries end up consuming exactly on their own PPCs"
+      },
+      {
+        "label": "E",
+        "text": "Only the country with the absolute advantage gains from trade"
+      }
+    ],
+    "answer": "C",
+    "explanation": "When each country specializes according to its comparative advantage and trades at mutually beneficial terms, both countries can consume combinations of goods that lie beyond their individual PPCs. This is the fundamental result of comparative advantage theory.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "The output-per-worker-per-day table for two countries is:\n\n           Bread   Cars\nCountry M:   80     20\nCountry N:   60     30\n\nWhich country has the absolute advantage in each good?",
+    "options": [
+      {
+        "label": "A",
+        "text": "N has absolute advantage in bread; M has absolute advantage in cars"
+      },
+      {
+        "label": "B",
+        "text": "M has absolute advantage in both bread and cars"
+      },
+      {
+        "label": "C",
+        "text": "M has absolute advantage in bread; N has absolute advantage in cars"
+      },
+      {
+        "label": "D",
+        "text": "Neither country has absolute advantage in either good"
+      },
+      {
+        "label": "E",
+        "text": "N has absolute advantage in both bread and cars"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Country M produces 80 bread per worker (> N's 60) → absolute advantage in bread; country N produces 30 cars per worker (> M's 20) → absolute advantage in cars.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "Country M: 80 bread or 20 cars. Country N: 60 bread or 30 cars. What is each country's opportunity cost of 1 car?",
+    "options": [
+      {
+        "label": "A",
+        "text": "M: 2 bread per car; N: 4 bread per car"
+      },
+      {
+        "label": "B",
+        "text": "M: 20 bread per car; N: 30 bread per car"
+      },
+      {
+        "label": "C",
+        "text": "M: 4 bread per car; N: 2 bread per car"
+      },
+      {
+        "label": "D",
+        "text": "M: 0.25 bread per car; N: 0.5 bread per car"
+      },
+      {
+        "label": "E",
+        "text": "M: 4 bread per car; N: 0.5 bread per car"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Country M: OC of 1 car = 80/20 = 4 bread. Country N: OC of 1 car = 60/30 = 2 bread; country M gives up 4 bread per car; Country N gives up only 2 bread per car.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "Country M: OC of 1 car = 4 bread. Country N: OC of 1 car = 2 bread. Which country should specialize in cars and which in bread?",
+    "options": [
+      {
+        "label": "A",
+        "text": "M specializes in both because it has absolute advantage in bread"
+      },
+      {
+        "label": "B",
+        "text": "Both countries should produce equal amounts of both goods"
+      },
+      {
+        "label": "C",
+        "text": "N specializes in both because it has absolute advantage in cars"
+      },
+      {
+        "label": "D",
+        "text": "N specializes in cars; M specializes in bread"
+      },
+      {
+        "label": "E",
+        "text": "M specializes in cars; N specializes in bread"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Country N has the lower opportunity cost of cars (2 bread < M's 4 bread) → comparative advantage in cars. Country M has the lower OC of bread (OC of bread in M = 20/80 = 0.25 cars < N's 30/60 = 0.5 cars) → comparative advantage in bread; N specializes in cars, M in bread.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "Country M (comparative advantage in bread) and Country N (comparative advantage in cars) agree to trade. Which of the following terms of trade would make this trade mutually beneficial?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 car for 3 bread"
+      },
+      {
+        "label": "B",
+        "text": "1 car for 0.5 bread"
+      },
+      {
+        "label": "C",
+        "text": "1 car for 1 bread"
+      },
+      {
+        "label": "D",
+        "text": "1 car for 4 bread"
+      },
+      {
+        "label": "E",
+        "text": "1 car for 5 bread"
+      }
+    ],
+    "answer": "A",
+    "explanation": "OC of 1 car in M = 4 bread; OC of 1 car in N = 2 bread; mutually beneficial terms of trade for 1 car must be between 2 and 4 bread. Among the options, 3 bread per car is between 2 and 4 - both countries gain. 1 bread < 2 (N loses), 5 bread > 4 (M loses), 4 bread = M's OC (M is indifferent), 0.5 bread < 2 (N loses).",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "A student argues: 'Trade benefits only the country with the smaller PPC because it gains access to goods it couldn't produce efficiently.' Which of the following best refutes this argument?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The argument is correct, but only if the smaller country has absolute advantage in one good"
+      },
+      {
+        "label": "B",
+        "text": "The argument is incorrect because trade only affects consumption in the long run"
+      },
+      {
+        "label": "C",
+        "text": "The argument is correct; only the less productive country gains from trade"
+      },
+      {
+        "label": "D",
+        "text": "The argument is correct; the larger country has no need to trade since it can produce everything"
+      },
+      {
+        "label": "E",
+        "text": "Different opportunity costs let both consume beyond their domestic frontiers"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Comparative advantage theory demonstrates that both countries - regardless of the size of their PPCs - gain from specialization and trade. The larger, more productive country still has a comparative advantage in some goods, and specializing allows both to consume combinations beyond their individual production possibilities.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "The table below shows maximum daily production per worker:\n\n              Rice   Lumber\nCountry J:    90      30\nCountry K:    40      40\n\nIdentify which country has absolute advantage in each good and which has comparative advantage in each good.",
+    "options": [
+      {
+        "label": "A",
+        "text": "J: absolute advantage in rice and lumber; K: comparative advantage in rice"
+      },
+      {
+        "label": "B",
+        "text": "J: absolute advantage in rice only; K: absolute advantage in lumber; J: comparative advantage in lumber; K: comparative advantage in rice"
+      },
+      {
+        "label": "C",
+        "text": "J: absolute and comparative advantage in rice; K: absolute and comparative advantage in lumber"
+      },
+      {
+        "label": "D",
+        "text": "K: absolute advantage in both; J: comparative advantage in rice"
+      },
+      {
+        "label": "E",
+        "text": "J: absolute advantage in both; K: comparative advantage in lumber"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Absolute advantage - Rice: J (90 > 40); Lumber: J (30) vs K (40) → K has absolute advantage in lumber; so J has absolute advantage in rice; K in lumber. Comparative advantage - OC of rice in J = 30/90 = 0.33 lumber; OC of rice in K = 40/40 = 1 lumber → J has comparative advantage in rice (0.33 < 1); OC of lumber in J = 90/30 = 3 rice; OC of lumber in K = 40/40 = 1 rice → K has comparative advantage in lumber (1 < 3); J absolute and comparative advantage in rice; K has comparative advantage in lumber (and absolute advantage in lumber).",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "Country J: OC of lumber = 3 rice. Country K: OC of lumber = 1 rice. Country K specializes in lumber. For Country K to gain from trade, it must receive more than ____ rice per unit of lumber exported.",
+    "options": [
+      {
+        "label": "A",
+        "text": "2 rice per lumber"
+      },
+      {
+        "label": "B",
+        "text": "0 rice per lumber"
+      },
+      {
+        "label": "C",
+        "text": "0.33 rice per lumber"
+      },
+      {
+        "label": "D",
+        "text": "1 rice per lumber"
+      },
+      {
+        "label": "E",
+        "text": "3 rice per lumber"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Country K's opportunity cost of lumber is 1 rice - the minimum it must receive for each lumber unit traded to be no worse off than producing rice itself. For trade to benefit Country K, it must receive more than 1 rice per lumber unit.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "Two individuals share production responsibilities. Maya can bake 10 loaves of bread or make 5 jars of jam per hour. Carlos can bake 4 loaves of bread or make 4 jars of jam per hour. What are Maya's and Carlos's opportunity costs of 1 jar of jam?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Maya: 2 loaves; Carlos: 1 loaf"
+      },
+      {
+        "label": "B",
+        "text": "Maya: 1 loaf; Carlos: 2 loaves"
+      },
+      {
+        "label": "C",
+        "text": "Maya: 0.5 loaves; Carlos: 1 loaf"
+      },
+      {
+        "label": "D",
+        "text": "Maya: 5 loaves; Carlos: 4 loaves"
+      },
+      {
+        "label": "E",
+        "text": "Maya: 2 loaves; Carlos: 0.5 loaves"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Maya: OC of 1 jam = 10/5 = 2 bread; carlos: OC of 1 jam = 4/4 = 1 bread.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "Maya: OC of 1 jam = 2 bread. Carlos: OC of 1 jam = 1 bread. If they each have 8 hours and want to maximize joint output, how should they divide production?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Maya makes all the jam; Carlos splits time equally"
+      },
+      {
+        "label": "B",
+        "text": "Maya makes all the jam; Carlos bakes all the bread"
+      },
+      {
+        "label": "C",
+        "text": "Carlos bakes all the bread; Maya splits time equally"
+      },
+      {
+        "label": "D",
+        "text": "Both produce equal amounts of bread and jam"
+      },
+      {
+        "label": "E",
+        "text": "Carlos makes all the jam; Maya bakes all the bread"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Carlos has the lower OC of jam (1 bread < Maya's 2 bread) → comparative advantage in jam. Maya has the lower OC of bread (OC of bread in Maya = 5/10 = 0.5 jam < Carlos's 4/4 = 1 jam) → comparative advantage in bread; optimal: Carlos makes all jam, Maya bakes all bread.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "Before specialization (8 hours each): Maya produces 5 bread + 2.5 jam, Carlos produces 2 bread + 2 jam. Total: 7 bread + 4.5 jam. After full specialization (Maya: all bread = 80 loaves; Carlos: all jam = 32 jars), total production is 80 bread + 32 jam. This outcome is consistent with which principle?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Specialization only increases output when opportunity costs are equal"
+      },
+      {
+        "label": "B",
+        "text": "The PPC shifts outward because specialization adds new resources"
+      },
+      {
+        "label": "C",
+        "text": "The law of diminishing returns applied to jam production"
+      },
+      {
+        "label": "D",
+        "text": "Absolute advantage: specializing by raw productivity increases output"
+      },
+      {
+        "label": "E",
+        "text": "Specialization according to comparative advantage raises combined output"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Specialization according to comparative advantage increases total joint output beyond what each producer could achieve alone or in a split arrangement. The gain (from 7+4.5 to 80+32) reflects the efficiency of directing each producer to the task for which they have the lower opportunity cost.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "Country X: max 300 corn or 100 soybeans. Country Y: max 200 corn or 200 soybeans. If Country X exports corn and Country Y exports soybeans, which of the following terms of trade are mutually beneficial?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 soybean for 3 corn"
+      },
+      {
+        "label": "B",
+        "text": "1 soybean for 4 corn"
+      },
+      {
+        "label": "C",
+        "text": "1 soybean for 0.5 corn"
+      },
+      {
+        "label": "D",
+        "text": "1 soybean for 2 corn"
+      },
+      {
+        "label": "E",
+        "text": "1 soybean for 1 corn"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Country X's opportunity cost of one soybean is 3 corn, while Country Y's is 1 corn. Mutually beneficial terms must lie strictly between 1 and 3 corn per soybean. Therefore, one soybean for 2 corn benefits both countries.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "Country X: max 300 corn or 100 soybeans (OC of soybean = 3 corn). Country Y: max 200 corn or 200 soybeans (OC of soybean = 1 corn). At terms of trade of 2 corn per soybean, which country is the exporter of soybeans and which of corn, and why?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Y exports soybeans and X exports corn at mutually beneficial terms"
+      },
+      {
+        "label": "B",
+        "text": "Both countries export corn and import soybeans from each other"
+      },
+      {
+        "label": "C",
+        "text": "Country X exports soybeans; Country Y exports corn"
+      },
+      {
+        "label": "D",
+        "text": "Country X exports soybeans because it has absolute advantage in corn"
+      },
+      {
+        "label": "E",
+        "text": "Country Y exports both goods because it has comparative advantage in both"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Country Y has the lower OC of soybeans (1 corn) → comparative advantage in soybeans. At terms of 2 corn/soybean, Y earns 2 corn for each soybean (better than producing corn at 1 corn per soybean opportunity cost); country X exports corn and pays only 2 corn per soybean, less than its own OC of 3 corn - both countries benefit.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "Country Y: max 200 corn or 200 soybeans. Country Y currently produces 100 corn and 100 soybeans. After specializing fully in soybeans (200 soybeans) and trading 80 soybeans at 2 corn per soybean, what is Country Y's consumption bundle?",
+    "options": [
+      {
+        "label": "A",
+        "text": "160 corn and 200 soybeans"
+      },
+      {
+        "label": "B",
+        "text": "160 corn and 120 soybeans"
+      },
+      {
+        "label": "C",
+        "text": "120 corn and 120 soybeans"
+      },
+      {
+        "label": "D",
+        "text": "100 corn and 100 soybeans"
+      },
+      {
+        "label": "E",
+        "text": "80 corn and 200 soybeans"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Country Y specializes: produces 200 soybeans; exports 80 soybeans, receives 80 × 2 = 160 corn. Keeps 200 - 80 = 120 soybeans; consumption: 160 corn + 120 soybeans; this exceeds the pre-trade bundle of (100, 100) - gains from trade confirmed.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "Is it possible for one country to have both a lower opportunity cost of wheat AND a lower opportunity cost of cloth compared to the other country? Explain.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes — a very productive country can have lower opportunity costs in all goods"
+      },
+      {
+        "label": "B",
+        "text": "No — but only when both PPCs are linear"
+      },
+      {
+        "label": "C",
+        "text": "Yes — but only if the two countries have different resource endowments"
+      },
+      {
+        "label": "D",
+        "text": "Yes — when one country has absolute advantage in both goods"
+      },
+      {
+        "label": "E",
+        "text": "No; a lower wheat cost implies a higher cloth cost"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Opportunity costs are mathematically reciprocal: if OC of wheat in A = x cloth, then OC of cloth in A = 1/x wheat. If A has a lower OC of wheat than B, A's OC of cloth must be higher than B's; it is mathematically impossible for one country to have a lower opportunity cost of both goods simultaneously - comparative advantage is always a two-way reciprocal relationship.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "Country R has a linear PPC: max 120 apples or 60 bananas. Country S has a linear PPC: max 80 apples or 80 bananas. What is Country R's opportunity cost of 1 banana, and what is Country S's?",
+    "options": [
+      {
+        "label": "A",
+        "text": "R: 2 apples per banana; S: 1 apple per banana"
+      },
+      {
+        "label": "B",
+        "text": "R: 2 apples per banana; S: 2 apples per banana"
+      },
+      {
+        "label": "C",
+        "text": "R: 1 apple per banana; S: 2 apples per banana"
+      },
+      {
+        "label": "D",
+        "text": "R: 0.5 apples per banana; S: 1 apple per banana"
+      },
+      {
+        "label": "E",
+        "text": "R: 60 apples per banana; S: 80 apples per banana"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Country R: OC of 1 banana = 120/60 = 2 apples; country S: OC of 1 banana = 80/80 = 1 apple.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "Country R: OC of 1 banana = 2 apples. Country S: OC of 1 banana = 1 apple. Country S has comparative advantage in bananas and Country R in apples. Verify Country R's comparative advantage in apples.",
+    "options": [
+      {
+        "label": "A",
+        "text": "R: 1 banana/apple; S: 1 banana/apple; neither has advantage"
+      },
+      {
+        "label": "B",
+        "text": "R: 0.5 bananas/apple; S: 0.5 bananas/apple; neither has advantage"
+      },
+      {
+        "label": "C",
+        "text": "R: 60 bananas/apple; S: 1 banana/apple; S has advantage"
+      },
+      {
+        "label": "D",
+        "text": "R: 0.5 bananas/apple; S: 1 banana/apple; R has advantage"
+      },
+      {
+        "label": "E",
+        "text": "R: 2 bananas/apple; S: 0.5 bananas/apple; S has advantage"
+      }
+    ],
+    "answer": "D",
+    "explanation": "OC of 1 apple in R = 60/120 = 0.5 bananas; OC of 1 apple in S = 80/80 = 1 banana. Country R gives up only 0.5 bananas per apple (< S's 1 banana) - confirming comparative advantage in apples; this is the expected reciprocal result.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "Using Country R and S (R: comparative advantage in apples; S: comparative advantage in bananas). For mutually beneficial trade, terms of trade for 1 banana must be between",
+    "options": [
+      {
+        "label": "A",
+        "text": "0 and 0.5 apples per banana"
+      },
+      {
+        "label": "B",
+        "text": "1 and 2 apples per banana"
+      },
+      {
+        "label": "C",
+        "text": "1 and 3 apples per banana"
+      },
+      {
+        "label": "D",
+        "text": "0.5 and 1 apple per banana"
+      },
+      {
+        "label": "E",
+        "text": "2 and 3 apples per banana"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Country S exports bananas (OC = 1 apple); country R imports bananas (OC = 2 apples). For both to gain: terms must be between S's OC (1 apple) and R's OC (2 apples); both gain when 1 < ToT < 2 apples per banana.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "An island can produce 200 coconuts per day or 100 pineapples per day. A neighboring island can produce 80 coconuts per day or 80 pineapples per day. The first island has absolute advantage in coconuts. Does the first island have comparative advantage in coconuts?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes; island 1 sacrifices fewer pineapples per coconut"
+      },
+      {
+        "label": "B",
+        "text": "No — absolute advantage automatically means no comparative advantage"
+      },
+      {
+        "label": "C",
+        "text": "No — island 2 has comparative advantage in coconuts because its PPC is smaller"
+      },
+      {
+        "label": "D",
+        "text": "It cannot be determined from the data given"
+      },
+      {
+        "label": "E",
+        "text": "Yes — the island with more coconuts always has comparative advantage in coconuts"
+      }
+    ],
+    "answer": "A",
+    "explanation": "OC of 1 coconut in island 1 = 100/200 = 0.5 pineapples; OC of 1 coconut in island 2 = 80/80 = 1 pineapple. Island 1's OC of coconuts (0.5) is lower than island 2's (1); island 1 has comparative advantage in coconuts; here, the country with absolute advantage in a good also has comparative advantage in that good - this can happen.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "Island 1: OC of coconuts = 0.5 pineapples. Island 2: OC of coconuts = 1 pineapple. Island 1 fully specializes in coconuts (200/day) and trades 60 coconuts at 0.8 pineapples per coconut. What is Island 1's post-trade consumption?",
+    "options": [
+      {
+        "label": "A",
+        "text": "160 coconuts and 60 pineapples"
+      },
+      {
+        "label": "B",
+        "text": "200 coconuts and 0 pineapples"
+      },
+      {
+        "label": "C",
+        "text": "140 coconuts and 60 pineapples"
+      },
+      {
+        "label": "D",
+        "text": "140 coconuts and 48 pineapples"
+      },
+      {
+        "label": "E",
+        "text": "200 coconuts and 48 pineapples"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Island 1 produces 200 coconuts, exports 60, receives 60 × 0.8 = 48 pineapples; consumption: 200 - 60 = 140 coconuts + 48 pineapples. Without trade, island 1 at midpoint could produce 100 coconuts + 50 pineapples - (140, 48) has more coconuts than the midpoint, illustrating gains from trade.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "Which of the following is NOT a valid mutually beneficial term of trade between Country A (OC of wheat = 2 cloth) and Country B (OC of wheat = 4 cloth)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3 cloth per wheat"
+      },
+      {
+        "label": "B",
+        "text": "2.5 cloth per wheat"
+      },
+      {
+        "label": "C",
+        "text": "2 cloth per wheat"
+      },
+      {
+        "label": "D",
+        "text": "3.5 cloth per wheat"
+      },
+      {
+        "label": "E",
+        "text": "2.1 cloth per wheat"
+      }
+    ],
+    "answer": "C",
+    "explanation": "For mutual benefit, the terms of trade for wheat must be strictly between 2 and 4 cloth per wheat. A price of exactly 2 cloth per wheat equals Country A's opportunity cost - A is indifferent (not gaining); for A to benefit, it must receive more than 2 cloth per wheat; therefore, 2 cloth/wheat is NOT a mutually beneficial term of trade for Country A.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "The table below shows output per worker per day:\n\n            Fish   Grain\nTown A:      12      4\nTown B:       6      6\n\nIf Town A exports fish, at which of the following terms of trade does Town B benefit the most?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2 grain per fish"
+      },
+      {
+        "label": "B",
+        "text": "1 grain per 3 fish (0.33 grain per fish)"
+      },
+      {
+        "label": "C",
+        "text": "1 grain per 2 fish (0.5 grain per fish)"
+      },
+      {
+        "label": "D",
+        "text": "0.4 grain per fish"
+      },
+      {
+        "label": "E",
+        "text": "1 grain per fish"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Town A gives up 4/12, or 0.33 grain, per fish, while Town B gives up 1 grain per fish. A mutually beneficial rate must be above 0.33 and below 1 grain per fish. At 0.4 grain per fish, Town B pays the lowest qualifying rate and receives the largest gain.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "Town A: max 12 fish or 4 grain (OC of fish = 0.33 grain). Town B: max 6 fish or 6 grain (OC of fish = 1 grain). For mutually beneficial trade where Town A exports fish, the terms of trade must be",
+    "options": [
+      {
+        "label": "A",
+        "text": "Greater than 1 grain per fish"
+      },
+      {
+        "label": "B",
+        "text": "Between 0 and 0.33 grain per fish"
+      },
+      {
+        "label": "C",
+        "text": "Between 0.33 and 1 grain per fish"
+      },
+      {
+        "label": "D",
+        "text": "Exactly 0.67 grain per fish"
+      },
+      {
+        "label": "E",
+        "text": "Less than 0.33 grain per fish"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Town A exports fish (OC = 0.33 grain); town B imports fish (OC = 1 grain). Mutually beneficial terms: strictly between 0.33 and 1 grain per fish; town A gains if it receives more than 0.33 grain per fish; Town B gains if it pays less than 1 grain per fish.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "A student claims that Country X and Country Y can only trade if Country X produces a good that Country Y cannot produce at all. Which of the following correctly refutes this claim?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The student is incorrect, but only when countries have equal PPCs"
+      },
+      {
+        "label": "B",
+        "text": "The student is correct; absolute advantage must be present for trade to occur"
+      },
+      {
+        "label": "C",
+        "text": "The student is correct; trade only occurs when one country has a trade deficit"
+      },
+      {
+        "label": "D",
+        "text": "The student is correct; trade only occurs when one country lacks the technology to produce a good"
+      },
+      {
+        "label": "E",
+        "text": "Trade gains require different opportunity costs, not exclusive production abilities"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Trade is driven by comparative advantage, not absolute advantage or the inability to produce a good. Both countries can produce the same goods, yet if their opportunity costs differ, specialization generates gains for both; comparative advantage is about relative efficiency, not the presence or absence of production capability.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "Two countries have the following maximum daily production per worker:\n\n             Shoes   Hats\nNation A:     10       5\nNation B:     10      10\n\nWhich nation has absolute advantage in which good(s)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A has absolute advantage in both goods"
+      },
+      {
+        "label": "B",
+        "text": "B has absolute advantage in both goods"
+      },
+      {
+        "label": "C",
+        "text": "Neither has absolute advantage in either good"
+      },
+      {
+        "label": "D",
+        "text": "Shoe productivity is equal; B has advantage in hats"
+      },
+      {
+        "label": "E",
+        "text": "A has advantage in shoes; B in hats"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Shoes: A (10) = B (10) - tied, no absolute advantage either way. Hats: B (10) > A (5) - Nation B has absolute advantage in hats; nation A has no absolute advantage in any good; Nation B has absolute advantage only in hats.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 71,
+    "difficulty": "Medium",
+    "prompt": "Nation A: max 10 shoes or 5 hats. Nation B: max 10 shoes or 10 hats. What is each nation's opportunity cost of 1 hat?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A: 2 shoes; B: 1 shoe"
+      },
+      {
+        "label": "B",
+        "text": "A: 1 shoe; B: 1 shoe"
+      },
+      {
+        "label": "C",
+        "text": "A: 0.5 shoes; B: 1 shoe"
+      },
+      {
+        "label": "D",
+        "text": "A: 2 shoes; B: 2 shoes"
+      },
+      {
+        "label": "E",
+        "text": "A: 5 shoes; B: 10 shoes"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Nation A: OC of 1 hat = 10/5 = 2 shoes; nation B: OC of 1 hat = 10/10 = 1 shoe.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 72,
+    "difficulty": "Medium",
+    "prompt": "Nation A: OC of 1 hat = 2 shoes. Nation B: OC of 1 hat = 1 shoe. Who has comparative advantage in hats, and what does Nation A have comparative advantage in?",
+    "options": [
+      {
+        "label": "A",
+        "text": "B specializes in hats; A specializes in shoes"
+      },
+      {
+        "label": "B",
+        "text": "Nation B: comparative advantage in both goods because it has absolute advantage in hats"
+      },
+      {
+        "label": "C",
+        "text": "Nation A: comparative advantage in both goods because it has equal productivity in shoes"
+      },
+      {
+        "label": "D",
+        "text": "Neither nation has a comparative advantage"
+      },
+      {
+        "label": "E",
+        "text": "Nation A: comparative advantage in hats; Nation B: comparative advantage in shoes"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Nation B: OC of hat = 1 shoe (< A's 2) → comparative advantage in hats. Nation A: OC of shoe = 5/10 = 0.5 hats; Nation B: OC of shoe = 10/10 = 1 hat; nation A gives up 0.5 hats per shoe vs; B's 1 hat → Nation A has comparative advantage in shoes.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 73,
+    "difficulty": "Medium",
+    "prompt": "Nation A (comp. advantage in shoes) and Nation B (comp. advantage in hats) agree to trade at 1.5 shoes per hat. Nation B produces 20 hats and exports 8 to Nation A. What does Nation B receive and what is its total consumption?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Receives 8 shoes; consumes 12 hats and 12 shoes"
+      },
+      {
+        "label": "B",
+        "text": "Receives 12 shoes; consumes 20 hats and 12 shoes"
+      },
+      {
+        "label": "C",
+        "text": "Receives 8 shoes; consumes 12 hats and 8 shoes"
+      },
+      {
+        "label": "D",
+        "text": "12 hats and 12 shoes"
+      },
+      {
+        "label": "E",
+        "text": "Receives 12 shoes; consumes 8 hats and 12 shoes"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Nation B produces 20 hats, exports 8, receives 8 × 1.5 = 12 shoes; consumption: 20 - 8 = 12 hats and 12 shoes. Without trade, Nation B at midpoint produces 5 shoes + 5 hats; post-trade (12 hats + 12 shoes) is well beyond that - demonstrating gains from trade.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "The following table shows the maximum daily output per worker:\n\n              Wheat   Steel\nCountry A:     80      40\nCountry B:     60      60\n\nCalculate the opportunity cost of wheat and steel in each country, identify comparative advantages, and determine the full range of mutually beneficial terms of trade for 1 unit of steel.",
+    "options": [
+      {
+        "label": "A",
+        "text": "A: steel; B: wheat; 0.5 < wheat per steel < 1"
+      },
+      {
+        "label": "B",
+        "text": "A: steel; B: wheat; 2 < wheat per steel < 3"
+      },
+      {
+        "label": "C",
+        "text": "A: wheat; B: steel; 1 < wheat per steel < 2"
+      },
+      {
+        "label": "D",
+        "text": "Neither has comparative advantage; no mutually beneficial trade range"
+      },
+      {
+        "label": "E",
+        "text": "A: steel; B: wheat; 1 < wheat per steel < 2"
+      }
+    ],
+    "answer": "C",
+    "explanation": "OC of wheat in A = 40/80 = 0.5 steel; OC of wheat in B = 60/60 = 1 steel → A has lower OC of wheat → CA in wheat. OC of steel in A = 80/40 = 2 wheat; OC of steel in B = 60/60 = 1 wheat → B has lower OC of steel → CA in steel. Mutually beneficial ToT for 1 steel: between B's OC (1 wheat) and A's OC (2 wheat) → 1 < ToT < 2 wheat per steel.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "Using the data from Q74 (A: 80 wheat/40 steel; B: 60 wheat/60 steel). Country A fully specializes in wheat (80 units). Country B fully specializes in steel (60 units). They trade at 1.5 wheat per steel. Country A exports 30 wheat and receives 20 steel. What is Country A's consumption, and does it exceed its pre-trade productive capacity at any combination?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A consumes 50 wheat + 20 steel. This is exactly on A's PPC"
+      },
+      {
+        "label": "B",
+        "text": "A consumes 80 wheat + 20 steel. This is on A's PPC"
+      },
+      {
+        "label": "C",
+        "text": "50 wheat and 20 steel, beyond A's frontier"
+      },
+      {
+        "label": "D",
+        "text": "A consumes 30 wheat + 20 steel. This is below A's PPC"
+      },
+      {
+        "label": "E",
+        "text": "A consumes 50 wheat + 20 steel. This is inside A's PPC"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Country A produces 80 wheat, exports 30, keeps 50 wheat; receives 20 steel; consumption: 50 wheat + 20 steel. On A's PPC: at 50 wheat, max steel = (80-50)/2 = 15 (since OC of steel = 2 wheat → steel = (80-wheat)/2). 20 steel > 15 steel → the consumption bundle (50 wheat, 20 steel) is beyond A's own PPC - gains from trade confirmed.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "A country has absolute advantage in every good it trades. A student concludes: 'This country should not specialize — it can produce everything more efficiently, so trade would just give away productive output.' Evaluate this argument using comparative advantage theory.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Absolute advantage in both goods does not rule out trade gains"
+      },
+      {
+        "label": "B",
+        "text": "The argument is correct — a country with absolute advantage in all goods should produce everything domestically"
+      },
+      {
+        "label": "C",
+        "text": "The argument is correct only if the absolute advantage is large enough"
+      },
+      {
+        "label": "D",
+        "text": "The argument is correct in the short run but incorrect in the long run"
+      },
+      {
+        "label": "E",
+        "text": "The argument is incorrect only when trading partners have equal-sized economies"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Even with absolute advantage in all goods, every country faces opportunity costs. It is always relatively better at some goods than others - comparative advantage is about relative, not absolute, productivity; by specializing in the good with the lowest opportunity cost and trading, the country enables both itself and its partner to consume beyond their individual PPCs.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "The table below shows maximum daily output:\n\n              Cheese   Wine\nFrance:        60       120\nItaly:          80        80\n\nIdentify absolute and comparative advantages, then determine mutually beneficial terms of trade for wine.",
+    "options": [
+      {
+        "label": "A",
+        "text": "France: wine; Italy: cheese; terms strictly between 0.5 and 1 cheese per wine"
+      },
+      {
+        "label": "B",
+        "text": "France: AA in wine; Italy: AA in cheese. France CA in wine; Italy CA in cheese. ToT for wine: between 1 and 2 cheese per wine"
+      },
+      {
+        "label": "C",
+        "text": "Italy: AA in both; France: CA in wine; Italy: CA in cheese. ToT: between 0.5 and 1 cheese per wine"
+      },
+      {
+        "label": "D",
+        "text": "France: AA in both; France: CA in wine; Italy: CA in cheese. ToT: between 0.5 and 1 cheese per wine"
+      },
+      {
+        "label": "E",
+        "text": "Italy: AA in cheese; France: AA in wine. Italy has CA in both because it is more balanced"
+      }
+    ],
+    "answer": "A",
+    "explanation": "AA: Cheese - Italy 80 > France 60 → Italy; Wine - France 120 > Italy 80 → France. OC of wine: France = 60/120 = 0.5 cheese; Italy = 80/80 = 1 cheese; france has lower OC of wine (0.5 < 1) → CA in wine. Italy has CA in cheese (OC of cheese: Italy = 80/80 = 1 wine; France = 120/60 = 2 wine → Italy lower); toT for wine between 0.5 and 1 cheese per wine.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "France (max 60 cheese / 120 wine) and Italy (max 80 cheese / 80 wine) trade at 0.75 cheese per wine. France exports 60 wine to Italy. What is France's consumption bundle, and does it lie beyond France's PPC?",
+    "options": [
+      {
+        "label": "A",
+        "text": "France: 45 cheese + 60 wine. This is exactly on France's PPC"
+      },
+      {
+        "label": "B",
+        "text": "45 cheese and 60 wine, beyond France's frontier"
+      },
+      {
+        "label": "C",
+        "text": "France: 45 cheese + 120 wine. This is beyond France's PPC"
+      },
+      {
+        "label": "D",
+        "text": "France: 60 cheese + 60 wine. This is on France's PPC"
+      },
+      {
+        "label": "E",
+        "text": "France: 45 cheese + 60 wine. This is inside France's PPC"
+      }
+    ],
+    "answer": "B",
+    "explanation": "France fully specializes: 120 wine; exports 60 wine, receives 60 × 0.75 = 45 cheese; keeps 120 - 60 = 60 wine. Consumption: 45 cheese + 60 wine; on France's PPC at wine = 60: cheese = 60 × (60/120) . France's PPC: cheese = 60 - (60/120) × wine = 60 - 0.5 × 60 = 30 cheese at maximum when producing 60 wine; since 45 > 30, France consumes beyond its own PPC - gains from trade confirmed.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "Country A has the following PPC data (linear): max 400 wheat or 200 timber. Country B (linear): max 300 wheat or 300 timber. A policymaker says: 'Country A should specialize in timber because it has absolute advantage in wheat and should save wheat for itself.' Evaluate this recommendation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The recommendation is correct because specializing in timber gives Country A a higher income"
+      },
+      {
+        "label": "B",
+        "text": "The recommendation is correct — Country A should keep its advantage in wheat and produce timber for trade"
+      },
+      {
+        "label": "C",
+        "text": "The recommendation is incorrect because Country A should not trade at all given its absolute advantage"
+      },
+      {
+        "label": "D",
+        "text": "A should specialize in wheat, its lower-opportunity-cost good"
+      },
+      {
+        "label": "E",
+        "text": "The recommendation is correct only if the terms of trade favor timber over wheat"
+      }
+    ],
+    "answer": "D",
+    "explanation": "OC of wheat in A = 200/400 = 0.5 timber; OC of wheat in B = 300/300 = 1 timber. Country A has lower OC of wheat (0.5 < 1) → comparative advantage in wheat; country A should specialize in wheat, not timber. The policymaker's recommendation is backwards - absolute advantage in wheat does not mean A should sacrifice the good in which it has comparative advantage.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "Country A (max 400 wheat / 200 timber) and Country B (max 300 wheat / 300 timber). Country A specializes in wheat. They agree to trade at 0.8 timber per 1 wheat. Country A exports 100 wheat. Calculate Country A's post-trade consumption and verify it is beyond its own PPC at that bundle.",
+    "options": [
+      {
+        "label": "A",
+        "text": "A consumes 300 wheat + 80 timber. This is inside A's PPC"
+      },
+      {
+        "label": "B",
+        "text": "A consumes 300 wheat + 80 timber. This is exactly on A's PPC"
+      },
+      {
+        "label": "C",
+        "text": "300 wheat and 80 timber, beyond A's frontier"
+      },
+      {
+        "label": "D",
+        "text": "A consumes 300 wheat + 100 timber. This is beyond A's PPC"
+      },
+      {
+        "label": "E",
+        "text": "A consumes 400 wheat + 80 timber. This is on A's PPC"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Country A produces 400 wheat; exports 100, keeps 300; receives 100 × 0.8 = 80 timber; consumption: 300 wheat + 80 timber. On A's PPC: at wheat = 300, timber = (400-300) × (200/400) = 100 × 0.5 = 50; since 80 > 50, (300 wheat, 80 timber) is beyond A's PPC - confirms gains from trade.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "Country X and Country Y both produce fish and grain. Their PPCs are linear. Country X: max 120 fish or 60 grain. Country Y: max 80 fish or 80 grain. At terms of trade of 0.6 grain per fish, Country X exports 40 fish. (a) Is this terms of trade mutually beneficial? (b) What is Country X's consumption after trade?",
+    "options": [
+      {
+        "label": "A",
+        "text": "(a) Yes. (b) X consumes 80 fish + 40 grain"
+      },
+      {
+        "label": "B",
+        "text": "(a) No — 0.6 is below X's OC of 0.5 so X loses. (b) X consumes 80 fish + 24 grain"
+      },
+      {
+        "label": "C",
+        "text": "(a) No — the terms are outside the mutually beneficial range. (b) X consumes 120 fish + 0 grain"
+      },
+      {
+        "label": "D",
+        "text": "Yes; X consumes 80 fish and 24 grain"
+      },
+      {
+        "label": "E",
+        "text": "(a) Yes. (b) X consumes 120 fish + 24 grain"
+      }
+    ],
+    "answer": "D",
+    "explanation": "OC of fish in X = 60/120 = 0.5 grain; OC of fish in Y = 80/80 = 1 grain. Terms of 0.6 grain/fish: between 0.5 and 1 → mutually beneficial; country X produces 120 fish (full specialization), exports 40, keeps 80 fish. Receives 40 × 0.6 = 24 grain; consumption: 80 fish + 24 grain; on X's PPC at 80 fish: max grain = (120-80) × 0.5 = 20; since 24 > 20 → beyond X's PPC.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "Three workers — Ali, Beth, and Cal — produce two goods: furniture (F) and clothing (C). Per-hour output:\n\n       F    C\nAli:   8    4\nBeth:  6    6\nCal:   3    9\n\nWhich workers have the lowest opportunity costs of furniture and clothing, respectively?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Beth: furniture; Ali: clothing"
+      },
+      {
+        "label": "B",
+        "text": "Ali: furniture; Cal: clothing"
+      },
+      {
+        "label": "C",
+        "text": "Ali: clothing; Cal: furniture"
+      },
+      {
+        "label": "D",
+        "text": "Beth: clothing; Ali: neither good"
+      },
+      {
+        "label": "E",
+        "text": "Cal: furniture; Beth: clothing"
+      }
+    ],
+    "answer": "B",
+    "explanation": "OC of furniture: Ali = 4/8 = 0.5 C; Beth = 6/6 = 1 C; Cal = 9/3 = 3 C. OC of clothing: Ali = 8/4 = 2 F; Beth = 6/6 = 1 F; Cal = 3/9 = 0.33 F. Ali has the lowest OC of furniture (0.5) → specializes in furniture; cal has the lowest OC of clothing (0.33) → specializes in clothing; beth is intermediate; on a 3-person basis, Beth could assist either depending on demand.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "Country A: max 500 wheat or 250 steel. Country B: max 400 wheat or 400 steel. Country C: max 100 wheat or 200 steel. Among the three countries, which has the comparative advantage in steel?",
+    "options": [
+      {
+        "label": "A",
+        "text": "All countries; cost = 1 wheat per steel"
+      },
+      {
+        "label": "B",
+        "text": "Country C; cost = 0.5 wheat per steel"
+      },
+      {
+        "label": "C",
+        "text": "Country A; cost = 2 wheat per steel"
+      },
+      {
+        "label": "D",
+        "text": "Country B; cost = 0.25 wheat per steel"
+      },
+      {
+        "label": "E",
+        "text": "Country B; cost = 1 wheat per steel"
+      }
+    ],
+    "answer": "B",
+    "explanation": "OC of steel: A = 500/250 = 2 wheat; B = 400/400 = 1 wheat; C = 100/200 = 0.5 wheat. Country C has the lowest opportunity cost of steel (0.5 wheat) among all three - it has the comparative advantage in steel.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "Using the three-country data (A: 500W/250S; B: 400W/400S; C: 100W/200S), which country has the comparative advantage in wheat?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country B; cost = 0.25 steel per wheat"
+      },
+      {
+        "label": "B",
+        "text": "Country A; cost = 0.5 steel per wheat"
+      },
+      {
+        "label": "C",
+        "text": "Country B; cost = 1 steel per wheat"
+      },
+      {
+        "label": "D",
+        "text": "Country C; cost = 2 steel per wheat"
+      },
+      {
+        "label": "E",
+        "text": "All countries; cost = 1 steel per wheat"
+      }
+    ],
+    "answer": "B",
+    "explanation": "OC of wheat: A = 250/500 = 0.5 steel; B = 400/400 = 1 steel; C = 200/100 = 2 steel. Country A has the lowest opportunity cost of wheat (0.5 steel) - comparative advantage in wheat.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "Country A (CA in wheat) and Country C (CA in steel) agree to trade. Country A exports 50 wheat to Country C at terms of 1.5 steel per wheat. Country A was producing 500 wheat before trade (full specialization). What is Country A's consumption, and is it beyond A's PPC?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A consumes 450 wheat + 50 steel. This is exactly on A's PPC"
+      },
+      {
+        "label": "B",
+        "text": "A consumes 500 wheat + 75 steel. This exceeds A's production"
+      },
+      {
+        "label": "C",
+        "text": "A consumes 450 wheat + 75 steel. This is on A's PPC"
+      },
+      {
+        "label": "D",
+        "text": "450 wheat and 75 steel, beyond A's frontier"
+      },
+      {
+        "label": "E",
+        "text": "A consumes 450 wheat + 75 steel. This is inside A's PPC"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A produces 500 wheat; exports 50 wheat, keeps 450; receives 50 × 1.5 = 75 steel; consumption: 450 wheat + 75 steel. On A's PPC at wheat = 450: max steel = (500-450) × (250/500) = 50 × 0.5 = 25; since 75 > 25, Country A's consumption bundle is well beyond its own PPC - substantial gains from trade.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "A student argues: 'If Country A has a much larger PPC than Country B, Country A's workers must earn higher wages, so trade is unfair to Country B's lower-wage workers.' Evaluate this claim using comparative advantage theory.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The claim is correct — lower-wage countries are exploited by high-wage trading partners"
+      },
+      {
+        "label": "B",
+        "text": "Relative opportunity costs, rather than wage levels alone, determine trade gains"
+      },
+      {
+        "label": "C",
+        "text": "The claim is incorrect only if both countries have the same absolute advantage"
+      },
+      {
+        "label": "D",
+        "text": "The claim is correct only for manufactured goods, not agricultural goods"
+      },
+      {
+        "label": "E",
+        "text": "The claim is correct — wage differences prevent mutually beneficial trade"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Comparative advantage theory shows that trade is mutually beneficial regardless of absolute productivity or wage levels. Country B specializes in the good for which its opportunity cost is lower; both countries can consume beyond their PPCs after trade; the gains from trade do not require equal wages - they require only that opportunity costs differ.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "Country A: max 240 phones or 120 computers. Country B: max 180 phones or 180 computers. Before trade, A produces 120 phones + 60 computers; B produces 90 phones + 90 computers. They fully specialize (A in phones, B in computers) and trade at 1 computer per 1.5 phones. A exports 60 phones. What are the post-trade consumption bundles for A and B?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A: 120 phones + 40 computers; B: 60 phones + 140 computers"
+      },
+      {
+        "label": "B",
+        "text": "A: 180 phones + 40 computers; B: 60 phones + 140 computers"
+      },
+      {
+        "label": "C",
+        "text": "A: 180 phones + 60 computers; B: 60 phones + 120 computers"
+      },
+      {
+        "label": "D",
+        "text": "A: 180 phones + 40 computers; B: 120 phones + 140 computers"
+      },
+      {
+        "label": "E",
+        "text": "A: 240 phones + 40 computers; B: 0 phones + 140 computers"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A produces 240 phones; exports 60, keeps 180; receives 60/1.5 = 40 computers; A consumption: 180 phones + 40 computers. B produces 180 computers; receives 60 phones, exports 40 computers; B consumption: 60 phones + (180-40) = 60 phones + 140 computers. Verify: Pre-trade A (120+60), post-trade A (180+40) → more phones and fewer computers; pre-trade B (90+90), post-trade B (60+140) → fewer phones but many more computers.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "Using Q87 data (A: 240 phones / 120 computers; B: 180 phones / 180 computers). Verify that Country A's post-trade consumption (180 phones + 40 computers) is beyond its own PPC.",
+    "options": [
+      {
+        "label": "A",
+        "text": "On A's PPC at 180 phones: max computers = 20. Since 40 > 20, beyond PPC"
+      },
+      {
+        "label": "B",
+        "text": "Beyond A's frontier; domestic production allows only 30 computers at 180 phones"
+      },
+      {
+        "label": "C",
+        "text": "On A's PPC at 180 phones: max computers = 40 — exactly on the frontier"
+      },
+      {
+        "label": "D",
+        "text": "On A's PPC at 180 phones: max computers = 60. Since 40 < 60, inside A's PPC"
+      },
+      {
+        "label": "E",
+        "text": "On A's PPC: 180 phones + 40 computers lies exactly on the curve"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A's PPC: max 240 phones or 120 computers; equation: computers = (120/240) × (240 - phones) = 0.5 × (240 - phones). At phones = 180: max computers = 0.5 × (240 - 180) = 0.5 × 60 = 30; post-trade A has 40 computers, which exceeds the maximum 30 possible at 180 phones on A's own PPC; gains from trade confirmed.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "Country A: max 300 oil or 600 grain. Country B: max 200 oil or 200 grain. Country A has comparative advantage in grain. They trade at 3 grain per oil. Country B exports 40 oil. What is Country B's post-trade consumption, and does it lie beyond Country B's PPC?",
+    "options": [
+      {
+        "label": "A",
+        "text": "B consumes 160 oil + 120 grain. This is inside B's PPC"
+      },
+      {
+        "label": "B",
+        "text": "B consumes 200 oil + 120 grain. This exceeds B's PPC by 120 grain"
+      },
+      {
+        "label": "C",
+        "text": "B consumes 200 oil + 120 grain. This is beyond B's production capacity"
+      },
+      {
+        "label": "D",
+        "text": "160 oil and 120 grain, beyond B's frontier"
+      },
+      {
+        "label": "E",
+        "text": "B consumes 160 oil + 40 grain. This is on B's PPC"
+      }
+    ],
+    "answer": "D",
+    "explanation": "OC of oil in B = 200/200 = 1 grain → B has CA in oil (lower OC: A's OC of oil = 600/300 = 2 grain). B fully specializes in oil: 200 units; exports 40, keeps 160; receives 40 × 3 = 120 grain. B's PPC at 160 oil: max grain = 200-160 = 40 (since slope is 1:1); since 120 >> 40, B's consumption is dramatically beyond its PPC - significant gains from trade.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "Country A can produce a maximum of 300 oil or 600 grain, while Country B can produce a maximum of 200 oil or 200 grain. What range of terms of trade in grain per oil is mutually beneficial, and what happens if the rate is 3 grain per oil?",
+    "options": [
+      {
+        "label": "A",
+        "text": "ToT range: below 1 grain per oil. Country B gains because it exports cheaply"
+      },
+      {
+        "label": "B",
+        "text": "ToT range: between 2 and 3 grain per oil. At 3, Country A is indifferent"
+      },
+      {
+        "label": "C",
+        "text": "ToT range: between 0 and 2 grain per oil — any price below Country A's OC"
+      },
+      {
+        "label": "D",
+        "text": "ToT range: between 1 and 3 grain per oil. At 3, both countries gain equally"
+      },
+      {
+        "label": "E",
+        "text": "Only terms between 1 and 2 benefit both; 3 favors B but harms A"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Country A's opportunity cost of one oil is 2 grain, while Country B's is 1 grain. Mutually beneficial terms must therefore lie strictly between 1 and 2 grain per oil. A rate of 3 benefits Country B but harms Country A, so it is not mutually beneficial.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "Country A: OC of oil = 2 grain. Country B: OC of oil = 1 grain. Which of the following terms of trade for oil would make ONLY Country B better off (not Country A)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3 grain per oil, above A's domestic opportunity cost"
+      },
+      {
+        "label": "B",
+        "text": "1.5 grain per oil — within the mutually beneficial range"
+      },
+      {
+        "label": "C",
+        "text": "0.8 grain per oil — below Country B's OC (B loses)"
+      },
+      {
+        "label": "D",
+        "text": "2 grain per oil — at Country A's OC (A is indifferent, neither gains nor loses)"
+      },
+      {
+        "label": "E",
+        "text": "1 grain per oil — at Country B's OC (B is indifferent, neither gains nor loses)"
+      }
+    ],
+    "answer": "A",
+    "explanation": "For mutual benefit, ToT must be strictly between 1 and 2 grain per oil. At 3 grain per oil, Country B receives 3 grain per oil exported - far above its OC of 1 - so B gains substantially. But Country A pays 3 grain per oil, which exceeds its own OC of 2 grain per oil - A would be better off producing oil itself; at ToT = 3, only Country B benefits.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "Two countries have the following production schedules (bowed-outward PPCs). At current production, Country X's marginal rate of transformation of wheat for steel is −1 (slope = −1), and Country Y's is −3 (slope = −3). Which country has the comparative advantage in wheat at the current margin, and what is the range of mutually beneficial terms of trade?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country Y has CA in wheat (steeper slope means lower OC of wheat). ToT: between 1 and 3 steel per wheat"
+      },
+      {
+        "label": "B",
+        "text": "Country Y has CA in wheat; ToT must be below 1 steel per wheat"
+      },
+      {
+        "label": "C",
+        "text": "X specializes in wheat; terms strictly between 1 and 3 steel per wheat"
+      },
+      {
+        "label": "D",
+        "text": "Country X has CA in wheat; ToT must exceed 3 steel per wheat"
+      },
+      {
+        "label": "E",
+        "text": "Neither country has CA in wheat at the current production point"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The absolute value of the PPC slope at a point equals the opportunity cost of the good on the horizontal axis. Country X's slope of -1 means its current OC of wheat = 1 steel; country Y's slope of -3 means its OC of wheat = 3 steel. Country X has the lower OC of wheat (1 < 3) → comparative advantage in wheat at the current margin; mutually beneficial ToT: between 1 and 3 steel per wheat.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "Country A has a bowed-outward PPC for wheat and cloth. Currently it produces large amounts of wheat and little cloth (near the wheat endpoint). Country B has a linear PPC with OC of wheat = 2 cloth. At Country A's current position, its OC of wheat = 1 cloth. Should Country A export wheat to Country B?",
+    "options": [
+      {
+        "label": "A",
+        "text": "No — Country A's bowed PPC means it should not trade"
+      },
+      {
+        "label": "B",
+        "text": "Yes — at A's current production point, OC of wheat (1 cloth) < B's OC (2 cloth), so Country A has a comparative advantage in wheat at this margin and should export wheat"
+      },
+      {
+        "label": "C",
+        "text": "Yes — Country A should always export wheat because it is near the wheat endpoint"
+      },
+      {
+        "label": "D",
+        "text": "No — Country A cannot have comparative advantage because its PPC is bowed"
+      },
+      {
+        "label": "E",
+        "text": "Yes, until A's marginal cost reaches 2 cloth per wheat"
+      }
+    ],
+    "answer": "E",
+    "explanation": "At the current point, A's OC of wheat (1 cloth) < B's OC (2 cloth) - A has a comparative advantage in wheat and should export it. However, on a bowed-outward PPC, as A shifts further toward wheat production, its OC of wheat rises. Once A's OC equals B's OC (2 cloth), further specialization provides no additional gain; the optimal specialization ends when opportunity costs equalize - making E the most precise answer.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "Country A produces 200 cars or 400 bicycles. Country B produces 120 cars or 360 bicycles. A student calculates the opportunity costs as follows: A: OC of 1 bicycle = 0.5 cars; B: OC of 1 bicycle = 0.33 cars. She concludes Country B has comparative advantage in bicycles. Evaluate her calculation and conclusion.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Calculations are correct; A has advantage in bicycles"
+      },
+      {
+        "label": "B",
+        "text": "Both calculations are incorrect; the conclusion is correct"
+      },
+      {
+        "label": "C",
+        "text": "Calculations are correct; neither country has comparative advantage"
+      },
+      {
+        "label": "D",
+        "text": "A calculation is correct; B should be 3 cars per bicycle"
+      },
+      {
+        "label": "E",
+        "text": "Calculations and conclusion are correct; B has advantage in bicycles"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Country A: OC of 1 bicycle = 200/400 = 0.5 cars; country B: OC of 1 bicycle = 120/360 = 0.33 cars. Both calculations are correct; country B's OC of bicycle (0.33) < A's (0.5) → B has comparative advantage in bicycles. The student's calculation and conclusion are both correct; (Verification: OC of car in A = 400/200 = 2 bicycles; OC of car in B = 360/120 = 3 bicycles → A has CA in cars.).",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "Country A: max 200 cars or 400 bicycles (OC of car = 2 bikes; OC of bike = 0.5 cars). Country B: max 120 cars or 360 bicycles (OC of car = 3 bikes; OC of bike = 0.33 cars). Country A (CA in cars) specializes fully. Trade terms: 2.5 bicycles per car. Country A exports 40 cars. What is Country A's post-trade consumption and is it beyond its PPC?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A: 160 cars + 40 bicycles. Exactly on A's PPC"
+      },
+      {
+        "label": "B",
+        "text": "A: 160 cars + 100 bicycles. Exactly on A's PPC"
+      },
+      {
+        "label": "C",
+        "text": "160 cars and 100 bicycles, beyond A's frontier"
+      },
+      {
+        "label": "D",
+        "text": "A: 200 cars + 100 bicycles. On A's PPC"
+      },
+      {
+        "label": "E",
+        "text": "A: 160 cars + 100 bicycles. Inside A's PPC"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A produces 200 cars, exports 40, keeps 160; receives 40 × 2.5 = 100 bicycles; consumption: 160 cars + 100 bicycles. On A's PPC: at 160 cars, max bikes = (200-160) × (400/200) = 40 × 2 = 80; since 100 > 80, A's bundle exceeds its own PPC - gains from trade.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "Country A: max 200 cars/400 bicycles. Country B: max 120 cars/360 bicycles. Country B specializes fully in bicycles (360). Trade: 2.5 bicycles per car. Country B exports 100 bicycles. What is Country B's post-trade consumption, and is it beyond B's PPC?",
+    "options": [
+      {
+        "label": "A",
+        "text": "B: 100 cars + 260 bicycles. On B's PPC"
+      },
+      {
+        "label": "B",
+        "text": "40 cars and 260 bicycles, beyond B's frontier"
+      },
+      {
+        "label": "C",
+        "text": "B: 40 cars + 360 bicycles. This is B's maximum production"
+      },
+      {
+        "label": "D",
+        "text": "B: 40 cars + 260 bicycles. Inside B's PPC"
+      },
+      {
+        "label": "E",
+        "text": "B: 40 cars + 260 bicycles. Exactly on B's PPC"
+      }
+    ],
+    "answer": "B",
+    "explanation": "B produces 360 bicycles, exports 100, keeps 260; receives 100/2.5 = 40 cars; consumption: 40 cars + 260 bicycles. On B's PPC: at 260 bicycles, max cars = (360-260) × (120/360) = 100 × (1/3) ≈ 33 cars; since 40 > 33, B's bundle is beyond its own PPC - gains from trade confirmed for both countries.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "A country has absolute advantage in both goods it produces. Its trading partner is much less productive. A protectionist politician argues that trade harms the more productive country by 'giving away' its efficient production to a weaker partner. Which of the following most rigorously refutes this argument using comparative advantage theory?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Different relative costs permit gains even with unequal productivity and country size"
+      },
+      {
+        "label": "B",
+        "text": "The argument is correct only when the productive country runs a trade deficit"
+      },
+      {
+        "label": "C",
+        "text": "The argument is incorrect only when both countries have the same-sized labor forces"
+      },
+      {
+        "label": "D",
+        "text": "The argument is correct; the more productive country always loses from trading with weaker partners"
+      },
+      {
+        "label": "E",
+        "text": "The argument is partially correct if the wage gap between countries is very large"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Absolute advantage does not negate comparative advantage; even the most productive country has opportunity costs, and its goods are not equally efficient relative to each other. By specializing in the good with the lowest relative opportunity cost, the productive country generates exchange opportunities that allow both it and its partner to consume beyond their individual PPCs; neither country 'gives away' production - both gain.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "Countries A and B have the following linear PPCs:\n\nCountry A: max 500 wheat or 250 steel\nCountry B: max 100 wheat or 300 steel\n\nBefore trade, A produces (300 wheat, 100 steel) and B produces (50 wheat, 150 steel). After full specialization and trade at 1.5 steel per wheat (A exports 100 wheat to B), what are the post-trade consumption bundles for A and B, and are both beyond their respective PPCs?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both consumption bundles are inside their respective PPCs"
+      },
+      {
+        "label": "B",
+        "text": "A: 400 wheat, 150 steel; B: 100 wheat, 150 steel; both exceed domestic frontiers"
+      },
+      {
+        "label": "C",
+        "text": "A: 300 wheat + 150 steel. On A's PPC. B: 100 wheat + 150 steel. Beyond B's PPC"
+      },
+      {
+        "label": "D",
+        "text": "A: 400 wheat + 150 steel. Beyond A's PPC. B: 100 wheat + 150 steel. On B's PPC"
+      },
+      {
+        "label": "E",
+        "text": "A: 500 wheat + 150 steel. On A's endpoint"
+      }
+    ],
+    "answer": "B",
+    "explanation": "OC of wheat in A = 250/500 = 0.5 steel → CA in wheat; OC of wheat in B = 300/100 = 3 steel → B's CA in steel. A produces 500 wheat, exports 100, keeps 400, receives 100 × 1.5 = 150 steel → A: (400, 150); on A's PPC at 400 wheat: max steel = (500-400) × 0.5 = 50. 150 >> 50 → beyond. B produces 300 steel, exports 150, keeps 150, receives 100 wheat → B: (100, 150); on B's PPC: B's equation: wheat = 100 - (100/300)×steel; at 150 steel: max wheat = 100 - 50 = 50; since B has 100 wheat (> 50 max) → beyond B's PPC; both gain.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "Country A and Country B have identical PPCs (both linear: max 400 wheat or 400 steel). An economist argues there are no gains from trade between them. Is this correct, and why?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Correct — but only if both countries have the same population size"
+      },
+      {
+        "label": "B",
+        "text": "Incorrect — gains from trade depend on absolute advantage, not opportunity costs"
+      },
+      {
+        "label": "C",
+        "text": "Identical opportunity costs provide no specialization gains in this model"
+      },
+      {
+        "label": "D",
+        "text": "Incorrect — identical PPCs allow trade at fixed terms that benefit both"
+      },
+      {
+        "label": "E",
+        "text": "Incorrect — identical PPCs always create gains from trade"
+      }
+    ],
+    "answer": "C",
+    "explanation": "If both countries have identical linear PPCs, their opportunity costs are equal (e.g., both face OC of wheat = 1 steel). Neither has a lower opportunity cost in either good - no comparative advantage exists; there is no basis for specialization and no gains from trade through the comparative advantage mechanism; the economist is correct.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "Country A: max 600 wheat or 200 steel. Country B: max 300 wheat or 300 steel. They agree to trade. Country A (CA in wheat) fully specializes and exports 150 wheat at terms of trade of 0.9 steel per wheat. (a) Is 0.9 steel/wheat within the mutually beneficial range? (b) What is Country A's post-trade consumption? (c) Is it beyond Country A's PPC?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes; 450 wheat and 135 steel, exceeding the domestic maximum of 50 steel"
+      },
+      {
+        "label": "B",
+        "text": "(a) 0.9 is within range. (b) A consumes 600 wheat + 135 steel. (c) On A's production frontier"
+      },
+      {
+        "label": "C",
+        "text": "(a) 0.9 is outside the range because it is above 0.33. (b) A consumes 450 wheat + 135 steel. (c) Inside A's PPC"
+      },
+      {
+        "label": "D",
+        "text": "(a) 0.9 is within range. (b) A consumes 450 wheat + 90 steel. (c) Beyond A's PPC"
+      },
+      {
+        "label": "E",
+        "text": "(a) 0.9 exceeds the upper bound of 1, so not mutually beneficial. (b) and (c) not applicable"
+      }
+    ],
+    "answer": "A",
+    "explanation": "OC of wheat: A = 200/600 = 0.33 steel; B = 300/300 = 1 steel. Mutually beneficial range: 0.33 < ToT < 1. 0.9 falls within this range → mutually beneficial; country A fully specializes: 600 wheat; exports 150, keeps 450; receives 150 × 0.9 = 135 steel. Consumption: 450 wheat + 135 steel; on A's PPC at 450 wheat: max steel = (600-450) × (200/600) = 150 × (1/3) = 50; since 135 >> 50, A's consumption is far beyond its own PPC - very significant gains from trade.",
+    "reference": "MKT-2.A | MKT-2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  }
+]

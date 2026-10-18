@@ -1,0 +1,3140 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "What does the Keynesian multiplier measure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Aggregate household consumption expenditure / total disposable income"
+      },
+      {
+        "label": "B",
+        "text": "Change in income / autonomous spending change"
+      },
+      {
+        "label": "C",
+        "text": "Extra saving / extra income"
+      },
+      {
+        "label": "D",
+        "text": "Export receipts / import spending"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The multiplier shows how an initial autonomous change in spending produces a larger final change in national income through repeated rounds of income and expenditure.",
+    "reference": "9.1 The circular flow of income | 9.1.1 the multiplier process: definition of the multiplier | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "What is the marginal propensity to consume (mpc)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Total household consumption / total disposable income"
+      },
+      {
+        "label": "B",
+        "text": "Extra saving / extra income"
+      },
+      {
+        "label": "C",
+        "text": "Borrowing / consumption"
+      },
+      {
+        "label": "D",
+        "text": "Extra consumption / extra income"
+      }
+    ],
+    "answer": "D",
+    "explanation": "MPC is a marginal measure: change in consumption divided by change in income.",
+    "reference": "9.1 The circular flow of income | 9.1.1 calculation of average and marginal propensities to consume | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "What is the marginal propensity to save (mps)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Extra saving / extra income"
+      },
+      {
+        "label": "B",
+        "text": "Total household saving / total disposable household income"
+      },
+      {
+        "label": "C",
+        "text": "Extra imports / extra income"
+      },
+      {
+        "label": "D",
+        "text": "Cash balances / total saving"
+      }
+    ],
+    "answer": "A",
+    "explanation": "MPS is change in saving divided by change in income.",
+    "reference": "9.1 The circular flow of income | 9.1.1 calculation of average and marginal propensities to save | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "What is the average propensity to consume (apc)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Change in consumption divided by change in income"
+      },
+      {
+        "label": "B",
+        "text": "Consumption divided by income"
+      },
+      {
+        "label": "C",
+        "text": "Saving divided by income"
+      },
+      {
+        "label": "D",
+        "text": "Change in saving divided by change in income"
+      }
+    ],
+    "answer": "B",
+    "explanation": "APC is an average measure based on levels: C/Y.",
+    "reference": "9.1 The circular flow of income | 9.1.1 calculation of average and marginal propensities to consume | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "In a two-sector economy, which relationship must hold between mpc and mps?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mpc - mps = 1"
+      },
+      {
+        "label": "B",
+        "text": "Mpc x mps = 1"
+      },
+      {
+        "label": "C",
+        "text": "Mpc + mps = 1"
+      },
+      {
+        "label": "D",
+        "text": "Mpc / mps = 1"
+      }
+    ],
+    "answer": "C",
+    "explanation": "With no government or foreign sector, an extra unit of income is either consumed or saved, so the marginal propensities sum to one.",
+    "reference": "9.1 The circular flow of income | 9.1.1 multiplier in a closed economy without a government sector | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "What is the marginal propensity to import (mpm)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Total imports / total income"
+      },
+      {
+        "label": "B",
+        "text": "Extra imports / extra income"
+      },
+      {
+        "label": "C",
+        "text": "Extra exports / extra imports"
+      },
+      {
+        "label": "D",
+        "text": "Extra tax / extra income"
+      }
+    ],
+    "answer": "B",
+    "explanation": "MPM measures the leakage into imports from an additional unit of income.",
+    "reference": "9.1 The circular flow of income | 9.1.1 calculation of average and marginal propensities to import | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "What is the marginal rate of tax (mrt)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Total tax / total income"
+      },
+      {
+        "label": "B",
+        "text": "Import duties / total imports"
+      },
+      {
+        "label": "C",
+        "text": "Extra income / extra tax"
+      },
+      {
+        "label": "D",
+        "text": "Extra tax / extra income"
+      }
+    ],
+    "answer": "D",
+    "explanation": "MRT is the proportion of additional income taken in tax.",
+    "reference": "9.1 The circular flow of income | 9.1.1 calculation of average and marginal rates of tax | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "In a closed economy with no government sector, the multiplier is",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 / mps"
+      },
+      {
+        "label": "B",
+        "text": "1 / mpc"
+      },
+      {
+        "label": "C",
+        "text": "1 / (mps + mrt)"
+      },
+      {
+        "label": "D",
+        "text": "1 / (mps + mpm)"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Saving is the only withdrawal in a two-sector economy, so the multiplier equals 1 divided by mps.",
+    "reference": "9.1 The circular flow of income | 9.1.1 formulae for multiplier in a closed economy without government | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "In a closed economy with a government sector, the simplified multiplier is",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 / mps"
+      },
+      {
+        "label": "B",
+        "text": "1 / (mps + mrt)"
+      },
+      {
+        "label": "C",
+        "text": "1 / (mpc + mrt)"
+      },
+      {
+        "label": "D",
+        "text": "1 / (mps + mpm)"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Saving and taxation are the withdrawals from the income stream in the three-sector model.",
+    "reference": "9.1 The circular flow of income | 9.1.1 formulae for multiplier in a closed economy with government | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "In an open economy with a government sector, the simplified multiplier is",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 / (mpc + mrt + mpm)"
+      },
+      {
+        "label": "B",
+        "text": "1 / (mps + mrt + mpm)"
+      },
+      {
+        "label": "C",
+        "text": "1 / (mps + mpc + mpm)"
+      },
+      {
+        "label": "D",
+        "text": "1 / (mps + mrt)"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Saving, taxation and imports are the three marginal withdrawals in the four-sector model.",
+    "reference": "9.1 The circular flow of income | 9.1.1 formulae for multiplier in an open economy with government | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "Which condition is required for equilibrium national income in an open economy with government?",
+    "options": [
+      {
+        "label": "A",
+        "text": "I + G + X = S + T + M"
+      },
+      {
+        "label": "B",
+        "text": "C + I + G + X = S + T + M"
+      },
+      {
+        "label": "C",
+        "text": "I + X = S + G"
+      },
+      {
+        "label": "D",
+        "text": "C + G + M = S + T + X"
+      }
+    ],
+    "answer": "A",
+    "explanation": "At equilibrium, planned injections equal planned withdrawals: investment, government spending and exports equal saving, taxation and imports.",
+    "reference": "9.1 The circular flow of income | 9.1.1 national income determination using AD and income approach | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "On an aggregate expenditure diagram, equilibrium national income occurs where",
+    "options": [
+      {
+        "label": "A",
+        "text": "Household consumption equals aggregate household saving"
+      },
+      {
+        "label": "B",
+        "text": "Planned spending equals income"
+      },
+      {
+        "label": "C",
+        "text": "Real GDP equals prices"
+      },
+      {
+        "label": "D",
+        "text": "Export receipts equal imports"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The 45-degree line represents points where expenditure equals income. Equilibrium is where the planned expenditure schedule crosses that line.",
+    "reference": "9.1 The circular flow of income | 9.1.1 national income determination using AD and income approach | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "What is autonomous consumption?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumption independent of current income"
+      },
+      {
+        "label": "B",
+        "text": "Consumption increasing with current income"
+      },
+      {
+        "label": "C",
+        "text": "Consumption equal to saving at every income level"
+      },
+      {
+        "label": "D",
+        "text": "Consumption financed entirely by taxation"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Autonomous consumption is the intercept of the consumption function: spending that occurs even when current income is zero.",
+    "reference": "9.1 The circular flow of income | 9.1.2 consumption function: autonomous and induced consumer expenditure | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "What is induced consumption?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumption independent of current income"
+      },
+      {
+        "label": "B",
+        "text": "Consumption equal to autonomous investment"
+      },
+      {
+        "label": "C",
+        "text": "Consumption varying with current income"
+      },
+      {
+        "label": "D",
+        "text": "Household expenditure funded exclusively by transfers from the government"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Induced consumption is the part of consumption that depends on income and is governed by the marginal propensity to consume.",
+    "reference": "9.1 The circular flow of income | 9.1.2 consumption function: autonomous and induced consumer expenditure | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "If the consumption function is C = 40 + 0.75Y, what does 40 represent?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Induced consumption at all incomes"
+      },
+      {
+        "label": "B",
+        "text": "The marginal propensity to save"
+      },
+      {
+        "label": "C",
+        "text": "The break-even level of income"
+      },
+      {
+        "label": "D",
+        "text": "Autonomous consumption"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The constant term is consumption that occurs independently of current income.",
+    "reference": "9.1 The circular flow of income | 9.1.2 consumption function: autonomous and induced consumer expenditure | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "Which statement best describes autonomous investment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Investment independent of current income"
+      },
+      {
+        "label": "B",
+        "text": "Investment induced by rising income"
+      },
+      {
+        "label": "C",
+        "text": "Investment equal to total household saving in every period"
+      },
+      {
+        "label": "D",
+        "text": "Investment undertaken by government alone"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Autonomous investment is not induced by current income or output changes.",
+    "reference": "9.1 The circular flow of income | 9.1.2 autonomous and induced investment; the accelerator | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "According to the accelerator principle, induced investment is most directly affected by",
+    "options": [
+      {
+        "label": "A",
+        "text": "The total amount of household saving in the current period"
+      },
+      {
+        "label": "B",
+        "text": "The average rate of taxation"
+      },
+      {
+        "label": "C",
+        "text": "Changes in output or demand"
+      },
+      {
+        "label": "D",
+        "text": "The stock of household money"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The accelerator links induced investment to changes in output or demand because firms alter capital stock when expected production requirements change.",
+    "reference": "9.1 The circular flow of income | 9.1.2 autonomous and induced investment; the accelerator | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "Which component of aggregate demand is government spending?",
+    "options": [
+      {
+        "label": "A",
+        "text": "G"
+      },
+      {
+        "label": "B",
+        "text": "C"
+      },
+      {
+        "label": "C",
+        "text": "I"
+      },
+      {
+        "label": "D",
+        "text": "M"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Aggregate demand is C + I + G + (X - M), and G represents government spending on goods and services.",
+    "reference": "9.1 The circular flow of income | 9.1.2 components of AD: government spending | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "What is meant by net exports?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Imports minus exports"
+      },
+      {
+        "label": "B",
+        "text": "Exports plus imports"
+      },
+      {
+        "label": "C",
+        "text": "Exports minus government spending"
+      },
+      {
+        "label": "D",
+        "text": "Exports minus imports"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Net exports are the foreign-sector contribution to aggregate demand: X - M.",
+    "reference": "9.1 The circular flow of income | 9.1.2 components of AD: net exports | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "A deflationary gap exists when",
+    "options": [
+      {
+        "label": "A",
+        "text": "Equilibrium income above full employment"
+      },
+      {
+        "label": "B",
+        "text": "Export earnings exceeding expenditure on imports of goods and services"
+      },
+      {
+        "label": "C",
+        "text": "Government revenue greater than spending"
+      },
+      {
+        "label": "D",
+        "text": "Equilibrium income below full employment"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A deflationary gap means planned spending is insufficient to generate full-employment national income.",
+    "reference": "9.1 The circular flow of income | 9.1.3 full employment and equilibrium national income: deflationary gap | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "An inflationary gap exists when",
+    "options": [
+      {
+        "label": "A",
+        "text": "Spending below the full-employment requirement"
+      },
+      {
+        "label": "B",
+        "text": "Saving exceeding investment in each sector"
+      },
+      {
+        "label": "C",
+        "text": "Spending above the full-employment requirement"
+      },
+      {
+        "label": "D",
+        "text": "Imports exceeding exports in each period"
+      }
+    ],
+    "answer": "C",
+    "explanation": "An inflationary gap occurs when demand pressure is too high at full employment, tending to push nominal spending and prices upward.",
+    "reference": "9.1 The circular flow of income | 9.1.3 full employment and equilibrium national income: inflationary gap | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "Income rises from $500 million to $600 million and consumption rises from $420 million to $500 million. What is the mpc?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.2"
+      },
+      {
+        "label": "B",
+        "text": "0.7"
+      },
+      {
+        "label": "C",
+        "text": "0.8"
+      },
+      {
+        "label": "D",
+        "text": "1.25"
+      }
+    ],
+    "answer": "C",
+    "explanation": "MPC = change in C / change in Y = 80 / 100 = 0.8.",
+    "reference": "9.1 The circular flow of income | 9.1.1 calculation of marginal propensity to consume | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "Income rises by $200 million and saving rises by $50 million. What is the mps?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.25"
+      },
+      {
+        "label": "B",
+        "text": "0.20"
+      },
+      {
+        "label": "C",
+        "text": "0.50"
+      },
+      {
+        "label": "D",
+        "text": "4.00"
+      }
+    ],
+    "answer": "A",
+    "explanation": "MPS = change in saving / change in income = 50 / 200 = 0.25.",
+    "reference": "9.1 The circular flow of income | 9.1.1 calculation of marginal propensity to save | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "A household sector consumes $720 million when income is $900 million. What is the apc?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.2"
+      },
+      {
+        "label": "B",
+        "text": "0.9"
+      },
+      {
+        "label": "C",
+        "text": "0.8"
+      },
+      {
+        "label": "D",
+        "text": "1.25"
+      }
+    ],
+    "answer": "C",
+    "explanation": "APC = C / Y = 720 / 900 = 0.8.",
+    "reference": "9.1 The circular flow of income | 9.1.1 calculation of average propensity to consume | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "An economy saves $120 million out of income of $800 million. What is the aps?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.12"
+      },
+      {
+        "label": "B",
+        "text": "0.65"
+      },
+      {
+        "label": "C",
+        "text": "0.85"
+      },
+      {
+        "label": "D",
+        "text": "0.15"
+      }
+    ],
+    "answer": "D",
+    "explanation": "APS = S / Y = 120 / 800 = 0.15.",
+    "reference": "9.1 The circular flow of income | 9.1.1 calculation of average propensity to save | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "In a two-sector economy mps = 0.2. What is the multiplier?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.2"
+      },
+      {
+        "label": "B",
+        "text": "1.25"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "C",
+    "explanation": "k = 1 / mps = 1 / 0.2 = 5.",
+    "reference": "9.1 The circular flow of income | 9.1.1 multiplier calculation in a closed economy without government | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "In a closed economy with government, mps = 0.2 and mrt = 0.1. What is the multiplier?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3.33"
+      },
+      {
+        "label": "B",
+        "text": "2.00"
+      },
+      {
+        "label": "C",
+        "text": "4.00"
+      },
+      {
+        "label": "D",
+        "text": "10.00"
+      }
+    ],
+    "answer": "A",
+    "explanation": "k = 1 / (0.2 + 0.1) = 1 / 0.3 = 3.33 approximately.",
+    "reference": "9.1 The circular flow of income | 9.1.1 multiplier calculation in a closed economy with government | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "In an open economy with government, mps = 0.1, mrt = 0.1 and mpm = 0.2. What is the multiplier?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2.5"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "A",
+    "explanation": "k = 1 / (0.1 + 0.1 + 0.2) = 1 / 0.4 = 2.5.",
+    "reference": "9.1 The circular flow of income | 9.1.1 multiplier calculation in an open economy with government | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "The multiplier is 4 and autonomous investment rises by $30 million. By how much will equilibrium national income eventually rise, other things equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$7.5 million"
+      },
+      {
+        "label": "B",
+        "text": "$30 million"
+      },
+      {
+        "label": "C",
+        "text": "$120 million"
+      },
+      {
+        "label": "D",
+        "text": "$90 million"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Change in income = multiplier x change in autonomous spending = 4 x 30 = $120 million.",
+    "reference": "9.1 The circular flow of income | 9.1.1 calculation of effect of changing AD on national income using the multiplier | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "The consumption function is C = 100 + 0.7Y. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The apc is always 0.7"
+      },
+      {
+        "label": "B",
+        "text": "Autonomous consumption is 0.7"
+      },
+      {
+        "label": "C",
+        "text": "The mps is 0.7"
+      },
+      {
+        "label": "D",
+        "text": "The mpc is 0.7"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The coefficient on income is the MPC, so MPC = 0.7. APC changes with income because autonomous consumption is positive.",
+    "reference": "9.1 The circular flow of income | 9.1.2 consumption function: autonomous and induced consumer expenditure | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 31,
+    "difficulty": "Medium",
+    "prompt": "If C = 120 + 0.75Y and national income is $800 million, what is planned consumption?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$600 million"
+      },
+      {
+        "label": "B",
+        "text": "$680 million"
+      },
+      {
+        "label": "C",
+        "text": "$920 million"
+      },
+      {
+        "label": "D",
+        "text": "$720 million"
+      }
+    ],
+    "answer": "D",
+    "explanation": "C = 120 + 0.75(800) = 120 + 600 = $720 million.",
+    "reference": "9.1 The circular flow of income | 9.1.2 consumption function: autonomous and induced consumer expenditure | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 32,
+    "difficulty": "Medium",
+    "prompt": "If C = 80 + 0.8Y in a two-sector model, which savings function is consistent with it?",
+    "options": [
+      {
+        "label": "A",
+        "text": "S = -80 + 0.2Y"
+      },
+      {
+        "label": "B",
+        "text": "S = 80 + 0.2Y"
+      },
+      {
+        "label": "C",
+        "text": "S = -80 + 0.8Y"
+      },
+      {
+        "label": "D",
+        "text": "S = 80 - 0.2Y"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Since S = Y - C, S = Y - (80 + 0.8Y) = -80 + 0.2Y.",
+    "reference": "9.1 The circular flow of income | 9.1.2 savings function: autonomous and induced savings | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 33,
+    "difficulty": "Medium",
+    "prompt": "An economy has C = 200 + 0.6Y. Which statement about APC is correct as income rises?",
+    "options": [
+      {
+        "label": "A",
+        "text": "APC rises without limit"
+      },
+      {
+        "label": "B",
+        "text": "APC falls towards 0.6"
+      },
+      {
+        "label": "C",
+        "text": "APC is always 0.6"
+      },
+      {
+        "label": "D",
+        "text": "APC is always below 0.6"
+      }
+    ],
+    "answer": "B",
+    "explanation": "APC = C/Y = 200/Y + 0.6. As Y rises, 200/Y falls, so APC falls toward the MPC of 0.6.",
+    "reference": "9.1 The circular flow of income | 9.1.2 consumption function: autonomous and induced consumer expenditure | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "The consumption function is C = 100 + 0.8Y. At what level of income is saving zero?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$100 million"
+      },
+      {
+        "label": "B",
+        "text": "$400 million"
+      },
+      {
+        "label": "C",
+        "text": "$500 million"
+      },
+      {
+        "label": "D",
+        "text": "$800 million"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Saving is zero where C = Y: 100 + 0.8Y = Y, so 0.2Y = 100 and Y = 500.",
+    "reference": "9.1 The circular flow of income | 9.1.2 consumption and savings functions | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "Imports rise from $140 million to $176 million when income rises from $700 million to $820 million. What is the mpm?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.3"
+      },
+      {
+        "label": "B",
+        "text": "0.12"
+      },
+      {
+        "label": "C",
+        "text": "0.21"
+      },
+      {
+        "label": "D",
+        "text": "0.8"
+      }
+    ],
+    "answer": "A",
+    "explanation": "MPM = change in imports / change in income = 36 / 120 = 0.3.",
+    "reference": "9.1 The circular flow of income | 9.1.1 calculation of marginal propensity to import | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "Imports are $180 million when national income is $900 million. What is the apm?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.2"
+      },
+      {
+        "label": "B",
+        "text": "0.1"
+      },
+      {
+        "label": "C",
+        "text": "0.5"
+      },
+      {
+        "label": "D",
+        "text": "5.0"
+      }
+    ],
+    "answer": "A",
+    "explanation": "APM = imports / income = 180 / 900 = 0.2.",
+    "reference": "9.1 The circular flow of income | 9.1.1 calculation of average propensity to import | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "Tax revenue is $240 million when income is $1200 million. What is the art?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.12"
+      },
+      {
+        "label": "B",
+        "text": "0.20"
+      },
+      {
+        "label": "C",
+        "text": "0.24"
+      },
+      {
+        "label": "D",
+        "text": "5.00"
+      }
+    ],
+    "answer": "B",
+    "explanation": "ART = total tax / total income = 240 / 1200 = 0.20.",
+    "reference": "9.1 The circular flow of income | 9.1.1 calculation of average rate of tax | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "Tax revenue rises from $200 million to $260 million when income rises from $1000 million to $1200 million. What is the mrt?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.05"
+      },
+      {
+        "label": "B",
+        "text": "0.20"
+      },
+      {
+        "label": "C",
+        "text": "0.50"
+      },
+      {
+        "label": "D",
+        "text": "0.30"
+      }
+    ],
+    "answer": "D",
+    "explanation": "MRT = change in tax / change in income = 60 / 200 = 0.30.",
+    "reference": "9.1 The circular flow of income | 9.1.1 calculation of marginal rate of tax | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "In an open economy, planned investment is $80m, government spending $150m and exports $120m. Saving is $110m, tax revenue $140m and imports $100m. What is the position?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Injections exceed withdrawals by $50m"
+      },
+      {
+        "label": "B",
+        "text": "Withdrawals exceed injections by $50m"
+      },
+      {
+        "label": "C",
+        "text": "Injections exceed withdrawals by $100m"
+      },
+      {
+        "label": "D",
+        "text": "Injections and withdrawals are equal"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Injections = 80 + 150 + 120 = 350. Withdrawals = 110 + 140 + 100 = 350, so planned injections equal planned withdrawals.",
+    "reference": "9.1 The circular flow of income | 9.1.1 national income determination: injections and withdrawals | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "In an open economy with government, I = $90m, G = $160m, X = $110m, S = $120m and T = $150m. What level of imports is consistent with equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$90 million"
+      },
+      {
+        "label": "B",
+        "text": "$50 million"
+      },
+      {
+        "label": "C",
+        "text": "$120 million"
+      },
+      {
+        "label": "D",
+        "text": "$210 million"
+      }
+    ],
+    "answer": "A",
+    "explanation": "At equilibrium I + G + X = S + T + M. Injections are 360 and S + T = 270, so M must be 90.",
+    "reference": "9.1 The circular flow of income | 9.1.1 national income determination: injections and withdrawals | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "An autonomous rise in spending of $25m ultimately raises income by $100m. What is the multiplier?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.25"
+      },
+      {
+        "label": "B",
+        "text": "2.5"
+      },
+      {
+        "label": "C",
+        "text": "125"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "D",
+    "explanation": "k = change in income / change in autonomous injection = 100 / 25 = 4.",
+    "reference": "9.1 The circular flow of income | 9.1.1 definition and calculation of multiplier | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "A country has a deflationary national income gap of $90m and a multiplier of 3. What autonomous increase in aggregate demand is required to close the gap?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$90 million"
+      },
+      {
+        "label": "B",
+        "text": "$30 million"
+      },
+      {
+        "label": "C",
+        "text": "$180 million"
+      },
+      {
+        "label": "D",
+        "text": "$270 million"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Required autonomous change = income gap / multiplier = 90 / 3 = $30m.",
+    "reference": "9.1 The circular flow of income | 9.1.1 calculation of effect of changing AD on national income using the multiplier | 9.1.3 deflationary gap | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "In a two-sector economy, mpc = 0.6. Equilibrium income is $10 000m and full-employment income is $15 000m. How much must autonomous investment rise to close the gap?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$1250 million"
+      },
+      {
+        "label": "B",
+        "text": "$2000 million"
+      },
+      {
+        "label": "C",
+        "text": "$3000 million"
+      },
+      {
+        "label": "D",
+        "text": "$5000 million"
+      }
+    ],
+    "answer": "B",
+    "explanation": "MPS = 0.4, so k = 1/0.4 = 2.5. The income gap is 5000, so required investment = 5000 / 2.5 = $2000m.",
+    "reference": "9.1 The circular flow of income | 9.1.1 multiplier calculation | 9.1.3 full employment and equilibrium national income | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "MPS is 0.15 and MRT rises from 0.10 to 0.20. What happens to the three-sector multiplier?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises as withdrawals increase"
+      },
+      {
+        "label": "B",
+        "text": "It stays constant as saving is unchanged"
+      },
+      {
+        "label": "C",
+        "text": "It falls as withdrawals increase"
+      },
+      {
+        "label": "D",
+        "text": "It falls below zero as taxes increase"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The denominator changes from 0.25 to 0.35, so 1/(mps+mrt) becomes smaller.",
+    "reference": "9.1 The circular flow of income | 9.1.1 multiplier in a closed economy with government | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "Other things equal, a rise in the marginal propensity to import will",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increase the open-economy multiplier"
+      },
+      {
+        "label": "B",
+        "text": "Leave the open-economy multiplier unchanged"
+      },
+      {
+        "label": "C",
+        "text": "Equate the multiplier with the mpc"
+      },
+      {
+        "label": "D",
+        "text": "Reduce the open-economy multiplier"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A higher MPM increases leakages from each extra unit of income, reducing repeated domestic spending rounds and the multiplier.",
+    "reference": "9.1 The circular flow of income | 9.1.1 multiplier in an open economy | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "Country A has mps 0.2, mrt 0.1 and mpm 0.1. Country B has mps 0.1, mrt 0.1 and mpm 0.1. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Country A has the larger multiplier"
+      },
+      {
+        "label": "B",
+        "text": "Both countries have the same multiplier"
+      },
+      {
+        "label": "C",
+        "text": "Country B has the larger multiplier"
+      },
+      {
+        "label": "D",
+        "text": "The multiplier cannot be estimated without autonomous spending data"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A has k = 1/0.4 = 2.5. B has k = 1/0.3 = 3.33, so the same injection produces a larger final income change in B.",
+    "reference": "9.1 The circular flow of income | 9.1.1 multiplier in an open economy | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "Autonomous consumption rises by $20m in an economy with a multiplier of 2.5. What is the eventual change in equilibrium income, other things equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An increase of $20m"
+      },
+      {
+        "label": "B",
+        "text": "An increase of $8m"
+      },
+      {
+        "label": "C",
+        "text": "An increase of $50m"
+      },
+      {
+        "label": "D",
+        "text": "A decrease of $50m"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Autonomous consumption is an injection into planned aggregate spending. The final change is 2.5 x 20 = $50m.",
+    "reference": "9.1 The circular flow of income | 9.1.1 multiplier process | 9.1.2 autonomous consumption | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "Which change shifts a consumption function upward without changing its mpc?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An increase in the mpc"
+      },
+      {
+        "label": "B",
+        "text": "An increase in autonomous consumption"
+      },
+      {
+        "label": "C",
+        "text": "A decrease in current national income"
+      },
+      {
+        "label": "D",
+        "text": "A decrease in autonomous consumption"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Changing the autonomous term changes the vertical intercept. A change in MPC changes the slope instead.",
+    "reference": "9.1 The circular flow of income | 9.1.2 consumption function: autonomous and induced consumer expenditure | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "If C = 120 + 0.75Y, what is the vertical intercept of the corresponding saving function?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "-120"
+      },
+      {
+        "label": "C",
+        "text": "120"
+      },
+      {
+        "label": "D",
+        "text": "0.25"
+      }
+    ],
+    "answer": "B",
+    "explanation": "S = Y - C = -120 + 0.25Y, so the saving function has an intercept of -120.",
+    "reference": "9.1 The circular flow of income | 9.1.2 savings function: autonomous and induced savings | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "Which statement correctly distinguishes investment in the multiplier from investment in the accelerator?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Multiplier: induced investment; accelerator: autonomous investment"
+      },
+      {
+        "label": "B",
+        "text": "Multiplier: autonomous investment; accelerator: induced investment"
+      },
+      {
+        "label": "C",
+        "text": "Both: investment independent of current income"
+      },
+      {
+        "label": "D",
+        "text": "Both: investment determined solely by interest rates"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Cambridge distinguishes autonomous investment as an initiating injection in the multiplier from induced investment that responds to changes in output under the accelerator.",
+    "reference": "9.1 The circular flow of income | 9.1.2 autonomous and induced investment; the accelerator | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "If the growth of demand for a firm's output slows sharply, what does the accelerator principle suggest may happen to induced investment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It increases whenever the level of total output rises"
+      },
+      {
+        "label": "B",
+        "text": "It falls as output growth slows"
+      },
+      {
+        "label": "C",
+        "text": "It stays constant while output rises"
+      },
+      {
+        "label": "D",
+        "text": "It equals saving as growth slows"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The accelerator responds to the change in output or demand. A slower increase can reduce the extra capital stock firms require.",
+    "reference": "9.1 The circular flow of income | 9.1.2 autonomous and induced investment; the accelerator | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "The diagram shows planned aggregate expenditure and the 45-degree line. What does point E, where the two lines cross, represent?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Full employment necessarily"
+      },
+      {
+        "label": "B",
+        "text": "A zero level of saving"
+      },
+      {
+        "label": "C",
+        "text": "Equilibrium national income"
+      },
+      {
+        "label": "D",
+        "text": "A balanced current account"
+      }
+    ],
+    "answer": "C",
+    "explanation": "At E, planned aggregate expenditure equals national income, so there is no unplanned pressure for output to change.",
+    "reference": "9.1 The circular flow of income | 9.1.1 national income determination using AD and income approach | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: planned aggregate expenditure. Horizontal axis: national income. Draw a 45-degree line from the origin and an upward-sloping AE line crossing it at E.",
+    "graphScenes": [
+      {
+        "xLabel": "National income",
+        "yLabel": "Planned expenditure",
+        "xMax": 220,
+        "yMax": 220,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "45°",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 206.79999999999998,
+                "y": 206.79999999999998
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "AE",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 30.0
+              },
+              {
+                "x": 206.79999999999998,
+                "y": 154.07999999999998
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E",
+            "x": 75.0,
+            "y": 75.0
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 75.0,
+            "y": 75.0,
+            "xLabel": "YE"
+          },
+          {
+            "id": "g1",
+            "x": 100,
+            "y": 100,
+            "xLabel": "YF"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "On an aggregate expenditure diagram, full-employment income is YF and equilibrium income is YE, with YE below YF. What is shown?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An inflationary income gap"
+      },
+      {
+        "label": "B",
+        "text": "A deflationary income gap"
+      },
+      {
+        "label": "C",
+        "text": "A balanced government budget"
+      },
+      {
+        "label": "D",
+        "text": "A balanced current account"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Equilibrium income below full-employment income indicates deficient planned expenditure and a deflationary gap.",
+    "reference": "9.1 The circular flow of income | 9.1.3 full employment and equilibrium national income: deflationary gap | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: planned aggregate expenditure. Horizontal axis: national income. Show a 45-degree line, an AE schedule crossing it at YE, and mark YF to the right of YE as full-employment income.",
+    "graphScenes": [
+      {
+        "xLabel": "National income",
+        "yLabel": "Planned expenditure",
+        "xMax": 220,
+        "yMax": 220,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "45°",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 206.79999999999998,
+                "y": 206.79999999999998
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "AE",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 30.0
+              },
+              {
+                "x": 206.79999999999998,
+                "y": 154.07999999999998
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E",
+            "x": 75.0,
+            "y": 75.0
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 110,
+            "y": 110
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 75.0,
+            "y": 75.0,
+            "xLabel": "YE"
+          },
+          {
+            "id": "g1",
+            "x": 110,
+            "y": 110,
+            "xLabel": "YF"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "On an aggregate expenditure diagram, the AE schedule lies above the 45-degree line at full-employment income YF. What does the vertical distance between AE and the 45-degree line at YF represent?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The multiplier itself"
+      },
+      {
+        "label": "B",
+        "text": "The national income gap directly"
+      },
+      {
+        "label": "C",
+        "text": "An inflationary expenditure gap"
+      },
+      {
+        "label": "D",
+        "text": "The marginal propensity to save"
+      }
+    ],
+    "answer": "C",
+    "explanation": "At full employment, planned expenditure exceeding output is an inflationary expenditure gap. The resulting national-income excess can be a multiple of this spending gap.",
+    "reference": "9.1 The circular flow of income | 9.1.3 full employment and equilibrium national income: inflationary gap | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: planned aggregate expenditure. Horizontal axis: national income. Draw the 45-degree line and an AE schedule crossing it to the right of YF. At YF show AE above the 45-degree line and label the vertical distance as an expenditure gap.",
+    "graphScenes": [
+      {
+        "xLabel": "National income",
+        "yLabel": "Planned expenditure",
+        "xMax": 220,
+        "yMax": 220,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "45°",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 206.79999999999998,
+                "y": 206.79999999999998
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "AE",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 50.0
+              },
+              {
+                "x": 206.79999999999998,
+                "y": 174.07999999999998
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 100,
+                "y": 100
+              },
+              {
+                "x": 100,
+                "y": 110.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E",
+            "x": 125.0,
+            "y": 125.0
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 100,
+            "y": 100
+          },
+          {
+            "id": "p2",
+            "label": "",
+            "x": 100,
+            "y": 110.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 125.0,
+            "y": 125.0,
+            "xLabel": "YE"
+          },
+          {
+            "id": "g1",
+            "x": 100,
+            "y": 100,
+            "xLabel": "YF"
+          },
+          {
+            "id": "g2",
+            "x": 100,
+            "y": 110.0,
+            "yLabel": "AE at YF"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "Which change directly raises aggregate demand, other things equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher government spending"
+      },
+      {
+        "label": "B",
+        "text": "Higher import spending"
+      },
+      {
+        "label": "C",
+        "text": "Higher household saving"
+      },
+      {
+        "label": "D",
+        "text": "A higher marginal rate of taxation"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Government spending is a component of AD. Imports are subtracted from AD and saving or higher taxation are withdrawals that tend to reduce induced spending.",
+    "reference": "9.1 The circular flow of income | 9.1.2 components of AD and their determinants: government spending | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "A rise in foreign incomes increases demand for a country's exports. What is the most direct effect on its aggregate expenditure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Imports increase, reducing aggregate expenditure"
+      },
+      {
+        "label": "B",
+        "text": "Investment decreases, reducing aggregate expenditure"
+      },
+      {
+        "label": "C",
+        "text": "Exports increase, raising aggregate expenditure"
+      },
+      {
+        "label": "D",
+        "text": "Saving increases, reducing aggregate expenditure"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Higher export demand raises X and therefore X-M, increasing aggregate expenditure.",
+    "reference": "9.1 The circular flow of income | 9.1.2 components of AD and their determinants: net exports | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "Why does the multiplier process eventually come to an end after an injection?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Households spend every addition to disposable income immediately"
+      },
+      {
+        "label": "B",
+        "text": "Prices fall until spending becomes zero"
+      },
+      {
+        "label": "C",
+        "text": "Leakages progressively reduce induced spending"
+      },
+      {
+        "label": "D",
+        "text": "Investment rises until it equals consumption"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Saving, taxation and imports leak income from the spending stream, making each induced round smaller until the cumulative change converges.",
+    "reference": "9.1 The circular flow of income | 9.1.1 the multiplier process | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "Which change would make the multiplier larger, other things equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A higher mrt"
+      },
+      {
+        "label": "B",
+        "text": "A lower mps"
+      },
+      {
+        "label": "C",
+        "text": "A higher mpm"
+      },
+      {
+        "label": "D",
+        "text": "A higher mps"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A lower marginal leakage means a larger fraction of each extra income is respent domestically, so the multiplier is larger.",
+    "reference": "9.1 The circular flow of income | 9.1.1 the multiplier process | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "In a two-sector economy, APC is 0.9 at a particular income. What is APS at that same income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.9"
+      },
+      {
+        "label": "B",
+        "text": "1.0"
+      },
+      {
+        "label": "C",
+        "text": "0.1"
+      },
+      {
+        "label": "D",
+        "text": "1.9"
+      }
+    ],
+    "answer": "C",
+    "explanation": "At any income in a two-sector setting, APC + APS = 1, so APS = 0.1.",
+    "reference": "9.1 The circular flow of income | 9.1.1 calculation of average propensities to consume and save | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "The consumption function is C = 150 + 0.7Y. What is the mps?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.15"
+      },
+      {
+        "label": "B",
+        "text": "0.7"
+      },
+      {
+        "label": "C",
+        "text": "0.3"
+      },
+      {
+        "label": "D",
+        "text": "0.85"
+      }
+    ],
+    "answer": "C",
+    "explanation": "MPC is 0.7, so MPS = 1 - 0.7 = 0.3 in a two-sector setting.",
+    "reference": "9.1 The circular flow of income | 9.1.1 marginal propensities | 9.1.2 consumption function | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "Net exports change from +$40m to -$10m, with all other AD components unchanged. What happens to aggregate demand?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls by $50m"
+      },
+      {
+        "label": "B",
+        "text": "It rises by $50m"
+      },
+      {
+        "label": "C",
+        "text": "It falls by $30m"
+      },
+      {
+        "label": "D",
+        "text": "It remains unchanged"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The foreign-sector contribution changes by -50m, so planned aggregate demand falls by $50m before multiplier effects.",
+    "reference": "9.1 The circular flow of income | 9.1.2 components of AD: net exports | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "Why is government spending usually treated as autonomous in the simple aggregate expenditure model?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It equals tax revenue at each income"
+      },
+      {
+        "label": "B",
+        "text": "It depends mechanically on household consumption"
+      },
+      {
+        "label": "C",
+        "text": "It is set by government policy"
+      },
+      {
+        "label": "D",
+        "text": "It depends mechanically on import spending"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The simple model treats G as policy-determined and independent of current income, although in reality some government spending changes automatically.",
+    "reference": "9.1 The circular flow of income | 9.1.2 components of AD: government spending | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "An increase in autonomous investment first raises income. Why can this generate further consumption?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Households spend some additional income"
+      },
+      {
+        "label": "B",
+        "text": "The government collects every addition to income as tax"
+      },
+      {
+        "label": "C",
+        "text": "Households save all of the additional income"
+      },
+      {
+        "label": "D",
+        "text": "Exporters receive all of the additional income"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The first injection becomes income to others, who spend part of that extra income. This induced consumption creates further income rounds.",
+    "reference": "9.1 The circular flow of income | 9.1.1 multiplier process | 9.1.2 induced consumption | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "Country X has a higher mpm than country Y but the same mps and mrt. Which statement is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "X has a smaller multiplier"
+      },
+      {
+        "label": "B",
+        "text": "X has a larger multiplier despite its greater import leakage"
+      },
+      {
+        "label": "C",
+        "text": "Both have the same multiplier"
+      },
+      {
+        "label": "D",
+        "text": "Country X must have a larger APC"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A higher mpm raises total marginal withdrawals and therefore reduces the open-economy multiplier.",
+    "reference": "9.1 The circular flow of income | 9.1.1 multiplier in an open economy | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "An open economy becomes more integrated with foreign trade and its mpm rises. What happens to the autonomous injection needed to close a given deflationary national-income gap?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls"
+      },
+      {
+        "label": "B",
+        "text": "It is unchanged"
+      },
+      {
+        "label": "C",
+        "text": "It becomes zero"
+      },
+      {
+        "label": "D",
+        "text": "It rises"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A higher mpm reduces the multiplier. With a smaller multiplier, a larger autonomous injection is needed to generate the same final income increase.",
+    "reference": "9.1 The circular flow of income | 9.1.1 open-economy multiplier | 9.1.3 deflationary gap | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "Which statement about average and marginal rates of tax is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both use total tax divided by income"
+      },
+      {
+        "label": "B",
+        "text": "ART uses totals; MRT uses changes"
+      },
+      {
+        "label": "C",
+        "text": "ART uses changes; MRT uses totals"
+      },
+      {
+        "label": "D",
+        "text": "Both use changes in tax and income"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Average measures are ratios of levels; marginal measures are ratios of changes.",
+    "reference": "9.1 The circular flow of income | 9.1.1 calculation of average and marginal rates of tax | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "A country has mps 0.2 and mpm 0.1. Which additional change would definitely reduce its four-sector multiplier?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A reduction in the marginal tax rate"
+      },
+      {
+        "label": "B",
+        "text": "A decrease in mpm"
+      },
+      {
+        "label": "C",
+        "text": "A decrease in mps"
+      },
+      {
+        "label": "D",
+        "text": "An increase in mrt"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The denominator is mps + mrt + mpm. Increasing any marginal leakage reduces the multiplier.",
+    "reference": "9.1 The circular flow of income | 9.1.1 multiplier in an open economy with government | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "At national income of $600m, imports are $120m. When income rises to $700m, imports rise to $135m. What are the average propensity to import at $600m and the marginal propensity to import over this change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "APM = 0.15 and MPM = 0.20"
+      },
+      {
+        "label": "B",
+        "text": "APM = 0.20 and MPM = 0.15"
+      },
+      {
+        "label": "C",
+        "text": "APM = 0.20 and MPM = 0.20"
+      },
+      {
+        "label": "D",
+        "text": "APM = 0.15 and MPM = 0.15"
+      }
+    ],
+    "answer": "B",
+    "explanation": "APM = M/Y = 120/600 = 0.20. MPM = change in imports/change in income = 15/100 = 0.15. The average and marginal propensity need not be equal.",
+    "reference": "9.1 The circular flow of income | 9.1.1 calculation of average and marginal propensities to import | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "An economy has a savings function S = -80 + 0.25Y. What does the term -80 represent?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An mps of -0.80"
+      },
+      {
+        "label": "B",
+        "text": "Induced saving that rises by 80 per unit of income"
+      },
+      {
+        "label": "C",
+        "text": "Autonomous consumption of 0.25"
+      },
+      {
+        "label": "D",
+        "text": "Autonomous dissaving of 80"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The intercept is saving when income is zero. A negative intercept therefore represents autonomous dissaving of 80. The coefficient 0.25 is the marginal propensity to save.",
+    "reference": "9.1 The circular flow of income | 9.1.2 savings function: autonomous and induced savings | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "In an open economy with government, mps rises by 0.05 while mrt falls by 0.05 and mpm is unchanged. What happens to the multiplier?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It is unchanged"
+      },
+      {
+        "label": "B",
+        "text": "It rises because the marginal tax rate falls"
+      },
+      {
+        "label": "C",
+        "text": "It falls"
+      },
+      {
+        "label": "D",
+        "text": "It becomes zero"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The multiplier is 1/(mps + mrt + mpm). The rise in mps and equal fall in mrt exactly offset in the denominator, so the multiplier is unchanged.",
+    "reference": "9.1 The circular flow of income | 9.1.1 formulae for multiplier in an open economy with government | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 71,
+    "difficulty": "Hard",
+    "prompt": "In an open economy with government, mps = 0.15, mrt = 0.10 and mpm = 0.15. Government spending rises by $24m. What is the eventual rise in national income, assuming no crowding out or price-level effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$24 million"
+      },
+      {
+        "label": "B",
+        "text": "$60 million"
+      },
+      {
+        "label": "C",
+        "text": "$96 million"
+      },
+      {
+        "label": "D",
+        "text": "$150 million"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The multiplier is 1/(0.15+0.10+0.15) = 2.5. The final rise in income is 2.5 x 24 = $60m.",
+    "reference": "9.1 The circular flow of income | 9.1.1 multiplier calculation in an open economy with government | effect of changing AD on national income | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 72,
+    "difficulty": "Hard",
+    "prompt": "An open economy has a multiplier of 2. The mps is 0.2 and the mrt is 0.1. What is the mpm?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.2"
+      },
+      {
+        "label": "B",
+        "text": "0.1"
+      },
+      {
+        "label": "C",
+        "text": "0.3"
+      },
+      {
+        "label": "D",
+        "text": "0.5"
+      }
+    ],
+    "answer": "A",
+    "explanation": "If k = 2, total marginal withdrawals equal 1/2 = 0.5. Therefore mpm = 0.5 - 0.2 - 0.1 = 0.2.",
+    "reference": "9.1 The circular flow of income | 9.1.1 multiplier calculation in an open economy with government | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 73,
+    "difficulty": "Hard",
+    "prompt": "The mpm rises from 0.1 to 0.2 while mps = 0.2 and mrt = 0.1. How does the autonomous injection required to raise income by $100m change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls from $50m to $40m"
+      },
+      {
+        "label": "B",
+        "text": "It rises from $25m to $33.3m"
+      },
+      {
+        "label": "C",
+        "text": "It is unchanged at $40m"
+      },
+      {
+        "label": "D",
+        "text": "It rises from $40m to $50m"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Initially k = 1/0.4 = 2.5, so 100/2.5 = 40. After the rise in mpm, k = 1/0.5 = 2, so 100/2 = 50.",
+    "reference": "9.1 The circular flow of income | 9.1.1 open-economy multiplier and marginal propensities | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "C = 120 + 0.75Y, I = 80 and there is no government or foreign trade. What is equilibrium national income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$200 million"
+      },
+      {
+        "label": "B",
+        "text": "$600 million"
+      },
+      {
+        "label": "C",
+        "text": "$1000 million"
+      },
+      {
+        "label": "D",
+        "text": "$800 million"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Equilibrium requires Y = C + I = 120 + 0.75Y + 80. Hence 0.25Y = 200 and Y = 800.",
+    "reference": "9.1 The circular flow of income | 9.1.1 national income determination using AD and income approach | 9.1.2 consumption function | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "C = 100 + 0.8Y, I = 80, G = 120 and net exports = -$20m. What is equilibrium national income if these autonomous components are fixed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$280 million"
+      },
+      {
+        "label": "B",
+        "text": "$900 million"
+      },
+      {
+        "label": "C",
+        "text": "$1800 million"
+      },
+      {
+        "label": "D",
+        "text": "$1400 million"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Y = 100 + 0.8Y + 80 + 120 - 20 = 280 + 0.8Y. Therefore 0.2Y = 280 and Y = 1400.",
+    "reference": "9.1 The circular flow of income | 9.1.1 national income determination | 9.1.2 components of AD | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "In a simplified open economy, C = 80 + 0.7Y, I = 100, G = 120, X = 90 and M = 0.1Y. What is equilibrium national income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$390 million"
+      },
+      {
+        "label": "B",
+        "text": "$1300 million"
+      },
+      {
+        "label": "C",
+        "text": "$975 million"
+      },
+      {
+        "label": "D",
+        "text": "$1950 million"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Y = 80 + 0.7Y + 100 + 120 + 90 - 0.1Y = 390 + 0.6Y. Thus 0.4Y = 390 and Y = 975.",
+    "reference": "9.1 The circular flow of income | 9.1.1 national income determination | 9.1.2 consumption and net exports | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "An economy is $120m below full-employment national income. Its multiplier is 4. If autonomous investment rises by $20m, what remains of the deflationary national-income gap?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$40 million"
+      },
+      {
+        "label": "B",
+        "text": "$20 million"
+      },
+      {
+        "label": "C",
+        "text": "$80 million"
+      },
+      {
+        "label": "D",
+        "text": "$100 million"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The investment rise increases income by 4 x 20 = $80m. The original $120m gap is therefore reduced to $40m.",
+    "reference": "9.1 The circular flow of income | 9.1.1 multiplier process | 9.1.3 deflationary gap | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "An economy is $90m above full-employment national income and has a multiplier of 3. By how much must autonomous spending be reduced to remove the inflationary national-income gap?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$30 million"
+      },
+      {
+        "label": "B",
+        "text": "$90 million"
+      },
+      {
+        "label": "C",
+        "text": "$120 million"
+      },
+      {
+        "label": "D",
+        "text": "$270 million"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Required autonomous contraction = 90 / 3 = $30m.",
+    "reference": "9.1 The circular flow of income | 9.1.1 multiplier process | 9.1.3 inflationary gap | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "At full-employment income the AE schedule exceeds the 45-degree line by $15m. If the multiplier is 4, by how much would equilibrium national income exceed full-employment income if no adjustment occurred?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$15 million"
+      },
+      {
+        "label": "B",
+        "text": "$45 million"
+      },
+      {
+        "label": "C",
+        "text": "$75 million"
+      },
+      {
+        "label": "D",
+        "text": "$60 million"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The $15m inflationary expenditure gap is magnified by the multiplier: 15 x 4 = $60m.",
+    "reference": "9.1 The circular flow of income | 9.1.1 multiplier process | 9.1.3 inflationary gap | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: planned aggregate expenditure. Horizontal axis: national income. Show YF at full employment, the 45-degree line, and an AE curve above the 45-degree line by $15m at YF.",
+    "graphScenes": [
+      {
+        "xLabel": "National income",
+        "yLabel": "Planned expenditure",
+        "xMax": 220,
+        "yMax": 220,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "45°",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 206.79999999999998,
+                "y": 206.79999999999998
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "AE",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 40.0
+              },
+              {
+                "x": 206.79999999999998,
+                "y": 195.1
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 100,
+                "y": 100
+              },
+              {
+                "x": 100,
+                "y": 115.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E",
+            "x": 160.0,
+            "y": 160.0
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 100,
+            "y": 100
+          },
+          {
+            "id": "p2",
+            "label": "",
+            "x": 100,
+            "y": 115.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 160.0,
+            "y": 160.0,
+            "xLabel": "YE"
+          },
+          {
+            "id": "g1",
+            "x": 100,
+            "y": 100,
+            "xLabel": "YF"
+          },
+          {
+            "id": "g2",
+            "x": 100,
+            "y": 115.0,
+            "yLabel": "AE at YF"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "National income and expenditure in $ millions; expenditure gap = 15."
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "Which combination produces the largest multiplier?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mps 0.20, mrt 0.10, mpm 0.10"
+      },
+      {
+        "label": "B",
+        "text": "Mps 0.10, mrt 0.05, mpm 0.05"
+      },
+      {
+        "label": "C",
+        "text": "Mps 0.15, mrt 0.10, mpm 0.10"
+      },
+      {
+        "label": "D",
+        "text": "Mps 0.10, mrt 0.10, mpm 0.10"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The multiplier is largest when total marginal withdrawals are smallest. The first combination sums to 0.20, giving k = 5.",
+    "reference": "9.1 The circular flow of income | 9.1.1 multiplier in an open economy with government | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "An economy has C = 200 + 0.75Y. What are APC and MPC when Y = $1000m?",
+    "options": [
+      {
+        "label": "A",
+        "text": "APC = 0.75 and MPC = 0.95"
+      },
+      {
+        "label": "B",
+        "text": "APC = 0.80 and MPC = 0.20"
+      },
+      {
+        "label": "C",
+        "text": "APC = 0.95 and MPC = 0.75"
+      },
+      {
+        "label": "D",
+        "text": "APC = 0.95 and MPC = 0.95"
+      }
+    ],
+    "answer": "C",
+    "explanation": "At Y = 1000, C = 200 + 750 = 950, so APC = 950/1000 = 0.95. MPC is the slope, 0.75.",
+    "reference": "9.1 The circular flow of income | 9.1.1 apc and mpc | 9.1.2 consumption function | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "If C = 150 + 0.7Y, which statement about the saving function is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Intercept +150; mps 0.7"
+      },
+      {
+        "label": "B",
+        "text": "Intercept +150; mps 0.3"
+      },
+      {
+        "label": "C",
+        "text": "Intercept −150; mps 0.3"
+      },
+      {
+        "label": "D",
+        "text": "Intercept −150; mps 0.7"
+      }
+    ],
+    "answer": "C",
+    "explanation": "S = Y - C = -150 + 0.3Y. The intercept is negative and MPS is 0.3.",
+    "reference": "9.1 The circular flow of income | 9.1.2 savings function: autonomous and induced savings | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "For C = 150 + 0.7Y, at what income does saving change from negative to positive?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$150 million"
+      },
+      {
+        "label": "B",
+        "text": "$500 million"
+      },
+      {
+        "label": "C",
+        "text": "$350 million"
+      },
+      {
+        "label": "D",
+        "text": "$700 million"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Set S = -150 + 0.3Y = 0. This gives Y = 500.",
+    "reference": "9.1 The circular flow of income | 9.1.2 consumption and savings functions | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "Investment rises when output growth accelerates but falls when output continues to rise at a slower rate. Which concept explains this pattern?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The relationship between household consumption and disposable income"
+      },
+      {
+        "label": "B",
+        "text": "The accelerator principle"
+      },
+      {
+        "label": "C",
+        "text": "The balanced-budget rule"
+      },
+      {
+        "label": "D",
+        "text": "The money multiplier"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Induced investment depends on changes in output or demand. A slowing rate of output growth can reduce desired additions to capital even while output itself still rises.",
+    "reference": "9.1 The circular flow of income | 9.1.2 autonomous and induced investment; the accelerator | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "A rise in autonomous investment starts a multiplier process. The resulting increase in output then induces additional investment. Which two mechanisms are interacting?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The accelerator and the Laffer curve"
+      },
+      {
+        "label": "B",
+        "text": "The multiplier and the quantity theory of money"
+      },
+      {
+        "label": "C",
+        "text": "The consumption function and the Phillips curve"
+      },
+      {
+        "label": "D",
+        "text": "The multiplier and the accelerator"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Autonomous investment can initiate multiplier rounds, while the resulting change in output can induce additional investment through the accelerator.",
+    "reference": "9.1 The circular flow of income | 9.1.1 multiplier process | 9.1.2 accelerator | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "In an open economy, I + G + X = $520m and S + T + M = $470m. What is the immediate pressure on national income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Income falls: injections exceed withdrawals"
+      },
+      {
+        "label": "B",
+        "text": "Income rises: injections exceed withdrawals"
+      },
+      {
+        "label": "C",
+        "text": "Income is unchanged: the economy is in equilibrium"
+      },
+      {
+        "label": "D",
+        "text": "Prices fall: withdrawals exceed injections"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Excess injections mean planned expenditure exceeds the income withdrawn from the circular flow, encouraging firms to expand output and income.",
+    "reference": "9.1 The circular flow of income | 9.1.1 national income determination: injections and withdrawals | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "In an open economy, planned withdrawals exceed planned injections by $40m. Which adjustment is most consistent with the income approach?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Income rises until injections equal withdrawals"
+      },
+      {
+        "label": "B",
+        "text": "Imports fall immediately by the withdrawal gap"
+      },
+      {
+        "label": "C",
+        "text": "Income falls until injections equal withdrawals"
+      },
+      {
+        "label": "D",
+        "text": "Government spending rises automatically by the gap"
+      }
+    ],
+    "answer": "C",
+    "explanation": "When withdrawals exceed injections, planned expenditure is insufficient to sustain the current income level. Output and income tend to contract toward equilibrium.",
+    "reference": "9.1 The circular flow of income | 9.1.1 national income determination: injections and withdrawals | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "A government raises the mrt while leaving its autonomous spending unchanged. What are the likely effects on the multiplier and on the final income effect of a future rise in investment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Multiplier falls; income effect is smaller"
+      },
+      {
+        "label": "B",
+        "text": "Multiplier rises; income effect is larger"
+      },
+      {
+        "label": "C",
+        "text": "Multiplier falls; income effect is larger"
+      },
+      {
+        "label": "D",
+        "text": "Multiplier rises; income effect is smaller"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A higher MRT increases marginal withdrawals. This lowers the multiplier, so any given future autonomous investment change produces a smaller final change in income.",
+    "reference": "9.1 The circular flow of income | 9.1.1 multiplier in an economy with government | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "A country cuts its mpm by encouraging consumers to switch from imports to domestic products. If mps and mrt are unchanged, what happens to the multiplier and to the injection required to close a given deflationary gap?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Multiplier falls; required injection rises"
+      },
+      {
+        "label": "B",
+        "text": "Multiplier rises; required injection rises"
+      },
+      {
+        "label": "C",
+        "text": "Multiplier falls; required injection falls"
+      },
+      {
+        "label": "D",
+        "text": "Multiplier rises; required injection falls"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A lower MPM reduces leakages, increasing the multiplier. A larger multiplier means a smaller autonomous injection can close the same income gap.",
+    "reference": "9.1 The circular flow of income | 9.1.1 open-economy multiplier | 9.1.3 deflationary gap | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "A country's mps falls from 0.25 to 0.20 in a two-sector economy. What happens to the multiplier?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls from 5 to 4"
+      },
+      {
+        "label": "B",
+        "text": "It falls from 4 to 3"
+      },
+      {
+        "label": "C",
+        "text": "It remains unchanged at 4"
+      },
+      {
+        "label": "D",
+        "text": "It rises from 4 to 5"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The multiplier changes from 1/0.25 = 4 to 1/0.20 = 5.",
+    "reference": "9.1 The circular flow of income | 9.1.1 multiplier in a closed economy without government | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "The table shows income and consumption. What is both the mpc between the two income levels and the apc at the higher income?\n| Income ($m) | Consumption ($m) |\n| 800 | 750 |\n| 1000 | 900 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mpc = 0.75; apc = 0.90"
+      },
+      {
+        "label": "B",
+        "text": "Mpc = 0.90; apc = 0.75"
+      },
+      {
+        "label": "C",
+        "text": "Mpc = 0.25; apc = 0.10"
+      },
+      {
+        "label": "D",
+        "text": "Mpc = 0.75; apc = 0.75"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Consumption rises by 150 when income rises by 200, so MPC = 0.75. At the higher income, APC = 900/1000 = 0.90.",
+    "reference": "9.1 The circular flow of income | 9.1.1 apc and mpc calculations | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "The table shows income and tax revenue. Which statement is correct?\n| Income ($m) | Tax revenue ($m) |\n| 1000 | 180 |\n| 1200 | 240 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "ART = 30%; MRT = 20%"
+      },
+      {
+        "label": "B",
+        "text": "ART = 20%; MRT = 20%"
+      },
+      {
+        "label": "C",
+        "text": "ART = 30%; MRT = 30%"
+      },
+      {
+        "label": "D",
+        "text": "ART = 20%; MRT = 30%"
+      }
+    ],
+    "answer": "D",
+    "explanation": "At income 1200, ART = 240/1200 = 20%. MRT = (240-180)/(1200-1000) = 60/200 = 30%.",
+    "reference": "9.1 The circular flow of income | 9.1.1 average and marginal rates of tax | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "An open economy has mps = 0.1, mrt = 0.2 and mpm = 0.1. A $50m increase in exports occurs, but at the same time autonomous imports rise by $20m. What is the final change in national income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An increase of $30m"
+      },
+      {
+        "label": "B",
+        "text": "An increase of $120m"
+      },
+      {
+        "label": "C",
+        "text": "A decrease of $75m"
+      },
+      {
+        "label": "D",
+        "text": "An increase of $75m"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The net autonomous AD increase is 50 - 20 = $30m. The multiplier is 1/0.4 = 2.5. Final income rises by 30 x 2.5 = $75m.",
+    "reference": "9.1 The circular flow of income | 9.1.1 open-economy multiplier | 9.1.2 net exports | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "Equilibrium income is $900m and full-employment income is $1000m. The multiplier is 2.5. Autonomous spending is then increased by $50m. Which outcome follows in the simple model?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Income rises to $950m"
+      },
+      {
+        "label": "B",
+        "text": "Income rises to $1025m"
+      },
+      {
+        "label": "C",
+        "text": "Income rises to $1000m"
+      },
+      {
+        "label": "D",
+        "text": "Income falls to $775m"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The initial gap is 100. The spending rise increases income by 2.5 x 50 = 125, taking equilibrium income to 1025, which is $25m above full employment.",
+    "reference": "9.1 The circular flow of income | 9.1.1 multiplier | 9.1.3 full employment and equilibrium income | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "An economy has an inflationary expenditure gap of $20m at full employment. If the multiplier is 5, by how much would autonomous spending need to fall to remove the excess national-income pressure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$20 million"
+      },
+      {
+        "label": "B",
+        "text": "$4 million"
+      },
+      {
+        "label": "C",
+        "text": "$100 million"
+      },
+      {
+        "label": "D",
+        "text": "$120 million"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The expenditure gap itself is the autonomous spending change required at full employment. The multiplier explains the larger associated national-income gap of $100m; reducing autonomous spending by $20m removes the original expenditure excess.",
+    "reference": "9.1 The circular flow of income | 9.1.3 inflationary gap | 9.1.1 multiplier process | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "Which statement best explains why a numerical multiplier estimated from past data may not remain constant?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Marginal withdrawal rates change over time"
+      },
+      {
+        "label": "B",
+        "text": "Autonomous spending always remains constant"
+      },
+      {
+        "label": "C",
+        "text": "Marginal withdrawal rates cannot be measured"
+      },
+      {
+        "label": "D",
+        "text": "Equilibrium income cannot diverge from the full-employment level of output"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The multiplier depends on marginal withdrawals. If saving behaviour, tax rates or import propensities change, so does the multiplier.",
+    "reference": "9.1 The circular flow of income | 9.1.1 the multiplier process | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "A rise in government spending occurs when the economy is already at full employment. Why may the real-income multiplier effect be smaller than the simple model predicts?",
+    "options": [
+      {
+        "label": "A",
+        "text": "At full employment, households stop saving any additional income"
+      },
+      {
+        "label": "B",
+        "text": "Capacity limits divert demand into inflation"
+      },
+      {
+        "label": "C",
+        "text": "Import spending ceases at full employment"
+      },
+      {
+        "label": "D",
+        "text": "The 45-degree line shifts with additional demand"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The simple multiplier assumes output can respond to demand. Near full capacity, the response can appear mainly as inflation rather than a proportional rise in real national income.",
+    "reference": "9.1 The circular flow of income | 9.1.1 multiplier process | 9.1.3 full employment level of national income | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "Which combination of changes would unambiguously reduce the open-economy multiplier?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A lower saving propensity, higher marginal tax rate and lower import propensity"
+      },
+      {
+        "label": "B",
+        "text": "Higher mps, lower mrt and lower mpm"
+      },
+      {
+        "label": "C",
+        "text": "Increases in mps, mrt and mpm"
+      },
+      {
+        "label": "D",
+        "text": "Lower mps, lower mrt and lower mpm"
+      }
+    ],
+    "answer": "C",
+    "explanation": "All three marginal propensities in the denominator increase, so total marginal withdrawals rise and the multiplier falls.",
+    "reference": "9.1 The circular flow of income | 9.1.1 open-economy multiplier | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "An economy has C = 50 + 0.8Y. Autonomous investment is initially $50m. Investment then rises by $10m. What is the change in equilibrium income in the two-sector model?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$10 million"
+      },
+      {
+        "label": "B",
+        "text": "$40 million"
+      },
+      {
+        "label": "C",
+        "text": "$60 million"
+      },
+      {
+        "label": "D",
+        "text": "$50 million"
+      }
+    ],
+    "answer": "D",
+    "explanation": "MPC = 0.8 so MPS = 0.2 and k = 5. A $10m autonomous investment rise increases equilibrium income by $50m.",
+    "reference": "9.1 The circular flow of income | 9.1.1 multiplier | 9.1.2 consumption function and investment | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "A country has C = 100 + 0.6Y and I = $200m in a two-sector model. Which pair is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Equilibrium income = $500m; multiplier = 4"
+      },
+      {
+        "label": "B",
+        "text": "Equilibrium income = $750m; multiplier = 1.67"
+      },
+      {
+        "label": "C",
+        "text": "Equilibrium income = $750m; multiplier = 2.5"
+      },
+      {
+        "label": "D",
+        "text": "Equilibrium income = $300m; multiplier = 2.5"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Equilibrium: Y = 100 + 0.6Y + 200, so 0.4Y = 300 and Y = 750. MPS = 0.4, so k = 2.5.",
+    "reference": "9.1 The circular flow of income | 9.1.1 national income determination and multiplier | 9.1.2 consumption function | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  }
+]

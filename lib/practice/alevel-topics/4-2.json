@@ -1,0 +1,3564 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "What is shown by the circular flow of income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Calculation of the average price level"
+      },
+      {
+        "label": "B",
+        "text": "Growth of productive capacity as firms acquire new resources"
+      },
+      {
+        "label": "C",
+        "text": "Income and spending flows between sectors"
+      },
+      {
+        "label": "D",
+        "text": "Government management of the exchange rate"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The circular flow is a model of how income and expenditure move around the economy between sectors.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.1 circular flow of income in a closed economy and an open economy: the flow of income between households, firms and government and the international economy | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "What is a closed economy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An economy without public-sector activity"
+      },
+      {
+        "label": "B",
+        "text": "An economy without production by privately owned firms"
+      },
+      {
+        "label": "C",
+        "text": "An economy without international trade"
+      },
+      {
+        "label": "D",
+        "text": "An economy without households depositing income in savings accounts"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A closed economy has no international trade, so exports and imports are absent from the circular-flow model.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.1 circular flow of income in a closed economy and an open economy: the flow of income between households, firms and government and the international economy | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "What is an open economy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An economy participating in international trade"
+      },
+      {
+        "label": "B",
+        "text": "An economy without taxes"
+      },
+      {
+        "label": "C",
+        "text": "An economy in which all production is organised by private firms"
+      },
+      {
+        "label": "D",
+        "text": "An economy with investment always matching household saving"
+      }
+    ],
+    "answer": "A",
+    "explanation": "An open economy is connected to the international economy through exports and imports.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.1 circular flow of income in a closed economy and an open economy: the flow of income between households, firms and government and the international economy | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "In a simple two-sector circular-flow diagram, which real flow moves from households to firms?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumer spending"
+      },
+      {
+        "label": "B",
+        "text": "Factor payments"
+      },
+      {
+        "label": "C",
+        "text": "Factor services"
+      },
+      {
+        "label": "D",
+        "text": "Goods and services"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Households supply factor services such as labour, land, capital and enterprise to firms. This is a real flow.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.1 circular flow of income in a closed economy and an open economy: the flow of income between households, firms and government and the international economy | AO1 Knowledge and understanding",
+    "graphRequired": true,
+    "graphDescription": "Two-sector circular-flow diagram with households on the left and firms on the right; identify the real arrow from households to firms.",
+    "graphScenes": [
+      {
+        "xLabel": "",
+        "yLabel": "",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [],
+        "points": [],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Circular flow: households, firms and relevant sectors.",
+        "diagram": {
+          "nodes": [
+            {
+              "id": "h",
+              "label": "Households",
+              "x": 130,
+              "y": 220
+            },
+            {
+              "id": "f",
+              "label": "Firms",
+              "x": 510,
+              "y": 220
+            }
+          ],
+          "edges": [
+            {
+              "id": "e0",
+              "to": "f",
+              "label": "A",
+              "kind": "real",
+              "lane": -75,
+              "from": "h"
+            },
+            {
+              "id": "e1",
+              "to": "h",
+              "label": "B",
+              "kind": "real",
+              "lane": -30,
+              "from": "f"
+            },
+            {
+              "id": "e2",
+              "to": "h",
+              "label": "C",
+              "kind": "money",
+              "lane": 30,
+              "from": "f"
+            },
+            {
+              "id": "e3",
+              "to": "f",
+              "label": "D",
+              "kind": "money",
+              "lane": 75,
+              "from": "h"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "In a simple two-sector circular-flow diagram, which real flow moves from firms to households?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Income deposited with banks"
+      },
+      {
+        "label": "B",
+        "text": "Final goods and services"
+      },
+      {
+        "label": "C",
+        "text": "Productive resources"
+      },
+      {
+        "label": "D",
+        "text": "Payments for supplying factors of production"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Firms produce goods and services that flow to households. Consumer spending moves in the opposite direction as a money flow.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.1 circular flow of income in a closed economy and an open economy: the flow of income between households, firms and government and the international economy | AO1 Knowledge and understanding",
+    "graphRequired": true,
+    "graphDescription": "Two-sector circular-flow diagram with households and firms; identify the real arrow from firms to households.",
+    "graphScenes": [
+      {
+        "xLabel": "",
+        "yLabel": "",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [],
+        "points": [],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Circular flow: households, firms and relevant sectors.",
+        "diagram": {
+          "nodes": [
+            {
+              "id": "h",
+              "label": "Households",
+              "x": 130,
+              "y": 220
+            },
+            {
+              "id": "f",
+              "label": "Firms",
+              "x": 510,
+              "y": 220
+            }
+          ],
+          "edges": [
+            {
+              "id": "e0",
+              "to": "f",
+              "label": "A",
+              "kind": "real",
+              "lane": -75,
+              "from": "h"
+            },
+            {
+              "id": "e1",
+              "to": "h",
+              "label": "B",
+              "kind": "real",
+              "lane": -30,
+              "from": "f"
+            },
+            {
+              "id": "e2",
+              "to": "h",
+              "label": "C",
+              "kind": "money",
+              "lane": 30,
+              "from": "f"
+            },
+            {
+              "id": "e3",
+              "to": "f",
+              "label": "D",
+              "kind": "money",
+              "lane": 75,
+              "from": "h"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "In a simple two-sector circular-flow diagram, which money flow moves from firms to households?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Household spending on output produced by firms"
+      },
+      {
+        "label": "B",
+        "text": "Payments to households for factor services"
+      },
+      {
+        "label": "C",
+        "text": "Productive services supplied to firms"
+      },
+      {
+        "label": "D",
+        "text": "Unspent household income deposited with domestic financial institutions"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Firms pay households incomes for the factor services they supply. These payments include wages, rent, interest and profit.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.1 circular flow of income in a closed economy and an open economy: the flow of income between households, firms and government and the international economy | AO1 Knowledge and understanding",
+    "graphRequired": true,
+    "graphDescription": "Two-sector circular-flow diagram; identify the outer money-flow arrow from firms to households.",
+    "graphScenes": [
+      {
+        "xLabel": "",
+        "yLabel": "",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [],
+        "points": [],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Circular flow: households, firms and relevant sectors.",
+        "diagram": {
+          "nodes": [
+            {
+              "id": "h",
+              "label": "Households",
+              "x": 130,
+              "y": 220
+            },
+            {
+              "id": "f",
+              "label": "Firms",
+              "x": 510,
+              "y": 220
+            }
+          ],
+          "edges": [
+            {
+              "id": "e0",
+              "to": "f",
+              "label": "A",
+              "kind": "real",
+              "lane": -75,
+              "from": "h"
+            },
+            {
+              "id": "e1",
+              "to": "h",
+              "label": "B",
+              "kind": "real",
+              "lane": -30,
+              "from": "f"
+            },
+            {
+              "id": "e2",
+              "to": "h",
+              "label": "C",
+              "kind": "money",
+              "lane": 30,
+              "from": "f"
+            },
+            {
+              "id": "e3",
+              "to": "f",
+              "label": "D",
+              "kind": "money",
+              "lane": 75,
+              "from": "h"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "In a simple two-sector circular-flow diagram, which money flow moves from households to firms?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Wages paid by firms"
+      },
+      {
+        "label": "B",
+        "text": "Productive resources supplied by households to firms"
+      },
+      {
+        "label": "C",
+        "text": "Household spending on firms’ output"
+      },
+      {
+        "label": "D",
+        "text": "Receipts from overseas buyers purchasing domestically produced exports"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Households spend income on the goods and services produced by firms, so consumer expenditure is a money flow from households to firms.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.1 circular flow of income in a closed economy and an open economy: the flow of income between households, firms and government and the international economy | AO1 Knowledge and understanding",
+    "graphRequired": true,
+    "graphDescription": "Two-sector circular-flow diagram; identify the money-flow arrow from households to firms.",
+    "graphScenes": [
+      {
+        "xLabel": "",
+        "yLabel": "",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [],
+        "points": [],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Circular flow: households, firms and relevant sectors.",
+        "diagram": {
+          "nodes": [
+            {
+              "id": "h",
+              "label": "Households",
+              "x": 130,
+              "y": 220
+            },
+            {
+              "id": "f",
+              "label": "Firms",
+              "x": 510,
+              "y": 220
+            }
+          ],
+          "edges": [
+            {
+              "id": "e0",
+              "to": "f",
+              "label": "A",
+              "kind": "real",
+              "lane": -75,
+              "from": "h"
+            },
+            {
+              "id": "e1",
+              "to": "h",
+              "label": "B",
+              "kind": "real",
+              "lane": -30,
+              "from": "f"
+            },
+            {
+              "id": "e2",
+              "to": "h",
+              "label": "C",
+              "kind": "money",
+              "lane": 30,
+              "from": "f"
+            },
+            {
+              "id": "e3",
+              "to": "f",
+              "label": "D",
+              "kind": "money",
+              "lane": 75,
+              "from": "h"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "What is an injection into the circular flow of income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Income withdrawn through taxation"
+      },
+      {
+        "label": "B",
+        "text": "Spending entering the circular flow"
+      },
+      {
+        "label": "C",
+        "text": "Resources transferred from households to producing firms"
+      },
+      {
+        "label": "D",
+        "text": "Capital removed from the productive stock"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Injections add spending to the circular flow. At AS Level the main injections are investment, government spending and exports.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2 injections and leakages (multiplier not required) | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "What is a leakage from the circular flow of income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Income withdrawn from spending"
+      },
+      {
+        "label": "B",
+        "text": "Spending entering the circular flow"
+      },
+      {
+        "label": "C",
+        "text": "Factor income paid by firms"
+      },
+      {
+        "label": "D",
+        "text": "Consumer goods transferred by firms to their household buyers"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Leakages, also called withdrawals, are income not spent on domestically produced output. Saving, taxation and imports are the main examples.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2 injections and leakages (multiplier not required) | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "Which transaction adds an investment injection to the domestic circular flow?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A firm buys domestically produced machinery"
+      },
+      {
+        "label": "B",
+        "text": "A household saves income"
+      },
+      {
+        "label": "C",
+        "text": "A firm pays taxes on income earned from production"
+      },
+      {
+        "label": "D",
+        "text": "A household buys goods from an overseas supplier"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Investment is spending by firms on capital goods and is an addition to the circular flow. Saving, taxation and imports are leakages.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2 injections and leakages (multiplier not required) | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "Which transaction is a government-spending injection into the domestic circular flow?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A household pays income tax"
+      },
+      {
+        "label": "B",
+        "text": "Government buys construction services from local firms"
+      },
+      {
+        "label": "C",
+        "text": "A household saves income"
+      },
+      {
+        "label": "D",
+        "text": "A household buys equipment manufactured by an overseas supplier"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Government expenditure on goods and services is an injection because it adds spending to the circular flow.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2 injections and leakages (multiplier not required) | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "A domestic firm receives payment for goods shipped overseas. How is this spending classified in the domestic circular flow?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An import leakage."
+      },
+      {
+        "label": "B",
+        "text": "A saving leakage."
+      },
+      {
+        "label": "C",
+        "text": "A taxation leakage."
+      },
+      {
+        "label": "D",
+        "text": "An export injection."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Exports represent spending by the international economy on domestically produced goods and services, so they are an injection.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2 injections and leakages (multiplier not required) | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "Households keep some disposable income in savings rather than buying current goods and services. Which circular-flow component does this represent?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An investment injection."
+      },
+      {
+        "label": "B",
+        "text": "A government-spending injection."
+      },
+      {
+        "label": "C",
+        "text": "A saving leakage."
+      },
+      {
+        "label": "D",
+        "text": "An export injection."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Saving is income not used for current consumption spending, so it is a leakage from the circular flow.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2 injections and leakages (multiplier not required) | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "A household pays income tax from its earnings. Before considering any subsequent public spending, how is this payment classified?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An investment injection."
+      },
+      {
+        "label": "B",
+        "text": "An export injection."
+      },
+      {
+        "label": "C",
+        "text": "A government-spending injection."
+      },
+      {
+        "label": "D",
+        "text": "A taxation leakage."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Taxes withdraw income from the private-sector circular flow and are classified as a leakage.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2 injections and leakages (multiplier not required) | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "Domestic consumers buy goods produced overseas. How is this spending classified in the domestic circular flow?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An export injection."
+      },
+      {
+        "label": "B",
+        "text": "An investment injection."
+      },
+      {
+        "label": "C",
+        "text": "A government-spending injection."
+      },
+      {
+        "label": "D",
+        "text": "An import leakage."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Spending on imports is directed to foreign-produced goods and services, so it leaks from the domestic circular flow.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2 injections and leakages (multiplier not required) | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "Which item is part of the basic circular flow between households and firms but is not itself one of the three injections or three leakages?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumption expenditure."
+      },
+      {
+        "label": "B",
+        "text": "Household saving."
+      },
+      {
+        "label": "C",
+        "text": "Business investment."
+      },
+      {
+        "label": "D",
+        "text": "Import expenditure."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Consumer spending is part of the core flow between households and firms. The named injections are I, G and X; the named leakages are S, T and M.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2 injections and leakages (multiplier not required) | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "In a two-sector closed economy with no government, what condition is required for equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Exports equal imports"
+      },
+      {
+        "label": "B",
+        "text": "Government spending equals taxation"
+      },
+      {
+        "label": "C",
+        "text": "Consumption equals investment"
+      },
+      {
+        "label": "D",
+        "text": "Investment equals saving"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The only injection is investment and the only leakage is saving. Equilibrium therefore requires I = S.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 injections, leakages and equilibrium in a two-sector closed economy | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "In a closed economy with a government sector, which condition represents equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "I + X = S + M"
+      },
+      {
+        "label": "B",
+        "text": "I + G = S + T"
+      },
+      {
+        "label": "C",
+        "text": "Government spending plus exports equals taxation plus imports"
+      },
+      {
+        "label": "D",
+        "text": "Consumer spending plus taxation equals saving plus investment"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A closed economy has no exports or imports. With government included, injections are I + G and leakages are S + T, so equilibrium requires I + G = S + T.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.1; 4.2.2; 4.2.3 closed-economy circular flow, injections/leakages and equilibrium | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Closed-economy circular-flow diagram containing households, firms and government, with no international sector.",
+    "graphScenes": [
+      {
+        "xLabel": "",
+        "yLabel": "",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [],
+        "points": [],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Equilibrium: injections equal withdrawals. Investment I and saving S also enter or leave the flow.",
+        "diagram": {
+          "nodes": [
+            {
+              "id": "h",
+              "label": "Households",
+              "x": 130,
+              "y": 220
+            },
+            {
+              "id": "f",
+              "label": "Firms",
+              "x": 510,
+              "y": 220
+            },
+            {
+              "id": "g",
+              "label": "Government",
+              "x": 320,
+              "y": 75
+            }
+          ],
+          "edges": [
+            {
+              "id": "e0",
+              "to": "f",
+              "label": "Consumer spending",
+              "kind": "money",
+              "lane": 40,
+              "from": "h"
+            },
+            {
+              "id": "e1",
+              "to": "h",
+              "label": "Factor payments",
+              "kind": "money",
+              "lane": -40,
+              "from": "f"
+            },
+            {
+              "id": "e2",
+              "to": "g",
+              "label": "T",
+              "kind": "money",
+              "lane": -45,
+              "from": "h"
+            },
+            {
+              "id": "e3",
+              "to": "f",
+              "label": "G",
+              "kind": "money",
+              "lane": 45,
+              "from": "g"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "In an open economy with a government sector, which condition represents circular-flow equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "I + T + M = S + G + X"
+      },
+      {
+        "label": "B",
+        "text": "Saving plus government spending plus imports equals investment plus taxation plus exports"
+      },
+      {
+        "label": "C",
+        "text": "I + G + X = S + T + M"
+      },
+      {
+        "label": "D",
+        "text": "Consumption plus exports equals saving plus taxation plus investment"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In an open economy the injections are I, G and X and the leakages are S, T and M. Equilibrium requires the planned totals to be equal.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.1; 4.2.2; 4.2.3 open-economy circular flow, injections/leakages and equilibrium | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Open-economy circular-flow diagram with households, firms, government and the international economy.",
+    "graphScenes": [
+      {
+        "xLabel": "",
+        "yLabel": "",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [],
+        "points": [],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Equilibrium: injections equal withdrawals. Investment I and saving S also enter or leave the flow.",
+        "diagram": {
+          "nodes": [
+            {
+              "id": "h",
+              "label": "Households",
+              "x": 130,
+              "y": 220
+            },
+            {
+              "id": "f",
+              "label": "Firms",
+              "x": 510,
+              "y": 220
+            },
+            {
+              "id": "g",
+              "label": "Government",
+              "x": 320,
+              "y": 75
+            },
+            {
+              "id": "w",
+              "label": "International",
+              "x": 510,
+              "y": 355
+            }
+          ],
+          "edges": [
+            {
+              "id": "e0",
+              "to": "f",
+              "label": "Consumer spending",
+              "kind": "money",
+              "lane": 40,
+              "from": "h"
+            },
+            {
+              "id": "e1",
+              "to": "h",
+              "label": "Factor payments",
+              "kind": "money",
+              "lane": -40,
+              "from": "f"
+            },
+            {
+              "id": "e2",
+              "to": "g",
+              "label": "T",
+              "kind": "money",
+              "lane": -45,
+              "from": "h"
+            },
+            {
+              "id": "e3",
+              "to": "f",
+              "label": "G",
+              "kind": "money",
+              "lane": 45,
+              "from": "g"
+            },
+            {
+              "id": "e4",
+              "to": "w",
+              "label": "M",
+              "kind": "money",
+              "lane": -35,
+              "from": "f"
+            },
+            {
+              "id": "e5",
+              "to": "f",
+              "label": "X",
+              "kind": "money",
+              "lane": 35,
+              "from": "w"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "What is the most likely effect if planned injections exceed planned leakages?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Income tends to fall"
+      },
+      {
+        "label": "B",
+        "text": "Income necessarily remains unchanged"
+      },
+      {
+        "label": "C",
+        "text": "The removal of trade turns the economy into a closed economy"
+      },
+      {
+        "label": "D",
+        "text": "Income tends to rise"
+      }
+    ],
+    "answer": "D",
+    "explanation": "When injections exceed leakages, extra spending is added to the circular flow. Firms respond to stronger expenditure by increasing output and income tends to rise.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.3 equilibrium and disequilibrium (marginal and average propensities not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "What is the most likely effect if planned leakages exceed planned injections?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Income tends to rise"
+      },
+      {
+        "label": "B",
+        "text": "Income necessarily remains unchanged"
+      },
+      {
+        "label": "C",
+        "text": "Income tends to fall"
+      },
+      {
+        "label": "D",
+        "text": "Export receipts fall to zero in the domestic circular flow"
+      }
+    ],
+    "answer": "C",
+    "explanation": "When leakages are greater than injections, spending is being withdrawn from the circular flow faster than it is being added, so income tends to fall.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.3 equilibrium and disequilibrium (marginal and average propensities not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "What is true at circular-flow equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Planned injections and leakages balance"
+      },
+      {
+        "label": "B",
+        "text": "Household saving falls to zero while firms continue investing"
+      },
+      {
+        "label": "C",
+        "text": "Exports equal imports"
+      },
+      {
+        "label": "D",
+        "text": "Public spending matches taxation regardless of the private-sector balance"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Overall equilibrium requires equality of total planned injections and total planned leakages. Individual pairs do not each have to be equal.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.3 equilibrium and disequilibrium (marginal and average propensities not required) | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "Government spending exceeds taxation. What is the net contribution of this budget deficit to the circular flow?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A net withdrawal"
+      },
+      {
+        "label": "B",
+        "text": "No change in total spending"
+      },
+      {
+        "label": "C",
+        "text": "A net injection"
+      },
+      {
+        "label": "D",
+        "text": "A transfer of real productive resources"
+      }
+    ],
+    "answer": "C",
+    "explanation": "When G > T, government adds more spending than it withdraws through taxes, so the government sector makes a net injection.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 injections/leakages and budget balance | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "Taxation exceeds government spending. What is the net contribution of this budget surplus to the circular flow?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A net injection"
+      },
+      {
+        "label": "B",
+        "text": "No change in total spending"
+      },
+      {
+        "label": "C",
+        "text": "A net withdrawal"
+      },
+      {
+        "label": "D",
+        "text": "A transfer of real productive resources"
+      }
+    ],
+    "answer": "C",
+    "explanation": "When T > G, the government withdraws more through taxes than it injects through spending, creating a net leakage.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 injections/leakages and budget balance | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "Export revenue exceeds spending on imports. How does the international sector affect spending in the domestic circular flow?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Trade withdraws spending overall"
+      },
+      {
+        "label": "B",
+        "text": "Trade makes no net contribution to domestic spending"
+      },
+      {
+        "label": "C",
+        "text": "Trade transfers spending through government benefit payments"
+      },
+      {
+        "label": "D",
+        "text": "Trade adds spending overall"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Exports are an injection and imports are a leakage. If X > M, the external sector adds a net amount of spending to the domestic flow.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.1; 4.2.2 international sector and injections/leakages | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "If spending on imports exceeds export revenue, the international sector creates a",
+    "options": [
+      {
+        "label": "A",
+        "text": "A net withdrawal through international goods and services trade."
+      },
+      {
+        "label": "B",
+        "text": "A net addition through international goods and services trade."
+      },
+      {
+        "label": "C",
+        "text": "A net balancing of government revenue and public spending."
+      },
+      {
+        "label": "D",
+        "text": "A real transfer of productive resources from households to firms."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Imports are leakages and exports are injections. If M > X, the international sector is a net leakage.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.1; 4.2.2 international sector and injections/leakages | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "Other things equal, what does an increase in saving do initially?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increases injections"
+      },
+      {
+        "label": "B",
+        "text": "Increases leakages"
+      },
+      {
+        "label": "C",
+        "text": "Reduces imports automatically"
+      },
+      {
+        "label": "D",
+        "text": "Increases exports automatically"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Saving is a leakage. An increase in saving therefore increases withdrawals from the circular flow, other things equal.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2 injections and leakages (multiplier not required) | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "Other things equal, what does an increase in investment do initially?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increases injections"
+      },
+      {
+        "label": "B",
+        "text": "Increases leakages"
+      },
+      {
+        "label": "C",
+        "text": "Reduces government spending automatically"
+      },
+      {
+        "label": "D",
+        "text": "Raises taxation automatically"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Investment is one of the three injections, so higher investment adds spending to the circular flow.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2 injections and leakages (multiplier not required) | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "Other things equal, what does a fall in taxation do initially?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Reduces injections"
+      },
+      {
+        "label": "B",
+        "text": "Raises imports automatically"
+      },
+      {
+        "label": "C",
+        "text": "Reduces leakages"
+      },
+      {
+        "label": "D",
+        "text": "Reduces exports automatically"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Taxation is a leakage, so a fall in taxes reduces the amount withdrawn from the circular flow.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2 injections and leakages (multiplier not required) | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "Other things equal, what does a fall in exports do initially?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Reduces leakages"
+      },
+      {
+        "label": "B",
+        "text": "Reduces injections"
+      },
+      {
+        "label": "C",
+        "text": "Increases government spending"
+      },
+      {
+        "label": "D",
+        "text": "Increases saving"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Exports are an injection because they add foreign spending to domestic income. A fall in exports therefore reduces injections.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2 injections and leakages (multiplier not required) | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 31,
+    "difficulty": "Medium",
+    "prompt": "Which statement correctly classifies the six circular-flow injections and leakages?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Injections: I, G, X; leakages: S, T, M"
+      },
+      {
+        "label": "B",
+        "text": "Injections comprise investment, taxation and exports; leakages comprise saving, public spending and imports"
+      },
+      {
+        "label": "C",
+        "text": "Injections: S, G, X; leakages: I, T, M"
+      },
+      {
+        "label": "D",
+        "text": "Injections comprise investment, public spending and imports; leakages comprise saving, taxation and exports"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The standard classification is I, G and X as injections and S, T and M as leakages.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2 injections and leakages (multiplier not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 32,
+    "difficulty": "Medium",
+    "prompt": "An open economy has investment of $80 million, government spending of $120 million and exports of $70 million. What are total injections?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$190 million"
+      },
+      {
+        "label": "B",
+        "text": "$270 million"
+      },
+      {
+        "label": "C",
+        "text": "$200 million"
+      },
+      {
+        "label": "D",
+        "text": "$390 million"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Total injections are I + G + X = 80 + 120 + 70 = $270 million.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2 injections and leakages (multiplier not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 33,
+    "difficulty": "Medium",
+    "prompt": "An open economy has saving of $90 million, taxation of $110 million and imports of $60 million. What are total leakages?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$200 million"
+      },
+      {
+        "label": "B",
+        "text": "$170 million"
+      },
+      {
+        "label": "C",
+        "text": "$320 million"
+      },
+      {
+        "label": "D",
+        "text": "$260 million"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Total leakages are S + T + M = 90 + 110 + 60 = $260 million.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2 injections and leakages (multiplier not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "The table shows planned flows in an open economy. Is the economy in circular-flow equilibrium?\n| Flow | I | G | X | S | T | M |\n| $m | 100 | 120 | 80 | 130 | 90 | 80 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Equilibrium: injections and leakages both total $300 million."
+      },
+      {
+        "label": "B",
+        "text": "Disequilibrium: investment alone must equal saving in every economy."
+      },
+      {
+        "label": "C",
+        "text": "Disequilibrium: exports alone must equal imports in every economy."
+      },
+      {
+        "label": "D",
+        "text": "Equilibrium: government spending alone must equal taxation in every economy."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Injections are 100 + 120 + 80 = 300. Leakages are 130 + 90 + 80 = 300. Individual components need not be equal as long as the totals are equal.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 injections, leakages and equilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "Planned injections are $245 million and planned leakages are $220 million. What is the most likely direction of national income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It will tend to fall."
+      },
+      {
+        "label": "B",
+        "text": "It must remain unchanged."
+      },
+      {
+        "label": "C",
+        "text": "It will fall by exactly $25 million."
+      },
+      {
+        "label": "D",
+        "text": "It will tend to rise."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Injections exceed leakages by $25 million, creating upward pressure on expenditure, output and income. The syllabus does not require a multiplier calculation, so no exact final income change is inferred.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.3 equilibrium and disequilibrium (marginal and average propensities not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "Planned leakages are $310 million and planned injections are $275 million. What is the most likely direction of national income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It will tend to rise."
+      },
+      {
+        "label": "B",
+        "text": "It must remain unchanged."
+      },
+      {
+        "label": "C",
+        "text": "It will rise by exactly $35 million."
+      },
+      {
+        "label": "D",
+        "text": "It will tend to fall."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Leakages exceed injections by $35 million, so spending is being withdrawn faster than it is added and national income tends to fall.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.3 equilibrium and disequilibrium (marginal and average propensities not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "In a closed economy with government, investment is $75 million, saving is $95 million and taxation is $100 million. What level of government spending is required for equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$80 million"
+      },
+      {
+        "label": "B",
+        "text": "$100 million"
+      },
+      {
+        "label": "C",
+        "text": "$170 million"
+      },
+      {
+        "label": "D",
+        "text": "$120 million"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Equilibrium requires I + G = S + T. Therefore 75 + G = 95 + 100, so G = $120 million.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 closed-economy injections/leakages and equilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "In a closed economy with government, investment is $140 million, government spending is $90 million and saving is $80 million. What level of taxation is required for equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$70 million"
+      },
+      {
+        "label": "B",
+        "text": "$150 million"
+      },
+      {
+        "label": "C",
+        "text": "$130 million"
+      },
+      {
+        "label": "D",
+        "text": "$230 million"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Equilibrium requires I + G = S + T. Hence 140 + 90 = 80 + T, giving T = $150 million.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 closed-economy injections/leakages and equilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "In an open economy, I = $60 million, G = $100 million, S = $90 million, T = $80 million and M = $70 million. What value of exports gives equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$20 million"
+      },
+      {
+        "label": "B",
+        "text": "$80 million"
+      },
+      {
+        "label": "C",
+        "text": "$100 million"
+      },
+      {
+        "label": "D",
+        "text": "$180 million"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Equilibrium requires I + G + X = S + T + M. Thus 60 + 100 + X = 90 + 80 + 70 = 240, so X = $80 million.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 open-economy injections/leakages and equilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "In an open economy, I = $85 million, G = $95 million, X = $60 million, S = $70 million and T = $100 million. What level of imports gives equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$30 million"
+      },
+      {
+        "label": "B",
+        "text": "$110 million"
+      },
+      {
+        "label": "C",
+        "text": "$70 million"
+      },
+      {
+        "label": "D",
+        "text": "$170 million"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Total injections are 85 + 95 + 60 = 240. For equilibrium total leakages must also be 240, so M = 240 - 70 - 100 = $70 million.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 open-economy injections/leakages and equilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "In an open economy, G = $130 million, X = $75 million, S = $100 million, T = $90 million and M = $65 million. What level of investment gives equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$20 million"
+      },
+      {
+        "label": "B",
+        "text": "$50 million"
+      },
+      {
+        "label": "C",
+        "text": "$100 million"
+      },
+      {
+        "label": "D",
+        "text": "$115 million"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Leakages total 100 + 90 + 65 = 255. Government spending and exports total 205, so investment must be $50 million to make injections equal leakages.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 open-economy injections/leakages and equilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "In an open economy, I = $100 million, G = $125 million, X = $55 million, T = $105 million and M = $65 million. What level of saving gives equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$60 million"
+      },
+      {
+        "label": "B",
+        "text": "$170 million"
+      },
+      {
+        "label": "C",
+        "text": "$280 million"
+      },
+      {
+        "label": "D",
+        "text": "$110 million"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Injections total 280. Known leakages T + M are 170, so saving must be 280 - 170 = $110 million.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 open-economy injections/leakages and equilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "Households save $120 million while firms invest $90 million. The government budget is balanced and exports equal imports. What is the circular-flow position?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Excess leakages of $30 million exert downward income pressure."
+      },
+      {
+        "label": "B",
+        "text": "Excess injections of $30 million exert upward income pressure."
+      },
+      {
+        "label": "C",
+        "text": "Equal total flows imply no pressure on national income."
+      },
+      {
+        "label": "D",
+        "text": "Equal private-sector flows imply no pressure on national income."
+      }
+    ],
+    "answer": "A",
+    "explanation": "With G = T and X = M, those sectors have zero net effect. Saving exceeds investment by $30 million, so total leakages exceed injections by $30 million.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 sector-balance synthesis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "Firms invest $150 million while households save $110 million. The government runs a $25 million budget surplus and exports equal imports. What is the circular-flow position?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Leakages exceed injections by $15 million."
+      },
+      {
+        "label": "B",
+        "text": "The economy is exactly in equilibrium."
+      },
+      {
+        "label": "C",
+        "text": "Injections exceed leakages by $15 million."
+      },
+      {
+        "label": "D",
+        "text": "Leakages exceed injections by $65 million."
+      }
+    ],
+    "answer": "C",
+    "explanation": "I - S = +40. A $25 million budget surplus means T - G = 25, reducing the net injection by 25. The remaining excess of injections is $15 million.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 sector-balance synthesis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "Saving exceeds investment by $20 million. The government budget is balanced. Which international position would restore circular-flow equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Imports exceed exports by $20 million"
+      },
+      {
+        "label": "B",
+        "text": "Exports equal imports"
+      },
+      {
+        "label": "C",
+        "text": "Imports exceed exports by $40 million"
+      },
+      {
+        "label": "D",
+        "text": "Exports exceed imports by $20 million"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The private-sector gap is a $20 million net leakage. With a balanced budget, the international sector must provide a $20 million net injection, so X - M = +20.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 sector-balance synthesis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "The government runs a $30 million budget deficit and imports exceed exports by $10 million. What relationship between saving and investment is required for equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Investment must exceed saving by $20 million"
+      },
+      {
+        "label": "B",
+        "text": "Saving must exceed investment by $40 million"
+      },
+      {
+        "label": "C",
+        "text": "Investment must equal saving"
+      },
+      {
+        "label": "D",
+        "text": "Saving must exceed investment by $20 million"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The budget deficit is a +$30 million net injection and the trade deficit is a -$10 million net leakage, leaving +$20 million. Equilibrium requires S - I = $20 million.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 sector-balance synthesis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "Government spending rises by $18 million and taxation rises by $7 million. What is the direct change in the injections-minus-leakages gap?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises by $11 million"
+      },
+      {
+        "label": "B",
+        "text": "It falls by $11 million"
+      },
+      {
+        "label": "C",
+        "text": "It rises by $25 million"
+      },
+      {
+        "label": "D",
+        "text": "It is unchanged"
+      }
+    ],
+    "answer": "A",
+    "explanation": "G is an injection and T is a leakage. The net change in J - W is +18 - 7 = +$11 million.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2 injections and leakages (multiplier not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "Exports rise by $12 million while imports rise by $20 million. What is the direct change in the injections-minus-leakages gap?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls by $8 million"
+      },
+      {
+        "label": "B",
+        "text": "It rises by $8 million"
+      },
+      {
+        "label": "C",
+        "text": "It rises by $32 million"
+      },
+      {
+        "label": "D",
+        "text": "It is unchanged"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Exports add to injections while imports add to leakages. The net change is +12 - 20 = -$8 million.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2 injections and leakages (multiplier not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "Investment rises by $15 million while saving rises by $6 million. What is the direct change in the injections-minus-leakages gap?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises by $9 million"
+      },
+      {
+        "label": "B",
+        "text": "It falls by $9 million"
+      },
+      {
+        "label": "C",
+        "text": "It rises by $21 million"
+      },
+      {
+        "label": "D",
+        "text": "It is unchanged"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Investment is an injection and saving is a leakage, so the net change is +15 - 6 = +$9 million.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2 injections and leakages (multiplier not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "Taxation falls by $10 million while imports rise by $3 million. What is the direct change in the injections-minus-leakages gap?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises by $7 million"
+      },
+      {
+        "label": "B",
+        "text": "It falls by $7 million"
+      },
+      {
+        "label": "C",
+        "text": "It rises by $13 million"
+      },
+      {
+        "label": "D",
+        "text": "It falls by $13 million"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A $10 million fall in taxes reduces leakages by 10, which raises J - W by 10. A $3 million rise in imports raises leakages by 3. Net effect: +7.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2 injections and leakages (multiplier not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "Saving falls by $6 million and exports fall by $4 million. What is the direct change in the injections-minus-leakages gap?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls by $2 million"
+      },
+      {
+        "label": "B",
+        "text": "It rises by $2 million"
+      },
+      {
+        "label": "C",
+        "text": "It rises by $10 million"
+      },
+      {
+        "label": "D",
+        "text": "It falls by $10 million"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Lower saving reduces leakages by 6, while lower exports reduce injections by 4. The net change in injections minus leakages is +6 - 4 = +2 million.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2 injections and leakages (multiplier not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "An open economy is initially in equilibrium and has exports of $90 million and imports of $70 million. If it became closed with all other flows initially unchanged, what would be the immediate circular-flow effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A $20m net injection puts upward pressure on income"
+      },
+      {
+        "label": "B",
+        "text": "Removing both flows leaves the initial spending balance unchanged"
+      },
+      {
+        "label": "C",
+        "text": "Income rises by exactly $20m"
+      },
+      {
+        "label": "D",
+        "text": "A $20m net withdrawal puts downward pressure on income"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Before closure, net exports provide a $20 million net injection. Removing both X and M removes that positive balance, so the economy moves toward excess leakages. No multiplier calculation is required.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.1; 4.2.2; 4.2.3 open-to-closed transition | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "An open economy is initially in equilibrium and has exports of $50 million and imports of $85 million. If it became closed with all other flows initially unchanged, what would be the immediate circular-flow effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A $35m net withdrawal puts downward pressure on income"
+      },
+      {
+        "label": "B",
+        "text": "A $35m net injection puts upward pressure on income"
+      },
+      {
+        "label": "C",
+        "text": "Removing both flows leaves the initial spending balance unchanged"
+      },
+      {
+        "label": "D",
+        "text": "Income falls by exactly $35m"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The original trade position is a net leakage of 35 because M > X. Closing the economy removes both flows and therefore removes this net leakage, initially pushing injections above leakages.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.1; 4.2.2; 4.2.3 open-to-closed transition | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "Government spending and taxation both rise by $10 million. Which statement is correct about the immediate injections-minus-leakages gap?",
+    "options": [
+      {
+        "label": "A",
+        "text": "No net change: additional injection equals additional leakage."
+      },
+      {
+        "label": "B",
+        "text": "Net injections increase by the combined $20 million rise."
+      },
+      {
+        "label": "C",
+        "text": "Net leakages increase by the combined $20 million rise."
+      },
+      {
+        "label": "D",
+        "text": "National income necessarily falls by exactly $10 million."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The direct gap J - W changes by +10 from G and -10 from T, so the two changes offset. The AS syllabus does not require the multiplier implications of a balanced-budget change.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2 injections and leakages (multiplier not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "Which flow is correctly matched to the sector receiving the spending?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Exports: foreign spending on domestically produced output."
+      },
+      {
+        "label": "B",
+        "text": "Imports: foreign spending on domestically produced output."
+      },
+      {
+        "label": "C",
+        "text": "Taxation: domestic spending on foreign capital goods."
+      },
+      {
+        "label": "D",
+        "text": "Saving: public spending on domestically produced output."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Exports are foreign spending on domestically produced output and therefore flow from the international economy toward domestic producers.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.1; 4.2.2 sector flows and injections/leakages | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "Which flow is correctly matched to its direction in an open-economy circular-flow diagram?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Exports send domestic spending abroad"
+      },
+      {
+        "label": "B",
+        "text": "Public purchases transfer firms’ income directly to the government"
+      },
+      {
+        "label": "C",
+        "text": "Factor payments send money to firms"
+      },
+      {
+        "label": "D",
+        "text": "Imports send domestic spending abroad"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Import spending leaves the domestic circular flow and goes to the international economy.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.1; 4.2.2 sector flows and injections/leakages | AO1 Knowledge and understanding",
+    "graphRequired": true,
+    "graphDescription": "Open-economy circular-flow diagram with arrows between domestic firms and the international economy.",
+    "graphScenes": [
+      {
+        "xLabel": "",
+        "yLabel": "",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [],
+        "points": [],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Circular flow: households, firms and relevant sectors.",
+        "diagram": {
+          "nodes": [
+            {
+              "id": "h",
+              "label": "Households",
+              "x": 130,
+              "y": 220
+            },
+            {
+              "id": "f",
+              "label": "Firms",
+              "x": 510,
+              "y": 220
+            },
+            {
+              "id": "w",
+              "label": "International",
+              "x": 510,
+              "y": 355
+            }
+          ],
+          "edges": [
+            {
+              "id": "e0",
+              "to": "f",
+              "label": "Consumer spending",
+              "kind": "money",
+              "lane": 40,
+              "from": "h"
+            },
+            {
+              "id": "e1",
+              "to": "h",
+              "label": "Factor payments",
+              "kind": "money",
+              "lane": -40,
+              "from": "f"
+            },
+            {
+              "id": "e2",
+              "to": "w",
+              "label": "M",
+              "kind": "money",
+              "lane": -35,
+              "from": "f"
+            },
+            {
+              "id": "e3",
+              "to": "f",
+              "label": "X",
+              "kind": "money",
+              "lane": 35,
+              "from": "w"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "In a circular-flow diagram, an arrow from government to firms is most likely to represent",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tax revenue collected from producing firms."
+      },
+      {
+        "label": "B",
+        "text": "Public purchases of firms' output."
+      },
+      {
+        "label": "C",
+        "text": "Household deposits with financial institutions."
+      },
+      {
+        "label": "D",
+        "text": "Domestic purchases of foreign output."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Government spending is an injection that adds demand for goods and services produced by firms.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.1; 4.2.2 government-sector flow in the circular flow | AO1 Knowledge and understanding",
+    "graphRequired": true,
+    "graphDescription": "Circular-flow diagram with households, firms and government; identify the arrow from government to firms.",
+    "graphScenes": [
+      {
+        "xLabel": "",
+        "yLabel": "",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [],
+        "points": [],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Circular flow: households, firms and relevant sectors.",
+        "diagram": {
+          "nodes": [
+            {
+              "id": "h",
+              "label": "Households",
+              "x": 130,
+              "y": 220
+            },
+            {
+              "id": "f",
+              "label": "Firms",
+              "x": 510,
+              "y": 220
+            },
+            {
+              "id": "g",
+              "label": "Government",
+              "x": 320,
+              "y": 75
+            }
+          ],
+          "edges": [
+            {
+              "id": "e0",
+              "to": "f",
+              "label": "Consumer spending",
+              "kind": "money",
+              "lane": 40,
+              "from": "h"
+            },
+            {
+              "id": "e1",
+              "to": "h",
+              "label": "Factor payments",
+              "kind": "money",
+              "lane": -40,
+              "from": "f"
+            },
+            {
+              "id": "e2",
+              "to": "g",
+              "label": "T",
+              "kind": "money",
+              "lane": -45,
+              "from": "h"
+            },
+            {
+              "id": "e3",
+              "to": "f",
+              "label": "G",
+              "kind": "money",
+              "lane": 45,
+              "from": "g"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "In a circular-flow diagram, an arrow from households toward the government is most likely to represent",
+    "options": [
+      {
+        "label": "A",
+        "text": "Investment"
+      },
+      {
+        "label": "B",
+        "text": "Exports"
+      },
+      {
+        "label": "C",
+        "text": "Factor payments"
+      },
+      {
+        "label": "D",
+        "text": "Taxation"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Taxes are payments to government and are a leakage from private-sector income.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.1; 4.2.2 government-sector flow in the circular flow | AO1 Knowledge and understanding",
+    "graphRequired": true,
+    "graphDescription": "Circular-flow diagram with households, firms and government; identify a money-flow arrow toward government.",
+    "graphScenes": [
+      {
+        "xLabel": "",
+        "yLabel": "",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [],
+        "points": [],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Circular flow: households, firms and relevant sectors.",
+        "diagram": {
+          "nodes": [
+            {
+              "id": "h",
+              "label": "Households",
+              "x": 130,
+              "y": 220
+            },
+            {
+              "id": "f",
+              "label": "Firms",
+              "x": 510,
+              "y": 220
+            },
+            {
+              "id": "g",
+              "label": "Government",
+              "x": 320,
+              "y": 75
+            }
+          ],
+          "edges": [
+            {
+              "id": "e0",
+              "to": "f",
+              "label": "Consumer spending",
+              "kind": "money",
+              "lane": 40,
+              "from": "h"
+            },
+            {
+              "id": "e1",
+              "to": "h",
+              "label": "Factor payments",
+              "kind": "money",
+              "lane": -40,
+              "from": "f"
+            },
+            {
+              "id": "e2",
+              "to": "g",
+              "label": "T",
+              "kind": "money",
+              "lane": -45,
+              "from": "h"
+            },
+            {
+              "id": "e3",
+              "to": "f",
+              "label": "G",
+              "kind": "money",
+              "lane": 45,
+              "from": "g"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "The table gives flows for four economies. Which economy is in circular-flow equilibrium?\n| Economy | I | G | X | S | T | M |\n| A | 70 | 90 | 60 | 75 | 70 | 60 |\n| B | 60 | 80 | 65 | 85 | 75 | 60 |\n| C | 85 | 95 | 60 | 90 | 80 | 70 |\n| D | 75 | 100 | 50 | 80 | 85 | 70 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Economy C"
+      },
+      {
+        "label": "B",
+        "text": "Economy A"
+      },
+      {
+        "label": "C",
+        "text": "Economy B"
+      },
+      {
+        "label": "D",
+        "text": "Economy D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A: injections 220, leakages 205. B: 205 versus 220. C: 240 versus 240. D: 225 versus 235. Only C has equal total planned injections and leakages.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 injections, leakages and equilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "The table gives planned flows for four economies. Which has the greatest upward pressure on national income?\n| Economy | Total injections ($m) | Total leakages ($m) |\n| W | 315 | 290 |\n| X | 260 | 255 |\n| Y | 280 | 290 |\n| Z | 300 | 300 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Economy X"
+      },
+      {
+        "label": "B",
+        "text": "Economy W"
+      },
+      {
+        "label": "C",
+        "text": "Economy Y"
+      },
+      {
+        "label": "D",
+        "text": "Economy Z"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Compute injections minus leakages. W: +25; X: +5; Y: -10; Z: 0. Economy W has the largest excess of injections and therefore the strongest upward pressure.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 injections, leakages and disequilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "The table gives planned flows for four economies. Which has the greatest downward pressure on national income?\n| Economy | Total injections ($m) | Total leakages ($m) |\n| P | 210 | 220 |\n| Q | 235 | 270 |\n| R | 260 | 260 |\n| S | 280 | 265 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Economy Q"
+      },
+      {
+        "label": "B",
+        "text": "Economy P"
+      },
+      {
+        "label": "C",
+        "text": "Economy R"
+      },
+      {
+        "label": "D",
+        "text": "Economy S"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Downward pressure is greatest where leakages exceed injections by the largest amount. The gaps are P: 10, Q: 35, R: 0 and S: -15 (an excess of injections), so Q is largest.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 injections, leakages and disequilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "A country has G = $140m, T = $115m, X = $80m and M = $95m. What is the combined net contribution of the government and international sectors to injections minus leakages?",
+    "options": [
+      {
+        "label": "A",
+        "text": "+$10 million"
+      },
+      {
+        "label": "B",
+        "text": "-$10 million"
+      },
+      {
+        "label": "C",
+        "text": "+$40 million"
+      },
+      {
+        "label": "D",
+        "text": "-$40 million"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Government balance contributes G - T = +25. Trade contributes X - M = -15. Combined effect is +10 million.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2 injections and leakages (multiplier not required) | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "Investment is $25m below saving. The government budget deficit is $40m and the trade balance is a $5m deficit. What is the overall injections-minus-leakages gap?",
+    "options": [
+      {
+        "label": "A",
+        "text": "-$10 million"
+      },
+      {
+        "label": "B",
+        "text": "+$70 million"
+      },
+      {
+        "label": "C",
+        "text": "-$70 million"
+      },
+      {
+        "label": "D",
+        "text": "+$10 million"
+      }
+    ],
+    "answer": "D",
+    "explanation": "I - S = -25, G - T = +40 and X - M = -5. Total J - W = -25 + 40 - 5 = +10 million, so injections exceed leakages.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 sector-balance synthesis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "Saving exceeds investment by $35m and exports exceed imports by $15m. What government budget position is required for circular-flow equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A $20 million budget surplus"
+      },
+      {
+        "label": "B",
+        "text": "A $50 million budget deficit"
+      },
+      {
+        "label": "C",
+        "text": "A $20 million budget deficit"
+      },
+      {
+        "label": "D",
+        "text": "A balanced budget"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The private-sector gap is -35 and the trade balance is +15, leaving -20. The government must contribute +20, so G - T = +20: a $20m deficit.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 sector-balance synthesis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "Investment exceeds saving by $30m and imports exceed exports by $18m. What government budget position is required for equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A $12 million budget surplus"
+      },
+      {
+        "label": "B",
+        "text": "A $12 million budget deficit"
+      },
+      {
+        "label": "C",
+        "text": "A $48 million budget surplus"
+      },
+      {
+        "label": "D",
+        "text": "A balanced budget"
+      }
+    ],
+    "answer": "A",
+    "explanation": "I - S = +30 and X - M = -18, leaving +12. Government must provide -12 through T > G, which is a $12m budget surplus.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 sector-balance synthesis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "An open economy is in equilibrium. Investment rises by $14m and saving rises by $5m, with all other planned flows initially unchanged. What disequilibrium appears?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Leakages exceed injections by $9 million"
+      },
+      {
+        "label": "B",
+        "text": "Injections exceed leakages by $19 million"
+      },
+      {
+        "label": "C",
+        "text": "The economy remains in equilibrium"
+      },
+      {
+        "label": "D",
+        "text": "Injections exceed leakages by $9 million"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Starting from equality, the gap changes by +14 - 5 = +9. The economy therefore has excess injections of $9m.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 change from equilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "An open economy is in equilibrium. Taxation rises by $11m and government spending rises by $4m, with all other planned flows initially unchanged. What disequilibrium appears?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Leakages exceed injections by $7 million"
+      },
+      {
+        "label": "B",
+        "text": "Injections exceed leakages by $7 million"
+      },
+      {
+        "label": "C",
+        "text": "Leakages exceed injections by $15 million"
+      },
+      {
+        "label": "D",
+        "text": "The economy remains in equilibrium"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The rise in T adds 11 to leakages, while the rise in G adds 4 to injections. Relative to the initial equilibrium, leakages now exceed injections by 7.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 change from equilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "An open economy is in equilibrium. Exports fall by $9m and imports fall by $13m. What happens to the injections-minus-leakages gap?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Net leakages of $4 million appear."
+      },
+      {
+        "label": "B",
+        "text": "Net leakages of $22 million appear."
+      },
+      {
+        "label": "C",
+        "text": "Net injections of $4 million appear."
+      },
+      {
+        "label": "D",
+        "text": "Planned injections and leakages remain equal."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Lower exports reduce injections by 9, but lower imports reduce leakages by 13. The net change is -9 - (-13) = +4, so injections exceed leakages by 4.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 change from equilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "Which statement best explains why a budget surplus does not necessarily mean an open economy is in circular-flow disequilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Investment or exports can offset the government's net leakage."
+      },
+      {
+        "label": "B",
+        "text": "Government surpluses are additional injections rather than net leakages."
+      },
+      {
+        "label": "C",
+        "text": "Taxation is excluded from leakages whenever international trade occurs."
+      },
+      {
+        "label": "D",
+        "text": "International trade balance alone determines equilibrium regardless of government flows."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Circular-flow equilibrium depends on the total of all injections and all leakages. A government net leakage can be offset by net injections elsewhere.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 sector-balance interpretation | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "Which statement best explains why a trade deficit does not necessarily mean national income must fall?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Other net injections can offset the international sector's net leakage."
+      },
+      {
+        "label": "B",
+        "text": "Imports become injections whenever public spending exceeds government tax revenue."
+      },
+      {
+        "label": "C",
+        "text": "International spending flows are irrelevant to the domestic circular flow."
+      },
+      {
+        "label": "D",
+        "text": "International trade deficits automatically create matching government fiscal budget deficits."
+      }
+    ],
+    "answer": "A",
+    "explanation": "A trade deficit is one net leakage, but the overall circular-flow position depends on I, G and X compared with S, T and M in total.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.1; 4.2.2; 4.2.3 international sector and equilibrium | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 71,
+    "difficulty": "Hard",
+    "prompt": "The table gives planned flows for an open economy. What is the size and direction of disequilibrium?\n| Flow | Investment | Government spending | Exports | Saving | Taxation | Imports |\n| $m | 128 | 164 | 92 | 141 | 132 | 93 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Leakages exceed injections by $18 million"
+      },
+      {
+        "label": "B",
+        "text": "Injections exceed leakages by $42 million"
+      },
+      {
+        "label": "C",
+        "text": "The economy is in equilibrium"
+      },
+      {
+        "label": "D",
+        "text": "Injections exceed leakages by $18 million"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Injections = 128 + 164 + 92 = 384. Leakages = 141 + 132 + 93 = 366. Injections exceed leakages by $18m, so income tends to rise.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 open-economy injections/leakages and disequilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 72,
+    "difficulty": "Hard",
+    "prompt": "An open economy is in equilibrium. I = $120m, G = $150m, X = $80m, S = $130m and T = $110m. What must imports equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$90 million"
+      },
+      {
+        "label": "B",
+        "text": "$130 million"
+      },
+      {
+        "label": "C",
+        "text": "$350 million"
+      },
+      {
+        "label": "D",
+        "text": "$110 million"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Injections total 350. Known leakages S + T total 240, so imports must be 110 for total leakages to equal 350.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 open-economy equilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 73,
+    "difficulty": "Hard",
+    "prompt": "An open economy is in equilibrium. Saving is $40m greater than investment and the government budget surplus is $10m. What must be true of exports and imports?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Imports must exceed exports by $50 million"
+      },
+      {
+        "label": "B",
+        "text": "Exports must exceed imports by $50 million"
+      },
+      {
+        "label": "C",
+        "text": "Exports must exceed imports by $30 million"
+      },
+      {
+        "label": "D",
+        "text": "Exports must equal imports"
+      }
+    ],
+    "answer": "B",
+    "explanation": "I - S = -40 and G - T = -10, so the domestic sectors create a $50m net leakage. The external sector must provide X - M = +50 to restore equilibrium.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 sector-balance equilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "An open economy is in equilibrium. Investment exceeds saving by $25m and exports exceed imports by $15m. What government budget balance is required?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A $40 million budget deficit"
+      },
+      {
+        "label": "B",
+        "text": "A $10 million budget surplus"
+      },
+      {
+        "label": "C",
+        "text": "A $40 million budget surplus"
+      },
+      {
+        "label": "D",
+        "text": "A balanced budget"
+      }
+    ],
+    "answer": "C",
+    "explanation": "I - S = +25 and X - M = +15, giving +40 of net injections. Government must offset this with G - T = -40, which is a $40m budget surplus.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 sector-balance equilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "An economy starts in circular-flow equilibrium. Government spending rises by $20m, investment falls by $8m, taxes rise by $5m, exports rise by $4m and imports rise by $7m. What is the new injections-minus-leakages gap?",
+    "options": [
+      {
+        "label": "A",
+        "text": "-$4 million"
+      },
+      {
+        "label": "B",
+        "text": "+$24 million"
+      },
+      {
+        "label": "C",
+        "text": "+$4 million"
+      },
+      {
+        "label": "D",
+        "text": "-$24 million"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Change in injections = +20 - 8 + 4 = +16. Change in leakages = +5 + 7 = +12. Starting from equilibrium, J - W becomes +4 million.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 multiple simultaneous flow changes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "An economy starts in equilibrium. Saving rises by $12m, taxation falls by $9m, imports fall by $6m and investment falls by $5m. What is the new circular-flow gap?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Injections exceed leakages by $2 million"
+      },
+      {
+        "label": "B",
+        "text": "Injections exceed leakages by $20 million"
+      },
+      {
+        "label": "C",
+        "text": "Leakages exceed injections by $2 million"
+      },
+      {
+        "label": "D",
+        "text": "Leakages exceed injections by $20 million"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Change in J - W: investment -5; saving +12 gives -12; tax fall reduces leakages so +9; import fall reduces leakages so +6. Total = -5 -12 +9 +6 = -2, so leakages exceed injections by $2m.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 multiple simultaneous flow changes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "An open economy is in equilibrium. The government changes from a $15m budget deficit to a $5m budget surplus. No other planned flows change initially. What disequilibrium results?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Injections exceed leakages by $20 million"
+      },
+      {
+        "label": "B",
+        "text": "Leakages exceed injections by $10 million"
+      },
+      {
+        "label": "C",
+        "text": "Leakages exceed injections by $20 million"
+      },
+      {
+        "label": "D",
+        "text": "The economy remains in equilibrium"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The government contribution changes from G - T = +15 to -5, a fall of $20m in J - W. Starting from equilibrium, this creates excess leakages of $20m.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 budget-balance change from equilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "An open economy is in equilibrium. Its trade balance changes from a $12m deficit to an $8m surplus. No other planned flows change initially. What disequilibrium results?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Leakages exceed injections by $20 million"
+      },
+      {
+        "label": "B",
+        "text": "Injections exceed leakages by $20 million"
+      },
+      {
+        "label": "C",
+        "text": "Injections exceed leakages by $4 million"
+      },
+      {
+        "label": "D",
+        "text": "The economy remains in equilibrium"
+      }
+    ],
+    "answer": "B",
+    "explanation": "X - M changes from -12 to +8, an improvement of $20m in injections relative to leakages. Starting from equilibrium, excess injections are $20m.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 trade-balance change from equilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "An open economy has a $25m budget deficit and a $40m trade deficit. If investment exceeds saving by $10m, what is the overall circular-flow gap?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Injections exceed leakages by $5 million"
+      },
+      {
+        "label": "B",
+        "text": "Leakages exceed injections by $55 million"
+      },
+      {
+        "label": "C",
+        "text": "Leakages exceed injections by $5 million"
+      },
+      {
+        "label": "D",
+        "text": "The economy is in equilibrium"
+      }
+    ],
+    "answer": "C",
+    "explanation": "I - S = +10, G - T = +25 and X - M = -40. Total J - W = -5, so leakages exceed injections by $5m.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 sector-balance synthesis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "An open economy has a $30m budget surplus and a $20m trade surplus. For equilibrium, what must be true of investment and saving?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Saving must exceed investment by $10 million"
+      },
+      {
+        "label": "B",
+        "text": "Investment must exceed saving by $50 million"
+      },
+      {
+        "label": "C",
+        "text": "Investment must equal saving"
+      },
+      {
+        "label": "D",
+        "text": "Investment must exceed saving by $10 million"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Government contributes -30 and trade contributes +20, leaving -10. The private-sector balance must provide +10, so I exceeds S by $10m.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 sector-balance synthesis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "Which conclusion necessarily follows when planned injections are greater than planned leakages at the current level of income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Investment necessarily exceeds saving at the current income level."
+      },
+      {
+        "label": "B",
+        "text": "Upward income pressure arises from the planned expenditure imbalance."
+      },
+      {
+        "label": "C",
+        "text": "Government spending necessarily exceeds taxation at the current income level."
+      },
+      {
+        "label": "D",
+        "text": "Exports necessarily exceed imports at the current income level."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The total imbalance implies disequilibrium and upward pressure on income. It does not reveal which particular injection or leakage is responsible.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.3 equilibrium and disequilibrium (marginal and average propensities not required) | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "Which conclusion necessarily follows when national income is tending to fall because of the circular-flow imbalance?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Saving must exceed investment in the private sector."
+      },
+      {
+        "label": "B",
+        "text": "Total planned leakages exceed total planned injections."
+      },
+      {
+        "label": "C",
+        "text": "Taxation must exceed spending in the government sector."
+      },
+      {
+        "label": "D",
+        "text": "Imports must exceed exports in the international sector."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The defining circular-flow reason for downward pressure is total leakages exceeding total injections. Any one sector could be in surplus or deficit.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.3 equilibrium and disequilibrium (marginal and average propensities not required) | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "An open economy becomes closed. Without information about the original values of exports and imports, what can be concluded about the immediate direction of national income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Income rises after import payments cease"
+      },
+      {
+        "label": "B",
+        "text": "The effect depends on the original trade balance"
+      },
+      {
+        "label": "C",
+        "text": "Income must fall because domestic producers lose their overseas export receipts"
+      },
+      {
+        "label": "D",
+        "text": "Income is unchanged"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Closing the economy removes both an injection (X) and a leakage (M). The net effect depends on the original balance X - M.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.1; 4.2.2; 4.2.3 open-to-closed transition | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "A two-sector closed economy is initially in equilibrium. Households decide to save more while planned investment is unchanged. What is the immediate circular-flow result?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Excess investment develops, putting upward pressure on income."
+      },
+      {
+        "label": "B",
+        "text": "Planned saving and investment remain automatically equal by definition."
+      },
+      {
+        "label": "C",
+        "text": "Excess saving develops, putting downward pressure on income."
+      },
+      {
+        "label": "D",
+        "text": "Export demand automatically rises sufficiently to restore domestic equilibrium."
+      }
+    ],
+    "answer": "C",
+    "explanation": "In a two-sector model equilibrium requires I = S. A rise in S with I unchanged makes leakages exceed injections, producing downward pressure on income.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.1; 4.2.2; 4.2.3 two-sector disequilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "A closed economy with government is initially in equilibrium. Investment falls by $6m, government spending rises by $10m, saving rises by $3m and taxation rises by $2m. What is the new gap?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Injections exceed leakages by $1m"
+      },
+      {
+        "label": "B",
+        "text": "Injections exceed leakages by $5m"
+      },
+      {
+        "label": "C",
+        "text": "Leakages exceed injections by $1m"
+      },
+      {
+        "label": "D",
+        "text": "Leakages exceed injections by $21m"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Change in injections is -6 + 10 = +4. Change in leakages is +3 +2 = +5. Starting from equilibrium, leakages exceed injections by $1m.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.1; 4.2.2; 4.2.3 closed-economy multi-change calculation | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "The table shows sector balances for four open economies, where a positive figure is a net injection and a negative figure is a net leakage. Which economy is in equilibrium?\n| Economy | I-S | G-T | X-M |\n| K | +20 | -8 | -4 |\n| L | -12 | +5 | +1 |\n| M | +6 | +9 | -11 |\n| N | -15 | +25 | -10 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Economy K"
+      },
+      {
+        "label": "B",
+        "text": "Economy N"
+      },
+      {
+        "label": "C",
+        "text": "Economy L"
+      },
+      {
+        "label": "D",
+        "text": "Economy M"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Add the three sector balances. K = +8, L = -6, M = +4 and N = 0. Only economy N has zero overall injections-minus-leakages gap.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 sector balances and equilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "The table shows sector balances for four economies. Which has the greatest downward pressure on income?\n| Economy | I-S | G-T | X-M |\n| A | -10 | +12 | -7 |\n| B | -20 | +5 | -3 |\n| C | +8 | -4 | +2 |\n| D | -6 | +10 | -4 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Economy A"
+      },
+      {
+        "label": "B",
+        "text": "Economy C"
+      },
+      {
+        "label": "C",
+        "text": "Economy D"
+      },
+      {
+        "label": "D",
+        "text": "Economy B"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Sum each row: A = -5, B = -18, C = +6, D = 0. Economy B has the largest negative injections-minus-leakages balance and hence the strongest downward pressure.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 sector balances and disequilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "A circular-flow diagram shows households supplying labour to firms and firms paying wages to households. Which statement correctly distinguishes these arrows?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Labour moves to firms; wages move to households"
+      },
+      {
+        "label": "B",
+        "text": "Both arrows represent payments of money between the two sectors"
+      },
+      {
+        "label": "C",
+        "text": "Both are real resource flows"
+      },
+      {
+        "label": "D",
+        "text": "Labour is a monetary flow; wages are a real resource flow"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Factor services such as labour are real flows from households to firms. Wages are factor payments and therefore money flows in the opposite direction.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.1 circular flow of income in a closed economy and an open economy: the flow of income between households, firms and government and the international economy | AO1 Knowledge and understanding",
+    "graphRequired": true,
+    "graphDescription": "Two-sector circular-flow diagram showing opposing arrows labelled labour and wages.",
+    "graphScenes": [
+      {
+        "xLabel": "",
+        "yLabel": "",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [],
+        "points": [],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Circular flow: households, firms and relevant sectors.",
+        "diagram": {
+          "nodes": [
+            {
+              "id": "h",
+              "label": "Households",
+              "x": 130,
+              "y": 220
+            },
+            {
+              "id": "f",
+              "label": "Firms",
+              "x": 510,
+              "y": 220
+            }
+          ],
+          "edges": [
+            {
+              "id": "e0",
+              "to": "f",
+              "label": "Labour",
+              "kind": "real",
+              "lane": -75,
+              "from": "h"
+            },
+            {
+              "id": "e1",
+              "to": "h",
+              "label": "B",
+              "kind": "real",
+              "lane": -30,
+              "from": "f"
+            },
+            {
+              "id": "e2",
+              "to": "h",
+              "label": "Wages",
+              "kind": "money",
+              "lane": 30,
+              "from": "f"
+            },
+            {
+              "id": "e3",
+              "to": "f",
+              "label": "D",
+              "kind": "money",
+              "lane": 75,
+              "from": "h"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "A circular-flow diagram shows an arrow from the international economy to domestic firms and an arrow from domestic firms to the international economy. Which labels are correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Imports bring spending in; exports send spending out"
+      },
+      {
+        "label": "B",
+        "text": "Both export receipts and import payments add to domestic expenditure"
+      },
+      {
+        "label": "C",
+        "text": "Both are spending withdrawals"
+      },
+      {
+        "label": "D",
+        "text": "Exports bring spending in; imports send spending out"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Export spending enters the domestic circular flow, while import spending leaves it. Hence exports are injections and imports are leakages.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.1; 4.2.2 international-sector flows | AO1 Knowledge and understanding",
+    "graphRequired": true,
+    "graphDescription": "Open-economy circular-flow diagram focused on the international sector and domestic firms.",
+    "graphScenes": [
+      {
+        "xLabel": "",
+        "yLabel": "",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [],
+        "points": [],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Circular flow: households, firms and relevant sectors.",
+        "diagram": {
+          "nodes": [
+            {
+              "id": "h",
+              "label": "Households",
+              "x": 130,
+              "y": 220
+            },
+            {
+              "id": "f",
+              "label": "Firms",
+              "x": 510,
+              "y": 220
+            },
+            {
+              "id": "w",
+              "label": "International",
+              "x": 510,
+              "y": 355
+            }
+          ],
+          "edges": [
+            {
+              "id": "e0",
+              "to": "f",
+              "label": "Consumer spending",
+              "kind": "money",
+              "lane": 40,
+              "from": "h"
+            },
+            {
+              "id": "e1",
+              "to": "h",
+              "label": "Factor payments",
+              "kind": "money",
+              "lane": -40,
+              "from": "f"
+            },
+            {
+              "id": "e2",
+              "to": "w",
+              "label": "M",
+              "kind": "money",
+              "lane": -35,
+              "from": "f"
+            },
+            {
+              "id": "e3",
+              "to": "f",
+              "label": "X",
+              "kind": "money",
+              "lane": 35,
+              "from": "w"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "Two open economies have the same total planned injections. Economy X has total leakages of $310m and economy Y has total leakages of $280m. What additional information is required to know which economy is in equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The common amount of household consumption expenditure."
+      },
+      {
+        "label": "B",
+        "text": "The total productive services supplied by households."
+      },
+      {
+        "label": "C",
+        "text": "The common amount of total planned injections."
+      },
+      {
+        "label": "D",
+        "text": "The proportion of tax revenue from direct taxation."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Equilibrium depends on whether total injections equal total leakages. Knowing only that injections are the same in both economies does not reveal whether the common amount is 310, 280 or another value.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.3 equilibrium and disequilibrium (marginal and average propensities not required) | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "Economy A has a budget deficit and a trade surplus. Economy B has a budget surplus and a trade deficit. Which economy must have the higher national income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A necessarily has higher income because both balances inject spending."
+      },
+      {
+        "label": "B",
+        "text": "Neither income level is determined by the sector balances alone."
+      },
+      {
+        "label": "C",
+        "text": "B necessarily has higher income because both balances withdraw spending."
+      },
+      {
+        "label": "D",
+        "text": "Both necessarily have equal income because both have two balances."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The signs and sizes of all injections and leakages, including saving and investment, determine the equilibrium level and direction of income. The stated balances alone are insufficient.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 sector balances and income | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "Which statement about a government budget deficit in the circular-flow model is most accurate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It guarantees rising income"
+      },
+      {
+        "label": "B",
+        "text": "It withdraws spending through government borrowing"
+      },
+      {
+        "label": "C",
+        "text": "It occurs only when the economy has no international trade"
+      },
+      {
+        "label": "D",
+        "text": "It adds spending, which other leakages may offset"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A deficit means G > T and therefore a government-sector net injection. But saving-investment and export-import gaps can offset it.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 budget balance and total equilibrium | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "Which statement about a trade deficit in the circular-flow model is most accurate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It necessarily causes falling national income"
+      },
+      {
+        "label": "B",
+        "text": "It withdraws spending, which other injections may offset"
+      },
+      {
+        "label": "C",
+        "text": "It adds spending through imports"
+      },
+      {
+        "label": "D",
+        "text": "It requires public spending to remain below total tax revenue"
+      }
+    ],
+    "answer": "B",
+    "explanation": "When M > X the international sector creates a net leakage. Overall equilibrium can nevertheless hold if other sectors provide enough net injections.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.1; 4.2.2; 4.2.3 trade balance and total equilibrium | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "If saving is greater than investment in an open economy, which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Total planned leakages must exceed total planned injections"
+      },
+      {
+        "label": "B",
+        "text": "Imports must exceed exports"
+      },
+      {
+        "label": "C",
+        "text": "Other injections may offset the private-sector withdrawal"
+      },
+      {
+        "label": "D",
+        "text": "Government expenditure must equal tax revenue regardless of the trade balance"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Equilibrium is an equality of totals. S > I creates a private-sector net leakage, but G > T and/or X > M can offset it.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 saving-investment balance and equilibrium | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "An economy is initially in equilibrium. Investment falls by $15m. Which single change would restore the equality of planned injections and leakages, other things equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Taxation rises by $15 million"
+      },
+      {
+        "label": "B",
+        "text": "Imports rise by $15 million"
+      },
+      {
+        "label": "C",
+        "text": "Saving falls by $15 million"
+      },
+      {
+        "label": "D",
+        "text": "Exports fall by $15 million"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A $15m fall in investment reduces injections by 15. A $15m fall in saving reduces leakages by the same amount, restoring the original equality.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 restoring equilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "An economy is initially in equilibrium. Taxation rises by $12m. Which single change would restore the equality of planned injections and leakages, other things equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Household saving rises by $12m"
+      },
+      {
+        "label": "B",
+        "text": "Spending on imports rises by $12m"
+      },
+      {
+        "label": "C",
+        "text": "Public spending rises by $12m"
+      },
+      {
+        "label": "D",
+        "text": "Receipts from exports fall by $12m"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Higher taxation raises leakages by $12m. An equal rise in government spending raises injections by $12m and restores the equality of totals.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 restoring equilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "An economy is initially in equilibrium. Imports fall by $9m. Which single change would restore the equality of planned injections and leakages, other things equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Investment rises by $9 million"
+      },
+      {
+        "label": "B",
+        "text": "Exports fall by $9 million"
+      },
+      {
+        "label": "C",
+        "text": "Taxation falls by $9 million"
+      },
+      {
+        "label": "D",
+        "text": "Saving falls by $9 million"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A fall in imports reduces leakages by $9m, creating excess injections. A $9m fall in exports reduces injections by the same amount and restores equality.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 restoring equilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "An economy has total planned injections of $420m and total planned leakages of $390m. Which single change would restore circular-flow equilibrium, other things equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A $30 million rise in saving"
+      },
+      {
+        "label": "B",
+        "text": "A $30 million rise in investment"
+      },
+      {
+        "label": "C",
+        "text": "A $30 million rise in exports"
+      },
+      {
+        "label": "D",
+        "text": "A $30 million fall in taxation"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Injections exceed leakages by $30m. Equilibrium can be restored by increasing a leakage by $30m, such as saving. The other listed changes would widen the excess of injections.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 restoring equilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "An economy has total planned leakages of $360m and total planned injections of $335m. Which single change would restore circular-flow equilibrium, other things equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Household tax payments rise by $25m"
+      },
+      {
+        "label": "B",
+        "text": "Public spending rises by $25m"
+      },
+      {
+        "label": "C",
+        "text": "Spending on imports rises by $25m"
+      },
+      {
+        "label": "D",
+        "text": "Firms’ investment spending falls by $25m"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Leakages exceed injections by $25m. Raising an injection, such as government spending, by $25m restores equality.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 restoring equilibrium | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "The table shows an economy before and after several planned-flow changes. What is the most accurate conclusion about the after-change position?\n| Flow | I | G | X | S | T | M |\n| Before ($m) | 90 | 120 | 70 | 100 | 110 | 70 |\n| After ($m) | 102 | 116 | 76 | 106 | 108 | 74 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "Excess leakages of $6 million exert downward income pressure."
+      },
+      {
+        "label": "B",
+        "text": "Equal injections and leakages leave national income in equilibrium."
+      },
+      {
+        "label": "C",
+        "text": "Excess injections of $18 million exert upward income pressure."
+      },
+      {
+        "label": "D",
+        "text": "Excess injections of $6 million exert upward income pressure."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Before: injections 90+120+70=280 and leakages 100+110+70=280, so equilibrium. After: injections 102+116+76=294; leakages 106+108+74=288. The new gap is +$6m.",
+    "reference": "4.2 Introduction to the circular flow of income | 4.2.2; 4.2.3 before-after table synthesis | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  }
+]

@@ -1,0 +1,4763 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "A monopsonistic labor market is one in which a typical hiring firm faces",
+    "options": [
+      {
+        "label": "A",
+        "text": "An upward-sloping labor-supply curve"
+      },
+      {
+        "label": "B",
+        "text": "A perfectly horizontal labor-supply curve"
+      },
+      {
+        "label": "C",
+        "text": "A vertical MRP curve"
+      },
+      {
+        "label": "D",
+        "text": "A downward-sloping MFC curve"
+      },
+      {
+        "label": "E",
+        "text": "A wage fixed by the individual worker"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A monopsonist faces an upward-sloping labor supply. It must offer a higher wage to attract additional workers.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "When a monopsonist hires an additional worker, marginal factor cost is generally",
+    "options": [
+      {
+        "label": "A",
+        "text": "Greater than the wage paid to that worker"
+      },
+      {
+        "label": "B",
+        "text": "Equal to zero"
+      },
+      {
+        "label": "C",
+        "text": "Less than the wage"
+      },
+      {
+        "label": "D",
+        "text": "Less than labor supply"
+      },
+      {
+        "label": "E",
+        "text": "Equal to MRP at every employment level"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Hiring more labor requires raising wages on existing workers too. Marginal factor cost therefore exceeds the wage of the additional worker.",
+    "reference": "PRD-4.D | PRD-4.D.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "The reason MFC exceeds the wage for a monopsonist is that hiring another worker may require the firm to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Reduce the new worker’s wage below supply"
+      },
+      {
+        "label": "B",
+        "text": "Lower all existing workers’ wages"
+      },
+      {
+        "label": "C",
+        "text": "Pay no wage to the new worker"
+      },
+      {
+        "label": "D",
+        "text": "Change the price of its output"
+      },
+      {
+        "label": "E",
+        "text": "Pay the higher wage to all workers"
+      }
+    ],
+    "answer": "E",
+    "explanation": "MFC includes the new worker's wage plus any additional wages paid to existing workers. Both contribute to the increase in total labor cost.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "A profit-maximizing monopsonist hires labor up to the quantity where",
+    "options": [
+      {
+        "label": "A",
+        "text": "MRP equals the wage"
+      },
+      {
+        "label": "B",
+        "text": "Labor supply equals MFC"
+      },
+      {
+        "label": "C",
+        "text": "MRP equals zero"
+      },
+      {
+        "label": "D",
+        "text": "MRP equals MFC"
+      },
+      {
+        "label": "E",
+        "text": "The wage is minimized"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Hire while MRP exceeds MFC and stop at their continuous intersection. In monopsony, MFC is above the wage paid.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "After finding the profit-maximizing employment level, a monopsonist determines the wage from",
+    "options": [
+      {
+        "label": "A",
+        "text": "The MFC curve"
+      },
+      {
+        "label": "B",
+        "text": "The MRP curve"
+      },
+      {
+        "label": "C",
+        "text": "The labor-supply curve at that quantity"
+      },
+      {
+        "label": "D",
+        "text": "The output-demand curve"
+      },
+      {
+        "label": "E",
+        "text": "The horizontal axis"
+      }
+    ],
+    "answer": "C",
+    "explanation": "After choosing employment, use labor supply to find the wage that attracts those workers. That wage is below MFC.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "If MRP is greater than MFC for the next worker, the monopsonist should",
+    "options": [
+      {
+        "label": "A",
+        "text": "Set wage equal to MRP"
+      },
+      {
+        "label": "B",
+        "text": "Not hire that worker"
+      },
+      {
+        "label": "C",
+        "text": "Reduce employment"
+      },
+      {
+        "label": "D",
+        "text": "Ignore MRP"
+      },
+      {
+        "label": "E",
+        "text": "Hire that worker"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The additional worker contributes more revenue than the increase in labor cost. Hiring raises profit.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "If MRP is less than MFC for the next worker, the monopsonist should",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ignore MFC"
+      },
+      {
+        "label": "B",
+        "text": "Not hire that additional worker"
+      },
+      {
+        "label": "C",
+        "text": "Hire the worker"
+      },
+      {
+        "label": "D",
+        "text": "Raise employment indefinitely"
+      },
+      {
+        "label": "E",
+        "text": "Set wage equal to MRP"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The additional worker increases labor cost more than revenue. Hiring reduces profit.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "On a monopsony graph, the MFC curve lies",
+    "options": [
+      {
+        "label": "A",
+        "text": "Below the labor-supply curve"
+      },
+      {
+        "label": "B",
+        "text": "On the horizontal axis"
+      },
+      {
+        "label": "C",
+        "text": "Above the labor-supply curve"
+      },
+      {
+        "label": "D",
+        "text": "Below zero"
+      },
+      {
+        "label": "E",
+        "text": "On top of the MRP curve"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The higher wage applies to existing workers as well as the new hire. This makes the increase in total cost exceed the new worker's wage.",
+    "reference": "PRD-4.D | PRD-4.D.2",
+    "graphDescription": "Schematic; only labeled numbers are quantitative. Axes: Labor and Wage / MRP / MFC. Curves: Supply, MFC, MRP",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Labor",
+        "yLabel": "Wage / MRP / MFC",
+        "xMax": 11,
+        "yMax": 65,
+        "curves": [
+          {
+            "id": "Supply",
+            "label": "Supply",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 30.68
+              }
+            ]
+          },
+          {
+            "id": "MFC",
+            "label": "MFC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 51.36
+              }
+            ]
+          },
+          {
+            "id": "MRP",
+            "label": "MRP",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 10.34,
+                "y": 8.64
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 5,
+            "y": 30
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 5,
+            "y": 20
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 5,
+            "y": 30,
+            "xLabel": "Lm = 5",
+            "yLabel": "$30"
+          },
+          {
+            "id": "guide1",
+            "x": 5,
+            "y": 20,
+            "yLabel": "Wm = $20"
+          },
+          {
+            "id": "guide2",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332,
+            "xLabel": "Lc",
+            "yLabel": "Wc"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "On the monopsony graph, the profit-maximizing employment quantity is found where",
+    "options": [
+      {
+        "label": "A",
+        "text": "MRP intersects labor supply"
+      },
+      {
+        "label": "B",
+        "text": "The wage is zero"
+      },
+      {
+        "label": "C",
+        "text": "Labor supply intersects the vertical axis"
+      },
+      {
+        "label": "D",
+        "text": "MFC intersects labor supply"
+      },
+      {
+        "label": "E",
+        "text": "MRP intersects MFC"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The maximizing employment level equates MRP and MFC. Further hiring would cost more than it earns.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "Schematic; only labeled numbers are quantitative. Axes: Labor and Wage / MRP / MFC. Curves: Supply, MFC, MRP",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Labor",
+        "yLabel": "Wage / MRP / MFC",
+        "xMax": 11,
+        "yMax": 65,
+        "curves": [
+          {
+            "id": "Supply",
+            "label": "Supply",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 30.68
+              }
+            ]
+          },
+          {
+            "id": "MFC",
+            "label": "MFC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 51.36
+              }
+            ]
+          },
+          {
+            "id": "MRP",
+            "label": "MRP",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 10.34,
+                "y": 8.64
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 5,
+            "y": 30
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 5,
+            "y": 20
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 5,
+            "y": 30,
+            "xLabel": "Lm = 5",
+            "yLabel": "$30"
+          },
+          {
+            "id": "guide1",
+            "x": 5,
+            "y": 20,
+            "yLabel": "Wm = $20"
+          },
+          {
+            "id": "guide2",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332,
+            "xLabel": "Lc",
+            "yLabel": "Wc"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "On the monopsony graph, the wage paid at the profit-maximizing employment quantity is read from",
+    "options": [
+      {
+        "label": "A",
+        "text": "The horizontal axis"
+      },
+      {
+        "label": "B",
+        "text": "The MRP curve"
+      },
+      {
+        "label": "C",
+        "text": "The MFC curve"
+      },
+      {
+        "label": "D",
+        "text": "The labor-supply curve"
+      },
+      {
+        "label": "E",
+        "text": "The output supply curve"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Choose employment at MRP = MFC. Then read the wage from labor supply at that employment.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "Schematic; only labeled numbers are quantitative. Axes: Labor and Wage / MRP / MFC. Curves: Supply, MFC, MRP",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Labor",
+        "yLabel": "Wage / MRP / MFC",
+        "xMax": 11,
+        "yMax": 65,
+        "curves": [
+          {
+            "id": "Supply",
+            "label": "Supply",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 30.68
+              }
+            ]
+          },
+          {
+            "id": "MFC",
+            "label": "MFC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 51.36
+              }
+            ]
+          },
+          {
+            "id": "MRP",
+            "label": "MRP",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 10.34,
+                "y": 8.64
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 5,
+            "y": 30
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 5,
+            "y": 20
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 5,
+            "y": 30,
+            "xLabel": "Lm = 5",
+            "yLabel": "$30"
+          },
+          {
+            "id": "guide1",
+            "x": 5,
+            "y": 20,
+            "yLabel": "Wm = $20"
+          },
+          {
+            "id": "guide2",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332,
+            "xLabel": "Lc",
+            "yLabel": "Wc"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "At L=5 on the base graph, the monopsony wage is approximately",
+    "options": [
+      {
+        "label": "A",
+        "text": "$10"
+      },
+      {
+        "label": "B",
+        "text": "$40"
+      },
+      {
+        "label": "C",
+        "text": "$30"
+      },
+      {
+        "label": "D",
+        "text": "$50"
+      },
+      {
+        "label": "E",
+        "text": "$20"
+      }
+    ],
+    "answer": "E",
+    "explanation": "At L = 5, supply gives W = 10 + 2(5) = $20. This is the wage needed to attract five workers.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "Schematic; only labeled numbers are quantitative. Axes: Labor and Wage / MRP / MFC. Curves: Supply, MFC, MRP",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Labor",
+        "yLabel": "Wage / MRP / MFC",
+        "xMax": 11,
+        "yMax": 65,
+        "curves": [
+          {
+            "id": "Supply",
+            "label": "Supply",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 30.68
+              }
+            ]
+          },
+          {
+            "id": "MFC",
+            "label": "MFC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 51.36
+              }
+            ]
+          },
+          {
+            "id": "MRP",
+            "label": "MRP",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 10.34,
+                "y": 8.64
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 5,
+            "y": 30
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 5,
+            "y": 20
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 5,
+            "y": 30,
+            "xLabel": "Lm = 5",
+            "yLabel": "$30"
+          },
+          {
+            "id": "guide1",
+            "x": 5,
+            "y": 20,
+            "yLabel": "Wm = $20"
+          },
+          {
+            "id": "guide2",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332,
+            "xLabel": "Lc",
+            "yLabel": "Wc"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "At L=5 on the base graph, marginal factor cost is approximately",
+    "options": [
+      {
+        "label": "A",
+        "text": "$30"
+      },
+      {
+        "label": "B",
+        "text": "$50"
+      },
+      {
+        "label": "C",
+        "text": "$10"
+      },
+      {
+        "label": "D",
+        "text": "$20"
+      },
+      {
+        "label": "E",
+        "text": "$40"
+      }
+    ],
+    "answer": "A",
+    "explanation": "At L = 5, marginal factor cost is 10 + 4(5) = $30.",
+    "reference": "PRD-4.D | PRD-4.D.2",
+    "graphDescription": "Schematic; only labeled numbers are quantitative. Axes: Labor and Wage / MRP / MFC. Curves: Supply, MFC, MRP",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Labor",
+        "yLabel": "Wage / MRP / MFC",
+        "xMax": 11,
+        "yMax": 65,
+        "curves": [
+          {
+            "id": "Supply",
+            "label": "Supply",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 30.68
+              }
+            ]
+          },
+          {
+            "id": "MFC",
+            "label": "MFC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 51.36
+              }
+            ]
+          },
+          {
+            "id": "MRP",
+            "label": "MRP",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 10.34,
+                "y": 8.64
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 5,
+            "y": 30
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 5,
+            "y": 20
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 5,
+            "y": 30,
+            "xLabel": "Lm = 5",
+            "yLabel": "$30"
+          },
+          {
+            "id": "guide1",
+            "x": 5,
+            "y": 20,
+            "yLabel": "Wm = $20"
+          },
+          {
+            "id": "guide2",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332,
+            "xLabel": "Lc",
+            "yLabel": "Wc"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "At the monopsony employment level shown, the wage is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Less than MFC"
+      },
+      {
+        "label": "B",
+        "text": "Greater than MFC"
+      },
+      {
+        "label": "C",
+        "text": "Equal to zero"
+      },
+      {
+        "label": "D",
+        "text": "Equal to MFC"
+      },
+      {
+        "label": "E",
+        "text": "Greater than MRP"
+      }
+    ],
+    "answer": "A",
+    "explanation": "MFC includes the cost of raising existing workers' wages. It therefore lies above the labor-supply wage curve.",
+    "reference": "PRD-4.D | PRD-4.D.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "Compared with a perfectly competitive factor-market outcome using the same MRP and labor supply, monopsony employment is generally",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower"
+      },
+      {
+        "label": "B",
+        "text": "Zero"
+      },
+      {
+        "label": "C",
+        "text": "Identical in every case"
+      },
+      {
+        "label": "D",
+        "text": "Unrelated to MRP"
+      },
+      {
+        "label": "E",
+        "text": "Higher"
+      }
+    ],
+    "answer": "A",
+    "explanation": "MFC lies above supply, so downward-sloping MRP meets it at a smaller quantity. Monopsony employment is below the competitive benchmark.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "Compared with a perfectly competitive factor-market outcome using the same curves, the monopsony wage is generally",
+    "options": [
+      {
+        "label": "A",
+        "text": "Zero"
+      },
+      {
+        "label": "B",
+        "text": "Lower"
+      },
+      {
+        "label": "C",
+        "text": "Equal to MFC"
+      },
+      {
+        "label": "D",
+        "text": "Higher"
+      },
+      {
+        "label": "E",
+        "text": "Always identical"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The monopsonist chooses a smaller employment level than the competitive benchmark. The upward-sloping supply curve then gives a lower wage.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "Which curve shows what wage must be paid to attract each quantity of labor?",
+    "options": [
+      {
+        "label": "A",
+        "text": "MRP"
+      },
+      {
+        "label": "B",
+        "text": "Labor supply"
+      },
+      {
+        "label": "C",
+        "text": "MFC"
+      },
+      {
+        "label": "D",
+        "text": "Marginal product"
+      },
+      {
+        "label": "E",
+        "text": "Output demand"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Labor supply records the wage workers require for each employment level. It is the supply-price curve.",
+    "reference": "PRD-4.D | PRD-4.D.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "Which curve shows the additional total labor cost of hiring one more worker?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Output demand"
+      },
+      {
+        "label": "B",
+        "text": "MRP"
+      },
+      {
+        "label": "C",
+        "text": "Average total cost"
+      },
+      {
+        "label": "D",
+        "text": "MFC"
+      },
+      {
+        "label": "E",
+        "text": "Labor supply"
+      }
+    ],
+    "answer": "D",
+    "explanation": "MFC is the increase in total factor cost from one more worker. It measures the full marginal expense of hiring.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "If total labor cost rises from $100 to $130 when one more worker is hired, MFC of that worker is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$130"
+      },
+      {
+        "label": "B",
+        "text": "$100"
+      },
+      {
+        "label": "C",
+        "text": "$230"
+      },
+      {
+        "label": "D",
+        "text": "$15"
+      },
+      {
+        "label": "E",
+        "text": "$30"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Total labor cost rises from $100 to $130. MFC is $30.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "If total labor cost rises from $180 to $225 when employment rises by one worker, MFC is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$5"
+      },
+      {
+        "label": "B",
+        "text": "$180"
+      },
+      {
+        "label": "C",
+        "text": "$225"
+      },
+      {
+        "label": "D",
+        "text": "$45"
+      },
+      {
+        "label": "E",
+        "text": "$405"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Total labor cost rises from $180 to $225. MFC is $45.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "If the new worker’s wage is $20 but the firm must raise wages for existing workers by a total of $8, MFC of hiring the new worker is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$28"
+      },
+      {
+        "label": "B",
+        "text": "$8"
+      },
+      {
+        "label": "C",
+        "text": "$12"
+      },
+      {
+        "label": "D",
+        "text": "$160"
+      },
+      {
+        "label": "E",
+        "text": "$20"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The new worker costs $20 and existing workers' pay increases $8. MFC is $28.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "If the new worker’s wage is $24 and existing workers together receive $12 in additional wages, MFC is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$36"
+      },
+      {
+        "label": "B",
+        "text": "$48"
+      },
+      {
+        "label": "C",
+        "text": "$2"
+      },
+      {
+        "label": "D",
+        "text": "$24"
+      },
+      {
+        "label": "E",
+        "text": "$12"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The new worker costs $24 and existing workers' pay increases $12. MFC is $36.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "The bar graph shows marginal factor cost rising across additional workers. This is consistent with",
+    "options": [
+      {
+        "label": "A",
+        "text": "MFC equal to wage for every worker"
+      },
+      {
+        "label": "B",
+        "text": "A horizontal labor supply to a competitive employer"
+      },
+      {
+        "label": "C",
+        "text": "An upward-sloping labor supply faced by a monopsonist"
+      },
+      {
+        "label": "D",
+        "text": "A perfectly elastic factor supply"
+      },
+      {
+        "label": "E",
+        "text": "MFC below the supply price"
+      }
+    ],
+    "answer": "C",
+    "explanation": "More workers require a higher wage along supply. Applying it to the workforce makes marginal labor cost rise.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "Illustrative marginal factor cost ($). Axes: Category and Quantity. Curves: Worker 1, Worker 2, Worker 3",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Category",
+        "yLabel": "Quantity",
+        "xMax": 90,
+        "yMax": 26.0,
+        "curves": [
+          {
+            "id": "Worker 1",
+            "label": "Worker 1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 9,
+                "y": 0
+              },
+              {
+                "x": 9,
+                "y": 12
+              },
+              {
+                "x": 21,
+                "y": 12
+              },
+              {
+                "x": 21,
+                "y": 0
+              }
+            ]
+          },
+          {
+            "id": "Worker 2",
+            "label": "Worker 2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 34,
+                "y": 0
+              },
+              {
+                "x": 34,
+                "y": 16
+              },
+              {
+                "x": 46,
+                "y": 16
+              },
+              {
+                "x": 46,
+                "y": 0
+              }
+            ]
+          },
+          {
+            "id": "Worker 3",
+            "label": "Worker 3",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 59,
+                "y": 0
+              },
+              {
+                "x": 59,
+                "y": 20
+              },
+              {
+                "x": 71,
+                "y": 20
+              },
+              {
+                "x": 71,
+                "y": 0
+              }
+            ]
+          }
+        ],
+        "points": [],
+        "guides": [],
+        "regions": [],
+        "annotations": [
+          {
+            "id": "note0",
+            "text": "12",
+            "x": 10,
+            "y": 16
+          },
+          {
+            "id": "note1",
+            "text": "16",
+            "x": 35,
+            "y": 20
+          },
+          {
+            "id": "note2",
+            "text": "20",
+            "x": 60,
+            "y": 24
+          }
+        ],
+        "caption": "Illustrative marginal factor cost ($)"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "The structure-comparison graph shows that the competitive employer’s MFC is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Below its wage line"
+      },
+      {
+        "label": "B",
+        "text": "Equal to MRP at all labor quantities"
+      },
+      {
+        "label": "C",
+        "text": "Upward sloping because it raises all wages"
+      },
+      {
+        "label": "D",
+        "text": "Equal to its horizontal wage line"
+      },
+      {
+        "label": "E",
+        "text": "Above its wage line"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A competitive buyer hires additional workers at an unchanged wage. Its MFC equals that wage.",
+    "reference": "PRD-4.D | PRD-4.C.1 prerequisite",
+    "graphDescription": "Schematic; only labeled numbers are quantitative. Axes: Labor and Wage / MRP / MFC. Curves: MRP, Wage = MFC; Schematic; only labeled numbers are quantitative. Axes: Labor and Wage / MRP / MFC. Curves: Supply, MFC, MRP",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Labor",
+        "yLabel": "Wage / MRP / MFC",
+        "xMax": 14,
+        "yMax": 65,
+        "curves": [
+          {
+            "id": "MRP",
+            "label": "MRP",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 12,
+                "y": 2
+              }
+            ]
+          },
+          {
+            "id": "Wage = MFC",
+            "label": "Wage = MFC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 13.16,
+                "y": 20.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 7.5,
+            "y": 20
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 7.5,
+            "y": 20,
+            "xLabel": "L*",
+            "yLabel": "W"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      },
+      {
+        "xLabel": "Labor",
+        "yLabel": "Wage / MRP / MFC",
+        "xMax": 11,
+        "yMax": 65,
+        "curves": [
+          {
+            "id": "Supply",
+            "label": "Supply",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 30.68
+              }
+            ]
+          },
+          {
+            "id": "MFC",
+            "label": "MFC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 51.36
+              }
+            ]
+          },
+          {
+            "id": "MRP",
+            "label": "MRP",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 10.34,
+                "y": 8.64
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 5,
+            "y": 30
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 5,
+            "y": 20
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 5,
+            "y": 30,
+            "xLabel": "Lm = 5",
+            "yLabel": "$30"
+          },
+          {
+            "id": "guide1",
+            "x": 5,
+            "y": 20,
+            "yLabel": "Wm = $20"
+          },
+          {
+            "id": "guide2",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332,
+            "xLabel": "Lc",
+            "yLabel": "Wc"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "The structure-comparison graph shows that the monopsonist’s MFC is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Above its labor-supply curve"
+      },
+      {
+        "label": "B",
+        "text": "Horizontal"
+      },
+      {
+        "label": "C",
+        "text": "Identical to MRP"
+      },
+      {
+        "label": "D",
+        "text": "Below labor supply"
+      },
+      {
+        "label": "E",
+        "text": "Equal to its labor-supply curve"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Under monopsony, attracting more labor raises existing workers' pay. MFC therefore exceeds the supply wage.",
+    "reference": "PRD-4.D | PRD-4.D.2",
+    "graphDescription": "Schematic; only labeled numbers are quantitative. Axes: Labor and Wage / MRP / MFC. Curves: Supply, MFC, MRP",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Labor",
+        "yLabel": "Wage / MRP / MFC",
+        "xMax": 11,
+        "yMax": 65,
+        "curves": [
+          {
+            "id": "Supply",
+            "label": "Supply",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 30.68
+              }
+            ]
+          },
+          {
+            "id": "MFC",
+            "label": "MFC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 51.36
+              }
+            ]
+          },
+          {
+            "id": "MRP",
+            "label": "MRP",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 10.34,
+                "y": 8.64
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 5,
+            "y": 30
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 5,
+            "y": 20
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 5,
+            "y": 30,
+            "xLabel": "Lm = 5",
+            "yLabel": "$30"
+          },
+          {
+            "id": "guide1",
+            "x": 5,
+            "y": 20,
+            "yLabel": "Wm = $20"
+          },
+          {
+            "id": "guide2",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332,
+            "xLabel": "Lc",
+            "yLabel": "Wc"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "If the labor-supply wage for 4 workers is $18, total labor cost is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$54"
+      },
+      {
+        "label": "B",
+        "text": "$22"
+      },
+      {
+        "label": "C",
+        "text": "$90"
+      },
+      {
+        "label": "D",
+        "text": "$18"
+      },
+      {
+        "label": "E",
+        "text": "$72"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Total labor cost is 4 x $18 = $72.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "If the wage required to hire 5 workers is $20, total labor cost is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$120"
+      },
+      {
+        "label": "B",
+        "text": "$80"
+      },
+      {
+        "label": "C",
+        "text": "$20"
+      },
+      {
+        "label": "D",
+        "text": "$100"
+      },
+      {
+        "label": "E",
+        "text": "$5"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Total labor cost is 5 x $20 = $100.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "A monopsonist hires workers as long as",
+    "options": [
+      {
+        "label": "A",
+        "text": "MFC exceeds MRP"
+      },
+      {
+        "label": "B",
+        "text": "Labor supply exceeds MFC"
+      },
+      {
+        "label": "C",
+        "text": "MRP exceeds MFC"
+      },
+      {
+        "label": "D",
+        "text": "The wage is above MFC"
+      },
+      {
+        "label": "E",
+        "text": "The wage exceeds MRP"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The worker's contribution to profit is MRP minus MFC. Employment is chosen where their continuous equality ends further profitable expansion.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "The supply price of labor means",
+    "options": [
+      {
+        "label": "A",
+        "text": "The supply wage at that labor quantity"
+      },
+      {
+        "label": "B",
+        "text": "The average cost of output"
+      },
+      {
+        "label": "C",
+        "text": "Marginal revenue product"
+      },
+      {
+        "label": "D",
+        "text": "The firm’s total revenue"
+      },
+      {
+        "label": "E",
+        "text": "The firm’s output price"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Labor supply shows the wage required to attract each quantity. Read it at the chosen employment level.",
+    "reference": "PRD-4.D | PRD-4.D.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "In monopsony, MFC differs from wage because",
+    "options": [
+      {
+        "label": "A",
+        "text": "Labor supply is horizontal"
+      },
+      {
+        "label": "B",
+        "text": "MRP is always above wage"
+      },
+      {
+        "label": "C",
+        "text": "Hiring more raises existing workers’ wage payments"
+      },
+      {
+        "label": "D",
+        "text": "MFC excludes the new worker’s wage"
+      },
+      {
+        "label": "E",
+        "text": "The firm never changes wages"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Hiring adds both the new worker's pay and wage increases for existing workers. Those combined expenses form MFC.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "At the profit-maximizing monopsony quantity, MRP is equal to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Zero"
+      },
+      {
+        "label": "B",
+        "text": "The wage necessarily"
+      },
+      {
+        "label": "C",
+        "text": "Labor supply at all points"
+      },
+      {
+        "label": "D",
+        "text": "Total labor cost"
+      },
+      {
+        "label": "E",
+        "text": "MFC"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Employment is chosen where MRP equals MFC on the standard graph. The wage is determined afterward from supply.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 31,
+    "difficulty": "Easy",
+    "prompt": "At a monopsonist’s profit-maximizing employment, the wage paid to workers is generally",
+    "options": [
+      {
+        "label": "A",
+        "text": "Below MFC"
+      },
+      {
+        "label": "B",
+        "text": "Zero"
+      },
+      {
+        "label": "C",
+        "text": "Above MRP"
+      },
+      {
+        "label": "D",
+        "text": "Equal to MFC"
+      },
+      {
+        "label": "E",
+        "text": "Above MFC"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Read the wage on supply at the chosen employment. Supply lies below MFC, so the paid wage is below marginal factor cost.",
+    "reference": "PRD-4.D | PRD-4.D.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 32,
+    "difficulty": "Easy",
+    "prompt": "Which statement best distinguishes monopsony from perfect competition in labor?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Monopsony: MFC above wage; competitive employer: MFC equals wage"
+      },
+      {
+        "label": "B",
+        "text": "A competitive employer sets the market wage"
+      },
+      {
+        "label": "C",
+        "text": "Both have MFC above wage"
+      },
+      {
+        "label": "D",
+        "text": "A monopsonist has MFC below wage"
+      },
+      {
+        "label": "E",
+        "text": "Both face identical horizontal labor supply"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A competitive buyer hires at a fixed wage, making MFC equal wage. A monopsonist raises wages to expand hiring, making MFC exceed wage.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 33,
+    "difficulty": "Easy",
+    "prompt": "Which statement best summarizes Topic 5.4?",
+    "options": [
+      {
+        "label": "A",
+        "text": "MFC is below the wage"
+      },
+      {
+        "label": "B",
+        "text": "A monopsonist hires where MRP=wage and MFC=wage"
+      },
+      {
+        "label": "C",
+        "text": "A monopsonist faces a horizontal labor supply"
+      },
+      {
+        "label": "D",
+        "text": "MRP = MFC; wage read from upward-sloping supply"
+      },
+      {
+        "label": "E",
+        "text": "The firm ignores marginal revenue product"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Monopsony combines upward-sloping labor supply with MFC above wage. Employment follows MRP = MFC, and the wage is read from supply.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "Using the table, how many workers should the monopsonist hire?\n| Workers | Wage | MFC | MRP |\n| 1 | $12 | $12 | $60 |\n| 2 | $14 | $16 | $50 |\n| 3 | $16 | $20 | $40 |\n| 4 | $18 | $24 | $32 |\n| 5 | $20 | $28 | $24 |\n| 6 | $22 | $32 | $16 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "2 workers"
+      },
+      {
+        "label": "B",
+        "text": "6 workers"
+      },
+      {
+        "label": "C",
+        "text": "4 workers"
+      },
+      {
+        "label": "D",
+        "text": "3 workers"
+      },
+      {
+        "label": "E",
+        "text": "5 workers"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Worker 4 adds $32 of revenue and $24 of cost. Worker 5 adds $24 but costs $28, so hire four workers.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "Using the table, what wage should the monopsonist pay after choosing its profit-maximizing employment\nlevel?\n| Workers | Wage | MFC | MRP |\n| 1 | $12 | $12 | $60 |\n| 2 | $14 | $16 | $50 |\n| 3 | $16 | $20 | $40 |\n| 4 | $18 | $24 | $32 |\n| 5 | $20 | $28 | $24 |\n| 6 | $22 | $32 | $16 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$32"
+      },
+      {
+        "label": "B",
+        "text": "$24"
+      },
+      {
+        "label": "C",
+        "text": "$18"
+      },
+      {
+        "label": "D",
+        "text": "$20"
+      },
+      {
+        "label": "E",
+        "text": "$16"
+      }
+    ],
+    "answer": "C",
+    "explanation": "At the chosen four workers, labor supply lists wage $18. Pay that wage to attract the workforce.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "Using the table, what is the marginal factor cost of the last worker hired?\n| Workers | Wage | MFC | MRP |\n| 1 | $12 | $12 | $60 |\n| 2 | $14 | $16 | $50 |\n| 3 | $16 | $20 | $40 |\n| 4 | $18 | $24 | $32 |\n| 5 | $20 | $28 | $24 |\n| 6 | $22 | $32 | $16 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$20"
+      },
+      {
+        "label": "B",
+        "text": "$18"
+      },
+      {
+        "label": "C",
+        "text": "$24"
+      },
+      {
+        "label": "D",
+        "text": "$32"
+      },
+      {
+        "label": "E",
+        "text": "$28"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The last worker hired is worker 4. The table gives MFC of $24 for that worker.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "Using the table, how many workers should the monopsonist hire?\n| Workers | Wage | MFC | MRP |\n| 1 | $10 | $10 | $55 |\n| 2 | $12 | $14 | $47 |\n| 3 | $14 | $18 | $39 |\n| 4 | $16 | $22 | $31 |\n| 5 | $18 | $26 | $23 |\n| 6 | $20 | $30 | $15 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "6 workers"
+      },
+      {
+        "label": "B",
+        "text": "4 workers"
+      },
+      {
+        "label": "C",
+        "text": "5 workers"
+      },
+      {
+        "label": "D",
+        "text": "2 workers"
+      },
+      {
+        "label": "E",
+        "text": "3 workers"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Worker 4 adds $31 of revenue and $22 of cost. Worker 5 adds $23 but costs $26, so hire four workers.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "Using the table, what wage should the monopsonist pay after choosing its profit-maximizing employment\nlevel?\n| Workers | Wage | MFC | MRP |\n| 1 | $10 | $10 | $55 |\n| 2 | $12 | $14 | $47 |\n| 3 | $14 | $18 | $39 |\n| 4 | $16 | $22 | $31 |\n| 5 | $18 | $26 | $23 |\n| 6 | $20 | $30 | $15 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$31"
+      },
+      {
+        "label": "B",
+        "text": "$16"
+      },
+      {
+        "label": "C",
+        "text": "$22"
+      },
+      {
+        "label": "D",
+        "text": "$14"
+      },
+      {
+        "label": "E",
+        "text": "$18"
+      }
+    ],
+    "answer": "B",
+    "explanation": "At four workers, labor supply gives wage $16. That is the wage paid.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "Using the table, what is the marginal factor cost of the last worker hired?\n| Workers | Wage | MFC | MRP |\n| 1 | $10 | $10 | $55 |\n| 2 | $12 | $14 | $47 |\n| 3 | $14 | $18 | $39 |\n| 4 | $16 | $22 | $31 |\n| 5 | $18 | $26 | $23 |\n| 6 | $20 | $30 | $15 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$31"
+      },
+      {
+        "label": "B",
+        "text": "$26"
+      },
+      {
+        "label": "C",
+        "text": "$22"
+      },
+      {
+        "label": "D",
+        "text": "$18"
+      },
+      {
+        "label": "E",
+        "text": "$16"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The last worker hired is worker 4. Its MFC is $22.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "Using the table, how many workers should the monopsonist hire?\n| Workers | Wage | MFC | MRP |\n| 1 | $15 | $15 | $70 |\n| 2 | $17 | $19 | $58 |\n| 3 | $19 | $23 | $46 |\n| 4 | $21 | $27 | $34 |\n| 5 | $23 | $31 | $22 |\n| 6 | $25 | $35 | $10 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "5 workers"
+      },
+      {
+        "label": "B",
+        "text": "4 workers"
+      },
+      {
+        "label": "C",
+        "text": "3 workers"
+      },
+      {
+        "label": "D",
+        "text": "2 workers"
+      },
+      {
+        "label": "E",
+        "text": "6 workers"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Worker 4 adds $34 of revenue and $27 of cost. Worker 5 adds $22 but costs $31, so hire four workers.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "Using the table, what wage should the monopsonist pay after choosing its profit-maximizing employment\nlevel?\n| Workers | Wage | MFC | MRP |\n| 1 | $15 | $15 | $70 |\n| 2 | $17 | $19 | $58 |\n| 3 | $19 | $23 | $46 |\n| 4 | $21 | $27 | $34 |\n| 5 | $23 | $31 | $22 |\n| 6 | $25 | $35 | $10 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$34"
+      },
+      {
+        "label": "B",
+        "text": "$21"
+      },
+      {
+        "label": "C",
+        "text": "$23"
+      },
+      {
+        "label": "D",
+        "text": "$27"
+      },
+      {
+        "label": "E",
+        "text": "$19"
+      }
+    ],
+    "answer": "B",
+    "explanation": "At four workers, labor supply gives wage $21. That is the wage paid.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "Using the table, what is the marginal factor cost of the last worker hired?\n| Workers | Wage | MFC | MRP |\n| 1 | $15 | $15 | $70 |\n| 2 | $17 | $19 | $58 |\n| 3 | $19 | $23 | $46 |\n| 4 | $21 | $27 | $34 |\n| 5 | $23 | $31 | $22 |\n| 6 | $25 | $35 | $10 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$23"
+      },
+      {
+        "label": "B",
+        "text": "$27"
+      },
+      {
+        "label": "C",
+        "text": "$34"
+      },
+      {
+        "label": "D",
+        "text": "$21"
+      },
+      {
+        "label": "E",
+        "text": "$31"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The last worker hired is worker 4. Its MFC is $27.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "Using the table, how many workers should the monopsonist hire?\n| Workers | Wage | MFC | MRP |\n| 1 | $8 | $8 | $66 |\n| 2 | $11 | $14 | $54 |\n| 3 | $14 | $20 | $42 |\n| 4 | $17 | $26 | $30 |\n| 5 | $20 | $32 | $18 |\n| 6 | $23 | $38 | $6 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "3 workers"
+      },
+      {
+        "label": "B",
+        "text": "2 workers"
+      },
+      {
+        "label": "C",
+        "text": "5 workers"
+      },
+      {
+        "label": "D",
+        "text": "6 workers"
+      },
+      {
+        "label": "E",
+        "text": "4 workers"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Worker 4 adds $30 of revenue and $26 of cost. Worker 5 adds $18 but costs $32, so hire four workers.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "Using the table, what wage should the monopsonist pay after choosing its profit-maximizing employment\nlevel?\n| Workers | Wage | MFC | MRP |\n| 1 | $8 | $8 | $66 |\n| 2 | $11 | $14 | $54 |\n| 3 | $14 | $20 | $42 |\n| 4 | $17 | $26 | $30 |\n| 5 | $20 | $32 | $18 |\n| 6 | $23 | $38 | $6 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$26"
+      },
+      {
+        "label": "B",
+        "text": "$30"
+      },
+      {
+        "label": "C",
+        "text": "$14"
+      },
+      {
+        "label": "D",
+        "text": "$17"
+      },
+      {
+        "label": "E",
+        "text": "$20"
+      }
+    ],
+    "answer": "D",
+    "explanation": "At four workers, labor supply gives wage $17. That is the wage paid.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "Using the table, what is the marginal factor cost of the last worker hired?\n| Workers | Wage | MFC | MRP |\n| 1 | $8 | $8 | $66 |\n| 2 | $11 | $14 | $54 |\n| 3 | $14 | $20 | $42 |\n| 4 | $17 | $26 | $30 |\n| 5 | $20 | $32 | $18 |\n| 6 | $23 | $38 | $6 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$30"
+      },
+      {
+        "label": "B",
+        "text": "$26"
+      },
+      {
+        "label": "C",
+        "text": "$32"
+      },
+      {
+        "label": "D",
+        "text": "$17"
+      },
+      {
+        "label": "E",
+        "text": "$20"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The last worker hired is worker 4. Its MFC is $26.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "A monopsonist pays $18 when it hires 4 workers and must pay $20 to all workers when it hires 5. What is the MFC of the additional worker?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$72"
+      },
+      {
+        "label": "B",
+        "text": "$28"
+      },
+      {
+        "label": "C",
+        "text": "$20"
+      },
+      {
+        "label": "D",
+        "text": "$82"
+      },
+      {
+        "label": "E",
+        "text": "$100"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Total labor cost rises from $72 to $100. The added worker's MFC is $28.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "A monopsonist pays $20 when it hires 5 workers and must pay $22 to all workers when it hires 6. What is the MFC of the additional worker?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$112"
+      },
+      {
+        "label": "B",
+        "text": "$22"
+      },
+      {
+        "label": "C",
+        "text": "$100"
+      },
+      {
+        "label": "D",
+        "text": "$132"
+      },
+      {
+        "label": "E",
+        "text": "$32"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Total labor cost rises from $100 to $132. The added worker's MFC is $32.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "A monopsonist pays $16 when it hires 3 workers and must pay $19 to all workers when it hires 4. What is the MFC of the additional worker?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$76"
+      },
+      {
+        "label": "B",
+        "text": "$19"
+      },
+      {
+        "label": "C",
+        "text": "$48"
+      },
+      {
+        "label": "D",
+        "text": "$28"
+      },
+      {
+        "label": "E",
+        "text": "$60"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Total labor cost rises from $48 to $76. The added worker's MFC is $28.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "A monopsonist pays $22 when it hires 6 workers and must pay $24 to all workers when it hires 7. What is the MFC of the additional worker?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$168"
+      },
+      {
+        "label": "B",
+        "text": "$132"
+      },
+      {
+        "label": "C",
+        "text": "$146"
+      },
+      {
+        "label": "D",
+        "text": "$36"
+      },
+      {
+        "label": "E",
+        "text": "$24"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Total labor cost rises from $132 to $168. The added worker's MFC is $36.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "A monopsonist pays $14 when it hires 2 workers and must pay $17 to all workers when it hires 3. What is the MFC of the additional worker?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$51"
+      },
+      {
+        "label": "B",
+        "text": "$23"
+      },
+      {
+        "label": "C",
+        "text": "$17"
+      },
+      {
+        "label": "D",
+        "text": "$28"
+      },
+      {
+        "label": "E",
+        "text": "$37"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Total labor cost rises from $28 to $51. The added worker's MFC is $23.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "A monopsonist pays $24 when it hires 7 workers and must pay $26 to all workers when it hires 8. What is the MFC of the additional worker?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$208"
+      },
+      {
+        "label": "B",
+        "text": "$26"
+      },
+      {
+        "label": "C",
+        "text": "$184"
+      },
+      {
+        "label": "D",
+        "text": "$168"
+      },
+      {
+        "label": "E",
+        "text": "$40"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Total labor cost rises from $168 to $208. The added worker's MFC is $40.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "A monopsonist pays $25 when it hires 5 workers and must pay $28 to all workers when it hires 6. What is the MFC of the additional worker?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$28"
+      },
+      {
+        "label": "B",
+        "text": "$43"
+      },
+      {
+        "label": "C",
+        "text": "$125"
+      },
+      {
+        "label": "D",
+        "text": "$143"
+      },
+      {
+        "label": "E",
+        "text": "$168"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Total labor cost rises from $125 to $168. The added worker's MFC is $43.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "A monopsonist pays $26 when it hires 8 workers and must pay $29 to all workers when it hires 9. What is the MFC of the additional worker?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$29"
+      },
+      {
+        "label": "B",
+        "text": "$261"
+      },
+      {
+        "label": "C",
+        "text": "$208"
+      },
+      {
+        "label": "D",
+        "text": "$53"
+      },
+      {
+        "label": "E",
+        "text": "$235"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Total labor cost rises from $208 to $261. The added worker's MFC is $53.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "On the base graph, why is the wage read below the MRP=MFC intersection?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Labor supply is horizontal"
+      },
+      {
+        "label": "B",
+        "text": "Hire at MRP = MFC; pay the supply wage"
+      },
+      {
+        "label": "C",
+        "text": "The firm pays workers their MRP"
+      },
+      {
+        "label": "D",
+        "text": "The wage must exceed MFC"
+      },
+      {
+        "label": "E",
+        "text": "The wage is determined by MFC alone"
+      }
+    ],
+    "answer": "B",
+    "explanation": "After finding Lm from MRP and MFC, read the wage on labor supply. Supply determines what must be paid to attract Lm workers.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "Schematic; only labeled numbers are quantitative. Axes: Labor and Wage / MRP / MFC. Curves: Supply, MFC, MRP",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Labor",
+        "yLabel": "Wage / MRP / MFC",
+        "xMax": 11,
+        "yMax": 65,
+        "curves": [
+          {
+            "id": "Supply",
+            "label": "Supply",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 30.68
+              }
+            ]
+          },
+          {
+            "id": "MFC",
+            "label": "MFC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 51.36
+              }
+            ]
+          },
+          {
+            "id": "MRP",
+            "label": "MRP",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 10.34,
+                "y": 8.64
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 5,
+            "y": 30
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 5,
+            "y": 20
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 5,
+            "y": 30,
+            "xLabel": "Lm = 5",
+            "yLabel": "$30"
+          },
+          {
+            "id": "guide1",
+            "x": 5,
+            "y": 20,
+            "yLabel": "Wm = $20"
+          },
+          {
+            "id": "guide2",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332,
+            "xLabel": "Lc",
+            "yLabel": "Wc"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "On the comparison graph, why is competitive employment to the right of monopsony employment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Monopsonists use MRP=wage"
+      },
+      {
+        "label": "B",
+        "text": "Competitive firms ignore MRP"
+      },
+      {
+        "label": "C",
+        "text": "Competitive hiring uses wage; monopsony uses higher MFC"
+      },
+      {
+        "label": "D",
+        "text": "The monopsony supply curve is horizontal"
+      },
+      {
+        "label": "E",
+        "text": "Competitive employers face MFC above supply"
+      }
+    ],
+    "answer": "C",
+    "explanation": "MFC is above supply at positive employment. It meets downward-sloping MRP sooner, giving less hiring than the competitive benchmark.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "Schematic; only labeled numbers are quantitative. Axes: Labor and Wage / MRP / MFC. Curves: Supply, MFC, MRP",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Labor",
+        "yLabel": "Wage / MRP / MFC",
+        "xMax": 11,
+        "yMax": 65,
+        "curves": [
+          {
+            "id": "Supply",
+            "label": "Supply",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 30.68
+              }
+            ]
+          },
+          {
+            "id": "MFC",
+            "label": "MFC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 51.36
+              }
+            ]
+          },
+          {
+            "id": "MRP",
+            "label": "MRP",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 10.34,
+                "y": 8.64
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 5,
+            "y": 30
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 5,
+            "y": 20
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 5,
+            "y": 30,
+            "xLabel": "Lm = 5",
+            "yLabel": "$30"
+          },
+          {
+            "id": "guide1",
+            "x": 5,
+            "y": 20,
+            "yLabel": "Wm = $20"
+          },
+          {
+            "id": "guide2",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332,
+            "xLabel": "Lc",
+            "yLabel": "Wc"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "On the comparison graph, the monopsony wage is lower because",
+    "options": [
+      {
+        "label": "A",
+        "text": "MRP is horizontal"
+      },
+      {
+        "label": "B",
+        "text": "MFC is below supply"
+      },
+      {
+        "label": "C",
+        "text": "Competitive firms set a lower wage"
+      },
+      {
+        "label": "D",
+        "text": "Lower employment implies a lower supply wage"
+      },
+      {
+        "label": "E",
+        "text": "The monopsonist pays MFC as the wage"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The upward-sloping supply curve gives the wage for the selected labor quantity. It determines the monopsonist's paid wage.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "Schematic; only labeled numbers are quantitative. Axes: Labor and Wage / MRP / MFC. Curves: Supply, MFC, MRP",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Labor",
+        "yLabel": "Wage / MRP / MFC",
+        "xMax": 11,
+        "yMax": 65,
+        "curves": [
+          {
+            "id": "Supply",
+            "label": "Supply",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 30.68
+              }
+            ]
+          },
+          {
+            "id": "MFC",
+            "label": "MFC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 51.36
+              }
+            ]
+          },
+          {
+            "id": "MRP",
+            "label": "MRP",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 10.34,
+                "y": 8.64
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 5,
+            "y": 30
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 5,
+            "y": 20
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 5,
+            "y": 30,
+            "xLabel": "Lm = 5",
+            "yLabel": "$30"
+          },
+          {
+            "id": "guide1",
+            "x": 5,
+            "y": 20,
+            "yLabel": "Wm = $20"
+          },
+          {
+            "id": "guide2",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332,
+            "xLabel": "Lc",
+            "yLabel": "Wc"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "On the MRP-MFC graph, if the firm is hiring fewer workers than Lm, it should generally",
+    "options": [
+      {
+        "label": "A",
+        "text": "Raise MFC deliberately"
+      },
+      {
+        "label": "B",
+        "text": "Keep employment unchanged because wage equals MFC"
+      },
+      {
+        "label": "C",
+        "text": "Decrease employment"
+      },
+      {
+        "label": "D",
+        "text": "Ignore MRP"
+      },
+      {
+        "label": "E",
+        "text": "Increase employment because MRP exceeds MFC"
+      }
+    ],
+    "answer": "E",
+    "explanation": "To the left of the intersection, MRP exceeds MFC. Additional hiring increases profit.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "Schematic; only labeled numbers are quantitative. Axes: Labor and Wage / MRP / MFC. Curves: Supply, MFC, MRP",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Labor",
+        "yLabel": "Wage / MRP / MFC",
+        "xMax": 11,
+        "yMax": 65,
+        "curves": [
+          {
+            "id": "Supply",
+            "label": "Supply",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 30.68
+              }
+            ]
+          },
+          {
+            "id": "MFC",
+            "label": "MFC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 51.36
+              }
+            ]
+          },
+          {
+            "id": "MRP",
+            "label": "MRP",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 10.34,
+                "y": 8.64
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 5,
+            "y": 30
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 5,
+            "y": 20
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 5,
+            "y": 30,
+            "xLabel": "Lm = 5",
+            "yLabel": "$30"
+          },
+          {
+            "id": "guide1",
+            "x": 5,
+            "y": 20,
+            "yLabel": "Wm = $20"
+          },
+          {
+            "id": "guide2",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332,
+            "xLabel": "Lc",
+            "yLabel": "Wc"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "On the MRP-MFC graph, if the firm is hiring beyond Lm, it should generally",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increase employment"
+      },
+      {
+        "label": "B",
+        "text": "Set MFC equal to wage"
+      },
+      {
+        "label": "C",
+        "text": "Ignore marginal analysis"
+      },
+      {
+        "label": "D",
+        "text": "Keep employment fixed"
+      },
+      {
+        "label": "E",
+        "text": "Decrease employment because MFC exceeds MRP"
+      }
+    ],
+    "answer": "E",
+    "explanation": "To the right of the intersection, MFC exceeds MRP. Additional hiring reduces profit.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "Schematic; only labeled numbers are quantitative. Axes: Labor and Wage / MRP / MFC. Curves: Supply, MFC, MRP",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Labor",
+        "yLabel": "Wage / MRP / MFC",
+        "xMax": 11,
+        "yMax": 65,
+        "curves": [
+          {
+            "id": "Supply",
+            "label": "Supply",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 30.68
+              }
+            ]
+          },
+          {
+            "id": "MFC",
+            "label": "MFC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 51.36
+              }
+            ]
+          },
+          {
+            "id": "MRP",
+            "label": "MRP",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 10.34,
+                "y": 8.64
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 5,
+            "y": 30
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 5,
+            "y": 20
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 5,
+            "y": 30,
+            "xLabel": "Lm = 5",
+            "yLabel": "$30"
+          },
+          {
+            "id": "guide1",
+            "x": 5,
+            "y": 20,
+            "yLabel": "Wm = $20"
+          },
+          {
+            "id": "guide2",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332,
+            "xLabel": "Lc",
+            "yLabel": "Wc"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "The supply-and-MFC graph shows a widening vertical gap as labor rises. What does the gap represent conceptually?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumer surplus"
+      },
+      {
+        "label": "B",
+        "text": "The firm’s output price"
+      },
+      {
+        "label": "C",
+        "text": "Wage increases paid to existing workers"
+      },
+      {
+        "label": "D",
+        "text": "A fixed cost"
+      },
+      {
+        "label": "E",
+        "text": "The worker’s marginal product"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Raising the wage to attract a new worker also raises existing workers' pay. MFC includes both expenses.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "Schematic; only labeled numbers are quantitative. Axes: Labor and Wage / MRP / MFC. Curves: Supply, MFC, MRP",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Labor",
+        "yLabel": "Wage / MRP / MFC",
+        "xMax": 11,
+        "yMax": 65,
+        "curves": [
+          {
+            "id": "Supply",
+            "label": "Supply",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 30.68
+              }
+            ]
+          },
+          {
+            "id": "MFC",
+            "label": "MFC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 51.36
+              }
+            ]
+          },
+          {
+            "id": "MRP",
+            "label": "MRP",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 10.34,
+                "y": 8.64
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 5,
+            "y": 30
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 5,
+            "y": 20
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 5,
+            "y": 30,
+            "xLabel": "Lm = 5",
+            "yLabel": "$30"
+          },
+          {
+            "id": "guide1",
+            "x": 5,
+            "y": 20,
+            "yLabel": "Wm = $20"
+          },
+          {
+            "id": "guide2",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332,
+            "xLabel": "Lc",
+            "yLabel": "Wc"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "The MFC bar chart is constructed from changes in",
+    "options": [
+      {
+        "label": "A",
+        "text": "Total product"
+      },
+      {
+        "label": "B",
+        "text": "Output price"
+      },
+      {
+        "label": "C",
+        "text": "Average product"
+      },
+      {
+        "label": "D",
+        "text": "Total labor cost"
+      },
+      {
+        "label": "E",
+        "text": "Total revenue"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Subtract total labor cost before the hire from cost afterward. The difference is marginal factor cost.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "Which visual feature is characteristic of monopsony rather than perfect competition in labor?",
+    "options": [
+      {
+        "label": "A",
+        "text": "MFC equals a horizontal wage line"
+      },
+      {
+        "label": "B",
+        "text": "The firm takes the wage as given"
+      },
+      {
+        "label": "C",
+        "text": "MFC lies above an upward-sloping labor-supply curve"
+      },
+      {
+        "label": "D",
+        "text": "Every worker can be hired at the same wage"
+      },
+      {
+        "label": "E",
+        "text": "Labor supply to the firm is horizontal"
+      }
+    ],
+    "answer": "C",
+    "explanation": "MFC exceeds wage because the additional hire requires higher pay for existing workers. This is the standard monopsony cost relationship.",
+    "reference": "PRD-4.D | PRD-4.D.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "A monopsonist has MRP=$44 and MFC=$38 for the next worker. What should it do?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Reduce employment"
+      },
+      {
+        "label": "B",
+        "text": "Pay the worker $44 regardless of supply"
+      },
+      {
+        "label": "C",
+        "text": "Do not hire the worker"
+      },
+      {
+        "label": "D",
+        "text": "Set MFC equal to the wage"
+      },
+      {
+        "label": "E",
+        "text": "Hire the worker"
+      }
+    ],
+    "answer": "E",
+    "explanation": "MRP exceeds MFC by $6. The additional worker raises profit by $6.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "A monopsonist has MRP=$30 and MFC=$35 for the next worker. What should it do?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Hire the worker"
+      },
+      {
+        "label": "B",
+        "text": "Increase employment indefinitely"
+      },
+      {
+        "label": "C",
+        "text": "Ignore MFC"
+      },
+      {
+        "label": "D",
+        "text": "Do not hire the worker"
+      },
+      {
+        "label": "E",
+        "text": "Pay the worker $35 as a rule"
+      }
+    ],
+    "answer": "D",
+    "explanation": "MFC is greater than MRP. The worker would cost more than the revenue generated and reduce profit.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "The new worker is paid $24, and hiring the worker forces a $2 raise for each of 5 existing workers. MFC is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$34"
+      },
+      {
+        "label": "B",
+        "text": "$120"
+      },
+      {
+        "label": "C",
+        "text": "$24"
+      },
+      {
+        "label": "D",
+        "text": "$26"
+      },
+      {
+        "label": "E",
+        "text": "$10"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The new worker is paid $24, and five existing workers each receive an extra $2. MFC is $24 + 5 x $2 = $34.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "The new worker is paid $30, and hiring the worker forces a $1 raise for each of 8 existing workers. MFC is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$240"
+      },
+      {
+        "label": "B",
+        "text": "$31"
+      },
+      {
+        "label": "C",
+        "text": "$38"
+      },
+      {
+        "label": "D",
+        "text": "$8"
+      },
+      {
+        "label": "E",
+        "text": "$30"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The new worker's $30 wage plus $8 of existing-worker increases gives MFC = $38.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "The new worker earns $28 and existing workers together receive $15 more because of the higher wage. MFC is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$43"
+      },
+      {
+        "label": "B",
+        "text": "$15"
+      },
+      {
+        "label": "C",
+        "text": "$28"
+      },
+      {
+        "label": "D",
+        "text": "$420"
+      },
+      {
+        "label": "E",
+        "text": "$13"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The new worker's $28 wage plus $15 of existing-worker increases gives MFC = $43.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "If the monopsony wage is $18 and MFC at the chosen employment is $30, the difference between MFC and wage is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$12"
+      },
+      {
+        "label": "B",
+        "text": "$18"
+      },
+      {
+        "label": "C",
+        "text": "$2"
+      },
+      {
+        "label": "D",
+        "text": "$30"
+      },
+      {
+        "label": "E",
+        "text": "$48"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The wage difference is $30 - $18 = $12.",
+    "reference": "PRD-4.D | PRD-4.D.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "If the competitive wage would be $26 but the monopsony wage is $20, the monopsony wage is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$6 lower"
+      },
+      {
+        "label": "B",
+        "text": "Unchanged"
+      },
+      {
+        "label": "C",
+        "text": "$26 lower"
+      },
+      {
+        "label": "D",
+        "text": "$6 higher"
+      },
+      {
+        "label": "E",
+        "text": "$20 lower"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The wage difference is $26 - $20 = $6.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "If competitive employment would be 80 workers but monopsony employment is 60, monopsony employs",
+    "options": [
+      {
+        "label": "A",
+        "text": "20 more workers"
+      },
+      {
+        "label": "B",
+        "text": "The same number"
+      },
+      {
+        "label": "C",
+        "text": "20 fewer workers"
+      },
+      {
+        "label": "D",
+        "text": "60 fewer workers"
+      },
+      {
+        "label": "E",
+        "text": "80 fewer workers"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The employment difference is 80 - 60 = 20 workers.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "Why is a monopsonist’s labor-supply curve upward sloping?",
+    "options": [
+      {
+        "label": "A",
+        "text": "MFC is below wage"
+      },
+      {
+        "label": "B",
+        "text": "Workers accept lower wages as employment rises"
+      },
+      {
+        "label": "C",
+        "text": "MRP rises automatically with employment"
+      },
+      {
+        "label": "D",
+        "text": "More hiring requires a higher offered wage"
+      },
+      {
+        "label": "E",
+        "text": "The firm can hire any number at one wage"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Upward-sloping labor supply means a larger workforce requires a higher wage. The monopsonist cannot expand hiring at an unchanged supply price.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 71,
+    "difficulty": "Medium",
+    "prompt": "Why does a monopsonist not pay the MFC value as the wage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "MFC measures output price"
+      },
+      {
+        "label": "B",
+        "text": "MFC is incremental total cost; wage is per worker"
+      },
+      {
+        "label": "C",
+        "text": "MFC is always below wage"
+      },
+      {
+        "label": "D",
+        "text": "Labor supply is horizontal"
+      },
+      {
+        "label": "E",
+        "text": "The wage equals MRP by rule"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Supply gives the wage paid at the chosen employment. MFC also includes the effect of raising existing workers' wages.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 72,
+    "difficulty": "Medium",
+    "prompt": "A firm chooses 5 workers where MRP=MFC=$30, while the labor-supply curve at 5 workers gives a wage of $20. The firm should pay",
+    "options": [
+      {
+        "label": "A",
+        "text": "$20"
+      },
+      {
+        "label": "B",
+        "text": "$30"
+      },
+      {
+        "label": "C",
+        "text": "$10"
+      },
+      {
+        "label": "D",
+        "text": "$5"
+      },
+      {
+        "label": "E",
+        "text": "$50"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Use MRP = MFC to choose employment. Use supply at that employment to choose the wage.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 73,
+    "difficulty": "Medium",
+    "prompt": "Which condition would signal that an employer is not behaving like a perfectly competitive factor-market firm?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Another worker raises existing workers’ wages too"
+      },
+      {
+        "label": "B",
+        "text": "It takes the market wage as given"
+      },
+      {
+        "label": "C",
+        "text": "It faces horizontal labor supply"
+      },
+      {
+        "label": "D",
+        "text": "It can hire another worker without changing other workers’ wages"
+      },
+      {
+        "label": "E",
+        "text": "Its MFC equals the wage"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The cost of hiring includes wage increases beyond the new worker's pay. MFC is therefore above wage.",
+    "reference": "PRD-4.D | PRD-4.D.2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "Using the table, how many workers maximize profit for the monopsonist?\n| Workers | Wage | Total Labor Cost | MFC | MRP |\n| 1 | $12 | $12 | $12 | $74 |\n| 2 | $15 | $30 | $18 | $62 |\n| 3 | $18 | $54 | $24 | $50 |\n| 4 | $21 | $84 | $30 | $38 |\n| 5 | $24 | $120 | $36 | $26 |\n| 6 | $27 | $162 | $42 | $14 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "2 workers"
+      },
+      {
+        "label": "B",
+        "text": "3 workers"
+      },
+      {
+        "label": "C",
+        "text": "5 workers"
+      },
+      {
+        "label": "D",
+        "text": "4 workers"
+      },
+      {
+        "label": "E",
+        "text": "1 worker"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Worker 4 adds $38 and costs $30. Worker 5 adds $26 but costs $36, so four workers maximize profit.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "Using the table, what wage does the monopsonist pay at its profit-maximizing employment?\n| Workers | Wage | Total Labor Cost | MFC | MRP |\n| 1 | $12 | $12 | $12 | $74 |\n| 2 | $15 | $30 | $18 | $62 |\n| 3 | $18 | $54 | $24 | $50 |\n| 4 | $21 | $84 | $30 | $38 |\n| 5 | $24 | $120 | $36 | $26 |\n| 6 | $27 | $162 | $42 | $14 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$24"
+      },
+      {
+        "label": "B",
+        "text": "$30"
+      },
+      {
+        "label": "C",
+        "text": "$18"
+      },
+      {
+        "label": "D",
+        "text": "$38"
+      },
+      {
+        "label": "E",
+        "text": "$21"
+      }
+    ],
+    "answer": "E",
+    "explanation": "At four workers, the supply schedule gives wage $21. That is the monopsonist's paid wage.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "Using the supplied table, how many workers would be employed if the hiring rule instead compared MRP directly\nwith the supply wage as in a competitive factor market?\n| Workers | Wage | Total Labor Cost | MFC | MRP |\n| 1 | $12 | $12 | $12 | $74 |\n| 2 | $15 | $30 | $18 | $62 |\n| 3 | $18 | $54 | $24 | $50 |\n| 4 | $21 | $84 | $30 | $38 |\n| 5 | $24 | $120 | $36 | $26 |\n| 6 | $27 | $162 | $42 | $14 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "4 workers"
+      },
+      {
+        "label": "B",
+        "text": "1 worker"
+      },
+      {
+        "label": "C",
+        "text": "5 workers"
+      },
+      {
+        "label": "D",
+        "text": "3 workers"
+      },
+      {
+        "label": "E",
+        "text": "2 workers"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Comparing MRP with supply wage gives five workers: the fifth has $26 MRP and $24 wage, while the sixth has $14 MRP and $27 wage.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "Using the table, what is the employment gap between the competitive benchmark and the monopsony\noutcome?\n| Workers | Wage | Total Labor Cost | MFC | MRP |\n| 1 | $12 | $12 | $12 | $74 |\n| 2 | $15 | $30 | $18 | $62 |\n| 3 | $18 | $54 | $24 | $50 |\n| 4 | $21 | $84 | $30 | $38 |\n| 5 | $24 | $120 | $36 | $26 |\n| 6 | $27 | $162 | $42 | $14 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "4 workers"
+      },
+      {
+        "label": "B",
+        "text": "2 workers"
+      },
+      {
+        "label": "C",
+        "text": "5 workers"
+      },
+      {
+        "label": "D",
+        "text": "0 workers"
+      },
+      {
+        "label": "E",
+        "text": "1 worker"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The benchmark hires five workers while monopsony hires four. The employment gap is one worker.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "Using the table, how many workers maximize profit for the monopsonist?\n| Workers | Wage | Total Labor Cost | MFC | MRP |\n| 1 | $10 | $10 | $10 | $68 |\n| 2 | $13 | $26 | $16 | $57 |\n| 3 | $16 | $48 | $22 | $46 |\n| 4 | $19 | $76 | $28 | $35 |\n| 5 | $22 | $110 | $34 | $24 |\n| 6 | $25 | $150 | $40 | $13 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "5 workers"
+      },
+      {
+        "label": "B",
+        "text": "3 workers"
+      },
+      {
+        "label": "C",
+        "text": "2 workers"
+      },
+      {
+        "label": "D",
+        "text": "1 worker"
+      },
+      {
+        "label": "E",
+        "text": "4 workers"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Worker 4 adds $35 and costs $28. Worker 5 adds $24 but costs $34, so four workers maximize profit.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "Using the table, what wage does the monopsonist pay at its profit-maximizing employment?\n| Workers | Wage | Total Labor Cost | MFC | MRP |\n| 1 | $10 | $10 | $10 | $68 |\n| 2 | $13 | $26 | $16 | $57 |\n| 3 | $16 | $48 | $22 | $46 |\n| 4 | $19 | $76 | $28 | $35 |\n| 5 | $22 | $110 | $34 | $24 |\n| 6 | $25 | $150 | $40 | $13 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$22"
+      },
+      {
+        "label": "B",
+        "text": "$28"
+      },
+      {
+        "label": "C",
+        "text": "$19"
+      },
+      {
+        "label": "D",
+        "text": "$35"
+      },
+      {
+        "label": "E",
+        "text": "$16"
+      }
+    ],
+    "answer": "C",
+    "explanation": "At four workers, the supply schedule gives wage $19. That is the wage paid.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "Using the supplied table, how many workers would be employed if the hiring rule instead compared MRP directly\nwith the supply wage as in a competitive factor market?\n| Workers | Wage | Total Labor Cost | MFC | MRP |\n| 1 | $10 | $10 | $10 | $68 |\n| 2 | $13 | $26 | $16 | $57 |\n| 3 | $16 | $48 | $22 | $46 |\n| 4 | $19 | $76 | $28 | $35 |\n| 5 | $22 | $110 | $34 | $24 |\n| 6 | $25 | $150 | $40 | $13 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "2 workers"
+      },
+      {
+        "label": "B",
+        "text": "1 worker"
+      },
+      {
+        "label": "C",
+        "text": "5 workers"
+      },
+      {
+        "label": "D",
+        "text": "4 workers"
+      },
+      {
+        "label": "E",
+        "text": "3 workers"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The fifth worker's $24 MRP exceeds the $22 supply wage. The sixth's $13 MRP is below $25, so the benchmark employs five workers.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "Using the table, what is the employment gap between the competitive benchmark and the monopsony\noutcome?\n| Workers | Wage | Total Labor Cost | MFC | MRP |\n| 1 | $10 | $10 | $10 | $68 |\n| 2 | $13 | $26 | $16 | $57 |\n| 3 | $16 | $48 | $22 | $46 |\n| 4 | $19 | $76 | $28 | $35 |\n| 5 | $22 | $110 | $34 | $24 |\n| 6 | $25 | $150 | $40 | $13 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "0 workers"
+      },
+      {
+        "label": "B",
+        "text": "1 worker"
+      },
+      {
+        "label": "C",
+        "text": "2 workers"
+      },
+      {
+        "label": "D",
+        "text": "4 workers"
+      },
+      {
+        "label": "E",
+        "text": "5 workers"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The benchmark's five workers exceed monopsony's four by one worker.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "Using the table, how many workers maximize profit for the monopsonist?\n| Workers | Wage | Total Labor Cost | MFC | MRP |\n| 1 | $14 | $14 | $14 | $72 |\n| 2 | $16 | $32 | $18 | $60 |\n| 3 | $18 | $54 | $22 | $48 |\n| 4 | $20 | $80 | $26 | $36 |\n| 5 | $22 | $110 | $30 | $24 |\n| 6 | $24 | $144 | $34 | $12 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "4 workers"
+      },
+      {
+        "label": "B",
+        "text": "1 worker"
+      },
+      {
+        "label": "C",
+        "text": "3 workers"
+      },
+      {
+        "label": "D",
+        "text": "5 workers"
+      },
+      {
+        "label": "E",
+        "text": "2 workers"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Worker 4 adds $36 and costs $26. Worker 5 adds $24 but costs $30, so four workers maximize profit.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "Using the table, what wage does the monopsonist pay at its profit-maximizing employment?\n| Workers | Wage | Total Labor Cost | MFC | MRP |\n| 1 | $14 | $14 | $14 | $72 |\n| 2 | $16 | $32 | $18 | $60 |\n| 3 | $18 | $54 | $22 | $48 |\n| 4 | $20 | $80 | $26 | $36 |\n| 5 | $22 | $110 | $30 | $24 |\n| 6 | $24 | $144 | $34 | $12 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$18"
+      },
+      {
+        "label": "B",
+        "text": "$36"
+      },
+      {
+        "label": "C",
+        "text": "$20"
+      },
+      {
+        "label": "D",
+        "text": "$22"
+      },
+      {
+        "label": "E",
+        "text": "$26"
+      }
+    ],
+    "answer": "C",
+    "explanation": "At four workers, the supply schedule gives wage $20. That is the wage paid.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "Using the supplied table, how many workers would be employed if the hiring rule instead compared MRP directly\nwith the supply wage as in a competitive factor market?\n| Workers | Wage | Total Labor Cost | MFC | MRP |\n| 1 | $14 | $14 | $14 | $72 |\n| 2 | $16 | $32 | $18 | $60 |\n| 3 | $18 | $54 | $22 | $48 |\n| 4 | $20 | $80 | $26 | $36 |\n| 5 | $22 | $110 | $30 | $24 |\n| 6 | $24 | $144 | $34 | $12 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 worker"
+      },
+      {
+        "label": "B",
+        "text": "5 workers"
+      },
+      {
+        "label": "C",
+        "text": "2 workers"
+      },
+      {
+        "label": "D",
+        "text": "4 workers"
+      },
+      {
+        "label": "E",
+        "text": "3 workers"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The fifth worker's $24 MRP exceeds the $22 supply wage. The sixth's $12 MRP is below $24, so the benchmark employs five workers.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "Using the table, what is the employment gap between the competitive benchmark and the monopsony\noutcome?\n| Workers | Wage | Total Labor Cost | MFC | MRP |\n| 1 | $14 | $14 | $14 | $72 |\n| 2 | $16 | $32 | $18 | $60 |\n| 3 | $18 | $54 | $22 | $48 |\n| 4 | $20 | $80 | $26 | $36 |\n| 5 | $22 | $110 | $30 | $24 |\n| 6 | $24 | $144 | $34 | $12 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "4 workers"
+      },
+      {
+        "label": "B",
+        "text": "0 workers"
+      },
+      {
+        "label": "C",
+        "text": "2 workers"
+      },
+      {
+        "label": "D",
+        "text": "5 workers"
+      },
+      {
+        "label": "E",
+        "text": "1 worker"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The benchmark employs five workers and monopsony employs four. The gap is one worker.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "Suppose labor supply is W=10+2L and MFC=10+4L, while MRP=50−4L. What labor quantity maximizes monopsony profit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "10 units"
+      },
+      {
+        "label": "B",
+        "text": "6.67 units"
+      },
+      {
+        "label": "C",
+        "text": "4 units"
+      },
+      {
+        "label": "D",
+        "text": "6 units"
+      },
+      {
+        "label": "E",
+        "text": "5 units"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Set MRP = MFC: 50 - 4L = 10 + 4L. Solving 40 = 8L gives Lm = 5.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "Using W=10+2L and the monopsony quantity L=5, what wage is paid?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$25"
+      },
+      {
+        "label": "B",
+        "text": "$20"
+      },
+      {
+        "label": "C",
+        "text": "$10"
+      },
+      {
+        "label": "D",
+        "text": "$40"
+      },
+      {
+        "label": "E",
+        "text": "$30"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Supply at L = 5 gives W = 10 + 2(5) = $20.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "A labor market has supply W = 10 + 2L and MRP = 50 − 4L. What employment equates MRP with the supply wage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "4 units"
+      },
+      {
+        "label": "B",
+        "text": "5 units"
+      },
+      {
+        "label": "C",
+        "text": "10 units"
+      },
+      {
+        "label": "D",
+        "text": "20 units"
+      },
+      {
+        "label": "E",
+        "text": "About 6.67 units"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The competitive benchmark equates MRP with supply: 50 - 4L = 10 + 2L. Solving gives Lc = 40/6, or about 6.67.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "Labor supply is W = 10 + 2L and MRP = 50 − 4L. What wage clears the competitive labor market?",
+    "options": [
+      {
+        "label": "A",
+        "text": "About $23.33"
+      },
+      {
+        "label": "B",
+        "text": "$16.67"
+      },
+      {
+        "label": "C",
+        "text": "$20"
+      },
+      {
+        "label": "D",
+        "text": "$30"
+      },
+      {
+        "label": "E",
+        "text": "$40"
+      }
+    ],
+    "answer": "A",
+    "explanation": "At Lc = 40/6, supply gives W = 10 + 2(40/6). The competitive wage is about $23.33.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "Labor supply is W = 10 + 2L, MFC = 10 + 4L, and MRP = 50 − 4L. By how much is monopsony employment below competitive employment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "6.67 units"
+      },
+      {
+        "label": "B",
+        "text": "0.67 unit"
+      },
+      {
+        "label": "C",
+        "text": "5 units"
+      },
+      {
+        "label": "D",
+        "text": "1.67 units"
+      },
+      {
+        "label": "E",
+        "text": "3.33 units"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The employment gap is 40/6 - 5 = 5/3. It is about 1.67 workers.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "Labor supply is W = 10 + 2L, MFC = 10 + 4L, and MRP = 50 − 4L. By how much is the monopsony wage below the competitive wage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$1.67"
+      },
+      {
+        "label": "B",
+        "text": "$5.00"
+      },
+      {
+        "label": "C",
+        "text": "$23.33"
+      },
+      {
+        "label": "D",
+        "text": "$3.33"
+      },
+      {
+        "label": "E",
+        "text": "$10.00"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The wage gap is $23.33 - $20, or about $3.33.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "A monopsonist currently hires 6 workers at $22 each. To hire a seventh, it must raise the wage to $25 for all workers. What is the seventh worker’s MFC?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$154"
+      },
+      {
+        "label": "B",
+        "text": "$43"
+      },
+      {
+        "label": "C",
+        "text": "$18"
+      },
+      {
+        "label": "D",
+        "text": "$175"
+      },
+      {
+        "label": "E",
+        "text": "$25"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Old labor cost is 6 x $22 = $132 and new cost is 7 x $25 = $175. MFC is $43.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "A monopsonist hires 8 workers at $24 each. A ninth worker requires a wage of $27 for all 9 workers. What is the ninth worker’s MFC?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$243"
+      },
+      {
+        "label": "B",
+        "text": "$51"
+      },
+      {
+        "label": "C",
+        "text": "$27"
+      },
+      {
+        "label": "D",
+        "text": "$216"
+      },
+      {
+        "label": "E",
+        "text": "$24"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Total labor cost rises from $192 to $243. MFC is $51.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "A monopsonist hires 4 workers at $18 each. A fifth requires a wage of $21 for all 5. If the fifth worker’s MRP is $34, should the firm hire the fifth worker?",
+    "options": [
+      {
+        "label": "A",
+        "text": "No, because MRP is below MFC"
+      },
+      {
+        "label": "B",
+        "text": "Yes, because MRP=$34 exceeds MFC=$33"
+      },
+      {
+        "label": "C",
+        "text": "No, because any wage increase prevents hiring"
+      },
+      {
+        "label": "D",
+        "text": "No, because MFC equals $105"
+      },
+      {
+        "label": "E",
+        "text": "Yes, because MFC equals the wage $21"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Cost rises from 4 x $18 = $72 to 5 x $21 = $105, giving MFC $33. MRP of $34 exceeds that cost, so hire the fifth worker.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "A monopsonist hires 5 workers at $20 each. A sixth requires $23 for all 6. If the sixth worker’s MRP is $34, should it hire the sixth worker?",
+    "options": [
+      {
+        "label": "A",
+        "text": "No, because MFC=$38 exceeds MRP=$34"
+      },
+      {
+        "label": "B",
+        "text": "Yes, because total labor cost rises"
+      },
+      {
+        "label": "C",
+        "text": "Yes, because MRP exceeds the $23 wage"
+      },
+      {
+        "label": "D",
+        "text": "Yes, because MFC=$23"
+      },
+      {
+        "label": "E",
+        "text": "No, because MFC=$138"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Total labor cost rises from $100 to $138, giving MFC $38. Since this exceeds MRP of $34, do not add the worker.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "Why can comparing MRP only with the new worker’s wage lead a monopsonist to hire too many workers relative to its profit-maximizing rule?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It ignores MRP entirely"
+      },
+      {
+        "label": "B",
+        "text": "It makes the wage exceed MFC"
+      },
+      {
+        "label": "C",
+        "text": "It overstates MFC"
+      },
+      {
+        "label": "D",
+        "text": "It omits wage increases for existing workers"
+      },
+      {
+        "label": "E",
+        "text": "It assumes labor supply is downward sloping"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The new hire requires paying higher wages to existing workers as well. Leaving out those increases understates MFC.",
+    "reference": "PRD-4.D | PRD-4.D.1",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "Which graph-based procedure correctly finds a monopsonist’s wage and employment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Find employment where MRP=supply and pay MFC"
+      },
+      {
+        "label": "B",
+        "text": "Use only the labor-supply curve and ignore MRP"
+      },
+      {
+        "label": "C",
+        "text": "Choose the point where wage=MFC"
+      },
+      {
+        "label": "D",
+        "text": "Find MRP = MFC; read wage from supply"
+      },
+      {
+        "label": "E",
+        "text": "Find employment where supply=MFC and pay MRP"
+      }
+    ],
+    "answer": "D",
+    "explanation": "First use the MRP-MFC intersection to choose labor. Then use the supply curve at that quantity to find the paid wage.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "Schematic; only labeled numbers are quantitative. Axes: Labor and Wage / MRP / MFC. Curves: Supply, MFC, MRP",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Labor",
+        "yLabel": "Wage / MRP / MFC",
+        "xMax": 11,
+        "yMax": 65,
+        "curves": [
+          {
+            "id": "Supply",
+            "label": "Supply",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 30.68
+              }
+            ]
+          },
+          {
+            "id": "MFC",
+            "label": "MFC",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10.34,
+                "y": 51.36
+              }
+            ]
+          },
+          {
+            "id": "MRP",
+            "label": "MRP",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 10.34,
+                "y": 8.64
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 5,
+            "y": 30
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 5,
+            "y": 20
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 5,
+            "y": 30,
+            "xLabel": "Lm = 5",
+            "yLabel": "$30"
+          },
+          {
+            "id": "guide1",
+            "x": 5,
+            "y": 20,
+            "yLabel": "Wm = $20"
+          },
+          {
+            "id": "guide2",
+            "x": 6.666666666666667,
+            "y": 23.333333333333332,
+            "xLabel": "Lc",
+            "yLabel": "Wc"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "Which statement is most precise about the relationship among wage, MFC, and MRP at the monopsony optimum?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Wage=MFC and MRP is lower"
+      },
+      {
+        "label": "B",
+        "text": "Wage exceeds MRP"
+      },
+      {
+        "label": "C",
+        "text": "MRP=MFC and the wage is below MFC"
+      },
+      {
+        "label": "D",
+        "text": "MRP is below MFC and wage is above both"
+      },
+      {
+        "label": "E",
+        "text": "MRP=wage=MFC"
+      }
+    ],
+    "answer": "C",
+    "explanation": "At chosen employment, MRP equals MFC on the standard graph. The supply wage lies below MFC, so it is lower than the marginal revenue contribution.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "Which topic would go beyond the explicit required content of Topic 5.4?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Explaining why MFC exceeds the supply price of labor"
+      },
+      {
+        "label": "B",
+        "text": "Finding employment where MRP=MFC"
+      },
+      {
+        "label": "C",
+        "text": "Reading the wage from labor supply"
+      },
+      {
+        "label": "D",
+        "text": "Calculating MFC from a wage schedule"
+      },
+      {
+        "label": "E",
+        "text": "Minimum-wage effects on monopsony hiring"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Minimum-wage intervention is a policy analysis beyond the explicit hiring and cost relationships specified for this topic. The required content here focuses on monopsony characteristics, MFC, employment, and the supply wage.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "Which statement most accurately synthesizes Topic 5.4?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The firm faces horizontal labor supply"
+      },
+      {
+        "label": "B",
+        "text": "The firm hires where MRP equals the supply wage"
+      },
+      {
+        "label": "C",
+        "text": "MRP = MFC determines employment; supply determines wage"
+      },
+      {
+        "label": "D",
+        "text": "MFC equals wage at every employment level"
+      },
+      {
+        "label": "E",
+        "text": "The firm pays MFC as the wage"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A monopsonist faces upward-sloping supply and MFC above wage because wage increases apply to existing workers. It chooses employment using MRP = MFC and reads the wage from labor supply.",
+    "reference": "PRD-4.D | PRD-4.D.1-2",
+    "graphDescription": "",
+    "graphRequired": false
+  }
+]

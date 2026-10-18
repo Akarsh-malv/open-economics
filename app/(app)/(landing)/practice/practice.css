@@ -24,7 +24,7 @@
   cursor: default;
   opacity: 0.45;
 }
-.practice-shell :is(a, button, input, summary):focus-visible {
+.practice-shell :is(a, button, input, summary, [tabindex="0"]):focus-visible {
   outline: 3px solid #3883c7;
   outline-offset: 4px;
 }
@@ -37,7 +37,7 @@
   display: flex;
   align-items: center;
   gap: 9px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 800;
   letter-spacing: 0.15em;
   color: #607588;
@@ -114,7 +114,7 @@
   gap: 15px;
 }
 .practice-section-heading > span {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--p-muted);
 }
 .practice-course-grid {
@@ -161,7 +161,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 8px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
   color: var(--p-muted);
 }
@@ -195,7 +195,7 @@
   align-items: center;
   border-top: 1px solid var(--p-line);
   padding: 17px 0;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
   white-space: nowrap;
   color: var(--p-muted);
@@ -280,7 +280,7 @@
   gap: 32px;
   margin-top: 32px;
   color: var(--p-muted);
-  font-size: 11px;
+  font-size: 12px;
 }
 .practice-benefits span {
   display: flex;
@@ -297,7 +297,7 @@
   align-items: center;
   gap: 10px;
   color: #6a7a8c;
-  font-size: 11px;
+  font-size: 12px;
   flex-wrap: wrap;
   margin-bottom: 32px;
 }
@@ -344,7 +344,7 @@
   border-color: #205b81;
 }
 .practice-unit {
-  font-size: 11px;
+  font-size: 12px;
   color: #688192;
   background: #eaf0f4;
   border: 1px solid var(--p-line);
@@ -377,7 +377,7 @@
   flex-shrink: 0;
 }
 .practice-topic-kicker {
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.1em;
   color: var(--p-muted);
@@ -386,7 +386,7 @@
   align-items: center;
 }
 .practice-topic-kicker span {
-  font-size: 8px;
+  font-size: 12px;
   border-radius: 4px;
   background: #eef4ef;
   color: #568675;
@@ -398,7 +398,7 @@
   margin: 8px 0;
 }
 .practice-topic-row p {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--p-muted);
 }
 .practice-topic-row p span {
@@ -417,7 +417,7 @@
   display: flex;
   align-items: center;
   gap: 9px;
-  font-size: 11px;
+  font-size: 12px;
   color: var(--p-muted);
   margin: 22px 0 60px;
 }
@@ -467,7 +467,7 @@
   margin-bottom: 32px;
 }
 .practice-bank-heading .practice-eyebrow {
-  font-size: 9px;
+  font-size: 12px;
   letter-spacing: 0.1em;
 }
 .practice-bank-heading .practice-eyebrow > span {
@@ -491,7 +491,7 @@
   vertical-align: middle;
   display: inline-flex;
   font-family: var(--font-manrope), sans-serif;
-  font-size: 9px;
+  font-size: 12px;
   line-height: 1.2;
   letter-spacing: 0;
   font-weight: 600;
@@ -507,7 +507,7 @@
   display: inline-flex;
   align-items: center;
   gap: 7px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
   background: #eaf2ed;
   border: 1px solid #d5e5db;
@@ -541,7 +541,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 11px;
+  font-size: 12px;
   color: var(--p-muted);
   font-weight: 650;
   padding: 9px 13px;
@@ -555,7 +555,7 @@
   box-shadow: 0 2px 3px #142b4304;
 }
 .practice-filters button span {
-  font-size: 9px;
+  font-size: 12px;
   color: #6c7d8c;
   background: #e9eef2;
   border-radius: 4px;
@@ -566,7 +566,7 @@
   align-items: center;
   gap: 5px;
   color: #6c7e8b;
-  font-size: 10px;
+  font-size: 12px;
 }
 .practice-workspace {
   display: grid;
@@ -589,7 +589,7 @@
   font-weight: 700;
 }
 .practice-progress-heading > span {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 650;
   color: #628477;
 }
@@ -608,7 +608,7 @@
   transition: width 0.3s;
 }
 .practice-progress-caption {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--p-muted);
 }
 .practice-score {
@@ -623,7 +623,7 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 6px;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--p-muted);
 }
 .practice-score strong {
@@ -652,7 +652,7 @@
   display: flex;
   justify-content: space-between;
   color: #6b7d8e;
-  font-size: 9px;
+  font-size: 12px;
   letter-spacing: 0.1em;
   font-weight: 750;
   margin: 23px 0 15px;
@@ -677,7 +677,7 @@
   border: 1px solid #dce3e8;
   background: #fff;
   border-radius: 6px;
-  font-size: 10px;
+  font-size: 12px;
   color: #62748a;
   font-weight: 650;
   transition: background 0.12s;
@@ -715,7 +715,7 @@
 .practice-map-legend {
   display: flex;
   gap: 16px;
-  font-size: 9px;
+  font-size: 12px;
   color: #6d7c8d;
   padding: 17px 0;
 }
@@ -741,12 +741,12 @@
 .practice-summary-button {
   width: 100%;
   justify-content: space-between;
-  font-size: 10px;
+  font-size: 12px;
   min-height: 37px;
   padding: 9px 12px;
 }
 .practice-sidebar-note {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.8;
   color: #728290;
   display: flex;
@@ -780,7 +780,7 @@
   gap: 15px;
 }
 .practice-question-counter {
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.08em;
   font-weight: 800;
   color: #4c6479;
@@ -794,7 +794,7 @@
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 700;
   padding: 4px 7px;
   border-radius: 5px;
@@ -820,7 +820,7 @@
   align-items: center;
   gap: 6px;
   color: #768695;
-  font-size: 10px;
+  font-size: 12px;
   padding: 6px;
   border-radius: 5px;
 }
@@ -847,7 +847,7 @@
 .practice-answer-options legend {
   float: left;
   width: 100%;
-  font-size: 10px;
+  font-size: 12px;
   color: #82909c;
   margin-bottom: 12px;
 }
@@ -904,7 +904,7 @@
   background: #f7f9fa;
   border: 1px solid #e4e9ed;
   border-radius: 6px;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
   color: #7b8a97;
   line-height: 1;
@@ -943,7 +943,7 @@
 }
 .practice-answer-state {
   display: block;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 750;
   margin-top: 6px;
   color: #477559;
@@ -963,19 +963,19 @@
   border-radius: 0 0 14px 14px;
 }
 .practice-question-bottom > span {
-  font-size: 10px;
+  font-size: 12px;
   color: #7b8a97;
   line-height: 1.7;
   max-width: 270px;
 }
 .practice-question-bottom .practice-primary {
-  font-size: 11px;
+  font-size: 12px;
 }
 .practice-pagination {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 10px;
+  font-size: 12px;
   color: #718394;
   margin: 20px 2px;
 }
@@ -984,7 +984,7 @@
   align-items: center;
   gap: 8px;
   padding: 8px 0;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   color: #557086;
 }
@@ -995,7 +995,7 @@
   gap: 8px;
   margin-top: 25px;
   color: #84929d;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.8;
 }
 .practice-learning-note svg {
@@ -1030,7 +1030,7 @@
 .practice-feedback-heading span {
   display: block;
   margin-top: 4px;
-  font-size: 11px;
+  font-size: 12px;
 }
 .practice-feedback > p {
   font-size: 12px;
@@ -1043,7 +1043,7 @@
   color: #72644f;
 }
 .practice-reference {
-  font-size: 9px;
+  font-size: 12px;
   color: #7a8a81;
   border-top: 1px solid #dce9e0;
   padding-top: 12px;
@@ -1068,7 +1068,7 @@
   display: flex;
   justify-content: space-between;
   gap: 12px;
-  font-size: 8px;
+  font-size: 12px;
   color: #6f859a;
   letter-spacing: 0.1em;
   font-weight: 750;
@@ -1085,7 +1085,7 @@
   margin: 8px auto 0;
 }
 .practice-graph-description {
-  font-size: 10px;
+  font-size: 12px;
   color: #748697;
   border-top: 1px solid #e2e9ee;
   padding-top: 10px;
@@ -1097,7 +1097,7 @@
 }
 .practice-graph-description p,
 .practice-graph figcaption {
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.8;
   margin-top: 9px;
   color: #647b8e;
@@ -1109,7 +1109,7 @@
   margin-top: 20px;
 }
 .practice-three-graphs > div > span {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
   color: #6e8294;
 }
@@ -1151,7 +1151,7 @@
   display: block;
 }
 .practice-result-stats span {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--p-muted);
 }
 .practice-result-actions {
@@ -1160,14 +1160,14 @@
   gap: 10px;
 }
 .practice-result-actions button {
-  font-size: 10px;
+  font-size: 12px;
 }
 .practice-text-button {
   display: flex;
   align-items: center;
   gap: 7px;
   color: #718295;
-  font-size: 11px;
+  font-size: 12px;
   margin-top: 30px;
 }
 .practice-reset-confirm {
@@ -1181,7 +1181,7 @@
 }
 .practice-reset-confirm button {
   margin-right: 8px;
-  font-size: 10px;
+  font-size: 12px;
 }
 .practice-review-list {
   margin-top: 25px;
@@ -1196,7 +1196,7 @@
   padding: 14px 0;
   border-bottom: 1px solid var(--p-line);
   text-align: left;
-  font-size: 11px;
+  font-size: 12px;
   color: #64788c;
 }
 .practice-review-list > button > span:first-child {
@@ -1257,7 +1257,7 @@
     gap: 20px;
   }
   .practice-featured > .practice-primary {
-    font-size: 10px;
+    font-size: 12px;
   }
   .practice-bank-heading {
     align-items: flex-start;
@@ -1312,7 +1312,7 @@
   .practice-benefits {
     gap: 15px;
     flex-wrap: wrap;
-    font-size: 10px;
+    font-size: 12px;
   }
   .practice-featured {
     flex-wrap: wrap;
@@ -1401,7 +1401,7 @@
   .practice-summary-button {
     grid-column: 2;
     grid-row: 1 / 4;
-    font-size: 10px;
+    font-size: 12px;
     width: auto;
     gap: 12px;
   }
@@ -1416,7 +1416,7 @@
     margin-top: 13px;
     border-top: 1px solid #dce4ea;
     padding-top: 12px;
-    font-size: 10px;
+    font-size: 12px;
     color: #668095;
   }
   .practice-map {
@@ -1522,10 +1522,10 @@
     width: 100%;
   }
   .practice-featured .practice-eyebrow {
-    font-size: 8px;
+    font-size: 12px;
   }
   .practice-featured p {
-    font-size: 11px;
+    font-size: 12px;
   }
   .practice-benefits {
     align-items: flex-start;
@@ -1544,7 +1544,7 @@
     margin-top: 28px;
   }
   .practice-course-tabs a {
-    font-size: 11px;
+    font-size: 12px;
   }
   .practice-section-heading > span {
     display: none;
@@ -1563,7 +1563,7 @@
     line-height: 1.5;
   }
   .practice-topic-row p {
-    font-size: 9px;
+    font-size: 12px;
     line-height: 1.8;
   }
   .practice-topic-row p span {
@@ -1573,7 +1573,7 @@
     display: none;
   }
   .practice-course-footnote {
-    font-size: 10px;
+    font-size: 12px;
     align-items: flex-start;
   }
   .practice-course-footnote svg {
@@ -1584,14 +1584,14 @@
     line-height: 1.25;
   }
   .practice-bank-heading .practice-eyebrow {
-    font-size: 8px;
+    font-size: 12px;
     line-height: 1.8;
   }
   .practice-bank-heading p {
-    font-size: 11px;
+    font-size: 12px;
   }
   .practice-test-label {
-    font-size: 8px;
+    font-size: 12px;
     margin-left: 8px;
   }
   .practice-filters {
@@ -1599,12 +1599,12 @@
     width: 100%;
   }
   .practice-filters button {
-    font-size: 10px;
+    font-size: 12px;
     gap: 5px;
     padding: 8px;
   }
   .practice-filters button span {
-    font-size: 8px;
+    font-size: 12px;
   }
   .practice-navigator {
     padding: 15px;
@@ -1614,7 +1614,7 @@
     padding: 8px 10px;
   }
   .practice-progress-caption {
-    font-size: 9px;
+    font-size: 12px;
   }
   .practice-number-grid {
     grid-template-columns: repeat(7, 1fr);
@@ -1631,10 +1631,10 @@
     gap: 8px;
   }
   .practice-question-counter {
-    font-size: 9px;
+    font-size: 12px;
   }
   .practice-bookmark {
-    font-size: 9px;
+    font-size: 12px;
     gap: 4px;
   }
   .practice-bookmark svg {
@@ -1647,7 +1647,7 @@
   .practice-answer-letter {
     width: 24px;
     height: 24px;
-    font-size: 10px;
+    font-size: 12px;
   }
   .practice-answer-text {
     font-size: 12px;
@@ -1661,14 +1661,14 @@
   }
   .practice-question-bottom > span {
     max-width: none;
-    font-size: 9px;
+    font-size: 12px;
   }
   .practice-question-bottom .practice-primary {
     width: 100%;
   }
   .practice-learning-note {
     align-items: flex-start;
-    font-size: 9px;
+    font-size: 12px;
   }
   .practice-feedback {
     padding: 17px;
@@ -1677,17 +1677,17 @@
     font-size: 12px;
   }
   .practice-feedback > p {
-    font-size: 11px;
+    font-size: 12px;
   }
   .practice-reference {
-    font-size: 8px;
+    font-size: 12px;
     line-height: 1.8;
   }
   .practice-graph {
     padding: 12px 6px;
   }
   .practice-graph-label {
-    font-size: 7px;
+    font-size: 12px;
     padding: 0 5px;
   }
   .practice-graph-description {
@@ -1752,7 +1752,7 @@
   margin: 6px 0;
 }
 .practice-topic-list .practice-topic-row p {
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.5;
 }
 .practice-question-prompt {
@@ -1778,7 +1778,7 @@
   padding: 19px 22px;
 }
 .practice-graph-label {
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.08em;
 }
 .practice-graph-visual {
@@ -1843,7 +1843,7 @@
     font-size: 15px;
   }
   .practice-topic-list .practice-topic-row p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .practice-question-prompt {
     font-size: 18px;
@@ -1864,7 +1864,7 @@
     padding: 14px 12px;
   }
   .practice-graph-label {
-    font-size: 9px;
+    font-size: 12px;
   }
   .practice-graph-caption {
     font-size: 12px;
@@ -1872,4 +1872,139 @@
   .practice-graph-visual svg {
     min-width: 430px;
   }
+}
+
+/* The reading scale is shared at every breakpoint. Long stems are body copy,
+   rather than oversized display headings; all options have identical styling. */
+.practice-shell {
+  --p-muted: #526579;
+}
+.practice-question-prompt {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.65;
+  letter-spacing: normal;
+  color: var(--p-ink);
+  overflow-wrap: anywhere;
+}
+.practice-answer-text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #293f54;
+  overflow-wrap: anywhere;
+}
+.practice-answer-options legend,
+.practice-reference,
+.feedback-review .practice-reference,
+.practice-graph-label {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #526579;
+}
+.practice-feedback > p,
+.feedback-review > p,
+.practice-graph-caption {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #293f54;
+  overflow-wrap: anywhere;
+}
+.practice-feedback-heading h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.practice-feedback-heading span {
+  font-size: 13px;
+}
+.practice-answer-letter {
+  font-size: 13px;
+  font-weight: 600;
+  color: #526579;
+}
+.practice-answer.is-selected .practice-answer-letter,
+.practice-answer.answer-correct .practice-answer-letter,
+.practice-answer.answer-incorrect .practice-answer-letter {
+  color: #fff;
+}
+.practice-question-top,
+.practice-question-position,
+.practice-question-bottom,
+.practice-question-bottom button,
+.practice-reference {
+  line-height: 1.6;
+}
+@media (max-width: 480px) {
+  .practice-question-prompt { font-size: 16px; }
+  .practice-answer-text,
+  .practice-feedback > p,
+  .feedback-review > p,
+  .practice-graph-caption { font-size: 14px; }
+}
+
+.practice-question-prompt { white-space: normal; }
+.practice-question-prompt p {
+  margin: 0 0 1em;
+  white-space: pre-line;
+  font-weight: 400;
+}
+.practice-question-prompt p:last-child {
+  margin-bottom: 0;
+  font-weight: 600;
+}
+.practice-data-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 1em 0;
+}
+.practice-data-table {
+  width: max-content;
+  min-width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  white-space: normal;
+}
+.practice-data-table th,
+.practice-data-table td {
+  padding: 9px 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--p-line);
+  white-space: nowrap;
+  overflow-wrap: normal;
+}
+.practice-data-table thead th {
+  font-weight: 600;
+  background: #edf2f7;
+}
+.practice-data-table tbody th { font-weight: 500; }
+@media (max-width: 480px) {
+  .practice-data-table { font-size: 14px; }
+  .practice-data-table th,
+  .practice-data-table td { padding: 7px 8px; }
+}
+/* Keep diagram lettering readable at narrow widths; scrolling stays within the figure. */
+.practice-graph-visual svg { min-width: 640px; }
+.practice-graph-description summary { cursor: pointer; font-size: 14px; font-weight: 500; }
+.practice-graph-description p { margin-top: 10px; font-weight: 400; }
+.practice-measure-convention {
+  margin: 0 0 16px;
+  padding: 12px 14px;
+  border-left: 3px solid #2554e8;
+  background: #f4f7fc;
+  color: #42566b;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.practice-graph-scroll-hint, .practice-data-scroll-hint { display: none; }
+@media (max-width: 700px) {
+  .practice-graph-scroll-hint, .practice-question-prompt p.practice-data-scroll-hint { display: block; color: #526579; font-size: 12px; font-weight: 400; line-height: 1.6; margin-top: 8px; }
+}
+/* Leave the question number and save control visible below the fixed header. */
+.practice-question-prompt { scroll-margin-top: 160px; }
+@media (max-width: 700px) {
+  .practice-question-prompt { scroll-margin-top: 150px; }
 }

@@ -1,0 +1,3544 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "What is a nominal exchange rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Currency purchasing power adjusted for relative prices"
+      },
+      {
+        "label": "B",
+        "text": "An index of weighted real-output growth rates"
+      },
+      {
+        "label": "C",
+        "text": "The ratio of export receipts to import spending"
+      },
+      {
+        "label": "D",
+        "text": "The currency exchange price before relative-price adjustment"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A nominal exchange rate is the quoted currency price. A real exchange rate adjusts for relative price levels.",
+    "reference": "11.2 Exchange rates | 11.2.1 measurement of exchange rates: nominal and real exchange rates | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "What does a real exchange rate measure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The currency’s nominal foreign-exchange quote"
+      },
+      {
+        "label": "B",
+        "text": "The total value of export earnings relative to expenditure on imported goods"
+      },
+      {
+        "label": "C",
+        "text": "The reserves-to-deposits ratio of domestic banks"
+      },
+      {
+        "label": "D",
+        "text": "Domestic versus foreign prices in common currency"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The real exchange rate adjusts the nominal exchange rate for relative domestic and foreign prices.",
+    "reference": "11.2 Exchange rates | 11.2.1 measurement of exchange rates: nominal and real exchange rates | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "What is a trade-weighted exchange rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A quote against one major foreign currency"
+      },
+      {
+        "label": "B",
+        "text": "A partner-currency index weighted by trade importance"
+      },
+      {
+        "label": "C",
+        "text": "Domestic consumer prices divided by real output"
+      },
+      {
+        "label": "D",
+        "text": "An import-tariff index weighted by product importance"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A trade-weighted exchange rate reflects movements against several currencies, with larger weights for more important trading partners.",
+    "reference": "11.2 Exchange rates | 11.2.1 measurement of exchange rates: trade-weighted exchange rates | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "Under a fixed exchange-rate system, the exchange rate is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Maintained near an officially chosen parity"
+      },
+      {
+        "label": "B",
+        "text": "Determined solely by private currency-market forces"
+      },
+      {
+        "label": "C",
+        "text": "Changed solely by a trade-weighted index"
+      },
+      {
+        "label": "D",
+        "text": "Fixed at the domestic consumer-price inflation rate"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A fixed exchange rate is set or targeted by the authorities and defended through intervention and/or policy changes.",
+    "reference": "11.2 Exchange rates | 11.2.2 determination of exchange rates under fixed systems | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "Under a managed exchange-rate system, the exchange rate is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Fixed permanently without market influences"
+      },
+      {
+        "label": "B",
+        "text": "Market-driven with discretionary official intervention"
+      },
+      {
+        "label": "C",
+        "text": "Determined solely by domestic consumer-price inflation"
+      },
+      {
+        "label": "D",
+        "text": "Unaffected by interest-rate or capital-flow changes"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A managed system combines market determination with official intervention.",
+    "reference": "11.2 Exchange rates | 11.2.2 determination of exchange rates under managed systems | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "What is a devaluation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A market-driven fall in a floating currency"
+      },
+      {
+        "label": "B",
+        "text": "An official reduction in a fixed currency parity"
+      },
+      {
+        "label": "C",
+        "text": "An official increase in a fixed currency parity"
+      },
+      {
+        "label": "D",
+        "text": "A market-driven rise in a floating currency"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Devaluation is a deliberate downward change in the official fixed rate.",
+    "reference": "11.2 Exchange rates | 11.2.3 distinction between revaluation and devaluation of a fixed exchange rate | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "What is a revaluation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A market-driven rise in a floating currency"
+      },
+      {
+        "label": "B",
+        "text": "An official reduction in a fixed currency parity"
+      },
+      {
+        "label": "C",
+        "text": "An official increase in a fixed currency parity"
+      },
+      {
+        "label": "D",
+        "text": "A market-driven fall in a floating currency"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Revaluation is a deliberate upward change in the official fixed rate.",
+    "reference": "11.2 Exchange rates | 11.2.3 distinction between revaluation and devaluation of a fixed exchange rate | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "A floating currency falls in value because of market forces. This is called",
+    "options": [
+      {
+        "label": "A",
+        "text": "Devaluation"
+      },
+      {
+        "label": "B",
+        "text": "Revaluation"
+      },
+      {
+        "label": "C",
+        "text": "Depreciation"
+      },
+      {
+        "label": "D",
+        "text": "Trade weighting"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Depreciation is a market-driven fall in a floating exchange rate.",
+    "reference": "11.2 Exchange rates | 11.2.4 changes in the exchange rate under different exchange rate systems | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "A floating currency rises in value because of market forces. This is called",
+    "options": [
+      {
+        "label": "A",
+        "text": "Revaluation"
+      },
+      {
+        "label": "B",
+        "text": "Appreciation"
+      },
+      {
+        "label": "C",
+        "text": "Devaluation"
+      },
+      {
+        "label": "D",
+        "text": "Depreciation"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Appreciation is a market-driven rise in a floating exchange rate.",
+    "reference": "11.2 Exchange rates | 11.2.4 changes in the exchange rate under different exchange rate systems | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "How can a central bank support a fixed exchange rate that is under downward pressure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sell domestic currency for foreign reserves"
+      },
+      {
+        "label": "B",
+        "text": "Reduce interest rates to encourage outflows"
+      },
+      {
+        "label": "C",
+        "text": "Increase domestic-currency supply in foreign-exchange markets"
+      },
+      {
+        "label": "D",
+        "text": "Buy domestic currency with foreign reserves"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Buying the domestic currency increases demand for it and supports its fixed value.",
+    "reference": "11.2 Exchange rates | 11.2.2 determination of exchange rates under fixed systems | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Foreign-exchange market diagram. Vertical axis: exchange rate (foreign currency per unit of domestic currency). Horizontal axis: quantity of domestic currency. Draw downward-sloping demand D and upward-sloping supply S. Show an official fixed rate above the market-clearing rate, creating excess supply of the domestic currency. Indicate central-bank purchases of domestic currency needed to support the fixed rate.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of domestic currency",
+        "yLabel": "Foreign currency per domestic unit",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "Fixed rate",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 70
+              },
+              {
+                "x": 131.6,
+                "y": 70.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 70,
+            "y": 70
+          },
+          {
+            "id": "p2",
+            "label": "",
+            "x": 30,
+            "y": 70
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 70,
+            "y": 70,
+            "xLabel": "Qs"
+          },
+          {
+            "id": "g2",
+            "x": 30,
+            "y": 70,
+            "xLabel": "Qd"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "How can a central bank resist upward pressure on a fixed exchange rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Buy domestic currency with foreign reserves"
+      },
+      {
+        "label": "B",
+        "text": "Raise import tariffs without currency intervention"
+      },
+      {
+        "label": "C",
+        "text": "Reduce domestic-currency supply in exchange markets"
+      },
+      {
+        "label": "D",
+        "text": "Sell domestic currency for foreign reserves"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Selling the domestic currency increases supply in the foreign-exchange market and resists appreciation.",
+    "reference": "11.2 Exchange rates | 11.2.2 determination of exchange rates under fixed systems | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "Why might a central bank raise interest rates to defend a fixed exchange rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An interest-rate increase necessarily stimulates greater demand for all imported consumer goods"
+      },
+      {
+        "label": "B",
+        "text": "Higher returns can attract capital inflows"
+      },
+      {
+        "label": "C",
+        "text": "Higher rates directly reduce the official parity"
+      },
+      {
+        "label": "D",
+        "text": "Higher returns necessarily reduce domestic-currency demand"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Higher interest rates can attract financial inflows and support demand for the currency.",
+    "reference": "11.2 Exchange rates | 11.2.2 determination of exchange rates under fixed systems | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "Which statement best describes a managed float?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A permanently fixed legally guaranteed currency value"
+      },
+      {
+        "label": "B",
+        "text": "Market determination with occasional official currency intervention"
+      },
+      {
+        "label": "C",
+        "text": "A currency unaffected by international trade flows"
+      },
+      {
+        "label": "D",
+        "text": "A currency measured only by trade-weighted indices"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A managed float allows market forces to operate but gives the central bank discretion to intervene.",
+    "reference": "11.2 Exchange rates | 11.2.2 determination of exchange rates under managed systems | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "If the nominal exchange rate is unchanged but domestic prices rise faster than foreign prices, the domestic currency's real exchange rate is most likely to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Depreciate in real terms"
+      },
+      {
+        "label": "B",
+        "text": "Remain unchanged"
+      },
+      {
+        "label": "C",
+        "text": "Appreciate in real terms"
+      },
+      {
+        "label": "D",
+        "text": "Become zero"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Faster domestic inflation makes domestic goods relatively more expensive, producing a real appreciation.",
+    "reference": "11.2 Exchange rates | 11.2.1 nominal and real exchange rates | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "If a country's currency appreciates against its largest trading partner but is unchanged against minor partners, its trade-weighted exchange rate is most likely to",
+    "options": [
+      {
+        "label": "A",
+        "text": "Depreciate"
+      },
+      {
+        "label": "B",
+        "text": "Appreciate"
+      },
+      {
+        "label": "C",
+        "text": "Remain exactly unchanged"
+      },
+      {
+        "label": "D",
+        "text": "Be determined only by domestic inflation"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A movement against a heavily weighted trading partner has a large effect on the trade-weighted index.",
+    "reference": "11.2 Exchange rates | 11.2.1 trade-weighted exchange rates | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "In the standard Marshall-Lerner model with initially balanced trade, which demand-elasticity condition makes a small depreciation improve the trade balance?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Depreciation works regardless of trade elasticities"
+      },
+      {
+        "label": "B",
+        "text": "Both export and import PEDs must exceed one"
+      },
+      {
+        "label": "C",
+        "text": "The sum of export and import income elasticities of demand must exceed one"
+      },
+      {
+        "label": "D",
+        "text": "Absolute export PED + absolute import PED > 1"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The Marshall-Lerner condition focuses on the combined price responsiveness of export and import demand.",
+    "reference": "11.2 Exchange rates | 11.2.5 Marshall-Lerner analysis | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "If the absolute PED for exports is 0.7 and for imports is 0.6, does the Marshall-Lerner condition hold?",
+    "options": [
+      {
+        "label": "A",
+        "text": "No: both PEDs must individually exceed one"
+      },
+      {
+        "label": "B",
+        "text": "No: the combined PED must exceed two"
+      },
+      {
+        "label": "C",
+        "text": "Yes: the combined absolute PED is 1.3"
+      },
+      {
+        "label": "D",
+        "text": "Yes: the condition requires a fixed currency"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The relevant condition is that the sum of the absolute elasticities exceeds one.",
+    "reference": "11.2 Exchange rates | 11.2.5 Marshall-Lerner analysis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "If the absolute PED for exports is 0.3 and for imports is 0.4, what does Marshall-Lerner analysis suggest after a depreciation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Combined elasticity guarantees an improvement"
+      },
+      {
+        "label": "B",
+        "text": "Combined elasticity raises the trade-weighted index"
+      },
+      {
+        "label": "C",
+        "text": "Combined elasticity below one implies possible deterioration"
+      },
+      {
+        "label": "D",
+        "text": "Combined elasticity makes imports and exports cheaper domestically"
+      }
+    ],
+    "answer": "C",
+    "explanation": "When the combined responsiveness is less than one, the value effects can dominate the quantity effects.",
+    "reference": "11.2 Exchange rates | 11.2.5 Marshall-Lerner analysis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "What is the J-curve effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Appreciation improves the current account immediately"
+      },
+      {
+        "label": "B",
+        "text": "Depreciation leaves the current account permanently unchanged"
+      },
+      {
+        "label": "C",
+        "text": "Initial deterioration followed by current-account improvement"
+      },
+      {
+        "label": "D",
+        "text": "Any appreciation of the currency automatically changes a fixed regime into a floating one"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Trade quantities often adjust slowly, so the current account can initially deteriorate before the longer-run volume response improves it.",
+    "reference": "11.2 Exchange rates | 11.2.5 J curve analysis | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "Why may the current account initially worsen after a depreciation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Import prices rise before trade quantities adjust"
+      },
+      {
+        "label": "B",
+        "text": "Import prices fall before trade quantities adjust"
+      },
+      {
+        "label": "C",
+        "text": "Exports become dearer to foreign buyers immediately"
+      },
+      {
+        "label": "D",
+        "text": "The central bank immediately reverses the devaluation"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Short-run demand is often relatively inelastic because contracts and habits delay quantity adjustment.",
+    "reference": "11.2 Exchange rates | 11.2.5 J curve analysis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "Which exchange-rate change makes exports cheaper to foreign buyers, other things equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nominal appreciation"
+      },
+      {
+        "label": "B",
+        "text": "Higher relative domestic inflation"
+      },
+      {
+        "label": "C",
+        "text": "Nominal depreciation"
+      },
+      {
+        "label": "D",
+        "text": "Higher trade-weighted currency value"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A lower external value reduces the foreign-currency price of domestically produced exports.",
+    "reference": "11.2 Exchange rates | 11.2.5 effects of changing exchange rates on the external economy | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "Which exchange-rate change makes imports cheaper in domestic currency, other things equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A depreciation or devaluation"
+      },
+      {
+        "label": "B",
+        "text": "A fall in the trade-weighted index"
+      },
+      {
+        "label": "C",
+        "text": "A fall in the real exchange rate"
+      },
+      {
+        "label": "D",
+        "text": "An appreciation or revaluation"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A stronger currency buys more foreign currency, reducing the domestic-currency cost of imports.",
+    "reference": "11.2 Exchange rates | 11.2.5 effects of changing exchange rates on the external economy | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "A central bank repeatedly buys and sells its currency to keep it within a desired range. Which system is this most consistent with?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A free float without intervention"
+      },
+      {
+        "label": "B",
+        "text": "A managed exchange-rate system"
+      },
+      {
+        "label": "C",
+        "text": "A currency union without separate domestic currency"
+      },
+      {
+        "label": "D",
+        "text": "A fully dollarised economy"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Managed systems allow market movements but use intervention to influence the exchange rate.",
+    "reference": "11.2 Exchange rates | 11.2.2 determination under managed systems | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "A government officially lowers a fixed rate from 2.0 units of foreign currency per domestic currency to 1.8. What is this?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A devaluation"
+      },
+      {
+        "label": "B",
+        "text": "A depreciation"
+      },
+      {
+        "label": "C",
+        "text": "A revaluation"
+      },
+      {
+        "label": "D",
+        "text": "An appreciation"
+      }
+    ],
+    "answer": "A",
+    "explanation": "An official reduction in a fixed currency value is a devaluation.",
+    "reference": "11.2 Exchange rates | 11.2.3 revaluation and devaluation | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "A government officially raises a fixed rate from 1.5 units of foreign currency per domestic currency to 1.7. What is this?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A revaluation"
+      },
+      {
+        "label": "B",
+        "text": "An appreciation"
+      },
+      {
+        "label": "C",
+        "text": "A depreciation"
+      },
+      {
+        "label": "D",
+        "text": "A devaluation"
+      }
+    ],
+    "answer": "A",
+    "explanation": "An official increase in a fixed currency value is a revaluation.",
+    "reference": "11.2 Exchange rates | 11.2.3 revaluation and devaluation | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "Which exchange-rate system requires the greatest willingness to use foreign-exchange reserves to defend a stated parity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A completely free-floating currency"
+      },
+      {
+        "label": "B",
+        "text": "A completely dollarised economy"
+      },
+      {
+        "label": "C",
+        "text": "A fixed domestic-currency parity"
+      },
+      {
+        "label": "D",
+        "text": "A currency union without domestic parity"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A fixed parity may require persistent intervention when market demand and supply would otherwise move the rate away from target.",
+    "reference": "11.2 Exchange rates | 11.2.2 fixed exchange-rate determination | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "Why can a trade-weighted exchange rate be more informative than a bilateral rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It excludes movements against major trading partners"
+      },
+      {
+        "label": "B",
+        "text": "It measures changes in domestic consumer prices only"
+      },
+      {
+        "label": "C",
+        "text": "It changes only when every bilateral rate changes"
+      },
+      {
+        "label": "D",
+        "text": "It combines partner movements using relevant trade weights"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A bilateral rate may give a misleading picture if the currency moves differently against other important partners.",
+    "reference": "11.2 Exchange rates | 11.2.1 trade-weighted exchange rates | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "A currency appreciates nominally by 5%, but domestic prices also fall relative to foreign prices. What can be said about the real exchange-rate change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Exactly 5% real appreciation is guaranteed"
+      },
+      {
+        "label": "B",
+        "text": "Lower relative prices offset nominal appreciation"
+      },
+      {
+        "label": "C",
+        "text": "Exactly 5% real depreciation is guaranteed"
+      },
+      {
+        "label": "D",
+        "text": "Domestic and foreign price-level changes have no influence on the real exchange rate"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The real exchange rate depends on both the nominal rate and relative price levels.",
+    "reference": "11.2 Exchange rates | 11.2.1 nominal and real exchange rates | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "Which exchange-rate movement is most likely to improve the price competitiveness of domestic exporters?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A real appreciation"
+      },
+      {
+        "label": "B",
+        "text": "A rise in the trade-weighted exchange-rate index"
+      },
+      {
+        "label": "C",
+        "text": "A real depreciation"
+      },
+      {
+        "label": "D",
+        "text": "A revaluation"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A real depreciation makes domestic goods cheaper relative to foreign goods after allowing for price levels.",
+    "reference": "11.2 Exchange rates | 11.2.1 real exchange rate | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "Under a fixed exchange rate, persistent excess supply of the domestic currency creates pressure for",
+    "options": [
+      {
+        "label": "A",
+        "text": "An automatic official increase in the currency’s parity without central-bank intervention"
+      },
+      {
+        "label": "B",
+        "text": "Automatic market appreciation of the fixed rate"
+      },
+      {
+        "label": "C",
+        "text": "Support purchases or devaluation"
+      },
+      {
+        "label": "D",
+        "text": "An automatically higher trade-weighted index by definition"
+      }
+    ],
+    "answer": "C",
+    "explanation": "If market forces push the currency below the fixed rate, authorities must defend the parity or reset it downward.",
+    "reference": "11.2 Exchange rates | 11.2.2 fixed systems | 11.2.3 devaluation | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 31,
+    "difficulty": "Medium",
+    "prompt": "A currency rises 8% against a trading partner with a 60% trade weight and falls 2% against a partner with a 40% weight. Approximately what happens to the trade-weighted exchange rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It appreciates by about 4%"
+      },
+      {
+        "label": "B",
+        "text": "It appreciates by about 6%"
+      },
+      {
+        "label": "C",
+        "text": "It depreciates by about 4%"
+      },
+      {
+        "label": "D",
+        "text": "It is unchanged"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A simple weighted change is 0.6(8) + 0.4(-2) = 4.0%.",
+    "reference": "11.2 Exchange rates | 11.2.1 trade-weighted exchange rates | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 32,
+    "difficulty": "Medium",
+    "prompt": "A currency appreciates 10% against a partner with a 30% trade weight and is unchanged against all others. Approximately what is the trade-weighted appreciation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "10%"
+      },
+      {
+        "label": "B",
+        "text": "3%"
+      },
+      {
+        "label": "C",
+        "text": "7%"
+      },
+      {
+        "label": "D",
+        "text": "30%"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The weighted contribution is 0.30 x 10% = 3%.",
+    "reference": "11.2 Exchange rates | 11.2.1 trade-weighted exchange rates | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 33,
+    "difficulty": "Medium",
+    "prompt": "A currency depreciates 5% against a partner accounting for 50% of trade and appreciates 1% against all other partners. Approximately what is the trade-weighted change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A depreciation of 4%"
+      },
+      {
+        "label": "B",
+        "text": "A depreciation of 2%"
+      },
+      {
+        "label": "C",
+        "text": "An appreciation of 2%"
+      },
+      {
+        "label": "D",
+        "text": "An appreciation of 3%"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Weighted change = 0.5(-5) + 0.5(1) = -2%.",
+    "reference": "11.2 Exchange rates | 11.2.1 trade-weighted exchange rates | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "Nominally, a currency is unchanged. Domestic prices rise 6% while foreign prices rise 2%. What is the most likely change in the real exchange rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A real appreciation"
+      },
+      {
+        "label": "B",
+        "text": "A real depreciation"
+      },
+      {
+        "label": "C",
+        "text": "No real change"
+      },
+      {
+        "label": "D",
+        "text": "A nominal devaluation"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Domestic goods become more expensive relative to foreign goods, so the currency appreciates in real terms.",
+    "reference": "11.2 Exchange rates | 11.2.1 nominal and real exchange rates | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "A currency depreciates nominally by 7%, but domestic inflation exceeds foreign inflation by roughly 7 percentage points. What is the most likely result?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nominal depreciation is largely offset by relative inflation"
+      },
+      {
+        "label": "B",
+        "text": "Nominal depreciation doubles the real competitive gain automatically"
+      },
+      {
+        "label": "C",
+        "text": "Nominal depreciation necessarily produces exactly 7% real appreciation"
+      },
+      {
+        "label": "D",
+        "text": "Nominal depreciation constitutes an official upward currency revaluation"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The inflation differential can offset the nominal depreciation, leaving competitiveness broadly unchanged.",
+    "reference": "11.2 Exchange rates | 11.2.1 nominal and real exchange rates | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "Why might the authorities prefer a managed system to a completely fixed system?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It never requires foreign-exchange reserves"
+      },
+      {
+        "label": "B",
+        "text": "A managed regime ensures the real exchange rate remains constant at all times"
+      },
+      {
+        "label": "C",
+        "text": "It eliminates every speculative capital flow"
+      },
+      {
+        "label": "D",
+        "text": "Market adjustment with official smoothing"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Managed systems trade some certainty for greater flexibility while preserving intervention capacity.",
+    "reference": "11.2 Exchange rates | 11.2.2 determination under fixed and managed systems | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "Why might the authorities prefer a fixed rate to a managed float?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A fixed rate eliminates every need for reserves"
+      },
+      {
+        "label": "B",
+        "text": "A fixed exchange rate permits unrestricted monetary independence despite free movement of capital"
+      },
+      {
+        "label": "C",
+        "text": "Greater certainty for trade and investment"
+      },
+      {
+        "label": "D",
+        "text": "A fixed rate eliminates all international payment imbalances"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Exchange-rate certainty can reduce transaction risk, though maintaining the parity has costs.",
+    "reference": "11.2 Exchange rates | 11.2.2 fixed systems | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "A fixed currency is under downward pressure. The central bank buys its currency and raises interest rates. Which combined effect is intended?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A greater supply of the domestic currency combined with increased capital outflows"
+      },
+      {
+        "label": "B",
+        "text": "Weaker currency demand and lower foreign-investment returns"
+      },
+      {
+        "label": "C",
+        "text": "Stronger currency demand and more capital inflows"
+      },
+      {
+        "label": "D",
+        "text": "Cheaper imports and lower demand for foreign goods"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Both actions are designed to support the external value of the domestic currency.",
+    "reference": "11.2 Exchange rates | 11.2.2 fixed exchange-rate determination | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "A central bank defending a fixed rate is running out of foreign reserves. Which option becomes more likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Revaluation to an even higher rate"
+      },
+      {
+        "label": "B",
+        "text": "A guaranteed appreciation"
+      },
+      {
+        "label": "C",
+        "text": "Devaluation of the official rate"
+      },
+      {
+        "label": "D",
+        "text": "Elimination of the current account"
+      }
+    ],
+    "answer": "C",
+    "explanation": "If the existing parity is unsustainable, the government may reset it downward rather than exhaust reserves.",
+    "reference": "11.2 Exchange rates | 11.2.2 fixed systems | 11.2.3 devaluation | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "A managed currency is appreciating rapidly because of capital inflows. What intervention would resist the appreciation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Buy domestic currency using foreign reserves"
+      },
+      {
+        "label": "B",
+        "text": "Restrict domestic-currency supply in foreign-exchange markets"
+      },
+      {
+        "label": "C",
+        "text": "Raise the official parity of a fixed currency"
+      },
+      {
+        "label": "D",
+        "text": "Sell domestic currency and acquire foreign reserves"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Selling domestic currency adds supply to the foreign-exchange market and limits upward pressure.",
+    "reference": "11.2 Exchange rates | 11.2.2 managed systems | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "Under a managed system, why might intervention be only temporary?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Central banks cannot trade any foreign currencies"
+      },
+      {
+        "label": "B",
+        "text": "Private market pressure never influences managed currencies"
+      },
+      {
+        "label": "C",
+        "text": "Persistent pressure can make continued intervention costly"
+      },
+      {
+        "label": "D",
+        "text": "Managed currencies are legally fixed without adjustment"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Authorities can smooth movements, but sustained intervention against strong fundamentals may be difficult.",
+    "reference": "11.2 Exchange rates | 11.2.2 managed exchange-rate determination | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "Which event most directly causes a devaluation rather than a depreciation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An official reduction in the fixed parity"
+      },
+      {
+        "label": "B",
+        "text": "Market sales under a freely floating exchange rate"
+      },
+      {
+        "label": "C",
+        "text": "Higher import spending under a freely floating rate"
+      },
+      {
+        "label": "D",
+        "text": "Expectations of lower short-term domestic interest rates"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Devaluation is a policy decision under a fixed exchange-rate system.",
+    "reference": "11.2 Exchange rates | 11.2.3 revaluation and devaluation | 11.2.4 exchange-rate changes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "A country changes from a fixed rate to a free float and the currency immediately falls. How should the fall be described after the regime change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A depreciation"
+      },
+      {
+        "label": "B",
+        "text": "A devaluation"
+      },
+      {
+        "label": "C",
+        "text": "A revaluation"
+      },
+      {
+        "label": "D",
+        "text": "A trade-weighting"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Once the rate is determined by market forces, a fall is a depreciation.",
+    "reference": "11.2 Exchange rates | 11.2.4 changes under different exchange-rate systems | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "The absolute PEDs for exports and imports are 0.4 and 0.5. What does Marshall-Lerner analysis imply about a devaluation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The condition holds because both PEDs are positive"
+      },
+      {
+        "label": "B",
+        "text": "The condition holds because the PED product is positive"
+      },
+      {
+        "label": "C",
+        "text": "The condition fails because the PED sum is below one"
+      },
+      {
+        "label": "D",
+        "text": "The condition fails because all devaluations exclude price effects"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The sum of the absolute elasticities is below one, so the required quantity response is insufficient.",
+    "reference": "11.2 Exchange rates | 11.2.5 Marshall-Lerner analysis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "The absolute PEDs for exports and imports are 0.2 and 1.0. Does the Marshall-Lerner condition hold?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes: the combined absolute PED equals 1.2"
+      },
+      {
+        "label": "B",
+        "text": "No: the export PED is below one"
+      },
+      {
+        "label": "C",
+        "text": "No: each PED must independently exceed one"
+      },
+      {
+        "label": "D",
+        "text": "Yes: the condition requires currency appreciation"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The combined absolute elasticity exceeds one; neither individual elasticity must exceed one.",
+    "reference": "11.2 Exchange rates | 11.2.5 Marshall-Lerner analysis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "Why can the Marshall-Lerner condition be more likely to hold in the long run than in the short run?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nominal exchange rates cease moving in the long run"
+      },
+      {
+        "label": "B",
+        "text": "Import demand disappears entirely in the long run"
+      },
+      {
+        "label": "C",
+        "text": "Export prices become legally fixed in the long run"
+      },
+      {
+        "label": "D",
+        "text": "Consumers and producers have time to adjust quantities"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Price elasticities often increase over time as contracts expire and substitution becomes easier.",
+    "reference": "11.2 Exchange rates | 11.2.5 Marshall-Lerner and J curve analysis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "A depreciation occurs and the current-account balance moves from -$20bn to -$28bn before improving to -$5bn. What pattern is shown?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A J-curve pattern"
+      },
+      {
+        "label": "B",
+        "text": "Permanent external deterioration"
+      },
+      {
+        "label": "C",
+        "text": "An official currency revaluation"
+      },
+      {
+        "label": "D",
+        "text": "Trade-weighted currency appreciation"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The deficit initially worsens before improving, which is the characteristic J-curve path.",
+    "reference": "11.2 Exchange rates | 11.2.5 J curve analysis | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "J-curve diagram. Vertical axis: current-account balance with zero clearly marked; horizontal axis: time. Starting from a deficit, show the balance worsening immediately after depreciation before turning upward and improving later.",
+    "graphScenes": [
+      {
+        "xLabel": "Time",
+        "yLabel": "Current-account balance ($bn)",
+        "xMax": 100,
+        "yMax": 10,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "Balance",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": -20
+              },
+              {
+                "x": 15,
+                "y": -25
+              },
+              {
+                "x": 30,
+                "y": -28
+              },
+              {
+                "x": 45,
+                "y": -22
+              },
+              {
+                "x": 70,
+                "y": -10
+              },
+              {
+                "x": 90,
+                "y": -5
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "Zero",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "Depreciation",
+            "x": 0,
+            "y": -20
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 30,
+            "y": -28
+          },
+          {
+            "id": "p2",
+            "label": "",
+            "x": 90,
+            "y": -5
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 0,
+            "y": -20,
+            "xLabel": "t0",
+            "yLabel": "−20"
+          },
+          {
+            "id": "g1",
+            "x": 30,
+            "y": -28,
+            "yLabel": "−28"
+          },
+          {
+            "id": "g2",
+            "x": 90,
+            "y": -5,
+            "yLabel": "−5"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values.",
+        "yMin": -40
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "Which factor is most likely to lengthen the downward part of the J-curve?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Flexible import consumption patterns"
+      },
+      {
+        "label": "B",
+        "text": "Long contracts delaying trade adjustment"
+      },
+      {
+        "label": "C",
+        "text": "Rapid changes between alternative suppliers"
+      },
+      {
+        "label": "D",
+        "text": "High immediate trade-price responsiveness"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Contracts and slow substitution keep short-run trade quantities unresponsive for longer.",
+    "reference": "11.2 Exchange rates | 11.2.5 J curve analysis | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "A depreciation makes imported raw materials more expensive. How can this weaken the expected external improvement?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher import costs reduce domestic export production costs"
+      },
+      {
+        "label": "B",
+        "text": "Higher input costs weaken domestic export price competitiveness"
+      },
+      {
+        "label": "C",
+        "text": "Every depreciation immediately becomes a real currency appreciation"
+      },
+      {
+        "label": "D",
+        "text": "Imported components are excluded from current-account goods spending"
+      }
+    ],
+    "answer": "B",
+    "explanation": "If exporters depend on imported inputs, devaluation can raise their costs and offset some price competitiveness gain.",
+    "reference": "11.2 Exchange rates | 11.2.5 effects of changing exchange rates on the external economy | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "A currency appreciates and a country's current-account surplus initially grows before later shrinking. Which concept best explains this?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A bank credit multiplier"
+      },
+      {
+        "label": "B",
+        "text": "A Laffer curve"
+      },
+      {
+        "label": "C",
+        "text": "A Phillips curve"
+      },
+      {
+        "label": "D",
+        "text": "A reverse J-curve effect"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Trade quantities can adjust slowly after an appreciation, so the current-account effect can initially move opposite to the eventual outcome.",
+    "reference": "11.2 Exchange rates | 11.2.5 J curve analysis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "A fixed exchange rate is above the market-equilibrium rate. Without intervention, what pressure exists?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand exceeds supply, creating upward pressure"
+      },
+      {
+        "label": "B",
+        "text": "Demand equals supply because the official rate is fixed"
+      },
+      {
+        "label": "C",
+        "text": "Demand exceeds supply, requiring official revaluation"
+      },
+      {
+        "label": "D",
+        "text": "Supply exceeds demand, creating downward pressure"
+      }
+    ],
+    "answer": "D",
+    "explanation": "An overvalued fixed rate creates excess supply of the domestic currency and requires support.",
+    "reference": "11.2 Exchange rates | 11.2.2 fixed exchange-rate determination | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Foreign-exchange market diagram with an official fixed rate above equilibrium. Show excess supply of the domestic currency at the fixed rate and downward market pressure on the currency.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of domestic currency",
+        "yLabel": "Foreign currency per domestic unit",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "Fixed rate",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 70
+              },
+              {
+                "x": 131.6,
+                "y": 70.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 70,
+            "y": 70
+          },
+          {
+            "id": "p2",
+            "label": "",
+            "x": 30,
+            "y": 70
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 70,
+            "y": 70,
+            "xLabel": "Qs"
+          },
+          {
+            "id": "g2",
+            "x": 30,
+            "y": 70,
+            "xLabel": "Qd"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "A fixed exchange rate is below the market-equilibrium rate. What action would the central bank use to prevent appreciation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Buy domestic currency with foreign reserves"
+      },
+      {
+        "label": "B",
+        "text": "Raise domestic interest rates to attract inflows"
+      },
+      {
+        "label": "C",
+        "text": "Reduce domestic-currency supply in exchange markets"
+      },
+      {
+        "label": "D",
+        "text": "Sell domestic currency for foreign reserves"
+      }
+    ],
+    "answer": "D",
+    "explanation": "At an undervalued fixed rate, demand exceeds supply, so the authority supplies domestic currency to maintain the parity.",
+    "reference": "11.2 Exchange rates | 11.2.2 fixed exchange-rate determination | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Foreign-exchange market diagram with an official fixed rate below equilibrium. Show excess demand for the domestic currency and the central bank supplying domestic currency to maintain the lower parity.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of domestic currency",
+        "yLabel": "Foreign currency per domestic unit",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "Fixed rate",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 35
+              },
+              {
+                "x": 131.6,
+                "y": 35.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 35,
+            "y": 35
+          },
+          {
+            "id": "p2",
+            "label": "",
+            "x": 65,
+            "y": 35
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 35,
+            "y": 35,
+            "xLabel": "Qs"
+          },
+          {
+            "id": "g2",
+            "x": 65,
+            "y": 35,
+            "xLabel": "Qd"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "A managed exchange rate is kept within a band. What happens when market forces push the currency toward the lower edge?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Buy domestic currency to resist downward pressure"
+      },
+      {
+        "label": "B",
+        "text": "Raise the official parity to strengthen upward pressure"
+      },
+      {
+        "label": "C",
+        "text": "Sell domestic currency to strengthen downward pressure"
+      },
+      {
+        "label": "D",
+        "text": "Permanently abandon market influences on exchange rates"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Intervention at the lower edge supports demand for the currency and keeps it within the band.",
+    "reference": "11.2 Exchange rates | 11.2.2 managed systems | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Managed exchange-rate band diagram. Vertical axis: exchange rate; horizontal axis: time. Draw upper and lower intervention bands and show the market rate approaching the lower band, where the central bank intervenes to support the currency.",
+    "graphScenes": [
+      {
+        "xLabel": "Time",
+        "yLabel": "Exchange rate",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "Upper band",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 75
+              },
+              {
+                "x": 94.0,
+                "y": 75.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "Lower band",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 35
+              },
+              {
+                "x": 94.0,
+                "y": 35.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "Market rate",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 55
+              },
+              {
+                "x": 25,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 40
+              },
+              {
+                "x": 70,
+                "y": 35
+              },
+              {
+                "x": 90,
+                "y": 40
+              }
+            ]
+          }
+        ],
+        "points": [],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "A managed exchange rate is kept within a band. What happens when market forces push the currency toward the upper edge?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Buy domestic currency to strengthen upward pressure"
+      },
+      {
+        "label": "B",
+        "text": "Reduce the official parity to strengthen downward pressure"
+      },
+      {
+        "label": "C",
+        "text": "Raise domestic interest rates to attract further inflows"
+      },
+      {
+        "label": "D",
+        "text": "Sell domestic currency to resist upward pressure"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Selling the currency adds supply and limits upward movement.",
+    "reference": "11.2 Exchange rates | 11.2.2 managed systems | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Managed exchange-rate band diagram. Vertical axis: exchange rate; horizontal axis: time. Draw upper and lower intervention bands and show the market rate approaching the upper band, where the central bank intervenes to restrain appreciation.",
+    "graphScenes": [
+      {
+        "xLabel": "Time",
+        "yLabel": "Exchange rate",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "Upper band",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 75
+              },
+              {
+                "x": 94.0,
+                "y": 75.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "Lower band",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 35
+              },
+              {
+                "x": 94.0,
+                "y": 35.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "Market rate",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 55
+              },
+              {
+                "x": 25,
+                "y": 60
+              },
+              {
+                "x": 50,
+                "y": 70
+              },
+              {
+                "x": 70,
+                "y": 75
+              },
+              {
+                "x": 90,
+                "y": 70
+              }
+            ]
+          }
+        ],
+        "points": [],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "Why can a fixed exchange rate constrain domestic monetary policy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The fixed rate makes interest-rate changes irrelevant"
+      },
+      {
+        "label": "B",
+        "text": "Rates may defend parity rather than domestic goals"
+      },
+      {
+        "label": "C",
+        "text": "The central bank cannot conduct any domestic securities transactions"
+      },
+      {
+        "label": "D",
+        "text": "A fixed exchange rate eliminates every possibility of increases in the domestic consumer-price level"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Defending the parity can require monetary-policy choices that conflict with growth or employment goals.",
+    "reference": "11.2 Exchange rates | 11.2.2 fixed exchange-rate determination | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "A country with high unemployment raises interest rates to defend a fixed exchange rate. What is the main domestic trade-off?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher rates necessarily strengthen household consumption"
+      },
+      {
+        "label": "B",
+        "text": "Currency support can weaken demand and employment"
+      },
+      {
+        "label": "C",
+        "text": "Higher rates guarantee increased domestic export volumes"
+      },
+      {
+        "label": "D",
+        "text": "Currency support necessarily reduces the official parity"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Higher rates can attract capital but also reduce borrowing, investment and aggregate demand.",
+    "reference": "11.2 Exchange rates | 11.2.2 fixed exchange-rate determination | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "A country has low inflation relative to trading partners while its nominal exchange rate is stable. What is most likely happening to its real exchange rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It is appreciating in real terms"
+      },
+      {
+        "label": "B",
+        "text": "It is unchanged necessarily"
+      },
+      {
+        "label": "C",
+        "text": "It is depreciating in real terms"
+      },
+      {
+        "label": "D",
+        "text": "It is being revalued officially"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Lower domestic inflation makes domestic goods cheaper relative to foreign goods, producing a real depreciation.",
+    "reference": "11.2 Exchange rates | 11.2.1 real exchange rate | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "A bilateral exchange rate is unchanged against one small trading partner, but the currency depreciates against major partners. What can happen to the trade-weighted rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The index must remain completely unchanged"
+      },
+      {
+        "label": "B",
+        "text": "The index must appreciate against all partners"
+      },
+      {
+        "label": "C",
+        "text": "The index depends entirely on domestic real output"
+      },
+      {
+        "label": "D",
+        "text": "The index can fall despite one unchanged quote"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Trade weights make movements against major partners dominate the index.",
+    "reference": "11.2 Exchange rates | 11.2.1 trade-weighted exchange rates | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "A currency devalues 10%, but domestic inflation then runs 8 percentage points above foreign inflation. What is the main implication?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Relative inflation strengthens nominal depreciation’s competitive gain"
+      },
+      {
+        "label": "B",
+        "text": "Relative inflation constitutes an official upward currency revaluation"
+      },
+      {
+        "label": "C",
+        "text": "Relative inflation leaves the nominal currency unchanged by definition"
+      },
+      {
+        "label": "D",
+        "text": "Relative inflation erodes nominal depreciation’s competitive gain"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Higher domestic inflation erodes much of the nominal competitiveness gain.",
+    "reference": "11.2 Exchange rates | 11.2.1 real exchange rate | 11.2.3 devaluation | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "Why is the trade-weighted exchange rate useful when evaluating external competitiveness?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It makes relative domestic inflation irrelevant to competitiveness"
+      },
+      {
+        "label": "B",
+        "text": "It guarantees a constant inflation-adjusted real currency value"
+      },
+      {
+        "label": "C",
+        "text": "It summarises currency changes against multiple trading partners"
+      },
+      {
+        "label": "D",
+        "text": "It measures only the domestic prices of imported goods"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Competitiveness depends on exchange-rate changes across trading relationships, so trade weighting gives a broader nominal measure.",
+    "reference": "11.2 Exchange rates | 11.2.1 trade-weighted exchange rates | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "A depreciation improves the current account even though export demand is price inelastic. How is this possible under Marshall-Lerner?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The demand elasticities for imports and exports must both individually exceed one"
+      },
+      {
+        "label": "B",
+        "text": "The export PED alone must exceed one"
+      },
+      {
+        "label": "C",
+        "text": "Import PED can raise the sum above one"
+      },
+      {
+        "label": "D",
+        "text": "Every depreciation succeeds regardless of either trade PED"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Marshall-Lerner uses the sum of the absolute elasticities, not a requirement that each one be elastic.",
+    "reference": "11.2 Exchange rates | 11.2.5 Marshall-Lerner analysis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "A country's exports and imports both have low short-run PED but high long-run PED. What pattern is most likely after devaluation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The trade balance improves immediately and continues to improve without any reversal"
+      },
+      {
+        "label": "B",
+        "text": "No possible current-account change"
+      },
+      {
+        "label": "C",
+        "text": "Immediate nominal currency appreciation"
+      },
+      {
+        "label": "D",
+        "text": "Deterioration first, improvement later"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Low short-run elasticities generate the early deterioration; higher long-run elasticities allow quantity adjustment and later improvement.",
+    "reference": "11.2 Exchange rates | 11.2.5 Marshall-Lerner and J curve analysis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "Which condition makes the J-curve improvement less likely even in the long run?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Export and import contracts expire quickly"
+      },
+      {
+        "label": "B",
+        "text": "Import consumers readily find domestic substitutes"
+      },
+      {
+        "label": "C",
+        "text": "Foreign export demand becomes more price responsive"
+      },
+      {
+        "label": "D",
+        "text": "Domestic exporters cannot expand productive capacity"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Even if demand responds, supply constraints can prevent export volumes from increasing enough.",
+    "reference": "11.2 Exchange rates | 11.2.5 J curve analysis | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "A revaluation is used to reduce inflation. What is a likely external cost?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Imports become dearer in domestic currency"
+      },
+      {
+        "label": "B",
+        "text": "Exports become cheaper in foreign currency"
+      },
+      {
+        "label": "C",
+        "text": "A revaluation necessarily leaves the currency undervalued relative to its market-clearing rate"
+      },
+      {
+        "label": "D",
+        "text": "Exports lose foreign-market competitiveness"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A stronger currency can reduce imported inflation but tends to make exports dearer and imports cheaper.",
+    "reference": "11.2 Exchange rates | 11.2.3 revaluation | 11.2.5 effects of exchange-rate changes | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "A devaluation is used to improve the current account. What is a likely domestic cost?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower domestic import prices"
+      },
+      {
+        "label": "B",
+        "text": "Higher domestic import prices"
+      },
+      {
+        "label": "C",
+        "text": "Necessarily lower aggregate demand"
+      },
+      {
+        "label": "D",
+        "text": "Necessarily overvalued domestic currency"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Devaluation raises the domestic-currency price of imports and imported inputs.",
+    "reference": "11.2 Exchange rates | 11.2.3 devaluation | 11.2.5 effects | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "A country fixes its currency at an undervalued rate. What is a likely consequence?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Downward pressure requiring official currency purchases"
+      },
+      {
+        "label": "B",
+        "text": "Upward pressure requiring official currency sales"
+      },
+      {
+        "label": "C",
+        "text": "Automatic reduction of the official parity"
+      },
+      {
+        "label": "D",
+        "text": "Guaranteed reduction in foreign export demand"
+      }
+    ],
+    "answer": "B",
+    "explanation": "An undervalued rate creates excess demand for the currency, which authorities offset by supplying it.",
+    "reference": "11.2 Exchange rates | 11.2.2 fixed exchange-rate determination | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "A country fixes its currency at an overvalued rate. What is a likely consequence?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Reserves rise as authorities sell domestic currency"
+      },
+      {
+        "label": "B",
+        "text": "The official parity automatically increases without intervention"
+      },
+      {
+        "label": "C",
+        "text": "Reserves fall as authorities buy domestic currency"
+      },
+      {
+        "label": "D",
+        "text": "The current account necessarily records a surplus"
+      }
+    ],
+    "answer": "C",
+    "explanation": "At an overvalued rate, the central bank must support demand for its currency, using foreign reserves.",
+    "reference": "11.2 Exchange rates | 11.2.2 fixed exchange-rate determination | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "What makes a managed float different from an adjustable peg?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Managed intervention need not promise one fixed parity"
+      },
+      {
+        "label": "B",
+        "text": "Managed floating prohibits every form of official intervention"
+      },
+      {
+        "label": "C",
+        "text": "An adjustable peg is solely determined by private markets"
+      },
+      {
+        "label": "D",
+        "text": "Managed floating and adjustable pegs are identical regimes"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Managed floating allows discretionary influence without necessarily announcing one fixed parity.",
+    "reference": "11.2 Exchange rates | 11.2.2 managed systems | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "A country intervenes to prevent rapid appreciation but sterilises the resulting monetary expansion. Why?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Offset intervention’s monetary effect while retaining currency influence"
+      },
+      {
+        "label": "B",
+        "text": "Guarantee an official currency devaluation without using other instruments"
+      },
+      {
+        "label": "C",
+        "text": "Intentionally increase consumer-price inflation through additional reserve creation"
+      },
+      {
+        "label": "D",
+        "text": "Eliminate every need for foreign-exchange assets during future intervention"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Sterilisation offsets the monetary-base effect of foreign-exchange intervention.",
+    "reference": "11.2 Exchange rates | 11.2.2 managed exchange-rate determination | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "A country's trade-weighted rate is stable while its currency depreciates sharply against one partner. What can explain this?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Other partner-currency appreciations offset the bilateral depreciation"
+      },
+      {
+        "label": "B",
+        "text": "Trade-weighted indices exclude every individual bilateral currency quote"
+      },
+      {
+        "label": "C",
+        "text": "The depreciating partner necessarily accounts for all international trade"
+      },
+      {
+        "label": "D",
+        "text": "Every bilateral depreciation automatically increases the trade-weighted index"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Offsetting bilateral movements can leave the weighted average broadly unchanged.",
+    "reference": "11.2 Exchange rates | 11.2.1 trade-weighted exchange rates | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 71,
+    "difficulty": "Hard",
+    "prompt": "A currency depreciates nominally by 12%, while domestic prices rise 9% and foreign prices rise 2%. What is the best qualitative judgment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real depreciation necessarily exceeds nominal depreciation"
+      },
+      {
+        "label": "B",
+        "text": "Relative inflation partly offsets nominal depreciation"
+      },
+      {
+        "label": "C",
+        "text": "Real appreciation necessarily equals exactly 19%"
+      },
+      {
+        "label": "D",
+        "text": "Relative inflation cannot affect real competitiveness"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Domestic inflation relative to foreign inflation offsets a large part of the nominal depreciation.",
+    "reference": "11.2 Exchange rates | 11.2.1 nominal and real exchange rates | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 72,
+    "difficulty": "Hard",
+    "prompt": "A currency appreciates 6% against a partner with 70% trade weight and depreciates 4% against the remaining partners. Approximately what is the trade-weighted change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "About 5% appreciation"
+      },
+      {
+        "label": "B",
+        "text": "About 3% depreciation"
+      },
+      {
+        "label": "C",
+        "text": "About 3% appreciation"
+      },
+      {
+        "label": "D",
+        "text": "About 5% depreciation"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Weighted change = 0.7(6) + 0.3(-4) = 3.0%.",
+    "reference": "11.2 Exchange rates | 11.2.1 trade-weighted exchange rates | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 73,
+    "difficulty": "Hard",
+    "prompt": "The nominal trade-weighted exchange rate appreciates, but the real exchange rate depreciates. Which situation can explain this?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Domestic prices rise faster than foreign prices"
+      },
+      {
+        "label": "B",
+        "text": "Domestic prices fall enough to offset nominal appreciation"
+      },
+      {
+        "label": "C",
+        "text": "The currency declines against every trading partner"
+      },
+      {
+        "label": "D",
+        "text": "Every trading partner has a zero index weight"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A strong relative-price improvement can outweigh a nominal appreciation and produce a real depreciation.",
+    "reference": "11.2 Exchange rates | 11.2.1 nominal, real and trade-weighted exchange rates | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "A fixed rate is under sustained downward pressure. The central bank raises interest rates repeatedly, causing recession. What is the strongest argument for devaluation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Devaluation necessarily lowers all domestic import prices"
+      },
+      {
+        "label": "B",
+        "text": "Devaluation eliminates all subsequent need for any instrument of macroeconomic stabilisation policy"
+      },
+      {
+        "label": "C",
+        "text": "Devaluation necessarily reduces consumer-price inflation immediately"
+      },
+      {
+        "label": "D",
+        "text": "Defending parity imposes excessive domestic costs"
+      }
+    ],
+    "answer": "D",
+    "explanation": "If the parity is overvalued, defending it can require damaging policy. Resetting the rate may restore external equilibrium more sustainably.",
+    "reference": "11.2 Exchange rates | 11.2.2 fixed systems | 11.2.3 devaluation | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "A fixed currency is defended successfully for years, but domestic inflation persistently exceeds foreign inflation. What pressure is likely to build?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real depreciation strengthens competitiveness indefinitely"
+      },
+      {
+        "label": "B",
+        "text": "Real appreciation weakens competitiveness and peg sustainability"
+      },
+      {
+        "label": "C",
+        "text": "Lower domestic prices automatically require official currency revaluation"
+      },
+      {
+        "label": "D",
+        "text": "Domestic and foreign inflation cannot affect competitiveness"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Higher domestic inflation raises the real exchange rate even with an unchanged nominal parity.",
+    "reference": "11.2 Exchange rates | 11.2.1 real exchange rate | 11.2.2 fixed system | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "A managed currency is prevented from appreciating despite strong capital inflows. What reserve and monetary effects are likely before sterilisation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Foreign reserves fall; domestic liquidity falls"
+      },
+      {
+        "label": "B",
+        "text": "Foreign reserves rise; domestic liquidity rises"
+      },
+      {
+        "label": "C",
+        "text": "Foreign reserves rise; domestic liquidity falls"
+      },
+      {
+        "label": "D",
+        "text": "Foreign reserves fall; domestic liquidity rises"
+      }
+    ],
+    "answer": "B",
+    "explanation": "To resist appreciation, the central bank buys foreign currency and supplies domestic currency, accumulating reserves and adding liquidity.",
+    "reference": "11.2 Exchange rates | 11.2.2 managed systems | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "A managed currency is prevented from depreciating despite capital outflows. What reserve effect is likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Foreign reserves rise through domestic-currency sales"
+      },
+      {
+        "label": "B",
+        "text": "Foreign reserves remain unchanged despite official support"
+      },
+      {
+        "label": "C",
+        "text": "Foreign reserves fall through domestic-currency purchases"
+      },
+      {
+        "label": "D",
+        "text": "Foreign reserves rise through domestic-currency purchases"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Supporting a weakening currency requires selling foreign reserves to purchase domestic currency.",
+    "reference": "11.2 Exchange rates | 11.2.2 managed systems | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "A government wants a fixed exchange rate and an independent low interest rate despite strong downward currency pressure. What is the core policy conflict?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Low rates can reinforce outflows and weaken the peg"
+      },
+      {
+        "label": "B",
+        "text": "Low rates necessarily attract stronger inward capital flows"
+      },
+      {
+        "label": "C",
+        "text": "A fixed peg eliminates every constraint on monetary policy"
+      },
+      {
+        "label": "D",
+        "text": "A fixed peg prevents any conflict with domestic objectives"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Defending a weak fixed currency may require higher rather than lower interest rates.",
+    "reference": "11.2 Exchange rates | 11.2.2 fixed exchange-rate determination | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "A depreciation meets the Marshall-Lerner condition in the long run, yet the current account never improves. Which additional factor could explain this?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Export capacity or market-access barriers can block quantity adjustment"
+      },
+      {
+        "label": "B",
+        "text": "The combined absolute export and import PED exceeds one"
+      },
+      {
+        "label": "C",
+        "text": "Import contracts expire and consumers can change their purchases"
+      },
+      {
+        "label": "D",
+        "text": "Domestic consumers become more able to substitute for imported products"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Marshall-Lerner focuses on demand responsiveness, but supply constraints and trade barriers can prevent the required quantity changes.",
+    "reference": "11.2 Exchange rates | 11.2.5 Marshall-Lerner analysis | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "The absolute PEDs for exports and imports sum to exactly one. What is the most cautious conclusion after a small depreciation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Marginal price and quantity effects approximately offset"
+      },
+      {
+        "label": "B",
+        "text": "Marginal price effects guarantee a large trade improvement"
+      },
+      {
+        "label": "C",
+        "text": "Marginal quantity effects guarantee a large trade deterioration"
+      },
+      {
+        "label": "D",
+        "text": "Marginal elasticity changes require an official upward revaluation"
+      }
+    ],
+    "answer": "A",
+    "explanation": "At the threshold value of one, the standard Marshall-Lerner condition does not predict a clear improvement.",
+    "reference": "11.2 Exchange rates | 11.2.5 Marshall-Lerner analysis | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "A country devalues, and its trade deficit worsens for six months then improves sharply. Which evidence would most strongly support a J-curve explanation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Imports and exports adjust their quantities fully as soon as devaluation is announced"
+      },
+      {
+        "label": "B",
+        "text": "Import contracts permit immediate full adjustment"
+      },
+      {
+        "label": "C",
+        "text": "Export capacity declines permanently after devaluation"
+      },
+      {
+        "label": "D",
+        "text": "Initially weak quantity responses strengthen over time"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The J-curve arises from delayed quantity adjustment and rising elasticities over time.",
+    "reference": "11.2 Exchange rates | 11.2.5 J curve analysis | AO3 Evaluation",
+    "graphRequired": true,
+    "graphDescription": "J-curve diagram with time on the horizontal axis and current-account balance on the vertical axis. Mark the devaluation at t0 and show an initial deterioration followed by a delayed recovery.",
+    "graphScenes": [
+      {
+        "xLabel": "Time",
+        "yLabel": "Current-account balance ($bn)",
+        "xMax": 100,
+        "yMax": 10,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "Balance",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": -20
+              },
+              {
+                "x": 15,
+                "y": -25
+              },
+              {
+                "x": 30,
+                "y": -28
+              },
+              {
+                "x": 45,
+                "y": -22
+              },
+              {
+                "x": 70,
+                "y": -10
+              },
+              {
+                "x": 90,
+                "y": -5
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "Zero",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "Devaluation",
+            "x": 0,
+            "y": -20
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 30,
+            "y": -28
+          },
+          {
+            "id": "p2",
+            "label": "",
+            "x": 90,
+            "y": -5
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 0,
+            "y": -20,
+            "xLabel": "t0",
+            "yLabel": "−20"
+          },
+          {
+            "id": "g1",
+            "x": 30,
+            "y": -28,
+            "yLabel": "−28"
+          },
+          {
+            "id": "g2",
+            "x": 90,
+            "y": -5,
+            "yLabel": "−5"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values.",
+        "yMin": -40
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "A country devalues but imports are essential medicines with very inelastic demand. What does this imply for the short-run current account?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Essential imports immediately become cheaper domestically"
+      },
+      {
+        "label": "B",
+        "text": "Inelastic imports guarantee the condition is satisfied"
+      },
+      {
+        "label": "C",
+        "text": "Dearer imports can worsen the initial balance"
+      },
+      {
+        "label": "D",
+        "text": "Export prices become dearer to foreign buyers"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The domestic-currency price of essential imports rises while quantity changes little.",
+    "reference": "11.2 Exchange rates | 11.2.5 Marshall-Lerner and J curve analysis | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "A depreciation raises export volume but also raises the domestic cost of imported components used by exporters. What determines the final external effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Stronger demand must outweigh input-cost and competitiveness losses"
+      },
+      {
+        "label": "B",
+        "text": "Depreciation guarantees improved exports regardless of imported input costs"
+      },
+      {
+        "label": "C",
+        "text": "Imported inputs have no influence on export-sector productive costs"
+      },
+      {
+        "label": "D",
+        "text": "Financial flows alone determine every current-account trade outcome"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Exchange-rate changes have multiple channels, so the net effect depends on production structure and elasticities.",
+    "reference": "11.2 Exchange rates | 11.2.5 effects of changing exchange rates | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "A currency appreciates against the dollar but depreciates against the euro. What additional information is needed to know the trade-weighted change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Trade weights and bilateral percentage changes"
+      },
+      {
+        "label": "B",
+        "text": "Domestic inflation and household saving rates"
+      },
+      {
+        "label": "C",
+        "text": "Domestic unemployment and labour participation rates"
+      },
+      {
+        "label": "D",
+        "text": "Fiscal deficits and government debt levels"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A trade-weighted index depends on both the magnitude of bilateral changes and each partner's importance in trade.",
+    "reference": "11.2 Exchange rates | 11.2.1 trade-weighted exchange rates | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "A country fixes its currency to a major partner experiencing high inflation. Even if the bilateral nominal rate is stable, what can happen to the country's competitiveness against other economies?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Relative prices and other currency quotes still affect competitiveness"
+      },
+      {
+        "label": "B",
+        "text": "Fixing one bilateral quote fixes every international competitive measure"
+      },
+      {
+        "label": "C",
+        "text": "Fixing one bilateral quote fixes the real trade-weighted index"
+      },
+      {
+        "label": "D",
+        "text": "Fixing one bilateral quote eliminates every trading partner’s weight"
+      }
+    ],
+    "answer": "A",
+    "explanation": "One fixed bilateral rate does not freeze the real or trade-weighted exchange rate.",
+    "reference": "11.2 Exchange rates | 11.2.1 real and trade-weighted exchange rates | 11.2.2 fixed system | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "A managed float smooths short-term volatility but repeatedly resists a long-run depreciation trend. What is the main risk?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Intervention guarantees permanent market-driven currency appreciation"
+      },
+      {
+        "label": "B",
+        "text": "Prolonged resistance can deplete reserves and magnify adjustment"
+      },
+      {
+        "label": "C",
+        "text": "Continued intervention never entails financial or economic costs"
+      },
+      {
+        "label": "D",
+        "text": "A managed currency cannot change its real exchange rate"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Smoothing temporary fluctuations is easier than resisting persistent fundamentals.",
+    "reference": "11.2 Exchange rates | 11.2.2 managed exchange-rate determination | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "A country revalues its fixed currency to fight inflation. Why might the current account deteriorate only with a delay?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An official upward change in parity makes exports cheaper for overseas customers"
+      },
+      {
+        "label": "B",
+        "text": "Revaluation makes imports dearer in domestic currency"
+      },
+      {
+        "label": "C",
+        "text": "Revaluation initially lowers the nominal currency value"
+      },
+      {
+        "label": "D",
+        "text": "Contracts delay trade-quantity adjustment"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The reverse J-curve logic applies because quantities take time to respond to relative-price changes.",
+    "reference": "11.2 Exchange rates | 11.2.3 revaluation | 11.2.5 J curve analysis | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "A currency devalues 15%, but the trade-weighted exchange rate falls only 5%. Which is the best explanation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Trade-weighted movements must equal every bilateral movement"
+      },
+      {
+        "label": "B",
+        "text": "Domestic inflation alone determines every nominal currency index"
+      },
+      {
+        "label": "C",
+        "text": "Other partner-currency movements offset the reference-currency change"
+      },
+      {
+        "label": "D",
+        "text": "The official downward change is actually an upward revaluation"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A trade-weighted index aggregates several bilateral rates, so one large bilateral change may be diluted by others.",
+    "reference": "11.2 Exchange rates | 11.2.1 trade-weighted exchange rates | 11.2.3 devaluation | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "A country's nominal exchange rate depreciates, but its export market share still falls. Which explanation is most plausible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nominal depreciation necessarily raises every exporter’s market share"
+      },
+      {
+        "label": "B",
+        "text": "Foreign consumers must demand exports perfectly price elastically"
+      },
+      {
+        "label": "C",
+        "text": "Trade-weighted indices cannot fall after a nominal depreciation"
+      },
+      {
+        "label": "D",
+        "text": "Inflation or weak non-price competitiveness can offset depreciation"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Competitiveness depends on real prices, quality, reliability and supply capacity, not the nominal rate alone.",
+    "reference": "11.2 Exchange rates | 11.2.1 real exchange rate | 11.2.5 external effects | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "A fixed currency is overvalued. Which policy combination is most likely to defend it without changing the parity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower rates and official domestic-currency sales"
+      },
+      {
+        "label": "B",
+        "text": "Higher rates and official domestic-currency purchases"
+      },
+      {
+        "label": "C",
+        "text": "Official devaluation and lower domestic policy rates"
+      },
+      {
+        "label": "D",
+        "text": "Official currency sales and stronger capital-outflow incentives"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Both higher rates and direct purchases raise demand for the currency.",
+    "reference": "11.2 Exchange rates | 11.2.2 fixed exchange-rate determination | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Foreign-exchange market diagram. Show an overvalued official fixed rate above equilibrium, excess supply of the domestic currency, and the authorities supporting the rate through purchases of domestic currency.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity of domestic currency",
+        "yLabel": "Foreign currency per domestic unit",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "Fixed rate",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 70
+              },
+              {
+                "x": 131.6,
+                "y": 70.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 70,
+            "y": 70
+          },
+          {
+            "id": "p2",
+            "label": "",
+            "x": 30,
+            "y": 70
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 70,
+            "y": 70,
+            "xLabel": "Qs"
+          },
+          {
+            "id": "g2",
+            "x": 30,
+            "y": 70,
+            "xLabel": "Qd"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "A managed currency is undervalued relative to market fundamentals and authorities keep selling domestic currency. What is a likely consequence?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Foreign-exchange reserves are depleted"
+      },
+      {
+        "label": "B",
+        "text": "The financial account disappears"
+      },
+      {
+        "label": "C",
+        "text": "The currency automatically devalues"
+      },
+      {
+        "label": "D",
+        "text": "Foreign-exchange reserves accumulate"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The central bank receives foreign currency in exchange for the domestic currency it sells.",
+    "reference": "11.2 Exchange rates | 11.2.2 managed exchange-rate determination | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "A depreciation is expected to improve the current account, but the combined PEDs are 1.4. Why is improvement still not guaranteed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A combined elasticity above one guarantees deterioration"
+      },
+      {
+        "label": "B",
+        "text": "Supply constraints may offset demand responses"
+      },
+      {
+        "label": "C",
+        "text": "The Marshall-Lerner condition is relevant only when a fixed currency is officially revalued upward"
+      },
+      {
+        "label": "D",
+        "text": "Trade-price elasticities have no relationship with export revenues"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The condition is important but not sufficient for every real-world outcome.",
+    "reference": "11.2 Exchange rates | 11.2.5 Marshall-Lerner analysis | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "A central bank wants to smooth a temporary speculative depreciation but not defend a permanent level. Which regime best fits this objective?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A managed float"
+      },
+      {
+        "label": "B",
+        "text": "A permanently fixed parity"
+      },
+      {
+        "label": "C",
+        "text": "A free float without intervention"
+      },
+      {
+        "label": "D",
+        "text": "A currency union without domestic intervention"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A managed float allows selective intervention without committing to an immutable parity.",
+    "reference": "11.2 Exchange rates | 11.2.2 managed exchange-rate determination | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "A country's trade-weighted exchange-rate index rises from 100 to 108 while domestic inflation is much higher than abroad. What is most likely true of the real effective exchange rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Real appreciation may exceed the nominal appreciation"
+      },
+      {
+        "label": "B",
+        "text": "Real depreciation must follow the nominal appreciation"
+      },
+      {
+        "label": "C",
+        "text": "Real appreciation must exactly equal the nominal appreciation"
+      },
+      {
+        "label": "D",
+        "text": "Real competitiveness cannot respond to relative domestic inflation"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Nominal appreciation plus higher domestic relative prices both push toward real appreciation.",
+    "reference": "11.2 Exchange rates | 11.2.1 nominal, real and trade-weighted exchange rates | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "A country wants to improve its current account through devaluation but avoid a prolonged J-curve deterioration. Which condition helps most?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Low short-run responsiveness of export and import demand"
+      },
+      {
+        "label": "B",
+        "text": "Long contracts fixing every international trade quantity"
+      },
+      {
+        "label": "C",
+        "text": "Flexible contracts and substitutes permitting rapid quantity adjustment"
+      },
+      {
+        "label": "D",
+        "text": "Severe productive-capacity constraints in the domestic export sector"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Faster quantity adjustment shortens or reduces the initial deterioration.",
+    "reference": "11.2 Exchange rates | 11.2.5 J curve analysis | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "A country has a fixed rate and a persistent current-account surplus. Market forces put upward pressure on the currency. If the government revalues, what is the likely external effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Exports become cheaper; imports become dearer"
+      },
+      {
+        "label": "B",
+        "text": "Exports become dearer; imports become cheaper"
+      },
+      {
+        "label": "C",
+        "text": "Exports become cheaper; imports become cheaper"
+      },
+      {
+        "label": "D",
+        "text": "Exports become dearer; imports become dearer"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Revaluation raises the external value and tends to reduce net exports.",
+    "reference": "11.2 Exchange rates | 11.2.3 revaluation | 11.2.5 external effects | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "A fixed exchange rate is maintained through repeated reserve losses and very high interest rates. Which criterion most strongly suggests the parity is unsustainable?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Persistent reserve loss and domestic costs reflect an unrealistic parity"
+      },
+      {
+        "label": "B",
+        "text": "The authorities publicly announce the nominal value of the parity"
+      },
+      {
+        "label": "C",
+        "text": "Residents continue to trade goods and services with foreign producers"
+      },
+      {
+        "label": "D",
+        "text": "The central bank retains some holdings of foreign-exchange reserve assets"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Sustainability depends on whether underlying flows support the parity without ever-increasing intervention costs.",
+    "reference": "11.2 Exchange rates | 11.2.2 fixed exchange-rate determination | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "A currency depreciates, the Marshall-Lerner condition holds, but domestic inflation accelerates afterward. What is the likely dynamic effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Inflation necessarily strengthens the competitive gain permanently"
+      },
+      {
+        "label": "B",
+        "text": "Inflation necessarily makes exports cheaper in real terms"
+      },
+      {
+        "label": "C",
+        "text": "Inflation can erode the initial real competitive gain"
+      },
+      {
+        "label": "D",
+        "text": "Inflation formally changes nominal depreciation into official currency revaluation"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Higher domestic prices reduce the real competitiveness gain created by the nominal depreciation.",
+    "reference": "11.2 Exchange rates | 11.2.1 real exchange rate | 11.2.5 Marshall-Lerner | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "Which statement best integrates nominal, real and trade-weighted exchange rates?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nominal: currency quote; real: price-adjusted; trade-weighted: partner-weighted"
+      },
+      {
+        "label": "B",
+        "text": "Nominal: price-adjusted; real: currency quote; trade-weighted: partner-weighted"
+      },
+      {
+        "label": "C",
+        "text": "Nominal: partner-weighted; real: currency quote; trade-weighted: price-adjusted"
+      },
+      {
+        "label": "D",
+        "text": "Nominal: currency quote; real: partner-weighted; trade-weighted: price-adjusted"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Each measure captures a different dimension of external value and competitiveness.",
+    "reference": "11.2 Exchange rates | 11.2.1 measurement of exchange rates | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "What is the central lesson of Marshall-Lerner and J-curve analysis for exchange-rate policy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Depreciation guarantees immediate improvement regardless of responsiveness"
+      },
+      {
+        "label": "B",
+        "text": "Only the nominal currency quote influences external competitiveness"
+      },
+      {
+        "label": "C",
+        "text": "Fixed and floating rates have identical adjustment mechanisms"
+      },
+      {
+        "label": "D",
+        "text": "Responsiveness and adjustment time determine depreciation’s external effects"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Exchange-rate policy works through relative prices, but quantities may respond slowly and not enough.",
+    "reference": "11.2 Exchange rates | 11.2.5 Marshall-Lerner and J curve analysis | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  }
+]

@@ -1,0 +1,5491 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "Which of the following best describes market equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The price at which all sellers earn identical producer surplus"
+      },
+      {
+        "label": "B",
+        "text": "The quantity at which every buyer has the same willingness to pay"
+      },
+      {
+        "label": "C",
+        "text": "The price at which consumer surplus equals producer surplus"
+      },
+      {
+        "label": "D",
+        "text": "The quantity at which demand and supply have equal slopes"
+      },
+      {
+        "label": "E",
+        "text": "The price at which quantity demanded equals quantity supplied"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Equilibrium is the price at which consumers' planned purchases equal producers' planned sales. Quantity demanded equals quantity supplied.",
+    "reference": "MKT-4.A | MKT-4.A.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "At the equilibrium price in a perfectly competitive market,",
+    "options": [
+      {
+        "label": "A",
+        "text": "The benefit to buyers equals the benefit to sellers"
+      },
+      {
+        "label": "B",
+        "text": "The demand curve has the same slope as supply"
+      },
+      {
+        "label": "C",
+        "text": "The quantity buyers want equals the quantity sellers offer"
+      },
+      {
+        "label": "D",
+        "text": "Each seller incurs the same cost per unit"
+      },
+      {
+        "label": "E",
+        "text": "Each buyer values the good by the same amount"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The market clears when the quantity buyers want exactly matches the quantity sellers offer.",
+    "reference": "MKT-4.A | MKT-4.A.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "Which of the following is true at a market-clearing price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumer surplus must equal producer surplus in the market"
+      },
+      {
+        "label": "B",
+        "text": "Every producer is willing to sell at the same cost"
+      },
+      {
+        "label": "C",
+        "text": "Neither a shortage nor a surplus"
+      },
+      {
+        "label": "D",
+        "text": "Every consumer is willing to buy the same quantity"
+      },
+      {
+        "label": "E",
+        "text": "The highest-cost seller receives the greatest producer surplus"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A market-clearing price equates quantity demanded and supplied. Neither excess demand nor excess supply remains.",
+    "reference": "MKT-4.A | MKT-4.A.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "The equilibrium quantity is the quantity",
+    "options": [
+      {
+        "label": "A",
+        "text": "Buyers purchase and sellers sell at the equilibrium price"
+      },
+      {
+        "label": "B",
+        "text": "For which consumer surplus equals producer surplus"
+      },
+      {
+        "label": "C",
+        "text": "Sellers would offer at the demand curve’s intercept"
+      },
+      {
+        "label": "D",
+        "text": "Buyers would purchase if the good had a price of zero"
+      },
+      {
+        "label": "E",
+        "text": "For which the demand and supply slopes are equal"
+      }
+    ],
+    "answer": "A",
+    "explanation": "At equilibrium, buyers and sellers choose the same quantity. This common amount is the equilibrium quantity traded.",
+    "reference": "MKT-4.A | MKT-4.A.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "Consumer surplus from one unit equals",
+    "options": [
+      {
+        "label": "A",
+        "text": "The buyer’s willingness to pay minus the seller’s revenue"
+      },
+      {
+        "label": "B",
+        "text": "The price received minus the seller’s cost"
+      },
+      {
+        "label": "C",
+        "text": "The price paid minus the buyer’s willingness to pay"
+      },
+      {
+        "label": "D",
+        "text": "The buyer’s willingness to pay minus the price paid"
+      },
+      {
+        "label": "E",
+        "text": "The seller’s cost minus the price received"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Consumer surplus is the buyer's willingness to pay minus the actual price. It measures the net benefit from purchasing.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, market equilibrium occurs",
+    "options": [
+      {
+        "label": "A",
+        "text": "Where demand and supply intersect at point E"
+      },
+      {
+        "label": "B",
+        "text": "Where supply reaches its quantity-axis intercept"
+      },
+      {
+        "label": "C",
+        "text": "Where demand lies above supply at the same quantity"
+      },
+      {
+        "label": "D",
+        "text": "Where demand reaches its price-axis intercept"
+      },
+      {
+        "label": "E",
+        "text": "Where supply lies below demand at the same quantity"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Demand and supply meet at E. Both curves give quantity Qe at price Pe, identifying equilibrium.",
+    "reference": "MKT-4.A | MKT-4.A.1 | MKT-4.A.2 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. A downward-sloping demand curve D and an upward-sloping supply curve S intersect at point E. Dashed guides from E identify equilibrium price Pe and equilibrium quantity Qe.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 110,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qe",
+            "yLabel": "Pe"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "cs",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ],
+            "label": "Area X"
+          },
+          {
+            "id": "region1",
+            "fill": "ps",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ],
+            "label": "Area Y"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "A buyer’s willingness to pay is best interpreted as",
+    "options": [
+      {
+        "label": "A",
+        "text": "The maximum amount the buyer would pay for a unit"
+      },
+      {
+        "label": "B",
+        "text": "The difference between equilibrium price and seller cost"
+      },
+      {
+        "label": "C",
+        "text": "The total producer surplus generated by one unit"
+      },
+      {
+        "label": "D",
+        "text": "The minimum amount a seller would accept for a unit"
+      },
+      {
+        "label": "E",
+        "text": "The market price received by every seller of the good"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Willingness to pay is the maximum amount a buyer values a unit. Paying less than this amount creates consumer surplus.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "Producer surplus from one unit equals",
+    "options": [
+      {
+        "label": "A",
+        "text": "The price received minus the seller’s cost"
+      },
+      {
+        "label": "B",
+        "text": "The price paid minus the buyer’s willingness to pay"
+      },
+      {
+        "label": "C",
+        "text": "The buyer’s willingness to pay minus the price paid"
+      },
+      {
+        "label": "D",
+        "text": "The seller’s revenue minus the buyer’s valuation"
+      },
+      {
+        "label": "E",
+        "text": "The seller’s cost minus the price received"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Producer surplus is the price received minus the unit's cost or minimum acceptable price. It measures the seller's gain from the trade.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "On a supply curve, a seller’s minimum acceptable price for a unit reflects the seller’s",
+    "options": [
+      {
+        "label": "A",
+        "text": "Total revenue from all units"
+      },
+      {
+        "label": "B",
+        "text": "Cost of supplying that unit"
+      },
+      {
+        "label": "C",
+        "text": "Consumer surplus from that unit"
+      },
+      {
+        "label": "D",
+        "text": "Willingness to pay for that unit"
+      },
+      {
+        "label": "E",
+        "text": "Share of total market surplus"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Supply shows sellers' minimum acceptable prices or marginal costs. A market price above those amounts creates producer surplus.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, consumer surplus at equilibrium is the area",
+    "options": [
+      {
+        "label": "A",
+        "text": "Above supply and below Pe from zero to Qe"
+      },
+      {
+        "label": "B",
+        "text": "Below demand and below supply from zero to Qe"
+      },
+      {
+        "label": "C",
+        "text": "Between Pe and the quantity axis beyond Qe"
+      },
+      {
+        "label": "D",
+        "text": "Above demand and above Pe from zero to Qe"
+      },
+      {
+        "label": "E",
+        "text": "Below demand and above Pe from zero to Qe"
+      }
+    ],
+    "answer": "E",
+    "explanation": "For every purchased unit, subtract price from the demand curve's willingness to pay. Adding these differences gives the area below demand and above Pe through Qe.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Demand D slopes downward and supply S slopes upward, intersecting at E with dashed guides to Pe and Qe. The region below D and above Pe between zero and Qe is shaded and labeled Area X.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 110,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qe",
+            "yLabel": "Pe"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "cs",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ],
+            "label": "Area X"
+          },
+          {
+            "id": "region1",
+            "fill": "ps",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ],
+            "label": "Area Y"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "Total economic surplus in a market equals",
+    "options": [
+      {
+        "label": "A",
+        "text": "The sum of all buyers’ willingness to pay"
+      },
+      {
+        "label": "B",
+        "text": "Equilibrium price multiplied by equilibrium quantity"
+      },
+      {
+        "label": "C",
+        "text": "Consumer surplus plus producer surplus"
+      },
+      {
+        "label": "D",
+        "text": "Consumer surplus minus producer surplus"
+      },
+      {
+        "label": "E",
+        "text": "Buyers’ total spending minus sellers’ total revenue"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Total surplus adds buyers' and sellers' gains. It equals consumer surplus plus producer surplus.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "A seller’s willingness to sell a unit is best represented by",
+    "options": [
+      {
+        "label": "A",
+        "text": "The consumer surplus earned on the unit"
+      },
+      {
+        "label": "B",
+        "text": "The total revenue collected from all units"
+      },
+      {
+        "label": "C",
+        "text": "The minimum price that covers the seller’s cost"
+      },
+      {
+        "label": "D",
+        "text": "The equilibrium price received by every seller"
+      },
+      {
+        "label": "E",
+        "text": "The maximum price a buyer assigns to the unit"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A seller requires a price sufficient to cover the unit's cost. That cost determines the minimum acceptable price.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "At equilibrium, the marginal buyer is the buyer whose willingness to pay is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Equal to the market price"
+      },
+      {
+        "label": "B",
+        "text": "Equal to the marginal seller’s producer surplus"
+      },
+      {
+        "label": "C",
+        "text": "Greater than every other buyer’s valuation"
+      },
+      {
+        "label": "D",
+        "text": "Equal to total consumer surplus in the market"
+      },
+      {
+        "label": "E",
+        "text": "Less than the cost of the marginal unit"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The marginal buyer values the last unit exactly at the market price. That buyer is indifferent between buying and not buying.",
+    "reference": "MKT-4.A | MKT-4.A.2 | MKT-4.A.4 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "At equilibrium, the marginal seller is the seller whose cost is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Equal to the market price"
+      },
+      {
+        "label": "B",
+        "text": "Greater than the marginal buyer’s valuation"
+      },
+      {
+        "label": "C",
+        "text": "Equal to total producer surplus in the market"
+      },
+      {
+        "label": "D",
+        "text": "Equal to the demand curve’s price intercept"
+      },
+      {
+        "label": "E",
+        "text": "Lower than every other seller’s cost"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The marginal seller's cost equals the market price. Supplying that marginal unit creates no extra producer surplus.",
+    "reference": "MKT-4.A | MKT-4.A.2 | MKT-4.A.4 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "Which of the following best explains the information conveyed by an equilibrium price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It guides buyers’ and sellers’ resource-allocation decisions"
+      },
+      {
+        "label": "B",
+        "text": "It fixes the quantity each consumer must purchase"
+      },
+      {
+        "label": "C",
+        "text": "It guarantees equal surplus for every market participant"
+      },
+      {
+        "label": "D",
+        "text": "It eliminates differences in production costs among firms"
+      },
+      {
+        "label": "E",
+        "text": "It makes buyers’ valuations identical to sellers’ costs"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Market price conveys information about buyers' valuations and resource scarcity. Participants use it to decide what to purchase and produce.",
+    "reference": "MKT-4.A | MKT-4.A.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "A voluntary purchase generates positive consumer surplus when",
+    "options": [
+      {
+        "label": "A",
+        "text": "The market quantity exceeds the equilibrium quantity"
+      },
+      {
+        "label": "B",
+        "text": "The seller’s cost exceeds the price received"
+      },
+      {
+        "label": "C",
+        "text": "The buyer’s willingness to pay exceeds the price"
+      },
+      {
+        "label": "D",
+        "text": "The price exceeds the buyer’s willingness to pay"
+      },
+      {
+        "label": "E",
+        "text": "The buyer’s valuation equals the seller’s revenue"
+      }
+    ],
+    "answer": "C",
+    "explanation": "When willingness to pay exceeds the price, the buyer receives a positive net benefit. The difference is consumer surplus.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, producer surplus at equilibrium is represented by",
+    "options": [
+      {
+        "label": "A",
+        "text": "Area X, below demand and above Pe through Qe"
+      },
+      {
+        "label": "B",
+        "text": "Area Y, above supply and below Pe through Qe"
+      },
+      {
+        "label": "C",
+        "text": "Area X plus Area Y only above the demand curve"
+      },
+      {
+        "label": "D",
+        "text": "The rectangle with height Pe and width Qe"
+      },
+      {
+        "label": "E",
+        "text": "Area Z, above demand and below supply beyond Qe"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Area Y lies above supply and below Pe for the units sold. It adds the price-minus-cost gains of sellers and is producer surplus.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Demand D slopes downward and supply S slopes upward, intersecting at E with guides to Pe and Qe. The region above S and below Pe through Qe is shaded and labeled Area Y; the region above Pe and below D is labeled Area X.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 110,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qe",
+            "yLabel": "Pe"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "cs",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ],
+            "label": "Area X"
+          },
+          {
+            "id": "region1",
+            "fill": "ps",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ],
+            "label": "Area Y"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "The area of a triangular consumer-surplus region is calculated as",
+    "options": [
+      {
+        "label": "A",
+        "text": "Its price height divided by its quantity base"
+      },
+      {
+        "label": "B",
+        "text": "Its quantity base times its price height"
+      },
+      {
+        "label": "C",
+        "text": "One-half times its price base plus its quantity height"
+      },
+      {
+        "label": "D",
+        "text": "Its quantity base divided by twice its price height"
+      },
+      {
+        "label": "E",
+        "text": "One-half times its quantity base times its price height"
+      }
+    ],
+    "answer": "E",
+    "explanation": "A triangular surplus region has area one-half its quantity base times its price height.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "In the absence of market failures, competitive equilibrium is efficient because it",
+    "options": [
+      {
+        "label": "A",
+        "text": "Requires every seller to have the same cost"
+      },
+      {
+        "label": "B",
+        "text": "Maximizes consumer surplus plus producer surplus"
+      },
+      {
+        "label": "C",
+        "text": "Allocates every unit to the lowest-value buyer"
+      },
+      {
+        "label": "D",
+        "text": "Maximizes the market price received by sellers"
+      },
+      {
+        "label": "E",
+        "text": "Makes consumer surplus equal producer surplus"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Without market failures, competitive equilibrium includes all trades whose benefits exceed costs. This maximizes total surplus.",
+    "reference": "MKT-4.A | MKT-4.A.5 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "Which transaction adds to total surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A unit for which the seller’s cost exceeds the buyer’s willingness to pay"
+      },
+      {
+        "label": "B",
+        "text": "A unit for which price exceeds both valuation and cost"
+      },
+      {
+        "label": "C",
+        "text": "A unit for which the buyer’s willingness to pay exceeds the seller’s cost"
+      },
+      {
+        "label": "D",
+        "text": "A unit for which cost equals total market revenue"
+      },
+      {
+        "label": "E",
+        "text": "A unit for which the buyer’s willingness to pay equals zero"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A trade adds surplus when the buyer's value exceeds the unit's production cost. The gain equals willingness to pay minus cost.",
+    "reference": "MKT-4.A | MKT-4.A.4 | MKT-4.A.5 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, what is consumer surplus at equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$360"
+      },
+      {
+        "label": "B",
+        "text": "$240"
+      },
+      {
+        "label": "C",
+        "text": "$120"
+      },
+      {
+        "label": "D",
+        "text": "$180"
+      },
+      {
+        "label": "E",
+        "text": "$60"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Consumer surplus is one-half x 12 x $20 = $120.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Linear demand D has a price intercept of $30 and linear supply S intersects D at equilibrium price $10 and quantity 12. Dashed guides identify $10 and 12.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 20,
+        "yMax": 40,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 30.0
+              },
+              {
+                "x": 18.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 18.799999999999997,
+                "y": 15.666666666666664
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 12,
+            "y": 10
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 0,
+            "y": 30
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 12,
+            "y": 10,
+            "xLabel": "12",
+            "yLabel": "$10"
+          },
+          {
+            "id": "guide1",
+            "x": 0,
+            "y": 30,
+            "yLabel": "$30"
+          },
+          {
+            "id": "guide2",
+            "x": 0,
+            "y": 0,
+            "yLabel": "$0"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "cs",
+            "points": [
+              {
+                "x": 0,
+                "y": 30
+              },
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 12,
+                "y": 10
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "A buyer is willing to pay $18 for a unit and buys it for $13. The buyer’s consumer surplus is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$234"
+      },
+      {
+        "label": "B",
+        "text": "$13"
+      },
+      {
+        "label": "C",
+        "text": "$5"
+      },
+      {
+        "label": "D",
+        "text": "$31"
+      },
+      {
+        "label": "E",
+        "text": "$18"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The buyer's surplus is $18 - $13 = $5.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "A seller’s cost is $9 and the seller receives $15 for a unit. The seller’s producer surplus is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$15"
+      },
+      {
+        "label": "B",
+        "text": "$6"
+      },
+      {
+        "label": "C",
+        "text": "$9"
+      },
+      {
+        "label": "D",
+        "text": "$135"
+      },
+      {
+        "label": "E",
+        "text": "$24"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The seller's surplus is $15 - $9 = $6.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, the equilibrium price and quantity are",
+    "options": [
+      {
+        "label": "A",
+        "text": "$12 and 20 units"
+      },
+      {
+        "label": "B",
+        "text": "$12 and 30 units"
+      },
+      {
+        "label": "C",
+        "text": "$8 and 10 units"
+      },
+      {
+        "label": "D",
+        "text": "$4 and 20 units"
+      },
+      {
+        "label": "E",
+        "text": "$8 and 20 units"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The intersection's guides show price $8 and quantity 20. These are the market's equilibrium coordinates.",
+    "reference": "MKT-4.A | MKT-4.A.2 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Demand D slopes downward and supply S slopes upward. They intersect at E; dashed guides from E meet the price axis at $8 and the quantity axis at 20 units.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 30,
+        "yMax": 22,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 16.0
+              },
+              {
+                "x": 28.2,
+                "y": 4.720000000000001
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 28.2,
+                "y": 11.28
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 20,
+            "y": 8
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 20,
+            "y": 8,
+            "xLabel": "20",
+            "yLabel": "$8"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "A higher equilibrium price generally signals that the good is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Creating equal surplus for buyers and sellers"
+      },
+      {
+        "label": "B",
+        "text": "Valued equally by every potential buyer"
+      },
+      {
+        "label": "C",
+        "text": "More scarce relative to buyers’ willingness to pay"
+      },
+      {
+        "label": "D",
+        "text": "Produced at the same cost by every seller"
+      },
+      {
+        "label": "E",
+        "text": "Less scarce relative to buyers’ willingness to pay"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Prices reflect the interaction of willingness to pay with available supply. A higher equilibrium price indicates greater scarcity relative to buyers' valuations.",
+    "reference": "MKT-4.A | MKT-4.A.3 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "A buyer with willingness to pay exactly equal to the equilibrium price receives",
+    "options": [
+      {
+        "label": "A",
+        "text": "Negative consumer surplus equal to the price"
+      },
+      {
+        "label": "B",
+        "text": "Total surplus equal to market revenue"
+      },
+      {
+        "label": "C",
+        "text": "Positive consumer surplus equal to the price"
+      },
+      {
+        "label": "D",
+        "text": "Producer surplus equal to the seller’s cost"
+      },
+      {
+        "label": "E",
+        "text": "Zero consumer surplus on the marginal unit"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The marginal buyer's willingness to pay equals price. Subtracting them gives zero consumer surplus.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "A seller with cost exactly equal to the equilibrium price receives",
+    "options": [
+      {
+        "label": "A",
+        "text": "Total surplus equal to market spending"
+      },
+      {
+        "label": "B",
+        "text": "Positive producer surplus equal to the price"
+      },
+      {
+        "label": "C",
+        "text": "Negative producer surplus equal to the cost"
+      },
+      {
+        "label": "D",
+        "text": "Consumer surplus equal to the buyer’s valuation"
+      },
+      {
+        "label": "E",
+        "text": "Zero producer surplus on the marginal unit"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The marginal seller's cost equals price. Subtracting cost from price gives zero producer surplus.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "A market schedule shows quantity demanded of 40 and quantity supplied of 40 at $6. The equilibrium is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$6 and 40 units"
+      },
+      {
+        "label": "B",
+        "text": "$80 and 6 units"
+      },
+      {
+        "label": "C",
+        "text": "$40 and 6 units"
+      },
+      {
+        "label": "D",
+        "text": "$12 and 40 units"
+      },
+      {
+        "label": "E",
+        "text": "$6 and 80 units"
+      }
+    ],
+    "answer": "A",
+    "explanation": "At $6, quantity demanded and quantity supplied both equal 40. The market therefore clears at $6 and 40 units.",
+    "reference": "MKT-4.A | MKT-4.A.2 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, total surplus at equilibrium is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only Area Y"
+      },
+      {
+        "label": "B",
+        "text": "Area X plus Area Y"
+      },
+      {
+        "label": "C",
+        "text": "Only Area X"
+      },
+      {
+        "label": "D",
+        "text": "Area Y minus Area X"
+      },
+      {
+        "label": "E",
+        "text": "Area X minus Area Y"
+      }
+    ],
+    "answer": "B",
+    "explanation": "X is consumer surplus and Y is producer surplus. Total surplus is X + Y.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Demand D and supply S intersect at E with guides to Pe and Qe. The region below D and above Pe through Qe is labeled X, and the region above S and below Pe through Qe is labeled Y.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 110,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qe",
+            "yLabel": "Pe"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "cs",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ],
+            "label": "Area X"
+          },
+          {
+            "id": "region1",
+            "fill": "ps",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ],
+            "label": "Area Y"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "Which condition characterizes the efficient equilibrium quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Marginal willingness to pay equals marginal cost"
+      },
+      {
+        "label": "B",
+        "text": "Consumer surplus equals producer surplus on every unit"
+      },
+      {
+        "label": "C",
+        "text": "The last unit’s willingness to pay equals total revenue"
+      },
+      {
+        "label": "D",
+        "text": "The market price equals the demand curve’s intercept"
+      },
+      {
+        "label": "E",
+        "text": "Every buyer’s valuation equals every seller’s cost"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Efficiency includes units worth at least their production cost. At the competitive margin, willingness to pay equals marginal cost.",
+    "reference": "MKT-4.A | MKT-4.A.5 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 31,
+    "difficulty": "Medium",
+    "prompt": "Demand is Qd = 80 − 4P and supply is Qs = 20 + 2P. What is the equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "P = $20 and Q = 60"
+      },
+      {
+        "label": "B",
+        "text": "P = $10 and Q = 40"
+      },
+      {
+        "label": "C",
+        "text": "P = $12 and Q = 32"
+      },
+      {
+        "label": "D",
+        "text": "P = $15 and Q = 20"
+      },
+      {
+        "label": "E",
+        "text": "P = $8 and Q = 48"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Set 80 - 4P = 20 + 2P, giving 60 = 6P and P = $10. Substitution gives Q = 40.",
+    "reference": "MKT-4.A | MKT-4.A.1 | MKT-4.A.2 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 32,
+    "difficulty": "Medium",
+    "prompt": "At equilibrium, a buyer values a unit at $26 and pays $18, while the seller’s cost is $11. What total surplus does the transaction create?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$37"
+      },
+      {
+        "label": "B",
+        "text": "$7"
+      },
+      {
+        "label": "C",
+        "text": "$19"
+      },
+      {
+        "label": "D",
+        "text": "$8"
+      },
+      {
+        "label": "E",
+        "text": "$15"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The buyer gains $8 and the seller gains $7. Total surplus is $15, also equal to $26 - $11.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 33,
+    "difficulty": "Medium",
+    "prompt": "A market has consumer surplus of $420 and producer surplus of $280 at equilibrium. Total economic surplus is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$117,600"
+      },
+      {
+        "label": "B",
+        "text": "$140"
+      },
+      {
+        "label": "C",
+        "text": "$560"
+      },
+      {
+        "label": "D",
+        "text": "$700"
+      },
+      {
+        "label": "E",
+        "text": "$420"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Total surplus is $420 + $280 = $700.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, what is producer surplus at equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$75"
+      },
+      {
+        "label": "B",
+        "text": "$225"
+      },
+      {
+        "label": "C",
+        "text": "$150"
+      },
+      {
+        "label": "D",
+        "text": "$450"
+      },
+      {
+        "label": "E",
+        "text": "$300"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The producer-surplus triangle has base 15 and height $20. Its area is one-half x 15 x $20 = $150.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Linear supply S begins at $0 and intersects demand D at equilibrium price $20 and quantity 15. Dashed guides identify $20 and 15.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 25,
+        "yMax": 55,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 40.0
+              },
+              {
+                "x": 23.5,
+                "y": 8.666666666666668
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 23.5,
+                "y": 31.333333333333332
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 15,
+            "y": 20
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 15,
+            "y": 20,
+            "xLabel": "15",
+            "yLabel": "$20"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "ps",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 15,
+                "y": 20
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "Three buyers have willingness to pay of $24, $18, and $13. If each buys one unit at a price of $12, total consumer surplus is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$31"
+      },
+      {
+        "label": "B",
+        "text": "$7"
+      },
+      {
+        "label": "C",
+        "text": "$43"
+      },
+      {
+        "label": "D",
+        "text": "$19"
+      },
+      {
+        "label": "E",
+        "text": "$55"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The three buyers gain $12, $6, and $1. Total consumer surplus is $19.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "Three sellers have costs of $5, $9, and $14. If each sells one unit at a price of $16, total producer surplus is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$20"
+      },
+      {
+        "label": "B",
+        "text": "$10"
+      },
+      {
+        "label": "C",
+        "text": "$28"
+      },
+      {
+        "label": "D",
+        "text": "$48"
+      },
+      {
+        "label": "E",
+        "text": "$18"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The three sellers gain $11, $7, and $2. Total producer surplus is $20.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "Four potential buyers value one unit at $30, $24, $17, and $10. At a market price of $18, how many buyers purchase and what is total consumer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3 buyers and $27"
+      },
+      {
+        "label": "B",
+        "text": "3 buyers and $17"
+      },
+      {
+        "label": "C",
+        "text": "2 buyers and $54"
+      },
+      {
+        "label": "D",
+        "text": "2 buyers and $18"
+      },
+      {
+        "label": "E",
+        "text": "4 buyers and $81"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Only buyers valuing the unit at $30 and $24 buy at $18. Their surpluses are $12 and $6, totaling $18.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The equilibrium price is $8, and the marginal unit creates $6 of surplus"
+      },
+      {
+        "label": "B",
+        "text": "The equilibrium price is $14, and the marginal unit creates zero surplus"
+      },
+      {
+        "label": "C",
+        "text": "The equilibrium price is $20, and every traded unit creates equal surplus"
+      },
+      {
+        "label": "D",
+        "text": "The equilibrium price is $14, and every unit creates zero surplus"
+      },
+      {
+        "label": "E",
+        "text": "The equilibrium price is $20, and the marginal unit creates $6 of surplus"
+      }
+    ],
+    "answer": "B",
+    "explanation": "At the intersection, both marginal willingness to pay and marginal cost are $14. Their difference is zero for the marginal unit.",
+    "reference": "MKT-4.A | MKT-4.A.2 | MKT-4.A.5 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Demand D has a price intercept of $20 and supply S has a price intercept of $8. They intersect at E at price $14 and quantity 12, with dashed guides to both axes.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 20,
+        "yMax": 28,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20.0
+              },
+              {
+                "x": 18.799999999999997,
+                "y": 10.600000000000001
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 8.0
+              },
+              {
+                "x": 18.799999999999997,
+                "y": 17.4
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 12,
+            "y": 14
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 0,
+            "y": 20
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 0,
+            "y": 8
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 12,
+            "y": 14,
+            "xLabel": "12",
+            "yLabel": "$14"
+          },
+          {
+            "id": "guide1",
+            "x": 0,
+            "y": 20,
+            "yLabel": "$20"
+          },
+          {
+            "id": "guide2",
+            "x": 0,
+            "y": 8,
+            "yLabel": "$8"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "If the demand price intercept is $50, the equilibrium price is $30, and equilibrium quantity is 40, consumer surplus is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$400"
+      },
+      {
+        "label": "B",
+        "text": "$800"
+      },
+      {
+        "label": "C",
+        "text": "$600"
+      },
+      {
+        "label": "D",
+        "text": "$1,200"
+      },
+      {
+        "label": "E",
+        "text": "$200"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Consumer surplus is one-half x 40 x $20 = $400.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "If the supply price intercept is $6, the equilibrium price is $18, and equilibrium quantity is 30, producer surplus is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$90"
+      },
+      {
+        "label": "B",
+        "text": "$360"
+      },
+      {
+        "label": "C",
+        "text": "$240"
+      },
+      {
+        "label": "D",
+        "text": "$180"
+      },
+      {
+        "label": "E",
+        "text": "$540"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Producer surplus is one-half x 30 x $12 = $180.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "A market has a consumer-surplus triangle with area $240 and quantity base 24. What is the triangle’s price height?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$40"
+      },
+      {
+        "label": "B",
+        "text": "$24"
+      },
+      {
+        "label": "C",
+        "text": "$20"
+      },
+      {
+        "label": "D",
+        "text": "$48"
+      },
+      {
+        "label": "E",
+        "text": "$10"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Use $240 = one-half x 24 x height. The triangle's price height is $20.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "A market has a producer-surplus triangle with area $180 and price height $12. What is equilibrium quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "60 units"
+      },
+      {
+        "label": "B",
+        "text": "24 units"
+      },
+      {
+        "label": "C",
+        "text": "15 units"
+      },
+      {
+        "label": "D",
+        "text": "30 units"
+      },
+      {
+        "label": "E",
+        "text": "36 units"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Use $180 = one-half x quantity x $12. Solving gives quantity 30.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "A buyer values a unit at $40, a seller’s cost is $16, and the equilibrium price is $25. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumer surplus is $25, producer surplus is $9, and total surplus is $34"
+      },
+      {
+        "label": "B",
+        "text": "Consumer surplus is $40, producer surplus is $16, and total surplus is $56"
+      },
+      {
+        "label": "C",
+        "text": "Consumer surplus is $15, producer surplus is $16, and total surplus is $31"
+      },
+      {
+        "label": "D",
+        "text": "Consumer surplus is $15, producer surplus is $9, and total surplus is $24"
+      },
+      {
+        "label": "E",
+        "text": "Consumer surplus is $9, producer surplus is $15, and total surplus is $24"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Consumer surplus is $40 - $25 = $15, and producer surplus is $25 - $16 = $9. Total surplus is $24.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, what is total surplus at equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$180"
+      },
+      {
+        "label": "B",
+        "text": "$720"
+      },
+      {
+        "label": "C",
+        "text": "$240"
+      },
+      {
+        "label": "D",
+        "text": "$480"
+      },
+      {
+        "label": "E",
+        "text": "$360"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The total-surplus triangle has height $36 - $6 = $30 and base 24. Its area is one-half x 24 x $30 = $360.",
+    "reference": "MKT-4.A | MKT-4.A.4 | MKT-4.A.5 | Skill 3.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Linear demand D has a price intercept of $36, and linear supply S has a price intercept of $6. They intersect at equilibrium quantity 24. The entire region between D and S from zero to 24 is shaded.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 36,
+        "yMax": 48,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 36.0
+              },
+              {
+                "x": 33.839999999999996,
+                "y": 14.850000000000001
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 6.0
+              },
+              {
+                "x": 33.839999999999996,
+                "y": 27.15
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 24,
+            "y": 21
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 0,
+            "y": 36
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 0,
+            "y": 6
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 24,
+            "y": 21,
+            "xLabel": "24",
+            "yLabel": "$21"
+          },
+          {
+            "id": "guide1",
+            "x": 0,
+            "y": 36,
+            "yLabel": "$36"
+          },
+          {
+            "id": "guide2",
+            "x": 0,
+            "y": 6,
+            "yLabel": "$6"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "benefit",
+            "points": [
+              {
+                "x": 0,
+                "y": 36
+              },
+              {
+                "x": 0,
+                "y": 6
+              },
+              {
+                "x": 24,
+                "y": 21
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "Two markets have the same equilibrium quantity. Market X has a larger vertical gap between demand and supply intercepts than Market Y. Which market has greater total surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Market X, because consumer surplus must equal producer surplus"
+      },
+      {
+        "label": "B",
+        "text": "Market Y, because its total-surplus triangle has smaller height"
+      },
+      {
+        "label": "C",
+        "text": "Market Y, because a smaller gap implies a higher equilibrium price"
+      },
+      {
+        "label": "D",
+        "text": "Both, because equal quantities guarantee equal total surplus"
+      },
+      {
+        "label": "E",
+        "text": "Market X, because its total-surplus triangle has greater height"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The markets have equal quantity bases. X's larger vertical benefit-cost gap gives it the larger total- surplus area.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "Which buyer receives the greatest consumer surplus when all buyers pay the same equilibrium price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The buyer with the highest willingness to pay"
+      },
+      {
+        "label": "B",
+        "text": "The buyer who purchases the marginal unit"
+      },
+      {
+        "label": "C",
+        "text": "The buyer with willingness to pay equal to price"
+      },
+      {
+        "label": "D",
+        "text": "The buyer with the lowest positive willingness to pay"
+      },
+      {
+        "label": "E",
+        "text": "Every buyer receives the same consumer surplus"
+      }
+    ],
+    "answer": "A",
+    "explanation": "All buyers pay the same price. The buyer with the highest willingness to pay has the largest value- minus-price surplus.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "Which seller receives the greatest producer surplus when all sellers receive the same equilibrium price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The seller with the highest acceptable cost"
+      },
+      {
+        "label": "B",
+        "text": "The seller with the lowest cost"
+      },
+      {
+        "label": "C",
+        "text": "The seller with cost equal to price"
+      },
+      {
+        "label": "D",
+        "text": "Every seller receives the same producer surplus"
+      },
+      {
+        "label": "E",
+        "text": "The seller who supplies the marginal unit"
+      }
+    ],
+    "answer": "B",
+    "explanation": "All sellers receive the same price. The seller with the lowest cost has the largest price-minus-cost surplus.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, how much consumer surplus is received by buyers of the first 10 units?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$150"
+      },
+      {
+        "label": "B",
+        "text": "$100"
+      },
+      {
+        "label": "C",
+        "text": "$250"
+      },
+      {
+        "label": "D",
+        "text": "$300"
+      },
+      {
+        "label": "E",
+        "text": "$200"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The first 10 units form a trapezoid with heights $20 and $10. Its area is one-half x 10 x ($20 + $10) = $150.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. A linear demand curve falls from $30 at quantity 0 to the equilibrium point at price $10 and quantity 20. The region below demand and above $10 from quantity 0 through quantity 10 is shaded; demand is $20 at quantity 10.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 30,
+        "yMax": 40,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 30.0
+              },
+              {
+                "x": 28.2,
+                "y": 1.8000000000000007
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 28.2,
+                "y": 14.1
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 20,
+            "y": 10
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 20,
+            "y": 10,
+            "xLabel": "20",
+            "yLabel": "$10"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "cs",
+            "points": [
+              {
+                "x": 0,
+                "y": 30
+              },
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 10,
+                "y": 10
+              },
+              {
+                "x": 10,
+                "y": 20
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "Buyers value four successive units at $28, $22, $16, and $9. Sellers’ costs are $6, $12, $18, and $24. How many units maximize total surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3 units"
+      },
+      {
+        "label": "B",
+        "text": "2 units"
+      },
+      {
+        "label": "C",
+        "text": "4 units"
+      },
+      {
+        "label": "D",
+        "text": "1 unit"
+      },
+      {
+        "label": "E",
+        "text": "0 units"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The first two units have benefits above costs. The third costs $18 but is worth only $16, so efficient output is two units.",
+    "reference": "MKT-4.A | MKT-4.A.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "For three traded units, buyers’ willingness to pay totals $75 and sellers’ costs total $42. Total surplus is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$33"
+      },
+      {
+        "label": "B",
+        "text": "$42"
+      },
+      {
+        "label": "C",
+        "text": "$117"
+      },
+      {
+        "label": "D",
+        "text": "$1,386"
+      },
+      {
+        "label": "E",
+        "text": "$75"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Total surplus is total willingness to pay minus total cost: $75 - $42 = $33.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "At the competitive equilibrium, consumer surplus is $250 and total surplus is $610. Producer surplus is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$250"
+      },
+      {
+        "label": "B",
+        "text": "$360"
+      },
+      {
+        "label": "C",
+        "text": "$305"
+      },
+      {
+        "label": "D",
+        "text": "$610"
+      },
+      {
+        "label": "E",
+        "text": "$860"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Subtract consumer surplus from total surplus. Producer surplus is $610 - $250 = $360.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, what fraction of total surplus is consumer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "One-half"
+      },
+      {
+        "label": "B",
+        "text": "Two-thirds"
+      },
+      {
+        "label": "C",
+        "text": "All of it"
+      },
+      {
+        "label": "D",
+        "text": "One-third"
+      },
+      {
+        "label": "E",
+        "text": "Three-fourths"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Total surplus is $200 + $100 = $300. Consumer surplus accounts for $200/$300 = two-thirds.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Demand D and supply S intersect at E. The equilibrium consumer-surplus region is labeled $200, and the equilibrium producer-surplus region is labeled $100.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 32,
+        "yMax": 60,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 40.0
+              },
+              {
+                "x": 30.08,
+                "y": 9.920000000000002
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 10.0
+              },
+              {
+                "x": 30.08,
+                "y": 25.04
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 20,
+            "y": 20
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 20,
+            "y": 20,
+            "xLabel": "20",
+            "yLabel": "$20"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "cs",
+            "points": [
+              {
+                "x": 0,
+                "y": 40.0
+              },
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 20,
+                "y": 20
+              }
+            ],
+            "label": "CS $200"
+          },
+          {
+            "id": "region1",
+            "fill": "ps",
+            "points": [
+              {
+                "x": 0,
+                "y": 10.0
+              },
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 20,
+                "y": 20
+              }
+            ],
+            "label": "PS $100"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "A market’s equilibrium price is $20. One buyer values a unit at $32 and one seller produces it at a cost of $14. If they trade, how is the $18 total gain divided?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$6 to the buyer and $12 to the seller"
+      },
+      {
+        "label": "B",
+        "text": "$12 to the buyer and $6 to the seller"
+      },
+      {
+        "label": "C",
+        "text": "$32 to the buyer and $14 to the seller"
+      },
+      {
+        "label": "D",
+        "text": "$0 to the buyer and $18 to the seller"
+      },
+      {
+        "label": "E",
+        "text": "$18 to the buyer and $0 to the seller"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The buyer gains $32 - $20 = $12, and the seller gains $20 - $14 = $6. Total gains from trade are $18.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "Which statement best explains why equilibrium price allocates a scarce good among buyers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Buyers with willingness to pay ≥ price"
+      },
+      {
+        "label": "B",
+        "text": "Only buyers whose consumer surplus is zero purchase the good"
+      },
+      {
+        "label": "C",
+        "text": "Buyers whose willingness to pay is below the price purchase first"
+      },
+      {
+        "label": "D",
+        "text": "Every buyer receives the same quantity regardless of valuation"
+      },
+      {
+        "label": "E",
+        "text": "Buyers purchase only when their valuation equals seller cost"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Buyers willing to pay at least the market price are willing to purchase. Price therefore helps determine who buys.",
+    "reference": "MKT-4.A | MKT-4.A.3 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "Which statement best explains why equilibrium price allocates production among sellers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only sellers whose producer surplus is zero supply the good"
+      },
+      {
+        "label": "B",
+        "text": "Sellers supply only when cost equals buyer valuation"
+      },
+      {
+        "label": "C",
+        "text": "Sellers whose costs exceed the price supply the good first"
+      },
+      {
+        "label": "D",
+        "text": "Sellers with cost ≤ price"
+      },
+      {
+        "label": "E",
+        "text": "Every seller produces the same quantity regardless of cost"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Sellers whose unit costs are no greater than the market price are willing to supply. Price therefore helps determine who sells.",
+    "reference": "MKT-4.A | MKT-4.A.3 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "Demand is P = 50 − Q and supply is P = 10 + Q. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Equilibrium is P = $20 and Q = 30"
+      },
+      {
+        "label": "B",
+        "text": "Equilibrium is P = $50 and Q = 10"
+      },
+      {
+        "label": "C",
+        "text": "Equilibrium is P = $30 and Q = 40"
+      },
+      {
+        "label": "D",
+        "text": "Equilibrium is P = $40 and Q = 10"
+      },
+      {
+        "label": "E",
+        "text": "Equilibrium is P = $30 and Q = 20"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Set 50 - Q = 10 + Q. Solving gives Q = 20 and equilibrium price P = $30.",
+    "reference": "MKT-4.A | MKT-4.A.1 | MKT-4.A.2 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which statement correctly compares the two markets?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Market A has greater total surplus because its price is higher"
+      },
+      {
+        "label": "B",
+        "text": "Equal total surplus, with different distributions"
+      },
+      {
+        "label": "C",
+        "text": "Market B has greater total surplus because its price is lower"
+      },
+      {
+        "label": "D",
+        "text": "They have equal consumer surplus and unequal producer surplus"
+      },
+      {
+        "label": "E",
+        "text": "They have unequal total surplus because their prices differ"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Equal total-surplus bases and heights give equal total areas. Different equilibrium prices change only how those gains are split between buyers and sellers.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 2.C",
+    "graphDescription": "Two panels show Market A and Market B. In both, equilibrium quantity is 20 and the vertical distance between the demand and supply price intercepts is $30. Market A has equilibrium price $22, while Market B has equilibrium price $14; each panel shades the full area between demand and supply through equilibrium.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 32,
+        "yMax": 48,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 34.0
+              },
+              {
+                "x": 30.08,
+                "y": 15.952000000000002
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 4.0
+              },
+              {
+                "x": 30.08,
+                "y": 31.072
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 20,
+            "y": 22
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 20,
+            "y": 22,
+            "xLabel": "20",
+            "yLabel": "$22"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "benefit",
+            "points": [
+              {
+                "x": 0,
+                "y": 34
+              },
+              {
+                "x": 0,
+                "y": 4
+              },
+              {
+                "x": 20,
+                "y": 22
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Quantity 20; demand–supply intercept gap $30"
+      },
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 32,
+        "yMax": 48,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 34.0
+              },
+              {
+                "x": 30.08,
+                "y": 3.9200000000000017
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 4.0
+              },
+              {
+                "x": 30.08,
+                "y": 19.04
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 20,
+            "y": 14
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 20,
+            "y": 14,
+            "xLabel": "20",
+            "yLabel": "$14"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "benefit",
+            "points": [
+              {
+                "x": 0,
+                "y": 34
+              },
+              {
+                "x": 0,
+                "y": 4
+              },
+              {
+                "x": 20,
+                "y": 14
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Quantity 20; demand–supply intercept gap $30"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "Suppose total surplus from 10 units is $260 and total surplus from 11 units is $266. The eleventh unit adds",
+    "options": [
+      {
+        "label": "A",
+        "text": "$0 of total surplus"
+      },
+      {
+        "label": "B",
+        "text": "$526 of total surplus"
+      },
+      {
+        "label": "C",
+        "text": "$11 of total surplus"
+      },
+      {
+        "label": "D",
+        "text": "$6 of total surplus"
+      },
+      {
+        "label": "E",
+        "text": "$260 of total surplus"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The eleventh unit raises total surplus from $260 to $266. Its marginal gain is $6.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "A seller receives $21 for a unit and earns $8 of producer surplus. The seller’s cost is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$21"
+      },
+      {
+        "label": "B",
+        "text": "$29"
+      },
+      {
+        "label": "C",
+        "text": "$168"
+      },
+      {
+        "label": "D",
+        "text": "$13"
+      },
+      {
+        "label": "E",
+        "text": "$8"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Producer surplus equals price minus cost. Cost is therefore $21 - $8 = $13.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "A buyer pays $17 for a unit and receives $11 of consumer surplus. The buyer’s willingness to pay is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$187"
+      },
+      {
+        "label": "B",
+        "text": "$11"
+      },
+      {
+        "label": "C",
+        "text": "$17"
+      },
+      {
+        "label": "D",
+        "text": "$28"
+      },
+      {
+        "label": "E",
+        "text": "$6"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Willingness to pay equals price plus consumer surplus. It is $17 + $11 = $28.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which labeled unit is the marginal equilibrium unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unit 3, where willingness to pay still exceeds cost"
+      },
+      {
+        "label": "B",
+        "text": "Unit 4, where willingness to pay equals cost"
+      },
+      {
+        "label": "C",
+        "text": "Unit 5, where cost first exceeds willingness to pay"
+      },
+      {
+        "label": "D",
+        "text": "Unit 1, where willingness to pay exceeds cost most"
+      },
+      {
+        "label": "E",
+        "text": "Unit 6, where the value-cost gap is most negative"
+      }
+    ],
+    "answer": "B",
+    "explanation": "At unit 4, marginal value equals marginal cost. Unit 5 costs more than its value, so equilibrium stops at four units.",
+    "reference": "MKT-4.A | MKT-4.A.2 | MKT-4.A.5 | Skill 2.C",
+    "graphDescription": "Quantity by unit is on the horizontal axis and dollars per unit is on the vertical axis. A descending willingness-to-pay line and an ascending cost line meet at Unit 4 at $12. For Units 1–3 willingness to pay exceeds cost; for Units 5–6 cost exceeds willingness to pay.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 7,
+        "yMax": 24,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20.0
+              },
+              {
+                "x": 6.58,
+                "y": 6.84
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 4.0
+              },
+              {
+                "x": 6.58,
+                "y": 17.16
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 4,
+            "y": 12
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 4,
+            "y": 12,
+            "xLabel": "4",
+            "yLabel": "$12"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "At equilibrium, total spending by buyers is $900, consumer surplus is $240, and producer surplus is $160. Total surplus is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$500"
+      },
+      {
+        "label": "B",
+        "text": "$900"
+      },
+      {
+        "label": "C",
+        "text": "$400"
+      },
+      {
+        "label": "D",
+        "text": "$1,300"
+      },
+      {
+        "label": "E",
+        "text": "$740"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Buyer payments become seller receipts and do not add another gain. Total surplus is $240 + $160 = $400.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "A market has equilibrium quantity 50. The demand price intercept is $24 and the supply price intercept is $4. Total surplus is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$250"
+      },
+      {
+        "label": "B",
+        "text": "$1,000"
+      },
+      {
+        "label": "C",
+        "text": "$600"
+      },
+      {
+        "label": "D",
+        "text": "$1,400"
+      },
+      {
+        "label": "E",
+        "text": "$500"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Total surplus is one-half x 50 x $20 = $500.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "Which statement about the equilibrium price is true when consumer surplus exceeds producer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The equilibrium quantity must be below the efficient quantity"
+      },
+      {
+        "label": "B",
+        "text": "The marginal buyer’s valuation must exceed marginal cost"
+      },
+      {
+        "label": "C",
+        "text": "The supply and demand curves cannot intersect"
+      },
+      {
+        "label": "D",
+        "text": "Efficiency concerns total surplus, not its distribution"
+      },
+      {
+        "label": "E",
+        "text": "The market is inefficient because the two surpluses must be equal"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Efficiency concerns the size of total gains, not an equal split. Competitive equilibrium can maximize total surplus even when buyer and seller shares differ.",
+    "reference": "MKT-4.A | MKT-4.A.4 | MKT-4.A.5 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, consumer surplus is $90 and producer surplus is $150. What is total surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$120"
+      },
+      {
+        "label": "B",
+        "text": "$150"
+      },
+      {
+        "label": "C",
+        "text": "$13,500"
+      },
+      {
+        "label": "D",
+        "text": "$240"
+      },
+      {
+        "label": "E",
+        "text": "$60"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Add the two surplus regions: $90 + $150 = $240.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Demand D and supply S intersect at equilibrium E. The area below D and above Pe is labeled Consumer Surplus = $90, and the area above S and below Pe is labeled Producer Surplus = $150.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 32,
+        "yMax": 60,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 29.0
+              },
+              {
+                "x": 30.08,
+                "y": 15.464
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 5.0
+              },
+              {
+                "x": 30.08,
+                "y": 27.56
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 20,
+            "y": 20
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 20,
+            "y": 20,
+            "xLabel": "20",
+            "yLabel": "$20"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "cs",
+            "points": [
+              {
+                "x": 0,
+                "y": 29.0
+              },
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 20,
+                "y": 20
+              }
+            ],
+            "label": "CS $90"
+          },
+          {
+            "id": "region1",
+            "fill": "ps",
+            "points": [
+              {
+                "x": 0,
+                "y": 5.0
+              },
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 20,
+                "y": 20
+              }
+            ],
+            "label": "PS $150"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "Five buyers each demand at most one unit and value units at $40, $34, $28, $20, and $12. If the equilibrium price is $25, total consumer surplus is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$15"
+      },
+      {
+        "label": "B",
+        "text": "$27"
+      },
+      {
+        "label": "C",
+        "text": "$52"
+      },
+      {
+        "label": "D",
+        "text": "$109"
+      },
+      {
+        "label": "E",
+        "text": "$37"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The three purchasing buyers gain $15, $9, and $3. Total consumer surplus is $27.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "Five sellers each supply at most one unit and have costs of $7, $11, $16, $22, and $29. If the equilibrium price is $24, total producer surplus is",
+    "options": [
+      {
+        "label": "A",
+        "text": "$40"
+      },
+      {
+        "label": "B",
+        "text": "$64"
+      },
+      {
+        "label": "C",
+        "text": "$17"
+      },
+      {
+        "label": "D",
+        "text": "$24"
+      },
+      {
+        "label": "E",
+        "text": "$47"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The four supplying sellers gain $17, $13, $8, and $2. Total producer surplus is $40.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "The first unit has willingness to pay $35 and cost $8; the second has willingness to pay $27 and cost $15. Together the units create",
+    "options": [
+      {
+        "label": "A",
+        "text": "$27 of total surplus"
+      },
+      {
+        "label": "B",
+        "text": "$39 of total surplus"
+      },
+      {
+        "label": "C",
+        "text": "$85 of total surplus"
+      },
+      {
+        "label": "D",
+        "text": "$19 of total surplus"
+      },
+      {
+        "label": "E",
+        "text": "$12 of total surplus"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The two trades add $35 - $8 = $27 and $27 - $15 = $12. Total surplus is $39.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, what is equilibrium producer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$72"
+      },
+      {
+        "label": "B",
+        "text": "$144"
+      },
+      {
+        "label": "C",
+        "text": "$192"
+      },
+      {
+        "label": "D",
+        "text": "$48"
+      },
+      {
+        "label": "E",
+        "text": "$96"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The producer-surplus height is $18 - $6 = $12. Area is one-half x 16 x $12 = $96.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Supply S begins at a price intercept of $6 and meets demand D at equilibrium price $18 and quantity 16. The region above S and below $18 through quantity 16 is shaded.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 24,
+        "yMax": 40,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 30.0
+              },
+              {
+                "x": 22.56,
+                "y": 13.080000000000002
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 6.0
+              },
+              {
+                "x": 22.56,
+                "y": 22.919999999999998
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 16,
+            "y": 18
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 16,
+            "y": 18,
+            "xLabel": "16",
+            "yLabel": "$18"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "ps",
+            "points": [
+              {
+                "x": 0,
+                "y": 6
+              },
+              {
+                "x": 0,
+                "y": 18
+              },
+              {
+                "x": 16,
+                "y": 18
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "A competitive market produces all units for which willingness to pay is at least cost. This allocation maximizes",
+    "options": [
+      {
+        "label": "A",
+        "text": "The willingness to pay of the marginal buyer"
+      },
+      {
+        "label": "B",
+        "text": "The equality of gains across buyers and sellers"
+      },
+      {
+        "label": "C",
+        "text": "The sum of gains from trade across units"
+      },
+      {
+        "label": "D",
+        "text": "The cost incurred by the marginal seller"
+      },
+      {
+        "label": "E",
+        "text": "The price received on every traded unit"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Every unit whose value exceeds cost adds positive surplus. Producing all such units maximizes gains from trade.",
+    "reference": "MKT-4.A | MKT-4.A.5 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 71,
+    "difficulty": "Hard",
+    "prompt": "Buyers value successive units at $42, $34, $25, $17, and $9; sellers’ costs are $8, $15, $23, $28, and $36. What are the efficient quantity and total surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3 units and $78"
+      },
+      {
+        "label": "B",
+        "text": "4 units and $44"
+      },
+      {
+        "label": "C",
+        "text": "5 units and $17"
+      },
+      {
+        "label": "D",
+        "text": "3 units and $55"
+      },
+      {
+        "label": "E",
+        "text": "2 units and $53"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The first three units add $34 + $19 + $2 = $55. Later units cost more than they are worth, so efficient quantity is three.",
+    "reference": "MKT-4.A | MKT-4.A.4 | MKT-4.A.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 72,
+    "difficulty": "Hard",
+    "prompt": "At equilibrium, a linear demand curve has intercept $60, a linear supply curve has intercept $12, and quantity is 30. Consumer surplus is twice producer surplus. What is the equilibrium price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$48"
+      },
+      {
+        "label": "B",
+        "text": "$44"
+      },
+      {
+        "label": "C",
+        "text": "$36"
+      },
+      {
+        "label": "D",
+        "text": "$32"
+      },
+      {
+        "label": "E",
+        "text": "$28"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Equal quantity bases make the surplus ratio equal to the height ratio. Set 60 - P = 2(P - 12), giving P = $28.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 73,
+    "difficulty": "Hard",
+    "prompt": "With the demand and supply intercepts shown, what is the total surplus from the 18 equilibrium units?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$360"
+      },
+      {
+        "label": "B",
+        "text": "$540"
+      },
+      {
+        "label": "C",
+        "text": "$135"
+      },
+      {
+        "label": "D",
+        "text": "$270"
+      },
+      {
+        "label": "E",
+        "text": "$180"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The height between intercepts is $34 - $4 = $30. Total surplus is one-half x 18 x $30 = $270.",
+    "reference": "MKT-4.A | MKT-4.A.4 | MKT-4.A.5 | Skill 3.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Linear demand D begins at $34, and linear supply S begins at $4. The curves intersect at equilibrium quantity 18; the equilibrium price is not labeled. The full region between D and S through quantity 18 is shaded.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 28,
+        "yMax": 44,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 34.0
+              },
+              {
+                "x": 26.32,
+                "y": 12.066666666666666
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 4.0
+              },
+              {
+                "x": 26.32,
+                "y": 25.933333333333334
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 18,
+            "y": 19
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 0,
+            "y": 34
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 0,
+            "y": 4
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 18,
+            "y": 19,
+            "xLabel": "18"
+          },
+          {
+            "id": "guide1",
+            "x": 0,
+            "y": 34,
+            "yLabel": "$34"
+          },
+          {
+            "id": "guide2",
+            "x": 0,
+            "y": 4,
+            "yLabel": "$4"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "benefit",
+            "points": [
+              {
+                "x": 0,
+                "y": 34
+              },
+              {
+                "x": 0,
+                "y": 4
+              },
+              {
+                "x": 18,
+                "y": 19
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "Four units trade at a common equilibrium price of $20. Buyers’ values are $38, $31, $25, and $20; sellers’ costs are $7, $12, $16, and $20. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumer surplus is $34, producer surplus is $55, and total surplus is $89"
+      },
+      {
+        "label": "B",
+        "text": "Consumer surplus is $34, producer surplus is $25, and total surplus is $59"
+      },
+      {
+        "label": "C",
+        "text": "Consumer surplus is $46, producer surplus is $25, and total surplus is $71"
+      },
+      {
+        "label": "D",
+        "text": "Consumer surplus is $80, producer surplus is $55, and total surplus is $135"
+      },
+      {
+        "label": "E",
+        "text": "Consumer surplus is $25, producer surplus is $34, and total surplus is $59"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Consumer surplus totals $18 + $11 + $5 + $0 = $34. Producer surplus totals $13 + $8 + $4 + $0 = $25, giving total surplus $59.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "Two competitive markets have identical demand and supply intercepts and the same equilibrium quantity, but different equilibrium prices. Which conclusion follows?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Their consumer and producer surpluses must each be equal"
+      },
+      {
+        "label": "B",
+        "text": "The higher-price market has greater total surplus and producer surplus"
+      },
+      {
+        "label": "C",
+        "text": "Equal total surplus, possibly divided differently"
+      },
+      {
+        "label": "D",
+        "text": "The lower-price market has greater total surplus and consumer surplus"
+      },
+      {
+        "label": "E",
+        "text": "Their total surpluses differ because equilibrium prices differ"
+      }
+    ],
+    "answer": "C",
+    "explanation": "With the same linear-curve intercept gap and equilibrium quantity, the full surplus triangle has the same area. A different trading price changes its division rather than its total.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "A buyer values a unit at $52, and the seller’s cost is $19. If a competitive price changes from $30 to $36 while the unit still trades, what happens to total surplus on the unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises from $33 to $39 because producer surplus increases"
+      },
+      {
+        "label": "B",
+        "text": "It rises from $22 to $33 because the seller receives more"
+      },
+      {
+        "label": "C",
+        "text": "It falls from $33 to $27 because consumer surplus decreases"
+      },
+      {
+        "label": "D",
+        "text": "It falls from $52 to $19 because the buyer pays more"
+      },
+      {
+        "label": "E",
+        "text": "It remains $33 because the price only reallocates surplus"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The unit's total surplus is $52 - $19 = $33 at either price. Raising price by $6 transfers $6 of surplus from buyer to seller.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, which statement correctly describes Areas A, B, and C?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A is producer surplus, B is consumer surplus, and A − B is total surplus"
+      },
+      {
+        "label": "B",
+        "text": "A is consumer surplus, B is producer surplus, and A + B is total surplus"
+      },
+      {
+        "label": "C",
+        "text": "B is consumer surplus, C is producer surplus, and B + C is total surplus"
+      },
+      {
+        "label": "D",
+        "text": "A is consumer surplus, C is producer surplus, and A + C is total surplus"
+      },
+      {
+        "label": "E",
+        "text": "A is consumer spending, B is seller revenue, and C is total surplus"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A is above price and below demand, so it is consumer surplus. B is below price and above supply, so it is producer surplus; their sum is total surplus.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Demand D and supply S meet at equilibrium E. Area A is below D and above Pe through Qe; Area B is above S and below Pe through Qe; Area C is the rectangle below Pe and above the quantity axis through Qe.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 110,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100.0
+              },
+              {
+                "x": 94.0,
+                "y": 6.0
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 50,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Qe",
+            "yLabel": "Pe"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "cs",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ],
+            "label": "Area A"
+          },
+          {
+            "id": "region1",
+            "fill": "ps",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 50
+              }
+            ],
+            "label": "Area B"
+          },
+          {
+            "id": "region2",
+            "fill": "revenue",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 50,
+                "y": 0
+              },
+              {
+                "x": 50,
+                "y": 50
+              },
+              {
+                "x": 0,
+                "y": 50
+              }
+            ],
+            "label": "Area C"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "Demand is P = 70 − 2Q and supply is P = 10 + Q. What are equilibrium quantity and total surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "30 units and $600"
+      },
+      {
+        "label": "B",
+        "text": "40 units and $1,200"
+      },
+      {
+        "label": "C",
+        "text": "30 units and $900"
+      },
+      {
+        "label": "D",
+        "text": "20 units and $600"
+      },
+      {
+        "label": "E",
+        "text": "20 units and $400"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Set 70 - 2Q = 10 + Q, giving Q = 20. Total surplus is one-half x 20 x ($70 - $10) = $600.",
+    "reference": "MKT-4.A | MKT-4.A.1 | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "A market’s equilibrium quantity is 24, consumer surplus is $216, and the demand intercept is $36. What is the equilibrium price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$18"
+      },
+      {
+        "label": "B",
+        "text": "$9"
+      },
+      {
+        "label": "C",
+        "text": "$12"
+      },
+      {
+        "label": "D",
+        "text": "$27"
+      },
+      {
+        "label": "E",
+        "text": "$24"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The consumer-surplus height is 2 x $216 / 24 = $18. Subtracting it from the $36 demand intercept gives equilibrium price $18.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "A market’s equilibrium quantity is 20, producer surplus is $140, and the equilibrium price is $22. What is the supply price intercept?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$36"
+      },
+      {
+        "label": "B",
+        "text": "$14"
+      },
+      {
+        "label": "C",
+        "text": "$7"
+      },
+      {
+        "label": "D",
+        "text": "$15"
+      },
+      {
+        "label": "E",
+        "text": "$8"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The producer-surplus height is 2 x $140 / 20 = $14. The supply intercept is $22 - $14 = $8.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, which market generates more total surplus and by how much?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Market B by $120"
+      },
+      {
+        "label": "B",
+        "text": "The markets generate equal total surplus"
+      },
+      {
+        "label": "C",
+        "text": "Market A by $60"
+      },
+      {
+        "label": "D",
+        "text": "Market B by $60"
+      },
+      {
+        "label": "E",
+        "text": "Market A by $120"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A's total surplus is one-half x 20 x $24 = $240. B's is one-half x 24 x $30 = $360, which is $120 greater.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "Two panels display equilibrium surplus triangles. Market A has quantity base 20 and vertical distance between demand and supply intercepts of $24. Market B has quantity base 24 and vertical distance between intercepts of $30. Each full surplus triangle is shaded.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 30.0,
+        "yMax": 37.6,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 28.0
+              },
+              {
+                "x": 28.2,
+                "y": 11.080000000000002
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 4.0
+              },
+              {
+                "x": 28.2,
+                "y": 20.919999999999998
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 20,
+            "y": 16
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 20,
+            "y": 16,
+            "xLabel": "20",
+            "yLabel": "$16"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "benefit",
+            "points": [
+              {
+                "x": 0,
+                "y": 28.0
+              },
+              {
+                "x": 0,
+                "y": 4.0
+              },
+              {
+                "x": 20,
+                "y": 16
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Market A; total-surplus intercept gap $24"
+      },
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 36.0,
+        "yMax": 47.0,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 35.0
+              },
+              {
+                "x": 33.839999999999996,
+                "y": 13.850000000000001
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 5.0
+              },
+              {
+                "x": 33.839999999999996,
+                "y": 26.15
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 24,
+            "y": 20
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 24,
+            "y": 20,
+            "xLabel": "24",
+            "yLabel": "$20"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "benefit",
+            "points": [
+              {
+                "x": 0,
+                "y": 35.0
+              },
+              {
+                "x": 0,
+                "y": 5.0
+              },
+              {
+                "x": 24,
+                "y": 20
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Market B; total-surplus intercept gap $30"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "The first four units create gains from trade of $18, $12, $5, and $0. The fifth unit would have willingness to pay $2 below cost. Which quantity maximizes total surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5 units, with total surplus of $33"
+      },
+      {
+        "label": "B",
+        "text": "4 units, with total surplus of $37"
+      },
+      {
+        "label": "C",
+        "text": "5 units, with total surplus of $37"
+      },
+      {
+        "label": "D",
+        "text": "3 units, with total surplus of $35"
+      },
+      {
+        "label": "E",
+        "text": "4 units, with total surplus of $35"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The first four units total $35 of surplus, with the fourth adding zero. The fifth would reduce surplus by $2, so four units is an efficient quantity.",
+    "reference": "MKT-4.A | MKT-4.A.5 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "Consumer surplus is $480, producer surplus is $320, and equilibrium quantity is 40. If both surplus regions are triangles, what is the vertical distance between the demand and supply intercepts?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$40"
+      },
+      {
+        "label": "B",
+        "text": "$20"
+      },
+      {
+        "label": "C",
+        "text": "$24"
+      },
+      {
+        "label": "D",
+        "text": "$32"
+      },
+      {
+        "label": "E",
+        "text": "$80"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Total surplus is $800. Solving $800 = one-half x 40 x height gives a vertical gap of $40.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "A market has total surplus of $750 and equilibrium quantity of 30. If the demand intercept is $55, what is the supply intercept?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$50"
+      },
+      {
+        "label": "B",
+        "text": "$15"
+      },
+      {
+        "label": "C",
+        "text": "$5"
+      },
+      {
+        "label": "D",
+        "text": "$25"
+      },
+      {
+        "label": "E",
+        "text": "$30"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The total-surplus height is 2 x $750 / 30 = $50. The supply intercept is $55 - $50 = $5.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, which statement is correct about the tenth unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It adds $14 because the seller’s cost is $14"
+      },
+      {
+        "label": "B",
+        "text": "It adds $32 because willingness to pay and cost are added"
+      },
+      {
+        "label": "C",
+        "text": "A $4 net gain to total surplus"
+      },
+      {
+        "label": "D",
+        "text": "It adds $18 because the buyer’s willingness to pay is $18"
+      },
+      {
+        "label": "E",
+        "text": "It adds $0 because only the marginal equilibrium unit creates surplus"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The tenth unit's marginal gain is its value minus cost: $18 - $14 = $4.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 2.C",
+    "graphDescription": "Units are on the horizontal axis and dollars per unit are on the vertical axis. At Unit 10, the demand curve indicates willingness to pay of $18 and the supply curve indicates cost of $14. Both values are labeled with dashed horizontal guides.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Units",
+        "yLabel": "Dollars per unit",
+        "xMax": 15,
+        "yMax": 28,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 24.0
+              },
+              {
+                "x": 14.1,
+                "y": 15.540000000000001
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 8.0
+              },
+              {
+                "x": 14.1,
+                "y": 16.46
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 10,
+            "y": 18
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 10,
+            "y": 14
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 10,
+            "y": 18,
+            "xLabel": "10",
+            "yLabel": "$18"
+          },
+          {
+            "id": "guide1",
+            "x": 10,
+            "y": 14,
+            "yLabel": "$14"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "At equilibrium, total buyer willingness to pay for all traded units is $1,240, total seller cost is $760, and buyer spending is $900. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumer surplus is $340, producer surplus is $140, and total surplus is $480"
+      },
+      {
+        "label": "B",
+        "text": "Consumer surplus is $1,240, producer surplus is $900, and total surplus is $2,140"
+      },
+      {
+        "label": "C",
+        "text": "Consumer surplus is $340, producer surplus is $760, and total surplus is $1,100"
+      },
+      {
+        "label": "D",
+        "text": "Consumer surplus is $480, producer surplus is $140, and total surplus is $620"
+      },
+      {
+        "label": "E",
+        "text": "Consumer surplus is $900, producer surplus is $340, and total surplus is $1,240"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Consumer surplus is $1,240 - $900 = $340. Producer surplus is $900 - $760 = $140, giving total surplus $480.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "Two equilibrium allocations each trade three units. Allocation X assigns the units to buyers valuing them at $30, $24, and $19; allocation Y assigns them to buyers valuing them at $30, $24, and $12. Costs are unchanged. Which allocation has greater total surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Allocation Y by $19"
+      },
+      {
+        "label": "B",
+        "text": "They have equal total surplus"
+      },
+      {
+        "label": "C",
+        "text": "Allocation X by $7"
+      },
+      {
+        "label": "D",
+        "text": "Allocation Y by $7"
+      },
+      {
+        "label": "E",
+        "text": "Allocation X by $19"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Only the third buyer's valuation differs. X assigns the unit to a buyer valuing it $19 rather than $12, creating $7 more surplus at the same cost.",
+    "reference": "MKT-4.A | MKT-4.A.5 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, consumer surplus is what percentage of total surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "150 percent"
+      },
+      {
+        "label": "B",
+        "text": "66.7 percent"
+      },
+      {
+        "label": "C",
+        "text": "60 percent"
+      },
+      {
+        "label": "D",
+        "text": "50 percent"
+      },
+      {
+        "label": "E",
+        "text": "40 percent"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Both triangles share a base, so consumer surplus's share is $18/($18 + $12) = 60%.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Demand D and supply S intersect at equilibrium. The consumer-surplus triangle has vertical height $18; the producer-surplus triangle has vertical height $12; both have the same quantity base Qe.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 60,
+        "yMax": 56,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 43.0
+              },
+              {
+                "x": 56.4,
+                "y": 17.62
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 13.0
+              },
+              {
+                "x": 56.4,
+                "y": 29.919999999999998
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 40,
+            "y": 25
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 40,
+            "y": 25,
+            "xLabel": "Qe",
+            "yLabel": "Pe"
+          }
+        ],
+        "regions": [],
+        "annotations": [
+          {
+            "id": "note0",
+            "text": "CS height $18",
+            "x": 3,
+            "y": 48
+          },
+          {
+            "id": "note1",
+            "text": "PS height $12",
+            "x": 3,
+            "y": 8
+          }
+        ],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "In an efficient competitive equilibrium, which potential trade is excluded?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A trade with willingness to pay $35 and cost $12"
+      },
+      {
+        "label": "B",
+        "text": "A trade with willingness to pay $21 and cost $24"
+      },
+      {
+        "label": "C",
+        "text": "A trade with willingness to pay $24 and cost $24"
+      },
+      {
+        "label": "D",
+        "text": "A trade with willingness to pay $29 and cost $20"
+      },
+      {
+        "label": "E",
+        "text": "A trade with willingness to pay $18 and cost $11"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The unit costs $24 but is worth only $21. Trading it would reduce total surplus by $3, so efficient output excludes it.",
+    "reference": "MKT-4.A | MKT-4.A.5 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "A market has linear demand and supply. Equilibrium quantity is 32, consumer surplus is $256, and producer surplus is $384. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The consumer-surplus height is $24 and the producer-surplus height is $16"
+      },
+      {
+        "label": "B",
+        "text": "The consumer-surplus height is $32 and the producer-surplus height is $48"
+      },
+      {
+        "label": "C",
+        "text": "The consumer-surplus height is $16 and the producer-surplus height is $24"
+      },
+      {
+        "label": "D",
+        "text": "The consumer-surplus height is $16 and the producer-surplus height is $12"
+      },
+      {
+        "label": "E",
+        "text": "The consumer-surplus height is $8 and the producer-surplus height is $12"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Triangle height equals twice the area divided by the base. The consumer and producer heights are 2 x $256 / 32 = $16 and 2 x $384 / 32 = $24.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "The equilibrium price is $25 and quantity is 20. Consumer surplus is $200 and producer surplus is $100. What are the demand and supply price intercepts?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$45 and $20"
+      },
+      {
+        "label": "B",
+        "text": "$35 and $15"
+      },
+      {
+        "label": "C",
+        "text": "$55 and $10"
+      },
+      {
+        "label": "D",
+        "text": "$35 and $5"
+      },
+      {
+        "label": "E",
+        "text": "$45 and $15"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The consumer height is 2 x $200 / 20 = $20, placing the demand intercept at $45. The producer height is 2 x $100 / 20 = $10, placing the supply intercept at $15.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, what total surplus is generated by the first 6 units?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$63"
+      },
+      {
+        "label": "B",
+        "text": "$90"
+      },
+      {
+        "label": "C",
+        "text": "$144"
+      },
+      {
+        "label": "D",
+        "text": "$180"
+      },
+      {
+        "label": "E",
+        "text": "$126"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The first six units form a trapezoid whose benefit-cost gaps are $24 and $18. Area is one-half x 6 x ($24 + $18) = $126.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Linear demand and supply have a vertical gap of $24 at quantity zero and a vertical gap of $18 at quantity 6. The region between the curves from quantity zero through 6 is shaded.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 35,
+        "yMax": 42,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 32.0
+              },
+              {
+                "x": 32.9,
+                "y": 15.55
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 8.0
+              },
+              {
+                "x": 32.9,
+                "y": 24.45
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 24,
+            "y": 20
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 6,
+            "y": 29
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 6,
+            "y": 11
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 24,
+            "y": 20,
+            "xLabel": "Qe",
+            "yLabel": "Pe"
+          },
+          {
+            "id": "guide1",
+            "x": 6,
+            "y": 29,
+            "xLabel": "6",
+            "yLabel": "$29"
+          },
+          {
+            "id": "guide2",
+            "x": 6,
+            "y": 11,
+            "yLabel": "$11"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "benefit",
+            "points": [
+              {
+                "x": 0,
+                "y": 32
+              },
+              {
+                "x": 0,
+                "y": 8
+              },
+              {
+                "x": 6,
+                "y": 11
+              },
+              {
+                "x": 6,
+                "y": 29
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Vertical gap: $24 at Q=0; $18 at Q=6"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "A seller receives $18 per unit on four units with costs of $6, $10, $14, and $18. A buyer pays $18 per unit and values those units at $34, $27, $21, and $18. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumer surplus is $72, producer surplus is $48, and total surplus is $120"
+      },
+      {
+        "label": "B",
+        "text": "Consumer surplus is $24, producer surplus is $28, and total surplus is $52"
+      },
+      {
+        "label": "C",
+        "text": "Consumer surplus is $28, producer surplus is $48, and total surplus is $76"
+      },
+      {
+        "label": "D",
+        "text": "Consumer surplus is $28, producer surplus is $24, and total surplus is $52"
+      },
+      {
+        "label": "E",
+        "text": "Consumer surplus is $44, producer surplus is $24, and total surplus is $68"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Consumer surplus totals $16 + $9 + $3 = $28. Producer surplus totals $12 + $8 + $4 = $24, giving total surplus $52.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "Which statement best explains why market revenue is not itself a measure of total surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Revenue excludes equilibrium quantity, while surplus includes only quantity"
+      },
+      {
+        "label": "B",
+        "text": "Revenue subtracts buyer valuations, while surplus adds market prices"
+      },
+      {
+        "label": "C",
+        "text": "Revenue counts only buyer benefits, while surplus counts only seller benefits"
+      },
+      {
+        "label": "D",
+        "text": "Revenue is a payment transfer, while surplus measures value above cost"
+      },
+      {
+        "label": "E",
+        "text": "Revenue equals producer cost, while surplus equals consumer spending"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The purchase payment transfers money from buyer to seller. Total surplus instead measures the buyer's valuation minus the resources used in production.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, which equilibrium has the greater total surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Equilibrium B, because its equilibrium quantity is 40"
+      },
+      {
+        "label": "B",
+        "text": "The equilibria have equal surplus because both are competitive"
+      },
+      {
+        "label": "C",
+        "text": "Equilibrium B, because its surplus triangle has area $280"
+      },
+      {
+        "label": "D",
+        "text": "Equilibrium A, because its equilibrium price is $20"
+      },
+      {
+        "label": "E",
+        "text": "Equilibrium A, because its surplus triangle has area $300"
+      }
+    ],
+    "answer": "E",
+    "explanation": "A creates one-half x 30 x $20 = $300. B creates one-half x 40 x $14 = $280, so A has $20 more total surplus.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "Two panels show complete equilibrium surplus triangles. Equilibrium A has quantity base 30 and vertical intercept gap $20. Equilibrium B has quantity base 40 and vertical intercept gap $14. Each triangle is shaded.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 45.0,
+        "yMax": 33.0,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 25.0
+              },
+              {
+                "x": 42.3,
+                "y": 10.900000000000002
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 5.0
+              },
+              {
+                "x": 42.3,
+                "y": 19.099999999999998
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 30,
+            "y": 15
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 30,
+            "y": 15,
+            "xLabel": "30",
+            "yLabel": "$15"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "benefit",
+            "points": [
+              {
+                "x": 0,
+                "y": 25.0
+              },
+              {
+                "x": 0,
+                "y": 5.0
+              },
+              {
+                "x": 30,
+                "y": 15
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Market A; total-surplus intercept gap $20"
+      },
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 60.0,
+        "yMax": 24.6,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 19.0
+              },
+              {
+                "x": 56.4,
+                "y": 9.13
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 5.0
+              },
+              {
+                "x": 56.4,
+                "y": 14.87
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 40,
+            "y": 12
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 40,
+            "y": 12,
+            "xLabel": "40",
+            "yLabel": "$12"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "benefit",
+            "points": [
+              {
+                "x": 0,
+                "y": 19.0
+              },
+              {
+                "x": 0,
+                "y": 5.0
+              },
+              {
+                "x": 40,
+                "y": 12
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Market B; total-surplus intercept gap $14"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "A competitive equilibrium creates $900 of total surplus. The price rises, but the same units continue trading between the same buyers and sellers. Which conclusion follows?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Total surplus becomes equal to the new market revenue"
+      },
+      {
+        "label": "B",
+        "text": "Total surplus rises because producer surplus must increase"
+      },
+      {
+        "label": "C",
+        "text": "Total surplus falls because consumer surplus must decrease"
+      },
+      {
+        "label": "D",
+        "text": "Total surplus changes by the price increase times quantity"
+      },
+      {
+        "label": "E",
+        "text": "Total surplus remains $900, although its division may change"
+      }
+    ],
+    "answer": "E",
+    "explanation": "For the same units and participants, buyer values and seller costs determine total surplus. A price change only redistributes those unchanged gains.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "A market has equilibrium price $16 and quantity 25. The demand intercept is $28, and total surplus is $250. What is the supply intercept?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$4"
+      },
+      {
+        "label": "B",
+        "text": "$24"
+      },
+      {
+        "label": "C",
+        "text": "$12"
+      },
+      {
+        "label": "D",
+        "text": "$8"
+      },
+      {
+        "label": "E",
+        "text": "$20"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The total-surplus height is 2 x $250 / 25 = $20. The supply intercept is $28 - $20 = $8.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, what is producer surplus as a percentage of total surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "50 percent"
+      },
+      {
+        "label": "B",
+        "text": "185.7 percent"
+      },
+      {
+        "label": "C",
+        "text": "35 percent"
+      },
+      {
+        "label": "D",
+        "text": "30 percent"
+      },
+      {
+        "label": "E",
+        "text": "65 percent"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Total surplus is $140 + $260 = $400. Producer surplus's share is $140/$400 = 35%.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "Price is on the vertical axis and quantity is on the horizontal axis. Demand D and supply S intersect at equilibrium. The consumer-surplus region is labeled $260, and the producer-surplus region is labeled $140.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 32,
+        "yMax": 60,
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 46.0
+              },
+              {
+                "x": 30.08,
+                "y": 6.896000000000003
+              }
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 6.0
+              },
+              {
+                "x": 30.08,
+                "y": 27.055999999999997
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 20,
+            "y": 20
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 20,
+            "y": 20,
+            "xLabel": "20",
+            "yLabel": "$20"
+          }
+        ],
+        "regions": [
+          {
+            "id": "region0",
+            "fill": "cs",
+            "points": [
+              {
+                "x": 0,
+                "y": 46.0
+              },
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 20,
+                "y": 20
+              }
+            ],
+            "label": "CS $260"
+          },
+          {
+            "id": "region1",
+            "fill": "ps",
+            "points": [
+              {
+                "x": 0,
+                "y": 6.0
+              },
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 20,
+                "y": 20
+              }
+            ],
+            "label": "PS $140"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "Buyers’ total willingness to pay for the equilibrium quantity is $2,100. Consumer surplus is $600, and sellers’ total cost is $1,050. What are producer surplus and total surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$1,050 and $1,500"
+      },
+      {
+        "label": "B",
+        "text": "$450 and $1,050"
+      },
+      {
+        "label": "C",
+        "text": "$1,500 and $2,100"
+      },
+      {
+        "label": "D",
+        "text": "$600 and $1,050"
+      },
+      {
+        "label": "E",
+        "text": "$450 and $1,500"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Buyer spending is $2,100 - $600 = $1,500. Producer surplus is $1,500 - $1,050 = $450, so total surplus is $600 + $450 = $1,050.",
+    "reference": "MKT-4.A | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "Demand is Qd = 120 − 3P and supply is Qs = 2P. If demand’s price intercept is $40 and supply’s price intercept is $0, what is total surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$1,920"
+      },
+      {
+        "label": "B",
+        "text": "$480"
+      },
+      {
+        "label": "C",
+        "text": "$720"
+      },
+      {
+        "label": "D",
+        "text": "$960"
+      },
+      {
+        "label": "E",
+        "text": "$1,200"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Set 120 - 3P = 2P, giving P = $24 and Q = 48. The total-surplus area is one-half x 48 x $40 = $960.",
+    "reference": "MKT-4.A | MKT-4.A.1 | MKT-4.A.4 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  }
+]

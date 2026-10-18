@@ -1,0 +1,6398 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "What is the birth rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Annual births minus annual deaths"
+      },
+      {
+        "label": "B",
+        "text": "Annual live births per thousand residents"
+      },
+      {
+        "label": "C",
+        "text": "Annual births per thousand adult women"
+      },
+      {
+        "label": "D",
+        "text": "Annual infant deaths per thousand births"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The crude birth rate measures live births relative to the total population, usually per thousand per year.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 population growth and structure: measurement of birth rate | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "What is the death rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Annual infant deaths per thousand live births"
+      },
+      {
+        "label": "B",
+        "text": "Annual deaths minus annual births"
+      },
+      {
+        "label": "C",
+        "text": "Annual deaths per thousand residents"
+      },
+      {
+        "label": "D",
+        "text": "Annual deaths among retired residents only"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The crude death rate measures annual deaths relative to the total population.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 population growth and structure: measurement of death rate | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "What is the infant mortality rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Annual deaths per thousand residents"
+      },
+      {
+        "label": "B",
+        "text": "Annual births per thousand residents"
+      },
+      {
+        "label": "C",
+        "text": "Annual immigrants minus annual emigrants"
+      },
+      {
+        "label": "D",
+        "text": "Under-one deaths per thousand live births"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Infant mortality focuses on deaths during the first year of life relative to live births and is an important development indicator.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 population growth and structure: infant mortality | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "What is net migration?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Births minus deaths"
+      },
+      {
+        "label": "B",
+        "text": "Emigration minus immigration only"
+      },
+      {
+        "label": "C",
+        "text": "Immigration minus emigration"
+      },
+      {
+        "label": "D",
+        "text": "People living in cities"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Net migration is positive when immigration exceeds emigration and negative when emigration exceeds immigration.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 population growth and structure: net migration | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "If the birth rate is 28 per thousand and the death rate is 9 per thousand, what is the natural increase rate before migration?",
+    "options": [
+      {
+        "label": "A",
+        "text": "37 per thousand"
+      },
+      {
+        "label": "B",
+        "text": "9 per thousand"
+      },
+      {
+        "label": "C",
+        "text": "19 per thousand"
+      },
+      {
+        "label": "D",
+        "text": "28 per thousand"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Natural increase is the birth rate minus the death rate: 28 - 9 = 19 per thousand.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 population growth and structure | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "A country has 120 000 immigrants and 80 000 emigrants in a year. What is net migration?",
+    "options": [
+      {
+        "label": "A",
+        "text": "-40 000"
+      },
+      {
+        "label": "B",
+        "text": "+200 000"
+      },
+      {
+        "label": "C",
+        "text": "-200 000"
+      },
+      {
+        "label": "D",
+        "text": "+40 000"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Net migration = immigration - emigration = 120 000 - 80 000 = +40 000.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 population growth and structure: net migration | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "Which factor is most likely to reduce the death rate in a developing economy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Reduced access to clean water"
+      },
+      {
+        "label": "B",
+        "text": "Improved sanitation and medical care"
+      },
+      {
+        "label": "C",
+        "text": "A fall in vaccination"
+      },
+      {
+        "label": "D",
+        "text": "Worsening nutrition"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Better public health, medicine, nutrition and sanitation reduce mortality.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 causes of changes in death rate | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "Which factor is most likely to reduce the birth rate as an economy develops?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher mortality among infant children"
+      },
+      {
+        "label": "B",
+        "text": "Greater female education and employment"
+      },
+      {
+        "label": "C",
+        "text": "Reduced access to birth-control methods"
+      },
+      {
+        "label": "D",
+        "text": "Greater reliance on children for pensions"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Education, employment opportunities, contraception and lower infant mortality are associated with lower fertility.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 causes of changes in birth rate | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "Why can high infant mortality contribute to a high birth rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A higher rate of infant mortality necessarily causes the country’s total population to decline"
+      },
+      {
+        "label": "B",
+        "text": "High infant mortality increases deaths only among retirees"
+      },
+      {
+        "label": "C",
+        "text": "High infant mortality improves access to birth control"
+      },
+      {
+        "label": "D",
+        "text": "Families seek more surviving children through extra births"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Where child survival is uncertain, families may choose to have more births.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 birth rate and infant mortality | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "Which change most directly increases net migration into a country?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher annual deaths with unchanged births"
+      },
+      {
+        "label": "B",
+        "text": "Lower annual births with unchanged deaths"
+      },
+      {
+        "label": "C",
+        "text": "Higher immigration with unchanged emigration"
+      },
+      {
+        "label": "D",
+        "text": "Higher infant mortality with unchanged migration"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Net migration increases when inflows rise relative to outflows.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 net migration | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "What is the optimum population?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The maximum population physically accommodated"
+      },
+      {
+        "label": "B",
+        "text": "The population maximising output per head"
+      },
+      {
+        "label": "C",
+        "text": "The population with zero annual births"
+      },
+      {
+        "label": "D",
+        "text": "The population maximising total output"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Optimum population is defined economically as the population size at which output per head is greatest.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 optimum population | AO1 Knowledge and understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: output per head. Horizontal axis: population size. Draw an inverted-U-shaped curve with a maximum at the optimum population.",
+    "graphScenes": [
+      {
+        "xLabel": "Population",
+        "yLabel": "Output per head",
+        "xMax": 130,
+        "yMax": 130,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "Q1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 28.265306122448983
+              },
+              {
+                "x": 1.9166666666666667,
+                "y": 32.49305555555555
+              },
+              {
+                "x": 3.8333333333333335,
+                "y": 36.57086167800454
+              },
+              {
+                "x": 5.75,
+                "y": 40.49872448979592
+              },
+              {
+                "x": 7.666666666666667,
+                "y": 44.276643990929706
+              },
+              {
+                "x": 9.583333333333334,
+                "y": 47.904620181405896
+              },
+              {
+                "x": 11.5,
+                "y": 51.38265306122449
+              },
+              {
+                "x": 13.416666666666666,
+                "y": 54.71074263038548
+              },
+              {
+                "x": 15.333333333333334,
+                "y": 57.88888888888889
+              },
+              {
+                "x": 17.25,
+                "y": 60.91709183673469
+              },
+              {
+                "x": 19.166666666666668,
+                "y": 63.795351473922906
+              },
+              {
+                "x": 21.083333333333332,
+                "y": 66.52366780045351
+              },
+              {
+                "x": 23.0,
+                "y": 69.10204081632654
+              },
+              {
+                "x": 24.916666666666668,
+                "y": 71.53047052154196
+              },
+              {
+                "x": 26.833333333333332,
+                "y": 73.80895691609977
+              },
+              {
+                "x": 28.75,
+                "y": 75.9375
+              },
+              {
+                "x": 30.666666666666668,
+                "y": 77.91609977324264
+              },
+              {
+                "x": 32.583333333333336,
+                "y": 79.74475623582767
+              },
+              {
+                "x": 34.5,
+                "y": 81.4234693877551
+              },
+              {
+                "x": 36.416666666666664,
+                "y": 82.95223922902494
+              },
+              {
+                "x": 38.333333333333336,
+                "y": 84.33106575963718
+              },
+              {
+                "x": 40.25,
+                "y": 85.55994897959184
+              },
+              {
+                "x": 42.166666666666664,
+                "y": 86.63888888888889
+              },
+              {
+                "x": 44.083333333333336,
+                "y": 87.56788548752834
+              },
+              {
+                "x": 46.0,
+                "y": 88.34693877551021
+              },
+              {
+                "x": 47.916666666666664,
+                "y": 88.97604875283447
+              },
+              {
+                "x": 49.833333333333336,
+                "y": 89.45521541950113
+              },
+              {
+                "x": 51.75,
+                "y": 89.78443877551021
+              },
+              {
+                "x": 53.666666666666664,
+                "y": 89.96371882086167
+              },
+              {
+                "x": 55.583333333333336,
+                "y": 89.99305555555556
+              },
+              {
+                "x": 57.5,
+                "y": 89.87244897959184
+              },
+              {
+                "x": 59.416666666666664,
+                "y": 89.60189909297053
+              },
+              {
+                "x": 61.333333333333336,
+                "y": 89.18140589569161
+              },
+              {
+                "x": 63.25,
+                "y": 88.6109693877551
+              },
+              {
+                "x": 65.16666666666667,
+                "y": 87.890589569161
+              },
+              {
+                "x": 67.08333333333333,
+                "y": 87.02026643990929
+              },
+              {
+                "x": 69.0,
+                "y": 86.0
+              },
+              {
+                "x": 70.91666666666667,
+                "y": 84.8297902494331
+              },
+              {
+                "x": 72.83333333333333,
+                "y": 83.50963718820861
+              },
+              {
+                "x": 74.75,
+                "y": 82.03954081632654
+              },
+              {
+                "x": 76.66666666666667,
+                "y": 80.41950113378684
+              },
+              {
+                "x": 78.58333333333333,
+                "y": 78.64951814058958
+              },
+              {
+                "x": 80.5,
+                "y": 76.7295918367347
+              },
+              {
+                "x": 82.41666666666667,
+                "y": 74.65972222222221
+              },
+              {
+                "x": 84.33333333333333,
+                "y": 72.43990929705217
+              },
+              {
+                "x": 86.25,
+                "y": 70.07015306122449
+              },
+              {
+                "x": 88.16666666666667,
+                "y": 67.55045351473922
+              },
+              {
+                "x": 90.08333333333333,
+                "y": 64.88081065759638
+              },
+              {
+                "x": 92.0,
+                "y": 62.06122448979592
+              },
+              {
+                "x": 93.91666666666667,
+                "y": 59.09169501133786
+              },
+              {
+                "x": 95.83333333333333,
+                "y": 55.97222222222223
+              },
+              {
+                "x": 97.75,
+                "y": 52.70280612244898
+              },
+              {
+                "x": 99.66666666666667,
+                "y": 49.28344671201813
+              },
+              {
+                "x": 101.58333333333333,
+                "y": 45.71414399092971
+              },
+              {
+                "x": 103.5,
+                "y": 41.99489795918367
+              },
+              {
+                "x": 105.41666666666667,
+                "y": 38.12570861678003
+              },
+              {
+                "x": 107.33333333333333,
+                "y": 34.10657596371883
+              },
+              {
+                "x": 109.25,
+                "y": 29.9375
+              },
+              {
+                "x": 111.16666666666667,
+                "y": 25.618480725623584
+              },
+              {
+                "x": 113.08333333333333,
+                "y": 21.149518140589578
+              },
+              {
+                "x": 115.0,
+                "y": 16.530612244897966
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 55,
+            "y": 90
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 55,
+            "y": 90,
+            "xLabel": "P1"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "A country is underpopulated when",
+    "options": [
+      {
+        "label": "A",
+        "text": "Population above the output-per-head optimum"
+      },
+      {
+        "label": "B",
+        "text": "Population with zero annual births"
+      },
+      {
+        "label": "C",
+        "text": "Population below the output-per-head optimum"
+      },
+      {
+        "label": "D",
+        "text": "Population with a majority living in cities"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Below the optimum, adding population can allow the economy to use land, capital and specialisation more effectively and raise output per head.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 optimum population | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "A country is overpopulated when",
+    "options": [
+      {
+        "label": "A",
+        "text": "Population below the output-per-head optimum"
+      },
+      {
+        "label": "B",
+        "text": "Population with rising total national output"
+      },
+      {
+        "label": "C",
+        "text": "Population above the output-per-head optimum"
+      },
+      {
+        "label": "D",
+        "text": "Population with positive inward net migration"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Beyond the optimum, further population can reduce output per head because diminishing returns and resource pressure dominate.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 optimum population | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "Which change is most likely to increase a country's optimum population?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An increase in the birth rate by itself"
+      },
+      {
+        "label": "B",
+        "text": "A fall in productivity"
+      },
+      {
+        "label": "C",
+        "text": "An improvement in technology"
+      },
+      {
+        "label": "D",
+        "text": "A loss of usable natural resources"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Better technology or more capital/resources can support a larger population at the maximum output per head.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 optimum population | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "What is meant by the level of urbanisation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The share living in urban areas"
+      },
+      {
+        "label": "B",
+        "text": "The annual rate of population growth"
+      },
+      {
+        "label": "C",
+        "text": "The share working in agricultural production"
+      },
+      {
+        "label": "D",
+        "text": "The annual rate of urban births"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Urbanisation refers to the share of population living in towns and cities.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 level of urbanisation | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "Which change is most likely as an economy urbanises?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The birth rate necessarily increases"
+      },
+      {
+        "label": "B",
+        "text": "Primary production employs the entire population"
+      },
+      {
+        "label": "C",
+        "text": "The urban population share increases"
+      },
+      {
+        "label": "D",
+        "text": "Net migration necessarily declines to zero"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Urbanisation is by definition an increase in the urban share of the population.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 level of urbanisation | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "Which graph represents perfect equality of income distribution?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The Lorenz curve along the horizontal axis"
+      },
+      {
+        "label": "B",
+        "text": "A vertical line at the population midpoint"
+      },
+      {
+        "label": "C",
+        "text": "An inverted-U curve rising then falling"
+      },
+      {
+        "label": "D",
+        "text": "The 45-degree line joining opposite corners"
+      }
+    ],
+    "answer": "D",
+    "explanation": "With perfect equality, each cumulative percentage of population receives the same cumulative percentage of income.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 Lorenz curve analysis | AO1 Knowledge and understanding",
+    "graphRequired": true,
+    "graphDescription": "Lorenz diagram. Horizontal axis: cumulative percentage of population from 0 to 100. Vertical axis: cumulative percentage of income from 0 to 100. Draw the 45-degree line of perfect equality.",
+    "graphScenes": [
+      {
+        "xLabel": "Cumulative population (%)",
+        "yLabel": "Cumulative income (%)",
+        "xMax": 110,
+        "yMax": 110,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "Equality",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 103.39999999999999,
+                "y": 103.39999999999999
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 100,
+            "y": 100,
+            "xLabel": "100%",
+            "yLabel": "100%"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "What does a Lorenz curve show?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Inflation relative to the unemployment rate"
+      },
+      {
+        "label": "B",
+        "text": "Output per head relative to population size"
+      },
+      {
+        "label": "C",
+        "text": "Cumulative income shares relative to population shares"
+      },
+      {
+        "label": "D",
+        "text": "Development stages relative to average income inequality"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The Lorenz curve is a graphical representation of the distribution of income.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 Lorenz curve analysis | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "A Lorenz curve moves farther away from the line of equality. What has most likely happened?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Income distribution has become more equal"
+      },
+      {
+        "label": "B",
+        "text": "Income distribution has become more unequal"
+      },
+      {
+        "label": "C",
+        "text": "The Gini coefficient has fallen to zero"
+      },
+      {
+        "label": "D",
+        "text": "National income must have fallen"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A larger gap between the Lorenz curve and the equality line indicates greater inequality.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 Lorenz curve analysis | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Lorenz diagram with two curves. Curve L2 lies farther from the line of equality than L1. Indicate that L2 represents greater inequality.",
+    "graphScenes": [
+      {
+        "xLabel": "Cumulative population (%)",
+        "yLabel": "Cumulative income (%)",
+        "xMax": 110,
+        "yMax": 110,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "Equality",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 103.39999999999999,
+                "y": 103.39999999999999
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "L1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 1.6666666666666667,
+                "y": 0.14287557768763998
+              },
+              {
+                "x": 3.3333333333333335,
+                "y": 0.43311776010179864
+              },
+              {
+                "x": 5.0,
+                "y": 0.8286135043349966
+              },
+              {
+                "x": 6.666666666666667,
+                "y": 1.3129675284723452
+              },
+              {
+                "x": 8.333333333333334,
+                "y": 1.8763333868341854
+              },
+              {
+                "x": 10.0,
+                "y": 2.5118864315095797
+              },
+              {
+                "x": 11.666666666666666,
+                "y": 3.214510608901376
+              },
+              {
+                "x": 13.333333333333334,
+                "y": 3.980173268391493
+              },
+              {
+                "x": 15.0,
+                "y": 4.8055822463052085
+              },
+              {
+                "x": 16.666666666666668,
+                "y": 5.687979197442275
+              },
+              {
+                "x": 18.333333333333332,
+                "y": 6.625006300628666
+              },
+              {
+                "x": 20.0,
+                "y": 7.614615754863513
+              },
+              {
+                "x": 21.666666666666668,
+                "y": 8.655005796627748
+              },
+              {
+                "x": 23.333333333333332,
+                "y": 9.744573966270485
+              },
+              {
+                "x": 25.0,
+                "y": 10.88188204120155
+              },
+              {
+                "x": 26.666666666666668,
+                "y": 12.065629120965646
+              },
+              {
+                "x": 28.333333333333332,
+                "y": 13.294630566700064
+              },
+              {
+                "x": 30.0,
+                "y": 14.567801244906113
+              },
+              {
+                "x": 31.666666666666668,
+                "y": 15.884142000894924
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 17.242728599059554
+              },
+              {
+                "x": 35.0,
+                "y": 18.642702577112427
+              },
+              {
+                "x": 36.666666666666664,
+                "y": 20.083263606197274
+              },
+              {
+                "x": 38.333333333333336,
+                "y": 21.563663050683523
+              },
+              {
+                "x": 40.0,
+                "y": 23.08319849451542
+              },
+              {
+                "x": 41.666666666666664,
+                "y": 24.64120905425538
+              },
+              {
+                "x": 43.333333333333336,
+                "y": 26.23707133838441
+              },
+              {
+                "x": 45.0,
+                "y": 27.87019594200023
+              },
+              {
+                "x": 46.666666666666664,
+                "y": 29.540024388524227
+              },
+              {
+                "x": 48.333333333333336,
+                "y": 31.246026447293545
+              },
+              {
+                "x": 50.0,
+                "y": 32.98769776932235
+              },
+              {
+                "x": 51.666666666666664,
+                "y": 34.7645577940282
+              },
+              {
+                "x": 53.333333333333336,
+                "y": 36.57614788803585
+              },
+              {
+                "x": 55.0,
+                "y": 38.42202968380543
+              },
+              {
+                "x": 56.666666666666664,
+                "y": 40.301783591165616
+              },
+              {
+                "x": 58.333333333333336,
+                "y": 42.21500745915176
+              },
+              {
+                "x": 60.0,
+                "y": 44.16131536906999
+              },
+              {
+                "x": 61.666666666666664,
+                "y": 46.14033654259842
+              },
+              {
+                "x": 63.333333333333336,
+                "y": 48.15171435112012
+              },
+              {
+                "x": 65.0,
+                "y": 50.19510541446327
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 52.27017877887439
+              },
+              {
+                "x": 68.33333333333333,
+                "y": 54.37661516543647
+              },
+              {
+                "x": 70.0,
+                "y": 56.514106281310795
+              },
+              {
+                "x": 71.66666666666667,
+                "y": 58.68235418716829
+              },
+              {
+                "x": 73.33333333333333,
+                "y": 60.88107071501714
+              },
+              {
+                "x": 75.0,
+                "y": 63.10997693134872
+              },
+              {
+                "x": 76.66666666666667,
+                "y": 65.36880264113833
+              },
+              {
+                "x": 78.33333333333333,
+                "y": 67.65728592876499
+              },
+              {
+                "x": 80.0,
+                "y": 69.9751727323698
+              },
+              {
+                "x": 81.66666666666667,
+                "y": 72.32221644856665
+              },
+              {
+                "x": 83.33333333333333,
+                "y": 74.6981775647618
+              },
+              {
+                "x": 85.0,
+                "y": 77.10282331663664
+              },
+              {
+                "x": 86.66666666666667,
+                "y": 79.53592736860878
+              },
+              {
+                "x": 88.33333333333333,
+                "y": 81.99726951531517
+              },
+              {
+                "x": 90.0,
+                "y": 84.48663540236126
+              },
+              {
+                "x": 91.66666666666667,
+                "y": 87.00381626475671
+              },
+              {
+                "x": 93.33333333333333,
+                "y": 89.54860868161472
+              },
+              {
+                "x": 95.0,
+                "y": 92.12081434582966
+              },
+              {
+                "x": 96.66666666666667,
+                "y": 94.72023984756974
+              },
+              {
+                "x": 98.33333333333333,
+                "y": 97.34669647053171
+              },
+              {
+                "x": 100.0,
+                "y": 100.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "L2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 1.6666666666666667,
+                "y": 0.0035860956909327933
+              },
+              {
+                "x": 3.3333333333333335,
+                "y": 0.020286020648339485
+              },
+              {
+                "x": 5.0,
+                "y": 0.05590169943749475
+              },
+              {
+                "x": 6.666666666666667,
+                "y": 0.11475506210984938
+              },
+              {
+                "x": 8.333333333333334,
+                "y": 0.20046884346862012
+              },
+              {
+                "x": 10.0,
+                "y": 0.316227766016838
+              },
+              {
+                "x": 11.666666666666666,
+                "y": 0.4649079514185372
+              },
+              {
+                "x": 13.333333333333334,
+                "y": 0.6491526607468635
+              },
+              {
+                "x": 15.0,
+                "y": 0.8714212528966687
+              },
+              {
+                "x": 16.666666666666668,
+                "y": 1.1340230290662865
+              },
+              {
+                "x": 18.333333333333332,
+                "y": 1.4391417981652597
+              },
+              {
+                "x": 20.0,
+                "y": 1.788854381999832
+              },
+              {
+                "x": 21.666666666666668,
+                "y": 2.185144969811992
+              },
+              {
+                "x": 23.333333333333332,
+                "y": 2.6299165206047492
+              },
+              {
+                "x": 25.0,
+                "y": 3.125
+              },
+              {
+                "x": 26.666666666666668,
+                "y": 3.6721619875151803
+              },
+              {
+                "x": 28.333333333333332,
+                "y": 4.273111030696305
+              },
+              {
+                "x": 30.0,
+                "y": 4.9295030175464944
+              },
+              {
+                "x": 31.666666666666668,
+                "y": 5.642945767430019
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 6.415002990995844
+              },
+              {
+                "x": 35.0,
+                "y": 7.247197734297028
+              },
+              {
+                "x": 36.666666666666664,
+                "y": 8.141015396573254
+              },
+              {
+                "x": 38.333333333333336,
+                "y": 9.097906392141251
+              },
+              {
+                "x": 40.0,
+                "y": 10.119288512538816
+              },
+              {
+                "x": 41.666666666666664,
+                "y": 11.206549034164977
+              },
+              {
+                "x": 43.333333333333336,
+                "y": 12.361046608237865
+              },
+              {
+                "x": 45.0,
+                "y": 13.584112963311224
+              },
+              {
+                "x": 46.666666666666664,
+                "y": 14.87705444539319
+              },
+              {
+                "x": 48.333333333333336,
+                "y": 16.241153416565325
+              },
+              {
+                "x": 50.0,
+                "y": 17.67766952966369
+              },
+              {
+                "x": 51.666666666666664,
+                "y": 19.187840893876622
+              },
+              {
+                "x": 53.333333333333336,
+                "y": 20.772885143899632
+              },
+              {
+                "x": 55.0,
+                "y": 22.434000423464383
+              },
+              {
+                "x": 56.666666666666664,
+                "y": 24.172366292547153
+              },
+              {
+                "x": 58.333333333333336,
+                "y": 25.98914456630049
+              },
+              {
+                "x": 60.0,
+                "y": 27.8854800926934
+              },
+              {
+                "x": 61.666666666666664,
+                "y": 29.862501474952897
+              },
+              {
+                "x": 63.333333333333336,
+                "y": 31.921321744141544
+              },
+              {
+                "x": 65.0,
+                "y": 34.063038986561374
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 36.28873693012117
+              },
+              {
+                "x": 68.33333333333333,
+                "y": 38.59948549333
+              },
+              {
+                "x": 70.0,
+                "y": 40.996341300169696
+              },
+              {
+                "x": 71.66666666666667,
+                "y": 43.48034816374323
+              },
+              {
+                "x": 73.33333333333333,
+                "y": 46.05253754128831
+              },
+              {
+                "x": 75.0,
+                "y": 48.713928962874675
+              },
+              {
+                "x": 76.66666666666667,
+                "y": 51.465530435868125
+              },
+              {
+                "x": 78.33333333333333,
+                "y": 54.30833882703708
+              },
+              {
+                "x": 80.0,
+                "y": 57.24334022399462
+              },
+              {
+                "x": 81.66666666666667,
+                "y": 60.27151027750748
+              },
+              {
+                "x": 83.33333333333333,
+                "y": 63.39381452606088
+              },
+              {
+                "x": 85.0,
+                "y": 66.6112087039411
+              },
+              {
+                "x": 86.66666666666667,
+                "y": 69.92463903398374
+              },
+              {
+                "x": 88.33333333333333,
+                "y": 73.33504250603622
+              },
+              {
+                "x": 90.0,
+                "y": 76.84334714209162
+              },
+              {
+                "x": 91.66666666666667,
+                "y": 80.4504722489701
+              },
+              {
+                "x": 93.33333333333333,
+                "y": 84.15732865935198
+              },
+              {
+                "x": 95.0,
+                "y": 87.96481896190089
+              },
+              {
+                "x": 96.66666666666667,
+                "y": 91.87383772115525
+              },
+              {
+                "x": 98.33333333333333,
+                "y": 95.88527168781495
+              },
+              {
+                "x": 100.0,
+                "y": 100.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 100,
+            "y": 100,
+            "xLabel": "100%",
+            "yLabel": "100%"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "A country has a Gini coefficient of 0.25 and another has 0.55. Which has the more equal income distribution?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The country with 0.55"
+      },
+      {
+        "label": "B",
+        "text": "Both countries equally"
+      },
+      {
+        "label": "C",
+        "text": "Neither country can be ranked"
+      },
+      {
+        "label": "D",
+        "text": "The country with 0.25"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A Gini coefficient closer to zero indicates greater equality; a value closer to one indicates greater inequality.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 Gini coefficient | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "What Gini coefficient represents perfect equality?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "0.5"
+      },
+      {
+        "label": "C",
+        "text": "1"
+      },
+      {
+        "label": "D",
+        "text": "100"
+      }
+    ],
+    "answer": "A",
+    "explanation": "With perfect equality, the Lorenz curve coincides with the equality line and the Gini coefficient is zero.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 Gini coefficient | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "What Gini coefficient represents the theoretical extreme of perfect inequality?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "0.1"
+      },
+      {
+        "label": "C",
+        "text": "100"
+      },
+      {
+        "label": "D",
+        "text": "1"
+      }
+    ],
+    "answer": "D",
+    "explanation": "If one person received all income, the Gini coefficient would approach one.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 Gini coefficient | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "In a Lorenz diagram, the area between the line of equality and the Lorenz curve is 0.15, and the total area under the line of equality is 0.50. What is the Gini coefficient?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.15"
+      },
+      {
+        "label": "B",
+        "text": "0.30"
+      },
+      {
+        "label": "C",
+        "text": "0.35"
+      },
+      {
+        "label": "D",
+        "text": "0.70"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Gini = area between equality and Lorenz / total area under equality = 0.15 / 0.50 = 0.30.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 calculation of Gini coefficient | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "Which sector includes farming, fishing and mineral extraction?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Primary sector"
+      },
+      {
+        "label": "B",
+        "text": "Secondary sector"
+      },
+      {
+        "label": "C",
+        "text": "Tertiary sector"
+      },
+      {
+        "label": "D",
+        "text": "Financial services"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The primary sector produces or extracts raw materials and natural resources.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.3 economic structure: employment composition | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "Which sector includes manufacturing?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Primary sector"
+      },
+      {
+        "label": "B",
+        "text": "Tertiary sector"
+      },
+      {
+        "label": "C",
+        "text": "Financial services"
+      },
+      {
+        "label": "D",
+        "text": "Secondary sector"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Manufacturing transforms raw materials into finished or semi-finished goods and belongs to the secondary sector.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.3 economic structure: employment composition | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "Which sector includes most services?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Primary sector"
+      },
+      {
+        "label": "B",
+        "text": "Secondary sector"
+      },
+      {
+        "label": "C",
+        "text": "Extractive industries"
+      },
+      {
+        "label": "D",
+        "text": "Tertiary sector"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The tertiary sector provides services such as retail, transport, finance, health and education.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.3 economic structure: employment composition | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "As an economy develops, what generally happens to the share of employment in the primary sector?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The primary-sector employment share rises continuously at every stage of economic development"
+      },
+      {
+        "label": "B",
+        "text": "It declines with structural transformation"
+      },
+      {
+        "label": "C",
+        "text": "It immediately falls to zero"
+      },
+      {
+        "label": "D",
+        "text": "It is independent of structural transformation"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Structural transformation typically moves labour from agriculture and extraction toward manufacturing and services.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.3 employment composition at different levels of development | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "Which trade pattern is most characteristic of many lower-income economies?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Advanced financial services dominate exports"
+      },
+      {
+        "label": "B",
+        "text": "Primary goods are excluded from exports"
+      },
+      {
+        "label": "C",
+        "text": "Substantial reliance on primary-commodity exports"
+      },
+      {
+        "label": "D",
+        "text": "All export earnings come exclusively from high-technology manufactured goods"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Many developing economies have historically depended more heavily on primary-product exports, while developed economies tend to have more diversified trade.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.3 pattern of trade at different levels of development | AO1 Knowledge and understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "Which change is most consistent with economic development?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Labour shifts from services into subsistence agriculture"
+      },
+      {
+        "label": "B",
+        "text": "Exports become more dependent on one raw material"
+      },
+      {
+        "label": "C",
+        "text": "The urban population share declines continuously"
+      },
+      {
+        "label": "D",
+        "text": "Labour shifts toward manufacturing and service activities"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Development is generally associated with structural transformation, urbanisation and diversification of production and trade.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.3 economic structure | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "A country has a birth rate of 30 per thousand, death rate of 12 per thousand, immigration rate of 4 per thousand and emigration rate of 7 per thousand. What is its population growth rate before any other adjustments?",
+    "options": [
+      {
+        "label": "A",
+        "text": "25 per thousand"
+      },
+      {
+        "label": "B",
+        "text": "15 per thousand"
+      },
+      {
+        "label": "C",
+        "text": "19 per thousand"
+      },
+      {
+        "label": "D",
+        "text": "9 per thousand"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Natural increase is 30 - 12 = 18. Net migration is 4 - 7 = -3. Total population growth is therefore 15 per thousand.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 population growth and structure | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 31,
+    "difficulty": "Medium",
+    "prompt": "A country's birth rate falls while its death rate falls by a larger amount. What happens to natural population growth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Natural growth necessarily slows"
+      },
+      {
+        "label": "B",
+        "text": "Natural growth becomes faster"
+      },
+      {
+        "label": "C",
+        "text": "Natural growth becomes zero"
+      },
+      {
+        "label": "D",
+        "text": "Natural growth depends solely on migration"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Natural increase depends on the gap between birth and death rates. If deaths fall more than births, the gap can widen.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 birth and death rates | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 32,
+    "difficulty": "Medium",
+    "prompt": "Why can a fall in infant mortality eventually contribute to a lower birth rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower mortality increases uncertainty about children surviving"
+      },
+      {
+        "label": "B",
+        "text": "Lower mortality reduces availability of birth-control methods"
+      },
+      {
+        "label": "C",
+        "text": "Lower mortality makes children essential for retirement support"
+      },
+      {
+        "label": "D",
+        "text": "Higher child survival reduces desired replacement births"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Improved child survival can alter family-size decisions and contribute to the demographic transition.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 causes of changes in birth rate and infant mortality | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 33,
+    "difficulty": "Medium",
+    "prompt": "A country experiences strong inward migration of working-age adults. Which effect is most likely in the short run?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The infant mortality rate necessarily rises"
+      },
+      {
+        "label": "B",
+        "text": "The birth rate necessarily falls to zero"
+      },
+      {
+        "label": "C",
+        "text": "The economy necessarily becomes overpopulated immediately"
+      },
+      {
+        "label": "D",
+        "text": "The working-age population share rises"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Working-age immigration directly adds to the economically active age groups and can reduce the dependency burden.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 net migration and population structure | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "A country has a rapidly ageing population. Which combination is most consistent?",
+    "options": [
+      {
+        "label": "A",
+        "text": "High birth rate and high infant mortality"
+      },
+      {
+        "label": "B",
+        "text": "Low birth rate and high life expectancy"
+      },
+      {
+        "label": "C",
+        "text": "High death rate and low life expectancy"
+      },
+      {
+        "label": "D",
+        "text": "Rapid rural-urban migration only"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Population ageing is associated with fewer births and longer life expectancy, increasing the share of older dependants.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 population growth and structure | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "Why can a very young population create a high dependency ratio?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Children necessarily have higher productive capacity than adults"
+      },
+      {
+        "label": "B",
+        "text": "Many children depend on the working-age population"
+      },
+      {
+        "label": "C",
+        "text": "The employed labour force includes every dependent child"
+      },
+      {
+        "label": "D",
+        "text": "More children necessarily reduce the number of dependants"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A large child population requires resources for education, health and consumption before entering the labour force.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 population growth and structure | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "Country X has a population of 20m, 600 000 births and 180 000 deaths. What are the birth and death rates per thousand?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3 and 0.9"
+      },
+      {
+        "label": "B",
+        "text": "30 and 9"
+      },
+      {
+        "label": "C",
+        "text": "30 and 18"
+      },
+      {
+        "label": "D",
+        "text": "60 and 9"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Birth rate = 600 000 / 20m x 1000 = 30. Death rate = 180 000 / 20m x 1000 = 9.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 measurement of birth and death rates | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "A country has 10 000 infant deaths and 500 000 live births. What is the infant mortality rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2 per thousand live births"
+      },
+      {
+        "label": "B",
+        "text": "50 per thousand live births"
+      },
+      {
+        "label": "C",
+        "text": "20 per thousand live births"
+      },
+      {
+        "label": "D",
+        "text": "500 per thousand live births"
+      }
+    ],
+    "answer": "C",
+    "explanation": "10 000 / 500 000 x 1000 = 20 infant deaths per thousand live births.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 measurement of infant mortality | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "Why might rapid urbanisation occur during industrialisation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Urban jobs expand relative to agricultural opportunities"
+      },
+      {
+        "label": "B",
+        "text": "Industrialisation requires permanent relocation into subsistence agriculture"
+      },
+      {
+        "label": "C",
+        "text": "Urban jobs necessarily offer lower wages than rural jobs"
+      },
+      {
+        "label": "D",
+        "text": "All service activities can be supplied only in rural areas"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Structural transformation and rural-urban migration typically increase the share of population living in urban areas.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 level of urbanisation | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "Which observation best indicates urbanisation rather than simply population growth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Total population rises proportionately"
+      },
+      {
+        "label": "B",
+        "text": "The urban population share rises"
+      },
+      {
+        "label": "C",
+        "text": "Births exceed deaths in total"
+      },
+      {
+        "label": "D",
+        "text": "Immigration exceeds emigration in total"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Urbanisation is a change in the proportion living in urban areas, not merely an increase in total population.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 level of urbanisation | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "An economy is underpopulated. What happens to output per head as population rises toward the optimum, other things equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises"
+      },
+      {
+        "label": "B",
+        "text": "It falls continuously"
+      },
+      {
+        "label": "C",
+        "text": "It is unchanged"
+      },
+      {
+        "label": "D",
+        "text": "It must become zero"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Below the optimum, a larger population can improve specialisation and use of fixed factors, raising output per head.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 optimum population | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: output per head. Horizontal axis: population. Show an inverted-U curve. Mark an initial population to the left of the maximum and an increase toward the optimum, with output per head rising.",
+    "graphScenes": [
+      {
+        "xLabel": "Population",
+        "yLabel": "Output per head",
+        "xMax": 130,
+        "yMax": 130,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "Q1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 28.265306122448983
+              },
+              {
+                "x": 1.9166666666666667,
+                "y": 32.49305555555555
+              },
+              {
+                "x": 3.8333333333333335,
+                "y": 36.57086167800454
+              },
+              {
+                "x": 5.75,
+                "y": 40.49872448979592
+              },
+              {
+                "x": 7.666666666666667,
+                "y": 44.276643990929706
+              },
+              {
+                "x": 9.583333333333334,
+                "y": 47.904620181405896
+              },
+              {
+                "x": 11.5,
+                "y": 51.38265306122449
+              },
+              {
+                "x": 13.416666666666666,
+                "y": 54.71074263038548
+              },
+              {
+                "x": 15.333333333333334,
+                "y": 57.88888888888889
+              },
+              {
+                "x": 17.25,
+                "y": 60.91709183673469
+              },
+              {
+                "x": 19.166666666666668,
+                "y": 63.795351473922906
+              },
+              {
+                "x": 21.083333333333332,
+                "y": 66.52366780045351
+              },
+              {
+                "x": 23.0,
+                "y": 69.10204081632654
+              },
+              {
+                "x": 24.916666666666668,
+                "y": 71.53047052154196
+              },
+              {
+                "x": 26.833333333333332,
+                "y": 73.80895691609977
+              },
+              {
+                "x": 28.75,
+                "y": 75.9375
+              },
+              {
+                "x": 30.666666666666668,
+                "y": 77.91609977324264
+              },
+              {
+                "x": 32.583333333333336,
+                "y": 79.74475623582767
+              },
+              {
+                "x": 34.5,
+                "y": 81.4234693877551
+              },
+              {
+                "x": 36.416666666666664,
+                "y": 82.95223922902494
+              },
+              {
+                "x": 38.333333333333336,
+                "y": 84.33106575963718
+              },
+              {
+                "x": 40.25,
+                "y": 85.55994897959184
+              },
+              {
+                "x": 42.166666666666664,
+                "y": 86.63888888888889
+              },
+              {
+                "x": 44.083333333333336,
+                "y": 87.56788548752834
+              },
+              {
+                "x": 46.0,
+                "y": 88.34693877551021
+              },
+              {
+                "x": 47.916666666666664,
+                "y": 88.97604875283447
+              },
+              {
+                "x": 49.833333333333336,
+                "y": 89.45521541950113
+              },
+              {
+                "x": 51.75,
+                "y": 89.78443877551021
+              },
+              {
+                "x": 53.666666666666664,
+                "y": 89.96371882086167
+              },
+              {
+                "x": 55.583333333333336,
+                "y": 89.99305555555556
+              },
+              {
+                "x": 57.5,
+                "y": 89.87244897959184
+              },
+              {
+                "x": 59.416666666666664,
+                "y": 89.60189909297053
+              },
+              {
+                "x": 61.333333333333336,
+                "y": 89.18140589569161
+              },
+              {
+                "x": 63.25,
+                "y": 88.6109693877551
+              },
+              {
+                "x": 65.16666666666667,
+                "y": 87.890589569161
+              },
+              {
+                "x": 67.08333333333333,
+                "y": 87.02026643990929
+              },
+              {
+                "x": 69.0,
+                "y": 86.0
+              },
+              {
+                "x": 70.91666666666667,
+                "y": 84.8297902494331
+              },
+              {
+                "x": 72.83333333333333,
+                "y": 83.50963718820861
+              },
+              {
+                "x": 74.75,
+                "y": 82.03954081632654
+              },
+              {
+                "x": 76.66666666666667,
+                "y": 80.41950113378684
+              },
+              {
+                "x": 78.58333333333333,
+                "y": 78.64951814058958
+              },
+              {
+                "x": 80.5,
+                "y": 76.7295918367347
+              },
+              {
+                "x": 82.41666666666667,
+                "y": 74.65972222222221
+              },
+              {
+                "x": 84.33333333333333,
+                "y": 72.43990929705217
+              },
+              {
+                "x": 86.25,
+                "y": 70.07015306122449
+              },
+              {
+                "x": 88.16666666666667,
+                "y": 67.55045351473922
+              },
+              {
+                "x": 90.08333333333333,
+                "y": 64.88081065759638
+              },
+              {
+                "x": 92.0,
+                "y": 62.06122448979592
+              },
+              {
+                "x": 93.91666666666667,
+                "y": 59.09169501133786
+              },
+              {
+                "x": 95.83333333333333,
+                "y": 55.97222222222223
+              },
+              {
+                "x": 97.75,
+                "y": 52.70280612244898
+              },
+              {
+                "x": 99.66666666666667,
+                "y": 49.28344671201813
+              },
+              {
+                "x": 101.58333333333333,
+                "y": 45.71414399092971
+              },
+              {
+                "x": 103.5,
+                "y": 41.99489795918367
+              },
+              {
+                "x": 105.41666666666667,
+                "y": 38.12570861678003
+              },
+              {
+                "x": 107.33333333333333,
+                "y": 34.10657596371883
+              },
+              {
+                "x": 109.25,
+                "y": 29.9375
+              },
+              {
+                "x": 111.16666666666667,
+                "y": 25.618480725623584
+              },
+              {
+                "x": 113.08333333333333,
+                "y": 21.149518140589578
+              },
+              {
+                "x": 115.0,
+                "y": 16.530612244897966
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 55,
+            "y": 90
+          },
+          {
+            "id": "p1",
+            "label": "A",
+            "x": 20,
+            "y": 65.0
+          },
+          {
+            "id": "p2",
+            "label": "B",
+            "x": 35,
+            "y": 81.83673469387755
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 55,
+            "y": 90,
+            "xLabel": "P1"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "An economy is already overpopulated. What happens to output per head if population rises further, other things equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Output per head rises"
+      },
+      {
+        "label": "B",
+        "text": "Output per head stays constant"
+      },
+      {
+        "label": "C",
+        "text": "Output per head equals total output"
+      },
+      {
+        "label": "D",
+        "text": "Output per head falls"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Beyond the optimum, diminishing returns and pressure on fixed resources reduce output per head.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 optimum population | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: output per head. Horizontal axis: population. Show an inverted-U curve. Mark the current population to the right of the maximum and a further rightward movement with lower output per head.",
+    "graphScenes": [
+      {
+        "xLabel": "Population",
+        "yLabel": "Output per head",
+        "xMax": 130,
+        "yMax": 130,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "Q1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 28.265306122448983
+              },
+              {
+                "x": 1.9166666666666667,
+                "y": 32.49305555555555
+              },
+              {
+                "x": 3.8333333333333335,
+                "y": 36.57086167800454
+              },
+              {
+                "x": 5.75,
+                "y": 40.49872448979592
+              },
+              {
+                "x": 7.666666666666667,
+                "y": 44.276643990929706
+              },
+              {
+                "x": 9.583333333333334,
+                "y": 47.904620181405896
+              },
+              {
+                "x": 11.5,
+                "y": 51.38265306122449
+              },
+              {
+                "x": 13.416666666666666,
+                "y": 54.71074263038548
+              },
+              {
+                "x": 15.333333333333334,
+                "y": 57.88888888888889
+              },
+              {
+                "x": 17.25,
+                "y": 60.91709183673469
+              },
+              {
+                "x": 19.166666666666668,
+                "y": 63.795351473922906
+              },
+              {
+                "x": 21.083333333333332,
+                "y": 66.52366780045351
+              },
+              {
+                "x": 23.0,
+                "y": 69.10204081632654
+              },
+              {
+                "x": 24.916666666666668,
+                "y": 71.53047052154196
+              },
+              {
+                "x": 26.833333333333332,
+                "y": 73.80895691609977
+              },
+              {
+                "x": 28.75,
+                "y": 75.9375
+              },
+              {
+                "x": 30.666666666666668,
+                "y": 77.91609977324264
+              },
+              {
+                "x": 32.583333333333336,
+                "y": 79.74475623582767
+              },
+              {
+                "x": 34.5,
+                "y": 81.4234693877551
+              },
+              {
+                "x": 36.416666666666664,
+                "y": 82.95223922902494
+              },
+              {
+                "x": 38.333333333333336,
+                "y": 84.33106575963718
+              },
+              {
+                "x": 40.25,
+                "y": 85.55994897959184
+              },
+              {
+                "x": 42.166666666666664,
+                "y": 86.63888888888889
+              },
+              {
+                "x": 44.083333333333336,
+                "y": 87.56788548752834
+              },
+              {
+                "x": 46.0,
+                "y": 88.34693877551021
+              },
+              {
+                "x": 47.916666666666664,
+                "y": 88.97604875283447
+              },
+              {
+                "x": 49.833333333333336,
+                "y": 89.45521541950113
+              },
+              {
+                "x": 51.75,
+                "y": 89.78443877551021
+              },
+              {
+                "x": 53.666666666666664,
+                "y": 89.96371882086167
+              },
+              {
+                "x": 55.583333333333336,
+                "y": 89.99305555555556
+              },
+              {
+                "x": 57.5,
+                "y": 89.87244897959184
+              },
+              {
+                "x": 59.416666666666664,
+                "y": 89.60189909297053
+              },
+              {
+                "x": 61.333333333333336,
+                "y": 89.18140589569161
+              },
+              {
+                "x": 63.25,
+                "y": 88.6109693877551
+              },
+              {
+                "x": 65.16666666666667,
+                "y": 87.890589569161
+              },
+              {
+                "x": 67.08333333333333,
+                "y": 87.02026643990929
+              },
+              {
+                "x": 69.0,
+                "y": 86.0
+              },
+              {
+                "x": 70.91666666666667,
+                "y": 84.8297902494331
+              },
+              {
+                "x": 72.83333333333333,
+                "y": 83.50963718820861
+              },
+              {
+                "x": 74.75,
+                "y": 82.03954081632654
+              },
+              {
+                "x": 76.66666666666667,
+                "y": 80.41950113378684
+              },
+              {
+                "x": 78.58333333333333,
+                "y": 78.64951814058958
+              },
+              {
+                "x": 80.5,
+                "y": 76.7295918367347
+              },
+              {
+                "x": 82.41666666666667,
+                "y": 74.65972222222221
+              },
+              {
+                "x": 84.33333333333333,
+                "y": 72.43990929705217
+              },
+              {
+                "x": 86.25,
+                "y": 70.07015306122449
+              },
+              {
+                "x": 88.16666666666667,
+                "y": 67.55045351473922
+              },
+              {
+                "x": 90.08333333333333,
+                "y": 64.88081065759638
+              },
+              {
+                "x": 92.0,
+                "y": 62.06122448979592
+              },
+              {
+                "x": 93.91666666666667,
+                "y": 59.09169501133786
+              },
+              {
+                "x": 95.83333333333333,
+                "y": 55.97222222222223
+              },
+              {
+                "x": 97.75,
+                "y": 52.70280612244898
+              },
+              {
+                "x": 99.66666666666667,
+                "y": 49.28344671201813
+              },
+              {
+                "x": 101.58333333333333,
+                "y": 45.71414399092971
+              },
+              {
+                "x": 103.5,
+                "y": 41.99489795918367
+              },
+              {
+                "x": 105.41666666666667,
+                "y": 38.12570861678003
+              },
+              {
+                "x": 107.33333333333333,
+                "y": 34.10657596371883
+              },
+              {
+                "x": 109.25,
+                "y": 29.9375
+              },
+              {
+                "x": 111.16666666666667,
+                "y": 25.618480725623584
+              },
+              {
+                "x": 113.08333333333333,
+                "y": 21.149518140589578
+              },
+              {
+                "x": 115.0,
+                "y": 16.530612244897966
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 55,
+            "y": 90
+          },
+          {
+            "id": "p1",
+            "label": "A",
+            "x": 75,
+            "y": 81.83673469387755
+          },
+          {
+            "id": "p2",
+            "label": "B",
+            "x": 90,
+            "y": 65.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 55,
+            "y": 90,
+            "xLabel": "P1"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "A new technology raises labour productivity across the economy. What happens to the optimum-population curve?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An increase in productivity necessarily shifts the entire curve downwards and to the left"
+      },
+      {
+        "label": "B",
+        "text": "It rises; the optimum may shift right"
+      },
+      {
+        "label": "C",
+        "text": "The optimum necessarily falls to zero"
+      },
+      {
+        "label": "D",
+        "text": "The curve cannot respond to technological change"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Improved technology raises the productive capacity supported by a given resource base and can raise both maximum output per head and the optimal population size.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 optimum population | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: output per head. Horizontal axis: population. Draw initial curve Q1 and a higher/right-shifted curve Q2 after improved technology or capital. Mark optimum population increasing from P1 to P2.",
+    "graphScenes": [
+      {
+        "xLabel": "Population",
+        "yLabel": "Output per head",
+        "xMax": 130,
+        "yMax": 130,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "Q1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 28.265306122448983
+              },
+              {
+                "x": 1.9166666666666667,
+                "y": 32.49305555555555
+              },
+              {
+                "x": 3.8333333333333335,
+                "y": 36.57086167800454
+              },
+              {
+                "x": 5.75,
+                "y": 40.49872448979592
+              },
+              {
+                "x": 7.666666666666667,
+                "y": 44.276643990929706
+              },
+              {
+                "x": 9.583333333333334,
+                "y": 47.904620181405896
+              },
+              {
+                "x": 11.5,
+                "y": 51.38265306122449
+              },
+              {
+                "x": 13.416666666666666,
+                "y": 54.71074263038548
+              },
+              {
+                "x": 15.333333333333334,
+                "y": 57.88888888888889
+              },
+              {
+                "x": 17.25,
+                "y": 60.91709183673469
+              },
+              {
+                "x": 19.166666666666668,
+                "y": 63.795351473922906
+              },
+              {
+                "x": 21.083333333333332,
+                "y": 66.52366780045351
+              },
+              {
+                "x": 23.0,
+                "y": 69.10204081632654
+              },
+              {
+                "x": 24.916666666666668,
+                "y": 71.53047052154196
+              },
+              {
+                "x": 26.833333333333332,
+                "y": 73.80895691609977
+              },
+              {
+                "x": 28.75,
+                "y": 75.9375
+              },
+              {
+                "x": 30.666666666666668,
+                "y": 77.91609977324264
+              },
+              {
+                "x": 32.583333333333336,
+                "y": 79.74475623582767
+              },
+              {
+                "x": 34.5,
+                "y": 81.4234693877551
+              },
+              {
+                "x": 36.416666666666664,
+                "y": 82.95223922902494
+              },
+              {
+                "x": 38.333333333333336,
+                "y": 84.33106575963718
+              },
+              {
+                "x": 40.25,
+                "y": 85.55994897959184
+              },
+              {
+                "x": 42.166666666666664,
+                "y": 86.63888888888889
+              },
+              {
+                "x": 44.083333333333336,
+                "y": 87.56788548752834
+              },
+              {
+                "x": 46.0,
+                "y": 88.34693877551021
+              },
+              {
+                "x": 47.916666666666664,
+                "y": 88.97604875283447
+              },
+              {
+                "x": 49.833333333333336,
+                "y": 89.45521541950113
+              },
+              {
+                "x": 51.75,
+                "y": 89.78443877551021
+              },
+              {
+                "x": 53.666666666666664,
+                "y": 89.96371882086167
+              },
+              {
+                "x": 55.583333333333336,
+                "y": 89.99305555555556
+              },
+              {
+                "x": 57.5,
+                "y": 89.87244897959184
+              },
+              {
+                "x": 59.416666666666664,
+                "y": 89.60189909297053
+              },
+              {
+                "x": 61.333333333333336,
+                "y": 89.18140589569161
+              },
+              {
+                "x": 63.25,
+                "y": 88.6109693877551
+              },
+              {
+                "x": 65.16666666666667,
+                "y": 87.890589569161
+              },
+              {
+                "x": 67.08333333333333,
+                "y": 87.02026643990929
+              },
+              {
+                "x": 69.0,
+                "y": 86.0
+              },
+              {
+                "x": 70.91666666666667,
+                "y": 84.8297902494331
+              },
+              {
+                "x": 72.83333333333333,
+                "y": 83.50963718820861
+              },
+              {
+                "x": 74.75,
+                "y": 82.03954081632654
+              },
+              {
+                "x": 76.66666666666667,
+                "y": 80.41950113378684
+              },
+              {
+                "x": 78.58333333333333,
+                "y": 78.64951814058958
+              },
+              {
+                "x": 80.5,
+                "y": 76.7295918367347
+              },
+              {
+                "x": 82.41666666666667,
+                "y": 74.65972222222221
+              },
+              {
+                "x": 84.33333333333333,
+                "y": 72.43990929705217
+              },
+              {
+                "x": 86.25,
+                "y": 70.07015306122449
+              },
+              {
+                "x": 88.16666666666667,
+                "y": 67.55045351473922
+              },
+              {
+                "x": 90.08333333333333,
+                "y": 64.88081065759638
+              },
+              {
+                "x": 92.0,
+                "y": 62.06122448979592
+              },
+              {
+                "x": 93.91666666666667,
+                "y": 59.09169501133786
+              },
+              {
+                "x": 95.83333333333333,
+                "y": 55.97222222222223
+              },
+              {
+                "x": 97.75,
+                "y": 52.70280612244898
+              },
+              {
+                "x": 99.66666666666667,
+                "y": 49.28344671201813
+              },
+              {
+                "x": 101.58333333333333,
+                "y": 45.71414399092971
+              },
+              {
+                "x": 103.5,
+                "y": 41.99489795918367
+              },
+              {
+                "x": 105.41666666666667,
+                "y": 38.12570861678003
+              },
+              {
+                "x": 107.33333333333333,
+                "y": 34.10657596371883
+              },
+              {
+                "x": 109.25,
+                "y": 29.9375
+              },
+              {
+                "x": 111.16666666666667,
+                "y": 25.618480725623584
+              },
+              {
+                "x": 113.08333333333333,
+                "y": 21.149518140589578
+              },
+              {
+                "x": 115.0,
+                "y": 16.530612244897966
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "Q2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 22.109375
+              },
+              {
+                "x": 2.1666666666666665,
+                "y": 27.11414930555557
+              },
+              {
+                "x": 4.333333333333333,
+                "y": 31.972222222222214
+              },
+              {
+                "x": 6.5,
+                "y": 36.68359375
+              },
+              {
+                "x": 8.666666666666666,
+                "y": 41.2482638888889
+              },
+              {
+                "x": 10.833333333333334,
+                "y": 45.666232638888886
+              },
+              {
+                "x": 13.0,
+                "y": 49.9375
+              },
+              {
+                "x": 15.166666666666666,
+                "y": 54.062065972222214
+              },
+              {
+                "x": 17.333333333333332,
+                "y": 58.03993055555555
+              },
+              {
+                "x": 19.5,
+                "y": 61.87109375
+              },
+              {
+                "x": 21.666666666666668,
+                "y": 65.55555555555557
+              },
+              {
+                "x": 23.833333333333332,
+                "y": 69.09331597222221
+              },
+              {
+                "x": 26.0,
+                "y": 72.484375
+              },
+              {
+                "x": 28.166666666666668,
+                "y": 75.72873263888889
+              },
+              {
+                "x": 30.333333333333332,
+                "y": 78.82638888888889
+              },
+              {
+                "x": 32.5,
+                "y": 81.77734375
+              },
+              {
+                "x": 34.666666666666664,
+                "y": 84.58159722222221
+              },
+              {
+                "x": 36.833333333333336,
+                "y": 87.23914930555556
+              },
+              {
+                "x": 39.0,
+                "y": 89.75
+              },
+              {
+                "x": 41.166666666666664,
+                "y": 92.11414930555556
+              },
+              {
+                "x": 43.333333333333336,
+                "y": 94.33159722222223
+              },
+              {
+                "x": 45.5,
+                "y": 96.40234375
+              },
+              {
+                "x": 47.666666666666664,
+                "y": 98.32638888888889
+              },
+              {
+                "x": 49.833333333333336,
+                "y": 100.10373263888889
+              },
+              {
+                "x": 52.0,
+                "y": 101.734375
+              },
+              {
+                "x": 54.166666666666664,
+                "y": 103.21831597222221
+              },
+              {
+                "x": 56.333333333333336,
+                "y": 104.55555555555556
+              },
+              {
+                "x": 58.5,
+                "y": 105.74609375
+              },
+              {
+                "x": 60.666666666666664,
+                "y": 106.78993055555556
+              },
+              {
+                "x": 62.833333333333336,
+                "y": 107.68706597222223
+              },
+              {
+                "x": 65.0,
+                "y": 108.4375
+              },
+              {
+                "x": 67.16666666666667,
+                "y": 109.04123263888889
+              },
+              {
+                "x": 69.33333333333333,
+                "y": 109.49826388888889
+              },
+              {
+                "x": 71.5,
+                "y": 109.80859375
+              },
+              {
+                "x": 73.66666666666667,
+                "y": 109.97222222222223
+              },
+              {
+                "x": 75.83333333333333,
+                "y": 109.98914930555556
+              },
+              {
+                "x": 78.0,
+                "y": 109.859375
+              },
+              {
+                "x": 80.16666666666667,
+                "y": 109.58289930555556
+              },
+              {
+                "x": 82.33333333333333,
+                "y": 109.15972222222223
+              },
+              {
+                "x": 84.5,
+                "y": 108.58984375
+              },
+              {
+                "x": 86.66666666666667,
+                "y": 107.87326388888889
+              },
+              {
+                "x": 88.83333333333333,
+                "y": 107.00998263888889
+              },
+              {
+                "x": 91.0,
+                "y": 106.0
+              },
+              {
+                "x": 93.16666666666667,
+                "y": 104.84331597222221
+              },
+              {
+                "x": 95.33333333333333,
+                "y": 103.53993055555556
+              },
+              {
+                "x": 97.5,
+                "y": 102.08984375
+              },
+              {
+                "x": 99.66666666666667,
+                "y": 100.49305555555556
+              },
+              {
+                "x": 101.83333333333333,
+                "y": 98.74956597222223
+              },
+              {
+                "x": 104.0,
+                "y": 96.859375
+              },
+              {
+                "x": 106.16666666666667,
+                "y": 94.82248263888889
+              },
+              {
+                "x": 108.33333333333333,
+                "y": 92.63888888888889
+              },
+              {
+                "x": 110.5,
+                "y": 90.30859375
+              },
+              {
+                "x": 112.66666666666667,
+                "y": 87.83159722222221
+              },
+              {
+                "x": 114.83333333333333,
+                "y": 85.20789930555556
+              },
+              {
+                "x": 117.0,
+                "y": 82.4375
+              },
+              {
+                "x": 119.16666666666667,
+                "y": 79.52039930555554
+              },
+              {
+                "x": 121.33333333333333,
+                "y": 76.45659722222223
+              },
+              {
+                "x": 123.5,
+                "y": 73.24609375
+              },
+              {
+                "x": 125.66666666666667,
+                "y": 69.88888888888889
+              },
+              {
+                "x": 127.83333333333333,
+                "y": 66.3849826388889
+              },
+              {
+                "x": 130.0,
+                "y": 62.734375
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 55,
+            "y": 90
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 75,
+            "y": 110
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 55,
+            "y": 90,
+            "xLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 75,
+            "y": 110,
+            "xLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "Why is optimum population not a fixed number over time?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Current population determines it permanently"
+      },
+      {
+        "label": "B",
+        "text": "Government legislation fixes it permanently"
+      },
+      {
+        "label": "C",
+        "text": "Birth rates alone determine it permanently"
+      },
+      {
+        "label": "D",
+        "text": "Technology and productive resources change"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The population that maximises output per head changes as the productive environment changes.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 optimum population | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "Which change is least likely by itself to increase optimum population?",
+    "options": [
+      {
+        "label": "A",
+        "text": "More capital"
+      },
+      {
+        "label": "B",
+        "text": "Better technology"
+      },
+      {
+        "label": "C",
+        "text": "A higher birth rate"
+      },
+      {
+        "label": "D",
+        "text": "Greater availability of natural resources"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A higher birth rate changes actual population, not necessarily the population size that maximises output per head. Productive resources and technology can shift the optimum.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 optimum population | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "A Lorenz curve for country A lies everywhere closer to the equality line than country B's curve. What can be concluded?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A necessarily has higher income per head"
+      },
+      {
+        "label": "B",
+        "text": "B necessarily has a smaller total population"
+      },
+      {
+        "label": "C",
+        "text": "Both necessarily have equal Gini coefficients"
+      },
+      {
+        "label": "D",
+        "text": "A has a more equal income distribution"
+      }
+    ],
+    "answer": "D",
+    "explanation": "When one Lorenz curve is everywhere closer to equality, it represents a more equal distribution and a lower Gini coefficient.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 Lorenz curve analysis | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Lorenz diagram with equality line and two Lorenz curves A and B. Curve A lies everywhere between curve B and the equality line.",
+    "graphScenes": [
+      {
+        "xLabel": "Cumulative population (%)",
+        "yLabel": "Cumulative income (%)",
+        "xMax": 110,
+        "yMax": 110,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "Equality",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 103.39999999999999,
+                "y": 103.39999999999999
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "A",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 1.6666666666666667,
+                "y": 0.14287557768763998
+              },
+              {
+                "x": 3.3333333333333335,
+                "y": 0.43311776010179864
+              },
+              {
+                "x": 5.0,
+                "y": 0.8286135043349966
+              },
+              {
+                "x": 6.666666666666667,
+                "y": 1.3129675284723452
+              },
+              {
+                "x": 8.333333333333334,
+                "y": 1.8763333868341854
+              },
+              {
+                "x": 10.0,
+                "y": 2.5118864315095797
+              },
+              {
+                "x": 11.666666666666666,
+                "y": 3.214510608901376
+              },
+              {
+                "x": 13.333333333333334,
+                "y": 3.980173268391493
+              },
+              {
+                "x": 15.0,
+                "y": 4.8055822463052085
+              },
+              {
+                "x": 16.666666666666668,
+                "y": 5.687979197442275
+              },
+              {
+                "x": 18.333333333333332,
+                "y": 6.625006300628666
+              },
+              {
+                "x": 20.0,
+                "y": 7.614615754863513
+              },
+              {
+                "x": 21.666666666666668,
+                "y": 8.655005796627748
+              },
+              {
+                "x": 23.333333333333332,
+                "y": 9.744573966270485
+              },
+              {
+                "x": 25.0,
+                "y": 10.88188204120155
+              },
+              {
+                "x": 26.666666666666668,
+                "y": 12.065629120965646
+              },
+              {
+                "x": 28.333333333333332,
+                "y": 13.294630566700064
+              },
+              {
+                "x": 30.0,
+                "y": 14.567801244906113
+              },
+              {
+                "x": 31.666666666666668,
+                "y": 15.884142000894924
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 17.242728599059554
+              },
+              {
+                "x": 35.0,
+                "y": 18.642702577112427
+              },
+              {
+                "x": 36.666666666666664,
+                "y": 20.083263606197274
+              },
+              {
+                "x": 38.333333333333336,
+                "y": 21.563663050683523
+              },
+              {
+                "x": 40.0,
+                "y": 23.08319849451542
+              },
+              {
+                "x": 41.666666666666664,
+                "y": 24.64120905425538
+              },
+              {
+                "x": 43.333333333333336,
+                "y": 26.23707133838441
+              },
+              {
+                "x": 45.0,
+                "y": 27.87019594200023
+              },
+              {
+                "x": 46.666666666666664,
+                "y": 29.540024388524227
+              },
+              {
+                "x": 48.333333333333336,
+                "y": 31.246026447293545
+              },
+              {
+                "x": 50.0,
+                "y": 32.98769776932235
+              },
+              {
+                "x": 51.666666666666664,
+                "y": 34.7645577940282
+              },
+              {
+                "x": 53.333333333333336,
+                "y": 36.57614788803585
+              },
+              {
+                "x": 55.0,
+                "y": 38.42202968380543
+              },
+              {
+                "x": 56.666666666666664,
+                "y": 40.301783591165616
+              },
+              {
+                "x": 58.333333333333336,
+                "y": 42.21500745915176
+              },
+              {
+                "x": 60.0,
+                "y": 44.16131536906999
+              },
+              {
+                "x": 61.666666666666664,
+                "y": 46.14033654259842
+              },
+              {
+                "x": 63.333333333333336,
+                "y": 48.15171435112012
+              },
+              {
+                "x": 65.0,
+                "y": 50.19510541446327
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 52.27017877887439
+              },
+              {
+                "x": 68.33333333333333,
+                "y": 54.37661516543647
+              },
+              {
+                "x": 70.0,
+                "y": 56.514106281310795
+              },
+              {
+                "x": 71.66666666666667,
+                "y": 58.68235418716829
+              },
+              {
+                "x": 73.33333333333333,
+                "y": 60.88107071501714
+              },
+              {
+                "x": 75.0,
+                "y": 63.10997693134872
+              },
+              {
+                "x": 76.66666666666667,
+                "y": 65.36880264113833
+              },
+              {
+                "x": 78.33333333333333,
+                "y": 67.65728592876499
+              },
+              {
+                "x": 80.0,
+                "y": 69.9751727323698
+              },
+              {
+                "x": 81.66666666666667,
+                "y": 72.32221644856665
+              },
+              {
+                "x": 83.33333333333333,
+                "y": 74.6981775647618
+              },
+              {
+                "x": 85.0,
+                "y": 77.10282331663664
+              },
+              {
+                "x": 86.66666666666667,
+                "y": 79.53592736860878
+              },
+              {
+                "x": 88.33333333333333,
+                "y": 81.99726951531517
+              },
+              {
+                "x": 90.0,
+                "y": 84.48663540236126
+              },
+              {
+                "x": 91.66666666666667,
+                "y": 87.00381626475671
+              },
+              {
+                "x": 93.33333333333333,
+                "y": 89.54860868161472
+              },
+              {
+                "x": 95.0,
+                "y": 92.12081434582966
+              },
+              {
+                "x": 96.66666666666667,
+                "y": 94.72023984756974
+              },
+              {
+                "x": 98.33333333333333,
+                "y": 97.34669647053171
+              },
+              {
+                "x": 100.0,
+                "y": 100.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "B",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 1.6666666666666667,
+                "y": 0.0035860956909327933
+              },
+              {
+                "x": 3.3333333333333335,
+                "y": 0.020286020648339485
+              },
+              {
+                "x": 5.0,
+                "y": 0.05590169943749475
+              },
+              {
+                "x": 6.666666666666667,
+                "y": 0.11475506210984938
+              },
+              {
+                "x": 8.333333333333334,
+                "y": 0.20046884346862012
+              },
+              {
+                "x": 10.0,
+                "y": 0.316227766016838
+              },
+              {
+                "x": 11.666666666666666,
+                "y": 0.4649079514185372
+              },
+              {
+                "x": 13.333333333333334,
+                "y": 0.6491526607468635
+              },
+              {
+                "x": 15.0,
+                "y": 0.8714212528966687
+              },
+              {
+                "x": 16.666666666666668,
+                "y": 1.1340230290662865
+              },
+              {
+                "x": 18.333333333333332,
+                "y": 1.4391417981652597
+              },
+              {
+                "x": 20.0,
+                "y": 1.788854381999832
+              },
+              {
+                "x": 21.666666666666668,
+                "y": 2.185144969811992
+              },
+              {
+                "x": 23.333333333333332,
+                "y": 2.6299165206047492
+              },
+              {
+                "x": 25.0,
+                "y": 3.125
+              },
+              {
+                "x": 26.666666666666668,
+                "y": 3.6721619875151803
+              },
+              {
+                "x": 28.333333333333332,
+                "y": 4.273111030696305
+              },
+              {
+                "x": 30.0,
+                "y": 4.9295030175464944
+              },
+              {
+                "x": 31.666666666666668,
+                "y": 5.642945767430019
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 6.415002990995844
+              },
+              {
+                "x": 35.0,
+                "y": 7.247197734297028
+              },
+              {
+                "x": 36.666666666666664,
+                "y": 8.141015396573254
+              },
+              {
+                "x": 38.333333333333336,
+                "y": 9.097906392141251
+              },
+              {
+                "x": 40.0,
+                "y": 10.119288512538816
+              },
+              {
+                "x": 41.666666666666664,
+                "y": 11.206549034164977
+              },
+              {
+                "x": 43.333333333333336,
+                "y": 12.361046608237865
+              },
+              {
+                "x": 45.0,
+                "y": 13.584112963311224
+              },
+              {
+                "x": 46.666666666666664,
+                "y": 14.87705444539319
+              },
+              {
+                "x": 48.333333333333336,
+                "y": 16.241153416565325
+              },
+              {
+                "x": 50.0,
+                "y": 17.67766952966369
+              },
+              {
+                "x": 51.666666666666664,
+                "y": 19.187840893876622
+              },
+              {
+                "x": 53.333333333333336,
+                "y": 20.772885143899632
+              },
+              {
+                "x": 55.0,
+                "y": 22.434000423464383
+              },
+              {
+                "x": 56.666666666666664,
+                "y": 24.172366292547153
+              },
+              {
+                "x": 58.333333333333336,
+                "y": 25.98914456630049
+              },
+              {
+                "x": 60.0,
+                "y": 27.8854800926934
+              },
+              {
+                "x": 61.666666666666664,
+                "y": 29.862501474952897
+              },
+              {
+                "x": 63.333333333333336,
+                "y": 31.921321744141544
+              },
+              {
+                "x": 65.0,
+                "y": 34.063038986561374
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 36.28873693012117
+              },
+              {
+                "x": 68.33333333333333,
+                "y": 38.59948549333
+              },
+              {
+                "x": 70.0,
+                "y": 40.996341300169696
+              },
+              {
+                "x": 71.66666666666667,
+                "y": 43.48034816374323
+              },
+              {
+                "x": 73.33333333333333,
+                "y": 46.05253754128831
+              },
+              {
+                "x": 75.0,
+                "y": 48.713928962874675
+              },
+              {
+                "x": 76.66666666666667,
+                "y": 51.465530435868125
+              },
+              {
+                "x": 78.33333333333333,
+                "y": 54.30833882703708
+              },
+              {
+                "x": 80.0,
+                "y": 57.24334022399462
+              },
+              {
+                "x": 81.66666666666667,
+                "y": 60.27151027750748
+              },
+              {
+                "x": 83.33333333333333,
+                "y": 63.39381452606088
+              },
+              {
+                "x": 85.0,
+                "y": 66.6112087039411
+              },
+              {
+                "x": 86.66666666666667,
+                "y": 69.92463903398374
+              },
+              {
+                "x": 88.33333333333333,
+                "y": 73.33504250603622
+              },
+              {
+                "x": 90.0,
+                "y": 76.84334714209162
+              },
+              {
+                "x": 91.66666666666667,
+                "y": 80.4504722489701
+              },
+              {
+                "x": 93.33333333333333,
+                "y": 84.15732865935198
+              },
+              {
+                "x": 95.0,
+                "y": 87.96481896190089
+              },
+              {
+                "x": 96.66666666666667,
+                "y": 91.87383772115525
+              },
+              {
+                "x": 98.33333333333333,
+                "y": 95.88527168781495
+              },
+              {
+                "x": 100.0,
+                "y": 100.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 100,
+            "y": 100,
+            "xLabel": "100%",
+            "yLabel": "100%"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "A Lorenz curve moves closer to the equality line after a tax-and-benefit reform. What happens to the Gini coefficient?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls"
+      },
+      {
+        "label": "B",
+        "text": "It rises"
+      },
+      {
+        "label": "C",
+        "text": "It becomes one"
+      },
+      {
+        "label": "D",
+        "text": "It cannot change"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A smaller area between the Lorenz curve and equality line implies a smaller Gini coefficient and greater equality.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 Gini coefficient and Lorenz curve | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Lorenz diagram with initial curve L1 and post-reform curve L2 closer to the line of equality. Show the area of inequality shrinking.",
+    "graphScenes": [
+      {
+        "xLabel": "Cumulative population (%)",
+        "yLabel": "Cumulative income (%)",
+        "xMax": 110,
+        "yMax": 110,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "Equality",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 103.39999999999999,
+                "y": 103.39999999999999
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "L1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 1.6666666666666667,
+                "y": 0.14287557768763998
+              },
+              {
+                "x": 3.3333333333333335,
+                "y": 0.43311776010179864
+              },
+              {
+                "x": 5.0,
+                "y": 0.8286135043349966
+              },
+              {
+                "x": 6.666666666666667,
+                "y": 1.3129675284723452
+              },
+              {
+                "x": 8.333333333333334,
+                "y": 1.8763333868341854
+              },
+              {
+                "x": 10.0,
+                "y": 2.5118864315095797
+              },
+              {
+                "x": 11.666666666666666,
+                "y": 3.214510608901376
+              },
+              {
+                "x": 13.333333333333334,
+                "y": 3.980173268391493
+              },
+              {
+                "x": 15.0,
+                "y": 4.8055822463052085
+              },
+              {
+                "x": 16.666666666666668,
+                "y": 5.687979197442275
+              },
+              {
+                "x": 18.333333333333332,
+                "y": 6.625006300628666
+              },
+              {
+                "x": 20.0,
+                "y": 7.614615754863513
+              },
+              {
+                "x": 21.666666666666668,
+                "y": 8.655005796627748
+              },
+              {
+                "x": 23.333333333333332,
+                "y": 9.744573966270485
+              },
+              {
+                "x": 25.0,
+                "y": 10.88188204120155
+              },
+              {
+                "x": 26.666666666666668,
+                "y": 12.065629120965646
+              },
+              {
+                "x": 28.333333333333332,
+                "y": 13.294630566700064
+              },
+              {
+                "x": 30.0,
+                "y": 14.567801244906113
+              },
+              {
+                "x": 31.666666666666668,
+                "y": 15.884142000894924
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 17.242728599059554
+              },
+              {
+                "x": 35.0,
+                "y": 18.642702577112427
+              },
+              {
+                "x": 36.666666666666664,
+                "y": 20.083263606197274
+              },
+              {
+                "x": 38.333333333333336,
+                "y": 21.563663050683523
+              },
+              {
+                "x": 40.0,
+                "y": 23.08319849451542
+              },
+              {
+                "x": 41.666666666666664,
+                "y": 24.64120905425538
+              },
+              {
+                "x": 43.333333333333336,
+                "y": 26.23707133838441
+              },
+              {
+                "x": 45.0,
+                "y": 27.87019594200023
+              },
+              {
+                "x": 46.666666666666664,
+                "y": 29.540024388524227
+              },
+              {
+                "x": 48.333333333333336,
+                "y": 31.246026447293545
+              },
+              {
+                "x": 50.0,
+                "y": 32.98769776932235
+              },
+              {
+                "x": 51.666666666666664,
+                "y": 34.7645577940282
+              },
+              {
+                "x": 53.333333333333336,
+                "y": 36.57614788803585
+              },
+              {
+                "x": 55.0,
+                "y": 38.42202968380543
+              },
+              {
+                "x": 56.666666666666664,
+                "y": 40.301783591165616
+              },
+              {
+                "x": 58.333333333333336,
+                "y": 42.21500745915176
+              },
+              {
+                "x": 60.0,
+                "y": 44.16131536906999
+              },
+              {
+                "x": 61.666666666666664,
+                "y": 46.14033654259842
+              },
+              {
+                "x": 63.333333333333336,
+                "y": 48.15171435112012
+              },
+              {
+                "x": 65.0,
+                "y": 50.19510541446327
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 52.27017877887439
+              },
+              {
+                "x": 68.33333333333333,
+                "y": 54.37661516543647
+              },
+              {
+                "x": 70.0,
+                "y": 56.514106281310795
+              },
+              {
+                "x": 71.66666666666667,
+                "y": 58.68235418716829
+              },
+              {
+                "x": 73.33333333333333,
+                "y": 60.88107071501714
+              },
+              {
+                "x": 75.0,
+                "y": 63.10997693134872
+              },
+              {
+                "x": 76.66666666666667,
+                "y": 65.36880264113833
+              },
+              {
+                "x": 78.33333333333333,
+                "y": 67.65728592876499
+              },
+              {
+                "x": 80.0,
+                "y": 69.9751727323698
+              },
+              {
+                "x": 81.66666666666667,
+                "y": 72.32221644856665
+              },
+              {
+                "x": 83.33333333333333,
+                "y": 74.6981775647618
+              },
+              {
+                "x": 85.0,
+                "y": 77.10282331663664
+              },
+              {
+                "x": 86.66666666666667,
+                "y": 79.53592736860878
+              },
+              {
+                "x": 88.33333333333333,
+                "y": 81.99726951531517
+              },
+              {
+                "x": 90.0,
+                "y": 84.48663540236126
+              },
+              {
+                "x": 91.66666666666667,
+                "y": 87.00381626475671
+              },
+              {
+                "x": 93.33333333333333,
+                "y": 89.54860868161472
+              },
+              {
+                "x": 95.0,
+                "y": 92.12081434582966
+              },
+              {
+                "x": 96.66666666666667,
+                "y": 94.72023984756974
+              },
+              {
+                "x": 98.33333333333333,
+                "y": 97.34669647053171
+              },
+              {
+                "x": 100.0,
+                "y": 100.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "L2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 1.6666666666666667,
+                "y": 0.5988401866051404
+              },
+              {
+                "x": 3.3333333333333335,
+                "y": 1.42429002132078
+              },
+              {
+                "x": 5.0,
+                "y": 2.3643540225079396
+              },
+              {
+                "x": 6.666666666666667,
+                "y": 3.387551654364098
+              },
+              {
+                "x": 8.333333333333334,
+                "y": 4.477374715931425
+              },
+              {
+                "x": 10.0,
+                "y": 5.623413251903491
+              },
+              {
+                "x": 11.666666666666666,
+                "y": 6.8184158821425465
+              },
+              {
+                "x": 13.333333333333334,
+                "y": 8.057001059618047
+              },
+              {
+                "x": 15.0,
+                "y": 9.334994659327174
+              },
+              {
+                "x": 16.666666666666668,
+                "y": 10.649051737437876
+              },
+              {
+                "x": 18.333333333333332,
+                "y": 11.996423626086482
+              },
+              {
+                "x": 20.0,
+                "y": 13.374806099528442
+              },
+              {
+                "x": 21.666666666666668,
+                "y": 14.782235858664928
+              },
+              {
+                "x": 23.333333333333332,
+                "y": 16.217017360182943
+              },
+              {
+                "x": 25.0,
+                "y": 17.67766952966369
+              },
+              {
+                "x": 26.666666666666668,
+                "y": 19.162885971364492
+              },
+              {
+                "x": 28.333333333333332,
+                "y": 20.67150461552401
+              },
+              {
+                "x": 30.0,
+                "y": 22.202484134768557
+              },
+              {
+                "x": 31.666666666666668,
+                "y": 23.75488532371819
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 25.32785618838642
+              },
+              {
+                "x": 35.0,
+                "y": 26.92061985597105
+              },
+              {
+                "x": 36.666666666666664,
+                "y": 28.532464661457574
+              },
+              {
+                "x": 38.333333333333336,
+                "y": 30.162735937148096
+              },
+              {
+                "x": 40.0,
+                "y": 31.81082915068203
+              },
+              {
+                "x": 41.666666666666664,
+                "y": 33.47618412269382
+              },
+              {
+                "x": 43.333333333333336,
+                "y": 35.158280117545374
+              },
+              {
+                "x": 45.0,
+                "y": 36.8566316465724
+              },
+              {
+                "x": 46.666666666666664,
+                "y": 38.570784857704396
+              },
+              {
+                "x": 48.333333333333336,
+                "y": 40.300314411385585
+              },
+              {
+                "x": 50.0,
+                "y": 42.044820762685724
+              },
+              {
+                "x": 51.666666666666664,
+                "y": 43.80392778493342
+              },
+              {
+                "x": 53.333333333333336,
+                "y": 45.57728068226496
+              },
+              {
+                "x": 55.0,
+                "y": 47.36454414798519
+              },
+              {
+                "x": 56.666666666666664,
+                "y": 49.165400733185486
+              },
+              {
+                "x": 58.333333333333336,
+                "y": 50.979549396106364
+              },
+              {
+                "x": 60.0,
+                "y": 52.8067042076036
+              },
+              {
+                "x": 61.666666666666664,
+                "y": 54.64659319203064
+              },
+              {
+                "x": 63.333333333333336,
+                "y": 56.49895728607878
+              },
+              {
+                "x": 65.0,
+                "y": 58.36354940077014
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 60.24013357398966
+              },
+              {
+                "x": 68.33333333333333,
+                "y": 62.12848420276323
+              },
+              {
+                "x": 70.0,
+                "y": 64.0283853460086
+              },
+              {
+                "x": 71.66666666666667,
+                "y": 65.93963008975955
+              },
+              {
+                "x": 73.33333333333333,
+                "y": 67.86201996793811
+              },
+              {
+                "x": 75.0,
+                "y": 69.79536443265746
+              },
+              {
+                "x": 76.66666666666667,
+                "y": 71.73948036880957
+              },
+              {
+                "x": 78.33333333333333,
+                "y": 73.6941916483498
+              },
+              {
+                "x": 80.0,
+                "y": 75.65932872025407
+              },
+              {
+                "x": 81.66666666666667,
+                "y": 77.634728232607
+              },
+              {
+                "x": 83.33333333333333,
+                "y": 79.62023268369722
+              },
+              {
+                "x": 85.0,
+                "y": 81.61569009935596
+              },
+              {
+                "x": 86.66666666666667,
+                "y": 83.62095373408734
+              },
+              {
+                "x": 88.33333333333333,
+                "y": 85.6358817938113
+              },
+              {
+                "x": 90.0,
+                "y": 87.66033717827672
+              },
+              {
+                "x": 91.66666666666667,
+                "y": 89.69418724140941
+              },
+              {
+                "x": 93.33333333333333,
+                "y": 91.73730356804258
+              },
+              {
+                "x": 95.0,
+                "y": 93.78956176563621
+              },
+              {
+                "x": 96.66666666666667,
+                "y": 95.85084126973287
+              },
+              {
+                "x": 98.33333333333333,
+                "y": 97.92102516202277
+              },
+              {
+                "x": 100.0,
+                "y": 100.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 100,
+            "y": 100,
+            "xLabel": "100%",
+            "yLabel": "100%"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "The area between the line of equality and the Lorenz curve is 0.20. What is the Gini coefficient on normalised axes?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.20"
+      },
+      {
+        "label": "B",
+        "text": "0.40"
+      },
+      {
+        "label": "C",
+        "text": "0.60"
+      },
+      {
+        "label": "D",
+        "text": "0.80"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The total area under the equality line is 0.50. Gini = 0.20 / 0.50 = 0.40.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 calculation of Gini coefficient | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "The area under the Lorenz curve is 0.35 on normalised axes. What is the Gini coefficient?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.30"
+      },
+      {
+        "label": "B",
+        "text": "0.15"
+      },
+      {
+        "label": "C",
+        "text": "0.35"
+      },
+      {
+        "label": "D",
+        "text": "0.70"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Area under equality is 0.50, so the area between equality and Lorenz is 0.15. Gini = 0.15 / 0.50 = 0.30, equivalently 1 - 2(0.35).",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 calculation of Gini coefficient | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "The area under a Lorenz curve is 0.25. What is the Gini coefficient?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.50"
+      },
+      {
+        "label": "B",
+        "text": "0.25"
+      },
+      {
+        "label": "C",
+        "text": "0.75"
+      },
+      {
+        "label": "D",
+        "text": "1.00"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Gini = 1 - 2(area under Lorenz) = 1 - 0.50 = 0.50.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 calculation of Gini coefficient | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "A country's Gini coefficient falls from 0.46 to 0.34. What can be concluded?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Income inequality has decreased"
+      },
+      {
+        "label": "B",
+        "text": "Average income has increased"
+      },
+      {
+        "label": "C",
+        "text": "Average income has decreased"
+      },
+      {
+        "label": "D",
+        "text": "Perfect equality has been achieved"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A lower Gini indicates reduced inequality, but it does not by itself reveal the level or change in average income.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 Gini coefficient | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "Why can two countries with the same Gini coefficient still have very different living standards?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The Gini directly measures average income"
+      },
+      {
+        "label": "B",
+        "text": "Equal Gini values imply equal average incomes"
+      },
+      {
+        "label": "C",
+        "text": "The Gini coefficient directly records the proportion of residents living in urban areas"
+      },
+      {
+        "label": "D",
+        "text": "Gini measures inequality, not mean income"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A country can distribute a high or low total income with the same degree of inequality.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 income distribution | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "A country's poorest 40% receive 12% of income, compared with 20% in another country. Other points are similar. Which is likely to have the higher Gini coefficient?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The first country"
+      },
+      {
+        "label": "B",
+        "text": "The second country"
+      },
+      {
+        "label": "C",
+        "text": "Both equally"
+      },
+      {
+        "label": "D",
+        "text": "Neither in principle"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A smaller income share for lower-income groups pushes the Lorenz curve farther from equality and tends to raise the Gini coefficient.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 Lorenz curve and Gini coefficient | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "A Lorenz curve passes through the point (60%, 30%). What does this mean?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Poorest 60%: 30% of income"
+      },
+      {
+        "label": "B",
+        "text": "Poorest 30%: 60% of income"
+      },
+      {
+        "label": "C",
+        "text": "Richest 60%: 30% of income"
+      },
+      {
+        "label": "D",
+        "text": "Richest 30%: 60% of income"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Lorenz coordinates show cumulative population on the horizontal axis and cumulative income on the vertical axis.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 Lorenz curve analysis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "If the poorest 20% receive exactly 20% of income, what does that point imply?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It lies at the inequality maximum"
+      },
+      {
+        "label": "B",
+        "text": "It lies on the equality line"
+      },
+      {
+        "label": "C",
+        "text": "It implies a Gini of one"
+      },
+      {
+        "label": "D",
+        "text": "It assigns all remaining income to the richest fifth"
+      }
+    ],
+    "answer": "B",
+    "explanation": "At that point, the cumulative income share equals the cumulative population share, which lies on the line of equality.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 Lorenz curve analysis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "Why might a developing economy have a large share of employment in the primary sector?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Services cannot exist in lower-income economies"
+      },
+      {
+        "label": "B",
+        "text": "Manufacturing activity is always legally prohibited"
+      },
+      {
+        "label": "C",
+        "text": "Agricultural productivity must exceed every other sector"
+      },
+      {
+        "label": "D",
+        "text": "Agriculture remains a major source of livelihoods"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Lower-income economies often rely more heavily on agriculture and extraction, including subsistence activity.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.3 employment composition | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "As development proceeds, why can the share of primary-sector employment fall even if primary output rises?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher productivity allows more output with fewer workers"
+      },
+      {
+        "label": "B",
+        "text": "Output and employment shares necessarily change in equal proportion"
+      },
+      {
+        "label": "C",
+        "text": "Economic development necessarily removes technology from agricultural production"
+      },
+      {
+        "label": "D",
+        "text": "Higher productivity requires every worker to exit the labour force"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Mechanisation and productivity growth can increase primary output while labour moves to higher-productivity manufacturing and services.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.3 employment composition | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "Which pattern is most consistent with a middle stage of structural transformation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Permanent dependence on subsistence farming"
+      },
+      {
+        "label": "B",
+        "text": "Permanent absence of manufacturing activities"
+      },
+      {
+        "label": "C",
+        "text": "Manufacturing expansion before service dominance"
+      },
+      {
+        "label": "D",
+        "text": "Complete return from services to farming"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A common development pattern is declining primary share, expanding secondary activity and later a dominant tertiary sector.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.3 employment composition | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "Which trade change is most consistent with successful diversification during development?",
+    "options": [
+      {
+        "label": "A",
+        "text": "More diversified manufactured and service exports"
+      },
+      {
+        "label": "B",
+        "text": "Increasing reliance on a single agricultural crop sold in export markets"
+      },
+      {
+        "label": "C",
+        "text": "Complete elimination of imported capital goods"
+      },
+      {
+        "label": "D",
+        "text": "Permanent contraction of all international trade"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Diversification reduces dependence on a narrow primary-export base and expands higher-value-added exports.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.3 pattern of trade | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "Why can heavy dependence on primary-product exports make a developing economy vulnerable?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Commodity prices cannot change in world markets"
+      },
+      {
+        "label": "B",
+        "text": "Commodity exports have no international market demand"
+      },
+      {
+        "label": "C",
+        "text": "Price and weather shocks destabilise export earnings"
+      },
+      {
+        "label": "D",
+        "text": "High-income economies never purchase foreign primary products"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Commodity dependence exposes national income and foreign-exchange earnings to volatile prices and supply conditions.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.3 pattern of trade | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "A country shifts employment from agriculture to manufacturing and services while urbanisation rises. What does this most likely indicate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A return to subsistence production"
+      },
+      {
+        "label": "B",
+        "text": "A fall in all productivity"
+      },
+      {
+        "label": "C",
+        "text": "Structural economic development"
+      },
+      {
+        "label": "D",
+        "text": "Perfect equality of income"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Sectoral transformation and urbanisation are characteristic changes associated with development.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 urbanisation | 11.4.3 employment composition | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "Country A employs 55% of workers in the primary sector and B employs 4%. Which conclusion is safest?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A necessarily has higher income per head"
+      },
+      {
+        "label": "B",
+        "text": "B necessarily has a higher birth rate"
+      },
+      {
+        "label": "C",
+        "text": "These shares establish every dimension of development"
+      },
+      {
+        "label": "D",
+        "text": "A likely has less advanced structural development"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A high primary-employment share is typical of lower stages of development, but it is not a complete development measure by itself.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.3 employment composition | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "A developing economy exports mainly primary commodities and imports capital goods. Which trade pattern does this illustrate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Services-dominated exports without investment imports"
+      },
+      {
+        "label": "B",
+        "text": "Complete independence from international trade"
+      },
+      {
+        "label": "C",
+        "text": "Only financial investment without goods trade"
+      },
+      {
+        "label": "D",
+        "text": "Primary exports alongside industrial capital imports"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Lower-income economies often export primary goods while importing manufactured capital equipment used for development.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.3 pattern of trade | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "A country's urban population rises from 20m to 24m while total population rises from 40m to 60m. What happens to the urbanisation rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises from 50% to 60%"
+      },
+      {
+        "label": "B",
+        "text": "It falls from 50% to 40%"
+      },
+      {
+        "label": "C",
+        "text": "It rises by 20 percentage points"
+      },
+      {
+        "label": "D",
+        "text": "It is unchanged"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Urbanisation is the urban share, not the urban number. It falls from 20/40 = 50% to 24/60 = 40%.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 level of urbanisation | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "A country's population rises even though its birth rate is below its death rate. What must be true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Net immigration exceeds the natural decrease"
+      },
+      {
+        "label": "B",
+        "text": "Infant mortality necessarily equals zero"
+      },
+      {
+        "label": "C",
+        "text": "Actual population lies below the optimum"
+      },
+      {
+        "label": "D",
+        "text": "The urban population share necessarily falls"
+      }
+    ],
+    "answer": "A",
+    "explanation": "If deaths exceed births, only positive net migration can produce total population growth.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 birth/death rates and net migration | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "A country's total population falls while births exceed deaths. What must be true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Net immigration exceeds the natural decrease"
+      },
+      {
+        "label": "B",
+        "text": "Net emigration exceeds the natural increase"
+      },
+      {
+        "label": "C",
+        "text": "The birth rate necessarily equals zero"
+      },
+      {
+        "label": "D",
+        "text": "Actual population necessarily exceeds the optimum"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A positive natural increase can be outweighed by a sufficiently negative net migration balance.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 birth/death rates and net migration | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "A new discovery doubles the usable stock of a natural resource. What is the most likely effect on optimum population?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It decreases"
+      },
+      {
+        "label": "B",
+        "text": "It becomes equal to current population automatically"
+      },
+      {
+        "label": "C",
+        "text": "It increases"
+      },
+      {
+        "label": "D",
+        "text": "It is unaffected by productive resources"
+      }
+    ],
+    "answer": "C",
+    "explanation": "More productive resources can support a larger population before diminishing returns reduce output per head.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 optimum population | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "A country's actual population is unchanged but its optimum population rises after capital accumulation. How should the country be described relative to before?",
+    "options": [
+      {
+        "label": "A",
+        "text": "More overpopulation or less underpopulation"
+      },
+      {
+        "label": "B",
+        "text": "More underpopulation or less overpopulation"
+      },
+      {
+        "label": "C",
+        "text": "An automatically higher income Gini coefficient"
+      },
+      {
+        "label": "D",
+        "text": "An automatically lower urban population share"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A rightward shift in the optimum changes the gap between actual and optimal population even without demographic change.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 optimum population | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "A Lorenz curve for year 2 crosses the curve for year 1. What can be concluded immediately?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The second Gini is necessarily lower"
+      },
+      {
+        "label": "B",
+        "text": "Neither curve uniformly dominates the other"
+      },
+      {
+        "label": "C",
+        "text": "The first curve necessarily indicates perfect equality"
+      },
+      {
+        "label": "D",
+        "text": "Economically valid Lorenz curves cannot cross"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Crossing Lorenz curves mean the distribution ranking differs across parts of the population; a Gini comparison requires further calculation.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 Lorenz curve analysis | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "Why can a low Gini coefficient coexist with low living standards?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Equality can coexist with very low average income"
+      },
+      {
+        "label": "B",
+        "text": "The Gini measures the level of average income"
+      },
+      {
+        "label": "C",
+        "text": "Equality guarantees high average productivity and income"
+      },
+      {
+        "label": "D",
+        "text": "A low Gini guarantees high real national output"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Gini measures relative distribution, not the level of income available to distribute.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 income distribution | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "A country has birth rate 24, death rate 8, immigration rate 3 and emigration rate 11 per thousand. What is its total population growth rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "16 per thousand"
+      },
+      {
+        "label": "B",
+        "text": "24 per thousand"
+      },
+      {
+        "label": "C",
+        "text": "8 per thousand"
+      },
+      {
+        "label": "D",
+        "text": "30 per thousand"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Natural increase = 24 - 8 = 16. Net migration = 3 - 11 = -8. Total growth = 8 per thousand.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 population growth and structure | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 71,
+    "difficulty": "Hard",
+    "prompt": "A country's birth and death rates both fall, but population ageing accelerates. Which explanation is most coherent?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Low fertility alongside improved adult longevity"
+      },
+      {
+        "label": "B",
+        "text": "High infant mortality alongside falling adult longevity"
+      },
+      {
+        "label": "C",
+        "text": "Net migration consisting entirely of young infants"
+      },
+      {
+        "label": "D",
+        "text": "Expansion of primary-sector production and employment"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Low fertility reduces the inflow of young people, while longer lives increase the share of older people.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 population growth and structure | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 72,
+    "difficulty": "Hard",
+    "prompt": "A developing economy reduces infant mortality rapidly before fertility falls. What short-run demographic effect is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Population growth immediately falls to zero"
+      },
+      {
+        "label": "B",
+        "text": "Births immediately fall below total deaths"
+      },
+      {
+        "label": "C",
+        "text": "Improved survival initially raises population growth"
+      },
+      {
+        "label": "D",
+        "text": "Lower infant mortality necessarily causes net migration to become strongly negative immediately"
+      }
+    ],
+    "answer": "C",
+    "explanation": "When death rates fall before birth rates adjust, natural increase widens temporarily.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 infant mortality, birth rate and population growth | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 73,
+    "difficulty": "Hard",
+    "prompt": "A country experiences large emigration of highly skilled young adults. What population-structure effect is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A smaller skill base and possibly higher dependency"
+      },
+      {
+        "label": "B",
+        "text": "An immediate reduction of infant mortality to zero"
+      },
+      {
+        "label": "C",
+        "text": "An immediate doubling of the national birth rate"
+      },
+      {
+        "label": "D",
+        "text": "An unavoidable increase in the urban population share"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Selective outward migration can reduce the productive workforce and leave a relatively larger dependent population.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 net migration and population structure | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "A country has very rapid urbanisation but insufficient housing and infrastructure. Which conclusion is most appropriate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Urban expansion need not imply higher living standards"
+      },
+      {
+        "label": "B",
+        "text": "Urban expansion guarantees complete economic development"
+      },
+      {
+        "label": "C",
+        "text": "Urban expansion means national fertility has reached zero"
+      },
+      {
+        "label": "D",
+        "text": "Urban expansion requires every rural settlement to disappear"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Urbanisation can accompany development, but rapid urban growth can also create congestion, informal settlements and service shortages.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 level of urbanisation | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "Output per head is maximised at a population of 30m. Actual population is 24m. A technology improvement shifts the optimum to 38m. What happens to the degree of underpopulation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It decreases"
+      },
+      {
+        "label": "B",
+        "text": "The country becomes overpopulated"
+      },
+      {
+        "label": "C",
+        "text": "The optimum remains 30m"
+      },
+      {
+        "label": "D",
+        "text": "It increases"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The gap between actual population and the output-maximising population widens from 6m to 14m.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 optimum population | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "A country is overpopulated relative to its current technology. Which policy could move it closer to the optimum without reducing population?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Reduce capital available per worker"
+      },
+      {
+        "label": "B",
+        "text": "Destroy existing productive transport infrastructure"
+      },
+      {
+        "label": "C",
+        "text": "Reduce the quality of worker skills"
+      },
+      {
+        "label": "D",
+        "text": "Improve technology and productive capital"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Improved productive capacity can shift the optimum-population curve outward so that a larger population is supportable at high output per head.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 optimum population | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "Why is the concept of optimum population partly normative in policy discussion even though its textbook definition is economic?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Output maximisation can conflict with social goals"
+      },
+      {
+        "label": "B",
+        "text": "Real output per head cannot be measured statistically"
+      },
+      {
+        "label": "C",
+        "text": "Population size has no effect on productive output"
+      },
+      {
+        "label": "D",
+        "text": "The population maximising output per head must always be zero in every economy"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The coursebook notes that the economic criterion can be disputed because other welfare and environmental values may matter.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 optimum population | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "A Lorenz curve has cumulative income shares of 0%, 5%, 15%, 30%, 50% and 100% for cumulative population shares of 0%, 20%, 40%, 60%, 80% and 100%. Assume successive plotted points are joined by straight lines. What is the Gini coefficient?\n| Cumulative population | Cumulative income |\n| 0% | 0% |\n| 20% | 5% |\n| 40% | 15% |\n| 60% | 30% |\n| 80% | 50% |\n| 100% | 100% |",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.20"
+      },
+      {
+        "label": "B",
+        "text": "0.50"
+      },
+      {
+        "label": "C",
+        "text": "0.40"
+      },
+      {
+        "label": "D",
+        "text": "0.60"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Using trapezia, the area under the Lorenz curve is 0.30. Gini = 1 - 2(0.30) = 0.40.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 calculation of Gini coefficient | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "A Lorenz curve has cumulative income shares of 0%, 10%, 25%, 45%, 70% and 100% at equal 20% population intervals. Assume successive plotted points are joined by straight lines. What is the Gini coefficient?\n| Cumulative population | Cumulative income |\n| 0% | 0% |\n| 20% | 10% |\n| 40% | 25% |\n| 60% | 45% |\n| 80% | 70% |\n| 100% | 100% |",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.10"
+      },
+      {
+        "label": "B",
+        "text": "0.20"
+      },
+      {
+        "label": "C",
+        "text": "0.30"
+      },
+      {
+        "label": "D",
+        "text": "0.40"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The area under the Lorenz curve is 0.40, so Gini = 1 - 2(0.40) = 0.20.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 calculation of Gini coefficient | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "A Lorenz curve has cumulative income shares 0%, 2%, 8%, 20%, 45% and 100% at equal 20% population intervals. Assume successive plotted points are joined by straight lines. What is the Gini coefficient?\n| Cumulative population | Cumulative income |\n| 0% | 0% |\n| 20% | 2% |\n| 40% | 8% |\n| 60% | 20% |\n| 80% | 45% |\n| 100% | 100% |",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.25"
+      },
+      {
+        "label": "B",
+        "text": "0.40"
+      },
+      {
+        "label": "C",
+        "text": "0.60"
+      },
+      {
+        "label": "D",
+        "text": "0.50"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The area under the Lorenz curve is 0.25, so Gini = 1 - 2(0.25) = 0.50.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 calculation of Gini coefficient | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "Country X has a Gini coefficient of 0.30 and country Y 0.45. X's GDP per head is half Y's. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "X is richer and more equal"
+      },
+      {
+        "label": "B",
+        "text": "X is poorer but more equal"
+      },
+      {
+        "label": "C",
+        "text": "X is richer but less equal"
+      },
+      {
+        "label": "D",
+        "text": "X is poorer and less equal"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Distribution and income level are separate dimensions. X is more equal, but Y has higher average output/income per head.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 Gini coefficient | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "Two Lorenz curves cross. Country A has the lower Gini coefficient. What does this mean?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A’s Lorenz curve must dominate at every point"
+      },
+      {
+        "label": "B",
+        "text": "Crossing curves cannot have calculable Gini coefficients"
+      },
+      {
+        "label": "C",
+        "text": "B necessarily has a higher average income level"
+      },
+      {
+        "label": "D",
+        "text": "A’s lower Gini need not imply uniform dominance"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A lower Gini summarises total inequality, but crossing curves mean the ranking is not uniform at every part of the distribution.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 Gini coefficient and Lorenz curve analysis | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "A redistribution policy raises the poorest 40% income share but also increases the richest 10% share at the expense of middle-income groups. What can be concluded about the Gini coefficient without further data?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It necessarily falls"
+      },
+      {
+        "label": "B",
+        "text": "It necessarily rises"
+      },
+      {
+        "label": "C",
+        "text": "It necessarily becomes zero"
+      },
+      {
+        "label": "D",
+        "text": "Its direction is uncertain"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Different parts of the distribution move in opposing directions. The total area between the Lorenz curve and equality must be calculated to know the Gini effect.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 calculation of Gini coefficient and Lorenz curve analysis | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "The area between the equality line and the Lorenz curve falls from 0.22 to 0.16. What happens to the Gini coefficient?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls from 0.22 to 0.16"
+      },
+      {
+        "label": "B",
+        "text": "It rises from 0.44 to 0.68"
+      },
+      {
+        "label": "C",
+        "text": "It falls from 0.44 to 0.32"
+      },
+      {
+        "label": "D",
+        "text": "It is unchanged"
+      }
+    ],
+    "answer": "C",
+    "explanation": "On normalised axes Gini = area gap / 0.5 = twice the gap. Thus 0.22 -> 0.44 and 0.16 -> 0.32.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 calculation of Gini coefficient | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "Country A's Lorenz curve is closer to equality for the poorest 60%, but country B's is closer for the top 40%. What is the safest conclusion?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Neither curve uniformly dominates"
+      },
+      {
+        "label": "B",
+        "text": "A is necessarily more equal"
+      },
+      {
+        "label": "C",
+        "text": "B is necessarily more equal"
+      },
+      {
+        "label": "D",
+        "text": "Both necessarily show perfect equality"
+      }
+    ],
+    "answer": "A",
+    "explanation": "When Lorenz curves cross, neither distribution is unambiguously more equal at every cumulative share.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 Lorenz curve analysis | AO3 Evaluation",
+    "graphRequired": true,
+    "graphDescription": "Lorenz diagram with two curves A and B that cross once. A is closer to equality for lower cumulative population shares; B is closer for higher shares.",
+    "graphScenes": [
+      {
+        "xLabel": "Cumulative population (%)",
+        "yLabel": "Cumulative income (%)",
+        "xMax": 110,
+        "yMax": 110,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "Equality",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 103.39999999999999,
+                "y": 103.39999999999999
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "A",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 1.6666666666666667,
+                "y": 0.14287557768763998
+              },
+              {
+                "x": 3.3333333333333335,
+                "y": 0.43311776010179864
+              },
+              {
+                "x": 5.0,
+                "y": 0.8286135043349966
+              },
+              {
+                "x": 6.666666666666667,
+                "y": 1.3129675284723452
+              },
+              {
+                "x": 8.333333333333334,
+                "y": 1.8763333868341854
+              },
+              {
+                "x": 10.0,
+                "y": 2.5118864315095797
+              },
+              {
+                "x": 11.666666666666666,
+                "y": 3.214510608901376
+              },
+              {
+                "x": 13.333333333333334,
+                "y": 3.980173268391493
+              },
+              {
+                "x": 15.0,
+                "y": 4.8055822463052085
+              },
+              {
+                "x": 16.666666666666668,
+                "y": 5.687979197442275
+              },
+              {
+                "x": 18.333333333333332,
+                "y": 6.625006300628666
+              },
+              {
+                "x": 20.0,
+                "y": 7.614615754863513
+              },
+              {
+                "x": 21.666666666666668,
+                "y": 8.655005796627748
+              },
+              {
+                "x": 23.333333333333332,
+                "y": 9.744573966270485
+              },
+              {
+                "x": 25.0,
+                "y": 10.88188204120155
+              },
+              {
+                "x": 26.666666666666668,
+                "y": 12.065629120965646
+              },
+              {
+                "x": 28.333333333333332,
+                "y": 13.294630566700064
+              },
+              {
+                "x": 30.0,
+                "y": 14.567801244906113
+              },
+              {
+                "x": 31.666666666666668,
+                "y": 15.884142000894924
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 17.242728599059554
+              },
+              {
+                "x": 35.0,
+                "y": 18.642702577112427
+              },
+              {
+                "x": 36.666666666666664,
+                "y": 20.083263606197274
+              },
+              {
+                "x": 38.333333333333336,
+                "y": 21.563663050683523
+              },
+              {
+                "x": 40.0,
+                "y": 23.08319849451542
+              },
+              {
+                "x": 41.666666666666664,
+                "y": 24.64120905425538
+              },
+              {
+                "x": 43.333333333333336,
+                "y": 26.23707133838441
+              },
+              {
+                "x": 45.0,
+                "y": 27.87019594200023
+              },
+              {
+                "x": 46.666666666666664,
+                "y": 29.540024388524227
+              },
+              {
+                "x": 48.333333333333336,
+                "y": 31.246026447293545
+              },
+              {
+                "x": 50.0,
+                "y": 32.98769776932235
+              },
+              {
+                "x": 51.666666666666664,
+                "y": 34.7645577940282
+              },
+              {
+                "x": 53.333333333333336,
+                "y": 36.57614788803585
+              },
+              {
+                "x": 55.0,
+                "y": 38.42202968380543
+              },
+              {
+                "x": 56.666666666666664,
+                "y": 40.301783591165616
+              },
+              {
+                "x": 58.333333333333336,
+                "y": 42.21500745915176
+              },
+              {
+                "x": 60.0,
+                "y": 44.16131536906999
+              },
+              {
+                "x": 61.666666666666664,
+                "y": 46.14033654259842
+              },
+              {
+                "x": 63.333333333333336,
+                "y": 48.15171435112012
+              },
+              {
+                "x": 65.0,
+                "y": 50.19510541446327
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 52.27017877887439
+              },
+              {
+                "x": 68.33333333333333,
+                "y": 54.37661516543647
+              },
+              {
+                "x": 70.0,
+                "y": 56.514106281310795
+              },
+              {
+                "x": 71.66666666666667,
+                "y": 58.68235418716829
+              },
+              {
+                "x": 73.33333333333333,
+                "y": 60.88107071501714
+              },
+              {
+                "x": 75.0,
+                "y": 63.10997693134872
+              },
+              {
+                "x": 76.66666666666667,
+                "y": 65.36880264113833
+              },
+              {
+                "x": 78.33333333333333,
+                "y": 67.65728592876499
+              },
+              {
+                "x": 80.0,
+                "y": 69.9751727323698
+              },
+              {
+                "x": 81.66666666666667,
+                "y": 72.32221644856665
+              },
+              {
+                "x": 83.33333333333333,
+                "y": 74.6981775647618
+              },
+              {
+                "x": 85.0,
+                "y": 77.10282331663664
+              },
+              {
+                "x": 86.66666666666667,
+                "y": 79.53592736860878
+              },
+              {
+                "x": 88.33333333333333,
+                "y": 81.99726951531517
+              },
+              {
+                "x": 90.0,
+                "y": 84.48663540236126
+              },
+              {
+                "x": 91.66666666666667,
+                "y": 87.00381626475671
+              },
+              {
+                "x": 93.33333333333333,
+                "y": 89.54860868161472
+              },
+              {
+                "x": 95.0,
+                "y": 92.12081434582966
+              },
+              {
+                "x": 96.66666666666667,
+                "y": 94.72023984756974
+              },
+              {
+                "x": 98.33333333333333,
+                "y": 97.34669647053171
+              },
+              {
+                "x": 100.0,
+                "y": 100.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "B",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 20.0,
+                "y": 0.5611927273538351
+              },
+              {
+                "x": 21.666666666666668,
+                "y": 1.4178212995546193
+              },
+              {
+                "x": 23.333333333333332,
+                "y": 2.3841372963230434
+              },
+              {
+                "x": 25.0,
+                "y": 3.457260838742802
+              },
+              {
+                "x": 26.666666666666668,
+                "y": 4.634180866191704
+              },
+              {
+                "x": 28.333333333333332,
+                "y": 5.911743932858842
+              },
+              {
+                "x": 30.0,
+                "y": 7.286648295531587
+              },
+              {
+                "x": 31.666666666666668,
+                "y": 8.75544217335882
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 10.314525368784045
+              },
+              {
+                "x": 35.0,
+                "y": 11.960153645699668
+              },
+              {
+                "x": 36.666666666666664,
+                "y": 13.688445402699067
+              },
+              {
+                "x": 38.333333333333336,
+                "y": 15.495390278451712
+              },
+              {
+                "x": 40.0,
+                "y": 17.376859396744496
+              },
+              {
+                "x": 41.666666666666664,
+                "y": 19.328617009665503
+              },
+              {
+                "x": 43.333333333333336,
+                "y": 21.346333334715382
+              },
+              {
+                "x": 45.0,
+                "y": 23.42559840932211
+              },
+              {
+                "x": 46.666666666666664,
+                "y": 25.561936807051133
+              },
+              {
+                "x": 48.333333333333336,
+                "y": 27.750823075652537
+              },
+              {
+                "x": 50.0,
+                "y": 29.987697769322352
+              },
+              {
+                "x": 51.666666666666664,
+                "y": 32.267983957141766
+              },
+              {
+                "x": 53.333333333333336,
+                "y": 34.5871040972993
+              },
+              {
+                "x": 55.0,
+                "y": 36.94049717291272
+              },
+              {
+                "x": 56.666666666666664,
+                "y": 39.32363599043181
+              },
+              {
+                "x": 58.333333333333336,
+                "y": 41.732044546007224
+              },
+              {
+                "x": 60.0,
+                "y": 44.16131536906999
+              },
+              {
+                "x": 61.666666666666664,
+                "y": 46.60712675584702
+              },
+              {
+                "x": 63.333333333333336,
+                "y": 49.06525980876272
+              },
+              {
+                "x": 65.0,
+                "y": 51.531615200745826
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 54.00222958644326
+              },
+              {
+                "x": 68.33333333333333,
+                "y": 56.47329158530003
+              },
+              {
+                "x": 70.0,
+                "y": 58.94115726443564
+              },
+              {
+                "x": 71.66666666666667,
+                "y": 61.40236505226769
+              },
+              {
+                "x": 73.33333333333333,
+                "y": 63.853650016926714
+              },
+              {
+                "x": 75.0,
+                "y": 66.29195744668819
+              },
+              {
+                "x": 76.66666666666667,
+                "y": 68.71445567293262
+              },
+              {
+                "x": 78.33333333333333,
+                "y": 71.1185480795391
+              },
+              {
+                "x": 80.0,
+                "y": 73.50188424612463
+              },
+              {
+                "x": 81.66666666666667,
+                "y": 75.86237017616433
+              },
+              {
+                "x": 83.33333333333333,
+                "y": 78.1981775647618
+              },
+              {
+                "x": 85.0,
+                "y": 80.50775206468325
+              },
+              {
+                "x": 86.66666666666667,
+                "y": 82.78982051321519
+              },
+              {
+                "x": 88.33333333333333,
+                "y": 85.04339708645021
+              },
+              {
+                "x": 90.0,
+                "y": 87.26778835173579
+              },
+              {
+                "x": 91.66666666666667,
+                "y": 89.46259719323065
+              },
+              {
+                "x": 93.33333333333333,
+                "y": 91.62772558979232
+              },
+              {
+                "x": 95.0,
+                "y": 93.76337622875208
+              },
+              {
+                "x": 96.66666666666667,
+                "y": 95.87005294351393
+              },
+              {
+                "x": 98.33333333333333,
+                "y": 97.94855996732556
+              },
+              {
+                "x": 100.0,
+                "y": 100.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 100,
+            "y": 100,
+            "xLabel": "100%",
+            "yLabel": "100%"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "A country's Gini coefficient rises during rapid industrialisation and later falls as services, education and social protection broaden. Which model does this resemble?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The Kuznets hypothesis"
+      },
+      {
+        "label": "B",
+        "text": "The current-account J-curve"
+      },
+      {
+        "label": "C",
+        "text": "The short-run Phillips curve"
+      },
+      {
+        "label": "D",
+        "text": "The deposit credit multiplier"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The pattern mirrors the inverted-U relationship between development and inequality discussed under the Kuznets hypothesis.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 income distribution | 11.3.3 Kuznets curve | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "A country develops technologically but primary-sector employment still falls. Why is this not contradictory?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only service industries can adopt productive technology"
+      },
+      {
+        "label": "B",
+        "text": "Fewer agricultural workers necessarily mean lower primary output"
+      },
+      {
+        "label": "C",
+        "text": "Productivity allows more output with fewer workers"
+      },
+      {
+        "label": "D",
+        "text": "Development necessarily means that every economy eventually abandons all productive agricultural activity"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Productivity growth releases labour from agriculture while maintaining or increasing output, a central feature of structural transformation.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.3 employment composition | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "A country's tertiary employment share rises rapidly but most new jobs are very low-productivity informal services. What is the best conclusion?",
+    "options": [
+      {
+        "label": "A",
+        "text": "All service jobs necessarily have high labour productivity"
+      },
+      {
+        "label": "B",
+        "text": "Any growing services share proves a developed economy"
+      },
+      {
+        "label": "C",
+        "text": "Sector shares cannot establish productivity or living standards"
+      },
+      {
+        "label": "D",
+        "text": "An increase in service-sector employment necessarily eliminates every remaining job in agriculture and manufacturing"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Sector labels provide useful structural information but not a complete measure of productivity, formality or welfare.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.3 employment composition | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "A low-income economy diversifies from one commodity export into processed foods and manufactured goods. Which development characteristic changes most directly?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher infant mortality"
+      },
+      {
+        "label": "B",
+        "text": "Perfect income equality"
+      },
+      {
+        "label": "C",
+        "text": "Lower urban population share"
+      },
+      {
+        "label": "D",
+        "text": "Greater export diversification"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Moving into processing and manufacturing changes the composition of exports and reduces dependence on raw commodities.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.3 pattern of trade | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "Why can an economy with a large primary sector still have high income per head?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Primary activities necessarily have low labour productivity"
+      },
+      {
+        "label": "B",
+        "text": "Capital-intensive extraction can achieve high labour productivity"
+      },
+      {
+        "label": "C",
+        "text": "High national income requires eliminating every agricultural activity"
+      },
+      {
+        "label": "D",
+        "text": "Employment composition alone determines the income Gini coefficient"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Characteristics are tendencies, not absolute rules. Resource-rich economies can generate high incomes from productive primary industries.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.3 economic structure | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "Why can a high urbanisation rate coexist with low living standards?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Poor infrastructure and jobs can limit urban welfare"
+      },
+      {
+        "label": "B",
+        "text": "Urban households necessarily have high real disposable income"
+      },
+      {
+        "label": "C",
+        "text": "Urbanisation and broader development measure exactly the same outcomes"
+      },
+      {
+        "label": "D",
+        "text": "Informal employment cannot exist within densely populated cities"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Urbanisation is a structural characteristic, not a guarantee of productive jobs, adequate housing or public services.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 level of urbanisation | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "A country has a high birth rate but a falling population. Which combination could explain this?",
+    "options": [
+      {
+        "label": "A",
+        "text": "High deaths or large net emigration"
+      },
+      {
+        "label": "B",
+        "text": "Low deaths and large net immigration"
+      },
+      {
+        "label": "C",
+        "text": "Zero infant mortality with unchanged migration"
+      },
+      {
+        "label": "D",
+        "text": "Higher optimum population with unchanged migration"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Total population change depends on births, deaths and migration. A high birth rate can be outweighed by deaths and outward migration.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 population growth and structure | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "A country has low birth and death rates but population grows rapidly. What is the most likely explanation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "High natural increase"
+      },
+      {
+        "label": "B",
+        "text": "Large positive net migration"
+      },
+      {
+        "label": "C",
+        "text": "High infant mortality"
+      },
+      {
+        "label": "D",
+        "text": "A fall in urbanisation"
+      }
+    ],
+    "answer": "B",
+    "explanation": "When natural increase is small, rapid population growth must come mainly from net immigration.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 population growth and structure | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "Why might a developing economy's death rate temporarily rise even as healthcare improves?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An older population can raise crude death rates"
+      },
+      {
+        "label": "B",
+        "text": "Better healthcare necessarily increases mortality among infants"
+      },
+      {
+        "label": "C",
+        "text": "Crude death rates measure only medical service quality"
+      },
+      {
+        "label": "D",
+        "text": "Age composition cannot affect the crude death rate"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Crude rates are affected by population structure. A more aged population can have a higher crude death rate despite better health at each age.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 measurement and causes of changes in death rate | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "Why can comparing crude birth rates between countries be misleading about fertility behaviour?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Birth rates are measured using nominal money values"
+      },
+      {
+        "label": "B",
+        "text": "Birth rates use the employed labour force as denominator"
+      },
+      {
+        "label": "C",
+        "text": "Age structures change the proportion of potential mothers"
+      },
+      {
+        "label": "D",
+        "text": "Every birth-rate observation directly includes net inward migration"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Crude rates use total population, so differences in age composition can affect the rate independently of family-size preferences.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 measurement of birth rate | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "A country's actual population rises from 40m to 50m while technology raises the optimum from 45m to 60m. How does its position change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The population increase moves the country beyond the new output-per-head optimum"
+      },
+      {
+        "label": "B",
+        "text": "Still below optimum, with a larger shortfall"
+      },
+      {
+        "label": "C",
+        "text": "Population rises exactly to the optimum"
+      },
+      {
+        "label": "D",
+        "text": "The optimum declines below the actual population"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Initially actual population is 5m below the optimum. Later it is 10m below the new optimum, so it remains underpopulated and the gap widens.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 optimum population | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "Country X has higher urbanisation, lower primary employment and more manufactured exports than Y, but X also has a higher Gini coefficient. What is the best conclusion?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Structural transformation necessarily improves every development dimension"
+      },
+      {
+        "label": "B",
+        "text": "Less urbanisation necessarily implies a higher national income"
+      },
+      {
+        "label": "C",
+        "text": "Structural transformation necessarily eliminates all household income inequality"
+      },
+      {
+        "label": "D",
+        "text": "Structural indicators improve despite greater income inequality"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Different development characteristics can move in different directions. Structural transformation does not guarantee a more equal distribution.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1-11.4.3 characteristics at different levels of development | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "A country moves from primary-product exports toward manufactured exports, but its Gini coefficient rises. Which explanation is plausible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Manufacturing exports necessarily reduce every form of inequality"
+      },
+      {
+        "label": "B",
+        "text": "Trade diversification cannot influence distribution between any workers"
+      },
+      {
+        "label": "C",
+        "text": "Structural transformation can benefit groups and regions unevenly"
+      },
+      {
+        "label": "D",
+        "text": "The Gini directly measures the composition of exported goods"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Development can initially generate unequal gains as higher-productivity sectors expand faster than incomes in traditional sectors.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.2 income distribution | 11.4.3 pattern of trade | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "Which combination most strongly indicates a later stage of structural development?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Subsistence agriculture, low urbanisation and concentrated exports"
+      },
+      {
+        "label": "B",
+        "text": "High infant mortality, high fertility and concentrated exports"
+      },
+      {
+        "label": "C",
+        "text": "Low primary employment, urbanisation and diversified exports"
+      },
+      {
+        "label": "D",
+        "text": "Complete income concentration in one wealthy household"
+      }
+    ],
+    "answer": "C",
+    "explanation": "These characteristics are commonly associated with more advanced structural transformation, though no single characteristic is decisive.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1 population/urbanisation | 11.4.3 economic structure | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "Why should comparisons of development consider demographic, distributional and structural indicators?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Population, distribution and structure offer complementary evidence"
+      },
+      {
+        "label": "B",
+        "text": "Income inequality is the only information necessary to establish any country’s level of development"
+      },
+      {
+        "label": "C",
+        "text": "The urban population share alone determines national income"
+      },
+      {
+        "label": "D",
+        "text": "Primary employment necessarily disappears entirely in every developed economy"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The syllabus deliberately combines demographic, distributional and structural characteristics because development is multidimensional and countries do not follow identical paths.",
+    "reference": "11.4 Characteristics of countries at different levels of development | 11.4.1-11.4.3 characteristics of countries at different levels of development | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  }
+]

@@ -1,0 +1,4670 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "Which of the following best describes price elasticity of supply?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The change in production cost caused by one additional unit"
+      },
+      {
+        "label": "B",
+        "text": "The slope of a supply curve measured in dollars per unit"
+      },
+      {
+        "label": "C",
+        "text": "The responsiveness of price to a change in the quantity supplied"
+      },
+      {
+        "label": "D",
+        "text": "Quantity supplied’s responsiveness to own price"
+      },
+      {
+        "label": "E",
+        "text": "The absolute change in quantity supplied after a price change"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Price elasticity of supply measures the percentage responsiveness of quantity supplied to a change in the good's price.",
+    "reference": "MKT-3.E | MKT-3.E.6 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "Price elasticity of supply is calculated as",
+    "options": [
+      {
+        "label": "A",
+        "text": "Percentage change in price divided by percentage change in quantity supplied"
+      },
+      {
+        "label": "B",
+        "text": "Change in price multiplied by the final quantity supplied"
+      },
+      {
+        "label": "C",
+        "text": "Change in quantity supplied divided by the original market price"
+      },
+      {
+        "label": "D",
+        "text": "Percentage change in total cost divided by percentage change in output"
+      },
+      {
+        "label": "E",
+        "text": "Percentage change in quantity supplied divided by percentage change in price"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Divide the percentage change in quantity supplied by the percentage change in price to calculate supply elasticity.",
+    "reference": "MKT-3.E | MKT-3.E.6 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "If price elasticity of supply is 1.8, supply over the stated price range is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Inelastic"
+      },
+      {
+        "label": "B",
+        "text": "Unit elastic"
+      },
+      {
+        "label": "C",
+        "text": "Elastic"
+      },
+      {
+        "label": "D",
+        "text": "Perfectly inelastic"
+      },
+      {
+        "label": "E",
+        "text": "Unresponsive to price"
+      }
+    ],
+    "answer": "C",
+    "explanation": "An elasticity greater than 1 means quantity supplied responds proportionally more than price. Supply is elastic.",
+    "reference": "MKT-3.E | MKT-3.E.7 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "If price elasticity of supply is 0.6, supply over the stated price range is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unit elastic"
+      },
+      {
+        "label": "B",
+        "text": "Inelastic"
+      },
+      {
+        "label": "C",
+        "text": "Perfectly elastic"
+      },
+      {
+        "label": "D",
+        "text": "Proportional in response"
+      },
+      {
+        "label": "E",
+        "text": "Elastic"
+      }
+    ],
+    "answer": "B",
+    "explanation": "An elasticity below 1 means quantity supplied responds proportionally less than price. Supply is inelastic.",
+    "reference": "MKT-3.E | MKT-3.E.7 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "Supply is unit elastic over a price range when",
+    "options": [
+      {
+        "label": "A",
+        "text": "Price and quantity supplied change by equal absolute amounts"
+      },
+      {
+        "label": "B",
+        "text": "Price changes while quantity supplied remains completely unchanged"
+      },
+      {
+        "label": "C",
+        "text": "Quantity supplied changes by a larger percentage than price"
+      },
+      {
+        "label": "D",
+        "text": "Price and quantity supplied change by equal percentages"
+      },
+      {
+        "label": "E",
+        "text": "Quantity supplied changes by a smaller percentage than price"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Equal percentage changes in price and quantity supplied give an elasticity of 1, or unit elasticity.",
+    "reference": "MKT-3.E | MKT-3.E.7 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, which supply curve is more price elastic at point A?",
+    "options": [
+      {
+        "label": "A",
+        "text": "S1, because it is steeper around the common point"
+      },
+      {
+        "label": "B",
+        "text": "Both curves, because they pass through the same labeled point"
+      },
+      {
+        "label": "C",
+        "text": "S2, because quantity supplied changes more for the same price change"
+      },
+      {
+        "label": "D",
+        "text": "S2, because it reaches the price axis at a higher value"
+      },
+      {
+        "label": "E",
+        "text": "S1, because quantity supplied changes less for the same price change"
+      }
+    ],
+    "answer": "C",
+    "explanation": "At the common point, S2 responds with a larger quantity change to the same price change. It is therefore more elastic.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity supplied is on the horizontal axis. Two upward-sloping supply curves, S1 and S2, pass through point A at price P and quantity Q. S1 is steeper than S2, and equal vertical price changes around P are marked on both curves.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "S1",
+            "label": "S1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 19.41176470588235,
+                "y": 0.0
+              },
+              {
+                "x": 74.70588235294117,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "S2",
+            "label": "S2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 13.0
+              },
+              {
+                "x": 94.0,
+                "y": 64.7
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 40,
+            "y": 35
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 51.76470588235294,
+            "y": 55
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 76.36363636363636,
+            "y": 55
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 40,
+            "y": 35,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 51.76470588235294,
+            "y": 55,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          },
+          {
+            "id": "guide2",
+            "x": 76.36363636363636,
+            "y": 55,
+            "xLabel": "Q3"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "A 10 percent increase in price causes quantity supplied to increase by 20 percent. Price elasticity of supply is",
+    "options": [
+      {
+        "label": "A",
+        "text": "10.0"
+      },
+      {
+        "label": "B",
+        "text": "2.0"
+      },
+      {
+        "label": "C",
+        "text": "0.5"
+      },
+      {
+        "label": "D",
+        "text": "30.0"
+      },
+      {
+        "label": "E",
+        "text": "1.0"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Supply elasticity is 20% / 10% = 2.0. The quantity response is twice the price change in percentage terms.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "A 12 percent decrease in price causes quantity supplied to decrease by 6 percent. Supply is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Inelastic because its elasticity is 2.0"
+      },
+      {
+        "label": "B",
+        "text": "Inelastic because its elasticity is 0.5"
+      },
+      {
+        "label": "C",
+        "text": "Unit elastic because both variables decrease"
+      },
+      {
+        "label": "D",
+        "text": "Elastic because its elasticity is 0.5"
+      },
+      {
+        "label": "E",
+        "text": "Elastic because its elasticity is 2.0"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Supply elasticity is 6% / 12% = 0.5. This is below 1, indicating inelastic supply.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "Which of the following would most likely make supply more price elastic?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Inputs readily transferable to this good’s production"
+      },
+      {
+        "label": "B",
+        "text": "Producers have no unused equipment available for additional output"
+      },
+      {
+        "label": "C",
+        "text": "Producers require a long delay before expanding productive capacity"
+      },
+      {
+        "label": "D",
+        "text": "Producers cannot redirect inputs from any alternative production use"
+      },
+      {
+        "label": "E",
+        "text": "Producers face a fixed quantity that cannot be increased"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Transferable inputs can be redirected readily toward production. This allows a larger output response when the selling price rises.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, which statement best describes supply curve S?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Supply is inelastic because both price and quantity remain fixed"
+      },
+      {
+        "label": "B",
+        "text": "Supply is elastic because quantity changes more than price"
+      },
+      {
+        "label": "C",
+        "text": "Supply is unit elastic because price and quantity change proportionally"
+      },
+      {
+        "label": "D",
+        "text": "Supply is perfectly inelastic because quantity supplied is fixed"
+      },
+      {
+        "label": "E",
+        "text": "Supply is perfectly elastic because sellers accept only one price"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The vertical curve shows an unchanged quantity at every price. Its elasticity is zero, or perfectly inelastic supply.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity supplied is on the horizontal axis. Supply curve S is vertical at quantity Q. Points A and B show different prices but the same quantity supplied.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "S",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 45,
+                "y": 10
+              },
+              {
+                "x": 45,
+                "y": 85
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 45,
+            "y": 30
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 45,
+            "y": 70
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 45,
+            "y": 30,
+            "xLabel": "Q",
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 45,
+            "y": 70,
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "A firm can add a second shift next month but cannot change today's output. Its supply is most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "Less elastic next month than today"
+      },
+      {
+        "label": "B",
+        "text": "Equally elastic in both periods"
+      },
+      {
+        "label": "C",
+        "text": "Unit elastic in both periods"
+      },
+      {
+        "label": "D",
+        "text": "Perfectly elastic only today"
+      },
+      {
+        "label": "E",
+        "text": "More elastic next month than today"
+      }
+    ],
+    "answer": "E",
+    "explanation": "More time lets the firm adjust labor and production. Its quantity supplied can respond more strongly to price.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "A perfectly elastic supply curve is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Horizontal at the price sellers require"
+      },
+      {
+        "label": "B",
+        "text": "Downward sloping at every price"
+      },
+      {
+        "label": "C",
+        "text": "Horizontal at a fixed quantity"
+      },
+      {
+        "label": "D",
+        "text": "Vertical at the available quantity"
+      },
+      {
+        "label": "E",
+        "text": "Upward sloping through the origin"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A horizontal curve offers output at one price and none below it. This represents perfectly elastic supply.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "Which situation is most consistent with perfectly inelastic supply?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A bakery that can redirect flour among several kinds of bread"
+      },
+      {
+        "label": "B",
+        "text": "A manufacturer holding inventories that can be released immediately"
+      },
+      {
+        "label": "C",
+        "text": "A factory that can add workers during the next production week"
+      },
+      {
+        "label": "D",
+        "text": "A fixed number of seats available for tonight's sold-out performance"
+      },
+      {
+        "label": "E",
+        "text": "An industry able to build additional plants over several years"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The venue's seats for tonight cannot be expanded in response to price. The available quantity is therefore effectively fixed.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "If quantity supplied changes by a larger percentage than price, supply is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Elastic"
+      },
+      {
+        "label": "B",
+        "text": "Unit elastic"
+      },
+      {
+        "label": "C",
+        "text": "Fixed in quantity"
+      },
+      {
+        "label": "D",
+        "text": "Perfectly inelastic"
+      },
+      {
+        "label": "E",
+        "text": "Inelastic"
+      }
+    ],
+    "answer": "A",
+    "explanation": "When the percentage quantity response exceeds the percentage price change, their ratio exceeds 1. Supply is elastic.",
+    "reference": "MKT-3.E | MKT-3.E.7 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "If quantity supplied changes by a smaller percentage than price, supply is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Elastic"
+      },
+      {
+        "label": "B",
+        "text": "Unit elastic"
+      },
+      {
+        "label": "C",
+        "text": "Proportional in response"
+      },
+      {
+        "label": "D",
+        "text": "Perfectly elastic"
+      },
+      {
+        "label": "E",
+        "text": "Inelastic"
+      }
+    ],
+    "answer": "E",
+    "explanation": "When the percentage quantity response is smaller than the percentage price change, their ratio is below 1. Supply is inelastic.",
+    "reference": "MKT-3.E | MKT-3.E.7 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "A 5 percent price increase raises quantity supplied by 5 percent. Supply is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Elastic"
+      },
+      {
+        "label": "B",
+        "text": "Perfectly inelastic"
+      },
+      {
+        "label": "C",
+        "text": "Inelastic"
+      },
+      {
+        "label": "D",
+        "text": "Unit elastic"
+      },
+      {
+        "label": "E",
+        "text": "Perfectly elastic"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Supply elasticity is 5% / 5% = 1. Supply is unit elastic over this change.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, which curve shows perfectly elastic supply?",
+    "options": [
+      {
+        "label": "A",
+        "text": "S2, because quantity supplied remains fixed at quantity Q"
+      },
+      {
+        "label": "B",
+        "text": "S1, because sellers supply positive quantities at several prices"
+      },
+      {
+        "label": "C",
+        "text": "S2, because all displayed quantities are supplied at price P"
+      },
+      {
+        "label": "D",
+        "text": "Both curves, because each contains more than one labeled point"
+      },
+      {
+        "label": "E",
+        "text": "S1, because the available quantity remains fixed as price changes"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Horizontal S2 allows quantity to vary at price P, representing perfect elasticity. Vertical S1 instead holds quantity fixed.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity supplied is on the horizontal axis. Curve S1 is vertical at quantity Q, and curve S2 is horizontal at price P. Each curve contains two labeled points.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "S1",
+            "label": "S1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 45,
+                "y": 10
+              },
+              {
+                "x": 45,
+                "y": 85
+              }
+            ]
+          },
+          {
+            "id": "S2",
+            "label": "S2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 10,
+                "y": 45
+              },
+              {
+                "x": 85,
+                "y": 45
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 45,
+            "y": 25
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 45,
+            "y": 70
+          },
+          {
+            "id": "C",
+            "label": "C",
+            "x": 20,
+            "y": 45
+          },
+          {
+            "id": "D",
+            "label": "D",
+            "x": 75,
+            "y": 45
+          }
+        ],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, what is the price elasticity of supply between A and B?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1, because price and quantity supplied change proportionally"
+      },
+      {
+        "label": "B",
+        "text": "0, because the supply curve begins at the origin"
+      },
+      {
+        "label": "C",
+        "text": "Undefined, because both price and quantity supplied increase"
+      },
+      {
+        "label": "D",
+        "text": "Greater than 1, because quantity exceeds price at B"
+      },
+      {
+        "label": "E",
+        "text": "Less than 1, because the curve slopes upward"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A straight supply curve through the origin makes price and quantity proportional. Their percentage changes match, giving unit elasticity.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity supplied is on the horizontal axis. A straight upward-sloping supply curve S begins at the origin. Point A is at price $4 and quantity 20, and point B is at price $8 and quantity 40.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 55,
+        "yMax": 11,
+        "curves": [
+          {
+            "id": "S",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 51.699999999999996,
+                "y": 10.34
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 20,
+            "y": 4
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 40,
+            "y": 8
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 20,
+            "y": 4,
+            "xLabel": "20",
+            "yLabel": "$4"
+          },
+          {
+            "id": "guide1",
+            "x": 40,
+            "y": 8,
+            "xLabel": "40",
+            "yLabel": "$8"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "Which statement about slope and price elasticity of supply is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Slope and elasticity are identical whenever a supply curve is straight"
+      },
+      {
+        "label": "B",
+        "text": "Elasticity uses absolute changes, whereas slope uses percentage changes"
+      },
+      {
+        "label": "C",
+        "text": "Slope uses absolute changes, whereas elasticity uses percentage changes"
+      },
+      {
+        "label": "D",
+        "text": "Slope determines elasticity without regard to the starting price and quantity"
+      },
+      {
+        "label": "E",
+        "text": "Elasticity changes only when the entire supply curve shifts"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Slope uses absolute price and quantity changes. Elasticity requires percentage changes, so relevant price and quantity levels must also be considered.",
+    "reference": "MKT-3.E | MKT-3.E.6 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "A 15 percent increase in price raises quantity supplied by 3 percent. The price elasticity of supply is",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.2"
+      },
+      {
+        "label": "B",
+        "text": "1.0"
+      },
+      {
+        "label": "C",
+        "text": "5.0"
+      },
+      {
+        "label": "D",
+        "text": "0.5"
+      },
+      {
+        "label": "E",
+        "text": "18.0"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Supply elasticity is 3% / 15% = 0.2. Quantity responds relatively little, indicating inelastic supply.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "Which observation is consistent with elastic supply?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A 12 percent price increase causes a 4 percent increase in quantity supplied"
+      },
+      {
+        "label": "B",
+        "text": "A 4 percent price increase causes a 12 percent increase in quantity supplied"
+      },
+      {
+        "label": "C",
+        "text": "A 5 percent price increase causes no change in quantity supplied"
+      },
+      {
+        "label": "D",
+        "text": "A 10 percent price increase causes a 2 percent increase in quantity supplied"
+      },
+      {
+        "label": "E",
+        "text": "A 7 percent price increase causes a 7 percent increase in quantity supplied"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Supply elasticity is 12% / 4% = 3. This exceeds 1, indicating elastic supply.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "Which observation is consistent with inelastic supply?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A 6 percent price decrease causes a 6 percent decrease in quantity supplied"
+      },
+      {
+        "label": "B",
+        "text": "An 8 percent price decrease causes a 2 percent decrease in quantity supplied"
+      },
+      {
+        "label": "C",
+        "text": "A 2 percent price decrease causes an 8 percent decrease in quantity supplied"
+      },
+      {
+        "label": "D",
+        "text": "A 3 percent price decrease causes a 12 percent decrease in quantity supplied"
+      },
+      {
+        "label": "E",
+        "text": "A 4 percent price decrease causes a 20 percent decrease in quantity supplied"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Supply elasticity is 2% / 8% = 0.25. This is below 1, indicating inelastic supply.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "A higher price for an input that can instead produce another good will most likely make supply of the current good",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unit elastic because both goods can use the same input"
+      },
+      {
+        "label": "B",
+        "text": "Unchanged in responsiveness because alternative inputs never matter"
+      },
+      {
+        "label": "C",
+        "text": "More responsive because the input has become more expensive"
+      },
+      {
+        "label": "D",
+        "text": "Less responsive because redirecting that input becomes more costly"
+      },
+      {
+        "label": "E",
+        "text": "Perfectly elastic because input prices determine one selling price"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A higher return from an input's alternative use raises the cost of reallocating it. Producers may respond less strongly to the current good's price.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, how is supply classified over the change from A to B?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Inelastic, because the supply curve is upward sloping over the range"
+      },
+      {
+        "label": "B",
+        "text": "Elastic, because quantity supplied rises 20 percent while price rises 10 percent"
+      },
+      {
+        "label": "C",
+        "text": "Unit elastic, because both price and quantity supplied increase"
+      },
+      {
+        "label": "D",
+        "text": "Inelastic, because quantity supplied rises 10 percent while price rises 20 percent"
+      },
+      {
+        "label": "E",
+        "text": "Elastic, because price rises 20 percent while quantity supplied rises 10 percent"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The graph shows a 20% quantity increase for a 10% price increase. Elasticity is 20/10 = 2, so supply is elastic.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity supplied is on the horizontal axis. An upward-sloping curve S contains point A and a higher point B. An arrow from A to B is labeled 'price: +10%' and 'quantity supplied: +20%.'",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "S",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10,
+                "y": 25
+              },
+              {
+                "x": 40,
+                "y": 40
+              },
+              {
+                "x": 48,
+                "y": 44
+              },
+              {
+                "x": 90,
+                "y": 65
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 40,
+            "y": 40
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 48,
+            "y": 44
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 40,
+            "y": 40,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 48,
+            "y": 44,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [
+          {
+            "id": "note0",
+            "text": "Price +10%; quantity +20%",
+            "x": 5,
+            "y": 85
+          }
+        ],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "A producer can store a good and release additional units when price rises. This ability will most likely make supply",
+    "options": [
+      {
+        "label": "A",
+        "text": "Less elastic over the period in which inventories are available"
+      },
+      {
+        "label": "B",
+        "text": "Unit elastic because stored units have already been produced"
+      },
+      {
+        "label": "C",
+        "text": "Unchanged because only newly produced units count as supply"
+      },
+      {
+        "label": "D",
+        "text": "Perfectly inelastic because storage fixes the total market quantity"
+      },
+      {
+        "label": "E",
+        "text": "More elastic over the period in which inventories are available"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Inventory can be released immediately after a price rise. This lets sales respond without waiting for new production.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "Which period will generally have the least elastic supply for a manufactured good?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The short run after firms can add worker hours"
+      },
+      {
+        "label": "B",
+        "text": "The period after new producers can enter production"
+      },
+      {
+        "label": "C",
+        "text": "The period after firms can draw down existing inventories"
+      },
+      {
+        "label": "D",
+        "text": "The immediate period before firms can alter any inputs"
+      },
+      {
+        "label": "E",
+        "text": "The long run after firms can construct additional plants"
+      }
+    ],
+    "answer": "D",
+    "explanation": "In the immediate period, producers have little time to adjust inputs. Their output response to price is therefore smallest.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "Supply usually becomes more elastic in the long run because firms can",
+    "options": [
+      {
+        "label": "A",
+        "text": "Adjust more inputs and expand productive capacity"
+      },
+      {
+        "label": "B",
+        "text": "Make quantity supplied independent of market price"
+      },
+      {
+        "label": "C",
+        "text": "Change fewer inputs and preserve existing capacity"
+      },
+      {
+        "label": "D",
+        "text": "Hold output fixed despite a permanent price change"
+      },
+      {
+        "label": "E",
+        "text": "Avoid reallocating inputs among alternative uses"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Over time, producers can expand facilities and acquire inputs. These adjustments make quantity supplied more responsive to price.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "If price elasticity of supply equals zero, a price increase will",
+    "options": [
+      {
+        "label": "A",
+        "text": "Raise quantity supplied by a larger percentage"
+      },
+      {
+        "label": "B",
+        "text": "Raise quantity supplied by the same percentage"
+      },
+      {
+        "label": "C",
+        "text": "Leave quantity supplied unchanged"
+      },
+      {
+        "label": "D",
+        "text": "Lower quantity supplied by the same percentage"
+      },
+      {
+        "label": "E",
+        "text": "Make quantity supplied infinitely responsive"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Zero elasticity means price changes produce no quantity response. Supply is perfectly inelastic.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "If price elasticity of supply is greater than 1, a 6 percent price increase must cause quantity supplied to increase by",
+    "options": [
+      {
+        "label": "A",
+        "text": "Exactly 1 percent"
+      },
+      {
+        "label": "B",
+        "text": "Zero percent"
+      },
+      {
+        "label": "C",
+        "text": "Exactly 6 percent"
+      },
+      {
+        "label": "D",
+        "text": "Less than 6 percent"
+      },
+      {
+        "label": "E",
+        "text": "More than 6 percent"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Elastic supply has an elasticity above 1. A 6% price increase must therefore produce more than a 6% quantity increase.",
+    "reference": "MKT-3.E | MKT-3.E.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "Which change most directly increases a firm's ability to respond to a higher product price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A rise in the cost of shifting the versatile input into production"
+      },
+      {
+        "label": "B",
+        "text": "A fall in the cost of shifting a versatile input into production"
+      },
+      {
+        "label": "C",
+        "text": "A reduction in the time available to alter production plans"
+      },
+      {
+        "label": "D",
+        "text": "A loss of access to inventories of the finished product"
+      },
+      {
+        "label": "E",
+        "text": "A binding physical limit on output from the existing facility"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Cheaper reallocation lets producers move inputs into production more easily. Quantity supplied becomes more price-responsive.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 31,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which statement correctly compares short-run and long-run supply at point A?",
+    "options": [
+      {
+        "label": "A",
+        "text": "SLR responds more proportionally to the price change"
+      },
+      {
+        "label": "B",
+        "text": "SSR is more elastic because firms have less time to change capacity"
+      },
+      {
+        "label": "C",
+        "text": "SLR is less elastic because its quantity response is larger"
+      },
+      {
+        "label": "D",
+        "text": "SSR is more elastic because its curve is steeper at the common point"
+      },
+      {
+        "label": "E",
+        "text": "The curves are equally elastic because they share the same point"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The long-run curve gives a larger quantity change for the marked price rise. More time for input and capacity adjustments makes supply more elastic.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.8 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity supplied is on the horizontal axis. A steep short-run curve SSR and a flatter long-run curve SLR cross at point A at price P and quantity Q. A higher price P2 is marked, and the quantity increase on SLR is larger than on SSR.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "SSR",
+            "label": "SSR",
+            "style": "primary",
+            "points": [
+              {
+                "x": 19.41176470588235,
+                "y": 0.0
+              },
+              {
+                "x": 74.70588235294117,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "SLR",
+            "label": "SLR",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 13.0
+              },
+              {
+                "x": 94.0,
+                "y": 64.7
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 40,
+            "y": 35
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 51.76470588235294,
+            "y": 55
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 76.36363636363636,
+            "y": 55
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 40,
+            "y": 35,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 51.76470588235294,
+            "y": 55,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          },
+          {
+            "id": "guide2",
+            "x": 76.36363636363636,
+            "y": 55,
+            "xLabel": "Q3"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "difficulty": "Medium",
+    "prompt": "Price rises by 8 percent and price elasticity of supply is 1.5. Quantity supplied will increase by",
+    "options": [
+      {
+        "label": "A",
+        "text": "9.5 percent"
+      },
+      {
+        "label": "B",
+        "text": "12 percent"
+      },
+      {
+        "label": "C",
+        "text": "18.8 percent"
+      },
+      {
+        "label": "D",
+        "text": "5.3 percent"
+      },
+      {
+        "label": "E",
+        "text": "8 percent"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The quantity response is elasticity times the price change: 1.5 x 8% = 12%.",
+    "reference": "MKT-3.E | MKT-3.E.6 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 33,
+    "difficulty": "Medium",
+    "prompt": "Quantity supplied rises by 18 percent when price rises by 12 percent. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Supply is inelastic, with an elasticity of 1.5"
+      },
+      {
+        "label": "B",
+        "text": "Supply is unit elastic, with an elasticity of 1.0"
+      },
+      {
+        "label": "C",
+        "text": "Supply is elastic, with an elasticity of 0.67"
+      },
+      {
+        "label": "D",
+        "text": "Supply is inelastic, with an elasticity of 0.67"
+      },
+      {
+        "label": "E",
+        "text": "Supply is elastic, with an elasticity of 1.5"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Supply elasticity is 18% / 12% = 1.5. This exceeds 1, so supply is elastic.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "A 10 percent decrease in price reduces quantity supplied by 4 percent. If the initial quantity was 500 units, the new quantity supplied is",
+    "options": [
+      {
+        "label": "A",
+        "text": "490 units"
+      },
+      {
+        "label": "B",
+        "text": "460 units"
+      },
+      {
+        "label": "C",
+        "text": "480 units"
+      },
+      {
+        "label": "D",
+        "text": "520 units"
+      },
+      {
+        "label": "E",
+        "text": "450 units"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A 4% reduction from 500 removes 20 units. The new quantity supplied is 480 units.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which supply curve is elastic over the marked price change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both curves, because quantity supplied increases on each curve"
+      },
+      {
+        "label": "B",
+        "text": "S1 only, because its percentage quantity change is smaller than its percentage price change"
+      },
+      {
+        "label": "C",
+        "text": "S1 only, because its initial quantity supplied is smaller"
+      },
+      {
+        "label": "D",
+        "text": "S2 only, because its percentage quantity change exceeds its percentage price change"
+      },
+      {
+        "label": "E",
+        "text": "Neither curve, because the same price change applies to both curves"
+      }
+    ],
+    "answer": "D",
+    "explanation": "S2's elasticity is 24/12 = 2, while S1's is 6/12 = 0.5. S2 is more responsive and more elastic.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity supplied is on the horizontal axis. Supply curves S1 and S2 each show movement from price P1 to higher price P2. The price change is labeled +12%; the quantity change is labeled +6% on S1 and +24% on S2.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "S1",
+            "label": "S1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 25.0,
+                "y": 0.0
+              },
+              {
+                "x": 72.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "S2",
+            "label": "S2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 25.0
+              },
+              {
+                "x": 94.0,
+                "y": 72.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 53,
+            "y": 56
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 62,
+            "y": 56
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 53,
+            "y": 56,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          },
+          {
+            "id": "guide2",
+            "x": 62,
+            "y": 56,
+            "xLabel": "Q3"
+          }
+        ],
+        "regions": [],
+        "annotations": [
+          {
+            "id": "note0",
+            "text": "P +12%; S1 Q +6%; S2 Q +24%",
+            "x": 5,
+            "y": 90
+          }
+        ],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "Using the midpoint method, price rises from $20 to $24 and quantity supplied rises from 80 to 100 units. Price elasticity of supply is closest to",
+    "options": [
+      {
+        "label": "A",
+        "text": "1.50"
+      },
+      {
+        "label": "B",
+        "text": "2.44"
+      },
+      {
+        "label": "C",
+        "text": "1.22"
+      },
+      {
+        "label": "D",
+        "text": "0.82"
+      },
+      {
+        "label": "E",
+        "text": "1.00"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Midpoint quantity change is 20/90 = 22.2%, and price change is 4/22 = 18.2%. Elasticity is about 22.2/18.2 = 1.22.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "A firm has price elasticity of supply equal to 0.75. If quantity supplied increases by 9 percent, price must have increased by",
+    "options": [
+      {
+        "label": "A",
+        "text": "12 percent"
+      },
+      {
+        "label": "B",
+        "text": "8.25 percent"
+      },
+      {
+        "label": "C",
+        "text": "9.75 percent"
+      },
+      {
+        "label": "D",
+        "text": "13.5 percent"
+      },
+      {
+        "label": "E",
+        "text": "6.75 percent"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Rearranging the elasticity formula gives price change = 9% / 0.75 = 12%.",
+    "reference": "MKT-3.E | MKT-3.E.6 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "Two industries face the same 5 percent price increase. Quantity supplied rises 15 percent in Industry X and 2 percent in Industry Y. Which statement is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Elasticity cannot be compared without the two initial quantities"
+      },
+      {
+        "label": "B",
+        "text": "Supply is more elastic in Industry X than in Industry Y"
+      },
+      {
+        "label": "C",
+        "text": "Supply is unit elastic in both industries because prices change equally"
+      },
+      {
+        "label": "D",
+        "text": "Supply is more elastic in Industry Y than in Industry X"
+      },
+      {
+        "label": "E",
+        "text": "Supply is perfectly elastic in X and perfectly inelastic in Y"
+      }
+    ],
+    "answer": "B",
+    "explanation": "X's elasticity is 15/5 = 3, while Y's is 2/5 = 0.4. X has the larger percentage quantity response and more elastic supply.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, what is the midpoint price elasticity of supply from A to B?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.8"
+      },
+      {
+        "label": "B",
+        "text": "1.5"
+      },
+      {
+        "label": "C",
+        "text": "1.0"
+      },
+      {
+        "label": "D",
+        "text": "2.0"
+      },
+      {
+        "label": "E",
+        "text": "0.5"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Midpoint quantity change is 20/40 = 50%, and price change is 4/8 = 50%. Their ratio is 1, indicating unit elasticity.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity supplied is on the horizontal axis. An upward-sloping supply curve S contains point A at price $6 and quantity 30 and point B at price $10 and quantity 50. Dashed guides connect both points to the axes.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 65,
+        "yMax": 13,
+        "curves": [
+          {
+            "id": "S",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 61.099999999999994,
+                "y": 12.219999999999999
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 30,
+            "y": 6
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 50,
+            "y": 10
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 30,
+            "y": 6,
+            "xLabel": "30",
+            "yLabel": "$6"
+          },
+          {
+            "id": "guide1",
+            "x": 50,
+            "y": 10,
+            "xLabel": "50",
+            "yLabel": "$10"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "A 20 percent increase in price raises quantity supplied from 1,000 to 1,100 units. Supply over the change is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Elastic because quantity supplied rises 20 percent"
+      },
+      {
+        "label": "B",
+        "text": "Inelastic because quantity supplied rises 20 percent"
+      },
+      {
+        "label": "C",
+        "text": "Unit elastic because quantity supplied rises 100 units"
+      },
+      {
+        "label": "D",
+        "text": "Inelastic because quantity supplied rises 10 percent"
+      },
+      {
+        "label": "E",
+        "text": "Elastic because quantity supplied rises 10 percent"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Quantity increases 100/1,000 = 10%, compared with a 20% price increase. Elasticity is 10/20 = 0.5, so supply is inelastic.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "A producer's short-run elasticity is 0.3 and long-run elasticity is 1.4. A permanent 10 percent price increase will eventually raise quantity supplied by",
+    "options": [
+      {
+        "label": "A",
+        "text": "14 percent"
+      },
+      {
+        "label": "B",
+        "text": "3 percent"
+      },
+      {
+        "label": "C",
+        "text": "17 percent"
+      },
+      {
+        "label": "D",
+        "text": "10 percent"
+      },
+      {
+        "label": "E",
+        "text": "11 percent"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Using the long-run elasticity, the eventual quantity increase is 1.4 x 10% = 14%.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "Which change would most likely increase price elasticity of supply without requiring a change in the good's current price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A new capacity limit that prevents output from rising"
+      },
+      {
+        "label": "B",
+        "text": "A longer delay before finished goods reach the market"
+      },
+      {
+        "label": "C",
+        "text": "A process permitting faster output expansion"
+      },
+      {
+        "label": "D",
+        "text": "A higher cost of moving inputs from alternative uses"
+      },
+      {
+        "label": "E",
+        "text": "A loss of access to inputs usable in production"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Reducing the time needed to adjust inputs allows a stronger production response to price. This raises supply elasticity.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which statement correctly classifies the two supply curves?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both curves are elastic because each slopes upward"
+      },
+      {
+        "label": "B",
+        "text": "Neither classification can be made from an intercept"
+      },
+      {
+        "label": "C",
+        "text": "SA is inelastic and SB is elastic at their labeled points"
+      },
+      {
+        "label": "D",
+        "text": "Both curves are unit elastic because each is straight"
+      },
+      {
+        "label": "E",
+        "text": "SA is elastic and SB is inelastic at their labeled points"
+      }
+    ],
+    "answer": "E",
+    "explanation": "A straight supply curve with a positive price-axis intercept is elastic at positive quantities. One with a positive quantity-axis intercept is inelastic, so SA is elastic and SB is inelastic.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity supplied is on the horizontal axis. Straight upward-sloping curve SA begins at a positive price-axis intercept, and straight upward-sloping curve SB begins at a positive quantity-axis intercept. One labeled point is shown on each curve away from the axes.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "SA",
+            "label": "SA",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 25
+              },
+              {
+                "x": 70,
+                "y": 95
+              }
+            ]
+          },
+          {
+            "id": "SB",
+            "label": "SB",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 25,
+                "y": 0
+              },
+              {
+                "x": 95,
+                "y": 70
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 35,
+            "y": 60
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 60,
+            "y": 35
+          }
+        ],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "A price increase from $25 to $30 raises quantity supplied from 200 to 230 units. Using initial values, price elasticity of supply is",
+    "options": [
+      {
+        "label": "A",
+        "text": "1.50"
+      },
+      {
+        "label": "B",
+        "text": "0.75"
+      },
+      {
+        "label": "C",
+        "text": "1.25"
+      },
+      {
+        "label": "D",
+        "text": "0.50"
+      },
+      {
+        "label": "E",
+        "text": "0.80"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Quantity rises 15% while price rises 20%. Supply elasticity is 15/20 = 0.75.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "Suppose a 9 percent price increase raises quantity supplied by 13.5 percent. If the initial quantity is 400 units, the new quantity supplied is",
+    "options": [
+      {
+        "label": "A",
+        "text": "460 units"
+      },
+      {
+        "label": "B",
+        "text": "445 units"
+      },
+      {
+        "label": "C",
+        "text": "436 units"
+      },
+      {
+        "label": "D",
+        "text": "454 units"
+      },
+      {
+        "label": "E",
+        "text": "486 units"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The 13.5% increase adds 0.135 x 400 = 54 units. New quantity supplied is 454 units.",
+    "reference": "MKT-3.E | MKT-3.E.6 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "A manufacturer can use a machine for either tables or desks. Which change most likely makes the supply of tables more elastic?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The machine becomes permanently dedicated to producing desks"
+      },
+      {
+        "label": "B",
+        "text": "The maximum number of tables the machine can produce becomes fixed"
+      },
+      {
+        "label": "C",
+        "text": "The cost of switching the machine from desks to tables falls"
+      },
+      {
+        "label": "D",
+        "text": "The time required to reconfigure the machine becomes longer"
+      },
+      {
+        "label": "E",
+        "text": "The cost of switching the machine from desks to tables rises"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Lower switching costs make it easier to redirect shared inputs into tables. Table production can then respond more strongly to its price.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "If supply is unit elastic and price decreases by 7 percent, quantity supplied will most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "Decrease by more than 7 percent"
+      },
+      {
+        "label": "B",
+        "text": "Increase by exactly 7 percent"
+      },
+      {
+        "label": "C",
+        "text": "Decrease by less than 7 percent"
+      },
+      {
+        "label": "D",
+        "text": "Decrease by 7 percent"
+      },
+      {
+        "label": "E",
+        "text": "Remain unchanged at every price"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Unit elasticity means price and quantity supplied change by the same percentage. A 7% price decrease therefore reduces quantity supplied by 7%.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, why does supply become less elastic as output approaches Qmax?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The capacity limit makes additional quantity increasingly difficult to supply"
+      },
+      {
+        "label": "B",
+        "text": "The curve becomes vertical because sellers accept only one price"
+      },
+      {
+        "label": "C",
+        "text": "The supply curve shifts left whenever output reaches a larger quantity"
+      },
+      {
+        "label": "D",
+        "text": "The capacity limit makes quantity supplied increasingly responsive to price"
+      },
+      {
+        "label": "E",
+        "text": "The marked price changes become smaller as output approaches Qmax"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Near Qmax, little capacity remains available. A price increase produces only a small quantity increase, reducing elasticity.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.8 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity supplied is on the horizontal axis. Supply curve S slopes upward gently at low quantities and becomes nearly vertical as it approaches a dashed capacity line at Qmax. Equal vertical price changes are marked in a low-output region and near Qmax.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "S",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10,
+                "y": 10
+              },
+              {
+                "x": 30,
+                "y": 20
+              },
+              {
+                "x": 50,
+                "y": 35
+              },
+              {
+                "x": 65,
+                "y": 55
+              },
+              {
+                "x": 70,
+                "y": 90
+              }
+            ]
+          },
+          {
+            "id": "Qmax",
+            "label": "Qmax",
+            "style": "reference",
+            "points": [
+              {
+                "x": 72,
+                "y": 0
+              },
+              {
+                "x": 72,
+                "y": 95
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 15,
+            "y": 12.5
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 30,
+            "y": 20
+          },
+          {
+            "id": "C",
+            "label": "C",
+            "x": 65,
+            "y": 55
+          },
+          {
+            "id": "D",
+            "label": "D",
+            "x": 70,
+            "y": 90
+          }
+        ],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "A seller can supply any quantity at $18 but supplies none below $18. Price elasticity of supply at $18 is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Elastic but finite"
+      },
+      {
+        "label": "B",
+        "text": "Perfectly inelastic"
+      },
+      {
+        "label": "C",
+        "text": "Inelastic but positive"
+      },
+      {
+        "label": "D",
+        "text": "Unit elastic"
+      },
+      {
+        "label": "E",
+        "text": "Perfectly elastic"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Offering any quantity at a single price produces a horizontal supply curve. This is perfectly elastic supply.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 2.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "A fixed harvest has already been brought to market and cannot be stored. Before the market closes, supply is most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "Perfectly elastic because every unit must be sold today"
+      },
+      {
+        "label": "B",
+        "text": "More elastic because producers can immediately plant more crops"
+      },
+      {
+        "label": "C",
+        "text": "Highly elastic because the product was produced earlier"
+      },
+      {
+        "label": "D",
+        "text": "Unit elastic because price and harvest size are proportional"
+      },
+      {
+        "label": "E",
+        "text": "Highly inelastic because the available quantity cannot be adjusted"
+      }
+    ],
+    "answer": "E",
+    "explanation": "A fixed harvest cannot be expanded during the current period. Its quantity response to price is therefore very limited.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "Two firms have the same initial price and quantity supplied. After a 10 percent price increase, Firm A raises output 6 percent and Firm B raises output 16 percent. Which statement is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Firm B has less elastic supply because it produces the larger final quantity"
+      },
+      {
+        "label": "B",
+        "text": "Firm A has more elastic supply because its quantity response is proportionally smaller"
+      },
+      {
+        "label": "C",
+        "text": "Elasticity cannot be compared unless the firms have equal production costs"
+      },
+      {
+        "label": "D",
+        "text": "Firm B has more elastic supply because its quantity response is proportionally larger"
+      },
+      {
+        "label": "E",
+        "text": "Both firms have unit-elastic supply because the price changes are identical"
+      }
+    ],
+    "answer": "D",
+    "explanation": "B's elasticity of 1.6 exceeds A's 0.6. B supplies a larger percentage quantity response to the same percentage price change.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "A supply elasticity of 2.5 and a quantity increase of 20 percent imply that price increased by",
+    "options": [
+      {
+        "label": "A",
+        "text": "10 percent"
+      },
+      {
+        "label": "B",
+        "text": "22.5 percent"
+      },
+      {
+        "label": "C",
+        "text": "50 percent"
+      },
+      {
+        "label": "D",
+        "text": "5 percent"
+      },
+      {
+        "label": "E",
+        "text": "8 percent"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The price increase is 20% / 2.5 = 8%.",
+    "reference": "MKT-3.E | MKT-3.E.6 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which labeled range has the greater price elasticity of supply?",
+    "options": [
+      {
+        "label": "A",
+        "text": "C to D, because its absolute quantity increase is larger than its price increase"
+      },
+      {
+        "label": "B",
+        "text": "A to B, because elasticity depends only on the curve's upward slope"
+      },
+      {
+        "label": "C",
+        "text": "The ranges are equal because both movements occur on the same curve"
+      },
+      {
+        "label": "D",
+        "text": "C to D, because the same absolute price increase begins at a higher price"
+      },
+      {
+        "label": "E",
+        "text": "A to B has the larger proportional response"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The marked changes give elasticity 1.6 in AB and 0.5 in CD. The nonlinear curve therefore has different responsiveness across these ranges.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity supplied is on the horizontal axis. A nonlinear upward-sloping supply curve S contains lower-range points A and B and upper-range points C and D. A-to-B is labeled 'price +10%, quantity +16%'; C-to-D is labeled 'price +10%, quantity +5%.'",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "S",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10,
+                "y": 16
+              },
+              {
+                "x": 20,
+                "y": 20
+              },
+              {
+                "x": 23.2,
+                "y": 22
+              },
+              {
+                "x": 65,
+                "y": 60
+              },
+              {
+                "x": 68.25,
+                "y": 66
+              },
+              {
+                "x": 72,
+                "y": 90
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 20,
+            "y": 20
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 23.2,
+            "y": 22
+          },
+          {
+            "id": "C",
+            "label": "C",
+            "x": 65,
+            "y": 60
+          },
+          {
+            "id": "D",
+            "label": "D",
+            "x": 68.25,
+            "y": 66
+          }
+        ],
+        "guides": [],
+        "regions": [],
+        "annotations": [
+          {
+            "id": "note0",
+            "text": "A→B: P +10%, Q +16%",
+            "x": 4,
+            "y": 90
+          },
+          {
+            "id": "note1",
+            "text": "C→D: P +10%, Q +5%",
+            "x": 4,
+            "y": 80
+          }
+        ],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "Price rises from $9 to $11 while quantity supplied rises from 45 to 60 units. Using the midpoint method, supply is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Elastic because its elasticity is 0.70"
+      },
+      {
+        "label": "B",
+        "text": "Unit elastic because both variables increase"
+      },
+      {
+        "label": "C",
+        "text": "Inelastic because its elasticity is 0.70"
+      },
+      {
+        "label": "D",
+        "text": "Elastic because its elasticity is 1.43"
+      },
+      {
+        "label": "E",
+        "text": "Inelastic because its elasticity is 1.43"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Midpoint quantity change is 15/52.5 = 28.6%, and price change is 2/10 = 20%. Elasticity is about 1.43, so supply is elastic.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "A 25 percent price decrease causes quantity supplied to fall by 10 percent. Which statement correctly interprets the result?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Supply is elastic because the elasticity is 2.5"
+      },
+      {
+        "label": "B",
+        "text": "Supply is unit elastic because both changes are decreases"
+      },
+      {
+        "label": "C",
+        "text": "Supply is elastic because the elasticity is 0.4"
+      },
+      {
+        "label": "D",
+        "text": "Supply is inelastic because the elasticity is 2.5"
+      },
+      {
+        "label": "E",
+        "text": "Supply is inelastic because the elasticity is 0.4"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Supply elasticity is 10% / 25% = 0.4. The smaller proportional quantity response makes supply inelastic.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "A firm can expand output by using overtime, but overtime workers require a large wage premium. Compared with costless overtime, the wage premium will most likely make short-run supply",
+    "options": [
+      {
+        "label": "A",
+        "text": "More elastic because expanding output is more expensive"
+      },
+      {
+        "label": "B",
+        "text": "Perfectly elastic because overtime creates additional capacity"
+      },
+      {
+        "label": "C",
+        "text": "Less elastic because expanding output is more difficult"
+      },
+      {
+        "label": "D",
+        "text": "Unchanged because input conditions do not affect responsiveness"
+      },
+      {
+        "label": "E",
+        "text": "Unit elastic because labor hours and wages change together"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The wage premium makes increasing labor input more expensive. Producers expand output less after a given price increase.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "A seller's quantity supplied is 250 units. Price falls 6 percent, and elasticity of supply is 0.5. The new quantity supplied is",
+    "options": [
+      {
+        "label": "A",
+        "text": "243.5 units"
+      },
+      {
+        "label": "B",
+        "text": "257.5 units"
+      },
+      {
+        "label": "C",
+        "text": "235 units"
+      },
+      {
+        "label": "D",
+        "text": "242.5 units"
+      },
+      {
+        "label": "E",
+        "text": "247 units"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Quantity falls by 0.5 x 6% = 3%. Subtracting 0.03 x 250 = 7.5 leaves 242.5 units.",
+    "reference": "MKT-3.E | MKT-3.E.6 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which statement best explains the different quantities at P2?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The short-run curve shifts left when price rises to P2"
+      },
+      {
+        "label": "B",
+        "text": "Producers can make more adjustments over the long run, so QLR exceeds QSR"
+      },
+      {
+        "label": "C",
+        "text": "The long-run curve represents a smaller price change from P1 to P2"
+      },
+      {
+        "label": "D",
+        "text": "Producers can make fewer adjustments over the long run, so QLR exceeds QSR"
+      },
+      {
+        "label": "E",
+        "text": "Both curves have equal elasticity because they begin at point A"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The long-run curve reaches a larger quantity after the same price increase. More time allows input and capacity changes that increase responsiveness.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity supplied is on the horizontal axis. Curves SSR and SLR begin at point A at price P1. At higher price P2, dashed guides mark quantity QSR on SSR and a larger quantity QLR on SLR.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "SSR",
+            "label": "SSR",
+            "style": "primary",
+            "points": [
+              {
+                "x": 19.41176470588235,
+                "y": 0.0
+              },
+              {
+                "x": 74.70588235294117,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "SLR",
+            "label": "SLR",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 13.0
+              },
+              {
+                "x": 94.0,
+                "y": 64.7
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 40,
+            "y": 35
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 51.76470588235294,
+            "y": 55
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 76.36363636363636,
+            "y": 55
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 40,
+            "y": 35,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 51.76470588235294,
+            "y": 55,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          },
+          {
+            "id": "guide2",
+            "x": 76.36363636363636,
+            "y": 55,
+            "xLabel": "Q3"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "Price rises 16 percent. Supply is known to be inelastic, but its exact elasticity is unknown. Which quantity response is possible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An increase of 9 percent"
+      },
+      {
+        "label": "B",
+        "text": "An increase of 32 percent"
+      },
+      {
+        "label": "C",
+        "text": "An infinitely large increase"
+      },
+      {
+        "label": "D",
+        "text": "An increase of 16 percent"
+      },
+      {
+        "label": "E",
+        "text": "An increase of 22 percent"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A 9% quantity increase is less than the 16% price increase. Their ratio is below 1, consistent with inelastic supply.",
+    "reference": "MKT-3.E | MKT-3.E.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "Price falls 4 percent and quantity supplied falls 14 percent. Which conclusion is supported?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Supply is elastic because the elasticity is 3.5"
+      },
+      {
+        "label": "B",
+        "text": "Supply is unit elastic because both variables fall"
+      },
+      {
+        "label": "C",
+        "text": "Supply is inelastic because the elasticity is 3.5"
+      },
+      {
+        "label": "D",
+        "text": "Supply is elastic because the elasticity is 0.29"
+      },
+      {
+        "label": "E",
+        "text": "Supply is inelastic because the elasticity is 0.29"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Supply elasticity is 14% / 4% = 3.5. Quantity supplied changes proportionally more than price, so supply is elastic.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "A commodity can be stored for years at low cost. Compared with an otherwise similar perishable commodity, its current supply is likely to be",
+    "options": [
+      {
+        "label": "A",
+        "text": "More elastic because sellers can vary releases from inventories"
+      },
+      {
+        "label": "B",
+        "text": "Unit elastic because inventory and production are measured together"
+      },
+      {
+        "label": "C",
+        "text": "Perfectly inelastic because the existing stock was produced earlier"
+      },
+      {
+        "label": "D",
+        "text": "Equally elastic because perishability does not affect responsiveness"
+      },
+      {
+        "label": "E",
+        "text": "Less elastic because stored units cannot enter the current market"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Cheap storage allows goods to be released or withheld as price changes. Current sales can therefore respond more readily.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "A higher price for the product raises quantity supplied by 8 percent in one week and 24 percent after one year. Which statement is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Supply is unit elastic in both periods because the same product is sold"
+      },
+      {
+        "label": "B",
+        "text": "Long-run supply is more elastic because firms have more time to adjust"
+      },
+      {
+        "label": "C",
+        "text": "Elasticity is identical because the price change is the same"
+      },
+      {
+        "label": "D",
+        "text": "Long-run supply is less elastic because its final quantity is larger"
+      },
+      {
+        "label": "E",
+        "text": "Short-run supply is more elastic because its quantity response occurs first"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The longer period produces a larger percentage quantity change for the same price change. Long- run supply is more elastic.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which statement correctly compares elasticity at A and B?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Elasticity is greater at A because its price and quantity are both smaller"
+      },
+      {
+        "label": "B",
+        "text": "Equal elasticity on a line through the origin"
+      },
+      {
+        "label": "C",
+        "text": "Elasticity is greater at B because its price and quantity are both larger"
+      },
+      {
+        "label": "D",
+        "text": "Elasticity is smaller at B because the curve becomes steeper there"
+      },
+      {
+        "label": "E",
+        "text": "Elasticity cannot be compared without a demand curve"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Both points lie on a straight supply curve through the origin. Price and quantity remain proportional, so elasticity equals 1 at both points.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity supplied is on the horizontal axis. A straight supply curve S begins at the origin and contains point A at price $3 and quantity 15 and point B at price $9 and quantity 45. Dashed guides connect both points to the axes.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 60,
+        "yMax": 12,
+        "curves": [
+          {
+            "id": "S",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 56.39999999999999,
+                "y": 11.28
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 15,
+            "y": 3
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 45,
+            "y": 9
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 15,
+            "y": 3,
+            "xLabel": "15",
+            "yLabel": "$3"
+          },
+          {
+            "id": "guide1",
+            "x": 45,
+            "y": 9,
+            "xLabel": "45",
+            "yLabel": "$9"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "If the price elasticity of supply is 0.4, what price increase is needed to raise quantity supplied by 6 percent?",
+    "options": [
+      {
+        "label": "A",
+        "text": "10 percent"
+      },
+      {
+        "label": "B",
+        "text": "2.4 percent"
+      },
+      {
+        "label": "C",
+        "text": "6.4 percent"
+      },
+      {
+        "label": "D",
+        "text": "15 percent"
+      },
+      {
+        "label": "E",
+        "text": "24 percent"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The price increase is 6% / 0.4 = 15%.",
+    "reference": "MKT-3.E | MKT-3.E.6 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "At the current price, a firm has substantial unused machinery and workers with the needed skills. Which response is most likely after a price increase?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quantity supplied remains fixed because skilled workers cannot change output"
+      },
+      {
+        "label": "B",
+        "text": "Quantity supplied increases relatively strongly because spare capacity is available"
+      },
+      {
+        "label": "C",
+        "text": "Quantity supplied increases relatively weakly because spare capacity is available"
+      },
+      {
+        "label": "D",
+        "text": "Supply becomes perfectly elastic because any capacity is unused"
+      },
+      {
+        "label": "E",
+        "text": "Quantity supplied decreases because unused machinery raises opportunity cost"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Unused machinery and available skilled workers permit output expansion with little delay. This makes supply more responsive to a price rise.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "Two supply curves have the same slope but different intercepts. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "They must have identical elasticities because their slopes are the same"
+      },
+      {
+        "label": "B",
+        "text": "They must both be unit elastic because each curve is straight"
+      },
+      {
+        "label": "C",
+        "text": "Different quantities imply different percentage responses"
+      },
+      {
+        "label": "D",
+        "text": "The curve with more output must always be more elastic at every price"
+      },
+      {
+        "label": "E",
+        "text": "Elasticity can differ only if one of the curves shifts over time"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Equal slopes give equal absolute quantity responses, not necessarily equal percentage responses. Different quantity bases can produce different elasticities.",
+    "reference": "MKT-3.E | MKT-3.E.6 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "Quantity supplied rises from 600 to 690 units when price rises from $40 to $44. Using initial values, the price elasticity of supply is",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.90"
+      },
+      {
+        "label": "B",
+        "text": "2.25"
+      },
+      {
+        "label": "C",
+        "text": "1.5"
+      },
+      {
+        "label": "D",
+        "text": "1.1"
+      },
+      {
+        "label": "E",
+        "text": "0.67"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Quantity rises 15% and price rises 10%. Elasticity is 15/10 = 1.5.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "Based on the figure below, which change would most increase the elasticity of supply shown by S1?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lowering the cost of reallocating the shared input, producing S2"
+      },
+      {
+        "label": "B",
+        "text": "Shortening the production period, producing the flatter S2 curve"
+      },
+      {
+        "label": "C",
+        "text": "Making output capacity more restrictive, producing the flatter S2 curve"
+      },
+      {
+        "label": "D",
+        "text": "Fixing the available quantity of the shared input, producing S2"
+      },
+      {
+        "label": "E",
+        "text": "Raising the cost of reallocating the shared input, producing S2"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Cheaper input reallocation lets producers expand output more readily. S2 therefore has a larger quantity response and greater elasticity around the common point.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity supplied is on the horizontal axis. Curves S1 and flatter S2 pass through the same initial point A. A note states that S2 applies after the cost of reallocating a shared input falls; at higher price P2, S2 shows the larger quantity.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "S1",
+            "label": "S1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 19.41176470588235,
+                "y": 0.0
+              },
+              {
+                "x": 74.70588235294117,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "S2",
+            "label": "S2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 13.0
+              },
+              {
+                "x": 94.0,
+                "y": 64.7
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 40,
+            "y": 35
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 51.76470588235294,
+            "y": 55
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 76.36363636363636,
+            "y": 55
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 40,
+            "y": 35,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 51.76470588235294,
+            "y": 55,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          },
+          {
+            "id": "guide2",
+            "x": 76.36363636363636,
+            "y": 55,
+            "xLabel": "Q3"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "A firm reports an elasticity of supply of 0.8. Which pair of changes is consistent with that estimate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Price rises 15 percent and quantity supplied rises 12 percent"
+      },
+      {
+        "label": "B",
+        "text": "Price rises 20 percent and quantity supplied remains unchanged"
+      },
+      {
+        "label": "C",
+        "text": "Price rises 10 percent and quantity supplied rises 10 percent"
+      },
+      {
+        "label": "D",
+        "text": "Price rises 6 percent and quantity supplied rises 18 percent"
+      },
+      {
+        "label": "E",
+        "text": "Price rises 12 percent and quantity supplied rises 15 percent"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Supply elasticity is 12% / 15% = 0.8. A positive value below 1 indicates inelastic supply.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "A firm initially supplies 300 units. A 5 percent price increase occurs, and elasticity of supply is 1.2. What is the new quantity supplied?",
+    "options": [
+      {
+        "label": "A",
+        "text": "312 units"
+      },
+      {
+        "label": "B",
+        "text": "318 units"
+      },
+      {
+        "label": "C",
+        "text": "330 units"
+      },
+      {
+        "label": "D",
+        "text": "306 units"
+      },
+      {
+        "label": "E",
+        "text": "315 units"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The quantity increase is 1.2 x 5% = 6%. Adding 6% of 300, or 18, gives 318 units.",
+    "reference": "MKT-3.E | MKT-3.E.6 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 71,
+    "difficulty": "Hard",
+    "prompt": "Price rises 10 percent. Quantity supplied rises 4 percent immediately, 9 percent after six months, and 17 percent after three years. Which conclusion is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Elasticity cannot change unless the initial price also changes across periods"
+      },
+      {
+        "label": "B",
+        "text": "Supply changes from inelastic to elastic as producers gain adjustment time"
+      },
+      {
+        "label": "C",
+        "text": "Supply changes from elastic to inelastic as producers gain adjustment time"
+      },
+      {
+        "label": "D",
+        "text": "Supply is unit elastic in every period because one price change is used"
+      },
+      {
+        "label": "E",
+        "text": "Supply is perfectly inelastic immediately and perfectly elastic after three years"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The elasticities rise from 0.4 to 0.9 to 1.7 as adjustment time increases. Supply moves from inelastic to elastic.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 72,
+    "difficulty": "Hard",
+    "prompt": "A 12 percent price increase raises quantity supplied by 18 percent, but one-third of that quantity response comes from releasing inventories. Without the inventory response, elasticity would be",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.75"
+      },
+      {
+        "label": "B",
+        "text": "0.5"
+      },
+      {
+        "label": "C",
+        "text": "1.0"
+      },
+      {
+        "label": "D",
+        "text": "2.0"
+      },
+      {
+        "label": "E",
+        "text": "1.5"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Removing one-third of the 18% response leaves a 12% production increase. Dividing by the 12% price increase gives elasticity 1.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 73,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, which statement correctly compares the two marked ranges?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Supply is unit elastic in both ranges because the curve is continuous"
+      },
+      {
+        "label": "B",
+        "text": "Supply is inelastic from A to B but elastic from C to D"
+      },
+      {
+        "label": "C",
+        "text": "Supply is inelastic in both ranges because the curve becomes steeper"
+      },
+      {
+        "label": "D",
+        "text": "Supply is elastic from A to B but inelastic from C to D"
+      },
+      {
+        "label": "E",
+        "text": "Supply is elastic in both ranges because quantity supplied increases"
+      }
+    ],
+    "answer": "D",
+    "explanation": "AB's elasticity is 30/15 = 2, while CD's is 6/12 = 0.5. The first range is elastic and the second inelastic.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity supplied is on the horizontal axis. A convex upward-sloping supply curve S contains points A, B, C, and D in order. A-to-B is labeled 'price +15%, quantity +30%'; C-to-D is labeled 'price +12%, quantity +6%.'",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "S",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10,
+                "y": 16
+              },
+              {
+                "x": 20,
+                "y": 20
+              },
+              {
+                "x": 26,
+                "y": 23
+              },
+              {
+                "x": 65,
+                "y": 60
+              },
+              {
+                "x": 68.9,
+                "y": 67.2
+              },
+              {
+                "x": 72,
+                "y": 90
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 20,
+            "y": 20
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 26,
+            "y": 23
+          },
+          {
+            "id": "C",
+            "label": "C",
+            "x": 65,
+            "y": 60
+          },
+          {
+            "id": "D",
+            "label": "D",
+            "x": 68.9,
+            "y": 67.2
+          }
+        ],
+        "guides": [],
+        "regions": [],
+        "annotations": [
+          {
+            "id": "note0",
+            "text": "A→B: P +15%, Q +30%",
+            "x": 4,
+            "y": 90
+          },
+          {
+            "id": "note1",
+            "text": "C→D: P +12%, Q +6%",
+            "x": 4,
+            "y": 80
+          }
+        ],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "A firm has short-run supply elasticity 0.5. A price increase raises quantity supplied from 800 to 880 units. What was the percentage price increase?",
+    "options": [
+      {
+        "label": "A",
+        "text": "16 percent"
+      },
+      {
+        "label": "B",
+        "text": "40 percent"
+      },
+      {
+        "label": "C",
+        "text": "20 percent"
+      },
+      {
+        "label": "D",
+        "text": "10 percent"
+      },
+      {
+        "label": "E",
+        "text": "5 percent"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Quantity increases 80/800 = 10%. The implied price increase is 10% / 0.5 = 20%.",
+    "reference": "MKT-3.E | MKT-3.E.6 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "Two producers face the same price increase. Producer X has less spare capacity but can reallocate inputs more cheaply than Producer Y. What can be concluded about their relative supply elasticities?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The comparison is indeterminate because the two factors work in opposite directions"
+      },
+      {
+        "label": "B",
+        "text": "Both producers must have equal elasticity because each has one advantage"
+      },
+      {
+        "label": "C",
+        "text": "Producer X must be less elastic because spare capacity is the only relevant factor"
+      },
+      {
+        "label": "D",
+        "text": "Producer X must be more elastic because input reallocation is the only relevant factor"
+      },
+      {
+        "label": "E",
+        "text": "Both producers must be unit elastic because they face the same price change"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Lower reallocation costs increase X's responsiveness, while reduced spare capacity limits it. Their relative strengths are needed to compare elasticities.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "Using the midpoint method, price falls from $50 to $42 and quantity supplied falls from 140 to 112 units. What is the price elasticity of supply?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1.56"
+      },
+      {
+        "label": "B",
+        "text": "1.00"
+      },
+      {
+        "label": "C",
+        "text": "2.18"
+      },
+      {
+        "label": "D",
+        "text": "0.78"
+      },
+      {
+        "label": "E",
+        "text": "1.28"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Midpoint quantity change is 28/126 = 22.2%, and price change is 8/46 = 17.4%. Their ratio is about 1.28.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "A 20 percent price increase raises total quantity supplied by 30 percent. Half of the added units come from inventories that will be exhausted. What is the elasticity of the sustainable production response?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.50"
+      },
+      {
+        "label": "B",
+        "text": "3.00"
+      },
+      {
+        "label": "C",
+        "text": "0.75"
+      },
+      {
+        "label": "D",
+        "text": "1.00"
+      },
+      {
+        "label": "E",
+        "text": "1.50"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Sustainable production accounts for half the 30% response, or 15%. Dividing by the 20% price increase gives elasticity 0.75.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, which conclusion about the change from A to B is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The midpoint elasticity is 0.6, so supply is inelastic over the change"
+      },
+      {
+        "label": "B",
+        "text": "Elasticity cannot be calculated because the curve does not pass through the origin"
+      },
+      {
+        "label": "C",
+        "text": "The initial-value elasticity is 0.6, so both methods give the same percentage changes"
+      },
+      {
+        "label": "D",
+        "text": "The midpoint elasticity is 1.0, so supply is unit elastic over the change"
+      },
+      {
+        "label": "E",
+        "text": "The midpoint elasticity is 1.67, so supply is elastic over the change"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Midpoint quantity change is 10/45 = 22.2%, and price change is 4/10 = 40%. Elasticity is about 0.556, rounded to 0.6, so supply is inelastic.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity supplied is on the horizontal axis. Supply curve S contains point A at price $8 and quantity 40 and point B at price $12 and quantity 50. Dashed guides connect both points to the axes.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 65,
+        "yMax": 16,
+        "curves": [
+          {
+            "id": "S",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 20.0,
+                "y": 0.0
+              },
+              {
+                "x": 57.599999999999994,
+                "y": 15.04
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 40,
+            "y": 8
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 50,
+            "y": 12
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 40,
+            "y": 8,
+            "xLabel": "40",
+            "yLabel": "$8"
+          },
+          {
+            "id": "guide1",
+            "x": 50,
+            "y": 12,
+            "xLabel": "50",
+            "yLabel": "$12"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "A producer has elasticity of supply 1.5 for the first 8 percent price increase, but only 0.5 for the next 8 percent increase. Using each stage's starting quantity, the total quantity increase is closest to",
+    "options": [
+      {
+        "label": "A",
+        "text": "20.0 percent"
+      },
+      {
+        "label": "B",
+        "text": "16.0 percent"
+      },
+      {
+        "label": "C",
+        "text": "24.0 percent"
+      },
+      {
+        "label": "D",
+        "text": "12.0 percent"
+      },
+      {
+        "label": "E",
+        "text": "16.5 percent"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The successive quantity factors multiply: 1.12 x 1.04 = 1.1648. The combined increase is 16.48%, or about 16.5%.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "A firm's price elasticity of supply is 0.4 before expansion and 1.6 afterward. A 5 percent price increase occurs in each period. How much larger is the post-expansion quantity response?",
+    "options": [
+      {
+        "label": "A",
+        "text": "8 percentage points"
+      },
+      {
+        "label": "B",
+        "text": "4 percentage points"
+      },
+      {
+        "label": "C",
+        "text": "2 percentage points"
+      },
+      {
+        "label": "D",
+        "text": "10 percentage points"
+      },
+      {
+        "label": "E",
+        "text": "6 percentage points"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Before expansion, quantity rises 0.4 x 5% = 2%. After expansion, it rises 1.6 x 5% = 8%, a difference of 6 percentage points.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "A producer can either use land for berries or lease it for solar panels. The lease payment rises sharply. Which statement best describes the likely effect on the price elasticity of berry supply?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Berry supply becomes perfectly elastic because land has an observable rental price"
+      },
+      {
+        "label": "B",
+        "text": "Berry supply is unaffected because only berry prices enter the elasticity formula"
+      },
+      {
+        "label": "C",
+        "text": "Higher land opportunity cost makes supply less elastic"
+      },
+      {
+        "label": "D",
+        "text": "Berry supply becomes more elastic because the alternative use pays more"
+      },
+      {
+        "label": "E",
+        "text": "Berry supply becomes unit elastic because both uses require the same land"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Higher solar lease payments make berry production's alternative use more valuable. Redirecting land to berries becomes harder, reducing supply responsiveness.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, which statement best explains why S2 is more elastic than S1 at A?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The lower retooling cost makes the quantity response to P2 smaller"
+      },
+      {
+        "label": "B",
+        "text": "The lower retooling cost allows a larger quantity response to P2"
+      },
+      {
+        "label": "C",
+        "text": "The lower retooling cost makes both curves perfectly elastic at A"
+      },
+      {
+        "label": "D",
+        "text": "The retooling change makes elasticity depend only on curve slope"
+      },
+      {
+        "label": "E",
+        "text": "The retooling change shifts the initial point from A to P2"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Lower retooling costs allow a larger quantity response to P2. S2 therefore represents more elastic supply around the shared starting point.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity supplied is on the horizontal axis. Supply curves S1 and flatter S2 pass through point A at P1 and Q1. At higher price P2, S2 reaches Q3 while S1 reaches smaller Q2; a note states that S2 applies after retooling costs fall.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "S1",
+            "label": "S1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 19.41176470588235,
+                "y": 0.0
+              },
+              {
+                "x": 74.70588235294117,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "S2",
+            "label": "S2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 13.0
+              },
+              {
+                "x": 94.0,
+                "y": 64.7
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 40,
+            "y": 35
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 51.76470588235294,
+            "y": 55
+          },
+          {
+            "id": "point2",
+            "label": "",
+            "x": 76.36363636363636,
+            "y": 55
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 40,
+            "y": 35,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "guide1",
+            "x": 51.76470588235294,
+            "y": 55,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          },
+          {
+            "id": "guide2",
+            "x": 76.36363636363636,
+            "y": 55,
+            "xLabel": "Q3"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "Price rises 15 percent, but a simultaneous equipment failure limits the observed quantity increase to 3 percent. Why can the observed ratio fail to measure the original supply elasticity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Elasticity cannot be measured when quantity supplied changes by less than price"
+      },
+      {
+        "label": "B",
+        "text": "The equipment failure changes production responsiveness while price is changing"
+      },
+      {
+        "label": "C",
+        "text": "The equipment failure reverses the law of supply for every producer"
+      },
+      {
+        "label": "D",
+        "text": "The equipment failure makes percentage changes equivalent to absolute changes"
+      },
+      {
+        "label": "E",
+        "text": "The observed ratio must equal original elasticity whenever both variables rise"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The equipment failure changes capacity while price is changing. The observed 3/15 ratio combines both effects and cannot isolate price responsiveness under unchanged supply conditions.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.8 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "A 10 percent price increase raises quantity supplied 5 percent in the short run. In the long run, elasticity is twice the short-run value. If long-run quantity initially equals 900 units, the long-run quantity after the increase is",
+    "options": [
+      {
+        "label": "A",
+        "text": "950 units"
+      },
+      {
+        "label": "B",
+        "text": "1,080 units"
+      },
+      {
+        "label": "C",
+        "text": "1,000 units"
+      },
+      {
+        "label": "D",
+        "text": "990 units"
+      },
+      {
+        "label": "E",
+        "text": "945 units"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Short-run elasticity is 5/10 = 0.5, so the stated long-run elasticity is 1. Quantity rises 10% from 900 to 990 units.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "Industry X can store output but cannot expand production; Industry Y cannot store output but has extensive spare capacity. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Industry X must be more elastic because inventory is always more important than capacity"
+      },
+      {
+        "label": "B",
+        "text": "Both industries must be perfectly inelastic because each faces one production constraint"
+      },
+      {
+        "label": "C",
+        "text": "Both industries must be equally elastic because each has one source of flexibility"
+      },
+      {
+        "label": "D",
+        "text": "Industry Y must be more elastic because capacity is always more important than inventory"
+      },
+      {
+        "label": "E",
+        "text": "Their relative short-run elasticities are indeterminate without the strengths of both flexibilities"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Inventories help X vary sales, while spare capacity helps Y vary production. The sizes of these advantages are needed to determine which supply is more elastic.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "A firm supplies 240 units at the initial price. Price rises 12 percent, but quantity supplied may not exceed 270 units. If unconstrained elasticity is 1.5, the observed elasticity will be",
+    "options": [
+      {
+        "label": "A",
+        "text": "1.50 because the unconstrained elasticity always applies"
+      },
+      {
+        "label": "B",
+        "text": "About 1.04 because the capacity limit binds"
+      },
+      {
+        "label": "C",
+        "text": "1.25 because capacity rises by 30 units"
+      },
+      {
+        "label": "D",
+        "text": "0.50 because only half the desired response is possible"
+      },
+      {
+        "label": "E",
+        "text": "1.88 because the capacity limit raises responsiveness"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The unconstrained response would reach 240 x 1.18 = 283.2 units, exceeding capacity. Actual output is 270, so realized elasticity is (30/240) / 0.12 = about 1.04.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, which conclusion is supported by the equal-slope curves at price P?",
+    "options": [
+      {
+        "label": "A",
+        "text": "S1 and S2 are equally elastic because their absolute slopes are equal"
+      },
+      {
+        "label": "B",
+        "text": "Elasticity cannot differ when equal price changes produce equal absolute quantity changes"
+      },
+      {
+        "label": "C",
+        "text": "S2 is more elastic because it supplies the larger initial quantity at P"
+      },
+      {
+        "label": "D",
+        "text": "S2 has a smaller proportional quantity change"
+      },
+      {
+        "label": "E",
+        "text": "S1 is less elastic because it begins at a positive price-axis intercept"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Equal slopes give equal unit responses to the same price change. At the common price, S2's larger quantity makes that response a smaller percentage, giving lower elasticity.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity supplied is on the horizontal axis. Parallel upward-sloping supply curves S1 and S2 are shown, with S2 to the right of S1. At price P, quantities Q1 and larger Q2 are labeled, and the same small price increase is marked on both curves.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "S1",
+            "label": "S1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 94.0,
+                "y": 94.0
+              }
+            ]
+          },
+          {
+            "id": "S2",
+            "label": "S2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 20.0,
+                "y": 0.0
+              },
+              {
+                "x": 94.0,
+                "y": 74.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 40,
+            "y": 40
+          },
+          {
+            "id": "point1",
+            "label": "",
+            "x": 60,
+            "y": 40
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 40,
+            "y": 40,
+            "xLabel": "Q1",
+            "yLabel": "P"
+          },
+          {
+            "id": "guide1",
+            "x": 60,
+            "y": 40,
+            "xLabel": "Q2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "A price decrease of 8 percent lowers quantity supplied by 6 percent initially. After inventories are exhausted, the sustained quantity decrease is only 2 percent. Which elasticities describe the initial and sustained responses?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.75 initially and 0.25 sustained"
+      },
+      {
+        "label": "B",
+        "text": "0.75 initially and 3.00 sustained"
+      },
+      {
+        "label": "C",
+        "text": "0.25 initially and 0.75 sustained"
+      },
+      {
+        "label": "D",
+        "text": "1.33 initially and 4.00 sustained"
+      },
+      {
+        "label": "E",
+        "text": "1.00 initially and 0.25 sustained"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Initial elasticity is 6/8 = 0.75, but sustained elasticity is 2/8 = 0.25. The difference reflects the temporary inventory response.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "A firm estimates supply elasticity as 2 using a 4 percent price increase. If a capacity constraint allows quantity to rise by at most 6 percent, which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The constraint leaves realized elasticity at 2 because price is unchanged"
+      },
+      {
+        "label": "B",
+        "text": "The constraint makes realized elasticity 0.5 by reversing the ratio"
+      },
+      {
+        "label": "C",
+        "text": "The constraint reduces the realized elasticity from 2 to 1.5"
+      },
+      {
+        "label": "D",
+        "text": "The constraint makes supply perfectly inelastic over the change"
+      },
+      {
+        "label": "E",
+        "text": "The constraint raises the realized elasticity from 2 to 2.5"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The unconstrained 8% response exceeds the 6% limit. Actual elasticity is therefore 6% / 4% = 1.5.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "Using initial values, price rises from $30 to $36 and quantity supplied rises from 500 to 650. Using the midpoint method instead would produce an elasticity that is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher, because both percentage changes use larger average denominators"
+      },
+      {
+        "label": "B",
+        "text": "Lower, because both percentage changes use larger average denominators"
+      },
+      {
+        "label": "C",
+        "text": "Unchanged, because every elasticity method gives the same finite-change value"
+      },
+      {
+        "label": "D",
+        "text": "Zero, because midpoint percentages eliminate directional changes"
+      },
+      {
+        "label": "E",
+        "text": "Negative, because the midpoint reverses the quantity-price relationship"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The initial-value calculation gives 30/20 = 1.5. Midpoint percentages are about 26.1% and 18.2%, giving the slightly lower value of about 1.44.",
+    "reference": "MKT-3.E | MKT-3.E.6 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "A firm can double capacity only after two years. Before expansion, elasticity is 0.2; afterward it is 1.3. Which statement best explains the difference?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The capacity adjustment permits a larger quantity response to the same percentage price change"
+      },
+      {
+        "label": "B",
+        "text": "The capacity adjustment changes elasticity only because the price must be lower"
+      },
+      {
+        "label": "C",
+        "text": "The capacity adjustment permits a smaller quantity response to the same percentage price change"
+      },
+      {
+        "label": "D",
+        "text": "The capacity adjustment makes the percentage price change exceed the quantity change"
+      },
+      {
+        "label": "E",
+        "text": "The capacity adjustment makes both elasticities equal to the slope"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A binding capacity limit prevents a strong immediate output response. Once capacity can expand, quantity supplied becomes more responsive to price.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "The price of a versatile input's alternative use falls while the time needed to reconfigure equipment rises. What can be concluded about supply elasticity for the current good?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Elasticity must fall because both changes make production less flexible"
+      },
+      {
+        "label": "B",
+        "text": "Elasticity must rise because both changes make production more flexible"
+      },
+      {
+        "label": "C",
+        "text": "Elasticity must equal 1 because the two factors change in opposite directions"
+      },
+      {
+        "label": "D",
+        "text": "Elasticity is unchanged because only the product's own price can affect it"
+      },
+      {
+        "label": "E",
+        "text": "Indeterminate; the two effects oppose each other"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Lower alternative-use returns make reallocating inputs easier, while longer reconfiguration delays adjustment. The net elasticity change depends on these opposing effects.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, which value is the price elasticity of supply from A to B using the midpoint method?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2.5"
+      },
+      {
+        "label": "B",
+        "text": "0.5"
+      },
+      {
+        "label": "C",
+        "text": "0.8"
+      },
+      {
+        "label": "D",
+        "text": "1.0"
+      },
+      {
+        "label": "E",
+        "text": "2.0"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Midpoint quantity change is 40/40 = 100%, and price change is 4/8 = 50%. Supply elasticity is 100/50 = 2.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.7 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity supplied is on the horizontal axis. Supply curve S contains point A at price $6 and quantity 20 and point B at price $10 and quantity 60. Dashed guides connect both points to the axes.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 80,
+        "yMax": 14,
+        "curves": [
+          {
+            "id": "S",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 4.0
+              },
+              {
+                "x": 75.19999999999999,
+                "y": 11.52
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 20,
+            "y": 6
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 60,
+            "y": 10
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 20,
+            "y": 6,
+            "xLabel": "20",
+            "yLabel": "$6"
+          },
+          {
+            "id": "guide1",
+            "x": 60,
+            "y": 10,
+            "xLabel": "60",
+            "yLabel": "$10"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "A producer's elasticity is 0.6 for a 10 percent price increase. A technology improvement then doubles only the percentage quantity response to the same price increase. The new elasticity is",
+    "options": [
+      {
+        "label": "A",
+        "text": "1.0"
+      },
+      {
+        "label": "B",
+        "text": "0.6"
+      },
+      {
+        "label": "C",
+        "text": "0.3"
+      },
+      {
+        "label": "D",
+        "text": "2.0"
+      },
+      {
+        "label": "E",
+        "text": "1.2"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The original quantity response is 0.6 x 10% = 6%. Doubling it to 12% gives new elasticity 12/10 = 1.2.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "A price rise increases quantity supplied 25 percent. After removing a temporary 10-percentage-point inventory response, the production response is unit elastic. The price increase was",
+    "options": [
+      {
+        "label": "A",
+        "text": "10 percent"
+      },
+      {
+        "label": "B",
+        "text": "35 percent"
+      },
+      {
+        "label": "C",
+        "text": "25 percent"
+      },
+      {
+        "label": "D",
+        "text": "15 percent"
+      },
+      {
+        "label": "E",
+        "text": "20 percent"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Removing inventory sales leaves a 15% production response. Unit elasticity requires a matching 15% price increase.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "A market's supply is perfectly inelastic today but elastic over five years. Which combination best explains this pattern?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Current output changes proportionally, but future output cannot change"
+      },
+      {
+        "label": "B",
+        "text": "Current inputs are fully adjustable, but future input choices disappear"
+      },
+      {
+        "label": "C",
+        "text": "Current quantity can vary freely, but future capacity becomes permanently fixed"
+      },
+      {
+        "label": "D",
+        "text": "Fixed current output; expandable future capacity"
+      },
+      {
+        "label": "E",
+        "text": "Current sellers accept only one price, but future sellers accept every price"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The immediate quantity is fixed, making supply perfectly inelastic. Five years allows investment and input adjustments, increasing responsiveness.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "Price rises from $24 to $30. Quantity supplied rises from 320 to 400, but 20 of the added units came from a one- time inventory release. Using initial values, the elasticity of ongoing production is",
+    "options": [
+      {
+        "label": "A",
+        "text": "1.25"
+      },
+      {
+        "label": "B",
+        "text": "1.50"
+      },
+      {
+        "label": "C",
+        "text": "0.60"
+      },
+      {
+        "label": "D",
+        "text": "1.00"
+      },
+      {
+        "label": "E",
+        "text": "0.75"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Ongoing production increases 60/320 = 18.75%. Dividing by the 25% price increase gives production elasticity 0.75.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "Based on the figure below, which statement about the movement from A to B is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The movement is unit elastic because both price and quantity supplied increase"
+      },
+      {
+        "label": "B",
+        "text": "The capacity segment makes the quantity response larger, so elasticity rises above 1"
+      },
+      {
+        "label": "C",
+        "text": "The capacity segment makes the quantity response smaller, so elasticity falls below 1"
+      },
+      {
+        "label": "D",
+        "text": "The vertical segment is perfectly elastic because price changes while quantity is fixed"
+      },
+      {
+        "label": "E",
+        "text": "The movement shifts supply left because quantity cannot exceed Qmax"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The curve approaches a capacity limit, restricting the quantity increase. The displayed elasticity is 8% / 20% = 0.4, so supply is inelastic.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.8 | Skill 2.C",
+    "graphDescription": "Price is on the vertical axis and quantity supplied is on the horizontal axis. Supply curve S bends sharply upward near a dashed vertical line Qmax. An arrow from A to B near Qmax is labeled 'price +20%, quantity supplied +8%.'",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "S",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 10,
+                "y": 10
+              },
+              {
+                "x": 30,
+                "y": 20
+              },
+              {
+                "x": 50,
+                "y": 35
+              },
+              {
+                "x": 65,
+                "y": 55
+              },
+              {
+                "x": 70.2,
+                "y": 66
+              },
+              {
+                "x": 72,
+                "y": 92
+              }
+            ]
+          },
+          {
+            "id": "Qmax",
+            "label": "Qmax",
+            "style": "reference",
+            "points": [
+              {
+                "x": 73,
+                "y": 0
+              },
+              {
+                "x": 73,
+                "y": 95
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 65,
+            "y": 55
+          },
+          {
+            "id": "B",
+            "label": "B",
+            "x": 70.2,
+            "y": 66
+          }
+        ],
+        "guides": [],
+        "regions": [],
+        "annotations": [
+          {
+            "id": "note0",
+            "text": "A→B: P +20%, Q +8%",
+            "x": 4,
+            "y": 88
+          }
+        ],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "Two firms have elasticity 0.5 initially. Firm A gains spare capacity, while Firm B faces a higher price for an input's alternative use. Which comparison is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both elasticities remain 0.5 because elasticity cannot change over time"
+      },
+      {
+        "label": "B",
+        "text": "Firm A's elasticity falls while Firm B's elasticity rises"
+      },
+      {
+        "label": "C",
+        "text": "Firm A's elasticity rises while Firm B's elasticity falls"
+      },
+      {
+        "label": "D",
+        "text": "Both elasticities fall because each firm's initial elasticity was below 1"
+      },
+      {
+        "label": "E",
+        "text": "Both elasticities rise because each firm can charge a higher price"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Spare capacity lets A expand output readily. B's higher alternative-use return makes inputs harder to redirect, limiting its response.",
+    "reference": "MKT-3.E | MKT-3.E.8 | Skill 2.B",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "An industry has elasticity 0.4 for the first 5 percent price increase and 1.8 after new capacity becomes available. If the second price increase is also 5 percent, which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quantity rises 2 percent first and 9 percent after capacity becomes available"
+      },
+      {
+        "label": "B",
+        "text": "Quantity rises 0.4 percent first and 1.8 percent in the second stage"
+      },
+      {
+        "label": "C",
+        "text": "Quantity remains fixed first and becomes perfectly elastic in the second stage"
+      },
+      {
+        "label": "D",
+        "text": "Quantity rises 9 percent first and 2 percent after capacity becomes available"
+      },
+      {
+        "label": "E",
+        "text": "Quantity rises 5 percent in both stages because the price changes are equal"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Initially, quantity rises 0.4 x 5% = 2%. With capacity available, it rises 1.8 x 5% = 9%.",
+    "reference": "MKT-3.E | MKT-3.E.6 | MKT-3.E.8 | Skill 3.C",
+    "graphDescription": "",
+    "graphRequired": false
+  }
+]

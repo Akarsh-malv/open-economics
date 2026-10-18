@@ -1,0 +1,4337 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, which distribution is more unequal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "L1, because it reaches 100 percent"
+      },
+      {
+        "label": "B",
+        "text": "L1, because it lies closer to the line of equality"
+      },
+      {
+        "label": "C",
+        "text": "L2; it lies farther below equality"
+      },
+      {
+        "label": "D",
+        "text": "Neither curve represents a distribution"
+      },
+      {
+        "label": "E",
+        "text": "Both distributions are equally unequal"
+      }
+    ],
+    "answer": "C",
+    "explanation": "L2 lies farther below the equality line. Lower-income population groups receive smaller cumulative income shares, indicating greater inequality.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "Cumulative percentage of households is on the horizontal axis and cumulative percentage of income is on the vertical axis. The 45-degree line of equality and two Lorenz curves, L1 and L2, are shown; L2 bows farther below the equality line than L1.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Households (cumulative %)",
+        "yLabel": "Income (cumulative %)",
+        "xMax": 110,
+        "yMax": 110,
+        "curves": [
+          {
+            "id": "Equality",
+            "label": "Equality",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 100,
+                "y": 100
+              }
+            ]
+          },
+          {
+            "id": "L1",
+            "label": "L1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 5,
+                "y": 0.6141140130578954
+              },
+              {
+                "x": 10,
+                "y": 1.99526231496888
+              },
+              {
+                "x": 15,
+                "y": 3.9751648211308095
+              },
+              {
+                "x": 20,
+                "y": 6.4826263867710505
+              },
+              {
+                "x": 25,
+                "y": 9.47322854068999
+              },
+              {
+                "x": 30,
+                "y": 12.915348607498025
+              },
+              {
+                "x": 35,
+                "y": 16.784780854932098
+              },
+              {
+                "x": 40,
+                "y": 21.0621152693478
+              },
+              {
+                "x": 45,
+                "y": 25.73127305216894
+              },
+              {
+                "x": 50,
+                "y": 30.778610333622908
+              },
+              {
+                "x": 55,
+                "y": 36.192332416716155
+              },
+              {
+                "x": 60,
+                "y": 41.96209142486577
+              },
+              {
+                "x": 65,
+                "y": 48.07869889606779
+              },
+              {
+                "x": 70,
+                "y": 54.53391388693143
+              },
+              {
+                "x": 75,
+                "y": 61.320282613276
+              },
+              {
+                "x": 80,
+                "y": 68.43101439943604
+              },
+              {
+                "x": 85,
+                "y": 75.85988390251268
+              },
+              {
+                "x": 90,
+                "y": 83.6011527916834
+              },
+              {
+                "x": 95,
+                "y": 91.64950612180127
+              },
+              {
+                "x": 100,
+                "y": 100.0
+              }
+            ]
+          },
+          {
+            "id": "L2",
+            "label": "L2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 5,
+                "y": 0.030705700652894748
+              },
+              {
+                "x": 10,
+                "y": 0.1995262314968879
+              },
+              {
+                "x": 15,
+                "y": 0.5962747231696213
+              },
+              {
+                "x": 20,
+                "y": 1.2965252773542097
+              },
+              {
+                "x": 25,
+                "y": 2.3683071351724965
+              },
+              {
+                "x": 30,
+                "y": 3.8746045822494066
+              },
+              {
+                "x": 35,
+                "y": 5.874673299226232
+              },
+              {
+                "x": 40,
+                "y": 8.42484610773912
+              },
+              {
+                "x": 45,
+                "y": 11.579072873476022
+              },
+              {
+                "x": 50,
+                "y": 15.38930516681145
+              },
+              {
+                "x": 55,
+                "y": 19.905782829193885
+              },
+              {
+                "x": 60,
+                "y": 25.177254854919457
+              },
+              {
+                "x": 65,
+                "y": 31.25115428244406
+              },
+              {
+                "x": 70,
+                "y": 38.173739720852
+              },
+              {
+                "x": 75,
+                "y": 45.990211959956994
+              },
+              {
+                "x": 80,
+                "y": 54.74481151954883
+              },
+              {
+                "x": 85,
+                "y": 64.48090131713577
+              },
+              {
+                "x": 90,
+                "y": 75.24103751251505
+              },
+              {
+                "x": 95,
+                "y": 87.06703081571119
+              },
+              {
+                "x": 100,
+                "y": 100.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 100,
+            "y": 100,
+            "xLabel": "100%",
+            "yLabel": "100%"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "The Lorenz curve shows",
+    "options": [
+      {
+        "label": "A",
+        "text": "The rate of return on human capital"
+      },
+      {
+        "label": "B",
+        "text": "The marginal tax rate at each income level"
+      },
+      {
+        "label": "C",
+        "text": "The poverty threshold for each household size"
+      },
+      {
+        "label": "D",
+        "text": "Cumulative population and resource shares"
+      },
+      {
+        "label": "E",
+        "text": "The relationship between wage and labor quantity"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A Lorenz curve ranks the population from lowest to highest income or wealth. It plots cumulative population shares against cumulative shares of that income or wealth.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "Greater inequality is represented by a Lorenz curve that",
+    "options": [
+      {
+        "label": "A",
+        "text": "Shifts above the line of equality"
+      },
+      {
+        "label": "B",
+        "text": "Coincides with the horizontal axis only at the origin"
+      },
+      {
+        "label": "C",
+        "text": "Has a slope of one at every point"
+      },
+      {
+        "label": "D",
+        "text": "Lies closer to the line of equality"
+      },
+      {
+        "label": "E",
+        "text": "Bows farther away from the line of equality"
+      }
+    ],
+    "answer": "E",
+    "explanation": "A more bowed curve gives lower cumulative income shares to the lower population groups. It represents greater inequality.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "A Gini coefficient closer to zero indicates",
+    "options": [
+      {
+        "label": "A",
+        "text": "A higher poverty threshold"
+      },
+      {
+        "label": "B",
+        "text": "A more regressive tax rate"
+      },
+      {
+        "label": "C",
+        "text": "A lower level of total income necessarily"
+      },
+      {
+        "label": "D",
+        "text": "Greater equality in the distribution"
+      },
+      {
+        "label": "E",
+        "text": "Greater inequality in the distribution"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A Gini coefficient of zero represents complete equality. A value nearer zero indicates a more equal distribution.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "If one Lorenz curve lies closer to equality at every population share, that distribution is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Less unequal"
+      },
+      {
+        "label": "B",
+        "text": "Identical in every household’s income"
+      },
+      {
+        "label": "C",
+        "text": "Necessarily poorer in total income"
+      },
+      {
+        "label": "D",
+        "text": "More unequal"
+      },
+      {
+        "label": "E",
+        "text": "Necessarily richer in total income"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Being closer to the equality line at every population share means lower groups receive larger cumulative shares. The distribution is more equal.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "A progressive tax structure has",
+    "options": [
+      {
+        "label": "A",
+        "text": "A fixed dollar payment for every taxpayer"
+      },
+      {
+        "label": "B",
+        "text": "A zero marginal rate for high incomes"
+      },
+      {
+        "label": "C",
+        "text": "An average tax rate that rises as income rises"
+      },
+      {
+        "label": "D",
+        "text": "The same average tax rate at all incomes"
+      },
+      {
+        "label": "E",
+        "text": "An average tax rate that falls as income rises"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Under a progressive tax, the average tax rate rises with income. Higher-income households pay a larger percentage of their income.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "A regressive tax structure has",
+    "options": [
+      {
+        "label": "A",
+        "text": "Benefits that rise faster than income"
+      },
+      {
+        "label": "B",
+        "text": "A marginal rate equal to zero for low incomes"
+      },
+      {
+        "label": "C",
+        "text": "An average tax rate that falls as income rises"
+      },
+      {
+        "label": "D",
+        "text": "The same average tax rate at all incomes"
+      },
+      {
+        "label": "E",
+        "text": "An average tax rate that rises as income rises"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Under a regressive tax, the average tax rate falls as income rises. Lower-income households pay a larger percentage of their income.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, a movement of L2 toward L1 would indicate",
+    "options": [
+      {
+        "label": "A",
+        "text": "An increase in income inequality"
+      },
+      {
+        "label": "B",
+        "text": "A higher poverty threshold necessarily"
+      },
+      {
+        "label": "C",
+        "text": "A proportional rise in every income with unchanged shares"
+      },
+      {
+        "label": "D",
+        "text": "A fall in total national income necessarily"
+      },
+      {
+        "label": "E",
+        "text": "A reduction in income inequality"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Moving the Lorenz curve closer to equality makes cumulative income shares more evenly distributed. It does not establish that total income has increased.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "Cumulative percentage of households is on the horizontal axis and cumulative percentage of income is on the vertical axis. The 45-degree line of equality and two Lorenz curves, L1 and L2, are shown; L2 bows farther below the equality line than L1.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Households (cumulative %)",
+        "yLabel": "Income (cumulative %)",
+        "xMax": 110,
+        "yMax": 110,
+        "curves": [
+          {
+            "id": "Equality",
+            "label": "Equality",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 100,
+                "y": 100
+              }
+            ]
+          },
+          {
+            "id": "L1",
+            "label": "L1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 5,
+                "y": 0.6141140130578954
+              },
+              {
+                "x": 10,
+                "y": 1.99526231496888
+              },
+              {
+                "x": 15,
+                "y": 3.9751648211308095
+              },
+              {
+                "x": 20,
+                "y": 6.4826263867710505
+              },
+              {
+                "x": 25,
+                "y": 9.47322854068999
+              },
+              {
+                "x": 30,
+                "y": 12.915348607498025
+              },
+              {
+                "x": 35,
+                "y": 16.784780854932098
+              },
+              {
+                "x": 40,
+                "y": 21.0621152693478
+              },
+              {
+                "x": 45,
+                "y": 25.73127305216894
+              },
+              {
+                "x": 50,
+                "y": 30.778610333622908
+              },
+              {
+                "x": 55,
+                "y": 36.192332416716155
+              },
+              {
+                "x": 60,
+                "y": 41.96209142486577
+              },
+              {
+                "x": 65,
+                "y": 48.07869889606779
+              },
+              {
+                "x": 70,
+                "y": 54.53391388693143
+              },
+              {
+                "x": 75,
+                "y": 61.320282613276
+              },
+              {
+                "x": 80,
+                "y": 68.43101439943604
+              },
+              {
+                "x": 85,
+                "y": 75.85988390251268
+              },
+              {
+                "x": 90,
+                "y": 83.6011527916834
+              },
+              {
+                "x": 95,
+                "y": 91.64950612180127
+              },
+              {
+                "x": 100,
+                "y": 100.0
+              }
+            ]
+          },
+          {
+            "id": "L2",
+            "label": "L2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 5,
+                "y": 0.030705700652894748
+              },
+              {
+                "x": 10,
+                "y": 0.1995262314968879
+              },
+              {
+                "x": 15,
+                "y": 0.5962747231696213
+              },
+              {
+                "x": 20,
+                "y": 1.2965252773542097
+              },
+              {
+                "x": 25,
+                "y": 2.3683071351724965
+              },
+              {
+                "x": 30,
+                "y": 3.8746045822494066
+              },
+              {
+                "x": 35,
+                "y": 5.874673299226232
+              },
+              {
+                "x": 40,
+                "y": 8.42484610773912
+              },
+              {
+                "x": 45,
+                "y": 11.579072873476022
+              },
+              {
+                "x": 50,
+                "y": 15.38930516681145
+              },
+              {
+                "x": 55,
+                "y": 19.905782829193885
+              },
+              {
+                "x": 60,
+                "y": 25.177254854919457
+              },
+              {
+                "x": 65,
+                "y": 31.25115428244406
+              },
+              {
+                "x": 70,
+                "y": 38.173739720852
+              },
+              {
+                "x": 75,
+                "y": 45.990211959956994
+              },
+              {
+                "x": 80,
+                "y": 54.74481151954883
+              },
+              {
+                "x": 85,
+                "y": 64.48090131713577
+              },
+              {
+                "x": 90,
+                "y": 75.24103751251505
+              },
+              {
+                "x": 95,
+                "y": 87.06703081571119
+              },
+              {
+                "x": 100,
+                "y": 100.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 100,
+            "y": 100,
+            "xLabel": "100%",
+            "yLabel": "100%"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "Human capital can contribute to income inequality because",
+    "options": [
+      {
+        "label": "A",
+        "text": "Education eliminates every form of discrimination"
+      },
+      {
+        "label": "B",
+        "text": "Skills reduce labor demand"
+      },
+      {
+        "label": "C",
+        "text": "Skills affect productivity and pay"
+      },
+      {
+        "label": "D",
+        "text": "Training makes wages independent of productivity"
+      },
+      {
+        "label": "E",
+        "text": "All workers receive identical marginal products"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Education, training, and skills can raise workers' marginal productivity. Differences in human capital can therefore produce differences in earnings.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "Social capital can influence income inequality through",
+    "options": [
+      {
+        "label": "A",
+        "text": "The legal minimum wage only"
+      },
+      {
+        "label": "B",
+        "text": "The depreciation of financial assets"
+      },
+      {
+        "label": "C",
+        "text": "The equality line on a Lorenz curve"
+      },
+      {
+        "label": "D",
+        "text": "Networks connecting people to opportunities"
+      },
+      {
+        "label": "E",
+        "text": "The physical machinery owned by firms"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Networks and connections influence access to jobs, advice, finance, and opportunities. Unequal social capital can contribute to unequal earnings.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "Inheritance contributes directly to wealth inequality by",
+    "options": [
+      {
+        "label": "A",
+        "text": "Equalizing every household’s labor income"
+      },
+      {
+        "label": "B",
+        "text": "Making tax systems proportional"
+      },
+      {
+        "label": "C",
+        "text": "Unequal inheritance across generations"
+      },
+      {
+        "label": "D",
+        "text": "Reducing the value of financial assets to zero"
+      },
+      {
+        "label": "E",
+        "text": "Eliminating differences in access to credit"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Unequal inheritances give households different initial assets. Those assets can earn further returns, sustaining or widening wealth differences.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "Limited access to financial markets can widen wealth inequality because",
+    "options": [
+      {
+        "label": "A",
+        "text": "Financial markets distribute inheritances equally"
+      },
+      {
+        "label": "B",
+        "text": "Credit access lowers all wages"
+      },
+      {
+        "label": "C",
+        "text": "Every household earns the same return"
+      },
+      {
+        "label": "D",
+        "text": "Borrowing always reduces net worth"
+      },
+      {
+        "label": "E",
+        "text": "Limited access to finance"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Limited access to credit and investment opportunities can restrict productive investment. This makes accumulating assets harder and can widen wealth gaps.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "Discrimination can create income inequality when it",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eliminates bargaining power differences"
+      },
+      {
+        "label": "B",
+        "text": "Makes Lorenz curves coincide with equality"
+      },
+      {
+        "label": "C",
+        "text": "Group-based unequal rewards for equal productivity"
+      },
+      {
+        "label": "D",
+        "text": "Guarantees equal access to jobs"
+      },
+      {
+        "label": "E",
+        "text": "Raises every worker’s value of marginal product equally"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Discrimination can create differences in hiring, promotion, and pay unrelated to productivity. These differences can sustain income inequality.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "Greater worker bargaining power can raise labor income when it",
+    "options": [
+      {
+        "label": "A",
+        "text": "Collective bargaining can raise pay"
+      },
+      {
+        "label": "B",
+        "text": "Reduces marginal revenue product to zero"
+      },
+      {
+        "label": "C",
+        "text": "Forces all incomes to be identical"
+      },
+      {
+        "label": "D",
+        "text": "Makes labor supply perfectly elastic"
+      },
+      {
+        "label": "E",
+        "text": "Eliminates the demand for labor"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Stronger bargaining power lets workers negotiate a larger share of the value they produce. It can raise their labor income.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, the Lorenz curves can compare",
+    "options": [
+      {
+        "label": "A",
+        "text": "Marginal tax rates at every income"
+      },
+      {
+        "label": "B",
+        "text": "Poverty thresholds only"
+      },
+      {
+        "label": "C",
+        "text": "Total income but not relative inequality"
+      },
+      {
+        "label": "D",
+        "text": "Individual mobility over time directly"
+      },
+      {
+        "label": "E",
+        "text": "Relative inequality, not income levels"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Lorenz curves show relative shares, not dollar totals. Economies with different total incomes can therefore have the same curve.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "Cumulative percentage of households is on the horizontal axis and cumulative percentage of income is on the vertical axis. The 45-degree line of equality and two Lorenz curves, L1 and L2, are shown; L2 bows farther below the equality line than L1.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Households (cumulative %)",
+        "yLabel": "Income (cumulative %)",
+        "xMax": 110,
+        "yMax": 110,
+        "curves": [
+          {
+            "id": "Equality",
+            "label": "Equality",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 100,
+                "y": 100
+              }
+            ]
+          },
+          {
+            "id": "L1",
+            "label": "L1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 5,
+                "y": 0.6141140130578954
+              },
+              {
+                "x": 10,
+                "y": 1.99526231496888
+              },
+              {
+                "x": 15,
+                "y": 3.9751648211308095
+              },
+              {
+                "x": 20,
+                "y": 6.4826263867710505
+              },
+              {
+                "x": 25,
+                "y": 9.47322854068999
+              },
+              {
+                "x": 30,
+                "y": 12.915348607498025
+              },
+              {
+                "x": 35,
+                "y": 16.784780854932098
+              },
+              {
+                "x": 40,
+                "y": 21.0621152693478
+              },
+              {
+                "x": 45,
+                "y": 25.73127305216894
+              },
+              {
+                "x": 50,
+                "y": 30.778610333622908
+              },
+              {
+                "x": 55,
+                "y": 36.192332416716155
+              },
+              {
+                "x": 60,
+                "y": 41.96209142486577
+              },
+              {
+                "x": 65,
+                "y": 48.07869889606779
+              },
+              {
+                "x": 70,
+                "y": 54.53391388693143
+              },
+              {
+                "x": 75,
+                "y": 61.320282613276
+              },
+              {
+                "x": 80,
+                "y": 68.43101439943604
+              },
+              {
+                "x": 85,
+                "y": 75.85988390251268
+              },
+              {
+                "x": 90,
+                "y": 83.6011527916834
+              },
+              {
+                "x": 95,
+                "y": 91.64950612180127
+              },
+              {
+                "x": 100,
+                "y": 100.0
+              }
+            ]
+          },
+          {
+            "id": "L2",
+            "label": "L2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 5,
+                "y": 0.030705700652894748
+              },
+              {
+                "x": 10,
+                "y": 0.1995262314968879
+              },
+              {
+                "x": 15,
+                "y": 0.5962747231696213
+              },
+              {
+                "x": 20,
+                "y": 1.2965252773542097
+              },
+              {
+                "x": 25,
+                "y": 2.3683071351724965
+              },
+              {
+                "x": 30,
+                "y": 3.8746045822494066
+              },
+              {
+                "x": 35,
+                "y": 5.874673299226232
+              },
+              {
+                "x": 40,
+                "y": 8.42484610773912
+              },
+              {
+                "x": 45,
+                "y": 11.579072873476022
+              },
+              {
+                "x": 50,
+                "y": 15.38930516681145
+              },
+              {
+                "x": 55,
+                "y": 19.905782829193885
+              },
+              {
+                "x": 60,
+                "y": 25.177254854919457
+              },
+              {
+                "x": 65,
+                "y": 31.25115428244406
+              },
+              {
+                "x": 70,
+                "y": 38.173739720852
+              },
+              {
+                "x": 75,
+                "y": 45.990211959956994
+              },
+              {
+                "x": 80,
+                "y": 54.74481151954883
+              },
+              {
+                "x": 85,
+                "y": 64.48090131713577
+              },
+              {
+                "x": 90,
+                "y": 75.24103751251505
+              },
+              {
+                "x": 95,
+                "y": 87.06703081571119
+              },
+              {
+                "x": 100,
+                "y": 100.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 100,
+            "y": 100,
+            "xLabel": "100%",
+            "yLabel": "100%"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "A poverty rate measures",
+    "options": [
+      {
+        "label": "A",
+        "text": "The change in real GDP per person"
+      },
+      {
+        "label": "B",
+        "text": "The share below an income threshold"
+      },
+      {
+        "label": "C",
+        "text": "The marginal tax rate of low-income households"
+      },
+      {
+        "label": "D",
+        "text": "The average distance of the Lorenz curve from equality"
+      },
+      {
+        "label": "E",
+        "text": "The fraction of wealth held as cash"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The poverty rate is the share of the population with income below the specified poverty threshold.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "Two countries can have the same Gini coefficient but different poverty rates because",
+    "options": [
+      {
+        "label": "A",
+        "text": "Poverty rates measure wealth shares exclusively"
+      },
+      {
+        "label": "B",
+        "text": "Equal Gini values imply identical incomes"
+      },
+      {
+        "label": "C",
+        "text": "Poverty cannot change without inequality changing"
+      },
+      {
+        "label": "D",
+        "text": "The Gini coefficient measures only tax revenue"
+      },
+      {
+        "label": "E",
+        "text": "Inequality differs from income levels"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The Gini measures relative inequality, not the overall income level. Similar relative distributions at different income levels can have different poverty rates.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "Factor income reflects the principle that each factor tends to receive",
+    "options": [
+      {
+        "label": "A",
+        "text": "The value of its marginal product"
+      },
+      {
+        "label": "B",
+        "text": "An equal share of total output"
+      },
+      {
+        "label": "C",
+        "text": "The average product of all factors combined"
+      },
+      {
+        "label": "D",
+        "text": "The same return regardless of scarcity"
+      },
+      {
+        "label": "E",
+        "text": "The government-set poverty threshold"
+      }
+    ],
+    "answer": "A",
+    "explanation": "In the competitive benchmark, demand for a factor reflects the value its extra output creates. Factor payments at the margin tend to reflect that marginal contribution.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "A rise in demand for highly skilled labor, with skill supply unchanged, will most likely",
+    "options": [
+      {
+        "label": "A",
+        "text": "Raise skill premiums and inequality"
+      },
+      {
+        "label": "B",
+        "text": "Make the tax system regressive automatically"
+      },
+      {
+        "label": "C",
+        "text": "Reduce skilled wages and income inequality"
+      },
+      {
+        "label": "D",
+        "text": "Eliminate returns to human capital"
+      },
+      {
+        "label": "E",
+        "text": "Leave relative wages unchanged"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Higher demand for skilled labor raises its wage when supply is unchanged. This can increase skilled workers' earnings relative to other workers'.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "Income inequality may fall while wealth inequality remains high because",
+    "options": [
+      {
+        "label": "A",
+        "text": "Income and wealth distributions must always move together"
+      },
+      {
+        "label": "B",
+        "text": "Assets and transfers also determine wealth"
+      },
+      {
+        "label": "C",
+        "text": "Wealth is measured only from current wages"
+      },
+      {
+        "label": "D",
+        "text": "Wealth excludes ownership of financial assets"
+      },
+      {
+        "label": "E",
+        "text": "Current taxes immediately equalize inherited assets"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Wealth reflects accumulated assets and liabilities, not only current income. More equal earnings today need not remove existing differences in savings, property, or inheritances.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "Income differs from wealth because income is in Market A",
+    "options": [
+      {
+        "label": "A",
+        "text": "Measured only before taxes"
+      },
+      {
+        "label": "B",
+        "text": "Always larger than wealth"
+      },
+      {
+        "label": "C",
+        "text": "Unrelated to ownership of assets"
+      },
+      {
+        "label": "D",
+        "text": "Income: flow; wealth: net asset stock"
+      },
+      {
+        "label": "E",
+        "text": "A stock of assets, whereas wealth is wages received each year"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Income is a flow received over a period. Wealth is the stock of assets minus liabilities at a particular point in time.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, which distribution has the lower Gini coefficient?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The graph cannot compare relative inequality"
+      },
+      {
+        "label": "B",
+        "text": "Both must have a coefficient of zero"
+      },
+      {
+        "label": "C",
+        "text": "L1; it lies closer to equality"
+      },
+      {
+        "label": "D",
+        "text": "L2, because it begins at the origin"
+      },
+      {
+        "label": "E",
+        "text": "L2, because it bows farther from equality"
+      }
+    ],
+    "answer": "C",
+    "explanation": "L1 leaves the smaller area between its Lorenz curve and equality. It therefore has the lower Gini coefficient.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "Cumulative percentage of households is on the horizontal axis and cumulative percentage of income is on the vertical axis. The 45-degree line of equality and two Lorenz curves, L1 and L2, are shown; L2 bows farther below the equality line than L1.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Households (cumulative %)",
+        "yLabel": "Income (cumulative %)",
+        "xMax": 110,
+        "yMax": 110,
+        "curves": [
+          {
+            "id": "Equality",
+            "label": "Equality",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 100,
+                "y": 100
+              }
+            ]
+          },
+          {
+            "id": "L1",
+            "label": "L1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 5,
+                "y": 0.6141140130578954
+              },
+              {
+                "x": 10,
+                "y": 1.99526231496888
+              },
+              {
+                "x": 15,
+                "y": 3.9751648211308095
+              },
+              {
+                "x": 20,
+                "y": 6.4826263867710505
+              },
+              {
+                "x": 25,
+                "y": 9.47322854068999
+              },
+              {
+                "x": 30,
+                "y": 12.915348607498025
+              },
+              {
+                "x": 35,
+                "y": 16.784780854932098
+              },
+              {
+                "x": 40,
+                "y": 21.0621152693478
+              },
+              {
+                "x": 45,
+                "y": 25.73127305216894
+              },
+              {
+                "x": 50,
+                "y": 30.778610333622908
+              },
+              {
+                "x": 55,
+                "y": 36.192332416716155
+              },
+              {
+                "x": 60,
+                "y": 41.96209142486577
+              },
+              {
+                "x": 65,
+                "y": 48.07869889606779
+              },
+              {
+                "x": 70,
+                "y": 54.53391388693143
+              },
+              {
+                "x": 75,
+                "y": 61.320282613276
+              },
+              {
+                "x": 80,
+                "y": 68.43101439943604
+              },
+              {
+                "x": 85,
+                "y": 75.85988390251268
+              },
+              {
+                "x": 90,
+                "y": 83.6011527916834
+              },
+              {
+                "x": 95,
+                "y": 91.64950612180127
+              },
+              {
+                "x": 100,
+                "y": 100.0
+              }
+            ]
+          },
+          {
+            "id": "L2",
+            "label": "L2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 5,
+                "y": 0.030705700652894748
+              },
+              {
+                "x": 10,
+                "y": 0.1995262314968879
+              },
+              {
+                "x": 15,
+                "y": 0.5962747231696213
+              },
+              {
+                "x": 20,
+                "y": 1.2965252773542097
+              },
+              {
+                "x": 25,
+                "y": 2.3683071351724965
+              },
+              {
+                "x": 30,
+                "y": 3.8746045822494066
+              },
+              {
+                "x": 35,
+                "y": 5.874673299226232
+              },
+              {
+                "x": 40,
+                "y": 8.42484610773912
+              },
+              {
+                "x": 45,
+                "y": 11.579072873476022
+              },
+              {
+                "x": 50,
+                "y": 15.38930516681145
+              },
+              {
+                "x": 55,
+                "y": 19.905782829193885
+              },
+              {
+                "x": 60,
+                "y": 25.177254854919457
+              },
+              {
+                "x": 65,
+                "y": 31.25115428244406
+              },
+              {
+                "x": 70,
+                "y": 38.173739720852
+              },
+              {
+                "x": 75,
+                "y": 45.990211959956994
+              },
+              {
+                "x": 80,
+                "y": 54.74481151954883
+              },
+              {
+                "x": 85,
+                "y": 64.48090131713577
+              },
+              {
+                "x": 90,
+                "y": 75.24103751251505
+              },
+              {
+                "x": 95,
+                "y": 87.06703081571119
+              },
+              {
+                "x": 100,
+                "y": 100.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 100,
+            "y": 100,
+            "xLabel": "100%",
+            "yLabel": "100%"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "difficulty": "Medium",
+    "prompt": "The poorest 20% of households receive 4% of income, and the next 20% receive 8%. What cumulative income share belongs to the bottom 40%?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2.40"
+      },
+      {
+        "label": "B",
+        "text": "4.80"
+      },
+      {
+        "label": "C",
+        "text": "12.00"
+      },
+      {
+        "label": "D",
+        "text": "7.20"
+      },
+      {
+        "label": "E",
+        "text": "9.60"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Add the income shares of the first two groups.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 24,
+    "difficulty": "Medium",
+    "prompt": "The bottom 80% of households receive 55% of income. What percentage belongs to the top 20%?",
+    "options": [
+      {
+        "label": "A",
+        "text": "54.00"
+      },
+      {
+        "label": "B",
+        "text": "45.00"
+      },
+      {
+        "label": "C",
+        "text": "36.00"
+      },
+      {
+        "label": "D",
+        "text": "27.00"
+      },
+      {
+        "label": "E",
+        "text": "18.00"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Income shares sum to 100%; subtract the bottom group’s share.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 25,
+    "difficulty": "Medium",
+    "prompt": "The area between the equality line and Lorenz curve is 0.1; total area beneath the equality line is 0.5. What is the Gini coefficient?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.24"
+      },
+      {
+        "label": "B",
+        "text": "0.16"
+      },
+      {
+        "label": "C",
+        "text": "0.28"
+      },
+      {
+        "label": "D",
+        "text": "0.20"
+      },
+      {
+        "label": "E",
+        "text": "0.12"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Divide the area between the curves by the total area beneath the equality line.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 26,
+    "difficulty": "Medium",
+    "prompt": "A Lorenz curve has Gini coefficient 0.2. The area beneath the equality line is 0.5. What is the area between the curve and equality line?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.14"
+      },
+      {
+        "label": "B",
+        "text": "0.16"
+      },
+      {
+        "label": "C",
+        "text": "0.12"
+      },
+      {
+        "label": "D",
+        "text": "0.10"
+      },
+      {
+        "label": "E",
+        "text": "0.18"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Multiply the Gini coefficient by the area beneath the equality line.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 27,
+    "difficulty": "Medium",
+    "prompt": "A household earns $20000 before tax and pays $2000 in income taxes. What is after-tax income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$18000.00"
+      },
+      {
+        "label": "B",
+        "text": "$21600.00"
+      },
+      {
+        "label": "C",
+        "text": "$28800.00"
+      },
+      {
+        "label": "D",
+        "text": "$25200.00"
+      },
+      {
+        "label": "E",
+        "text": "$14400.00"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Subtract income taxes from pretax income.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "A proportional tax structure has in a national market",
+    "options": [
+      {
+        "label": "A",
+        "text": "A rising average tax rate"
+      },
+      {
+        "label": "B",
+        "text": "No effect on disposable income"
+      },
+      {
+        "label": "C",
+        "text": "Equal average tax rates across incomes"
+      },
+      {
+        "label": "D",
+        "text": "The same dollar tax for everyone"
+      },
+      {
+        "label": "E",
+        "text": "A falling average tax rate"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A proportional tax takes the same fraction of income at every income level. Dollar payments increase with income, but the average tax rate stays constant.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "Based on the figure below, the line of equality represents a situation in which",
+    "options": [
+      {
+        "label": "A",
+        "text": "Equal cumulative population and income shares"
+      },
+      {
+        "label": "B",
+        "text": "The Gini coefficient is at its maximum"
+      },
+      {
+        "label": "C",
+        "text": "Every household has zero income"
+      },
+      {
+        "label": "D",
+        "text": "Income rises proportionally with age"
+      },
+      {
+        "label": "E",
+        "text": "The lowest-income household receives all income"
+      }
+    ],
+    "answer": "A",
+    "explanation": "On the equality line, each cumulative population share receives the same share of income. For example, the bottom 40% receives 40% of income.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "Cumulative percentage of households is on the horizontal axis and cumulative percentage of income is on the vertical axis. The 45-degree line of equality and two Lorenz curves, L1 and L2, are shown; L2 bows farther below the equality line than L1.",
+    "graphRequired": true,
+    "graphScenes": [
+      {
+        "xLabel": "Households (cumulative %)",
+        "yLabel": "Income (cumulative %)",
+        "xMax": 110,
+        "yMax": 110,
+        "curves": [
+          {
+            "id": "Equality",
+            "label": "Equality",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 100,
+                "y": 100
+              }
+            ]
+          },
+          {
+            "id": "L1",
+            "label": "L1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 5,
+                "y": 0.6141140130578954
+              },
+              {
+                "x": 10,
+                "y": 1.99526231496888
+              },
+              {
+                "x": 15,
+                "y": 3.9751648211308095
+              },
+              {
+                "x": 20,
+                "y": 6.4826263867710505
+              },
+              {
+                "x": 25,
+                "y": 9.47322854068999
+              },
+              {
+                "x": 30,
+                "y": 12.915348607498025
+              },
+              {
+                "x": 35,
+                "y": 16.784780854932098
+              },
+              {
+                "x": 40,
+                "y": 21.0621152693478
+              },
+              {
+                "x": 45,
+                "y": 25.73127305216894
+              },
+              {
+                "x": 50,
+                "y": 30.778610333622908
+              },
+              {
+                "x": 55,
+                "y": 36.192332416716155
+              },
+              {
+                "x": 60,
+                "y": 41.96209142486577
+              },
+              {
+                "x": 65,
+                "y": 48.07869889606779
+              },
+              {
+                "x": 70,
+                "y": 54.53391388693143
+              },
+              {
+                "x": 75,
+                "y": 61.320282613276
+              },
+              {
+                "x": 80,
+                "y": 68.43101439943604
+              },
+              {
+                "x": 85,
+                "y": 75.85988390251268
+              },
+              {
+                "x": 90,
+                "y": 83.6011527916834
+              },
+              {
+                "x": 95,
+                "y": 91.64950612180127
+              },
+              {
+                "x": 100,
+                "y": 100.0
+              }
+            ]
+          },
+          {
+            "id": "L2",
+            "label": "L2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0.0
+              },
+              {
+                "x": 5,
+                "y": 0.030705700652894748
+              },
+              {
+                "x": 10,
+                "y": 0.1995262314968879
+              },
+              {
+                "x": 15,
+                "y": 0.5962747231696213
+              },
+              {
+                "x": 20,
+                "y": 1.2965252773542097
+              },
+              {
+                "x": 25,
+                "y": 2.3683071351724965
+              },
+              {
+                "x": 30,
+                "y": 3.8746045822494066
+              },
+              {
+                "x": 35,
+                "y": 5.874673299226232
+              },
+              {
+                "x": 40,
+                "y": 8.42484610773912
+              },
+              {
+                "x": 45,
+                "y": 11.579072873476022
+              },
+              {
+                "x": 50,
+                "y": 15.38930516681145
+              },
+              {
+                "x": 55,
+                "y": 19.905782829193885
+              },
+              {
+                "x": 60,
+                "y": 25.177254854919457
+              },
+              {
+                "x": 65,
+                "y": 31.25115428244406
+              },
+              {
+                "x": 70,
+                "y": 38.173739720852
+              },
+              {
+                "x": 75,
+                "y": 45.990211959956994
+              },
+              {
+                "x": 80,
+                "y": 54.74481151954883
+              },
+              {
+                "x": 85,
+                "y": 64.48090131713577
+              },
+              {
+                "x": 90,
+                "y": 75.24103751251505
+              },
+              {
+                "x": 95,
+                "y": 87.06703081571119
+              },
+              {
+                "x": 100,
+                "y": 100.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "point0",
+            "label": "",
+            "x": 100,
+            "y": 100
+          }
+        ],
+        "guides": [
+          {
+            "id": "guide0",
+            "x": 100,
+            "y": 100,
+            "xLabel": "100%",
+            "yLabel": "100%"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; only labeled numbers are quantitative"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "difficulty": "Medium",
+    "prompt": "A household earns $20000 before tax, pays $2000 in tax, and receives a $1000 transfer. What is disposable income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$15200.00"
+      },
+      {
+        "label": "B",
+        "text": "$19000.00"
+      },
+      {
+        "label": "C",
+        "text": "$22800.00"
+      },
+      {
+        "label": "D",
+        "text": "$30400.00"
+      },
+      {
+        "label": "E",
+        "text": "$26600.00"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Disposable income equals pretax income minus taxes plus transfers.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 31,
+    "difficulty": "Medium",
+    "prompt": "A household pays $2000 of income tax on income of $25000. What is its average tax rate as a percentage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "12.80"
+      },
+      {
+        "label": "B",
+        "text": "9.60"
+      },
+      {
+        "label": "C",
+        "text": "8.00"
+      },
+      {
+        "label": "D",
+        "text": "6.40"
+      },
+      {
+        "label": "E",
+        "text": "11.20"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Divide total tax by income and multiply by 100.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 32,
+    "difficulty": "Medium",
+    "prompt": "Tax liability increases by $200 when income rises by $1000. What marginal tax rate applies to the extra income, as a percentage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "8.00"
+      },
+      {
+        "label": "B",
+        "text": "20.00"
+      },
+      {
+        "label": "C",
+        "text": "16.00"
+      },
+      {
+        "label": "D",
+        "text": "12.00"
+      },
+      {
+        "label": "E",
+        "text": "4.00"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Divide the change in taxes by the change in income and multiply by 100.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 33,
+    "difficulty": "Medium",
+    "prompt": "The poverty threshold is $20000. A household has income $18000. What transfer would bring it exactly to the threshold?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$800.00"
+      },
+      {
+        "label": "B",
+        "text": "$400.00"
+      },
+      {
+        "label": "C",
+        "text": "$1200.00"
+      },
+      {
+        "label": "D",
+        "text": "$1600.00"
+      },
+      {
+        "label": "E",
+        "text": "$2000.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Subtract household income from the threshold.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "An economy has 1000 households; 100 fall below its poverty threshold. What is its poverty rate as a percentage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "8.00"
+      },
+      {
+        "label": "B",
+        "text": "16.00"
+      },
+      {
+        "label": "C",
+        "text": "14.00"
+      },
+      {
+        "label": "D",
+        "text": "12.00"
+      },
+      {
+        "label": "E",
+        "text": "10.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The poverty rate is households below the threshold divided by all households, times 100.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "Economic mobility refers to under otherwise unchanged conditions",
+    "options": [
+      {
+        "label": "A",
+        "text": "The slope of the Lorenz curve at the origin"
+      },
+      {
+        "label": "B",
+        "text": "Changes in income or wealth rank"
+      },
+      {
+        "label": "C",
+        "text": "The equality of current incomes"
+      },
+      {
+        "label": "D",
+        "text": "The average tax rate paid by migrants"
+      },
+      {
+        "label": "E",
+        "text": "The physical movement of labor between firms only"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Economic mobility concerns changes in economic position over time or across generations. It can involve changes in absolute living standards or relative rank.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "The bottom 40% of households receive 12% of income. Where is the corresponding Lorenz-curve point?",
+    "options": [
+      {
+        "label": "A",
+        "text": "(40%, 12%)"
+      },
+      {
+        "label": "B",
+        "text": "(12%, 12%)"
+      },
+      {
+        "label": "C",
+        "text": "(60%, 88%)"
+      },
+      {
+        "label": "D",
+        "text": "(12%, 40%)"
+      },
+      {
+        "label": "E",
+        "text": "(40%, 40%)"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The horizontal coordinate is cumulative household share, the vertical coordinate cumulative income share.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "The poorest 20% of households receive 5% of income, and the next 20% receive 9%. What cumulative income share belongs to the bottom 40%?",
+    "options": [
+      {
+        "label": "A",
+        "text": "14.00"
+      },
+      {
+        "label": "B",
+        "text": "16.80"
+      },
+      {
+        "label": "C",
+        "text": "8.40"
+      },
+      {
+        "label": "D",
+        "text": "11.20"
+      },
+      {
+        "label": "E",
+        "text": "19.60"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Add the income shares of the first two groups.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "The bottom 80% of households receive 56% of income. What percentage belongs to the top 20%?",
+    "options": [
+      {
+        "label": "A",
+        "text": "44.00"
+      },
+      {
+        "label": "B",
+        "text": "35.20"
+      },
+      {
+        "label": "C",
+        "text": "52.80"
+      },
+      {
+        "label": "D",
+        "text": "26.40"
+      },
+      {
+        "label": "E",
+        "text": "61.60"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Income shares sum to 100%; subtract the bottom group’s share.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "The area between the equality line and Lorenz curve is 0.12; total area beneath the equality line is 0.5. What is the Gini coefficient?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.38"
+      },
+      {
+        "label": "B",
+        "text": "0.29"
+      },
+      {
+        "label": "C",
+        "text": "0.24"
+      },
+      {
+        "label": "D",
+        "text": "0.43"
+      },
+      {
+        "label": "E",
+        "text": "0.34"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Divide the area between the curves by the total area beneath the equality line.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "A Lorenz curve has Gini coefficient 0.24. The area beneath the equality line is 0.5. What is the area between the curve and equality line?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.17"
+      },
+      {
+        "label": "B",
+        "text": "0.19"
+      },
+      {
+        "label": "C",
+        "text": "0.12"
+      },
+      {
+        "label": "D",
+        "text": "0.14"
+      },
+      {
+        "label": "E",
+        "text": "0.22"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Multiply the Gini coefficient by the area beneath the equality line.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "A household earns $21000 before tax and pays $2300 in income taxes. What is after-tax income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$22440.00"
+      },
+      {
+        "label": "B",
+        "text": "$29920.00"
+      },
+      {
+        "label": "C",
+        "text": "$18700.00"
+      },
+      {
+        "label": "D",
+        "text": "$26180.00"
+      },
+      {
+        "label": "E",
+        "text": "$33660.00"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Subtract income taxes from pretax income.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "A household earns $21000 before tax, pays $2300 in tax, and receives a $1200 transfer. What is disposable income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$23880.00"
+      },
+      {
+        "label": "B",
+        "text": "$19900.00"
+      },
+      {
+        "label": "C",
+        "text": "$27860.00"
+      },
+      {
+        "label": "D",
+        "text": "$31840.00"
+      },
+      {
+        "label": "E",
+        "text": "$15920.00"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Disposable income equals pretax income minus taxes plus transfers.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "A Lorenz curve moves closer to equality at every interior household share. What happens to its Gini coefficient?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It decreases"
+      },
+      {
+        "label": "B",
+        "text": "It must become exactly zero"
+      },
+      {
+        "label": "C",
+        "text": "It cannot change"
+      },
+      {
+        "label": "D",
+        "text": "It increases"
+      },
+      {
+        "label": "E",
+        "text": "It must become exactly one"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The area between the curve and equality line shrinks.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "A household pays $2500 of income tax on income of $25000. What is its average tax rate as a percentage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "12.00"
+      },
+      {
+        "label": "B",
+        "text": "10.00"
+      },
+      {
+        "label": "C",
+        "text": "8.00"
+      },
+      {
+        "label": "D",
+        "text": "6.00"
+      },
+      {
+        "label": "E",
+        "text": "4.00"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Divide total tax by income and multiply by 100.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "Tax liability increases by $250 when income rises by $1000. What marginal tax rate applies to the extra income, as a percentage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "30.00"
+      },
+      {
+        "label": "B",
+        "text": "40.00"
+      },
+      {
+        "label": "C",
+        "text": "20.00"
+      },
+      {
+        "label": "D",
+        "text": "35.00"
+      },
+      {
+        "label": "E",
+        "text": "25.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Divide the change in taxes by the change in income and multiply by 100.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "The poverty threshold is $21000. A household has income $18700. What transfer would bring it exactly to the threshold?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$920.00"
+      },
+      {
+        "label": "B",
+        "text": "$1380.00"
+      },
+      {
+        "label": "C",
+        "text": "$2760.00"
+      },
+      {
+        "label": "D",
+        "text": "$1840.00"
+      },
+      {
+        "label": "E",
+        "text": "$2300.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Subtract household income from the threshold.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "An economy has 1100 households; 132 fall below its poverty threshold. What is its poverty rate as a percentage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "19.20"
+      },
+      {
+        "label": "B",
+        "text": "12.00"
+      },
+      {
+        "label": "C",
+        "text": "21.60"
+      },
+      {
+        "label": "D",
+        "text": "14.40"
+      },
+      {
+        "label": "E",
+        "text": "16.80"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The poverty rate is households below the threshold divided by all households, times 100.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "The poorest 20% of households receive 6% of income, and the next 20% receive 10%. What cumulative income share belongs to the bottom 40%?",
+    "options": [
+      {
+        "label": "A",
+        "text": "22.40"
+      },
+      {
+        "label": "B",
+        "text": "19.20"
+      },
+      {
+        "label": "C",
+        "text": "12.80"
+      },
+      {
+        "label": "D",
+        "text": "25.60"
+      },
+      {
+        "label": "E",
+        "text": "16.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Add the income shares of the first two groups.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "The bottom 80% of households receive 57% of income. What percentage belongs to the top 20%?",
+    "options": [
+      {
+        "label": "A",
+        "text": "17.20"
+      },
+      {
+        "label": "B",
+        "text": "25.80"
+      },
+      {
+        "label": "C",
+        "text": "43.00"
+      },
+      {
+        "label": "D",
+        "text": "34.40"
+      },
+      {
+        "label": "E",
+        "text": "51.60"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Income shares sum to 100%; subtract the bottom group’s share.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "Two Lorenz curves cross. What does the crossing prevent?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Observation of income shares"
+      },
+      {
+        "label": "B",
+        "text": "An unambiguous ranking by Lorenz dominance alone"
+      },
+      {
+        "label": "C",
+        "text": "Calculation of either population size"
+      },
+      {
+        "label": "D",
+        "text": "Any calculation of a Gini coefficient"
+      },
+      {
+        "label": "E",
+        "text": "Both curves ending at 100%"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Crossing means neither distribution dominates at every cumulative share; a summary index may still be calculated.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "The area between the equality line and Lorenz curve is 0.14; total area beneath the equality line is 0.5. What is the Gini coefficient?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.34"
+      },
+      {
+        "label": "B",
+        "text": "0.22"
+      },
+      {
+        "label": "C",
+        "text": "0.17"
+      },
+      {
+        "label": "D",
+        "text": "0.28"
+      },
+      {
+        "label": "E",
+        "text": "0.11"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Divide the area between the curves by the total area beneath the equality line.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "A Lorenz curve has Gini coefficient 0.28. The area beneath the equality line is 0.5. What is the area between the curve and equality line?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.08"
+      },
+      {
+        "label": "B",
+        "text": "0.14"
+      },
+      {
+        "label": "C",
+        "text": "0.17"
+      },
+      {
+        "label": "D",
+        "text": "0.11"
+      },
+      {
+        "label": "E",
+        "text": "0.06"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Multiply the Gini coefficient by the area beneath the equality line.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "A household earns $22000 before tax and pays $2600 in income taxes. What is after-tax income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$27160.00"
+      },
+      {
+        "label": "B",
+        "text": "$23280.00"
+      },
+      {
+        "label": "C",
+        "text": "$31040.00"
+      },
+      {
+        "label": "D",
+        "text": "$34920.00"
+      },
+      {
+        "label": "E",
+        "text": "$19400.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Subtract income taxes from pretax income.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "A household earns $22000 before tax, pays $2600 in tax, and receives a $1400 transfer. What is disposable income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$24960.00"
+      },
+      {
+        "label": "B",
+        "text": "$16640.00"
+      },
+      {
+        "label": "C",
+        "text": "$20800.00"
+      },
+      {
+        "label": "D",
+        "text": "$8320.00"
+      },
+      {
+        "label": "E",
+        "text": "$12480.00"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Disposable income equals pretax income minus taxes plus transfers.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "A household pays $3000 of income tax on income of $25000. What is its average tax rate as a percentage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "7.20"
+      },
+      {
+        "label": "B",
+        "text": "9.60"
+      },
+      {
+        "label": "C",
+        "text": "2.40"
+      },
+      {
+        "label": "D",
+        "text": "4.80"
+      },
+      {
+        "label": "E",
+        "text": "12.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Divide total tax by income and multiply by 100.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "Tax liability increases by $300 when income rises by $1000. What marginal tax rate applies to the extra income, as a percentage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "42.00"
+      },
+      {
+        "label": "B",
+        "text": "30.00"
+      },
+      {
+        "label": "C",
+        "text": "18.00"
+      },
+      {
+        "label": "D",
+        "text": "24.00"
+      },
+      {
+        "label": "E",
+        "text": "36.00"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Divide the change in taxes by the change in income and multiply by 100.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "Everyone’s income doubles in the same proportion. What happens to the Lorenz curve?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It necessarily bows farther downward"
+      },
+      {
+        "label": "B",
+        "text": "Its endpoint becomes 200%"
+      },
+      {
+        "label": "C",
+        "text": "It becomes the equality line"
+      },
+      {
+        "label": "D",
+        "text": "It is unchanged"
+      },
+      {
+        "label": "E",
+        "text": "It shifts to twice every percentage share"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Proportional scaling leaves each household’s share unchanged.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "The poverty threshold is $22000. A household has income $19400. What transfer would bring it exactly to the threshold?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$2600.00"
+      },
+      {
+        "label": "B",
+        "text": "$1040.00"
+      },
+      {
+        "label": "C",
+        "text": "$1560.00"
+      },
+      {
+        "label": "D",
+        "text": "$520.00"
+      },
+      {
+        "label": "E",
+        "text": "$2080.00"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Subtract household income from the threshold.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "An economy has 1200 households; 168 fall below its poverty threshold. What is its poverty rate as a percentage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "11.20"
+      },
+      {
+        "label": "B",
+        "text": "19.60"
+      },
+      {
+        "label": "C",
+        "text": "16.80"
+      },
+      {
+        "label": "D",
+        "text": "8.40"
+      },
+      {
+        "label": "E",
+        "text": "14.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The poverty rate is households below the threshold divided by all households, times 100.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "The poorest 20% of households receive 7% of income, and the next 20% receive 11%. What cumulative income share belongs to the bottom 40%?",
+    "options": [
+      {
+        "label": "A",
+        "text": "18.00"
+      },
+      {
+        "label": "B",
+        "text": "28.80"
+      },
+      {
+        "label": "C",
+        "text": "21.60"
+      },
+      {
+        "label": "D",
+        "text": "32.40"
+      },
+      {
+        "label": "E",
+        "text": "25.20"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Add the income shares of the first two groups.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "The bottom 80% of households receive 58% of income. What percentage belongs to the top 20%?",
+    "options": [
+      {
+        "label": "A",
+        "text": "58.80"
+      },
+      {
+        "label": "B",
+        "text": "33.60"
+      },
+      {
+        "label": "C",
+        "text": "50.40"
+      },
+      {
+        "label": "D",
+        "text": "42.00"
+      },
+      {
+        "label": "E",
+        "text": "67.20"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Income shares sum to 100%; subtract the bottom group’s share.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "The area between the equality line and Lorenz curve is 0.16; total area beneath the equality line is 0.5. What is the Gini coefficient?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.32"
+      },
+      {
+        "label": "B",
+        "text": "0.38"
+      },
+      {
+        "label": "C",
+        "text": "0.45"
+      },
+      {
+        "label": "D",
+        "text": "0.51"
+      },
+      {
+        "label": "E",
+        "text": "0.26"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Divide the area between the curves by the total area beneath the equality line.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "A Lorenz curve has Gini coefficient 0.32. The area beneath the equality line is 0.5. What is the area between the curve and equality line?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.10"
+      },
+      {
+        "label": "B",
+        "text": "0.19"
+      },
+      {
+        "label": "C",
+        "text": "0.22"
+      },
+      {
+        "label": "D",
+        "text": "0.16"
+      },
+      {
+        "label": "E",
+        "text": "0.13"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Multiply the Gini coefficient by the area beneath the equality line.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "A progressive income tax is combined with transfers targeted to low-income households. Which direct distributional effect is intended?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Guarantee zero economic cost"
+      },
+      {
+        "label": "B",
+        "text": "Equalize every household’s pretax earnings"
+      },
+      {
+        "label": "C",
+        "text": "Reduce inequality of disposable income"
+      },
+      {
+        "label": "D",
+        "text": "Eliminate labor-market differences"
+      },
+      {
+        "label": "E",
+        "text": "Raise all marginal incentives identically"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Taxes and transfers can narrow after-tax income differences without equalizing pretax earnings.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "A household earns $23000 before tax and pays $2900 in income taxes. What is after-tax income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$16080.00"
+      },
+      {
+        "label": "B",
+        "text": "$12060.00"
+      },
+      {
+        "label": "C",
+        "text": "$24120.00"
+      },
+      {
+        "label": "D",
+        "text": "$28140.00"
+      },
+      {
+        "label": "E",
+        "text": "$20100.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Subtract income taxes from pretax income.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "A household earns $23000 before tax, pays $2900 in tax, and receives a $1600 transfer. What is disposable income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$30380.00"
+      },
+      {
+        "label": "B",
+        "text": "$26040.00"
+      },
+      {
+        "label": "C",
+        "text": "$17360.00"
+      },
+      {
+        "label": "D",
+        "text": "$21700.00"
+      },
+      {
+        "label": "E",
+        "text": "$13020.00"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Disposable income equals pretax income minus taxes plus transfers.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "A household pays $3500 of income tax on income of $25000. What is its average tax rate as a percentage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "8.40"
+      },
+      {
+        "label": "B",
+        "text": "16.80"
+      },
+      {
+        "label": "C",
+        "text": "14.00"
+      },
+      {
+        "label": "D",
+        "text": "11.20"
+      },
+      {
+        "label": "E",
+        "text": "5.60"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Divide total tax by income and multiply by 100.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "Tax liability increases by $350 when income rises by $1000. What marginal tax rate applies to the extra income, as a percentage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "21.00"
+      },
+      {
+        "label": "B",
+        "text": "42.00"
+      },
+      {
+        "label": "C",
+        "text": "28.00"
+      },
+      {
+        "label": "D",
+        "text": "14.00"
+      },
+      {
+        "label": "E",
+        "text": "35.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Divide the change in taxes by the change in income and multiply by 100.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "The poverty threshold is $23000. A household has income $20100. What transfer would bring it exactly to the threshold?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$2320.00"
+      },
+      {
+        "label": "B",
+        "text": "$4640.00"
+      },
+      {
+        "label": "C",
+        "text": "$4060.00"
+      },
+      {
+        "label": "D",
+        "text": "$2900.00"
+      },
+      {
+        "label": "E",
+        "text": "$3480.00"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Subtract household income from the threshold.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "An economy has 1300 households; 208 fall below its poverty threshold. What is its poverty rate as a percentage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "22.40"
+      },
+      {
+        "label": "B",
+        "text": "16.00"
+      },
+      {
+        "label": "C",
+        "text": "25.60"
+      },
+      {
+        "label": "D",
+        "text": "19.20"
+      },
+      {
+        "label": "E",
+        "text": "28.80"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The poverty rate is households below the threshold divided by all households, times 100.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 71,
+    "difficulty": "Hard",
+    "prompt": "Two economies have equal Gini coefficients but different average incomes. What follows?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both Lorenz curves must be identical"
+      },
+      {
+        "label": "B",
+        "text": "Equal Gini does not establish equal living standards"
+      },
+      {
+        "label": "C",
+        "text": "Both economies have identical poverty rates"
+      },
+      {
+        "label": "D",
+        "text": "Average incomes must actually be equal"
+      },
+      {
+        "label": "E",
+        "text": "The higher-income economy must have a larger Gini"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Gini summarizes relative inequality, not income levels or poverty.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 72,
+    "difficulty": "Medium",
+    "prompt": "The poorest 20% of households receive 8% of income, and the next 20% receive 12%. What cumulative income share belongs to the bottom 40%?",
+    "options": [
+      {
+        "label": "A",
+        "text": "12.00"
+      },
+      {
+        "label": "B",
+        "text": "20.00"
+      },
+      {
+        "label": "C",
+        "text": "16.00"
+      },
+      {
+        "label": "D",
+        "text": "8.00"
+      },
+      {
+        "label": "E",
+        "text": "4.00"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Add the income shares of the first two groups.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 73,
+    "difficulty": "Medium",
+    "prompt": "The bottom 80% of households receive 59% of income. What percentage belongs to the top 20%?",
+    "options": [
+      {
+        "label": "A",
+        "text": "57.40"
+      },
+      {
+        "label": "B",
+        "text": "73.80"
+      },
+      {
+        "label": "C",
+        "text": "49.20"
+      },
+      {
+        "label": "D",
+        "text": "41.00"
+      },
+      {
+        "label": "E",
+        "text": "65.60"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Income shares sum to 100%; subtract the bottom group’s share.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 74,
+    "difficulty": "Medium",
+    "prompt": "The area between the equality line and Lorenz curve is 0.18; total area beneath the equality line is 0.5. What is the Gini coefficient?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.22"
+      },
+      {
+        "label": "B",
+        "text": "0.36"
+      },
+      {
+        "label": "C",
+        "text": "0.29"
+      },
+      {
+        "label": "D",
+        "text": "0.50"
+      },
+      {
+        "label": "E",
+        "text": "0.43"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Divide the area between the curves by the total area beneath the equality line.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 75,
+    "difficulty": "Medium",
+    "prompt": "A Lorenz curve has Gini coefficient 0.36. The area beneath the equality line is 0.5. What is the area between the curve and equality line?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.18"
+      },
+      {
+        "label": "B",
+        "text": "0.29"
+      },
+      {
+        "label": "C",
+        "text": "0.22"
+      },
+      {
+        "label": "D",
+        "text": "0.14"
+      },
+      {
+        "label": "E",
+        "text": "0.25"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Multiply the Gini coefficient by the area beneath the equality line.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 76,
+    "difficulty": "Medium",
+    "prompt": "A household earns $24000 before tax and pays $3200 in income taxes. What is after-tax income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$20800.00"
+      },
+      {
+        "label": "B",
+        "text": "$29120.00"
+      },
+      {
+        "label": "C",
+        "text": "$37440.00"
+      },
+      {
+        "label": "D",
+        "text": "$24960.00"
+      },
+      {
+        "label": "E",
+        "text": "$33280.00"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Subtract income taxes from pretax income.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 77,
+    "difficulty": "Medium",
+    "prompt": "A household earns $24000 before tax, pays $3200 in tax, and receives a $1800 transfer. What is disposable income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$22600.00"
+      },
+      {
+        "label": "B",
+        "text": "$18080.00"
+      },
+      {
+        "label": "C",
+        "text": "$13560.00"
+      },
+      {
+        "label": "D",
+        "text": "$4520.00"
+      },
+      {
+        "label": "E",
+        "text": "$9040.00"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Disposable income equals pretax income minus taxes plus transfers.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "The top quintile receives 50% of total income. What cumulative income share reaches the 80% household point?",
+    "options": [
+      {
+        "label": "A",
+        "text": "80%"
+      },
+      {
+        "label": "B",
+        "text": "10%"
+      },
+      {
+        "label": "C",
+        "text": "100%"
+      },
+      {
+        "label": "D",
+        "text": "50%"
+      },
+      {
+        "label": "E",
+        "text": "20%"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The bottom 80% receive the remainder, 100% − 50%.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 79,
+    "difficulty": "Medium",
+    "prompt": "A household pays $4000 of income tax on income of $25000. What is its average tax rate as a percentage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "6.40"
+      },
+      {
+        "label": "B",
+        "text": "9.60"
+      },
+      {
+        "label": "C",
+        "text": "3.20"
+      },
+      {
+        "label": "D",
+        "text": "16.00"
+      },
+      {
+        "label": "E",
+        "text": "12.80"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Divide total tax by income and multiply by 100.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 80,
+    "difficulty": "Medium",
+    "prompt": "Tax liability increases by $400 when income rises by $1000. What marginal tax rate applies to the extra income, as a percentage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "40.00"
+      },
+      {
+        "label": "B",
+        "text": "16.00"
+      },
+      {
+        "label": "C",
+        "text": "8.00"
+      },
+      {
+        "label": "D",
+        "text": "24.00"
+      },
+      {
+        "label": "E",
+        "text": "32.00"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Divide the change in taxes by the change in income and multiply by 100.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 81,
+    "difficulty": "Medium",
+    "prompt": "The poverty threshold is $24000. A household has income $20800. What transfer would bring it exactly to the threshold?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$1280.00"
+      },
+      {
+        "label": "B",
+        "text": "$2560.00"
+      },
+      {
+        "label": "C",
+        "text": "$3200.00"
+      },
+      {
+        "label": "D",
+        "text": "$640.00"
+      },
+      {
+        "label": "E",
+        "text": "$1920.00"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Subtract household income from the threshold.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 82,
+    "difficulty": "Medium",
+    "prompt": "An economy has 1400 households; 252 fall below its poverty threshold. What is its poverty rate as a percentage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "18.00"
+      },
+      {
+        "label": "B",
+        "text": "10.80"
+      },
+      {
+        "label": "C",
+        "text": "14.40"
+      },
+      {
+        "label": "D",
+        "text": "21.60"
+      },
+      {
+        "label": "E",
+        "text": "7.20"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The poverty rate is households below the threshold divided by all households, times 100.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 83,
+    "difficulty": "Medium",
+    "prompt": "The poorest 20% of households receive 9% of income, and the next 20% receive 13%. What cumulative income share belongs to the bottom 40%?",
+    "options": [
+      {
+        "label": "A",
+        "text": "26.40"
+      },
+      {
+        "label": "B",
+        "text": "13.20"
+      },
+      {
+        "label": "C",
+        "text": "17.60"
+      },
+      {
+        "label": "D",
+        "text": "30.80"
+      },
+      {
+        "label": "E",
+        "text": "22.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Add the income shares of the first two groups.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 84,
+    "difficulty": "Medium",
+    "prompt": "The bottom 80% of households receive 60% of income. What percentage belongs to the top 20%?",
+    "options": [
+      {
+        "label": "A",
+        "text": "24.00"
+      },
+      {
+        "label": "B",
+        "text": "40.00"
+      },
+      {
+        "label": "C",
+        "text": "16.00"
+      },
+      {
+        "label": "D",
+        "text": "32.00"
+      },
+      {
+        "label": "E",
+        "text": "48.00"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Income shares sum to 100%; subtract the bottom group’s share.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "A population’s bottom quintile receives 5%, and its next quintile receives 10%. What is the Lorenz ordinate at 40% of households?",
+    "options": [
+      {
+        "label": "A",
+        "text": "10%"
+      },
+      {
+        "label": "B",
+        "text": "15%"
+      },
+      {
+        "label": "C",
+        "text": "50%"
+      },
+      {
+        "label": "D",
+        "text": "5%"
+      },
+      {
+        "label": "E",
+        "text": "40%"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Cumulative share at 40% sums the first two quintiles.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 86,
+    "difficulty": "Medium",
+    "prompt": "The area between the equality line and Lorenz curve is 0.2; total area beneath the equality line is 0.5. What is the Gini coefficient?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.40"
+      },
+      {
+        "label": "B",
+        "text": "0.32"
+      },
+      {
+        "label": "C",
+        "text": "0.48"
+      },
+      {
+        "label": "D",
+        "text": "0.24"
+      },
+      {
+        "label": "E",
+        "text": "0.16"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Divide the area between the curves by the total area beneath the equality line.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 87,
+    "difficulty": "Medium",
+    "prompt": "A Lorenz curve has Gini coefficient 0.4. The area beneath the equality line is 0.5. What is the area between the curve and equality line?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.24"
+      },
+      {
+        "label": "B",
+        "text": "0.32"
+      },
+      {
+        "label": "C",
+        "text": "0.28"
+      },
+      {
+        "label": "D",
+        "text": "0.20"
+      },
+      {
+        "label": "E",
+        "text": "0.16"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Multiply the Gini coefficient by the area beneath the equality line.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 88,
+    "difficulty": "Medium",
+    "prompt": "A household earns $25000 before tax and pays $3500 in income taxes. What is after-tax income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$34400.00"
+      },
+      {
+        "label": "B",
+        "text": "$38700.00"
+      },
+      {
+        "label": "C",
+        "text": "$21500.00"
+      },
+      {
+        "label": "D",
+        "text": "$25800.00"
+      },
+      {
+        "label": "E",
+        "text": "$30100.00"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Subtract income taxes from pretax income.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 89,
+    "difficulty": "Medium",
+    "prompt": "A household earns $25000 before tax, pays $3500 in tax, and receives a $2000 transfer. What is disposable income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$37600.00"
+      },
+      {
+        "label": "B",
+        "text": "$32900.00"
+      },
+      {
+        "label": "C",
+        "text": "$18800.00"
+      },
+      {
+        "label": "D",
+        "text": "$28200.00"
+      },
+      {
+        "label": "E",
+        "text": "$23500.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Disposable income equals pretax income minus taxes plus transfers.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 90,
+    "difficulty": "Medium",
+    "prompt": "A household pays $4500 of income tax on income of $25000. What is its average tax rate as a percentage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "14.40"
+      },
+      {
+        "label": "B",
+        "text": "18.00"
+      },
+      {
+        "label": "C",
+        "text": "28.80"
+      },
+      {
+        "label": "D",
+        "text": "25.20"
+      },
+      {
+        "label": "E",
+        "text": "21.60"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Divide total tax by income and multiply by 100.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 91,
+    "difficulty": "Medium",
+    "prompt": "Tax liability increases by $450 when income rises by $1000. What marginal tax rate applies to the extra income, as a percentage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "63.00"
+      },
+      {
+        "label": "B",
+        "text": "81.00"
+      },
+      {
+        "label": "C",
+        "text": "54.00"
+      },
+      {
+        "label": "D",
+        "text": "45.00"
+      },
+      {
+        "label": "E",
+        "text": "72.00"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Divide the change in taxes by the change in income and multiply by 100.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "A transfer raises a low-income household’s disposable income while lowering a richer household’s by the same amount. With ranks unchanged, what is its usual Lorenz effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Double total income"
+      },
+      {
+        "label": "B",
+        "text": "Make every household’s income equal"
+      },
+      {
+        "label": "C",
+        "text": "Move it farther from equality"
+      },
+      {
+        "label": "D",
+        "text": "Move the curve toward equality"
+      },
+      {
+        "label": "E",
+        "text": "Leave every cumulative income share unchanged"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A rank-preserving transfer from richer to poorer narrows shares without changing total income.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  },
+  {
+    "id": 93,
+    "difficulty": "Medium",
+    "prompt": "The poverty threshold is $25000. A household has income $21500. What transfer would bring it exactly to the threshold?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$2100.00"
+      },
+      {
+        "label": "B",
+        "text": "$4200.00"
+      },
+      {
+        "label": "C",
+        "text": "$2800.00"
+      },
+      {
+        "label": "D",
+        "text": "$1400.00"
+      },
+      {
+        "label": "E",
+        "text": "$3500.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Subtract household income from the threshold.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 94,
+    "difficulty": "Medium",
+    "prompt": "An economy has 1500 households; 300 fall below its poverty threshold. What is its poverty rate as a percentage?",
+    "options": [
+      {
+        "label": "A",
+        "text": "20.00"
+      },
+      {
+        "label": "B",
+        "text": "24.00"
+      },
+      {
+        "label": "C",
+        "text": "28.00"
+      },
+      {
+        "label": "D",
+        "text": "16.00"
+      },
+      {
+        "label": "E",
+        "text": "12.00"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The poverty rate is households below the threshold divided by all households, times 100.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 95,
+    "difficulty": "Medium",
+    "prompt": "The poorest 20% of households receive 10% of income, and the next 20% receive 14%. What cumulative income share belongs to the bottom 40%?",
+    "options": [
+      {
+        "label": "A",
+        "text": "28.80"
+      },
+      {
+        "label": "B",
+        "text": "14.40"
+      },
+      {
+        "label": "C",
+        "text": "9.60"
+      },
+      {
+        "label": "D",
+        "text": "24.00"
+      },
+      {
+        "label": "E",
+        "text": "19.20"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Add the income shares of the first two groups.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 96,
+    "difficulty": "Medium",
+    "prompt": "The bottom 80% of households receive 61% of income. What percentage belongs to the top 20%?",
+    "options": [
+      {
+        "label": "A",
+        "text": "15.60"
+      },
+      {
+        "label": "B",
+        "text": "31.20"
+      },
+      {
+        "label": "C",
+        "text": "46.80"
+      },
+      {
+        "label": "D",
+        "text": "23.40"
+      },
+      {
+        "label": "E",
+        "text": "39.00"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Income shares sum to 100%; subtract the bottom group’s share.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 97,
+    "difficulty": "Medium",
+    "prompt": "The area between the equality line and Lorenz curve is 0.22; total area beneath the equality line is 0.5. What is the Gini coefficient?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.79"
+      },
+      {
+        "label": "B",
+        "text": "0.70"
+      },
+      {
+        "label": "C",
+        "text": "0.53"
+      },
+      {
+        "label": "D",
+        "text": "0.62"
+      },
+      {
+        "label": "E",
+        "text": "0.44"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Divide the area between the curves by the total area beneath the equality line.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 98,
+    "difficulty": "Medium",
+    "prompt": "A Lorenz curve has Gini coefficient 0.44. The area beneath the equality line is 0.5. What is the area between the curve and equality line?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.18"
+      },
+      {
+        "label": "B",
+        "text": "0.22"
+      },
+      {
+        "label": "C",
+        "text": "0.26"
+      },
+      {
+        "label": "D",
+        "text": "0.13"
+      },
+      {
+        "label": "E",
+        "text": "0.31"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Multiply the Gini coefficient by the area beneath the equality line.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 99,
+    "difficulty": "Medium",
+    "prompt": "A household earns $26000 before tax and pays $3800 in income taxes. What is after-tax income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$26640.00"
+      },
+      {
+        "label": "B",
+        "text": "$8880.00"
+      },
+      {
+        "label": "C",
+        "text": "$13320.00"
+      },
+      {
+        "label": "D",
+        "text": "$22200.00"
+      },
+      {
+        "label": "E",
+        "text": "$17760.00"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Subtract income taxes from pretax income.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "Why should an inequality comparison specify pretax or disposable income?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Pretax income always equals disposable income"
+      },
+      {
+        "label": "B",
+        "text": "Transfers are excluded from household resources"
+      },
+      {
+        "label": "C",
+        "text": "Taxes and transfers can change the distribution"
+      },
+      {
+        "label": "D",
+        "text": "Gini measures only taxes"
+      },
+      {
+        "label": "E",
+        "text": "Lorenz curves cannot use disposable income"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Income definitions affect the shares and inequality being compared.",
+    "reference": "POL-5.A | POL-5.B | POL-5.A.1 | POL-5.A.2 | POL-5.B.1 | POL-5.B.2 | Skill 1.A",
+    "graphDescription": "",
+    "graphRequired": false
+  }
+]

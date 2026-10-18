@@ -1,0 +1,4032 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "Which fiscal action is most likely to increase aggregate demand during a recession?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An increase in income tax rates"
+      },
+      {
+        "label": "B",
+        "text": "An increase in government spending"
+      },
+      {
+        "label": "C",
+        "text": "A reduction in transfer payments"
+      },
+      {
+        "label": "D",
+        "text": "A cut in public investment"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Higher government spending is a direct injection into aggregate demand and is therefore expansionary fiscal policy.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 fiscal policy including Laffer curve analysis | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "Which fiscal action is most likely to reduce demand-pull inflation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher transfer payments"
+      },
+      {
+        "label": "B",
+        "text": "Higher direct taxation"
+      },
+      {
+        "label": "C",
+        "text": "Higher government purchases"
+      },
+      {
+        "label": "D",
+        "text": "Higher public investment"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Higher taxation reduces disposable income and spending, shifting aggregate demand left and easing demand-pull inflation.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 fiscal policy including Laffer curve analysis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "What does the Laffer curve show?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Inflation versus jobs"
+      },
+      {
+        "label": "B",
+        "text": "Tax rates versus revenue"
+      },
+      {
+        "label": "C",
+        "text": "Exchange-rate movements versus the value of exports"
+      },
+      {
+        "label": "D",
+        "text": "Interest rates and money demand"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The Laffer curve illustrates that tax revenue may first rise and then fall as tax rates increase, because very high rates can weaken taxable activity and increase avoidance or evasion.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 fiscal policy including Laffer curve analysis | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: tax revenue. Horizontal axis: tax rate from 0% to 100%. Draw an inverted-U Laffer curve with revenue equal to zero at both 0% and 100%, and a maximum at an intermediate tax rate.",
+    "graphScenes": [
+      {
+        "xLabel": "Tax rate (%)",
+        "yLabel": "Tax revenue",
+        "xMax": 110,
+        "yMax": 110,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "Laffer curve",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 1.6666666666666667,
+                "y": 6.555555555555559
+              },
+              {
+                "x": 3.3333333333333335,
+                "y": 12.888888888888905
+              },
+              {
+                "x": 5.0,
+                "y": 18.999999999999993
+              },
+              {
+                "x": 6.666666666666667,
+                "y": 24.888888888888882
+              },
+              {
+                "x": 8.333333333333334,
+                "y": 30.555555555555568
+              },
+              {
+                "x": 10.0,
+                "y": 35.999999999999986
+              },
+              {
+                "x": 11.666666666666666,
+                "y": 41.222222222222214
+              },
+              {
+                "x": 13.333333333333334,
+                "y": 46.22222222222223
+              },
+              {
+                "x": 15.0,
+                "y": 51.0
+              },
+              {
+                "x": 16.666666666666668,
+                "y": 55.55555555555558
+              },
+              {
+                "x": 18.333333333333332,
+                "y": 59.88888888888889
+              },
+              {
+                "x": 20.0,
+                "y": 64.0
+              },
+              {
+                "x": 21.666666666666668,
+                "y": 67.88888888888889
+              },
+              {
+                "x": 23.333333333333332,
+                "y": 71.55555555555554
+              },
+              {
+                "x": 25.0,
+                "y": 75.0
+              },
+              {
+                "x": 26.666666666666668,
+                "y": 78.22222222222223
+              },
+              {
+                "x": 28.333333333333332,
+                "y": 81.22222222222221
+              },
+              {
+                "x": 30.0,
+                "y": 84.0
+              },
+              {
+                "x": 31.666666666666668,
+                "y": 86.55555555555556
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 88.8888888888889
+              },
+              {
+                "x": 35.0,
+                "y": 91.0
+              },
+              {
+                "x": 36.666666666666664,
+                "y": 92.88888888888889
+              },
+              {
+                "x": 38.333333333333336,
+                "y": 94.55555555555556
+              },
+              {
+                "x": 40.0,
+                "y": 96.0
+              },
+              {
+                "x": 41.666666666666664,
+                "y": 97.22222222222221
+              },
+              {
+                "x": 43.333333333333336,
+                "y": 98.22222222222223
+              },
+              {
+                "x": 45.0,
+                "y": 99.0
+              },
+              {
+                "x": 46.666666666666664,
+                "y": 99.55555555555556
+              },
+              {
+                "x": 48.333333333333336,
+                "y": 99.8888888888889
+              },
+              {
+                "x": 50.0,
+                "y": 100.0
+              },
+              {
+                "x": 51.666666666666664,
+                "y": 99.8888888888889
+              },
+              {
+                "x": 53.333333333333336,
+                "y": 99.55555555555556
+              },
+              {
+                "x": 55.0,
+                "y": 99.0
+              },
+              {
+                "x": 56.666666666666664,
+                "y": 98.22222222222223
+              },
+              {
+                "x": 58.333333333333336,
+                "y": 97.22222222222221
+              },
+              {
+                "x": 60.0,
+                "y": 96.0
+              },
+              {
+                "x": 61.666666666666664,
+                "y": 94.55555555555556
+              },
+              {
+                "x": 63.333333333333336,
+                "y": 92.88888888888889
+              },
+              {
+                "x": 65.0,
+                "y": 91.0
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 88.88888888888889
+              },
+              {
+                "x": 68.33333333333333,
+                "y": 86.55555555555556
+              },
+              {
+                "x": 70.0,
+                "y": 84.0
+              },
+              {
+                "x": 71.66666666666667,
+                "y": 81.22222222222221
+              },
+              {
+                "x": 73.33333333333333,
+                "y": 78.22222222222224
+              },
+              {
+                "x": 75.0,
+                "y": 75.0
+              },
+              {
+                "x": 76.66666666666667,
+                "y": 71.55555555555554
+              },
+              {
+                "x": 78.33333333333333,
+                "y": 67.88888888888891
+              },
+              {
+                "x": 80.0,
+                "y": 64.0
+              },
+              {
+                "x": 81.66666666666667,
+                "y": 59.88888888888888
+              },
+              {
+                "x": 83.33333333333333,
+                "y": 55.55555555555558
+              },
+              {
+                "x": 85.0,
+                "y": 51.0
+              },
+              {
+                "x": 86.66666666666667,
+                "y": 46.22222222222221
+              },
+              {
+                "x": 88.33333333333333,
+                "y": 41.22222222222223
+              },
+              {
+                "x": 90.0,
+                "y": 35.999999999999986
+              },
+              {
+                "x": 91.66666666666667,
+                "y": 30.555555555555536
+              },
+              {
+                "x": 93.33333333333333,
+                "y": 24.888888888888903
+              },
+              {
+                "x": 95.0,
+                "y": 18.999999999999993
+              },
+              {
+                "x": 96.66666666666667,
+                "y": 12.88888888888886
+              },
+              {
+                "x": 98.33333333333333,
+                "y": 6.55555555555557
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [],
+        "guides": [],
+        "regions": [],
+        "annotations": [],
+        "caption": "Illustrative relationship; the peak is not an estimated optimum."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "According to the Laffer curve, tax revenue at a 0% tax rate is",
+    "options": [
+      {
+        "label": "A",
+        "text": "Maximum revenue"
+      },
+      {
+        "label": "B",
+        "text": "Revenue equal to national income"
+      },
+      {
+        "label": "C",
+        "text": "Zero revenue"
+      },
+      {
+        "label": "D",
+        "text": "Revenue above the 50% rate"
+      }
+    ],
+    "answer": "C",
+    "explanation": "With no tax imposed, the government collects no revenue from that tax.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 fiscal policy including Laffer curve analysis | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "According to the standard Laffer-curve illustration, why can tax revenue fall when an already very high tax rate is increased?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An increase in the tax rate increases consumption expenditure for every household"
+      },
+      {
+        "label": "B",
+        "text": "Higher rates may shrink the tax base"
+      },
+      {
+        "label": "C",
+        "text": "Higher rates necessarily contract the money supply"
+      },
+      {
+        "label": "D",
+        "text": "Higher rates eliminate every import-price response"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Beyond the revenue-maximising region, disincentive, avoidance and evasion effects may shrink the taxable base enough to reduce total revenue.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 fiscal policy including Laffer curve analysis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "Which monetary-policy action is most directly contractionary?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lowering the policy interest rate"
+      },
+      {
+        "label": "B",
+        "text": "Increasing the money supply"
+      },
+      {
+        "label": "C",
+        "text": "Raising the policy interest rate"
+      },
+      {
+        "label": "D",
+        "text": "Easing credit regulations"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Higher interest rates discourage borrowing and interest-sensitive spending and are used to reduce aggregate demand.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 monetary policy | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "Which condition is most likely to make a cut in interest rates effective in raising aggregate demand?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Borrowers are willing to increase spending"
+      },
+      {
+        "label": "B",
+        "text": "Banks are unwilling to extend credit"
+      },
+      {
+        "label": "C",
+        "text": "Firms expect sharply falling future sales"
+      },
+      {
+        "label": "D",
+        "text": "Spending is unresponsive to borrowing costs"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Monetary transmission depends on borrowers and banks responding to lower interest rates.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 monetary policy | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "Which is a market-based supply-side policy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Public vocational training"
+      },
+      {
+        "label": "B",
+        "text": "Lower market-entry barriers"
+      },
+      {
+        "label": "C",
+        "text": "Public transport infrastructure"
+      },
+      {
+        "label": "D",
+        "text": "Public research subsidies"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Market-based supply-side policies seek to improve incentives and market flexibility, for example through deregulation, privatisation or tax/benefit reform.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 supply-side policy including market-based and interventionist policies | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "Which is an interventionist supply-side policy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Privatising state enterprises"
+      },
+      {
+        "label": "B",
+        "text": "Reductions in marginal rates of personal income taxation"
+      },
+      {
+        "label": "C",
+        "text": "Deregulating product markets"
+      },
+      {
+        "label": "D",
+        "text": "State-funded education and training"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Interventionist supply-side policies involve direct government action or expenditure to improve productive capacity, skills or infrastructure.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 supply-side policy including market-based and interventionist policies | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "Why can supply-side policy improve both growth and price stability in the long run?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It necessarily reduces all aggregate demand"
+      },
+      {
+        "label": "B",
+        "text": "It guarantees balanced external payments immediately"
+      },
+      {
+        "label": "C",
+        "text": "Greater capacity and potentially lower costs"
+      },
+      {
+        "label": "D",
+        "text": "Supply reforms eliminate any need for the public sector to borrow in future"
+      }
+    ],
+    "answer": "C",
+    "explanation": "An outward shift of LRAS allows more real output to be produced with less inflationary pressure.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 supply-side policy including market-based and interventionist policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "Which exchange-rate policy is most likely to reduce imported inflation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Currency depreciation"
+      },
+      {
+        "label": "B",
+        "text": "Currency appreciation"
+      },
+      {
+        "label": "C",
+        "text": "Money-financed export subsidies"
+      },
+      {
+        "label": "D",
+        "text": "Higher import tariffs"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A stronger currency lowers the domestic-currency price of imported finished goods and inputs, other things equal.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 exchange rate policy | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "Which exchange-rate policy is most likely to improve export price competitiveness?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Currency appreciation"
+      },
+      {
+        "label": "B",
+        "text": "Higher relative domestic inflation"
+      },
+      {
+        "label": "C",
+        "text": "Currency depreciation"
+      },
+      {
+        "label": "D",
+        "text": "Higher foreign import tariffs"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A weaker currency can reduce the foreign-currency price of exports and raise the domestic price of imports, encouraging expenditure switching.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 exchange rate policy | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "Which trade policy is most clearly protectionist?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Removing import quotas"
+      },
+      {
+        "label": "B",
+        "text": "Imposing import tariffs"
+      },
+      {
+        "label": "C",
+        "text": "Removing trade tariffs"
+      },
+      {
+        "label": "D",
+        "text": "Reducing customs delays"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A tariff raises the domestic price of imported goods and protects domestic producers from foreign competition.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 international trade policy | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "Which trade-policy change is most likely to increase competitive pressure on domestic firms?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A higher import tariff"
+      },
+      {
+        "label": "B",
+        "text": "A tighter import quota"
+      },
+      {
+        "label": "C",
+        "text": "An embargo on competing imports"
+      },
+      {
+        "label": "D",
+        "text": "Trade liberalisation"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Removing barriers exposes domestic firms to stronger international competition, which may encourage efficiency and lower prices.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 international trade policy | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "Which policy conflict is most likely when expansionary demand management is used to reduce unemployment near full capacity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower joblessness may accompany stronger inflation"
+      },
+      {
+        "label": "B",
+        "text": "Lower joblessness necessarily accompanies lower inflation"
+      },
+      {
+        "label": "C",
+        "text": "Higher demand necessarily ends real output growth"
+      },
+      {
+        "label": "D",
+        "text": "Higher demand necessarily creates an external surplus"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Near capacity, stronger aggregate demand can reduce unemployment but create demand-pull inflationary pressure.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.2 problems and conflicts arising from the outcome of these policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "Which conflict can arise when a central bank raises interest rates to reduce inflation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower joblessness from stronger demand"
+      },
+      {
+        "label": "B",
+        "text": "Higher output from stronger investment"
+      },
+      {
+        "label": "C",
+        "text": "Higher net exports from currency depreciation"
+      },
+      {
+        "label": "D",
+        "text": "Higher joblessness from weaker demand"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Higher interest rates restrain consumption and investment, which can reduce output growth and increase unemployment.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.2 problems and conflicts arising from the outcome of these policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "What is Tinbergen's rule?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Enough independent instruments for independent objectives"
+      },
+      {
+        "label": "B",
+        "text": "One instrument can independently deliver any number of unrelated economic objectives simultaneously"
+      },
+      {
+        "label": "C",
+        "text": "Fiscal and monetary instruments must never operate simultaneously"
+      },
+      {
+        "label": "D",
+        "text": "Target price stability alone"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The rule highlights why multiple objectives often require multiple instruments rather than expecting one policy to solve all problems.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.2 problems and conflicts arising from the outcome of these policies | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "What is meant by macroeconomic government failure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Government collection of any revenue from taxes on households or businesses"
+      },
+      {
+        "label": "B",
+        "text": "Any market-driven change in currency value"
+      },
+      {
+        "label": "C",
+        "text": "Policy worsening its intended outcome"
+      },
+      {
+        "label": "D",
+        "text": "Any occurrence of weak output growth"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Macroeconomic government failure occurs when policy intervention worsens rather than improves overall economic performance.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.3 existence of government failure in macroeconomic policies | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "What is a recognition lag?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The time before behaviour responds to an implemented policy"
+      },
+      {
+        "label": "B",
+        "text": "The time between authorising and constructing new transport infrastructure"
+      },
+      {
+        "label": "C",
+        "text": "The time between holding an election and announcing its results"
+      },
+      {
+        "label": "D",
+        "text": "The time before policymakers identify an existing economic problem"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Governments do not observe the economy perfectly in real time, so they may recognise inflation, recession or other problems only after a delay.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.3 existence of government failure in macroeconomic policies | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "What is an implementation lag?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Delay before recognising an economic problem"
+      },
+      {
+        "label": "B",
+        "text": "Delay before behaviour responds to policy"
+      },
+      {
+        "label": "C",
+        "text": "Delay before an agreed policy begins operating"
+      },
+      {
+        "label": "D",
+        "text": "Delay before an imported product is delivered"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Legislation, budgets and administrative procedures can delay the introduction of a chosen policy.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.3 existence of government failure in macroeconomic policies | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "What is a behavioural lag?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Delay before policymakers recognise inflation"
+      },
+      {
+        "label": "B",
+        "text": "Delay before election votes are counted"
+      },
+      {
+        "label": "C",
+        "text": "Delay before behaviour responds to intervention"
+      },
+      {
+        "label": "D",
+        "text": "Delay before an agreed policy is implemented"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Even after a policy is implemented, private-sector responses such as borrowing, investment or wage-setting may take time.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.3 existence of government failure in macroeconomic policies | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "Which situation is most clearly a source of government failure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Actual policy effects match predicted effects"
+      },
+      {
+        "label": "B",
+        "text": "Information is complete and immediately available"
+      },
+      {
+        "label": "C",
+        "text": "Every household and firm adjusts its expenditure exactly as the government forecast"
+      },
+      {
+        "label": "D",
+        "text": "An underestimated multiplier leads to excessive stimulus"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Poor information about key parameters can cause a policy to be set at the wrong scale and replace one macroeconomic problem with another.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.3 existence of government failure in macroeconomic policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "Why can election timing contribute to macroeconomic government failure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Election dates necessarily improve policy efficiency"
+      },
+      {
+        "label": "B",
+        "text": "Voters necessarily favour demand contraction before elections"
+      },
+      {
+        "label": "C",
+        "text": "Popular short-run measures can undermine longer-run stability"
+      },
+      {
+        "label": "D",
+        "text": "Elections remove delays in recognising economic problems"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Political incentives can cause policy to be chosen for electoral advantage rather than long-run economic performance.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.3 existence of government failure in macroeconomic policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "Which policy is most likely to reduce a recessionary gap without directly reducing long-run productive capacity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Temporary stimulus using idle productive resources"
+      },
+      {
+        "label": "B",
+        "text": "Permanent reductions in workforce education spending"
+      },
+      {
+        "label": "C",
+        "text": "Permanent reductions in productive transport infrastructure"
+      },
+      {
+        "label": "D",
+        "text": "Permanent prohibitions on new capital investment"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Demand support can raise utilisation of existing capacity; cutting productive investment can damage future supply.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 fiscal policy including Laffer curve analysis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "Which policy is most likely to lower structural unemployment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A temporary increase in government consumption only"
+      },
+      {
+        "label": "B",
+        "text": "Retraining and improved labour-market matching"
+      },
+      {
+        "label": "C",
+        "text": "A one-off currency appreciation"
+      },
+      {
+        "label": "D",
+        "text": "A rise in interest rates"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Structural unemployment requires supply-side measures that improve skills and mobility rather than only raising aggregate demand.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 supply-side policy including market-based and interventionist policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "Which policy is most likely to improve sustainability while also increasing productive capacity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Permanent subsidies for fossil-fuel consumption"
+      },
+      {
+        "label": "B",
+        "text": "Removal of safeguards against pollution costs"
+      },
+      {
+        "label": "C",
+        "text": "Investment in low-carbon productive infrastructure"
+      },
+      {
+        "label": "D",
+        "text": "Faster depletion of scarce natural resources"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Green infrastructure can reduce environmental damage while expanding or improving the productive capital stock.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 supply-side policy including market-based and interventionist policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "A government wants to reduce a current account deficit by reducing domestic spending. Which policy is most directly expenditure-reducing?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Fiscal contraction"
+      },
+      {
+        "label": "B",
+        "text": "An import tariff"
+      },
+      {
+        "label": "C",
+        "text": "Currency depreciation"
+      },
+      {
+        "label": "D",
+        "text": "Government subsidies supporting domestic businesses’ sales to customers abroad"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Higher taxes or lower government spending reduce aggregate expenditure, including spending on imports.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 fiscal policy including Laffer curve analysis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "A government wants to reduce a current account deficit by switching spending away from imports. Which policy is most directly suited?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher general income taxes"
+      },
+      {
+        "label": "B",
+        "text": "Lower spending"
+      },
+      {
+        "label": "C",
+        "text": "Higher compulsory contributions paid by employees into retirement pension schemes"
+      },
+      {
+        "label": "D",
+        "text": "Import tariffs"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A tariff changes relative prices and switches demand from imports toward domestic substitutes rather than simply reducing total spending.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 international trade policy | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "Why might a depreciation fail to improve the current account immediately?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Depreciation automatically reduces domestic import prices"
+      },
+      {
+        "label": "B",
+        "text": "Trade quantities adjust slowly to price changes"
+      },
+      {
+        "label": "C",
+        "text": "Depreciation necessarily makes every export demand inelastic"
+      },
+      {
+        "label": "D",
+        "text": "The current account excludes imported goods spending"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Effectiveness depends on behavioural responsiveness and time. Quantity adjustment can be slow even when relative prices change quickly.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 exchange rate policy | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "Why might government spending on training take years to affect macroeconomic performance?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Training affects only current aggregate demand"
+      },
+      {
+        "label": "B",
+        "text": "Skills develop gradually and productivity adjusts later"
+      },
+      {
+        "label": "C",
+        "text": "Training immediately alters the fixed exchange rate"
+      },
+      {
+        "label": "D",
+        "text": "Human capital cannot influence firms’ productive capacity"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Interventionist supply-side policies often have long implementation and impact lags, though their effects can be persistent.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 supply-side policy including market-based and interventionist policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 31,
+    "difficulty": "Medium",
+    "prompt": "A government raises spending by $20 billion. The marginal propensity to consume is high and there is substantial spare capacity. Why is the policy more likely to raise real GDP substantially?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The high propensity to consume ensures additional spending has a multiplier of zero"
+      },
+      {
+        "label": "B",
+        "text": "Induced spending and spare capacity raise output"
+      },
+      {
+        "label": "C",
+        "text": "Spare capacity makes short-run supply vertical"
+      },
+      {
+        "label": "D",
+        "text": "Consumption increases necessarily reduce aggregate demand"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A larger multiplier amplifies the injection, while spare capacity allows higher demand to translate mainly into output rather than prices.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 fiscal policy including Laffer curve analysis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 32,
+    "difficulty": "Medium",
+    "prompt": "A government raises spending by $20 billion when the economy is close to full capacity. Compared with the same increase during a recession with spare capacity, what changes most?",
+    "options": [
+      {
+        "label": "A",
+        "text": "More demand feeds into prices rather than output"
+      },
+      {
+        "label": "B",
+        "text": "The multiplier necessarily becomes a negative number"
+      },
+      {
+        "label": "C",
+        "text": "Public expenditure is no longer included as a component of aggregate demand"
+      },
+      {
+        "label": "D",
+        "text": "Every unemployed worker immediately leaves the labour force"
+      }
+    ],
+    "answer": "A",
+    "explanation": "With little spare capacity, aggregate supply is less responsive, so expansionary fiscal policy becomes less effective at raising real output and more inflationary.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 fiscal policy including Laffer curve analysis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 33,
+    "difficulty": "Medium",
+    "prompt": "A tax cut is intended to stimulate a recession, but households expect future tax rises and save most of the extra disposable income. What does this show?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tax cuts necessarily produce no demand effect"
+      },
+      {
+        "label": "B",
+        "text": "Tax cuts cannot alter household disposable income"
+      },
+      {
+        "label": "C",
+        "text": "Expectations influence currency values but never consumption"
+      },
+      {
+        "label": "D",
+        "text": "Private saving responses can weaken fiscal transmission"
+      }
+    ],
+    "answer": "D",
+    "explanation": "If the marginal propensity to consume out of a tax cut is low, the demand effect will be weaker than policymakers intended.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 fiscal policy including Laffer curve analysis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "A country is on the rising section of its Laffer curve below the revenue-maximising tax rate. What is the most likely effect of a small rise in the tax rate, other things equal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tax revenue rises"
+      },
+      {
+        "label": "B",
+        "text": "Tax revenue must fall"
+      },
+      {
+        "label": "C",
+        "text": "Tax revenue becomes zero"
+      },
+      {
+        "label": "D",
+        "text": "The tax base must disappear"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Below the peak, the direct effect of the higher rate is assumed to dominate any contraction in the taxable base.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 fiscal policy including Laffer curve analysis | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: tax revenue. Horizontal axis: tax rate. Draw an inverted-U curve and mark an initial tax rate to the left of the revenue-maximising peak; show a small move right with higher revenue.",
+    "graphScenes": [
+      {
+        "xLabel": "Tax rate (%)",
+        "yLabel": "Tax revenue",
+        "xMax": 110,
+        "yMax": 110,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "Laffer curve",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 1.6666666666666667,
+                "y": 6.555555555555559
+              },
+              {
+                "x": 3.3333333333333335,
+                "y": 12.888888888888905
+              },
+              {
+                "x": 5.0,
+                "y": 18.999999999999993
+              },
+              {
+                "x": 6.666666666666667,
+                "y": 24.888888888888882
+              },
+              {
+                "x": 8.333333333333334,
+                "y": 30.555555555555568
+              },
+              {
+                "x": 10.0,
+                "y": 35.999999999999986
+              },
+              {
+                "x": 11.666666666666666,
+                "y": 41.222222222222214
+              },
+              {
+                "x": 13.333333333333334,
+                "y": 46.22222222222223
+              },
+              {
+                "x": 15.0,
+                "y": 51.0
+              },
+              {
+                "x": 16.666666666666668,
+                "y": 55.55555555555558
+              },
+              {
+                "x": 18.333333333333332,
+                "y": 59.88888888888889
+              },
+              {
+                "x": 20.0,
+                "y": 64.0
+              },
+              {
+                "x": 21.666666666666668,
+                "y": 67.88888888888889
+              },
+              {
+                "x": 23.333333333333332,
+                "y": 71.55555555555554
+              },
+              {
+                "x": 25.0,
+                "y": 75.0
+              },
+              {
+                "x": 26.666666666666668,
+                "y": 78.22222222222223
+              },
+              {
+                "x": 28.333333333333332,
+                "y": 81.22222222222221
+              },
+              {
+                "x": 30.0,
+                "y": 84.0
+              },
+              {
+                "x": 31.666666666666668,
+                "y": 86.55555555555556
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 88.8888888888889
+              },
+              {
+                "x": 35.0,
+                "y": 91.0
+              },
+              {
+                "x": 36.666666666666664,
+                "y": 92.88888888888889
+              },
+              {
+                "x": 38.333333333333336,
+                "y": 94.55555555555556
+              },
+              {
+                "x": 40.0,
+                "y": 96.0
+              },
+              {
+                "x": 41.666666666666664,
+                "y": 97.22222222222221
+              },
+              {
+                "x": 43.333333333333336,
+                "y": 98.22222222222223
+              },
+              {
+                "x": 45.0,
+                "y": 99.0
+              },
+              {
+                "x": 46.666666666666664,
+                "y": 99.55555555555556
+              },
+              {
+                "x": 48.333333333333336,
+                "y": 99.8888888888889
+              },
+              {
+                "x": 50.0,
+                "y": 100.0
+              },
+              {
+                "x": 51.666666666666664,
+                "y": 99.8888888888889
+              },
+              {
+                "x": 53.333333333333336,
+                "y": 99.55555555555556
+              },
+              {
+                "x": 55.0,
+                "y": 99.0
+              },
+              {
+                "x": 56.666666666666664,
+                "y": 98.22222222222223
+              },
+              {
+                "x": 58.333333333333336,
+                "y": 97.22222222222221
+              },
+              {
+                "x": 60.0,
+                "y": 96.0
+              },
+              {
+                "x": 61.666666666666664,
+                "y": 94.55555555555556
+              },
+              {
+                "x": 63.333333333333336,
+                "y": 92.88888888888889
+              },
+              {
+                "x": 65.0,
+                "y": 91.0
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 88.88888888888889
+              },
+              {
+                "x": 68.33333333333333,
+                "y": 86.55555555555556
+              },
+              {
+                "x": 70.0,
+                "y": 84.0
+              },
+              {
+                "x": 71.66666666666667,
+                "y": 81.22222222222221
+              },
+              {
+                "x": 73.33333333333333,
+                "y": 78.22222222222224
+              },
+              {
+                "x": 75.0,
+                "y": 75.0
+              },
+              {
+                "x": 76.66666666666667,
+                "y": 71.55555555555554
+              },
+              {
+                "x": 78.33333333333333,
+                "y": 67.88888888888891
+              },
+              {
+                "x": 80.0,
+                "y": 64.0
+              },
+              {
+                "x": 81.66666666666667,
+                "y": 59.88888888888888
+              },
+              {
+                "x": 83.33333333333333,
+                "y": 55.55555555555558
+              },
+              {
+                "x": 85.0,
+                "y": 51.0
+              },
+              {
+                "x": 86.66666666666667,
+                "y": 46.22222222222221
+              },
+              {
+                "x": 88.33333333333333,
+                "y": 41.22222222222223
+              },
+              {
+                "x": 90.0,
+                "y": 35.999999999999986
+              },
+              {
+                "x": 91.66666666666667,
+                "y": 30.555555555555536
+              },
+              {
+                "x": 93.33333333333333,
+                "y": 24.888888888888903
+              },
+              {
+                "x": 95.0,
+                "y": 18.999999999999993
+              },
+              {
+                "x": 96.66666666666667,
+                "y": 12.88888888888886
+              },
+              {
+                "x": 98.33333333333333,
+                "y": 6.55555555555557
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "A",
+            "x": 25,
+            "y": 75.0
+          },
+          {
+            "id": "p1",
+            "label": "B",
+            "x": 30,
+            "y": 84.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 25,
+            "y": 75.0,
+            "xLabel": "25%"
+          },
+          {
+            "id": "g1",
+            "x": 30,
+            "y": 84.0,
+            "xLabel": "30%"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Illustrative relationship; the peak is not an estimated optimum."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "A country is on the falling section of its Laffer curve above the revenue-maximising tax rate. What is the most likely effect of a small cut in the tax rate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Revenue falls as the tax base expands"
+      },
+      {
+        "label": "B",
+        "text": "Revenue stays constant as the rate falls"
+      },
+      {
+        "label": "C",
+        "text": "Revenue disappears at every lower tax rate"
+      },
+      {
+        "label": "D",
+        "text": "Revenue rises as the tax base expands"
+      }
+    ],
+    "answer": "D",
+    "explanation": "On the downward-sloping section, lower rates may strengthen incentives, compliance and taxable activity enough to raise total revenue.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 fiscal policy including Laffer curve analysis | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: tax revenue. Horizontal axis: tax rate. Draw an inverted-U curve and mark an initial rate to the right of the revenue-maximising peak; show a small move left with higher revenue.",
+    "graphScenes": [
+      {
+        "xLabel": "Tax rate (%)",
+        "yLabel": "Tax revenue",
+        "xMax": 110,
+        "yMax": 110,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "Laffer curve",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 1.6666666666666667,
+                "y": 6.555555555555559
+              },
+              {
+                "x": 3.3333333333333335,
+                "y": 12.888888888888905
+              },
+              {
+                "x": 5.0,
+                "y": 18.999999999999993
+              },
+              {
+                "x": 6.666666666666667,
+                "y": 24.888888888888882
+              },
+              {
+                "x": 8.333333333333334,
+                "y": 30.555555555555568
+              },
+              {
+                "x": 10.0,
+                "y": 35.999999999999986
+              },
+              {
+                "x": 11.666666666666666,
+                "y": 41.222222222222214
+              },
+              {
+                "x": 13.333333333333334,
+                "y": 46.22222222222223
+              },
+              {
+                "x": 15.0,
+                "y": 51.0
+              },
+              {
+                "x": 16.666666666666668,
+                "y": 55.55555555555558
+              },
+              {
+                "x": 18.333333333333332,
+                "y": 59.88888888888889
+              },
+              {
+                "x": 20.0,
+                "y": 64.0
+              },
+              {
+                "x": 21.666666666666668,
+                "y": 67.88888888888889
+              },
+              {
+                "x": 23.333333333333332,
+                "y": 71.55555555555554
+              },
+              {
+                "x": 25.0,
+                "y": 75.0
+              },
+              {
+                "x": 26.666666666666668,
+                "y": 78.22222222222223
+              },
+              {
+                "x": 28.333333333333332,
+                "y": 81.22222222222221
+              },
+              {
+                "x": 30.0,
+                "y": 84.0
+              },
+              {
+                "x": 31.666666666666668,
+                "y": 86.55555555555556
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 88.8888888888889
+              },
+              {
+                "x": 35.0,
+                "y": 91.0
+              },
+              {
+                "x": 36.666666666666664,
+                "y": 92.88888888888889
+              },
+              {
+                "x": 38.333333333333336,
+                "y": 94.55555555555556
+              },
+              {
+                "x": 40.0,
+                "y": 96.0
+              },
+              {
+                "x": 41.666666666666664,
+                "y": 97.22222222222221
+              },
+              {
+                "x": 43.333333333333336,
+                "y": 98.22222222222223
+              },
+              {
+                "x": 45.0,
+                "y": 99.0
+              },
+              {
+                "x": 46.666666666666664,
+                "y": 99.55555555555556
+              },
+              {
+                "x": 48.333333333333336,
+                "y": 99.8888888888889
+              },
+              {
+                "x": 50.0,
+                "y": 100.0
+              },
+              {
+                "x": 51.666666666666664,
+                "y": 99.8888888888889
+              },
+              {
+                "x": 53.333333333333336,
+                "y": 99.55555555555556
+              },
+              {
+                "x": 55.0,
+                "y": 99.0
+              },
+              {
+                "x": 56.666666666666664,
+                "y": 98.22222222222223
+              },
+              {
+                "x": 58.333333333333336,
+                "y": 97.22222222222221
+              },
+              {
+                "x": 60.0,
+                "y": 96.0
+              },
+              {
+                "x": 61.666666666666664,
+                "y": 94.55555555555556
+              },
+              {
+                "x": 63.333333333333336,
+                "y": 92.88888888888889
+              },
+              {
+                "x": 65.0,
+                "y": 91.0
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 88.88888888888889
+              },
+              {
+                "x": 68.33333333333333,
+                "y": 86.55555555555556
+              },
+              {
+                "x": 70.0,
+                "y": 84.0
+              },
+              {
+                "x": 71.66666666666667,
+                "y": 81.22222222222221
+              },
+              {
+                "x": 73.33333333333333,
+                "y": 78.22222222222224
+              },
+              {
+                "x": 75.0,
+                "y": 75.0
+              },
+              {
+                "x": 76.66666666666667,
+                "y": 71.55555555555554
+              },
+              {
+                "x": 78.33333333333333,
+                "y": 67.88888888888891
+              },
+              {
+                "x": 80.0,
+                "y": 64.0
+              },
+              {
+                "x": 81.66666666666667,
+                "y": 59.88888888888888
+              },
+              {
+                "x": 83.33333333333333,
+                "y": 55.55555555555558
+              },
+              {
+                "x": 85.0,
+                "y": 51.0
+              },
+              {
+                "x": 86.66666666666667,
+                "y": 46.22222222222221
+              },
+              {
+                "x": 88.33333333333333,
+                "y": 41.22222222222223
+              },
+              {
+                "x": 90.0,
+                "y": 35.999999999999986
+              },
+              {
+                "x": 91.66666666666667,
+                "y": 30.555555555555536
+              },
+              {
+                "x": 93.33333333333333,
+                "y": 24.888888888888903
+              },
+              {
+                "x": 95.0,
+                "y": 18.999999999999993
+              },
+              {
+                "x": 96.66666666666667,
+                "y": 12.88888888888886
+              },
+              {
+                "x": 98.33333333333333,
+                "y": 6.55555555555557
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "A",
+            "x": 75,
+            "y": 75.0
+          },
+          {
+            "id": "p1",
+            "label": "B",
+            "x": 70,
+            "y": 84.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 75,
+            "y": 75.0,
+            "xLabel": "75%"
+          },
+          {
+            "id": "g1",
+            "x": 70,
+            "y": 84.0,
+            "xLabel": "70%"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Illustrative relationship; the peak is not an estimated optimum."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "Why can the Laffer curve not tell a government the exact tax rate that maximises revenue in practice?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tax rates have no relationship with behaviour"
+      },
+      {
+        "label": "B",
+        "text": "The optimum rate is universally exactly 50%"
+      },
+      {
+        "label": "C",
+        "text": "Behavioural responses differ across taxes and economies"
+      },
+      {
+        "label": "D",
+        "text": "Every taxpayer responds identically to tax-rate changes"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The curve is a conceptual relationship. The revenue-maximising rate depends on incentives, avoidance, enforcement and the tax base.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 fiscal policy including Laffer curve analysis | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "A central bank cuts interest rates but investment does not increase because firms expect a prolonged recession. Which factor has reduced policy effectiveness?",
+    "options": [
+      {
+        "label": "A",
+        "text": "High marginal propensity to import only"
+      },
+      {
+        "label": "B",
+        "text": "Weak business confidence"
+      },
+      {
+        "label": "C",
+        "text": "An automatic rise in capital productivity"
+      },
+      {
+        "label": "D",
+        "text": "A guaranteed increase in expected profits"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Lower borrowing costs may not stimulate investment when expected demand and profits remain weak.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 monetary policy | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "A central bank raises interest rates to reduce inflation. Why might the policy worsen the current account?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher rates necessarily depreciate the domestic currency"
+      },
+      {
+        "label": "B",
+        "text": "Higher rates directly subsidise foreign demand for exports"
+      },
+      {
+        "label": "C",
+        "text": "Appreciation can weaken exporters’ international price competitiveness"
+      },
+      {
+        "label": "D",
+        "text": "Exports do not enter current-account payments calculations"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Capital inflows can appreciate the exchange rate, making exports dearer and imports cheaper, even while weaker domestic demand reduces imports.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 monetary policy | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "Which condition would make contractionary monetary policy more effective against demand-pull inflation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Spending entirely unresponsive to borrowing costs"
+      },
+      {
+        "label": "B",
+        "text": "Responsive spending and well-anchored inflation expectations"
+      },
+      {
+        "label": "C",
+        "text": "Commercial banks not transmitting policy-rate changes"
+      },
+      {
+        "label": "D",
+        "text": "Inflation entirely driven by foreign supply shocks"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Strong interest sensitivity and credible expectations improve the transmission from policy rates to aggregate demand and inflation.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 monetary policy | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "Why may contractionary monetary policy be less effective against cost-push inflation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower demand does not directly reverse higher production costs"
+      },
+      {
+        "label": "B",
+        "text": "Monetary contraction necessarily increases the supply of every product"
+      },
+      {
+        "label": "C",
+        "text": "Higher domestic rates directly reduce world oil market prices"
+      },
+      {
+        "label": "D",
+        "text": "Monetary contraction necessarily depreciates the domestic currency immediately"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Demand restraint can limit second-round inflation, but it does not eliminate the initial adverse supply shock.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 monetary policy | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "A market-based supply-side reform cuts marginal income tax rates. Through which channel might it raise potential output?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Stronger incentives for work and skills acquisition"
+      },
+      {
+        "label": "B",
+        "text": "Weaker incentives for participating in paid employment"
+      },
+      {
+        "label": "C",
+        "text": "A guaranteed reduction in average labour productivity"
+      },
+      {
+        "label": "D",
+        "text": "An immediate contraction of long-run productive capacity"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Lower marginal tax rates can increase the reward from additional work and enterprise, though the magnitude is uncertain.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 supply-side policy including market-based and interventionist policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "Why may reducing unemployment benefits lower the natural rate of unemployment but worsen another objective?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Benefits necessarily reduce all available labour supply"
+      },
+      {
+        "label": "B",
+        "text": "Benefits necessarily determine the consumer-price inflation rate"
+      },
+      {
+        "label": "C",
+        "text": "Lower benefits necessarily make disposable incomes more equal"
+      },
+      {
+        "label": "D",
+        "text": "Stronger work incentives may accompany greater hardship"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Market-based reforms can improve incentives but have distributional costs, creating a conflict between efficiency/employment and equity.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 supply-side policy including market-based and interventionist policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "An interventionist policy increases spending on education. Which sequence best explains its long-run effect?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Skills rise → productivity falls → capacity falls"
+      },
+      {
+        "label": "B",
+        "text": "Skills fall → productivity rises → capacity rises"
+      },
+      {
+        "label": "C",
+        "text": "Skills rise → productivity rises → capacity rises"
+      },
+      {
+        "label": "D",
+        "text": "Skills fall → productivity falls → capacity rises"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Education raises human capital, which can shift LRAS right and support growth, employment and price stability over time.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 supply-side policy including market-based and interventionist policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "Why might large infrastructure investment temporarily increase inflation before reducing supply constraints?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Less demand and capacity"
+      },
+      {
+        "label": "B",
+        "text": "Public investment cannot influence aggregate demand"
+      },
+      {
+        "label": "C",
+        "text": "Improved productive capacity can arise only through lower current household consumption expenditure"
+      },
+      {
+        "label": "D",
+        "text": "Demand expands before the new capacity arrives"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Some interventionist supply-side measures have a short-run demand effect and a slower long-run supply effect.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 supply-side policy including market-based and interventionist policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "A privatised natural monopoly raises prices and cuts service quality. What does this show about a market-based supply-side policy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A transfer to private ownership always ensures rival firms can enter the market freely"
+      },
+      {
+        "label": "B",
+        "text": "Ownership eliminates monopoly"
+      },
+      {
+        "label": "C",
+        "text": "Efficiency gains depend on effective competitive pressure"
+      },
+      {
+        "label": "D",
+        "text": "Every supply-side reform necessarily lowers consumer prices"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Ownership change alone does not guarantee competition. Market structure and regulation affect the result.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 supply-side policy including market-based and interventionist policies | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "A government subsidises research and development, but firms use the subsidy to finance projects they would have undertaken anyway. What problem reduces effectiveness?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Additional research"
+      },
+      {
+        "label": "B",
+        "text": "Expanded taxation"
+      },
+      {
+        "label": "C",
+        "text": "Perfect additionality"
+      },
+      {
+        "label": "D",
+        "text": "Deadweight spending"
+      }
+    ],
+    "answer": "D",
+    "explanation": "If public money replaces rather than adds to private spending, the policy creates less extra innovation than intended.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 supply-side policy including market-based and interventionist policies | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "A depreciation is intended to improve the current account. Which condition makes success more likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Trade quantities remain unresponsive to relative prices"
+      },
+      {
+        "label": "B",
+        "text": "Trade quantities respond significantly to relative prices"
+      },
+      {
+        "label": "C",
+        "text": "Domestic inflation cancels all relative price changes"
+      },
+      {
+        "label": "D",
+        "text": "Foreign-currency export prices cancel all competitive gains"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The expenditure-switching effect depends on demand responsiveness and on the competitiveness gain being sustained.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 exchange rate policy | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "Why can depreciation create a conflict between external balance and price stability?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Imports become cheaper while export volumes decline"
+      },
+      {
+        "label": "B",
+        "text": "Aggregate demand necessarily contracts after currency depreciation"
+      },
+      {
+        "label": "C",
+        "text": "Imported production costs necessarily decline after currency depreciation"
+      },
+      {
+        "label": "D",
+        "text": "Net exports may improve while import prices increase"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A weaker currency can switch demand toward domestic output while increasing the domestic-currency cost of imported goods and inputs.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 exchange rate policy | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "Why might an appreciation help inflation but weaken economic growth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Imports become dearer and exports become cheaper"
+      },
+      {
+        "label": "B",
+        "text": "Cheaper imports necessarily increase aggregate demand overall"
+      },
+      {
+        "label": "C",
+        "text": "Cheaper imports restrain prices; dearer exports weaken demand"
+      },
+      {
+        "label": "D",
+        "text": "Changes in the exchange rate have no influence on exports or on imports"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The same exchange-rate movement can help one macro objective and damage another.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 exchange rate policy | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "A tariff reduces imports but provokes retaliation against the country’s exports. What is the best evaluation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Retaliation necessarily expands the country’s export earnings"
+      },
+      {
+        "label": "B",
+        "text": "Falling exports may offset the import reduction"
+      },
+      {
+        "label": "C",
+        "text": "Tariffs cannot influence any foreign trading partner"
+      },
+      {
+        "label": "D",
+        "text": "Higher tariffs guarantee stronger long-run productive capacity"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Protectionism can trigger retaliation, reducing the external and growth benefits policymakers expected.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 international trade policy | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "Why can trade liberalisation improve long-run growth?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Competition and specialisation can raise productive efficiency"
+      },
+      {
+        "label": "B",
+        "text": "Trade liberalisation immediately eliminates structural skill mismatch"
+      },
+      {
+        "label": "C",
+        "text": "Trade liberalisation prevents foreign goods entering domestic markets"
+      },
+      {
+        "label": "D",
+        "text": "Competition and specialisation guarantee a permanent current-account surplus"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Open trade can improve efficiency and technology transfer, but adjustment costs can occur.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 international trade policy | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "Which is a likely short-run conflict from rapid trade liberalisation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Efficiency gains with displaced workers needing adjustment"
+      },
+      {
+        "label": "B",
+        "text": "Import spending necessarily declines as barriers are removed"
+      },
+      {
+        "label": "C",
+        "text": "Domestic competitive pressure necessarily weakens with freer trade"
+      },
+      {
+        "label": "D",
+        "text": "All workers immediately become perfectly mobile across regions"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Resources do not reallocate instantly, so workers and capital in contracting sectors can face adjustment costs.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 international trade policy | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "A government protects an infant industry for ten years, but productivity barely improves because firms face little competitive pressure. What does this show?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Persistent protection can weaken productivity incentives"
+      },
+      {
+        "label": "B",
+        "text": "Infant-industry protection necessarily creates comparative advantage"
+      },
+      {
+        "label": "C",
+        "text": "Tariffs necessarily increase every protected firm’s productivity"
+      },
+      {
+        "label": "D",
+        "text": "Reduced competition necessarily improves dynamic productive efficiency"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Temporary protection can fail if firms do not use the period to become competitive and political pressure keeps protection in place.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 international trade policy | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "A country raises interest rates to reduce inflation. Its current account initially improves because imports fall, but later worsens as the currency appreciates. What does this illustrate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Monetary policy has no influence on trade"
+      },
+      {
+        "label": "B",
+        "text": "Appreciation necessarily improves the external payments balance"
+      },
+      {
+        "label": "C",
+        "text": "Interest-rate changes cannot affect demand for imports"
+      },
+      {
+        "label": "D",
+        "text": "Different transmission channels can have opposing effects"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Demand compression reduces imports, while appreciation weakens net exports. The overall current-account effect depends on relative strength.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.2 problems and conflicts arising from the outcome of these policies | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "A government increases progressive taxation to reduce inequality. Which possible conflict with growth is most relevant?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Weaker marginal incentives for work and investment"
+      },
+      {
+        "label": "B",
+        "text": "A guaranteed outward shift in productive capacity"
+      },
+      {
+        "label": "C",
+        "text": "Lower education levels whenever incomes become more equal"
+      },
+      {
+        "label": "D",
+        "text": "A guaranteed rise in inward foreign direct investment"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Redistribution can conflict with supply-side incentives, although the size of this effect is empirical and context dependent.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.2 problems and conflicts arising from the outcome of these policies | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "Why might greater redistribution also support economic growth rather than conflict with it?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Better health and education can raise worker productivity"
+      },
+      {
+        "label": "B",
+        "text": "Redistribution necessarily reduces every recipient’s human capital"
+      },
+      {
+        "label": "C",
+        "text": "Poor households never use additional income for education"
+      },
+      {
+        "label": "D",
+        "text": "Every productive investment requires an unequal income distribution"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Improved access to nutrition, education and healthcare can strengthen human capital and productive capacity.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.2 problems and conflicts arising from the outcome of these policies | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "A government cuts its budget deficit during a weak recovery. Which conflict is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Fiscal consolidation may weaken demand and employment"
+      },
+      {
+        "label": "B",
+        "text": "Smaller deficits necessarily increase aggregate demand immediately"
+      },
+      {
+        "label": "C",
+        "text": "Fiscal contraction necessarily eliminates all demand-deficient unemployment"
+      },
+      {
+        "label": "D",
+        "text": "Public spending cannot influence the growth of output"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Fiscal consolidation reduces aggregate demand in the short run, especially when private demand is weak.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.2 problems and conflicts arising from the outcome of these policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "A government subsidises fossil-fuel-intensive manufacturing to preserve jobs. Which objective is most clearly put at risk?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Low unemployment"
+      },
+      {
+        "label": "B",
+        "text": "Growth in the protected industry"
+      },
+      {
+        "label": "C",
+        "text": "Short-run competitiveness"
+      },
+      {
+        "label": "D",
+        "text": "Sustainability"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Job preservation and competitiveness can conflict with environmental and climate objectives when subsidies encourage pollution-intensive activity.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.2 problems and conflicts arising from the outcome of these policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "Why can one instrument be insufficient when a government targets inflation, unemployment and the current account simultaneously?",
+    "options": [
+      {
+        "label": "A",
+        "text": "One instrument independently controls every economic variable"
+      },
+      {
+        "label": "B",
+        "text": "Several objectives may need distinct effective transmission channels"
+      },
+      {
+        "label": "C",
+        "text": "Independent objectives require fewer instruments than their number"
+      },
+      {
+        "label": "D",
+        "text": "Different policy objectives can never come into conflict"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Multiple independent objectives generally require a policy mix because one instrument cannot be freely assigned to several conflicting targets.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.2 problems and conflicts arising from the outcome of these policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "A government follows Tinbergen’s rule by using monetary policy for inflation and supply-side policy for unemployment. What is the main rationale?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Fiscal and monetary measures can never interact"
+      },
+      {
+        "label": "B",
+        "text": "Supply-side reforms affect current aggregate demand without any effect on potential output"
+      },
+      {
+        "label": "C",
+        "text": "Separate instruments can target separate objectives"
+      },
+      {
+        "label": "D",
+        "text": "Monetary measures cannot influence consumer-price inflation"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Separating instruments can help policymakers target distinct causes, though spillovers and coordination still matter.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.2 problems and conflicts arising from the outcome of these policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "Policymakers underestimate the multiplier and adopt a very large fiscal expansion to close a recessionary gap. What form of government failure may result?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Stimulus necessarily widens the initial recessionary gap"
+      },
+      {
+        "label": "B",
+        "text": "Stimulus necessarily eliminates all government tax revenue"
+      },
+      {
+        "label": "C",
+        "text": "Stimulus necessarily reduces total planned aggregate demand"
+      },
+      {
+        "label": "D",
+        "text": "Stimulus may overshoot capacity and intensify inflation"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Inaccurate information about the multiplier can make the intervention too large and replace recession with overheating.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.3 existence of government failure in macroeconomic policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "A government recognises inflation only after revised data are published six months later. Which lag is illustrated?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Implementation lag"
+      },
+      {
+        "label": "B",
+        "text": "Recognition lag"
+      },
+      {
+        "label": "C",
+        "text": "Behavioural lag"
+      },
+      {
+        "label": "D",
+        "text": "Capital-output lag"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The problem exists before policymakers accurately identify it.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.3 existence of government failure in macroeconomic policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "Parliament takes nine months to pass a tax increase after the need for contractionary fiscal policy has been identified. Which lag is illustrated?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Recognition lag"
+      },
+      {
+        "label": "B",
+        "text": "Behavioural lag"
+      },
+      {
+        "label": "C",
+        "text": "Exchange-rate lag only"
+      },
+      {
+        "label": "D",
+        "text": "Implementation lag"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The delay lies between policy decision/recognition and operational implementation.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.3 existence of government failure in macroeconomic policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "Interest rates rise today, but many households do not reduce spending until fixed-rate loans reset next year. Which lag is illustrated?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Recognition lag"
+      },
+      {
+        "label": "B",
+        "text": "Implementation lag"
+      },
+      {
+        "label": "C",
+        "text": "Measurement error only"
+      },
+      {
+        "label": "D",
+        "text": "Behavioural lag"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The policy is in place, but private behaviour adjusts with delay.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.3 existence of government failure in macroeconomic policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "Why can time lags make counter-cyclical policy pro-cyclical?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Delays eliminate every cyclical fluctuation"
+      },
+      {
+        "label": "B",
+        "text": "Policy subject to time lags becomes fully effective immediately after the problem is recognised"
+      },
+      {
+        "label": "C",
+        "text": "Delayed policy cannot influence aggregate demand"
+      },
+      {
+        "label": "D",
+        "text": "Delayed effects may reinforce a later cyclical phase"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A delayed stimulus may arrive during a boom, or delayed restraint during a downturn, amplifying rather than smoothing the cycle.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.3 existence of government failure in macroeconomic policies | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "A central bank raises interest rates during a boom, but optimistic households continue borrowing and spending. What source of government failure is illustrated?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Perfect policy transmission"
+      },
+      {
+        "label": "B",
+        "text": "A correct forecast of the income multiplier following a spending injection"
+      },
+      {
+        "label": "C",
+        "text": "An unforeseen behavioural response"
+      },
+      {
+        "label": "D",
+        "text": "A fixed tax base"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Policy can fail because households and firms do not react in the predicted way.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.3 existence of government failure in macroeconomic policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "A government chooses a popular pre-election spending increase despite an existing inflationary gap. What source of government failure is illustrated?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A lack of any government objective"
+      },
+      {
+        "label": "B",
+        "text": "Automatic stabilisers working normally"
+      },
+      {
+        "label": "C",
+        "text": "Political incentives overriding macroeconomic stabilisation"
+      },
+      {
+        "label": "D",
+        "text": "Greater central-bank independence"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Political-business-cycle incentives can lead to expansionary policies that worsen inflation.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.3 existence of government failure in macroeconomic policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "A powerful industry secures protection that raises domestic prices and reduces competition. What is the clearest macroeconomic government-failure concern?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Every pressure group improves resource allocation"
+      },
+      {
+        "label": "B",
+        "text": "Narrow interests can displace economy-wide policy objectives"
+      },
+      {
+        "label": "C",
+        "text": "Protective trade measures cannot influence domestic inflation"
+      },
+      {
+        "label": "D",
+        "text": "Higher domestic prices improve every government objective"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Lobbying can bias policy toward concentrated beneficiaries while spreading costs across consumers and the wider economy.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.3 existence of government failure in macroeconomic policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "A public investment programme is repeatedly diverted to projects chosen for political connections rather than economic returns. Which source of government failure is most relevant?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A price mechanism allocating resources efficiently to the projects with greatest economic returns"
+      },
+      {
+        "label": "B",
+        "text": "Automatic stabilisation"
+      },
+      {
+        "label": "C",
+        "text": "Corruption and inefficient public-resource allocation"
+      },
+      {
+        "label": "D",
+        "text": "A lower recognition lag"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Corruption can reduce value for money and prevent intervention from raising productive capacity as intended.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.3 existence of government failure in macroeconomic policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "A government wants to reduce inflation and current-account deficit simultaneously. Which policy mix is most defensible if inflation is demand-pull and the currency is already overvalued?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Currency appreciation combined with fiscal expansion"
+      },
+      {
+        "label": "B",
+        "text": "Higher import spending combined with lower productivity"
+      },
+      {
+        "label": "C",
+        "text": "Permanent protection without domestic productivity improvements"
+      },
+      {
+        "label": "D",
+        "text": "Moderate fiscal contraction combined with productivity improvements"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Fiscal contraction reduces demand and imports, while supply-side measures can lower costs and improve export competitiveness without relying on further appreciation.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 effectiveness of different policies in relation to different macroeconomic objectives | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 71,
+    "difficulty": "Hard",
+    "prompt": "A government cuts the top income-tax rate from 70% to 45%, after which reported taxable income rises and total tax revenue also rises. Which inference is most defensible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The revenue-maximising rate is necessarily exactly 45%"
+      },
+      {
+        "label": "B",
+        "text": "Every reduction in tax rates increases tax revenue"
+      },
+      {
+        "label": "C",
+        "text": "Reported taxable income is entirely unaffected by taxpayers’ responses to changes in tax rates"
+      },
+      {
+        "label": "D",
+        "text": "Consistent with starting on the declining section"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A revenue increase after a tax cut is consistent with a Laffer effect, but one observation cannot identify the full curve or its peak.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 fiscal policy including Laffer curve analysis | AO3 Evaluation",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: tax revenue. Horizontal axis: tax rate from 0% to 100%. Draw an inverted-U Laffer curve and show two possible points, one at a high rate on the right-hand side and one at a lower rate with higher revenue. Do not identify an exact optimum from the data.",
+    "graphScenes": [
+      {
+        "xLabel": "Tax rate (%)",
+        "yLabel": "Tax revenue",
+        "xMax": 110,
+        "yMax": 110,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "Laffer curve",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 1.6666666666666667,
+                "y": 6.555555555555559
+              },
+              {
+                "x": 3.3333333333333335,
+                "y": 12.888888888888905
+              },
+              {
+                "x": 5.0,
+                "y": 18.999999999999993
+              },
+              {
+                "x": 6.666666666666667,
+                "y": 24.888888888888882
+              },
+              {
+                "x": 8.333333333333334,
+                "y": 30.555555555555568
+              },
+              {
+                "x": 10.0,
+                "y": 35.999999999999986
+              },
+              {
+                "x": 11.666666666666666,
+                "y": 41.222222222222214
+              },
+              {
+                "x": 13.333333333333334,
+                "y": 46.22222222222223
+              },
+              {
+                "x": 15.0,
+                "y": 51.0
+              },
+              {
+                "x": 16.666666666666668,
+                "y": 55.55555555555558
+              },
+              {
+                "x": 18.333333333333332,
+                "y": 59.88888888888889
+              },
+              {
+                "x": 20.0,
+                "y": 64.0
+              },
+              {
+                "x": 21.666666666666668,
+                "y": 67.88888888888889
+              },
+              {
+                "x": 23.333333333333332,
+                "y": 71.55555555555554
+              },
+              {
+                "x": 25.0,
+                "y": 75.0
+              },
+              {
+                "x": 26.666666666666668,
+                "y": 78.22222222222223
+              },
+              {
+                "x": 28.333333333333332,
+                "y": 81.22222222222221
+              },
+              {
+                "x": 30.0,
+                "y": 84.0
+              },
+              {
+                "x": 31.666666666666668,
+                "y": 86.55555555555556
+              },
+              {
+                "x": 33.333333333333336,
+                "y": 88.8888888888889
+              },
+              {
+                "x": 35.0,
+                "y": 91.0
+              },
+              {
+                "x": 36.666666666666664,
+                "y": 92.88888888888889
+              },
+              {
+                "x": 38.333333333333336,
+                "y": 94.55555555555556
+              },
+              {
+                "x": 40.0,
+                "y": 96.0
+              },
+              {
+                "x": 41.666666666666664,
+                "y": 97.22222222222221
+              },
+              {
+                "x": 43.333333333333336,
+                "y": 98.22222222222223
+              },
+              {
+                "x": 45.0,
+                "y": 99.0
+              },
+              {
+                "x": 46.666666666666664,
+                "y": 99.55555555555556
+              },
+              {
+                "x": 48.333333333333336,
+                "y": 99.8888888888889
+              },
+              {
+                "x": 50.0,
+                "y": 100.0
+              },
+              {
+                "x": 51.666666666666664,
+                "y": 99.8888888888889
+              },
+              {
+                "x": 53.333333333333336,
+                "y": 99.55555555555556
+              },
+              {
+                "x": 55.0,
+                "y": 99.0
+              },
+              {
+                "x": 56.666666666666664,
+                "y": 98.22222222222223
+              },
+              {
+                "x": 58.333333333333336,
+                "y": 97.22222222222221
+              },
+              {
+                "x": 60.0,
+                "y": 96.0
+              },
+              {
+                "x": 61.666666666666664,
+                "y": 94.55555555555556
+              },
+              {
+                "x": 63.333333333333336,
+                "y": 92.88888888888889
+              },
+              {
+                "x": 65.0,
+                "y": 91.0
+              },
+              {
+                "x": 66.66666666666667,
+                "y": 88.88888888888889
+              },
+              {
+                "x": 68.33333333333333,
+                "y": 86.55555555555556
+              },
+              {
+                "x": 70.0,
+                "y": 84.0
+              },
+              {
+                "x": 71.66666666666667,
+                "y": 81.22222222222221
+              },
+              {
+                "x": 73.33333333333333,
+                "y": 78.22222222222224
+              },
+              {
+                "x": 75.0,
+                "y": 75.0
+              },
+              {
+                "x": 76.66666666666667,
+                "y": 71.55555555555554
+              },
+              {
+                "x": 78.33333333333333,
+                "y": 67.88888888888891
+              },
+              {
+                "x": 80.0,
+                "y": 64.0
+              },
+              {
+                "x": 81.66666666666667,
+                "y": 59.88888888888888
+              },
+              {
+                "x": 83.33333333333333,
+                "y": 55.55555555555558
+              },
+              {
+                "x": 85.0,
+                "y": 51.0
+              },
+              {
+                "x": 86.66666666666667,
+                "y": 46.22222222222221
+              },
+              {
+                "x": 88.33333333333333,
+                "y": 41.22222222222223
+              },
+              {
+                "x": 90.0,
+                "y": 35.999999999999986
+              },
+              {
+                "x": 91.66666666666667,
+                "y": 30.555555555555536
+              },
+              {
+                "x": 93.33333333333333,
+                "y": 24.888888888888903
+              },
+              {
+                "x": 95.0,
+                "y": 18.999999999999993
+              },
+              {
+                "x": 96.66666666666667,
+                "y": 12.88888888888886
+              },
+              {
+                "x": 98.33333333333333,
+                "y": 6.55555555555557
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "A",
+            "x": 70,
+            "y": 84.0
+          },
+          {
+            "id": "p1",
+            "label": "B",
+            "x": 45,
+            "y": 99.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 70,
+            "y": 84.0,
+            "xLabel": "70%"
+          },
+          {
+            "id": "g1",
+            "x": 45,
+            "y": 99.0,
+            "xLabel": "45%"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Illustrative relationship; the peak is not an estimated optimum."
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "difficulty": "Hard",
+    "prompt": "A government cuts a tax rate from 40% to 30% and revenue falls. Does this refute the Laffer curve?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes: every tax cut must raise revenue"
+      },
+      {
+        "label": "B",
+        "text": "Yes: reducing tax rates can never reduce the amount collected by the government"
+      },
+      {
+        "label": "C",
+        "text": "No: revenue falls on the rising section"
+      },
+      {
+        "label": "D",
+        "text": "No: tax rates never affect tax receipts"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The Laffer curve does not claim all tax cuts raise revenue. That outcome is possible only when the starting rate is beyond the revenue-maximising point.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 fiscal policy including Laffer curve analysis | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 73,
+    "difficulty": "Hard",
+    "prompt": "A fiscal stimulus is financed by heavy government borrowing in an economy with limited saving. Which effect may reduce its net impact on private investment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Public borrowing necessarily lowers all market interest rates"
+      },
+      {
+        "label": "B",
+        "text": "Private investment is crowded out only without public borrowing"
+      },
+      {
+        "label": "C",
+        "text": "Private investment cannot respond to changes in borrowing costs"
+      },
+      {
+        "label": "D",
+        "text": "Higher rates may displace some private investment spending"
+      }
+    ],
+    "answer": "D",
+    "explanation": "In a loanable-funds framework, larger public borrowing can raise interest rates and displace some private investment, weakening long-run growth effects.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 fiscal policy including Laffer curve analysis | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "A government spending increase is matched by an equal tax increase. Why can aggregate demand still rise?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Equal changes in government spending and taxes necessarily leave aggregate expenditure unchanged"
+      },
+      {
+        "label": "B",
+        "text": "The spending effect may exceed the tax effect"
+      },
+      {
+        "label": "C",
+        "text": "Tax payments cannot reduce private disposable income"
+      },
+      {
+        "label": "D",
+        "text": "Public spending is excluded from aggregate demand"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Government purchases enter AD directly, while only part of a tax change is transmitted to consumption, so a balanced-budget expansion can raise income.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 fiscal policy including Laffer curve analysis | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "A central bank faces inflation caused by excessive demand and a fragile banking system. Why might a sharp interest-rate rise be risky?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Higher rates necessarily strengthen every bank’s balance sheet"
+      },
+      {
+        "label": "B",
+        "text": "Lower inflation has no consequences for financial stability"
+      },
+      {
+        "label": "C",
+        "text": "Higher debt-service costs can raise defaults and instability"
+      },
+      {
+        "label": "D",
+        "text": "Banks cannot own assets sensitive to market interest rates"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Policy effectiveness must be evaluated against multiple objectives, including financial stability and output.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 monetary policy | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "Interest rates are near zero, banks hold excess reserves and firms are pessimistic. Which policy conclusion is strongest?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Weak credit demand limits conventional monetary easing"
+      },
+      {
+        "label": "B",
+        "text": "Further rate cuts guarantee a large investment boom"
+      },
+      {
+        "label": "C",
+        "text": "Monetary policy always dominates every fiscal policy alternative"
+      },
+      {
+        "label": "D",
+        "text": "Government spending cannot influence economy-wide aggregate demand"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A liquidity-trap-like environment and weak confidence reduce the response to conventional monetary easing.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 monetary policy | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "A government uses a large interventionist supply-side programme during a recession. Which outcome best captures the time-profile of the policy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand can rise before the supply benefits arrive"
+      },
+      {
+        "label": "B",
+        "text": "Capacity necessarily expands before any additional expenditure occurs"
+      },
+      {
+        "label": "C",
+        "text": "The programme cannot influence current aggregate demand"
+      },
+      {
+        "label": "D",
+        "text": "The programme necessarily reduces demand in every period"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Infrastructure, education and R&D spending can stimulate demand quickly, while productivity and capacity effects often take longer.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 supply-side policy including market-based and interventionist policies | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "A market-based reform sharply reduces regulation. Which condition is most important for it to raise long-run productivity rather than simply weaken protections?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Every existing regulation has zero social benefit"
+      },
+      {
+        "label": "B",
+        "text": "Every regulated market becomes a single-firm monopoly"
+      },
+      {
+        "label": "C",
+        "text": "Removing any regulatory requirements necessarily increases all environmental externalities in the economy"
+      },
+      {
+        "label": "D",
+        "text": "The removed rules imposed net social costs"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Deregulation is beneficial only when the efficiency gains exceed losses from removing useful consumer, labour or environmental protections.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 supply-side policy including market-based and interventionist policies | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "A government cuts corporation tax to attract foreign direct investment, but rival countries immediately do the same. What limits the policy’s effectiveness?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Matching foreign cuts erode the relative tax advantage"
+      },
+      {
+        "label": "B",
+        "text": "FDI responds only to changes in exchange rates"
+      },
+      {
+        "label": "C",
+        "text": "Corporation taxes never influence firms’ investment locations"
+      },
+      {
+        "label": "D",
+        "text": "Tax competition guarantees an increase in public revenue"
+      }
+    ],
+    "answer": "A",
+    "explanation": "When competitors match the tax cut, the location advantage may vanish while all governments collect less revenue.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 supply-side policy including market-based and interventionist policies | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "A government expands vocational training, but vacancies remain concentrated in distant regions with severe housing shortages. Why may structural unemployment persist?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Retraining immediately eliminates every form of mismatch"
+      },
+      {
+        "label": "B",
+        "text": "Better skills do not remove regional housing barriers"
+      },
+      {
+        "label": "C",
+        "text": "Housing costs influence inflation but never labour mobility"
+      },
+      {
+        "label": "D",
+        "text": "Existing vacancies cannot coexist with unemployed jobseekers"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Supply-side policy effectiveness depends on all relevant constraints; fixing skills does not remove location barriers.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 supply-side policy including market-based and interventionist policies | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "A devaluation increases exports but also raises imported energy costs and wage demands. Which judgment is most accurate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Currency devaluation has only a single economic effect"
+      },
+      {
+        "label": "B",
+        "text": "Imported inflation rules out every gain in export sales"
+      },
+      {
+        "label": "C",
+        "text": "Wage-setting responses cannot affect firms’ international price competitiveness"
+      },
+      {
+        "label": "D",
+        "text": "External and output gains can accompany stronger inflation"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Exchange-rate policy has several channels. Evaluation requires considering trade responsiveness, import dependence and secondary inflation effects.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 exchange rate policy | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "A country has a persistent current-account deficit caused mainly by low productivity rather than excessive domestic demand. Which policy is likely to be most durable?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Repeated demand contraction without domestic productivity changes"
+      },
+      {
+        "label": "B",
+        "text": "Repeated devaluation without domestic productivity improvements"
+      },
+      {
+        "label": "C",
+        "text": "Supply reforms improving productivity and non-price competitiveness"
+      },
+      {
+        "label": "D",
+        "text": "Permanent tariff protection without domestic industry adjustment"
+      }
+    ],
+    "answer": "C",
+    "explanation": "When the underlying cause is weak competitiveness, productivity reform treats the structural source rather than only suppressing imports.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 supply-side policy including market-based and interventionist policies | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "A government imposes tariffs to improve the current account and protect jobs. Domestic firms then raise prices and delay investment. What is the strongest long-run criticism?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tariffs necessarily reduce every domestic selling price"
+      },
+      {
+        "label": "B",
+        "text": "Reduced competition can impair productivity and raise prices"
+      },
+      {
+        "label": "C",
+        "text": "Providing protected markets always encourages more innovation and raises firms’ productive efficiency"
+      },
+      {
+        "label": "D",
+        "text": "Tariffs necessarily improve the current account indefinitely"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Protection can create short-run employment benefits while weakening efficiency and competitiveness over time.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 international trade policy | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "A country removes trade barriers while simultaneously expanding retraining and relocation support. Why is this package more likely to improve welfare than liberalisation alone?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Retraining prevents imports from entering domestic markets"
+      },
+      {
+        "label": "B",
+        "text": "Relocation subsidies necessarily increase the country’s import tariffs"
+      },
+      {
+        "label": "C",
+        "text": "Trade benefits require workers to remain in declining industries"
+      },
+      {
+        "label": "D",
+        "text": "Worker support reduces adjustment costs while preserving trade gains"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Complementary labour-market policies can reduce the distributional and unemployment costs of structural change without removing competitive pressure.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 international trade policy | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "A government wants a lower current-account deficit and lower inflation. Which policy most directly risks improving the first objective while worsening the second?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A productivity-enhancing supply-side reform"
+      },
+      {
+        "label": "B",
+        "text": "A reduction in bottlenecks"
+      },
+      {
+        "label": "C",
+        "text": "A deliberate currency depreciation"
+      },
+      {
+        "label": "D",
+        "text": "Better logistics that lower export costs"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Depreciation may improve net exports but raises import prices, creating a direct external-balance versus inflation trade-off.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.2 problems and conflicts arising from the outcome of these policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "A government wants faster growth, lower inflation and lower unemployment. Why can supply-side policy appear unusually attractive?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Supply improvements arrive instantly without implementation uncertainty"
+      },
+      {
+        "label": "B",
+        "text": "Supply improvements have no public or private costs"
+      },
+      {
+        "label": "C",
+        "text": "Higher capacity permits output gains with less price pressure"
+      },
+      {
+        "label": "D",
+        "text": "Supply improvements cannot change the distribution of household income"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Supply-side measures can improve several objectives together in the long run, though implementation lags, costs and uncertainty remain.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 supply-side policy including market-based and interventionist policies | AO3 Evaluation",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: price level. Horizontal axis: real GDP. Draw AD unchanged and LRAS shifting right from LRAS1 to LRAS2, with higher real output and a lower price level than otherwise.",
+    "graphScenes": [
+      {
+        "xLabel": "Real output",
+        "yLabel": "Price level",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "LRAS1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 50,
+                "y": 0
+              },
+              {
+                "x": 50,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "LRAS2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 75,
+                "y": 0
+              },
+              {
+                "x": 75,
+                "y": 125
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "AD",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 75,
+            "y": 25
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Y1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 75,
+            "y": 25,
+            "xLabel": "Y2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "Why might a policy of raising interest rates to reduce inflation conflict with both growth and the current account?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lower investment and weaker net exports from appreciation"
+      },
+      {
+        "label": "B",
+        "text": "Higher investment and stronger net exports from depreciation"
+      },
+      {
+        "label": "C",
+        "text": "Interest rates influence only government expenditure decisions"
+      },
+      {
+        "label": "D",
+        "text": "Exchange-rate changes cannot influence current-account payments"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The domestic demand channel can reduce investment, while the external channel can reduce competitiveness through appreciation.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.2 problems and conflicts arising from the outcome of these policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "A government raises environmental taxes to improve sustainability but rebates all revenue through lower payroll taxes. What is the main advantage of this policy design?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It removes pollution’s marginal price incentive"
+      },
+      {
+        "label": "B",
+        "text": "It prices pollution while limiting employment-tax burdens"
+      },
+      {
+        "label": "C",
+        "text": "It guarantees that every household is equally affected"
+      },
+      {
+        "label": "D",
+        "text": "It makes polluting activities entirely costless for firms"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Recycling revenue can reduce a conflict between environmental objectives and employment or labour costs, although distributional effects still need evaluation.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.2 problems and conflicts arising from the outcome of these policies | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "A policy reduces inequality by increasing means-tested benefits, but effective marginal withdrawal rates become very high. Which conflict may emerge?",
+    "options": [
+      {
+        "label": "A",
+        "text": "High withdrawal rates weaken earned-income incentives"
+      },
+      {
+        "label": "B",
+        "text": "Redistribution necessarily increases every recipient’s labour supply"
+      },
+      {
+        "label": "C",
+        "text": "Means testing necessarily eliminates every work disincentive"
+      },
+      {
+        "label": "D",
+        "text": "Means-tested transfers influence only the foreign-exchange rate"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Benefit withdrawal can reduce the financial reward from additional work, creating an equity-efficiency conflict.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.2 problems and conflicts arising from the outcome of these policies | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "A country simultaneously targets a fixed exchange rate, independent monetary policy and unrestricted capital mobility. What policy problem is likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Independent rates can conflict with defending the peg"
+      },
+      {
+        "label": "B",
+        "text": "All three policies are independently achievable without constraints"
+      },
+      {
+        "label": "C",
+        "text": "Capital mobility eliminates every source of exchange-rate pressure"
+      },
+      {
+        "label": "D",
+        "text": "Interest-rate changes cannot influence international capital flows"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Open-economy policy constraints can limit the independent use of monetary policy when the exchange rate is being defended.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 exchange rate policy | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "A stimulus is designed using data that later show the recession was much smaller than initially estimated. Which government-failure mechanism is most direct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Every fiscal intervention is inherently ineffective"
+      },
+      {
+        "label": "B",
+        "text": "Data errors led to excessive intervention"
+      },
+      {
+        "label": "C",
+        "text": "Fixed exchange rates prevent fiscal effects"
+      },
+      {
+        "label": "D",
+        "text": "All independent policy objectives were achieved"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Macroeconomic data are estimated and revised, so policy calibrated to incorrect information can overshoot.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.3 existence of government failure in macroeconomic policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "Why can automatic stabilisers sometimes avoid part of the government-failure problem associated with discretionary fiscal policy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "They remove every lag in behavioural response"
+      },
+      {
+        "label": "B",
+        "text": "They guarantee correct forecasts of spending multipliers"
+      },
+      {
+        "label": "C",
+        "text": "They operate without repeated new legislative decisions"
+      },
+      {
+        "label": "D",
+        "text": "They remove every political incentive affecting government"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Tax and benefit systems can respond automatically, reducing recognition and implementation delays, though not all lags or errors disappear.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.3 existence of government failure in macroeconomic policies | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "A government announces a temporary tax cut to stimulate spending, but households believe it will be reversed next year and save most of it. Which lesson follows?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Expectations influence the size of private spending responses"
+      },
+      {
+        "label": "B",
+        "text": "Temporary tax cuts always generate the highest spending multiplier"
+      },
+      {
+        "label": "C",
+        "text": "Expectations influence inflation but never influence private consumption"
+      },
+      {
+        "label": "D",
+        "text": "Higher saving necessarily increases the initial consumption response"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Private expectations about future policy and income affect current consumption, weakening or strengthening fiscal transmission.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.3 existence of government failure in macroeconomic policies | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "A central bank repeatedly accommodates pre-election fiscal expansions. What institutional reform might reduce this form of government failure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Operational monetary independence with a clear price-stability mandate"
+      },
+      {
+        "label": "B",
+        "text": "Policy rates explicitly tied to the timing of elections"
+      },
+      {
+        "label": "C",
+        "text": "Complete removal of public accountability for every policy instrument"
+      },
+      {
+        "label": "D",
+        "text": "Compulsory monetary expansion immediately before every national election"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Central-bank independence can reduce political pressure for destabilising monetary accommodation, although democratic accountability remains important.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.3 existence of government failure in macroeconomic policies | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "A government chooses a subsidy because its benefits are visible to a concentrated industry while the tax cost is spread widely across households. What source of failure is most plausible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Perfect information"
+      },
+      {
+        "label": "B",
+        "text": "A behavioural lag only"
+      },
+      {
+        "label": "C",
+        "text": "Political and pressure-group incentives distort policy"
+      },
+      {
+        "label": "D",
+        "text": "An automatic fiscal stabiliser operating independently of political or industry influence"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Concentrated beneficiaries may lobby effectively for policies whose economy-wide costs exceed benefits.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.3 existence of government failure in macroeconomic policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "Why can corruption turn an interventionist supply-side policy into macroeconomic government failure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Corruption ensures that public investment is always allocated to its most efficient uses"
+      },
+      {
+        "label": "B",
+        "text": "Spending cannot affect capacity"
+      },
+      {
+        "label": "C",
+        "text": "Corruption eliminates recognition, implementation and behavioural policy lags"
+      },
+      {
+        "label": "D",
+        "text": "Funding may shift to low-value projects"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Misallocation means the budget cost remains while the intended productivity gain is lost.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.3 existence of government failure in macroeconomic policies | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "A government is deciding between a tariff and currency depreciation to reduce a current-account deficit. Which consideration most favours depreciation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Depreciation shifts relative prices broadly across traded goods"
+      },
+      {
+        "label": "B",
+        "text": "Depreciation cannot influence domestic prices of imported goods"
+      },
+      {
+        "label": "C",
+        "text": "Tariffs cannot provoke retaliation from foreign trading partners"
+      },
+      {
+        "label": "D",
+        "text": "Depreciation cannot generate any domestic consumer-price inflation"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Exchange-rate adjustment is broad-based, whereas tariffs are selective and can distort resource allocation, though depreciation may create imported inflation.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 exchange rate policy | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "A government is deciding between monetary contraction and supply-side reform to reduce inflation. Inflation is caused by persistent productivity bottlenecks. Which is the better-targeted long-run policy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Monetary contraction in all circumstances"
+      },
+      {
+        "label": "B",
+        "text": "Supply-side reform"
+      },
+      {
+        "label": "C",
+        "text": "Currency depreciation"
+      },
+      {
+        "label": "D",
+        "text": "Higher protection regardless of industry"
+      }
+    ],
+    "answer": "B",
+    "explanation": "When inflation is rooted in capacity and productivity constraints, increasing aggregate supply addresses the cause more directly than suppressing demand.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 supply-side policy including market-based and interventionist policies | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "A policy raises growth but worsens sustainability because it relies on rapid depletion of non-renewable resources. What does this show about evaluating macro policy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "One objective can improve while others deteriorate"
+      },
+      {
+        "label": "B",
+        "text": "Higher growth necessarily guarantees improved environmental sustainability"
+      },
+      {
+        "label": "C",
+        "text": "Environmental sustainability cannot depend on government policy decisions"
+      },
+      {
+        "label": "D",
+        "text": "Real GDP alone measures every government policy objective"
+      }
+    ],
+    "answer": "A",
+    "explanation": "10.3 requires judging policies against multiple objectives, including development, distribution and sustainability, not only short-run output.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.2 problems and conflicts arising from the outcome of these policies | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "Which statement best summarises why no single macroeconomic policy is always most effective?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Fiscal policy always dominates all alternatives"
+      },
+      {
+        "label": "B",
+        "text": "Effectiveness depends on conditions and implementation"
+      },
+      {
+        "label": "C",
+        "text": "Monetary policy always dominates all alternatives"
+      },
+      {
+        "label": "D",
+        "text": "Supply-side policy always has no disadvantages"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Policy evaluation is conditional. The same instrument can work differently across economies and time periods and can create conflicts with other objectives.",
+    "reference": "10.3 Effectiveness of policy options to meet all macroeconomic objectives | 10.3.1 effectiveness of different policies in relation to different macroeconomic objectives | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  }
+]

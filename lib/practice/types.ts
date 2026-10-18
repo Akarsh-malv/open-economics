@@ -1,3 +1,5 @@
+import type { Scene } from "@/lib/graphs/engine";
+
 export type Difficulty = "Easy" | "Medium" | "Hard";
 export type PracticeQuestion = {
   id: number;
@@ -6,6 +8,7 @@ export type PracticeQuestion = {
   options: { label: string; text: string }[];
   graphDescription: string;
   graphRequired: boolean;
+  graphScenes?: Scene[];
 };
 export type AnswerResult = {
   selected: string;

@@ -1,0 +1,6650 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "prompt": "What is consumer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quantity demanded minus quantity supplied at the current price."
+      },
+      {
+        "label": "B",
+        "text": "Market price minus producers' minimum acceptable supply price."
+      },
+      {
+        "label": "C",
+        "text": "Consumers' maximum willingness to pay minus their actual payment."
+      },
+      {
+        "label": "D",
+        "text": "The total revenue firms receive from selling the product minus all fixed and variable production costs incurred"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Consumer surplus measures the extra benefit buyers receive because some units are valued at more than the market price. It is the difference between willingness to pay and actual payment.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.1 meaning and significance of consumer surplus | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "prompt": "What is producer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumers' willingness to pay minus the market price."
+      },
+      {
+        "label": "B",
+        "text": "Producers' received price minus their minimum acceptable price."
+      },
+      {
+        "label": "C",
+        "text": "Total quantity supplied minus total quantity purchased."
+      },
+      {
+        "label": "D",
+        "text": "The total revenue received from selling the product minus fixed costs, without deducting any variable production costs."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Producer surplus is the excess of the market price received over the minimum supply price for the units sold.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.2 meaning and significance of producer surplus | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "prompt": "On a normal downward-sloping demand curve, where is consumer surplus shown at the market equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The area above the demand curve and below the market price, extending horizontally across the quantity exchanged."
+      },
+      {
+        "label": "B",
+        "text": "Between demand and supply, beyond the quantity traded."
+      },
+      {
+        "label": "C",
+        "text": "Below supply and above price, over the quantity traded."
+      },
+      {
+        "label": "D",
+        "text": "Below demand and above price, over the quantity traded."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The demand curve shows willingness to pay. Consumer surplus is the area between that willingness to pay and the price actually paid for all units purchased.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.1 meaning and significance of consumer surplus | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw a downward-sloping demand curve D and an upward-sloping supply curve S meeting at equilibrium E with price Pe and quantity Qe. Shade the area below D and above the horizontal price line Pe from 0 to Qe.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 120,
+        "yMax": 120,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "P",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 112.8,
+                "y": 50.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 50.0,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50.0,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "50"
+          }
+        ],
+        "regions": [
+          {
+            "id": "r0",
+            "fill": "cs",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 50.0,
+                "y": 50
+              },
+              {
+                "x": 0,
+                "y": 100
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "difficulty": "Easy",
+    "prompt": "On a normal upward-sloping supply curve, where is producer surplus shown at the market equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Above supply and below price, over the quantity traded."
+      },
+      {
+        "label": "B",
+        "text": "Above price and below demand, over the quantity traded."
+      },
+      {
+        "label": "C",
+        "text": "Below demand and above price, over the quantity traded."
+      },
+      {
+        "label": "D",
+        "text": "Below supply and above the axis, over the quantity traded."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The supply curve indicates the minimum price producers require for successive units. Producer surplus is the area above supply and below the actual market price.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.2 meaning and significance of producer surplus | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw D downward sloping and S upward sloping, intersecting at E (Pe,Qe). Shade the area above S and below the horizontal line at Pe from 0 to Qe.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 120,
+        "yMax": 120,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 112.8,
+                "y": 112.8
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "P",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 112.8,
+                "y": 50.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 50.0,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50.0,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "50"
+          }
+        ],
+        "regions": [
+          {
+            "id": "r0",
+            "fill": "ps",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 50.0,
+                "y": 50
+              },
+              {
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "difficulty": "Easy",
+    "prompt": "A consumer is willing to pay $18 for a concert ticket but buys it for $12. What is the consumer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$6"
+      },
+      {
+        "label": "B",
+        "text": "$12"
+      },
+      {
+        "label": "C",
+        "text": "$30"
+      },
+      {
+        "label": "D",
+        "text": "$18"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Consumer surplus for an individual purchase is willingness to pay minus the price actually paid: $18 - $12 = $6.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.1 meaning and significance of consumer surplus | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 6,
+    "difficulty": "Easy",
+    "prompt": "A producer is willing to supply a unit for a minimum of $24 and receives a market price of $31. What is the producer surplus on that unit?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$55"
+      },
+      {
+        "label": "B",
+        "text": "$24"
+      },
+      {
+        "label": "C",
+        "text": "$31"
+      },
+      {
+        "label": "D",
+        "text": "$7"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Producer surplus on the unit is the market price received minus the minimum acceptable price: $31 - $24 = $7.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.2 meaning and significance of producer surplus | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 7,
+    "difficulty": "Easy",
+    "prompt": "Why can consumer surplus be interpreted as a gain to consumers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sellers receive less than their minimum acceptable supply prices."
+      },
+      {
+        "label": "B",
+        "text": "Total quantity supplied exceeds the total quantity consumers demand."
+      },
+      {
+        "label": "C",
+        "text": "Buyers pay less than their maximum willingness to pay."
+      },
+      {
+        "label": "D",
+        "text": "Buyers pay exactly their maximum willingness to pay per unit."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Consumer surplus is a measure of the extra benefit obtained when actual payment is below willingness to pay.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.1 meaning and significance of consumer surplus | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 8,
+    "difficulty": "Easy",
+    "prompt": "Why can producer surplus be interpreted as a gain to producers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Producers receive the highest price every buyer would accept."
+      },
+      {
+        "label": "B",
+        "text": "Buyers pay prices above their maximum willingness to pay."
+      },
+      {
+        "label": "C",
+        "text": "Producers receive more than the minimum required for supply."
+      },
+      {
+        "label": "D",
+        "text": "Producers receive total revenue without incurring any production costs."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Producer surplus captures the amount received above the minimum supply price for units sold.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.2 meaning and significance of producer surplus | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 9,
+    "difficulty": "Easy",
+    "prompt": "Four consumers have maximum willingness to pay of $15, $12, $9 and $6 for one unit each. At a market price of $9, what is total consumer surplus?\n| Consumer | Maximum willingness to pay ($) |\n| A | 15 |\n| B | 12 |\n| C | 9 |\n| D | 6 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$9"
+      },
+      {
+        "label": "B",
+        "text": "$12"
+      },
+      {
+        "label": "C",
+        "text": "$18"
+      },
+      {
+        "label": "D",
+        "text": "$6"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Three consumers buy. Their surpluses are $6, $3 and $0, giving total consumer surplus of $9.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.1 meaning and significance of consumer surplus | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 10,
+    "difficulty": "Easy",
+    "prompt": "Four producers have minimum acceptable prices of $4, $7, $10 and $13 for one unit each. At a market price of $10, what is total producer surplus?\n| Producer | Minimum acceptable price ($) |\n| W | 4 |\n| X | 7 |\n| Y | 10 |\n| Z | 13 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$9"
+      },
+      {
+        "label": "B",
+        "text": "$12"
+      },
+      {
+        "label": "C",
+        "text": "$6"
+      },
+      {
+        "label": "D",
+        "text": "$18"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Three producers supply. Their surpluses are $6, $3 and $0, so total producer surplus is $9.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.2 meaning and significance of producer surplus | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 11,
+    "difficulty": "Easy",
+    "prompt": "If the market price of a good falls while the demand curve is unchanged, what happens to consumer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It decreases"
+      },
+      {
+        "label": "B",
+        "text": "It increases"
+      },
+      {
+        "label": "C",
+        "text": "It becomes zero"
+      },
+      {
+        "label": "D",
+        "text": "It stays unchanged"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A lower price increases the surplus on units already purchased and normally brings additional buyers or units into the market, increasing consumer surplus.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw a fixed downward-sloping demand curve D. Mark an initial price P1 and lower price P2, with corresponding quantities Q1 and Q2. Show the consumer-surplus area at P2 larger than at P1.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 120,
+        "yMax": 120,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "P1",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 112.8,
+                "y": 50.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "P2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 35
+              },
+              {
+                "x": 112.8,
+                "y": 35.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 50.0,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 65.0,
+            "y": 35
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50.0,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 65.0,
+            "y": 35,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [
+          {
+            "id": "r0",
+            "fill": "benefit",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 50.0,
+                "y": 50
+              },
+              {
+                "x": 50.0,
+                "y": 35
+              },
+              {
+                "x": 0,
+                "y": 35
+              }
+            ],
+            "label": "R"
+          },
+          {
+            "id": "r1",
+            "fill": "cs",
+            "points": [
+              {
+                "x": 50.0,
+                "y": 50
+              },
+              {
+                "x": 65.0,
+                "y": 35
+              },
+              {
+                "x": 50.0,
+                "y": 35
+              }
+            ],
+            "label": "T"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "difficulty": "Easy",
+    "prompt": "If the market price of a good rises while the supply curve is unchanged, what happens to producer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It becomes zero"
+      },
+      {
+        "label": "B",
+        "text": "It decreases"
+      },
+      {
+        "label": "C",
+        "text": "It increases"
+      },
+      {
+        "label": "D",
+        "text": "It stays unchanged"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A higher price raises the surplus on units that were already supplied and usually induces additional supply, so producer surplus increases along an unchanged supply curve.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw a fixed upward-sloping supply curve S. Mark an initial price P1 and higher price P2, with corresponding quantities Q1 and Q2. Show producer-surplus area at P2 larger than at P1.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 120,
+        "yMax": 120,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 112.8,
+                "y": 112.8
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "P1",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 112.8,
+                "y": 50.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "P2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 65
+              },
+              {
+                "x": 112.8,
+                "y": 65.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 50.0,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 65.0,
+            "y": 65
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50.0,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 65.0,
+            "y": 65,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [
+          {
+            "id": "r0",
+            "fill": "benefit",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 50.0,
+                "y": 50
+              },
+              {
+                "x": 50.0,
+                "y": 65
+              },
+              {
+                "x": 0,
+                "y": 65
+              }
+            ],
+            "label": "R"
+          },
+          {
+            "id": "r1",
+            "fill": "ps",
+            "points": [
+              {
+                "x": 50.0,
+                "y": 50
+              },
+              {
+                "x": 65.0,
+                "y": 65
+              },
+              {
+                "x": 50.0,
+                "y": 65
+              }
+            ],
+            "label": "T"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "difficulty": "Easy",
+    "prompt": "Demand for a product increases while supply is unchanged. What must happen to producer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It increases"
+      },
+      {
+        "label": "B",
+        "text": "It decreases"
+      },
+      {
+        "label": "C",
+        "text": "It cannot change because the supply curve is unchanged"
+      },
+      {
+        "label": "D",
+        "text": "It becomes zero"
+      }
+    ],
+    "answer": "A",
+    "explanation": "An increase in demand raises both equilibrium price and quantity along the unchanged supply curve. Producers receive a higher price and sell more output, so producer surplus increases.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 14,
+    "difficulty": "Easy",
+    "prompt": "Supply of a product decreases while demand is unchanged. What must happen to consumer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It stays unchanged"
+      },
+      {
+        "label": "B",
+        "text": "It decreases"
+      },
+      {
+        "label": "C",
+        "text": "It increases"
+      },
+      {
+        "label": "D",
+        "text": "It becomes equal to producer surplus"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A decrease in supply raises equilibrium price and reduces equilibrium quantity along the unchanged demand curve. Consumers pay more and fewer units are purchased, so consumer surplus falls.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 15,
+    "difficulty": "Easy",
+    "prompt": "Supply of a product increases while demand is unchanged. What must happen to consumer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It becomes negative"
+      },
+      {
+        "label": "B",
+        "text": "It increases"
+      },
+      {
+        "label": "C",
+        "text": "It stays unchanged"
+      },
+      {
+        "label": "D",
+        "text": "It decreases"
+      }
+    ],
+    "answer": "B",
+    "explanation": "An outward supply shift lowers the equilibrium price and raises quantity purchased along the same demand curve. Both effects increase consumer surplus.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 16,
+    "difficulty": "Easy",
+    "prompt": "Demand for a product decreases while supply is unchanged. What must happen to producer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It decreases"
+      },
+      {
+        "label": "B",
+        "text": "It increases"
+      },
+      {
+        "label": "C",
+        "text": "It becomes negative"
+      },
+      {
+        "label": "D",
+        "text": "It stays unchanged"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A fall in demand lowers equilibrium price and quantity along the unchanged supply curve, reducing producer surplus.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 17,
+    "difficulty": "Easy",
+    "prompt": "The demand curve for a product becomes more price elastic around the current price. For a given fall in price, what happens to the quantity response?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The quantity demanded responds less strongly to the same price reduction despite the increase in demand elasticity."
+      },
+      {
+        "label": "B",
+        "text": "Quantity demanded decreases by more for the price fall."
+      },
+      {
+        "label": "C",
+        "text": "Quantity demanded remains unchanged despite the price fall."
+      },
+      {
+        "label": "D",
+        "text": "Quantity demanded increases by more for the price fall."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A more price-elastic demand curve means quantity demanded is more responsive to a given percentage or proportional price change.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 18,
+    "difficulty": "Easy",
+    "prompt": "The supply curve for a product becomes more price elastic around the current price. For a given rise in price, what happens to the quantity response?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The quantity supplied responds less strongly to the same price increase despite the increase in supply elasticity."
+      },
+      {
+        "label": "B",
+        "text": "Quantity supplied decreases by more for the price rise."
+      },
+      {
+        "label": "C",
+        "text": "Quantity supplied remains unchanged despite the price rise."
+      },
+      {
+        "label": "D",
+        "text": "Quantity supplied increases by more for the price rise."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A more elastic supply curve produces a larger quantity response to the same price change.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 19,
+    "difficulty": "Easy",
+    "prompt": "A market demand curve is perfectly elastic at the market price. What is consumer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Zero"
+      },
+      {
+        "label": "B",
+        "text": "Equal to producer surplus"
+      },
+      {
+        "label": "C",
+        "text": "Infinite"
+      },
+      {
+        "label": "D",
+        "text": "Positive but finite"
+      }
+    ],
+    "answer": "A",
+    "explanation": "With perfectly elastic demand, consumers are willing to buy at the market price but not at a higher price. Their willingness to pay does not exceed the price actually paid, so consumer surplus is zero.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 20,
+    "difficulty": "Easy",
+    "prompt": "A market supply curve is perfectly elastic at the market price. What is producer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Infinite"
+      },
+      {
+        "label": "B",
+        "text": "Zero"
+      },
+      {
+        "label": "C",
+        "text": "Equal to consumer surplus"
+      },
+      {
+        "label": "D",
+        "text": "Positive but finite"
+      }
+    ],
+    "answer": "B",
+    "explanation": "With perfectly elastic supply, the minimum acceptable price for every unit supplied equals the market price. There is therefore no excess of price received over minimum supply price.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 21,
+    "difficulty": "Easy",
+    "prompt": "A linear demand curve has a choke price of $50. The market price is $30 and 40 units are sold. What is consumer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$800"
+      },
+      {
+        "label": "B",
+        "text": "$200"
+      },
+      {
+        "label": "C",
+        "text": "$1200"
+      },
+      {
+        "label": "D",
+        "text": "$400"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Consumer surplus is the triangular area under demand and above price: 1/2 × 40 × ($50 - $30) = $400.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.1 meaning and significance of consumer surplus | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price ($). Horizontal axis: Quantity. Draw a straight-line demand curve with price-axis intercept 50. Draw a horizontal market-price line at 30 meeting demand at Q=40. Shade the triangle between demand and the price line.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 70,
+        "yMax": 65,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 50.0
+              },
+              {
+                "x": 65.8,
+                "y": 17.1
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "P",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 30
+              },
+              {
+                "x": 65.8,
+                "y": 30.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 40.0,
+            "y": 30
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 40,
+            "y": 30
+          },
+          {
+            "id": "p2",
+            "label": "",
+            "x": 0,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 40.0,
+            "y": 30,
+            "xLabel": "Q1",
+            "yLabel": "30"
+          },
+          {
+            "id": "g1",
+            "x": 40,
+            "y": 30,
+            "xLabel": "40",
+            "yLabel": "30"
+          },
+          {
+            "id": "g2",
+            "x": 0,
+            "y": 50,
+            "yLabel": "50"
+          }
+        ],
+        "regions": [
+          {
+            "id": "r0",
+            "fill": "cs",
+            "points": [
+              {
+                "x": 0,
+                "y": 30
+              },
+              {
+                "x": 40.0,
+                "y": 30
+              },
+              {
+                "x": 0,
+                "y": 50
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "difficulty": "Easy",
+    "prompt": "A linear supply curve meets the price axis at $8. The market price is $20 and 50 units are sold. What is producer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$600"
+      },
+      {
+        "label": "B",
+        "text": "$500"
+      },
+      {
+        "label": "C",
+        "text": "$150"
+      },
+      {
+        "label": "D",
+        "text": "$300"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Producer surplus is 1/2 × 50 × ($20 - $8) = $300.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.2 meaning and significance of producer surplus | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price ($). Horizontal axis: Quantity. Draw a straight-line upward-sloping supply curve with price-axis intercept 8. Draw a horizontal market-price line at 20 meeting supply at Q=50. Shade the triangle above supply and below the price line.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 80,
+        "yMax": 40,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 8.0
+              },
+              {
+                "x": 75.19999999999999,
+                "y": 26.048
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "P",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 75.19999999999999,
+                "y": 20.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 50.0,
+            "y": 20
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 50,
+            "y": 20
+          },
+          {
+            "id": "p2",
+            "label": "",
+            "x": 0,
+            "y": 8
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50.0,
+            "y": 20,
+            "xLabel": "Q1",
+            "yLabel": "20"
+          },
+          {
+            "id": "g1",
+            "x": 50,
+            "y": 20,
+            "xLabel": "50",
+            "yLabel": "20"
+          },
+          {
+            "id": "g2",
+            "x": 0,
+            "y": 8,
+            "yLabel": "8"
+          }
+        ],
+        "regions": [
+          {
+            "id": "r0",
+            "fill": "ps",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 50.0,
+                "y": 20
+              },
+              {
+                "x": 0,
+                "y": 8
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "difficulty": "Easy",
+    "prompt": "At equilibrium, consumer surplus is $240 and producer surplus is $180. What is the total surplus accruing to buyers and sellers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$60"
+      },
+      {
+        "label": "B",
+        "text": "$43200"
+      },
+      {
+        "label": "C",
+        "text": "$420"
+      },
+      {
+        "label": "D",
+        "text": "$240"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In the simple market-surplus framework, total surplus is consumer surplus plus producer surplus: $240 + $180 = $420.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.1 meaning and significance of consumer surplus; 2.5.2 meaning and significance of producer surplus | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 24,
+    "difficulty": "Easy",
+    "prompt": "The diagram shows equilibrium in a market. Which labelled area is consumer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A + B"
+      },
+      {
+        "label": "B",
+        "text": "C"
+      },
+      {
+        "label": "C",
+        "text": "B"
+      },
+      {
+        "label": "D",
+        "text": "A"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Consumer surplus is the area below the demand curve and above the market-price line up to the equilibrium quantity. In the described diagram this is area A.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.1 meaning and significance of consumer surplus | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price; horizontal axis: Quantity. Draw D downward and S upward intersecting at E. Through E draw a horizontal price line. Label the triangle above the price line and below D as A; the triangle below the price line and above S as B; label an unrelated area to the right of E as C.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 120,
+        "yMax": 120,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "P",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 112.8,
+                "y": 50.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 112.8,
+                "y": 112.8
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 50.0,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50.0,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "50"
+          }
+        ],
+        "regions": [
+          {
+            "id": "r0",
+            "fill": "cs",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 50.0,
+                "y": 50
+              },
+              {
+                "x": 0,
+                "y": 100
+              }
+            ],
+            "label": "A"
+          },
+          {
+            "id": "r1",
+            "fill": "ps",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 50,
+                "y": 50
+              },
+              {
+                "x": 0,
+                "y": 50
+              }
+            ],
+            "label": "B"
+          },
+          {
+            "id": "r2",
+            "fill": "cost",
+            "points": [
+              {
+                "x": 60,
+                "y": 10
+              },
+              {
+                "x": 85,
+                "y": 10
+              },
+              {
+                "x": 85,
+                "y": 25
+              }
+            ],
+            "label": "C"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "difficulty": "Easy",
+    "prompt": "The diagram shows equilibrium in a market. Which labelled area is producer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "C"
+      },
+      {
+        "label": "B",
+        "text": "B"
+      },
+      {
+        "label": "C",
+        "text": "A + C"
+      },
+      {
+        "label": "D",
+        "text": "A"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Producer surplus is the area above the supply curve and below the equilibrium price line. In the described diagram this is area B.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.2 meaning and significance of producer surplus | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price; horizontal axis: Quantity. Draw D downward and S upward intersecting at E. Through E draw a horizontal price line. Label the triangle above the price line and below D as A; label the triangle below the price line and above S as B; label an area beyond Qe as C.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 120,
+        "yMax": 120,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "P",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 112.8,
+                "y": 50.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 112.8,
+                "y": 112.8
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 50.0,
+            "y": 50
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50.0,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "50"
+          }
+        ],
+        "regions": [
+          {
+            "id": "r0",
+            "fill": "cs",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 50.0,
+                "y": 50
+              },
+              {
+                "x": 0,
+                "y": 100
+              }
+            ],
+            "label": "A"
+          },
+          {
+            "id": "r1",
+            "fill": "ps",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 50,
+                "y": 50
+              },
+              {
+                "x": 0,
+                "y": 50
+              }
+            ],
+            "label": "B"
+          },
+          {
+            "id": "r2",
+            "fill": "cost",
+            "points": [
+              {
+                "x": 60,
+                "y": 10
+              },
+              {
+                "x": 85,
+                "y": 10
+              },
+              {
+                "x": 85,
+                "y": 25
+              }
+            ],
+            "label": "C"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "difficulty": "Easy",
+    "prompt": "A straight-line demand curve has a price-axis intercept of $70. At equilibrium the price is $40 and quantity is 60. What is consumer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$900"
+      },
+      {
+        "label": "B",
+        "text": "$1800"
+      },
+      {
+        "label": "C",
+        "text": "$1200"
+      },
+      {
+        "label": "D",
+        "text": "$600"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Consumer surplus is 1/2 × base × height = 1/2 × 60 × (70 - 40) = $900.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.1 meaning and significance of consumer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 27,
+    "difficulty": "Easy",
+    "prompt": "A straight-line supply curve has a price-axis intercept of $5. At equilibrium the price is $25 and quantity is 30. What is producer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$300"
+      },
+      {
+        "label": "B",
+        "text": "$375"
+      },
+      {
+        "label": "C",
+        "text": "$600"
+      },
+      {
+        "label": "D",
+        "text": "$150"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Producer surplus is 1/2 × 30 × (25 - 5) = $300.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.2 meaning and significance of producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 28,
+    "difficulty": "Easy",
+    "prompt": "A buyer purchases four units. Her willingness to pay for successive units is $20, $16, $12 and $8. The market price is $8. What is her total consumer surplus?\n| Unit | Willingness to pay ($) |\n| 1 | 20 |\n| 2 | 16 |\n| 3 | 12 |\n| 4 | 8 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$16"
+      },
+      {
+        "label": "B",
+        "text": "$56"
+      },
+      {
+        "label": "C",
+        "text": "$32"
+      },
+      {
+        "label": "D",
+        "text": "$24"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The surpluses are 12, 8, 4 and 0 dollars. Their total is $24.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.1 meaning and significance of consumer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 29,
+    "difficulty": "Easy",
+    "prompt": "A seller supplies four units. Its minimum acceptable prices for successive units are $3, $6, $9 and $12. The market price is $12. What is total producer surplus?\n| Unit | Minimum acceptable price ($) |\n| 1 | 3 |\n| 2 | 6 |\n| 3 | 9 |\n| 4 | 12 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$12"
+      },
+      {
+        "label": "B",
+        "text": "$24"
+      },
+      {
+        "label": "C",
+        "text": "$30"
+      },
+      {
+        "label": "D",
+        "text": "$18"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Producer surplus on the four units is 9 + 6 + 3 + 0 = $18.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.2 meaning and significance of producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 30,
+    "difficulty": "Easy",
+    "prompt": "Assume demand and supply curves are straight over the relevant range. Two demand curves pass through the same initial price and quantity. Demand X is more price elastic than demand Y. If price falls by the same amount in both markets, which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumer surplus must fall in both markets"
+      },
+      {
+        "label": "B",
+        "text": "Quantity demanded rises more in market X"
+      },
+      {
+        "label": "C",
+        "text": "Quantity demanded is unchanged in market X"
+      },
+      {
+        "label": "D",
+        "text": "The less responsive market Y experiences a larger increase in quantity demanded for the same reduction in price"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The more elastic demand curve gives a larger quantity response to the same price fall. The resulting consumer-surplus gain also includes surplus on additional units.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Two small panels. In each panel, mark the same initial point E at price P1 and quantity Q1 and the same lower price P2. Panel X has a flatter demand curve through E; panel Y has a steeper demand curve through E. Show Q2X farther to the right than Q2Y.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 72.5
+              },
+              {
+                "x": 131.6,
+                "y": 13.280000000000001
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "P1",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 131.6,
+                "y": 50.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "P2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 35
+              },
+              {
+                "x": 131.6,
+                "y": 35.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 83.33333333333334,
+            "y": 35
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 83.33333333333334,
+            "y": 35,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Market X"
+      },
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 2.0000000000000036,
+                "y": 131.6
+              },
+              {
+                "x": 79.41176470588235,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "P1",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 131.6,
+                "y": 50.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "P2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 35
+              },
+              {
+                "x": 131.6,
+                "y": 35.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 58.82352941176471,
+            "y": 35
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 58.82352941176471,
+            "y": 35,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Market Y"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "difficulty": "Medium",
+    "prompt": "Assume demand and supply curves are straight over the relevant range. Two supply curves pass through the same initial price and quantity. Supply X is more price elastic than supply Y. If price rises by the same amount in both markets, which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quantity supplied rises more in market X"
+      },
+      {
+        "label": "B",
+        "text": "Quantity supplied is unchanged in market X"
+      },
+      {
+        "label": "C",
+        "text": "The less responsive market Y experiences a larger increase in quantity supplied for the same rise in price"
+      },
+      {
+        "label": "D",
+        "text": "Producer surplus must fall in both markets"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The more elastic supply curve produces the greater output response to an equal rise in price, creating surplus on more additional units.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Two small panels with the same initial point E at P1,Q1 and the same higher price P2. In panel X draw a flatter upward-sloping supply curve; in panel Y a steeper one. Mark Q2X > Q2Y.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 27.5
+              },
+              {
+                "x": 131.6,
+                "y": 86.72
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "P1",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 131.6,
+                "y": 50.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "P2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 65
+              },
+              {
+                "x": 131.6,
+                "y": 65.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 83.33333333333334,
+            "y": 65
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 83.33333333333334,
+            "y": 65,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Market X"
+      },
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 20.58823529411765,
+                "y": 0.0
+              },
+              {
+                "x": 98.0,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "P1",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 131.6,
+                "y": 50.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "P2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 65
+              },
+              {
+                "x": 131.6,
+                "y": 65.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 58.82352941176471,
+            "y": 65
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 58.82352941176471,
+            "y": 65,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Market Y"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "difficulty": "Medium",
+    "prompt": "The table gives the maximum prices five consumers will pay for one unit. If the market price is $14, what is total consumer surplus?\n| Consumer | Maximum price ($) |\n| A | 24 |\n| B | 19 |\n| C | 15 |\n| D | 14 |\n| E | 9 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$10"
+      },
+      {
+        "label": "B",
+        "text": "$24"
+      },
+      {
+        "label": "C",
+        "text": "$18"
+      },
+      {
+        "label": "D",
+        "text": "$16"
+      }
+    ],
+    "answer": "D",
+    "explanation": "At a price of $14, consumers A-D buy. Their individual surpluses are $10, $5, $1 and $0, giving total consumer surplus of $16.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.1 meaning and significance of consumer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 33,
+    "difficulty": "Medium",
+    "prompt": "The table gives the minimum prices five producers will accept for one unit. If the market price is $18, what is total producer surplus?\n| Producer | Minimum price ($) |\n| A | 8 |\n| B | 12 |\n| C | 16 |\n| D | 18 |\n| E | 23 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$22"
+      },
+      {
+        "label": "B",
+        "text": "$10"
+      },
+      {
+        "label": "C",
+        "text": "$18"
+      },
+      {
+        "label": "D",
+        "text": "$36"
+      }
+    ],
+    "answer": "C",
+    "explanation": "At $18, producers A-D supply. Their surpluses are $10, $6, $2 and $0, so total producer surplus is $18.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.2 meaning and significance of producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 34,
+    "difficulty": "Medium",
+    "prompt": "Assume demand and supply curves are straight over the relevant range. Market X and market Y begin at the same price and quantity. A $5 fall in price occurs in both. Demand is more elastic in X. Which component of the gain in consumer surplus is definitely larger in X?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Surplus that consumers enjoyed before the price reduction."
+      },
+      {
+        "label": "B",
+        "text": "The market price that prevails after the price reduction."
+      },
+      {
+        "label": "C",
+        "text": "The extra surplus gained on each of the units consumers were already purchasing before the identical price reduction."
+      },
+      {
+        "label": "D",
+        "text": "Surplus gained on extra units purchased after the price reduction."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Because the initial quantity and price fall are identical, the rectangular gain on original units is the same. More elastic demand in X creates a larger quantity increase, so the triangular gain on additional units is larger.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 35,
+    "difficulty": "Medium",
+    "prompt": "Assume demand and supply curves are straight over the relevant range. Market X and market Y begin at the same price and quantity. A $4 rise in price occurs in both. Supply is more elastic in X. Which component of the gain in producer surplus is definitely larger in X?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The extra surplus gained on each of the units producers were already selling before the identical increase in price."
+      },
+      {
+        "label": "B",
+        "text": "Surplus that producers enjoyed before the price increase."
+      },
+      {
+        "label": "C",
+        "text": "The market price that prevails after the price increase."
+      },
+      {
+        "label": "D",
+        "text": "Surplus gained on extra units sold after the price increase."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The price rise on initial output is identical in both markets. More elastic supply in X means more additional units are supplied, producing a larger triangular gain in producer surplus.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 36,
+    "difficulty": "Medium",
+    "prompt": "Demand increases while the supply curve is unchanged. Which combination must occur?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Equilibrium price is unchanged and producer surplus is unchanged"
+      },
+      {
+        "label": "B",
+        "text": "Equilibrium price falls and producer surplus rises"
+      },
+      {
+        "label": "C",
+        "text": "Equilibrium price rises and producer surplus rises"
+      },
+      {
+        "label": "D",
+        "text": "Equilibrium price rises and producer surplus falls"
+      }
+    ],
+    "answer": "C",
+    "explanation": "An outward demand shift raises price and quantity along the unchanged supply curve. The area above supply and below price therefore increases.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Vertical axis: Price. Horizontal axis: Quantity. Draw S unchanged and demand shifting right from D1 to D2. Mark E1(P1,Q1) and E2(P2,Q2), with P2>P1 and Q2>Q1. Indicate producer-surplus regions under P1 and P2.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "D2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 120
+              },
+              {
+                "x": 120.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 60.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 60.0,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [
+          {
+            "id": "r0",
+            "fill": "ps",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 50,
+                "y": 50
+              },
+              {
+                "x": 0,
+                "y": 50
+              }
+            ],
+            "label": "A"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "difficulty": "Medium",
+    "prompt": "Supply increases while the demand curve is unchanged. Which statement is definitely correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumer surplus must decrease"
+      },
+      {
+        "label": "B",
+        "text": "Producer surplus must decrease"
+      },
+      {
+        "label": "C",
+        "text": "Consumer surplus increases"
+      },
+      {
+        "label": "D",
+        "text": "Producer surplus must increase"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A supply increase lowers price and increases quantity along the unchanged demand curve, so consumer surplus rises. Producer surplus need not move in one direction because the supply curve itself has shifted.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 38,
+    "difficulty": "Medium",
+    "prompt": "Demand decreases while supply is unchanged. Which statement is definitely correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumer surplus must increase"
+      },
+      {
+        "label": "B",
+        "text": "Producer surplus decreases"
+      },
+      {
+        "label": "C",
+        "text": "Producer surplus must increase"
+      },
+      {
+        "label": "D",
+        "text": "Consumer surplus must decrease"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The demand decrease lowers equilibrium price and quantity along the unchanged supply curve, reducing producer surplus. Consumer surplus is not determined by price alone because the demand curve itself has shifted.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 39,
+    "difficulty": "Medium",
+    "prompt": "Supply decreases while demand is unchanged. Which statement is definitely correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Producer surplus must increase"
+      },
+      {
+        "label": "B",
+        "text": "Producer surplus must decrease"
+      },
+      {
+        "label": "C",
+        "text": "Consumer surplus decreases"
+      },
+      {
+        "label": "D",
+        "text": "Consumer surplus must increase"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A supply decrease raises price and lowers quantity along the unchanged demand curve, reducing consumer surplus. The direction of producer-surplus change is not certain because supply itself has shifted.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 40,
+    "difficulty": "Medium",
+    "prompt": "A demand curve shifts right while supply is unchanged. The graph labels the original producer surplus as A and the additional producer surplus after the shift as B + C. Which area is the new producer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The original area A plus the additional area B, excluding the additional surplus labelled C"
+      },
+      {
+        "label": "B",
+        "text": "A only"
+      },
+      {
+        "label": "C",
+        "text": "A + B + C"
+      },
+      {
+        "label": "D",
+        "text": "B + C only"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The new producer surplus contains the original surplus plus the additional gains resulting from the higher equilibrium price and larger quantity.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Draw S upward sloping and D1 shifting right to D2. Mark E1 and E2. Shade original producer surplus below P1 and above S as A. Divide the extra producer-surplus area created by the move to P2,Q2 into a rectangle B over original output and a triangle C over additional output.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "D2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 120
+              },
+              {
+                "x": 120.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 60.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 60.0,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [
+          {
+            "id": "r0",
+            "fill": "ps",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 50,
+                "y": 50
+              },
+              {
+                "x": 0,
+                "y": 50
+              }
+            ],
+            "label": "A"
+          },
+          {
+            "id": "r1",
+            "fill": "benefit",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 60
+              },
+              {
+                "x": 0,
+                "y": 60
+              }
+            ],
+            "label": "B"
+          },
+          {
+            "id": "r2",
+            "fill": "benefit",
+            "points": [
+              {
+                "x": 50,
+                "y": 50
+              },
+              {
+                "x": 60,
+                "y": 60
+              },
+              {
+                "x": 50,
+                "y": 60
+              }
+            ],
+            "label": "C"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "difficulty": "Medium",
+    "prompt": "A supply curve shifts right while demand is unchanged. The graph labels the original consumer surplus as A and the additional consumer surplus after the shift as B + C. Which area is the new consumer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The original area A plus the additional area C, excluding the additional surplus labelled B"
+      },
+      {
+        "label": "B",
+        "text": "A only"
+      },
+      {
+        "label": "C",
+        "text": "B + C only"
+      },
+      {
+        "label": "D",
+        "text": "A + B + C"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The lower equilibrium price and larger quantity add a rectangle of surplus on previous purchases and a triangle on new purchases to the original consumer surplus.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Draw D downward sloping and S1 shifting right/down to S2. Mark E1 at P1,Q1 and E2 at P2,Q2. Shade original CS as A, the gain on original Q1 units from the lower price as B, and the gain on additional units Q1-Q2 as C.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 20.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 111.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 60.0,
+            "y": 40.0
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 60.0,
+            "y": 40.0,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [
+          {
+            "id": "r0",
+            "fill": "cs",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 50,
+                "y": 50
+              },
+              {
+                "x": 0,
+                "y": 50
+              }
+            ],
+            "label": "A"
+          },
+          {
+            "id": "r1",
+            "fill": "benefit",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 40
+              },
+              {
+                "x": 0,
+                "y": 40
+              }
+            ],
+            "label": "B"
+          },
+          {
+            "id": "r2",
+            "fill": "benefit",
+            "points": [
+              {
+                "x": 50,
+                "y": 50
+              },
+              {
+                "x": 60,
+                "y": 40
+              },
+              {
+                "x": 50,
+                "y": 40
+              }
+            ],
+            "label": "C"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "difficulty": "Medium",
+    "prompt": "The market price falls by $3. Consumers originally bought 40 units and after the fall buy 52 units. Assuming a straight-line demand curve over this range, by how much does consumer surplus increase?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$138"
+      },
+      {
+        "label": "B",
+        "text": "$156"
+      },
+      {
+        "label": "C",
+        "text": "$276"
+      },
+      {
+        "label": "D",
+        "text": "$120"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The gain is a rectangle on the original 40 units plus a triangle on the 12 additional units: (3 × 40) + (1/2 × 3 × 12) = 120 + 18 = $138.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 43,
+    "difficulty": "Medium",
+    "prompt": "The market price rises by $2. Producers originally supplied 30 units and after the rise supply 44 units. Assuming a straight-line supply curve over this range, by how much does producer surplus increase?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$60"
+      },
+      {
+        "label": "B",
+        "text": "$88"
+      },
+      {
+        "label": "C",
+        "text": "$148"
+      },
+      {
+        "label": "D",
+        "text": "$74"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The gain is $2 on the original 30 units plus a triangle on 14 extra units: (2 × 30) + (1/2 × 2 × 14) = 60 + 14 = $74.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 44,
+    "difficulty": "Medium",
+    "prompt": "A straight-line demand curve is given by P = 100 - Q and supply by P = 20 + Q. What is the equilibrium consumer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$1600"
+      },
+      {
+        "label": "B",
+        "text": "$800"
+      },
+      {
+        "label": "C",
+        "text": "$1200"
+      },
+      {
+        "label": "D",
+        "text": "$400"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Equilibrium satisfies 100 - Q = 20 + Q, so Q=40 and P=60. Consumer surplus is 1/2 × 40 × (100 - 60) = $800.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.1 meaning and significance of consumer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 45,
+    "difficulty": "Medium",
+    "prompt": "A straight-line demand curve is P = 100 - Q and supply is P = 20 + Q. What is the equilibrium producer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$1200"
+      },
+      {
+        "label": "B",
+        "text": "$800"
+      },
+      {
+        "label": "C",
+        "text": "$400"
+      },
+      {
+        "label": "D",
+        "text": "$1600"
+      }
+    ],
+    "answer": "B",
+    "explanation": "At equilibrium Q=40 and P=60. The supply intercept is $20, so producer surplus is 1/2 × 40 × (60 - 20) = $800.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.2 meaning and significance of producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 46,
+    "difficulty": "Medium",
+    "prompt": "Demand is P = 80 - 2Q and supply is P = 20 + Q. What is equilibrium consumer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$400"
+      },
+      {
+        "label": "B",
+        "text": "$200"
+      },
+      {
+        "label": "C",
+        "text": "$800"
+      },
+      {
+        "label": "D",
+        "text": "$300"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Equilibrium is found from 80 - 2Q = 20 + Q, giving Q=20 and P=$40. Consumer surplus is 1/2 × 20 × ($80 - $40) = $400.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.1 meaning and significance of consumer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 47,
+    "difficulty": "Medium",
+    "prompt": "Demand is P = 80 - 2Q and supply is P = 20 + Q. What is equilibrium producer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$400"
+      },
+      {
+        "label": "B",
+        "text": "$300"
+      },
+      {
+        "label": "C",
+        "text": "$100"
+      },
+      {
+        "label": "D",
+        "text": "$200"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Equilibrium is Q=20, P=$40. The supply intercept is $20, so producer surplus is 1/2 × 20 × ($40 - $20) = $200.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.2 meaning and significance of producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 48,
+    "difficulty": "Medium",
+    "prompt": "The table shows a market demand and supply schedule. If the market price is $13 and four units are traded, what is total consumer surplus?\n| Unit | Buyer maximum price ($) | Seller minimum price ($) |\n| 1 | 20 | 6 |\n| 2 | 18 | 8 |\n| 3 | 16 | 10 |\n| 4 | 14 | 12 |\n| 5 | 12 | 14 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$8"
+      },
+      {
+        "label": "B",
+        "text": "$20"
+      },
+      {
+        "label": "C",
+        "text": "$12"
+      },
+      {
+        "label": "D",
+        "text": "$16"
+      }
+    ],
+    "answer": "D",
+    "explanation": "At $13, the four buyers with willingness-to-pay values 20, 18, 16 and 14 purchase. Their surpluses are $7, $5, $3 and $1, so total consumer surplus is $16.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.1 meaning and significance of consumer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 49,
+    "difficulty": "Medium",
+    "prompt": "Using the market schedule below, what is producer surplus if the market price is $13 and four units are traded?\n| Unit | Buyer maximum price ($) | Seller minimum price ($) |\n| 1 | 20 | 6 |\n| 2 | 18 | 8 |\n| 3 | 16 | 10 |\n| 4 | 14 | 12 |\n| 5 | 12 | 14 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$12"
+      },
+      {
+        "label": "B",
+        "text": "$16"
+      },
+      {
+        "label": "C",
+        "text": "$20"
+      },
+      {
+        "label": "D",
+        "text": "$24"
+      }
+    ],
+    "answer": "B",
+    "explanation": "For the four traded units the minimum supply prices are $6, $8, $10 and $12. Producer surplus is ($13-$6)+($13-$8)+($13-$10)+($13-$12) = $16.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.2 meaning and significance of producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 50,
+    "difficulty": "Medium",
+    "prompt": "A fall in production costs shifts supply to the right. Which change in the market most directly explains the rise in consumer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand becomes more steeply sloped around the original equilibrium."
+      },
+      {
+        "label": "B",
+        "text": "Consumers' maximum willingness to pay rises at every quantity."
+      },
+      {
+        "label": "C",
+        "text": "Price falls and quantity rises along the existing demand curve."
+      },
+      {
+        "label": "D",
+        "text": "Price rises and quantity falls along the existing demand curve."
+      }
+    ],
+    "answer": "C",
+    "explanation": "A rightward supply shift reduces the equilibrium price and expands consumption along the unchanged demand curve. Consumers pay less and more mutually beneficial purchases occur.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 51,
+    "difficulty": "Medium",
+    "prompt": "A product becomes more fashionable and demand rises. Which change most directly explains the rise in producer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Price falls while quantity rises along the unchanged supply curve."
+      },
+      {
+        "label": "B",
+        "text": "Price and quantity both rise along the unchanged supply curve."
+      },
+      {
+        "label": "C",
+        "text": "The minimum price producers will accept increases by the same amount at every quantity, despite the unchanged supply curve."
+      },
+      {
+        "label": "D",
+        "text": "Price and quantity both fall along the unchanged supply curve."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Higher demand increases equilibrium price and quantity with supply unchanged. Producers receive more on existing units and sell additional units above their minimum supply prices.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 52,
+    "difficulty": "Medium",
+    "prompt": "A rise in firms' input costs shifts supply left. Which outcome for consumer surplus follows?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumer surplus remains unchanged because an unchanged demand curve guarantees that the higher market price cannot affect consumers’ gains."
+      },
+      {
+        "label": "B",
+        "text": "Surplus transforms into producers' gains from the price increase."
+      },
+      {
+        "label": "C",
+        "text": "Higher surplus because suppliers receive a higher market price."
+      },
+      {
+        "label": "D",
+        "text": "Lower surplus because consumers face a higher market price."
+      }
+    ],
+    "answer": "D",
+    "explanation": "With demand fixed, the supply contraction raises equilibrium price and reduces consumption. Both changes reduce the area between demand and the price line.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 53,
+    "difficulty": "Medium",
+    "prompt": "A market price rises from $10 to $14. A consumer buys one unit and values it at $22 at both prices. How does this consumer's surplus change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It rises by $4"
+      },
+      {
+        "label": "B",
+        "text": "It is unchanged"
+      },
+      {
+        "label": "C",
+        "text": "It falls by $8"
+      },
+      {
+        "label": "D",
+        "text": "It falls by $4"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Initial surplus is 22-10=$12; new surplus is 22-14=$8. It falls by $4.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 54,
+    "difficulty": "Medium",
+    "prompt": "A market price falls from $25 to $20. A producer supplies one unit with a minimum acceptable price of $12 at both prices. How does producer surplus on that unit change?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It falls by $5"
+      },
+      {
+        "label": "B",
+        "text": "It falls by $8"
+      },
+      {
+        "label": "C",
+        "text": "It is unchanged"
+      },
+      {
+        "label": "D",
+        "text": "It rises by $5"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Producer surplus falls from 25-12=$13 to 20-12=$8, a decrease of $5.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 55,
+    "difficulty": "Medium",
+    "prompt": "The price of a product rises from $12 to $15. Three consumers have willingness to pay of $20, $16 and $13. What is the change in their total consumer surplus?\n| Consumer | Willingness to pay ($) |\n| A | 20 |\n| B | 16 |\n| C | 13 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "A fall of $7"
+      },
+      {
+        "label": "B",
+        "text": "A fall of $8"
+      },
+      {
+        "label": "C",
+        "text": "A rise of $7"
+      },
+      {
+        "label": "D",
+        "text": "A fall of $5"
+      }
+    ],
+    "answer": "A",
+    "explanation": "At $12, total consumer surplus is $8+$4+$1=$13. At $15, only A and B buy, with surpluses $5 and $1. Total consumer surplus is $6, a fall of $7.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 56,
+    "difficulty": "Medium",
+    "prompt": "The price of a product rises from $9 to $12. Three producers have minimum acceptable prices of $4, $8 and $11. What is the change in total producer surplus?\n| Producer | Minimum acceptable price ($) |\n| A | 4 |\n| B | 8 |\n| C | 11 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "An increase of $8"
+      },
+      {
+        "label": "B",
+        "text": "An increase of $7"
+      },
+      {
+        "label": "C",
+        "text": "A decrease of $7"
+      },
+      {
+        "label": "D",
+        "text": "An increase of $5"
+      }
+    ],
+    "answer": "B",
+    "explanation": "At $9, producer surplus is ($9-$4)+($9-$8)=$6. At $12, it is $8+$4+$1=$13. The increase is $7.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 57,
+    "difficulty": "Medium",
+    "prompt": "Assume demand and supply curves are straight over the relevant range. Two otherwise identical markets experience the same $5 fall in price. In market A demand is perfectly inelastic over the relevant range; in market B demand slopes downward. Both initially sell 40 units. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The gain in consumer surplus is necessarily greater in market A because its demand responds less to the price fall."
+      },
+      {
+        "label": "B",
+        "text": "Consumer-surplus gains are larger in the fixed-demand market A."
+      },
+      {
+        "label": "C",
+        "text": "Consumer-surplus gains are negative in both of the markets."
+      },
+      {
+        "label": "D",
+        "text": "Consumer-surplus gains are larger in the responsive-demand market B."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Both markets gain $5 on the original 40 units. Market B also gains surplus on the additional units purchased after the price fall, while perfectly inelastic demand in A has no quantity response.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 58,
+    "difficulty": "Medium",
+    "prompt": "Assume demand and supply curves are straight over the relevant range. Two otherwise identical markets experience the same $6 rise in price. In market A supply is perfectly inelastic over the relevant range; in market B supply slopes upward. Both initially supply 30 units. Which statement is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Producer-surplus gains are larger in the responsive-supply market B."
+      },
+      {
+        "label": "B",
+        "text": "The gain in producer surplus is necessarily greater in market A because its supply responds less to the price rise."
+      },
+      {
+        "label": "C",
+        "text": "Producer-surplus gains are larger in the fixed-supply market A."
+      },
+      {
+        "label": "D",
+        "text": "Producer-surplus gains are equal despite different quantity responses."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Both receive an extra $6 on the original 30 units. Market B also generates producer surplus on additional output supplied after the price rise, whereas perfectly inelastic supply has no quantity response.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 59,
+    "difficulty": "Medium",
+    "prompt": "Assume demand and supply curves are straight over the relevant range. A demand curve is relatively price inelastic. A leftward supply shift occurs. Compared with an otherwise identical market with more elastic demand, what is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The price rises by more and quantity falls by less"
+      },
+      {
+        "label": "B",
+        "text": "Both price and quantity change by the same amount"
+      },
+      {
+        "label": "C",
+        "text": "Price falls and quantity rises"
+      },
+      {
+        "label": "D",
+        "text": "The price rises by less and quantity falls by more"
+      }
+    ],
+    "answer": "A",
+    "explanation": "With less elastic demand, buyers reduce quantity demanded less in response to the shortage of supply. More of the adjustment therefore occurs through a larger price rise and a smaller quantity fall.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Two panels with identical S1 and equal leftward shifts to S2. Panel A has steep demand; panel B has flatter demand. Mark the larger price increase and smaller quantity decrease in the steep-demand panel.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 2.0000000000000036,
+                "y": 131.6
+              },
+              {
+                "x": 79.41176470588235,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 111.6,
+                "y": 131.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 42.59259259259259,
+            "y": 62.59259259259259
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 42.59259259259259,
+            "y": 62.59259259259259,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Market A"
+      },
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 72.5
+              },
+              {
+                "x": 131.6,
+                "y": 13.280000000000001
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 111.6,
+                "y": 131.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 36.20689655172414,
+            "y": 56.20689655172414
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 36.20689655172414,
+            "y": 56.20689655172414,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Market B"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "difficulty": "Medium",
+    "prompt": "Assume demand and supply curves are straight over the relevant range. A supply curve is relatively price inelastic. A rightward demand shift occurs. Compared with an otherwise identical market with more elastic supply, what is most likely?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The equilibrium price rises by less and the equilibrium quantity rises by more than in the otherwise identical elastic-supply market."
+      },
+      {
+        "label": "B",
+        "text": "Both price and quantity changes are identical"
+      },
+      {
+        "label": "C",
+        "text": "The price rises by more and quantity rises by less"
+      },
+      {
+        "label": "D",
+        "text": "The price rises by less and quantity rises by more"
+      }
+    ],
+    "answer": "C",
+    "explanation": "When supply is inelastic, firms cannot expand output much, so a demand increase is absorbed more through price and less through quantity.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Two panels with identical D1 and equal rightward shifts to D2. Panel A has steep supply; panel B has flatter supply. Mark a larger price increase and smaller quantity increase in the steep-supply panel.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 20.58823529411765,
+                "y": 0.0
+              },
+              {
+                "x": 98.0,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "D1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "D2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 120
+              },
+              {
+                "x": 120.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 57.407407407407405,
+            "y": 62.592592592592595
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 57.407407407407405,
+            "y": 62.592592592592595,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Market A"
+      },
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 27.5
+              },
+              {
+                "x": 131.6,
+                "y": 86.72
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "D1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "D2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 120
+              },
+              {
+                "x": 120.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 63.793103448275865,
+            "y": 56.206896551724135
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 63.793103448275865,
+            "y": 56.206896551724135,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Market B"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "difficulty": "Medium",
+    "prompt": "A straight-line demand curve has a market price of $30 and quantity of 80. Consumer surplus is $800. What is the demand curve's price-axis intercept?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$50"
+      },
+      {
+        "label": "B",
+        "text": "$40"
+      },
+      {
+        "label": "C",
+        "text": "$60"
+      },
+      {
+        "label": "D",
+        "text": "$80"
+      }
+    ],
+    "answer": "A",
+    "explanation": "For a triangle, 800 = 1/2 × 80 × (intercept - 30). The height is 20, so the intercept is $50.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.1 meaning and significance of consumer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 62,
+    "difficulty": "Medium",
+    "prompt": "A straight-line supply curve has a market price of $28 and quantity of 60. Producer surplus is $540. What is the supply curve's price-axis intercept?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$16"
+      },
+      {
+        "label": "B",
+        "text": "$18"
+      },
+      {
+        "label": "C",
+        "text": "$10"
+      },
+      {
+        "label": "D",
+        "text": "$8"
+      }
+    ],
+    "answer": "C",
+    "explanation": "540 = 1/2 × 60 × (28 - intercept), so the height is 18 and the intercept is $10.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.2 meaning and significance of producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 63,
+    "difficulty": "Medium",
+    "prompt": "The graph shows a fall in market price from P1 to P2 along an unchanged straight-line demand curve. Which expression measures the increase in consumer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only the rectangle measuring the price saving on original purchases; additional purchases cannot contribute any consumer-surplus gain."
+      },
+      {
+        "label": "B",
+        "text": "The area beneath the new market-price line."
+      },
+      {
+        "label": "C",
+        "text": "The rectangle associated with original purchases alone."
+      },
+      {
+        "label": "D",
+        "text": "The original-purchase rectangle plus the extra-purchase triangle."
+      }
+    ],
+    "answer": "D",
+    "explanation": "A price fall benefits previous buyers on the original quantity and also creates surplus on newly purchased units. The total gain is therefore rectangle plus triangle.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Draw downward-sloping D. Mark P1 above P2 with quantities Q1 and Q2. Label the rectangular gain between P1 and P2 from 0 to Q1 as R and the triangular gain between Q1 and Q2 under D and above P2 as T.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 120,
+        "yMax": 120,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "P1",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 112.8,
+                "y": 50.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "P2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 35
+              },
+              {
+                "x": 112.8,
+                "y": 35.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 50.0,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 65.0,
+            "y": 35
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50.0,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 65.0,
+            "y": 35,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [
+          {
+            "id": "r0",
+            "fill": "benefit",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 50.0,
+                "y": 50
+              },
+              {
+                "x": 50.0,
+                "y": 35
+              },
+              {
+                "x": 0,
+                "y": 35
+              }
+            ],
+            "label": "R"
+          },
+          {
+            "id": "r1",
+            "fill": "cs",
+            "points": [
+              {
+                "x": 50.0,
+                "y": 50
+              },
+              {
+                "x": 65.0,
+                "y": 35
+              },
+              {
+                "x": 50.0,
+                "y": 35
+              }
+            ],
+            "label": "T"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "difficulty": "Medium",
+    "prompt": "The graph shows a rise in market price from P1 to P2 along an unchanged straight-line supply curve. Which expression measures the increase in producer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only the rectangle measuring the price gain on original sales; additional sales cannot contribute any producer-surplus gain."
+      },
+      {
+        "label": "B",
+        "text": "The original-sales rectangle plus the extra-sales triangle."
+      },
+      {
+        "label": "C",
+        "text": "The area above the new market-price line."
+      },
+      {
+        "label": "D",
+        "text": "The rectangle associated with original sales alone."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Existing output earns a higher surplus per unit and additional output is supplied at minimum prices below P2. The increase is rectangle plus triangle.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Draw upward-sloping S. Mark P1 below P2 with quantities Q1 and Q2. Label the rectangular gain between P1 and P2 over 0-Q1 as R and the triangular gain over Q1-Q2 above S and below P2 as T.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 120,
+        "yMax": 120,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 112.8,
+                "y": 112.8
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "P1",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 112.8,
+                "y": 50.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "P2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 65
+              },
+              {
+                "x": 112.8,
+                "y": 65.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 50.0,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 65.0,
+            "y": 65
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50.0,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 65.0,
+            "y": 65,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [
+          {
+            "id": "r0",
+            "fill": "benefit",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 50.0,
+                "y": 50
+              },
+              {
+                "x": 50.0,
+                "y": 65
+              },
+              {
+                "x": 0,
+                "y": 65
+              }
+            ],
+            "label": "R"
+          },
+          {
+            "id": "r1",
+            "fill": "ps",
+            "points": [
+              {
+                "x": 50.0,
+                "y": 50
+              },
+              {
+                "x": 65.0,
+                "y": 65
+              },
+              {
+                "x": 50.0,
+                "y": 65
+              }
+            ],
+            "label": "T"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "difficulty": "Medium",
+    "prompt": "A fall in price increases quantity demanded from 50 to 70 units. The price falls by $4. Assuming the demand curve is straight over this interval, what is the increase in consumer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$240"
+      },
+      {
+        "label": "B",
+        "text": "$280"
+      },
+      {
+        "label": "C",
+        "text": "$200"
+      },
+      {
+        "label": "D",
+        "text": "$480"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The gain is $4 × 50 = $200 on the original units plus 1/2 × $4 × 20 = $40 on extra units, giving $240.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 66,
+    "difficulty": "Medium",
+    "prompt": "A rise in price increases quantity supplied from 25 to 45 units. The price rises by $6. Assuming supply is straight over this interval, what is the increase in producer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$210"
+      },
+      {
+        "label": "B",
+        "text": "$150"
+      },
+      {
+        "label": "C",
+        "text": "$420"
+      },
+      {
+        "label": "D",
+        "text": "$270"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The gain is $6 × 25 = $150 on original output plus 1/2 × $6 × 20 = $60 on additional output, totaling $210.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 67,
+    "difficulty": "Medium",
+    "prompt": "Which information is sufficient to calculate consumer surplus for a linear demand curve at equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The total revenue from sales together with producer surplus, without any information about consumers’ maximum willingness to pay."
+      },
+      {
+        "label": "B",
+        "text": "Equilibrium price, quantity and the demand price-intercept."
+      },
+      {
+        "label": "C",
+        "text": "Equilibrium quantity and the supply elasticity coefficient."
+      },
+      {
+        "label": "D",
+        "text": "Equilibrium price and the supply price-intercept."
+      }
+    ],
+    "answer": "B",
+    "explanation": "For a straight-line demand curve, consumer surplus is the triangular area 1/2 × equilibrium quantity × (maximum willingness-to-pay intercept - equilibrium price).",
+    "reference": "2.5 Consumer and producer surplus | 2.5.1 meaning and significance of consumer surplus | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 68,
+    "difficulty": "Medium",
+    "prompt": "Which information is sufficient to calculate producer surplus for a linear supply curve at equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The equilibrium quantity and the demand curve’s price intercept, without the market price or any information about minimum supply prices."
+      },
+      {
+        "label": "B",
+        "text": "Total expenditure and consumers' total surplus."
+      },
+      {
+        "label": "C",
+        "text": "Equilibrium price, quantity and the supply price-intercept."
+      },
+      {
+        "label": "D",
+        "text": "Equilibrium price and the demand elasticity coefficient."
+      }
+    ],
+    "answer": "C",
+    "explanation": "For a straight-line supply curve, producer surplus is 1/2 × equilibrium quantity × (equilibrium price - supply price-axis intercept).",
+    "reference": "2.5 Consumer and producer surplus | 2.5.2 meaning and significance of producer surplus | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 69,
+    "difficulty": "Medium",
+    "prompt": "A market experiences a decrease in demand. Why is the change in consumer surplus not determined by the fall in equilibrium price alone?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quantity supplied remains unchanged whenever market demand falls."
+      },
+      {
+        "label": "B",
+        "text": "Consumer surplus must fall whenever producer surplus falls because the two groups’ gains necessarily move in the same direction."
+      },
+      {
+        "label": "C",
+        "text": "Lower market prices necessarily reduce the gains to consumers."
+      },
+      {
+        "label": "D",
+        "text": "Shifting demand also changes consumers' maximum willingness to pay."
+      }
+    ],
+    "answer": "D",
+    "explanation": "When demand shifts, both willingness to pay and the equilibrium price/quantity change. A lower price by itself would raise consumer surplus, but the inward shift of demand may reduce it, so the net effect requires more information.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 70,
+    "difficulty": "Medium",
+    "prompt": "A market experiences an increase in supply. Why is the change in producer surplus not determined by the fall in equilibrium price alone?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Shifting supply also changes producers' minimum acceptable supply prices."
+      },
+      {
+        "label": "B",
+        "text": "Consumer surplus determines the size of producers' gains exactly."
+      },
+      {
+        "label": "C",
+        "text": "Producers' gains are independent of the position of supply."
+      },
+      {
+        "label": "D",
+        "text": "Lower market prices necessarily increase the gains to producers."
+      }
+    ],
+    "answer": "A",
+    "explanation": "An outward supply shift usually reflects lower minimum supply prices or costs. Although equilibrium price falls, the lower supply curve and higher quantity may offset or outweigh that effect, so producer surplus can rise or fall.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 71,
+    "difficulty": "Hard",
+    "prompt": "Which statement best describes the significance of consumer and producer surplus in a simple competitive market diagram?",
+    "options": [
+      {
+        "label": "A",
+        "text": "They measure the economy’s total income generated by producing the goods, rather than the gains received by the trading parties."
+      },
+      {
+        "label": "B",
+        "text": "They represent buyers' and sellers' gains from market trades."
+      },
+      {
+        "label": "C",
+        "text": "They represent quantities of excess demand and excess supply."
+      },
+      {
+        "label": "D",
+        "text": "They represent firms' reported profits after deducting fixed costs."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Consumer surplus captures buyer gains relative to willingness to pay; producer surplus captures seller gains relative to minimum supply prices. Their sum represents gains from exchange within the simple market framework.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.1 meaning and significance of consumer surplus; 2.5.2 meaning and significance of producer surplus | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 72,
+    "difficulty": "Hard",
+    "prompt": "A linear demand curve and linear supply curve intersect at Q=40. Consumer surplus is $600 and producer surplus is $400. What is total surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$200"
+      },
+      {
+        "label": "B",
+        "text": "$24000"
+      },
+      {
+        "label": "C",
+        "text": "$1000"
+      },
+      {
+        "label": "D",
+        "text": "$600"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Total surplus accruing to consumers and producers is $600 + $400 = $1000.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.1 meaning and significance of consumer surplus; 2.5.2 meaning and significance of producer surplus | AO1 Knowledge and Understanding",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 73,
+    "difficulty": "Hard",
+    "prompt": "The equilibrium price falls because supply shifts right. Which conclusion is most defensible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumer surplus is uncertain while producer surplus necessarily falls."
+      },
+      {
+        "label": "B",
+        "text": "Both consumer and producer surplus necessarily rise because a reduction in the market price benefits every buyer and seller."
+      },
+      {
+        "label": "C",
+        "text": "Both consumer surplus and producer surplus necessarily fall."
+      },
+      {
+        "label": "D",
+        "text": "Consumer surplus rises while producer surplus may rise or fall."
+      }
+    ],
+    "answer": "D",
+    "explanation": "With demand unchanged, a lower price and higher quantity unambiguously raise consumer surplus. Producer surplus is ambiguous because both the equilibrium and the supply curve have changed.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 74,
+    "difficulty": "Hard",
+    "prompt": "The equilibrium price rises because demand shifts right. Which conclusion is most defensible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Consumer surplus rises while producer surplus necessarily rises."
+      },
+      {
+        "label": "B",
+        "text": "Consumer surplus falls while producer surplus necessarily falls."
+      },
+      {
+        "label": "C",
+        "text": "Producer surplus rises while consumer surplus may rise or fall."
+      },
+      {
+        "label": "D",
+        "text": "Consumer surplus rises while producer surplus necessarily falls."
+      }
+    ],
+    "answer": "C",
+    "explanation": "With supply unchanged, higher price and quantity raise producer surplus. Consumer surplus depends on the size and shape of the outward demand shift as well as the higher price.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 75,
+    "difficulty": "Hard",
+    "prompt": "Assume demand and supply curves are straight over the relevant range. Two markets have the same initial equilibrium and experience equal price falls. Market A has more elastic demand than market B. Which statement best explains why elasticity matters for the change in consumer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It determines the initial surplus enjoyed before the price fall."
+      },
+      {
+        "label": "B",
+        "text": "It affects extra purchases and the associated triangular surplus gain."
+      },
+      {
+        "label": "C",
+        "text": "It alters the price saving enjoyed on each original purchase."
+      },
+      {
+        "label": "D",
+        "text": "It removes the significance of willingness to pay for extra purchases."
+      }
+    ],
+    "answer": "B",
+    "explanation": "For the same price fall and initial quantity, the gain on existing units is fixed. PED affects the quantity response, and therefore the extra surplus created on newly purchased units.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 76,
+    "difficulty": "Hard",
+    "prompt": "Assume demand and supply curves are straight over the relevant range. Two markets have the same initial equilibrium and experience equal price rises. Market A has more elastic supply than market B. Which statement best explains why elasticity matters for the change in producer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It affects extra sales and the associated triangular surplus gain."
+      },
+      {
+        "label": "B",
+        "text": "It determines the initial surplus enjoyed before the price rise."
+      },
+      {
+        "label": "C",
+        "text": "It alters the price increase received on each original sale."
+      },
+      {
+        "label": "D",
+        "text": "It removes the significance of minimum acceptable prices for extra sales."
+      }
+    ],
+    "answer": "A",
+    "explanation": "For the same price rise on the same initial quantity, the rectangle is equal. PES affects the output response and therefore the surplus on additional units.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 77,
+    "difficulty": "Hard",
+    "prompt": "Five buyers have maximum willingness to pay of $30, $26, $22, $18 and $14. Five sellers have minimum acceptable prices of $8, $12, $16, $20 and $24. At a market-clearing price of $19, what is total consumer surplus?\n| Rank | Buyer maximum ($) | Seller minimum ($) |\n| 1 | 30 | 8 |\n| 2 | 26 | 12 |\n| 3 | 22 | 16 |\n| 4 | 18 | 20 |\n| 5 | 14 | 24 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$21"
+      },
+      {
+        "label": "B",
+        "text": "$24"
+      },
+      {
+        "label": "C",
+        "text": "$18"
+      },
+      {
+        "label": "D",
+        "text": "$30"
+      }
+    ],
+    "answer": "A",
+    "explanation": "At $19, three units trade. Buyers with willingness to pay of $30, $26 and $22 obtain surpluses of $11, $7 and $3, giving total consumer surplus of $21.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.1 meaning and significance of consumer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 78,
+    "difficulty": "Hard",
+    "prompt": "Using the buyer-seller schedule below, at a market-clearing price of $19 what is total producer surplus?\n| Rank | Buyer maximum ($) | Seller minimum ($) |\n| 1 | 30 | 8 |\n| 2 | 26 | 12 |\n| 3 | 22 | 16 |\n| 4 | 18 | 20 |\n| 5 | 14 | 24 |",
+    "options": [
+      {
+        "label": "A",
+        "text": "$18"
+      },
+      {
+        "label": "B",
+        "text": "$30"
+      },
+      {
+        "label": "C",
+        "text": "$21"
+      },
+      {
+        "label": "D",
+        "text": "$12"
+      }
+    ],
+    "answer": "C",
+    "explanation": "At $19, three units trade. Sellers with minimum acceptable prices of $8, $12 and $16 obtain surpluses of $11, $7 and $3, giving total producer surplus of $21.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.2 meaning and significance of producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 79,
+    "difficulty": "Hard",
+    "prompt": "Assume demand and supply curves are straight over the relevant range. Two markets start at the same equilibrium and have identical supply curves and the same leftward shift of supply. Market A has more inelastic demand than market B. Which market is likely to experience the larger loss of consumer surplus per unit that continues to be purchased?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Market B, because its equilibrium price rises by less"
+      },
+      {
+        "label": "B",
+        "text": "Both markets, because consumer surplus cannot change after a supply shift"
+      },
+      {
+        "label": "C",
+        "text": "Market A, because its equilibrium price rises by more"
+      },
+      {
+        "label": "D",
+        "text": "Neither market, because elasticity affects only producer surplus"
+      }
+    ],
+    "answer": "C",
+    "explanation": "With more inelastic demand, a given supply contraction causes a larger price rise and a smaller quantity fall. The larger price increase reduces surplus more on units that remain purchased.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Two panels with identical initial S1 and equal leftward shifts to S2. Panel A has steep demand DA; panel B has flatter demand DB. Mark a larger P increase in A. Emphasize the loss of CS on continuing units as a rectangle between P1 and P2.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 2.0000000000000036,
+                "y": 131.6
+              },
+              {
+                "x": 79.41176470588235,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 111.6,
+                "y": 131.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 42.59259259259259,
+            "y": 62.59259259259259
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 42.59259259259259,
+            "y": 62.59259259259259,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [
+          {
+            "id": "r0",
+            "fill": "cost",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 42.59259259259259,
+                "y": 50
+              },
+              {
+                "x": 42.59259259259259,
+                "y": 62.59259259259259
+              },
+              {
+                "x": 0,
+                "y": 62.59259259259259
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Market A"
+      },
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 72.5
+              },
+              {
+                "x": 131.6,
+                "y": 13.280000000000001
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 111.6,
+                "y": 131.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 36.20689655172414,
+            "y": 56.20689655172414
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 36.20689655172414,
+            "y": 56.20689655172414,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [
+          {
+            "id": "r0",
+            "fill": "cost",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 36.20689655172414,
+                "y": 50
+              },
+              {
+                "x": 36.20689655172414,
+                "y": 56.20689655172414
+              },
+              {
+                "x": 0,
+                "y": 56.20689655172414
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Market B"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "difficulty": "Hard",
+    "prompt": "Assume demand and supply curves are straight over the relevant range. Two markets start at the same equilibrium and have identical demand curves and the same rightward shift of demand. Market A has more inelastic supply than market B. Which market is likely to have the larger producer-surplus gain on the original quantity?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Market B, because a smaller increase in its equilibrium price creates a larger gain on the quantity producers sold originally"
+      },
+      {
+        "label": "B",
+        "text": "Market A, because its equilibrium price rises by more"
+      },
+      {
+        "label": "C",
+        "text": "Neither, because producer surplus cannot change after demand shifts"
+      },
+      {
+        "label": "D",
+        "text": "Both are equal because the demand shift is equal"
+      }
+    ],
+    "answer": "B",
+    "explanation": "More inelastic supply produces a larger equilibrium price increase for the same demand shift. The higher price raises producer surplus by more on the units that were already supplied.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Two panels with identical D1 and equal rightward shifts to D2. Panel A has steep supply SA; panel B has flatter supply SB. Mark the larger P increase in A. Highlight the rectangular producer-surplus gain on initial output.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 20.58823529411765,
+                "y": 0.0
+              },
+              {
+                "x": 98.0,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "D1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "D2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 120
+              },
+              {
+                "x": 120.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 57.407407407407405,
+            "y": 62.592592592592595
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 57.407407407407405,
+            "y": 62.592592592592595,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [
+          {
+            "id": "r0",
+            "fill": "benefit",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 62.592592592592595
+              },
+              {
+                "x": 0,
+                "y": 62.592592592592595
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Market A"
+      },
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 27.5
+              },
+              {
+                "x": 131.6,
+                "y": 86.72
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "D1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "D2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 120
+              },
+              {
+                "x": 120.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 63.793103448275865,
+            "y": 56.206896551724135
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 63.793103448275865,
+            "y": 56.206896551724135,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [
+          {
+            "id": "r0",
+            "fill": "benefit",
+            "points": [
+              {
+                "x": 0,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 50
+              },
+              {
+                "x": 50,
+                "y": 56.206896551724135
+              },
+              {
+                "x": 0,
+                "y": 56.206896551724135
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Market B"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "difficulty": "Hard",
+    "prompt": "Assume the relevant curve is straight over this interval. The price of a product falls from $20 to $15 and quantity demanded rises from 40 to 70. Which areas make up the increase in consumer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Original-unit gain: $75; additional-unit gain: $200."
+      },
+      {
+        "label": "B",
+        "text": "Original-unit gain: $275; additional-unit gain: $75."
+      },
+      {
+        "label": "C",
+        "text": "Original-unit gain: $200; additional-unit gain: $75."
+      },
+      {
+        "label": "D",
+        "text": "Original-unit gain: $200; additional-unit gain: zero."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rectangle on the original 40 units is $5×40=$200. The triangular surplus on 30 additional units is 1/2×$5×30=$75. Total gain is $275.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Draw a straight downward demand segment passing through (Q1=40,P1=20) and (Q2=70,P2=15). Shade the rectangle between P1 and P2 over 0-Q1 and the triangle under demand above P2 over Q1-Q2.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 110,
+        "yMax": 40,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 26.666666666666668
+              },
+              {
+                "x": 103.39999999999999,
+                "y": 9.433333333333337
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "P1",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 103.39999999999999,
+                "y": 20.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "P2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 15
+              },
+              {
+                "x": 103.39999999999999,
+                "y": 15.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 40.00000000000001,
+            "y": 20
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 70.00000000000001,
+            "y": 15
+          },
+          {
+            "id": "p2",
+            "label": "",
+            "x": 40,
+            "y": 20
+          },
+          {
+            "id": "p3",
+            "label": "",
+            "x": 70,
+            "y": 15
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 40,
+            "y": 20,
+            "xLabel": "40",
+            "yLabel": "20"
+          },
+          {
+            "id": "g1",
+            "x": 70,
+            "y": 15,
+            "xLabel": "70",
+            "yLabel": "15"
+          }
+        ],
+        "regions": [
+          {
+            "id": "r0",
+            "fill": "benefit",
+            "points": [
+              {
+                "x": 0,
+                "y": 20
+              },
+              {
+                "x": 40.00000000000001,
+                "y": 20
+              },
+              {
+                "x": 40.00000000000001,
+                "y": 15
+              },
+              {
+                "x": 0,
+                "y": 15
+              }
+            ],
+            "label": "R"
+          },
+          {
+            "id": "r1",
+            "fill": "cs",
+            "points": [
+              {
+                "x": 40.00000000000001,
+                "y": 20
+              },
+              {
+                "x": 70.00000000000001,
+                "y": 15
+              },
+              {
+                "x": 40.00000000000001,
+                "y": 15
+              }
+            ],
+            "label": "T"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "difficulty": "Hard",
+    "prompt": "Assume the relevant curve is straight over this interval. The price of a product rises from $10 to $16 and quantity supplied rises from 25 to 45. Which areas make up the increase in producer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Original-unit gain: $150; additional-unit gain: zero."
+      },
+      {
+        "label": "B",
+        "text": "Original-unit gain: $150; additional-unit gain: $60."
+      },
+      {
+        "label": "C",
+        "text": "Original-unit gain: $210; additional-unit gain: $60."
+      },
+      {
+        "label": "D",
+        "text": "Original-unit gain: $60; additional-unit gain: $150."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The rectangle is $6×25=$150. The triangular gain on the 20 extra units is 1/2×$6×20=$60, for a total increase of $210.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Draw an upward straight supply segment through (Q1=25,P1=10) and (Q2=45,P2=16). Shade the rectangle between P1 and P2 over 0-Q1 and the triangle above S below P2 over Q1-Q2.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 70,
+        "yMax": 25,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 2.5
+              },
+              {
+                "x": 65.8,
+                "y": 22.24
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "P1",
+            "style": "reference",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 65.8,
+                "y": 10.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "P2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 16
+              },
+              {
+                "x": 65.8,
+                "y": 16.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "",
+            "x": 25.0,
+            "y": 10
+          },
+          {
+            "id": "p1",
+            "label": "",
+            "x": 45.0,
+            "y": 16
+          },
+          {
+            "id": "p2",
+            "label": "",
+            "x": 25,
+            "y": 10
+          },
+          {
+            "id": "p3",
+            "label": "",
+            "x": 45,
+            "y": 16
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 25,
+            "y": 10,
+            "xLabel": "25",
+            "yLabel": "10"
+          },
+          {
+            "id": "g1",
+            "x": 45,
+            "y": 16,
+            "xLabel": "45",
+            "yLabel": "16"
+          }
+        ],
+        "regions": [
+          {
+            "id": "r0",
+            "fill": "benefit",
+            "points": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 25.0,
+                "y": 10
+              },
+              {
+                "x": 25.0,
+                "y": 16
+              },
+              {
+                "x": 0,
+                "y": 16
+              }
+            ],
+            "label": "R"
+          },
+          {
+            "id": "r1",
+            "fill": "ps",
+            "points": [
+              {
+                "x": 25.0,
+                "y": 10
+              },
+              {
+                "x": 45.0,
+                "y": 16
+              },
+              {
+                "x": 25.0,
+                "y": 16
+              }
+            ],
+            "label": "T"
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "difficulty": "Hard",
+    "prompt": "A market has demand P = 100 - Q and supply P = 20 + Q. Demand then shifts to P = 120 - Q. What is the change in producer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$450"
+      },
+      {
+        "label": "B",
+        "text": "$1250"
+      },
+      {
+        "label": "C",
+        "text": "$500"
+      },
+      {
+        "label": "D",
+        "text": "$350"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Initially 100-Q=20+Q gives Q=40, P=$60 and PS=1/2×40×($60-$20)=$800. After demand shifts to 120-Q, Q=50, P=$70 and PS=1/2×50×($70-$20)=$1250. The increase is $450.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus; 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 84,
+    "difficulty": "Hard",
+    "prompt": "A market has demand P = 100 - Q and supply P = 20 + Q. Supply then shifts to P = 10 + Q. What is the change in consumer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$225"
+      },
+      {
+        "label": "B",
+        "text": "$212.50"
+      },
+      {
+        "label": "C",
+        "text": "$200"
+      },
+      {
+        "label": "D",
+        "text": "$1012.50"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Initially CS=1/2×40×(100-60)=$800. With supply P=10+Q, equilibrium is Q=45, P=$55, so CS=1/2×45×45=$1012.50. Consumer surplus rises by $212.50.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus; 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 85,
+    "difficulty": "Hard",
+    "prompt": "A market has demand P = 90 - Q and supply P = 30 + Q. What is total consumer plus producer surplus at equilibrium?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$450"
+      },
+      {
+        "label": "B",
+        "text": "$1800"
+      },
+      {
+        "label": "C",
+        "text": "$900"
+      },
+      {
+        "label": "D",
+        "text": "$2700"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Equilibrium is Q=30 and P=60. CS=1/2×30×30=$450 and PS=1/2×30×30=$450. Their sum is $900.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.1 meaning and significance of consumer surplus; 2.5.2 meaning and significance of producer surplus | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 86,
+    "difficulty": "Hard",
+    "prompt": "Which statement about price elasticity and the level of consumer surplus is most defensible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A higher demand elasticity necessarily produces a greater level of consumer surplus regardless of the curve’s intercept and equilibrium quantity."
+      },
+      {
+        "label": "B",
+        "text": "More inelastic demand always eliminates any consumer surplus."
+      },
+      {
+        "label": "C",
+        "text": "Unit elasticity always creates the maximum consumer surplus."
+      },
+      {
+        "label": "D",
+        "text": "Elasticity alone cannot determine the level of consumer surplus."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Consumer surplus depends on the position and shape of demand relative to the market price, not on an elasticity coefficient alone. Elasticity is especially useful for analysing how surplus changes when price changes.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 87,
+    "difficulty": "Hard",
+    "prompt": "Which statement about price elasticity and the level of producer surplus is most defensible?",
+    "options": [
+      {
+        "label": "A",
+        "text": "More inelastic supply always eliminates any producer surplus."
+      },
+      {
+        "label": "B",
+        "text": "Unit elasticity always creates the maximum producer surplus."
+      },
+      {
+        "label": "C",
+        "text": "A higher supply elasticity necessarily produces a greater level of producer surplus regardless of the curve’s intercept and equilibrium quantity."
+      },
+      {
+        "label": "D",
+        "text": "Elasticity alone cannot determine the level of producer surplus."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Producer surplus depends on the supply curve's position, the market price and the quantity traded. PES helps explain the response to price changes but does not by itself determine the initial surplus level.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 88,
+    "difficulty": "Hard",
+    "prompt": "Demand shifts right while supply is unchanged. Which two statements are correct?\n\n1. Producer surplus increases.\n\n2. Consumer surplus must increase.\n\n3. Equilibrium price increases.\n\n4. Equilibrium quantity decreases.",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 and 2 only"
+      },
+      {
+        "label": "B",
+        "text": "1 and 3 only"
+      },
+      {
+        "label": "C",
+        "text": "2 and 4 only"
+      },
+      {
+        "label": "D",
+        "text": "3 and 4 only"
+      }
+    ],
+    "answer": "B",
+    "explanation": "With supply fixed, higher demand raises equilibrium price and quantity, so producer surplus increases. Consumer surplus is not guaranteed to rise because the demand curve itself shifts; statement 2 is not necessarily true.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 89,
+    "difficulty": "Hard",
+    "prompt": "Supply shifts right while demand is unchanged. Which two statements are correct?\n\n1. Consumer surplus increases.\n\n2. Producer surplus must increase.\n\n3. Equilibrium price falls.\n\n4. Equilibrium quantity falls.",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 and 2 only"
+      },
+      {
+        "label": "B",
+        "text": "1 and 3 only"
+      },
+      {
+        "label": "C",
+        "text": "3 and 4 only"
+      },
+      {
+        "label": "D",
+        "text": "2 and 4 only"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A rightward supply shift lowers price and raises quantity, so consumer surplus definitely increases. Producer surplus may rise or fall because the supply curve itself has shifted.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 90,
+    "difficulty": "Hard",
+    "prompt": "Demand and supply both shift right. The equilibrium quantity rises, while the equilibrium price is unchanged. What can be concluded about consumer and producer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Both remain unchanged because the absence of a price change prevents additional purchases and sales from generating any extra surplus"
+      },
+      {
+        "label": "B",
+        "text": "Consumer surplus falls while producer surplus rises"
+      },
+      {
+        "label": "C",
+        "text": "Both consumer surplus and producer surplus increase"
+      },
+      {
+        "label": "D",
+        "text": "Consumer surplus rises while producer surplus falls"
+      }
+    ],
+    "answer": "C",
+    "explanation": "With the market price unchanged, an outward shift of demand raises willingness to pay and an outward shift of supply lowers minimum acceptable prices. Because a larger quantity is also traded, both consumer surplus and producer surplus increase.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.3 causes of changes in consumer and producer surplus; 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 91,
+    "difficulty": "Hard",
+    "prompt": "Assume demand and supply curves are straight over the relevant range. A market has a very inelastic demand curve. Supply increases. Which outcome is most likely compared with an otherwise identical market with more elastic demand?",
+    "options": [
+      {
+        "label": "A",
+        "text": "No change in price or quantity"
+      },
+      {
+        "label": "B",
+        "text": "The equilibrium price decreases by less while equilibrium quantity increases by more than in the otherwise identical market with elastic demand"
+      },
+      {
+        "label": "C",
+        "text": "A larger fall in price and a smaller rise in quantity"
+      },
+      {
+        "label": "D",
+        "text": "A larger rise in price and a smaller rise in quantity"
+      }
+    ],
+    "answer": "C",
+    "explanation": "When demand is inelastic, buyers change quantity little in response to price. A supply increase therefore produces more adjustment through a lower price and less through increased quantity.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Two panels with identical S1→S2 rightward shifts. Panel A has steep demand; panel B flatter demand. Mark a larger price fall and smaller quantity increase in the steep-demand panel.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 2.0000000000000036,
+                "y": 131.6
+              },
+              {
+                "x": 79.41176470588235,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 20.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 111.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 57.407407407407405,
+            "y": 37.407407407407405
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 57.407407407407405,
+            "y": 37.407407407407405,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Market A"
+      },
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 72.5
+              },
+              {
+                "x": 131.6,
+                "y": 13.280000000000001
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 20.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 111.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 63.793103448275865,
+            "y": 43.793103448275865
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 63.793103448275865,
+            "y": 43.793103448275865,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Market B"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "difficulty": "Hard",
+    "prompt": "Assume demand and supply curves are straight over the relevant range. A market has a very inelastic supply curve. Demand decreases. Which outcome is most likely compared with an otherwise identical market with more elastic supply?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The equilibrium price decreases by less while equilibrium quantity decreases by more than in the otherwise identical market with elastic supply"
+      },
+      {
+        "label": "B",
+        "text": "A larger fall in price and a smaller fall in quantity"
+      },
+      {
+        "label": "C",
+        "text": "A rise in price and fall in quantity"
+      },
+      {
+        "label": "D",
+        "text": "No change in price or quantity"
+      }
+    ],
+    "answer": "B",
+    "explanation": "With inelastic supply, output responds little. A demand decrease therefore causes a larger price fall and smaller quantity fall than when supply is elastic.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Two panels with identical D1→D2 leftward shifts. Panel A has steep supply; panel B flatter supply. Mark a larger price fall and smaller quantity decrease in the steep-supply panel.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 20.58823529411765,
+                "y": 0.0
+              },
+              {
+                "x": 98.0,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "D1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "D2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 80
+              },
+              {
+                "x": 80.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 42.59259259259259,
+            "y": 37.40740740740741
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 42.59259259259259,
+            "y": 37.40740740740741,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Market A"
+      },
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 27.5
+              },
+              {
+                "x": 131.6,
+                "y": 86.72
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "D1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "D2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 80
+              },
+              {
+                "x": 80.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 36.20689655172414,
+            "y": 43.79310344827586
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 36.20689655172414,
+            "y": 43.79310344827586,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Market B"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "difficulty": "Hard",
+    "prompt": "A $10 fall in price occurs in two markets, each initially selling 100 units. Market A has perfectly inelastic demand; market B has straight-line downward-sloping demand over the relevant range and quantity rises to 140. What is the difference between the increases in consumer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$100"
+      },
+      {
+        "label": "B",
+        "text": "$1400"
+      },
+      {
+        "label": "C",
+        "text": "$400"
+      },
+      {
+        "label": "D",
+        "text": "$200"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Both markets gain $10×100=$1000 on the original units. Market B also gains 1/2×$10×40=$200 on extra units. Its consumer-surplus increase is therefore $200 larger.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 94,
+    "difficulty": "Hard",
+    "prompt": "An $8 rise in price occurs in two markets, each initially supplying 50 units. Market A has perfectly inelastic supply; market B has straight-line upward-sloping supply over the relevant range and quantity rises to 80. What is the difference between the increases in producer surplus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "$120"
+      },
+      {
+        "label": "B",
+        "text": "$80"
+      },
+      {
+        "label": "C",
+        "text": "$240"
+      },
+      {
+        "label": "D",
+        "text": "$640"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Both markets gain $8×50=$400 on original output. Market B also gains 1/2×$8×30=$120 on extra units, so its producer-surplus increase is $120 larger.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO2 Analysis",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 95,
+    "difficulty": "Hard",
+    "prompt": "Assume demand and supply curves are straight over the relevant range. A graph shows demand D and two possible supply curves, S1 relatively inelastic and S2 relatively elastic, both passing through the same initial equilibrium. Demand shifts right by the same horizontal amount. Which supply curve gives the larger increase in equilibrium price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "S1"
+      },
+      {
+        "label": "B",
+        "text": "Both give the same increase"
+      },
+      {
+        "label": "C",
+        "text": "The answer depends only on demand elasticity"
+      },
+      {
+        "label": "D",
+        "text": "S2"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The steeper, more inelastic supply curve allows less quantity response, so the same increase in demand produces a larger rise in price.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Draw a common initial demand D1 and right-shifted D2. Draw two upward supply curves through the same initial equilibrium: S1 steep and S2 flatter. Mark the larger vertical price change for S1.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "S1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 20.58823529411765,
+                "y": 0.0
+              },
+              {
+                "x": 98.0,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "D1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "D2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 120
+              },
+              {
+                "x": 120.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 57.407407407407405,
+            "y": 62.592592592592595
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 57.407407407407405,
+            "y": 62.592592592592595,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Market A"
+      },
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "S2",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 27.5
+              },
+              {
+                "x": 131.6,
+                "y": 86.72
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "D1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 100
+              },
+              {
+                "x": 100.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "D2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 0,
+                "y": 120
+              },
+              {
+                "x": 120.0,
+                "y": 0.0
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 63.793103448275865,
+            "y": 56.206896551724135
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 63.793103448275865,
+            "y": 56.206896551724135,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Market B"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "difficulty": "Hard",
+    "prompt": "Assume demand and supply curves are straight over the relevant range. A graph shows supply S and two possible demand curves, D1 relatively inelastic and D2 relatively elastic, both passing through the same initial equilibrium. Supply shifts right by the same horizontal amount. Which demand curve gives the larger fall in equilibrium price?",
+    "options": [
+      {
+        "label": "A",
+        "text": "D2"
+      },
+      {
+        "label": "B",
+        "text": "D1"
+      },
+      {
+        "label": "C",
+        "text": "Both give the same fall"
+      },
+      {
+        "label": "D",
+        "text": "The answer depends only on supply elasticity"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The steeper, more inelastic demand curve generates less quantity response, so more of the supply increase is absorbed by a price fall.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO2 Analysis",
+    "graphRequired": true,
+    "graphDescription": "Draw a common initial supply S1 and right-shifted S2. Draw two demand curves through the same initial equilibrium: D1 steep and D2 flatter. Mark the larger price fall under D1.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 2.0000000000000036,
+                "y": 131.6
+              },
+              {
+                "x": 79.41176470588235,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 20.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 111.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 57.407407407407405,
+            "y": 37.407407407407405
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 57.407407407407405,
+            "y": 37.407407407407405,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Market A"
+      },
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 140,
+        "yMax": 140,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D2",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 72.5
+              },
+              {
+                "x": 131.6,
+                "y": 13.280000000000001
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "S1",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 131.6,
+                "y": 131.6
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "S2",
+            "style": "tertiary",
+            "points": [
+              {
+                "x": 20.0,
+                "y": 0.0
+              },
+              {
+                "x": 131.6,
+                "y": 111.6
+              }
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "p0",
+            "label": "E1",
+            "x": 50,
+            "y": 50
+          },
+          {
+            "id": "p1",
+            "label": "E2",
+            "x": 63.793103448275865,
+            "y": 43.793103448275865
+          }
+        ],
+        "guides": [
+          {
+            "id": "g0",
+            "x": 50,
+            "y": 50,
+            "xLabel": "Q1",
+            "yLabel": "P1"
+          },
+          {
+            "id": "g1",
+            "x": 63.793103448275865,
+            "y": 43.793103448275865,
+            "xLabel": "Q2",
+            "yLabel": "P2"
+          }
+        ],
+        "regions": [],
+        "annotations": [],
+        "caption": "Market B"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "difficulty": "Hard",
+    "prompt": "A consumer-surplus diagram shows a fall in price but no change in quantity demanded. What does this imply about demand over the relevant range?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand is unit elastic"
+      },
+      {
+        "label": "B",
+        "text": "Demand is perfectly elastic, so a lower market price cannot increase the quantity consumers are willing to purchase"
+      },
+      {
+        "label": "C",
+        "text": "Demand is perfectly inelastic"
+      },
+      {
+        "label": "D",
+        "text": "Supply is perfectly elastic"
+      }
+    ],
+    "answer": "C",
+    "explanation": "If quantity demanded does not respond at all to a price change, PED is zero and demand is perfectly inelastic over that range.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical demand curve D at quantity Q. Mark P1 above P2. Shade the rectangular increase in consumer surplus between the two prices over quantity Q.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "D",
+            "style": "primary",
+            "points": [
+              {
+                "x": 50,
+                "y": 0
+              },
+              {
+                "x": 50,
+                "y": 90
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "P1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 60
+              },
+              {
+                "x": 94.0,
+                "y": 60.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "P2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 40
+              },
+              {
+                "x": 94.0,
+                "y": 40.0
+              }
+            ]
+          }
+        ],
+        "points": [],
+        "guides": [],
+        "regions": [
+          {
+            "id": "r0",
+            "fill": "benefit",
+            "points": [
+              {
+                "x": 0,
+                "y": 40
+              },
+              {
+                "x": 50,
+                "y": 40
+              },
+              {
+                "x": 50,
+                "y": 60
+              },
+              {
+                "x": 0,
+                "y": 60
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "difficulty": "Hard",
+    "prompt": "A producer-surplus diagram shows a rise in price but no change in quantity supplied. What does this imply about supply over the relevant range?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Demand is perfectly elastic"
+      },
+      {
+        "label": "B",
+        "text": "Supply is perfectly inelastic"
+      },
+      {
+        "label": "C",
+        "text": "Supply is unit elastic"
+      },
+      {
+        "label": "D",
+        "text": "Supply is perfectly elastic, so a higher market price cannot increase the quantity producers are willing to offer"
+      }
+    ],
+    "answer": "B",
+    "explanation": "No quantity response to a price change means PES is zero and supply is perfectly inelastic over the relevant range.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.4 significance of price elasticity of demand and of supply in determining the extent of these changes | AO1 Knowledge and Understanding",
+    "graphRequired": true,
+    "graphDescription": "Vertical supply curve S at quantity Q. Mark P1 below P2. Shade the rectangular increase in producer surplus between P1 and P2 over Q.",
+    "graphScenes": [
+      {
+        "xLabel": "Quantity",
+        "yLabel": "Price",
+        "xMax": 100,
+        "yMax": 100,
+        "curves": [
+          {
+            "id": "c0",
+            "label": "S",
+            "style": "primary",
+            "points": [
+              {
+                "x": 50,
+                "y": 0
+              },
+              {
+                "x": 50,
+                "y": 90
+              }
+            ]
+          },
+          {
+            "id": "c1",
+            "label": "P1",
+            "style": "primary",
+            "points": [
+              {
+                "x": 0,
+                "y": 40
+              },
+              {
+                "x": 94.0,
+                "y": 40.0
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "label": "P2",
+            "style": "secondary",
+            "points": [
+              {
+                "x": 0,
+                "y": 60
+              },
+              {
+                "x": 94.0,
+                "y": 60.0
+              }
+            ]
+          }
+        ],
+        "points": [],
+        "guides": [],
+        "regions": [
+          {
+            "id": "r0",
+            "fill": "benefit",
+            "points": [
+              {
+                "x": 0,
+                "y": 40
+              },
+              {
+                "x": 50,
+                "y": 40
+              },
+              {
+                "x": 50,
+                "y": 60
+              },
+              {
+                "x": 0,
+                "y": 60
+              }
+            ]
+          }
+        ],
+        "annotations": [],
+        "caption": "Schematic; labeled numbers specify quantitative values."
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "difficulty": "Hard",
+    "prompt": "A producer claims, “Any fall in the equilibrium price must reduce producer surplus.” Which response is best?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Incorrect; producer surplus equals consumer surplus at every price."
+      },
+      {
+        "label": "B",
+        "text": "Correct; the market price alone determines producers' total surplus."
+      },
+      {
+        "label": "C",
+        "text": "Incorrect; lower supply costs and increased sales can offset it."
+      },
+      {
+        "label": "D",
+        "text": "Correct; falling market prices necessarily shift supply curves leftwards."
+      }
+    ],
+    "answer": "C",
+    "explanation": "If price falls because supply expands, the supply curve itself moves downward/right. Lower minimum supply prices and greater output can offset the lower market price, so producer surplus is not determined by price alone.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.2 meaning and significance of producer surplus; 2.5.3 causes of changes in consumer and producer surplus | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  },
+  {
+    "id": 100,
+    "difficulty": "Hard",
+    "prompt": "A consumer claims, “Any rise in the equilibrium price must reduce consumer surplus.” Which response is best?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Correct; rising market prices necessarily shift demand curves leftwards."
+      },
+      {
+        "label": "B",
+        "text": "Incorrect; consumer surplus equals producer surplus at every price."
+      },
+      {
+        "label": "C",
+        "text": "Incorrect; greater willingness to pay can offset a price rise."
+      },
+      {
+        "label": "D",
+        "text": "Correct; market price alone determines consumers' total surplus gains."
+      }
+    ],
+    "answer": "C",
+    "explanation": "If the price rise is caused by an increase in demand, the demand curve itself shifts upward/right, raising willingness to pay. The change in consumer surplus therefore cannot be inferred from the price rise alone.",
+    "reference": "2.5 Consumer and producer surplus | 2.5.1 meaning and significance of consumer surplus; 2.5.3 causes of changes in consumer and producer surplus | AO3 Evaluation",
+    "graphRequired": false,
+    "graphDescription": ""
+  }
+]
