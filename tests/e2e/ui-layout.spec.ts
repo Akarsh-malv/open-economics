@@ -56,15 +56,16 @@ test('course cards use readable full-width titles and aligned actions', async ({
   await expect(cards.first()).toContainText('AP Macroeconomics');
 });
 
-test('guided lessons have a readable progress header and preserve step navigation', async ({ page }) => {
+test('lesson listings and direct lesson links show the launch placeholder', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('/learn/lessons');
+  await expect(page.getByRole('heading', { name: 'Coming soon' })).toBeVisible();
+  await expect(page.locator('.lesson-row')).toHaveCount(0);
+  await page.goto('/course/ap-microeconomics');
+  await expect(page.getByRole('heading', { name: 'Coming soon' })).toBeVisible();
+  await expect(page.locator('.lesson-row')).toHaveCount(0);
   await page.goto('/course/ap-microeconomics/scarcity-and-economic-thinking');
-  const progress = page.getByText('Step 1 of 7', { exact: true });
-  await expect(progress).toHaveCSS('color', 'rgb(11, 31, 58)');
-  await expect(page.getByRole('heading', { name: 'Why scarcity matters' })).toBeVisible();
-  await page.getByRole('button', { name: 'Continue', exact: true }).click();
-  await expect(page.getByText('Step 2 of 7', { exact: true })).toBeVisible();
-  await page.getByRole('button', { name: 'Back', exact: true }).click();
-  await expect(progress).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Coming soon' })).toBeVisible();
+  await expect(page.getByText('Step 1 of 7', { exact: true })).toHaveCount(0);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });
