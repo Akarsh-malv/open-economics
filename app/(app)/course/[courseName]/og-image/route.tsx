@@ -1,3 +1,4 @@
+import path from "node:path";
 import { ImageResponse } from "next/og";
 import { getCourseSeoData } from "@/lib/data/seo";
 import {
@@ -14,7 +15,7 @@ export const revalidate = 2592000; // 30 days
 
 async function getFallbackLogo() {
   return fileToDataUrl(
-    new URL("../../../../../public/brand-wordmark.png", import.meta.url),
+    path.join(process.cwd(), "public", "brand-wordmark.png"),
     "image/png",
   );
 }

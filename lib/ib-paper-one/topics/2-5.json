@@ -1,0 +1,657 @@
+{
+  "number": "2.5",
+  "title": "Elasticities of Demand",
+  "count": 50,
+  "questions": [
+    {
+      "id": 1,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain the meaning of price elasticity of demand and how it differs from the slope of a demand curve.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether observing a downward-sloping demand curve reveals how strongly consumers respond to price changes.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 2,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "The price of a good rises by 10% and its quantity demanded falls by 20%. Calculate PED and explain its meaning.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether this estimate will remain the same after further price changes.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 3,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "A good has PED of -0.5. Explain the effect of a 12% price increase on its quantity demanded, assuming PED is unchanged.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether an inelastic demand estimate guarantees stable purchases.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 4,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why PED is based on percentage changes rather than absolute changes in price and quantity.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether PED estimates from different markets can be compared directly.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 5,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain the difference between the negative sign and magnitude of PED.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a smaller negative number always means demand is less responsive.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 6,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using appropriate diagrams, explain the difference between relatively price-elastic and relatively price-inelastic demand.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether the steepness of two curves alone is sufficient to compare PED.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 7,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain the meaning of unitary price elasticity of demand.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a good has unitary PED at every possible price.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 8,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using appropriate diagrams, explain the meaning of perfectly elastic and perfectly inelastic demand.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether either extreme is an accurate description of a whole market.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 9,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why a vertical demand curve and a steep but downward-sloping demand curve imply different price responses.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether essential goods have perfectly inelastic demand.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 10,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Calculate the PED when price falls by 5% and quantity demanded rises by 5%, and explain the result.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether the resulting PED is useful for predicting a large price cut.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 11,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how the availability of close substitutes affects PED.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether consumers always switch away from a good after its price rises.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 12,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why the demand for a narrowly defined brand may be more price elastic than demand for its broad product category.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate the importance of how a market is defined when estimating PED.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 13,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using appropriate diagrams, explain why a new close substitute could alter a product's price responsiveness.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether entry of a rival necessarily makes demand more price elastic.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 14,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how switching costs can weaken the effect of substitutes on PED.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether products called substitutes must have similar PED.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 15,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why the closeness of substitutes matters as well as their number.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a large number of alternatives always makes demand highly price elastic.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 16,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain why demand for a necessity may be relatively price inelastic.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether all consumers respond similarly to a price rise for an essential good.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 17,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how the degree of necessity and availability of substitutes can affect PED simultaneously.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether necessity alone is enough to predict PED.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 18,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why the PED for the same good may differ between households with different circumstances.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether an average PED adequately represents all buyers.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 19,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why a luxury good may have a higher PED than a necessity, ceteris paribus.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether calling a good a luxury is sufficient to predict its PED.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 20,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a good taking a large share of income may have more price-elastic demand.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether small purchases are always price inelastic.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 21,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain why demand may become more price elastic as consumers have more time to adjust.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a short-run PED estimate predicts a long-run response.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 22,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how the ability to postpone a purchase can influence PED.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether all durable goods have elastic demand.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 23,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how the budget share and time available can jointly affect PED.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate which determinant of PED is likely to matter most for transport fuel.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 24,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a change in price may have a small immediate effect on quantity but a larger later effect.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether producer pricing decisions should rely on immediate sales changes.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 25,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how total revenue changes after a price increase when demand is price elastic.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether raising price is a reliable way for a firm to raise revenue.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 26,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how a price reduction affects total revenue when demand is price inelastic.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether discounting always increases a seller's revenue.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 27,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using an appropriate diagram, explain why a price rise can increase total revenue under price-inelastic demand.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether higher revenue after a price rise proves demand was inelastic.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 28,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "A firm raises price by 8% and quantity demanded falls by 4%. Explain the likely direction of its total revenue change.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether this calculation alone determines whether the firm should raise price.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 29,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain the relationship between unitary PED and a small change in total revenue following a price change.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether maximising revenue necessarily maximises profit.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 30,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how income elasticity of demand distinguishes normal and inferior goods.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a good must have the same YED for all consumers.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 31,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Income rises by 5% and demand for a service rises by 10%. Calculate YED and interpret it.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether this YED estimate will remain constant as incomes continue to rise.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 32,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain the difference between an income-inelastic necessity and an income-elastic service.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether spending on services always grows faster than income.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 33,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "A household's income rises by 10% and its demand for a good falls by 5%. Calculate YED and explain what it indicates.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether declining sales alone establishes that a good is inferior.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 34,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a positive YED can be either greater or less than one.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether all normal goods respond strongly to rising income.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 35,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using an Engel curve, explain how quantity demanded changes with income for a normal good.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether an Engel curve for one household describes the whole market.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 36,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using appropriate Engel curves, explain the difference between income-elastic and income-inelastic demand.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether the shape of an Engel curve is fixed for all income levels.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 37,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using an Engel curve, explain why the demand for an inferior good falls as income rises.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether low-priced goods are necessarily inferior.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 38,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why an Engel curve may change its slope as income increases.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a good can change classification as income rises.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 39,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using appropriate Engel curves, explain how two normal goods may have different YED values.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether income growth has predictable effects on every sector.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 40,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why differences in YED can cause the pattern of consumption to change as incomes grow.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether services always gain a larger share of spending as incomes rise.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 41,
+      "level": "HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using a straight-line demand curve, explain why PED changes as price falls along the curve even when its slope is constant.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether one PED value can describe demand at every price.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 42,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using a straight-line demand curve, explain where PED is unitary, elastic and inelastic.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether the midpoint of a straight-line demand curve is always the best price for a firm.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 43,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how the relationship between PED and total revenue changes as a firm moves down a straight-line demand curve.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a firm should target the revenue-maximising point.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 44,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using a straight-line demand curve, explain why equal absolute price changes need not cause equal percentage changes in quantity demanded.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate the reliability of extrapolating an elasticity estimate across prices.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 45,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why an elastic upper section and an inelastic lower section can coexist on one straight-line demand curve.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether the same good can have different price responsiveness at different prices.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 46,
+      "level": "HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain two reasons why demand for a primary commodity may be less price elastic than demand for a manufactured product.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether this comparison is true for every commodity and product.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 47,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why the use of a primary commodity as an essential input may reduce its PED.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether rising commodity prices necessarily raise producers' revenue.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 48,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a firm may use YED estimates when planning production for income growth.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether YED alone provides enough information for business planning.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 49,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how differing YED values can contribute to a change in the sectoral structure of an economy.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether rising incomes alone explain an expanding services sector.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 50,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a firm selling an inferior good might adjust its plans during sustained income growth.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a negative YED always signals poor future prospects for a business.",
+        "marks": 15
+      }
+    }
+  ]
+}

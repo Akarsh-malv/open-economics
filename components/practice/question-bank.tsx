@@ -81,6 +81,8 @@ export function QuestionBank({
     } catch {
       setStorageAvailable(false);
     }
+    const requestedId = Number(new URLSearchParams(window.location.search).get("q"));
+    if (questions.some(q => q.id === requestedId)) setCurrentId(requestedId);
     setReady(true);
   }, [questions, storageKey]);
 

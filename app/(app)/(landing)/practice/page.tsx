@@ -2,7 +2,7 @@ import { ArrowRight, CheckCircle2, Layers3, Sparkles } from "lucide-react";
 import Link from "next/link";
 import { CourseArt } from "@/components/practice/course-art";
 import { practiceCourses } from "@/lib/practice/courses";
-import { practiceTopics } from "@/lib/practice/topics";
+import { getCoursePracticeTopics, practiceTopics } from "@/lib/practice/topics";
 import { buildPublicMetadata } from "@/lib/seo";
 
 export const metadata = buildPublicMetadata({
@@ -60,12 +60,12 @@ export default function PracticePage() {
             <div className="practice-card-bottom">
               {course.available ? (
                 <>
-                  <span className="practice-live-dot" /> {practiceTopics.length}{" "}
+                  <span className="practice-live-dot" /> {getCoursePracticeTopics(course.slug).length}{" "}
                   topics ·{" "}
-                  {practiceTopics
+                  {getCoursePracticeTopics(course.slug)
                     .reduce((sum, topic) => sum + topic.count, 0)
                     .toLocaleString()}{" "}
-                  questions
+                  {course.slug === "ib" ? "question pairs" : "questions"}
                 </>
               ) : (
                 <span>Topics coming soon</span>

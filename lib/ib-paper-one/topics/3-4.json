@@ -1,0 +1,657 @@
+{
+  "number": "3.4",
+  "title": "Economics of Inequality and Poverty",
+  "count": 50,
+  "questions": [
+    {
+      "id": 1,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain the difference between economic equality and equity.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether equal incomes would necessarily create an equitable society.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 2,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a household can have high income but low wealth.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether income statistics alone reveal economic inequality.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 3,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why two households with similar wealth can receive different market incomes.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether wealth inequality and income inequality measure the same thing.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 4,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how unequal ownership of productive resources can create income inequality.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether unequal resource ownership is the only cause of income inequality.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 5,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why unequal opportunity can persist even if legal access to education is equal.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether formal equality of opportunity is sufficient to reduce poverty.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 6,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using a Lorenz curve, explain how income distribution is compared with perfect equality.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a Lorenz curve is sufficient to judge the fairness of an economy.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 7,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using Lorenz curves, explain how a distribution becoming more equal would be shown.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a lower Gini coefficient always means poverty has fallen.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 8,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain what a Gini coefficient measures and how it relates to a Lorenz curve.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a single Gini value captures every aspect of inequality.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 9,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why identical Gini coefficients may conceal different income distributions.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether Gini rankings should determine redistributive policy.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 10,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why an income Lorenz curve should not automatically be interpreted as a wealth Lorenz curve.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether income equality implies wealth equality.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 11,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain the difference between absolute and relative poverty.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether falling absolute poverty necessarily reduces relative poverty.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 12,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how an international poverty line can be used to measure poverty.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether one international threshold captures every country's deprivation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 13,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how a minimum income standard differs from an international poverty line.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a locally defined threshold is more useful than a global one.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 14,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a multidimensional poverty index can identify deprivation missed by income measures.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a composite poverty measure is always more informative than income poverty.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 15,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how a country's poverty rate can change when the poverty threshold changes.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether differences in measured poverty always reflect real changes in living standards.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 16,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain two difficulties in comparing poverty across countries.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether poverty rankings are reliable when data quality differs.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 17,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why informal incomes can affect measured poverty.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether survey-based poverty figures capture all household resources.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 18,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how differences in human capital can contribute to income inequality.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether education alone can eliminate income gaps.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 19,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how discrimination in labour markets can contribute to poverty.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether equal qualifications guarantee equal earnings.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 20,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how inherited wealth can influence future income inequality.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether taxation can fully offset differences in inherited advantage.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 21,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how technological change may raise the earnings of some workers relative to others.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether technological progress necessarily increases inequality.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 22,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how globalisation can alter the demand for different kinds of labour.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether trade integration always widens domestic income gaps.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 23,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how tax and benefit policies can alter disposable income inequality.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether market-income inequality predicts after-tax inequality.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 24,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why unequal status and bargaining power can affect wage incomes.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether labour markets reward productivity alone.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 25,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how market-based supply-side reforms can affect the income distribution.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether greater labour-market flexibility must worsen inequality.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 26,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how poverty can limit human capital accumulation and growth.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether inequality necessarily slows economic growth.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 27,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how wealth inequality may affect access to business finance.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether unequal wealth always prevents entrepreneurship.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 28,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why income inequality can affect social stability.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether inequality alone explains social unrest.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 29,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how inequality can affect average and typical standards of living differently.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether growth in average income implies higher living standards for poorer households.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 30,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how unequal access to health care can reinforce income inequality.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether rising GDP is sufficient to break a poverty cycle.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 31,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how a progressive income tax can reduce after-tax income inequality.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether higher top tax rates always reduce inequality.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 32,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain the difference between progressive, proportional and regressive taxation.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether an indirect tax necessarily places a greater burden on poorer households.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 33,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain the distinction between average and marginal income-tax rates.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a higher marginal rate means a worker's entire income is taxed at that rate.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 34,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how a tax on wealth can affect wealth inequality.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether taxing high-value assets always improves equity.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 35,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a broad consumption tax may be regressive relative to income.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether exemptions can make indirect taxation more equitable.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 36,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how personal income taxes and transfer payments can work together to reduce poverty.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether redistribution is sufficient to tackle the causes of poverty.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 37,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how targeted spending on education may reduce inequality of opportunity.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether targeted education is preferable to universal provision.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 38,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how transfer payments can reduce absolute poverty.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether cash transfers always improve long-term economic mobility.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 39,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how a universal basic income differs from means-tested transfers.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether universal basic income is an efficient way to reduce poverty.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 40,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a minimum wage might reduce in-work poverty.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a higher minimum wage always lowers the poverty rate.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 41,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how anti-discrimination measures may affect income inequality.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether legal protection alone can ensure equal economic opportunity.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 42,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why expanding access to health care can help reduce poverty.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether spending on health care is more effective than direct cash support.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 43,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Given income shares by quintile of 5%, 10%, 15%, 25% and 45%, construct a Lorenz curve and explain its axes.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether the resulting Lorenz curve is sufficient to assess poverty.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 44,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Given income shares by quintile of 10%, 15%, 20%, 25% and 30%, construct a Lorenz curve and explain its relationship to the equality line.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a more equal income distribution necessarily represents greater equity.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 45,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Given two sets of quintile shares, A: 5,10,15,25,45 and B: 8,12,18,24,38, construct both Lorenz curves and explain which distribution is more equal.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether the country represented by B must have lower poverty.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 46,
+      "level": "HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "A household spends 2,000 on taxable goods subject to a 10% tax on the pre-tax price; calculate tax paid and explain how its burden relative to income can vary.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether equal consumption-tax rates imply equal burdens relative to income.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 47,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Given incomes of 20,000 and 80,000 and tax payments of 2,000 and 16,000, calculate both average tax rates and explain the tax schedule’s progressivity.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether this tax schedule will necessarily eliminate income inequality.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 48,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "A person earns 50,000 and pays 7,500 in total tax; after a 1,000 raise, total tax becomes 7,800. Calculate the average initial and marginal rates.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a 30% marginal rate necessarily discourages additional work.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 49,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Given bottom four quintiles receiving 4%, 9%, 16% and 27% of income, calculate the top quintile share, show cumulative Lorenz points and explain why the points cannot lie above equality.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a concentrated top share always implies rising poverty.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 50,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "A low-income household earns 15,000 and spends 12,000 on goods taxed at 5% of pre-tax prices; calculate tax and its share of income, then explain the relevance to regressivity.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether such an indirect tax must be regressive in its overall effect.",
+        "marks": 15
+      }
+    }
+  ]
+}

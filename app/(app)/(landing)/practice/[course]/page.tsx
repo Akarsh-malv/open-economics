@@ -60,7 +60,7 @@ export default async function CoursePracticePage({
             {practiceTopics
               .reduce((sum, topic) => sum + topic.count, 0)
               .toLocaleString()}{" "}
-            questions · Organized by unit
+            {slug === "ib" ? "Paper 1 question pairs" : "questions"} · Organized by unit
           </p>
           {Array.from(new Set(practiceTopics.map((topic) => topic.unit))).map((unit) => {
             const topics = practiceTopics.filter(
@@ -93,7 +93,7 @@ export default async function CoursePracticePage({
                         </div>
                         <h3>{topic.title}</h3>
                         <p>
-                          Practice questions <span>·</span> Answer explanations
+                          {slug === "ib" ? "Paper 1 parts (a) and (b)" : "Practice questions"} <span>·</span> {slug === "ib" ? "Draft your response" : "Answer explanations"}
                           {topic.graphs > 0 && (
                             <>
                               {" "}

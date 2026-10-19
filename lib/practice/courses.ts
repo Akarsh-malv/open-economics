@@ -33,6 +33,6 @@ export const practiceCourses = [
     tag: "A global perspective",
     description: "Connect economic models to the world around you.",
     icon: "ib",
-    available: false,
+    available: true,
   },
 ] as const;

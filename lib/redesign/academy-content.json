@@ -1,0 +1,60 @@
+{
+  "specialisms": [
+    {
+      "id": "development",
+      "name": "Development economics",
+      "tag": "Opportunity & institutions",
+      "desc": "Why do living standards differ, and what changes them?",
+      "art": "development",
+      "topics": [
+        "Growth versus development",
+        "Institutions and incentives",
+        "Education, health and human capital"
+      ],
+      "question": "Can a higher GDP miss improvements in well-being?",
+      "answer": "Yes. GDP tracks production, while well-being also depends on health, education, distribution and environmental quality."
+    },
+    {
+      "id": "behavioral",
+      "name": "Behavioral economics",
+      "tag": "Decisions & incentives",
+      "desc": "Explore the gap between tidy models and real decisions.",
+      "art": "behavioral",
+      "topics": [
+        "Bounded rationality",
+        "Framing and defaults",
+        "Biases and choice architecture"
+      ],
+      "question": "Why might a default change participation?",
+      "answer": "People may stick with an existing option because of inertia, limited attention or the effort required to change it."
+    },
+    {
+      "id": "financial",
+      "name": "Financial economics",
+      "tag": "Risk & decisions over time",
+      "desc": "Connect saving, uncertainty and the value of time.",
+      "art": "financial",
+      "topics": [
+        "Time value of money",
+        "Risk and diversification",
+        "Markets and information"
+      ],
+      "question": "Does diversification remove every kind of risk?",
+      "answer": "No. Spreading holdings can reduce asset-specific risk, but broad market risks can still affect the portfolio."
+    },
+    {
+      "id": "industrial",
+      "name": "Industrial organization",
+      "tag": "Firms & competition",
+      "desc": "Study strategy, market power and how industries work.",
+      "art": "industrial",
+      "topics": [
+        "Market structure",
+        "Entry barriers and strategy",
+        "Competition policy"
+      ],
+      "question": "Why do barriers to entry matter?",
+      "answer": "They can protect incumbent firms from competition, influencing prices, innovation and long-run profits."
+    }
+  ]
+}

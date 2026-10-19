@@ -1,0 +1,657 @@
+{
+  "number": "3.2",
+  "title": "Aggregate Demand and Aggregate Supply",
+  "count": 50,
+  "questions": [
+    {
+      "id": 1,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain why aggregate demand is the sum of consumption, investment, government spending and net exports.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether consumption is always the most important influence on aggregate demand.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 2,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using an AD diagram, explain why the aggregate quantity of real output demanded falls as the price level rises.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a lower price level is sufficient to raise actual output.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 3,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why a change in consumer confidence can shift the aggregate demand curve.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether improved consumer confidence necessarily increases real output.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 4,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how a rise in household wealth can affect consumption and aggregate demand.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether asset price gains reliably stimulate national output.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 5,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how high household debt can affect consumption and aggregate demand.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether debt repayment always reduces economic activity.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 6,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how income-tax changes can shift the aggregate demand curve through consumption.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether lower income taxes necessarily produce a large rise in AD.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 7,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how expectations of future prices may influence current consumption.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether expected inflation necessarily raises current aggregate demand.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 8,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how lower interest rates can affect investment and aggregate demand.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether cheap borrowing alone is sufficient to raise investment.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 9,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why business confidence can cause investment to change even if interest rates do not.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether optimism always translates into higher real output.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 10,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how improved technology can influence investment spending and aggregate demand.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a technology boom has only demand-side effects.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 11,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how changes in business taxes can influence planned investment.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a cut in business taxes necessarily shifts AD substantially.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 12,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why corporate indebtedness may dampen the response of investment to lower interest rates.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether heavily indebted firms must always reduce capital spending.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 13,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how a rise in government purchases shifts aggregate demand.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether public spending always raises real output rather than prices.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 14,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how political priorities can alter the government-spending component of AD.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a change in spending composition leaves total demand unchanged.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 15,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how higher trading-partner income can affect net exports and aggregate demand.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether foreign growth always raises domestic output.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 16,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how a depreciation may affect net exports and aggregate demand.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a weaker currency necessarily improves domestic economic activity.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 17,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how a change in trade policy can shift aggregate demand through net exports.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether restricting imports necessarily increases real GDP.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 18,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why an increase in imports does not always mean aggregate demand has fallen.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a widening trade deficit necessarily indicates weak domestic demand.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 19,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using an AD/AS diagram, explain how rising wages can shift short-run aggregate supply.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether higher nominal wages necessarily raise the price level.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 20,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using an AD/AS diagram, explain how a rise in energy costs can affect the price level and real output.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether an energy shock always produces stagflation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 21,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how lower indirect taxes can affect short-run aggregate supply.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether an indirect-tax reduction always lowers consumer prices.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 22,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a rise in imported input costs can reduce short-run aggregate supply.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether exchange-rate depreciation must reduce output.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 23,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how higher labour productivity can offset a rise in nominal wages in determining SRAS.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether wage growth must create cost-push inflation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 24,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using an AD/AS diagram, explain the difference between a shift of SRAS and a movement along SRAS.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether observed inflation is sufficient to identify a supply shock.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 25,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using an AD/AS diagram, explain how growth in the labour force can shift LRAS.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a larger labour force necessarily raises potential output per person.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 26,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how improvements in human capital can raise the economy's potential output.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether education investment always causes rapid growth.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 27,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how technological progress can shift LRAS to the right.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether innovation always translates into higher actual output.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 28,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how increased capital quantity can affect long-run aggregate supply.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether more physical investment necessarily raises growth sustainably.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 29,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how institutional change may alter long-term aggregate supply.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether stronger institutions are sufficient for sustained growth.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 30,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using an AD/AS diagram, explain how greater efficiency can raise potential output.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether lower production costs always reflect lasting improvements in capacity.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 31,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using an AD/AS diagram, explain how an increase in AD affects short-run equilibrium.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether stronger demand always raises real output.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 32,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using an AD/AS diagram, explain a recessionary gap in the monetarist/new classical model.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a recessionary gap will close without government action.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 33,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using an AD/AS diagram, explain an inflationary gap in the monetarist/new classical model.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether output above potential can persist indefinitely.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 34,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why the natural rate of unemployment is compatible with full-employment output.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether full employment implies zero unemployment.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 35,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using an AD/AS diagram, explain how falling wages could close a recessionary gap in a monetarist/new classical model.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether wage adjustment is likely to be quick enough to avoid prolonged unemployment.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 36,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using a Keynesian AS diagram, explain why a rise in AD can increase output with little inflation in deep recession.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether extra demand is always non-inflationary when unemployment is high.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 37,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using a Keynesian AS diagram, explain why AD growth near capacity mainly raises prices.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether demand expansion is an effective way to increase output at full employment.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 38,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a Keynesian recessionary-gap equilibrium can persist.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether lower wages alone will reliably restore full employment.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 39,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using AD/AS diagrams, explain one difference between Keynesian and monetarist/new classical accounts of recovery.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether the speed of wage adjustment can determine which view fits a recession.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 40,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why the slope of Keynesian aggregate supply changes as output approaches capacity.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether an economy has a single predictable price response to an AD increase.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 41,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using appropriate diagrams, explain how a positive AD shock differs in the Keynesian and monetarist/new classical models.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether either model predicts the same output and inflation effects in every economy.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 42,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how a negative supply shock affects macroeconomic equilibrium in the short run.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether demand stimulus can fully offset a negative supply shock without further inflation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 43,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using AD/AS diagrams, explain how an increase in productive capacity affects the price level and real output.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether supply growth automatically leads to higher actual output.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 44,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why short-run and long-run equilibrium can differ in the monetarist/new classical model.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a temporary rise in AD can permanently lift real output.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 45,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using appropriate diagrams, explain how an AD decrease can create a recessionary gap in both schools of thought.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether the duration of the gap can be predicted from AD alone.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 46,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain why a simultaneous shift in AD and SRAS can make the change in real output uncertain.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a rise in the price level identifies the dominant shock.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 47,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why a rightward shift in both AD and LRAS can increase output without necessarily raising prices.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether capacity expansion always prevents inflation during growth.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 48,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using AD/AS diagrams, explain why the same AD increase can have different results in two economies.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether identical demand policies should be expected to produce identical growth.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 49,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how a leftward SRAS shift and a rightward LRAS shift can occur at different times.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a temporary cost shock necessarily harms long-run productive potential.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 50,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using AD/AS diagrams, explain how a recessionary gap differs from an inflationary gap.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether measured output alone is enough to identify an output gap.",
+        "marks": 15
+      }
+    }
+  ]
+}

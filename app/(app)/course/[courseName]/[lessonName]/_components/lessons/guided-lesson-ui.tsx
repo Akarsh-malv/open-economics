@@ -14,10 +14,6 @@ export function GuidedLessonShell({
 }) {
   return (
     <div className="relative isolate flex min-h-[calc(100dvh-7rem)] w-full items-center justify-center overflow-visible px-4 py-8 text-neutral-100 sm:px-6 lg:px-8">
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute inset-x-[-18rem] inset-y-[-7rem] -z-10 bg-[radial-gradient(ellipse_at_center,rgba(10,10,10,0.78)_0%,rgba(10,10,10,0.48)_44%,rgba(10,10,10,0.18)_64%,rgba(10,10,10,0)_82%)]"
-      />
       <div className={cn("mx-auto w-full", wide ? "max-w-6xl" : "max-w-3xl")}>
         {children}
       </div>
@@ -39,14 +35,14 @@ export function LessonProgressHeader({
   return (
     <header className="mb-6">
       <div className="mb-3 flex items-center justify-between gap-4 text-sm">
-        <span className="font-medium text-neutral-100">
+        <span className="font-medium text-oe-text">
           Step {current} of {total}
         </span>
-        <span className="min-w-0 truncate text-neutral-500">{label}</span>
+        <span className="min-w-0 truncate text-oe-text-muted">{label}</span>
       </div>
-      <div className="h-1.5 overflow-hidden rounded-full bg-neutral-800">
+      <div className="h-1.5 overflow-hidden rounded-full bg-slate-200">
         <div
-          className="h-full rounded-full bg-slate-300 transition-[width] duration-300 ease-out"
+          className="h-full rounded-full bg-[#0b1f3a] transition-[width] duration-300 ease-out"
           style={{ width: `${progress}%` }}
         />
       </div>
@@ -64,7 +60,7 @@ export function LearningCard({
   return (
     <section
       className={cn(
-        "overflow-hidden rounded-3xl border border-white/5 bg-neutral-900/70 shadow-2xl shadow-neutral-950/30",
+        "overflow-hidden rounded-3xl border border-[#0b1f3a]/10 bg-[#0b1f3a] shadow-xl shadow-slate-900/10",
         "px-6 py-7 sm:px-10 sm:py-10",
         wide && "lg:px-10 lg:py-10",
       )}
@@ -108,7 +104,7 @@ export function StepIntro({
 }) {
   return (
     <div className="min-w-0">
-      <p className="mb-4 text-xs font-bold uppercase tracking-[0.18em] text-neutral-500">
+      <p className="mb-4 text-xs font-bold uppercase tracking-[0.18em] text-slate-300">
         {eyebrow}
       </p>
       <h1 className="text-balance break-words text-3xl font-extrabold tracking-tight text-neutral-50 sm:text-4xl sm:leading-[1.08]">

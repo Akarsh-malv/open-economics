@@ -3,7 +3,7 @@
 import type { User } from "better-auth";
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
-import { Navbar } from "@/components/navbar";
+import { SiteShell } from "@/components/redesign/site-shell";
 import { useCourseStore } from "@/stores/course-store";
 import type { Course, Lesson } from "@/types/payload-types";
 
@@ -28,9 +28,8 @@ export function CourseLayoutWrapper({
   }, [initialize, course, lessons]);
 
   return (
-    <div className="flex min-h-screen flex-col overflow-x-hidden bg-oe-background text-oe-text">
-      {!isLessonRoute && <Navbar user={user} />}
-      <main className="flex-1 w-full min-w-0">{children}</main>
+    <div className="oe-course-view flex min-h-screen flex-col overflow-x-hidden bg-oe-background text-oe-text">
+      {isLessonRoute ? <main className="flex-1 w-full min-w-0">{children}</main> : <SiteShell>{children}</SiteShell>}
     </div>
   );
 }

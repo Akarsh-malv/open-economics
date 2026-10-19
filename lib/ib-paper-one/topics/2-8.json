@@ -1,0 +1,657 @@
+{
+  "number": "2.8",
+  "title": "Market Failure: Externalities and Common-Pool Resources",
+  "count": 50,
+  "questions": [
+    {
+      "id": 1,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain why MSB=MSC identifies an allocatively efficient quantity.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether market equilibrium always coincides with the social optimum.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 2,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using an appropriate diagram, explain why output below the social optimum leaves possible gains unrealised.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether higher output always increases social welfare.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 3,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using an appropriate diagram, explain why output above the social optimum reduces community surplus.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether maximum physical output should be a policy aim.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 4,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain the difference between a marginal private and a marginal social cost.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether producers normally observe all costs their output imposes.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 5,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain the difference between a marginal private and marginal social benefit.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether private willingness to pay fully measures social benefit.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 6,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using an appropriate diagram, explain overproduction arising from a negative externality of production.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether polluting firms have an incentive to reduce output without intervention.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 7,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why air pollution from a factory is a production externality.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a pollution tax can fully internalise the external cost.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 8,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using an appropriate diagram, explain the welfare loss from a negative production externality.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether measuring environmental damage is necessary for an optimal tax.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 9,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why a firm's private production cost may be lower than the social cost.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether voluntary reductions in pollution are sufficient to correct market failure.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 10,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using an appropriate diagram, explain how an indirect tax could reduce output toward the social optimum in a polluting industry.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate the effectiveness of a carbon tax.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 11,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using an appropriate diagram, explain market failure from a negative externality of consumption.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether discouraging consumption is enough to remove third-party harms.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 12,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how second-hand smoke can create a negative externality of consumption.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether regulation is preferable to taxation in this context.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 13,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using an appropriate diagram, explain why private willingness to pay can exceed social benefit for a demerit good.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether all consumers undervalue health risks of demerit goods.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 14,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a tax on a demerit good may affect both consumers and producers.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether indirect taxes are an equitable response to demerit goods.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 15,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using an appropriate diagram, explain why a lower market price does not necessarily indicate efficient consumption of a harmful good.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether price information alone captures social costs.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 16,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using an appropriate diagram, explain underproduction caused by a positive production externality.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether firms can capture enough benefits from research to supply the social optimum.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 17,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how a producer's training may benefit other firms.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether subsidies for training always increase social welfare.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 18,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using an appropriate diagram, explain how a subsidy could increase output toward the social optimum when production has external benefits.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate the difficulty of setting an appropriate subsidy.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 19,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why a firm's investment can generate benefits not reflected in its revenue.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether all spillovers require government support.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 20,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using an appropriate diagram, explain the welfare loss from underproduction with a positive production externality.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether public provision is preferable to producer subsidies.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 21,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using an appropriate diagram, explain underconsumption arising from a positive externality of consumption.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether education is likely to be underconsumed without intervention.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 22,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how vaccination can create a benefit for people who do not receive it.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether public information alone can increase vaccination to the social optimum.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 23,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using an appropriate diagram, explain why the market may supply too little of a merit good.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether every merit good necessarily has a positive consumption externality.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 24,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using an appropriate diagram, explain how a subsidy to consumers could reduce underconsumption of a good with external benefits.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether lowering price is sufficient to raise uptake.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 25,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why direct government provision may address underconsumption of a service with positive external benefits.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether provision guarantees the socially optimal level of use.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 26,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain why a common-pool resource is rivalrous but difficult to exclude users from.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether access restrictions always improve sustainability.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 27,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how individual incentives can lead to overuse of a common-pool resource.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether the tragedy of the commons is inevitable.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 28,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how unsustainable fishing can produce negative externalities.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether limiting total catches is enough to protect fish stocks.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 29,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how collective self-governance can help manage a common resource.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether local user agreements can replace government regulation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 30,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why forest use may require cooperation among users even when no single user can exclude others.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether all common resources face identical management problems.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 31,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using an appropriate diagram, explain how a Pigouvian tax can address a negative production externality.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a carbon tax can achieve the socially efficient output.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 32,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how tradable permits can limit pollution from firms.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether permit markets are more effective than a carbon tax.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 33,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how regulation can reduce a negative externality when emissions are difficult to price.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a uniform legal standard is suitable for all firms.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 34,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how education campaigns can change decisions that generate an externality.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether awareness alone corrects market failure.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 35,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using an appropriate diagram, explain how subsidies can correct a positive consumption externality.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether subsidising vaccination is enough to reach the social optimum.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 36,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using an appropriate diagram, explain how a subsidy can respond to a positive production externality.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether subsidising research benefits all firms equally.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 37,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how direct government provision differs from a subsidy in addressing underconsumption.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate which approach better improves access to a merit service.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 38,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why monitoring matters for a policy limiting use of a common-pool resource.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether rules without enforcement can prevent overuse.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 39,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why measured external benefits can differ among consumers of the same service.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a uniform subsidy achieves the social optimum in every locality.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 40,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a policy correcting one externality might impose costs on other stakeholders.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether welfare improvement requires that every group benefits.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 41,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain why a global environmental externality may require international cooperation.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether action by one country is sufficient to address climate change.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 42,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why monitoring is important in an international environmental agreement.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether voluntary commitments can overcome free-riding.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 43,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how the incentive to free-ride can complicate international protection of common resources.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether cooperation is possible without a supranational authority.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 44,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why countries may disagree over how to share the costs of reducing pollution.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether equal reductions by all countries are an equitable solution.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 45,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how a carbon tax and an international agreement can complement each other.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether national carbon pricing is sufficient for global sustainability.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 46,
+      "level": "HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "On an externality diagram, marginal social cost exceeds marginal social benefit by $6 at the market quantity, and the gap narrows linearly to zero at the socially optimal quantity 10 units lower. Calculate welfare loss and explain its area.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether the measured welfare loss captures all environmental harm.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 47,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "A positive-consumption externality creates a linear marginal-benefit gap of $8 at market quantity that closes at the social optimum 5 units higher. Calculate the welfare loss.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a subsidy equal to an estimated external benefit guarantees efficiency.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 48,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "For a negative-consumption externality, excess output is 12 units and the linear excess of MSC over MSB at market output is $4. Calculate the welfare loss.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether restricting consumption to the estimated optimum is straightforward.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 49,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "A positive-production externality has an 8-unit gap between market and social output and a linear marginal net gain of $5 at market output. Calculate welfare loss.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether research subsidies can remove the entire loss.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 50,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "An externality diagram shows market output 40 and efficient output 30, with the marginal social cost exceeding marginal social benefit by $7 at output 40 and a linear gap. Calculate welfare loss and explain why it is not simply 10 times $7.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether accurate welfare-loss estimates are essential before taking action.",
+        "marks": 15
+      }
+    }
+  ]
+}

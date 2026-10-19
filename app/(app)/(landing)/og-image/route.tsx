@@ -1,3 +1,4 @@
+import path from "node:path";
 import { ImageResponse } from "next/og";
 import {
   APP_NAME,
@@ -12,7 +13,7 @@ export const revalidate = 2592000; // 30 days
 
 export async function GET() {
   const logoDataUrl = await fileToDataUrl(
-    new URL("../../../../public/brand-wordmark.png", import.meta.url),
+    path.join(process.cwd(), "public", "brand-wordmark.png"),
     "image/png",
   );
 

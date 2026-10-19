@@ -76,8 +76,8 @@ export function LessonTitle({ lesson }: LessonTitleProps) {
         <MetaBadge
           className={cn(
             lesson.free
-              ? "border-blue-400/25 bg-blue-500/10 text-blue-200"
-              : "border-slate-300/25 bg-slate-300/10 text-slate-200",
+              ? "border-blue-400/25 bg-blue-500/10 text-blue-800"
+              : "border-slate-300/25 bg-slate-300/10 text-slate-700",
           )}
         >
           {lesson.free ? <CheckCircle size={16} /> : <Gem size={16} />}
@@ -86,10 +86,10 @@ export function LessonTitle({ lesson }: LessonTitleProps) {
       </div>
 
       <div className="mt-7 rounded-2xl border border-blue-400/15 bg-blue-500/[0.07] px-5 py-4 sm:px-6 sm:py-5 shadow-sm">
-        <p className="text-sm font-semibold uppercase tracking-[0.16em] text-blue-300/85">
+        <p className="text-sm font-semibold uppercase tracking-[0.16em] text-blue-800">
           Lesson overview
         </p>
-        <p className="mt-2 max-w-3xl text-base sm:text-lg leading-8 text-slate-200/85">
+        <p className="mt-2 max-w-3xl text-base sm:text-lg leading-8 text-slate-700/85">
           {getLessonIntro(lesson)}
         </p>
       </div>
@@ -107,7 +107,7 @@ function MetaBadge({
   return (
     <div
       className={cn(
-        "inline-flex h-9 items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-3.5 text-sm font-medium text-slate-300 shadow-sm",
+        "inline-flex h-9 items-center gap-2 rounded-full border border-slate-200 bg-white px-3.5 text-sm font-medium text-slate-600 shadow-sm",
         className,
       )}
     >

@@ -1,3 +1,4 @@
+import {LessonCompletion} from "@/components/redesign/lesson-completion";
 import type { Metadata } from "next";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
@@ -97,6 +98,7 @@ export default async function LessonPage({
           )}
         </LessonLayout>
       </div>
+      <LessonCompletion course={courseName} lesson={lessonName} />
       <Footer />
     </div>
   );

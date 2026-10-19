@@ -1,0 +1,657 @@
+{
+  "number": "4.6",
+  "title": "Balance of Payments",
+  "count": 50,
+  "questions": [
+    {
+      "id": 1,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain what the balance of payments records over an accounting period.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a balance-of-payments deficit means the whole account fails to balance.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 2,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how a credit item differs from a debit item in the balance of payments.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether every credit is necessarily good for the economy.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 3,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why exports of goods enter the current account as credits.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a goods surplus guarantees a current-account surplus.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 4,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why imports of services enter the current account as debits.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether importing services necessarily weakens living standards.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 5,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain the difference between the balance of trade in goods and the balance of trade in services.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a services surplus can offset a goods deficit.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 6,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how investment-income payments to foreign owners affect the current account.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether foreign-owned production is harmful because profits may be remitted.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 7,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how current transfers differ from earnings on cross-border investments.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether remittances must improve a country's current-account balance.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 8,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how a capital transfer differs from a current transfer.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether all external aid belongs in the same balance-of-payments category.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 9,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain what the financial account records in the balance of payments.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether capital inflows always increase productive investment.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 10,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why foreign direct investment differs from portfolio investment.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether FDI is necessarily more beneficial than portfolio inflows.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 11,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how an inward FDI transaction can finance a current-account deficit.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a deficit financed by FDI is always sustainable.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 12,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a rise in foreign reserve assets is recorded in the financial account.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether accumulating reserves always improves economic security.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 13,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how official external borrowing may appear in the financial account.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether borrowing abroad must indicate economic weakness.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 14,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a capital-account receipt is distinct from an ordinary export receipt.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether both receipts improve development equally.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 15,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a country can run a current-account deficit and still have a balanced overall balance of payments.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a current-account deficit is inherently a crisis.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 16,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain why the current account includes both goods and services trade.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether merchandise trade alone reveals an economy's external position.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 17,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how a deterioration in export earnings can widen a current-account deficit.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether falling export receipts always imply weaker competitiveness.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 18,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a fall in imports can improve the current account while reflecting a recession.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a narrowing deficit always signals economic strength.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 19,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how higher income payments to overseas investors can affect the current account.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether foreign-investment success can coexist with a current-account deficit.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 20,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why the current-account balance may change even when the goods trade balance is unchanged.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether remittance inflows always dominate other account changes.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 21,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how an increase in outward tourism spending affects the service balance.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether outbound tourism is harmful to an economy.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 22,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how a rise in inward tourism may affect both the current account and employment.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether tourism receipts are a stable source of foreign earnings.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 23,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why a commodity price decline can worsen the trade balance of an export-dependent country.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a lower export price necessarily reduces export volume.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 24,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a current-account surplus may reflect high saving rather than high export competitiveness.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a surplus is always desirable.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 25,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why the same deficit-to-GDP ratio can have different implications for two countries.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether external deficits should be judged only by their size.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 26,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how a foreign purchase of domestic bonds differs from foreign purchase of a domestic factory.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether bond inflows are less stable than direct investment.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 27,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how residents' purchase of foreign assets appears as a financial outflow.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether outward investment necessarily reduces domestic growth.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 28,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a current-account deficit may be financed by more than one type of capital inflow.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether reliance on short-term portfolio finance is risky.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 29,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how foreign investors selling domestic assets can affect financial-account flows.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a reversal of capital inflows always produces an external crisis.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 30,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a country's reserve holdings can change during exchange-rate intervention.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether reserve losses can continue indefinitely.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 31,
+      "level": "HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using a currency-market diagram, explain how a larger current-account deficit can put depreciation pressure on a floating currency.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a deficit always causes currency depreciation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 32,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how depreciation could influence a country's trade balance over time.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether exchange-rate adjustment automatically eliminates a deficit.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 33,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how a financial-account inflow can appreciate a currency despite a current-account deficit.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether financial inflows can sustainably support a currency.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 34,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using a currency-market diagram, explain how sudden foreign portfolio outflows can affect the exchange rate.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a flexible exchange rate prevents all financial crises.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 35,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how a persistent current-account deficit may increase foreign ownership of domestic assets.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether this is necessarily a disadvantage.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 36,
+      "level": "HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how debt-financed external deficits can increase future income payments abroad.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether external borrowing can remain sustainable.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 37,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why a persistent current-account deficit may affect a country's credit rating.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether rating changes necessarily force immediate spending cuts.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 38,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how an external deficit can affect domestic interest rates when foreign financing becomes scarce.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether higher rates must restore external balance.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 39,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why demand-reducing policy might narrow a current-account deficit.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether import compression is a desirable remedy.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 40,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how a current-account deficit can be associated with high investment.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether investment-financed deficits are preferable to consumption-financed deficits.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 41,
+      "level": "HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how expenditure-switching policies aim to change the composition of spending toward domestic goods.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether depreciation is sufficient to correct an external deficit.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 42,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how expenditure-reducing policies aim to reduce import demand.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether austerity is a suitable response to a persistent deficit.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 43,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how supply-side policies can improve external competitiveness.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether productivity reforms can correct a current-account deficit quickly.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 44,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why tariff protection may reduce selected imports without improving the whole current account.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether import controls are a durable external adjustment strategy.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 45,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using a J-curve diagram, explain why depreciation may initially worsen the current account.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether the J-curve must occur after every depreciation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 46,
+      "level": "HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain the Marshall-Lerner condition for depreciation to improve the trade balance after adjustment.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether this condition is sufficient to forecast the immediate balance.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 47,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using a J-curve diagram, explain how the current-account balance may recover after an initial deterioration.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether longer-run adjustment is guaranteed.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 48,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how a persistent current-account surplus can affect a country's exchange rate.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether surplus countries should welcome appreciation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 49,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why a current-account surplus can coexist with weak domestic consumption.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a surplus necessarily raises living standards.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 50,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how sustained surpluses may affect inflation and employment in export industries.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether surplus reduction is always desirable.",
+        "marks": 15
+      }
+    }
+  ]
+}

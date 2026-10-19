@@ -1,0 +1,657 @@
+{
+  "number": "3.1",
+  "title": "Measuring Economic Activity and Its Variations",
+  "count": 50,
+  "questions": [
+    {
+      "id": 1,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using a circular-flow diagram, explain the exchange of factors and goods between households and firms.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a simple two-sector circular flow can describe economic activity accurately.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 2,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using a circular-flow diagram, explain why saving is a leakage from the income flow.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether higher household saving must reduce national income.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 3,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using a circular-flow diagram, explain how government spending enters the circular flow.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether an increase in government spending necessarily increases national income.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 4,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how taxation and government expenditure affect the circular flow of income.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a balanced change in taxes and spending leaves economic activity unchanged.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 5,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why imports are a leakage and exports an injection in an open economy.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether higher exports always raise domestic national income.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 6,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using a circular-flow diagram, explain how investment can offset household saving.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether planned investment always equals planned saving.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 7,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how the financial sector connects saving and investment in the circular flow.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether all household saving becomes domestic investment.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 8,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using a circular-flow diagram, explain the roles of households, firms, government and the foreign sector.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether changes in one sector's spending can be isolated from the rest of the economy.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 9,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why total leakages and total injections are equal in a stable circular flow.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether an increase in leakages inevitably contracts output.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 10,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how a rise in imports can affect domestic expenditure and national income.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether an import surge always indicates weak domestic economic activity.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 11,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain why the income, expenditure and output approaches should measure the same GDP.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss why published estimates from the three approaches may differ.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 12,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why intermediate goods are excluded when calculating GDP by the output approach.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a rise in intermediate sales alone shows higher final production.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 13,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how the expenditure approach counts final goods and services produced domestically.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether consumer spending alone is a reliable measure of GDP.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 14,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why the expenditure approach deducts imports from total spending.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether an increase in imports necessarily lowers measured GDP.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 15,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how an increase in firms' inventories can enter measured GDP.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether higher inventories always signal a stronger economy.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 16,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain why transfer payments are excluded from government purchases in GDP.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether higher transfer payments can nevertheless affect output.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 17,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how the value-added approach avoids counting a manufactured good several times.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether gross sales are suitable for measuring national output.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 18,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how spending on a newly built home differs from a purchase of an existing home in national accounts.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether housing transactions always increase current GDP.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 19,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain the distinction between gross domestic product and gross national income.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether GDP or GNI better reflects residents' command over income.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 20,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why profits earned domestically by foreign-owned firms can create a difference between GDP and GNI.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a high GDP necessarily implies high resident income.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 21,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how income earned abroad by resident workers can affect GNI relative to GDP.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether GNI always exceeds GDP in economies with many citizens working overseas.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 22,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Given C=400, I=120, G=150, X=90 and M=110 (billions), calculate nominal GDP and explain the role of net exports.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether rising nominal GDP proves that production volume has risen.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 23,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Given GDP of 900 billion and net primary income from abroad of -45 billion, calculate GNI and explain the difference.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether GDP is the best output measure for a country with substantial foreign-owned production.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 24,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why services supplied by a government can count in GDP despite lacking a market selling price.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether national accounts capture the full value of public services.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 25,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why unpaid household work is usually absent from measured GDP.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether GDP comparisons are affected by differences in unpaid work.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 26,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain why an increase in nominal GDP may differ from an increase in real GDP.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether nominal GDP growth is a useful indicator of improved economic well-being.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 27,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Given nominal GDP of 1,260 billion and a GDP deflator of 105 (base 100), calculate real GDP and explain why it differs from nominal GDP.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether the GDP deflator is sufficient to compare living standards over time.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 28,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Given nominal GNI of 800 billion and a price deflator of 125 (base 100), calculate real GNI and explain why price changes must be removed.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether higher real GNI necessarily improves all residents' living standards.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 29,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why using the same price base matters when comparing real GDP in two years.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether an apparent jump in GDP across a statistical rebasing represents new output.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 30,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a rise in the GDP deflator can occur while real output falls.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a growing nominal economy must be expanding in real terms.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 31,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how real GDP per capita differs from aggregate real GDP.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a larger economy necessarily has a higher average standard of living.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 32,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Given real GDP of 2.4 trillion and a population of 60 million, calculate real GDP per capita and explain its interpretation as an average.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether growth in real GDP per capita ensures a reduction in poverty.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 33,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how purchasing power parity improves comparisons of real income per person across countries.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether PPP-adjusted GDP per capita ranks countries' well-being accurately.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 34,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why market exchange rates can distort comparisons of income across countries.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether PPP adjustment eliminates every difficulty in comparing living standards.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 35,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why real GNI per capita at PPP can differ from real GDP per capita at PPP.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss which measure is more suitable for comparing residents' average material income.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 36,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using a business-cycle diagram, explain the difference between short-term fluctuations and potential-output growth.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether short-term recovery always indicates higher long-term productive capacity.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 37,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using a business-cycle diagram, explain how a peak differs from a trough.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a business-cycle peak always means the economy is at full employment.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 38,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how a contraction can reduce real output without reversing long-term growth in potential output.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a recession must permanently reduce productive capacity.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 39,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using a business-cycle diagram, explain the meaning of a recovery following a trough.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether growth during recovery necessarily returns output to its earlier trend.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 40,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a sustained expansion may eventually create pressure on productive capacity.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether every prolonged expansion must be followed by a recession.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 41,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain the difference between an output gap and a fall in actual output on a business-cycle diagram.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a positive annual growth rate rules out a recessionary gap.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 42,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain two reasons why GDP per capita may overstate economic well-being.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether higher GDP per capita is sufficient evidence of improved welfare.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 43,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why changes in income distribution affect the usefulness of GDP per capita as a welfare measure.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether an increase in average income benefits most households.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 44,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why environmental damage may accompany growth in measured GDP.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether GDP growth can still improve economic well-being when pollution rises.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 45,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how changes in leisure and unpaid work can complicate GDP-based welfare comparisons.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether longer working hours necessarily increase well-being when output rises.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 46,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain why GDP comparisons over time should use real rather than nominal values.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether real GDP growth by itself demonstrates an improvement in quality of life.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 47,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why GDP or GNI per capita may be preferable to aggregate national income when comparing countries.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether per-person income is a complete measure of economic well-being.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 48,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why the OECD Better Life Index uses several indicators rather than GDP alone.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a multidimensional index is necessarily superior to GDP per capita.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 49,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how a happiness measure can add information to national-income statistics.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether reported happiness should replace GDP in assessing well-being.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 50,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain what the Happy Planet Index adds to a comparison of economic well-being.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a high output economy is necessarily environmentally sustainable.",
+        "marks": 15
+      }
+    }
+  ]
+}

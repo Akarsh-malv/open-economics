@@ -1,0 +1,67 @@
+/* Keep the production lab independent of prototype utility names and viewport
+   breakpoints: its available width excludes the OEP Learn navigation. */
+.container {
+  container: graphLibrary / inline-size;
+  min-width: 0;
+  width: 100%;
+}
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+  gap: 24px;
+  min-width: 0;
+}
+.picker {
+  display: block;
+  min-width: 0;
+}
+.picker select {
+  max-width: 100%;
+}
+.library {
+  display: none;
+  min-width: 0;
+}
+.workspace {
+  container: graphWorkspace / inline-size;
+  min-width: 0;
+}
+.workArea {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+  gap: 24px;
+  min-width: 0;
+}
+.diagram,
+.controls {
+  min-width: 0;
+}
+.scenes {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+  min-width: 0;
+}
+@container graphLibrary (min-width: 960px) {
+  .layout {
+    grid-template-columns: 240px minmax(0, 1fr);
+  }
+  .picker {
+    display: none;
+  }
+  .library {
+    display: block;
+  }
+}
+@container graphWorkspace (min-width: 850px) {
+  .workArea {
+    grid-template-columns: minmax(0, 1fr) 290px;
+  }
+}
+@container graphWorkspace (min-width: 1250px) {
+  .paired {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

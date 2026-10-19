@@ -1,0 +1,657 @@
+{
+  "number": "3.5",
+  "title": "Demand Management: Monetary Policy",
+  "count": 50,
+  "questions": [
+    {
+      "id": 1,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how a central bank can use monetary policy to pursue low and stable inflation.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether interest-rate changes alone can stabilise inflation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 2,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why inflation targeting may influence household and business expectations.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether announcing an inflation target guarantees price stability.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 3,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how monetary policy can reduce fluctuations in the business cycle.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether central banks can fine-tune economic activity.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 4,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how monetary policy can affect unemployment through aggregate demand.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether lower interest rates always reduce unemployment.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 5,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why monetary stability may encourage long-term investment.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether low inflation is sufficient to secure long-term growth.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 6,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how a monetary-policy decision can affect the external balance of an economy.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether higher interest rates necessarily improve the current account.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 7,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why low inflation and low unemployment can be difficult to achieve simultaneously during a demand boom.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a central bank should always prioritise inflation over employment.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 8,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using an AD/AS diagram, explain how an interest-rate cut can help close a recessionary gap.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether easing policy is effective when confidence is weak.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 9,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using an AD/AS diagram, explain how higher interest rates may reduce an inflationary gap.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether rate rises can reduce inflation without increasing unemployment.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 10,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how a fall in interest rates can alter saving and consumption choices.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether households always spend more after a rate cut.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 11,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how mortgage interest costs can affect household spending after a policy-rate rise.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether all households face the same monetary-policy burden.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 12,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how a rise in interest rates can affect firms' planned investment.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether high interest rates necessarily stop investment.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 13,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how higher interest rates may influence the exchange rate and net exports.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a policy-rate increase always reduces aggregate demand through trade.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 14,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why monetary-policy effects on consumption may take time to emerge.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether policy changes have short effects on every part of aggregate demand.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 15,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how a rate cut can shift aggregate demand without immediately increasing potential output.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether monetary easing can permanently raise real GDP.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 16,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using an AD/AS diagram, explain why an expansionary policy may raise prices more than output near full employment.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether easing is appropriate when the economy has little spare capacity.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 17,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why a policy rate close to zero limits further conventional monetary easing.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether central banks become powerless near zero interest rates.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 18,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why low consumer confidence can weaken the effect of an interest-rate cut.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether cheap credit can revive spending in a deep recession.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 19,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why weak business confidence can limit investment after monetary easing.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether reduced borrowing costs guarantee new projects.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 20,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a contractionary monetary policy may have a stronger effect on borrowers than savers.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether tightening is distributed evenly across households.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 21,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain why a supply-driven price rise is difficult to correct through interest rates alone.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether tightening is the best response to a temporary energy-cost shock.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 22,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why high household indebtedness can change the effects of a rate rise.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether the same policy-rate rise should have identical effects across countries.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 23,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why banks might not fully pass a central-bank rate cut on to borrowers.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether changes in policy rates always alter credit conditions proportionately.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 24,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why interest-rate decisions made today can affect inflation only after a delay.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether delayed effects make monetary policy ineffective.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 25,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a fall in inflation following tight monetary policy may coincide with slower growth.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a lower inflation rate always signals an improved economy.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 26,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain why monetary policy can be adjusted incrementally as economic data change.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether policy flexibility guarantees good decisions.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 27,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why a central bank can often reverse an interest-rate decision more quickly than fiscal legislation.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether faster adjustment makes monetary policy preferable in every recession.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 28,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how interest-rate policy can influence many sectors simultaneously.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether broad transmission is an advantage in a sector-specific downturn.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 29,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why monetary tightening may reduce demand-pull inflation.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether high interest rates are always needed to preserve price stability.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 30,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how an independent central bank may support credible inflation targeting.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether central-bank independence alone ensures successful monetary policy.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 31,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using an AD/AS diagram, explain how policy-rate cuts affect output in an economy with substantial spare capacity.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether rate cuts are likely to be more effective in a mild slowdown than a deep recession.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 32,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how a central bank might react differently to demand-pull and cost-push inflation.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether one inflation reading reveals the appropriate policy response.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 33,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how real interest rates differ from nominal interest rates.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a positive nominal interest rate always discourages borrowing.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 34,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Given a nominal interest rate of 7% and inflation of 4%, calculate the approximate real interest rate and explain how it affects the purchasing-power cost of borrowing.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a 3% real rate necessarily reduces investment.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 35,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why unexpected inflation can change the real cost of borrowing after a loan is agreed.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether inflation helps every borrower.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 36,
+      "level": "HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how commercial banks can create deposits when they make loans.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether deposit creation means banks can lend without constraints.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 37,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why reserve requirements may affect the capacity of banks to extend credit.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether changing reserve requirements always changes lending substantially.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 38,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how a central bank purchase of securities in an open-market operation can increase bank reserves.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether open-market purchases always increase aggregate demand.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 39,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how a rise in the central bank's minimum lending rate can transmit to market interest rates.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether policy-rate rises always curb inflation quickly.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 40,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how quantitative easing differs from a conventional short-term policy-rate cut.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether asset purchases are effective when rates are near zero.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 41,
+      "level": "HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how open-market sales can reduce bank reserves.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether reserve withdrawal is always an effective way to slow credit growth.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 42,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why the effect of quantitative easing on investment depends on longer-term borrowing costs.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether QE necessarily raises real output.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 43,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using a money-market diagram, explain how an increase in the supply of money can lower the equilibrium interest rate.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a larger money supply guarantees lower borrowing rates for all customers.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 44,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using a money-market diagram, explain how stronger demand for money can change the equilibrium interest rate.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether central banks can hold rates fixed without adjusting the money supply.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 45,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using a money-market diagram, explain the effect of a contraction in the money supply.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a higher money-market rate must cause a recession.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 46,
+      "level": "HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain why a money-market equilibrium interest rate can change even if the supply of money is unchanged.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether interest rates are determined by central banks alone.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 47,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using AD/AS and money-market diagrams, explain how monetary expansion may close a recessionary gap.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether money creation always leads to inflation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 48,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how quantitative easing can affect aggregate demand through asset prices.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether gains in asset values are broadly shared.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 49,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how a change in minimum reserve requirements differs from a change in the central bank's lending rate.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss which monetary tool is more likely to affect credit in a banking downturn.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 50,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why commercial-bank money creation can amplify a change in borrowers' willingness to take loans.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether banking expansion necessarily improves economic stability.",
+        "marks": 15
+      }
+    }
+  ]
+}

@@ -1,13 +1,14 @@
 import "server-only";
 
 import { readFile } from "node:fs/promises";
+import { fileURLToPath } from "node:url";
 import type { Metadata } from "next";
 import { clientEnv } from "@/env/client";
 
 export const APP_NAME = "Open Economics";
 export const APP_SHORT_NAME = "Open Econ";
 export const SITE_DESCRIPTION =
-  "A front-end-only AP Microeconomics lesson UI template with mock course data.";
+  "OpenEconomics connects open economics education, community leadership and institutional access. Explore lessons, practice and interactive graphs with OEP Learn.";
 export const SITE_LOCALE = "en_US";
 export const SITE_CATEGORY = "education";
 export const SEO_IMAGE_WIDTH = 1200;
@@ -256,8 +257,8 @@ export function getCourseSocialImage(courseSlug: string, alt?: string | null) {
   } satisfies SeoImage;
 }
 
-export async function fileToDataUrl(fileUrl: URL, contentType: string) {
-  const buffer = await readFile(fileUrl);
+export async function fileToDataUrl(fileUrl: URL | string, contentType: string) {
+  const buffer = await readFile(typeof fileUrl === "string" ? fileUrl : fileURLToPath(fileUrl.href));
   return `data:${contentType};base64,${buffer.toString("base64")}`;
 }
 

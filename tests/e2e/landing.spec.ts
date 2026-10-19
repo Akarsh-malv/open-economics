@@ -1,28 +1,8 @@
-import { expect, test } from "@playwright/test";
-
-test.describe("Landing", () => {
-  test("hero demo link navigates to first lesson", async ({ page }) => {
-    await page.goto("/");
-
-    const demoBtn = page.getByRole("link", { name: /watch free demo/i });
-
-    await expect(demoBtn).toBeVisible();
-    const href = await demoBtn.getAttribute("href");
-
-    expect(href).not.toBe("#");
-
-    await demoBtn.click();
-    await page.waitForURL((url) => url.pathname !== "/", { timeout: 20000 });
-    await expect(page).not.toHaveURL("/");
-  });
-
-  test("explore courses button scrolls to courses section", async ({
-    page,
-  }) => {
-    await page.goto("/");
-
-    await page.getByRole("link", { name: /explore courses/i }).click();
-
-    await expect(page.locator("#courses")).toBeInViewport();
-  });
+import { expect, test } from '@playwright/test';
+async function ready(page: import('@playwright/test').Page) { await expect(page.locator('.oe-design[data-ready="true"]').first()).toBeVisible(); }
+test.describe('OpenEconomics and OEP Learn integration', () => {
+    test('separates initiative navigation from the learning workspace', async ({ page }) => { await page.goto('/'); await ready(page); await expect(page.getByRole('heading', { level: 1 })).toContainText('A world of knowledge'); await page.getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Learn', exact: false }).click(); await expect(page).toHaveURL(/\/learn$/); await expect(page.getByRole('navigation', { name: 'Learning navigation' })).toBeVisible(); await expect(page.getByRole('link', { name: 'Question bank', exact: true })).toHaveAttribute('href', '/practice'); });
+    test('filters fictional ambassadors and opens an accessible profile', async ({ page }) => { await page.goto('/people'); await ready(page); await page.getByLabel('Explore by country').selectOption('India'); await expect(page.locator('.ambassador-card')).toHaveCount(5); await page.locator('.ambassador-card button').first().click(); await expect(page.getByRole('dialog', { name: 'Ambassador profile' })).toBeVisible(); await page.getByRole('button', { name: 'Close profile' }).click(); await expect(page.locator('dialog[open]')).toHaveCount(0); });
+    test('switches audience programs and sample testimonials', async ({ page }) => { await page.goto('/work'); await ready(page); await page.getByRole('button', { name: 'For teachers' }).click(); await expect(page.locator('.program-feature').first()).toContainText('Teacher facilitation kit'); await page.goto('/involved'); await ready(page); await page.getByRole('button', { name: 'Next sample testimonial' }).click(); await expect(page.locator('.testimonial-copy')).toContainText('A good explanation makes room'); await expect(page.locator('.testimonial-copy')).toContainText('NOT A REAL ENDORSEMENT'); });
+    test('uses a straight policy contents rail with working anchors', async ({ page }) => { await page.goto('/terms'); await ready(page); const link = page.locator('.policy-toc-track a').nth(1); await link.click(); await expect(page).toHaveURL(/#policy-section-1$/); await expect(link).toHaveAttribute('aria-current', 'location'); });
 });

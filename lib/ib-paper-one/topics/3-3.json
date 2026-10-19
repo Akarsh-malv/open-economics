@@ -1,0 +1,657 @@
+{
+  "number": "3.3",
+  "title": "Macroeconomic Objectives",
+  "count": 50,
+  "questions": [
+    {
+      "id": 1,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using a PPC diagram, explain the difference between actual economic growth and growth in productive potential.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a rise in real GDP always reflects improved productive capacity.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 2,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using an AD/AS diagram, explain how stronger aggregate demand can raise real output in the short term.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether demand-led growth is likely to be sustainable.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 3,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using an AD/AS diagram, explain how an increase in LRAS can raise full-employment output.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether productive-capacity growth guarantees higher living standards.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 4,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how the annual economic growth rate is calculated using real GDP data.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a high GDP growth rate is sufficient evidence of development.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 5,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Given real GDP of 500 billion last year and 525 billion this year, calculate the growth rate and explain its meaning.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a 5% rise in real GDP necessarily improves welfare for all households.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 6,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how a growing labour force can increase GDP without raising GDP per capita.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether total real GDP is the best measure of growth in living standards.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 7,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how investment in productive capacity differs from a short-run rise in spending.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether investment growth always increases potential output.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 8,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how economic growth can affect government revenue and the provision of public services.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether growth must improve access to services.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 9,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain one way in which economic growth may damage environmental quality.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether growth and sustainability are necessarily in conflict.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 10,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how economic growth can change the distribution of income.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether rapid growth always reduces inequality.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 11,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how the unemployment rate is calculated from the labour force and unemployed people.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a falling unemployment rate always indicates a stronger labour market.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 12,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Given 2 million unemployed people and a labour force of 50 million, calculate the unemployment rate and explain who is excluded from this measure.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a 4% unemployment rate proves full employment.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 13,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why a person who stops looking for work may no longer count as unemployed.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether headline unemployment data understate labour-market hardship.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 14,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using an AD/AS diagram, explain how falling AD can cause cyclical unemployment.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a recession is the only cause of rising unemployment.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 15,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using a labour-market diagram, explain how a decline in demand for workers can cause unemployment in one industry.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether industry job losses imply higher national unemployment permanently.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 16,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how skills mismatch can cause structural unemployment.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a recovery in aggregate demand alone can solve structural joblessness.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 17,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why seasonal unemployment differs from frictional unemployment.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether seasonal work patterns necessarily indicate a failing economy.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 18,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how frictional unemployment can persist even at full employment.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether attempts to eliminate all job-search unemployment would be desirable.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 19,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why the natural rate of unemployment includes structural, seasonal and frictional unemployment.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a low natural rate can be achieved without trade-offs.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 20,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain two economic costs associated with prolonged unemployment.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether the cost of unemployment is mainly lost production.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 21,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using a minimum-wage diagram, explain how a wage above equilibrium can produce unemployment in a competitive labour market.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a higher minimum wage necessarily raises unemployment.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 22,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why underemployment and discouraged workers complicate assessment of low unemployment.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether the official unemployment rate captures all unused labour.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 23,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how a consumer price index can measure changes in the cost of a representative basket.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a national CPI reflects every household's inflation experience.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 24,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Given a CPI of 120 last year and 126 this year, calculate the inflation rate and distinguish the rate from the CPI level.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether positive inflation means households are worse off.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 25,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why an increase in the CPI differs from an increase in the price of one good.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether one dramatic price rise demonstrates economy-wide inflation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 26,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using an AD/AS diagram, explain how demand-pull inflation can arise.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether rapid spending growth always produces high inflation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 27,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using an AD/AS diagram, explain how rising production costs can cause cost-push inflation.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a cost shock must create persistent inflation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 28,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why inflation may redistribute purchasing power between borrowers and lenders.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether unexpected inflation benefits all debtors.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 29,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how high and unpredictable inflation can affect business investment.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether moderate inflation has the same costs as volatile inflation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 30,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how domestic inflation may reduce export competitiveness.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether inflation always causes export sales to fall.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 31,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain one limitation of CPI arising from changes in product quality or substitution.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether CPI is an unbiased measure of every household's cost of living.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 32,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain the difference between deflation and disinflation.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a falling inflation rate implies that prices have fallen.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 33,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using an AD/AS diagram, explain how a fall in aggregate demand can create deflation.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether all episodes of deflation indicate weak demand.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 34,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using an AD/AS diagram, explain how improved aggregate supply can lower the price level.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether falling prices are necessarily harmful.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 35,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why deflation can raise the real burden of nominal debt.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether lower prices benefit borrowers and lenders equally.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 36,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how expectations of falling prices can cause households to postpone consumption.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether deflation always delays all spending.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 37,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how demand-led deflation may be associated with bankruptcies and unemployment.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether lower prices are sufficient to restore demand after a recession.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 38,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why low unemployment and low inflation may conflict after a demand expansion near capacity.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether policymakers must always choose between these objectives.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 39,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why reducing cost-push inflation can have different employment effects from reducing demand-pull inflation.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a single inflation target is sufficient for all shocks.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 40,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how rapid growth can conflict with environmental sustainability.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether environmental harm is an inevitable cost of growth.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 41,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain why growth in real GDP can coincide with increasing income inequality.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether the gains from growth will spread across households automatically.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 42,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why price stability and economic growth can reinforce each other over the long term.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether stabilising inflation is sufficient to secure growth.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 43,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how repeated government budget deficits can add to the stock of national debt.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a budget deficit necessarily makes debt unsustainable.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 44,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Given national debt of 600 billion and GDP of 1,200 billion, calculate the debt-to-GDP ratio and explain why it may change without new borrowing.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a 50% debt-to-GDP ratio alone indicates fiscal distress.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 45,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using a Phillips-curve diagram, explain the short-run relationship between inflation and unemployment.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether the short-run trade-off remains stable after inflation expectations change.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 46,
+      "level": "HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using a Phillips-curve diagram, explain why the long-run curve is vertical at the natural rate of unemployment.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether governments can keep unemployment below the natural rate through demand growth.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 47,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Given a basket with 2 units of A and 3 units of B, with prices rising from 10 to 12 and 20 to 22 respectively, calculate the basket's price index (base 100) and explain why the quantities act as weights.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a weighted price index describes all consumers' inflation equally.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 48,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Given spending weights of 60% on food and 40% on transport, and price increases of 10% and 5%, calculate the weighted inflation rate and explain why a simple average is inappropriate.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether headline inflation is sufficient to assess pressure on low-income households.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 49,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how higher debt-servicing costs can constrain future government spending.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a rise in the national debt must force immediate tax increases.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 50,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using AD/AS and Phillips-curve diagrams, explain how a negative supply shock can raise both inflation and unemployment.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a higher inflation rate must coincide with lower unemployment.",
+        "marks": 15
+      }
+    }
+  ]
+}

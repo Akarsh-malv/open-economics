@@ -1,0 +1,657 @@
+{
+  "number": "4.5",
+  "title": "Exchange Rates",
+  "count": 50,
+  "questions": [
+    {
+      "id": 1,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using a currency-market diagram, explain how the exchange rate is determined under a floating system.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a floating exchange rate is always stable.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 2,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using a currency-market diagram, explain how increased foreign demand for exports can appreciate a currency.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether strong exports always cause appreciation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 3,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how higher domestic spending on imports can depreciate the domestic currency.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether import growth necessarily weakens an exchange rate.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 4,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain the difference between appreciation and depreciation in a floating system.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether depreciation always improves export performance.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 5,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why the price of a foreign good in domestic currency can change without a change in its foreign price.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether currency conversion captures the full import cost.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 6,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using a currency-market diagram, explain how inward FDI may affect the host currency.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether foreign investment always raises the currency's value.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 7,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how outward direct investment can affect the supply of a country's currency.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether overseas investment always causes depreciation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 8,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using a currency-market diagram, explain how foreign portfolio investment may appreciate a currency.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether portfolio inflows are a stable source of currency demand.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 9,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why a withdrawal of foreign portfolio capital may put downward pressure on a currency.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether all capital outflows are harmful.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 10,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how remittances from workers abroad can affect demand for a recipient country's currency.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether remittances necessarily produce lasting appreciation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 11,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Using a currency-market diagram, explain how speculative expectations of appreciation can affect the current rate.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether speculation always destabilises currencies.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 12,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why expectations of depreciation can cause a currency to weaken before trade flows change.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether exchange-rate expectations can be self-reinforcing.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 13,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how higher domestic interest rates can influence a floating exchange rate.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a rate rise always causes appreciation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 14,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using a currency-market diagram, explain how a fall in foreign interest rates may affect domestic currency demand.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether interest-rate differentials are sufficient to forecast exchange rates.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 15,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how higher domestic inflation relative to trading partners may affect the exchange rate over time.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether inflation differences explain short-run exchange-rate movements.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 16,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how stronger domestic growth can affect both imports and inward investment.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether fast growth necessarily appreciates the currency.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 17,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using a currency-market diagram, explain how a fall in foreign demand for exports can depreciate a currency.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether commodity exporters face larger exchange-rate swings.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 18,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how a central bank's sale of foreign reserves to buy its own currency may influence a floating rate.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether intervention can permanently prevent depreciation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 19,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why a currency may appreciate even while a country imports more than it exports.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether trade balances alone determine the exchange rate.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 20,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a rise in perceived investment risk may weaken a currency.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether high interest rates can compensate for rising risk.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 21,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how depreciation can affect import prices and inflation.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether currency depreciation must create sustained inflation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 22,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using an AD/AS diagram, explain how depreciation can affect both aggregate demand and short-run aggregate supply.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether depreciation necessarily raises real output.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 23,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how appreciation can change export competitiveness.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether firms can maintain export sales after appreciation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 24,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how appreciation can lower the domestic cost of imported inputs.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a stronger currency always lowers inflation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 25,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how depreciation can affect the current account through import and export prices.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether the current account improves immediately after depreciation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 26,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how a stronger currency may affect residents' ability to purchase goods abroad.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether appreciation improves the living standards of all households.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 27,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why exchange-rate changes can have different effects on borrowers with foreign-currency debt.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether depreciation benefits all domestic firms.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 28,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how an appreciation may affect unemployment in an export-dependent industry.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether an economy-wide employment loss is inevitable.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 29,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why an exchange-rate fall can simultaneously benefit exporters and harm consumers.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a weaker currency is desirable for economic growth.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 30,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using a currency-market and AD/AS diagram, explain how a foreign demand shock can change the exchange rate and output.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether monetary policy should counter exchange-rate shocks.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 31,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain the difference between a devaluation and a depreciation.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether devaluation always raises exports.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 32,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain the difference between a revaluation and an appreciation.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether a revaluation necessarily lowers inflation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 33,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Using a currency-market diagram, explain how a central bank can defend a fixed rate above the market equilibrium.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether foreign reserves can sustain an overvalued currency indefinitely.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 34,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Using a currency-market diagram, explain how a central bank can defend a fixed rate below the market equilibrium.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether an undervalued rate can be maintained without cost.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 35,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why an overvalued fixed currency creates pressure on foreign-exchange reserves.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether overvaluation must end in devaluation.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 36,
+      "level": "SL/HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain why an undervalued managed currency can support exporters.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether this policy always improves domestic welfare.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 37,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how managed floating differs from a completely fixed exchange rate.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether intervention makes a rate fully predictable.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 38,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain how reserve purchases can prevent a currency from appreciating rapidly.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether resisting appreciation is always desirable.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 39,
+      "level": "SL/HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why a central bank may change interest rates to support a fixed parity.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether defending the rate can conflict with domestic employment.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 40,
+      "level": "SL/HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a fixed exchange rate may be adjusted after a prolonged change in competitiveness.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether changing the parity solves underlying productivity problems.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 41,
+      "level": "HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain one advantage of a fixed exchange rate for firms trading internationally.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether exchange-rate certainty outweighs the cost of defending a peg.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 42,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a floating rate can absorb a negative export-demand shock.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether exchange-rate flexibility always stabilises output.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 43,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why fixed-rate systems can limit monetary-policy independence.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether policy autonomy is more valuable than exchange-rate stability.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 44,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why an overvalued peg may create a current-account problem.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether all current-account deficits threaten a peg.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 45,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why managed floating may combine flexibility with central-bank intervention.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether intervention can prevent excessive volatility.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 46,
+      "level": "HL",
+      "difficulty": "Easy",
+      "a": {
+        "prompt": "Explain how speculative pressure differs under fixed and floating exchange-rate arrangements.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether a peg is inherently more vulnerable to a currency crisis.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 47,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain why foreign reserve holdings matter more for defending a peg than allowing a free float.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether large reserves guarantee a stable fixed rate.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 48,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a fixed rate may reduce transaction costs without eliminating trade risk.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether exchange-rate stability guarantees export growth.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 49,
+      "level": "HL",
+      "difficulty": "Hard",
+      "a": {
+        "prompt": "Explain how a sudden capital outflow affects a fixed currency differently from a floating one.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, evaluate whether allowing depreciation is preferable to reserve intervention.",
+        "marks": 15
+      }
+    },
+    {
+      "id": 50,
+      "level": "HL",
+      "difficulty": "Medium",
+      "a": {
+        "prompt": "Explain why a country's choice of exchange-rate regime depends on its economic structure.",
+        "marks": 10
+      },
+      "b": {
+        "prompt": "Using real-world examples, discuss whether one system is best for all economies.",
+        "marks": 15
+      }
+    }
+  ]
+}
