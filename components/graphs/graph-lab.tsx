@@ -194,7 +194,7 @@ export function GraphLab({ initialGraphId }: {
                   </div>
                 </div>)}
 
-              {definition.details && (<div className="mt-4 space-y-2">
+              {definition.details && (<div className={styles.detailList}>
                   {definition.details.interpretation && (<DetailSection title="Key interpretation" body={definition.details.interpretation}/>)}
                   {definition.details.mistake && (<DetailSection title="Common mistake" body={definition.details.mistake}/>)}
                   {definition.details.examTip && (<DetailSection title="AP exam tip" body={definition.details.examTip}/>)}
@@ -225,13 +225,11 @@ function DetailSection({ title, body }: {
     title: string;
     body: string;
 }) {
-    return (<details className="group rounded-xl border border-oe-border bg-oe-surface">
-      <summary className="flex cursor-pointer items-center justify-between gap-3 px-4 py-2.5 text-sm font-semibold text-oe-text [&::-webkit-details-marker]:hidden">
-        {title}
-        <ChevronDown className="size-4 text-oe-text-muted transition-transform group-open:rotate-180"/>
+    return (<details className={styles.detail}>
+      <summary className={styles.detailSummary}>
+        <span>{title}</span>
+        <ChevronDown className={styles.detailChevron} aria-hidden="true"/>
       </summary>
-      <p className="border-t border-oe-border px-4 py-3 text-sm leading-6 text-oe-text-muted">
-        {body}
-      </p>
+      <p className={styles.detailBody}>{body}</p>
     </details>);
 }

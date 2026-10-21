@@ -1,10 +1,8 @@
 "use client";
 
 import { type ReactNode, useEffect } from "react";
-import { openDyslexic } from "@/lib/fonts";
 import { scrollToHeader } from "@/lib/markdown/scroll-to-header";
 import { cn } from "@/lib/ui";
-import { useSettingsStore } from "@/stores/settings-store";
 
 interface Props {
   children: ReactNode;
@@ -12,14 +10,6 @@ interface Props {
 }
 
 export function LessonClientShell({ children, type }: Props) {
-  const fontStyle = useSettingsStore((state) => state.fontStyle);
-
-  const fontClass = {
-    default: "font-inter",
-    system: "font-system",
-    dyslexic: "font-dyslexic",
-  }[fontStyle];
-
   useEffect(() => {
     const scrollToHash = () => {
       const hash = window.location.hash.slice(1);
@@ -44,8 +34,7 @@ export function LessonClientShell({ children, type }: Props) {
       className={cn(
         "mx-auto pb-12 mt-24 px-4 sm:px-6 lg:px-8",
         type === "video" ? "max-w-7xl" : "max-w-6xl",
-        fontClass,
-        fontStyle === "dyslexic" && openDyslexic.variable,
+        "font-manrope",
       )}
     >
       {children}

@@ -1,7 +1,8 @@
 import { notFound, redirect } from "next/navigation";
-import { Discovery, LearningTools, PracticeHistory } from "@/components/redesign/academy";
+import { LearningTools, PracticeHistory } from "@/components/redesign/academy";
+import { SpecialismsPage } from "@/components/redesign/academy-reference";
 import { buildPublicMetadata } from "@/lib/seo";
-const titles: Record<string, string> = { saved: 'Saved questions & mistakes', analytics: 'Your practice history', lessons: 'Lessons', explore: 'Explore economics', olympiad: 'Olympiad Studio', flashcards: 'Flashcards', guides: 'Study guides', tests: 'Practice tests' };
+const titles: Record<string, string> = { saved: 'Saved questions & mistakes', analytics: 'Your practice history', lessons: 'Lessons', explore: 'Explore economics', olympiad: 'Olympiad Studio', 'olympiad-case': 'Case analysis', flashcards: 'Flashcards', guides: 'Study guides', tests: 'Practice tests' };
 export async function generateMetadata({ params }: {
     params: Promise<{
         section: string;
@@ -21,10 +22,10 @@ export default async function Page({ params }: {
         redirect('/graphs');
     if (!titles[section])
         notFound();
-    if (['saved', 'analytics'].includes(section))
-        return <div className="academy-content"><div className="eyebrow">YOUR LEARNING, IN CONTEXT</div><h1>{titles[section]}</h1><p>Build understanding from the questions you actually practice.</p><section className="a-section"><PracticeHistory mode={section === 'saved' ? 'saved' : 'analytics'}/></section></div>;
-    if (section === 'explore')
-        return <div className="academy-content"><div className="eyebrow">ECONOMICS HAS MANY LENSES</div><h1>Follow your curiosity.</h1><p>Specialist course concepts, clearly distinguished from available foundation courses.</p><Discovery /></div>;
+    if (section === 'saved') return <div className="academy-content oe-reference-page oe-saved-page"><header className="oe-page-heading"><h1>A place to come back to.</h1><p>Questions you save and mistakes from your practice on this device.</p></header><PracticeHistory mode="saved"/></div>;
+    if (section === 'analytics')
+        return <div className="academy-content"><div className="eyebrow">YOUR LEARNING, IN CONTEXT</div><h1>{titles[section]}</h1><p>Build understanding from the questions you actually practice.</p><section className="a-section"><PracticeHistory mode="analytics"/></section></div>;
+    if (section === 'explore') return <SpecialismsPage/>;
     if (section === 'lessons')
         return <div className="academy-content"><div className="eyebrow">OEP LEARN</div><h1>Lessons</h1><div className="panel a-section"><h2>Coming soon</h2><p>Our lessons are being prepared for launch.</p></div></div>;
     return <LearningTools section={section}/>;

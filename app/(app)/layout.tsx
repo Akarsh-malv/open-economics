@@ -5,7 +5,7 @@ import NextTopLoader from "nextjs-toploader";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
 import { META_THEME_COLORS } from "@/hooks/use-meta-color";
-import { inter } from "@/lib/fonts";
+import { manrope } from "@/lib/fonts";
 import { buildSiteMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildSiteMetadata();
@@ -44,7 +44,7 @@ export default function RootLayout({
         />
         <meta name="theme-color" content={META_THEME_COLORS.light} />
       </head>
-      <body className={`${inter.className} ${inter.variable} antialiased`}>
+      <body className={`${manrope.className} ${manrope.variable} antialiased`}>
         <ThemeProvider>
           <NextTopLoader
             color="#4e65ff"

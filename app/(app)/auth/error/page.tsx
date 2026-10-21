@@ -54,7 +54,7 @@ export default async function AuthErrorPage({ searchParams }: PageProps) {
             {errorCode && (
               <>
                 <br />
-                <span className="text-sm font-mono text-white bg-black p-2 rounded-sm">
+                <span className="text-sm font-main text-white bg-black p-2 rounded-sm">
                   Error code: <code>{errorCode}</code>
                 </span>
               </>

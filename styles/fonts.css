@@ -1,0 +1,12 @@
+/* Shared by the website and CMS. The bundled variable font covers light through extra bold. */
+@font-face {
+  font-family: "Manrope";
+  src: url("/design-assets/Manrope.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+}
+
+:root {
+  --font-manrope: "Manrope", sans-serif;
+}

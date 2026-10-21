@@ -1,6 +1,8 @@
 "use client";
 import { createElement, useEffect, useRef, useState, type ReactNode, type CSSProperties } from "react";
 import Link from "next/link";
+import { ImpactStats } from "./impact-stats";
+import { FooterExtras } from "./footer-extras";
 import blueprint from "@/lib/redesign/blueprint.json";
 type Node = string | {
     tag: string;
@@ -11,8 +13,9 @@ export type PublicPageKey = keyof typeof blueprint.pages | keyof typeof blueprin
 const titleOf = (key: string) => blueprint.policies[key as keyof typeof blueprint.policies]?.title;
 const attrNames: Record<string, string> = { class: "className", tabindex: "tabIndex", for: "htmlFor", viewbox: "viewBox", preserveaspectratio: "preserveAspectRatio", strokewidth: "strokeWidth", 'stroke-width': "strokeWidth", 'stroke-linecap': "strokeLinecap", 'stroke-linejoin': "strokeLinejoin", 'fill-rule': "fillRule", 'clip-rule': "clipRule", 'clip-path': "clipPath", 'stop-color': "stopColor", 'stop-opacity': "stopOpacity", 'stroke-dasharray': "strokeDasharray", 'font-size': "fontSize", 'stroke-dashoffset': "strokeDashoffset", 'text-anchor': "textAnchor", 'font-weight': "fontWeight", 'dominant-baseline': "dominantBaseline", 'color-interpolation-filters': "colorInterpolationFilters", colspan: "colSpan", rowspan: "rowSpan", autocomplete: "autoComplete", readonly: "readOnly" };
 function style(value: string): CSSProperties { return Object.fromEntries(value.split(';').filter(Boolean).map(rule => { const i = rule.indexOf(':'); const key = rule.slice(0, i).trim(); return [key.startsWith('--') ? key : key.replace(/-([a-z])/g, (_, c) => c.toUpperCase()), rule.slice(i + 1).trim()]; })); }
-export function DesignContent({ nodes }: {
+export function DesignContent({ nodes, footer = false }: {
     nodes: unknown;
+    footer?: boolean;
 }) {
     const [message, setMessage] = useState<string | null>(null);
     const [country, setCountry] = useState('');
@@ -20,16 +23,15 @@ export function DesignContent({ nodes }: {
         if (typeof n === 'string')
             return n;
         const a = n.attrs, cls = a.class ?? '';
-        if (cls === 'ambassador-section')
-            return <Ambassadors key={index}/>;
+        if (cls === 'stats-grid') return <ImpactStats key={index}/>;
+        if (cls === 'ambassador-section') return <Ambassadors key={index}/>;
         if (cls.includes('program-section'))
             return <Programs key={index}/>;
-        if (cls === 'team-testimonials')
-            return <Testimonials key={index}/>;
+        if (cls === 'team-testimonials') return <Testimonials key={index}/>;
         if (n.tag === 'form')
             return <EnquiryForm key={index}/>;
-        if (cls.includes('trust-laurel') || cls === 'learner-trust' || cls === 'trust-band')
-            return null; // supplied reach figure needs renewed owner approval
+        if (cls === 'learner-trust') return footer ? <FooterExtras key={index}/> : null;
+        if (cls.includes('trust-laurel') || cls === 'trust-band') return null;
         const props: Record<string, unknown> = { key: index };
         for (const [key, value] of Object.entries(a)) {
             if (key.startsWith('on'))
@@ -45,7 +47,7 @@ export function DesignContent({ nodes }: {
         if (n.tag === 'button')
             props.type = 'button';
         if (a['data-video'])
-            props.onClick = () => setMessage('Video placement: ' + a['data-video'] + '. No approved recording is available yet. Captions and a transcript will accompany the recording.');
+            props.onClick = () => setMessage(a['data-video'] + '. The recording is coming soon. Captions and a transcript will accompany it.');
         if (a['data-action'])
             props.onClick = () => setMessage(a['data-action'] === 'press-brief' ? 'Organization brief: OpenEconomics connects open education, local leadership and institutional access. Verified organizational details are awaiting approval.' : 'This feature needs approved organizational content or a connected service. Contact the team to discuss it.');
         if (a['data-country']) {
@@ -65,6 +67,7 @@ export function DesignContent({ nodes }: {
             if (href.startsWith('/curriculum/'))
                 href = '/courses';
             props.href = href;
+            if (footer && href === '/manifesto') return <div className="oe-footer-story-links" key={index}><Link href="/#about">Our Story</Link><Link href="/stories">Stories &amp; Insights</Link><Link href="/manifesto">Our manifesto</Link></div>;
             if (href.startsWith('/'))
                 return createElement(Link, props as {
                     href: string;
@@ -93,7 +96,7 @@ export function PublicPage({ page }: {
         return <PolicyPage page={page as keyof typeof blueprint.policies}/>;
     return <div className="oe-reference"><DesignContent nodes={blueprint.pages[page as keyof typeof blueprint.pages]}/></div>;
 }
-export function PublicFooter() { return <DesignContent nodes={blueprint.footer}/>; }
+export function PublicFooter() { return <DesignContent nodes={blueprint.footer} footer/>; }
 function Ambassadors() {
     const [country, setCountry] = useState('All countries');
     const [selected, setSelected] = useState<(typeof blueprint.people)[number] | null>(null);
@@ -111,7 +114,7 @@ function Profile({ person, close, video }: {
 else
     ref.current?.close(); }, [person]); return <dialog ref={ref} className="oe-dialog" onCancel={close} aria-label="Ambassador profile">{person && <><span className="demo-tag">FICTIONAL DEMO PROFILE</span><h2>{person.name}</h2><p>{person.city}, {person.country}<br />{person.school}</p><p>{person.qualifications.join(' · ')}</p><p>No actual affiliation or qualification is represented.</p><button className="btn light" onClick={video}>▷ Introduction video placeholder</button> <button className="btn" onClick={close}>Close profile</button></>}</dialog>; }
 function Programs() { const [audience, setAudience] = useState<'student' | 'teacher'>('student'); return <section className="section section-rule program-section"><div className="section-head"><div><div className="eyebrow">MORE WAYS TO TAKE PART</div><h2>Economics beyond the textbook.</h2></div><div className="audience-toggle" role="group" aria-label="Program audience">{(['student', 'teacher'] as const).map(a => <button key={a} className={audience === a ? 'active' : ''} aria-pressed={audience === a} onClick={() => setAudience(a)}>For {a}s</button>)}</div></div><p className="program-intro">Program concepts for the next stage of OpenEconomics. Dates, delivery and applications are not yet available.</p><div className="program-grid">{blueprint.programs[audience].map(([kind, title, head, desc, detail, type], i) => <article className="program-feature" key={kind}><div className={'program-art art-' + kind} aria-hidden="true"><span className="art-label">0{i + 1} / {title.toUpperCase()}</span>{kind === 'workshop' ? <><div className="discussion-bubble">Why?</div><div className="discussion-bubble second">What if?</div></> : kind === 'essay' ? <div className="essay-sheet"><span>AN IDEA WORTH<br />EXPLORING.</span><i /><i /><i /></div> : <><div className="circle-person one"/><div className="circle-person two"/><div className="circle-person three"/><div className="connection-line"/></>}</div><div className="program-copy"><span className="pill">Proposed program</span><h3>{head}</h3><p>{desc}</p><div className="program-detail">✓ {detail}</div><Link className="text-link" href={'/contact?type=' + encodeURIComponent(type)}>Explore this format →</Link></div></article>)}</div></section>; }
-function Testimonials() { const [slide, setSlide] = useState(0); const t = blueprint.testimonials[slide]; return <section className="team-testimonials" aria-label="Team testimonial layout preview"><div className="testimonial-controls"><div className="eyebrow">PEOPLE MAKE<br />THE DIFFERENCE</div><div><button className="icon-btn" aria-label="Previous sample testimonial" onClick={() => setSlide((slide + 2) % 3)}>←</button><button className="icon-btn" aria-label="Next sample testimonial" onClick={() => setSlide((slide + 1) % 3)}>→</button></div><span>0{slide + 1} / 03</span></div><div className="testimonial-copy" aria-live="polite"><span className="demo-tag">SAMPLE QUOTE · NOT A REAL ENDORSEMENT</span><blockquote>{t.quote}</blockquote><p>Team member placeholder <span>· {t.role}</span></p><div className="testimonial-dots">{blueprint.testimonials.map((_, i) => <button key={i} aria-label={'Show sample testimonial ' + (i + 1)} aria-pressed={slide === i} className={slide === i ? 'active' : ''} onClick={() => setSlide(i)}/>)}</div></div><div className="testimonial-portrait" aria-label="Team portrait placeholder"><span>PORTRAIT PLACEHOLDER</span></div></section>; }
+function Testimonials() { const [slide, setSlide] = useState(0); const t = blueprint.testimonials[slide]; return <section className="team-testimonials" aria-label="Team testimonials"><div className="testimonial-controls"><div className="eyebrow">PEOPLE MAKE<br />THE DIFFERENCE</div><div><button className="icon-btn" aria-label="Previous sample testimonial" onClick={() => setSlide((slide + 2) % 3)}>←</button><button className="icon-btn" aria-label="Next sample testimonial" onClick={() => setSlide((slide + 1) % 3)}>→</button></div><span>0{slide + 1} / 03</span></div><div className="testimonial-copy" aria-live="polite"><span className="demo-tag">SAMPLE QUOTE · NOT A REAL ENDORSEMENT</span><blockquote>{t.quote}</blockquote><p>Team member placeholder <span>· {t.role}</span></p><div className="testimonial-dots">{blueprint.testimonials.map((_, i) => <button key={i} aria-label={'Show sample testimonial ' + (i + 1)} aria-pressed={slide === i} className={slide === i ? 'active' : ''} onClick={() => setSlide(i)}/>)}</div></div><div className="testimonial-portrait" aria-label="Team portrait placeholder"><span>PORTRAIT PLACEHOLDER</span></div></section>; }
 function EnquiryForm() { const [error, setError] = useState(''); const [interest, setInterest] = useState('General enquiry'); useEffect(() => { const type = new URLSearchParams(window.location.search).get('type'); if (type)
     setInterest(type); }, []); return <form className="panel enquiry-form" onSubmit={e => { e.preventDefault(); const data = new FormData(e.currentTarget); const body = ['Name: ' + data.get('name'), 'Email: ' + data.get('email'), 'Organization: ' + data.get('organization'), 'Country / region: ' + data.get('country'), '', '' + data.get('message')].join('\n'); if (body.length > 7000) {
     setError('Please shorten your message to open an email draft.');
@@ -120,4 +123,4 @@ function EnquiryForm() { const [error, setError] = useState(''); const [interest
 function PolicyPage({ page }: {
     page: keyof typeof blueprint.policies;
 }) { const policy = blueprint.policies[page]; const [active, setActive] = useState('policy-section-0'); const sections = [...policy.sections, ['Contact us', 'Questions about this draft can be directed to the OpenEconomics team.']]; useEffect(() => { const observer = new IntersectionObserver(entries => { const visible = entries.filter(e => e.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top); if (visible[0])
-    setActive(visible[0].target.id); }, { rootMargin: '-110px 0px -55% 0px' }); document.querySelectorAll('.policy-section').forEach(el => observer.observe(el)); return () => observer.disconnect(); }, [page]); return <div className="wrap policy-page"><header className="policy-heading"><div className="eyebrow">{page === 'methodology' ? 'ACCOUNTABILITY' : 'POLICIES & ACCESS'}</div><h1>{policy.title}</h1><p>{policy.intro}</p><div className="policy-status"><span>Working draft</span><span>Effective date · To be confirmed</span></div></header><nav className="policy-switcher" aria-label="Policies and resources">{Object.entries(blueprint.policies).map(([key, p]) => <Link key={key} className={page === key ? 'active' : ''} aria-current={page === key ? 'page' : undefined} href={'/' + key}>{p.title}</Link>)}</nav><div className="policy-layout"><article className="policy-reading"><div className="policy-draft-note">{page === 'methodology' ? 'Proposed measurement framework. No organizational totals have been calculated.' : 'Draft policy for review. Effective dates and responsible contacts await approval.'}</div>{sections.map(([title, body], i) => <section key={title} className="policy-section" id={'policy-section-' + i} tabIndex={-1}><h2>{title}</h2><p>{body}</p>{i === sections.length - 1 && <Link className="text-link" href="/contact">Contact the team →</Link>}</section>)}</article><aside className="policy-contents"><nav aria-label="On this page"><span className="policy-contents-label">ON THIS PAGE</span><div className="policy-toc-track">{sections.map(([title], i) => <a key={title} href={'#policy-section-' + i} aria-current={active === 'policy-section-' + i ? 'location' : undefined} className={active === 'policy-section-' + i ? 'active' : ''} onClick={() => setActive('policy-section-' + i)}>{title}</a>)}</div></nav></aside></div></div>; }
+    setActive(visible[0].target.id); }, { rootMargin: '-110px 0px -55% 0px' }); document.querySelectorAll('.policy-section').forEach(el => observer.observe(el)); return () => observer.disconnect(); }, [page]); return <div className="wrap policy-page"><header className="policy-heading"><div className="eyebrow">{page === 'methodology' ? 'ACCOUNTABILITY' : 'POLICIES & ACCESS'}</div><h1>{policy.title}</h1><p>{policy.intro}</p><div className="policy-status"><span>Working draft</span><span>Effective date · To be confirmed</span></div></header><nav className="policy-switcher" aria-label="Policies and resources">{Object.entries(blueprint.policies).map(([key, p]) => <Link key={key} className={page === key ? 'active' : ''} aria-current={page === key ? 'page' : undefined} href={'/' + key}>{p.title}</Link>)}</nav><div className="policy-layout"><article className="policy-reading"><div className="policy-draft-note">{page === 'methodology' ? 'Participation, funding and estimated savings are reported separately. Estimates depend on the methods and assumptions described below.' : 'Draft policy for review. Effective dates and responsible contacts await approval.'}</div>{sections.map(([title, body], i) => <section key={title} className="policy-section" id={'policy-section-' + i} tabIndex={-1}><h2>{title}</h2><p>{body}</p>{i === sections.length - 1 && <Link className="text-link" href="/contact">Contact the team →</Link>}</section>)}</article><aside className="policy-contents"><nav aria-label="On this page"><span className="policy-contents-label">ON THIS PAGE</span><div className="policy-toc-track">{sections.map(([title], i) => <a key={title} href={'#policy-section-' + i} aria-current={active === 'policy-section-' + i ? 'location' : undefined} className={active === 'policy-section-' + i ? 'active' : ''} onClick={() => setActive('policy-section-' + i)}>{title}</a>)}</div></nav></aside></div></div>; }

@@ -1,5 +1,17 @@
 @layer theme, base, components, utilities;
+@import "./fonts.css";
 @import "tailwindcss/theme.css" layer(theme);
 @import "tailwindcss/utilities.css" layer(utilities);
 
 @custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* Match the public site font in the administration interface. */
+:root {
+  --font-body: var(--font-manrope);
+  --font-serif: var(--font-manrope);
+  --font-mono: var(--font-manrope);
+  --font-sans: var(--font-manrope);
+}
+body, button, input, textarea, select {
+  font-family: var(--font-manrope);
+}

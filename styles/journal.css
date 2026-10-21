@@ -1,0 +1,129 @@
+/* Blog source styles scoped to the journal; shared fonts and shell come from the host site. */
+.oe-design .oe-journal .journal-index{padding-bottom:75px}
+.oe-design .oe-journal .journal-context{font-size:10px;color:var(--muted);border-left:2px solid #b6c5d5;padding:10px 15px;background:#f5f7fa;margin-bottom:30px}
+.oe-design .oe-journal .journal-filters{display:flex;flex-wrap:wrap;gap:8px;margin:30px 0}
+.oe-design .oe-journal .journal-filters button{border:1px solid var(--line);background:white;border-radius:6px;padding:10px 15px;font:inherit;font-size:11px}
+.oe-design .oe-journal .journal-filters button.active{background:#0b1f3a;color:white;border-color:#0b1f3a}
+.oe-design .oe-journal .journal-results>span{display:block;font-size:10px;color:var(--muted);margin-bottom:18px}
+.oe-design .oe-journal .journal-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.oe-design .oe-journal .journal-card{border:1px solid var(--line);border-radius:10px;overflow:hidden;background:white;transition:transform .2s}
+.oe-design .oe-journal .journal-card:hover{transform:translateY(-4px)}
+.oe-design .oe-journal .journal-art{height:235px;position:relative;overflow:hidden;background:#d9e5dc}
+.oe-design .oe-journal .journal-art-caption{position:absolute;left:20px;bottom:19px;font-size:8px;letter-spacing:1px;color:#0b1f3a;z-index:2}
+.oe-design .oe-journal .journal-shape{display:block;position:absolute}
+.oe-design .oe-journal .journal-choice{background:#e6d6bc}
+.oe-design .oe-journal .journal-choice .a{width:105px;height:145px;background:#0b1f3a;left:20%;top:25px;transform:rotate(-13deg);border-radius:4px}
+.oe-design .oe-journal .journal-choice .b{width:105px;height:145px;background:#fbf7ed;left:43%;top:50px;transform:rotate(12deg);border-radius:4px;box-shadow:10px 10px 20px #0b1f3a15}
+.oe-design .oe-journal .journal-choice .c{width:47px;height:47px;border:1px solid #c69c65;border-radius:50%;left:53%;top:82px}
+.oe-design .oe-journal .journal-choice .d{width:50px;height:1px;background:#0b1f3a33;left:53%;top:144px;transform:rotate(12deg)}
+.oe-design .oe-journal .journal-voices{background:#bdd3c8}
+.oe-design .oe-journal .journal-voices .a,.oe-design .oe-journal .journal-voices .b{width:125px;height:90px;border-radius:30px 30px 30px 0;background:#2d6260;left:12%;top:30px;transform:rotate(-10deg)}
+.oe-design .oe-journal .journal-voices .b{left:46%;top:95px;background:#f8f5eb;transform:rotate(10deg);border-radius:30px 30px 0 30px}
+.oe-design .oe-journal .journal-voices .c{width:46px;height:46px;border-radius:50%;border:1px solid #fff8;left:23%;top:53px}
+.oe-design .oe-journal .journal-voices .d{height:2px;width:62px;background:#0b1f3a33;left:54%;top:130px}
+.oe-design .oe-journal .journal-pathways{background:#bacad9}
+.oe-design .oe-journal .journal-pathways .a,.oe-design .oe-journal .journal-pathways .b,.oe-design .oe-journal .journal-pathways .c{width:60px;height:70px;background:#e4c78f;bottom:53px;left:20%;transform:skewY(-15deg);border-radius:3px}
+.oe-design .oe-journal .journal-pathways .b{left:40%;height:110px;background:#457872}
+.oe-design .oe-journal .journal-pathways .c{left:60%;height:150px;background:#0b1f3a}
+.oe-design .oe-journal .journal-pathways .d{width:190px;height:190px;border:1px solid #ffffff80;border-radius:50%;left:35%;top:12px}
+.oe-design .oe-journal .journal-card-body{padding:23px}
+.oe-design .oe-journal .journal-card .eyebrow{font-size:9px;margin-bottom:14px;letter-spacing:.6px}
+.oe-design .oe-journal .journal-card h3{font-size:24px;line-height:1.2;letter-spacing:-.7px}
+.oe-design .oe-journal .journal-card p{font-size:12px;margin:15px 0 22px}
+.oe-design .oe-journal .journal-card-meta{border-top:1px solid var(--line);padding-top:16px;display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:8px;color:var(--muted)}
+.oe-design .oe-journal .journal-story-invite{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center;border-top:1px solid var(--line);margin-top:65px;padding-top:50px}
+.oe-design .oe-journal .journal-story-invite h2{font-size:34px;line-height:1.2;letter-spacing:-1px}
+.oe-design .oe-journal .journal-story-invite p{font-size:13px;margin-bottom:20px}
+.oe-design .oe-journal .article-page{padding-top:35px}
+.oe-design .oe-journal .article-breadcrumb{display:flex;gap:12px;align-items:center;flex-wrap:wrap;color:var(--muted);font-size:10px}
+.oe-design .oe-journal .article-breadcrumb .icon{width:12px;height:12px}
+.oe-design .oe-journal .article-heading{max-width:850px;margin:45px 0 35px}
+.oe-design .oe-journal .article-heading h1{font-size:clamp(36px,5vw,58px);line-height:1.09;letter-spacing:-2px}
+.oe-design .oe-journal .article-heading>p{font-size:17px;line-height:1.6;margin-top:22px;max-width:690px}
+.oe-design .oe-journal .article-byline{display:flex;align-items:center;gap:12px;margin-top:26px}
+.oe-design .oe-journal .article-author-mark{width:38px;height:38px;border:1px solid #0b1f3a22;background:#eef2f6;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px}
+.oe-design .oe-journal .article-byline strong{font-size:11px;display:block}
+.oe-design .oe-journal .article-byline div>span{display:block;font-size:10px;color:var(--muted);margin-top:5px}
+.oe-design .oe-journal .article-cover{border-radius:12px;overflow:hidden;margin-bottom:55px}
+.oe-design .oe-journal .article-cover .journal-art{height:330px}
+.oe-design .oe-journal .article-cover .journal-shape{scale:1.4;transform-origin:center}
+.oe-design .oe-journal .article-cover .journal-choice .a{left:35%;top:65px}
+.oe-design .oe-journal .article-cover .journal-choice .b{left:51%;top:95px}
+.oe-design .oe-journal .article-cover .journal-choice .c{left:56%;top:135px}
+.oe-design .oe-journal .article-cover .journal-choice .d{left:55%;top:205px}
+.oe-design .oe-journal .article-cover .journal-voices .a{left:30%;top:75px}
+.oe-design .oe-journal .article-cover .journal-voices .b{left:53%;top:135px}
+.oe-design .oe-journal .article-cover .journal-voices .c{left:34%;top:93px}
+.oe-design .oe-journal .article-cover .journal-voices .d{left:56%;top:165px}
+.oe-design .oe-journal .article-cover .journal-pathways .a{left:35%}
+.oe-design .oe-journal .article-cover .journal-pathways .b{left:47%}
+.oe-design .oe-journal .article-cover .journal-pathways .c{left:59%}
+.oe-design .oe-journal .article-cover .journal-pathways .d{left:46%;top:55px}
+.oe-design .oe-journal .article-layout{display:grid;grid-template-columns:220px minmax(0,720px);gap:70px;justify-content:space-between}
+.oe-design .oe-journal .article-sidebar{position:sticky;top:130px;align-self:start}
+.oe-design .oe-journal .article-sidebar .eyebrow{font-size:9px}
+.oe-design .oe-journal .article-sidebar nav{border-left:1px solid var(--line);display:flex;flex-direction:column;margin-bottom:20px}
+.oe-design .oe-journal .article-sidebar nav button{background:none;border:0;text-align:left;padding:10px 15px;font:inherit;font-size:11px;line-height:1.5;color:var(--muted)}
+.oe-design .oe-journal .article-sidebar nav button:hover{color:var(--ink);background:#f5f7fa}
+.oe-design .oe-journal .article-sidebar>.tiny{display:block;color:var(--muted);margin-top:12px}
+.oe-design .oe-journal .article-body section{scroll-margin-top:145px;margin-bottom:40px}
+.oe-design .oe-journal .article-body section:focus{outline:none}
+.oe-design .oe-journal .article-body h2{font-size:28px;letter-spacing:-.8px;line-height:1.2;margin-bottom:20px}
+.oe-design .oe-journal .article-body p{font-size:15px;line-height:1.9;margin-bottom:18px}
+.oe-design .oe-journal .article-endnote{display:flex;gap:12px;font-size:10px;line-height:1.7;background:#f5f7fa;padding:20px;margin:30px 0 20px;color:var(--muted)}
+.oe-design .oe-journal .journal-grid.related{grid-template-columns:1fr 1fr}
+@media (max-width:960px){.oe-design .oe-journal .journal-grid{gap:16px}
+.oe-design .oe-journal .journal-card-body{padding:19px}
+.oe-design .oe-journal .journal-card h3{font-size:21px}
+.oe-design .oe-journal .article-layout{gap:35px;grid-template-columns:180px minmax(0,1fr)}}
+@media (max-width:760px){.oe-design .oe-journal .journal-grid,.oe-design .oe-journal .journal-grid.related{grid-template-columns:1fr}
+.oe-design .oe-journal .journal-art{height:250px}
+.oe-design .oe-journal .journal-card h3{font-size:25px}
+.oe-design .oe-journal .journal-story-invite{grid-template-columns:1fr;gap:25px}
+.oe-design .oe-journal .journal-story-invite{margin-top:40px;padding-top:35px}
+.oe-design .oe-journal .journal-story-invite h2{font-size:30px}
+.oe-design .oe-journal .journal-filters button{padding:9px 11px;font-size:10px}
+.oe-design .oe-journal .article-heading{margin-top:30px}
+.oe-design .oe-journal .article-heading h1{font-size:39px;letter-spacing:-1.4px}
+.oe-design .oe-journal .article-heading>p{font-size:14px}
+.oe-design .oe-journal .article-cover{margin-bottom:35px}
+.oe-design .oe-journal .article-cover .journal-art{height:260px}
+.oe-design .oe-journal .article-layout{display:flex;flex-direction:column;gap:30px}
+.oe-design .oe-journal .article-sidebar{position:static;width:100%}
+.oe-design .oe-journal .article-sidebar nav{display:none}
+.oe-design .oe-journal .article-sidebar .eyebrow{display:none}
+.oe-design .oe-journal .article-sidebar>.tiny{display:none}
+.oe-design .oe-journal .article-body h2{font-size:26px}
+.oe-design .oe-journal .article-body p{font-size:14px}}
+@media (prefers-reduced-motion:reduce){.oe-design .oe-journal .journal-card{transition:none}}
+.oe-design .oe-journal [hidden]{display:none!important}
+
+/* Use the host shell and Manrope font; all refinements stay local to the journal. */
+.oe-design .oe-journal { font-family: var(--font-manrope); color: var(--ink); }
+.oe-design .oe-journal p { color: var(--muted); line-height: 1.7; }
+.oe-design .oe-journal .subhero { padding: 65px 0 48px; margin-bottom: 28px; max-width: none; border-bottom: 1px solid var(--line); }
+.oe-design .oe-journal .subhero h1 { font-size: clamp(36px, 5vw, 54px); line-height: 1.13; letter-spacing: -2.3px; }
+.oe-design .oe-journal .subhero > p { font-size: 16px; max-width: 760px; margin-top: 22px; }
+.oe-design .oe-journal .subhero::after { content: ''; position: absolute; width: 310px; height: 310px; right: -155px; top: -100px; border: 36px solid #0b1f3a02; box-shadow: 0 0 0 32px #0b1f3a01; border-radius: 50%; pointer-events: none; }
+.oe-design .oe-journal .journal-card > a { height: 100%; display: flex; flex-direction: column; }
+.oe-design .oe-journal .journal-card-body { display: flex; flex-direction: column; flex: 1; }
+.oe-design .oe-journal .journal-card-meta { margin-top: auto; }
+.oe-design .oe-journal .journal-card-body p { line-height: 1.7; }
+.oe-design .oe-journal .journal-art { flex-shrink: 0; }
+.oe-design .oe-journal .article-body p { line-height: 1.9; }
+.oe-design .oe-journal .article-sidebar nav button[aria-current=location] { background: #f5f7fa; color: var(--ink); box-shadow: -2px 0 0 #0b1f3a; }
+.oe-design .oe-journal .article-copy-status { font-size: 11px; margin-top: 8px; }
+.oe-design .oe-journal .article-copy-status:empty { display: none; }
+.oe-design .oe-journal .article-copy-fallback { display: block; font-size: 11px; margin-top: 8px; }
+.oe-design .oe-journal .article-copy-fallback input { width: 100%; max-width: 100%; padding: 9px; border: 1px solid var(--line); border-radius: 5px; font: inherit; margin-top: 6px; }
+.oe-design .oe-journal .article-endnote > svg { flex-shrink: 0; margin-top: 1px; }
+.oe-design .site-footer .oe-footer-extras { margin-top: 24px; }
+.oe-design .site-footer .oe-footer-extras .learner-trust { margin: 0 0 22px; }
+.oe-design .site-footer .footer-grid a.oe-footer-follow { display: inline-flex; align-items: center; gap: 9px; width: max-content; min-height: 40px; padding: 9px 12px; border: 1px solid #ffffff33; border-radius: 7px; color: #e7edf5; font-size: 11px; line-height: 1.4; margin: 0; }
+.oe-design .site-footer .footer-grid a.oe-footer-follow:hover { background: #ffffff12; color: #fff; }
+.oe-design .site-footer .oe-footer-story-links { margin: 0; }
+@media (max-width: 760px) {
+  .oe-design .oe-journal .subhero { padding-top: 40px; }
+  .oe-design .oe-journal .subhero h1 { font-size: 38px; letter-spacing: -1.8px; }
+  .oe-design .oe-journal .subhero > p { font-size: 14px; }
+}

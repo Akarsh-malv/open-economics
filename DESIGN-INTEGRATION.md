@@ -24,7 +24,7 @@ The blueprint's scripts run only in a one-time local extraction tool to produce 
 - Existing lesson catalog and approved lesson layouts retained; course overviews now have native resource tabs and links to real banks.
 - Actual browser-history analytics, saved questions and mistakes; deep links reopen the exact question. Existing storage keys/revisions are preserved.
 - Browser-only lesson completion is explicitly labeled and reflected in course overviews. No account sync or backend completion API was invented.
-- Bundled Manrope, OFL license, transparent logo assets, signature and labeled illustrative artwork. Unapproved 8.2k badge is suppressed.
+- Bundled Manrope, OFL license, transparent logo assets, signature and labeled illustrative artwork. The 8.3K learners badge is displayed in the academy hero at the user’s request; it is presentation copy, not a live backend count.
 - Native React country filtering, profile dialogs, carousels, program-audience toggle, policy section tracking, flashcards and Olympiad track selection.
 - Contact/enquiry form validates and composes an email draft to the existing published contact address. It does not claim a server submission succeeded.
 
@@ -71,3 +71,30 @@ Verification: production build passes, 214 graph unit tests pass and all 10 brow
 The supplied 30 student PDFs and 30 matching teacher guides are imported by `scripts/import-ib-paper-one.py`. It validates continuous question numbering, both 10- and 15-mark parts, and a matching guide entry for each pair. The student-facing bank contains 1,290 original question pairs in `lib/ib-paper-one/topics/`, with topic metadata in `manifest.json`. Extracted teacher guidance stays in the local, git-ignored `lib/ib-paper-one/grading-guides/` directory. It is not needed by the current site and is not published to the repository or browser. Re-run the importer against the supplied PDFs when the source material changes.
 
 The IB card and `/practice/ib` list all 30 available topics. Each topic route `/practice/ib/[topic]` offers the original part (a) and (b) prompts, SL/HL filtering, question navigation, and drafts saved only in that browser. The HL and SL course resource tabs link to the same topic bank. No Gemini key, scoring API, model answer, or automatic feedback is configured yet. The guides remain source material for the later rubric-aware grader.
+
+
+## Academy screenshot alignment — October 21, 2026
+
+The shared learning sidebar now separates Overview, My learning, Practice, Discover and Learn with labeled groups and consistent row spacing. The shared course-family selection persists between academy pages. Six reference-style pathways connect to existing course, practice and studio destinations; the Cambridge card opens the available A-level bank, and the IB learning card opens the existing SL/HL catalog.
+
+The dashboard and practice landing page share the colored pathway cards. Saved questions and mistakes appear in simultaneous panels, populated from the existing browser history and question deep links. Specialisms use the full two-column concept grid. The Olympiad studio includes the reference hero, rings, working track tabs, practice loop, sample case and recording placeholder. Native video-preview dialogs support Escape and focus return. The user-requested 8.3K learners display and Manrope remain in place. APIs, grading handlers, schemas and question data were not edited.
+
+Validation: TypeScript passes; four existing history/import tests pass. Browser review covers all five affected pages at 1440px and 390px without horizontal overflow. Interaction checks verify family selection across navigation, the A-level bank destination, track switching, case navigation, video dialogs, browser-history records and question deep links, and the mobile drawer. Captures and the audit report are in `audit/reference-match/`. Changes are local; no deployment was performed.
+
+
+## Stories & Insights and public footer — October 21, 2026
+
+Integrated the supplied `OpenEconomics-Blog-Only.zip` into native `/stories` and three `/stories/[slug]` routes. Article text, categories, sample/draft labels and CSS artwork come from the archive preserved under `reference/blog-only/`. Content is maintained in `lib/journal/articles.json`. Shared Manrope, navigation and the public footer are reused. The imported blog styles are scoped to `.oe-journal`; the standalone scripts, global CSS resets and duplicate font definition are not shipped.
+
+React controls provide category filtering, article section jumps with focus, a current-section indication, related articles, and copying an article URL with a manual-copy fallback. The Our Story CTA links to the existing homepage story section. Draft robots metadata is retained, so these preview articles are excluded from the search sitemap.
+
+The public navigation and footer now include Stories. The public footer restores the user-approved 8.3K learner laurel badge and adds Follow OEP, linking to `https://www.instagram.com/open_economics/?hl=en` in a new tab. The Instagram icon is a local SVG. No backend, account or grading code was changed.
+
+Validation: TypeScript passes. The listing, all three articles and homepage returned HTTP 200 with Manrope, one footer, one learner badge and no horizontal overflow at 1440px, 768px and 390px. Browser checks cover categories/counts, article links, section jumps/focus, copy link, related articles, mobile menu navigation, the homepage story CTA and unknown-article HTTP 404. Captures and checks are in `audit/blog/`. No deployment was performed.
+
+## October 21: impact figures and Terms of Use
+- Shared homepage/impact metrics now show owner-supplied totals: 26 partnerships, 8,357 learners, $5K funding, $6K estimated costs avoided.
+- Removed wording describing the website as a UI/design preview. Retained placeholder profiles, testimonials, media and program concepts at the owner's request.
+- `/terms` now renders the supplied July 23 Word document, preserving all 162 nonempty paragraphs, 21 numbered sections, two account subsections, emphasis, lists, hyperlinks and manual line breaks. The supplied effective and updated dates remain intact.
+- Reimport source with `scripts/import-terms.py`; document data is stored in `lib/policies/terms.json`.
+- TypeScript passed. Browser checks confirmed exact rendered paragraph text, all 21 sections, contents navigation, and no overflow at 1440px and 390px.

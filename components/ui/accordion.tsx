@@ -38,7 +38,7 @@ function AccordionTrigger({
       <AccordionPrimitive.Trigger
         data-slot="accordion-trigger"
         className={cn(
-          "motion-reduce:animate-none! motion-reduce:transition-none! focus-visible:border-ring focus-visible:ring-ring/50 flex flex-1 items-start justify-between gap-4 rounded-md py-4 text-left text-sm font-medium outline-none hover:underline focus-visible:ring-[3px] disabled:pointer-events-none disabled:opacity-50 [&[data-state=open]>svg]:rotate-180",
+          "motion-reduce:animate-none! motion-reduce:transition-none! focus-visible:border-ring focus-visible:ring-ring/50 flex flex-1 items-center justify-between gap-4 rounded-md px-4 py-4 text-left text-sm font-medium outline-none hover:underline focus-visible:ring-[3px] disabled:pointer-events-none disabled:opacity-50 [&[data-state=open]>svg]:rotate-180",
           animate && "transition-all",
           className,
         )}
@@ -47,7 +47,7 @@ function AccordionTrigger({
         {children}
         <ChevronDownIcon
           className={cn(
-            "text-muted-foreground pointer-events-none size-4 shrink-0 translate-y-0.5",
+            "text-muted-foreground pointer-events-none size-4 shrink-0",
             animate && " transition-transform duration-200",
           )}
         />
@@ -73,7 +73,7 @@ function AccordionContent({
       )}
       {...props}
     >
-      <div className={cn("pt-0 pb-4", className)}>{children}</div>
+      <div className={cn("px-4 pt-0 pb-4", className)}>{children}</div>
     </AccordionPrimitive.Content>
   );
 }

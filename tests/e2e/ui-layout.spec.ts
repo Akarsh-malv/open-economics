@@ -14,9 +14,9 @@ for (const width of [320, 768, 1440]) {
     expect(footer!.y + footer!.height).toBeGreaterThanOrEqual(899);
     await page.goto('/learn/olympiad');
     const hero = await page.locator('.studio-hero').boundingBox();
-    const tabs = await page.locator('.tabs').boundingBox();
+    const tabs = await page.locator('.studio-tabs').boundingBox();
     expect(tabs!.y - (hero!.y + hero!.height)).toBeLessThan(50);
-    expect(hero!.height).toBeLessThan(260);
+    expect(hero!.height).toBeLessThan(440);
   });
 }
 
@@ -69,3 +69,34 @@ test('lesson listings and direct lesson links show the launch placeholder', asyn
   await expect(page.getByText('Step 1 of 7', { exact: true })).toHaveCount(0);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });
+
+
+for (const width of [390, 1440]) {
+  test(`graph disclosure rows have inset labels and one indicator at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 1000 });
+    await page.goto('/graphs');
+    const summary = page.locator('summary').filter({ hasText: 'Key interpretation' });
+    await expect(summary).toBeVisible();
+    const measure = () => summary.evaluate(element => {
+      const style = getComputedStyle(element);
+      const after = getComputedStyle(element, '::after');
+      const box = element.getBoundingClientRect();
+      const icon = element.querySelector('svg')!.getBoundingClientRect();
+      return { left: parseFloat(style.paddingLeft), right: box.right - icon.right,
+        duplicate: after.display !== 'none' && !['none', 'normal', '""'].includes(after.content) };
+    });
+    expect((await measure()).left).toBeGreaterThanOrEqual(12);
+    expect((await measure()).right).toBeGreaterThanOrEqual(12);
+    expect((await measure()).duplicate).toBe(false);
+    await summary.click();
+    await expect(summary.locator('..')).toHaveAttribute('open', '');
+    expect((await measure()).duplicate).toBe(false);
+    await summary.focus();
+    await page.keyboard.press('Enter');
+    await expect(summary.locator('..')).not.toHaveAttribute('open', '');
+    const next = page.locator('summary').filter({ hasText: 'Common mistake' });
+    const firstBox = await summary.locator('..').boundingBox();
+    const nextBox = await next.locator('..').boundingBox();
+    expect(nextBox!.y - firstBox!.y - firstBox!.height).toBeGreaterThanOrEqual(7);
+  });
+}

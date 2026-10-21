@@ -1,17 +1,9 @@
 "use client";
 
 import { Label } from "@/components/ui/label";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
 import { Switch } from "@/components/ui/switch";
 import {
   type BooleanSettingKey,
-  type FontStyle,
   useSettingsStore,
 } from "@/stores/settings-store";
 
@@ -43,9 +35,7 @@ export function Settings() {
     desmosForceDarkMode,
     coloredMarkdown,
     largeMath,
-    fontStyle,
     toggle,
-    setFontStyle,
   } = useSettingsStore();
 
   const settings = { desmosForceDarkMode, coloredMarkdown, largeMath };
@@ -74,35 +64,7 @@ export function Settings() {
         </div>
       ))}
 
-      <div>
-        <div className="flex items-start justify-between gap-4">
-          <div className="flex-1 space-y-1">
-            <Label
-              htmlFor="fontStyle"
-              className="text-base font-semibold cursor-pointer"
-            >
-              Font Style
-            </Label>
-            <p className="text-sm text-muted-foreground">
-              Choose a font style for lesson content.
-            </p>
-          </div>
-
-          <Select
-            value={fontStyle}
-            onValueChange={(v: FontStyle) => setFontStyle(v)}
-          >
-            <SelectTrigger id="fontStyle" className="w-[180px]">
-              <SelectValue placeholder="Select a font" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="default">Default</SelectItem>
-              <SelectItem value="system">System Font</SelectItem>
-              <SelectItem value="dyslexic">Dyslexic Friendly</SelectItem>
-            </SelectContent>
-          </Select>
-        </div>
-      </div>
+      <p className="text-sm text-muted-foreground">Typography: Manrope</p>
     </div>
   );
 }
