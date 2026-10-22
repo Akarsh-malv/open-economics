@@ -47,41 +47,40 @@ export function SavedHistoryPanels({ rows }: { rows: HistoryRow[] }) {
 export function SpecialismCards({ full = false }: { full?: boolean }) {
   return <div className={'specialism-grid oe-specialism-cards' + (full ? ' full' : '')}>{blueprint.specialisms.map(course => <Link className="specialism-card" href={'/learn/specialism/' + course.id} key={course.id}>
     <div className={'subject-art ' + course.art} aria-hidden="true"><span/><span/><span/><span/><span/></div>
-    <div><small>{full ? course.tag.toUpperCase() : 'COURSE CONCEPT'}</small><h3>{course.name}</h3><p>{course.desc}</p>{full && <span className="text-link">Explore the concept<ArrowRight size={16}/></span>}</div>
+    <div><small>{full ? course.tag.toUpperCase() : 'SPECIALIST COURSE'}</small><h3>{course.name}</h3><p>{course.desc}</p>{full && <span className="text-link">Explore the course<ArrowRight size={16}/></span>}</div>
   </Link>)}</div>;
 }
 
 export function SpecialismsPage() {
-  return <div className="academy-content oe-reference-page oe-specialisms-page"><header className="oe-page-heading"><div className="eyebrow">ECONOMICS HAS MANY LENSES</div><h1>Follow your curiosity.</h1><p>Four specialist course concepts, each beginning with a question about the world.</p></header><SpecialismCards full/><AcademyNotice>These are curriculum concepts with one original introductory question each. Full specialist courses are in development.</AcademyNotice></div>;
+  return <div className="academy-content oe-reference-page oe-specialisms-page"><header className="oe-page-heading"><div className="eyebrow">ECONOMICS HAS MANY LENSES</div><h1>Follow your curiosity.</h1><p>Four specialist courses, each beginning with a question about the world.</p></header><SpecialismCards full/><AcademyNotice>Explore a question, connect the ideas and deepen your understanding.</AcademyNotice></div>;
 }
 
 export function OlympiadArtwork({ studio = false }: { studio?: boolean }) {
-  return <div className="olympiad-art" aria-hidden="true"><span className="medal-ring"/><span className="medal-ring second"/><span>{studio ? <>REASON.<br/>APPLY.<br/>DEFEND.</> : <>THINK.<br/>CONNECT.<br/>EXPLAIN.</>}</span></div>;
+  if (studio) return <div className="olympiad-art oe-studio-artwork" aria-hidden="true"><div className="oe-studio-rings"><span className="medal-ring"/><span className="medal-ring second"/></div><strong className="oe-studio-motto">REASON.<br/>APPLY.<br/>DEFEND.</strong></div>;
+  return <div className="olympiad-art" aria-hidden="true"><span className="medal-ring"/><span className="medal-ring second"/><span>THINK.<br/>CONNECT.<br/>EXPLAIN.</span></div>;
 }
 
 export function FilmTile({ title, subtitle, kind = "concept" }: { title: string; subtitle: string; kind?: "concept" | "workshop" }) {
   const dialog = useRef<HTMLDialogElement>(null);
-  return <><button type="button" className={'film-tile ' + kind} onClick={() => dialog.current?.showModal()} aria-label={`View video: ${title}`}><span className="film-shade"/><span className="play-disc"><Play size={21}/></span><span className="film-meta"><small>{kind === 'workshop' ? 'AI ILLUSTRATION · VIDEO PLACEHOLDER' : 'VIDEO PLACEHOLDER'}</small><strong>{title}</strong><span>{subtitle}</span></span></button><dialog ref={dialog} className="oe-dialog" aria-label={title}><h2>{title}</h2><p>The recording is being prepared. Captions and a transcript will accompany the video.</p><button type="button" className="btn small" onClick={() => dialog.current?.close()}>Close</button></dialog></>;
+  return <><button type="button" className={'film-tile ' + kind} onClick={() => dialog.current?.showModal()} aria-label={`View video: ${title}`}><span className="film-shade"/><span className="play-disc"><Play size={21}/></span><span className="film-meta"><small>{kind === 'workshop' ? 'OEP FILM' : 'OEP FILM'}</small><strong>{title}</strong><span>{subtitle}</span></span></button><dialog ref={dialog} className="oe-dialog" aria-label={title}><h2>{title}</h2><p>The recording is being prepared. Captions and a transcript will accompany the video.</p><button type="button" className="btn small" onClick={() => dialog.current?.close()}>Close</button></dialog></>;
 }
 
-const tracks = {
-  Reasoning: { title: "Think through the unfamiliar.", description: "Connect concepts, read evidence and explain the mechanism behind a result.", skills: ["Economic mechanisms", "Graph interpretation", "Quantitative reasoning"], label: "Try original practice questions", href: "/practice" },
-  "Financial literacy": { title: "Make choices across time and risk.", description: "Reason about interest, inflation, diversification and the trade-offs behind financial decisions.", skills: ["Interest and compounding", "Real versus nominal values", "Risk and diversification"], label: "Explore financial economics", href: "/learn/specialism/financial" },
-  "Case analysis": { title: "Build a recommendation that holds up.", description: "Define the problem, use relevant evidence, compare options and acknowledge uncertainty.", skills: ["Problem framing", "Evidence and assumptions", "Trade-offs and communication"], label: "Explore a sample case", href: "/learn/olympiad-case" },
-};
-
 export function OlympiadStudio() {
-  const [track, setTrack] = useState<keyof typeof tracks>("Reasoning");
-  const selected = tracks[track];
-  return <div className="academy-content oe-reference-page oe-olympiad-page"><section className="olympiad-banner studio-hero"><div><div className="eyebrow">OEP LEARN / OLYMPIAD STUDIO</div><h1>For the challenge<br/>of thinking further.</h1><p>A proposed preparation hub for ambitious economics learners.</p><span className="pill">Independent preparation</span></div><OlympiadArtwork studio/></section>
-    <div className="studio-tabs" role="group" aria-label="Olympiad preparation track">{(Object.keys(tracks) as Array<keyof typeof tracks>).map(name => <button type="button" key={name} className={track === name ? 'active' : ''} aria-pressed={track === name} onClick={() => setTrack(name)}>{name}</button>)}</div>
-    <div className="oe-studio-columns"><section className="panel oe-selected-track" aria-live="polite"><div className="eyebrow">YOUR SELECTED TRACK</div><h2>{selected.title}</h2><p>{selected.description}</p><div className="skill-pills">{selected.skills.map(skill => <span className="pill" key={skill}>{skill}</span>)}</div><Link className="btn small" href={selected.href}>{selected.label}<ArrowRight size={17}/></Link>{track === 'Reasoning' && <Link className="text-link oe-track-lab" href="/graphs">Open graph lab<ArrowRight size={16}/></Link>}</section>
-      <section className="panel oe-study-plan"><div className="eyebrow">A PROPOSED PRACTICE LOOP</div>{[['01', 'Understand', 'Review a concept and its assumptions.'], ['02', 'Apply', 'Work through a new problem or case.'], ['03', 'Explain', 'Defend the reasoning and review the gaps.']].map(([number, title, copy]) => <div className="oe-study-step" key={number}><span>{number}</span><div><h3>{title}</h3><p>{copy}</p></div></div>)}</section></div>
-    <section className="a-section oe-studio-film"><FilmTile title="How an economist approaches a new problem." subtitle="Coach walkthrough · Video placeholder"/></section>
-    <AcademyNotice>Designed as a foundation for future outreach to the International Economics Olympiad, World Economics Cup and national programs. No affiliation, endorsement, official syllabus alignment or score prediction is claimed.</AcademyNotice>
+  return <div className="academy-content oe-reference-page oe-olympiad-development">
+    <div className="oe-olympiad-status"><span>OEP LEARN / OLYMPIAD STUDIO</span><span className="oe-development-badge">Under development</span></div>
+    <section className="oe-olympiad-development-hero" aria-labelledby="olympiad-development-title">
+      <div className="oe-olympiad-development-copy">
+        <h1 id="olympiad-development-title">Building the future<br/>of Olympiad Studio.</h1>
+        <p className="oe-development-lead">We’re working with our international partners to bring Olympiad Studio to life.</p>
+        <p>We’re developing a preparation space for ambitious economics learners, bringing together economic reasoning, financial literacy and case analysis. Through original problems, interactive tools and opportunities to explain your thinking, the studio will help you reason, apply and defend.</p>
+        <div className="actions"><a className="btn small" href="https://www.instagram.com/open_economics/?hl=en" target="_blank" rel="noopener noreferrer">Follow OEP for updates <ArrowRight size={17}/></a><Link className="text-link" href="/work">Explore our work <ArrowRight size={16}/></Link></div>
+      </div>
+      <OlympiadArtwork studio/>
+    </section>
+    <div className="oe-olympiad-development-footer">The Open Economics Project · Open knowledge. Shared opportunity.</div>
   </div>;
 }
 
 export function OlympiadCase() {
-  return <div className="academy-content oe-reference-page"><header className="oe-page-heading"><div className="eyebrow">ORIGINAL SAMPLE / CASE ANALYSIS</div><h1>A library. A budget. A choice.</h1><p>A community library has a hypothetical $1,200 learning budget. It can run six $200 workshops for 15 students each, or provide 40 individual $30 learning packs. Workshop attendance may overlap.</p></header><div className="oe-studio-columns"><section className="panel"><h2>Make a recommendation.</h2><ol className="case-prompts"><li>What outcome should the library prioritize?</li><li>Which costs and benefits are missing?</li><li>Can 90 workshop places be treated as 90 unique learners?</li><li>What evidence would change your decision?</li></ol></section><section className="panel"><div className="eyebrow">THINK BEFORE REVEALING</div><details><summary>Compare the costs</summary><p>Workshops cost $1,200 / 90 = $13.33 per attendance place. Learning packs cost $30 each. Attendance places may repeat, while packs do not guarantee use or learning.</p></details><details><summary>What makes a strong recommendation?</summary><p>Define the intended outcome, consider accessibility and repeat attendance, state uncertainty, and propose a small pilot with evidence collection. A lower cost per place alone does not establish greater impact.</p></details></section></div><Link className="text-link a-section" href="/learn/olympiad">Back to the studio<ArrowRight size={16}/></Link></div>;
+  return <div className="academy-content oe-reference-page"><header className="oe-page-heading"><div className="eyebrow">CASE ANALYSIS</div><h1>A library. A budget. A choice.</h1><p>A community library has a hypothetical $1,200 learning budget. It can run six $200 workshops for 15 students each, or provide 40 individual $30 learning packs. Workshop attendance may overlap.</p></header><div className="oe-studio-columns"><section className="panel"><h2>Make a recommendation.</h2><ol className="case-prompts"><li>What outcome should the library prioritize?</li><li>Which costs and benefits are missing?</li><li>Can 90 workshop places be treated as 90 unique learners?</li><li>What evidence would change your decision?</li></ol></section><section className="panel"><div className="eyebrow">THINK BEFORE REVEALING</div><details><summary>Compare the costs</summary><p>Workshops cost $1,200 / 90 = $13.33 per attendance place. Learning packs cost $30 each. Attendance places may repeat, while packs do not guarantee use or learning.</p></details><details><summary>What makes a strong recommendation?</summary><p>Define the intended outcome, consider accessibility and repeat attendance, state uncertainty, and propose a small pilot with evidence collection. A lower cost per place alone does not establish greater impact.</p></details></section></div><Link className="text-link a-section" href="/learn/olympiad">Back to the studio<ArrowRight size={16}/></Link></div>;
 }

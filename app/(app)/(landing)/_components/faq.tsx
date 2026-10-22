@@ -29,7 +29,7 @@ const faqs: { question: string; answer: string }[] = [
   {
     question: "Can I access free lessons before purchasing?",
     answer:
-      'Yes! Every course includes free preview lessons so you can experience the teaching style and content quality before buying. Click "See Free Lessons" on any course card.',
+      'Yes! Every course includes free lessons so you can experience the teaching style and content quality before buying. Click "See Free Lessons" on any course card.',
   },
   {
     question: "Can I access courses on mobile devices?",

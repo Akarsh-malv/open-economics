@@ -1,0 +1,8 @@
+.art{isolation:isolate}
+.connections{opacity:.52}
+.node{pointer-events:all}
+.halo{opacity:.3;transform-box:fill-box;transform-origin:center;animation:quietSignal 7s ease-in-out infinite}
+.node:nth-child(7) .halo{animation-delay:-2.3s}
+.node:nth-child(23) .halo{animation-delay:-4.6s}
+@keyframes quietSignal{0%,100%{opacity:.2;transform:scale(.95)}50%{opacity:.38;transform:scale(1.1)}}
+@media(prefers-reduced-motion:reduce){.halo{animation:none}}

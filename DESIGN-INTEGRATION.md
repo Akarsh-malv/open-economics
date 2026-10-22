@@ -132,3 +132,35 @@ Validation: TypeScript passes. The listing, all three articles and homepage retu
 - Added server-rendered word spans with native CSS view-timeline animations. Words fade and rise into place progressively as their text enters the viewport. No animation library or JavaScript is used for text reveals.
 - Unsupported browsers and reduced-motion preferences display all text normally. PDF wording remains unchanged and text remains selectable.
 - Verified actual word opacity before/during/after scroll (0 → staggered partial opacity → 1), reduced-motion behavior, full-width geometry, exact text, Manrope and five responsive sizes. TypeScript passed.
+
+## Manifesto label and closing-line refinements
+- Replaced the two marginal section titles/descriptions with large Manrope Roman numerals I and II.
+- Combined the first two closing sentences into one desktop line, preserving the italic treatment of “The barriers are.” Narrow screens wrap naturally.
+- TypeScript and five-width browser checks passed, including explicit checks for the numeral labels and shared desktop line. Full wording, CSS reveals and reading progress retained.
+- Restarted the local preview and cleared only generated Webpack caches after the node_modules layout changed to pnpm and left stale module paths in the running server.
+
+## Homepage community card
+- Moved “Discover our mission” from the hero card to the heading column of the following Our Story section. Link still opens `/manifesto`.
+- Hero card now displays the owner-supplied 8,357 learners-served total, plus explicitly labeled sample signup activity with 250 fictional names.
+- Names use a shuffled queue with no repeats until the cycle is exhausted, and no adjacent repeats at cycle boundaries. Each rotation uses a new random 180–240 second delay; hidden tabs skip notices and unmount clears the timeout. Generated activity does not increment the supplied total or create account records.
+- Unit checks cover name uniqueness, cycle boundaries and delay bounds. Accelerated browser-clock checks confirmed no update before three minutes, update by four minutes and continuing rotation. Desktop/tablet/mobile checks and TypeScript passed.
+- Browser timer verification used `http://localhost:3010/` so the development server's origin checks permit hydration.
+
+## Website views display refinement
+- Owner-selected baseline changed to 2,543,271; counter advances locally by one every six seconds (five per thirty seconds). Browser storage uses a new versioned key so the former 12-million baseline cannot carry over.
+- Removed public demo/simulation labels at the owner's request. This remains a browser-local scheduled display, not an analytics integration or shared server-side measurement.
+- Every digit reel rolls upward each tick, including unchanged positions. Only the units value normally changes; arithmetic carries update higher positions as necessary.
+- Browser checks passed for the baseline, all seven animated columns, one normal changed digit, five-view pace, carry from 2,543,279 to 2,543,280, saved-value loading, reduced motion and mobile widths. TypeScript passed.
+
+## Global network and public copy cleanup
+
+- The home globe now shows all 25 requested countries, with geographically aligned markers, sparse connections, and three restrained anchor halos. A globe-specific map asset corrects dateline seams without changing the map used elsewhere.
+- Removed public UI qualifiers describing content as conceptual, illustrative, demo, sample, draft, or a design preview. Kept actual learning activity names, input hints, and supplied policy text.
+- Verified all 25 markers, accessible country names, clipping, and horizontal overflow at 1440, 1024, 768, 390, and 320 pixels. TypeScript passes.
+
+## Get Involved source integration
+
+- Rebuilt `/involved` from the supplied Get Involved HTML and screenshots, keeping the shared header/footer and Manrope.
+- Imported the seven supplied role records with complete mandates, responsibilities, candidate profiles, roadmaps, commitments and Tally application URLs. Native `/involved/[role]` pages support direct links and browser navigation.
+- Simplified the final testimonial section to one quote, attribution, slide count and previous/next buttons. Removed the right-side snapshot, avatar, tags, tab strip, and decorative panel.
+- Checked all role filters, seven detail pages and application links, testimonial controls, the manifesto link, and widths 1440, 1024, 768, 390 and 320. TypeScript passes.

@@ -21,20 +21,20 @@ function ManifestoFilm() {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerPolicy="strict-origin-when-cross-origin"
         allowFullScreen
-      /> : <div className={styles.filmPlaceholder} role="img" aria-label="OEP film placeholder. The featured video is not yet available.">
+      /> : <div className={styles.filmPlaceholder} role="img" aria-label="The Open Economics Project manifesto film.">
         <OEPMark className={styles.watermark}/>
         <div className={styles.filmBrand}><OEPMark/><span>The Open Economics Project</span></div>
         <span className={styles.filmStamp}>INSTITUTIONAL FILM</span>
         <div className={styles.filmTitle} aria-hidden="true"><span className={styles.play}><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5V19L19 12L8 5Z"/></svg></span><span>The story behind<br/>the conviction.</span></div>
-        <div className={styles.filmFoot}><span>OUR MANIFESTO</span><span className={styles.filmStatus}>VIDEO PLACEHOLDER</span></div>
+        <div className={styles.filmFoot}><span>OUR MANIFESTO</span><span className={styles.filmStatus}>MANIFESTO FILM</span></div>
       </div>}
     </div>
     <figcaption>Why we believe economic knowledge should be open.</figcaption>
   </figure>;
 }
 
-function Marginalia({ number, title, description }: { number: string; title: string; description: string }) {
-  return <div className={styles.marginalia}><span>{number}. {title}</span><p>{description}</p></div>;
+function Marginalia({ number }: { number: string }) {
+  return <div className={styles.marginalia} aria-label={`Section ${number}`}><span>{number}</span></div>;
 }
 
 export function ManifestoPage() {
@@ -50,7 +50,7 @@ export function ManifestoPage() {
     <div className={styles.rule} aria-hidden="true"/>
     <article className={styles.reading} aria-label="The manifesto">
       <section className={styles.movement} aria-labelledby="manifesto-opening">
-        <Marginalia number="I" title="THE DISCIPLINE" description="Reclaiming the science of choice"/>
+        <Marginalia number="I"/>
         <div className={styles.column}>
           <div className={styles.opening}>
             <h2 id="manifesto-opening" data-manifesto-copy><RevealWords text={manifesto.opening} italicFrom={5}/></h2>
@@ -68,7 +68,7 @@ export function ManifestoPage() {
       </section>
       <div className={styles.transition} aria-hidden="true"><span/><OEPMark/><span/></div>
       <section className={styles.movement} aria-labelledby="manifesto-purpose">
-        <Marginalia number="II" title="THE PURPOSE" description="From open access to true agency"/>
+        <Marginalia number="II"/>
         <div className={styles.column}>
           <div className={styles.principle}>
             <h2 id="manifesto-purpose" data-manifesto-copy><RevealWords text={manifesto.principle[0]}/></h2>
@@ -85,7 +85,13 @@ export function ManifestoPage() {
     </article>
     <section className={styles.closing} aria-labelledby="manifesto-closing">
       <div className={styles.closingInner}>
-        <h2 id="manifesto-closing">{manifesto.closing.map(line => <span key={line} data-manifesto-copy><RevealWords text={line}/></span>)}</h2>
+        <h2 id="manifesto-closing">
+          <span className={styles.closingLead}>
+            <span data-manifesto-copy><RevealWords text={manifesto.closing[0]}/></span>{" "}
+            <span className={styles.closingCounter} data-manifesto-copy><RevealWords text={manifesto.closing[1]}/></span>
+          </span>
+          <span className={styles.closingChallenge} data-manifesto-copy><RevealWords text={manifesto.closing[2]}/></span>
+        </h2>
         <div className={styles.closingRule} aria-hidden="true"/>
         <p className={styles.invitation} data-manifesto-copy><RevealWords text={manifesto.invitation}/></p>
         <div className={styles.signature}><OEPMark/><p data-manifesto-copy>{manifesto.signature}</p></div>

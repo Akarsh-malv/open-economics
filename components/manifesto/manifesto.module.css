@@ -29,9 +29,8 @@
 .rule{width:min(912px,calc(100% - 48px));border-top:1px solid var(--rule);margin:0 auto}
 .reading{width:min(920px,calc(100% - 48px));margin:0 auto}
 .movement{display:grid;grid-template-columns:200px minmax(0,1fr);gap:40px;align-items:start;padding:110px 0}
-.marginalia{position:sticky;top:128px;margin-top:4px;padding-left:14px;border-left:2px solid var(--gold)}
-.marginalia>span{display:block;font-size:11px;line-height:1.6;font-weight:700;letter-spacing:.15em}
-.marginalia p{font-size:12px;line-height:1.5;font-weight:400;color:#64748b;max-width:170px;margin-top:7px}
+.marginalia{position:sticky;top:128px;margin-top:0;color:#0b1f3a}
+.marginalia>span{display:block;font-size:68px;line-height:1;font-weight:400;letter-spacing:-.045em}
 .column{min-width:0}
 .opening{margin-bottom:48px}
 .opening h2{font-size:clamp(32px,3.3vw,46px);line-height:1.17;letter-spacing:-.04em;font-weight:750;text-wrap:pretty;scroll-margin-top:125px}
@@ -53,17 +52,14 @@
 .closingInner{max-width:1280px;margin:0 auto}
 .closing h2{font-size:clamp(34px,3.5vw,60px);font-weight:650;line-height:1.25;letter-spacing:-.04em;text-wrap:balance}
 .closing h2>span{display:block}
-.closing h2>span+span{margin-top:19px}
-.closing h2>span:nth-child(2){color:#9dacc0;font-weight:400;font-style:italic;font-synthesis:style}
-.closing h2>span:last-child{margin:30px auto 0}
 .closingRule{width:64px;height:1px;background:#ffffff30;margin:65px auto}
 .closing .invitation{font-size:clamp(20px,1.85vw,28px);line-height:1.6;font-weight:400;letter-spacing:-.02em;margin:0;color:#c2cbd8}
 .signature{display:flex;align-items:center;justify-content:center;gap:18px;margin-top:58px}
 .signature>svg{width:27px;height:30px;overflow:visible}
 .signature p{font-size:clamp(15px,1.55vw,23px);letter-spacing:-.01em;font-weight:500}
-@media(max-width:1023px){.movement{grid-template-columns:1fr;gap:32px;max-width:680px;margin:auto;padding:80px 0}.marginalia{position:static;display:flex;align-items:center;gap:15px;border-left:0;border-bottom:1px solid var(--gold);padding:0 0 9px;justify-self:start;max-width:100%}.marginalia p{margin:0;max-width:none}.reading{max-width:800px}.transition{max-width:680px;margin:auto}.hero{padding-top:90px}.closing{padding:140px 40px}}
+@media(max-width:1023px){.movement{grid-template-columns:1fr;gap:32px;max-width:680px;margin:auto;padding:80px 0}.marginalia{position:static;justify-self:start}.marginalia>span{font-size:54px}.reading{max-width:800px}.transition{max-width:680px;margin:auto}.hero{padding-top:90px}.closing{padding:140px 40px}}
 @media(max-width:760px){.page{padding-bottom:0}.hero{padding:70px 24px 58px}.mark{width:65px;height:70px;margin-bottom:36px}.hero .label{font-size:10px;margin-bottom:26px}.hero h1{font-size:clamp(41px,7.4vw,58px);line-height:1.08;letter-spacing:-.045em}.hero .promise{font-size:23px;max-width:480px;margin-top:25px}.film{width:calc(100% - 48px);margin-bottom:76px}.filmBrand{top:24px;left:25px;font-size:11px;gap:9px}.filmBrand>svg{width:17px;height:18px}.filmStamp{display:none}.filmTitle{font-size:32px;gap:18px}.play{width:60px;height:60px}.filmFoot{left:25px;right:25px;bottom:24px;font-size:8px;padding-top:10px}.film figcaption{font-size:11px;margin-top:15px}.movement{padding:70px 0;gap:28px}.opening{margin-bottom:36px}.opening h2{font-size:34px}.opening p{font-size:28px;margin-top:18px}.prose p{font-size:18px;line-height:1.8;margin-bottom:28px}.prose .contrast{padding-left:24px;margin:32px 0}.contrast p{font-size:20px;line-height:1.55}.principle{margin-bottom:36px}.principle h2,.principle p{font-size:36px}.prose .conviction{font-size:21px}.closing{padding:100px 24px}.closing h2{font-size:42px}.closingRule{margin:42px auto}.closing .invitation{font-size:19px}.signature{gap:12px;margin-top:40px}.signature p{font-size:16px}.signature>svg{width:24px;height:27px}}
-@media(max-width:500px){.marginalia p{display:none}.hero h1{font-size:42px}.hero .promise{font-size:21px;max-width:310px}.film{width:calc(100% - 36px)}.filmBrand{top:17px;left:18px;font-size:8px}.filmBrand>svg{width:14px;height:15px}.filmTitle{font-size:25px;gap:14px}.play{width:42px;height:42px}.play svg{width:19px;height:19px}.filmFoot{bottom:17px;left:18px;right:18px;font-size:7px;padding-top:8px;letter-spacing:.1em;gap:8px}.filmStatus{gap:5px}.filmStatus::before{width:4px;height:4px}.film figcaption{font-size:10px;gap:7px;padding:0 10px}.reading{width:calc(100% - 48px)}.opening h2{font-size:32px}.opening p{font-size:26px}.principle h2,.principle p{font-size:34px}.closing h2{font-size:36px}.signature p{font-size:14px}.prose .contrast{padding-right:16px;padding-left:20px}}
+@media(max-width:500px){.hero h1{font-size:42px}.hero .promise{font-size:21px;max-width:310px}.film{width:calc(100% - 36px)}.filmBrand{top:17px;left:18px;font-size:8px}.filmBrand>svg{width:14px;height:15px}.filmTitle{font-size:25px;gap:14px}.play{width:42px;height:42px}.play svg{width:19px;height:19px}.filmFoot{bottom:17px;left:18px;right:18px;font-size:7px;padding-top:8px;letter-spacing:.1em;gap:8px}.filmStatus{gap:5px}.filmStatus::before{width:4px;height:4px}.film figcaption{font-size:10px;gap:7px;padding:0 10px}.reading{width:calc(100% - 48px)}.opening h2{font-size:32px}.opening p{font-size:26px}.principle h2,.principle p{font-size:34px}.closing h2{font-size:36px}.signature p{font-size:14px}.prose .contrast{padding-right:16px;padding-left:20px}}
 @media(max-width:350px){.hero{padding-inline:18px}.hero h1{font-size:36px}.hero .promise{font-size:20px}.filmTitle{font-size:21px;gap:10px}.play{width:34px;height:34px}.filmBrand{font-size:7px;top:13px}.filmFoot{font-size:6px;bottom:12px}.opening h2{font-size:29px}.principle h2,.principle p{font-size:30px}.closing h2{font-size:31px}.signature{gap:10px}.signature p{font-size:12px}.signature>svg{width:22px;height:24px}}
 @media(prefers-reduced-motion:reduce){.progress>div{transition:none}}
 
@@ -81,3 +77,7 @@
  }
 }
 @media(prefers-reduced-motion:reduce){.word{animation:none;opacity:1;transform:none}}
+
+.closing h2>.closingLead{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:center;column-gap:.3em;row-gap:.15em}
+.closingCounter{color:#9dacc0;font-weight:400;font-style:italic;font-synthesis:style}
+.closing h2>.closingChallenge{margin:30px auto 0}
