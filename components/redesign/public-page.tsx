@@ -5,6 +5,7 @@ import { ImpactStats } from "./impact-stats";
 import { HeroViews } from "./hero-views";
 import { NetworkGlobe } from "./network-globe";
 import { FooterExtras } from "./footer-extras";
+import { PeopleFounders } from "./people-founders";
 import blueprint from "@/lib/redesign/blueprint.json";
 type Node = string | {
     tag: string;
@@ -15,9 +16,10 @@ export type PublicPageKey = keyof typeof blueprint.pages | keyof typeof blueprin
 const titleOf = (key: string) => blueprint.policies[key as keyof typeof blueprint.policies]?.title;
 const attrNames: Record<string, string> = { class: "className", tabindex: "tabIndex", for: "htmlFor", viewbox: "viewBox", preserveaspectratio: "preserveAspectRatio", strokewidth: "strokeWidth", 'stroke-width': "strokeWidth", 'stroke-linecap': "strokeLinecap", 'stroke-linejoin': "strokeLinejoin", 'fill-rule': "fillRule", 'clip-rule': "clipRule", 'clip-path': "clipPath", 'stop-color': "stopColor", 'stop-opacity': "stopOpacity", 'stroke-dasharray': "strokeDasharray", 'font-size': "fontSize", 'stroke-dashoffset': "strokeDashoffset", 'text-anchor': "textAnchor", 'font-weight': "fontWeight", 'dominant-baseline': "dominantBaseline", 'color-interpolation-filters': "colorInterpolationFilters", colspan: "colSpan", rowspan: "rowSpan", autocomplete: "autoComplete", readonly: "readOnly" };
 function style(value: string): CSSProperties { return Object.fromEntries(value.split(';').filter(Boolean).map(rule => { const i = rule.indexOf(':'); const key = rule.slice(0, i).trim(); return [key.startsWith('--') ? key : key.replace(/-([a-z])/g, (_, c) => c.toUpperCase()), rule.slice(i + 1).trim()]; })); }
-export function DesignContent({ nodes, footer = false }: {
+export function DesignContent({ nodes, footer = false, peoplePage = false }: {
     nodes: unknown;
     footer?: boolean;
+    peoplePage?: boolean;
 }) {
     const [message, setMessage] = useState<string | null>(null);
     const [country, setCountry] = useState('');
@@ -28,7 +30,7 @@ export function DesignContent({ nodes, footer = false }: {
         if (cls === 'world-art') return <NetworkGlobe key={index}/>;
         if (cls === 'mission-card') return <HeroViews key={index}/>;
         if (cls === 'stats-grid') return <ImpactStats key={index}/>;
-        if (cls === 'ambassador-section') return <Ambassadors key={index}/>;
+        if (cls === 'ambassador-section') return peoplePage ? <div key={index}><PeopleFounders/><Ambassadors/></div> : <Ambassadors key={index}/>;
         if (cls.includes('program-section'))
             return <Programs key={index}/>;
         if (cls === 'team-testimonials') return <Testimonials key={index}/>;
@@ -98,7 +100,7 @@ export function PublicPage({ page }: {
 }) {
     if (titleOf(page))
         return <PolicyPage page={page as keyof typeof blueprint.policies}/>;
-    return <div className="oe-reference"><DesignContent nodes={blueprint.pages[page as keyof typeof blueprint.pages]}/></div>;
+    return <div className="oe-reference"><DesignContent nodes={blueprint.pages[page as keyof typeof blueprint.pages]} peoplePage={page === 'people'}/></div>;
 }
 export function PublicFooter() { return <DesignContent nodes={blueprint.footer} footer/>; }
 function Ambassadors() {
