@@ -1,7 +1,11 @@
-"""Import the owner-supplied Terms DOCX without altering its wording."""
-import json, zipfile, xml.etree.ElementTree as ET
+"""Import an owner-supplied policy DOCX without altering its wording."""
+import argparse, json, zipfile, xml.etree.ElementTree as ET
 from pathlib import Path
-source=Path('/Users/akars/Downloads/OEP Terms of Use [July 23].docx')
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--source',type=Path,default=Path('/Users/akars/Downloads/OEP Terms of Use [July 23].docx'))
+parser.add_argument('--policy',choices=['terms','privacy','licensing','accessibility','methodology'],default='terms')
+args=parser.parse_args()
+source=args.source
 ns={'w':'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
 w='{'+ns['w']+'}'
 with zipfile.ZipFile(source) as z:
@@ -25,6 +29,11 @@ with zipfile.ZipFile(source) as z:
   if not ''.join(r['text'] for r in content).strip():continue
   sty=p.find('w:pPr/w:pStyle',ns)
   paragraphs.append({'style':sty.get(w+'val') if sty is not None else '', 'bullet':p.find('w:pPr/w:numPr',ns) is not None,'runs':content})
+# Privacy dates supplied separately by the owner in the October 22 screenshot.
+if args.policy == 'privacy':
+ for paragraph in paragraphs:
+  for run in paragraph['runs']:
+   run['text'] = run['text'].replace('[Insert publication date]', 'February 9, 2025').replace('[Insert revision date]', 'July 23, 2026')
 Path('lib/policies').mkdir(exist_ok=True)
-Path('lib/policies/terms.json').write_text(json.dumps(paragraphs,ensure_ascii=False,indent=2)+'\n')
+Path(f'lib/policies/{args.policy}.json').write_text(json.dumps(paragraphs,ensure_ascii=False,indent=2)+'\n')
 print('Imported',len(paragraphs),'paragraphs')

@@ -98,3 +98,37 @@ Validation: TypeScript passes. The listing, all three articles and homepage retu
 - `/terms` now renders the supplied July 23 Word document, preserving all 162 nonempty paragraphs, 21 numbered sections, two account subsections, emphasis, lists, hyperlinks and manual line breaks. The supplied effective and updated dates remain intact.
 - Reimport source with `scripts/import-terms.py`; document data is stored in `lib/policies/terms.json`.
 - TypeScript passed. Browser checks confirmed exact rendered paragraph text, all 21 sections, contents navigation, and no overflow at 1440px and 390px.
+
+## Privacy Policy
+- `/privacy` now displays the owner-supplied Privacy Policy Word document using the same shared reader as Terms of Use.
+- Preserves 344 paragraphs, the introduction and 21 numbered sections, nested headings, 90 list items, hyperlinks, emphasis and line breaks.
+- Publication/revision date placeholders remain exactly as provided in the document. No dates or legal wording were invented.
+- Import: `scripts/import-terms.py --policy privacy --source '/path/to/OEP Privacy Policy [July 23].docx'`.
+- Verified all rendered paragraphs against the imported content and independently compared the import with DOCX XML. Browser checks passed for Privacy and Terms, contents navigation, lists and mobile/desktop overflow. TypeScript passed.
+
+## October 22: remaining policy documents and dates
+- Imported Content Licensing (233 paragraphs), Accessibility (63 paragraphs), and How We Measure Impact (158 paragraphs) into `/licensing`, `/accessibility`, and `/methodology` using the shared policy reader. Exact text independently compared against DOCX XML.
+- Privacy effective date is February 9, 2025; last updated July 23, 2026, as supplied in the owner's screenshot. Importer preserves these explicit overrides on future imports.
+- Removed Safeguarding route, policy tab and footer link. Supplied policy references remain as text with the removed destination disabled. Valid cross-policy links now navigate within the website.
+- Set shared policy article width to 100% to prevent intrinsic-width overflow on mobile.
+- TypeScript passed after regenerating route types and removing stale generated types for the deleted route. Browser checks cover all five policy documents, full text, list counts, section navigation and 1440px/390px layouts. Existing catch-all displays its not-found page for the removed URL.
+
+## October 22: manifesto
+- Replaced `/manifesto` with an editorial page built around the owner-supplied manifesto PDF and design brief.
+- Centered OEP bracket mark, oversized declaration, lighter promise, 16:9 navy film placeholder, focused prose column, central principle and navy closing declaration. Uses Manrope and existing OEP navy with no animated graphics or card grids.
+- Full manifesto wording matches the PDF after whitespace normalization. The video is intentionally a placeholder at the owner's request. `manifestoVideoId` in `lib/manifesto.ts` enables the lazy-loaded YouTube privacy-enhanced embed when an ID is supplied.
+- Styles are scoped to the manifesto component. Existing header, footer, routes and backend behavior retained.
+- TypeScript passed; browser checks cover exact PDF wording, Manrope, 16:9 aspect ratio and overflow at 320/390/768/1440/1920px. Visual QA reviewed the source PDF and desktop/mobile layouts.
+
+## Manifesto design iteration
+- Adapted the supplied HTML reference into scoped Next.js components: warm paper canvas, margin section labels, framed rhetorical contrast, emphasized conviction passage, branded film watermark and stamp, inset closing panel and corner details.
+- Retained the existing site header/footer, full PDF wording, OEP mark, video placeholder and future embed configuration. All text remains Manrope, including section labels and italic passages; alternate font imports, font switcher and demo video player were not imported.
+- Added a gold reading progress hairline at the top. Native CSS scroll timeline provides immediate progress, with a requestAnimationFrame-based fallback and event cleanup.
+- Removed the faint outer vertical frame lines at the owner's request. Retained the intentional callout and section rules.
+- Browser checks passed for exact PDF text, Manrope on all manifesto text, no overflow at five widths, 16:9 placeholder, scroll progress and no progress indicator on other pages. Shared footer manifesto link retained.
+
+## Manifesto third section and CSS word reveals
+- Third section now matches the supplied full-width navy reference: no inset card, corner marks, resolve label or signature pill; muted italic Manrope middle line, restrained gray divider, plain OEP signature and generous vertical space.
+- Added server-rendered word spans with native CSS view-timeline animations. Words fade and rise into place progressively as their text enters the viewport. No animation library or JavaScript is used for text reveals.
+- Unsupported browsers and reduced-motion preferences display all text normally. PDF wording remains unchanged and text remains selectable.
+- Verified actual word opacity before/during/after scroll (0 → staggered partial opacity → 1), reduced-motion behavior, full-width geometry, exact text, Manrope and five responsive sizes. TypeScript passed.
