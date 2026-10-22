@@ -9,7 +9,7 @@ Local implementation only; no deployment, database writes or schema changes.
 | Lessons | /course/[courseName]/[lessonName] | Existing course layout, content and completion mechanisms | Keep lesson layout and URLs; academy navigation |
 | Practice/review | /practice and /learn/saved, /learn/analytics | lib/practice/bank.ts, existing /api/practice endpoints, oe-practice-* localStorage | Preserve all banks, server grading, browser history; aggregate only actual stored attempts |
 | Interactive graph lab | /graphs and /graphs/[graphId] | lib/graphs, existing graph controls/calculation engine | Preserve full library and calculation/reset logic |
-| Auth/account/admin | Existing /auth/*, /account, /admin | Existing implementation | Do not alter permissions; current auth/session and feedback services are mocks |
+| Authentication and accounts | Removed | The previous sign-in and account flow used mock sessions | No account UI or authentication endpoints are published; AI grading remains disabled in production |
 | Specialist discovery, olympiad, videos | /learn/explore, /learn/specialism/*, /learn/olympiad | Existing foundational lessons/graphs | Explicit concept/video placeholders; link to real learning tools |
 | Flashcards/guides/tests | /learn/flashcards, /learn/guides, /learn/tests | Existing lesson and practice content | Reuse introductory concepts and existing practice grading; no invented exam scores |
 

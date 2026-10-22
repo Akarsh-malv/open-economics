@@ -1,5 +1,4 @@
 import { notFound } from "next/navigation";
-import { getServerSession } from "@/lib/auth/get-session";
 import { getMockCourse, getMockCourseLessons } from "@/lib/data/mock-courses";
 import { CourseLayoutWrapper } from "./_components/course-layout-wrapper";
 
@@ -23,10 +22,7 @@ export default async function CourseLayout({
 }: Args) {
   const { courseName } = await paramsPromise;
 
-  const [data, session] = await Promise.all([
-    getCourseWithLessons(courseName),
-    getServerSession(),
-  ]);
+  const data = getCourseWithLessons(courseName);
 
   if (!data) notFound();
 
@@ -34,7 +30,6 @@ export default async function CourseLayout({
     <CourseLayoutWrapper
       course={data.course}
       lessons={data.lessons}
-      user={session?.user || null}
     >
       {children}
     </CourseLayoutWrapper>

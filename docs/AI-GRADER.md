@@ -32,7 +32,7 @@ The private guides in `lib/ib-paper-one/grading-guides/` are currently local and
 
 This prototype accepts up to 20,000 characters per part, bounds the request body to 180 KB, uses a 55-second provider timeout, allows two concurrent requests, 20 requests per hour and 200 per day per server process. Requests share the local quota; forwarding headers are not trusted. These limits reset when the process restarts. Do not use them as distributed production quotas.
 
-The endpoint deliberately returns 503 in production. For AWS, keep `GradingProvider` and the existing request/result contracts; replace the OpenAI adapter if desired. Before enabling production, add authenticated student access, shared quotas/rate limits, a managed secret, securely deployed guides, and any required durable submission storage. Review student-data handling for the chosen provider, and calibrate scoring with teacher-reviewed answers before treating marks as reliable.
+The endpoint deliberately returns 503 in production. The website has no student authentication. For AWS, keep `GradingProvider` and the existing request/result contracts; replace the OpenAI adapter if desired. Before enabling a public grader, add shared site-wide quotas/rate limits and abuse protection, a managed secret, securely deployed guides, and any required durable submission storage. Review student-data handling for the chosen provider, and calibrate scoring with teacher-reviewed answers before treating marks as reliable.
 
 Verification: `node node_modules/vitest/vitest.mjs run lib/ai-grader/grader.test.ts` and `node node_modules/typescript/bin/tsc --noEmit`.
 

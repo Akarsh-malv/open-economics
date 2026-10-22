@@ -15,29 +15,6 @@ import { Button } from "@/components/ui/button";
 import { useMounted } from "@/hooks/use-mounted";
 import { cn } from "@/lib/ui";
 
-interface HeaderActionProps {
-  onNavigate?: () => void;
-  className?: string;
-}
-
-function HeaderAction({ onNavigate, className, ...props }: HeaderActionProps) {
-  return (
-    <Button
-      asChild
-      variant="ghost"
-      className={cn(
-        "rounded-lg border border-white/15 bg-transparent px-6 text-sm font-semibold text-white hover:bg-white/10 hover:text-white",
-        className,
-      )}
-      {...props}
-    >
-      <a href="/auth/sign-in" onClick={onNavigate}>
-        Sign in
-      </a>
-    </Button>
-  );
-}
-
 export function Navbar({ user: _user }: { user: unknown }) {
   const { trigger } = useWebHaptics();
   const [open, setOpen] = useState<boolean>(false);
@@ -165,7 +142,6 @@ export function Navbar({ user: _user }: { user: unknown }) {
             >
               <Search className="size-6" />
             </button>
-            <HeaderAction />
             <Button
               asChild
               className="h-12 rounded-lg bg-blue-500 px-7 text-base font-bold text-white shadow-[0_12px_28px_rgba(37,99,235,0.26)] hover:bg-blue-400"
@@ -265,10 +241,6 @@ export function Navbar({ user: _user }: { user: unknown }) {
                 </Link>
 
                 <div className="border-t border-white/10 pt-6 mt-2 flex flex-col gap-4">
-                  <HeaderAction
-                    onNavigate={() => setOpen(false)}
-                    className="p-5 text-base"
-                  />
                   <Button
                     asChild
                     className="h-12 rounded-lg bg-blue-500 text-base font-bold text-white hover:bg-blue-400"

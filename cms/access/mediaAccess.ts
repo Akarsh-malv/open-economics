@@ -2,8 +2,6 @@ import type { Access } from "payload";
 import { buildPublishedStatusWhere } from "@/cms/access/contentAccess";
 import { isAdminOrEditor } from "@/cms/access/roles";
 import { getRequestedFilename } from "@/cms/utils/get-requested-filename";
-import { getServerSession } from "@/lib/auth/get-session";
-import { hasEnrollment } from "@/lib/data/enrollment";
 
 export const mediaReadAccess: Access = async ({ req }): Promise<boolean> => {
   try {
@@ -46,17 +44,7 @@ export const mediaReadAccess: Access = async ({ req }): Promise<boolean> => {
     if (!lessons.docs.length) return false;
     if (lessons.docs.some((lesson) => lesson.free)) return true;
 
-    const session = await getServerSession();
-    if (!session?.user) return false;
-
-    for (const lesson of lessons.docs) {
-      const courseId =
-        typeof lesson.course === "string" ? lesson.course : lesson.course?.id;
-
-      if (!courseId) continue;
-      if (await hasEnrollment(session.user.id, courseId)) return true;
-    }
-
+    // Account-based enrollment is unavailable; keep non-free lesson media private.
     return false;
   } catch (error) {
     console.error("Media access error:", error);

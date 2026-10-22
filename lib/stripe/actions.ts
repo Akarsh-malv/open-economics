@@ -1,7 +1,6 @@
 "use server";
 
 import { Ratelimit } from "@upstash/ratelimit";
-import type { User } from "better-auth";
 import { and, eq } from "drizzle-orm";
 import { db } from "@/drizzle/db";
 import { enrollment } from "@/drizzle/schema";
@@ -26,7 +25,7 @@ export async function createPaymentIntent(
     Course,
     "title" | "description" | "id" | "price" | "slug" | "poster"
   >,
-  user: User,
+  user: { id: string; email: string; name: string },
 ) {
   const { success, reset } = await limiter.limit(`user:${user.id}`);
   if (!success) {

@@ -1,6 +1,5 @@
 "use client";
 
-import type { User } from "better-auth";
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 import { SiteShell } from "@/components/redesign/site-shell";
@@ -10,12 +9,10 @@ import type { Course, Lesson } from "@/types/payload-types";
 export function CourseLayoutWrapper({
   course,
   lessons,
-  user,
   children,
 }: {
   course: Course;
   lessons: Lesson[];
-  user: User | null;
   children: React.ReactNode;
 }) {
   const initialize = useCourseStore((state) => state.initialize);

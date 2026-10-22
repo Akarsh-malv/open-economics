@@ -13,13 +13,11 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { LIMITS } from "@/lib/constants/limits";
 
 const faqs: { question: string; answer: string }[] = [
   {
-    question: "How do I access my purchased courses?",
-    answer:
-      'Once you purchase a course, it will be immediately available in your account. Simply log in and navigate to "My Courses" to access all your purchased content. You\'ll have lifetime access to the materials.',
+    question: "When will the courses be available?",
+    answer: "Courses and lessons are being prepared for launch. You can explore the current practice questions and interactive graphs now.",
   },
   {
     question: "Are there any prerequisites for the courses?",
@@ -27,13 +25,12 @@ const faqs: { question: string; answer: string }[] = [
       "Most courses are beginner-friendly. However, check the course description for any specific prerequisites or recommended skill levels.",
   },
   {
-    question: "Can I access free lessons before purchasing?",
-    answer:
-      'Yes! Every course includes free lessons so you can experience the teaching style and content quality before buying. Click "See Free Lessons" on any course card.',
+    question: "What can I use while lessons are being prepared?",
+    answer: "You can use the question bank and interactive graph lab now. Lessons will be released later.",
   },
   {
     question: "Can I access courses on mobile devices?",
-    answer: `Completely! Learn on any phone, tablet, or computer. You can be logged in on up to ${LIMITS.auth.maxSessions} devices at once per account.`,
+    answer: "Yes. The learning pages work on phones, tablets, and computers.",
   },
 ];
 

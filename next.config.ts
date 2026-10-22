@@ -24,7 +24,6 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
   experimental: {
     serverMinification: true,
-    authInterrupts: true,
   },
   turbopack: {
     root: path.resolve(dirname),

@@ -21,9 +21,6 @@ export const serverEnv = createEnv({
     DB_USER: z.string().optional(),
     DB_NAME: z.string().optional(),
 
-    BETTER_AUTH_SECRET: z.string().min(16).default("mock-auth-secret-local-only"),
-    BETTER_AUTH_URL: z.url().min(1).default("http://localhost:3000"),
-
     RESEND_API_KEY: z
       .string()
       .min(1)
@@ -78,7 +75,6 @@ export const serverEnv = createEnv({
     UPSTASH_REDIS_REST_URL: z.url().default("http://localhost:6379"),
     UPSTASH_REDIS_REST_TOKEN: z.string().min(1).default("mock"),
 
-    GOOGLE_CLIENT_SECRET: z.string().min(1).default("mock"),
   },
   experimental__runtimeEnv: {},
 });
