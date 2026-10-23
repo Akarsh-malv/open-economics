@@ -3,12 +3,9 @@ import { ReadingProgress } from "./reading-progress";
 import { RevealWords } from "./reveal-words";
 import styles from "./manifesto.module.css";
 
-/** The existing OEP bracket mark, drawn as a crisp single-color vector. */
+/** Supplied OEP symbol; light-surface tint is applied by its placement. */
 function OEPMark({ className }: { className?: string }) {
-  return <svg className={className} viewBox="0 0 100 108" fill="none" aria-hidden="true">
-    <path d="M35 7H8V101H35" stroke="currentColor" strokeWidth="9"/>
-    <path d="M65 7H91V39C91 47 94 51 99 54C94 57 91 61 91 69V101H65" stroke="currentColor" strokeWidth="9"/>
-  </svg>;
+  return <img className={className} src="/brand/symbol-white.svg" width={358} height={363} alt="" aria-hidden="true"/>;
 }
 
 function ManifestoFilm() {

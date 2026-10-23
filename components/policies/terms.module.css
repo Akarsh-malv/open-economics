@@ -13,3 +13,8 @@
 .contents a:hover{color:#0b1f3a;background:#f5f7fa}
 .contents a[aria-current=location]{color:#0b1f3a;font-weight:600;border-left-color:#0b1f3a}
 @media(max-width:760px){.reading p,.reading li{font-size:13px;line-height:1.85}.contents{max-height:260px;overflow-y:auto}.intro{margin-bottom:36px}}
+
+.terms .description{font-size:16px;line-height:1.7;max-width:650px;margin-top:20px;color:#5d6978}
+.metadata{display:flex;flex-wrap:wrap;gap:12px 30px;margin:0 0 26px;font-size:12px;line-height:1.7;color:#6b7786}
+.metadata>div{display:flex;gap:8px;flex-wrap:wrap}.metadata dt{font-weight:500}.metadata dd{margin:0;font-weight:400}
+@media(max-width:600px){.terms .description{font-size:14px}.metadata{flex-direction:column;gap:7px;margin-top:0}}

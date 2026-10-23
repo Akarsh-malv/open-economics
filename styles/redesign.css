@@ -97,3 +97,11 @@ body{font-family:var(--font-manrope);font-weight:500}
 @media(max-width:760px){.oe-design .oe-reference-dashboard{padding:26px 20px}.oe-design .learn-welcome{display:block;padding:29px;min-height:345px}.oe-design .learn-welcome h1{font-size:34px}.oe-design .learn-welcome p{font-size:12px;max-width:280px}.oe-design .welcome-sculpture{position:absolute;right:0;bottom:0;width:220px;height:220px;opacity:.2;transform:translate(55px,55px);pointer-events:none}.oe-design .learn-path-strip{grid-template-columns:1fr}.oe-design .learn-path-strip a{border-right:0;border-bottom:1px solid var(--line)}.oe-design .oe-reference-course-grid,.oe-design .oe-dashboard-lower{grid-template-columns:1fr}.oe-design .oe-topbar-crumb{gap:8px}.oe-design .oe-preview-label{display:none}}
 .oe-design .oe-target-backdrop{position:fixed;inset:0;z-index:100;background:#0b1f3a99;display:grid;place-items:center;padding:20px}.oe-design .oe-target-dialog{width:min(460px,100%);background:white;padding:28px;border-radius:15px;box-shadow:0 25px 70px #06122544}.oe-design .oe-target-dialog h2{font-size:21px}.oe-design .oe-target-dialog p{font-size:12px;margin:10px 0 22px}.oe-design .oe-target-dialog label{display:block;font-size:11px;margin-bottom:8px}.oe-design .oe-target-dialog input{width:100%;border:1px solid #c9d3de;border-radius:8px;padding:12px;font-size:13px}.oe-design .oe-target-dialog .actions{display:flex;justify-content:flex-end;gap:10px;margin-top:22px}.oe-design .oe-target-dialog .btn{padding:9px 14px;font-size:11px}
 @media(max-width:960px){.oe-design .oe-nav-backdrop{inset:0}}
+
+/* Supplied OEP logo suite: horizontal header, stacked small lockups, wide footer wordmark. */
+.oe-design .nav-wrap .brand-logo{width:265px;max-height:none;height:auto}
+.oe-design .sidebar .brand-logo{width:182px;max-height:none;height:auto}
+.oe-design .site-footer .brand-logo{width:230px;max-height:none;height:auto}
+.oe-design .footer-signature .brand-logo{width:min(100%,780px);max-height:none;height:auto}
+@media(max-width:1100px){.oe-design .nav-wrap .brand-logo{width:220px}}
+@media(max-width:760px){.oe-design .nav-wrap .brand-logo{width:min(245px,calc(100vw - 110px))}.oe-design .site-footer .brand-logo{width:210px}.oe-design .footer-signature .brand-logo{width:100%}}

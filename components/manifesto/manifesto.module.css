@@ -4,7 +4,7 @@
 .progress>div{height:100%;width:100%;background:#d4a843;transform:scaleX(0);transform-origin:left;transition:transform .1s linear}
 .hero{text-align:center;padding:112px 24px 80px;max-width:1050px;margin:0 auto}
 .mark{width:78px;height:84px;margin:0 auto 49px;color:#0b1f3a}
-.mark svg{width:100%;height:100%;overflow:visible}
+.mark img{width:100%;height:100%;overflow:visible}
 .hero .label{display:flex;align-items:center;justify-content:center;gap:15px;font-size:11px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;margin:0 0 32px;line-height:1.5;color:#5d6978}
 .label::before,.label::after{content:"";width:20px;height:1px;background:#0b1f3a40}
 .hero h1{font-size:clamp(46px,5.5vw,80px);line-height:1.06;font-weight:750;letter-spacing:-.045em;text-wrap:balance}
@@ -15,7 +15,7 @@
 .filmFrame iframe{width:100%;height:100%;border:0;display:block}
 .filmPlaceholder{position:relative;display:flex;align-items:center;justify-content:center;width:100%;height:100%;padding:40px;color:#fff;background-color:#0b1f3a;background-image:linear-gradient(#ffffff03 1px,transparent 1px),linear-gradient(90deg,#ffffff03 1px,transparent 1px);background-size:48px 48px}
 .filmBrand{position:absolute;top:42px;left:46px;display:flex;align-items:center;gap:12px;font-size:13px;letter-spacing:-.01em;z-index:1}
-.filmBrand>svg{width:19px;height:21px;overflow:visible}
+.filmBrand>img{width:19px;height:21px;overflow:visible}
 .filmStamp{position:absolute;top:40px;right:46px;border:1px solid #ffffff1f;border-radius:4px;padding:5px 9px;font-size:9px;font-weight:500;letter-spacing:.18em;color:#a6b4c7;z-index:1}
 .watermark{position:absolute;width:50%;height:62%;inset:0;margin:auto;color:#fff;opacity:.035;pointer-events:none}
 .filmTitle{position:relative;display:flex;flex-direction:column;align-items:center;gap:28px;text-align:center;font-size:clamp(27px,3.5vw,48px);font-weight:600;letter-spacing:-.04em;line-height:1.12;z-index:1}
@@ -43,7 +43,7 @@
 .contrast p:first-child{font-weight:650;color:#0b1f3a;margin-bottom:17px}
 .transition{display:flex;align-items:center;gap:18px}
 .transition span{height:1px;background:var(--rule);flex:1}
-.transition svg{width:19px;height:20px;color:#64748b;overflow:visible}
+.transition img{width:19px;height:20px;color:#64748b;overflow:visible}
 .principle{margin-bottom:48px}
 .principle h2,.principle p{font-size:clamp(32px,3.4vw,49px);font-weight:750;line-height:1.15;letter-spacing:-.04em;scroll-margin-top:125px}
 .principle p{font-weight:400;color:#5d6978;margin-top:8px}
@@ -55,12 +55,12 @@
 .closingRule{width:64px;height:1px;background:#ffffff30;margin:65px auto}
 .closing .invitation{font-size:clamp(20px,1.85vw,28px);line-height:1.6;font-weight:400;letter-spacing:-.02em;margin:0;color:#c2cbd8}
 .signature{display:flex;align-items:center;justify-content:center;gap:18px;margin-top:58px}
-.signature>svg{width:27px;height:30px;overflow:visible}
+.signature>img{width:27px;height:30px;overflow:visible}
 .signature p{font-size:clamp(15px,1.55vw,23px);letter-spacing:-.01em;font-weight:500}
 @media(max-width:1023px){.movement{grid-template-columns:1fr;gap:32px;max-width:680px;margin:auto;padding:80px 0}.marginalia{position:static;justify-self:start}.marginalia>span{font-size:54px}.reading{max-width:800px}.transition{max-width:680px;margin:auto}.hero{padding-top:90px}.closing{padding:140px 40px}}
-@media(max-width:760px){.page{padding-bottom:0}.hero{padding:70px 24px 58px}.mark{width:65px;height:70px;margin-bottom:36px}.hero .label{font-size:10px;margin-bottom:26px}.hero h1{font-size:clamp(41px,7.4vw,58px);line-height:1.08;letter-spacing:-.045em}.hero .promise{font-size:23px;max-width:480px;margin-top:25px}.film{width:calc(100% - 48px);margin-bottom:76px}.filmBrand{top:24px;left:25px;font-size:11px;gap:9px}.filmBrand>svg{width:17px;height:18px}.filmStamp{display:none}.filmTitle{font-size:32px;gap:18px}.play{width:60px;height:60px}.filmFoot{left:25px;right:25px;bottom:24px;font-size:8px;padding-top:10px}.film figcaption{font-size:11px;margin-top:15px}.movement{padding:70px 0;gap:28px}.opening{margin-bottom:36px}.opening h2{font-size:34px}.opening p{font-size:28px;margin-top:18px}.prose p{font-size:18px;line-height:1.8;margin-bottom:28px}.prose .contrast{padding-left:24px;margin:32px 0}.contrast p{font-size:20px;line-height:1.55}.principle{margin-bottom:36px}.principle h2,.principle p{font-size:36px}.prose .conviction{font-size:21px}.closing{padding:100px 24px}.closing h2{font-size:42px}.closingRule{margin:42px auto}.closing .invitation{font-size:19px}.signature{gap:12px;margin-top:40px}.signature p{font-size:16px}.signature>svg{width:24px;height:27px}}
-@media(max-width:500px){.hero h1{font-size:42px}.hero .promise{font-size:21px;max-width:310px}.film{width:calc(100% - 36px)}.filmBrand{top:17px;left:18px;font-size:8px}.filmBrand>svg{width:14px;height:15px}.filmTitle{font-size:25px;gap:14px}.play{width:42px;height:42px}.play svg{width:19px;height:19px}.filmFoot{bottom:17px;left:18px;right:18px;font-size:7px;padding-top:8px;letter-spacing:.1em;gap:8px}.filmStatus{gap:5px}.filmStatus::before{width:4px;height:4px}.film figcaption{font-size:10px;gap:7px;padding:0 10px}.reading{width:calc(100% - 48px)}.opening h2{font-size:32px}.opening p{font-size:26px}.principle h2,.principle p{font-size:34px}.closing h2{font-size:36px}.signature p{font-size:14px}.prose .contrast{padding-right:16px;padding-left:20px}}
-@media(max-width:350px){.hero{padding-inline:18px}.hero h1{font-size:36px}.hero .promise{font-size:20px}.filmTitle{font-size:21px;gap:10px}.play{width:34px;height:34px}.filmBrand{font-size:7px;top:13px}.filmFoot{font-size:6px;bottom:12px}.opening h2{font-size:29px}.principle h2,.principle p{font-size:30px}.closing h2{font-size:31px}.signature{gap:10px}.signature p{font-size:12px}.signature>svg{width:22px;height:24px}}
+@media(max-width:760px){.page{padding-bottom:0}.hero{padding:70px 24px 58px}.mark{width:65px;height:70px;margin-bottom:36px}.hero .label{font-size:10px;margin-bottom:26px}.hero h1{font-size:clamp(41px,7.4vw,58px);line-height:1.08;letter-spacing:-.045em}.hero .promise{font-size:23px;max-width:480px;margin-top:25px}.film{width:calc(100% - 48px);margin-bottom:76px}.filmBrand{top:24px;left:25px;font-size:11px;gap:9px}.filmBrand>img{width:17px;height:18px}.filmStamp{display:none}.filmTitle{font-size:32px;gap:18px}.play{width:60px;height:60px}.filmFoot{left:25px;right:25px;bottom:24px;font-size:8px;padding-top:10px}.film figcaption{font-size:11px;margin-top:15px}.movement{padding:70px 0;gap:28px}.opening{margin-bottom:36px}.opening h2{font-size:34px}.opening p{font-size:28px;margin-top:18px}.prose p{font-size:18px;line-height:1.8;margin-bottom:28px}.prose .contrast{padding-left:24px;margin:32px 0}.contrast p{font-size:20px;line-height:1.55}.principle{margin-bottom:36px}.principle h2,.principle p{font-size:36px}.prose .conviction{font-size:21px}.closing{padding:100px 24px}.closing h2{font-size:42px}.closingRule{margin:42px auto}.closing .invitation{font-size:19px}.signature{gap:12px;margin-top:40px}.signature p{font-size:16px}.signature>img{width:24px;height:27px}}
+@media(max-width:500px){.hero h1{font-size:42px}.hero .promise{font-size:21px;max-width:310px}.film{width:calc(100% - 36px)}.filmBrand{top:17px;left:18px;font-size:8px}.filmBrand>img{width:14px;height:15px}.filmTitle{font-size:25px;gap:14px}.play{width:42px;height:42px}.play svg{width:19px;height:19px}.filmFoot{bottom:17px;left:18px;right:18px;font-size:7px;padding-top:8px;letter-spacing:.1em;gap:8px}.filmStatus{gap:5px}.filmStatus::before{width:4px;height:4px}.film figcaption{font-size:10px;gap:7px;padding:0 10px}.reading{width:calc(100% - 48px)}.opening h2{font-size:32px}.opening p{font-size:26px}.principle h2,.principle p{font-size:34px}.closing h2{font-size:36px}.signature p{font-size:14px}.prose .contrast{padding-right:16px;padding-left:20px}}
+@media(max-width:350px){.hero{padding-inline:18px}.hero h1{font-size:36px}.hero .promise{font-size:20px}.filmTitle{font-size:21px;gap:10px}.play{width:34px;height:34px}.filmBrand{font-size:7px;top:13px}.filmFoot{font-size:6px;bottom:12px}.opening h2{font-size:29px}.principle h2,.principle p{font-size:30px}.closing h2{font-size:31px}.signature{gap:10px}.signature p{font-size:12px}.signature>img{width:22px;height:24px}}
 @media(prefers-reduced-motion:reduce){.progress>div{transition:none}}
 
 @keyframes readingFill{from{transform:scaleX(0)}to{transform:scaleX(1)}}
@@ -81,3 +81,5 @@
 .closing h2>.closingLead{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:center;column-gap:.3em;row-gap:.15em}
 .closingCounter{color:#9dacc0;font-weight:400;font-style:italic;font-synthesis:style}
 .closing h2>.closingChallenge{margin:30px auto 0}
+
+.mark img,.transition img{filter:brightness(0) saturate(100%);object-fit:contain}.filmBrand>img,.signature>img,.watermark{object-fit:contain}

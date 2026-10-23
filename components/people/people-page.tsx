@@ -1,0 +1,40 @@
+"use client";
+import { type MouseEvent, useMemo, useRef, useState } from "react";
+import Link from "next/link";
+import { ArrowLeft, ArrowRight, Search, Users, X } from "lucide-react";
+import founders from "@/lib/people/founders.json";
+import ambassadors from "@/lib/people/ambassadors.json";
+import roles from "@/lib/involved/roles.json";
+import { impactFigures } from "@/lib/redesign/impact";
+import { PeopleNetwork } from "./people-network";
+import styles from "./people.module.css";
+type Profile = { name: string; bio: string; quote: string; tags: string[]; location?: string; city?: string; country?: string };
+const founderImages = { arnav: "/people/arnav-maheshwari-cutout.png", akarsh: "/people/akarsh-malavalli-cutout.png" };
+const founderRoles = { arnav: "Co-Founder + CBO", akarsh: "Co-Founder + CTO" };
+export function PeoplePage() {
+ const [country,setCountry]=useState("all"),[query,setQuery]=useState(""),[layout,setLayout]=useState<"carousel"|"grid">("carousel");
+ const [profile,setProfile]=useState<Profile|null>(null);const dialog=useRef<HTMLDialogElement>(null),carousel=useRef<HTMLDivElement>(null);
+ const visible=useMemo(()=>ambassadors.filter(person=>(country==="all"||person.country===country)&&`${person.name} ${person.city} ${person.focus}`.toLowerCase().includes(query.trim().toLowerCase())),[country,query]);
+ function open(person:Profile){setProfile(person);dialog.current?.showModal();}
+ function scroll(direction:number){carousel.current?.scrollBy({left:direction*(carousel.current.clientWidth*.8),behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});}
+ function scrollToSection(event:MouseEvent<HTMLAnchorElement>){
+  if(event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||event.button!==0)return;
+  const target=document.getElementById(event.currentTarget.hash.slice(1));
+  if(!target)return;
+  event.preventDefault();
+  target.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});
+  history.pushState(null,'',event.currentTarget.hash);
+ }
+ function resetScroll(){carousel.current?.scrollTo({left:0,behavior:'instant'});}
+ return <div className={styles.page}><div className={styles.content}>
+  <section className={styles.hero}><div><p className={styles.eyebrow}><Users size={17}/>Our people</p><h1>Global purpose.<br/>Local leadership.</h1><p className={styles.lead}>Ambassadors, educators and contributors turning shared ideas into local opportunities.</p><nav className={styles.jumps} aria-label="Explore our people"><a href="#leadership" onClick={scrollToSection}>Founders &amp; Leadership ↓</a><a href="#ambassadors" onClick={scrollToSection}>Meet the Ambassadors</a><a href="#global-network" onClick={scrollToSection}>Global Network</a></nav></div><dl className={styles.stats}>{[["Founders","2"],["Ambassadors",String(ambassadors.length)],["Countries","25"],["Learners",new Intl.NumberFormat('en-US').format(impactFigures.learnersServed)]].map(([label,value])=><div key={label}><dt>{label}</dt><dd>{value}</dd></div>)}</dl></section>
+  <section id="leadership" className={styles.leadership} aria-label="Co-founders and leadership"><div className={styles.founderGrid}>{(["akarsh", "arnav"] as const).map(key => { const person = founders[key]; return <article className={styles.founderCard} key={key}><div className={styles.founderPhoto} data-founder={key}><img src={founderImages[key]} alt={person.name} width={1254} height={1254}/><span>Co-founder</span></div><div className={styles.founderCopy}><h2>{person.name}</h2><p>{founderRoles[key]}</p><blockquote className={styles.founderQuote}>{person.quote}</blockquote><button type="button" className={styles.textButton} onClick={()=>open(person)}>Read bio <ArrowRight size={16}/></button></div></article>; })}</div>
+
+  </section>
+  <section id="ambassadors" className={styles.ambassadors}><header className={styles.sectionHead}><div><p className={styles.eyebrow}>Meet the ambassadors</p><h2>{ambassadors.length} perspectives. A shared purpose.</h2></div></header><div className={styles.toolbar}><label><span className={styles.srOnly}>Filter ambassadors by country</span><select value={country} onChange={e=>{setCountry(e.target.value);resetScroll();}}><option value="all">All countries</option>{[...new Set(ambassadors.map(p=>p.country))].sort().map(c=><option key={c}>{c}</option>)}</select></label><label className={styles.search}><Search size={17}/><span className={styles.srOnly}>Search ambassadors</span><input type="search" value={query} onChange={e=>{setQuery(e.target.value);resetScroll();}} placeholder="Name, city or initiative"/></label><span className={styles.resultCount} aria-live="polite">{visible.length} {visible.length===1?"profile":"profiles"}</span><div className={styles.viewToggle} role="group" aria-label="Ambassador layout"><button type="button" aria-pressed={layout==="carousel"} onClick={()=>setLayout("carousel")}>Carousel</button><button type="button" aria-pressed={layout==="grid"} onClick={()=>setLayout("grid")}>Grid View</button></div>{layout==="carousel"&&<div className={styles.arrows}><button type="button" aria-label="Previous ambassadors" onClick={()=>scroll(-1)} disabled={visible.length<2}><ArrowLeft size={17}/></button><button type="button" aria-label="Next ambassadors" onClick={()=>scroll(1)} disabled={visible.length<2}><ArrowRight size={17}/></button></div>}</div>
+   <div ref={carousel} className={layout==="grid"?styles.ambassadorGrid:styles.carousel} aria-label="Ambassador profiles" tabIndex={0}>{visible.map(person=><article className={styles.ambassadorCard} key={person.id}><button type="button" className={styles.portrait} style={{backgroundColor:person.bgHex}} aria-label={`Meet ${person.name}`} onClick={()=>open(person)}><strong>{person.initials}</strong><span>{person.country}</span><i aria-hidden="true"/></button><div className={styles.cardCopy}><h3>{person.name}</h3><p className={styles.city}>{person.city}</p><p>{person.focus}</p><button type="button" className={styles.textButton} onClick={()=>open(person)}>Read perspective <ArrowRight size={15}/></button></div></article>)}</div>
+   {!visible.length&&<div className={styles.empty}><h3>No matching ambassadors</h3><button type="button" className={styles.textButton} onClick={()=>{setCountry("all");setQuery("");}}>Clear filters →</button></div>}
+  </section>
+ </div><PeopleNetwork/><div className={styles.content}>   <div className={styles.leadershipRoles}><header><h2>Leadership opportunities</h2><Link href="/involved#open-roles">View all openings →</Link></header><div>{roles.filter(role=>role.group!=="community").map(role=><Link href={`/involved/${role.id}`} className={styles.roleCard} key={role.id}><span>{role.group==="executive"?"Executive":"Department"}</span><h3>{role.title}</h3><small>Explore role <ArrowRight size={14}/></small></Link>)}</div></div><section className={styles.join}><div><p className={styles.eyebrow}>Join our people</p><h2>Bring your perspective<br/>to your community.</h2></div><div className={styles.joinActions}><Link href="/involved/student-ambassador">Become an ambassador ↗</Link><Link href="/involved/workshop-facilitator">Facilitate a workshop ↗</Link></div></section></div>
+ <dialog ref={dialog} className={styles.profileDialog} aria-labelledby="people-profile-title" onClick={e=>{if(e.target===e.currentTarget){const r=e.currentTarget.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.current?.close();}}}>{profile&&<><button className={styles.close} type="button" aria-label="Close profile" onClick={()=>dialog.current?.close()}><X size={20}/></button><h2 id="people-profile-title">{profile.name}</h2><p className={styles.profileMeta}>{profile.location??profile.city}</p><p>{profile.bio}</p></>}</dialog></div>;
+}

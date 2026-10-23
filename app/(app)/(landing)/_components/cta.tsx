@@ -25,7 +25,7 @@ export function CTASection({
       description: "Built with precision",
     },
     {
-      title: "Free Lessons",
+      title: "Free lessons",
       description: "Try before joining",
     },
   ];
@@ -52,7 +52,7 @@ export function CTASection({
                   className="px-8 py-6 inline-flex items-center justify-center gap-2 text-base w-full"
                 >
                   <Link href={previewLink}>
-                    Start Free Lessons
+                    Start free lessons
                     <ArrowRight size={20} />
                   </Link>
                 </Button>

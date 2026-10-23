@@ -42,6 +42,18 @@ function Body({ items }: { items: Paragraph[] }) {
 }
 export function PolicyDocument({ paragraphs, policyKey }: { paragraphs: Paragraph[]; policyKey: "terms" | "privacy" | "licensing" | "accessibility" | "methodology" }) {
     const firstSection = paragraphs.findIndex(p => p.style === "Heading2");
+    const descriptions = {
+        terms: "The terms that apply to OEP’s website, learning resources and programs.",
+        privacy: "How we collect, use and protect your information.",
+        accessibility: "Our commitment to making economic learning accessible.",
+        licensing: "How OEP’s educational materials may be used and shared.",
+        methodology: "How we measure and report our impact.",
+    };
+    const dates = text(paragraphs[2]).split(/\r?\n/).flatMap(line => {
+        const match = line.trim().match(/^(Effective Date|Last Updated):\s*(.+)$/i);
+        return match ? [{ label: match[1].toLowerCase() === "effective date" ? "Effective date" : "Last updated", value: match[2] }] : [];
+    });
+    const introduction = paragraphs.slice(3, firstSection).filter(paragraph => text(paragraph).trim() !== "The Open Economics Project");
     const sections: { heading: Paragraph; body: Paragraph[] }[] = [];
     for (const paragraph of paragraphs.slice(firstSection)) {
         if (paragraph.style === "Heading2") sections.push({ heading: paragraph, body: [] });
@@ -60,15 +72,15 @@ export function PolicyDocument({ paragraphs, policyKey }: { paragraphs: Paragrap
         <header className="policy-heading">
             <div className="eyebrow">{policyKey === "methodology" ? "ACCOUNTABILITY" : "POLICIES & ACCESS"}</div>
             <h1 data-policy-paragraph data-terms-paragraph><RichText paragraph={paragraphs[0]}/></h1>
-            <p data-policy-paragraph data-terms-paragraph><RichText paragraph={paragraphs[1]}/></p>
-            <p className={styles.dates} data-policy-paragraph data-terms-paragraph><RichText paragraph={paragraphs[2]}/></p>
+            <p className={styles.description}>{descriptions[policyKey]}</p>
         </header>
         <nav className="policy-switcher" aria-label="Policies and resources">
             {Object.entries(blueprint.policies).map(([key, policy]) => <Link key={key} href={`/${key}`} className={key === policyKey ? "active" : ""} aria-current={key === policyKey ? "page" : undefined}>{policy.title}</Link>)}
         </nav>
         <div className="policy-layout">
             <article className={`policy-reading ${styles.reading}`} aria-label={text(paragraphs[0])}>
-                {firstSection > 3 && <div className={styles.intro}><Body items={paragraphs.slice(3,firstSection)}/></div>}
+            <dl className={styles.metadata} aria-label="Policy dates">{dates.map(date => <div key={date.label}><dt>{date.label}</dt><dd>{date.value}</dd></div>)}</dl>
+                {introduction.length > 0 && <div className={styles.intro}><Body items={introduction}/></div>}
                 {sections.map((section, index) => <section key={index} className="policy-section" id={`${policyKey}-section-${index+1}`} data-terms-section tabIndex={-1}>
                     <h2 data-policy-paragraph data-terms-paragraph><RichText paragraph={section.heading}/></h2>
                     <Body items={section.body}/>

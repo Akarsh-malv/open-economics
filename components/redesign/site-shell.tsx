@@ -7,7 +7,7 @@ import { courseFamilies, useCourseFamily } from "@/lib/redesign/course-family";
 import { PublicFooter } from "./public-page";
 
 function activePath(path: string, href: string) { return path === href || (!['/', '/learn'].includes(href) && path.startsWith(href + '/')); }
-const publicLinks = [['Home', '/'], ['Our Work', '/work'], ['Our People', '/people'], ['Impact', '/impact'], ['Get Involved', '/involved'], ['Stories', '/stories']];
+const publicLinks = [['Home', '/'], ['Our work', '/work'], ['Our people', '/people'], ['Impact', '/impact'], ['Get involved', '/involved'], ['Stories', '/stories']];
 type SideLink = readonly [ComponentType<{size?: number; strokeWidth?: number}>, string, string];
 const sideGroups: ReadonlyArray<{ title: string; links: ReadonlyArray<SideLink> }> = [
   { title: '', links: [[Home, 'Home', '/learn'], [ChartNoAxesColumn, 'Analytics', '/learn/analytics'], [Bookmark, 'Saved & mistakes', '/learn/saved']] },
@@ -17,7 +17,7 @@ const sideGroups: ReadonlyArray<{ title: string; links: ReadonlyArray<SideLink> 
   { title: 'LEARN', links: [[BookOpen, 'Lessons', '/learn/lessons'], [FileText, 'Study guides', '/learn/guides'], [Layers3, 'Flashcards', '/learn/flashcards']] },
 ];
 const crumbName = (path: string) => sideGroups.flatMap(g => g.links).find(([, , href]) => activePath(path, href))?.[1] ?? 'Learning workspace';
-export function DesignBrand({ learn = false }: { learn?: boolean }) { return <Link className={'brand ' + (learn ? 'learn-brand' : '')} href={learn ? '/learn' : '/'} aria-label={learn ? 'OEP Learn home' : 'OpenEconomics home'}><img className="brand-logo" src="/design-assets/openeconomics-wordmark-white.svg" width={1574} height={270} alt="OpenEconomics"/>{learn && <span className="learn-word">LEARN</span>}</Link>; }
+export function DesignBrand({ learn = false }: { learn?: boolean }) { return <Link className={'brand ' + (learn ? 'learn-brand' : '')} href={learn ? '/learn' : '/'} aria-label={learn ? 'OEP Learn home' : 'OpenEconomics home'}><img className="brand-logo" src={learn ? "/brand/stacked-white.svg" : "/brand/lockup-white.svg"} width={learn ? 643 : 910} height={learn ? 183 : 118} alt="The Open Economics Project"/>{learn && <span className="learn-word">LEARN</span>}</Link>; }
 export function SiteShell({ children }: { children: ReactNode }) {
   const path = usePathname();
   const [open, setOpen] = useState(false);

@@ -25,12 +25,12 @@ export function BrandLogo({
       )}
     >
       <Image
-        src={icon ? "/brand-icon.png" : "/brand-wordmark.png"}
-        alt={icon ? "Open Economics icon" : "Open Economics"}
+        src={icon ? "/brand/symbol-white.svg" : "/brand/lockup-white.svg"}
+        alt={icon ? "The Open Economics Project symbol" : "The Open Economics Project"}
         fill
         priority={priority}
         sizes={icon ? "48px" : "(max-width: 640px) 200px, 580px"}
-        className={cn("object-contain", onDark && "brightness-0 invert")}
+        className={cn("object-contain", !onDark && "brightness-0")}
       />
     </span>
   );
