@@ -98,7 +98,7 @@ export function IbPaperOneBank({ topic, slug }: { topic: IbTopic; slug: string }
         <section className={styles.part}><div className={styles.partHead}><h3>Part (a)</h3><span>10 marks</span></div><p>{current.a.prompt}</p><label htmlFor="ib-answer-a">Your response</label><textarea id="ib-answer-a" value={currentDraft.a} onChange={event => updateDraft("a", event.target.value)} placeholder="Write your explanation here…" rows={9}/></section>
         <section className={styles.part}><div className={styles.partHead}><h3>Part (b)</h3><span>15 marks</span></div><p>{current.b.prompt}</p><label htmlFor="ib-answer-b">Your response</label><textarea id="ib-answer-b" value={currentDraft.b} onChange={event => updateDraft("b", event.target.value)} placeholder="Use real-world examples and develop your evaluation…" rows={12}/></section>
         <div className={styles.status} role="status">{storageAvailable ? (loaded ? savedAt || "Drafts save automatically on this device." : "Loading your drafts…") : "Your draft cannot be saved on this device."}</div>
-        {process.env.NODE_ENV !== "production" && <AiFeedback key={`${slug}-${current.id}`} topic={slug} questionId={current.id} a={currentDraft.a} b={currentDraft.b}/>}
+        <AiFeedback key={`${slug}-${current.id}`} topic={slug} questionId={current.id} a={currentDraft.a} b={currentDraft.b}/>
         <div className={styles.navigation}><button type="button" onClick={() => previous && selectQuestion(previous.id)} disabled={!previous}>← Previous question</button><span>{position + 1} / {visible.length}</span><button type="button" onClick={() => next && selectQuestion(next.id)} disabled={!next}>Next question →</button></div>
       </article>
     </div>

@@ -30,7 +30,8 @@ export function AiFeedback({ topic, questionId, a, b }: { topic: string; questio
   return <section className={styles.aiFeedback} aria-labelledby="ai-feedback-title" aria-busy={busy}>
     <div className={styles.partHead}><h3 id="ai-feedback-title">AI feedback</h3><span>Parts (a) + (b) · 25 marks</span></div>
     <p>Get feedback on your explanation, analysis and evaluation. Submitting sends both written responses to OpenAI for assessment. Include any diagram explanation in your text; image uploads are not supported yet.</p>
-    <button className={styles.gradeButton} type="button" onClick={grade} disabled={busy || !a.trim() || !b.trim() || a.length > 20000 || b.length > 20000}>{busy ? "Assessing your response…" : assessment ? "Grade again with AI" : "Grade with AI"}</button>
+    <button className={styles.gradeButton} type="button" onClick={grade} disabled={busy || !a.trim() || !b.trim() || a.length > 20000 || b.length > 20000}>{busy ? "Assessing your response…" : assessment ? "Submit again for grading" : "Submit for grading"}</button>
+    {(!a.trim() || !b.trim()) && <p className={styles.storageNote}>Complete both parts to submit for grading.</p>}
     <p className={styles.storageNote}>AI feedback supports your learning and may make mistakes. It is not an official IB grade.</p>
     {error && <p role="alert" className={styles.gradeError}>{error}</p>}
     {edited && <p role="status">You’ve edited your response. Grade again to get feedback on the latest version.</p>}
