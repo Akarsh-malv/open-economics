@@ -14,7 +14,7 @@ it("shows the grading submission control in production with instructions for emp
   );
   const document = new DOMParser().parseFromString(html, "text/html");
   const button = Array.from(document.querySelectorAll("button")).find(
-    (element) => element.textContent === "Submit for grading",
+    (element) => element.textContent?.startsWith("Submit for grading"),
   );
   expect(button).toBeDefined();
   expect(button?.disabled).toBe(true);

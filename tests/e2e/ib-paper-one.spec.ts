@@ -35,3 +35,24 @@ test('filters HL questions and restores both response drafts', async ({ page }) 
   await expect(page.getByLabel('Your response').last()).toHaveValue('A real-world case requires conditional evaluation.');
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });
+
+test('shows the shared design and restores saved questions and responses', async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 1000 });
+  await page.goto('/practice/ib/1-1');
+  const submit = page.getByRole('button', { name: 'Submit for grading', exact: true });
+  await expect(submit).toBeDisabled();
+  await page.getByRole('button', { name: 'Save', exact: true }).click();
+  await page.getByLabel('Your response').first().fill('Resources remain scarce relative to unlimited wants.');
+  await page.getByLabel('Your response').last().fill('Technological progress increases output but does not eliminate opportunity cost.');
+  await expect(page.getByText('1 of 20 questions answered', { exact: true })).toBeVisible();
+  await expect(submit).toBeEnabled();
+  await expect(page.getByRole('status')).toContainText('Saved on this device');
+  await page.screenshot({ path: 'test-results/ib-design-desktop.png', fullPage: true });
+  await page.reload();
+  await expect(page.getByRole('button', { name: 'Saved', exact: true })).toHaveAttribute('aria-pressed', 'true');
+  await expect(page.getByLabel('Your response').first()).toHaveValue('Resources remain scarce relative to unlimited wants.');
+  await page.setViewportSize({ width: 390, height: 844 });
+  await expect(submit).toBeVisible();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  await page.screenshot({ path: 'test-results/ib-design-mobile.png', fullPage: true });
+});
