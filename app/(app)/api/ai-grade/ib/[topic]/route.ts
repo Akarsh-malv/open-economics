@@ -1,3 +1,4 @@
+import { checkBotId } from "botid/server";
 import { gradeIbSubmission } from "@/lib/ai-grader/ib";
 import { reserveGrade } from "@/lib/ai-grader/limits";
 import {
@@ -68,6 +69,17 @@ export async function POST(
     !ibTopicData[topic].questions.some((q) => q.id === parsed.data.questionId)
   )
     return error("Question not found.", 404);
+  if (production) {
+    try {
+      if ((await checkBotId()).isBot)
+        return error("Unable to verify this request.", 403);
+    } catch {
+      return error(
+        "AI grading is temporarily unavailable. Your draft is safe on this device.",
+        503,
+      );
+    }
+  }
   const publicLimit = production ? await allowPublicGrade(request) : null;
   if (publicLimit && !publicLimit.allowed) {
     const message =
