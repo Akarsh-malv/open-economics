@@ -13,8 +13,12 @@
 .oe-design .sidebar > * { flex-shrink: 0; }
 .oe-design .sidebar .brand-logo { width: 182px; max-width: 100%; }
 .oe-design .sidebar .learn-word { font-size: 13px; }
+.oe-design .sidebar .learn-brand { display: block; position: relative; width: 182px; margin-bottom: 40px; }
+.oe-design .sidebar .learn-brand .brand-logo { display: block; width: 182px; }
+.oe-design .sidebar .learn-brand .learn-word { position: absolute; top: 35px; left: 105px; margin: 0; padding: 2px 6px; font-size: 10px; letter-spacing: .8px; white-space: nowrap; }
 .oe-design .oe-sidebar-label { font-size: 8px; margin: 8px 0 26px 35px; }
 .oe-design .oe-family-switch {
+  grid-template-columns: repeat(3, minmax(0, .85fr)) minmax(0, 1.45fr);
   padding: 4px;
   gap: 3px;
   margin: 0 0 25px;
@@ -29,6 +33,7 @@
   font-weight: 600;
   border-radius: 9px;
 }
+.oe-design .oe-family-switch button:last-child { white-space: nowrap; }
 .oe-design .oe-family-switch button.active { background: #41536c; }
 .oe-design .sidebar nav { display: block; }
 .oe-design .oe-side-group { display: grid; gap: 4px; margin: 0; }
@@ -117,7 +122,8 @@
 .oe-design .oe-pathway-card > small { font-size: 9px; color: #8a95a4; margin-bottom: 5px; }
 .oe-design .oe-pathway-card h3 { position: relative; z-index: 1; font-size: 14px; line-height: 1.4; max-width: 85%; margin: 0 0 18px; color: #5d6978; }
 .oe-design .oe-pathway-open { display: inline-flex; gap: 6px; align-items: center; margin-top: auto; font-size: 9px; color: #5d6978; z-index: 1; padding: 4px 8px; background: #ffffffd9; border-radius: 20px; }
-.oe-design .oe-pathway-art { position: absolute; display: grid; place-items: center; width: 135px; height: 135px; right: -18px; bottom: -28px; border: 18px solid var(--course-halo); background: var(--course-disc); color: var(--course-ink); border-radius: 50%; z-index: -1; }
+.oe-design .oe-pathway-art { position: absolute; display: grid; place-items: center; width: 142px; height: 142px; right: -11px; bottom: -28px; z-index: -1; pointer-events: none; }
+.oe-design .oe-pathway-art img { display: block; width: 100%; height: 100%; object-fit: contain; }
 .oe-design .tone-macro { --course-disc: #cc9d75; --course-halo: #f1e0ce; --course-ink: #ad835e; }
 .oe-design .tone-micro { --course-disc: #6d9c8e; --course-halo: #dceadf; --course-ink: #54897b; }
 .oe-design .tone-ib { --course-disc: #928daf; --course-halo: #e8e5f1; --course-ink: #777393; }
@@ -157,7 +163,11 @@
 .oe-design .olympiad-art { position: relative; min-height: 200px; display: flex; justify-content: center; align-items: center; }
 .oe-design .olympiad-art .medal-ring { position: absolute; width: 180px; height: 180px; border: 19px solid #dfbd7e; border-radius: 50%; transform: rotate(-25deg) scaleX(.7); box-shadow: 10px 6px 0 #0b1f3a77; }
 .oe-design .olympiad-art .medal-ring.second { transform: translateX(35px) rotate(25deg) scaleX(.7); border-color: #79a89a; mix-blend-mode: screen; }
-.oe-design .olympiad-art > span:last-child { z-index: 1; font-size: 14px; letter-spacing: 2px; line-height: 1.7; color: #fff; transform: translateX(85px); }
+.oe-design .olympiad-art:not(.oe-studio-artwork) { display: flex; justify-content: center; gap: 20px; }
+.oe-design .oe-olympiad-rings { position: relative; flex: 0 0 215px; min-height: 200px; }
+.oe-design .oe-olympiad-rings .medal-ring { top: 50%; left: 50%; transform: translate(-58%, -50%) rotate(-25deg) scaleX(.7); }
+.oe-design .oe-olympiad-rings .medal-ring.second { transform: translate(-40%, -50%) rotate(25deg) scaleX(.7); }
+.oe-design .olympiad-banner .olympiad-art > .oe-olympiad-words { z-index: 1; font-size: 14px; letter-spacing: 2px; line-height: 1.7; color: #fff; white-space: nowrap; transform: none; }
 .oe-design .olympiad-banner.studio-hero { margin: 0; min-height: 270px; }
 .oe-design .studio-hero h1 { color: #fff; font-size: 37px; line-height: 1.1; letter-spacing: -1.2px; margin-bottom: 0; }
 .oe-design .studio-hero .pill { background: #ffffff15; color: #fff; font-size: 8px; }
@@ -252,3 +262,27 @@
  .oe-design .oe-olympiad-development-hero .medal-ring { height:230px; border-width:20px; }
  .oe-design .oe-studio-motto { font-size:15px; letter-spacing:1px; }
 }
+
+/* Supplied OEP Learn course artwork. Icons have transparent surroundings. */
+.oe-design .learn-welcome {
+  background-image: linear-gradient(90deg, #0b1f3af2 0%, #0b1f3ad9 44%, #0b1f3a14 100%), url('/learn-art/main-wallpaper.webp');
+  background-position: center;
+  background-size: cover;
+}
+.oe-design .learn-welcome .welcome-sculpture { display: none; }
+.oe-design .oe-course-art {
+  background-position: center;
+  background-size: cover;
+  isolation: isolate;
+}
+.oe-design .oe-course-art::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #071b30b0, #071b3020);
+  z-index: -1;
+}
+.oe-design .oe-course-art::after { display: none; }
+.oe-design .oe-course-art > img { width: 115px; height: 115px; object-fit: contain; }
+.oe-design .oe-course-art > span,
+.oe-design .oe-course-art > small { color: #fff; z-index: 1; }

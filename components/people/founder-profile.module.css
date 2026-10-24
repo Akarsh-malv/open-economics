@@ -1,0 +1,35 @@
+.page{background:#f8fafb;color:#0b1f3a;font-family:Manrope,sans-serif}
+.inner{width:min(1180px,calc(100% - 80px));margin:0 auto;padding:48px 0 110px}
+.breadcrumb{display:flex;align-items:center;gap:10px;padding-bottom:26px;border-bottom:1px solid #dce4eb;color:#718396;font-size:12px}
+.breadcrumb a,.backLink{display:inline-flex;align-items:center;gap:8px;color:#315a70;font-weight:700;text-decoration:none}
+.breadcrumb a:hover,.backLink:hover{text-decoration:underline}
+.introduction{display:grid;grid-template-columns:minmax(0,1fr) minmax(340px,.88fr);align-items:center;gap:clamp(52px,8vw,130px);padding:72px 0 92px}
+.introCopy{max-width:510px}
+.eyebrow,.sectionIndex{margin:0;color:#5c778c;font-size:11px;font-weight:750;letter-spacing:.12em;line-height:1.6;text-transform:uppercase}
+.introduction h1{margin:25px 0 16px;font-size:clamp(55px,6vw,83px);line-height:1.1;letter-spacing:-.055em}
+.role{margin:0;color:#41637b;font-size:15px;font-weight:700;line-height:1.6}
+.region{margin:7px 0 0;color:#718396;font-size:13px;line-height:1.6}
+.statement{margin:35px 0 0;color:#314e65;font-size:clamp(20px,2vw,25px);line-height:1.65;letter-spacing:-.025em}
+.portrait{height:510px;overflow:hidden;background:#e9eef1}
+.portrait img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 28%}
+.portraitPlaceholder{display:flex;align-items:end;justify-content:center;width:100%;height:100%;padding:30px;background:linear-gradient(135deg,#e9eef1,#dfe8ed);color:#60788a;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.editorialSection{display:grid;grid-template-columns:225px minmax(0,1fr);gap:25px;padding:45px 0 57px;border-top:1px solid #dce4eb}
+.sectionIndex{padding-top:9px}
+.sectionBody{max-width:790px}
+.sectionBody h2{margin:0 0 27px;font-size:32px;font-weight:750;line-height:1.2;letter-spacing:-.04em}
+.prose{max-width:660px}
+.prose p{margin:0 0 22px;color:#4a6174;font-size:17px;line-height:1.85}
+.prose p:last-child{margin-bottom:0}
+.workList article{display:grid;grid-template-columns:minmax(150px,.65fr) minmax(0,1fr);gap:32px;padding:24px 0;border-top:1px solid #dce4eb}
+.workList article:first-child{padding-top:0;border-top:0}
+.workList h3{margin:0;font-size:18px;font-weight:750;line-height:1.4;letter-spacing:-.03em}
+.workList p{margin:0;color:#536a7c;font-size:14px;line-height:1.75}
+.workList a{display:inline-flex;align-items:center;gap:7px;margin-top:12px;color:#24516a;font-size:12px;font-weight:750;text-decoration:none}
+.workList a:hover{text-decoration:underline}
+.backLink{margin-top:12px;font-size:13px}
+.professionalLinks{display:flex;justify-content:space-between;gap:20px;padding:27px 0 35px;border-top:1px solid #dce4eb}
+.professionalLinks>span{color:#5c778c;font-size:11px;font-weight:750;letter-spacing:.1em;text-transform:uppercase}
+.professionalLinks>div{display:flex;flex-wrap:wrap;gap:12px 24px}.professionalLinks a{display:inline-flex;align-items:center;gap:7px;color:#24516a;font-size:13px;font-weight:750;text-decoration:none}.professionalLinks a:hover{text-decoration:underline}
+.page a:focus-visible{outline:3px solid #dfb874;outline-offset:4px}
+@media(max-width:800px){.inner{width:calc(100% - 44px);padding:30px 0 75px}.introduction{grid-template-columns:1fr;gap:36px;padding:52px 0 62px}.introduction h1{font-size:clamp(45px,11vw,65px)}.statement{margin-top:26px;font-size:19px}.portrait{height:320px;max-width:560px}.editorialSection{grid-template-columns:1fr;gap:18px;padding:35px 0 45px}.sectionBody h2{font-size:28px;margin-bottom:23px}.prose p{font-size:16px}.workList article{grid-template-columns:1fr;gap:8px}.workList h3{font-size:17px}}
+@media(max-width:480px){.portrait{height:255px}.breadcrumb{font-size:11px}.introduction{padding-top:44px}.eyebrow,.sectionIndex{font-size:10px}.role{font-size:13px}.statement{font-size:18px}}

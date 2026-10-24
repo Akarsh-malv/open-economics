@@ -9,3 +9,21 @@
 @media(max-width:760px){.founderQuote{font-size:14px;padding-left:15px}}
 
 .toolbar select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%230b1f3a' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:42px}
+
+.network{padding:38px 0 40px}
+.networkHead{margin-bottom:22px;align-items:center}
+.networkHead .eyebrow{margin-bottom:10px}
+.network h2{font-size:clamp(26px,2.6vw,32px)}
+.networkHead select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23d6e6ee' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:42px}
+.globeFrame{max-width:860px;margin:0 auto;padding:12px 25px 0}
+.globe{width:min(100%,440px)}
+.countryDetail{min-height:82px;padding:14px 0 18px}
+@media(max-width:760px){.network{padding:30px 0}.networkHead{align-items:stretch;gap:16px;margin-bottom:18px}.network h2{font-size:27px}.globeFrame{padding:8px 12px 0}.globe{width:min(100%,330px)}.countryDetail{min-height:90px;padding:12px 2px 16px}}
+
+.leadershipRoles{scroll-margin-top:110px}.leadershipRoles header .eyebrow{margin-bottom:10px}.roleCard h3{margin-bottom:12px}.roleCard p{font-size:12px;line-height:1.65;margin:0 0 22px}
+
+.ambassadorSocial{display:flex;justify-content:flex-end;align-items:center;height:48px;padding:7px 13px;background:#fff;border-bottom:1px solid #edf1f5}
+.ambassadorLinkedin{display:grid;place-items:center;width:32px;height:32px;border:1px solid #dce4ee;border-radius:7px;background:#f8fafc;color:#0b1f3a}
+.page .ambassadorLinkedin:disabled{opacity:1;cursor:default}
+.ambassadorLinkedin svg{width:17px;height:17px}
+

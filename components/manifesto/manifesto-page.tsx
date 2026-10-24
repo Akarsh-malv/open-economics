@@ -37,7 +37,7 @@ function Marginalia({ number }: { number: string }) {
 export function ManifestoPage() {
   return <div className={styles.page} id="oep-manifesto">
     <ReadingProgress/>
-    <header className={styles.hero}>
+    <header className={`${styles.hero} oe-page-hero`}>
       <div className={styles.mark} role="img" aria-label="The Open Economics Project"><OEPMark/></div>
       <p className={styles.label} data-manifesto-copy>{manifesto.title}</p>
       <h1 data-manifesto-copy><span><RevealWords text="Economic knowledge"/></span>{" "}<span><RevealWords text="should be open."/></span></h1>

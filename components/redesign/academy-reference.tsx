@@ -2,18 +2,19 @@
 
 import Link from "next/link";
 import { useRef, useState, type ReactNode } from "react";
-import { ArrowRight, Bookmark, ChartLine, Globe, Info, Landmark, LayoutGrid, Lightbulb, Play, Scale, Target } from "lucide-react";
+import { ArrowRight, Bookmark, Info, LayoutGrid, Play } from "lucide-react";
 import { useCourseFamily } from "@/lib/redesign/course-family";
+import { courseArtwork } from "@/lib/redesign/course-art";
 import type { HistoryRow } from "@/lib/redesign/history";
 import blueprint from "@/lib/redesign/academy-content.json";
 
 const pathways = [
-  { id: "macro", title: "AP Macroeconomics", tag: "AP", family: "AP", icon: ChartLine, learn: "/course/ap-macroeconomics", practice: "/practice/ap-macro" },
-  { id: "micro", title: "AP Microeconomics", tag: "AP", family: "AP", icon: Scale, learn: "/course/ap-microeconomics", practice: "/practice/ap-micro" },
-  { id: "ib", title: "IB Economics", tag: "IB · SL & HL", family: "IB", icon: Globe, learn: "/courses?family=IB", practice: "/practice/ib" },
-  { id: "alevel", title: "Cambridge Economics", tag: "AS & A LEVEL", family: "A-level", icon: Landmark, learn: "/practice/a-level", practice: "/practice/a-level" },
-  { id: "foundations", title: "Economics Foundations", tag: "OPEN LEARNING", family: "All", icon: Lightbulb, learn: "/learn/lessons", practice: "/practice/ap-micro" },
-  { id: "olympiad", title: "Olympiad Preparation", tag: "COMPETITION", family: "All", icon: Target, learn: "/learn/olympiad", practice: "/learn/olympiad" },
+  { id: "macro", title: "AP Macroeconomics", tag: "AP", family: "AP", learn: "/course/ap-macroeconomics", practice: "/practice/ap-macro" },
+  { id: "micro", title: "AP Microeconomics", tag: "AP", family: "AP", learn: "/course/ap-microeconomics", practice: "/practice/ap-micro" },
+  { id: "ib", title: "IB Economics", tag: "IB · SL & HL", family: "IB", learn: "/courses?family=IB", practice: "/practice/ib" },
+  { id: "alevel", title: "Cambridge Economics", tag: "AS & A LEVEL", family: "A-level", learn: "/practice/a-level", practice: "/practice/a-level" },
+  { id: "foundations", title: "Economics Foundations", tag: "OPEN LEARNING", family: "All", learn: "/learn/lessons", practice: "/practice/ap-micro" },
+  { id: "olympiad", title: "Olympiad Preparation", tag: "COMPETITION", family: "All", learn: "/learn/olympiad", practice: "/learn/olympiad" },
 ] as const;
 
 export function PathwayCards({ mode = "learn", heading = false }: { mode?: "learn" | "practice"; heading?: boolean }) {
@@ -21,9 +22,9 @@ export function PathwayCards({ mode = "learn", heading = false }: { mode?: "lear
   const visible = pathways.filter(course => family === "All" || course.family === family);
   return <section className="oe-pathways" aria-label={mode === "learn" ? "Your courses" : "Practice courses"}>
     {heading && <div className="section-head"><h2><LayoutGrid size={21}/>Your courses</h2><span className="pill">{visible.length} pathways</span></div>}
-    <div className="oe-pathway-grid">{visible.map(({ id, title, tag, icon: Icon, ...course }) => <Link className={`oe-pathway-card tone-${id}`} key={id} href={course[mode]}>
+    <div className="oe-pathway-grid">{visible.map(({ id, title, tag, ...course }) => <Link className={`oe-pathway-card tone-${id}`} key={id} href={course[mode]}>
       <small>{tag}</small><h3>{title}</h3><span className="oe-pathway-open">{id === "olympiad" ? "Explore" : "Open"}<ArrowRight size={13}/></span>
-      <span className="oe-pathway-art" aria-hidden="true"><Icon size={68} strokeWidth={1.25}/></span>
+      <span className="oe-pathway-art" aria-hidden="true"><img src={courseArtwork(id).icon} alt="" loading="lazy"/></span>
     </Link>)}</div>
   </section>;
 }
@@ -57,7 +58,7 @@ export function SpecialismsPage() {
 
 export function OlympiadArtwork({ studio = false }: { studio?: boolean }) {
   if (studio) return <div className="olympiad-art oe-studio-artwork" aria-hidden="true"><div className="oe-studio-rings"><span className="medal-ring"/><span className="medal-ring second"/></div><strong className="oe-studio-motto">REASON.<br/>APPLY.<br/>DEFEND.</strong></div>;
-  return <div className="olympiad-art" aria-hidden="true"><span className="medal-ring"/><span className="medal-ring second"/><span>THINK.<br/>CONNECT.<br/>EXPLAIN.</span></div>;
+  return <div className="olympiad-art" aria-hidden="true"><div className="oe-olympiad-rings"><span className="medal-ring"/><span className="medal-ring second"/></div><span className="oe-olympiad-words">THINK.<br/>CONNECT.<br/>EXPLAIN.</span></div>;
 }
 
 export function FilmTile({ title, subtitle, kind = "concept" }: { title: string; subtitle: string; kind?: "concept" | "workshop" }) {

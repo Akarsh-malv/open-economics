@@ -352,3 +352,8 @@ https://stackoverflow.com/questions/75226935/white-background-issue-around-sign-
     outline: none !important;
   }
 }
+
+/* Use the same strong weight for the main title on every site page. */
+body h1 {
+  font-weight: 750 !important;
+}

@@ -1,7 +1,7 @@
 import { ArrowLeft, ArrowRight, BookOpen, ChevronRight } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { CourseArt } from "@/components/practice/course-art";
+import { courseArtwork } from "@/lib/redesign/course-art";
 import { practiceCourses } from "@/lib/practice/courses";
 import { getCoursePracticeTopics } from "@/lib/practice/topics";
 
@@ -38,8 +38,8 @@ export default async function CoursePracticePage({
           <h1>{course.fullName}</h1>
           <p>{course.description} Choose a topic to get started.</p>
         </div>
-        <div className={`practice-heading-art art-${course.icon}`}>
-          <CourseArt type={course.icon} />
+        <div className="practice-heading-art" style={{ backgroundImage: `url(${courseArtwork(course.icon).wallpaper})` }}>
+          <img src={courseArtwork(course.icon).icon} alt="" />
         </div>
       </section>
       <nav className="practice-course-tabs" aria-label="Practice courses">

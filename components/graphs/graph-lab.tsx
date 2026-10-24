@@ -81,146 +81,74 @@ export function GraphLab({ initialGraphId }: {
         return null;
     const computed = definition.compute?.(values) ?? null;
     return (<div className={styles.container}>
-    <div className={styles.layout}>
-      {/* Mobile graph picker */}
-      <div className={styles.picker}>
-        <label className="relative block">
-          <span className="mb-1.5 block text-sm font-bold text-oe-text">
-            Choose a graph
-          </span>
-          <select value={definition.id} onChange={(event) => selectGraph(event.target.value)} className="w-full appearance-none rounded-xl border border-oe-border bg-oe-surface px-4 py-3 pr-10 text-sm font-semibold text-oe-text">
-            {graphLibrary.map((group) => group.categories.map((category) => (<optgroup key={`${group.course}-${category.name}`} label={`${group.courseLabel} — ${category.name}`}>
-                  {category.graphs.map((graph) => (<option key={graph.id} value={graph.id}>
-                      {graph.title}
-                    </option>))}
-                </optgroup>)))}
-          </select>
-          <ChevronDown className="pointer-events-none absolute bottom-3.5 right-3.5 size-4 text-oe-text-muted"/>
-        </label>
-      </div>
-
-      {/* Desktop sidebar */}
-      <aside className={styles.library}>
-        <div className="sticky top-24 flex max-h-[calc(100vh-8rem)] flex-col rounded-[1.5rem] border border-oe-border bg-oe-surface">
-          <div className="border-b border-oe-border p-4">
-            <label className="relative block">
-              <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-oe-text-muted"/>
-              <input type="search" value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Search graphs…" aria-label="Search graphs" className="w-full rounded-lg border border-oe-border bg-oe-background/60 py-2 pl-9 pr-3 text-sm text-oe-text placeholder:text-oe-text-muted focus:border-[#2554e8]/50 focus:outline-none"/>
-            </label>
-          </div>
-
-          <nav className="flex-1 overflow-y-auto p-3" aria-label="Graph library">
-            {filteredLibrary.map((group) => (<div key={group.course} className="mb-4">
-                <p className="px-2 pb-1 pt-2 text-xs font-extrabold uppercase tracking-[0.14em] text-[#1d43ae]">
-                  {group.courseLabel}
-                </p>
-                {group.categories.map((category) => (<div key={category.name} className="mb-1.5">
-                    <p className="px-2 pb-1 pt-2 text-[11px] font-bold uppercase tracking-[0.08em] text-oe-text-muted">
-                      {category.name}
-                    </p>
-                    <ul>
-                      {category.graphs.map((graph) => {
-                    const active = graph.id === definition.id;
-                    return (<li key={graph.id}>
-                            <button type="button" onClick={() => selectGraph(graph.id)} data-graph-id={graph.id} aria-current={active ? "page" : undefined} className={cn("w-full rounded-lg px-2.5 py-1.5 text-left text-[13px] font-medium transition-colors", active
-                            ? "bg-[#0b1f3a] font-semibold text-white"
-                            : "text-oe-text-muted hover:bg-oe-surface-elevated hover:text-oe-text")}>
-                              {graph.title}
-                            </button>
-                          </li>);
-                })}
-                    </ul>
-                  </div>))}
-              </div>))}
-            {filteredLibrary.every((group) => group.categories.length === 0) && (<p className="px-2 py-4 text-sm text-oe-text-muted">
-                No graphs match “{search}”.
-              </p>)}
-          </nav>
+      <h1 className={styles.srOnly}>Interactive Graphs</h1>
+      <div className={styles.layout}>
+        <div className={styles.picker}>
+          <label>Choose a graph<div className={styles.selectWrap}>
+            <select value={definition.id} onChange={event=>selectGraph(event.target.value)}>
+              {graphLibrary.map(group=>group.categories.map(category=><optgroup key={`${group.course}-${category.name}`} label={`${group.courseLabel} — ${category.name}`}>
+                {category.graphs.map(graph=><option key={graph.id} value={graph.id}>{graph.title}</option>)}
+              </optgroup>))}
+            </select><ChevronDown size={16} aria-hidden="true"/>
+          </div></label>
         </div>
-      </aside>
-
-      {/* Workspace */}
-      <section className={styles.workspace} aria-label="Graph workspace">
-        <div className="rounded-[1.75rem] border border-oe-border bg-oe-surface p-5 sm:p-7">
-          <header className="mb-5 flex flex-wrap items-start justify-between gap-3">
-            <div>
-              <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#1d43ae]">
-                {definition.course === "ap-micro"
-            ? "AP Microeconomics"
-            : "AP Macroeconomics"}{" "}
-                · {definition.category}
-              </p>
-              <h2 className="mt-1.5 text-2xl font-bold tracking-tight text-oe-text">
-                {definition.title}
-              </h2>
-              <p className="mt-1.5 max-w-2xl text-sm leading-6 text-oe-text-muted">
-                {definition.description}
-              </p>
-            </div>
-
-            {!definition.hideStandardToggles && computed && (<div className="flex flex-wrap gap-1.5">
-                <ViewToggle label="Labels" active={showLabels} onClick={() => setShowLabels((v) => !v)}/>
-                <ViewToggle label="Equilibrium" active={showEquilibrium} onClick={() => setShowEquilibrium((v) => !v)}/>
-                <ViewToggle label="Areas" active={showRegions} onClick={() => setShowRegions((v) => !v)}/>
+        <aside className={styles.library}>
+          <div className={styles.libraryInner}>
+            <div className={styles.searchArea}><label className={styles.search}>
+              <Search size={18} aria-hidden="true"/>
+              <input type="search" value={search} onChange={event=>setSearch(event.target.value)} placeholder="Search graphs…" aria-label="Search graphs"/>
+            </label></div>
+            <nav className={styles.libraryNav} aria-label="Graph library">
+              {filteredLibrary.map(group=><div key={group.course} className={styles.courseGroup}>
+                {group.categories.length>0&&<p className={styles.courseTitle}><span>{group.courseLabel}</span><span className={styles.count}>{group.categories.reduce((sum,c)=>sum+c.graphs.length,0)}</span></p>}
+                {group.categories.map(category=><div key={category.name} className={styles.category}>
+                  <p className={styles.categoryTitle}>{category.name}</p>
+                  <ul>{category.graphs.map(graph=><li key={graph.id}><button type="button" onClick={()=>selectGraph(graph.id)} data-graph-id={graph.id} aria-current={graph.id===definition.id?'page':undefined} className={styles.graphLink}>{graph.title}{graph.id===definition.id&&<span className={styles.activeDot} aria-hidden="true"/>}</button></li>)}</ul>
+                </div>)}
               </div>)}
+              {filteredLibrary.every(group=>group.categories.length===0)&&<p className={styles.empty}>No graphs match “{search}”.</p>}
+            </nav>
+            <div className={styles.libraryFooter}>Interactive Graph Studio<span>{graphLibrary.reduce((sum,g)=>sum+g.categories.reduce((n,c)=>n+c.graphs.length,0),0)} models</span></div>
+          </div>
+        </aside>
+        <section className={styles.workspace} aria-label="Graph workspace">
+          <header className={styles.workspaceHead}>
+            <div className={styles.headingCopy}>
+              <p className={styles.breadcrumb}>{definition.course==='ap-micro'?'AP Microeconomics':'AP Macroeconomics'} · {definition.category}</p>
+              <h2>{definition.title}</h2><p className={styles.description}>{definition.description}</p>
+            </div>
+            {!definition.hideStandardToggles&&computed&&<div className={styles.viewToggles} role="group" aria-label="Graph overlays">
+              <ViewToggle label="Labels" active={showLabels} onClick={()=>setShowLabels(v=>!v)}/>
+              <ViewToggle label="Equilibrium" active={showEquilibrium} onClick={()=>setShowEquilibrium(v=>!v)}/>
+              <ViewToggle label="Areas" active={showRegions} onClick={()=>setShowRegions(v=>!v)}/>
+            </div>}
           </header>
-
           <div className={styles.workArea}>
             <div className={styles.diagram} data-graph-diagram>
-              {computed ? (<div className={cn(styles.scenes, computed.scenes.length > 1 && styles.paired)}>
-                  {computed.scenes.map((scene, index) => (<div key={scene.caption ?? `scene-${index}`} className="rounded-2xl border border-oe-border bg-oe-background/50 p-2">
-                      <GraphCanvas scene={scene} graphId={`${definition.id}-${index}`} showLabels={showLabels} showEquilibrium={showEquilibrium} showRegions={showRegions}/>
-                    </div>))}
-                </div>) : definition.custom ? (<div data-graph-custom className="rounded-2xl border border-oe-border bg-oe-background/50 p-4 sm:p-5">
-                  <CustomDiagram kind={definition.custom} values={values}/>
-                </div>) : null}
-
-              {computed && (<div className="mt-4">
-                  {computed.readouts && computed.readouts.length > 0 && (<div className="mb-3 flex flex-wrap gap-2">
-                      {computed.readouts.map((readout) => (<span key={readout.label} className="inline-flex items-baseline gap-1.5 rounded-full border border-oe-border bg-oe-surface-elevated/60 px-3 py-1.5 text-xs font-semibold text-oe-text-muted">
-                          {readout.label}:
-                          <span className="text-sm font-bold text-oe-text">
-                            {readout.value}
-                          </span>
-                        </span>))}
-                    </div>)}
-                  <div className="rounded-2xl border border-oe-border bg-oe-surface-elevated/50 px-5 py-4">
-                    <p className="text-xs font-bold uppercase tracking-[0.12em] text-oe-text-muted">
-                      What changed?
-                    </p>
-                    <p className="mt-1.5 text-sm leading-6 text-oe-text">
-                      {computed.explanation}
-                    </p>
-                  </div>
-                </div>)}
-
-              {definition.details && (<div className={styles.detailList}>
-                  {definition.details.interpretation && (<DetailSection title="Key interpretation" body={definition.details.interpretation}/>)}
-                  {definition.details.mistake && (<DetailSection title="Common mistake" body={definition.details.mistake}/>)}
-                  {definition.details.examTip && (<DetailSection title="AP exam tip" body={definition.details.examTip}/>)}
-                </div>)}
+              <div className={styles.stage}>
+                <div className={styles.stageHead}><span className={styles.statusDot} aria-hidden="true"/>Interactive model<span className={styles.stageHint}>Adjust the controls to explore</span></div>
+                {computed?<div className={cn(styles.scenes,computed.scenes.length>1&&styles.paired)}>
+                  {computed.scenes.map((scene,index)=><div key={scene.caption??`scene-${index}`} className={styles.scene}><GraphCanvas scene={scene} graphId={`${definition.id}-${index}`} showLabels={showLabels} showEquilibrium={showEquilibrium} showRegions={showRegions}/></div>)}
+                </div>:definition.custom?<div data-graph-custom className={styles.custom}><CustomDiagram kind={definition.custom} values={values}/></div>:null}
+                {computed?.readouts&&computed.readouts.length>0&&<div className={styles.telemetry} aria-live="polite">{computed.readouts.map(readout=><span key={readout.label}>{readout.label}: <strong>{readout.value}</strong></span>)}</div>}
+              </div>
+              {computed&&<div className={styles.explanation}><h3>What changed?</h3><p>{computed.explanation}</p></div>}
+              {definition.details&&<div className={styles.detailList}>
+                {definition.details.interpretation&&<DetailSection title="Key interpretation" body={definition.details.interpretation}/>}
+                {definition.details.mistake&&<DetailSection title="Common mistake" body={definition.details.mistake}/>}
+                {definition.details.examTip&&<DetailSection title="AP exam tip" body={definition.details.examTip}/>}
+              </div>}
             </div>
-
-            <div className={cn(styles.controls, "rounded-2xl border border-oe-border bg-oe-background/40 p-5")}> 
-              <GraphControls graphId={definition.id} controls={definition.controls} presets={definition.presets} values={values} onChange={handleControlChange} onApplyPreset={handlePreset} onReset={handleReset}/>
-            </div>
+            <div className={styles.controls}><GraphControls graphId={definition.id} controls={definition.controls} presets={definition.presets} values={values} onChange={handleControlChange} onApplyPreset={handlePreset} onReset={handleReset}/></div>
           </div>
-        </div>
-      </section>
-    </div>
+        </section>
+      </div>
     </div>);
 }
-function ViewToggle({ label, active, onClick, }: {
-    label: string;
-    active: boolean;
-    onClick: () => void;
-}) {
-    return (<button type="button" aria-pressed={active} onClick={onClick} className={cn("rounded-full border px-3 py-1.5 text-xs font-bold transition-colors", active
-            ? "border-[#0b1f3a]/20 bg-[#0b1f3a]/8 text-[#0b1f3a]"
-            : "border-oe-border bg-oe-surface text-oe-text-muted line-through decoration-1 hover:text-oe-text")}>
-      {label}
-    </button>);
+function ViewToggle({label,active,onClick}:{label:string;active:boolean;onClick:()=>void}){
+ return <button type="button" aria-pressed={active} onClick={onClick}>{label}</button>;
 }
+
 function DetailSection({ title, body }: {
     title: string;
     body: string;

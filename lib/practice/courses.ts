@@ -19,8 +19,8 @@ export const practiceCourses = [
   },
   {
     slug: "a-level",
-    name: "A-level",
-    fullName: "A-level Economics",
+    name: "A-Level",
+    fullName: "A-Level Economics",
     tag: "Theory into practice",
     description: "Build your economic reasoning, analysis, and evaluation.",
     icon: "alevel",

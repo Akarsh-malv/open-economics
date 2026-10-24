@@ -326,6 +326,21 @@
   margin: 0;
   height: 140px;
 }
+.practice-heading-art {
+  height: 145px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 12px;
+  background-position: center;
+  background-size: cover;
+}
+.practice-heading-art img {
+  display: block;
+  width: 112px;
+  height: 112px;
+  object-fit: contain;
+}
 .practice-course-tabs {
   display: flex;
   gap: 30px;

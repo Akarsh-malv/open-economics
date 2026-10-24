@@ -117,10 +117,15 @@
 .oe-design .oe-journal .article-copy-fallback { display: block; font-size: 11px; margin-top: 8px; }
 .oe-design .oe-journal .article-copy-fallback input { width: 100%; max-width: 100%; padding: 9px; border: 1px solid var(--line); border-radius: 5px; font: inherit; margin-top: 6px; }
 .oe-design .oe-journal .article-endnote > svg { flex-shrink: 0; margin-top: 1px; }
-.oe-design .site-footer .oe-footer-extras { margin-top: 24px; }
-.oe-design .site-footer .oe-footer-extras .learner-trust { margin: 0 0 22px; }
-.oe-design .site-footer .footer-grid a.oe-footer-follow { display: inline-flex; align-items: center; gap: 9px; width: max-content; min-height: 40px; padding: 9px 12px; border: 1px solid #ffffff33; border-radius: 7px; color: #e7edf5; font-size: 11px; line-height: 1.4; margin: 0; }
-.oe-design .site-footer .footer-grid a.oe-footer-follow:hover { background: #ffffff12; color: #fff; }
+.oe-design .site-footer .oe-footer-extras { display:flex;flex-direction:column;align-items:center;width:225px;max-width:100%;margin-top:24px; }
+.oe-design .site-footer .oe-footer-extras .learner-trust { width: 225px; margin: 0 0 19px; gap: 13px; }
+.oe-design .site-footer .oe-footer-extras .learner-trust > svg { width: 28px; height: 84px; }
+.oe-design .site-footer .oe-footer-extras .learner-trust strong { font-size: 46px; line-height: 1.05; }
+.oe-design .site-footer .oe-footer-socials { display: flex; align-items: center; gap: 10px; }
+.oe-design .site-footer .oe-footer-methodology .oe-footer-socials { margin-top: 23px; }
+.oe-design .site-footer .oe-footer-socials > a,.oe-design .site-footer .oe-footer-socials > span { display: grid; place-items: center; width: 38px; height: 38px; margin: 0; border: 1px solid #ffffff38; border-radius: 8px; color: #e7edf5; }
+.oe-design .site-footer .oe-footer-socials > a:hover { background: #ffffff16; color: #fff; }
+.oe-design .site-footer .oe-footer-socials svg { width: 18px; height: 18px; }
 .oe-design .site-footer .oe-footer-story-links { margin: 0; }
 @media (max-width: 760px) {
   .oe-design .oe-journal .subhero { padding-top: 40px; }

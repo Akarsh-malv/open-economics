@@ -1,12 +1,13 @@
 "use client";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { BookOpen, ArrowUpRight, ChartLine, Search, Target, Globe, ArrowRight } from "lucide-react";
+import { ArrowUpRight, ChartLine, Search, Target, Globe, ArrowRight } from "lucide-react";
 import { practiceCourses } from "@/lib/practice/courses";
 import { getCoursePracticeTopics } from "@/lib/practice/topics";
 import { AcademyNotice, FilmTile, OlympiadArtwork, OlympiadCase, OlympiadStudio, PathwayCards, SavedHistoryPanels, SpecialismCards } from "./academy-reference";
 import { useCourseFamily } from "@/lib/redesign/course-family";
 import { readPracticeHistory, type HistoryRow } from "@/lib/redesign/history";
+import { artworkForSlug, courseArtwork } from "@/lib/redesign/course-art";
 export type CatalogCourse = {
     slug: string;
     title: string;
@@ -16,7 +17,7 @@ export type CatalogCourse = {
 };
 export function CourseCatalog({ courses }: {
     courses: CatalogCourse[];
-}) { const [query, setQuery] = useState(''); const [family, setFamily] = useCourseFamily(); useEffect(() => { const requested = new URLSearchParams(window.location.search).get('family'); if (requested === 'IB' || requested === 'AP' || requested === 'A-level') setFamily(requested); }, [setFamily]); const list = courses.filter(c => (family === 'All' || (family === 'IB' ? /\b(HL|SL|IB)\b/.test(c.title) : c.title.toLowerCase().includes(family.toLowerCase()))) && (c.title + ' ' + c.description).toLowerCase().includes(query.toLowerCase())); return <><div className="oe-catalog-tools"><div className="tabs" aria-label="Course family">{['All', 'AP', 'IB', 'A-level'].map(f => <button key={f} aria-pressed={family === f} className={family === f ? 'active' : ''} onClick={() => setFamily(f as 'All' | 'AP' | 'IB' | 'A-level')}>{f}</button>)}</div><label className="oe-search"><Search size={17}/><span className="sr-only">Search courses</span><input value={query} onChange={e => setQuery(e.target.value)} placeholder="Find your next course"/></label></div><div className="oe-course-grid">{list.map((c, i) => <Link className="oe-course-tile" href={'/course/' + c.slug} key={c.slug}><div className={'oe-course-art art-' + i}><span>{String(i + 1).padStart(2, '0')}</span><BookOpen size={50} strokeWidth={1}/><small>OPEN ECONOMICS / ACADEMY</small></div><div className="oe-course-copy"><span className="eyebrow">LESSONS COMING SOON</span><h3>{c.title}</h3><p>{c.description}</p><span className="text-link">View course <ArrowUpRight size={16}/></span></div></Link>)}</div>{!list.length && <div className="panel"><h3>No matching courses</h3><p>Try another search or choose All.</p></div>}</>; }
+}) { const [query, setQuery] = useState(''); const [family, setFamily] = useCourseFamily(); useEffect(() => { const requested = new URLSearchParams(window.location.search).get('family'); if (requested === 'IB' || requested === 'AP' || requested === 'A-level') setFamily(requested); }, [setFamily]); const list = courses.filter(c => (family === 'All' || (family === 'IB' ? /\b(HL|SL|IB)\b/.test(c.title) : c.title.toLowerCase().includes(family.toLowerCase()))) && (c.title + ' ' + c.description).toLowerCase().includes(query.toLowerCase())); return <><div className="oe-catalog-tools"><div className="tabs" aria-label="Course family">{['All', 'AP', 'IB', 'A-level'].map(f => <button key={f} aria-pressed={family === f} className={family === f ? 'active' : ''} onClick={() => setFamily(f as 'All' | 'AP' | 'IB' | 'A-level')}>{f === 'A-level' ? 'A-Level' : f}</button>)}</div><label className="oe-search"><Search size={17}/><span className="sr-only">Search courses</span><input value={query} onChange={e => setQuery(e.target.value)} placeholder="Find your next course"/></label></div><div className="oe-course-grid">{list.map((c, i) => { const art = courseArtwork(artworkForSlug(c.slug)); return <Link className="oe-course-tile" href={'/course/' + c.slug} key={c.slug}><div className="oe-course-art" style={{ backgroundImage: `url(${art.wallpaper})` }}><span>{String(i + 1).padStart(2, '0')}</span><img src={art.icon} alt="" loading="lazy"/><small>OPEN ECONOMICS / ACADEMY</small></div><div className="oe-course-copy"><span className="eyebrow">LESSONS COMING SOON</span><h3>{c.title}</h3><p>{c.description}</p><span className="text-link">View course <ArrowUpRight size={16}/></span></div></Link>; })}</div>{!list.length && <div className="panel"><h3>No matching courses</h3><p>Try another search or choose All.</p></div>}</>; }
 export function PracticeHistory({ mode = 'summary' }: {
     mode?: 'summary' | 'saved' | 'analytics';
 }) { const [rows, setRows] = useState<HistoryRow[]>([]); const [ready, setReady] = useState(false); const [error, setError] = useState(false); useEffect(() => { try {

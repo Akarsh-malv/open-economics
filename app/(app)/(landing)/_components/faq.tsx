@@ -25,8 +25,9 @@ const faqs: { question: string; answer: string }[] = [
       "Most courses are beginner-friendly. However, check the course description for any specific prerequisites or recommended skill levels.",
   },
   {
-    question: "What can I use while lessons are being prepared?",
-    answer: "You can use the question bank and interactive graph lab now. Lessons will be released later.",
+    question: "Can I access free lessons before purchasing?",
+    answer:
+      'Yes! Every course includes free lessons so you can experience the teaching style and content quality before buying. Click "See free lessons" on any course card.',
   },
   {
     question: "Can I access courses on mobile devices?",

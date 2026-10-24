@@ -59,6 +59,7 @@ body{font-family:var(--font-manrope);font-weight:500}
   .oe-design .oe-course-grid { grid-template-columns:minmax(0,1fr); }
   .oe-design .academy-content .section-head { align-items:flex-start; flex-direction:column; gap:12px; }
 }
+
 @media(max-width:960px) {
   .oe-design .oe-academy-layout { display:block; }
   .oe-design .oe-academy-layout .sidebar { position:fixed; top:76px; bottom:0; left:0; width:min(300px,85vw); height:calc(100dvh - 76px); transform:translateX(-100%); visibility:hidden; box-shadow:none; }
@@ -105,3 +106,136 @@ body{font-family:var(--font-manrope);font-weight:500}
 .oe-design .footer-signature .brand-logo{width:min(100%,780px);max-height:none;height:auto}
 @media(max-width:1100px){.oe-design .nav-wrap .brand-logo{width:220px}}
 @media(max-width:760px){.oe-design .nav-wrap .brand-logo{width:min(245px,calc(100vw - 110px))}.oe-design .site-footer .brand-logo{width:210px}.oe-design .footer-signature .brand-logo{width:100%}}
+
+/* Homepage refinement */
+.oe-design .mission-stage .mission-card{width:min(330px,100%);min-height:0;margin-top:28px;padding:17px 20px 15px}
+.oe-design .oe-home-hero{overflow:hidden;background:#061226;color:#fff}
+.oe-design .oe-home-hero-inner{position:relative;min-height:620px;padding-top:68px;padding-bottom:55px}
+.oe-design .oe-home-hero-copy{position:relative;z-index:2;max-width:550px}
+.oe-design .oe-home-hero .eyebrow{color:#bacce0;font-size:10px;letter-spacing:1.8px;margin-bottom:24px}
+.oe-design .oe-home-hero h1{font-size:clamp(46px,5vw,70px);line-height:1.05;letter-spacing:-2.8px;font-weight:600}
+.oe-design .oe-home-hero-copy>p{font-size:15px;color:#c3cfe0;max-width:370px;margin-top:22px}
+.oe-design .oe-home-hero .world-art{top:-5px;right:-75px;width:700px}
+.oe-design .oe-home-hero-metrics{display:grid;grid-template-columns:repeat(3,max-content);gap:0;margin-top:39px}
+.oe-design .oe-home-hero-metrics>div{min-width:145px;padding:0 24px;border-right:1px solid #9db0c936}
+.oe-design .oe-home-hero-metrics>div:first-child{padding-left:0}
+.oe-design .oe-home-hero-metrics>div:last-child{border-right:0}
+.oe-design .oe-home-hero-metrics strong{display:block;font-size:32px;line-height:1.1;font-weight:500;letter-spacing:-1px}
+.oe-design .oe-home-hero-metrics span{display:block;margin-top:5px;color:#9eafc3;font-size:12px}
+.oe-design .oe-home-impact-link{display:inline-block;margin-top:31px;color:#a9bed4;font-size:12px}
+.oe-design .oe-home-impact-link:hover{color:#fff}
+.oe-design .oe-partnerships{border-top:1px solid var(--line);padding:55px 0 58px}
+.oe-design .oe-partnerships-head{display:flex;justify-content:space-between;gap:24px;align-items:end;margin-bottom:28px}
+.oe-design .oe-partnerships h2,.oe-design .oe-home-faq h2{font-size:clamp(29px,3.5vw,38px);line-height:1.15;letter-spacing:-1.3px}
+.oe-design .oe-partnerships-head p,.oe-design .oe-home-faq-intro p{font-size:12px;margin-top:12px;color:var(--muted)}
+.oe-design .oe-partnerships-controls{display:flex;gap:8px;flex:none}
+.oe-design .oe-partnerships-controls button{width:38px;height:38px;border:1px solid #d4dce5;border-radius:50%;background:white;color:#0b1f3a;font-size:16px}
+.oe-design .oe-partnerships-controls button:hover{background:#eef2f6}
+.oe-design .oe-partnerships-viewport{overflow:hidden}
+.oe-design .oe-partnerships-track{display:flex;width:max-content;animation:oe-partner-loop 42s linear infinite}
+.oe-design .oe-partnerships-track.is-paused{animation-play-state:paused}
+.oe-design .oe-partnerships-group{display:flex;gap:12px;padding-right:12px}
+.oe-design .oe-partner-logo{flex:0 0 200px;width:200px;height:150px;background:#fff}
+.oe-design .oe-partner-image{display:block;width:200px;height:150px;background-image:url('/design-assets/partner-logo-grid.jpg');background-repeat:no-repeat;background-size:1200px 480px}
+@keyframes oe-partner-loop{to{transform:translateX(-50%)}}
+.oe-design .oe-home-faq{border-top:1px solid var(--line);padding:60px 0 70px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:75px}
+.oe-design .oe-home-faq-list details{border-bottom:1px solid #dce4eb}
+.oe-design .oe-home-faq-list details:first-child{border-top:1px solid #dce4eb}
+.oe-design .oe-home-faq-list summary{padding:19px 3px;font-size:14px}
+.oe-design .oe-home-faq-list details p{padding:0 3px 20px;color:var(--muted);font-size:12px;line-height:1.7}
+.oe-design .oe-home-faq-more{display:inline-flex;align-items:center;gap:12px;margin-top:22px;padding:0;border:0;background:none;color:#0b1f3a;font-size:12px;font-weight:600}
+.oe-design .oe-home-faq-more:hover{text-decoration:underline}
+@media(max-width:760px){.oe-design .oe-home-hero-inner{min-height:590px;padding-top:45px}.oe-design .oe-home-hero h1{font-size:clamp(42px,8vw,56px)}.oe-design .oe-home-hero .world-art{width:560px;right:-300px;top:30px;opacity:.42}.oe-design .oe-home-hero-metrics{margin-top:42px}.oe-design .oe-home-hero-metrics>div{min-width:0;padding:0 16px}.oe-design .oe-home-hero-metrics strong{font-size:25px}.oe-design .oe-partnerships{padding:45px 0}.oe-design .oe-home-faq{grid-template-columns:1fr;gap:25px;padding:45px 0 55px}}
+@media(max-width:430px){.oe-design .oe-home-hero-inner{min-height:550px}.oe-design .oe-home-hero-copy>p{max-width:280px;font-size:13px}.oe-design .oe-home-hero-metrics>div{padding:0 10px}.oe-design .oe-home-hero-metrics strong{font-size:21px}.oe-design .oe-home-hero-metrics span{font-size:9px}.oe-design .oe-partnerships-head{align-items:start}.oe-design .oe-partnerships-controls{padding-top:7px}}
+@media(prefers-reduced-motion:reduce){.oe-design .oe-partnerships-viewport{overflow-x:auto}.oe-design .oe-partnerships-track{animation:none}.oe-design .oe-partnerships-group[aria-hidden="true"]{display:none}}
+
+/* Echo the circle and ascending forms of the OEP Learn welcome tile on public CTAs. */
+.oe-design .oe-geometric-cta{position:relative;overflow:hidden;isolation:isolate}
+.oe-design .oe-geometric-cta>*{position:relative;z-index:1}
+.oe-design .oe-geometric-cta::before{content:"";position:absolute;z-index:0;right:7%;top:-98px;width:285px;height:285px;border:1px solid #d6e7ee45;border-radius:50%;box-shadow:0 0 0 32px #b8d3d60a,0 0 0 64px #b8d3d608;pointer-events:none}
+.oe-design .oe-geometric-cta::after{content:"";position:absolute;z-index:0;right:8%;bottom:-58px;width:210px;height:185px;background:linear-gradient(90deg,#8cb4ac 0 33%,#d5a17c 33% 66%,#dfc586 66%);clip-path:polygon(0 100%,0 72%,33% 72%,33% 45%,66% 45%,66% 9%,100% 9%,100% 100%);opacity:.25;transform:skewY(-12deg);pointer-events:none}
+@media(max-width:760px){.oe-design .oe-geometric-cta::before{right:-130px;top:-120px;opacity:.65}.oe-design .oe-geometric-cta::after{right:-70px;bottom:-80px;opacity:.16}}
+/* One title rhythm for the public site. OEP Learn uses its own layout and type scale. */
+.oe-design.oe-public {
+  --public-title-size: clamp(42px, 4.5vw, 60px);
+  --public-hero-top: 72px;
+}
+
+.oe-design.oe-public main h1 {
+  font-size: var(--public-title-size);
+  font-weight: 750;
+  line-height: 1.14;
+  letter-spacing: -.045em;
+}
+
+.oe-design.oe-public main :is(.oe-page-hero, .article-heading, .policy-heading) h1 {
+  font-size: var(--public-title-size);
+}
+
+.oe-design.oe-public .oe-page-hero:not(.oe-home-hero) {
+  padding-top: var(--public-hero-top);
+}
+
+.oe-design.oe-public .oe-page-hero.hero.center {
+  padding-top: calc(var(--public-hero-top) - 7px);
+}
+
+.oe-design.oe-public .oe-home-hero .oe-home-hero-inner {
+  padding-top: var(--public-hero-top);
+}
+
+.oe-design.oe-public section.oe-page-hero:not(.oe-home-hero) {
+  align-items: start;
+  min-height: 0;
+}
+
+.oe-design.oe-public .oe-page-hero :is(.eyebrow, [class*="eyebrow"], [class*="label"]) {
+  line-height: 17px;
+  margin-bottom: 20px !important;
+}
+
+.oe-design.oe-public .policy-heading {
+  padding-top: var(--public-hero-top);
+}
+
+/* The manifesto symbol remains decorative while its title follows the shared baseline. */
+.oe-design.oe-public header.oe-page-hero:has(> [class*="mark"]) {
+  position: relative;
+}
+.oe-design.oe-public header.oe-page-hero > [class*="mark"] {
+  position: absolute;
+  top: 60px;
+  right: 24px;
+  width: 55px;
+  height: 59px;
+  margin: 0;
+  opacity: .38;
+}
+
+@media (max-width: 760px) {
+  .oe-design.oe-public {
+    --public-title-size: clamp(38px, 7vw, 44px);
+    --public-hero-top: 52px;
+  }
+  .oe-design.oe-public header.oe-page-hero > [class*="mark"] {
+    top: 35px;
+    right: 16px;
+    width: 36px;
+    height: 39px;
+    opacity: .28;
+  }
+}
+
+/* Give the moving globe more presence without moving the hero copy. */
+.oe-design .oe-home-hero .world-art {
+  width: 830px;
+  right: -150px;
+  top: 7px;
+}
+@media (max-width: 760px) {
+  .oe-design .oe-home-hero .world-art {
+    width: 650px;
+    right: -325px;
+    top: 22px;
+  }
+}

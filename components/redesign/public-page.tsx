@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ImpactStats } from "./impact-stats";
 import { HeroViews } from "./hero-views";
 import { NetworkGlobe } from "./network-globe";
-import { FooterExtras } from "./footer-extras";
+import { FooterExtras, FooterSocials } from "./footer-extras";
 import blueprint from "@/lib/redesign/blueprint.json";
 type Node = string | {
     tag: string;
@@ -27,6 +27,7 @@ export function DesignContent({ nodes, footer = false }: {
         const a = n.attrs, cls = a.class ?? '';
         if (cls === 'world-art') return <NetworkGlobe key={index}/>;
         if (cls === 'mission-card') return <HeroViews key={index}/>;
+        if (cls === 'hero-index') return null;
         if (cls === 'stats-grid') return <ImpactStats key={index}/>;
         if (cls === 'ambassador-section') return <Ambassadors key={index}/>;
         if (cls.includes('program-section'))
@@ -48,6 +49,8 @@ export function DesignContent({ nodes, footer = false }: {
                 continue;
             props[attrNames[key] ?? (key.includes("-") && !key.startsWith("data-") && !key.startsWith("aria-") ? key.replace(/-([a-z])/g, (_, c) => c.toUpperCase()) : key)] = value;
         }
+        if (cls.split(' ').includes('cta-banner')) props.className = `${cls} oe-geometric-cta`;
+        if (!footer && cls.split(' ').some(name => name === 'hero' || name === 'subhero')) props.className = `${cls} oe-page-hero`;
         if (n.tag === 'button')
             props.type = 'button';
         if (a['data-video'])
@@ -72,6 +75,7 @@ export function DesignContent({ nodes, footer = false }: {
                 href = '/courses';
             props.href = href;
             if (footer && href === '/manifesto') return <div className="oe-footer-story-links" key={index}><Link href="/#about">Our story</Link><Link href="/stories">Stories &amp; insights</Link><Link href="/manifesto">Our manifesto</Link></div>;
+            if (footer && href === '/methodology') return <div className="oe-footer-methodology" key={index}><Link href="/methodology">Impact methodology</Link><FooterSocials/></div>;
             if (href.startsWith('/'))
                 return createElement(Link, props as {
                     href: string;
@@ -98,9 +102,32 @@ export function PublicPage({ page }: {
 }) {
     if (titleOf(page))
         return <PolicyPage page={page as keyof typeof blueprint.policies}/>;
+    if (page === 'home') return <HomePage/>;
     return <div className="oe-reference"><DesignContent nodes={blueprint.pages[page as keyof typeof blueprint.pages]}/></div>;
 }
 export function PublicFooter() { return <DesignContent nodes={blueprint.footer} footer/>; }
+function HomePage() {
+    const [, content] = blueprint.pages.home;
+    return <div className="oe-reference"><section className="mission-hero oe-home-hero oe-page-hero"><div className="wrap oe-home-hero-inner"><div className="oe-home-hero-copy"><div className="eyebrow">THE OPEN ECONOMICS PROJECT</div><h1>A world of<br/>knowledge.<br/>A world of<br/>possibility.</h1><p>Economic understanding should be within everyone’s reach.</p><div className="oe-home-hero-metrics" aria-label="Our impact"><div><strong>8.35K+</strong><span>Users served</span></div><div><strong>3.2M+</strong><span>Website views</span></div><div><strong>97</strong><span>Countries reached</span></div></div><Link href="/impact" className="oe-home-impact-link">Read our impact report <span aria-hidden="true">→</span></Link></div><NetworkGlobe/></div></section><div className="wrap"><DesignContent nodes={content.children.slice(0, 3)}/><Partnerships/><HomeFaq/><DesignContent nodes={content.children.slice(5)}/></div></div>;
+}
+function Partnerships() {
+    const [paused, setPaused] = useState(false);
+    const logoOffsets = [-49, -287, -517, -747, -972];
+    const logoGroup = (copy: number) => <div className="oe-partnerships-group" key={copy} aria-hidden={copy === 1 ? true : undefined}>{Array.from({ length: 10 }, (_, index) => <div className="oe-partner-logo" role={copy === 0 ? 'img' : undefined} aria-label={copy === 0 ? `Illustrative partnership logo ${index + 1}` : undefined} key={`${copy}-${index}`}><span className="oe-partner-image" aria-hidden="true" style={{ backgroundPosition: `${logoOffsets[index % 5]}px ${index < 5 ? -70 : -270}px` }}/></div>)}</div>;
+    return <section className="oe-partnerships" aria-labelledby="oe-partnerships-title"><div className="oe-partnerships-head"><div><div className="eyebrow">PARTNERSHIPS</div><h2 id="oe-partnerships-title">Better access, built together.</h2><p>Illustrative logos. Partnership names will be updated.</p></div><div className="oe-partnerships-controls"><button type="button" onClick={() => setPaused(!paused)} aria-label={paused ? 'Resume organization carousel' : 'Pause organization carousel'}>{paused ? '▶' : 'Ⅱ'}</button></div></div><div className="oe-partnerships-viewport" aria-label="Illustrative partnership logos"><div className={`oe-partnerships-track ${paused ? 'is-paused' : ''}`}>{logoGroup(0)}{logoGroup(1)}</div></div></section>;
+}
+const homeFaqs = [
+    ['What is The Open Economics Project?', 'OpenEconomics is a social impact initiative working to make economic understanding more accessible through learning resources, publications and community partnerships.'],
+    ['Who are your learning resources for?', 'Our learning materials are designed for curious learners and educators. The academy offers courses, lessons and practice resources, while our broader work supports learning in communities.'],
+    ['How can I get involved?', 'You can contribute your expertise, support a local initiative or explore an institutional partnership. Visit Get involved to find a starting point.'],
+    ['Do you work with schools and libraries?', 'Yes. We explore focused collaborations with schools, libraries, educators and economics organizations around the needs of their learners.'],
+    ['Where can I read about your impact?', 'Our impact pages explain participation and funding figures and describe the methods and assumptions behind reported estimates.'],
+    ['How do I contact the team?', 'Use the contact page to create an email enquiry about learning, volunteering, partnerships or another question.'],
+] as const;
+function HomeFaq() {
+    const [expanded, setExpanded] = useState(false);
+    return <section className="oe-home-faq" aria-labelledby="oe-home-faq-title"><div className="oe-home-faq-intro"><div className="eyebrow">FREQUENTLY ASKED QUESTIONS</div><h2 id="oe-home-faq-title">A little more about our work.</h2><p>Find a quick answer or explore the project in more detail.</p></div><div className="oe-home-faq-list">{homeFaqs.slice(0, expanded ? homeFaqs.length : 3).map(([question, answer]) => <details key={question}><summary>{question}</summary><p>{answer}</p></details>)}<button type="button" className="oe-home-faq-more" aria-expanded={expanded} onClick={() => setExpanded(!expanded)}>{expanded ? 'Show less' : 'See more questions'} <span aria-hidden="true">{expanded ? '↑' : '↓'}</span></button></div></section>;
+}
 function Ambassadors() {
     const [country, setCountry] = useState('All countries');
     const [selected, setSelected] = useState<(typeof blueprint.people)[number] | null>(null);

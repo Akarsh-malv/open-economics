@@ -4,3 +4,29 @@
 @media(prefers-reduced-motion:reduce){.page *{scroll-behavior:auto!important;transition:none!important}}
 @media(min-width:761px) and (max-width:1000px){.hero{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr)}.heroArt .orbit,.heroArt .orbitTwo,.heroArt .orbitThree{width:90%;left:5%}.heroArt .possibility{left:0;font-size:25px;padding-inline:25px}.callout h3{white-space:normal}.sectionHead>div{min-width:0}.sectionHead>p{max-width:260px;flex-shrink:0}}
 @media(max-width:760px){.heroArt .orbit,.heroArt .orbitTwo,.heroArt .orbitThree{width:85%;left:7.5%}}
+
+/* Closing reflections and clear, parallel ways to get involved. */
+.peopleDifference{display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr);gap:70px;align-items:start;padding:70px 0 82px;border-top:1px solid #dce4ee}
+.differenceIntro .eyebrow{margin-bottom:18px}
+.differenceIntro h2{max-width:370px;margin:0;font-size:clamp(29px,3vw,38px);line-height:1.2}
+.reflectionsPending,.verifiedTestimonial{min-height:265px;padding:33px 38px;border:1px solid #dce4ee;border-radius:8px;background:#f7f9fa}
+.reflectionsPending{display:flex;flex-direction:column;justify-content:space-between}
+.reflectionsPending>span{color:#b4c8d2;font-family:Georgia,serif;font-size:86px;line-height:.7}
+.page .reflectionsPending p{max-width:570px;margin:18px 0 22px;color:#3d566a;font-size:18px;line-height:1.65}
+.reflectionsPending small,.testimonialTop>span{color:#708395;font-size:10px;font-weight:750;letter-spacing:.1em;text-transform:uppercase}
+.testimonialTop{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.verifiedTestimonial figure{margin:26px 0 0}
+.verifiedTestimonial blockquote{margin:0 0 27px;color:#0b1f3a;font-size:clamp(20px,2.3vw,28px);font-weight:650;line-height:1.55;letter-spacing:-.03em}
+.verifiedTestimonial figcaption{display:flex;align-items:center;gap:13px}
+.verifiedTestimonial figcaption img{width:52px;height:52px;border-radius:50%;object-fit:cover}
+.verifiedTestimonial figcaption strong,.verifiedTestimonial figcaption small{display:block;font-size:12px;line-height:1.5}
+.verifiedTestimonial figcaption small{color:#708395}
+.nextSteps{display:flex;align-items:end;justify-content:space-between;gap:48px;margin-top:0;padding:54px 60px;background:#0b1f3a;border-radius:9px;scroll-margin-top:110px}
+.nextSteps>div{max-width:720px}
+.nextSteps .eyebrow{margin:0 0 20px;color:#9eb8c9}
+.page .nextSteps h2{max-width:660px;margin:0;color:#fff;font-size:clamp(32px,3.5vw,44px);line-height:1.18}
+.page .nextSteps p:last-child{max-width:650px;margin:22px 0 0;color:#c4d2dc;font-size:15px;line-height:1.8}
+.contactCta{display:inline-flex;align-items:center;justify-content:space-between;gap:30px;min-width:175px;padding:16px 20px;border-radius:4px;background:#fff;color:#0b1f3a;font-size:13px;font-weight:750;text-decoration:none;white-space:nowrap}
+.contactCta:hover{background:#eaf1f5}
+@media(max-width:800px){.peopleDifference{grid-template-columns:1fr;gap:28px;padding:56px 0 65px}.differenceIntro h2{max-width:600px}.nextSteps{align-items:start;flex-direction:column;gap:32px;padding:42px}}
+@media(max-width:760px){.peopleDifference{padding:47px 0 55px}.reflectionsPending,.verifiedTestimonial{min-height:230px;padding:27px}.page .reflectionsPending p{font-size:16px}.nextSteps{padding:35px 28px}.page .nextSteps h2{font-size:31px}.page .nextSteps p:last-child{font-size:14px}.contactCta{width:100%}}

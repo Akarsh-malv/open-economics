@@ -3,9 +3,9 @@
 import { useEffect, useState, type CSSProperties } from "react";
 import styles from "./hero-views.module.css";
 
-const INITIAL_VIEWS = 2_543_271; // Owner-selected display baseline; increases locally on the schedule below.
-const UPDATE_MS = 6_000;
-const STORAGE_KEY = "oep.websiteViews.v2";
+const INITIAL_VIEWS = 3_200_000; // Display baseline for the homepage impact figure.
+const UPDATE_MS = 60_000;
+const STORAGE_KEY = "oep.websiteViews.v3";
 const initialPoints = [4, 5, 9, 7, 6, 10, 9, 16, 13, 17, 16, 23];
 type Counter = { value: number; previous: number; revision: number; increment: number; points: number[] };
 const initial: Counter = { value: INITIAL_VIEWS, previous: INITIAL_VIEWS, revision: 0, increment: 0, points: initialPoints };
