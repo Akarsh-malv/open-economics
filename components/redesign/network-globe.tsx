@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { globeCountries } from "@/lib/redesign/globe-countries";
+import { createGlobeMarkers, GLOBE_MARKER_COUNT, type GlobeMarker } from "@/lib/redesign/globe-markers";
 import styles from "./network-globe.module.css";
 
 const SIZE = 500;
@@ -9,7 +10,7 @@ const CENTER = SIZE / 2;
 const RADIUS = 212;
 const TILT = 13 * Math.PI / 180;
 const DEG = Math.PI / 180;
-type Point = { name: string; x: number; y: number; depth: number };
+type Point = { name: string | null; x: number; y: number; depth: number };
 
 function project(latitude: number, longitude: number, centerLongitude: number) {
   const lat = latitude * DEG, delta = (longitude - centerLongitude) * DEG;
@@ -48,24 +49,25 @@ function drawGrid(ctx: CanvasRenderingContext2D, longitude: number) {
   ctx.restore();
 }
 
-function drawCountries(ctx: CanvasRenderingContext2D, longitude: number, highlighted: string | null) {
-  const visible: Point[] = globeCountries.flatMap(country => {
-    const point = project(country.latitude, country.longitude, longitude);
-    return point.depth > .13 ? [{ name: country.name, ...point }] : [];
+function drawCountries(ctx: CanvasRenderingContext2D, longitude: number, highlighted: string | null, markers: GlobeMarker[]) {
+  const visible: Point[] = markers.flatMap(marker => {
+    const point = project(marker.latitude, marker.longitude, longitude);
+    return point.depth > .13 ? [{ name: marker.name, ...point }] : [];
   }).sort((a, b) => b.depth - a.depth);
   for (const point of visible) {
     ctx.beginPath();
-    ctx.arc(point.x, point.y, point.name === highlighted ? 8 : 5.2, 0, Math.PI * 2);
-    ctx.fillStyle = "rgba(153,245,236,.26)";
+    ctx.arc(point.x, point.y, point.name && point.name === highlighted ? 8 : point.name ? 5.2 : 3.6, 0, Math.PI * 2);
+    ctx.fillStyle = point.name ? "rgba(153,245,236,.26)" : "rgba(153,245,236,.18)";
     ctx.fill();
     ctx.beginPath();
-    ctx.arc(point.x, point.y, 2.3, 0, Math.PI * 2);
-    ctx.fillStyle = "#ddfbf6";
+    ctx.arc(point.x, point.y, point.name ? 2.3 : 1.7, 0, Math.PI * 2);
+    ctx.fillStyle = point.name ? "#ddfbf6" : "#c7f2ec";
     ctx.fill();
   }
   ctx.font = "500 10px system-ui, sans-serif";
   ctx.textBaseline = "middle";
-  for (const point of visible.filter(p => p.name === highlighted)) {
+  for (const point of visible) {
+    if (!point.name || point.name !== highlighted) continue;
     const width = ctx.measureText(point.name).width + 12;
     const candidates = [
       { left: point.x + 7, top: point.y - 7 },
@@ -87,7 +89,7 @@ function drawCountries(ctx: CanvasRenderingContext2D, longitude: number, highlig
     ctx.fillStyle = "#fff";
     ctx.fillText(point.name, box.left + 6, box.top + 7.5);
   }
-  return visible;
+  return visible.filter(point => point.name !== null);
 }
 
 export function NetworkGlobe() {
@@ -101,11 +103,17 @@ export function NetworkGlobe() {
     mapCanvas.height = 330;
     const mapContext = mapCanvas.getContext("2d", { willReadFrequently: true });
     let mapPixels: Uint8ClampedArray | null = null;
+    let markers = createGlobeMarkers();
     const map = new Image();
     map.onload = () => {
       if (!mapContext) return;
       mapContext.drawImage(map, 0, 0, 800, 330);
       mapPixels = mapContext.getImageData(0, 0, 800, 330).data;
+      markers = createGlobeMarkers((latitude, longitude) => {
+        const x = Math.min(799, Math.max(0, Math.floor((longitude + 180) * 800 / 360)));
+        const y = Math.round(186.7 - latitude * 800 / 360);
+        return y >= 0 && y < 330 && mapPixels![(y * 800 + x) * 4 + 3] > 30;
+      });
     };
     map.src = "/design-assets/world-map-globe.svg";
 
@@ -153,7 +161,7 @@ export function NetworkGlobe() {
       }
       ctx.putImageData(globe, 0, 0);
       drawGrid(ctx, longitude);
-      visible = drawCountries(ctx, longitude, highlighted);
+      visible = drawCountries(ctx, longitude, highlighted, markers);
     };
     const locate = (event: PointerEvent) => {
       const bounds = canvas.getBoundingClientRect();
@@ -195,12 +203,12 @@ export function NetworkGlobe() {
       map.onload = null;
     };
   }, []);
-  return <div className={`world-art ${styles.art}`} data-network-globe>
+  return <div className={`world-art ${styles.art}`} data-network-globe data-marker-count={GLOBE_MARKER_COUNT}>
     <svg className={styles.frame} viewBox="0 0 800 650" aria-hidden="true">
       <circle cx="415" cy="310" r="288" fill="none" stroke="#b7d8e51a" />
       <circle cx="415" cy="310" r="254" fill="none" stroke="#a9d8e8" strokeWidth="1" opacity=".5" />
     </svg>
     <canvas ref={canvasRef} className={styles.canvas} width={SIZE} height={SIZE} role="img"
-      aria-label={`Rotating globe with country labels for ${globeCountries.map(country => country.name).join(", ")}. Drag to rotate.`} />
+      aria-label={`Rotating globe with ${GLOBE_MARKER_COUNT} illustrative dots, including named markers for ${globeCountries.map(country => country.name).join(", ")}. Drag to rotate.`} />
   </div>;
 }

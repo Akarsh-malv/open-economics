@@ -16,7 +16,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata(): Promise<Metadata> {
   return buildNoIndexMetadata({
-    title: "Lessons coming soon · OEP Learn",
+    title: "Lessons under maintenance · OEP Learn",
     description: "OEP Learn lessons are being prepared for launch.",
   });
 }
@@ -37,7 +37,7 @@ export default async function LessonPage({
         <div className="eyebrow">OEP LEARN · LESSON</div>
         <h1>{lesson.title}</h1>
         <div className="panel a-section">
-          <h2>Coming soon</h2>
+          <h2>Under maintenance</h2>
           <p>This lesson is being prepared for launch.</p>
         </div>
       </div>

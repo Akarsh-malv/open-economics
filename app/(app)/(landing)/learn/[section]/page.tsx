@@ -27,6 +27,6 @@ export default async function Page({ params }: {
         return <div className="academy-content"><div className="eyebrow">YOUR LEARNING, IN CONTEXT</div><h1>{titles[section]}</h1><p>Build understanding from the questions you actually practice.</p><section className="a-section"><PracticeHistory mode="analytics"/></section></div>;
     if (section === 'explore') return <SpecialismsPage/>;
     if (section === 'lessons')
-        return <div className="academy-content"><div className="eyebrow">OEP LEARN</div><h1>Lessons</h1><div className="panel a-section"><h2>Coming soon</h2><p>Our lessons are being prepared for launch.</p></div></div>;
+        return <div className="academy-content"><div className="eyebrow">OEP LEARN</div><h1>Lessons</h1><div className="panel a-section"><h2>Under maintenance</h2><p>Our lessons are being prepared for launch.</p></div></div>;
     return <LearningTools section={section}/>;
 }

@@ -35,7 +35,7 @@ export async function generateMetadata({
   }
 
   return buildPublicMetadata({
-    title: `${course.title} · Coming soon`,
+    title: `${course.title} · Under maintenance`,
     description: `${course.title} lessons are being prepared for launch.`,
     path: `/course/${courseName}`,
     images: [getCourseSocialImage(course.slug, course.posterAlt)],
@@ -53,7 +53,7 @@ export default async function CoursePage({ params: paramsPromise }: Args) {
       <div className="eyebrow">OEP LEARN · COURSE</div>
       <h1>{course.title}</h1>
       <div className="panel a-section">
-        <h2>Coming soon</h2>
+        <h2>Under maintenance</h2>
         <p>Lessons for this course are being prepared for launch.</p>
       </div>
     </div>
