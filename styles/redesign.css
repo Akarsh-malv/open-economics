@@ -135,8 +135,7 @@ body{font-family:var(--font-manrope);font-weight:500}
 .oe-design .oe-partnerships-track{display:flex;width:max-content;animation:oe-partner-loop 42s linear infinite}
 .oe-design .oe-partnerships-track.is-paused{animation-play-state:paused}
 .oe-design .oe-partnerships-group{display:flex;gap:12px;padding-right:12px}
-.oe-design .oe-partner-logo{flex:0 0 200px;width:200px;height:150px;background:#fff}
-.oe-design .oe-partner-image{display:block;width:200px;height:150px;background-image:url('/design-assets/partner-logo-grid.jpg');background-repeat:no-repeat;background-size:1200px 480px}
+.oe-design .oe-partner-logo{flex:0 0 200px;width:200px;height:150px;display:flex;align-items:center;justify-content:center;padding:20px;border:1px solid #dce4eb;border-radius:12px;background:#fff;color:#0b1f3a;text-align:center;font-size:15px;font-weight:700;line-height:1.4}
 @keyframes oe-partner-loop{to{transform:translateX(-50%)}}
 .oe-design .oe-home-faq{border-top:1px solid var(--line);padding:60px 0 70px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:75px}
 .oe-design .oe-home-faq-list details{border-bottom:1px solid #dce4eb}
